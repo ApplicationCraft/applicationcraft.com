@@ -1,0 +1,80 @@
+@import 'media';
+@import 'slides';
+
+$red: #f36050;
+
+body {
+  background-color: #F8F7EF;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+
+  @include apply-to(more-than, iphone-portrait) {
+    width: 1000px;
+  }
+}
+
+
+
+
+nav {
+  text-transform: uppercase;
+  font-size: 14px;
+  height: 100px;
+
+  ul {
+    margin: 0 auto;
+    padding: 0;
+
+    > li {
+      float: left;
+
+      a {
+        display: block;
+      }
+
+      &:first-child {
+        margin: 38px 0 0 0;
+      }
+      &:last-child {
+        float: right;
+      }
+
+      ul {
+        li {
+          margin: 38px 0 0 0;
+          a {
+            color: #3e3e3e;
+            padding: 0 22px;
+            &.active {
+              color: $red;
+            }
+          }
+          &:last-child {
+            margin: 0 0 0 20px;
+            a {
+              background-color: $red;
+              color: #FFF;
+              padding: 33px 18px 34px;
+              font: {
+                size: 24px;
+                weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+header {
+  background: #666 url('/img/bgcloth.png') repeat;
+  height: 560px;
+}

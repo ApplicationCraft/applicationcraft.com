@@ -1,0 +1,41 @@
+#slide1 {
+  > section {
+    float: left;
+  }
+
+  > section:first-child {
+    margin-top: 100px;
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+
+    p {
+      font-size: 18px;
+      color: #F8F7EF;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin-bottom: 32px;
+    }
+
+    span:first-child {
+      font-size: 44px;
+      font-weight: 400;
+    }
+    span:last-child {
+      font-size: 76px;
+    }
+    span {
+      display: block;
+      font-size: 70px;
+      font-weight: 500;
+      line-height: 1.05em;
+    }
+  }
+
+  > section:last-child {
+    margin: 58px 0 0 56px;
+  }
+}

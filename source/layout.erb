@@ -10,20 +10,63 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/boilerplate.css">
     <script src="js/vendor/modernizr-2.6.1.min.js"></script>
   </head>
   <body>
 
     <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <%= yield %>
+    <nav>
+      <div class="container">
+
+        <ul class="clearfix">
+          <li><a href="/"><img src="/img/logo.gif"></a></li>
+          <li class="clearfix">
+            <ul class="clearfix">
+              <li><a href="/" class="active">Home</a></li>
+              <li><a href="/">Products</a></li>
+              <li><a href="/">Sign In</a></li>
+              <li><a href="/">Sign Up Today</a></li>
+            </ul>
+        </ul>
+
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+
+        <section id="slide1">
+          <section>
+            <p>
+              <span>Visual</span>
+              <span>Development</span>
+              <span>in the Cloud</span>
+            </p>
+            <p>Build amazing mobile and desktop applications<br />with our web based, drag-and-drop IDE</p>
+            <img src="/img/flourish.gif">
+          </section>
+
+          <section>
+            <img src="/img/home/slides/slide1/ill.gif">
+          </section>
+        </section>
+
+      </div>
+    </header>
+
+    <div>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
+
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
