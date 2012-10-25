@@ -1,0 +1,123 @@
+// Homepage content
+// =================================================================================================
+
+section#content {
+  padding: 0 15px;
+
+  .feature {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 5px 0 20px;
+    @include apply-to(more-than, ipad-portrait) {
+      margin: 50px 0 60px;
+    }
+    @include apply-to(more-than, ipad-landscape) {
+      font-size: 18px;
+      line-height: 1.6em;
+    }
+
+    h2 {
+      font: 28px gotham_mediumregular;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      @include apply-to(more-than, ipad-landscape) {
+        font-size: 42px;
+        margin-bottom: 20px;
+      }
+    }
+    p {
+      margin: 0;
+    }
+
+    div {
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        width: 50%;
+        img {
+          max-width: 90%;
+        }
+      }
+    }
+
+    // Feature 1 - 100% Cloud Based
+    &:nth-child(1) {
+      div:first-child {
+        display: none;
+
+        @include apply-to(more-than, ipad-portrait) {
+          display: block;
+        }
+      }
+
+      strong {
+        line-height: 1em;
+        font-size: 70px;
+        color: $blue;
+        display: block;
+
+        @include apply-to(more-than, ipad-landscape) {
+          font-size: 120px;
+        }
+      }
+    }
+
+    // Feature 2 - Build Prototypes, Front-Ends & Full-Blown Apps
+    &:nth-child(2) {
+      div:last-child {
+        display: none;
+
+        @include apply-to(more-than, ipad-portrait) {
+          display: block;
+          text-align: right;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    // Feature 3 - Web App or App Store?
+    &:nth-child(3) {
+      div:first-child {
+        display: none;
+
+        @include apply-to(more-than, ipad-portrait) {
+          display: block;
+          margin-left: 20px;
+          width: 45%;
+          img {
+            max-width: 85%;
+          }
+        }
+      }
+
+      div:last-child {
+        margin-top: 20px;
+      }
+    }
+
+    // Feature 4 - Everything is HTML5, CSS and Javascript
+    &:nth-child(4) {
+      div:last-child {
+        display: none;
+
+        @include apply-to(more-than, ipad-portrait) {
+          display: block;
+          margin-left: 20px;
+          width: 40%;
+          text-align: right;
+        }
+      }
+
+      div:first-child {
+        margin: 0 0 0 20px;
+      }
+    }
+
+    // Feature 5 - You’d be crazy to go Native!
+    &:nth-child(5) {
+      div:last-child {
+
+      }
+    }
+
+  }
+}

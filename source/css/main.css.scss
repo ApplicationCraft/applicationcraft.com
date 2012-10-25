@@ -3,10 +3,11 @@
 
 $cream: #F8F7EF;
 $red: #f36050;
+$blue: #27B6DA;
 
 body {
   font-family: 'proxima_nova_rgregular';
-  color: #666;
+  color: #3e3e3e;
   background: $cream url('/img/graphbg.gif') repeat;
 }
 
@@ -27,7 +28,7 @@ img {
   margin: 0 auto;
 
   @include apply-to(more-than, ipad-landscape) {
-    width: 1024px;
+    width: 1000px;
   }
 }
 
