@@ -5,9 +5,9 @@ $cream: #F8F7EF;
 $red: #f36050;
 
 body {
-  background-color: $cream;
-  font-family: 'gotham_mediumregular';
+  font-family: 'proxima_nova_rgregular';
   color: #666;
+  background: $cream url('/img/graphbg.gif') repeat;
 }
 
 a {
@@ -34,3 +34,4 @@ img {
 
 @import 'nav';
 @import 'home';
+@import 'footer';

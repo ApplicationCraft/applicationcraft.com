@@ -1,0 +1,80 @@
+footer {
+  color: #eeeee9;
+
+  section:first-child {
+    background-color: #3E3E3E;
+    padding: 20px 5px;
+    font-size: 13px;
+
+    @include apply-to(more-than, ipad-portrait) {
+      padding: 30px 40px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    > ul > li {
+      float: left;
+
+      &:last-child {
+        @include apply-to(less-than, ipad-portrait) {
+          float: none;
+          clear: both;
+        }
+        @include apply-to(more-than, ipad-portrait) {
+          float: right;
+        }
+
+        ul {
+          margin: 0 30px;
+
+          li {
+            background: url('/img/social.gif');
+            text-indent: -9999px;
+            float: left;
+            margin: 15px 5px 0;
+
+            a {
+              width: 50px;
+              height: 51px;
+              margin: 0;
+            }
+
+            &:nth-child(2) {
+              background-position: -71px 0;
+            }
+            &:nth-child(3) {
+              background-position: -143px 0;
+            }
+            &:nth-child(4) {
+              background-position: -213px 0;
+            }
+          }
+        }
+      }
+
+      > ul {
+        > li a {
+          color: #eeeee9;
+          margin: 8px 25px;
+          @include apply-to(more-than, ipad-portrait) {
+            margin: 8px 34px;
+          }
+          display: block;
+        }
+      }
+    }
+  }
+
+  section:last-child {
+    background-color: $red;
+    font-size: 12px;
+    padding: 14px 4px;
+    @include apply-to(more-than, ipad-portrait) {
+      padding: 24px 4px;
+    }
+  }
+}

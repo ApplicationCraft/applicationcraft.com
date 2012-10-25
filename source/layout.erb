@@ -63,12 +63,14 @@
     </header>
 
     <section id="price-banner" class="clearfix">
-      <div>only <span>$14</span> per month</div>
-      <div><a href="#">
-        <p>Try it for Free!</p>
-        <p><span>&#x2605;</span> 14 day free trial <span>&#x2605;</span></p>
-      </a></div>
-      <div>no credit card necessary</div>
+      <div class="container">
+        <div>only <span>$14</span> per month</div>
+        <div><a href="#">
+          <p>Try it for Free!</p>
+          <p><span>&#x2605;</span> 14 day free trial <span>&#x2605;</span></p>
+        </a></div>
+        <div>no credit card necessary</div>
+      </div>
     </section>
 
     <div>
@@ -76,6 +78,46 @@
         <%= yield %>
       </div>
     </div>
+
+    <footer>
+      <section>
+        <ul class="clearfix">
+          <li>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Legal</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul class="clearfix">
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Google+</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        Copyright &copy; <%= Date.today.year %> Application Craft Ltd. All rights reserved.
+      </section>
+    </footer>
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>

@@ -2,6 +2,7 @@
 // =================================================================================================
 
 nav {
+  background-color: $cream;
   text-transform: uppercase;
   height: 90px;
   @include apply-to(more-than, ipad-portrait) {
