@@ -7,6 +7,7 @@ $red: #f36050;
 body {
   background-color: $cream;
   font-family: 'gotham_mediumregular';
+  color: #666;
 }
 
 a {
@@ -32,4 +33,4 @@ img {
 
 
 @import 'nav';
-@import 'slides';
+@import 'home';

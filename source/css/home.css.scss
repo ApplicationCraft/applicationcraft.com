@@ -1,0 +1,93 @@
+@import 'slides';
+
+#price-banner {
+  text-transform: uppercase;
+  text-align: center;
+  color: #777;
+  font: 14px gotham_lightregular;
+
+  @include apply-to(more-than, ipad-portrait) {
+    font-size: 16px;
+  }
+
+  > div {
+    @include apply-to(more-than, ipad-portrait) {
+      float: left;
+    }
+    @include apply-to(more-than, ipad-landscape) {
+      width: 33%;
+      font: 20px gotham_mediumregular;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.1em;
+    }
+
+    // Price
+    &:first-child {
+      padding-top: 0;
+      @include apply-to(more-than, ipad-portrait) {
+        padding: 5px 10px 0;
+      }
+      @include apply-to(more-than, ipad-landscape) {
+        padding: 20px 0 0 0;
+      }
+
+      span {
+        font-size: 39px;
+        position: relative;
+        top: 5px;
+        color: $red;
+      }
+    }
+
+    // Try it
+    &:nth-child(2) a {
+      margin: 10px 0;
+      background-color: $red;
+      font-size: 30px;
+      display: block;
+      color: #f8f7ef;
+      padding: 5px 0;
+
+      @include apply-to(more-than, ipad-portrait) {
+        padding: 5px 20px;
+        margin: 0;
+        font-size: 28px;
+      }
+      @include apply-to(more-than, ipad-landscape) {
+        padding: 26px 20px;
+      }
+
+      p:last-child {
+        font-size: 20px;
+        @include apply-to(more-than, ipad-portrait) {
+          font-size: 18px;
+        }
+
+        span {
+          font-size: 14px;
+          @include apply-to(more-than, ipad-portrait) {
+            font-size: 12px;
+          }
+          position: relative;
+          top: -2px;
+        }
+      }
+    }
+
+    // No CC needed
+    &:last-child {
+      @include apply-to(more-than, ipad-portrait) {
+        padding: 23px 6px 0;
+        font-size: 14px;
+      }
+      @include apply-to(more-than, ipad-landscape) {
+        padding: 40px 0 0 0;
+        font: 18px gotham_bookregular;
+      }
+    }
+  }
+}
