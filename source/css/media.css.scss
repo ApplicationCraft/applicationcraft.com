@@ -4,7 +4,6 @@ $iphone-landscape: 480px;
 $ipad-portrait: 767px;
 $ipad-landscape: 980px;
 $desktop: 1224px;
-$desktop-large: 1824px;
 
 // General device targeting
 // Use: Only use if you want the style to apply to many devices
@@ -41,11 +40,6 @@ $desktop-large: 1824px;
   }
   @if $device == desktop {
     @media only screen and (#{$extrema}-width: $desktop) {
-      @content;
-    }
-  }
-  @if $device == desktop-large {
-    @media only screen and (#{$extrema}-width: $desktop-large) {
       @content;
     }
   }
@@ -94,11 +88,6 @@ $desktop-large: 1824px;
   }
   @if $device == desktop {
     @media only screen and (min-width: $desktop) {
-      @content;
-    }
-  }
-  @if $device == desktop-large {
-    @media only screen and (min-width: $desktop-large) {
       @content;
     }
   }

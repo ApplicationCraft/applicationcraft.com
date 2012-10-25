@@ -1,46 +1,145 @@
-#slide1 {
-  > section {
-    float: left;
+header {
+  background: #666 url('/img/bgcloth.png') repeat;
+  // height: 300px;
+  padding: 10px 0 20px;
+
+  @include apply-to(more-than, ipad-landscape) {
+    // height: 560px;
+    padding: 50px 0;
   }
+}
 
-  > section:first-child {
-    margin-top: 100px;
+// Slide1
+// -------------------------------------------------------------------------------------------------
+section#slide1 {
+  > div {
+    text-align: center;
 
-    img {
-      margin: 0 auto;
-      display: block;
+    @include apply-to(more-than, ipad-portrait) {
+      float: left;
     }
 
     p {
       color: #F8F7EF;
       text-align: center;
       text-transform: uppercase;
-      margin-bottom: 32px;
       line-height: 1.7em;
       font: {
         family: 'gotham_thinregular';
-        size: 18px;
+        size: 14px;
+      }
+
+      @include apply-to(more-than, ipad-landscape) {
+        font-size: 18px;
       }
     }
 
-    span:first-child {
-      font-size: 54px;
-      margin-bottom: 3px;
-    }
-    span:last-child {
-      font-size: 68px;
-    }
-    span {
-      display: block;
-      line-height: 1.05em;
-      font: {
-        family: 'gotham_mediumregular';
-        size: 64px;
+    &:first-child {
+      @include apply-to(more-than, ipad-portrait) {
+        width: 56%;
+        margin-top: 19px;
+      }
+      @include apply-to(more-than, ipad-landscape) {
+        margin-top: 50px;
+        width: 52%;
+        padding-right: 38px;
+      }
+
+      // Qualifing text
+      div:nth-child(2) p {
+        width: 320px;
+        text-align: center;
+        margin: 20px auto;
+        @include apply-to(more-than, iphone-landscape) {
+          font-size: 16px;
+          margin: 14px auto;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          width: 450px;
+          margin: 25px auto;
+        }
+      }
+
+      // Strapline
+      div:first-child {
+        img {
+          margin: 0 auto;
+        }
+
+        // Line 1
+        p:first-child {
+          font-size: 24px;
+          @include apply-to(more-than, iphone-landscape) {
+            font-size: 34px;
+          }
+          @include apply-to(more-than, ipad-landscape) {
+            font-size: 54px;
+          }
+          margin-bottom: 3px;
+        }
+
+        // Line 3
+        p:last-child {
+          font-size: 40px;
+          @include apply-to(more-than, iphone-landscape) {
+            font-size: 55px;
+          }
+          @include apply-to(more-than, ipad-landscape) {
+            font-size: 68px;
+          }
+        }
+
+        // All lines
+        p {
+          display: block;
+          margin: 0;
+          line-height: 1.05em;
+          font: {
+            family: 'gotham_mediumregular';
+            size: 38px;
+          }
+          @include apply-to(more-than, iphone-landscape) {
+            font-size: 52px;
+          }
+          @include apply-to(more-than, ipad-landscape) {
+            font-size: 64px;
+          }
+        }
+      }
+
+      // Flourish
+      div:nth-child(3) {
+        display: none;
+        @include apply-to(more-than, ipad-portrait) {
+          display: block;
+        }
       }
     }
-  }
 
-  > section:last-child {
-    margin: 58px 0 0 56px;
+    // Illustration
+    &:last-child {
+      margin: 20px 0 0 0;
+      @include apply-to(more-than, ipad-landscape) {
+        margin: 0;
+      }
+      // margin: 58px 0 0 56px;
+
+      @include apply-to(more-than, ipad-portrait) {
+        width: 44%;
+      }
+
+      img {
+        max-width: 84%;
+        @include apply-to(more-than, iphone-landscape) {
+          max-width: 70%;
+        }
+        @include apply-to(more-than, ipad-portrait) {
+          max-width: 80%;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          max-width: 100%;
+        }
+      }
+    }
   }
 }

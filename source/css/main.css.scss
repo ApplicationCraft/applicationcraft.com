@@ -1,10 +1,11 @@
 @import 'fonts';
 @import 'media';
 
+$cream: #F8F7EF;
 $red: #f36050;
 
 body {
-  background-color: #F8F7EF;
+  background-color: $cream;
   font-family: 'gotham_mediumregular';
 }
 
@@ -12,20 +13,23 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: auto 9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
 .container {
   margin: 0 auto;
 
-  @include apply-to(more-than, iphone-portrait) {
-    width: 1000px;
+  @include apply-to(more-than, ipad-landscape) {
+    width: 1024px;
   }
 }
 
 
 @import 'nav';
 @import 'slides';
-
-
-header {
-  background: #666 url('/img/bgcloth.png') repeat;
-  height: 560px;
-}
