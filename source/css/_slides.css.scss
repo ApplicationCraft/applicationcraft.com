@@ -12,26 +12,31 @@
     }
 
     p {
-      font-size: 18px;
       color: #F8F7EF;
       text-align: center;
       text-transform: uppercase;
-      font-weight: 300;
       margin-bottom: 32px;
+      line-height: 1.7em;
+      font: {
+        family: 'gotham_thinregular';
+        size: 18px;
+      }
     }
 
     span:first-child {
-      font-size: 44px;
-      font-weight: 400;
+      font-size: 54px;
+      margin-bottom: 3px;
     }
     span:last-child {
-      font-size: 76px;
+      font-size: 68px;
     }
     span {
       display: block;
-      font-size: 70px;
-      font-weight: 500;
       line-height: 1.05em;
+      font: {
+        family: 'gotham_mediumregular';
+        size: 64px;
+      }
     }
   }
 

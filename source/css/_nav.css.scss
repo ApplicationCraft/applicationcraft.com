@@ -1,0 +1,66 @@
+nav {
+  text-transform: uppercase;
+  height: 100px;
+  font: {
+    family: 'museo_sans_rounded_300regular';
+    size: 14px;
+  }
+
+  ul {
+    margin: 0 auto;
+    padding: 0;
+
+    > li {
+      float: left;
+
+      a {
+        display: block;
+      }
+
+      &:first-child {
+        margin: 32px 0 0 0;
+      }
+
+      &:last-child {
+        float: right;
+      }
+
+      ul {
+        li {
+          margin: 38px 0 0 0;
+
+          &:first-child {
+            margin: 38px 0 0 0;
+          }
+
+          a {
+            color: #3e3e3e;
+            padding: 0 22px;
+
+            &.active {
+              color: $red;
+            }
+          }
+
+          &:last-child {
+            margin: 0 0 0 20px;
+
+            a {
+              background-color: $red;
+              color: #FFF;
+              padding: 33px 18px 35px;
+              font: {
+                size: 23px;
+                family: 'gotham_mediumregular';
+              }
+
+              &:hover {
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
