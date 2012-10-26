@@ -85,10 +85,9 @@ nav.main {
           a {
             color: #3e3e3e;
             padding: 0 15px;
-
-            &.active {
-              color: $red;
-            }
+          }
+          &.active a {
+            color: $red;
           }
 
           // Navigation - Sign up
