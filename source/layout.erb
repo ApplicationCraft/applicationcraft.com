@@ -7,25 +7,25 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/boilerplate.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/boilerplate.css">
   </head>
-  <body>
+  <body class="<%= current_page.data.class_name %>">
 
-    <nav>
+    <nav class="main">
       <div class="container">
 
         <ul class="clearfix">
           <li><a href="/"><img src="/img/logo.gif" width="321" height="32"></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li><a href="/" class="active">Home</a></li>
-              <li><a href="/">Products</a></li>
-              <li><a href="/">Sign In</a></li>
-              <li class="nofade"><a href="/">Sign Up Today</a></li>
+              <li class="<%= 'active' if current_page.data.class_name == 'home' %>"><a href="/" class="active">Home</a></li>
+              <li class="<%= 'active' if current_page.data.class_name == 'products' %>"><a href="/products">Products</a></li>
+              <li class="<%= 'active' if current_page.data.class_name == 'sign-in' %>"><a href="/sign-in">Sign In</a></li>
+              <li class="nofade <%= 'active' if current_page.data.class_name == 'sign-up' %>"><a href="/sign-up">Sign Up Today</a></li>
             </ul>
+          </li>
         </ul>
-
       </div>
     </nav>
 
@@ -78,7 +78,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
