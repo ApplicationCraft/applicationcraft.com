@@ -2,7 +2,7 @@
 // =================================================================================================
 
 section#content {
-  padding: 0 15px;
+  padding: 0 25px;
 
   .feature {
     font-size: 16px;
@@ -81,8 +81,6 @@ section#content {
 
         @include apply-to(more-than, ipad-portrait) {
           display: block;
-          margin-left: 20px;
-          width: 45%;
           img {
             max-width: 85%;
           }
@@ -101,21 +99,60 @@ section#content {
 
         @include apply-to(more-than, ipad-portrait) {
           display: block;
-          margin-left: 20px;
-          width: 40%;
           text-align: right;
+          img {
+            max-width: 80%;
+          }
         }
-      }
-
-      div:first-child {
-        margin: 0 0 0 20px;
       }
     }
 
     // Feature 5 - You’d be crazy to go Native!
     &:nth-child(5) {
+      div:first-child {
+        float: left;
+        @include apply-to(more-than, ipad-portrait) {
+          float: right;
+          width: 45%;
+        }
+      }
       div:last-child {
+        float: left;
+        margin-top: 40px;
 
+        article {
+          display: table;
+          border: 1px solid #CCC;
+          border-radius: 6px;
+          padding: 10px;
+          font-size: 14px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            margin-right: 60px;
+            padding: 30px;
+          }
+
+          h2 {
+            font-size: 18px;
+            margin: 0 0 16px;
+          }
+          h3 {
+            font-size: 14px;
+            margin: 10px 0 0;
+          }
+          p {
+            line-height: 1.4em;
+            a {
+              font-size: 13px;
+            }
+          }
+        }
+
+        @include apply-to(more-than, ipad-portrait) {
+          margin: 0;
+          float: right;
+          width: 55%;
+        }
       }
     }
 

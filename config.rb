@@ -1,3 +1,6 @@
+# require "lib/helpers/truncate_helper"
+
+
 ###
 # Compass
 ###
@@ -54,8 +57,9 @@ set :images_dir, 'img'
 set :markdown_engine, :redcarpet
 
 activate :blog do |blog|
-  blog.prefix = "blog"
-  blog.sources = ":year/:month/:day/:title.html"
+  blog.prefix     = "blog"
+  blog.permalink  = ":year/:month/:title.html"
+  blog.sources    = "articles/:year/:month/:title.html"
 end
 
 # Build-specific configuration

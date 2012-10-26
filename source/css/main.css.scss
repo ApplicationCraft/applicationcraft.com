@@ -12,6 +12,7 @@ body {
 }
 
 a {
+  color: $red;
   text-decoration: none;
 }
 
@@ -28,7 +29,7 @@ img {
   margin: 0 auto;
 
   @include apply-to(more-than, ipad-landscape) {
-    width: 1000px;
+    width: 980px;
   }
 }
 
