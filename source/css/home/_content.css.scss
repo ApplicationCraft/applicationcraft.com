@@ -4,6 +4,38 @@
 section#content {
   padding: 0 25px;
 
+  // The tracking dots (disabled for now)
+  // .track {
+  //   display: none;
+  //   position: relative;
+
+  //   &:first-child {
+  //     left: 476px;
+  //     top: -50px;
+  //   }
+
+  //   div {
+  //     width: 10px;
+  //     height: 10px;
+  //     padding: 0;
+  //     margin: 0;
+  //     background-image: -moz-radial-gradient(center center, circle cover, #bbb, transparent 5px);
+  //     background-image: -webkit-radial-gradient(center center, circle cover, #bbb, transparent 5px);
+  //     background-image: -o-radial-gradient(center center, circle cover, #bbb, transparent 5px);
+  //     background-image: -ms-radial-gradient(center center, circle cover, #bbb, transparent 5px);
+  //     background-image: radial-gradient(center center, circle cover, #bbb, transparent 5px);
+  //     background-size: 10px 10px;
+
+  //     &:nth-child(2) {
+  //       left: 8px;
+  //     }
+  //     &:nth-child(3) {
+  //       left: 16px;
+  //     }
+  //   }
+  // }
+
+
   .feature {
     font-size: 16px;
     line-height: 1.5em;
@@ -149,9 +181,12 @@ section#content {
         }
 
         @include apply-to(more-than, ipad-portrait) {
-          margin: 0;
+          margin-top: 30px;
           float: right;
           width: 55%;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          margin-top: 40px;
         }
       }
     }

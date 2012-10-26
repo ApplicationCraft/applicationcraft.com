@@ -4,7 +4,7 @@
 
 $ ->
 
-  $('a:not(.nofade)').hover(
+  $(':not(.nofade) > a').hover(
     ->
       $(this).animate opacity: 0.5, 200
     ->

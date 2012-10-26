@@ -54,6 +54,10 @@
       color: #f8f7ef;
       padding: 5px 0;
 
+      &:hover {
+        color: #000;
+      }
+
       @include apply-to(more-than, ipad-portrait) {
         padding: 5px 20px;
         margin: 0;
