@@ -11,6 +11,10 @@ body.products {
     color: #888;
   }
 
+  #price-banner {
+    border-top: 1px solid #CCC;
+  }
+
   #overview-sections {
     background: #666 url('/img/bgcloth.png') repeat;
     font-size: 0.8em;
@@ -155,7 +159,7 @@ body.products {
   }
 
   #overview-detail {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 
     .container {
       > h3 {
