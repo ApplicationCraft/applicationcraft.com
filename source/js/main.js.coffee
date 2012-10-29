@@ -10,3 +10,7 @@ $ ->
     ->
       $(this).animate opacity: 1.0, 200
   )
+
+
+$ ->
+  $(document).pjax 'a[data-pjax]'

@@ -5,6 +5,15 @@ $cream: #F8F7EF;
 $red: #f36050;
 $blue: #27B6DA;
 
+// Resets to no list style and zero margin and padding.
+@mixin no-list-style() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 body {
   font-family: 'museo_sans_rounded_300regular';
   color: #3e3e3e;
@@ -32,6 +41,15 @@ img {
     width: 980px;
   }
 }
+
+.rounded {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+}
+
 
 
 @import 'nav';

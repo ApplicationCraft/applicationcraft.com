@@ -163,12 +163,12 @@ nav.sub {
   }
 
   ul {
-    width: 310px;
+    width: 312px;
     text-align: center;
     margin: 0 auto;
 
     @include apply-to(more-than, ipad-portrait) {
-      width: 410px;
+      width: 470px;
     }
 
     li {
@@ -179,8 +179,19 @@ nav.sub {
         margin: 0 20px;
       }
 
+      &.active {
+        font-family: museo_sans_rounded_700regular;
+        a {
+          color: $red;
+        }
+      }
+
       a {
         font-size: 14px;
+        color: #3e3e3e;
+        @include apply-to(more-than, ipad-portrait) {
+          text-transform: uppercase;
+        }
       }
     }
   }
