@@ -3,6 +3,14 @@
 
 body.products {
 
+  .back-top {
+    float: right;
+    position: relative;
+    top: 21px;
+    font-size: 12px;
+    color: #888;
+  }
+
   #overview-sections {
     background: #666 url('/img/bgcloth.png') repeat;
     font-size: 0.8em;
@@ -94,10 +102,11 @@ body.products {
             }
 
             h4 {
-              font: 18px gotham_mediumregular;
+              font: 16px gotham_mediumregular;
               margin-bottom: 0;
             }
             p {
+              font-size: 14px;
               margin: 10px 0 0 0;
             }
           }
