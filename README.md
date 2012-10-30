@@ -1,4 +1,4 @@
-Application Craft (NEW) Site
+Application Craft (NEW FM) Site
 ============================
 
 This is the repository for the AC website. It is primarily a [Middleman](http://middlemanapp.com/) application, which is a static site generator.
