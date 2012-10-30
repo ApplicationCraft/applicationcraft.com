@@ -12,12 +12,12 @@ $ ->
 
   # Has this user been referred to AC? If so, set the referring email and current datetime in a
   # year long cookie.
-  if params.utm_medium == 'affiliate' && params.utm_source?
+  if params.utm_medium == 'ac_affiliate' && params.utm_source?
     value =
       email: params.utm_source
       datetime: new Date()
 
-    $.cookie 'referral', value,
+    $.cookie 'ac_referral', value,
       expires: 365
       path: '/'
       # domain: '.applicationcraft.com'
