@@ -1,3 +1,4 @@
-@import 'home/slides';
-@import 'home/content';
-@import 'home/price_banner';
+body.home {
+  @import 'home/slides';
+  @import 'home/content';
+}

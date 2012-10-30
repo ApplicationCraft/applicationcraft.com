@@ -1,0 +1,35 @@
+// Standard page
+// =================================================================================================
+
+body.standard {
+  #content-body {
+    > h1 {
+      font: {
+        family: 'gotham_mediumregular';
+        size: 28px;
+      }
+      text-transform: uppercase;
+      padding: 0 0 8px 300px;
+      border-bottom: 3px solid #CCC;
+      margin: 35px 0 25px;
+    }
+
+    > div {
+      margin-bottom: 40px;
+
+      > aside {
+        float: left;
+        width: 300px;
+        .active {
+
+        }
+      }
+
+      > article {
+        float: left;
+        width: 680px;
+      }
+    }
+
+  }
+}
