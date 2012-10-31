@@ -1,5 +1,12 @@
 body.products {
 
+  #overview-sections {
+    display: none;
+    @include apply-to(more-than, iphone-landscape) {
+      display: block;
+    }
+  }
+
   #pricing-section {
     background: transparent url('/img/products/track2.png') no-repeat center center;
     position: relative;
@@ -12,15 +19,21 @@ body.products {
       height: 729px;
     }
 
+    h3 {
+      font: 32px gotham_mediumregular;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
     article {
       font-size: 16px;
       position: relative;
 
       &:nth-child(1) {
         width: 315px;
-        top: 145px;
+        top: 108px;
         text-align: right;
-        left: 33px;
+        left: 5px;
 
         a {
           font-family: gotham_mediumregular;
@@ -29,7 +42,7 @@ body.products {
       }
       &:nth-child(2) {
         width: 350px;
-        top: 78px;
+        top: 42px;
         left: 574px;
 
         a {
@@ -37,12 +50,24 @@ body.products {
           text-transform: uppercase;
           margin-left: 13px;
         }
+
+        p {
+          margin-top: 0;
+        }
       }
       &:nth-child(3) {
         width: 415px;
-        top: 228px;
+        top: 184px;
         left: 297px;
         text-align: right;
+
+        h3 {
+          font-size: 28px;
+        }
+
+        p {
+          margin-top: 0;
+        }
       }
     }
   }
