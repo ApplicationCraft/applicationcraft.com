@@ -2,38 +2,84 @@ body.products {
 
   #overview-sections {
     display: none;
-    @include apply-to(more-than, iphone-landscape) {
+    @include apply-to(more-than, ipad-portrait) {
       display: block;
     }
   }
 
   #pricing-section {
-    background: transparent url('/img/products/track2.png') no-repeat center center;
-    position: relative;
-    top: -20px;
+    background: transparent url('/img/products/track-mobile.png') no-repeat top center;
     z-index: 1;
+
+    @include apply-to(more-than, ipad-portrait) {
+      background-image: url('/img/products/track2.png');
+      position: relative;
+      background-size: 116%;
+      top: -20px;
+    }
+    @include apply-to(more-than, ipad-landscape) {
+      background-size: inherit;
+    }
 
     .container {
       font-size: 0.8em;
-      margin-bottom: 0;
-      height: 729px;
+      height: 980px;
+      margin-top: 30px;
+
+      @include apply-to(more-than, ipad-portrait) {
+        height: 592px;
+        margin-top: 0;
+      }
+      @include apply-to(more-than, ipad-portrait) {
+        height: 730px;
+      }
     }
 
     h3 {
       font: 32px gotham_mediumregular;
       text-transform: uppercase;
       margin: 0;
+      display: none;
+
+      @include apply-to(more-than, ipad-portrait) {
+        display: block;
+      }
     }
 
     article {
-      font-size: 16px;
-      position: relative;
+      font-size: 14px;
+      text-align: center;
+      padding: 0 20px;
+
+      @include apply-to(more-than, iphone-landscape) {
+        font-size: 16px;
+        padding: 0 30px;
+      }
+
+      @include apply-to(more-than, ipad-portrait) {
+        font-size: 14px;
+        padding: 0;
+        position: relative;
+      }
+
+      @include apply-to(more-than, ipad-landscape) {
+        font-size: 16px;
+      }
 
       &:nth-child(1) {
-        width: 315px;
-        top: 108px;
-        text-align: right;
-        left: 5px;
+        margin-top: 100px;
+
+        @include apply-to(more-than, ipad-portrait) {
+          width: 245px;
+          top: 90px;
+          left: 5px;
+          text-align: right;
+          margin: 0;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          width: 315px;
+          top: 110px;
+        }
 
         a {
           font-family: gotham_mediumregular;
@@ -41,9 +87,20 @@ body.products {
         }
       }
       &:nth-child(2) {
-        width: 350px;
-        top: 42px;
-        left: 574px;
+        margin-top: 240px;
+
+        @include apply-to(more-than, ipad-portrait) {
+          text-align: left;
+          margin: 0;
+          width: 300px;
+          top: -6px;
+          left: 450px;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          width: 350px;
+          top: 42px;
+          left: 574px;
+        }
 
         a {
           font-family: gotham_mediumregular;
@@ -56,10 +113,20 @@ body.products {
         }
       }
       &:nth-child(3) {
-        width: 415px;
-        top: 184px;
-        left: 297px;
-        text-align: right;
+        margin-top: 220px;
+
+        @include apply-to(more-than, ipad-portrait) {
+          text-align: right;
+          margin: 0;
+          width: 360px;
+          top: 104px;
+          left: 200px;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          width: 415px;
+          top: 184px;
+          left: 297px;
+        }
 
         h3 {
           font-size: 28px;
