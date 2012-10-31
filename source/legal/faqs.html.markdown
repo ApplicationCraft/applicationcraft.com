@@ -1,31 +1,6 @@
 ---
 title: Frequently Asked Questions
-submenu:
-  - 
-    text: FAQs
-    url: /legal/faqs
-    active: true      
-  -
-    text: Our Promises
-    url: /legal
-  -
-    text: Privacy Policy
-    url: /legal/privacy
-  -
-    text: Acceptable Usage Policy
-    url: /legal/aup
-  -
-    text: Support Policy
-    url: /legal/support   
-  -
-    text: Terms of Service
-    url: /legal/service-terms   
-  -
-    text: Trademark Usage
-    url: /legal/tmusage 
-  -
-    text: Copyright Notice
-    url: /legal/copyright        
+active_submenu_item: /legal/faqs
 ---
 
 If you feel that this does not explain anything well enough then please contact us and we will clarify in person as well as using it as an opportunity to improve this FAQ page.

@@ -1,31 +1,6 @@
 ---
-title: Trademark Usage (legal)
-submenu:
-  - 
-    text: FAQs
-    url: /legal/faqs
-  -
-    text: Our Promises
-    url: /legal
-  -
-    text: Privacy Policy
-    url: /legal/privacy
-  -
-    text: Acceptable Usage Policy
-    url: /legal/aup
-  -
-    text: Support Policy
-    url: /legal/support   
-  -
-    text: Terms of Service
-    url: /legal/service-terms   
-  -
-    text: Trademark Usage
-    url: /legal/tmusage 
-    active: true      
-  -
-    text: Copyright Notice
-    url: /legal/copyright       
+title: Trademark Usage
+active_submenu_item: /legal/tmusage
 ---
 
 The following guidelines apply to the use of all Application Craft ("AC") Marks licensed pursuant to the Terms:

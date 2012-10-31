@@ -1,31 +1,6 @@
 ---
 title: Privacy Policy
-submenu:
-  - 
-    text: FAQs
-    url: /legal/faqs
-  -
-    text: Our Promises
-    url: /legal
-  -
-    text: Privacy Policy
-    url: /legal/privacy
-    active: true      
-  -
-    text: Acceptable Usage Policy
-    url: /legal/aup
-  -
-    text: Support Policy
-    url: /legal/support   
-  -
-    text: Terms of Service
-    url: /legal/service-terms   
-  -
-    text: Trademark Usage
-    url: /legal/tmusage 
-  -
-    text: Copyright Notice
-    url: /legal/copyright       
+active_submenu_item: /legal/privacy
 ---
 
 This Privacy Policy is effective August 14, 2012.
