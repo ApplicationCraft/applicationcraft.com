@@ -1,0 +1,55 @@
+body.products {
+
+  #pricing-section {
+    background: transparent url('/img/products/track2.png') no-repeat center center;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+
+    .container {
+      font-size: 0.8em;
+      margin-bottom: 0;
+      height: 729px;
+    }
+
+    article {
+      font-size: 16px;
+      position: relative;
+
+      &:nth-child(1) {
+        width: 315px;
+        top: 145px;
+        text-align: right;
+        left: 33px;
+
+        a {
+          font-family: gotham_mediumregular;
+          text-transform: uppercase;
+        }
+      }
+      &:nth-child(2) {
+        width: 350px;
+        top: 78px;
+        left: 574px;
+
+        a {
+          font-family: gotham_mediumregular;
+          text-transform: uppercase;
+          margin-left: 13px;
+        }
+      }
+      &:nth-child(3) {
+        width: 415px;
+        top: 228px;
+        left: 297px;
+        text-align: right;
+      }
+    }
+  }
+
+  section#price-banner, footer {
+    position: relative;
+    top: -35px;
+  }
+
+}
