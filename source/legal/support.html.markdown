@@ -1,31 +1,6 @@
 ---
-title: Legal - Support Policy
-submenu:
-  - 
-    text: FAQs
-    url: /legal/faqs
-  -
-    text: Our Promises
-    url: /legal
-  -
-    text: Privacy Policy
-    url: /legal/privacy
-  -
-    text: Acceptable Usage Policy
-    url: /legal/aup
-  -
-    text: Support Policy
-    url: /legal/support 
-    active: true        
-  -
-    text: Terms of Service
-    url: /legal/service-terms   
-  -
-    text: Trademark Usage
-    url: /legal/tmusage 
-  -
-    text: Copyright Notice
-    url: /legal/copyright        
+title: Support Policy
+active_submenu_item: /legal/support
 ---
 
 Application Craft ("AC") is committed to providing a stellar customer experience. As an essential part of this commitment, we offer limited free technical support to all applications running on the AC platform. Free technical support is limited to the scope, hours, contacts, and channels below.

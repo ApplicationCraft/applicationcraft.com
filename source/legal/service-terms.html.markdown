@@ -1,31 +1,6 @@
 ---
-title: Legal - Terms of Service
-submenu:
-  - 
-    text: FAQs
-    url: /legal/faqs
-  -
-    text: Our Promises
-    url: /legal
-  -
-    text: Privacy Policy
-    url: /legal/privacy
-  -
-    text: Acceptable Usage Policy
-    url: /legal/aup
-  -
-    text: Support Policy
-    url: /legal/support   
-  -
-    text: Terms of Service
-    url: /legal/service-terms 
-    active: true        
-  -
-    text: Trademark Usage
-    url: /legal/tmusage 
-  -
-    text: Copyright Notice
-    url: /legal/copyright     
+title: Terms of Service (legal)
+active_submenu_item: /legal/service-terms
 ---
 
 Effective August 14th, 2012
