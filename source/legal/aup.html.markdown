@@ -1,6 +1,9 @@
 ---
-title: Legal - Acceptable Usage Policy
+title: Acceptable Usage Policy
 submenu:
+  - 
+    text: FAQs
+    url: /legal/faqs
   -
     text: Our Promises
     url: /legal
@@ -8,9 +11,21 @@ submenu:
     text: Privacy Policy
     url: /legal/privacy
   -
-    text: Aceptable Usage Policy
+    text: Acceptable Usage Policy
     url: /legal/aup
-    active: true
+    active: true      
+  -
+    text: Support Policy
+    url: /legal/support   
+  -
+    text: Terms of Service
+    url: /legal/service-terms   
+  -
+    text: Trademark Usage
+    url: /legal/tmusage 
+  -
+    text: Copyright Notice
+    url: /legal/copyright       
 ---
 
 Your use of the Service is subject to this Acceptable Use Policy. If you are found to be in violation of our policies at any time, as determined by Application Craft ("AC" or "Company") in its sole discretion, we may warn you or suspend or terminate your account. Please note that we may change our Acceptable Use Policy at any time, and pursuant to the AC Terms, it is your responsibility to keep up-to-date with and adhere to the policies posted here. All capitalized terms used herein have the meanings stated in the Terms, unless stated otherwise.

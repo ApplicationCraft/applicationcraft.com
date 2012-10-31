@@ -1,16 +1,31 @@
 ---
-title: Legal - Our Promises
+title: Our Promises
 submenu:
+  - 
+    text: FAQs
+    url: /legal/faqs
   -
     text: Our Promises
     url: /legal
-    active: true
+    active: true      
   -
     text: Privacy Policy
     url: /legal/privacy
   -
-    text: Aceptable Usage Policy
+    text: Acceptable Usage Policy
     url: /legal/aup
+  -
+    text: Support Policy
+    url: /legal/support   
+  -
+    text: Terms of Service
+    url: /legal/service-terms   
+  -
+    text: Trademark Usage
+    url: /legal/tmusage 
+  -
+    text: Copyright Notice
+    url: /legal/copyright       
 ---
 
 
@@ -18,7 +33,7 @@ This page contains links to our legal terms and policies. Equally important to u
 
   - You own your code, not us.
   - You own your data, not us.
-  - You will still be able to run your apps on your own web servers if you cancel your subscription or downgrade to free.
+  - You will still be able to run your apps on your own web servers if you cancel your subscription (provided you are not using any server side functionality).
   - Your PhoneGap/Cordova compiled apps will run unaffected even if you cancel your subscription or downgrade to free.
   - We'll do everything we can to achieve 100% uptime.
   - We will never achieve 100% uptime, but when we fall short, we'll explain why and how we'll do better next time.
