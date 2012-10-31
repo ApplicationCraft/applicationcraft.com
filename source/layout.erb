@@ -38,9 +38,9 @@
         <div class="clearfix">
           <aside>
             <ul>
-              <% current_page.data.submenu.each do |f| %>
+              <% data.legal.submenu.each do |f| %>
                 <li>
-                  <% if f.active %>
+                  <% if current_page.data.active_submenu_item == f.url %>
                     <%= f.text %>
                   <% else %>
                     <a href="<%= f.url %>"><%= f.text %></a>
