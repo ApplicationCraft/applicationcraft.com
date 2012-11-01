@@ -130,8 +130,8 @@ body.testimonials #testimonials-section {
       height: 70px;
       border: 5px solid #fff;
       border-radius: 50%;
-      background: #FFF url(/img/logos/coke.png) no-repeat left center;
-      background-size: 200%;
+      background: #FFF url(/img/logos/anon.jpg) no-repeat center center;
+      background-size: 100%;
       position: absolute;
       right: 10px;
       bottom: 5px;
@@ -143,10 +143,10 @@ body.testimonials #testimonials-section {
       background-position: center center;
       background-size: 100%;
     }
-    &#testimonial-saic .mb-thumb {
-      background-image: url(/img/logos/anon.jpg);
-      background-position: center center;
-      background-size: 100%;
+    &#testimonial-coke .mb-thumb {
+      background-image: url(/img/logos/coke.png);
+      background-position: left center;
+      background-size: 200%;
     }
     &#testimonial-gift .mb-thumb {
       background-image: url(/img/logos/gift.png);
