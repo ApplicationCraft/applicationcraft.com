@@ -163,12 +163,12 @@ nav.sub {
   }
 
   ul {
-    width: 312px;
+    width: 350px;
     text-align: center;
     margin: 0 auto;
 
     @include apply-to(more-than, ipad-portrait) {
-      width: 470px;
+      width: 600px;
     }
 
     li {
@@ -187,7 +187,7 @@ nav.sub {
       }
 
       a {
-        font-size: 14px;
+        font-size: 15px;
         color: #3e3e3e;
         @include apply-to(more-than, ipad-portrait) {
           text-transform: uppercase;
