@@ -15,76 +15,6 @@ body.products, body.services {
     }
   }
 
-  #price-banner {
-    border-top: 1px solid #CCC;
-  }
-
-  #overview-sections {
-    background: #666 url('/img/bgcloth.png') repeat;
-    font-size: 0.8em;
-
-    ul {
-      @include no-list-style;
-      padding: 20px 20px 10px;
-
-      @include apply-to(more-than, ipad-portrait) {
-        margin-left: 32px;
-      }
-      @include apply-to(more-than, ipad-landscape) {
-        margin-left: 0;
-        padding: 30px 10px 20px;
-      }
-
-      > li {
-        a {
-          display: block;
-          padding-left: 78px;
-          height: 84px;
-          width: 200px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            width: 140px;
-            float: left;
-          }
-          @include apply-to(more-than, ipad-portrait) {
-            width: 270px;
-          }
-          @include apply-to(more-than, ipad-landscape) {
-            width: 145px;
-            margin-right: 20px;
-          }
-        }
-
-        h3 {
-          font-size: 18px;
-          padding: 4px 0 0 0;
-          margin: 0;
-        }
-        p {
-          margin: 4px 0 0 0;
-          color: #AAA;
-        }
-
-        &:nth-child(1) a {
-          background: transparent url('/img/products/ui-builder.gif') no-repeat;
-        }
-        &:nth-child(2) a {
-          background: transparent url('/img/products/code-editor.gif') no-repeat;
-        }
-        &:nth-child(3) a {
-          background: transparent url('/img/products/deployment.gif') no-repeat;
-        }
-        &:last-child a {
-          background: transparent url('/img/products/extras.gif') no-repeat;
-          @include apply-to(more-than, ipad-landscape) {
-            margin-right: 0;
-          }
-        }
-      }
-    }
-  }
-
-
   .overview-section {
     .container {
       padding: 0 10px;
@@ -235,10 +165,12 @@ body.products, body.services {
     .container {
       > h3 {
         color: $red;
-        font: 32px museo_sans_rounded_700regular;
         margin: 0 0 16px;
+        font: 26px gotham_bookregular;
+        text-shadow: 1px 1px 3px #BBB;
         text-transform: uppercase;
         border-bottom: 3px solid #CCC;
+        padding-bottom: 10px;
       }
 
         > ul {

@@ -1,0 +1,77 @@
+body.resources #resources-section {
+  margin: 70px 0;
+
+  h1 {
+    font: 26px gotham_mediumregular;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include apply-to(more-than, ipad-portrait) {
+      font-size: 30px;
+    }
+    @include apply-to(more-than, ipad-landscape) {
+      font-size: 36px;
+    }
+  }
+
+  h4 {
+    font: 14px gotham_bookregular;
+    text-align: center;
+    line-height: 1.4em;
+    width: 80%;
+    margin: 0 auto;
+
+    @include apply-to(more-than, ipad-portrait) {
+      font-size: 18px;
+    }
+  }
+
+  hr {
+    margin: 2em;
+  }
+
+  ul {
+    @include no-list-style;
+    margin: 30px;
+
+    li {
+      margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        width: 46%;
+        margin-bottom: 15px;
+      }
+
+      a:hover h2 {
+        text-decoration: underline;
+      }
+
+      h2 {
+        font: 20px gotham_mediumregular;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: #3e3e3e;
+      }
+
+      &:nth-child(odd) {
+        @include apply-to(more-than, ipad-portrait) {
+          padding-right: 20px;
+        }
+      }
+
+      &:nth-child(even) {
+        @include apply-to(more-than, ipad-portrait) {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+}
