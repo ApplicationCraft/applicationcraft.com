@@ -1,0 +1,204 @@
+.mb-wrap {
+    position: relative;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  blockquote {
+    margin: 0;
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 0 #EEE, -5px -4px 25px rgba(0, 0, 0, 0.3);
+
+    &:after, &:before  {
+      top: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &:before {
+      border-top-color: rgba(0,0,0,0.01);
+      border-width: 11px;
+      left: 65%;
+      margin-left: -11px;
+    }
+
+    &:after {
+      border-top-color: #ffffff;
+      border-width: 10px;
+      left: 65%;
+      margin-left: -10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.4em;
+      text-indent: 100px;
+      position: relative;
+
+      &:before{
+        content: '\201C';
+        font-family: serif;
+        font-style: normal;
+        font-weight: 700;
+        position: absolute;
+        font-size: 175px;
+        top: 0px;
+        left: -105px;
+        color: #f36050;
+        text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+
+  cite {
+    font-style: normal;
+
+    a {
+      font-family: serif;
+      font-weight: 700;
+      font-style: italic;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+
+      &:hover {
+        color: rgba(188, 147, 200, 1);
+        text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+      }
+    }
+  }
+
+  .mb-attribution {
+    text-align: right;
+    padding: 20px 100px 20px 20px;
+    position: relative;
+
+    .mb-author{
+      font-size: 14px;
+      color: #777;
+      text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+    }
+
+    cite {
+      font-weight: bold;
+    }
+  }
+
+  .mb-thumb {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background: #FFF url(/img/logos/coke.png) no-repeat left center;
+    background-size: 200%;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    box-shadow: inset 1px 1px 4px rgba(0,0,0,0.5), 0 2px 3px rgba(0,0,0,0.6);
+  }
+
+  &#testimonial-hcri .mb-thumb {
+    background-image: url(/img/logos/hcri.png);
+    background-position: center center;
+    background-size: 100%;
+  }
+  &#testimonial-saic .mb-thumb {
+    background-image: url(/img/logos/anon.jpg);
+    background-position: center center;
+    background-size: 100%;
+  }
+  &#testimonial-gift .mb-thumb {
+    background-image: url(/img/logos/gift.png);
+    background-position: center center;
+  }
+  &#testimonial-i360 .mb-thumb {
+    background-image: url(/img/logos/i360views.png);
+    background-position: center center;
+    background-size: 150%;
+  }
+}
+
+
+body.testimonials #testimonials-section {
+  margin: 70px 0;
+
+  h1 {
+    font: 26px gotham_mediumregular;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include apply-to(more-than, ipad-portrait) {
+      font-size: 30px;
+    }
+    @include apply-to(more-than, ipad-landscape) {
+      font-size: 36px;
+    }
+  }
+
+  h4 {
+    font: 14px gotham_bookregular;
+    text-align: center;
+    line-height: 1.4em;
+    width: 80%;
+    margin: 0 auto 80px;
+
+    @include apply-to(more-than, ipad-portrait) {
+      font-size: 18px;
+    }
+  }
+
+  hr {
+    margin: 2em;
+  }
+
+  ul {
+    @include no-list-style;
+    margin: 40px 0 30px;
+
+    li {
+      margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        width: 46%;
+        margin-bottom: 15px;
+      }
+
+      h2 {
+        font: 20px gotham_mediumregular;
+        text-transform: uppercase;
+        color: $red;
+      }
+
+      p {
+        color: #3e3e3e;
+      }
+
+      &:nth-child(odd) {
+        @include apply-to(more-than, ipad-portrait) {
+          padding-right: 55px;
+        }
+      }
+
+      &:nth-child(even) {
+        @include apply-to(more-than, ipad-portrait) {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+}
