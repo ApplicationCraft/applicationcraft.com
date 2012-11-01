@@ -20,10 +20,10 @@
           <li><a href="/"><img src="/img/logo.gif" width="321" height="32"></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class="<%= 'active' if current_page.data.class_name == 'home' %>"><a href="/" class="active">Home</a></li>
-              <li class="<%= 'active' if current_page.data.class_name == 'products' %>"><a href="/products">Product</a></li>
-              <li class="<%= 'active' if current_page.data.class_name == 'sign-in' %>"><a href="/sign-in">Sign In</a></li>
-              <li class="nofade <%= 'active' if current_page.data.class_name == 'sign-up' %>"><a href="/sign-up">Sign Up Today</a></li>
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'home' %>"><a href="/" class="active">Home</a></li>
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>"><a href="/products">Product</a></li>
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'sign-in' %>"><a href="/sign-in">Sign In</a></li>
+              <li class="nofade <%= 'active' if current_page.data.active_menu_item == 'sign-up' %>"><a href="/sign-up">Sign Up Today</a></li>
             </ul>
           </li>
         </ul>
