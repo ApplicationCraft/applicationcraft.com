@@ -1,0 +1,65 @@
+body.signup {
+
+  h1 {
+    font: 26px gotham_mediumregular;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include apply-to(more-than, ipad-portrait) {
+      font-size: 30px;
+    }
+    @include apply-to(more-than, ipad-landscape) {
+      font-size: 36px;
+    }
+  }
+
+  h2 {
+    font: 14px gotham_bookregular;
+    text-align: center;
+    line-height: 1.4em;
+    width: 80%;
+    margin: 0 auto;
+
+    @include apply-to(more-than, ipad-portrait) {
+      font-size: 18px;
+    }
+  }
+
+  > .container > div {
+    margin: 40px 20px;
+
+    > section {
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        width: 46%;
+      }
+
+      &:first-child {
+        @include apply-to(more-than, ipad-portrait) {
+          padding-right: 40px;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          padding-right: 70px;
+        }
+      }
+
+      h3 {
+        text-transform :uppercase;
+      }
+
+      > ul {
+        @include no-list-style;
+        font-size: 0.92em;
+
+        h4 {
+          margin: 0 0 5px;
+        }
+
+        p {
+          margin: 0 0 20px;
+        }
+      }
+    }
+  }
+
+}
