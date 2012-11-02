@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+active_submenu: legal
 active_submenu_item: /legal/faqs
 ---
 

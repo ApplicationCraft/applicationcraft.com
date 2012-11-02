@@ -44,13 +44,16 @@
 
         <div class="clearfix">
           <aside>
-            <ul>
-              <% data.legal.submenu.each do |f| %>
-                <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
-                  <a href="<%= f.url %>"><%= f.text %></a>
-                </li>
-              <% end %>
-            </ul>
+            &nbsp;
+            <% if current_page.data.active_submenu %>
+              <ul>
+                <% data.send(current_page.data.active_submenu).submenu.each do |f| %>
+                  <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
+                    <a href="<%= f.url %>"><%= f.text %></a>
+                  </li>
+                <% end %>
+              </ul>
+            <% end %>
           </aside>
 
           <article>

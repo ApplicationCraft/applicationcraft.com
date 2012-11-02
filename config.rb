@@ -55,6 +55,9 @@ set :js_dir, 'js'
 set :images_dir, 'img'
 
 set :markdown_engine, :redcarpet
+set :markdown, :autolink => true,
+               :with_toc_data => true,
+               :hard_wrap => true
 
 activate :blog do |blog|
   blog.prefix     = "blog"

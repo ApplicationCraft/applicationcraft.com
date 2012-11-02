@@ -1,5 +1,6 @@
 ---
-title: Terms of Service (legal)
+title: Terms of Service
+active_submenu: legal
 active_submenu_item: /legal/service-terms
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Acceptable Usage Policy
+active_submenu: legal
 active_submenu_item: /legal/aup
 ---
 
