@@ -1,0 +1,7 @@
+submenu:
+  -
+    text: About Us
+    url: /company
+  -
+    text: Contact Us
+    url: /company/contact-us

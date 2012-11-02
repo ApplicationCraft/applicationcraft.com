@@ -1,0 +1,76 @@
+/* Cheat Sheet */
+.pricing-cap {
+  display: block;
+  width: 164px;
+  height: 66px;
+  background: url("/img/products/cheat-sheet/pricing_caps.png") no-repeat scroll 0 0 transparent;
+}
+.pricing-cap.orange { background-position: 0 -66px; }
+.pricing-cap.green { background-position: 0 -132px; }
+.pricing-cap.blue { background-position: 0 -198px; }
+.pricing-cap.purple { background-position: 0 -264px; }
+
+.pricing-cap h3 { color: #FFFFFF; }
+
+.pkg { font-size: 13px; }
+.pkg ul { list-style: none outside none; clear: both;}
+.pkg ul.large li.divided strong, .pkg ul.large li b, .tooltip b{font-weight:400}
+.pkg .button, .tooltip{font-weight:300}
+
+.pkg{min-height:100px; position:relative; width:164px; padding:8px 14px 12px; float:left}
+.pkg .middle, .pkg .top, .pkg .bottom {width:184px; position:absolute; }
+.pkg .middle { top:12px; bottom:12px; z-index:-1; }
+.pkg .top, .pkg .bottom {height:12px; top:0; background-position:-184px -8px}
+.pkg .bottom {top:auto; bottom:0; background-position:-368px -18px}
+.pkg h3{font-size:20px; text-align:center; padding:12px 10px; text-transform:uppercase; }
+.pkg h4{font-size:20px; text-align:center; padding:8px 5px; color:#ffffff; margin: 25px 0; line-height: 1.1em;}
+.pkg hr{background-color:#b858fc; border:none; height:10px; background-position:-562px 0px; margin:0}
+.pkg ul li{border-bottom:1px solid #bbb; padding:12px 12px; position:relative; font-size:13px; overflow:hidden}
+.pkg ul.large li{padding-left:82px; line-height:1.2em}
+.pkg ul.large li b{position:absolute; left:10px; font-size:22px; line-height:50px; top:0px; width:65px; text-align:center}
+.pkg ul.large li.long{padding-top:15px; padding-bottom:17px}
+.pkg ul.large li.divided{height:42px; padding:7px 7px; font-size:13px; text-align:center}
+.pkg ul.large li.divided strong{font-size:22px; display:block; padding-top:1px}
+.pkg ul.large li.divided strong.long{font-size:22px}
+
+.pkg ul.cheat li{margin-left:0 !important; padding-left:82px; line-height:2px;}
+.pkg ul.cheat li b{position:absolute; left:10px; font-size:22px; line-height:50px; top:0px; width:65px; text-align:center}
+.pkg ul.cheat li.long{padding-top:15px; padding-bottom:17px}
+.pkg ul.cheat li.divided{height:6px; padding:9px 7px; font-size:11px; text-align:center}
+.pkg ul.cheat li.divided strong{font-size:11px; display:block; padding-top:0px; margin: 0; font-weight: bold; text-transform: uppercase; color: #777;}
+.pkg ul.cheat li.divided strong.long{font-size:22px}
+
+.pkg ul.details li{padding:13px 4px 13px 36px}
+.pkg ul.details{background-position:-245px -42px; background-repeat:no-repeat}
+.pkg .price{text-align:center; height:50px; padding:0 11px 10px; border-bottom:1px solid #bbb}
+.pkg .price h3{padding-bottom:4px; text-transform:capitalize; font-size:13px; font-weight:700}
+.pkg .price span{font-size:12px}
+.pkg .buy{padding:10px; text-align:center}
+.pkg .button{height:30px; width:142px; display:block; background-position:-746px 0; background-color:#b858fc; text-shadow:0 -1px #999; color:#fff; font-size:16px; text-transform:uppercase; line-height:30px; margin-top:8px}
+.pkg .button:hover{background-color:#a54fe3; text-decoration:none}
+.pkg.corporate .button, .pkg.corporate hr{background-color:#58b8fc}
+.pkg.corporate .button:hover{background-color:#4fa5e3}
+.pkg.pro .button, .pkg.pro hr{background-color:#81fc58}
+.pkg.pro .button:hover{background-color:#74e34f}
+.pkg.starter .button, .pkg.starter hr{background-color:#f5de49}
+.pkg.starter .button:hover{background-color:#edd642}
+.pkg.basic .button, .pkg.basic hr{background-color:#fc8158}
+.pkg.basic .button:hover{background-color:#e57650}
+.pkg ul li:hover{background:url(../../images/compchart/sprite4.png) no-repeat -450px -131px}
+.pkg ul.details li:hover{background:url(../../images/compchart/sprite4.png) no-repeat -452px -81px}
+.pkg ul li.unavailable{color:#ccc}
+.pkg ul li.unavailable:hover{background:#fff}
+.pkg ul{padding:0; margin:0}
+.foot-note{width:97%; line-height:1.5; margin-bottom:30px}
+.foot-note a{color:#666; text-decoration:underline}
+.pkg li.no-border{border-bottom:none; height:36px; padding-top:10px}
+.pkg li.no-border a{color:#666; text-decoration:underline; font-size:15px; display:block; padding-top:6px}
+.pkg li.no-border a:hover{color:#888}
+
+.tooltip{position:absolute; left:410px; top:40px; width:275px; height:160px; z-index:9; background:url(../../images/compchart/sprite4.png) -673px -97px repeat-y; left:0;}
+.tooltip.right{background-position:-666px -257px}
+.tooltip .inner{padding:14px 32px 14px 14px; color:#fff; font-size:13px; line-height:16px}
+.tooltip.right .inner{padding-right:14px; padding-left:32px; }
+.tooltip.bottom{background:url(../../images/compchart/sprite5.png?v=1.1) 0 -600px; width:220px; height:70px}
+.tooltip.bottom .inner{padding-left:20px; padding-right:20px; padding-top:16px}
+.tooltip b{font-size:15px; display:block; padding-bottom:8px; }

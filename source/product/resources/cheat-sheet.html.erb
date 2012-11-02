@@ -1,0 +1,780 @@
+---
+title: Developer Cheat Sheet
+active_menu_item: product
+class_name: resources
+full_width: true
+---
+
+<nav class="sub">
+  <div class="container">
+    <ul class="clearfix">
+      <li><a href="/product">Overview</a></li>
+      <li><a href="/product/pricing">Pricing</a></li>
+      <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+      <li><a href="/product/testimonials">Testimonials</a></li>
+      <li class="active"><a href="/product/resources">Resources</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="content-body" class="container">
+
+  <h1>
+    <%= current_page.data.title %>
+  </h1>
+
+  <div class="clearfix">
+    <div class="tooltip" style="display:none">
+      <div class="inner">
+        Text</div>
+    </div>
+    <div class="pkg starter">
+      <div class="pricing-cap orange">
+        <h4>
+          App</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="">
+          <strong>Should Know</strong></li>
+        <li class="divided" data-msg="alert">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?alert2.htm" target="_blank">alert()</a></li>
+        <li class="divided" data-msg="confirm">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?confirm.htm" target="_blank">confirm()</a></li>
+        <li class="divided" data-msg="isNativeAppOnline">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?isnativeapponline.htm" target="_blank">isNativeAppOnline()</a></li>
+        <li class="divided" data-msg="isNativeApp">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?isnativeapp.htm" target="_blank">isNativeApp()</a></li>
+        <li class="divided" data-msg="showMessage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?showmessage.htm" target="_blank">showMessage()</a></li>
+        <li class="divided" data-msg="showConfirm">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?showconfirm.htm" target="_blank">showConfirm()</a></li>
+        <li class="divided" data-msg="switchApp">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?switchapp.htm" target="_blank">switchApp()</a></li>
+        <li class="divided" data-msg="parentApp">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?parentapp.htm" target="_blank">parentApp()</a></li>
+        <li class="divided" data-msg="childApp">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?childapp.htm" target="_blank">childApp()</a></li>
+        <li class="divided" data-msg="getRunMode">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getrunmode.htm" target="_blank">getRunMode()</a></li>
+        <li class="divided" data-msg="printApp">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?printapp.htm" target="_blank">printApp()</a></li>
+        <li class="divided" data-msg="isPrinting">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?isprinting.htm" target="_blank">isPrinting()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Could Know</strong></li>
+        <li class="divided" data-msg="getacversion">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getacversion.htm" target="_blank">getACVersion()</a></li>
+        <li class="divided" data-msg="networkTimeout">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setnetworktimeout.htm" target="_blank">networkTimeout()</a></li>
+        <li class="divided" data-msg="reset">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?reset2.htm" target="_blank">reset()</a></li>
+        <li class="divided" data-msg="closeForm">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?closeform.htm" target="_blank">closeForm()</a></li>
+        <li class="divided" data-msg="showPrompt">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?showprompt.htm" target="_blank">showPrompt()</a></li>
+        <li class="divided" data-msg="debugOutput">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?debugoutput.htm" target="_blank">debugOutput()</a></li>
+        <li class="divided" data-msg="debugValues">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?debugvalues.htm" target="_blank">debugValues()</a></li>
+        <li class="divided" data-msg="debugData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?debugdata.htm.htm" target="_blank">debugData()</a></li>
+        <li class="divided" data-msg="debugProperties">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?debugproperties.htm" target="_blank">debugProperties()</a></li>
+        <li class="divided" data-msg="gaTrack">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?gatrack.htm" target="_blank">gaTrack()</a></li>
+        <li class="divided" data-msg="twirlyThing">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?twirlything.htm" target="_blank">twirlyThing()</a></li>
+        <li class="divided" data-msg="getInputParameters">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getinputparameter.htm" target="_blank">getInputParameters()</a></li>
+        <li class="divided" data-msg="getEnvValue">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getenvvalue.htm" target="_blank">getEnvValue()</a></li>
+        <li class="divided" data-msg="userParameterGet">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?userparameterget.htm" target="_blank">userParameterGet()</a></li>
+        <li class="divided" data-msg="userParameterSet">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?userparameterset.htm" target="_blank">userParameterSet()</a></li>
+        <li class="divided" data-msg="runEditor">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?runeditor.htm" target="_blank">runEditor()</a></li>
+        <li class="divided" data-msg="logout">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?logout.htm" target="_blank">logout()</a></li>
+        <li class="divided" data-msg="getInstanceURL">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getinstanceurl.htm" target="_blank">getInstanceURL()</a></li>
+        <li class="divided" data-msg="getAppSnapshot">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getappsnapshot.htm" target="_blank">getAppSnapshot()</a></li>
+        <li class="divided" data-msg="setAppSnapshot">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setappsnapshot.htm" target="_blank">setAppSnapshot()</a></li>
+        <li class="divided" data-msg="callSSJ">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?callservice.htm" target="_blank">callSSJ()</a></li>
+      </ul>
+      <div class="pricing-cap blue">
+        <h4>
+          Useful Browser Functions</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="alertconf">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?alert.htm" target="_blank">alert(), confirm()</a></li>
+        <li class="divided" data-msg="open">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?open.htm" target="_blank">open()</a></li>
+        <li class="divided" data-msg="pageOff">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?pagexoffset__pageyoffset.htm" target="_blank">pageOffset()</a></li>
+        <li class="divided" data-msg="scrollBy">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?scrollto.htm" target="_blank">scrollTo(), scrollBy()</a></li>
+        <li class="divided" data-msg="setInterval">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setinterval__settimeout_et_al.htm" target="_blank">setInterval(), setTimeout()</a></li>
+        <li class="divided" data-msg="windObj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?window_object.htm" target="_blank">window object</a></li>
+        <li class="divided" data-msg="screenObj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?screen_object.htm" target="_blank">screen object</a></li>
+        <li class="divided" data-msg="navObj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?navigator_object.htm" target="_blank">navigator object</a></li>
+      </ul>
+    </div>
+    <div class="pkg basic">
+      <div class="pricing-cap red">
+        <h4>
+          Page</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="">
+          <strong>Must Know</strong></li>
+        <li class="divided" data-msg="pageJump">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?pagejump.htm" target="_blank">pageJump()</a></li>
+        <li class="divided" data-msg="pageNext">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?pagenext.htm" target="_blank">pageNext()</a></li>
+        <li class="divided" data-msg="pageBack">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?pageback.htm" target="_blank">pageBack()</a></li>
+        <li class="divided" data-msg="pagePrevious">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?pageprevious.htm" target="_blank">pagePrevious()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Should Know</strong></li>
+        <li class="divided" data-msg="transitions">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?page_transitions.htm" target="_blank">Page Transitions</a></li>
+        <li class="divided" data-msg="showPagePopup">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?showpagepopup.htm" target="_blank">showPagePopup()</a></li>
+        <li class="divided" data-msg="closePagePopup">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?closepagepopup.htm" target="_blank">closePagePopup()</a></li>
+        <li class="divided" data-msg="currentpage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?currentpage.htm" target="_blank">currentPage()</a></li>
+      </ul>
+      <div class="pricing-cap blue">
+        <h4>
+          Conversion Functions</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="json2obj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?text2json.htm" target="_blank">JSON2OBJ()</a></li>
+        <li class="divided" data-msg="obj2json">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?json2text.htm" target="_blank">OBJ2JSON()</a></li>
+        <li class="divided" data-msg="array2obj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?arraytoadvanced.htm" target="_blank">ARRAY2OBJ()</a></li>
+        <li class="divided" data-msg="obj2array">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?advancedtoarray.htm" target="_blank">OBJ2ARRAY()</a></li>
+        <li class="divided" data-msg="xml2obj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?xml2json.htm" target="_blank">XML2OBJ()</a></li>
+        <li class="divided" data-msg="obj2xml">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?json2xml.htm" target="_blank">OBJ2XML()</a></li>
+        <li class="divided" data-msg="date2db">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?date2db.htm" target="_blank">DATE2DB </a></li>
+        <li class="divided" data-msg="filterarray">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?date2db.htm" target="_blank"> </a><a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?filterarray.htm" target="_blank">filterarray()</a></li>
+      </ul>
+      <br />
+      <div class="bottom">
+        &nbsp;</div>
+      <div class="pricing-cap purple">
+        <h4>
+          Mobile Device Access</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="accelerometer">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_accelerometer_accelerometer.md.html#Accelerometer" target="_blank">accelerometer</a></li>
+        <li class="divided" data-msg="camera">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_camera_camera.md.html#Camera" target="_blank">camera</a></li>
+        <li class="divided" data-msg="capture">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_media_capture_capture.md.html#Capture" target="_blank">capture</a></li>
+        <li class="divided" data-msg="compass">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_compass_compass.md.html#Compass" target="_blank">compass</a></li>
+        <li class="divided" data-msg="connection">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_connection_connection.md.html#Connection" target="_blank">connection</a></li>
+        <li class="divided" data-msg="contacts">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_contacts_contacts.md.html#Contacts" target="_blank">contacts</a></li>
+        <li class="divided" data-msg="device">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_device_device.md.html#Device" target="_blank">device</a></li>
+        <li class="divided" data-msg="events">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_events_events.md.html#Events" target="_blank">events</a></li>
+        <li class="divided" data-msg="file">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_file_file.md.html#File" target="_blank">file</a></li>
+        <li class="divided" data-msg="geolocation">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_geolocation_geolocation.md.html#Geolocation" target="_blank">geolocation</a></li>
+        <li class="divided" data-msg="media">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_media_media.md.html#Media" target="_blank">media</a></li>
+        <li class="divided" data-msg="notification">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_notification_notification.md.html#Notification" target="_blank">notification</a></li>
+        <li class="divided" data-msg="storage">
+          <a href="http://docs.phonegap.com/en/1.5.0/phonegap_storage_storage.md.html#Storage" target="_blank">storage</a></li>
+        <li class="divided" data-msg="mobdial">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?mobiledial.htm" target="_blank">mobileDial</a></li>
+        <li class="divided" data-msg="mobemail">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?mobileemail.htm" target="_blank">mobileEmail</a></li>
+        <li class="divided" data-msg="mobsms">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?mobilesms.htm" target="_blank">mobileSMS</a></li>
+      </ul>
+      <div class="pricing-cap green">
+        <h4>
+          Date Time Functions</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="dtNewDate">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?dtnewdate.htm" target="_blank">dtNewDate()</a></li>
+        <li class="divided" data-msg="dtAdd">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?dtadd.htm" target="_blank">dtAdd()</a></li>
+        <li class="divided" data-msg="dtDifference">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?dtdifference.htm" target="_blank">dtDifference()</a></li>
+        <li class="divided" data-msg="dtAdjust">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?dtadjust.htm" target="_blank">dtAdjust()</a></li>
+        <li class="divided" data-msg="dtDateToString">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?dtdatetostring.htm" target="_blank">dtDateToString()</a></li>
+        <li class="divided" data-msg="instanceGetRTZ">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?instancegetrtz.htm" target="_blank">instanceGetRTZ()</a></li>
+        <li class="divided" data-msg="instanceSetRTZ">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?instancesetrtz.htm" target="_blank">instanceSetRTZ()</a></li>
+      </ul>
+      <div class="pricing-cap orange">
+        <h4>
+          Data View Functions</h4>
+      </div>
+      <br />
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="dataviewevents">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?data_view_related_events.htm" target="_blank">Data View Events</a></li>
+        <li class="divided" data-msg="modifywidgets">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?modifying_data_widgets_with_sc.htm" target="_blank">Modifying Widgets</a></li>
+        <li class="divided" data-msg="enableview">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?enableview.htm" target="_blank">enableview()</a></li>
+        <li class="divided" data-msg="refreshData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?refreshdata.htm" target="_blank">refreshData()</a></li>
+        <li class="divided" data-msg="resetView">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?resetview.htm" target="_blank">resetView</a></li>
+        <li class="divided" data-msg="reloadView">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?reloadview.htm" target="_blank">reloadView()</a></li>
+        <li class="divided" data-msg="setviewfilter">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setting_a_view_filter.htm" target="_blank">Modifying a Filter</a></li>
+        <li class="divided" data-msg="getViewData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getviewdata.htm" target="_blank">getViewData()</a></li>
+        <li class="divided" data-msg="fetchDataPage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?fetchdatapage.htm" target="_blank">fetchDataPage()</a></li>
+        <li class="divided" data-msg="drillDownBroadcast">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?drilldownbroadcast.htm" target="_blank">drillDownBroadcast()</a></li>
+        <li class="divided" data-msg="bindViewData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setviewcallback.htm" target="_blank">bindViewData()</a></li>
+      </ul>
+    </div>
+    <div class="pkg pro">
+      <div class="pricing-cap green">
+        <h4>
+          General Widget Functions</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="">
+          <strong>Must Know</strong></li>
+        <li class="divided" data-msg="w">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?w.htm" target="_blank">w()</a></li>
+        <li class="divided" data-msg="getValue">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getvalue3.htm" target="_blank">getValue()</a></li>
+        <li class="divided" data-msg="setValue">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setvalue3.htm" target="_blank">setValue()</a></li>
+        <li class="divided" data-msg="getData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getdata.htm" target="_blank">getData()</a></li>
+        <li class="divided" data-msg="setData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setdata.htm" target="_blank">setData()</a></li>
+        <li class="divided" data-msg="getProperty">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getproperty.htm" target="_blank">getProperty()</a></li>
+        <li class="divided" data-msg="setProperty">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setproperty.htm" target="_blank">setProperty()</a></li>
+        <li class="divided" data-msg="populateWidget">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?populatewidget.htm" target="_blank">populateWidget()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Should Know</strong></li>
+        <li class="divided" data-msg="checkman">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?checkmandatory.htm" target="_blank">checkMandatory()</a></li>
+        <li class="divided" data-msg="highlight">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?highlightwidgets.htm" target="_blank">highlightWidgets()</a></li>
+        <li class="divided" data-msg="unhighlight">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?unhighlightwidgets.htm" target="_blank">unhighlightWidgets()</a></li>
+        <li class="divided" data-msg="visible">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setfocus.htm" target="_blank">setFocus()</a></li>
+        <li class="divided" data-msg="readOnly">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?readonly.htm" target="_blank">readOnly()</a></li>
+        <li class="divided" data-msg="enabled">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?enabled.htm" target="_blank">enabled()</a></li>
+        <li class="divided" data-msg="setFocus">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?enabled.htm" target="_blank">enabled()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Could Know</strong></li>
+        <li class="divided" data-msg="assign">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?assign.htm" target="_blank">assign()</a></li>
+        <li class="divided" data-msg="resetWidget">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?resetwidget.htm" target="_blank">resetWidget()</a></li>
+        <li class="divided" data-msg="emptyWidget">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?emptywidget.htm" target="_blank">emptyWidget()</a></li>
+        <li class="divided" data-msg="refreshData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?refreshdata.htm" target="_blank">refreshData()</a></li>
+        <li class="divided" data-msg="getParent">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getparentwidget.htm" target="_blank">getParent()</a></li>
+        <li class="divided" data-msg="createWidget">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?createwidget.htm" target="_blank">createWidget()</a></li>
+        <li class="divided" data-msg="deleteWidget">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?deletewidget.htm" target="_blank">deleteWidget()</a></li>
+        <li class="divided" data-msg="dataGetValues">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?datagetvalues.htm" target="_blank">dataGetValues()</a></li>
+        <li class="divided" data-msg="dataGetStates">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?datagetstates.htm" target="_blank">dataGetStates()</a></li>
+        <li class="divided" data-msg="dataSetValues">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?datasetvalues.htm" target="_blank">dataSetValues()</a></li>
+        <li class="divided" data-msg="dataSetStates">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?datasetstates.htm" target="_blank">dataSetStates()</a></li>
+      </ul>
+      <div class="pricing-cap blue">
+        <h4>
+          AJAX HTTP Calls</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="httpRequest">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?httprequest.htm" target="_blank">httpRequest()</a></li>
+        <li class="divided" data-msg="soapRequest">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?soaprequest.htm" target="_blank">soapRequest()</a></li>
+      </ul>
+      <div class="pricing-cap red">
+        <h4>
+          Workflow</h4>
+      </div>
+      <br />
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="getstage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getstage.htm" target="_blank">getStage()</a></li>
+        <li class="divided" data-msg="assignInstance">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?assigninstance.htm" target="_blank">assignInstance()</a></li>
+        <li class="divided" data-msg="notify">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?notify.htm" target="_blank">notify()</a></li>
+        <li class="divided" data-msg="cancelNotifications">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?cancelnotificationsforinstance.htm" target="_blank">cancelNotifications()</a></li>
+        <li class="divided" data-msg="assignToRole">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?assigntorole.htm" target="_blank">assignToRole()</a></li>
+        <li class="divided" data-msg="unassignFromRole">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?unassignfromrole.htm" target="_blank">unassignFromRole()</a></li>
+        <li class="divided" data-msg="getAssignedRoles">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getassignedroles.htm" target="_blank">getAssignedRoles()</a></li>
+        <li class="divided" data-msg="currentUserRole">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?currentuserrole.htm" target="_blank">currentUserRole()</a></li>
+        <li class="divided" data-msg="setStage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setstage.htm" target="_blank">setStage()</a></li>
+        <li class="divided" data-msg="cancelAssignments()">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?cancelassignments.htm" target="_blank">cancelAssignments()</a></li>
+      </ul>
+      <div class="pricing-cap blue">
+        <h4>
+          Global Data Pool</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="setGlobalData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setglobaldata.htm" target="_blank">setGlobalData()</a></li>
+        <li class="divided" data-msg="getGlobalData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getglobaldata.htm" target="_blank">getGlobalData()</a></li>
+        <li class="divided" data-msg="clearGlobalData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?clearglobaldata.htm" target="_blank">clearGlobalData()</a></li>
+      </ul>
+      <div class="pricing-cap purple">
+        <h4>
+          Instance DB Storage</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="getInstanceData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getinstancedata.htm" target="_blank">getInstanceData()</a></li>
+        <li class="divided" data-msg="setInstanceData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setinstancedata.htm" target="_blank">setInstanceData()</a></li>
+      </ul>
+      <div class="pricing-cap green">
+        <h4>
+          Multi Language Apps</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="translate">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?translate.htm" target="_blank">translate()</a></li>
+        <li class="divided" data-msg="language">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?language.htm" target="_blank">language()</a></li>
+      </ul>
+    </div>
+    <div class="pkg corporate">
+      <div class="pricing-cap orange">
+        <h4>
+          Widget Object Functions</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="">
+          <strong>All Widgets</strong></li>
+        <li class="divided" data-msg="parent">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?parent.htm" target="_blank">parent()</a></li>
+        <li class="divided" data-msg="prop">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?prop.htm" target="_blank">prop()</a></li>
+        <li class="divided" data-msg="value">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?value.htm" target="_blank">value()</a></li>
+        <li class="divided" data-msg="traverseChildren">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?traversechildren.htm" target="_blank">traverseChildren()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Repeater &amp; Grid</strong></li>
+        <li class="divided" data-msg="drawNextPage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?drawnextpage.htm" target="_blank">drawNextPage()</a></li>
+        <li class="divided" data-msg="fetchDataPage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?fetchdata.htm" target="_blank">fetchDataPage()</a></li>
+        <li class="divided" data-msg="isAllDataDrawn">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?isalldatadrawn.htm" target="_blank">isAllDataDrawn()</a></li>
+        <li class="divided" data-msg="sum">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?sum.htm" target="_blank">sum()</a></li>
+        <li class="divided" data-msg="getRow">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getrow.htm" target="_blank">getRow()</a></li>
+        <li class="divided" data-msg="getSelectedRow">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getselectedrow.htm" target="_blank">getSelectedRow()</a></li>
+        <li class="divided" data-msg="rowCount">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?length.htm" target="_blank">rowCount()</a></li>
+        <li class="divided" data-msg="rowIndex">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?rowindex.htm" target="_blank">rowIndex()</a></li>
+        <li class="divided" data-msg="deleteRow">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?deleterow.htm" target="_blank">deleteRow()</a></li>
+        <li class="divided" data-msg="deleteSelectedRows">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?deleteselectedrows.htm" target="_blank">deleteSelectedRows()</a></li>
+        <li class="divided" data-msg="deleteRowById">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?deleterowbyid.htm" target="_blank">deleteRowById()</a></li>
+        <li class="divided" data-msg="insertRow">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?insertrow.htm" target="_blank">insertRow()</a></li>
+        <li class="divided" data-msg="search">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?children.htm" target="_blank">search()</a></li>
+        <li class="divided" data-msg="setSelectedRow">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setselectedrow.htm" target="_blank">setSelectedRow()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Timeline</strong></li>
+        <li class="divided" data-msg="tlEvents">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?events2.htm" target="_blank">Events</a></li>
+        <li class="divided" data-msg="fitData">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?fitdata.htm" target="_blank">fitData()</a></li>
+        <li class="divided" data-msg="scroll">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?scroll.htm" target="_blank">scroll()</a></li>
+        <li class="divided" data-msg="scrollTo">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?scrollto2.htm" target="_blank">scrollTo()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Advanced Maps</strong></li>
+        <li class="divided" data-msg="showMarker">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?showmarker.htm" target="_blank">showMarker()</a></li>
+        <li class="divided" data-msg="mapStyles">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?mapstyles.htm" target="_blank">mapStyles()</a></li>
+        <li class="divided" data-msg="addMarker">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?addmarker.htm" target="_blank">addMarker()</a></li>
+        <li class="divided" data-msg="clearMarkers">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?clearmarkers.htm" target="_blank">clearMarkers()</a></li>
+        <li class="divided" data-msg="getOverlays">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getoverlays.htm" target="_blank">getOverlays()</a></li>
+        <li class="divided" data-msg="removeOverlay">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?removeoverlay.htm" target="_blank">removeOverlay()</a></li>
+        <li class="divided" data-msg="clearOverlays">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?clearoverlays.htm" target="_blank">clearOverlays()</a></li>
+        <li class="divided" data-msg="getOverlayObjById">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getoverlayobjbyid.htm" target="_blank">getOverlayObjById()</a></li>
+        <li class="divided" data-msg="showoverlayid">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?showoverlayid.htm" target="_blank">showOverlay()</a></li>
+        <li class="divided" data-msg="hideoverlay">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?hideoverlay.htm" target="_blank">hideOverlay()</a></li>
+        <li class="divided" data-msg="fittooverlays">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?fittooverlays.htm" target="_blank">fitToOverlays()</a></li>
+        <li class="divided" data-msg="addPolyline">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?addpolyline.htm" target="_blank">addPolyline()</a></li>
+        <li class="divided" data-msg="addPolygon">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?addpolygon.htm" target="_blank">addPolygon()</a></li>
+        <li class="divided" data-msg="addCircle">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?addcircle.htm" target="_blank">addCircle</a></li>
+        <li class="divided" data-msg="addRectangle">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?addrectangle.htm" target="_blank">addRectangle()</a></li>
+        <li class="divided" data-msg="strokeColor">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?strokecolor.htm" target="_blank">strokeColor()</a></li>
+        <li class="divided" data-msg="strokeOpacity">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?strokeopacity.htm" target="_blank">strokeOpacity()</a></li>
+        <li class="divided" data-msg="strokeWeight">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?strokeWeight.htm" target="_blank">strokeWeight()</a></li>
+        <li class="divided" data-msg="fillColor">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?fillcolor.htm" target="_blank">fillColor()</a></li>
+        <li class="divided" data-msg="fillOpacity">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?fillopacity.htm" target="_blank">fillOpacity()</a></li>
+        <li class="divided" data-msg="whereAmI">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?whereami.htm" target="_blank">whereAmI()</a></li>
+        <li class="divided" data-msg="getAddress">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getaddress.htm" target="_blank">getAddress()</a></li>
+        <li class="divided" data-msg="getCoord">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getcoord.htm" target="_blank">getCoord()</a></li>
+        <li class="divided" data-msg="getDirections">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getdirections.htm" target="_blank">getDirections()</a></li>
+        <li class="divided" data-msg="removeDirections">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?removedirections.htm" target="_blank">removeDirections()</a></li>
+        <li class="divided" data-msg="addCurrentLocation">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?addcurrentlocation.htm" target="_blank">addCurrentLocation()</a></li>
+        <li class="divided" data-msg="setLanguage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setlanguage.htm" target="_blank">setLanguage()</a></li>
+        <li class="divided" data-msg="noScroll">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?noscroll.htm" target="_blank">noScroll()</a></li>
+        <li class="divided" data-msg="googleMap">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?googleMap.htm" target="_blank">googleMap()</a></li>
+        <li class="divided" data-msg="loadapi">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?loadapi.htm" target="_blank">loadApi()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Video/Audio Widget</strong></li>
+        <li class="divided" data-msg="play">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?play.htm" target="_blank">play()</a></li>
+        <li class="divided" data-msg="pause">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?pause.htm" target="_blank">pause()</a></li>
+        <li class="divided" data-msg="load">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?load.htm" target="_blank">load()</a></li>
+        <li class="divided" data-msg="Muted">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?muted.htm" target="_blank">muted()</a></li>
+        <li class="divided" data-msg="currentTime">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?currenttime.htm" target="_blank">currentTime()</a></li>
+        <li class="divided" data-msg="poster">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?poster.htm" target="_blank">poster()</a></li>
+        <li class="divided" data-msg="enable">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?enable.htm" target="_blank">enable()</a></li>
+        <li class="divided" data-msg="controls">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?controls.htm" target="_blank">controls()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Photoswipe</strong></li>
+        <li class="divided" data-msg="showGallery">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?showgallery.htm" target="_blank">showGallery()</a></li>
+        <li class="divided" data-msg="columnWidth">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?columnwidth.htm" target="_blank">columnWidth()</a></li>
+        <li class="divided" data-msg="getCurrImage">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getcurrentimage.htm" target="_blank">getCurrentImage()</a></li>
+        <li class="divided" data-msg="IndgetCurrImageInd">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getcurrentimageindex.htm" target="_blank">getCurrentImageIndex()</a></li>
+        <li class="divided" data-msg="getPhotoSwipe">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getphotoswipeobject.htm" target="_blank">getPhotoswipeObject()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Tab</strong></li>
+        <li class="divided" data-msg="getcurrenttabindex">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getcurrenttabindex.htm" target="_blank">getCurrentTabIndex()</a></li>
+        <li class="divided" data-msg="selecttab">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?selecttab.htm" target="_blank">selectTab()</a></li>
+        <li class="divided" data-msg="enabletab">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?enabletab.htm" target="_blank">enableTab()</a></li>
+        <li class="divided" data-msg="visibletab">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?visibletab.htm" target="_blank">visibleTab()</a></li>
+      </ul>
+    </div>
+    <div class="pkg enterprise">
+      <div class="pricing-cap purple">
+        <h4>
+          Server Side API</h4>
+      </div>
+      <div class="middle">
+        &nbsp;</div>
+      <div class="bottom">
+        &nbsp;</div>
+      <ul class="cheat">
+        <li class="divided" data-msg="">
+          <strong>Console Objects</strong></li>
+        <li class="divided" data-msg="log">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?log.htm" target="_blank">log()</a></li>
+        <li class="divided" data-msg="dir">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?dir.htm" target="_blank">dir()</a></li>
+        <li class="divided" data-msg="">
+          <strong>SSJ Objects</strong></li>
+        <li class="divided" data-msg="">
+          <strong>Web Service Calls</strong></li>
+        <li class="divided" data-msg="httpRequest">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?httprequest2.htm" target="_blank">httpRequest()</a></li>
+        <li class="divided" data-msg="httpRequestadv">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?httprequestadv.htm" target="_blank">httpRequestAdv()</a></li>
+        <li class="divided" data-msg="soapRequest">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?soaprequest2.htm" target="_blank">soapRequest()</a></li>
+        <li class="divided" data-msg="netTime">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?networktimeout.htm" target="_blank">networkTimeout()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Security</strong></li>
+        <li class="divided" data-msg="getLoggedUser">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getloggeduser.htm" target="_blank">getLoggedUser()</a></li>
+        <li class="divided" data-msg="getOwnerUser">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getowneruser.htm" target="_blank">getOwnerUser()</a></li>
+        <li class="divided" data-msg="setSessionObject">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setsessionobject.htm" target="_blank">setSessionObject()</a></li>
+        <li class="divided" data-msg="getSessionObject">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getsessionobject.htm" target="_blank">getSessionObject()</a></li>
+        <li class="divided" data-msg="deleteSessionObject">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?deletesessionobject.htm" target="_blank">deleteSessionObject()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Database</strong></li>
+        <li class="divided" data-msg="getConnection">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getconnection.htm" target="_blank">getConnection()</a></li>
+        <li class="divided" data-msg="getConnectionbyName">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getconnectionbyname.htm" target="_blank">getConnectionByName()</a></li>
+        <li class="divided" data-msg="beginTransaction">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?begintransaction.htm" target="_blank">beginTransaction()</a></li>
+        <li class="divided" data-msg="commit">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?commit.htm" target="_blank">commit()</a></li>
+        <li class="divided" data-msg="rollback">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?rollback.htm" target="_blank">rollback()</a></li>
+        <li class="divided" data-msg="insert">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?insert.htm" target="_blank">insert()</a></li>
+        <li class="divided" data-msg="update">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?update.htm" target="_blank">update()</a></li>
+        <li class="divided" data-msg="delite">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?delete.htm" target="_blank">delete()</a></li>
+        <li class="divided" data-msg="exec">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?exec.htm" target="_blank">exec()</a></li>
+        <li class="divided" data-msg="lastInsertId">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?lastinsertid.htm" target="_blank">lastInsertId()</a></li>
+        <li class="divided" data-msg="quote">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?quote.htm" target="_blank">quote()</a></li>
+        <li class="divided" data-msg="quoteInto">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?quoteinto.htm" target="_blank">quoteInto()</a></li>
+        <li class="divided" data-msg="select">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?select.htm" target="_blank">select()</a></li>
+        <li class="divided" data-msg="selectFrom">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?select_from.htm" target="_blank">select().from()</a></li>
+        <li class="divided" data-msg="selectWhere">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?select_where.htm" target="_blank">select().where()</a></li>
+        <li class="divided" data-msg="selectOrWhere">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?orwhere.htm" target="_blank">select().orWhere()</a></li>
+        <li class="divided" data-msg="selectGroup">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?select_group.htm" target="_blank">select().group()</a></li>
+        <li class="divided" data-msg="selectOrder">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?select_order.htm" target="_blank">select().order()</a></li>
+        <li class="divided" data-msg="selectJoin">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?select_join.htm" target="_blank">select().join()</a></li>
+        <li class="divided" data-msg="selectLimit">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?select_limit.htm" target="_blank">select().limit()</a></li>
+        <li class="divided" data-msg="getSQL">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getsql.htm" target="_blank">getSql()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Miscellaneous</strong></li>
+        <li class="divided" data-msg="appid">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?appid.htm" target="_blank">appId()</a></li>
+        <li class="divided" data-msg="appname">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?appname.htm" target="_blank">appName()</a></li>
+        <li class="divided" data-msg="getlateError">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getlatesterror.htm" target="_blank">getLatestError()</a></li>
+        <li class="divided" data-msg="getLoggedUser">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getloggeduser2.htm" target="_blank">getLoggedUser()</a></li>
+        <li class="divided" data-msg="setUserParameter">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setuserparameter.htm" target="_blank">setUserParameter()</a></li>
+        <li class="divided" data-msg="getUserParameter">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getuserparameter.htm" target="_blank">getUserParameter()</a></li>
+        <li class="divided" data-msg="sendemail">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?sendemail2.htm" target="_blank">sendEmail()</a></li>
+        <li class="divided" data-msg="sleep">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?sleep.htm" target="_blank">sleep()</a></li>
+        <li class="divided" data-msg="hash">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?cryptblowfish.htm" target="_blank">hash()</a></li>
+        <li class="divided" data-msg="checkHash">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?checkcryptblowfish.htm" target="_blank">checkHash()</a></li>
+        <li class="divided" data-msg="md5">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?md5.htm" target="_blank">md5()</a></li>
+        <li class="divided" data-msg="getUUID">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getuuid.htm" target="_blank">getUUID()</a></li>
+        <li class="divided" data-msg="obj2json">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?obj2json.htm" target="_blank">OBJ2JSON()</a></li>
+        <li class="divided" data-msg="json2obj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?json2obj.htm" target="_blank">JSON2OBJ()</a></li>
+        <li class="divided" data-msg="obj2xml">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?obj2xml.htm" target="_blank">OBJ2XML()</a></li>
+        <li class="divided" data-msg="xml2obj">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?xml2obj.htm" target="_blank">XML2OBJ()</a></li>
+        <li class="divided" data-msg="">
+          <strong>SYS Objects</strong></li>
+        <li class="divided" data-msg="">
+          <strong>User Management</strong></li>
+        <li class="divided" data-msg="getmemberof">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getmemberof.htm" target="_blank">getMemberOf()</a></li>
+        <li class="divided" data-msg="loaduserslist">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?loaduserslist.htm" target="_blank">getUsersList()</a></li>
+        <li class="divided" data-msg="createuser">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?createuser.htm" target="_blank">createUser()</a></li>
+        <li class="divided" data-msg="deleteuser">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?deleteuser.htm" target="_blank">deleteUser()</a></li>
+        <li class="divided" data-msg="saveuser">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?saveuser.htm" target="_blank">saveUser()</a></li>
+        <li class="divided" data-msg="setuserpassword">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?setuserpassword.htm" target="_blank">setUserPassword()</a></li>
+        <li class="divided" data-msg="getuserbyid">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getuserbyid.htm" target="_blank">getUserById()</a></li>
+        <li class="divided" data-msg="">
+          <strong>Group Management</strong></li>
+        <li class="divided" data-msg="getgroupbyid">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getgroupbyid.htm" target="_blank">getGroupById()</a></li>
+        <li class="divided" data-msg="creategroup.htm">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?creategroup.htm" target="_blank">createGroup()</a></li>
+        <li class="divided" data-msg="updategroup">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?updategroup.htm" target="_blank">updateGroup()</a></li>
+        <li class="divided" data-msg="deletegroup">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?deletegroup.htm" target="_blank">deleteGroup()</a></li>
+        <li class="divided" data-msg="addtogroup">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?addtogroup.htm" target="_blank">addToGroup()</a></li>
+        <li class="divided" data-msg="removefromgroup">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?removefromgroup.htm" target="_blank">removeFromGroup()</a></li>
+        <li class="divided" data-msg="getgroupmembers">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getgroupmembers.htm" target="_blank">getGroupMembers()</a></li>
+        <li class="divided" data-msg="getgroupslist">
+          <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?getgroupslist.htm" target="_blank">getGroupsList()</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
