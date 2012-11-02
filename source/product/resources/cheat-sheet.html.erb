@@ -5,17 +5,19 @@ class_name: resources
 full_width: true
 ---
 
-<nav class="sub">
-  <div class="container">
-    <ul class="clearfix">
-      <li><a href="/product">Overview</a></li>
-      <li><a href="/product/pricing">Pricing</a></li>
-      <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
-      <li><a href="/product/testimonials">Testimonials</a></li>
-      <li class="active"><a href="/product/resources">Resources</a></li>
-    </ul>
-  </div>
-</nav>
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li class="active"><a href="/product/resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
 
 <div id="content-body" class="container">
 

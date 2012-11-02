@@ -30,6 +30,8 @@
       </div>
     </nav>
 
+    <%= yield_content :submenu %>
+
     <% unless current_page.data.full_width %>
 
       <div id="content-body" class="container">

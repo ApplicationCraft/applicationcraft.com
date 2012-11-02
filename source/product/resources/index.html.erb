@@ -5,17 +5,19 @@ class_name: resources
 full_width: true
 ---
 
-<nav class="sub">
-  <div class="container">
-    <ul class="clearfix">
-      <li><a href="/product">Overview</a></li>
-      <li><a href="/product/pricing">Pricing</a></li>
-      <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
-      <li><a href="/product/testimonials">Testimonials</a></li>
-      <li class="active"><a href="/product/resources">Resources</a></li>
-    </ul>
-  </div>
-</nav>
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li class="active"><a href="/product/resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
 
 <section id="resources-section">
   <div class="container">
@@ -43,7 +45,7 @@ full_width: true
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="/product/resources/training-videos">
           <h2>Training Videos</h2>
           <p>We have created more than 60 videos on topics such as Getting Started, Designer Basics, App Layout, Deploying Apps, Coding, Widgets, Integration, and Data Storage.</p>
         </a>

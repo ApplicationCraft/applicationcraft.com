@@ -5,17 +5,19 @@ class_name: products
 full_width: true
 ---
 
-<nav class="sub">
-  <div class="container">
-    <ul class="clearfix">
-      <li class="active"><a href="/product">Overview</a></li>
-      <li><a href="/product/pricing">Pricing</a></li>
-      <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
-      <li><a href="/product/testimonials">Testimonials</a></li>
-      <li><a href="/product/resources">Resources</a></li>
-    </ul>
-  </div>
-</nav>
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li class="active"><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li><a href="/product/resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
 
 <section id="overview-sections">
   <div class="container">
@@ -189,23 +191,23 @@ full_width: true
           <li>
             <h4>Secure</h4>
             <p>Sever Side coding allows you to write secure code that you don't want to expose via the client.</p>
-          </li>  
+          </li>
           <li>
             <h4>Debug</h4>
             <p>You can debug your server side code just as easily as client side debugging.</p>
-          </li>                     
-         <li>          
+          </li>
+         <li>
             <h4>Database Integration</h4>
             <p>Our Server Side API allows easy access to all common relational databases.</p>
-          </li>   
+          </li>
           <li>
             <h4>oAuth Support for Twitter, Facebook, Dropbox etc.</h4>
             <p>oAuth has never been this easy. Not just authentication but also access to APIs like Twitter, Facebook and Dropbox.</p>
-          </li>   
+          </li>
           <li>
             <h4>Payment Processing</h4>
             <p>We've implemented secure payment processing in our no fuss fashion.</p>
-          </li>  
+          </li>
         </ul>
       </li>
 
@@ -215,12 +217,12 @@ full_width: true
           <li>
             <h4>AC Mobile Build = Phonegap/Cordova</h4>
             <p>We've baked Phonegap/Cordova right into Application Craft for AC Apps and non AC Apps.</p>
-          </li>          
+          </li>
           <li>
             <h4>Google Analytics</h4>
             <p>Track user's progress through Apps</p>
           </li>
- 
+
           <li>
             <h4>Full UI Branding</h4>
             <p>Control splash screen, look and feel and appearance so it is perfect for you.</p>
@@ -244,7 +246,7 @@ full_width: true
           <li>
             <h4>And much more ...</h4>
             <p>There are lots more features designed to make your life as easy as possible.</p>
-          </li>                                                                            
+          </li>
         </ul>
       </li>
     </ul>
