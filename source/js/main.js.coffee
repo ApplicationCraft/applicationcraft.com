@@ -17,3 +17,7 @@ $ ->
       do $('aside').hide
     else
       do $('aside').show
+
+
+$ ->
+  do $('.fancybox').fancybox

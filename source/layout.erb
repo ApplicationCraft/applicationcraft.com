@@ -46,7 +46,8 @@
 
         <div class="clearfix">
           <aside>
-            &nbsp;
+            <%= yield_content :above_aside %>
+
             <% if current_page.data.active_submenu %>
               <ul>
                 <% data.send(current_page.data.active_submenu).submenu.each do |f| %>
@@ -56,6 +57,9 @@
                 <% end %>
               </ul>
             <% end %>
+
+            <%= yield_content :below_aside %>
+            &nbsp;
           </aside>
 
           <article>

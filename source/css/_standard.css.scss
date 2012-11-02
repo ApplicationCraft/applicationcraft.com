@@ -112,12 +112,13 @@
         display: block;
         float: left;
         width: 250px;
+        color: #666;
 
         ul {
-          margin-top: 0;
+          margin: 0 45px 0 0;
 
           li.active a {
-            color: #000;
+            color: #666;
           }
         }
       }

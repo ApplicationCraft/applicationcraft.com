@@ -1,0 +1,10 @@
+submenu:
+  -
+    text: Introduction
+    url: '/product/resources/training-videos'
+  -
+    text: App Development
+    url: '/product/resources/training-videos/app-development'
+  -
+    text: Getting Started with UI Design in the IDE
+    url: '/product/resources/training-videos/getting-started-with-ui-design'

@@ -1,4 +1,5 @@
-# require "lib/helpers/truncate_helper"
+require "lib/helpers/video_helpers"
+helpers VideoHelpers
 
 
 ###
