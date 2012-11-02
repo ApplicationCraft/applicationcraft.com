@@ -162,19 +162,21 @@ nav.sub {
     padding: 0;
   }
 
+  .container {
+    display: table;
+  }
+
   ul {
-    width: 350px;
     text-align: center;
     margin: 0 auto;
 
-    @include apply-to(more-than, ipad-portrait) {
-      width: 600px;
-    }
-
     li {
-      float: left;
-      margin: 0 8px;
+      display: inline;
+      margin: 0 12px;
 
+      @include apply-to(more-than, iphone-portrait) {
+        margin: 0 6px;
+      }
       @include apply-to(more-than, ipad-portrait) {
         margin: 0 20px;
       }
@@ -189,9 +191,7 @@ nav.sub {
       a {
         font-size: 15px;
         color: #3e3e3e;
-        @include apply-to(more-than, ipad-portrait) {
-          text-transform: uppercase;
-        }
+        text-transform: uppercase;
       }
     }
   }
