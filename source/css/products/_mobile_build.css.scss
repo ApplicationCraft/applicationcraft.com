@@ -54,4 +54,112 @@ body.mobile-build {
 
   }
 
+  section#mb-overview > .container {
+    margin: 40px auto;
+
+    > div {
+      @include apply-to(less-than, ipad-portrait) {
+        padding: 0 10px;
+      }
+
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        padding: 0 10px;
+      }
+
+      @include apply-to(more-than, ipad-landscape) {
+        padding: 0;
+      }
+
+      &:first-child {
+        @include apply-to(less-than, ipad-portrait) {
+          img {
+            display: none;
+          }
+        }
+
+        @include apply-to(more-than, ipad-portrait) {
+          width: 260px;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          width: 460px;
+        }
+      }
+
+      &:last-child {
+        @include apply-to(more-than, ipad-portrait) {
+          width: 460px;
+        }
+        @include apply-to(more-than, ipad-landscape) {
+          width: 520px;
+        }
+
+        article {
+          @include apply-to(less-than, iphone-landscape) {
+            margin-bottom: 50px;
+          }
+
+          margin-bottom: 80px;
+
+          &:last-child {
+            margin-bottom: 30px;
+          }
+
+          h3 {
+            color: #f36050;
+            font: 22px gotham_bookregular;
+            margin: 0 0 26px;
+            text-shadow: 1px 1px 3px #BBB;
+            text-transform: uppercase;
+            border-bottom: 3px solid #CCC;
+            padding-bottom: 10px;
+
+            @include apply-to(more-than, iphone-landscape) {
+              margin: 0;
+            }
+            @include apply-to(more-than, ipad-portrait) {
+              font-size: 32px;
+            }
+            @include apply-to(more-than, ipad-landscape) {
+              margin: 0 0 26px;
+            }
+          }
+
+          p {
+            margin-bottom: 5px;
+          }
+
+          ul {
+            @include no-list-style;
+
+            li {
+              @include apply-to(more-than, iphone-landscape) {
+                float: left;
+                width: 210px;
+              }
+              @include apply-to(more-than, ipad-landscape) {
+                width: 240px;
+              }
+
+              &:nth-child(1), &:nth-child(3) {
+                @include apply-to(more-than, iphone-landscape) {
+                  margin-right: 40px;
+                }
+              }
+
+              h4 {
+                font: 16px gotham_mediumregular;
+                margin-bottom: 0;
+              }
+              p {
+                font-size: 14px;
+                margin: 10px 0 0 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }

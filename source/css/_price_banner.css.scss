@@ -4,6 +4,7 @@
   text-align: center;
   color: #777;
   font: 14px gotham_lightregular;
+  border-top: 1px solid #CCC;
 
   @include apply-to(more-than, ipad-portrait) {
     font-size: 16px;
