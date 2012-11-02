@@ -33,18 +33,21 @@
     <% unless current_page.data.full_width %>
 
       <div id="content-body" class="container">
-        <h1><%= current_page.data.title %></h1>
+        <h1>
+          <button type="button" class="btn btn-navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= current_page.data.title %>
+        </h1>
 
         <div class="clearfix">
           <aside>
             <ul>
               <% data.legal.submenu.each do |f| %>
-                <li>
-                  <% if current_page.data.active_submenu_item == f.url %>
-                    <%= f.text %>
-                  <% else %>
-                    <a href="<%= f.url %>"><%= f.text %></a>
-                  <% end %>
+                <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
+                  <a href="<%= f.url %>"><%= f.text %></a>
                 </li>
               <% end %>
             </ul>

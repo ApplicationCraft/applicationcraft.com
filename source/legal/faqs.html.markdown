@@ -40,7 +40,7 @@ Yes, you can with Pro but not the Free Trial. You use the download option to pac
 ### <a id="TransferTrialFiles"></a>Can I develop an app in the Free Trial and then load it into a Pro account?
 No. You can only export from a Pro Account. You can then cancel your subscription and then import it into someone else's Pro account. Exporting (as opposed to downloading) is for moving an entire app between accounts. If you want to deploy your app on any web server then you download rather than export.
  
-#Purchasing & Subscriptions
+## Purchasing & Subscriptions
 
 ### <a id="MonthlyToAnnual"></a>If I purchase the AC Pro Platform on a month-to-month basis, can I change my mind and buy an annual subscription to get the discount?
 Yes. If you decide to change to an annual subscription, you can do it anytime (even mid-month). We will pro-rate the annual for unused time on your monthly subscription. You will not, however, receive a retroactive discount.
