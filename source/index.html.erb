@@ -92,7 +92,7 @@ active_menu_item: home
         <article>
           <h2>From our Blog...</h2>
           <h3><a href="<%= blog.articles.first.url %>"><%= blog.articles.first.title %></a></h3>
-          <p><%= truncate strip_tags(blog.articles.first.body), length: 120, strip_tags: true %> <a href="<%= blog.articles.first.url %>"><nobr>read more &raquo;</nobr></a></p>
+          <p><%= truncate strip_tags(blog.articles.first.body), length: 220, strip_tags: true %> <a href="<%= blog.articles.first.url %>"><nobr>read more &raquo;</nobr></a></p>
         </article>
       </div>
     </section>

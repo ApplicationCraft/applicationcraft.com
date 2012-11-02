@@ -167,10 +167,16 @@ section#content {
           h2 {
             font-size: 18px;
             margin: 0 0 16px;
+            color: #666;
           }
           h3 {
-            font-size: 14px;
-            margin: 10px 0 0;
+            margin: 10px 0 12px;
+            line-height: 1.2em;
+            font-size: 18px;
+
+            @include apply-to(more-than, ipad-landscape) {
+              font-size: 22px;
+            }
           }
           p {
             line-height: 1.4em;
