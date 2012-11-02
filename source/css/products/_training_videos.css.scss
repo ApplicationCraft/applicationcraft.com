@@ -104,7 +104,16 @@ body.training_videos #content-body {
       font-family: gotham_mediumregular;
       text-transform: uppercase;
       padding-left: 34px;
-      margin-top: 0;
+      margin: 0;
+    }
+
+    p {
+      font-size: 15px;
+      margin: 6px 0 0 34px;
+    }
+
+    > div {
+      margin: 20px 0 0 30px;
     }
 
   }

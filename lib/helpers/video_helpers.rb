@@ -9,6 +9,12 @@ module VideoHelpers
         end
       end
 
+      if options[:description]
+        content_tag :p do
+          options[:description]
+        end
+      end
+
       content_tag :div, :class => "clearfix" do
         content_tag :div, :class => "video-thumb" do
           content_tag :span do
@@ -22,15 +28,17 @@ module VideoHelpers
           end
         end
 
-        content_tag :div, :class => "video-references clearfix" do
-          content_tag :h4 do
-            "References..."
-          end
-          content_tag :ul do
-            options[:references].each do |ref|
-              content_tag :li do
-                content_tag :a, :href => ref[:url] do
-                  ref[:title]
+        if options[:references]
+          content_tag :div, :class => "video-references clearfix" do
+            content_tag :h4 do
+              "References..."
+            end
+            content_tag :ul do
+              options[:references].each do |ref|
+                content_tag :li do
+                  content_tag :a, :href => ref[:url] do
+                    ref[:title]
+                  end
                 end
               end
             end
