@@ -3,32 +3,32 @@ submenu:
     text: Introduction
     url: '/product/resources/training-videos'
   -
-    text: App Development
-    url: '/product/resources/training-videos/app-development'
+    text: 1. Getting Started
+    url: '/product/resources/training-videos/getting-started'
   -
-    text: UI Design - Getting Started
-    url: '/product/resources/training-videos/getting-started-with-ui-design'
+    text: 2. An Intro to UI Design
+    url: '/product/resources/training-videos/intro-to-ui-design'
   -
-    text: Adaptive Layout
+    text: 3. Adaptive Layout
     url: '/product/resources/training-videos/advanced-layout'    
   -
-    text: Deploying Apps
+    text: 4. Deploying Apps
     url: '/product/resources/training-videos/deploying-apps'        
   -
-    text: Client Side Javascript
+    text: 5. Client Side Javascript
     url: '/product/resources/training-videos/client-js'
   -
-    text: Server Side Javascript
+    text: 6. Server Side Javascript
     url: '/product/resources/training-videos/server-js'
   -
-    text: Widget Data
+    text: 7. Widget Data
     url: '/product/resources/training-videos/widget-data'
   -
-    text: Mobile Apps
+    text: 8. Mobile Apps
     url: '/product/resources/training-videos/mobile-apps'
   -
-    text: Integration
+    text: 9. Integration
     url: '/product/resources/training-videos/integration'
   -
-    text: Advanced Topics
+    text: 10. Advanced Topics
     url: '/product/resources/training-videos/advanced'    

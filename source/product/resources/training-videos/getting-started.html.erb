@@ -1,0 +1,44 @@
+---
+title: Getting Started
+active_menu_item: product
+class_name: training_videos
+active_submenu: training_videos
+active_submenu_item: /product/resources/training-videos/getting-started
+---
+
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li class="active"><a href="/product/resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
+<% content_for :above_aside do %>
+  <h4>Training Videos</h4>
+<% end %>
+
+<%= training_video '56jct5SJLIo', :title => 'Logging into the Console', :time => '1:28',
+                                  :description => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?the_console.htm',
+                                      :title => 'Console overview' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?private__shared_and_public_fol.htm',
+                                      :title => 'Private and shared folders' }
+                                  ] %>
+
+<%= training_video 'hKftVYFAL8M', :title => 'Creating a new app', :time => '1:08',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?creating_a_new_content_app.htm',
+                                      :title => 'Creating a new app' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?themes_styles.htm',
+                                      :title => 'Themes' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?sharing.htm',
+                                      :title => 'Sharing permissions' }
+                                  ] %>
