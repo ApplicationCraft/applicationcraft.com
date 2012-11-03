@@ -6,5 +6,11 @@ submenu:
     text: App Development
     url: '/product/resources/training-videos/app-development'
   -
-    text: Getting Started with UI Design in the IDE
+    text: UI Design - Getting Started
     url: '/product/resources/training-videos/getting-started-with-ui-design'
+-
+    text: Adaptive Layout and Responsive Design
+    url: '/product/resources/training-videos/advanced-layout'    
+-
+    text: Deploying Apps
+    url: '/product/resources/training-videos/deploying-apps'        
