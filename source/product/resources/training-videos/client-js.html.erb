@@ -1,0 +1,76 @@
+---
+title: Deploying Apps
+active_menu_item: product
+class_name: training_videos
+active_submenu: training_videos
+active_submenu_item: /product/resources/training-videos/client-js
+---
+
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li class="active"><a href="/product/resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
+<% content_for :above_aside do %>
+  <h4>Training Videos</h4>
+<% end %>
+
+<%= training_video 'UYwR5Q2fgeI', :title => 'App & Widget Events', :time => '2:24',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?events.htm',
+                                      :title => 'Events' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?the_code_editor.htm',
+                                      :title => 'Code Editor' }
+                                  ] %>
+
+
+<%= training_video 'pHaov7DW4kM', :title => 'The Code Explorer and Editor', :time => '2:03',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?the_code_editor.htm',
+                                      :title => 'Code Editor' }
+                                  ] %>
+
+<%= training_video '1UIHv__i3uI', :title => 'The Application Craft Client API [2:01]', :time => '2:01',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?functions_you_need_a_lot.htm',
+                                      :title => 'Client API' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?reading_and_writing_app_data.htm',
+                                      :title => 'Widget Reading & Writing' }
+                                  ] %>
+
+<%= training_video 'IMthfeUwnC4', :title => 'Debugging your Apps [1:35]', :time => '1:35',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?debugging_overview.htm',
+                                      :title => 'Debugging' }
+                                  ] %>
+
+<%= training_video 'VnqUqPeXDSE', :title => 'Customizing the Error Handling [2:30]', :time => '2:30',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?error_handling2.htm',
+                                      :title => 'Error Handling' }
+                                  ] %>
+
+<%= training_video '1UIHv__i3uI', :title => 'AJAX functions, timeouts and data population [3:13]', :time => '3:13',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?soap__restful_ajax_calls.htm',
+                                      :title => 'SOAP & RESTfull AJAX Calls' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?setnetworktimeout.htm',
+                                      :title => 'networkTimeout()' }
+                                  ] %>
+
+
+
+
+
+
+
+

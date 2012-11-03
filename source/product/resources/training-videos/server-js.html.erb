@@ -1,0 +1,88 @@
+---
+title: Deploying Apps
+active_menu_item: product
+class_name: training_videos
+active_submenu: training_videos
+active_submenu_item: /product/resources/training-videos/server-js
+---
+
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li class="active"><a href="/product/resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
+<% content_for :above_aside do %>
+  <h4>Training Videos</h4>
+<% end %>
+
+<%= training_video 'LGzP1Uxk5c4', :title => 'A high level overview of server side javascript using Application Craft [3:55]', :time => '3:55',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?data_storage2.htm',
+                                      :title => 'Server Side Data Storage' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?server_side_scripting.htm',
+                                      :title => 'Server Side Scripting' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?where_to_write_ssj_scripts.htm',
+                                      :title => 'Where to write SSJ Scripts' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?database.htm',
+                                      :title => 'Server Side Database functions' },                     
+                                    { :url => '/revisions/current/docs/user-guide/index.html?callservice.htm',
+                                      :title => 'callSSJ()' }
+                                  ] %>
+
+
+<%= training_video 'vOOSCRbH6_Y', :title => 'Setting up databases accessed by Application Craft server side Javascript', :time => '3:08',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?connections.htm',
+                                      :title => 'Connections' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?server_side_api.htm',
+                                      :title => 'Server Side API Reference' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?getconnection.htm',
+                                      :title => 'getConnection()' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?getconnectionbyname.htm',
+                                      :title => 'getConnectionByName()' }
+                                  ] %>
+
+
+<%= training_video '88rEQc8Itvk', :title => 'An overview on coding up your server side javascript calls in Application Craft', :time => '2:53',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?callservice.htm',
+                                      :title => 'callSSJ()' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?callbacks_to_your_client_scrip.htm',
+                                      :title => 'Callbacks to your Client Scripts' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?getconnection.htm',
+                                      :title => 'getConnection()' }
+                                  ] %>
+
+
+<%= training_video 'qY9M8bP9b70', :title => 'A detailed look at coding up client / server side javascript calls in Application Craft [7:24]', :time => '7:24',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?callbacks_to_your_client_scrip.htm',
+                                      :title => 'Callbacks to your Client Scripts' },
+                                    { :url => '/revisions/current/docs/user-guide/getting_widget_data_into_an_ob.htm',
+                                      :title => 'Getting Widget Data into an Object' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?getconnection.htm',
+                                      :title => 'getConnection()' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?writing_secure_code.htm',
+                                      :title => 'Writing Secure Code' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?database.htm',
+                                      :title => 'Server Side Database functions' },          
+                                    { :url => '/revisions/current/docs/user-guide/index.html?exec.htm',
+                                      :title => 'exec()' }
+                                  ] %>
+
+<%= training_video '2Ok6kj9S_Xs', :title => 'Debugging server side javascript with Application Craft', :time => '2:18',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?debugging2.htm',
+                                      :title => 'SSJ Debug' }
+                                  ] %>
+
+

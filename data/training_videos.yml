@@ -8,9 +8,27 @@ submenu:
   -
     text: UI Design - Getting Started
     url: '/product/resources/training-videos/getting-started-with-ui-design'
--
-    text: Adaptive Layout and Responsive Design
+  -
+    text: Adaptive Layout
     url: '/product/resources/training-videos/advanced-layout'    
--
+  -
     text: Deploying Apps
     url: '/product/resources/training-videos/deploying-apps'        
+  -
+    text: Client Side Javascript
+    url: '/product/resources/training-videos/client-js'
+  -
+    text: Server Side Javascript
+    url: '/product/resources/training-videos/server-js'
+  -
+    text: Widget Data
+    url: '/product/resources/training-videos/widget-data'
+  -
+    text: Mobile Apps
+    url: '/product/resources/training-videos/mobile-apps'
+  -
+    text: Integration
+    url: '/product/resources/training-videos/integration'
+  -
+    text: Advanced Topics
+    url: '/product/resources/training-videos/advanced'    

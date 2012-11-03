@@ -1,0 +1,71 @@
+---
+title: Deploying Apps
+active_menu_item: product
+class_name: training_videos
+active_submenu: training_videos
+active_submenu_item: /product/resources/training-videos/mobile-apps
+---
+
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li class="active"><a href="/product/resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
+<% content_for :above_aside do %>
+  <h4>Training Videos</h4>
+<% end %>
+
+<%= training_video 'BelIr0vzxlU', :title => 'Designing a Mobile UI', :time => '2:57',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?desktop_vs__mobile.htm',
+                                      :title => 'Mobile Apps & Sites' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?page2.htm',
+                                      :title => 'Page Functions' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?mobile_navigation_toolbar.htm',
+                                      :title => 'Mobile Navigation Bar' }  
+                                  ] %>
+
+
+<%= training_video 'jgBOqAV--rU', :title => 'Client API Functions and the Phonegap API', :time => '2:44',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?general.htm',
+                                      :title => 'App Functions' },
+                                    { :url => 'http://docs.phonegap.com/en/1.2.0/index.html',
+                                      :title => 'PhoneGap API Documentation' }                                      
+                                  ] %>
+
+<%= training_video 'xMaLI9Fa93Q', :title => 'Ripple Emulator', :time => '3:03',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?native_apps.htm',
+                                      :title => 'Ripple Emulator' }
+                                  ] %>
+
+<%= training_video 'IMthfeUwnC4', :title => 'Phonegap:Build', :time => '2:47',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?phonegapbuild.htm',
+                                      :title => 'PhoneGap:Build' }
+                                  ] %>                                  
+
+<%= training_video 'lZ-AAMuPVNA', :title => 'Deploying Mobile Apps', :time => '1:18',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?applications.htm',
+                                      :title => 'Deployment Options' }
+                                  ] %>
+
+<%= training_video 'ITkE2fsTOiI', :title => 'The switchApp() debugging trick', :time => '2:22',
+                                  :references => [
+                                    { :url => '/revisions/current/docs/user-guide/index.html?functions_you_need_a_lot.htm',
+                                      :title => 'switchApp()' },
+                                    { :url => '/revisions/current/docs/user-guide/index.html?native_apps.htm',
+                                      :title => 'Device Based Testing' }
+                                  ] %>
+
