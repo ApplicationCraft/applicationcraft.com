@@ -141,7 +141,7 @@ body.mobile-build {
                 width: 240px;
               }
 
-              &:nth-child(1), &:nth-child(3) {
+              &:nth-child(odd) {
                 @include apply-to(more-than, iphone-landscape) {
                   margin-right: 40px;
                 }
