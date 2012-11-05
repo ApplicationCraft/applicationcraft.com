@@ -76,7 +76,7 @@ activate :sync do |sync|
   sync.aws_access_key_id = 'AKIAIPVOXFET7XX3GXJA' # Your Amazon S3 access key
   sync.aws_secret_access_key = '9EeKSGwI4BYwUStUxaKnTDhxQw9ChY+rpx6R3H7L' # Your Amazon S3 access secret
   sync.existing_remote_files = 'keep' # What to do with your existing remote files? ( keep or delete )
-  # sync.after_build = false # Disable sync to run after Middleman build ( defaults to true )
+  sync.after_build = true # Disable sync to run after Middleman build ( defaults to true )
 end
 
 # Build-specific configuration
