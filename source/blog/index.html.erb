@@ -1,29 +1,52 @@
 ---
+title: Blog &amp; News...
 pageable: true
-per_page: 10
+per_page: 4
+class_name: blog
+full_width: true
 ---
 
-<section id="content">
-  <div class="container">
 
-    <% if paginate %>
+<div class="container clearfix">
+
+  <section class="posts">
+    <% page_articles.each_with_index do |article, i| %>
+
+      <article>
+        <section class="meta">
+          <p class="date"><%= link_to article.date.strftime('%B %e, %Y'), article %></p>
+
+          <p class="comments">
+            <%= link_to 'Comments', article.url + "#disqus_thread", class: "dsq-comment-count" %>
+          </p>
+        </section>
+
+        <h1><%= link_to article.title, article %></h1>
+        <p><%= article.body %></p>
+      </article>
+
+    <% end %>
+  </section>
+
+
+  <aside>
+    <section id="trial-promo">
+
+    </section>
+  </aside>
+
+  <% if paginate %>
+    <section class="pagination">
       <p>Page <%= page_number %> of <%= num_pages %></p>
 
       <% if prev_page %>
         <p><%= link_to 'Previous page', prev_page %></p>
       <% end %>
-    <% end %>
 
-    <% page_articles.each_with_index do |article, i| %>
-      <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-      <p><%= article.summary %></p>
-    <% end %>
-
-    <% if paginate %>
       <% if next_page %>
         <p><%= link_to 'Next page', next_page %></p>
       <% end %>
-    <% end %>
+    </section>
+  <% end %>
 
-  </div>
-</section>
+</div>
