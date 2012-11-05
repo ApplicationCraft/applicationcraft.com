@@ -1,16 +1,72 @@
+// Typography
+// -------------------------
+$baseFontSize:          14px !default;
+$baseLineHeight:        20px !default;
+
+// Colors
+// -------------------------
+$cream:                 #F8F7EF !default;
+$red:                   #f36050 !default;
+$blue:                  #27B6DA !default;
+
+// Links
+// -------------------------
+$linkColor:             $red !default;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+// Grays
+// -------------------------
+$black:                 #000 !default;
+$grayDarker:            #222 !default;
+$grayDark:              #333 !default;
+$gray:                  #555 !default;
+$grayLight:             #999 !default;
+$grayLighter:           #eee !default;
+$white:                 #fff !default;
+
+// Accent colors
+// -------------------------
+$blue:                  #049cdb !default;
+$blueDark:              #0064cd !default;
+$green:                 #46a546 !default;
+$red:                   #9d261d !default;
+$yellow:                #ffc40d !default;
+$orange:                #f89406 !default;
+$pink:                  #c3325f !default;
+$purple:                #7a43b6 !default;
+
+// Buttons
+// -------------------------
+$btnBackground:                     $white !default;
+$btnBackgroundHighlight:            darken($white, 10%) !default;
+$btnBorder:                         #bbb !default;
+
+$btnPrimaryBackground:              $linkColor !default;
+$btnPrimaryBackgroundHighlight:     adjust-hue($btnPrimaryBackground, 20%) !default;
+
+$btnInfoBackground:                 #5bc0de !default;
+$btnInfoBackgroundHighlight:        #2f96b4 !default;
+
+$btnSuccessBackground:              #62c462 !default;
+$btnSuccessBackgroundHighlight:     #51a351 !default;
+
+$btnWarningBackground:              lighten($orange, 15%) !default;
+$btnWarningBackgroundHighlight:     $orange !default;
+
+$btnDangerBackground:               #ee5f5b !default;
+$btnDangerBackgroundHighlight:      #bd362f !default;
+
+$btnInverseBackground:              #444 !default;
+$btnInverseBackgroundHighlight:     $grayDarker !default;
+
+
+
+@import 'mixins';
 @import 'fonts';
 @import 'media';
+@import 'fancybox';
+@import 'buttons';
 
-$cream: #F8F7EF;
-$red: #f36050;
-$blue: #27B6DA;
-
-// Resets to no list style and zero margin and padding.
-@mixin no-list-style() {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 
 
@@ -42,8 +98,48 @@ img {
   }
 }
 
-#sign-in {
 
+// Input styling
+input {
+  font-size: 13px;
+  color: #8e8d8d;
+  padding: 11px 15px 10px 6px;
+  background-color: #fdfdfd;
+  margin: 0;
+  line-height: 20px;
+  box-shadow: inset 2px 2px 4px #f1f1f1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+
+// Modals
+.modal {
+  max-width: 500px;
+
+  h2 {
+    margin: 0;
+    border-bottom: 1px solid #CCC;
+  }
+}
+
+// Sign in modal
+#sign-in {
+  display: none;
+
+  .btn {
+    margin-left: 20px;
+  }
 }
 
 .rounded {
@@ -63,4 +159,3 @@ img {
 @import 'standard';
 @import 'price_banner';
 @import 'signup';
-@import 'fancybox';
