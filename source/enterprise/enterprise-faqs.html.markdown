@@ -1,0 +1,176 @@
+---
+title: Enterprise FAQs
+active_menu_item: product
+class_name: enterprise
+full_width: true
+---
+
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li class="active"><a href="/enterprise">Overview</a></li>
+        <li><a href="/enterprise/enterprise-pricing">Pricing</a></li>
+        <li><a href="/enterprise/enterprise-faqs">FAQ</a></li>
+        <li><a href="/enterprise/enterprise-contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
+<header>
+  <div class="container">
+    <div class="clearfix">
+      <div>
+        <img src="/img/products/mb.gif" alt="" width="80">
+      </div>
+      <div>
+        <h1>AC Enterprise - FAQs</h1>
+        <h2>"Cloud Compile" any HTML5+CSS+JS app to App Store ready binaries</h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="mb-overview">
+  <div class="container clearfix">
+    <div>
+      <img src="/img/products/deployment-screen.png" width="439" height="463">
+    </div>
+    <div>
+
+      <article>
+        <a href="#top" class="back-top scroll_to_top">TOP &#9650;</a>
+        <h3>Easy Peasy!</h1>
+        <p>With AC Mobile Build, you can compile any HTML5 App into a mobile binary in seconds. Running Phonegap/Cordova locally is not for the faint-hearted. AC Mobile Build is! But brave people will love it as well.</p>
+
+        <ul class="clearfix">
+          <li>
+            <h4>AC Apps</h4>
+            <p>Just press the build button then sit back and wait for a few seconds. That's it. </p>
+          </li>
+          <li>
+            <h4>Non AC Apps</h4>
+            <p>If you've built your HTML5+CSS+JS project outside AC, just upload your project and press 'Build'.</p>
+          </li>
+          <li>
+            <h4>All Major Platforms</h4>
+            <p>iOS, Android and Windows Phone (coming very soon) are all supported. Don't worry about compilers ever again.</p>
+          </li>
+          <li>
+            <h4>Beast of Burden</h4>
+            <p>We do the compiling, manage your certiticates, can generate your certificates. We've even added a load of plugins.</p>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <a href="#top" class="back-top scroll_to_top">TOP &#9650;</a>
+        <h3>Curated Plugins</h1>
+        <p>6 ready to go with more to come. We will also publish an interface to allow you to prepare your own for inclusion.</p>
+
+        <ul class="clearfix">
+          <li>
+            <h4>Push Notifications</h4>
+            <p>Support the Xtify Push platform</p>
+          </li>
+          <li>
+            <h4>Scandit</h4>
+            <p>Commercial grade barcode reading from your smartphone. </p>
+          </li>
+          <li>
+            <h4>ZXing</h4>
+            <p>Free barcode reading. </p>
+          </li>
+          <li>
+            <h4>SQLite Database</h4>
+            <p>A full relational database capabilities for your App.</p>
+          </li>
+          <li>
+            <h4>Email</h4>
+            <p>Device level email handling</p>
+          </li>          
+          <li>
+            <h4>Child Browser</h4>
+            <p>A browser window within your App.</p>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <a href="#top" class="back-top scroll_to_top">TOP &#9650;</a>
+        <h3>Access to Device</h1>
+        <p>As AC Mobile Build uses Phonegap/Cordova technology, you can access all the important device components.</p>
+
+        <ul class="clearfix">
+          <li>
+            <h4>Hardware</h4>
+            <p>Acceleromter, Camera, Compass, Gelocation, Audio</p>
+          </li>
+          <li>
+            <h4>OS Features</h4>
+            <p>Connection Checking, Contacts, Events, File System, Notifications, Storage</p>
+          </li>
+          <li>
+            <h4>Check out the API</h4>
+            <p>The Phonegap API is full featured and very easy to use, <a href="http://docs.phonegap.com/" target="_blank">so check it out here.</a></p>
+          </li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<a name="finally"></a>
+<section id="overview-detail">
+  <div class="container clearfix">
+    <a href="#top" class="back-top scroll_to_top">TOP &#9650;</a>
+    <h3>And Finally...</h1>
+
+    <ul class="clearfix">
+      <li>
+        <h3>Introducing...</h3>
+        <ul>
+          <li>
+            <h4>The blog post</h4>
+            <p>Read our <a href="/blog/2012/11/ac-mobile-build">blog entry</a> where we announce AC Mobile Build.</p>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>2 min Overview</h3>
+        <ul>
+          <li>
+            <h4>The videos</h4>
+            <p>From labels to charts, just drag and drop.</p>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>User Guide</h3>
+        <ul>
+          <li>
+            <h4>The docs</h4>
+            <p>Read all about it <a href="http://docs.phonegap.com/" target="_blank">right here</a>.</p>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>Phonegap API</h3>
+        <ul>
+          <li>
+            <h4>The API</h4>
+            <p>The <a href="http://docs.phonegap.com/" target="_blank">Phonegap API</a> can be used from your code.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+
