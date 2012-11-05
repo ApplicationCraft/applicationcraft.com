@@ -15,7 +15,7 @@ body.pricing {
       background-image: url('/img/products/track2.png');
       position: relative;
       background-size: 116%;
-      top: -20px;
+      top: -10px;
     }
     @include apply-to(more-than, ipad-landscape) {
       background-size: inherit;
@@ -27,11 +27,11 @@ body.pricing {
       margin-top: 30px;
 
       @include apply-to(more-than, ipad-portrait) {
-        height: 592px;
+        height: 604px;
         margin-top: 0;
       }
-      @include apply-to(more-than, ipad-portrait) {
-        height: 730px;
+      @include apply-to(more-than, ipad-landscape) {
+        height: 740px;
       }
     }
 
