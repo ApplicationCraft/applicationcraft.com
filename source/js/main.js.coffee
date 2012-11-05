@@ -11,6 +11,7 @@ $ ->
   )
 
 
+# Handles the hidden submenu.
 $ ->
   $('#content-body h1 button').click ->
     if $('aside').is(':visible')
@@ -21,3 +22,8 @@ $ ->
 
 $ ->
   do $('.fancybox').fancybox
+
+
+# Homepage Slideshow.
+$ ->
+  $('body.home header > .carousel').carousel()
