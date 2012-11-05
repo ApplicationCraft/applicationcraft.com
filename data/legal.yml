@@ -18,6 +18,9 @@ submenu:
     text: Terms of Service
     url: /legal/service-terms
   -
+    text: AC Enterprise License
+    url: /legal/enterprise-license    
+  -
     text: Trademark Usage
     url: /legal/tmusage
   -
