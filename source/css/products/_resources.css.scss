@@ -42,7 +42,7 @@ body.resources #resources-section {
       }
 
       @include apply-to(more-than, ipad-portrait) {
-        float: left;
+        display: inline-block;
         width: 46%;
         margin-bottom: 15px;
       }
