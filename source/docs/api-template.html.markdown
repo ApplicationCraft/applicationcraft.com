@@ -4,9 +4,9 @@ active_submenu:
 active_submenu_item:
 ---
 
-#{boolean} showConfirm(title, text, callback())
+##{boolean} showConfirm(title, text, callback())
 
-#Parameters
+##Parameters
 
 <!-- Parameter Table -->
 <table width="100%">
@@ -24,24 +24,23 @@ active_submenu_item:
   </tr>  
 </table>
 
-#Description
+##Description
 You use this when you want to get a Yes/No or OK/Cancel response (browser dependent) from the Respondent using the standard browser message box. You pass in the message to display to the Respondent and you get back a true or false value.
 Rich Text is supported
  
 The example below shows how the response to the question is handled by the callback function.
 
-#Example
+##Example
 
-<pre><code>
-app.showConfirm(undefined, "Are you <b>sure</b> you want to remove the highlighting from the drop down list?",function(response) {
-    if(response) {
-         app.unhighlightWidgets(["timeColor"]);
-         app.pageJump("Farewell");
-    }
-    });
-</code></pre>
+    app.showConfirm(undefined, "Are you <b>sure</b> you want to remove the highlighting from the drop down list?",function(response) {
+        if(response) {
+             app.unhighlightWidgets(["timeColor"]);
+             app.pageJump("Farewell");
+        }
+        });
 
-#Table
+
+##Table
 
 <table width="100%">
   <tr>
@@ -66,7 +65,7 @@ app.showConfirm(undefined, "Are you <b>sure</b> you want to remove the highlight
   </tr>  
 </table>
 
-#See Also
+##See Also
 • [showMessage()](#)
 • [showPrompt()](#)
 • [showPagePopup()](#)
