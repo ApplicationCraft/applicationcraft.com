@@ -4,7 +4,7 @@ date: 2012-10-11
 tags: ace code editor sharethis widget
 ---
 
-We just rolled out a couple of small, but newsworthy new features to the Application Craft platform.<!--break-->
+We just rolled out a couple of small, but newsworthy new features to the Application Craft platform.
 
 ##Updated ACE Code Editor
 First is a major update to the integrated code editor within the IDE, which introduces some really nice improvements and a few little helpers to make your life easier. Our code editor is powered by the open source ACE Editor, which means we get to use the power of open source and bring you some awesome features. This release includes
