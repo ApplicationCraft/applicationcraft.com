@@ -2,6 +2,8 @@
 title: Scandit Partnership - Enterprise quality barcode scanning in AC
 date: 2012-07-09
 tags: scandit barcode scanning
+class_name: blog
+full_width: true
 ---
 
 

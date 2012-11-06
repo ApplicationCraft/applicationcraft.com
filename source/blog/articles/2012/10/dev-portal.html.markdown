@@ -2,6 +2,8 @@
 title: Introducing the Developer Portal
 date: 2012-10-09
 tags: developer portal application craft
+class_name: blog
+full_width: true
 ---
 
 Over the last few months we have been working towards improving and optimising our internal development processes. We have also been thinking hard about how we can include you in these processes, and to improve transparency throughout. So today, I am happy to announce the first step in that endeavour, and introduce the <a href="http://portal.applicationcraft.com" target="_blank">Application Craft Developer Portal</a>

@@ -2,6 +2,8 @@
 title: Accepting Credit Card Payments in AC Apps
 date: 2012-10-09
 tags: credit card payment in mobile and desktop apps 
+class_name: blog
+full_width: true
 ---
 
 Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.

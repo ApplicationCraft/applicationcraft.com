@@ -2,6 +2,8 @@
 title: PhoneGap + Application Craft = Pain-Free Mobile App Development
 date: 2012-01-20
 tags: phonegap cordova build
+class_name: blog
+full_width: true
 ---
 
 Application Craft is very tightly integrated with Phonegap:Build and today Phonegap released their Case Study highlighting this integration.

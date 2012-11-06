@@ -2,6 +2,8 @@
 title: The world's first full-featured visual IDE
 date: 2012-10-22
 tags: online javascript web based ide in the cloud
+class_name: blog
+full_width: true
 ---
 
 This morning I came across a question on Quora, that asked the question:

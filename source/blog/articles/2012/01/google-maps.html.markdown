@@ -2,6 +2,8 @@
 title: New Google Maps V3 Widget
 date: 2012-01-09
 tags: mobile ide apps google maps v3
+class_name: blog
+full_width: true
 ---
 
 In the next few weeks, we will be releasing some exciting new Widgets and features (Reporting, Mail Merge & Document Processing, List Management, Mobile Image Viewer to name a few). I will be describing these in our blog as they start to appear. Our first one is a very cool Google V3 Maps Widget that gives you full map control (display, markers, areas, polygons, polylines, event handling, data binding and more) with the Application Craft ease-of-use.

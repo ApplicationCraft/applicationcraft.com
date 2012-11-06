@@ -2,6 +2,8 @@
 title: What Mark Zuckerberg Really Said About HTML5
 date: 2012-09-13
 tags: html5 mark zuckerberg native apps
+class_name: blog
+full_width: true
 ---
 
 Let's take a quick look at the attention grabbing headline that was issued for maximum publicity rather than maximum fact: Mark Zuckerberg called Facebook's HTML5 app 

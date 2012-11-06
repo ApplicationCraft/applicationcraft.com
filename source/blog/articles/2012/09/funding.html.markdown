@@ -2,6 +2,8 @@
 title: Application Craft Launches Cloud-Based App Platform, Gets $1 Million in Funding
 date: 2012-09-11
 tags: funding application craft
+class_name: blog
+full_width: true
 ---
 
 By Isha Suri in SiliconANGLE

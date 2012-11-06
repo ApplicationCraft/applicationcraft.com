@@ -2,6 +2,8 @@
 title: Why we love the ACE Cloud 9 Editor (and how we've integrated it)
 date: 2012-01-07
 tags: ACE code editor mobile apps ide
+class_name: blog
+full_width: true
 ---
 
 There are some parts of the Application Craft system where we need to give credit to other people or products where it is due. One of these is the ACE Cloud 9 Editor from <a href="http://ace.ajax.org/" target="_blank">ACE Cloud 9 Editor</a>.

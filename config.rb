@@ -32,6 +32,8 @@ helpers VideoHelpers
 #   page "/admin/*"
 # end
 
+# page "/blog/*", :layout => "blog"
+
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
@@ -61,6 +63,7 @@ set :markdown, :autolink => true,
                :hard_wrap => true
 
 activate :blog do |blog|
+  blog.layout     = "blog_layout"
   blog.prefix     = "blog"
   blog.permalink  = ":year/:month/:title.html"
   blog.sources    = "articles/:year/:month/:title.html"

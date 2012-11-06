@@ -2,6 +2,8 @@
 title: The Power of Server Side Javascript
 date: 2012-09-17
 tags: server side javascript mobile app platform
+class_name: blog
+full_width: true
 ---
 
 Most of you will already know that Application Craft gives you the ability to run <a href="/revisions/current/docs/user-guide/index.html?server_side_scripting.htm">Server-Side Javascript</a> code as part of your app, allowing you to securely handle <a href="/revisions/current/docs/user-guide/index.html?database_handling_with_ssj.htm">database connections and communication</a>. It also means you can write custom functions that will be executed within the confines of the server. This functionality is hugely powerful, and extremely conveniant, mainly because you can write Javascript on both the client and server. SSJ has also been a part of Application Craft for several months now.

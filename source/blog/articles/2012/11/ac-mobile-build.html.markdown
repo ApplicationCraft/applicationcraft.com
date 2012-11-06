@@ -2,6 +2,8 @@
 title: AC Mobile Build - a Phonegap:Build alternative with Plugins
 date: 2012-11-10
 tags: phonegap cordova build html5 native apps mobile
+class_name: blog
+full_width: true
 ---
 
 We're really excited to announce the availability of a full-featured alternative to Phonegap:Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins. 
