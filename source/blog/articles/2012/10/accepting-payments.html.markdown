@@ -1,7 +1,7 @@
 ---
 title: Accepting Credit Card Payments in AC Apps
 date: 2012-10-09
-tags: credit card payment in mobile and desktop apps 
+tags: credit card, payments
 class_name: blog
 full_width: true
 ---

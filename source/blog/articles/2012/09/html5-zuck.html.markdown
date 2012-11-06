@@ -1,7 +1,7 @@
 ---
 title: What Mark Zuckerberg Really Said About HTML5
 date: 2012-09-13
-tags: html5 mark zuckerberg native apps
+tags: html5, mark zuckerberg, native
 class_name: blog
 full_width: true
 ---

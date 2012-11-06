@@ -1,7 +1,7 @@
 ---
 title: Why we love the ACE Cloud 9 Editor (and how we've integrated it)
 date: 2012-01-07
-tags: ACE code editor mobile apps ide
+tags: code editor, ide
 class_name: blog
 full_width: true
 ---

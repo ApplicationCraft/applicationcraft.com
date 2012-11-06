@@ -1,7 +1,7 @@
 ---
 title: The Power of Server Side Javascript
 date: 2012-09-17
-tags: server side javascript mobile app platform
+tags: server side javascript, javascript, server
 class_name: blog
 full_width: true
 ---

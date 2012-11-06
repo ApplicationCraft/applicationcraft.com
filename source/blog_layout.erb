@@ -18,6 +18,13 @@
           <section class="meta">
             <p class="date"><%= link_to current_article.date.strftime('%B %e, %Y'), current_article %></p>
 
+            <p class="tagged">Tagged:</p>
+            <ul class="tags">
+              <% current_article.tags.each do |tag| %>
+                <li><%= tag %></li>
+              <% end %>
+            </ul>
+
             <p class="comments">
               <%= link_to 'Comments', current_article.url + "#disqus_thread", class: "dsq-comment-count" %>
             </p>

@@ -1,7 +1,7 @@
 ---
 title: Updated code editor and ShareThis widget
 date: 2012-10-11
-tags: ace code editor sharethis widget
+tags: code editor, sharethis, widgets
 class_name: blog
 full_width: true
 ---

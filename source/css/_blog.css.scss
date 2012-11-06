@@ -77,6 +77,48 @@ body.blog {
           width: 145px;
         }
 
+        p.tagged {
+          display: block;
+          font: 14px gotham_bookregular;
+          margin: 0 0 10px 0;
+          text-transform: uppercase;
+
+          @include apply-to(less-than, ipad-portrait) {
+            display: none;
+          }
+        }
+
+        ul.tags {
+          color: #777;
+          display: block;
+          margin: 0 0 36px 0;
+          padding: 0 0 0 2px;
+          list-style: none;
+
+          @include apply-to(less-than, ipad-portrait) {
+            display: none;
+          }
+
+          li {
+            font-size: 12px;
+            font-style: italic;
+            margin: 0 0 10px 0;
+            position: relative;
+
+            &:after {
+              content: "\2014";
+              font-size: 13px;
+              left: -14px;
+              position: absolute;
+              top: 0;
+            }
+
+            a {
+              color: #777;
+            }
+          }
+        }
+
         p.date {
           border-bottom: 1px solid #ccc;
           font-size: 14px;
