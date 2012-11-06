@@ -22,8 +22,7 @@
             <ul class="clearfix">
               <li class="<%= 'active' if current_page.data.active_menu_item == 'home' %>"><a href="/" class="active">Home</a></li>
               <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>"><a href="/product">Product</a></li>
-              <li class="<%= 'active' if current_page.data.active_menu_item == 'services' %>"><a href="/services">Services</a></li>    
-              <li class="<%= 'active' if current_page.data.active_menu_item == 'blog' %>"><a href="/blog">Blog</a></li>                        
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade <%= 'active' if current_page.data.active_menu_item == 'sign-up' %>"><a href="/get-started">Sign Up Today</a></li>
             </ul>
@@ -41,7 +40,7 @@
           <button type="button" class="btn btn-navbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                      
+            <span class="icon-bar"></span>
           </button>
           <%= current_page.data.title %>
         </h1>
@@ -92,14 +91,14 @@
             <li>
               <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/product">Products</a></li>
+                <li><a href="/product">Product</a></li>
                 <li><a href="/services">Services</a></li>
               </ul>
             </li>
             <li>
               <ul>
-                <li><a href="/product/resources">Developers</a></li>
-                <li><a href="/product/resources">Support</a></li>
+                <li><a href="/developers">Developers</a></li>
+                <li><a href="/developers">Support</a></li>
                 <li><a href="/company/contact-us">Contact</a></li>
               </ul>
             </li>

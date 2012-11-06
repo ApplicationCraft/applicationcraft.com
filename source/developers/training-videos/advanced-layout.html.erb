@@ -1,24 +1,10 @@
 ---
 title: Advanced Layout &amp; Responsive Design
-active_menu_item: product
+active_menu_item: developers
 class_name: training_videos
 active_submenu: training_videos
-active_submenu_item: /product/resources/training-videos/advanced-layout
+active_submenu_item: /developers/training-videos/advanced-layout
 ---
-
-<% content_for :submenu do %>
-  <nav class="sub">
-    <div class="container">
-      <ul class="clearfix">
-        <li><a href="/product">Overview</a></li>
-        <li><a href="/product/pricing">Pricing</a></li>
-        <li><a href="/product/phonegap-mobile-build">Phonegap</a></li>
-        <li><a href="/product/testimonials">Testimonials</a></li>
-        <li class="active"><a href="/product/resources">Resources</a></li>
-      </ul>
-    </div>
-  </nav>
-<% end %>
 
 <% content_for :above_aside do %>
   <h4>Training Videos</h4>
@@ -38,7 +24,7 @@ active_submenu_item: /product/resources/training-videos/advanced-layout
                                     { :url => '/revisions/current/docs/user-guide/index.html?absolute_and_relative_layout.htm',
                                       :title => 'Layout Mode' }
                                   ] %>
-                                  
+
 
 <%= training_video 'SW9LQrrosUI', :title => 'The Importance of Containers', :time => '3:42',
                                   :references => [
@@ -76,14 +62,14 @@ active_submenu_item: /product/resources/training-videos/advanced-layout
                                   :references => [
                                     { :url => '/revisions/current/docs/user-guide/index.html?table_container2.htm',
                                       :title => 'Table Container' }
-                                  ] %>       
+                                  ] %>
 
 <%= training_video 'cHbncpuUwo8', :title => 'Adaptive Layout Rules', :time => '5:50',
                                   :references => [
                                     { :url => '/revisions/current/docs/user-guide/index.html?adaptive_layout_rule_definitio.htm',
                                       :title => 'Adaptive Rule Definition' },
                                     { :url => '/revisions/current/docs/user-guide/index.html?adaptive_layout_event.htm',
-                                      :title => 'Adaptive Rule Events' },     
+                                      :title => 'Adaptive Rule Events' },
                                     { :url => '/revisions/current/docs/user-guide/index.html?panel.htm',
                                       :title => 'Panel Container' }
-                                  ] %>                                                                                            
+                                  ] %>

@@ -1,0 +1,103 @@
+body.developers {
+
+  header {
+    background: #666 url('/img/bgcloth.png') repeat;
+    font-size: 0.8em;
+    padding: 20px 0;
+
+    .container {
+      margin: 0 auto;
+      display: table;
+
+      @include apply-to(less-than, iphone-landscape) {
+        margin: 0 20px;
+      }
+
+      > div {
+        @include apply-to(more-than, ipad-landscape) {
+          margin-left: 170px;
+        }
+
+        h1 {
+          color: $cream;
+          font: 30px gotham_thinregular;
+          text-transform: uppercase;
+          padding: 0;
+          margin: 0;
+        }
+
+        h2 {
+          color: $cream;
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+
+  #developers-section {
+    margin: 70px 0;
+
+    h1 {
+      font: 26px gotham_mediumregular;
+      text-transform: uppercase;
+      text-align: center;
+
+      @include apply-to(more-than, ipad-portrait) {
+        font-size: 30px;
+      }
+      @include apply-to(more-than, ipad-landscape) {
+        font-size: 36px;
+      }
+    }
+
+    h4 {
+      font: 14px gotham_bookregular;
+      text-align: center;
+      line-height: 1.4em;
+      width: 80%;
+      margin: 0 auto;
+
+      @include apply-to(more-than, ipad-portrait) {
+        font-size: 18px;
+      }
+    }
+
+    hr {
+      margin: 2em;
+    }
+
+    ul {
+      @include no-list-style;
+
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        width: 50%;
+      }
+
+      li {
+        margin: 0 30px 40px;
+
+        &:first-child {
+          font: 26px gotham_thinregular;
+          text-transform: uppercase;
+          margin-top: 20px;
+        }
+
+        a:hover h2 {
+          text-decoration: underline;
+        }
+
+        h2 {
+          font: 20px gotham_mediumregular;
+          text-transform: uppercase;
+        }
+
+        p {
+          color: #3e3e3e;
+        }
+      }
+    }
+  }
+}
