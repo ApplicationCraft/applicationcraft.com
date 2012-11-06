@@ -1,6 +1,6 @@
 ---
 title: What Mark Zuckerberg Really Said About HTML5
-old_url: /blog/793-what-mark-zuckerberg-really-said-about-html5
+old_url: "/blog/793-what-mark-zuckerberg-really-said-about-html5"
 date: 2012-09-13
 tags: html5, mark zuckerberg, native
 class_name: blog

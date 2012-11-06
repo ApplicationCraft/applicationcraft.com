@@ -1,6 +1,6 @@
 ---
 title: Introducing the Developer Portal
-old_url: /blog/827-introducing-developer-portal
+old_url: "/blog/827-introducing-developer-portal"
 date: 2012-10-09
 tags: developers, support
 class_name: blog

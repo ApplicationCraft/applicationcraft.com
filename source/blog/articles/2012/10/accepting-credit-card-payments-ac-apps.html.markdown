@@ -1,6 +1,6 @@
 ---
 title: Accepting Credit Card Payments in AC Apps
-old_url: /blog/820-accepting-credit-card-payments-ac-apps
+old_url: "/blog/820-accepting-credit-card-payments-ac-apps"
 date: 2012-10-09
 tags: credit card, payments
 class_name: blog

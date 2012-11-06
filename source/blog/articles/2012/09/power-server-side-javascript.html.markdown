@@ -1,6 +1,6 @@
 ---
 title: The Power of Server Side Javascript
-old_url: /blog/792-power-server-side-javascript
+old_url: "/blog/792-power-server-side-javascript"
 date: 2012-09-17
 tags: server side javascript, javascript, server
 class_name: blog

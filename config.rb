@@ -65,8 +65,8 @@ set :markdown, :autolink => true,
 activate :blog do |blog|
   blog.layout     = "blog_layout"
   blog.prefix     = "blog"
-  blog.permalink  = ":year/:title.html"
-  blog.sources    = "articles/:year/:title.html"
+  blog.permalink  = ":year/:month/:title.html"
+  blog.sources    = "articles/:year/:month/:title.html"
 end
 
 activate :directory_indexes

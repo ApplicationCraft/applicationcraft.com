@@ -1,6 +1,6 @@
 ---
 title: The world's first full-featured visual IDE
-old_url: /blog/828-worlds-first-full-featured-visual-ide
+old_url: "/blog/828-worlds-first-full-featured-visual-ide"
 date: 2012-10-22
 tags: ide, cloud, code editor
 class_name: blog
