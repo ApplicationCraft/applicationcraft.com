@@ -82,10 +82,29 @@ nav.main {
             }
           }
 
+          &:nth-child(4) {
+            @include apply-to(less-than, iphone-portrait) {
+              display: none;
+            }
+          }
+
           a {
             color: #3e3e3e;
-            padding: 0 15px;
+            padding: 0 10px;
+
+            @include apply-to(more-than, iphone-landscape) {
+              padding: 0 15px;
+            }
+
+            @include apply-to(more-than, ipad-portrait) {
+              padding: 0 12px;
+            }
+
+            @include apply-to(more-than, ipad-landscape) {
+              font-size: 16px;
+            }
           }
+
           &.active a {
             color: $red;
           }
@@ -99,14 +118,12 @@ nav.main {
 
             @include apply-to(more-than, ipad-portrait) {
               margin: 0 0 0 10px;
+
               a {
-                background-color: $red;
                 color: #FFF;
-                padding: 20px 18px 23px;
-                font: {
-                  size: 23px;
-                  family: 'gotham_mediumregular';
-                }
+                padding: 24px 12px 28px;
+                background-color: $red;
+                font-family: 'gotham_mediumregular';
 
                 &:hover {
                   color: #000;
@@ -116,8 +133,15 @@ nav.main {
 
             @include apply-to(more-than, ipad-landscape) {
               margin: 0 0 0 20px;
+
               a {
+                background-color: $red;
+                color: #FFF;
                 padding: 33px 18px 42px;
+                font: {
+                  size: 23px;
+                  family: 'gotham_mediumregular';
+                }
               }
             }
           }
