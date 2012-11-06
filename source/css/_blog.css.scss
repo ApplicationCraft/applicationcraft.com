@@ -1,24 +1,66 @@
 body.blog {
 
+  header {
+    background: #666 url('/img/bgcloth.png') repeat;
+    font-size: 0.8em;
+    padding: 20px 0;
+
+    .container {
+      margin: 0 auto;
+      display: table;
+
+      @include apply-to(less-than, iphone-landscape) {
+        margin: 0 20px;
+      }
+
+      > div {
+        @include apply-to(more-than, ipad-landscape) {
+          margin-left: 170px;
+        }
+
+        h1 {
+          color: $cream;
+          font: 30px gotham_thinregular;
+          text-transform: uppercase;
+          padding: 0;
+          margin: 0;
+        }
+
+        h2 {
+          color: $cream;
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
   aside {
     clear: none;
     display: inline-block;
     float: left;
     margin: 10px 0 0 25px;
     width: 210px;
+
+    @include apply-to(less-than, ipad-landscape) {
+      display: none;
+    }
   }
 
   .posts {
     margin-top: 30px;
-    width: 740px;
     float: left;
+
+    @include apply-to(more-than, ipad-portrait) {
+      width: 740px;
+    }
 
     > article {
       margin: 20px 20px 60px;
       border-bottom: 3px solid #ccc;
       padding-bottom: 15px;
 
-      @include apply-to(more-than, ipad-landscape) {
+      @include apply-to(more-than, ipad-portrait) {
         margin: 0 0 60px 0;
         padding: 0 0 20px 170px;
         position: relative;
@@ -27,12 +69,54 @@ body.blog {
       .meta {
         text-align: center;
 
-        @include apply-to(more-than, ipad-landscape) {
+        @include apply-to(more-than, ipad-portrait) {
           left: 10px;
           text-align: left;
           position: absolute;
           top: 18px;
           width: 145px;
+        }
+
+        p.tagged {
+          display: block;
+          font: 14px gotham_bookregular;
+          margin: 0 0 10px 0;
+          text-transform: uppercase;
+
+          @include apply-to(less-than, ipad-portrait) {
+            display: none;
+          }
+        }
+
+        ul.tags {
+          color: #777;
+          display: block;
+          margin: 0 0 36px 0;
+          padding: 0 0 0 2px;
+          list-style: none;
+
+          @include apply-to(less-than, ipad-portrait) {
+            display: none;
+          }
+
+          li {
+            font-size: 12px;
+            font-style: italic;
+            margin: 0 0 10px 0;
+            position: relative;
+
+            &:after {
+              content: "\2014";
+              font-size: 13px;
+              left: -14px;
+              position: absolute;
+              top: 0;
+            }
+
+            a {
+              color: #777;
+            }
+          }
         }
 
         p.date {
@@ -42,7 +126,7 @@ body.blog {
           padding-bottom: 15px;
           width: 50%;
 
-          @include apply-to(more-than, ipad-landscape) {
+          @include apply-to(more-than, ipad-portrait) {
             border: none;
             width: 100%;
           }
@@ -56,7 +140,7 @@ body.blog {
         p.comments {
           font-size: 14px;
 
-          @include apply-to(less-than, ipad-landscape) {
+          @include apply-to(less-than, ipad-portrait) {
             display: none;
           }
         }

@@ -1,7 +1,7 @@
 ---
 title: New Google Maps V3 Widget
 date: 2012-01-09
-tags: mobile ide apps google maps v3
+tags: mobile, ide, google maps
 class_name: blog
 full_width: true
 ---

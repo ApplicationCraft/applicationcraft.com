@@ -1,7 +1,7 @@
 ---
 title: Introducing the Developer Portal
 date: 2012-10-09
-tags: developer portal application craft
+tags: developers, support
 class_name: blog
 full_width: true
 ---

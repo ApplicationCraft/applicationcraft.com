@@ -1,21 +1,39 @@
 <% wrap_layout :layout do %>
 
+  <header>
+    <div class="container">
+      <div>
+        <h1>Gettin' Crafty</h1>
+        <h2>A Blog written by Application Craft - the Visual IDE people</h2>
+      </div>
+    </div>
+  </header>
+
   <div class="container clearfix">
 
     <section class="posts">
 
-      <article>
-        <section class="meta">
-          <p class="date"><%= link_to current_article.date.strftime('%B %e, %Y'), current_article %></p>
+      <% if is_blog_article? %>
+        <article>
+          <section class="meta">
+            <p class="date"><%= link_to current_article.date.strftime('%B %e, %Y'), current_article %></p>
 
-          <p class="comments">
-            <%= link_to 'Comments', current_article.url + "#disqus_thread", class: "dsq-comment-count" %>
-          </p>
-        </section>
+            <p class="tagged">Tagged:</p>
+            <ul class="tags">
+              <% current_article.tags.each do |tag| %>
+                <li><%= tag %></li>
+              <% end %>
+            </ul>
 
-        <h1><%= link_to current_article.title, current_article %></h1>
-        <p><%= yield %></p>
-      </article>
+            <p class="comments">
+              <%= link_to 'Comments', current_article.url + "#disqus_thread", class: "dsq-comment-count" %>
+            </p>
+          </section>
+
+          <h1><%= link_to current_article.title, current_article %></h1>
+          <p><%= yield %></p>
+        </article>
+      <% end %>
 
       <div id="disqus_thread"></div>
       <script type="text/javascript">

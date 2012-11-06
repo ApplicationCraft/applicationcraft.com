@@ -6,6 +6,14 @@ class_name: blog
 full_width: true
 ---
 
+<header>
+  <div class="container">
+    <div>
+      <h1>Gettin' Crafty</h1>
+      <h2>A Blog written by Application Craft - the Visual IDE people</h2>
+    </div>
+  </div>
+</header>
 
 <div class="container clearfix">
 
@@ -15,6 +23,13 @@ full_width: true
       <article>
         <section class="meta">
           <p class="date"><%= link_to article.date.strftime('%B %e, %Y'), article %></p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            <% article.tags.each do |tag| %>
+              <li><%= tag %></li>
+            <% end %>
+          </ul>
 
           <p class="comments">
             <%= link_to 'Comments', article.url + "#disqus_thread", class: "dsq-comment-count" %>

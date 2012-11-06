@@ -1,7 +1,7 @@
 ---
 title: The world's first full-featured visual IDE
 date: 2012-10-22
-tags: online javascript web based ide in the cloud
+tags: ide, cloud, code editor
 class_name: blog
 full_width: true
 ---
