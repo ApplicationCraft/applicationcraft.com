@@ -1,0 +1,28 @@
+tree:
+  -
+    title: Quick Start
+    url: '/product/resources/guide/quick-start'
+  -
+    title: Account Management
+    url: '/product/resources/guide/account-management'
+    -
+      title: Notifications
+      url: '/product/resources/guide/account-management/notifications'
+    -
+      title: Quick Start Menu
+      url: '/product/resources/guide/account-management/quick-start-menu'
+  -
+    title: The Console
+    url: '/product/resources/guide/the-console'
+    -
+      title: General Screen Behaviour
+      url: '/product/resources/guide/the-console/general-screen-behaviour'
+    -
+      title: Console Tabs
+      url: '/product/resources/guide/the-console/console-tabs'
+      -
+        title: Apps
+        url: '/product/resources/guide/the-console/console-tabs/apps'
+      -
+        title: Resources
+        url: '/product/resources/guide/the-console/console-tabs/resources'
