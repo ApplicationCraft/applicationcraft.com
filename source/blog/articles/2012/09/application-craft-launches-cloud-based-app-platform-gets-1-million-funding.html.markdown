@@ -1,7 +1,8 @@
 ---
 title: Application Craft Launches Cloud-Based App Platform, Gets $1 Million in Funding
+old_url: /blog/800-application-craft-launches-cloud-based-app-platform-gets-1-million-funding
 date: 2012-09-11
-tags: company
+tags: company, press release
 class_name: blog
 full_width: true
 ---

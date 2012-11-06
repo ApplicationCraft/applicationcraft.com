@@ -39,6 +39,9 @@
       <script type="text/javascript">
           /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
           var disqus_shortname = 'applicationcraftwebsite'; // required: replace example with your forum shortname
+          <% if current_page.data.old_url %>
+            var disqus_identifier = 'http://www.applicationcraft.com<%= current_page.data.old_url %>';
+          <% end %>
 
           /* * * DON'T EDIT BELOW THIS LINE * * */
           (function() {

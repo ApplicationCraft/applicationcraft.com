@@ -1,5 +1,6 @@
 ---
 title: Why we love the ACE Cloud 9 Editor (and how we've integrated it)
+old_url: /blog/720-why-we-love-ace-cloud-9-editor-and-how-weve-integrated-it
 date: 2012-01-07
 tags: code editor, ide
 class_name: blog
