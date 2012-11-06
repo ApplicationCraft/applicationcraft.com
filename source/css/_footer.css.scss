@@ -30,26 +30,44 @@ footer {
 
         ul {
           margin: 0 30px;
+          font-size: 0px;
+          list-style: none;
 
           li {
-            background: url('/img/social.gif');
-            text-indent: -9999px;
-            float: left;
+            display: inline-block;
             margin: 15px 5px 0;
 
             a {
-              width: 50px;
-              height: 51px;
+              background: url('/img/social.gif') no-repeat 0 0;
+              text-indent: -9999px;
               margin: 0;
+
+              &:hover span {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                transform: rotate(360deg);
+              }
+
+              span {
+                background: url('/img/social.gif') no-repeat 0 0;
+                display: block;
+                width: 50px;
+                height: 51px;
+                position: relative;
+                z-index: 10;
+                -webkit-transition: -webkit-transform 0.4s ease-out;
+                -moz-transition: -moz-transform 0.4s ease-out;
+                transition: transform 0.4s ease-out;
+              }
             }
 
-            &:nth-child(2) {
+            &:nth-child(2) a, &:nth-child(2) a span {
               background-position: -71px 0;
             }
-            &:nth-child(3) {
+            &:nth-child(3) a, &:nth-child(3) a span {
               background-position: -143px 0;
             }
-            &:nth-child(4) {
+            &:nth-child(4) a, &:nth-child(4) a span {
               background-position: -213px 0;
             }
           }
