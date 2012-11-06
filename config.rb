@@ -63,7 +63,7 @@ set :markdown, :autolink => true,
                :hard_wrap => true
 
 activate :blog do |blog|
-  blog.layout     = "blog_layout"
+  blog.layout     = "blog"
   blog.prefix     = "blog"
   blog.permalink  = ":year/:month/:title.html"
   blog.sources    = "articles/:year/:month/:title.html"
