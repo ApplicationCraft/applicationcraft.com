@@ -1,5 +1,6 @@
 ---
 title: Scandit Partnership - Enterprise quality barcode scanning in AC
+old_url: "/blog/722-scandit-partnership-enterprise-quality-barcode-scanning-application-craft"
 date: 2012-07-09
 tags: barcode, scanning
 class_name: blog

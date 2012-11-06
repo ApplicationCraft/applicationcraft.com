@@ -45,6 +45,18 @@ body.blog {
     @include apply-to(less-than, ipad-landscape) {
       display: none;
     }
+
+    #latest-posts {
+      h4 {
+        text-transform: uppercase;
+        margin: 100px 0 0 38px;
+      }
+
+      li {
+        margin: 10px 0;
+        font-size: 12px;
+      }
+    }
   }
 
   .posts {
