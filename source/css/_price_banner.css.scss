@@ -8,7 +8,8 @@ body.home #price-banner {
   text-align: center;
   color: #777;
   font: 14px gotham_lightregular;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #DDD;
+  @include box-shadow(1px 1px 3px #CCC);
 
   @include apply-to(more-than, ipad-portrait) {
     font-size: 16px;

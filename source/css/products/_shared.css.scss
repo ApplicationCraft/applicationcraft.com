@@ -1,9 +1,17 @@
-body.products,
-body.services {
+body.products {
 
   #overview-sections {
     background: #666 url('/img/bgcloth.png') repeat;
     font-size: 0.8em;
+
+    .container > h1 {
+      color: $cream;
+      font: 26px gotham_thinregular;
+      text-transform: uppercase;
+      padding: 28px 0 0;
+      margin: 0 auto;
+      text-align: center;
+    }
 
     ul {
       @include no-list-style;
