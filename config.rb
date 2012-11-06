@@ -32,7 +32,7 @@ helpers VideoHelpers
 #   page "/admin/*"
 # end
 
-page "/blog/*", :layout => "blog_layout"
+# page "/blog/*", :layout => "blog_layout"
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
