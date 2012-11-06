@@ -151,10 +151,10 @@ section#slide1 {
         p:last-child {
           font-size: 40px;
           @include apply-to(more-than, iphone-landscape) {
-            font-size: 55px;
+            font-size: 45px;
           }
           @include apply-to(more-than, ipad-landscape) {
-            font-size: 67px;
+            font-size: 50px;
           }
         }
       }
