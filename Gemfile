@@ -5,7 +5,7 @@ gem "middleman-blog"
 # gem "middleman-sync"
 # gem 'middleman-smusher'
 gem "middleman-deploy"
-# gem "builder"
+gem "builder"
 
 gem 'therubyracer'  # faster ExecJS
 gem 'oj'            # faster JSON
