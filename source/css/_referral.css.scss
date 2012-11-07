@@ -1,11 +1,115 @@
-#referral-form {
-  input[type=submit] {
-    height: 42px;
-    margin-top: 0;
-  }
-}
+body.referral-program {
 
-#shareThisShareEgg {
-  display: none;
-  visibility: hidden;
+  header {
+    background: #666 url('/img/bgcloth.png') repeat;
+    font-size: 0.8em;
+    padding: 20px 0;
+
+    div {
+      margin: 0 auto;
+      text-align: center;
+
+      h1 {
+        color: $cream;
+        font: 30px gotham_bookregular;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+
+        @include apply-to(more-than, ipad-portrait) {
+          font-size: 52px;
+        }
+      }
+
+      h2 {
+        color: $cream;
+        margin: 0;
+        font-size: 14px;
+
+        @include apply-to(more-than, iphone-landscape) {
+          width: 370px;
+        }
+
+        @include apply-to(more-than, ipad-portrait) {
+          font-size: 18px;
+          width: inherit;
+        }
+      }
+    }
+  }
+
+  #referral-form {
+    input[type=submit] {
+      height: 42px;
+      margin-top: 0;
+    }
+  }
+
+  #referral-text {
+    margin-bottom: 50px;
+
+    > div {
+      float: left;
+      width: 45%;
+
+      &:first-child {
+        margin-right: 40px;
+      }
+
+      &:last-child {
+        margin-left: 40px;
+      }
+    }
+  }
+
+  #coupon {
+    margin: 40px 0;
+    padding: 6px;
+    background-color: #FFF;
+    text-align: center;
+    @include box-shadow(1px 1px 3px #666);
+
+    > div {
+      background: white url("/img/barcode.jpg") no-repeat 20px center;
+      border: 5px dashed #666;
+      padding: 30px 30px 30px 130px;
+
+      h1 {
+        font: 26px gotham_bookregular;
+
+        span.logo {
+          font: 46px gotham_bookregular;
+          text-transform: uppercase;
+
+          > span {
+            color: $red;
+            font-family: gotham_mediumregular;
+          }
+        }
+      }
+
+      h2 {
+        margin-bottom: 0;
+      }
+
+      h3 {
+        margin-top: 0;
+      }
+
+      p.terms {
+        margin-top: 40px;
+        font-size: 12px;
+        text-align: left;
+      }
+
+      #referral-url {
+        margin-top: 20px;
+
+        code {
+          display: block;
+        }
+      }
+    }
+  }
+
 }
