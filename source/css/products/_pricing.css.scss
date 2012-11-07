@@ -15,12 +15,12 @@ body.pricing {
 
       @include apply-to(more-than, ipad-portrait) {
         background-image: url("/img/products/track.png");
-        background-position: -52px 43px;
+        background-position: -52px 65px;
         height: 770px;
         margin-top: 0;
       }
       @include apply-to(more-than, ipad-landscape) {
-        background-position: left 40px;
+        background-position: left 65px;
         background-size: inherit;
       }
     }
@@ -70,7 +70,7 @@ body.pricing {
           padding-top: 130px;
         }
         @include apply-to(more-than, ipad-portrait) {
-          padding-top: 40px;
+          padding-top: 60px;
         }
       }
 
