@@ -1,5 +1,5 @@
 ---
-title: Terms of Service
+title: AC Cloud License
 active_submenu: legal
 active_submenu_item: /legal/service-terms
 ---

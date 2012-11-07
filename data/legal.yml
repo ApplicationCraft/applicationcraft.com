@@ -15,7 +15,7 @@ submenu:
     text: Support Policy
     url: /legal/support
   -
-    text: Terms of Service
+    text: AC Cloud License
     url: /legal/service-terms
   -
     text: AC Enterprise License
