@@ -67,6 +67,7 @@ body.referral-program {
     padding: 6px;
     background-color: #FFF;
     text-align: center;
+    @include border-radius(2px);
     @include box-shadow(1px 1px 3px #666);
 
     > div {
