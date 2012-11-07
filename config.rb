@@ -71,15 +71,11 @@ end
 
 activate :directory_indexes
 
-# Activate sync extension
-activate :sync do |sync|
-  sync.fog_provider = 'AWS' # Your storage provider
-  sync.fog_directory = 'ac-site' # Your bucket name
-  # sync.fog_region = 'bucket-region-name' # The region your storage bucket is in (eg us-east-1, us-west-1, eu-west-1, ap-southeast-1 )
-  sync.aws_access_key_id = 'AKIAIPVOXFET7XX3GXJA' # Your Amazon S3 access key
-  sync.aws_secret_access_key = '9EeKSGwI4BYwUStUxaKnTDhxQw9ChY+rpx6R3H7L' # Your Amazon S3 access secret
-  sync.existing_remote_files = 'keep' # What to do with your existing remote files? ( keep or delete )
-  sync.after_build = true # Disable sync to run after Middleman build ( defaults to true )
+activate :deploy do |deploy|
+  deploy.method = :rsync
+  deploy.user = "middleman"
+  deploy.host = "sitestaging.applicationcraft.com"
+  deploy.path = "/home/middleman/www/site-staging"
 end
 
 # Build-specific configuration
