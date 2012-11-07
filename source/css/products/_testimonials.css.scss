@@ -130,7 +130,7 @@ body.testimonials #testimonials-section {
       height: 70px;
       border: 5px solid #fff;
       border-radius: 50%;
-      background: #FFF url(/img/logos/anon.jpg) no-repeat center center;
+      background: #FFF image-url('logos/anon.jpg') no-repeat center center;
       background-size: 100%;
       position: absolute;
       right: 10px;
@@ -139,29 +139,29 @@ body.testimonials #testimonials-section {
     }
 
     &#testimonial-hcri .mb-thumb {
-      background-image: url(/img/logos/hcri.png);
+      background-image: image-url('logos/hcri.png');
       background-position: center center;
       background-size: 100%;
     }
     &#testimonial-coke .mb-thumb {
-      background-image: url(/img/logos/coke.png);
+      background-image: image-url('logos/coke.png');
       background-position: left center;
       background-size: 200%;
     }
     &#testimonial-gift .mb-thumb {
-      background-image: url(/img/logos/gift.png);
+      background-image: image-url('logos/gift.png');
       background-position: center center;
     }
     &#testimonial-i360 .mb-thumb {
-      background-image: url(/img/logos/i360views.png);
+      background-image: image-url('logos/i360views.png');
       background-position: center center;
       background-size: 150%;
     }
     &#testimonial-ndtech .mb-thumb {
-      background-image: url(/img/logos/ndtech.png);
+      background-image: image-url('logos/ndtech.png');
       background-position: center center;
       background-size: 100%;
-    }    
+    }
   }
 
   ul {

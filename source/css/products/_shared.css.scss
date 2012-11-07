@@ -1,7 +1,7 @@
 body.products {
 
   #overview-sections {
-    background: #666 url('/img/bgcloth.png') repeat;
+    background: #666 image-url('bgcloth.png') repeat;
     font-size: 0.8em;
 
     .container > h1 {
@@ -56,16 +56,16 @@ body.products {
         }
 
         &:nth-child(1) a {
-          background: transparent url('/img/products/ui-builder.gif') no-repeat;
+          background: transparent image-url('products/ui-builder.gif') no-repeat;
         }
         &:nth-child(2) a {
-          background: transparent url('/img/products/code-editor.gif') no-repeat;
+          background: transparent image-url('products/code-editor.gif') no-repeat;
         }
         &:nth-child(3) a {
-          background: transparent url('/img/products/deployment.gif') no-repeat;
+          background: transparent image-url('products/deployment.gif') no-repeat;
         }
         &:last-child a {
-          background: transparent url('/img/products/extras.gif') no-repeat;
+          background: transparent image-url('products/extras.gif') no-repeat;
           @include apply-to(more-than, ipad-landscape) {
             margin-right: 0;
           }

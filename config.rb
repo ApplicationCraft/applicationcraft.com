@@ -56,6 +56,7 @@ page "/blog/feed.xml", :layout => false
 set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'img'
+set :fonts_dir, 'fonts'
 
 set :markdown_engine, :redcarpet
 set :markdown, :autolink => true,
@@ -87,9 +88,8 @@ configure :build do
   activate :minify_javascript
 
   activate :gzip
-
-  # Enable cache buster
-  # activate :cache_buster
+  activate :asset_hash
+  activate :cache_buster
 
   # Use relative URLs
   # activate :relative_assets

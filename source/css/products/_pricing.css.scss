@@ -9,12 +9,12 @@ body.pricing {
 
   #pricing-section {
     .container {
-      background: transparent url('/img/products/track-mobile.png') no-repeat center 30px;
+      background: transparent image-url('products/track-mobile.png') no-repeat center 30px;
       font-size: 0.8em;
       height: 984px;
 
       @include apply-to(more-than, ipad-portrait) {
-        background-image: url("/img/products/track.png");
+        background-image: image-url("products/track.png");
         background-position: -52px 65px;
         height: 770px;
         margin-top: 0;

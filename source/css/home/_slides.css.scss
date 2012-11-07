@@ -1,7 +1,7 @@
 @import 'lib/carousel';
 
 header {
-  background: #666 url('/img/bgcloth.png') repeat;
+  background: #666 image-url('bgcloth.png') repeat;
   padding: 10px 0 20px;
 
   @include apply-to(more-than, ipad-portrait) {

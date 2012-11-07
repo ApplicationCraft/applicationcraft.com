@@ -152,7 +152,7 @@ nav.main {
 
   // Navigation pointer
   .active {
-    background: $cream url('/img/products/nav-pointer.gif') no-repeat center 16px;
+    background: $cream image-url('products/nav-pointer.gif') no-repeat center 16px;
     @include apply-to(more-than, ipad-portrait) {
       background-position: center 28px;
     }
@@ -169,7 +169,7 @@ body.home nav.main {
   box-shadow: none;
 
   .active {
-    background-image: url('/img/home/nav-pointer.gif');
+    background-image: image-url('home/nav-pointer.gif');
   }
 }
 

@@ -73,7 +73,7 @@ $btnInverseBackgroundHighlight:     $grayDarker !default;
 body {
   font-family: 'museo_sans_rounded_300regular';
   color: #3e3e3e;
-  background: $cream url('/img/graphbg.gif') repeat;
+  background: $cream image-url('graphbg.gif') repeat;
 }
 
 a {
@@ -145,7 +145,7 @@ input {
   }
 
   a {
-    background: url(/img/blog-ribbon.png) no-repeat scroll top left;
+    background: image-url('blog-ribbon.png') no-repeat scroll top left;
     text-indent: -9999px;
     display: block;
     width: 51px;

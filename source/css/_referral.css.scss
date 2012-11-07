@@ -1,7 +1,7 @@
 body.referral-program {
 
   header {
-    background: #666 url('/img/bgcloth.png') repeat;
+    background: #666 image-url('bgcloth.png') repeat;
     font-size: 0.8em;
     padding: 20px 10px;
 
@@ -93,7 +93,7 @@ body.referral-program {
       padding: 10px 16px;
 
       @include apply-to(more-than, ipad-portrait) {
-        background: white url("/img/barcode.jpg") no-repeat 20px center;
+        background: white image-url("barcode.jpg") no-repeat 20px center;
         padding: 30px 30px 30px 130px;
       }
 

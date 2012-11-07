@@ -3,7 +3,7 @@
   display: block;
   width: 164px;
   height: 66px;
-  background: url("/img/products/cheat-sheet/pricing_caps.png") no-repeat scroll 0 0 transparent;
+  background: image-url("products/cheat-sheet/pricing_caps.png") no-repeat scroll 0 0 transparent;
 }
 .pricing-cap.orange { background-position: 0 -66px; }
 .pricing-cap.green { background-position: 0 -132px; }
@@ -56,8 +56,6 @@
 .pkg.starter .button:hover{background-color:#edd642}
 .pkg.basic .button, .pkg.basic hr{background-color:#fc8158}
 .pkg.basic .button:hover{background-color:#e57650}
-.pkg ul li:hover{background:url(../../images/compchart/sprite4.png) no-repeat -450px -131px}
-.pkg ul.details li:hover{background:url(../../images/compchart/sprite4.png) no-repeat -452px -81px}
 .pkg ul li.unavailable{color:#ccc}
 .pkg ul li.unavailable:hover{background:#fff}
 .pkg ul{padding:0; margin:0}
@@ -67,10 +65,10 @@
 .pkg li.no-border a{color:#666; text-decoration:underline; font-size:15px; display:block; padding-top:6px}
 .pkg li.no-border a:hover{color:#888}
 
-.tooltip{position:absolute; left:410px; top:40px; width:275px; height:160px; z-index:9; background:url(../../images/compchart/sprite4.png) -673px -97px repeat-y; left:0;}
+.tooltip{position:absolute; left:410px; top:40px; width:275px; height:160px; z-index:9; left:0;}
 .tooltip.right{background-position:-666px -257px}
 .tooltip .inner{padding:14px 32px 14px 14px; color:#fff; font-size:13px; line-height:16px}
 .tooltip.right .inner{padding-right:14px; padding-left:32px; }
-.tooltip.bottom{background:url(../../images/compchart/sprite5.png?v=1.1) 0 -600px; width:220px; height:70px}
+.tooltip.bottom{width:220px; height:70px}
 .tooltip.bottom .inner{padding-left:20px; padding-right:20px; padding-top:16px}
 .tooltip b{font-size:15px; display:block; padding-bottom:8px; }
