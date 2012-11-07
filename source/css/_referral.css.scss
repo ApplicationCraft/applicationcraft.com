@@ -3,7 +3,11 @@ body.referral-program {
   header {
     background: #666 url('/img/bgcloth.png') repeat;
     font-size: 0.8em;
-    padding: 20px 0;
+    padding: 20px 10px;
+
+    @include apply-to(more-than, ipad-portrait) {
+      padding: 20px 0;
+    }
 
     div {
       margin: 0 auto;
@@ -11,7 +15,7 @@ body.referral-program {
 
       h1 {
         color: $cream;
-        font: 30px gotham_bookregular;
+        font: 26px gotham_bookregular;
         text-transform: uppercase;
         padding: 0;
         margin: 0;
@@ -26,13 +30,8 @@ body.referral-program {
         margin: 0;
         font-size: 14px;
 
-        @include apply-to(more-than, iphone-landscape) {
-          width: 370px;
-        }
-
         @include apply-to(more-than, ipad-portrait) {
           font-size: 18px;
-          width: inherit;
         }
       }
     }
@@ -49,15 +48,22 @@ body.referral-program {
     margin-bottom: 50px;
 
     > div {
-      float: left;
-      width: 45%;
+      margin: 0 10px;
 
-      &:first-child {
-        margin-right: 40px;
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        width: 42%;
+
+        &:first-child {
+          margin-right: 40px;
+        }
+
+        &:last-child {
+          margin-left: 40px;
+        }
       }
-
-      &:last-child {
-        margin-left: 40px;
+      @include apply-to(more-than, ipad-landscape) {
+        width: 46%;
       }
     }
   }
@@ -70,17 +76,37 @@ body.referral-program {
     @include border-radius(2px);
     @include box-shadow(1px 1px 3px #666);
 
+    @include apply-to(more-than, ipad-portrait) {
+      margin: 25px 10px;
+    }
+
+    input[type=text] {
+      width: 56%;
+    }
+
     > div {
-      background: white url("/img/barcode.jpg") no-repeat 20px center;
       border: 5px dashed #666;
-      padding: 30px 30px 30px 130px;
+      padding: 10px 16px;
+
+      @include apply-to(more-than, ipad-portrait) {
+        background: white url("/img/barcode.jpg") no-repeat 20px center;
+        padding: 30px 30px 30px 130px;
+      }
 
       h1 {
-        font: 26px gotham_bookregular;
+        font: 18px gotham_bookregular;
+
+        @include apply-to(more-than, ipad-portrait) {
+          font-size: 26px;
+        }
 
         span.logo {
-          font: 46px gotham_bookregular;
+          font: 22px gotham_bookregular;
           text-transform: uppercase;
+
+          @include apply-to(more-than, ipad-portrait) {
+            font-size: 46px;
+          }
 
           > span {
             color: $red;
@@ -91,10 +117,12 @@ body.referral-program {
 
       h2 {
         margin-bottom: 0;
+        font-size: 18px;
       }
 
       h3 {
         margin-top: 0;
+        font-size: 14px;
       }
 
       p.terms {
