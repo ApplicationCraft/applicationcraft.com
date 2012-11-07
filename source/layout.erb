@@ -37,13 +37,13 @@
     <% unless current_page.data.full_width %>
 
       <div id="content-body" class="container">
-        <h1>
+        <h1 class="<%= 'no-border' if current_page.data.hide_title %>">
           <button type="button" class="btn btn-navbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <%= current_page.data.title %>
+          <%= current_page.data.title unless current_page.data.hide_title %>
         </h1>
 
         <div class="clearfix">
@@ -146,7 +146,7 @@
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    <!-- <script src="/js/vendor/protofluid.min.js"></script> -->
+    <script src="/js/vendor/protofluid.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     <script src="/js/main.js"></script>
 
