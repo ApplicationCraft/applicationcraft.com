@@ -15,7 +15,7 @@ With this latest release, Application Craft has widen the doors of app developme
  
 “App development has become hugely complex and unapproachable for many developers, so we set out to create a platform for developers of all skill levels who simply want to get their business or consumer app created professionally and out to market quickly,” said Freddy May, founder and CEO, Application Craft. “Listening to our emphatic beta users, I would say that we have already been extremely successful.”
  
-The new platform uses HTML 5 widgets and comes with several advanced features like drag-and-drop interface, 1-Click PhoneGap native app creation tool, Zing charts, circular menus, signature widgets, and multi language app creation. In addition, AC Pro Platform includes enterprise data integration, authentication, app migration, workflow, advanced widgets, database integration tools, support for Google Analytics, and much more.
+The new platform uses HTML 5 widgets and comes with several advanced features like drag-and-drop interface, 1-Click PhoneGap native app creation tool, Zing charts, circular menus, signature widgets, and multi language app creation. In addition, AC Cloud Platform includes enterprise data integration, authentication, app migration, workflow, advanced widgets, database integration tools, support for Google Analytics, and much more.
  
 Not only for developers in general, Application Craft’s platform is used by big giants for big data collection projects. For example, when Coca-Cola Enterprises needed an app for a last-minute data collection project for the 2012 Olympic Games in London, they turned to Application Craft. Besides, the platform is highly useful for independent software developers as a teaching tool for app development.
  

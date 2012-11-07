@@ -71,7 +71,7 @@ At some point we will introduce additional charges for those users whose Apps ge
   - Apps: 10 - Hard
   - Request Length: 60 seconds - Hard</li>
 
-**Application Craft Pro Platform**
+**Application Craft Cloud Platform**
 
   - Network Bandwidth: 100GB/month/developer - Soft
   - Image &amp; Resource Storage: 1GB/developer - Soft
