@@ -3,7 +3,7 @@
 
 #content-body {
   @include apply-to(less-than, ipad-landscape) {
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
 
   > h1 {
@@ -25,6 +25,11 @@
     @include apply-to(more-than, ipad-landscape) {
       padding: 0 0 8px 300px;
     }
+
+    &.no-border {
+      border: none;
+      padding-bottom: 0;
+    }
   }
 
   > div {
@@ -37,6 +42,7 @@
     > article {
       > h2 {
         margin: 2em 0 0.83em;
+
         &:first-child {
           margin-top: 1em;
         }
@@ -111,8 +117,9 @@
       > aside {
         display: block;
         float: left;
-        width: 250px;
+        width: 200px;
         color: #666;
+        margin-top: 10px;
 
         ul {
           margin: 0 45px 0 0;
@@ -125,7 +132,7 @@
 
       > article {
         float: left;
-        width: 495px;
+        width: 550px;
       }
     }
 
