@@ -2,6 +2,14 @@ body.home #price-banner {
   border-top: none;
 }
 
+.bar {
+  background-color: $cream;
+  color: #777;
+  font: 14px gotham_lightregular;
+  border-top: 1px solid #DDD;
+  @include box-shadow(1px 1px 3px #CCC);
+}
+
 #price-banner {
   background-color: $cream;
   text-transform: uppercase;
@@ -85,6 +93,11 @@ body.home #price-banner {
           top: -2px;
         }
       }
+    }
+
+    &.inverse a {
+      background-color: $cream;
+      color: $red;
     }
 
     // No CC needed
