@@ -32,7 +32,7 @@ full_width: true
           </ul>
 
           <p class="comments">
-            <%= link_to 'Comments', article.url + "#disqus_thread", class: "dsq-comment-count" %>
+            <%= link_to 'Comments', "#{article.url}#disqus_thread", :class => "dsq-comment-count" %>
           </p>
         </section>
 
