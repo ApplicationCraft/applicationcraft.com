@@ -1,5 +1,7 @@
 require "lib/helpers/video_helpers"
+require "lib/helpers/tree_helpers"
 helpers VideoHelpers
+helpers TreeHelpers
 
 
 ###
@@ -33,6 +35,7 @@ helpers VideoHelpers
 # end
 
 page "/blog/feed.xml", :layout => false
+page "/developers/user-guide/*", :layout => :docs
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do

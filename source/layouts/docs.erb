@@ -1,0 +1,15 @@
+<% wrap_layout :layout do %>
+
+  <div class="container clearfix docs">
+
+    <h1><span>User Guide</span> <%= current_page.data.title %></h1>
+
+    <%= tree_for :guide %>
+
+    <article>
+      <%= yield %>
+    </article>
+
+  </div>
+
+<% end %>

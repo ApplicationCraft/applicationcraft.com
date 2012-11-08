@@ -1,0 +1,67 @@
+aside.tree {
+  float: left;
+  width: 300px;
+  margin: 32px 20px 50px 15px;
+  font-size: 13px;
+
+  ol {
+    @include no-list-style;
+  }
+
+  li {
+    height: 1em;
+    padding: 5px 0;
+
+    &.checked {
+      height: inherit;
+    }
+
+    a {
+      color: #3e3e3e;
+      margin-left: 16px;
+
+      &.active {
+        color: $red;
+      }
+    }
+
+    label {
+      background: image-url('tree/plus.png') no-repeat 0 2px;
+      padding-left: 16px;
+
+      &.checked {
+        background-image: image-url('tree/minus.png');
+      }
+    }
+
+    input {
+      position: relative;
+      left: -16px;
+      margin-left: 0;
+      opacity: 0;
+      z-index: 2;
+      cursor: pointer;
+      height: 1em;
+      width: 1em;
+      top: -17px;
+
+      + ol {
+        display: none;
+
+        &.checked {
+          display: inline-block;
+        }
+
+        li a {
+          margin-left: 22px;
+        }
+      }
+    }
+
+    label {
+      cursor: pointer;
+      display: block;
+    }
+  }
+
+}
