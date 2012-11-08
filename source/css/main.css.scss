@@ -136,6 +136,22 @@ input {
   .btn {
     margin-left: 20px;
   }
+
+  .waDomainLogins {
+    margin-bottom: 18px;
+
+    span {
+      color: $red;
+      display: block;
+      padding: 2px 0 2px 15px;
+      font-size: 14px;
+      cursor: pointer;
+
+      &:hover {
+        color: $linkColorHover;
+      }
+    }
+  }
 }
 
 // Blog Ribbon
