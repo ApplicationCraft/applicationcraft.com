@@ -112,6 +112,23 @@ body.home #price-banner {
         padding: 40px 0 0 0;
         font: 18px gotham_bookregular;
       }
+
+      &.clearfix {
+        padding-top: 15px;
+
+        .video-thumb {
+          float: left;
+          margin-left: 25px;
+
+          + a {
+            text-align: left;
+            float: left;
+            display: block;
+            padding: 20px 0 0 20px;
+            width: 145px;
+          }
+        }
+      }
     }
   }
 }
