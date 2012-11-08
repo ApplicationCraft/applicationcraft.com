@@ -6,7 +6,7 @@ class_name: blog
 full_width: true
 ---
 
-We're really excited to announce the availability of a full-featured alternative to Phonegap:Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins. 
+We're really excited to announce the availability of a full-featured alternative to Phonegap Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins. 
 
 For those who don't know Phonegap/Cordova, it lets you take any HTML5+CSS+JS App or Site and compile it into a binary that can be deployed to App Stores. It also lets you access all the hardware goodies on your device (GPS, Accelerometer, Compass, Camera etc.).
 
