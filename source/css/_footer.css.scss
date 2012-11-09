@@ -76,12 +76,13 @@ footer {
 
       > ul {
         > li a {
-          color: #eeeee9;
+          color: #BBB;
           margin: 8px 25px;
+          display: block;
+
           @include apply-to(more-than, ipad-portrait) {
             margin: 8px 70px 8px 0;
           }
-          display: block;
         }
       }
     }
@@ -91,8 +92,13 @@ footer {
     background-color: $red;
     font-size: 12px;
     padding: 14px 4px;
+
     @include apply-to(more-than, ipad-portrait) {
       padding: 24px 40px;
+    }
+
+    a {
+      color: $cream;
     }
   }
 }
