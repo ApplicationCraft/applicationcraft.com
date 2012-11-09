@@ -1,8 +1,8 @@
 tree:
 - {old_url: '/revisions/current/docs/user-guide/index.html?quick_start_guide_for_content_.htm',
-  title: Extending Application Craft, url: /developers/user-guide/}
+  title: Introduction, url: /developers/user-guide/}
 - {old_url: '/revisions/current/docs/user-guide/index.html?signing_in__accounts_and_users.htm',
-  title: 'Signing In, Accounts and Users', url: /developers/user-guide/signing-in--accounts-and-users}
+  title: 'Signing In, Accounts and Users', url: /developers/user-guide/signing-in-accounts-and-users}
 - old_url: /revisions/current/docs/user-guide/index.html?product_guide.htm
   title: Product Guide
   tree:

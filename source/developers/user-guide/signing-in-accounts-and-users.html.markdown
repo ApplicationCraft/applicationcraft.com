@@ -8,21 +8,21 @@ full_width: true
 
 When you sign up for an Application Craft Account, this Account is good not just for the person who signed up, but also for an entire Organization. Once your Account is created, all subsequent User Creation should be done within Application Craft itself and not by using the web site signup form.
 
-Signing In
+## Signing In
 
 When you created your Account, you specified a Subdomain name. You can then sign in at [http://yourdomain.applicationcraft.com](http://yourdomain.applicationcraft.com)
 
-The Account Administrator
+## The Account Administrator
 
 The person who completes the Signup form on the Application Craft web site is the Account Administrator and will be the only user in the Account immediately after signup.
 
 A User ID is not needed within an Application Craft Account for anonymous use of sites, apps or reports.
 
-User and Group Management
+## User and Group Management
 
 Please refer to [this section](product-guide/the-console/console-tabs/more/users-groups/index.htm) for details on how to create new Users and Groups.
 
-Sharing and Permissions
+## Sharing and Permissions
 
 Please refer to [this section](product-guide/the-console/sharing.htm) for details on assigning permissions to users and groups.
 
