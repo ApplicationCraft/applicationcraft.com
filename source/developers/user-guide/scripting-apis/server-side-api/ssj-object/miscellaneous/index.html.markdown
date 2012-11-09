@@ -8,39 +8,39 @@ full_width: true
 
 ## In This Section:
 
- - [appId()](appid.htm)
+ - [appId()](appid)
 
- - [appName()](appname.htm)
+ - [appName()](appname)
 
- - [id()](id.htm) - Deprecated
+ - [id()](id) - Deprecated
 
- - [getLatestError()](getlatesterror.htm)
+ - [getLatestError()](getlatesterror)
 
- - [getLoggedUser()](getloggeduser2.htm)
+ - [getLoggedUser()](getloggeduser2)
 
- - [setUserParameter()](setuserparameter.htm)
+ - [setUserParameter()](setuserparameter)
 
- - [getUserParameter()](getuserparameter.htm)
+ - [getUserParameter()](getuserparameter)
 
- - [sendEmail()](sendemail2.htm)
+ - [sendEmail()](sendemail2)
 
- - [sleep()](sleep.htm)
+ - [sleep()](sleep)
 
- - [hash()](cryptblowfish.htm)
+ - [hash()](cryptblowfish)
 
- - [checkHash()](checkcryptblowfish.htm)
+ - [checkHash()](checkcryptblowfish)
 
- - [md5()](md5.htm)
+ - [md5()](md5)
 
- - [getUUID()](getuuid.htm)
+ - [getUUID()](getuuid)
 
- - [OBJ2JSON](obj2json.htm)
+ - [OBJ2JSON](obj2json)
 
- - [JSON2OBJ](json2obj.htm)
+ - [JSON2OBJ](json2obj)
 
- - [OBJ2XML](obj2xml.htm)
+ - [OBJ2XML](obj2xml)
 
- - [XML2OBJ](xml2obj.htm)
+ - [XML2OBJ](xml2obj)
 
- - [printApp()](../../../client-api/app-functions/printapp.htm)
+ - [printApp()](../../../client-api/app-functions/printapp)
 

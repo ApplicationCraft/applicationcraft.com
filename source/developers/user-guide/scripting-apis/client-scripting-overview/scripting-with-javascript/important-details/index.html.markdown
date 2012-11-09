@@ -8,14 +8,14 @@ full_width: true
 
 ## In This Section:
 
-[The Widget Object](the-widget-object.htm)
+[The Widget Object](the-widget-object)
 
-[App Switching](app-switching.htm)
+[App Switching](app-switching)
 
-[Extending the Client API](extending-the-ac-dom.htm)
+[Extending the Client API](extending-the-ac-dom)
 
-[Loading and Saving Instance Data](loading-and-saving-instance-da.htm)
+[Loading and Saving Instance Data](loading-and-saving-instance-da)
 
-[adding Widget Effects](adding-widget-effects.htm)
+[adding Widget Effects](adding-widget-effects)
 
-[Date Handling](date-handling.htm)
+[Date Handling](date-handling)

@@ -48,7 +48,7 @@ Gets the Playback Quality for a You Tube Video.
 
 ## See Also:
 
- - [setPlaybackQuality()](setplaybackquality.htm)
+ - [setPlaybackQuality()](setplaybackquality)
 
- - [getAvailableQualityLevels()](getavailablequalitylevels.htm)
+ - [getAvailableQualityLevels()](getavailablequalitylevels)
 

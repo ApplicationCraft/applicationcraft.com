@@ -8,11 +8,11 @@ full_width: true
 
 There are two ways to manage this.
 
- - the AC [app.showMessage()](../../../client-api/app-functions/showmessage.htm) function is usually the best one to use
+ - the AC [app.showMessage()](../../../client-api/app-functions/showmessage) function is usually the best one to use
 
  - javascript alert() function - this is a blocking function but the drawback is that it belongs to the browser and not the App; this means you have no control over the appearance
 
-The function [showConfirm()](../../../client-api/app-functions/showconfirm.htm) is also useful if you want the Respondent to confirm with a Yes or No answer.
+The function [showConfirm()](../../../client-api/app-functions/showconfirm) is also useful if you want the Respondent to confirm with a Yes or No answer.
 
 Example
 
@@ -24,7 +24,7 @@ Example
 
 ## See Also:
 
- - [showConfirm()](../../../client-api/app-functions/showconfirm.htm)
+ - [showConfirm()](../../../client-api/app-functions/showconfirm)
 
- - [showMessage()](../../../client-api/app-functions/showmessage.htm)
+ - [showMessage()](../../../client-api/app-functions/showmessage)
 

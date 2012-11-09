@@ -18,12 +18,12 @@ This chapter describes how all this is done.
 
 ## In This Section:
 
-[Debug Development Certificates](debug-development-certificates.htm)
+[Debug Development Certificates](debug-development-certificates)
 
-[Generating Codesigning Certificates](generating-codesigning-certici.htm)
+[Generating Codesigning Certificates](generating-codesigning-certici)
 
-[Google Play Signup](google-play.htm)
+[Google Play Signup](google-play)
 
-[Selling Android Apps](selling-android-apps.htm)
+[Selling Android Apps](selling-android-apps)
 
-[Publishing Android Apps on Play](publishing-android-apps-on-pla.htm)
+[Publishing Android Apps on Play](publishing-android-apps-on-pla)

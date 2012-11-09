@@ -8,17 +8,17 @@ full_width: true
 
 ## In This Section:
 
-[General Events](general-events.htm)
+[General Events](general-events)
 
-[Mobile Native App Events](mobile-native-app-events.htm)
+[Mobile Native App Events](mobile-native-app-events)
 
-[Mouse Events](mouse-events.htm)
+[Mouse Events](mouse-events)
 
-[Key Events](key-events.htm)
+[Key Events](key-events)
 
-[Data Events](data-events.htm)
+[Data Events](data-events)
 
-[Auth Events](auth-events.htm)
+[Auth Events](auth-events)
 
-[Internationalization App Events](internationalization-app-event.htm)
+[Internationalization App Events](internationalization-app-event)
 

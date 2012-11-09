@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="173">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widgetName
+{ [wlist](../objects-titbits/widget-list-parameters) } widgetName
 
 </td>
 <td width="19">
@@ -53,17 +53,17 @@ Description
 
 Allows you to set the contents of a Widget.
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) . You need to be aware of how setData() and setValue() work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) . You need to be aware of how setData() and setValue() work with different Widget types.
 
 Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) chapter.
+There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter.
 
 See Also:
 
- - [setValue() for Simple Widget](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets.htm) types
+ - [setValue() for Simple Widget](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets) types
 
- - [setValue() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists--dropdown-widgets.htm) Widgets
+ - [setValue() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists--dropdown-widgets) Widgets
 
- - [setValue() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids--repeater-containers.htm)
+ - [setValue() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids--repeater-containers)
 

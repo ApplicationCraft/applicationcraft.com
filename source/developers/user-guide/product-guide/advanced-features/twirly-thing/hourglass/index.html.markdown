@@ -6,19 +6,19 @@ full_width: true
 ---
 
 
-The "twirly thing" hourglass can be applied to any Widget object, including the entire app object. Whenever data is being loaded from a View the twirly thing will automatically be shown but you can also display this programmatically using [app.twirlyThing()](../../../../scripting-apis/client-api/app-functions/twirlything.htm) for any widget and also for page transitions.
+The "twirly thing" hourglass can be applied to any Widget object, including the entire app object. Whenever data is being loaded from a View the twirly thing will automatically be shown but you can also display this programmatically using [app.twirlyThing()](../../../../scripting-apis/client-api/app-functions/twirlything) for any widget and also for page transitions.
 
 Please note that the Twirly Thing will have no visible effect if used on the On Page Prepare event as this is called before the page content is drawn
 
-The [Display Hourglass Over](display-hourglass-over.htm) property allows you to control how the [Twirly Thing](twirly-thing.htm) is shown within your app. You can have it show over a Page in one part of your form, and over specific Widgets in other parts of the form.
+The [Display Hourglass Over](display-hourglass-over) property allows you to control how the [Twirly Thing](twirly-thing) is shown within your app. You can have it show over a Page in one part of your form, and over specific Widgets in other parts of the form.
 
 ## Example
 
-We have set the App [Twirly Thing](twirly-thing.htm) properties and you can see in the preview area how it will look.
+We have set the App [Twirly Thing](twirly-thing) properties and you can see in the preview area how it will look.
 
 ![twirlythingexample](/img/docs/twirlythingexample.zoom84.png)
 
-We have set the App display hourglass property to 'Widget' so it will show over individual widgets and where we are going to show the [Twirly Thing](twirly-thing.htm) we have set the property to 'Inherit'.
+We have set the App display hourglass property to 'Widget' so it will show over individual widgets and where we are going to show the [Twirly Thing](twirly-thing) we have set the property to 'Inherit'.
 
 1: As a button is pressed to 'jump' to another page, to show the twirly thing:
 
@@ -62,7 +62,7 @@ and on the target page 'On Page Show' event, to hide the twirly thing:
 
 ## In This Section:
 
- - [Twirly Thing](twirly-thing.htm)
+ - [Twirly Thing](twirly-thing)
 
- - [Display Hourglass Over](display-hourglass-over.htm)
+ - [Display Hourglass Over](display-hourglass-over)
 

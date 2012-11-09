@@ -29,15 +29,15 @@ Description
 
 This is a function of the widget object, so it is used as objWidget.deleteRow() rather than app.deleteRow(). It removes the row with the specified Id from a Grid Widget. This will only be needed in rare circumstances and you are more likely to use deleteRow().
 
-Populating Grids with Id values is [described here](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers.htm) .
+Populating Grids with Id values is [described here](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers) .
 
 See Also:
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteSelectedRows()](deleteselectedrows.htm)
+ - [deleteSelectedRows()](deleteselectedrows)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
- - [Widget Object](../../objects-titbits/widget-object.htm)
+ - [Widget Object](../../objects-titbits/widget-object)
 

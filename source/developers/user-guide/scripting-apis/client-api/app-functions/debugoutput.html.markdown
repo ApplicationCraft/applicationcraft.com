@@ -37,11 +37,11 @@ Example
 
 See Also:
 
- - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging.htm)
+ - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugValues()](debugvalues.htm)
+ - [debugValues()](debugvalues)
 
- - [debugData()](debugdata.htm)
+ - [debugData()](debugdata)
 
- - [debugProperties()](debugproperties.htm)
+ - [debugProperties()](debugproperties)
 

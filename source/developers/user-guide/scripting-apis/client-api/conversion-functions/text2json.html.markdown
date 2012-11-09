@@ -27,9 +27,9 @@ the string to be converted into object format
 
 Description
 
-Converts a valid JSON text string into a Javascript object. It is useful for converting data that has been returned from a Web Service calls, for example, and that you then want to populate Widgets using the [populateWidget(](../widget-data-state-manipulation/populatewidget()/index.htm) ) function.
+Converts a valid JSON text string into a Javascript object. It is useful for converting data that has been returned from a Web Service calls, for example, and that you then want to populate Widgets using the [populateWidget(](../widget-data-state-manipulation/populatewidget()/index) ) function.
 
 See Also:
 
- - [Data Conversion](index.htm) Functions
+ - [Data Conversion](index) Functions
 

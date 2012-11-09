@@ -33,7 +33,7 @@ Description
 
 This is used in the following common scenarios
 
- - executing SELECT statements that were prepared with the cObj.select() method (refer to the [Select Handling](select_handling.htm) section for an overview of how AC handles SELECT statements)
+ - executing SELECT statements that were prepared with the cObj.select() method (refer to the [Select Handling](select-handling) section for an overview of how AC handles SELECT statements)
 
  - creating your own SQL Statement that you want to pass directly through to the database for execution
 
@@ -64,11 +64,11 @@ The following code would call this stored procedure from an SSJ script
 
 See Also:
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues.htm)
+ - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates.htm)
+ - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index.htm)
+ - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index)
 
 Related Video:
 

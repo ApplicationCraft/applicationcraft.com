@@ -21,9 +21,9 @@ Expression 2 : SELECT p."product\_id", p.cost \* 1.08 AS cost\_plus\_tax  FROM 
 
 The same applies to fieldsObject parameters in the following cases
 
- - [update()](../../scripting-apis/server-side-api/ssj-object/database/update.htm)
+ - [update()](../../scripting-apis/server-side-api/ssj-object/database/update)
 
- - [delete()](../../scripting-apis/server-side-api/ssj-object/database/delete.htm)
+ - [delete()](../../scripting-apis/server-side-api/ssj-object/database/delete)
 
 If one of your fields referenced a SQL function then you would also use to encapsulate your SQL function.
 

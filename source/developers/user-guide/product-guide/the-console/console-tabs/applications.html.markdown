@@ -12,7 +12,7 @@ This Console screen is the location where you will administer your Apps, enablin
 
 App Repository
 
-All Apps are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol.htm) in more detail.
+All Apps are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol) in more detail.
 
 You can search for apps by name in the search field, and you can find recently used forms from the 'Select last used form..' list
 
@@ -154,7 +154,7 @@ Short URL
 <td width="16">
 </td>
 <td>
-A short URL that can be used if you require. You can also pass parameters to your app using a shortended Url. See [Passing Parameters into Apps](../../advanced-features/passing-parameters-into-apps/index.htm)
+A short URL that can be used if you require. You can also pass parameters to your app using a shortended Url. See [Passing Parameters into Apps](../../advanced-features/passing-parameters-into-apps/index)
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Related Video:
 
 Versions
 
-Please refer to the [Versions](../versions.htm) section for details
+Please refer to the [Versions](../versions) section for details
 
 Action Buttons
 
@@ -251,9 +251,9 @@ Mobile Build
 <td width="16">
 </td>
 <td>
-Choose to build your apps using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/index.htm) or [Phonegap:Build](../../../ac-mobile-build-phonegap/cordova/phonegapbuild/index.htm) . If you wish to compile as a Native App for mobile devices you can do so here.
+Choose to build your apps using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/index) or [Phonegap:Build](../../../ac-mobile-build-phonegap/cordova/phonegapbuild/index) . If you wish to compile as a Native App for mobile devices you can do so here.
 
-If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap/cordova/index.htm) chapter, which describes how this can be achieved.
+If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap/cordova/index) chapter, which describes how this can be achieved.
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ Embed
 <td width="16">
 </td>
 <td>
-If you want to embed an App into your own HTML page, then pressing the Embed button will provide you with the necessary HTML code that you can copy and paste into your page. You can also pass parameters into your app by editing this code. See [Passing in data with Embedded Apps and Javascript](../../advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded-.htm)
+If you want to embed an App into your own HTML page, then pressing the Embed button will provide you with the necessary HTML code that you can copy and paste into your page. You can also pass parameters into your app by editing this code. See [Passing in data with Embedded Apps and Javascript](../../advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded-)
 
 </td>
 </tr>
@@ -373,8 +373,8 @@ Related Video:
 
 Sharing
 
-Please refer to the [Sharing](../sharing.htm) section for details
+Please refer to the [Sharing](../sharing) section for details
 
 User Roles
 
-For use in WorkFlow apps (See: [Workflow](../../advanced-features/workflow/index.htm) )
+For use in WorkFlow apps (See: [Workflow](../../advanced-features/workflow/index) )

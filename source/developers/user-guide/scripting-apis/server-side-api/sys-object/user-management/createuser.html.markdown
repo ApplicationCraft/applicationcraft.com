@@ -31,7 +31,7 @@ an object containing information about the user to be created
 <td width="15">
 </td>
 <td width="682">
-[click here](checkowneruserrights_parameter.htm) to see the checkOwnerRights description
+[click here](checkowneruserrights-parameter) to see the checkOwnerRights description
 
 </td>
 </tr>
@@ -53,5 +53,5 @@ If there is an error creating the user due to permissions, then an exception is 
 
 See Also:
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror.htm)
+ - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

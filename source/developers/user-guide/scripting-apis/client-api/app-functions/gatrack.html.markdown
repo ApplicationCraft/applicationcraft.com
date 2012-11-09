@@ -27,7 +27,7 @@ Description
 
 Calls Google Analytics with the specified tracking code. It uses the account wide GA Account ID or the App's own GA Account ID.
 
-Refer to the [Google Analytics](../../../product-guide/advanced-features/google-analytics/index.htm) section for more information on how to set up GA support.
+Refer to the [Google Analytics](../../../product-guide/advanced-features/google-analytics/index) section for more information on how to set up GA support.
 
 Example
 

@@ -12,9 +12,9 @@ As Application Craft is a pure Javascript system, you can also use try / catch.
 
 ## In This Section:
 
- - [Your own handler](your-own-error-handler.htm)
+ - [Your own handler](your-own-error-handler)
 
- - [Try / Catch](try--catch.htm)
+ - [Try / Catch](try--catch)
 
 Related Video:
 

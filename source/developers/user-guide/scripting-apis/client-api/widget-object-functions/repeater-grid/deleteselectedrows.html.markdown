@@ -23,11 +23,11 @@ Example
 
 See Also:
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteRowById()](deleterowbyid.htm)
+ - [deleteRowById()](deleterowbyid)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
- - [Widget Object](../../objects-titbits/widget-object.htm)
+ - [Widget Object](../../objects-titbits/widget-object)
 

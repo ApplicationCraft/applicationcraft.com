@@ -54,5 +54,5 @@ This is where the guide stops as there are a lot of things you can enter within 
 
 Uploading the App Itself
 
-It is the very final stage but (annoyingly) it is not done from iTunes Connect. Please read the next [App Uploader](app_uploader.htm) section for details.
+It is the very final stage but (annoyingly) it is not done from iTunes Connect. Please read the next [App Uploader](app-uploader) section for details.
 

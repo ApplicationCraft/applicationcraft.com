@@ -8,9 +8,9 @@ full_width: true
 
 A Marker is an icon added to the Map to denote a point location. Markers are overlays but there are some slight differences. The main thing that is different is the ability to add your own HTML popup content for both mouseover and click actions.
 
-Below is some code that shows how to create a new Marker using [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker.htm) . Don't forget that you can also create multiple Markers from any simple or complex array using the [populateWidget()](../using-populatewidget.htm) function.
+Below is some code that shows how to create a new Marker using [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) . Don't forget that you can also create multiple Markers from any simple or complex array using the [populateWidget()](../using-populatewidget) function.
 
-Note that you can modify the Marker image either by setting the widget property or using the [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker.htm) function as shown below.
+Note that you can modify the Marker image either by setting the widget property or using the [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) function as shown below.
 
     function handler_actionBtn_onClick(mouseev){
     var overContentString = '<div id="content">'+
@@ -46,5 +46,5 @@ Note that you can modify the Marker image either by setting the widget property 
 
 ## addMarker
 
-Please refer to [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker.htm) in the [Client API](../../../../scripting-apis/client-api/index.htm) section for full details on the function.
+Please refer to [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) in the [Client API](../../../../scripting-apis/client-api/index) section for full details on the function.
 

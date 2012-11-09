@@ -14,5 +14,5 @@ There are two ways you can control the Play, Stop, Pause, Volume etc.
 
 The Show Controls property allows you to specify this at design time.
 
-The [Methods](property,-methods,-event-summary/vidmethods.htm) chapter below explains the various API methods available to help you control your Video from javascript.
+The [Methods](property,-methods,-event-summary/vidmethods) chapter below explains the various API methods available to help you control your Video from javascript.
 

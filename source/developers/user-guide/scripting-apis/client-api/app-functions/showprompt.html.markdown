@@ -75,11 +75,11 @@ Rich Text is supported.
 
 See Also:
 
- - [showMessage()](showmessage.htm)
+ - [showMessage()](showmessage)
 
- - [showConfirm()](showconfirm.htm)
+ - [showConfirm()](showconfirm)
 
- - [showPagePopup()](../page-functions/showpagepopup.htm)
+ - [showPagePopup()](../page-functions/showpagepopup)
 
- - [closePagePopup()](../page-functions/closepagepopup.htm)
+ - [closePagePopup()](../page-functions/closepagepopup)
 

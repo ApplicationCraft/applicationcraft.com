@@ -12,7 +12,7 @@ Once you have successfully created your PhoneGap:Build account, follow these ste
 
  - Go to the Application Craft Console and hover over the 'More' tab. From the popup drop-down list, select 'Account'.
 
- - Select the ['PhoneGap Parameters'](../../../product-guide/the-console/console-tabs/more/account-variables/phonegap-parameters.htm) from the list
+ - Select the ['PhoneGap Parameters'](../../../product-guide/the-console/console-tabs/more/account-variables/phonegap-parameters) from the list
 
  - Enter the email address and password for your PhoneGap:Build account.
 

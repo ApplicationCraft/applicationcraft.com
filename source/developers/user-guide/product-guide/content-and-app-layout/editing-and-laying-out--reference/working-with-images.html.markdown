@@ -10,7 +10,7 @@ Almost every App will have images displayed in its Pages to make forms look good
 
 Resources
 
-Application Craft handles Images in a very elegant fashion. Rather than loading your images into the App directly, AC requires you to load your image as a Resource. Resources are managed in the Console and are described in detail in the [Resources](../../the-console/console-tabs/resources.htm) section.
+Application Craft handles Images in a very elegant fashion. Rather than loading your images into the App directly, AC requires you to load your image as a Resource. Resources are managed in the Console and are described in detail in the [Resources](../../the-console/console-tabs/resources) section.
 
 Images can also be uploaded directly from the Image widget dialog.
 

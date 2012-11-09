@@ -27,11 +27,11 @@ The object returned contains all the Workflow Stage information.
 
 Description
 
-This retrieves all the Workflow Stage information as an object. You can also retrieve specific Stage information using [getEnvValue()](../app-functions/getenvvalue.htm)
+This retrieves all the Workflow Stage information as an object. You can also retrieve specific Stage information using [getEnvValue()](../app-functions/getenvvalue)
 
 See Also:
 
- - [setStage()](setstage.htm)
+ - [setStage()](setstage)
 
- - [getEnvValue()](../app-functions/getenvvalue.htm)
+ - [getEnvValue()](../app-functions/getenvvalue)
 

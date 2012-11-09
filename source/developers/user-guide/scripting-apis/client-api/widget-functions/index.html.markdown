@@ -13,7 +13,7 @@ Most of these functions accept individual or arrays of Widgets specified as eith
 <table>
 <tr>
 <td width="149">
-[w()](w.htm)
+[w()](w)
 
 </td>
 <td width="12">
@@ -25,7 +25,7 @@ You specify a Widget name, you get a Widget object back.
 </tr>
 <tr>
 <td width="149">
-[checkMandatory()](checkmandatory.htm)
+[checkMandatory()](checkmandatory)
 
 </td>
 <td width="12">
@@ -37,7 +37,7 @@ Checks that required Widgets have been completed
 </tr>
 <tr>
 <td width="149">
-[highlightWidgets()](highlightwidgets.htm)
+[highlightWidgets()](highlightwidgets)
 
 </td>
 <td width="12">
@@ -49,7 +49,7 @@ Highlights one or more Widgets to draw the Respondent's attention
 </tr>
 <tr>
 <td width="149">
-[unhighlightWidgets()](unhighlightwidgets.htm)
+[unhighlightWidgets()](unhighlightwidgets)
 
 </td>
 <td width="12">
@@ -61,7 +61,7 @@ Remove highlighting
 </tr>
 <tr>
 <td width="149">
-[resetWidget()](resetwidget.htm)
+[resetWidget()](resetwidget)
 
 </td>
 <td width="12">
@@ -73,7 +73,7 @@ Resets the value of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[populateWidget()](../widget-data-state-manipulation/populatewidget()/index.htm)
+[populateWidget()](../widget-data-state-manipulation/populatewidget()/index)
 
 </td>
 <td width="12">
@@ -85,7 +85,7 @@ This is a powerful and easy way of populating many Widgets including Grid, Repea
 </tr>
 <tr>
 <td width="149">
-[emptyWidget()](emptywidget.htm)
+[emptyWidget()](emptywidget)
 
 </td>
 <td width="12">
@@ -97,7 +97,7 @@ Resets the contents of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[setProperty()](setproperty.htm)
+[setProperty()](setproperty)
 
 </td>
 <td width="12">
@@ -109,7 +109,7 @@ Sets a property of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[getProperty()](getproperty.htm)
+[getProperty()](getproperty)
 
 </td>
 <td width="12">
@@ -121,7 +121,7 @@ Gets any property of a single Widget
 </tr>
 <tr>
 <td width="149">
-[refreshData()](refreshdata.htm)
+[refreshData()](refreshdata)
 
 </td>
 <td width="12">
@@ -133,7 +133,7 @@ Refresh the contents of a single Widget's data if bound to a Data View
 </tr>
 <tr>
 <td width="149">
-[getParent()](getparentwidget.htm)
+[getParent()](getparentwidget)
 
 </td>
 <td width="12">
@@ -145,7 +145,7 @@ Returns the parent object of a Widget
 </tr>
 <tr>
 <td width="149">
-[createWidget()](createwidget.htm)
+[createWidget()](createwidget)
 
 </td>
 <td width="12">
@@ -157,7 +157,7 @@ Allows you to dynamically create Widgets
 </tr>
 <tr>
 <td width="149">
-[deleteWidget()](deletewidget.htm)
+[deleteWidget()](deletewidget)
 
 </td>
 <td width="12">
@@ -169,7 +169,7 @@ Allows you to dynamically delete Widgets
 </tr>
 <tr>
 <td width="149">
-[setFocus()](setfocus.htm)
+[setFocus()](setfocus)
 
 </td>
 <td width="12">

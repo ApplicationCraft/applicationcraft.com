@@ -177,7 +177,7 @@ Sizes
 <td width="20">
 </td>
 <td width="690">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog.htm)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ Repeat
 <td width="20">
 </td>
 <td width="690">
-Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi.htm) .
+Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ Anchors
 <td width="20">
 </td>
 <td width="690">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring.htm) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -359,7 +359,7 @@ Margin
 <td width="21">
 </td>
 <td width="684">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin.htm)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -410,7 +410,7 @@ Enter the % width for each column in the thumbnail view
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](../events/event-reference-list/mouse-events.htm)
+[Mouse Events](../events/event-reference-list/mouse-events)
 
 </td>
 </tr>
@@ -478,11 +478,11 @@ On Resize Stop
 
 See Also:
 
- - [Photoswipe](../../product-guide/advanced-important-widgets/photoswipe/index.htm)
+ - [Photoswipe](../../product-guide/advanced-important-widgets/photoswipe/index)
 
- - [Image](../common/image.htm)
+ - [Image](../common/image)
 
- - [Mouse Events](../events/event-reference-list/mouse-events.htm)
+ - [Mouse Events](../events/event-reference-list/mouse-events)
 
- - [Photoswipe Object Functions](../../scripting-apis/client-api/widget-object-functions/photoswipe/index.htm)
+ - [Photoswipe Object Functions](../../scripting-apis/client-api/widget-object-functions/photoswipe/index)
 

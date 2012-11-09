@@ -41,7 +41,7 @@ Description
 
 Allows you to specify a WHERE expression for your select. You can include multiple where() functions which are then ANDed together by AC.
 
-If you were to build a regular SQL statement (which you still can if you use the [exec()](../exec.htm) method) then you may want to have a WHERE string with variable values forming a part of the clause (WHERE id=1234).
+If you were to build a regular SQL statement (which you still can if you use the [exec()](../exec) method) then you may want to have a WHERE string with variable values forming a part of the clause (WHERE id=1234).
 
 With the where() functions, you can use a '?' token and a token value (see examples below), which makes it easier and more readable.
 

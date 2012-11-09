@@ -14,17 +14,17 @@ All other screens can be reached directly from the Tab Bar across the top of the
 
 ## See Also:
 
- - [General Screen Behavior](general-screen-behavior.htm)
+ - [General Screen Behavior](general-screen-behavior)
 
- - [Private, Shared and Public Folders](private--shared-and-public-fol.htm)
+ - [Private, Shared and Public Folders](private--shared-and-public-fol)
 
- - [Sharing](sharing.htm)
+ - [Sharing](sharing)
 
- - [Versions](versions.htm)
+ - [Versions](versions)
 
 For detailed descriptions of the different Console windows see:
 
-[Console Tabs](console-tabs/index.htm)
+[Console Tabs](console-tabs/index)
 
 Related Video:
 

@@ -13,7 +13,7 @@ The following table shows various ways of accessing the Widget Object.
 <table>
 <tr>
 <td width="219">
-## [\_widget](ref_widget.htm)
+## [\_widget](ref-widget)
 
 </td>
 <td width="19">
@@ -61,5 +61,5 @@ If containerObj is an AC Container Widget, it returns a Widget object within tha
 </tr>
 </table>
 
-There are several methods and properties available within the Widget object. Please refer to the [Widget Object Functions](../widget-object-functions/index.htm) chapter for a complete list of functions.
+There are several methods and properties available within the Widget object. Please refer to the [Widget Object Functions](../widget-object-functions/index) chapter for a complete list of functions.
 

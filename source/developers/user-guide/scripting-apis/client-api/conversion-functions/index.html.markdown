@@ -19,7 +19,7 @@ These functions are really useful for converting data between different data typ
 <table>
 <tr>
 <td width="149">
-[filterArray()](filterarray.htm)
+[filterArray()](filterarray)
 
 </td>
 <td width="12">
@@ -31,7 +31,7 @@ Filters an array
 </tr>
 <tr>
 <td width="149">
-[OBJ2ARRAY()](advancedtoarray.htm)
+[OBJ2ARRAY()](advancedtoarray)
 
 </td>
 <td width="12">
@@ -43,7 +43,7 @@ Converts an object into an array
 </tr>
 <tr>
 <td width="149">
-[ARRAY2OBJ()](arraytoadvanced.htm)
+[ARRAY2OBJ()](arraytoadvanced)
 
 </td>
 <td width="12">
@@ -55,7 +55,7 @@ Converts an array into an object
 </tr>
 <tr>
 <td width="149">
-[OBJ2JSON()](json2text.htm)
+[OBJ2JSON()](json2text)
 
 </td>
 <td width="12">
@@ -67,7 +67,7 @@ Converts an object into a JSON string
 </tr>
 <tr>
 <td width="149">
-[JSON2OBJ()](text2json.htm)
+[JSON2OBJ()](text2json)
 
 </td>
 <td width="12">
@@ -79,7 +79,7 @@ Converts a JSON string into an object
 </tr>
 <tr>
 <td width="149">
-[OBJ2XML()](json2xml.htm)
+[OBJ2XML()](json2xml)
 
 </td>
 <td width="12">
@@ -91,7 +91,7 @@ Converts an object into an XML string
 </tr>
 <tr>
 <td width="149">
-[XML2OBJ()](xml2json.htm)
+[XML2OBJ()](xml2json)
 
 </td>
 <td width="12">
@@ -103,7 +103,7 @@ Converts an XML string into an object
 </tr>
 <tr>
 <td width="149">
-[DATE2DB()](date2db.htm)
+[DATE2DB()](date2db)
 
 </td>
 <td width="12">

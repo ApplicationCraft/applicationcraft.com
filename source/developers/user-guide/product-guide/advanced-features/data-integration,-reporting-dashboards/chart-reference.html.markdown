@@ -10,11 +10,11 @@ This section is the must read chart resource in order to simplify the use of Cha
 
 Data
 
-One of the key aspects of charts is properly configuring the data views and fields. After [configuring the App to access Queries](data-section-properties/configuring-the-app-to-access-.htm) , select the View property inside the data section of the Chart Widget. You will then be able to select the view from a dropdown menu. In the fields property, you will then bring up the expression builder. It is worth reading about [Automatic Property Settings](data-section-properties/using-automatic-property-setti.htm) in order to save yourself a lot of time.
+One of the key aspects of charts is properly configuring the data views and fields. After [configuring the App to access Queries](data-section-properties/configuring-the-app-to-access-) , select the View property inside the data section of the Chart Widget. You will then be able to select the view from a dropdown menu. In the fields property, you will then bring up the expression builder. It is worth reading about [Automatic Property Settings](data-section-properties/using-automatic-property-setti) in order to save yourself a lot of time.
 
 ![Auto\_property\_settings](/img/docs/auto_property_settings.zoom77.png)
 
-You may also want to read the section on [Drilling Down](drilling_down.htm) , to make your Charts even more effective at presenting the relevant data.
+You may also want to read the section on [Drilling Down](drilling-down) , to make your Charts even more effective at presenting the relevant data.
 
 Chart Properties
 

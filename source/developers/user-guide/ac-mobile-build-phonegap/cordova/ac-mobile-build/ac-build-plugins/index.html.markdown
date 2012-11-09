@@ -20,9 +20,9 @@ AC Apps
 
 AC Apps provide dialogs that let you choose which plugins you wish to include.
 
-The AC Build Plugins [App Property](../../../../widget-properties-events/app-properties.htm) allows you include the plugins within your Native App built using [AC Mobile Build](../index.htm) .
+The AC Build Plugins [App Property](../../../../widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](../index) .
 
-The Child Browser plugin can also be used if building using [Phonegap:Build](../../phonegapbuild/index.htm) .
+The Child Browser plugin can also be used if building using [Phonegap:Build](../../phonegapbuild/index) .
 
 ![acPllugins](/img/docs/acpllugins.zoom83.png)
 
@@ -31,7 +31,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 <table>
 <tr>
 <td width="211">
- - [Child Browser](child-browser/index.htm)
+ - [Child Browser](child-browser/index)
 
 </td>
 <td width="27">
@@ -41,7 +41,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [SQLite Plugin](sqlite-plugin/index.htm)
+ - [SQLite Plugin](sqlite-plugin/index)
 
 </td>
 <td width="27">
@@ -51,7 +51,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [MailTo Plugin](mailto-plugin.htm)
+ - [MailTo Plugin](mailto-plugin)
 
 </td>
 <td width="27">
@@ -61,7 +61,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [Scandit Free](scandit-free.htm)
+ - [Scandit Free](scandit-free)
 
 </td>
 <td width="27">
@@ -71,7 +71,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [ZXing Bar Code Scanner](zxing-bar-code-scanner.htm)
+ - [ZXing Bar Code Scanner](zxing-bar-code-scanner)
 
 </td>
 <td width="27">
@@ -81,7 +81,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [Xtify Push Notifications](xtify-push-notifications/index.htm)
+ - [Xtify Push Notifications](xtify-push-notifications/index)
 
 </td>
 <td width="27">

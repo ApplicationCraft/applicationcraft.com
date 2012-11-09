@@ -8,13 +8,13 @@ full_width: true
 
 ## In This Section:
 
- - [loadQueryFolders()](loadqueryfolders.htm)
+ - [loadQueryFolders()](loadqueryfolders)
 
- - [getSharedQueries()](getsharedqueries.htm)
+ - [getSharedQueries()](getsharedqueries)
 
- - [getSharedQueryFolders()](getsharedqueryfolders.htm)
+ - [getSharedQueryFolders()](getsharedqueryfolders)
 
- - [getQueries()](getqueries.htm)
+ - [getQueries()](getqueries)
 
 These functions are not currently documented. If you feel you require documentation for these, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) .
 

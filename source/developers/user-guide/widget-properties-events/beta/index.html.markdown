@@ -23,7 +23,7 @@ As we release new Widgets as Beta we will include them in this section if the to
 </tr>
 <tr>
 <td width="148">
-[Scandit Button](scandit-button.htm)
+[Scandit Button](scandit-button)
 
 </td>
 <td width="15">
@@ -35,7 +35,7 @@ Common
 </tr>
 <tr>
 <td width="148">
-[Zingchart](zingchart.htm)
+[Zingchart](zingchart)
 
 </td>
 <td width="15">
@@ -47,7 +47,7 @@ Pro
 </tr>
 <tr>
 <td width="148">
-[Circle Menu](circle-menu.htm)
+[Circle Menu](circle-menu)
 
 </td>
 <td width="15">
@@ -59,7 +59,7 @@ Advanced
 </tr>
 <tr>
 <td width="148">
-[Context Menu](context-menu.htm)
+[Context Menu](context-menu)
 
 </td>
 <td width="15">
@@ -71,7 +71,7 @@ Mobile
 </tr>
 <tr>
 <td width="148">
-[Share This](share-this.htm)
+[Share This](share-this)
 
 </td>
 <td width="15">

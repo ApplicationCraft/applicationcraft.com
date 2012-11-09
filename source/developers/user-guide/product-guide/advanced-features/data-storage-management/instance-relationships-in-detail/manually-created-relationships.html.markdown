@@ -8,9 +8,9 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
-You may want to create a Relationship from a script. In this case, you can use the [instanceSetRelationship()](../../../../scripting-apis/client-api/instance-data-functions/instancesetrelationship.htm) function. This allows you create or break relationships with one or more foreign instances with a single call.
+You may want to create a Relationship from a script. In this case, you can use the [instanceSetRelationship()](../../../../scripting-apis/client-api/instance-data-functions/instancesetrelationship) function. This allows you create or break relationships with one or more foreign instances with a single call.
 

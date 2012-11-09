@@ -10,41 +10,41 @@ These Widgets can be dragged and dropped into your App from the Common section o
 
 ## In This Section:
 
-[Label](label.htm)
+[Label](label)
 
-[Text](text.htm)
+[Text](text)
 
-[Text Area](text-area.htm)
+[Text Area](text-area)
 
-[Alpha Numeric](alpha-numeric.htm)
+[Alpha Numeric](alpha-numeric)
 
-[Numeric Text](alpha-numeric.htm)
+[Numeric Text](alpha-numeric)
 
-[Action Button](action-button.htm)
+[Action Button](action-button)
 
-[Upload Button](upload-button2.htm)
+[Upload Button](upload-button2)
 
-[Radio Button](radio-button.htm)
+[Radio Button](radio-button)
 
-[Checkbox](checkbox.htm)
+[Checkbox](checkbox)
 
-[Image](image.htm)
+[Image](image)
 
-[QR Code](qr-code.htm)
+[QR Code](qr-code)
 
-[Date Picker](date-picker.htm)
+[Date Picker](date-picker)
 
-[Listbox](listbox.htm)
+[Listbox](listbox)
 
-[Dropdown List](dropdown-list.htm)
+[Dropdown List](dropdown-list)
 
-[Color Picker](color-picker.htm)
+[Color Picker](color-picker)
 
-[Rich Text](rich-text.htm)
+[Rich Text](rich-text)
 
-[Shape](shape.htm)
+[Shape](shape)
 
-[HTML](html2.htm)
+[HTML](html2)
 
-[Fancy Button](fancy-button.htm)
+[Fancy Button](fancy-button)
 

@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -16,5 +16,5 @@ If you are building anything beyond a Mashups or UI Front-End, you will want to 
 
 Application Craft provides really powerful data storage management without you ever having to define a table or index. You can even build Relational Apps.
 
-Please refer to the chapters [Data Storage Management](../data-storage-management/index.htm) for a comprehensive overview.
+Please refer to the chapters [Data Storage Management](../data-storage-management/index) for a comprehensive overview.
 

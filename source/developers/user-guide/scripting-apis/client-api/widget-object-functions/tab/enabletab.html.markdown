@@ -19,5 +19,5 @@ Example
 
 ## See Also:
 
- - [enabled()](../../widget-data-state-manipulation/enabled.htm)
+ - [enabled()](../../widget-data-state-manipulation/enabled)
 

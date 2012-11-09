@@ -204,19 +204,19 @@ chtitle
 
 ## See Also:
 
- - [sendEmail()](../../../../scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2.htm)
+ - [sendEmail()](../../../../scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2)
 
- - [mobileEmail()](../../../../scripting-apis/client-api/app-functions/mobileemail.htm)
+ - [mobileEmail()](../../../../scripting-apis/client-api/app-functions/mobileemail)
 
 'Link' property available with:
 
- - [Action Button (Mobile)](../../../../widget-properties-events/mobile/mobaction-button.htm)
+ - [Action Button (Mobile)](../../../../widget-properties-events/mobile/mobaction-button)
 
- - [Action Button (Common)](../../../../widget-properties-events/mobile/mobaction-button.htm)
+ - [Action Button (Common)](../../../../widget-properties-events/mobile/mobaction-button)
 
- - [Image](../../../../widget-properties-events/common/image.htm)
+ - [Image](../../../../widget-properties-events/common/image)
 
- - [Label (Common)](../../../../widget-properties-events/common/label.htm)
+ - [Label (Common)](../../../../widget-properties-events/common/label)
 
- - [Label (Mobile)](../../../../widget-properties-events/mobile/moblabel.htm)
+ - [Label (Mobile)](../../../../widget-properties-events/mobile/moblabel)
 

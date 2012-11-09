@@ -33,7 +33,7 @@ The database stores App Instance dates in the format 'YYYY-MM-DD hh:mm:ss' and D
 
 See Also:
 
- - [Data Conversion](index.htm) Functions
+ - [Data Conversion](index) Functions
 
- - [Setting Filters](../data-view-functions/modifying-data-widgets-with-scripts/filters.htm)
+ - [Setting Filters](../data-view-functions/modifying-data-widgets-with-scripts/filters)
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) function offers a quick way to populate an Application Craft widget with data from a complex object array. Repeater Containers and Lists can be efficiently populated this way also.
+The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) function offers a quick way to populate an Application Craft widget with data from a complex object array. Repeater Containers and Lists can be efficiently populated this way also.
 
 With maps, you can package data up into an array and then load it with a simple call. Below is an example of several things being populated onto a map at once. The first image shows the resulting display and below that is the relevant code.
 
@@ -295,5 +295,5 @@ Rectangle
 
 When creating your own mapping object, copy the above example and modify the key values to match your own data source.
 
-The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) topic provides a detailed explanation on how you can map data from complex data sources without having to write code to prepare your data.
+The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) topic provides a detailed explanation on how you can map data from complex data sources without having to write code to prepare your data.
 

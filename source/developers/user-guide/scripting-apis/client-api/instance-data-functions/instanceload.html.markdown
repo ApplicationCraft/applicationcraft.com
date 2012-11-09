@@ -10,7 +10,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -69,7 +69,7 @@ Workflow Role ID to indicate the role of the person who will be accessing this i
 
 Description
 
-This loads the specified Instance ID into its App. Once loaded, the callback function will be called. For this, use the [switchApp()](../app-functions/switchapp.htm) function.
+This loads the specified Instance ID into its App. Once loaded, the callback function will be called. For this, use the [switchApp()](../app-functions/switchapp) function.
 
 Callback Function
 
@@ -83,19 +83,19 @@ callback(error, instanceId)
 
 See Also:
 
- - [switchApp()](../app-functions/switchapp.htm)
+ - [switchApp()](../app-functions/switchapp)
 
- - [instanceNew()](instancenew.htm)
+ - [instanceNew()](instancenew)
 
- - [instanceCreate()](instancecreate.htm)
+ - [instanceCreate()](instancecreate)
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceSync()](instancesync.htm)
+ - [instanceSync()](instancesync)
 
- - [dataGetValues()](../widget-data-state-manipulation/datagetvalues.htm)
+ - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../widget-data-state-manipulation/datagetstates.htm)
+ - [dataGetStates()](../widget-data-state-manipulation/datagetstates)
 

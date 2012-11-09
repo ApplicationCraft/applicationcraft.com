@@ -10,17 +10,17 @@ Application Craft supports an entirely code free approach to translating your Ap
 
 ## In This Section:
 
-[Adding One or More Languages](adding-one-or-more-languages.htm)
+[Adding One or More Languages](adding-one-or-more-languages)
 
-[Setting for Auto Language Detection at Run Time](setting-for-auto-language-dete.htm)
+[Setting for Auto Language Detection at Run Time](setting-for-auto-language-dete)
 
-[Language Tokens](tokens.htm)
+[Language Tokens](tokens)
 
-[Auto Translation](auto-translation.htm)
+[Auto Translation](auto-translation)
 
-[Switching Languages in the IDE](switching-languages-in-the-ide.htm)
+[Switching Languages in the IDE](switching-languages-in-the-ide)
 
-[Auto vs. Manual Language Switching](auto-vs--manual-language-switc.htm)
+[Auto vs. Manual Language Switching](auto-vs--manual-language-switc)
 
-[Relevant API Methods](relevant-api-methods.htm)
+[Relevant API Methods](relevant-api-methods)
 

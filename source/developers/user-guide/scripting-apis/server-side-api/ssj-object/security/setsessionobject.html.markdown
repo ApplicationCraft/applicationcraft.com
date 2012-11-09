@@ -51,9 +51,9 @@ Example
 
 See Also:
 
- - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code.htm)
+ - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 
- - [getSessionObject()](getsessionobject.htm)
+ - [getSessionObject()](getsessionobject)
 
- - [deleteSessionObject()](deletesessionobject.htm)
+ - [deleteSessionObject()](deletesessionobject)
 

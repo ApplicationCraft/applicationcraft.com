@@ -45,7 +45,7 @@ Grids and Repeater Containers that are connected to Data Views fetch pages of da
 
 In order to fetch another or a previous page of data, you use the fetchDataPage() function. The easiest way to do this is the use the string values shown in the relativePageString parameter description shown above.
 
-If you are using a Repeater Container then you should be aware of the [drawNextPage()](drawnextpage.htm) and [isAllDataDrawn()](isalldatadrawn.htm) functions. See the [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index.htm) function for a general description of Repeater Container usage with these functions.
+If you are using a Repeater Container then you should be aware of the [drawNextPage()](drawnextpage) and [isAllDataDrawn()](isalldatadrawn) functions. See the [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index) function for a general description of Repeater Container usage with these functions.
 
 Example
 
@@ -55,13 +55,13 @@ Example
 
 See Also:
 
- - [getViewData()](../../data-view-functions/getviewdata.htm)
+ - [getViewData()](../../data-view-functions/getviewdata)
 
- - [drawNextPage()](drawnextpage.htm)
+ - [drawNextPage()](drawnextpage)
 
- - [isAllDataDrawn()](isalldatadrawn.htm)
+ - [isAllDataDrawn()](isalldatadrawn)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index.htm)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
 
 Related Videos:
 

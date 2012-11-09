@@ -8,9 +8,9 @@ full_width: true
 
 The You Tube Widget lets you play You Tube videos in your apps.
 
-You can also access the You Tube player object with [getYoutubePlayer()](../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getyoutubeplayer.htm) . For more information and other advanced use, see [https://developers.google.com/youtube/iframe\_api\_reference](https://developers.google.com/youtube/iframe_api_reference)
+You can also access the You Tube player object with [getYoutubePlayer()](../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getyoutubeplayer) . For more information and other advanced use, see [https://developers.google.com/youtube/iframe\_api\_reference](https://developers.google.com/youtube/iframe_api_reference)
 
-If compiling for iOS, you will need to set the [PhoneGap App Options](../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features.htm) property 'Open all links in WebView' to 'true'.
+If compiling for iOS, you will need to set the [PhoneGap App Options](../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features) property 'Open all links in WebView' to 'true'.
 
 <table>
 <tr>
@@ -159,7 +159,7 @@ Sizes
 <td width="22">
 </td>
 <td width="765">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog.htm)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Repeat
 <td width="22">
 </td>
 <td width="765">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi.htm) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Anchors
 <td width="22">
 </td>
 <td width="765">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring.htm) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -319,7 +319,7 @@ Fields
 <td width="29">
 </td>
 <td width="765">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index.htm) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
 
 </td>
 </tr>
@@ -331,7 +331,7 @@ Group By
 <td width="29">
 </td>
 <td width="765">
-This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by.htm) section for more details.
+This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by) section for more details.
 
 </td>
 </tr>
@@ -343,7 +343,7 @@ Order By
 <td width="29">
 </td>
 <td width="765">
-Specifies the order in which data is presented to the Widget.  Read the [Order By](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by.htm) section for more details.
+Specifies the order in which data is presented to the Widget.  Read the [Order By](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by) section for more details.
 
 </td>
 </tr>
@@ -367,7 +367,7 @@ Drill Filter
 <td width="29">
 </td>
 <td width="765">
-This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter.htm) section for more details.
+This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter) section for more details.
 
 </td>
 </tr>
@@ -379,7 +379,7 @@ Broadcast
 <td width="29">
 </td>
 <td width="765">
-Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast.htm) section for more details.
+Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast) section for more details.
 
 </td>
 </tr>
@@ -391,7 +391,7 @@ Listen
 <td width="29">
 </td>
 <td width="765">
-This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen.htm) section for more details.
+This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen) section for more details.
 
 </td>
 </tr>
@@ -403,7 +403,7 @@ Reset Filter
 <td width="29">
 </td>
 <td width="765">
-Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter.htm) section for more details.
+Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter) section for more details.
 
 </td>
 </tr>
@@ -463,7 +463,7 @@ Margin
 <td width="26">
 </td>
 <td width="768">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin.htm)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -494,13 +494,13 @@ The background color of the Widget. If it is empty, the App's Theme Back Color w
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](../events/event-reference-list/mouse-events.htm)
+[Mouse Events](../events/event-reference-list/mouse-events)
 
 </td>
 <td width="15">
 </td>
 <td width="200">
-[General Events](../events/event-reference-list/general-events.htm)
+[General Events](../events/event-reference-list/general-events)
 
 </td>
 </tr>
@@ -576,9 +576,9 @@ On Resize Stop
 
 See Also:
 
- - [Mouse Events](../events/event-reference-list/mouse-events.htm)
+ - [Mouse Events](../events/event-reference-list/mouse-events)
 
- - [General Events](../events/event-reference-list/general-events.htm)
+ - [General Events](../events/event-reference-list/general-events)
 
- - [Video, Audio & YouTube Widget Methods](../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/index.htm)
+ - [Video, Audio & YouTube Widget Methods](../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/index)
 

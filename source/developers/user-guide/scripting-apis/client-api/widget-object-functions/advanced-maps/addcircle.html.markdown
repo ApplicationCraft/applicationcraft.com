@@ -54,5 +54,5 @@ A Circle can be drawn on the Map with a radius as well as line and fill properti
 
 ## See Also:
 
- - [Circles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/circles.htm)
+ - [Circles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/circles)
 

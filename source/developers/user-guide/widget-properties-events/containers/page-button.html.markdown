@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The Page Button works with the [Repeating Container](repeater.htm) , [Listbox](../common/listbox.htm) , [Dropdown List](../common/dropdown-list.htm) , [Grid](../advanced/grid.htm) , [Mobile Checkbox](../mobile/mobcheckbox.htm) , [Mobile Popup Listbox](../mobile/popup-listbox.htm) , [Mobile Popup Dropdown](../mobile/popup-dropdown.htm) and [Mobile List](../mobile/list.htm) and allows the User to view more data entries. At the time of writing the button only allows you to move on to the next page but we will soon enable homepage and previous page functions.
+The Page Button works with the [Repeating Container](repeater) , [Listbox](../common/listbox) , [Dropdown List](../common/dropdown-list) , [Grid](../advanced/grid) , [Mobile Checkbox](../mobile/mobcheckbox) , [Mobile Popup Listbox](../mobile/popup-listbox) , [Mobile Popup Dropdown](../mobile/popup-dropdown) and [Mobile List](../mobile/list) and allows the User to view more data entries. At the time of writing the button only allows you to move on to the next page but we will soon enable homepage and previous page functions.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ Sizes
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog.htm)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi.htm) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring.htm) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -341,7 +341,7 @@ Margin
 <td width="15">
 </td>
 <td width="779">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin.htm)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -413,7 +413,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index.htm)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
 
 </td>
 </tr>
@@ -425,7 +425,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](../../product-guide/content-and-app-layout/introduction/themes-styles/themesmanage.htm) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](../../product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
@@ -433,11 +433,11 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 
 ## See Also:
 
- - [drawNextPage()](../../scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage.htm)
+ - [drawNextPage()](../../scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
 
- - [fetchDataPage()](../../scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata.htm)
+ - [fetchDataPage()](../../scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata)
 
- - [isAllDataDrawn()](../../scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn.htm)
+ - [isAllDataDrawn()](../../scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn)
 
- - [select().limit()](../../scripting-apis/server-side-api/ssj-object/database/select-handling/select-limit.htm)
+ - [select().limit()](../../scripting-apis/server-side-api/ssj-object/database/select-handling/select-limit)
 

@@ -10,40 +10,40 @@ Advanced Widgets are also accessed from the left hand Toolbox, by clicking on th
 
 ## In This Section:
 
-[Grid](grid.htm)
+[Grid](grid)
 
-[Mask Edit](mask-edit.htm)
+[Mask Edit](mask-edit)
 
-[Sliders](sliders.htm)
+[Sliders](sliders)
 
-[Search](search.htm)
+[Search](search)
 
-[Audio](audio.htm)
+[Audio](audio)
 
-[HTML5 Audio](html5-audio.htm)
+[HTML5 Audio](html5-audio)
 
-[Video](video.htm)
+[Video](video)
 
-[HTML5 Video](html5-video.htm)
+[HTML5 Video](html5-video)
 
-[YouTube](youtube.htm)
+[YouTube](youtube)
 
-[Photoswipe](photoswipe.htm)
+[Photoswipe](photoswipe)
 
-[Calendar](calendar.htm)
+[Calendar](calendar)
 
-[Embed App](embed-app.htm)
+[Embed App](embed-app)
 
-[File Upload](file-upload.htm)
+[File Upload](file-upload)
 
-[Reset Filter](advreset-filter.htm)
+[Reset Filter](advreset-filter)
 
-[Advanced Menu](advanced-menu.htm)
+[Advanced Menu](advanced-menu)
 
-[Google Maps Advanced](google-maps-advanced.htm)
+[Google Maps Advanced](google-maps-advanced)
 
-[Flot Charts](flot-charts.htm)
+[Flot Charts](flot-charts)
 
-[Timeline](timeline.htm)
+[Timeline](timeline)
 
-[Advertising](advertising1.htm)
+[Advertising](advertising1)

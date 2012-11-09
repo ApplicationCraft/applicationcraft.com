@@ -10,7 +10,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -73,7 +73,7 @@ Callback Functions
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully stored in the CDB (Core Database). rdbCallback is called once the data is fully saved and available in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx_callback_function.htm) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
 
 Example
 
@@ -92,21 +92,21 @@ This example synchronizes the contents of a Repeater Container with the database
 
 See Also:
 
- - [instanceXxxx Callback functions](instancexxxx_callback_function.htm)
+ - [instanceXxxx Callback functions](instancexxxx-callback-function)
 
- - [CRUD in Detail](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/index.htm)
+ - [CRUD in Detail](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/index)
 
- - [instanceNew()](instancenew.htm)
+ - [instanceNew()](instancenew)
 
- - [instanceCreate()](instancesave.htm "instance")
+ - [instanceCreate()](instancesave "instance")
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceLoad()](instanceload.htm)
+ - [instanceLoad()](instanceload)
 
- - [dataGetValues()](../widget-data-state-manipulation/datagetvalues.htm)
+ - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../widget-data-state-manipulation/datagetstates.htm)
+ - [dataGetStates()](../widget-data-state-manipulation/datagetstates)
 

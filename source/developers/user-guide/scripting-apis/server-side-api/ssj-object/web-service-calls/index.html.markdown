@@ -8,11 +8,11 @@ full_width: true
 
 ## In This Section:
 
- - [httpRequest()](httprequest2.htm)
+ - [httpRequest()](httprequest2)
 
- - [httpRequestAdv()](httprequestadv.htm)
+ - [httpRequestAdv()](httprequestadv)
 
- - [soapRequest()](soaprequest2.htm)
+ - [soapRequest()](soaprequest2)
 
- - [networkTimeout()](networktimeout.htm)
+ - [networkTimeout()](networktimeout)
 

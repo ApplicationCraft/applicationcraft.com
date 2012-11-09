@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="155">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widget
+{ [wlist](../objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="15">
@@ -114,5 +114,5 @@ Example usage to show twirly thing between page navigation
 
 ## See Also:
 
- - [Twirly Thing/Hourglass](../../../product-guide/advanced-features/twirly-thing/hourglass/index.htm)
+ - [Twirly Thing/Hourglass](../../../product-guide/advanced-features/twirly-thing/hourglass/index)
 

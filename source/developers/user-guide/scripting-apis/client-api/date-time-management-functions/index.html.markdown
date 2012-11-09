@@ -13,7 +13,7 @@ All Dates are stored as UTC objects, and to make this more accessible and usable
 <table>
 <tr>
 <td width="149">
-[instanceGetRTZ()](instancegetrtz.htm)
+[instanceGetRTZ()](instancegetrtz)
 
 </td>
 <td width="12">
@@ -25,7 +25,7 @@ Returns the RTZ (Reference Time Zone)
 </tr>
 <tr>
 <td width="149">
-[instanceSetRTZ()](instancesetrtz.htm)
+[instanceSetRTZ()](instancesetrtz)
 
 </td>
 <td width="12">
@@ -37,7 +37,7 @@ Sets the RTZ
 </tr>
 <tr>
 <td width="149">
-[dtNewDate()](dtnewdate.htm)
+[dtNewDate()](dtnewdate)
 
 </td>
 <td width="12">
@@ -49,7 +49,7 @@ Creates a new date object
 </tr>
 <tr>
 <td width="149">
-[dtadd()](dtadd.htm)
+[dtadd()](dtadd)
 
 </td>
 <td width="12">
@@ -61,7 +61,7 @@ adds or subtracts time from a date object
 </tr>
 <tr>
 <td width="149">
-[dtDifference()](dtdifference.htm)
+[dtDifference()](dtdifference)
 
 </td>
 <td width="12">
@@ -73,7 +73,7 @@ Returns the difference between specified dates
 </tr>
 <tr>
 <td width="149">
-[dtAdjust()](dtadjust.htm)
+[dtAdjust()](dtadjust)
 
 </td>
 <td width="12">
@@ -85,7 +85,7 @@ Adjusts a Date Object to a specified time zone
 </tr>
 <tr>
 <td width="149">
-[dtDateToString()](dtdatetostring.htm)
+[dtDateToString()](dtdatetostring)
 
 </td>
 <td width="12">

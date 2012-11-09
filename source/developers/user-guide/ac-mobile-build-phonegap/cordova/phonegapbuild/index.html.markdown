@@ -8,17 +8,17 @@ full_width: true
 
 ## In This Section:
 
-[Building your Apps](building-the-native-apps.htm)
+[Building your Apps](building-the-native-apps)
 
-[Key Management](key-management.htm)
+[Key Management](key-management)
 
-[Deploying your Native Apps](deploying-your-native-apps.htm)
+[Deploying your Native Apps](deploying-your-native-apps)
 
-[Manual Building](manual-building.htm)
+[Manual Building](manual-building)
 
 ## See Also:
 
- - [AC Mobile Build](application_craft_build.htm)
+ - [AC Mobile Build](application-craft-build)
 
 Related Videos:
 

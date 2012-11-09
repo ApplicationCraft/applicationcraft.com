@@ -38,9 +38,9 @@ Returns the Google Maps API Overlay object
 
 ## See Also:
 
- - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays.htm)
+ - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
 
- - [getOverlays()](getoverlays.htm)
+ - [getOverlays()](getoverlays)
 
- - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays.htm)
+ - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

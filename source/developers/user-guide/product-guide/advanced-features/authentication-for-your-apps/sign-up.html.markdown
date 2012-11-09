@@ -38,11 +38,11 @@ When the Signup button is pressed, AC will first of all perform all necessary va
 
 ## See Also:
 
- - [Sign Up Properties](../../../widget-properties-events/authentication/authsign-up.htm)
+ - [Sign Up Properties](../../../widget-properties-events/authentication/authsign-up)
 
  - [Storing User Account Details in the App](storing_user_account_details_i.htm)
 
- - [Signin](../../../widget-properties-events/authentication/authsign-in.htm)
+ - [Signin](../../../widget-properties-events/authentication/authsign-in)
 
- - [Password](password.htm)
+ - [Password](password)
 

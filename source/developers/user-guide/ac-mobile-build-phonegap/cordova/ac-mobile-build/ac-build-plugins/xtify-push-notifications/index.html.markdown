@@ -136,7 +136,7 @@ Xtify iOS key
 </tr>
 </table>
 
-The properties “Android App Key” and “iOS App Key” are unique for the each app. The Android Sender Id is created by [Google Cloud Messaging](google-cloud-messaging.htm)
+The properties “Android App Key” and “iOS App Key” are unique for the each app. The Android Sender Id is created by [Google Cloud Messaging](google-cloud-messaging)
 
 To obtain keys, you need to first register at [https://console.xtify.com/registration](https://console.xtify.com/registration)
 
@@ -144,13 +144,13 @@ The Free account is suitable for 10,000 notifications but for larger volumes see
 
 ## In This Section:
 
- - [Google Cloud Messaging](google-cloud-messaging.htm)
+ - [Google Cloud Messaging](google-cloud-messaging)
 
- - [Apple App Id](apple-app-id.htm)
+ - [Apple App Id](apple-app-id)
 
- - [Adding New Application Keys](adding-new-application.htm)
+ - [Adding New Application Keys](adding-new-application)
 
- - [Configuring your app](configuring-your-app.htm)
+ - [Configuring your app](configuring-your-app)
 
- - [Sending Push Notifications to your apps](sending-push-notifications-to-.htm)
+ - [Sending Push Notifications to your apps](sending-push-notifications-to-)
 

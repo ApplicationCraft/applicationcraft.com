@@ -31,9 +31,9 @@ When you call this function, all trace of the variable will be removed from the 
 
 See Also:
 
- - [switchApp()](../app-functions/switchapp.htm)
+ - [switchApp()](../app-functions/switchapp)
 
- - [setGlobalData()](setglobaldata.htm)
+ - [setGlobalData()](setglobaldata)
 
- - [getGlobalData()](getglobaldata.htm)
+ - [getGlobalData()](getglobaldata)
 

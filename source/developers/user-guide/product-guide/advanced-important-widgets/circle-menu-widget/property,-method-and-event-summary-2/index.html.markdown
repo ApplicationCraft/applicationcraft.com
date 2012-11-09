@@ -8,9 +8,9 @@ full_width: true
 
 ## In This Section:
 
- - [Properties](properties3-2.htm)
+ - [Properties](properties3-2)
 
- - [Events](events2-2.htm)
+ - [Events](events2-2)
 
- - [Methods](methods2-2.htm)
+ - [Methods](methods2-2)
 

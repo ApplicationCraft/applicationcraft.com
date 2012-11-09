@@ -10,35 +10,35 @@ Application Craft has a powerful set of functions and features that allow you to
 
 The following topics should be understood in order to build these solutions
 
- - [Connections](../../product-guide/the-console/console-tabs/connections/index.htm) - accessed through the AC Console, this allows you to access a connected database
+ - [Connections](../../product-guide/the-console/console-tabs/connections/index) - accessed through the AC Console, this allows you to access a connected database
 
- - [Server Side Javascript](../../scripting-apis/server-side-scripting-overview/index.htm) - the features offered here allow you to build secure server side scripts that can receive and process data. Business logic, validations and database transactions are all catered for
+ - [Server Side Javascript](../../scripting-apis/server-side-scripting-overview/index) - the features offered here allow you to build secure server side scripts that can receive and process data. Business logic, validations and database transactions are all catered for
 
- - [Session Variables](../../scripting-apis/server-side-api/ssj-object/security/setsessionobject.htm) - a part of Server Side Javascripting, use of Session Variables allow you to secure your server side scripts fully
+ - [Session Variables](../../scripting-apis/server-side-api/ssj-object/security/setsessionobject) - a part of Server Side Javascripting, use of Session Variables allow you to secure your server side scripts fully
 
- - [Database Methods](../../scripting-apis/server-side-api/ssj-object/database/index.htm) - also a part of Server Side Javascript, the database methods allow you to manage SQL operations such as Select, Insert, Update, Delete in a friendly way. You can also write literal SQL statements and call stored procedures.
+ - [Database Methods](../../scripting-apis/server-side-api/ssj-object/database/index) - also a part of Server Side Javascript, the database methods allow you to manage SQL operations such as Select, Insert, Update, Delete in a friendly way. You can also write literal SQL statements and call stored procedures.
 
 ## In This Section:
 
- - [Important Points Before you Start](important-points-before-you-st.htm)
+ - [Important Points Before you Start](important-points-before-you-st)
 
- - [MUST READ: Security and SQL Injection](security-and-sql-injection.htm)
+ - [MUST READ: Security and SQL Injection](security-and-sql-injection)
 
- - [A Simple Example](a-simple-example/index.htm)
+ - [A Simple Example](a-simple-example/index)
 
- - [Create the Example Database](a-simple-example/create-the-example-database.htm)
+ - [Create the Example Database](a-simple-example/create-the-example-database)
 
- - [Client Side Javascript](a-simple-example/client-side-javascript.htm)
+ - [Client Side Javascript](a-simple-example/client-side-javascript)
 
- - [Server Side Javascript](a-simple-example/server-side-javascript.htm)
+ - [Server Side Javascript](a-simple-example/server-side-javascript)
 
- - [Functions and Complex Expressions](handling-sql-expressions.htm)
+ - [Functions and Complex Expressions](handling-sql-expressions)
 
- - [Callbacks to your Client Scripts](callbacks-to-your-client-scrip.htm)
+ - [Callbacks to your Client Scripts](callbacks-to-your-client-scrip)
 
- - [Error Handling](error-handling.htm)
+ - [Error Handling](error-handling)
 
- - [Exposing your SSJ DB handlers to other systems](exposing-your-ssj-db-handlers-.htm)
+ - [Exposing your SSJ DB handlers to other systems](exposing-your-ssj-db-handlers-)
 
 Related Video:
 

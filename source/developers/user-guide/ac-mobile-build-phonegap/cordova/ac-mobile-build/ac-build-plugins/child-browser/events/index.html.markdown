@@ -16,7 +16,7 @@ All events can be subscribed to by assigning a function to
 <table>
 <tr>
 <td width="151">
-[close](close4.htm)
+[close](close4)
 
 </td>
 <td width="23">
@@ -28,7 +28,7 @@ Called when the ChildBrowser has been closed
 </tr>
 <tr>
 <td width="151">
-[locationChange](locationchange.htm)
+[locationChange](locationchange)
 
 </td>
 <td width="23">
@@ -40,7 +40,7 @@ Called when the ChildBrowser loads a URL
 </tr>
 <tr>
 <td width="151">
-[openExternal](openexternal2.htm)
+[openExternal](openexternal2)
 
 </td>
 <td width="23">

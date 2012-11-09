@@ -38,9 +38,9 @@ This example gets the url of the currently running Instance. Note that the [Inst
 
 See Also:
 
- - [instanceLoad()](../instance-data-functions/instanceload.htm)
+ - [instanceLoad()](../instance-data-functions/instanceload)
 
- - [instanceSave()](../instance-data-functions/instancesave.htm)
+ - [instanceSave()](../instance-data-functions/instancesave)
 
- - [instanceCreate()](../instance-data-functions/instancecreate.htm)
+ - [instanceCreate()](../instance-data-functions/instancecreate)
 

@@ -16,7 +16,7 @@ Cookies
 
 This is the most basic approach and is very limiting as you can only store 4KB of data in a cookie. It is also vulnerable to being deleted if a user simply clears cookies. It is recommended only for the simplest storage requirements. Local Storage has the same level of simplicity but much more storage.
 
-Application Craft provides the [app.cookie()](../../scripting-apis/client-api/others/cookie.htm) method for setting and getting cookies.
+Application Craft provides the [app.cookie()](../../scripting-apis/client-api/others/cookie) method for setting and getting cookies.
 
 Local Storage
 
@@ -36,7 +36,7 @@ Web SQL is not nearly as easy to use as Local Storage, which should be used wher
 
 SQLite for Compiled Apps
 
-If you are using [AC Mobile Build](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/index.htm) to compile your application, then you can build applications using SQLite. SQLite is a popular choice as embedded database for local storage in native apps and with this approach the SQLite database library is a part of your application. Also, there are no storage size limits. See [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index.htm)
+If you are using [AC Mobile Build](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/index) to compile your application, then you can build applications using SQLite. SQLite is a popular choice as embedded database for local storage in native apps and with this approach the SQLite database library is a part of your application. Also, there are no storage size limits. See [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index)
 
 Indexed DB
 

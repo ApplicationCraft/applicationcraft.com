@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-To call an SSJ method from client code, you need to use the [callSSJ()](../client-api/app-functions/callservice.htm) client API method. You pass in an optional callback function name as well an optional array of arguments that your SSJ function requires.
+To call an SSJ method from client code, you need to use the [callSSJ()](../client-api/app-functions/callservice) client API method. You pass in an optional callback function name as well an optional array of arguments that your SSJ function requires.
 
     app.callSSJ(“SSJfunctionName”, callback, [arg1,arg2, ..., argN]);
     callback(error, res) {
@@ -45,5 +45,5 @@ The value that you return is passed to the client side callback function and app
 
 ## See Also:
 
- - [callSSJ()](../client-api/app-functions/callservice.htm)
+ - [callSSJ()](../client-api/app-functions/callservice)
 

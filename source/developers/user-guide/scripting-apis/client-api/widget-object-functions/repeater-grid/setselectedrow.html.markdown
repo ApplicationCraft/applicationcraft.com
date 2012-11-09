@@ -29,9 +29,9 @@ Description
 
 Specifies a row that should be selected in the Grid Widget. A negative value clears the visible row selection.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
 See Also:
 
- - [getSelectedRow()](getselectedrow.htm)
+ - [getSelectedRow()](getselectedrow)
 

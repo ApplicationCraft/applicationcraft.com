@@ -179,13 +179,13 @@ Returns false if an error was encountered otherwise the following object is retu
 
 Description
 
-Performs an AJAX call and returns more comprehensive content than [httpRequest()](httprequest2.htm) . Please refer to [httpRequest()](../../../client-api/soap-restful-ajax-calls/httprequest.htm) in the client API for full documentation.
+Performs an AJAX call and returns more comprehensive content than [httpRequest()](httprequest2) . Please refer to [httpRequest()](../../../client-api/soap-restful-ajax-calls/httprequest) in the client API for full documentation.
 
-[ssj.getLatestError()](../miscellaneous/getlatesterror.htm) should be used if you want to get full error information where httpRequest() returns false.
+[ssj.getLatestError()](../miscellaneous/getlatesterror) should be used if you want to get full error information where httpRequest() returns false.
 
 See Also:
 
- - [ssj.httpRequest()](httprequest2.htm)
+ - [ssj.httpRequest()](httprequest2)
 
- - [ssj.getLatestError()](../miscellaneous/getlatesterror.htm)
+ - [ssj.getLatestError()](../miscellaneous/getlatesterror)
 

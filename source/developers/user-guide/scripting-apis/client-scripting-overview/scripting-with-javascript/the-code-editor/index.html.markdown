@@ -14,9 +14,9 @@ There are some parts of the Application Craft system where we need to give credi
 
 ## See Also:
 
- - [Public Shared Scripts](../../public-shared-scripts.htm)
+ - [Public Shared Scripts](../../public-shared-scripts)
 
- - [Server Side Scripting](../../../server-side-scripting-overview/index.htm)
+ - [Server Side Scripting](../../../server-side-scripting-overview/index)
 
 Related Videos:
 
@@ -26,13 +26,13 @@ Related Videos:
 
 ## In This Section:
 
- - [Code Explorer](code-explorer.htm)
+ - [Code Explorer](code-explorer)
 
- - [Syntax Errors](syntax-errors.htm)
+ - [Syntax Errors](syntax-errors)
 
- - [Writing User Defined Functions](../introduction/writing-user-defined-functions.htm)
+ - [Writing User Defined Functions](../introduction/writing-user-defined-functions)
 
- - [Search / Replace](search---replace.htm)
+ - [Search / Replace](search---replace)
 
- - [Code Editor Color Schemes](code-higlighting.htm)
+ - [Code Editor Color Schemes](code-higlighting)
 

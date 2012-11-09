@@ -8,21 +8,21 @@ full_width: true
 
 Select/Hover over your user name to access the account management options.
 
-To manage your Application Craft account, your AC user requires 'Account Admin' rights. See [Users](../the-console/console-tabs/more/users-groups/users.htm)
+To manage your Application Craft account, your AC user requires 'Account Admin' rights. See [Users](../the-console/console-tabs/more/users-groups/users)
 
 ![Acmanage](/img/docs/acmanage.png)
 
 ## In This Section:
 
- - [Notifications](notifications.htm)
+ - [Notifications](notifications)
 
- - [Quick Start Menu](quick-start-menu.htm)
+ - [Quick Start Menu](quick-start-menu)
 
- - [Change Password](change-password.htm)
+ - [Change Password](change-password)
 
- - [Upgrade Subscriptions](upgrade-subscription.htm)
+ - [Upgrade Subscriptions](upgrade-subscription)
 
- - [Cancel Subscription](cancel-subscription.htm)
+ - [Cancel Subscription](cancel-subscription)
 
- - [Close Account](close-account.htm)
+ - [Close Account](close-account)
 

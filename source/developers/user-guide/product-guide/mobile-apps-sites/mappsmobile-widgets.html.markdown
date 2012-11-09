@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You should read the [Important Mobile Widgets](../advanced-important-widgets/important-mobile-widgets/index.htm) section in the [Advanced & Important Widgets](../advanced-important-widgets/index.htm) chapter. This goes into detail on important features of the more powerful Mobile Widget set.
+You should read the [Important Mobile Widgets](../advanced-important-widgets/important-mobile-widgets/index) section in the [Advanced & Important Widgets](../advanced-important-widgets/index) chapter. This goes into detail on important features of the more powerful Mobile Widget set.
 
 JQueryMobile
 

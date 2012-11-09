@@ -19,19 +19,19 @@ Where you can remove all overlays in one go
 
 ## See Also:
 
- - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays.htm)
+ - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 
- - [getOverlays()](getoverlays.htm)
+ - [getOverlays()](getoverlays)
 
- - [removeOverlay()](removeoverlay.htm)
+ - [removeOverlay()](removeoverlay)
 
- - [showOverlay()](showoverlayid.htm)
+ - [showOverlay()](showoverlayid)
 
- - [hideOverlay()](hideoverlay.htm)
+ - [hideOverlay()](hideoverlay)
 
- - [fitToOverlays()](fittooverlays.htm)
+ - [fitToOverlays()](fittooverlays)
 
- - [removeOverlay()](removeoverlay.htm)
+ - [removeOverlay()](removeoverlay)
 
- - [getOverlayObjById()](getoverlayobjbyidid.htm)
+ - [getOverlayObjById()](getoverlayobjbyidid)
 

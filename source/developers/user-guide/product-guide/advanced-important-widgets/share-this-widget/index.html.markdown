@@ -16,5 +16,5 @@ Register for an account at [http://www.sharethis.com](http://www.sharethis.com) 
 
 ## See Also:
 
- - [Share This](../../../widget-properties-events/beta/share-this.htm)
+ - [Share This](../../../widget-properties-events/beta/share-this)
 

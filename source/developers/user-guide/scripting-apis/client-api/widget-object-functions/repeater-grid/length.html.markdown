@@ -37,7 +37,7 @@ Example
 
 See Also:
 
- - [rowIndex()](rowindex.htm)
+ - [rowIndex()](rowindex)
 
- - [getRow()](getrow.htm)
+ - [getRow()](getrow)
 

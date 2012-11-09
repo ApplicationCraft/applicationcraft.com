@@ -8,5 +8,5 @@ full_width: true
 
 Whenever an event is called, the Widget Object (or page object as a page is also considered a Widget within AC) is available through the \_widget variable. The \_widget object can also be passed as a parameter to most Widget functions instead of a string.
 
-The \_widget object provides access to many [Widget Functions](../widget-functions/index.htm) .
+The \_widget object provides access to many [Widget Functions](../widget-functions/index) .
 

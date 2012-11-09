@@ -19,7 +19,7 @@ Parameters
 <td width="20">
 </td>
 <td width="702">
-the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](../objects-titbits/ref-widget.htm) or other [widget object](../objects-titbits/widget-object.htm) functions.
+the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](../objects-titbits/ref-widget) or other [widget object](../objects-titbits/widget-object) functions.
 
 </td>
 </tr>

@@ -8,11 +8,11 @@ full_width: true
 
 ## In this Section:
 
- - [console object](console-object/index.htm)
+ - [console object](console-object/index)
 
- - [ssj object](ssj-object/index.htm)
+ - [ssj object](ssj-object/index)
 
- - [sys object](sys-object/index.htm)
+ - [sys object](sys-object/index)
 
 Related Video:
 

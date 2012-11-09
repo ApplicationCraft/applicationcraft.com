@@ -10,11 +10,11 @@ A useful feature is to be able to embed one App within another. This is very eas
 
 See Also:
 
- - [switchApp()](../../../scripting-apis/client-api/app-functions/switchapp.htm)
+ - [switchApp()](../../../scripting-apis/client-api/app-functions/switchapp)
 
- - [parentApp()](../../../scripting-apis/client-api/app-functions/parentapp.htm)
+ - [parentApp()](../../../scripting-apis/client-api/app-functions/parentapp)
 
- - [childApp()](../../../scripting-apis/client-api/app-functions/childapp.htm)
+ - [childApp()](../../../scripting-apis/client-api/app-functions/childapp)
 
- - [Embed App Widget](../../../widget-properties-events/advanced/embed-app.htm)
+ - [Embed App Widget](../../../widget-properties-events/advanced/embed-app)
 

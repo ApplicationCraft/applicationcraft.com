@@ -97,7 +97,7 @@ Layout
 <td width="19">
 </td>
 <td width="765">
-Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: [Absolute and Relative Layout](../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout.htm)
+Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: [Absolute and Relative Layout](../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Google Analytics Track Code
 <td width="19">
 </td>
 <td width="765">
-If you want your GA tracking to be javascript free, then you can set the 'Google Analytics Track Code' property for any page you like within your App. See [Page Based Tracking Code](../product-guide/advanced-features/google-analytics/page-based-tracking-code.htm)
+If you want your GA tracking to be javascript free, then you can set the 'Google Analytics Track Code' property for any page you like within your App. See [Page Based Tracking Code](../product-guide/advanced-features/google-analytics/page-based-tracking-code)
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Percent Width
 <td width="19">
 </td>
 <td width="765">
-Where you can change the width of the page relative to the size of the browser. Used in 'Relative Mode'. See [Absolute and Relative Layout](../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout.htm)
+Where you can change the width of the page relative to the size of the browser. Used in 'Relative Mode'. See [Absolute and Relative Layout](../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
 
 </td>
 </tr>
@@ -183,13 +183,13 @@ Transition Mode
 <td width="19">
 </td>
 <td width="765">
-Auto/Pre Rendering/Post Rendering. Properties to help manage [Page Transitions](../product-guide/mobile-apps-sites/page-transition-effects.htm) and show an hourglass.
+Auto/Pre Rendering/Post Rendering. Properties to help manage [Page Transitions](../product-guide/mobile-apps-sites/page-transition-effects) and show an hourglass.
 
 Auto -Pages will be automatically rendered. If the time to transition to this page is more them 1500 ms future transitions will automatically show an hourglass
 
 Pre Rendering - The target page will be rendered before transitioning to that page. No hourglass will be shown
 
-Post Rendering - The target page will be loaded and while the content is rendered an hourglass will be shown. See: [Transition Mode](../product-guide/mobile-apps-sites/mobile-transition-mode.htm)
+Post Rendering - The target page will be loaded and while the content is rendered an hourglass will be shown. See: [Transition Mode](../product-guide/mobile-apps-sites/mobile-transition-mode)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ BG Color
 <td width="19">
 </td>
 <td width="765">
-This is empty by default, which indicates that the Page's back color is taken from the App's [Theme](../product-guide/the-console/console-tabs/themes-overview.htm) . It can be reset the to Theme's Page Back Color by pressing "Use Theme" in the property's pop-up dialog.
+This is empty by default, which indicates that the Page's back color is taken from the App's [Theme](../product-guide/the-console/console-tabs/themes-overview) . It can be reset the to Theme's Page Back Color by pressing "Use Theme" in the property's pop-up dialog.
 
 </td>
 </tr>
@@ -316,7 +316,7 @@ Padding
 <td width="19">
 </td>
 <td width="765">
-Used to specify the margin/padding around a widget when the parent container is in Relative Mode. See [Setting a Margin](../product-guide/content-and-app-layout/introduction/setting-a-margin.htm)
+Used to specify the margin/padding around a widget when the parent container is in Relative Mode. See [Setting a Margin](../product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ Custom CSS Classes
 <td width="19">
 </td>
 <td width="765">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../product-guide/advanced-features/custom-css-classes/index.htm)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../product-guide/advanced-features/custom-css-classes/index)
 
 </td>
 </tr>
@@ -394,7 +394,7 @@ Snap to grid
 <td width="19">
 </td>
 <td width="765">
-This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice [Drag Alignment](../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-alignment--distribution.htm) feature.
+This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice [Drag Alignment](../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-alignment--distribution) feature.
 
 </td>
 </tr>
@@ -429,19 +429,19 @@ The size, in pixels, of the Grid as used by the Snap to grid feature and propert
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](events/event-reference-list/mouse-events.htm)
+[Mouse Events](events/event-reference-list/mouse-events)
 
 </td>
 <td width="15">
 </td>
 <td width="120">
-[General Events](events/event-reference-list/general-events.htm)
+[General Events](events/event-reference-list/general-events)
 
 </td>
 <td width="17">
 </td>
 <td width="108">
-[Key Events](events/event-reference-list/key-events.htm)
+[Key Events](events/event-reference-list/key-events)
 
 </td>
 </tr>
@@ -543,9 +543,9 @@ On Mouse Leave
 
 ## See Also:
 
- - [Mouse Events](events/event-reference-list/mouse-events.htm)
+ - [Mouse Events](events/event-reference-list/mouse-events)
 
- - [Key Events](events/event-reference-list/key-events.htm)
+ - [Key Events](events/event-reference-list/key-events)
 
- - [General Events](events/event-reference-list/general-events.htm)
+ - [General Events](events/event-reference-list/general-events)
 

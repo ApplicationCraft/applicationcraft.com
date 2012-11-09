@@ -45,13 +45,13 @@ Description
 
 Inserts a record of data into the specified database table. The dataObject passed in the parameter must be a simple key:value object as shown in the example below. The key should match a table field name exactly.
 
-The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](quote.htm) manually in advance.
+The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](quote) manually in advance.
 
-You may want to use the [client side api functions to extract data](../../../client-api/widget-data-state-manipulation/index.htm) from your widgets. [app.dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues.htm) , for example, can be used to extract widget names and values into an object. If you choose widget names to match your database field names, then you can use the object returned by app.dataGetValues() and use it as your fieldsObject data without any further manipulation.
+You may want to use the [client side api functions to extract data](../../../client-api/widget-data-state-manipulation/index) from your widgets. [app.dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues) , for example, can be used to extract widget names and values into an object. If you choose widget names to match your database field names, then you can use the object returned by app.dataGetValues() and use it as your fieldsObject data without any further manipulation.
 
 Field Expressions
 
-If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../data-storage/server-side-data-storage/handling-sql-expressions.htm) .
+If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../data-storage/server-side-data-storage/handling-sql-expressions) .
 
 Example
 
@@ -61,9 +61,9 @@ Example
 
 See Also:
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues.htm)
+ - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates.htm)
+ - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index.htm)
+ - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index)
 

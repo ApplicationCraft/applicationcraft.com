@@ -10,42 +10,42 @@ These widgets are optimised for mobile devices, but can be used on 'desktop' app
 
 ## In This Section:
 
-[Checkbox](mobcheckbox.htm)
+[Checkbox](mobcheckbox)
 
-[Toolbar](toolbar.htm)
+[Toolbar](toolbar)
 
-[Text Area](mobtext-area.htm)
+[Text Area](mobtext-area)
 
-[Action Button](mobaction-button.htm)
+[Action Button](mobaction-button)
 
-[Upload Button](upload-button.htm)
+[Upload Button](upload-button)
 
-[Popup Dropdown](popup-dropdown.htm)
+[Popup Dropdown](popup-dropdown)
 
-[Radio Buttons Group](radiobuttonsgroup.htm)
+[Radio Buttons Group](radiobuttonsgroup)
 
-[Popup Listbox](popup-listbox.htm)
+[Popup Listbox](popup-listbox)
 
-[Text](mobtext.htm)
+[Text](mobtext)
 
-[Search](mobsearch.htm)
+[Search](mobsearch)
 
-[Slider](slider.htm)
+[Slider](slider)
 
-[Flip Toggle Switch](flip-toggle-switch.htm)
+[Flip Toggle Switch](flip-toggle-switch)
 
-[Checkbox Group](checkbox-group.htm)
+[Checkbox Group](checkbox-group)
 
-[List](list.htm)
+[List](list)
 
-[NavBar](navbar.htm)
+[NavBar](navbar)
 
-[Collapsible](collapsible.htm)
+[Collapsible](collapsible)
 
-[Auth Button](auth-button.htm)
+[Auth Button](auth-button)
 
-[Label](moblabel.htm)
+[Label](moblabel)
 
-[Mobiscroll Date](mobiscroll.htm)
+[Mobiscroll Date](mobiscroll)
 
-[Mobiscroll List](mobiscroll-list.htm)
+[Mobiscroll List](mobiscroll-list)

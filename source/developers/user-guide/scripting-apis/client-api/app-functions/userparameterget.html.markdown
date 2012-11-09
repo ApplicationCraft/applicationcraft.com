@@ -43,7 +43,7 @@ Gets the value of a User Parameter for the currently logged on user. You need to
 
 ## See A l so
 
- - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/index.htm)
+ - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/index)
 
- - [userParameterSet()](userparameterset.htm)
+ - [userParameterSet()](userparameterset)
 

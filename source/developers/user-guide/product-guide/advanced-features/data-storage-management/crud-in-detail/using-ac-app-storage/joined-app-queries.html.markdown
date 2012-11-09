@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -22,11 +22,11 @@ Your Companies App creates new Contacts in the foreign Contacts App. All UI inte
 
 In the Companies App, you may want to list all Contacts that are associated with the Company. In this case, you will need to use a JOIN query between the two Apps. You can then apply a filter (on the currently selected company) to the Widget listing the contacts.
 
-AC's CRUD functions handle the setting up of the relationship automatically (if you are using automatic relationship handling) and even if you are using [instanceSetRelationship()](../../../../../scripting-apis/client-api/instance-data-functions/instancesetrelationship.htm) to manually request relationships, AC does all the internal heavy-lifting. So creating a JOIN query is easy to do without worrying about data tables and link tables etc.
+AC's CRUD functions handle the setting up of the relationship automatically (if you are using automatic relationship handling) and even if you are using [instanceSetRelationship()](../../../../../scripting-apis/client-api/instance-data-functions/instancesetrelationship) to manually request relationships, AC does all the internal heavy-lifting. So creating a JOIN query is easy to do without worrying about data tables and link tables etc.
 
 Query Definition
 
- - Select Edit for a new or existing [Query in the Console](../../../../the-console/console-tabs/queries/index.htm) .
+ - Select Edit for a new or existing [Query in the Console](../../../../the-console/console-tabs/queries/index) .
 
  - Select the App tab on the left and drag the Full Data items for your two Apps into the right hand side.
 

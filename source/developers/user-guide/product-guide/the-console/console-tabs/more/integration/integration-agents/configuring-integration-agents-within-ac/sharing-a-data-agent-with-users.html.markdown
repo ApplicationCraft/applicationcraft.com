@@ -16,5 +16,5 @@ If you want to make a shared Agent Public, you can drag it into a Public folder.
 
 ## See Also
 
- - [Sharing](../../../../../sharing.htm)
+ - [Sharing](../../../../../sharing)
 

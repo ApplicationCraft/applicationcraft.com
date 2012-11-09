@@ -19,7 +19,7 @@ Parameters
 <td width="20">
 </td>
 <td width="750">
-The snapshot object to be restored that was previously acquired with [getAppSnapshot()](getappsnapshot.htm)
+The snapshot object to be restored that was previously acquired with [getAppSnapshot()](getappsnapshot)
 
 </td>
 </tr>
@@ -27,9 +27,9 @@ The snapshot object to be restored that was previously acquired with [getAppSnap
 
 Description
 
-This function restores a complete snapshot of a previously running App and stores it in an object variable created with [getAppSnapshot()](getappsnapshot.htm) .
+This function restores a complete snapshot of a previously running App and stores it in an object variable created with [getAppSnapshot()](getappsnapshot) .
 
-This is especially useful when used in conjunction with the [switchApp()](switchapp.htm) and [getGlobalData()](../global-data-pool-functions/getglobaldata.htm) functions. When you switch to another App, you may want to store the state of the current App so when you switch back to the current App, it is able to restore that exact same state.
+This is especially useful when used in conjunction with the [switchApp()](switchapp) and [getGlobalData()](../global-data-pool-functions/getglobaldata) functions. When you switch to another App, you may want to store the state of the current App so when you switch back to the current App, it is able to restore that exact same state.
 
 ## Important : setAppSnapshot() will not work in the 'On App Loading' event. It will mostly be used in the 'On App Started' event or at a later point once the App has loaded.
 
@@ -52,15 +52,15 @@ Example
 
 See Also:
 
- - [getAppSnapshot()](getappsnapshot.htm)
+ - [getAppSnapshot()](getappsnapshot)
 
- - [switchApp()](switchapp.htm)
+ - [switchApp()](switchapp)
 
- - [setGlobalData()](../global-data-pool-functions/setglobaldata.htm)
+ - [setGlobalData()](../global-data-pool-functions/setglobaldata)
 
- - [getGlobalData()](../global-data-pool-functions/getglobaldata.htm)
+ - [getGlobalData()](../global-data-pool-functions/getglobaldata)
 
- - [getInstanceData()](../instance-data-functions/getinstancedata.htm)
+ - [getInstanceData()](../instance-data-functions/getinstancedata)
 
- - [setInstanceData()](../instance-data-functions/setinstancedata.htm)
+ - [setInstanceData()](../instance-data-functions/setinstancedata)
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Anyone who accesses the Application Craft Console will require a User ID. You can also configure Apps to require someone to be authenticated before they can access an App Instance. Alternatively, users can access App Instances anonymously. Please see [Sharing](../../../sharing.htm) for more details.
+Anyone who accesses the Application Craft Console will require a User ID. You can also configure Apps to require someone to be authenticated before they can access an App Instance. Alternatively, users can access App Instances anonymously. Please see [Sharing](../../../sharing) for more details.
 
 There are 2 types of users:
 
@@ -19,9 +19,9 @@ There are 2 types of users:
 <td width="19">
 </td>
 <td width="667">
-This refers to the number of developer users in your account and can be granted [rights](users.htm#rights) to be able to access specific areas in your account.
+This refers to the number of developer users in your account and can be granted [rights](users.htm#ri) to be able to access specific areas in your account.
 
-Additional developer users can also be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription.htm)
+Additional developer users can also be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription)
 
 If you wish to reduce (temporarily) the number of developers in your account, but may want to upgrade again in future (or allow a developer to return to work in your account), you can disable developer users so their work/apps are not deleted but just not available.
 
@@ -35,7 +35,7 @@ If you wish to reduce (temporarily) the number of developers in your account, bu
 <td width="19">
 </td>
 <td width="667">
-This refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/index.htm) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/index.htm) . This user does not require any 'rights'. You can disable users to restrict access to your apps.  There are no limits to the number of app users you can have in your account
+This refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/index) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/index) . This user does not require any 'rights'. You can disable users to restrict access to your apps.  There are no limits to the number of app users you can have in your account
 
 </td>
 </tr>
@@ -94,9 +94,9 @@ Type
 <td width="667">
 developer/app.
 
- - 'developer' refers to the number of developer users in your account. Additional developer users can be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription.htm)
+ - 'developer' refers to the number of developer users in your account. Additional developer users can be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription)
 
- - 'app' refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/index.htm) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/index.htm)
+ - 'app' refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/index) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/index)
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ Manage Widgets
 <td width="19">
 </td>
 <td width="667">
-Can create, administer and use Custom Widgets. See [Adding your own Widgets to Application Craft](../../../../../adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/index.htm)
+Can create, administer and use Custom Widgets. See [Adding your own Widgets to Application Craft](../../../../../adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/index)
 
 </td>
 </tr>
@@ -260,7 +260,7 @@ Account Admin
 <td width="19">
 </td>
 <td width="667">
-Allow the user access to the general Account settings (including ability to pull Updates and change subscription package). See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription.htm)
+Allow the user access to the general Account settings (including ability to pull Updates and change subscription package). See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription)
 
 </td>
 </tr>
@@ -272,7 +272,7 @@ Manage Notifiers
 <td width="19">
 </td>
 <td width="667">
-Can create and administer Notifiers. See [Notifiers](../../notifiers.htm)
+Can create and administer Notifiers. See [Notifiers](../../notifiers)
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ Access all logs
 <td width="19">
 </td>
 <td width="667">
-Can the user access logs. See [Logging Support](../../../../advanced-features/logging-support/index.htm)
+Can the user access logs. See [Logging Support](../../../../advanced-features/logging-support/index)
 
 </td>
 </tr>
@@ -296,7 +296,7 @@ Write Logs
 <td width="19">
 </td>
 <td width="667">
-Can the user write logs. See [Logging Support](../../../../advanced-features/logging-support/index.htm)
+Can the user write logs. See [Logging Support](../../../../advanced-features/logging-support/index)
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ This list shows which Groups the user is a member of. You can add Users to or re
 <td width="19">
 </td>
 <td width="667">
-Where users individual parameters can be set. See [User Parameters](../account-variables/user-parameters/index.htm)
+Where users individual parameters can be set. See [User Parameters](../account-variables/user-parameters/index)
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ Change Password
 <td width="19">
 </td>
 <td width="685">
-This is where another users password can be changed. To change your own password see [My Details](../my-details.htm)
+This is where another users password can be changed. To change your own password see [My Details](../my-details)
 
 </td>
 </tr>

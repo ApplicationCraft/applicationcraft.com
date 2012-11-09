@@ -59,4 +59,4 @@ Go to App Properties: Phonegap Options.
 
 Enter in the Application Name defined in Xtify to the Application ID property.
 
-You are now ready to build your app using [AC Mobile Build](../../index.htm) .
+You are now ready to build your app using [AC Mobile Build](../../index) .

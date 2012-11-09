@@ -18,7 +18,7 @@ Shared
 
 Private objects that are shared by other Users will appear within the logged on User's Shared folder. The top level branches of the Shared folder are the User names of any other users who have shared objects with the logged on User, or a Group that the logged on User is a member of. Within each of those User branches will be the Private folder structure of another user showing any objects where permissions have been granted to the logged on User.
 
-See [Sharing](sharing.htm) for further information on granting Permissions to other Users.
+See [Sharing](sharing) for further information on granting Permissions to other Users.
 
 Public
 

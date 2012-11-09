@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Photoswipe](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/index.htm) Reference section.
+The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Photoswipe](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/index) Reference section.
 
 <table>
 <tr>
 <td width="182">
-[showGallery()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/showgallery.htm)
+[showGallery()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/showgallery)
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ Show the Gallery/Start the slide Show
 </tr>
 <tr>
 <td width="182">
-[columnWidth()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/columnwidth.htm)
+[columnWidth()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/columnwidth)
 
 </td>
 <td width="8">
@@ -35,7 +35,7 @@ Set the column width in the widget
 </tr>
 <tr>
 <td width="182">
-[getCurrentImage()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimage.htm)
+[getCurrentImage()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimage)
 
 </td>
 <td width="8">
@@ -47,7 +47,7 @@ Allows you to get the currentImage
 </tr>
 <tr>
 <td width="182">
-[getCurrentImageIndex()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimageindex.htm)
+[getCurrentImageIndex()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimageindex)
 
 </td>
 <td width="8">
@@ -59,7 +59,7 @@ Allows you to get the currentImage index
 </tr>
 <tr>
 <td width="182">
-[getPhotoswipeObject()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/getphotoswipeobject.htm)
+[getPhotoswipeObject()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/getphotoswipeobject)
 
 </td>
 <td width="8">
@@ -71,7 +71,7 @@ Allows you to get the Photoswipe Object
 </tr>
 <tr>
 <td width="182">
-[populateWidget()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/pswipepopulatewidget.htm)
+[populateWidget()](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/pswipepopulatewidget)
 
 </td>
 <td width="8">

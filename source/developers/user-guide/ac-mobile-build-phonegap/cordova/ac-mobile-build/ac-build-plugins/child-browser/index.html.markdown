@@ -72,11 +72,11 @@ All functions are called on the singleton ChildBrowser instance - accessible as
 
 .
 
-The Child Browser plugin can also be used if building using [Phonegap:Build](../../../phonegapbuild/index.htm)
+The Child Browser plugin can also be used if building using [Phonegap:Build](../../../phonegapbuild/index)
 
 See
 
- - [Methods](methods/index.htm)
+ - [Methods](methods/index)
 
- - [Events](events/index.htm)
+ - [Events](events/index)
 

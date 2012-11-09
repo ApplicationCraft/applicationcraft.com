@@ -6,6 +6,6 @@ full_width: true
 ---
 
 
-You can add Video and Audio. These can be uploaded via [Resources](../../the-console/console-tabs/resources.htm) . .
+You can add Video and Audio. These can be uploaded via [Resources](../../the-console/console-tabs/resources) . .
 
-See [Video & Audio Widgets](../../advanced-important-widgets/video-audio-widgets/index.htm)
+See [Video & Audio Widgets](../../advanced-important-widgets/video-audio-widgets/index)

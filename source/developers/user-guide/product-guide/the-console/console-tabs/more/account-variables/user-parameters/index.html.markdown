@@ -12,7 +12,7 @@ You could do all this in an App by creating some sort of data storage that handl
 
 Having defined the new Group, you can then add as many parameters within that group as you name. In our example, you would create one called 'Username' and one called 'Password'.
 
-Users can then update their own Twitter name and passwords either from the [My User Variables](../../my-details.htm)
+Users can then update their own Twitter name and passwords either from the [My User Variables](../../my-details)
 
 section of the Console, or else an App can read and write them if you need a more specific way of managing them.
 

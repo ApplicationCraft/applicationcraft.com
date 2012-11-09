@@ -6,26 +6,26 @@ full_width: true
 ---
 
 
-## Important : refer to the [Workflow](../../../product-guide/advanced-features/workflow/index.htm) section, which gives you a general overview.
+## Important : refer to the [Workflow](../../../product-guide/advanced-features/workflow/index) section, which gives you a general overview.
 
 These functions allow you to assign data instances to Roles, Persons and Groups. It also handles Notifications, Reminders and cancellations of these.
 
 <table>
 <tr>
 <td width="230">
-[assignToRole()](assigntorole.htm)
+[assignToRole()](assigntorole)
 
 </td>
 <td width="13">
 </td>
 <td width="637">
-Assigns a Person or Group to a Role for a specified App (can also be [done manually in the Console](../../../product-guide/advanced-features/workflow/roles--stages.htm) )
+Assigns a Person or Group to a Role for a specified App (can also be [done manually in the Console](../../../product-guide/advanced-features/workflow/roles--stages) )
 
 </td>
 </tr>
 <tr>
 <td width="230">
-[unassignFromRole()](unassignfromrole.htm)
+[unassignFromRole()](unassignfromrole)
 
 </td>
 <td width="13">
@@ -37,7 +37,7 @@ Removes a Person or Group from a Role  for a specified App
 </tr>
 <tr>
 <td width="230">
-[currentUserRole()](currentuserrole.htm)
+[currentUserRole()](currentuserrole)
 
 </td>
 <td width="13">
@@ -49,7 +49,7 @@ Returns the Role (if there is one) of the currently logged in User / Person
 </tr>
 <tr>
 <td width="230">
-[getAssignedRoles()](getassignedroles.htm)
+[getAssignedRoles()](getassignedroles)
 
 </td>
 <td width="13">
@@ -61,7 +61,7 @@ Returns a list of all Roles that are currently assigned to a specified instance
 </tr>
 <tr>
 <td width="230">
-[setStage()](setstage.htm)
+[setStage()](setstage)
 
 </td>
 <td width="13">
@@ -73,7 +73,7 @@ Changes the Stage for the currently loaded Instance
 </tr>
 <tr>
 <td width="230">
-[getStage()](getstage.htm)
+[getStage()](getstage)
 
 </td>
 <td width="13">
@@ -85,19 +85,19 @@ Enables you to get the current stage of the currently loaded instance
 </tr>
 <tr>
 <td width="230">
-[assignInstance()](assigninstance.htm)
+[assignInstance()](assigninstance)
 
 </td>
 <td width="13">
 </td>
 <td width="637">
-Assigns the specified instance id to a Role, Person or Group and assigns it an [Attention Level](../../../product-guide/advanced-features/workflow/attention-levels.htm) value.
+Assigns the specified instance id to a Role, Person or Group and assigns it an [Attention Level](../../../product-guide/advanced-features/workflow/attention-levels) value.
 
 </td>
 </tr>
 <tr>
 <td width="230">
-[cancelAssignments()](cancelassignments.htm)
+[cancelAssignments()](cancelassignments)
 
 </td>
 <td width="13">
@@ -109,7 +109,7 @@ Cancels an existing assignment for a specified instance for a Role, Group or Per
 </tr>
 <tr>
 <td width="230">
-[notify()](notify.htm)
+[notify()](notify)
 
 </td>
 <td width="13">
@@ -121,7 +121,7 @@ Sends a notification (typically email) to one or more Role, Group or Person and 
 </tr>
 <tr>
 <td width="230">
-[cancelNotifications()](cancelnotificationsforinstance.htm)
+[cancelNotifications()](cancelnotificationsforinstance)
 
 </td>
 <td width="13">

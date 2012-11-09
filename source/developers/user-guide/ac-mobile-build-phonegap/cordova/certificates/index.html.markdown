@@ -12,11 +12,11 @@ Here is a quick overview of the different approaches to certificates that each p
 
 Android
 
-To build and test, you don't need to do anything. You can use our default debug certificate. If you want to deploy a codesigned App, which you will need to deploy via Google Play, then you need to generate a proper Certificate. You can [generate your own](android-certificates/index.htm) or you can use our Certificate Assistant (coming in November 2012) in which case the Application Craft platform generates them for you.
+To build and test, you don't need to do anything. You can use our default debug certificate. If you want to deploy a codesigned App, which you will need to deploy via Google Play, then you need to generate a proper Certificate. You can [generate your own](android-certificates/index) or you can use our Certificate Assistant (coming in November 2012) in which case the Application Craft platform generates them for you.
 
 iOS
 
-Apple requires both a Codesigning Certificate and a so called Mobile Provisioning Profile. You need different ones for development and for App Store deployment. [Click here](ios-keys-and-certificates/index.htm) for more on iOS Certificate Management.
+Apple requires both a Codesigning Certificate and a so called Mobile Provisioning Profile. You need different ones for development and for App Store deployment. [Click here](ios-keys-and-certificates/index) for more on iOS Certificate Management.
 
 Thanks to our Certificate Assistant (coming in November 2012), you can actually do everything without needing a Mac, which you will need otherwise.
 
@@ -26,6 +26,6 @@ This will be available in December 2012.
 
 ## In This Section:
 
-[iOS Keys and Certificates](ios-keys-and-certificates/index.htm)
+[iOS Keys and Certificates](ios-keys-and-certificates/index)
 
-[Android Certificates](android-certificates/index.htm)
+[Android Certificates](android-certificates/index)

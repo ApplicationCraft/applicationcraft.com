@@ -53,7 +53,7 @@ Example
 
 See Also:
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index.htm)
+ - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index)
 
- - [language()](language.htm)
+ - [language()](language)
 

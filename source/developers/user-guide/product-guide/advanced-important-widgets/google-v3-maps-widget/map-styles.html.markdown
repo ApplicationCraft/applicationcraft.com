@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can control the visual style of a Map using the [mapStyles()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/mapstyles.htm) function. This allows you to pass in a structure that defines the main style elements used by the map.
+You can control the visual style of a Map using the [mapStyles()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/mapstyles) function. This allows you to pass in a structure that defines the main style elements used by the map.
 
 You can modify many map elements including Roads, Forests, Regions, Points of Interest.
 
@@ -37,5 +37,5 @@ You can modify many map elements including Roads, Forests, Regions, Points of In
 
 You can read about map styles [here](http://code.google.com/apis/maps/documentation/javascript/styling.html) .
 
-Please refer to the [mapStyles()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/mapstyles.htm) function in the [Client API](../../../scripting-apis/client-api/index.htm) section
+Please refer to the [mapStyles()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/mapstyles) function in the [Client API](../../../scripting-apis/client-api/index) section
 

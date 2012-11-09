@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-This plugin is used in conjunction with the [Scandit Button](../../../../widget-properties-events/beta/scandit-button.htm) widget to allow you to scan barcodes in your apps without requiring lots of code.
+This plugin is used in conjunction with the [Scandit Button](../../../../widget-properties-events/beta/scandit-button) widget to allow you to scan barcodes in your apps without requiring lots of code.
 
-Simple configure your [Scandit Button](../../../../widget-properties-events/beta/scandit-button.htm) widget and set the onSuccess/onFail events, and then enable this plugin and build your app.
+Simple configure your [Scandit Button](../../../../widget-properties-events/beta/scandit-button) widget and set the onSuccess/onFail events, and then enable this plugin and build your app.
 
-See [Scandit Widget](../../../../product-guide/advanced-important-widgets/scandit-widget/index.htm)
+See [Scandit Widget](../../../../product-guide/advanced-important-widgets/scandit-widget/index)
 
 HTML5+CSS+JS Apps not developed in Application Craft
 
@@ -175,5 +175,5 @@ Available options: (description see - [https://github.com/ApplicationCraft/Scand
 
 ## See Also:
 
- - [ZXing Bar Code Scanner](zxing_bar_code_scanner.htm)
+ - [ZXing Bar Code Scanner](zxing-bar-code-scanner)
 

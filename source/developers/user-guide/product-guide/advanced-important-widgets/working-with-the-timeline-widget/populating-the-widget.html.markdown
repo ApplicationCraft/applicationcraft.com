@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can populate the Timeline Widget using the [app.populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) method. This allows all meta information to be passed from almost any simple or complex JSON object.
+You can populate the Timeline Widget using the [app.populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) method. This allows all meta information to be passed from almost any simple or complex JSON object.
 
-Typically, you will retrieve data using [getViewData()](../../../scripting-apis/client-api/data-view-functions/getviewdata.htm) or [httpRequest()](../../../scripting-apis/client-api/soap-restful-ajax-calls/httprequest.htm) . These both return data in some format that includes at least the metadata required. Importantly, you do not have to transform this data into a precise object/array structure in order to populate the widget.
+Typically, you will retrieve data using [getViewData()](../../../scripting-apis/client-api/data-view-functions/getviewdata) or [httpRequest()](../../../scripting-apis/client-api/soap-restful-ajax-calls/httprequest) . These both return data in some format that includes at least the metadata required. Importantly, you do not have to transform this data into a precise object/array structure in order to populate the widget.
 
-The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) method allows you to pass a simple mapping object that tells AC where to get data from in your source data and where to put it in the widget. The mapping objects used in the example below are fully explained here.
+The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) method allows you to pass a simple mapping object that tells AC where to get data from in your source data and where to put it in the widget. The mapping objects used in the example below are fully explained here.
 
 Example
 
@@ -81,7 +81,7 @@ You can see an array called treeArr[ ], which is where we will store the tree ca
     var treeMap = {appId:"treeId", parentId:"parentId", name:"itemName", icon:"itemIcon"};
    
 
-Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) documentation for a full explanation of these mapping, which are capable of working with complex objects.
+Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) documentation for a full explanation of these mapping, which are capable of working with complex objects.
 
 Timeline Data
 
@@ -100,5 +100,5 @@ You can see an array called timelineArr[ ], which is where we will store the tim
     var timelineMap = {parentId:'parentTreeId', name:'evName', date:'evDate', icon:'itemIcon', endDate: 'endDate'};
    
 
-Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) documentation for a full explanation of these mappings, which are capable of working with complex objects.
+Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) documentation for a full explanation of these mappings, which are capable of working with complex objects.
 

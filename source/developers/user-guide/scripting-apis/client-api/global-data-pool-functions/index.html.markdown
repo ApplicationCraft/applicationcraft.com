@@ -6,14 +6,14 @@ full_width: true
 ---
 
 
-These functions allow values and entire instances to be saved outside the scope of an individual App. This is especially useful when switching between Apps with [switchApp()](../app-functions/switchapp.htm) or as a way of passing data between Apps running within the same browser session.
+These functions allow values and entire instances to be saved outside the scope of an individual App. This is especially useful when switching between Apps with [switchApp()](../app-functions/switchapp) or as a way of passing data between Apps running within the same browser session.
 
 ## In This Section:
 
 <table>
 <tr>
 <td width="149">
-[setGlobalData()](setglobaldata.htm)
+[setGlobalData()](setglobaldata)
 
 </td>
 <td width="12">
@@ -25,7 +25,7 @@ Save any data to a variable that exists independent of all Apps
 </tr>
 <tr>
 <td width="149">
-[getGlobalData()](getglobaldata.htm)
+[getGlobalData()](getglobaldata)
 
 </td>
 <td width="12">
@@ -37,7 +37,7 @@ Gets data into a variable that was previously saved with setGlobalData()
 </tr>
 <tr>
 <td width="149">
-[clearGlobalData()](clearglobaldata.htm)
+[clearGlobalData()](clearglobaldata)
 
 </td>
 <td width="12">
@@ -51,7 +51,7 @@ Removes a variable from the Global Data Pool
 
 See Also:
 
- - [App Switching](../../client-scripting-overview/scripting-with-javascript/important-details/app-switching.htm)
+ - [App Switching](../../client-scripting-overview/scripting-with-javascript/important-details/app-switching)
 
 Related Video:
 

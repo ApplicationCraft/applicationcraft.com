@@ -79,7 +79,7 @@ This is a function of the widget object that inserts a row into a Grid or Repeat
 
 If you specify a Repeater Container, then you can use getRow(index) to get the row object for that newly created row, which in turn gives you access to the row's widgets using the .w() function of that row object.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
 Example
 
@@ -93,17 +93,17 @@ and this one does the same to a Grid
 
 See Also:
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteRowById()](deleterowbyid.htm)
+ - [deleteRowById()](deleterowbyid)
 
- - [deleteSelectedRows()](deleteselectedrows.htm)
+ - [deleteSelectedRows()](deleteselectedrows)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
- - [rowIndex()](rowindex.htm)
+ - [rowIndex()](rowindex)
 
- - [getRow()](getrow.htm)
+ - [getRow()](getrow)
 
- - [Widget Object](../../objects-titbits/widget-object.htm)
+ - [Widget Object](../../objects-titbits/widget-object)
 

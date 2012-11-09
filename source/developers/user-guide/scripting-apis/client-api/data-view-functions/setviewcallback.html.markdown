@@ -77,11 +77,11 @@ The identifier is the identifier string that was included in the bindViewData() 
 
 See Also:
 
- - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/index.htm) (good introduction to Views)
+ - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/index) (good introduction to Views)
 
- - [getViewData()](getviewdata.htm)
+ - [getViewData()](getviewdata)
 
- - [drillDownBroadcast()](drilldownbroadcast.htm)
+ - [drillDownBroadcast()](drilldownbroadcast)
 
- - [bindViewData()](setviewcallback.htm)
+ - [bindViewData()](setviewcallback)
 

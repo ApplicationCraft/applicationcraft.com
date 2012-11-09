@@ -12,7 +12,7 @@ If you want to use Google Analytics and want all of your Apps within your accoun
 
  - Select the 'Account' option
 
- - In the left pane, select [Google Analytics Parameters](../../the-console/console-tabs/more/account-variables/google-analytics-parameters.htm)
+ - In the left pane, select [Google Analytics Parameters](../../the-console/console-tabs/more/account-variables/google-analytics-parameters)
 
  - In the right pane, enter your Google Analytics account ID
 

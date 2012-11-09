@@ -10,7 +10,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -37,7 +37,7 @@ The Instance ID of the App in which the relationName parameter is defined
 <td width="10">
 </td>
 <td width="700">
-Enter Relation Name as defined in App Properties - Application Relationship. See [App Instances](../../../product-guide/advanced-features/data-storage-management/dataapp-instances.htm)
+Enter Relation Name as defined in App Properties - Application Relationship. See [App Instances](../../../product-guide/advanced-features/data-storage-management/dataapp-instances)
 
 </td>
 </tr>
@@ -105,17 +105,17 @@ Callback Functions
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully reflected in the CDB (Core Database). rdbCallback is called once the data is fully reflected in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx_callback_function.htm) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
 
 See Also:
 
- - [instanceNew()](instancenew.htm)
+ - [instanceNew()](instancenew)
 
- - [instanceCreate()](instancecreate.htm)
+ - [instanceCreate()](instancecreate)
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
 Related Video:
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can get a map coordinate from a specified address using [getCoord()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord.htm) as shown below.
+You can get a map coordinate from a specified address using [getCoord()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord) as shown below.
 
     function getCoordsCallback(result, data) {
     if (result) {
@@ -19,5 +19,5 @@ You can get a map coordinate from a specified address using [getCoord()](../../.
     }
    
 
-Please refer to [getCoord()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord.htm) in the [Client API](../../../scripting-apis/client-api/index.htm) section for full details on the function.
+Please refer to [getCoord()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord) in the [Client API](../../../scripting-apis/client-api/index) section for full details on the function.
 

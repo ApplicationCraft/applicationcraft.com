@@ -37,7 +37,7 @@ Example
 
 See Also:
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index.htm)
+ - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index)
 
- - [translate()](translate.htm)
+ - [translate()](translate)
 

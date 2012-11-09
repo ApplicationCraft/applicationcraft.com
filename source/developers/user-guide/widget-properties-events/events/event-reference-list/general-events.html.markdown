@@ -49,7 +49,7 @@ On Adaptive Layout
 <td width="17">
 </td>
 <td width="747">
-It is called once whenever the App resizing triggers an Adaptive Layout rule. See [Adaptive Layout Event](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-event.htm) .
+It is called once whenever the App resizing triggers an Adaptive Layout rule. See [Adaptive Layout Event](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-event) .
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ On Pre-Submit
 <td width="17">
 </td>
 <td width="747">
-This is called just before the actual Instance submission takes place. It allows you to perform checks and cancel the submission process if you need to as described in [On Pre Submit](../../../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/using-application-craft-events/on-pre-submit.htm) .
+This is called just before the actual Instance submission takes place. It allows you to perform checks and cancel the submission process if you need to as described in [On Pre Submit](../../../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/using-application-craft-events/on-pre-submit) .
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ On Drill-Down
 <td width="17">
 </td>
 <td width="747">
-This Event is called as a user interaction occurs that is about to trigger a drill-down. See [Data View Related Events](../../../scripting-apis/client-api/data-view-functions/data-view-related-events.htm) .
+This Event is called as a user interaction occurs that is about to trigger a drill-down. See [Data View Related Events](../../../scripting-apis/client-api/data-view-functions/data-view-related-events) .
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ On Error
 <td width="17">
 </td>
 <td width="747">
-This is called if an error is detected. By returning false, the popup window can be suppressed if required. See [Error Handling](../../../scripting-apis/client-scripting-overview/error-handling/index.htm) for details.
+This is called if an error is detected. By returning false, the popup window can be suppressed if required. See [Error Handling](../../../scripting-apis/client-scripting-overview/error-handling/index) for details.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ On Resize
 <td width="17">
 </td>
 <td width="747">
-Called whenever the browser resizes. See [Resize Events](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events.htm) .
+Called whenever the browser resizes. See [Resize Events](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events) .
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ On Resize
 <td width="17">
 </td>
 <td width="747">
-Called whenever the browser resizes but is called on an App resize whenever a specific page is already shown. Allows the user to write page specific handling. See [Resize Events](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events.htm) .
+Called whenever the browser resizes but is called on an App resize whenever a specific page is already shown. Allows the user to write page specific handling. See [Resize Events](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events) .
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ On Page Prepare
 <td width="17">
 </td>
 <td width="747">
-Called when the App is about to switch to the page. This will enable you to write widget modifying code so the widgets can be updated before the page is shown. Please note that [Twirly Thing](../../../product-guide/advanced-features/twirly-thing/hourglass/twirly-thing.htm) won't have any use in this event as this event is called before the page content is drawn.
+Called when the App is about to switch to the page. This will enable you to write widget modifying code so the widgets can be updated before the page is shown. Please note that [Twirly Thing](../../../product-guide/advanced-features/twirly-thing/hourglass/twirly-thing) won't have any use in this event as this event is called before the page content is drawn.
 
 </td>
 </tr>
@@ -327,7 +327,7 @@ Called when a selection is made.
 <td width="17">
 </td>
 <td width="747">
-See [Timeline](../../../scripting-apis/client-api/widget-object-functions/timeline/index.htm)
+See [Timeline](../../../scripting-apis/client-api/widget-object-functions/timeline/index)
 
 </td>
 </tr>
@@ -603,7 +603,7 @@ On Started
 <td width="17">
 </td>
 <td width="747">
-Called when the Embedded app is loaded and running. If using [childApp()](../../../scripting-apis/client-api/app-functions/childapp.htm) within your app, invoke on this event to ensure the app is running.
+Called when the Embedded app is loaded and running. If using [childApp()](../../../scripting-apis/client-api/app-functions/childapp) within your app, invoke on this event to ensure the app is running.
 
 </td>
 </tr>
@@ -771,7 +771,7 @@ On Pre Show
 <td width="17">
 </td>
 <td width="747">
-Called as the Context Menu's 'Parent' widget is selected. This can be used to dynamically populate the Menu items. See [Context Menu](../../../scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/context-menu2.htm) .
+Called as the Context Menu's 'Parent' widget is selected. This can be used to dynamically populate the Menu items. See [Context Menu](../../../scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/context-menu2) .
 
 </td>
 </tr>
@@ -815,7 +815,7 @@ On State Change
 <td width="17">
 </td>
 <td width="747">
-Called when the state of the widget changes. See [state()](../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/state.htm)
+Called when the state of the widget changes. See [state()](../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/state)
 
 </td>
 </tr>
@@ -839,7 +839,7 @@ Called if an error detected in playing.
 <td width="17">
 </td>
 <td width="747">
-Called when playback quality changes. See [setPlaybackQuality()](../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/setplaybackquality.htm)
+Called when playback quality changes. See [setPlaybackQuality()](../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/setplaybackquality)
 
 </td>
 </tr>
@@ -1038,9 +1038,9 @@ Called when barcode was not successfully read or if scan was canceled by user.
 
 ## See Also:
 
- - [Google V3 Map Events](../../../product-guide/advanced-important-widgets/google-v3-maps-widget/property,-event,-method-summary/gmapevents.htm)
+ - [Google V3 Map Events](../../../product-guide/advanced-important-widgets/google-v3-maps-widget/property,-event,-method-summary/gmapevents)
 
- - [Video and Audio Widget Events](../../../product-guide/advanced-important-widgets/video-audio-widgets/property,-methods,-event-summary/videvents.htm)
+ - [Video and Audio Widget Events](../../../product-guide/advanced-important-widgets/video-audio-widgets/property,-methods,-event-summary/videvents)
 
- - [Circle Menu Events](../../../product-guide/advanced-important-widgets/circle-menu-widget/property,-method-and-event-summary-2/events2-2.htm)
+ - [Circle Menu Events](../../../product-guide/advanced-important-widgets/circle-menu-widget/property,-method-and-event-summary-2/events2-2)
 

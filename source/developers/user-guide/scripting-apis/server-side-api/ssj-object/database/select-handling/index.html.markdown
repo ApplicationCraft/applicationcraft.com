@@ -27,21 +27,21 @@ The exec() function returns the result set that can then be passed back to your 
 
 ## In This Section:
 
- - [select()](select.htm)
+ - [select()](select)
 
- - [select().from()](select-from.htm)
+ - [select().from()](select-from)
 
- - [select().where()](select-where.htm)
+ - [select().where()](select-where)
 
- - [select().orWhere()](orwhere.htm)
+ - [select().orWhere()](orwhere)
 
- - [select().group()](select-group.htm)
+ - [select().group()](select-group)
 
- - [select().order()](select-order.htm)
+ - [select().order()](select-order)
 
- - [select().join()](select-join.htm)
+ - [select().join()](select-join)
 
- - [select().limit()](select-limit.htm)
+ - [select().limit()](select-limit)
 
- - [getSql()](getsql.htm)
+ - [getSql()](getsql)
 

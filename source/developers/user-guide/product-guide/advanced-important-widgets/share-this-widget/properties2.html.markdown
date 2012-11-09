@@ -121,7 +121,7 @@ Sizes
 <td width="23">
 </td>
 <td width="782">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog.htm)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Repeat
 <td width="23">
 </td>
 <td width="782">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi.htm) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Anchors
 <td width="23">
 </td>
 <td width="782">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../content-and-app-layout/editing-and-laying-out--reference/widget-anchoring.htm) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ Margin
 <td width="10">
 </td>
 <td width="782">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../content-and-app-layout/introduction/setting-a-margin.htm)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Custom CSS Classes
 <td width="10">
 </td>
 <td width="782">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/index.htm)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/index)
 
 </td>
 </tr>
@@ -293,7 +293,7 @@ Widget Style
 <td width="10">
 </td>
 <td width="782">
-This refers to the [Theme entry](../../content-and-app-layout/introduction/themes-styles/themesmanage.htm) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](../../content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>

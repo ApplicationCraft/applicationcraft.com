@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="151">
-[showWebPage()](showwebpage.htm)
+[showWebPage()](showwebpage)
 
 </td>
 <td width="23">
@@ -23,7 +23,7 @@ Displays a new ChildBrowser with the specified URL
 </tr>
 <tr>
 <td width="151">
-[close()](close3.htm)
+[close()](close3)
 
 </td>
 <td width="23">
@@ -35,7 +35,7 @@ Closes the ChildBrowser.
 </tr>
 <tr>
 <td width="151">
-[openExternal()](openexternal.htm)
+[openExternal()](openexternal)
 
 </td>
 <td width="23">

@@ -129,7 +129,7 @@ Sizes
 <td width="23">
 </td>
 <td width="782">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog.htm)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Repeat
 <td width="23">
 </td>
 <td width="782">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../../content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi.htm) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../../content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Anchors
 <td width="23">
 </td>
 <td width="782">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../../content-and-app-layout/editing-and-laying-out--reference/widget-anchoring.htm) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../../content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -289,7 +289,7 @@ Fields
 <td width="25">
 </td>
 <td width="782">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index.htm) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ Group By
 <td width="25">
 </td>
 <td width="782">
-This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by.htm) section for more details.
+This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by) section for more details.
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ Order By
 <td width="25">
 </td>
 <td width="782">
-Specifies the order in which data is presented to the Widget.  Read the [Order By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by.htm) section for more details.
+Specifies the order in which data is presented to the Widget.  Read the [Order By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by) section for more details.
 
 </td>
 </tr>
@@ -337,7 +337,7 @@ Drill Filter
 <td width="25">
 </td>
 <td width="782">
-This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter.htm) section for more details.
+This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter) section for more details.
 
 </td>
 </tr>
@@ -349,7 +349,7 @@ Broadcast
 <td width="25">
 </td>
 <td width="782">
-Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast.htm) section for more details.
+Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast) section for more details.
 
 </td>
 </tr>
@@ -361,7 +361,7 @@ Listen
 <td width="25">
 </td>
 <td width="782">
-This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen.htm) section for more details.
+This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen) section for more details.
 
 </td>
 </tr>
@@ -373,7 +373,7 @@ Reset Filter
 <td width="25">
 </td>
 <td width="782">
-Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter.htm) section for more details.
+Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter) section for more details.
 
 </td>
 </tr>
@@ -421,7 +421,7 @@ Margin
 <td width="10">
 </td>
 <td width="782">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../../content-and-app-layout/introduction/setting-a-margin.htm)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../../content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -457,7 +457,7 @@ Custom CSS Classes
 <td width="10">
 </td>
 <td width="782">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../../advanced-features/custom-css-classes/index.htm)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../../advanced-features/custom-css-classes/index)
 
 </td>
 </tr>
@@ -469,7 +469,7 @@ Widget Style
 <td width="10">
 </td>
 <td width="782">
-This refers to the [Theme entry](../../../content-and-app-layout/introduction/themes-styles/themesmanage.htm) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](../../../content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>

@@ -8,13 +8,13 @@ full_width: true
 
 ## In This Section:
 
- - [getLoggedUser()](getloggeduser.htm)
+ - [getLoggedUser()](getloggeduser)
 
- - [getOwnerUser()](getowneruser.htm)
+ - [getOwnerUser()](getowneruser)
 
- - [setSessionObject()](setsessionobject.htm)
+ - [setSessionObject()](setsessionobject)
 
- - [getSessionObject()](getsessionobject.htm)
+ - [getSessionObject()](getsessionobject)
 
- - [deleteSessionObject()](deletesessionobject.htm)
+ - [deleteSessionObject()](deletesessionobject)
 

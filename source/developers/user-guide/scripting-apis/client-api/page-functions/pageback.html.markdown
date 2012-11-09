@@ -19,7 +19,7 @@ Parameters
 <td width="12">
 </td>
 <td width="717">
-A string indicating the type of transition effect. You can find the [available transition values here](page_transitions.htm) .
+A string indicating the type of transition effect. You can find the [available transition values here](page-transitions) .
 
 </td>
 </tr>
@@ -43,7 +43,7 @@ Jumps to the Page in the App that the current page was called from. Works in the
 
 If this is all you are using in an Event function and you are using a Button, Image, Label or Shape Widget, then you may want to set the 'Page Jump' property of the Widget instead. This removes the need to use a script at all.
 
-You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page_transitions.htm) for valid transition strings and examples.
+You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page-transitions) for valid transition strings and examples.
 
 Example
 
@@ -54,15 +54,15 @@ Example
 
 See Also:
 
- - [pageJump()](pagejump.htm)
+ - [pageJump()](pagejump)
 
- - [pageNext()](pagenext.htm)
+ - [pageNext()](pagenext)
 
- - [pagePrevious()](pageprevious.htm)
+ - [pagePrevious()](pageprevious)
 
- - [showPagePopup()](showpagepopup.htm)
+ - [showPagePopup()](showpagepopup)
 
- - [closePagePopup()](closepagepopup.htm)
+ - [closePagePopup()](closepagepopup)
 
- - [Back Button Pressed event](../../../widget-properties-events/events/event-reference-list/mobile-native-app-events.htm)
+ - [Back Button Pressed event](../../../widget-properties-events/events/event-reference-list/mobile-native-app-events)
 

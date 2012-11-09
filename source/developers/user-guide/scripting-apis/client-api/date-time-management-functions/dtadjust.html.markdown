@@ -49,11 +49,11 @@ Example
 
 See Also:
 
- - [dtNewDate()](dtnewdate.htm)
+ - [dtNewDate()](dtnewdate)
 
- - [dtadd()](dtadd.htm)
+ - [dtadd()](dtadd)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtDateToString()](dtdatetostring.htm)
+ - [dtDateToString()](dtdatetostring)
 

@@ -10,5 +10,5 @@ A further property of Views is the ability for AC to handle drill down events. I
 
 This is especially powerful for reporting and dashboard applications.
 
-For a full understanding of drill-down please refer to the [Drill Down](../data-integration,-reporting-dashboards/drilling-down.htm) topic as well as the [Data Section Properties](../data-integration,-reporting-dashboards/data-section-properties/index.htm) .
+For a full understanding of drill-down please refer to the [Drill Down](../data-integration,-reporting-dashboards/drilling-down) topic as well as the [Data Section Properties](../data-integration,-reporting-dashboards/data-section-properties/index) .
 

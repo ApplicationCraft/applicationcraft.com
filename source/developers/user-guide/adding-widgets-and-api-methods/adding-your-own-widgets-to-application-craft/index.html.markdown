@@ -20,6 +20,6 @@ This is one of the most powerful features for developers. If Application Craft d
 
  - Automated Data Storage
 
-Application Craft Widgets are built in Javascript and they can be added to your Application Craft account via the Console. The steps for adding your own Javascript Widgets to the system are explained in [Adding a Native AC Widget](../../product-guide/the-console/console-tabs/more/widgets/adding-a-native-ac-widget.htm) .
+Application Craft Widgets are built in Javascript and they can be added to your Application Craft account via the Console. The steps for adding your own Javascript Widgets to the system are explained in [Adding a Native AC Widget](../../product-guide/the-console/console-tabs/more/widgets/adding-a-native-ac-widget) .
 
 The following chapter explain all of the important steps in building your own Widget.

@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -18,9 +18,9 @@ But you may want your Companies App to be able to add or modify Contacts data (a
 
 You can also read/write to external databases
 
-Please refer to [CRUD in Detail](crud_in_detail.htm) for an in depth description..
+Please refer to [CRUD in Detail](crud-in-detail) for an in depth description..
 
 ## See Also:
 
- - [CRUD Permissions](crud-in-detail/using-ac-app-storage/crud-permissions.htm)
+ - [CRUD Permissions](crud-in-detail/using-ac-app-storage/crud-permissions)
 

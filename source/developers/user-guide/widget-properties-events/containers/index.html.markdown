@@ -10,16 +10,16 @@ Containers present information in your App in a neat and attractive way. We prov
 
 ## In This Section:
 
-[Accordion](accordion.htm)
+[Accordion](accordion)
 
-[Tab](tab.htm)
+[Tab](tab)
 
-[Repeater](repeater.htm)
+[Repeater](repeater)
 
-[Page Button](page-button.htm)
+[Page Button](page-button)
 
-[Panel](panel.htm)
+[Panel](panel)
 
-[Data Container](data-container.htm)
+[Data Container](data-container)
 
-[iFrame](iframe.htm)
+[iFrame](iframe)

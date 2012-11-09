@@ -8,7 +8,7 @@ full_width: true
 
 You should codesign your APK files if you want to distribute them properly via App Stores such as Google Play. To do this, you first need to generate a Private Key.
 
-If you would like assistance generating your keys, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) . We offer a service - [iOS Assist](../ios-keys-and-certificates/i-havent-got-a-mac.htm) - that is designed to take away the pain from this process. Luckily, compared to iOS, Android is somewhat less of a challenge and so you will need a lot less assistance, if any. The only part of the process which is a little painful is the key generation described in this section.
+If you would like assistance generating your keys, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) . We offer a service - [iOS Assist](../ios-keys-and-certificates/i-havent-got-a-mac) - that is designed to take away the pain from this process. Luckily, compared to iOS, Android is somewhat less of a challenge and so you will need a lot less assistance, if any. The only part of the process which is a little painful is the key generation described in this section.
 
 Obtain a suitable private key
 
@@ -182,11 +182,11 @@ Running the example command above, Keytool prompts you to provide passwords for 
 
  - The keystore and key are protected by the passwords you entered.
 
- - The alias is a name that you will use when adding your certificate file to [AC Mobile Build](../../ac-mobile-build/index.htm) .
+ - The alias is a name that you will use when adding your certificate file to [AC Mobile Build](../../ac-mobile-build/index) .
 
 For more information see here: [http://developer.android.com/tools/publishing/app-signing.html](http://developer.android.com/tools/publishing/app-signing.html) .
 
-Save the keystore file in a location you can remember. Remember the password: you will need to enter it to [AC Mobile Build](../../ac-mobile-build/index.htm) , otherwise we cannot use your certificate.
+Save the keystore file in a location you can remember. Remember the password: you will need to enter it to [AC Mobile Build](../../ac-mobile-build/index) , otherwise we cannot use your certificate.
 
 ## To Add your Android Certificate File
 

@@ -14,5 +14,5 @@ Application Craft suggests other property settings you might want it to make for
 
 With Chart Widgets, the suggestions made will differ for Label and Value, so check both to see which is most appropriate. If, for example, you were displaying the distribution of customers by country in a pie chart, you would want to have the 'label' item selected before clicking the Apply button.
 
-While Application Craft will make good suggestions in many cases, you should be fully aware of how the [Group By](fiieldsgroup_by.htm) and [Drill Filter](drill_filter.htm) properties work as this offers real power. However you must be careful to ensure the Widgets are correctly configured to ensure the correct data is displayed.
+While Application Craft will make good suggestions in many cases, you should be fully aware of how the [Group By](fiieldsgroup-by) and [Drill Filter](drill-filter) properties work as this offers real power. However you must be careful to ensure the Widgets are correctly configured to ensure the correct data is displayed.
 

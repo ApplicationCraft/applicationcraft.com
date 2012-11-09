@@ -12,25 +12,25 @@ Application Craft includes some very simple debug support functions that make de
 
 ## In This Section:
 
- - [Chrome](chrome.htm)
+ - [Chrome](chrome)
 
- - [Firefox](firefox.htm)
+ - [Firefox](firefox)
 
- - [Safari](safari.htm)
+ - [Safari](safari)
 
- - [Debug Support Functions](debug-support-functions.htm)
+ - [Debug Support Functions](debug-support-functions)
 
- - [The 'debugger' Command](the-debugger-command.htm)
+ - [The 'debugger' Command](the-debugger-command)
 
- - [Debug Message](debdebug-message.htm)
+ - [Debug Message](debdebug-message)
 
- - [Native Apps](native-apps.htm)
+ - [Native Apps](native-apps)
 
- - [Viewing Widget Values](viewing-widget-values.htm)
+ - [Viewing Widget Values](viewing-widget-values)
 
- - [Viewing Complex Widget Content](viewing-complex-widget-content.htm)
+ - [Viewing Complex Widget Content](viewing-complex-widget-content)
 
- - [Viewing Widget Properties](viewing-widget-properties.htm)
+ - [Viewing Widget Properties](viewing-widget-properties)
 
 Related Video:
 

@@ -8,25 +8,25 @@ full_width: true
 
 ## In This Section:
 
- - [General](general/index.htm)
+ - [General](general/index)
 
- - [Repeater & Grid](repeater-grid/index.htm)
+ - [Repeater & Grid](repeater-grid/index)
 
- - [Timeline](timeline/index.htm)
+ - [Timeline](timeline/index)
 
- - [Advanced Maps](advanced-maps/index.htm)
+ - [Advanced Maps](advanced-maps/index)
 
- - [Video, Audio & YouTube Widget](video,-audio-youtube-widget/index.htm)
+ - [Video, Audio & YouTube Widget](video,-audio-youtube-widget/index)
 
- - [Photoswipe](photoswipe/index.htm)
+ - [Photoswipe](photoswipe/index)
 
- - [Tab](tab/index.htm)
+ - [Tab](tab/index)
 
- - [Zing Chart](zing-chart/index.htm)
+ - [Zing Chart](zing-chart/index)
 
- - [Circular Menu](circular-menu/index.htm)
+ - [Circular Menu](circular-menu/index)
 
- - [Accordion](accordion/index.htm)
+ - [Accordion](accordion/index)
 
 Related Videos:
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-To add data to the Zing Chart Widget, you can use a Javascript array and then pass the data into an already configured chart widget using [setData()](../../../scripting-apis/client-api/widget-data-state-manipulation/setdata.htm) or [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm)
+To add data to the Zing Chart Widget, you can use a Javascript array and then pass the data into an already configured chart widget using [setData()](../../../scripting-apis/client-api/widget-data-state-manipulation/setdata) or [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index)
 
 The format of the data can vary depending on the type of chart and whether MultiSeries data is passed.
 
@@ -32,17 +32,17 @@ For a simple chart, the format of the data is
 
 ## Using setData()
 
-app. [setData()](../../../scripting-apis/client-api/widget-data-state-manipulation/setdata.htm) allows you to pass in a javascript object containing the chart data. It is important that you use the exact object structure shown below.
+app. [setData()](../../../scripting-apis/client-api/widget-data-state-manipulation/setdata) allows you to pass in a javascript object containing the chart data. It is important that you use the exact object structure shown below.
 
 For example
 
 Using populateWidget()
 
-The app. [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) method allows you to take your data from your own data object and then map it to your chart widget. This give you more flexibility and means you do not have do pre-process your own array into the precise structure the setData() requires.
+The app. [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) method allows you to take your data from your own data object and then map it to your chart widget. This give you more flexibility and means you do not have do pre-process your own array into the precise structure the setData() requires.
 
-Typically, your array would have some keys that represent a) the series b) data labels and c) values. You then use a map object to describe how to map from your array into the widget. Please refer to the [populateWidget](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) () reference section to read more about this powerful way of mapping data.
+Typically, your array would have some keys that represent a) the series b) data labels and c) values. You then use a map object to describe how to map from your array into the widget. Please refer to the [populateWidget](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) () reference section to read more about this powerful way of mapping data.
 
-The following example shows a user-defined object containing two series of data with 3 data values in each Series. populateWidget() can deal with more complex, nested user objects, as described in the [populateWidget](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index.htm) () documentation.
+The following example shows a user-defined object containing two series of data with 3 data values in each Series. populateWidget() can deal with more complex, nested user objects, as described in the [populateWidget](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) () documentation.
 
     var data = [
     {'year': '2012', 'lbl': 'Jan', 'amount': 12},

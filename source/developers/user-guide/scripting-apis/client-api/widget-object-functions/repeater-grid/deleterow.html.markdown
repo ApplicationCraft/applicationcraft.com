@@ -43,17 +43,17 @@ These two show a specific row being deleted from a Grid or a Container
 
 And this shows a typical example of a Delete button being pressed in a Repeater row. The function returns the row index of the parent (which is a row) of the delete button.
 
-## Important : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](../general/parent.htm) topic.
+## Important : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](../general/parent) topic.
 
 See Also:
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteRowById()](deleterowbyid.htm)
+ - [deleteRowById()](deleterowbyid)
 
- - [deleteSelectedRows()](deleteselectedrows.htm)
+ - [deleteSelectedRows()](deleteselectedrows)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
- - [Widget Object](../../objects-titbits/widget-object.htm)
+ - [Widget Object](../../objects-titbits/widget-object)
 

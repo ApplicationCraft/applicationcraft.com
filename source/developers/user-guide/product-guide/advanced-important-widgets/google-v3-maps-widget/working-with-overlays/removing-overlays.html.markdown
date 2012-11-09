@@ -20,5 +20,5 @@ Or, you can remove all overlays in one go with
 
 Removing Markers
 
-Note that [clearOverlays()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/clearoverlays.htm) will not remove Markers. You should use [clearMarkers()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/clearmarkers.htm) for this.
+Note that [clearOverlays()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/clearoverlays) will not remove Markers. You should use [clearMarkers()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/clearmarkers) for this.
 

@@ -27,7 +27,7 @@ a javascript object or variable
 
 Description
 
-Writes a complex javascript object to the console on the client browser that called the server script. This function cannot be used within a server side event. See [Logging Support](../../../product-guide/advanced-features/logging-support/index.htm) if you want to do this.
+Writes a complex javascript object to the console on the client browser that called the server script. This function cannot be used within a server side event. See [Logging Support](../../../product-guide/advanced-features/logging-support/index) if you want to do this.
 
 Example
 

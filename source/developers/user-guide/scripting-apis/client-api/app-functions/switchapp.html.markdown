@@ -65,7 +65,7 @@ Twirly Thing (hourglass) object (see below)
 <td width="1">
 </td>
 <td width="710">
-You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](getinputparameter.htm) . Object described below.
+You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](getinputparameter) . Object described below.
 
 </td>
 </tr>
@@ -151,25 +151,25 @@ Parameter Passing
 
 There are two ways to pass parameters between Apps.
 
- - [Global Data Pool](../global-data-pool-functions/index.htm) - This allows data to be passed between Apps as well as restoring data when you eventually switch back to the App that was switched away from.
+ - [Global Data Pool](../global-data-pool-functions/index) - This allows data to be passed between Apps as well as restoring data when you eventually switch back to the App that was switched away from.
 
  - switchApp() parameters - this may be preferable in some circumstances where you are not going to modify the values and inspect them later (in which case the Global Data Pool is better).
 
 Important
 
-If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](../../../widget-properties-events/app-properties.htm)
+If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](../../../widget-properties-events/app-properties)
 
 See Also:
 
- - [parentApp()](parentapp.htm)
+ - [parentApp()](parentapp)
 
- - [childApp()](childapp.htm)
+ - [childApp()](childapp)
 
- - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/index.htm)
+ - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/index)
 
- - [Embed App Widget](../../../widget-properties-events/advanced/embed-app.htm)
+ - [Embed App Widget](../../../widget-properties-events/advanced/embed-app)
 
- - [Global Data Pool](../global-data-pool-functions/index.htm)
+ - [Global Data Pool](../global-data-pool-functions/index)
 
 Related Videos:
 

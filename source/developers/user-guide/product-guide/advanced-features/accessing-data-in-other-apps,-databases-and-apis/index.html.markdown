@@ -10,5 +10,5 @@ This chapter aims to point you in the right direction when it comes to interacti
 
 ## See Also:
 
- - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+ - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 

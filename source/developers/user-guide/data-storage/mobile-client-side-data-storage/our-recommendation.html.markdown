@@ -28,11 +28,11 @@ Use the Cookie approach if your data is less than the 4K cookie size limit. If i
 
 You are building an application with low to moderate storage complexity that runs on mobile devices and possibly the desktop.
 
-You should use Local Storage. You should be wary of the iOS 5.0.1 bug described in the Local Storage chapter. If the size of data exceeds 5MB then you will a) have to deploy as a Compiled Application and b) you will need to use the [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index.htm) that frees you from this limit.
+You should use Local Storage. You should be wary of the iOS 5.0.1 bug described in the Local Storage chapter. If the size of data exceeds 5MB then you will a) have to deploy as a Compiled Application and b) you will need to use the [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index) that frees you from this limit.
 
 You have an application which needs to store several tables of data but there is no need to perform JOIN type queries at the storage level.
 
-Local Storage is ideal for this and is easier to implement than WebSQL / SQLite. If the volume of data exceeds 5MB then you will a) have to deploy as a Compiled Application and b) you will need to use the [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index.htm) that frees you from this limit.
+Local Storage is ideal for this and is easier to implement than WebSQL / SQLite. If the volume of data exceeds 5MB then you will a) have to deploy as a Compiled Application and b) you will need to use the [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index) that frees you from this limit.
 
 You have an application with more complex storage requirements that would really benefit from a relational database.
 
@@ -40,5 +40,5 @@ You should take the WebSQL/SQLite approach. This will mean tougher coding but yo
 
 If you have a Web Application then you will be limited to 5MB of storage. Also, you need to be aware that it will not run on Firefox at all and other browsers may remove support. If you can deploy as a Compiled Application (mobile) then you are ok as described below.
 
-If you can deploy as a Compiled Application (will only run on a mobile device), then you can use our [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index.htm) . This frees you from the 5MB storage limit and is browser independent although this cannot be deployed to the desktop.
+If you can deploy as a Compiled Application (will only run on a mobile device), then you can use our [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/index) . This frees you from the 5MB storage limit and is browser independent although this cannot be deployed to the desktop.
 

@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the Circular Menu object. Each method is described in detail in the [Circular Menu](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/index.htm) Reference section.
+The following method table is a summary of the methods available for the Circular Menu object. Each method is described in detail in the [Circular Menu](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/index) Reference section.
 
 <table>
 <tr>
 <td width="182">
-[open()](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/open2.htm)
+[open()](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/open2)
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ To open the Circular menu
 </tr>
 <tr>
 <td width="182">
-[close()](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/close.htm)
+[close()](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/close)
 
 </td>
 <td width="8">

@@ -40,5 +40,5 @@ This returns an object array of the below structure. If no parameter is supplied
 
 See Also:
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror.htm)
+ - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

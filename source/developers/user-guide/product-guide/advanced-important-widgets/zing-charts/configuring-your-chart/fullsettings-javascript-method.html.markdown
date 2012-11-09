@@ -17,5 +17,5 @@ Where 'zingchart' is the name of your Application Craft widget and jsObj is an o
 
 Modifying data for an existing chart
 
-Please read to the [next section](../adding-data-from-javascript2.htm) to see how you can get data stored in a javascript object loaded quickly and easily into a chart, whose other properties are already correctly set.
+Please read to the [next section](../adding-data-from-javascript2) to see how you can get data stored in a javascript object loaded quickly and easily into a chart, whose other properties are already correctly set.
 

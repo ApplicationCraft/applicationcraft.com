@@ -44,5 +44,5 @@ Polylines are formed as a set of latitude/longitude pairs. You can also control 
 
 ## See Also:
 
- - [Polylines](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polylines.htm)
+ - [Polylines](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polylines)
 

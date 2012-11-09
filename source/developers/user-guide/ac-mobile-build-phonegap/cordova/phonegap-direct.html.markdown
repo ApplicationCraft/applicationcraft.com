@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-If you find that you cannot get [Phonegap:Build](phonegapbuild.htm) or [AC Mobile Build](application_craft_build.htm) to behave exactly the way you need it to, then you may want to use PhoneGap itself. This provides you with direct access to the platform compilers so you can fine tune everything.
+If you find that you cannot get [Phonegap:Build](phonegapbuild) or [AC Mobile Build](application-craft-build) to behave exactly the way you need it to, then you may want to use PhoneGap itself. This provides you with direct access to the platform compilers so you can fine tune everything.
 
 It also has the advantage of letting you integrate Phonegap Plugins that may not be available in Application Craft Build.
 

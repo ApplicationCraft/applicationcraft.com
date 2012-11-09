@@ -33,7 +33,7 @@ Description
 
 Once the payment() function has been called successfully, a token is returned which is then returned back to the client App. The client App should then immediately call an SSJ function that makes the ssj.zooz.validate() call.
 
-Please refer to the [sample application](../../../../product-guide/advanced-features/credit-card-payment-processing/index.htm) to see a comprehensive example.
+Please refer to the [sample application](../../../../product-guide/advanced-features/credit-card-payment-processing/index) to see a comprehensive example.
 
 Example
 

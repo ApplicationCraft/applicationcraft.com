@@ -41,17 +41,17 @@ Description
 
 This stores any data to the Global Data Pool. The data can then be recalled at any point and from any App within the current browser session. Any Apps spawned or switched to will have access to it.
 
-Read up on [getAppSnapshot()](../app-functions/getappsnapshot.htm) and [setAppSnapshot()](../app-functions/setappsnapshot.htm) for useful example of storing an entire App snapshot to the Global Data Pool.
+Read up on [getAppSnapshot()](../app-functions/getappsnapshot) and [setAppSnapshot()](../app-functions/setappsnapshot) for useful example of storing an entire App snapshot to the Global Data Pool.
 
 See Also:
 
- - [switchApp()](../app-functions/switchapp.htm)
+ - [switchApp()](../app-functions/switchapp)
 
- - [getGlobalData()](getglobaldata.htm)
+ - [getGlobalData()](getglobaldata)
 
- - [clearGlobalData()](clearglobaldata.htm)
+ - [clearGlobalData()](clearglobaldata)
 
- - [getAppSnaphot()](../app-functions/getappsnapshot.htm)
+ - [getAppSnaphot()](../app-functions/getappsnapshot)
 
- - [setAppSnapshot()](../app-functions/setappsnapshot.htm)
+ - [setAppSnapshot()](../app-functions/setappsnapshot)
 

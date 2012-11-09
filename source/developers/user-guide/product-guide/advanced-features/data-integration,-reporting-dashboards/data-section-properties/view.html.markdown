@@ -12,7 +12,7 @@ The View Property will present you with the Queries that were selected within th
 
 ![view](/img/docs/view.png)
 
-If you need to access data that spans several data tables, then you set this up as a part of the [Data Query](../../../the-console/console-tabs/queries/index.htm) in the Console. This keeps the data management within the App clean and simple and ensure re-usability of data configurations.
+If you need to access data that spans several data tables, then you set this up as a part of the [Data Query](../../../the-console/console-tabs/queries/index) in the Console. This keeps the data management within the App clean and simple and ensure re-usability of data configurations.
 
 Related Video:
 

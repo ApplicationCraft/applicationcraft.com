@@ -76,5 +76,5 @@ Example
 
 See Also:
 
- - [confirm()](confirm.htm)
+ - [confirm()](confirm)
 

@@ -8,15 +8,15 @@ full_width: true
 
 ## In This Section:
 
- - [Account Management](account-management/index.htm)
+ - [Account Management](account-management/index)
 
- - [The Console](the-console/index.htm)
+ - [The Console](the-console/index)
 
- - [Content and App Layout](content-and-app-layout/index.htm)
+ - [Content and App Layout](content-and-app-layout/index)
 
- - [Mobile Apps & Sites](mobile-apps-sites/index.htm)
+ - [Mobile Apps & Sites](mobile-apps-sites/index)
 
- - [Advanced & Important Widgets](advanced-important-widgets/index.htm)
+ - [Advanced & Important Widgets](advanced-important-widgets/index)
 
- - [Advanced Features](advanced-features/index.htm)
+ - [Advanced Features](advanced-features/index)
 

@@ -99,7 +99,7 @@ this parameter allows you to pass through special, advanced parameters to the un
 
 Description
 
-Calls a Web Service at the specified URL and can pass a parameter list and HTTP headers with the indicated type (GET or POST). Also specifies a callback function that should be called to process the returned data. If the call returns XML data, then you may want to call the [XML2OBJ()](../conversion-functions/xml2json.htm) function that converts the data into a Javascript object.
+Calls a Web Service at the specified URL and can pass a parameter list and HTTP headers with the indicated type (GET or POST). Also specifies a callback function that should be called to process the returned data. If the call returns XML data, then you may want to call the [XML2OBJ()](../conversion-functions/xml2json) function that converts the data into a Javascript object.
 
 The 'params' parameter is passed a simple object consisting of parameter name / parameter value pairs. These parameters will be automatically appended to the URL if type="GET".
 
@@ -166,7 +166,7 @@ Object containing http request object. Typically required for advanced usage.
 </tr>
 </table>
 
-If you want to handle timeout errors resulting from httpRequest() calls then you must use the callback function. If there is no Network available at all, then it will generate an error immediately. A timeout error will be generated after the default timeout or the timeout value specified within [networkTimeout()](../app-functions/setnetworktimeout.htm) .
+If you want to handle timeout errors resulting from httpRequest() calls then you must use the callback function. If there is no Network available at all, then it will generate an error immediately. A timeout error will be generated after the default timeout or the timeout value specified within [networkTimeout()](../app-functions/setnetworktimeout) .
 
 Getting Response Headers
 
@@ -231,11 +231,11 @@ This example shows how headers are used to provide authentication information an
 
 See Also:
 
- - [Crossdomain Handling](../../client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues.htm)
+ - [Crossdomain Handling](../../client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues)
 
- - [Data Conversion Functions](../conversion-functions/index.htm)
+ - [Data Conversion Functions](../conversion-functions/index)
 
- - [Extending Application Craft](../../../adding-widgets-and-api-methods/index.htm)
+ - [Extending Application Craft](../../../adding-widgets-and-api-methods/index)
 
- - [Wizard](web_service_wizard.htm)
+ - [Wizard](web-service-wizard)
 

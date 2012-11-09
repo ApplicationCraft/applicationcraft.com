@@ -24,7 +24,7 @@ Below is the Source dialog for a more advanced situation. You can see how we hav
 
 Native Apps
 
-If you are building a Native App and require your media to be playable even if no connection is available, you can upload your Media as a [Resource](../../the-console/console-tabs/resources.htm) and then specify this Resource item in the Sources dialog. Any referenced media will then be automatically compiled into the native app. Be aware though that there can be limits to the size of the app and if including media resources this limit may be exceeded.
+If you are building a Native App and require your media to be playable even if no connection is available, you can upload your Media as a [Resource](../../the-console/console-tabs/resources) and then specify this Resource item in the Sources dialog. Any referenced media will then be automatically compiled into the native app. Be aware though that there can be limits to the size of the app and if including media resources this limit may be exceeded.
 
 If you are looking to work with large media files, do not add your video to the List of Items, but handle it by code as the app starts:
 

@@ -10,7 +10,7 @@ Repeater Containers allow a completely unlimited way to lay out tabular data fro
 
  - [Learning Center](http://www.applicationcraft.com/learning-center#PowerWidgets) - there is a section on Setting & Getting Widget Data, that includes a video and information about the Repeater
 
- - [Detailed Widget Summary](../../../../widget-properties-events/containers/repeater.htm) - describes the Widget properties
+ - [Detailed Widget Summary](../../../../widget-properties-events/containers/repeater) - describes the Widget properties
 
 Related Videos:
 

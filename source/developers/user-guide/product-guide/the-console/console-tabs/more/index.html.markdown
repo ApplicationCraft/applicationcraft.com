@@ -8,11 +8,11 @@ full_width: true
 
 ## In This Section:
 
-[Widgets](widgets/index.htm)
+[Widgets](widgets/index)
 
-[Account Variables](account-variables/index.htm)
+[Account Variables](account-variables/index)
 
-[Users & Groups](users-groups/index.htm)
+[Users & Groups](users-groups/index)
 
-[My User Variables](my-details.htm)
+[My User Variables](my-details)
 

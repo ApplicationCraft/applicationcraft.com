@@ -40,5 +40,5 @@ This returns an object of the format shown below describing the User
 
 See Also:
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror.htm)
+ - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

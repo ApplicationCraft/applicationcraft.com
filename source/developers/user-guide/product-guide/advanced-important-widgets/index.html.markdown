@@ -8,29 +8,29 @@ full_width: true
 
 ## In This Section:
 
- - [Important Mobile Widgets](important-mobile-widgets/index.htm)
+ - [Important Mobile Widgets](important-mobile-widgets/index)
 
- - [Power Widgets](power-widgets/index.htm)
+ - [Power Widgets](power-widgets/index)
 
- - [Google V3 Maps Widget](google-v3-maps-widget/index.htm)
+ - [Google V3 Maps Widget](google-v3-maps-widget/index)
 
- - [Image Maps and Emoticons](image-maps-and-emoticons/index.htm)
+ - [Image Maps and Emoticons](image-maps-and-emoticons/index)
 
- - [Working with the Timeline Widget](working-with-the-timeline-widget/index.htm)
+ - [Working with the Timeline Widget](working-with-the-timeline-widget/index)
 
- - [Video & Audio Widgets](video-audio-widgets/index.htm)
+ - [Video & Audio Widgets](video-audio-widgets/index)
 
- - [Photoswipe](photoswipe/index.htm)
+ - [Photoswipe](photoswipe/index)
 
- - [Calendar Widget](calendar-widget/index.htm)
+ - [Calendar Widget](calendar-widget/index)
 
- - [Zing Charts](zing-charts/index.htm)
+ - [Zing Charts](zing-charts/index)
 
- - [Circle Menu Widget](circle-menu-widget/index.htm)
+ - [Circle Menu Widget](circle-menu-widget/index)
 
- - [Scandit Widget](scandit-widget/index.htm)
+ - [Scandit Widget](scandit-widget/index)
 
- - [Share This Widget](share-this-widget/index.htm)
+ - [Share This Widget](share-this-widget/index)
 
- - [Credit Card Payments](credit-card-payments.htm)
+ - [Credit Card Payments](credit-card-payments)
 

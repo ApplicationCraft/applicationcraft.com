@@ -43,7 +43,7 @@ the ID of the user to remove from the Group
 <td width="15">
 </td>
 <td width="682">
-[click here](../user-management/checkowneruserrights-parameter.htm) to see the checkOwnerRights description
+[click here](../user-management/checkowneruserrights-parameter) to see the checkOwnerRights description
 
 </td>
 </tr>
@@ -57,5 +57,5 @@ Removes a User from a Group. If there is an error due to permissions, then an ex
 
 See Also:
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror.htm)
+ - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

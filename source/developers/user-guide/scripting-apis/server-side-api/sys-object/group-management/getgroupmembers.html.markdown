@@ -45,5 +45,5 @@ Gets all Users of a Group for the specified ID. If there is an error due to perm
 
 See Also:
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror.htm)
+ - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

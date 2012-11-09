@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-As well as being able to populate [Mobile List](mobile/list.htm) [Listbox](common/listbox.htm) , [Dropdown List](common/dropdown-list.htm) and [Grid](advanced/grid.htm) widgets from an external data source by setting properties in the [Data Section](../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/index.htm) , you can also do this using [Data Lists](../product-guide/advanced-features/data-lists-management/index.htm) .
+As well as being able to populate [Mobile List](mobile/list) [Listbox](common/listbox) , [Dropdown List](common/dropdown-list) and [Grid](advanced/grid) widgets from an external data source by setting properties in the [Data Section](../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/index) , you can also do this using [Data Lists](../product-guide/advanced-features/data-lists-management/index) .
 
-If you are likely to want to populate multiple widgets with this data, either in the same app or in future apps, [Data Lists](../product-guide/advanced-features/data-lists-management/index.htm) is recommended
+If you are likely to want to populate multiple widgets with this data, either in the same app or in future apps, [Data Lists](../product-guide/advanced-features/data-lists-management/index) is recommended
 
 You can also though manually populate your widgets if required.
 
@@ -28,7 +28,7 @@ Use Add Row, Delete Row, Up and Down as required and enter in the required Label
 
 ## Import Resource:
 
-Having already uploaded your CSV file as a [Resource](../product-guide/the-console/console-tabs/resources.htm) , click the 'Import Resource' button to initiate the Import Resource Dialog
+Having already uploaded your CSV file as a [Resource](../product-guide/the-console/console-tabs/resources) , click the 'Import Resource' button to initiate the Import Resource Dialog
 
 ![ImportResource](/img/docs/importresource.zoom62.png)
 
@@ -46,11 +46,11 @@ If you do not see the Parsed Resource as intended, 'Cancel' back to the previous
 
 See Also:
 
- - [Listbox](common/listbox.htm)
+ - [Listbox](common/listbox)
 
- - [Dropdown List](common/dropdown-list.htm)
+ - [Dropdown List](common/dropdown-list)
 
- - [Grid](advanced/grid.htm)
+ - [Grid](advanced/grid)
 
- - [List](mobile/list.htm)
+ - [List](mobile/list)
 

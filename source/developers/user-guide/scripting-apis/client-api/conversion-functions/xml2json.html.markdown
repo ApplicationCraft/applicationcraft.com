@@ -31,5 +31,5 @@ Converts the supplied XML string to a Javascript object.
 
 See Also:
 
- - [Data Conversion](index.htm) Functions
+ - [Data Conversion](index) Functions
 

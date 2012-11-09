@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="151">
-[open](open3.htm)
+[open](open3)
 
 </td>
 <td width="23">
@@ -23,7 +23,7 @@ Open a database
 </tr>
 <tr>
 <td width="151">
-[close](close2.htm)
+[close](close2)
 
 </td>
 <td width="23">
@@ -35,7 +35,7 @@ Close a database
 </tr>
 <tr>
 <td width="151">
-[remove](remove.htm)
+[remove](remove)
 
 </td>
 <td width="23">
@@ -47,7 +47,7 @@ Remove a database
 </tr>
 <tr>
 <td width="151">
-[executeSQL](executesql.htm)
+[executeSQL](executesql)
 
 </td>
 <td width="23">
@@ -59,7 +59,7 @@ Runs a provided SQL statement
 </tr>
 <tr>
 <td width="151">
-[insert](insert2.htm)
+[insert](insert2)
 
 </td>
 <td width="23">
@@ -71,7 +71,7 @@ Inserts a row into the database
 </tr>
 <tr>
 <td width="151">
-[update](update2.htm)
+[update](update2)
 
 </td>
 <td width="23">
@@ -83,7 +83,7 @@ Updates a row into the database
 </tr>
 <tr>
 <td width="151">
-[del](del.htm)
+[del](del)
 
 </td>
 <td width="23">
@@ -95,7 +95,7 @@ Deletes a row from the database
 </tr>
 <tr>
 <td width="151">
-[query](query.htm)
+[query](query)
 
 </td>
 <td width="23">
@@ -107,7 +107,7 @@ Queries a specified table
 </tr>
 <tr>
 <td width="151">
-[transaction](transaction.htm)
+[transaction](transaction)
 
 </td>
 <td width="23">

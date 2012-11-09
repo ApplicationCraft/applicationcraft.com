@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -20,31 +20,31 @@ IMPORTANT
 
 These are the available CRUD operations
 
- - C - Create = [instanceCreate()](../../../../../scripting-apis/client-api/instance-data-functions/instancecreate.htm) - create new App Instances in the current or a foreign App. For example, adding a Contact (the data for which is defined within a separate Contact App) from within a Company App.
+ - C - Create = [instanceCreate()](../../../../../scripting-apis/client-api/instance-data-functions/instancecreate) - create new App Instances in the current or a foreign App. For example, adding a Contact (the data for which is defined within a separate Contact App) from within a Company App.
 
  - R - Read or display data from a foreign App within the current App. This is done using Queries and Views, which load data into Widgets which are connected to Data Views.
 
- - U - Update = [instanceUpdate()](../../../../../scripting-apis/client-api/instance-data-functions/instancesave.htm) - update data in the local or a foreign App
+ - U - Update = [instanceUpdate()](../../../../../scripting-apis/client-api/instance-data-functions/instancesave) - update data in the local or a foreign App
 
- - D - Delete = [instanceDelete()](../../../../../scripting-apis/client-api/instance-data-functions/instancedelete.htm) - data from a foreign App (or the current App).
+ - D - Delete = [instanceDelete()](../../../../../scripting-apis/client-api/instance-data-functions/instancedelete) - data from a foreign App (or the current App).
 
 To understand how this works, we will use a simple App that shows all of these features in action.
 
 ## In This Section:
 
- - [CRUD on Local Instances](crud-on-local-instances.htm)
+ - [CRUD on Local Instances](crud-on-local-instances)
 
- - [Synopsis of Foreign CRUD Operations](synopsis.htm)
+ - [Synopsis of Foreign CRUD Operations](synopsis)
 
- - [CRUD Permissions](crud-permissions.htm)
+ - [CRUD Permissions](crud-permissions)
 
- - [Setting up Grids To Edit Foreign Data](setting-up-grids-to-edit-forei.htm)
+ - [Setting up Grids To Edit Foreign Data](setting-up-grids-to-edit-forei)
 
- - [Example CRUD Calls](example-crud-calls.htm)
+ - [Example CRUD Calls](example-crud-calls)
 
- - [How CRUD works](how-crud-works.htm)
+ - [How CRUD works](how-crud-works)
 
- - [JOINed App Queries](joined-app-queries.htm)
+ - [JOINed App Queries](joined-app-queries)
 
- - [CRUD & Filtering](crud--filtering.htm)
+ - [CRUD & Filtering](crud--filtering)
 

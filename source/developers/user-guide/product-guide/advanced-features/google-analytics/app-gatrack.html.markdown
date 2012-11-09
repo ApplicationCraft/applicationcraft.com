@@ -13,5 +13,5 @@ This function is for those situations where you require maximum control. You sim
 
 ## See Also:
 
- - [gaTrack()](../../../scripting-apis/client-api/app-functions/gatrack.htm)
+ - [gaTrack()](../../../scripting-apis/client-api/app-functions/gatrack)
 

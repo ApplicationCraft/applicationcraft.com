@@ -24,5 +24,5 @@ The following string values can be specified for the transition parameter.
 
 ## See Also:
 
- - [Page Transition Effects](../../../product-guide/mobile-apps-sites/page-transition-effects.htm)
+ - [Page Transition Effects](../../../product-guide/mobile-apps-sites/page-transition-effects)
 

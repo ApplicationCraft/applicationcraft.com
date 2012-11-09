@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-Available in the Advanced Menu bar in the [Designer Screen](../../../product-guide/content-and-app-layout/introduction/designer-screen.htm) area is the Web Test wizard that allows you to test your Web Service calls.
+Available in the Advanced Menu bar in the [Designer Screen](../../../product-guide/content-and-app-layout/introduction/designer-screen) area is the Web Test wizard that allows you to test your Web Service calls.
 
 Define the details of your webservice as required and then 'Run Request' to test and inspect the result.
 
-The response can also then be copied into the [Populate Widget Map Wizard](../widget-data-state-manipulation/populatewidget()/populatewidget-wizard.htm) to assist with the mapping of the response into your widgets
+The response can also then be copied into the [Populate Widget Map Wizard](../widget-data-state-manipulation/populatewidget()/populatewidget-wizard) to assist with the mapping of the response into your widgets
 
 ![WebTest1](/img/docs/webtest1.zoom82.png)
 

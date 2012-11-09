@@ -8,11 +8,11 @@ full_width: true
 
 ## In This Section:
 
-[Mobile Toolbar](mobile-toolbar.htm)
+[Mobile Toolbar](mobile-toolbar)
 
-[Mobile Navigation Toolbar](mobile-navigation-toolbar.htm)
+[Mobile Navigation Toolbar](mobile-navigation-toolbar)
 
-[Large and Small Mobile Buttons](large-and-small-mobile-buttons.htm)
+[Large and Small Mobile Buttons](large-and-small-mobile-buttons)
 
-[Mobile List Widget](mobile-list-widget/index.htm)
+[Mobile List Widget](mobile-list-widget/index)
 

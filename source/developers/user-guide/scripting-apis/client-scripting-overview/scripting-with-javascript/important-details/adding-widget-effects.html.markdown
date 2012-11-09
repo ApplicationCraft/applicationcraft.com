@@ -6,5 +6,5 @@ full_width: true
 ---
 
 
-You can add animation effects to your Widgets as described in the [Widget Effects](../../../client-api/objects-titbits/widget-effects.htm) topic.
+You can add animation effects to your Widgets as described in the [Widget Effects](../../../client-api/objects-titbits/widget-effects) topic.
 

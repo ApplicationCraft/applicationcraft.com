@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="162">
-[deleteRow()](deleterow.htm)
+[deleteRow()](deleterow)
 
 </td>
 <td width="21">
@@ -23,7 +23,7 @@ Deletes a row from a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[deleteSelectedRows()](deleteselectedrows.htm)
+[deleteSelectedRows()](deleteselectedrows)
 
 </td>
 <td width="21">
@@ -35,7 +35,7 @@ Delete the selected row from a Grid Container
 </tr>
 <tr>
 <td width="162">
-[deleteRowById()](deleterowbyid.htm)
+[deleteRowById()](deleterowbyid)
 
 </td>
 <td width="21">
@@ -47,7 +47,7 @@ Internal use only
 </tr>
 <tr>
 <td width="162">
-[drawNextPage()](drawnextpage.htm)
+[drawNextPage()](drawnextpage)
 
 </td>
 <td width="21">
@@ -59,7 +59,7 @@ Returns the next block of data and adds this to the Repeater Container
 </tr>
 <tr>
 <td width="162">
-[fetchDataPage()](fetchdata.htm)
+[fetchDataPage()](fetchdata)
 
 </td>
 <td width="21">
@@ -71,7 +71,7 @@ Instructs a Grid or Repeater Container Widget to fetch a 'page' of data from the
 </tr>
 <tr>
 <td width="162">
-[getRow()](getrow.htm)
+[getRow()](getrow)
 
 </td>
 <td width="21">
@@ -83,7 +83,7 @@ Returns a Repeater Container row as an object
 </tr>
 <tr>
 <td width="162">
-[getSelectedRow()](getselectedrow.htm)
+[getSelectedRow()](getselectedrow)
 
 </td>
 <td width="21">
@@ -95,7 +95,7 @@ Returns the row index of the currently selected row in a Grid Widget
 </tr>
 <tr>
 <td width="162">
-[insertRow()](insertrow.htm)
+[insertRow()](insertrow)
 
 </td>
 <td width="21">
@@ -107,19 +107,19 @@ Inserts a row into a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[isAllDataDrawn()](isalldatadrawn.htm)
+[isAllDataDrawn()](isalldatadrawn)
 
 </td>
 <td width="21">
 </td>
 <td width="697">
-checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index.htm) has been displayed into a Repeater Container
+checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index) has been displayed into a Repeater Container
 
 </td>
 </tr>
 <tr>
 <td width="162">
-[rowCount()](length.htm)
+[rowCount()](length)
 
 </td>
 <td width="21">
@@ -131,7 +131,7 @@ The number of rows in a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[rowIndex()](rowindex.htm)
+[rowIndex()](rowindex)
 
 </td>
 <td width="21">
@@ -143,7 +143,7 @@ Returns the index of a Repeater Container row
 </tr>
 <tr>
 <td width="162">
-[search()](../../../../widget-properties-events/advanced/search.htm)
+[search()](../../../../widget-properties-events/advanced/search)
 
 </td>
 <td width="21">
@@ -155,7 +155,7 @@ Locates a string within a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[setSelectedRow()](setselectedrow.htm)
+[setSelectedRow()](setselectedrow)
 
 </td>
 <td width="21">
@@ -167,7 +167,7 @@ Specifies a row that should be selected in the Grid Widget.
 </tr>
 <tr>
 <td width="162">
-[sum()](sum.htm)
+[sum()](sum)
 
 </td>
 <td width="21">

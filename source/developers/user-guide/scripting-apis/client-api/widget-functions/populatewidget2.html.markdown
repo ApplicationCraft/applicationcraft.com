@@ -6,4 +6,4 @@ full_width: true
 ---
 
 
-See: [populateWidget()](../widget-data-state-manipulation/populatewidget()/index.htm)
+See: [populateWidget()](../widget-data-state-manipulation/populatewidget()/index)

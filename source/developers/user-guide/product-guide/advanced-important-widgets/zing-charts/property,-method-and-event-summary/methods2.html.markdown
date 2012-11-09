@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the ZingChart  object. Each method is described in detail in the [Zing Chart](../../../../scripting-apis/client-api/widget-object-functions/zing-chart/index.htm) reference section. ZingChart API methods are also available. See [ZingChart Methods](methods3.htm)
+The following method table is a summary of the methods available for the ZingChart  object. Each method is described in detail in the [Zing Chart](../../../../scripting-apis/client-api/widget-object-functions/zing-chart/index) reference section. ZingChart API methods are also available. See [ZingChart Methods](methods3.htm)
 
 <table>
 <tr>
 <td width="182">
-[getZingChartId()](../../../../scripting-apis/client-api/widget-object-functions/zing-chart/getzingchartid.htm)
+[getZingChartId()](../../../../scripting-apis/client-api/widget-object-functions/zing-chart/getzingchartid)
 
 </td>
 <td width="8">

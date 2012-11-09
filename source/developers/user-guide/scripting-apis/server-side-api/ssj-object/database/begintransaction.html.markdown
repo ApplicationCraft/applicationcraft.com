@@ -42,11 +42,11 @@ This example shows how a record is first inserted into the 'customers' table and
 
 See Also:
 
- - [commit()](commit.htm)
+ - [commit()](commit)
 
- - [rollback()](rollback.htm)
+ - [rollback()](rollback)
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues.htm)
+ - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates.htm)
+ - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 

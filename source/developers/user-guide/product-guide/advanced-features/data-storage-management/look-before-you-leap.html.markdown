@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -18,9 +18,9 @@ The first thing to think about is how your overall application can be broken dow
 
 Application Craft lets you join all of these Apps together or even to embed one into another.
 
-You can also use the so-called [CRUD functions](crud___create_read_update_dele.htm) [instanceCreate()](../../../scripting-apis/client-api/instance-data-functions/instancecreate.htm) , [instanceUpdate()](../../../scripting-apis/client-api/instance-data-functions/instancesave.htm) and [instanceDelete()](../../../scripting-apis/client-api/instance-data-functions/instancedelete.htm) to manage data in a different App to the one you are working on.
+You can also use the so-called [CRUD functions](crud---create-read-update-dele) [instanceCreate()](../../../scripting-apis/client-api/instance-data-functions/instancecreate) , [instanceUpdate()](../../../scripting-apis/client-api/instance-data-functions/instancesave) and [instanceDelete()](../../../scripting-apis/client-api/instance-data-functions/instancedelete) to manage data in a different App to the one you are working on.
 
 ## See Also:
 
- - [CRUD Permissions](crud-in-detail/using-ac-app-storage/crud-permissions.htm)
+ - [CRUD Permissions](crud-in-detail/using-ac-app-storage/crud-permissions)
 

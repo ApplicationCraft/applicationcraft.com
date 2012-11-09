@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="142">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widget
+{ [wlist](../objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="15">
@@ -35,5 +35,5 @@ Example
 
 See Also:
 
- - [createWidget()](createwidget.htm)
+ - [createWidget()](createwidget)
 

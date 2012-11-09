@@ -55,7 +55,7 @@ Use 3 if you wish to perform a combination of 1 and 2 simultaneously.
 </tr>
 <tr>
 <td width="178">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widgets
+{ [wlist](../objects-titbits/widget-list-parameters) } widgets
 
 </td>
 <td width="16">
@@ -99,7 +99,7 @@ Description
 
 This enables you to check for completion of any fields that are required. The precise behavior depends on the ValidationType parameter. This function can be called at any point such as changing from one page to the next where you want to ensure that data is correctly entered before moving to the next page. Another important place is just before data is submitted.
 
-If you want to perform more complex validations then you can also use the [highlightWidgets()](highlightwidgets.htm) function to highlight any Widgets that require attention.
+If you want to perform more complex validations then you can also use the [highlightWidgets()](highlightwidgets) function to highlight any Widgets that require attention.
 
 Please note: The highlighting is handled with CSS shadow. This is set to render outside the widget but the outside shadow isn't included in  the widget's (element's) size and so if your widget is in a container some of the outside elements can be hidden by the container. If you add a small (3-5px) margin to the widget it will ensure that the outside shadow lies within the container, or alternatively set a small padding to the container
 
@@ -117,9 +117,9 @@ Example
 
 See Also:
 
- - [highlightWidgets()](highlightwidgets.htm)
+ - [highlightWidgets()](highlightwidgets)
 
- - [unhighlightWidgets()](unhighlightwidgets.htm)
+ - [unhighlightWidgets()](unhighlightwidgets)
 
 Related Videos:
 

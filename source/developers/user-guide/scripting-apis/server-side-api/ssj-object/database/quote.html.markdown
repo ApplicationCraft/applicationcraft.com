@@ -59,9 +59,9 @@ Both of the above examples would result in the following SQL for most RDBMS.
 
 However, if you are inserting a numeric parameter value, then there is no need for escaping, so while you can still use quote() if you want, the following is also safe
 
-By the way, when you use . [insert()](insert.htm) and . [update()](update.htm) , the second parameter is an object with key:value contents to be inserted into the fields. Each of the field values will automatically be escaped for you, so you don't need to prepare the contents of this object by using quote() manually in advance.
+By the way, when you use . [insert()](insert) and . [update()](update) , the second parameter is an object with key:value contents to be inserted into the fields. Each of the field values will automatically be escaped for you, so you don't need to prepare the contents of this object by using quote() manually in advance.
 
 See Also:
 
- - [quoteInto()](quoteinto.htm)
+ - [quoteInto()](quoteinto)
 

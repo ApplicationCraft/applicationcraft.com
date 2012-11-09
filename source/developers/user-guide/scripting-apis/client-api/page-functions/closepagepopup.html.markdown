@@ -33,13 +33,13 @@ The page event On Page Leave will be called after closePagePopup().
 
 See Also:
 
- - [pageJump()](pagejump.htm)
+ - [pageJump()](pagejump)
 
- - [pageNext()](pagenext.htm)
+ - [pageNext()](pagenext)
 
- - [pagePrevious()](pageprevious.htm)
+ - [pagePrevious()](pageprevious)
 
- - [pageBack()](pageback.htm)
+ - [pageBack()](pageback)
 
- - [showPagePopup()](showpagepopup.htm)
+ - [showPagePopup()](showpagepopup)
 

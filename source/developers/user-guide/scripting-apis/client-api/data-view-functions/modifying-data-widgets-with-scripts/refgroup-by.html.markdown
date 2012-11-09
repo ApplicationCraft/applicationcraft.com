@@ -8,7 +8,7 @@ full_width: true
 
 Your script can modify a Widget's Group By property by passing in an array of string Expressions that identify which Data View fields should be grouped.
 
-Having modified the Group By property, you need to call [app.refreshData()](../../widget-functions/refreshdata.htm) to reload the Widget's data to reflect the change.
+Having modified the Group By property, you need to call [app.refreshData()](../../widget-functions/refreshdata) to reload the Widget's data to reflect the change.
 
 Example
 
@@ -19,11 +19,11 @@ Example
 
 See Also:
 
- - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor.htm)
+ - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 
- - [getViewData()](../getviewdata.htm)
+ - [getViewData()](../getviewdata)
 
- - [Data View Related Events](../data-view-related-events.htm)
+ - [Data View Related Events](../data-view-related-events)
 
 Related Video:
 

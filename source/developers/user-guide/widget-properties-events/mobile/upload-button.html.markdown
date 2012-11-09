@@ -175,7 +175,7 @@ Unique
 <td width="15">
 </td>
 <td width="779">
-None/Case Sensitive/Case Insensitive. For use with [Relational Apps](../../product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/relational-apps.htm)
+None/Case Sensitive/Case Insensitive. For use with [Relational Apps](../../product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/relational-apps)
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ Mandatory
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
 
-See [App Properties](../app-properties.htm#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See [App Properties](../app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ Sizes
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog.htm)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -269,7 +269,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi.htm) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -317,7 +317,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring.htm) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -441,7 +441,7 @@ Margin
 <td width="15">
 </td>
 <td width="779">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin.htm)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -453,7 +453,7 @@ Mobile Theme
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Theme colors for the widget. See [Mobile Themes](../../product-guide/mobile-apps-sites/mobile-themes.htm)
+Where you can set the Theme colors for the widget. See [Mobile Themes](../../product-guide/mobile-apps-sites/mobile-themes)
 
 </td>
 </tr>
@@ -489,7 +489,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](../../product-guide/content-and-app-layout/introduction/themes-styles/themesmanage.htm) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](../../product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
@@ -508,13 +508,13 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](../events/event-reference-list/mouse-events.htm)
+[Mouse Events](../events/event-reference-list/mouse-events)
 
 </td>
 <td width="15">
 </td>
 <td width="108">
-[General Events](../events/event-reference-list/general-events.htm)
+[General Events](../events/event-reference-list/general-events)
 
 </td>
 </tr>
@@ -630,7 +630,7 @@ On Resize Stop
 
 See Also:
 
- - [Mouse Events](../events/event-reference-list/mouse-events.htm)
+ - [Mouse Events](../events/event-reference-list/mouse-events)
 
- - [General Events](../events/event-reference-list/general-events.htm)
+ - [General Events](../events/event-reference-list/general-events)
 

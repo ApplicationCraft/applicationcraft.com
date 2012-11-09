@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="166">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widget
+{ [wlist](../objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="1">
@@ -49,9 +49,9 @@ Example
 
 See Also:
 
- - [visible()](visible.htm)
+ - [visible()](visible)
 
- - [enabled()](enabled.htm)
+ - [enabled()](enabled)
 
- - [setProperty()](../widget-functions/setproperty.htm)
+ - [setProperty()](../widget-functions/setproperty)
 

@@ -10,27 +10,27 @@ If you want to build sites that run on different device types and screen sizes t
 
 ## In This Section:
 
-[Understanding Containers](understanding-containers.htm)
+[Understanding Containers](understanding-containers)
 
-[Absolute and Relative Layout](absolute-and-relative-layout.htm)
+[Absolute and Relative Layout](absolute-and-relative-layout)
 
-['Sizes' Property Dialog](sizes-property-dialog.htm)
+['Sizes' Property Dialog](sizes-property-dialog)
 
-[Right Click Width Settings](right-click-width-settings.htm)
+[Right Click Width Settings](right-click-width-settings)
 
-[Right Click Parent Container Selection](right-click-parent-container-s.htm)
+[Right Click Parent Container Selection](right-click-parent-container-s)
 
-[Container Outlines](container-outlines.htm)
+[Container Outlines](container-outlines)
 
-[Margins](margins.htm)
+[Margins](margins)
 
-[Aligning Widgets Inside Containers](aligning-widgets-inside-contai.htm)
+[Aligning Widgets Inside Containers](aligning-widgets-inside-contai)
 
-[Adaptive Layout Overview](adaptive-layout-rules.htm)
+[Adaptive Layout Overview](adaptive-layout-rules)
 
-[Adaptive Layout Rule Definition](adaptive-layout-rule-definitio.htm)
+[Adaptive Layout Rule Definition](adaptive-layout-rule-definitio)
 
-[Adaptive Layout Event](adaptive-layout-event.htm)
+[Adaptive Layout Event](adaptive-layout-event)
 
-[Resize Events](resize-events.htm)
+[Resize Events](resize-events)
 

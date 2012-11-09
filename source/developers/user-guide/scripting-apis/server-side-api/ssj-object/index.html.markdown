@@ -12,15 +12,15 @@ You will find some functions with direct equivalents on the server such as getVi
 
 ## In This Section:
 
- - [Web Service Calls](web-service-calls/index.htm)
+ - [Web Service Calls](web-service-calls/index)
 
- - [Security](security/index.htm)
+ - [Security](security/index)
 
- - [Database](database/index.htm)
+ - [Database](database/index)
 
- - [Credit Card Payments](credit-card-payments/index.htm)
+ - [Credit Card Payments](credit-card-payments/index)
 
- - [Data Preparation](data-preparation.htm)
+ - [Data Preparation](data-preparation)
 
- - [Miscellaneous](miscellaneous/index.htm)
+ - [Miscellaneous](miscellaneous/index)
 

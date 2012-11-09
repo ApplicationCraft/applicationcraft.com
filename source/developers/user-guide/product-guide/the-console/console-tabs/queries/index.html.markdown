@@ -10,7 +10,7 @@ A Query is a collection of fields taken from a Connection/App or List. The Query
 
 Query Repository
 
-All Queries are stored in the standard [Private/Shared/Public](../../private--shared-and-public-fol.htm) folder structure.
+All Queries are stored in the standard [Private/Shared/Public](../../private--shared-and-public-fol) folder structure.
 
 Properties & Settings
 
@@ -57,7 +57,7 @@ This is the Unique Identifier of the Query.
 <td width="16">
 </td>
 <td>
-Please refer to the [Sharing](../../sharing.htm) section for details
+Please refer to the [Sharing](../../sharing) section for details
 
 </td>
 </tr>
@@ -74,7 +74,7 @@ Edit
 <td width="16">
 </td>
 <td>
-This takes you into the [Query Wizard](query-wizard/index.htm) .
+This takes you into the [Query Wizard](query-wizard/index) .
 
 </td>
 </tr>
@@ -166,9 +166,9 @@ Generate a Data URL for your query. For use with Reporting - coming soon
 
 ## See Also:
 
- - [Data Lists Management](../../../advanced-features/data-lists-management/index.htm)
+ - [Data Lists Management](../../../advanced-features/data-lists-management/index)
 
- - [Database Handling with SSJ](../../../../scripting-apis/server-side-scripting-overview/database-handling-with-ssj.htm)
+ - [Database Handling with SSJ](../../../../scripting-apis/server-side-scripting-overview/database-handling-with-ssj)
 
 Related Video:
 

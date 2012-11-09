@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="131">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widget
+{ [wlist](../objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="13">
@@ -41,19 +41,19 @@ Description
 
 Allows you to set the contents of a Widget.
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) . You need to be aware of how setData() and setValue() work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) . You need to be aware of how setData() and setValue() work with different Widget types.
 
 Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) chapter.
+There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter.
 
 See Also:
 
- - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists--dropdowns.htm) Widgets
+ - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists--dropdowns) Widgets
 
- - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers.htm)
+ - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers)
 
- - [populateWidget()](populatewidget.htm) for populating Grids and Repeater Containers with JSON data
+ - [populateWidget()](populatewidget) for populating Grids and Repeater Containers with JSON data
 
 Related Video:
 

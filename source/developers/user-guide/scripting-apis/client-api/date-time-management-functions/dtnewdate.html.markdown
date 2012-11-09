@@ -50,11 +50,11 @@ Example
 
 See Also:
 
- - [dtadd()](dtadd.htm)
+ - [dtadd()](dtadd)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtAdjust()](dtadjust.htm)
+ - [dtAdjust()](dtadjust)
 
- - [dtDateToString()](dtdatetostring.htm)
+ - [dtDateToString()](dtdatetostring)
 

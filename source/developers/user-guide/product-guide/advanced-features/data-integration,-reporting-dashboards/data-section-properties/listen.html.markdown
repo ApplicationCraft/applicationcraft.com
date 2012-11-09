@@ -14,7 +14,7 @@ Any Widget that is able to access a View will have the Listen property. It deter
 
 ![listen](/img/docs/listen.zoom97.png)
 
-This can also be set [Using Automatic Property Settings](using_automatic_property_setti.htm)
+This can also be set [Using Automatic Property Settings](using-automatic-property-setti)
 
 ![txt\_expr](/img/docs/txt_expr.zoom66.png)
 

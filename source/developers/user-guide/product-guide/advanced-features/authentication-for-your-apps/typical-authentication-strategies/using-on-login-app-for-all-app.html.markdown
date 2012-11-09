@@ -18,7 +18,7 @@ Once signed it, the Authentication App knows to redirect back to the App that re
 
 See Also:
 
- - [Sign In](../sign-in.htm)
+ - [Sign In](../sign-in)
 
- - [Sign Up](../sign-up.htm)
+ - [Sign Up](../sign-up)
 

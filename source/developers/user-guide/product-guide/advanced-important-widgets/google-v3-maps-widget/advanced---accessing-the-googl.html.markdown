@@ -38,5 +38,5 @@ Google Map Libraries can also be accessed by defining the libraries to load in t
 
 ## See Also:
 
- - [googleMap()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/googlemap.htm)
+ - [googleMap()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/googlemap)
 

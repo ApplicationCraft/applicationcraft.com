@@ -10,5 +10,5 @@ Groups can be defined and Users then assigned to them.
 
 ![Groups\_screen](/img/docs/groups_screen.zoom46.png)
 
-Operation of this screen is nearly identical to the [Users](users.htm) screen, so please refer to that section for details.
+Operation of this screen is nearly identical to the [Users](users) screen, so please refer to that section for details.
 

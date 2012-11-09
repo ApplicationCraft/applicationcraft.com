@@ -10,7 +10,7 @@ full_width: true
 
 Description
 
-Adjusts the date range of a Timeline widget to accommodate all events loaded into it. Should be called after data has been loaded using [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index.htm) .
+Adjusts the date range of a Timeline widget to accommodate all events loaded into it. Should be called after data has been loaded using [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index) .
 
 Example
 
@@ -21,13 +21,13 @@ Example
 
 See Also:
 
- - [scroll()](scroll.htm)
+ - [scroll()](scroll)
 
- - [scrollTo()](../../useful-browser-functions/scrollto.htm)
+ - [scrollTo()](../../useful-browser-functions/scrollto)
 
- - [Timeline Events](eventstimeline.htm)
+ - [Timeline Events](eventstimeline)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index.htm)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
 
- - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index.htm)
+ - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index)
 

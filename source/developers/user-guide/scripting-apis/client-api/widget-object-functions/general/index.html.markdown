@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="162">
-[parent()](parent.htm)
+[parent()](parent)
 
 </td>
 <td width="21">
@@ -23,7 +23,7 @@ Returns the Widget's parent Widget
 </tr>
 <tr>
 <td width="162">
-[prop()](prop.htm)
+[prop()](prop)
 
 </td>
 <td width="21">
@@ -35,7 +35,7 @@ Gets or sets a property
 </tr>
 <tr>
 <td width="162">
-[traverseChildren()](traversechildren.htm)
+[traverseChildren()](traversechildren)
 
 </td>
 <td width="21">
@@ -47,7 +47,7 @@ Is used to traverse all child widgets of the widget.
 </tr>
 <tr>
 <td width="162">
-[value()](value.htm)
+[value()](value)
 
 </td>
 <td width="21">

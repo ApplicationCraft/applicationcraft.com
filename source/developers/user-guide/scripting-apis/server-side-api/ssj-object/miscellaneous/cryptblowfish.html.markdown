@@ -40,7 +40,7 @@ Example
 
 See Also:
 
- - [checkHash()](checkcryptblowfish.htm)
+ - [checkHash()](checkcryptblowfish)
 
- - [md5()](md5.htm)
+ - [md5()](md5)
 

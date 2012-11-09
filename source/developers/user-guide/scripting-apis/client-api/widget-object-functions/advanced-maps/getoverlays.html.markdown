@@ -34,17 +34,17 @@ Allows you to  retrieve a list of all the available Overlay objects currently p
 
 ## See Also:
 
- - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays.htm)
+ - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
 
- - [removeOverlay()](removeoverlay.htm)
+ - [removeOverlay()](removeoverlay)
 
- - [getOverlayObjById()](getoverlayobjbyidid.htm)
+ - [getOverlayObjById()](getoverlayobjbyidid)
 
- - [clearOverlays()](clearoverlays.htm)
+ - [clearOverlays()](clearoverlays)
 
- - [showOverlay()](showoverlayid.htm)
+ - [showOverlay()](showoverlayid)
 
- - [hideOverlay()](hideoverlay.htm)
+ - [hideOverlay()](hideoverlay)
 
- - [fitToOverlays()](fittooverlays.htm)
+ - [fitToOverlays()](fittooverlays)
 

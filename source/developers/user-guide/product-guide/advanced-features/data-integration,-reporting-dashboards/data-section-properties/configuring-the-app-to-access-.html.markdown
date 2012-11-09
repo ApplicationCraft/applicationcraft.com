@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-For Apps that display data from any external data source, you will need to configure your App to access [Queries](../../../the-console/console-tabs/queries/index.htm) . To do this, you select the Views property within the Data section of the Property Pane for the App. Click in the design area somewhere outside the Page to select the App Properties Pane.
+For Apps that display data from any external data source, you will need to configure your App to access [Queries](../../../the-console/console-tabs/queries/index) . To do this, you select the Views property within the Data section of the Property Pane for the App. Click in the design area somewhere outside the Page to select the App Properties Pane.
 
 ![Data\_view\_manager](/img/docs/data_view_manager.zoom66.png)
 

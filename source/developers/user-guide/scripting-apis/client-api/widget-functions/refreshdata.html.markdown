@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="135">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widget
+{ [wlist](../objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="14">
@@ -31,7 +31,7 @@ This forces the specified Widget(s) to request its data from the data source.
 
 See Also:
 
- - [enableView()](../data-view-functions/enableview.htm)
+ - [enableView()](../data-view-functions/enableview)
 
 Related Videos:
 

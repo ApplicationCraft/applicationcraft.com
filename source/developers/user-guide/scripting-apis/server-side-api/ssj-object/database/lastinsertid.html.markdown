@@ -27,9 +27,9 @@ Example
 
 See Also:
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues.htm)
+ - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates.htm)
+ - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index.htm)
+ - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index)
 

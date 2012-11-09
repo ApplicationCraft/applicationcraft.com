@@ -10,7 +10,7 @@ The last thing you need to do is to create a Development Provisioning Profile.
 
 ![iosa-prov-0](/img/docs/iosa-prov-0.zoom73.png)
 
-This is a file that is needed by [AC Mobile Build](../../../../ac-mobile-build/index.htm) or by [Phonegap:Build](../../../../phonegapbuild/index.htm) as shown above.
+This is a file that is needed by [AC Mobile Build](../../../../ac-mobile-build/index) or by [Phonegap:Build](../../../../phonegapbuild/index) as shown above.
 
 ![iosa-prov-1](/img/docs/iosa-prov-1.zoom68.png)
 
@@ -29,7 +29,7 @@ Once you click the submit button, you will see your Profile marked as 'Pending'.
 
 .
 
-This can now be installed into [AC Mobile Build](../../../../ac-mobile-build/index.htm) or Phonegap Build as shown in the screenshot at the top of this page.
+This can now be installed into [AC Mobile Build](../../../../ac-mobile-build/index) or Phonegap Build as shown in the screenshot at the top of this page.
 
 If you are using features such as Push Notifications, then you will need to have a dedicated App ID for any App that needs to receive them.
 

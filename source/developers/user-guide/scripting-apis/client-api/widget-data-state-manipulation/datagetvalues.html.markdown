@@ -47,9 +47,9 @@ Description
 
 This function is commonly used to extract data from your App so that it can be passed in a simple format to another system or a Server Side Javascript function (SSJ).
 
-A common usage is where you want to extract data from your App so it can be stored in a database table using Application Crafts [SSJ database functions](../../../data-storage/server-side-data-storage/index.htm) . If you choose your Widget names to match the database field names then the javascript object returned by app.dataGetValues() can be used as-is by the [ssj.insert()](../../server-side-api/ssj-object/database/insert.htm) and [ssj.update()](../../server-side-api/ssj-object/database/update.htm) methods.
+A common usage is where you want to extract data from your App so it can be stored in a database table using Application Crafts [SSJ database functions](../../../data-storage/server-side-data-storage/index) . If you choose your Widget names to match the database field names then the javascript object returned by app.dataGetValues() can be used as-is by the [ssj.insert()](../../server-side-api/ssj-object/database/insert) and [ssj.update()](../../server-side-api/ssj-object/database/update) methods.
 
-You can also store these values in 3rd party systems or database by converting the javascript object to JSON ( [app.OBJ2JSON()](../conversion-functions/json2text.htm) ) and then storing the object as a string. You can restore later using [app.JSON2OBJ()](../conversion-functions/text2json.htm) and then [app.dataSetValues()](datasetvalues.htm) .
+You can also store these values in 3rd party systems or database by converting the javascript object to JSON ( [app.OBJ2JSON()](../conversion-functions/json2text) ) and then storing the object as a string. You can restore later using [app.JSON2OBJ()](../conversion-functions/text2json) and then [app.dataSetValues()](datasetvalues) .
 
 Examples
 
@@ -74,15 +74,15 @@ This example extracts the widgets and .
 
 See Also:
 
- - [dataGetStates()](datagetstates.htm)
+ - [dataGetStates()](datagetstates)
 
- - [dataSetValues()](datasetvalues.htm)
+ - [dataSetValues()](datasetvalues)
 
- - [dataSetStates()](datasetstates.htm)
+ - [dataSetStates()](datasetstates)
 
- - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+ - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
- - [SSJ database functions](../../../data-storage/server-side-data-storage/index.htm)
+ - [SSJ database functions](../../../data-storage/server-side-data-storage/index)
 
- - [Instance Data Functions](../instance-data-functions/index.htm)
+ - [Instance Data Functions](../instance-data-functions/index)
 

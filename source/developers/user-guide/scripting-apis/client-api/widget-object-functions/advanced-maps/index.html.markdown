@@ -8,14 +8,14 @@ full_width: true
 
 The Advanced Map widget is a very powerful widget that incorporates much of the Google V3 Maps API. It makes the mapping process very easy to learn and use.
 
-Please refer to the [Google V3 Maps Widget](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/index.htm) chapter for a thorough introduction and explanation.
+Please refer to the [Google V3 Maps Widget](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/index) chapter for a thorough introduction and explanation.
 
 ## In This Section:
 
 <table>
 <tr>
 <td width="182">
-[showMarker()](showmarker.htm)
+[showMarker()](showmarker)
 
 </td>
 <td width="8">
@@ -27,7 +27,7 @@ Shows or hides the map's base coordinate marker
 </tr>
 <tr>
 <td width="182">
-[mapStyles()](mapstyles.htm)
+[mapStyles()](mapstyles)
 
 </td>
 <td width="8">
@@ -39,7 +39,7 @@ Sets the look and feel of the map
 </tr>
 <tr>
 <td width="182">
-[getOverlays()](getoverlays.htm)
+[getOverlays()](getoverlays)
 
 </td>
 <td width="8">
@@ -51,7 +51,7 @@ Retrieves a list of currently displayed overlay objects
 </tr>
 <tr>
 <td width="182">
-[removeOverlay()](removeoverlay.htm)
+[removeOverlay()](removeoverlay)
 
 </td>
 <td width="8">
@@ -63,7 +63,7 @@ Removes an individual Overlay object from the map
 </tr>
 <tr>
 <td width="182">
-[clearOverlays()](clearoverlays.htm)
+[clearOverlays()](clearoverlays)
 
 </td>
 <td width="8">
@@ -75,7 +75,7 @@ Removes all Overlay objects from the map
 </tr>
 <tr>
 <td width="182">
-[showOverlay()](showoverlayid.htm)
+[showOverlay()](showoverlayid)
 
 </td>
 <td width="8">
@@ -87,7 +87,7 @@ Shows an overlay by Id
 </tr>
 <tr>
 <td width="182">
-[hideOverlay()](hideoverlay.htm)
+[hideOverlay()](hideoverlay)
 
 </td>
 <td width="8">
@@ -99,7 +99,7 @@ Hides an overlay by id
 </tr>
 <tr>
 <td width="182">
-[fitToOverlays()](fittooverlays.htm)
+[fitToOverlays()](fittooverlays)
 
 </td>
 <td width="8">
@@ -111,7 +111,7 @@ Fits the map to overlays and/or markers
 </tr>
 <tr>
 <td width="182">
-[getOverlayObjById()](getoverlayobjbyidid.htm)
+[getOverlayObjById()](getoverlayobjbyidid)
 
 </td>
 <td width="8">
@@ -123,7 +123,7 @@ Returns the google maps api overlay object
 </tr>
 <tr>
 <td width="182">
-[addPolyline()](addpolyline.htm)
+[addPolyline()](addpolyline)
 
 </td>
 <td width="8">
@@ -135,7 +135,7 @@ Adds a multi-point line to the map
 </tr>
 <tr>
 <td width="182">
-[addPolygon()](addpolygon.htm)
+[addPolygon()](addpolygon)
 
 </td>
 <td width="8">
@@ -147,7 +147,7 @@ Adds a Polygon area to the map
 </tr>
 <tr>
 <td width="182">
-[addCircle()](addcircle.htm)
+[addCircle()](addcircle)
 
 </td>
 <td width="8">
@@ -159,7 +159,7 @@ Adds a Circle to the map
 </tr>
 <tr>
 <td width="182">
-[addRectangle()](addrectangle.htm)
+[addRectangle()](addrectangle)
 
 </td>
 <td width="8">
@@ -171,7 +171,7 @@ Adds a rectangle to the map
 </tr>
 <tr>
 <td width="182">
-[addMarker()](addmarker.htm)
+[addMarker()](addmarker)
 
 </td>
 <td width="8">
@@ -183,7 +183,7 @@ Adds a new Marker to the map, along with optional mouse-over and mouse-click HTM
 </tr>
 <tr>
 <td width="182">
-[clearMarkers()](clearmarkers.htm)
+[clearMarkers()](clearmarkers)
 
 </td>
 <td width="8">
@@ -195,7 +195,7 @@ Removes all Markers from the map
 </tr>
 <tr>
 <td width="182">
-[strokeColor()](strokecolor.htm)
+[strokeColor()](strokecolor)
 
 </td>
 <td width="8">
@@ -207,7 +207,7 @@ Sets the default line color for overlays
 </tr>
 <tr>
 <td width="182">
-[strokeOpacity()](strokeopacity.htm)
+[strokeOpacity()](strokeopacity)
 
 </td>
 <td width="8">
@@ -219,7 +219,7 @@ Sets the default line opacity for overlays
 </tr>
 <tr>
 <td width="182">
-[strokeWeight()](strokeweight.htm)
+[strokeWeight()](strokeweight)
 
 </td>
 <td width="8">
@@ -231,7 +231,7 @@ Sets the default line thickness for overlays
 </tr>
 <tr>
 <td width="182">
-[fillColor()](fillcolor.htm)
+[fillColor()](fillcolor)
 
 </td>
 <td width="8">
@@ -243,7 +243,7 @@ Sets the default fill color for overlays
 </tr>
 <tr>
 <td width="182">
-[fillOpacity()](fillopacity.htm)
+[fillOpacity()](fillopacity)
 
 </td>
 <td width="8">
@@ -255,7 +255,7 @@ Sets the default fill opacity for overlays
 </tr>
 <tr>
 <td width="182">
-[whereAmI()](whereami.htm)
+[whereAmI()](whereami)
 
 </td>
 <td width="8">
@@ -267,7 +267,7 @@ Gets my current location and returns it as a coordinate array
 </tr>
 <tr>
 <td width="182">
-[getAddress()](getaddress.htm)
+[getAddress()](getaddress)
 
 </td>
 <td width="8">
@@ -279,7 +279,7 @@ Returns an address object based on a supplied coordinate
 </tr>
 <tr>
 <td width="182">
-[getCoord()](getcoord.htm)
+[getCoord()](getcoord)
 
 </td>
 <td width="8">
@@ -291,7 +291,7 @@ Gets a coordinate array based on a supplied address
 </tr>
 <tr>
 <td width="182">
-[getDirections()](getdirections.htm)
+[getDirections()](getdirections)
 
 </td>
 <td width="8">
@@ -303,7 +303,7 @@ Gets Directions between two coordinate pairs or addresses.
 </tr>
 <tr>
 <td width="182">
-[removeDirections()](removedirections.htm)
+[removeDirections()](removedirections)
 
 </td>
 <td width="8">
@@ -315,7 +315,7 @@ Removes all directions from the map
 </tr>
 <tr>
 <td width="182">
-[addCurrentLocation()](addcurrentlocation.htm)
+[addCurrentLocation()](addcurrentlocation)
 
 </td>
 <td width="8">
@@ -327,7 +327,7 @@ Adds the current location of the user to the map
 </tr>
 <tr>
 <td width="182">
-[setLanguage()](setlanguage.htm)
+[setLanguage()](setlanguage)
 
 </td>
 <td width="8">
@@ -339,7 +339,7 @@ Sets the language code for the map.
 </tr>
 <tr>
 <td width="182">
-[noScroll()](noscroll.htm)
+[noScroll()](noscroll)
 
 </td>
 <td width="8">
@@ -351,7 +351,7 @@ Enable/Disable map scrolling
 </tr>
 <tr>
 <td width="182">
-[googleMap()](googlemap.htm)
+[googleMap()](googlemap)
 
 </td>
 <td width="8">
@@ -363,7 +363,7 @@ Returns the google maps api object
 </tr>
 <tr>
 <td width="182">
-[loadApi()](loadapi.htm)
+[loadApi()](loadapi)
 
 </td>
 <td width="8">

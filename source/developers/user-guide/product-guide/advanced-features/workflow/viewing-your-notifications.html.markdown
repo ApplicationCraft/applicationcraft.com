@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Under the More tab in the console you will see [Notifications](../../account-management/notifications.htm) .
+Under the More tab in the console you will see [Notifications](../../account-management/notifications) .
 
 ![notifications](/img/docs/notifications.png)
 

@@ -10,14 +10,14 @@ These functions allow you to interact with Data Views from your scripts.
 
 ## In This Section:
 
-[Data View Related Events](data-view-related-events.htm)
+[Data View Related Events](data-view-related-events)
 
-[Modifying Data Widgets with Scripts](modifying-data-widgets-with-scripts/index.htm)
+[Modifying Data Widgets with Scripts](modifying-data-widgets-with-scripts/index)
 
 <table>
 <tr>
 <td width="149">
-[enableView()](enableview.htm)
+[enableView()](enableview)
 
 </td>
 <td width="12">
@@ -29,7 +29,7 @@ Enable/Disable a view
 </tr>
 <tr>
 <td width="149">
-[refreshData()](refrefreshdata.htm)
+[refreshData()](refrefreshdata)
 
 </td>
 <td width="12">
@@ -41,7 +41,7 @@ Refresh the contents of a single Widget's data if bound to a Data View
 </tr>
 <tr>
 <td width="149">
-[resetView()](resetview.htm)
+[resetView()](resetview)
 
 </td>
 <td width="12">
@@ -53,7 +53,7 @@ Resets all drill-down filters associated with the specified Data View
 </tr>
 <tr>
 <td width="149">
-[reloadView()](reloadview.htm)
+[reloadView()](reloadview)
 
 </td>
 <td width="12">
@@ -65,7 +65,7 @@ Reloads the specified View with fresh data
 </tr>
 <tr>
 <td width="149">
-[Setting a View Filter](setting-a-view-filter.htm)
+[Setting a View Filter](setting-a-view-filter)
 
 </td>
 <td width="12">
@@ -77,7 +77,7 @@ How to set a View Filter
 </tr>
 <tr>
 <td width="149">
-[getViewData()](getviewdata.htm)
+[getViewData()](getviewdata)
 
 </td>
 <td width="12">
@@ -89,7 +89,7 @@ Loads data from a View into an array, allowing Filter, Group By and Order By to 
 </tr>
 <tr>
 <td width="149">
-[fetchDataPage()](fetchdatapage.htm)
+[fetchDataPage()](fetchdatapage)
 
 </td>
 <td width="12">
@@ -101,7 +101,7 @@ Loads a new page of data into a Repeater Container or Grid Widget.
 </tr>
 <tr>
 <td width="149">
-[drillDownBroadcast()](drilldownbroadcast.htm)
+[drillDownBroadcast()](drilldownbroadcast)
 
 </td>
 <td width="12">
@@ -113,7 +113,7 @@ This function triggers a drill down on the specified View using the specified fi
 </tr>
 <tr>
 <td width="149">
-[bindViewData()](setviewcallback.htm)
+[bindViewData()](setviewcallback)
 
 </td>
 <td width="12">

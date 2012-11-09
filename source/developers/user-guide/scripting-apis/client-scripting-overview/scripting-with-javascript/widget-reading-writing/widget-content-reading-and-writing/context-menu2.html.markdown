@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The [Context Menu](../../../../../widget-properties-events/beta/context-menu.htm) widget can be populated by code with the OnPreShow event
+The [Context Menu](../../../../../widget-properties-events/beta/context-menu) widget can be populated by code with the OnPreShow event
 
 The following object is used
 

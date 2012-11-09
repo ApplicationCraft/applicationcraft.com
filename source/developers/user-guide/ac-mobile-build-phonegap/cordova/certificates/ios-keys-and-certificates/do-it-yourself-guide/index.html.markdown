@@ -10,13 +10,13 @@ This section describes how to set up your iOS certificates and profiles on your 
 
 ## In This Section:
 
-[Apple Accounts](apple-accounts/index.htm)
+[Apple Accounts](apple-accounts/index)
 
-[Setting up for development](setting-up-for-development/index.htm)
+[Setting up for development](setting-up-for-development/index)
 
-[Setting up for Distribution](setting-up-for-distribution/index.htm)
+[Setting up for Distribution](setting-up-for-distribution/index)
 
-[Building your Apps](building-your-apps.htm)
+[Building your Apps](building-your-apps)
 
-[Publishing your iOS App](publishing-your-ios-app/index.htm)
+[Publishing your iOS App](publishing-your-ios-app/index)
 

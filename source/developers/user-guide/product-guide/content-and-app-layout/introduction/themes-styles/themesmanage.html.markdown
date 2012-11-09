@@ -12,7 +12,7 @@ Themes allow you to set the properties for all Widgets in an App using a pre-det
 
 Themes Repository
 
-Themes are stored in the standard [Private/Shared/Public folder structure](../../../the-console/private--shared-and-public-fol.htm) . They can be viewed by clicking on the Themes tab in the console.
+Themes are stored in the standard [Private/Shared/Public folder structure](../../../the-console/private--shared-and-public-fol) . They can be viewed by clicking on the Themes tab in the console.
 
 In the Themes Console, you can perform the following actions:
 
@@ -37,7 +37,7 @@ Sharing
 <td width="21">
 </td>
 <td width="574">
-Set permissions for Use and Administration of the Theme.  See [Sharing](../../../the-console/sharing.htm) for more information.
+Set permissions for Use and Administration of the Theme.  See [Sharing](../../../the-console/sharing) for more information.
 
 </td>
 </tr>
@@ -109,9 +109,9 @@ To view the pre-set Styles for any Widget, select that Widget in the Designer an
 
 ![Styles\_tab](/img/docs/styles_tab.zoom56.png)
 
-Making a change to the property settings for any Style will change all Widgets using that Style – see [Style Management](style_management.htm) for more detail on Editing Styles within Themes.
+Making a change to the property settings for any Style will change all Widgets using that Style – see [Style Management](style-management) for more detail on Editing Styles within Themes.
 
-You can only make changes to Styles (and hence the Theme) if you have been given Edit rights in the Sharing section for that Theme. See [Sharing](../../../the-console/sharing.htm) for more information.
+You can only make changes to Styles (and hence the Theme) if you have been given Edit rights in the Sharing section for that Theme. See [Sharing](../../../the-console/sharing) for more information.
 
 Any changes you make to a Theme will be applied to all Apps that use the Theme. It is therefore important that if you want to make changes to an existing Theme without affecting other Apps, you should first make a clone of the Theme, which can then be edited.
 
@@ -133,5 +133,5 @@ If you change the Theme, you will be asked whether you want to import Widget Sty
 
 ## See Also:
 
- - [Import/Export](../../../the-console/import/export/index.htm)
+ - [Import/Export](../../../the-console/import/export/index)
 

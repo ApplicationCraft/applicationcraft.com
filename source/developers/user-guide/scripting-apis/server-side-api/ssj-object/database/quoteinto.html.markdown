@@ -82,5 +82,5 @@ Multiple WHERE type clauses are handled as an array, and all elements will be jo
 
 See Also:
 
- - [quote()](quote.htm)
+ - [quote()](quote)
 

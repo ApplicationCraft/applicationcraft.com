@@ -10,7 +10,7 @@ A Connection allows you to access an individual part of the data domain you are 
 
 For example you might set up several different connections, each of which addresses one individual database visible to an Integration Agent.
 
-Connections can also have permissions applied to restrict access. As you will see, Connections are used by [Queries](queries.htm) and also [Database Handling with SSJ](../../../../scripting-apis/server-side-scripting-overview/database-handling-with-ssj.htm)
+Connections can also have permissions applied to restrict access. As you will see, Connections are used by [Queries](queries) and also [Database Handling with SSJ](../../../../scripting-apis/server-side-scripting-overview/database-handling-with-ssj)
 
 ![Connections\_screen](/img/docs/connections_screen.zoom48.png)
 

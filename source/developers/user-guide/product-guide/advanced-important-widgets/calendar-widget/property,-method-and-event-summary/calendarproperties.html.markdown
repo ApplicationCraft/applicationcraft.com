@@ -139,7 +139,7 @@ Sizes
 <td width="47">
 </td>
 <td width="753">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog.htm)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -251,7 +251,7 @@ Fields
 <td width="48">
 </td>
 <td width="746">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index.htm) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
 
 </td>
 </tr>
@@ -263,7 +263,7 @@ Group By
 <td width="48">
 </td>
 <td width="746">
-This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by.htm) section for more details.
+This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by) section for more details.
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ Order By
 <td width="48">
 </td>
 <td width="746">
-Specifies the order in which data is presented to the Widget.  Read the [Order By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by.htm) section for more details.
+Specifies the order in which data is presented to the Widget.  Read the [Order By](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by) section for more details.
 
 </td>
 </tr>
@@ -299,7 +299,7 @@ Drill Filter
 <td width="48">
 </td>
 <td width="746">
-This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter.htm) section for more details.
+This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter) section for more details.
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ Broadcast
 <td width="48">
 </td>
 <td width="746">
-Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast.htm) section for more details.
+Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast) section for more details.
 
 </td>
 </tr>
@@ -323,7 +323,7 @@ Listen
 <td width="48">
 </td>
 <td width="746">
-This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen.htm) section for more details.
+This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen) section for more details.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ Reset Filter
 <td width="48">
 </td>
 <td width="746">
-Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter.htm) section for more details.
+Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter) section for more details.
 
 </td>
 </tr>

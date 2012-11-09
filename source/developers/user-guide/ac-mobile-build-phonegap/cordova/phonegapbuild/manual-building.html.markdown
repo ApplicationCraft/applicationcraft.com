@@ -14,7 +14,7 @@ In some cases, you may want to build your Apps manually. The main reasons for do
 
 Follow these steps
 
- - Click on the Download button. (the debug option is described in [Native Apps](../../../scripting-apis/client-scripting-overview/debugging-ac-scripts/native-apps.htm) ).
+ - Click on the Download button. (the debug option is described in [Native Apps](../../../scripting-apis/client-scripting-overview/debugging-ac-scripts/native-apps) ).
 
  - Upload this file into PhoneGap:Build by selecting 'Apps' and then pressing the 'new app' button.
 

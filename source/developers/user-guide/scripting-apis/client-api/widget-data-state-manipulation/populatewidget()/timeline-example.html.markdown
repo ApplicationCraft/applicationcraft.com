@@ -8,4 +8,4 @@ full_width: true
 
 Timeline Widget
 
-The usage for the Timeline widget is properly explained in the [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index.htm) section of the [Advanced Usage](../../../../product-guide/advanced-features/index.htm) chapter.
+The usage for the Timeline widget is properly explained in the [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index) section of the [Advanced Usage](../../../../product-guide/advanced-features/index) chapter.

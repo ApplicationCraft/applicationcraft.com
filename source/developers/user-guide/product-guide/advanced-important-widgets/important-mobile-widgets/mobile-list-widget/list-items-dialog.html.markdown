@@ -10,7 +10,7 @@ This dialog is used if you know your content at design time. You simply add your
 
 ![moblist-items](/img/docs/moblist-items.zoom92.png)
 
- - Label - the text that appears in the list (see [Formatting Mobile Content](../../../mobile-apps-sites/formatting-mobile-content.htm) if you want fancy formatting).
+ - Label - the text that appears in the list (see [Formatting Mobile Content](../../../mobile-apps-sites/formatting-mobile-content) if you want fancy formatting).
 
  - Value - if you store data for this widget, then this is the value that gets stored. Also, if you want to handle the OnClick event yourself, this value is passed to the event.
 

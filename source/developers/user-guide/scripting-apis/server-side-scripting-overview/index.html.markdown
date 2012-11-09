@@ -10,25 +10,25 @@ Your server side scripts are also written in Javascript. Much like client side s
 
 The main reason for writing server side scripts is to execute certain processes more securely than on the client. You should consider all client scripts inherently unsecure as they can easily be tampered with. By executing a script on the server, it is not possible for anyone to tamper with that script before executing it.
 
-The most common usage of SSJ is to write your database layer. Application Craft has a set of database handling functions that make database handling extremely easy and powerful. Please refer to the section [Database Handling with SSJ](database-handling-with-ssj.htm) for more information.
+The most common usage of SSJ is to write your database layer. Application Craft has a set of database handling functions that make database handling extremely easy and powerful. Please refer to the section [Database Handling with SSJ](database-handling-with-ssj) for more information.
 
 ## In this Section:
 
- - [Where to Write SSJ Scripts](where-to-write-ssj-scripts.htm)
+ - [Where to Write SSJ Scripts](where-to-write-ssj-scripts)
 
- - [Database Handling with SSJ](database-handling-with-ssj.htm)
+ - [Database Handling with SSJ](database-handling-with-ssj)
 
- - [Writing Secure Code](writing-secure-code.htm)
+ - [Writing Secure Code](writing-secure-code)
 
- - [SSJ Events](ssj-events/index.htm)
+ - [SSJ Events](ssj-events/index)
 
- - [Defining SSJ Methods](ssj-user-defined-methods.htm)
+ - [Defining SSJ Methods](ssj-user-defined-methods)
 
- - [Including Public Server Side Scripts](including-public-server-side-s.htm)
+ - [Including Public Server Side Scripts](including-public-server-side-s)
 
- - [Calling SSJ Methods](calling-ssj-methods.htm)
+ - [Calling SSJ Methods](calling-ssj-methods)
 
- - [Debugging](debugging2.htm)
+ - [Debugging](debugging2)
 
 Related Video:
 

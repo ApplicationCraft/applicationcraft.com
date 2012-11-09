@@ -24,5 +24,5 @@ It will run in the following servlet containers:
 
 As you can see, this means it should run just about anywhere.
 
-You can configure AC to talk to any number of Integration Agents and these are [registered and configured](confguring_data_agents_within_.htm) in the Admin section of the Console.
+You can configure AC to talk to any number of Integration Agents and these are [registered and configured](confguring-data-agents-within-) in the Admin section of the Console.
 

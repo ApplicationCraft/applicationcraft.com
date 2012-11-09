@@ -12,7 +12,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -61,17 +61,17 @@ Description
 
 This function will update an existing Instance
 
- - either for the currently running App if the ContainerWidget parameter is unspecified or empty. See the [Configuring Your App for Data Storage](../../../product-guide/advanced-features/data-storage-management/standard-storage-procedures/configuring-your-app-for-data-.htm) chapter for a general overview on storing data for the currently running App.
+ - either for the currently running App if the ContainerWidget parameter is unspecified or empty. See the [Configuring Your App for Data Storage](../../../product-guide/advanced-features/data-storage-management/standard-storage-procedures/configuring-your-app-for-data-) chapter for a general overview on storing data for the currently running App.
 
- - or for a foreign App, in which case the instance will be updated in the App pointed to by the Data View that the   ContainerWidget is connected to. See the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index.htm) chapter for a general overview of writing to foreign Apps.
+ - or for a foreign App, in which case the instance will be updated in the App pointed to by the Data View that the   ContainerWidget is connected to. See the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index) chapter for a general overview of writing to foreign Apps.
 
- - or to update a record in an external database pointing to by the Data View that the ContainerWidget is connected to. See the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index.htm) chapter for a general overview of writing to foreign Apps
+ - or to update a record in an external database pointing to by the Data View that the ContainerWidget is connected to. See the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index) chapter for a general overview of writing to foreign Apps
 
 Callback Functions
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully reflected in the CDB (Core Database). rdbCallback is called once the data is fully reflected in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx_callback_function.htm) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
 
 Example
 
@@ -126,29 +126,29 @@ This example shows instanceUpdate() being used on a 'local' instance (if the fir
     }
    
 
-The next example specifies the Container Widget as the first parameter, so AC will update the foreign Instance that currently is loaded into that Container. Please read the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index.htm) chapter for details on working with local and foreign Instances.
+The next example specifies the Container Widget as the first parameter, so AC will update the foreign Instance that currently is loaded into that Container. Please read the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index) chapter for details on working with local and foreign Instances.
 
-The next example specifies the Container Widget as the first parameter, so AC will update the external database with  the content that currently is loaded into that Container. Please read the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index.htm) chapter for details on working with external databases.
+The next example specifies the Container Widget as the first parameter, so AC will update the external database with  the content that currently is loaded into that Container. Please read the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index) chapter for details on working with external databases.
 
 See Also:
 
- - [instanceXxxx Callback functions](instancexxxx_callback_function.htm)
+ - [instanceXxxx Callback functions](instancexxxx-callback-function)
 
- - [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index.htm)
+ - [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index)
 
- - [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index.htm)
+ - [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index)
 
- - [instanceNew()](instancenew.htm)
+ - [instanceNew()](instancenew)
 
- - [instanceCreate()](instancesave.htm "instance")
+ - [instanceCreate()](instancesave "instance")
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceSync()](instancesync.htm)
+ - [instanceSync()](instancesync)
 
- - [instanceLoad()](instanceload.htm)
+ - [instanceLoad()](instanceload)
 
- - [dataGetValues()](../widget-data-state-manipulation/datagetvalues.htm)
+ - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../widget-data-state-manipulation/datagetstates.htm)
+ - [dataGetStates()](../widget-data-state-manipulation/datagetstates)
 

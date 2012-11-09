@@ -14,5 +14,5 @@ The Signup Widget's 'Captcha' property points to this Widget so AC can automatic
 
 See Also:
 
- - [Captcha Properties](../../../widget-properties-events/authentication/authcaptcha.htm)
+ - [Captcha Properties](../../../widget-properties-events/authentication/authcaptcha)
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Application Craft can map any of the following fields into a [Calendar](../../../../widget-properties-events/advanced/calendar.htm) Widget
+Application Craft can map any of the following fields into a [Calendar](../../../../widget-properties-events/advanced/calendar) Widget
 
  - id - an ID you can set for your events
 
@@ -69,11 +69,11 @@ In the mapping object should use precise key names as shown below
     app.populateWidget("Calendar1", data, map);
    
 
-Below are 2 hard-coded examples of an array of 2 events being populated into a [Calendar](../../../../widget-properties-events/advanced/calendar.htm) Widget
+Below are 2 hard-coded examples of an array of 2 events being populated into a [Calendar](../../../../widget-properties-events/advanced/calendar) Widget
 
 Note that you can map from any key name in your data array with the map object. You can omit any fields you don't need to populate.
 
 ## See Also:
 
- - [Calendar Widget](../../../../product-guide/advanced-important-widgets/calendar-widget/index.htm)
+ - [Calendar Widget](../../../../product-guide/advanced-important-widgets/calendar-widget/index)
 

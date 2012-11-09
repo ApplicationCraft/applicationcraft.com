@@ -8,7 +8,7 @@ full_width: true
 
 There may be situations where you want direct control of specific widgets as your app or page resizes to different device screens or when the orientation of a mobile device changes.
 
-The majority of these you can handle using the ['Sizes' Property Dialog](sizes_property_dialog.htm) and [Adaptive Layout Rule Definition](adaptive_layout_rule_definitio.htm) , but where this is not suitable, there is an 'On Resize' event available as an Application or Page Event.
+The majority of these you can handle using the ['Sizes' Property Dialog](sizes-property-dialog) and [Adaptive Layout Rule Definition](adaptive-layout-rule-definitio) , but where this is not suitable, there is an 'On Resize' event available as an Application or Page Event.
 
 Example
 
@@ -30,15 +30,15 @@ In the following scenario, you have a GoogleMap widget on a page that is set to 
 
 In the following example this shows how you can use so that a Mobile Toolbar footer will consume 10% of the height of the browser.
 
-can be similarly used if required, but in most cases the Percent Width property (see ['Sizes' Property Dialog)](sizes_property_dialog.htm) can be used
+can be similarly used if required, but in most cases the Percent Width property (see ['Sizes' Property Dialog)](sizes-property-dialog) can be used
 
 Note: We are planning to add Percent Height as a new widget property shortly
 
 See Also:
 
- - [setProperty()](../../../../../scripting-apis/client-api/widget-functions/setproperty.htm)
+ - [setProperty()](../../../../../scripting-apis/client-api/widget-functions/setproperty)
 
- - ['Sizes' Property Dialog](sizes_property_dialog.htm)
+ - ['Sizes' Property Dialog](sizes-property-dialog)
 
- - [Adaptive Layout Rule Definition](adaptive_layout_rule_definitio.htm)
+ - [Adaptive Layout Rule Definition](adaptive-layout-rule-definitio)
 

@@ -13,7 +13,7 @@ This section contains details about various things that are not actual functions
 <table>
 <tr>
 <td width="210">
-[\_widget](ref-widget.htm)
+[\_widget](ref-widget)
 
 </td>
 <td width="23">
@@ -25,7 +25,7 @@ Available from all AC Event handlers, this gives you immediate access to the Wid
 </tr>
 <tr>
 <td width="210">
-[Widget Object](widget-object.htm)
+[Widget Object](widget-object)
 
 </td>
 <td width="23">
@@ -37,7 +37,7 @@ You can access any Widget's object in various ways such as app.w('widgetName')
 </tr>
 <tr>
 <td width="210">
-[Filter Object](filter-object.htm)
+[Filter Object](filter-object)
 
 </td>
 <td width="23">
@@ -49,7 +49,7 @@ Used when applying filters to Widgets connected to Data Views
 </tr>
 <tr>
 <td width="210">
-[Rows Object](rows-object.htm)
+[Rows Object](rows-object)
 
 </td>
 <td width="23">
@@ -61,7 +61,7 @@ A special object that can describes Grids, Repeater Containers, Listboxes and Dr
 </tr>
 <tr>
 <td width="210">
-[result object for instanceXxxx() callbacks](result-object-for-instancexxxx.htm)
+[result object for instanceXxxx() callbacks](result-object-for-instancexxxx)
 
 </td>
 <td width="23">
@@ -73,7 +73,7 @@ Several of the instanceXxxxx() functions use standard callbacks to inform the Ap
 </tr>
 <tr>
 <td width="210">
-[status object for instanceXxxx() functions](status-object-for-instancexxxx.htm)
+[status object for instanceXxxx() functions](status-object-for-instancexxxx)
 
 </td>
 <td width="23">
@@ -85,7 +85,7 @@ Several of the instanceXxxxx() functions use standard callbacks to inform the Ap
 </tr>
 <tr>
 <td width="210">
-[error object](error-object.htm)
+[error object](error-object)
 
 </td>
 <td width="23">
@@ -97,7 +97,7 @@ A basic error object that many functions use to show the error status of instanc
 </tr>
 <tr>
 <td width="210">
-[Widget List Parameters](widget-list-parameters.htm)
+[Widget List Parameters](widget-list-parameters)
 
 </td>
 <td width="23">
@@ -109,7 +109,7 @@ A type of parameter used by many Widget Functions that let's can accept Widget n
 </tr>
 <tr>
 <td width="210">
-[Widget Effects](widget-effects.htm)
+[Widget Effects](widget-effects)
 
 </td>
 <td width="23">

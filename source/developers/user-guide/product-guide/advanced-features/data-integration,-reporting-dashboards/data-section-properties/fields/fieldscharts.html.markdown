@@ -14,6 +14,6 @@ These Widgets will always require at least 2 fields to be defined and more if yo
 
 Important Chart Data Properties
 
-You will often need to set the Group By, Drill Filter, Broadcast and Listen properties when working with Charts. You can save a lot of time by using the [Automatic Property Settings](../using-automatic-property-setti.htm) to help make these settings at the same time as defining Fields.
+You will often need to set the Group By, Drill Filter, Broadcast and Listen properties when working with Charts. You can save a lot of time by using the [Automatic Property Settings](../using-automatic-property-setti) to help make these settings at the same time as defining Fields.
 
 ![chartExpr](/img/docs/chartexpr.zoom67.png)

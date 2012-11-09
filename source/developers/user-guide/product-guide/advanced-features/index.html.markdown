@@ -8,43 +8,43 @@ full_width: true
 
 ## In This Section:
 
-[Multi Language Apps](multi-language-apps/index.htm)
+[Multi Language Apps](multi-language-apps/index)
 
-[Credit Card Payment Processing](credit-card-payment-processing/index.htm)
+[Credit Card Payment Processing](credit-card-payment-processing/index)
 
-[Accessing Data in other Apps, Databases and APIs](accessing-data-in-other-apps,-databases-and-apis/index.htm)
+[Accessing Data in other Apps, Databases and APIs](accessing-data-in-other-apps,-databases-and-apis/index)
 
-[Advertising](pro-account-advertising.htm)
+[Advertising](pro-account-advertising)
 
-[Data Storage & Management](data-storage-management/index.htm)
+[Data Storage & Management](data-storage-management/index)
 
-[Google Analytics](google-analytics/index.htm)
+[Google Analytics](google-analytics/index)
 
-[Data Integration, Reporting & Dashboards](data-integration,-reporting-dashboards/index.htm)
+[Data Integration, Reporting & Dashboards](data-integration,-reporting-dashboards/index)
 
-[Embedding Apps within Apps](embedding-apps-within-apps/index.htm)
+[Embedding Apps within Apps](embedding-apps-within-apps/index)
 
-[Authentication for Your Apps](authentication-for-your-apps/index.htm)
+[Authentication for Your Apps](authentication-for-your-apps/index)
 
-[Passing Parameters into Apps](passing-parameters-into-apps/index.htm)
+[Passing Parameters into Apps](passing-parameters-into-apps/index)
 
-[Testing Apps](testing-apps/index.htm)
+[Testing Apps](testing-apps/index)
 
-[Deploying & Embedding Apps](deploying-embedding-apps/index.htm)
+[Deploying & Embedding Apps](deploying-embedding-apps/index)
 
-[Logging Support](logging-support/index.htm)
+[Logging Support](logging-support/index)
 
-[Workflow](workflow/index.htm)
+[Workflow](workflow/index)
 
-[Data Lists Management](data-lists-management/index.htm)
+[Data Lists Management](data-lists-management/index)
 
-[Printing](printing/index.htm)
+[Printing](printing/index)
 
-[Custom CSS Classes](custom-css-classes/index.htm)
+[Custom CSS Classes](custom-css-classes/index)
 
-[Twirly Thing/Hourglass](twirly-thing/hourglass/index.htm)
+[Twirly Thing/Hourglass](twirly-thing/hourglass/index)
 
-[oAuth](oauth/index.htm)
+[oAuth](oauth/index)
 
 Video Tutorials can be found on our [Training Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) page
 

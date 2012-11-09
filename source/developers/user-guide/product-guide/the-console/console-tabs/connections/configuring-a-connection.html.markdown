@@ -8,7 +8,7 @@ full_width: true
 
 A new Connection is added by pressing the 'New' button at the bottom of the Connection list on the left hand side of the Connections Console. A Connection then needs to be configured as follows.
 
-All Connections are stored in the standard [Private/Shared/Public folder structure](../../private--shared-and-public-fol.htm) .
+All Connections are stored in the standard [Private/Shared/Public folder structure](../../private--shared-and-public-fol) .
 
 Properties & Settings
 
@@ -67,7 +67,7 @@ This field is set at the same time as selecting the Data Agent. To change it, yo
 <td width="16">
 </td>
 <td>
-See general [Sharing](../../sharing.htm) explanation.
+See general [Sharing](../../sharing) explanation.
 
 </td>
 </tr>

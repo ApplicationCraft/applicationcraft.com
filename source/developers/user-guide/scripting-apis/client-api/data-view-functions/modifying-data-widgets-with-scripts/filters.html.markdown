@@ -34,9 +34,9 @@ You would use the following approach, which constructs an array with three eleme
 
  - Each of the expressions that are OR'd must be enclosed in brackets.
 
- - You must use the app. [refreshData()](../../widget-functions/refreshdata.htm) function to reload the widget with the filter applied.
+ - You must use the app. [refreshData()](../../widget-functions/refreshdata) function to reload the widget with the filter applied.
 
- - If you need to access View data in the background, without the need to populate widgets, you should can use the [getViewData()](../getviewdata.htm) function,
+ - If you need to access View data in the background, without the need to populate widgets, you should can use the [getViewData()](../getviewdata) function,
 
 Filtering Dates
 
@@ -44,17 +44,17 @@ Refer to the next section for information on how to filter dates.
 
 See Also:
 
- - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor.htm)
+ - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 
- - [Filtering Dates](filtering_dates.htm)
+ - [Filtering Dates](filtering-dates)
 
- - [getViewData()](../getviewdata.htm)
+ - [getViewData()](../getviewdata)
 
- - [Drill Filter](refdrill_filter.htm)
+ - [Drill Filter](refdrill-filter)
 
- - [drillDownBroadcast()](../drilldownbroadcast.htm)
+ - [drillDownBroadcast()](../drilldownbroadcast)
 
- - [Data View Related Events](../data-view-related-events.htm)
+ - [Data View Related Events](../data-view-related-events)
 
 Related Video:
 

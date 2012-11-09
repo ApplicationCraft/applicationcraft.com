@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can use the Map widget to get directions from one location to another using [getDirections()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections.htm) . The locations you specify can be addresses or lat/lng coordinates. You can also get Application Craft to draw the directions directly onto your Map.
+You can use the Map widget to get directions from one location to another using [getDirections()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections) . The locations you specify can be addresses or lat/lng coordinates. You can also get Application Craft to draw the directions directly onto your Map.
 
 Note that the returned directions are presented via a callback function.
 
@@ -28,7 +28,7 @@ Note that the returned directions are presented via a callback function.
 
 ## getDirections
 
-The second [getDirections()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections.htm) call above, results in the callback function being passed a data object containing the directions. You can explore this using the debugger or in the [Google documentation](http://code.google.com/apis/maps/documentation/directions/) (look for Directions Responses section).
+The second [getDirections()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections) call above, results in the callback function being passed a data object containing the directions. You can explore this using the debugger or in the [Google documentation](http://code.google.com/apis/maps/documentation/directions/) (look for Directions Responses section).
 
 Below is an image of the object being inspected in the debugger.
 

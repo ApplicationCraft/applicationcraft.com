@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="202">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) }
+{ [wlist](../objects-titbits/widget-list-parameters) }
 
 </td>
 <td width="11">
@@ -72,9 +72,9 @@ or
 
 See Also:
 
- - [checkMandatory()](checkmandatory.htm)
+ - [checkMandatory()](checkmandatory)
 
- - [unhighlightWidgets()](unhighlightwidgets.htm)
+ - [unhighlightWidgets()](unhighlightwidgets)
 
 Related Videos:
 

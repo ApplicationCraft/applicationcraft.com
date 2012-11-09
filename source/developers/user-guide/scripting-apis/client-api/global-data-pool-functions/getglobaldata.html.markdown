@@ -43,9 +43,9 @@ Retrieves data from a Global Data Pool variable.
 
 See Also:
 
- - [switchApp()](../app-functions/switchapp.htm)
+ - [switchApp()](../app-functions/switchapp)
 
- - [setGlobalData()](setglobaldata.htm)
+ - [setGlobalData()](setglobaldata)
 
- - [clearGlobalData()](clearglobaldata.htm)
+ - [clearGlobalData()](clearglobaldata)
 

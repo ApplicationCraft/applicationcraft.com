@@ -8,49 +8,49 @@ full_width: true
 
 ## In This Section:
 
-[Must Read Layout Tips and Tricks](must-read-layout-tips-and-tric.htm)
+[Must Read Layout Tips and Tricks](must-read-layout-tips-and-tric)
 
-[The Widget Explorer](the-widget-explorer.htm)
+[The Widget Explorer](the-widget-explorer)
 
-[Repeating Widgets Across Multiple Pages](repeating-widgets-across-multi.htm)
+[Repeating Widgets Across Multiple Pages](repeating-widgets-across-multi)
 
-[Widget Alignment](widget-alignment--distribution.htm)
+[Widget Alignment](widget-alignment--distribution)
 
-[Drag Alignment](drag-alignment.htm)
+[Drag Alignment](drag-alignment)
 
-[Selection & Multi Selection](selection--multi-selection.htm)
+[Selection & Multi Selection](selection--multi-selection)
 
-[Showing container outlines](showing-container-outlines.htm)
+[Showing container outlines](showing-container-outlines)
 
-[Menus and Navigation](menus-and-navigation.htm)
+[Menus and Navigation](menus-and-navigation)
 
-[Anchoring](widget-anchoring.htm)
+[Anchoring](widget-anchoring)
 
-[Reverting to Theme Style](reverting-to-theme-style.htm)
+[Reverting to Theme Style](reverting-to-theme-style)
 
-[Widget Layer / Z-Order](layer---z-order.htm)
+[Widget Layer / Z-Order](layer---z-order)
 
-[Widget Grouping](widget-grouping.htm)
+[Widget Grouping](widget-grouping)
 
-[Undo & Redo](undo-redo.htm)
+[Undo & Redo](undo-redo)
 
-[Clipboard](clipboard.htm)
+[Clipboard](clipboard)
 
-[Page Order](page-order.htm)
+[Page Order](page-order)
 
-[Tab Order](tab-order.htm)
+[Tab Order](tab-order)
 
-[Equal Spacing](equal-spacing.htm)
+[Equal Spacing](equal-spacing)
 
-[Equal Sizing](equal-sizing.htm)
+[Equal Sizing](equal-sizing)
 
-[Equal Distribution](equal-distribution.htm)
+[Equal Distribution](equal-distribution)
 
-[Snap to Grid](snap-to-grid.htm)
+[Snap to Grid](snap-to-grid)
 
-[Referencing Documents & Files](referencing-documents--files.htm)
+[Referencing Documents & Files](referencing-documents--files)
 
-[Adding Audio & Video](adding-audio--video.htm)
+[Adding Audio & Video](adding-audio--video)
 
-[Working with Images](working-with-images.htm)
+[Working with Images](working-with-images)
 

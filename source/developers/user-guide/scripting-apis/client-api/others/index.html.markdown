@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[cookie()](cookie.htm)
+[cookie()](cookie)
 
 </td>
 <td width="12">

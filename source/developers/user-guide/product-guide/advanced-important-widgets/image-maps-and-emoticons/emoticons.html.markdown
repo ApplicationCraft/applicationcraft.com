@@ -24,7 +24,7 @@ Move the slider to see the image change
 
 ## How to Set up an Emoticon
 
-1: Insert a [Slider](../../../widget-properties-events/advanced/sliders.htm) and [Image](../../../widget-properties-events/common/image.htm) widget into your App
+1: Insert a [Slider](../../../widget-properties-events/advanced/sliders) and [Image](../../../widget-properties-events/common/image) widget into your App
 
 2: Align them as required.
 
@@ -48,11 +48,11 @@ If for instance you have 4 images to present, you could have Min = 1, Max = 4, S
 
 From here:
 
-You can manually define your bindings using 'Add Row', entering in the Slider value and click the Resource '...' to associate that selection value to the appropriate Image that you have uploaded as a [Resource](../../the-console/console-tabs/resources.htm)
+You can manually define your bindings using 'Add Row', entering in the Slider value and click the Resource '...' to associate that selection value to the appropriate Image that you have uploaded as a [Resource](../../the-console/console-tabs/resources)
 
 ![bindingadd](/img/docs/bindingadd.zoom78.png)
 
-You can 'Import Resource ' to load in a CSV file that you have uploaded as a [Resource](../../the-console/console-tabs/resources.htm) .
+You can 'Import Resource ' to load in a CSV file that you have uploaded as a [Resource](../../the-console/console-tabs/resources) .
 
 The structure of your CSV should be 2 columns.
 
@@ -62,7 +62,7 @@ Col 2 = The URL of your Images to associate to the Slider Value selected
 
 See Also:
 
- - [Image](../../../widget-properties-events/common/image.htm#imagemap)
+ - [Image](../../../widget-properties-events/common/image#imagemap)
 
 Related Video:
 

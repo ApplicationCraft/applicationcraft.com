@@ -12,7 +12,7 @@ Themes allow you to set the properties for all Widgets in an App using a pre-det
 
 Themes Repository
 
-All Themes are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol.htm) in more detail.
+All Themes are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol) in more detail.
 
 Adding a Theme
 
@@ -22,7 +22,7 @@ All new Themes will initially have the default Theme settings.
 
 Editing a Theme
 
-Themes are edited within the App Designer.  See [Theme Management](../../content-and-app-layout/introduction/themes-styles/themesmanage.htm) for a detailed description of how Themes are edited and managed within AC.
+Themes are edited within the App Designer.  See [Theme Management](../../content-and-app-layout/introduction/themes-styles/themesmanage) for a detailed description of how Themes are edited and managed within AC.
 
 ## Importing/Exporting Themes
 
@@ -61,7 +61,7 @@ This is the name, given by the owner of the Object, that will be shown when sele
 <td width="16">
 </td>
 <td>
-[See Sharing](../sharing.htm)
+[See Sharing](../sharing)
 
 </td>
 </tr>
@@ -134,5 +134,5 @@ This option allows you to export your theme. This creates a 'zip' file which can
 
 See Also:
 
- - [Themes & Styles](../../content-and-app-layout/introduction/themes-styles/index.htm)
+ - [Themes & Styles](../../content-and-app-layout/introduction/themes-styles/index)
 

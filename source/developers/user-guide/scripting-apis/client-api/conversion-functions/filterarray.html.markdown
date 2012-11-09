@@ -41,7 +41,7 @@ Description
 
 This filters a Javascript array using a jolly clever callback function. You pass in an input array and for each element within the array, the callback function you supply will be called. If your callback returns true, the element is included otherwise it will be excluded. Once completed, the function returns a new, filtered array.
 
-A good usage of this function is where your App retrieves data from an API call into an array and you then load this data into a Widget using [populateWidget()](../widget-data-state-manipulation/populatewidget()/index.htm) . If you then offer a filter option against this Widget, you can store a single copy of the entire array and then use filterArray() to create a new array with the appropriate filter before using that new array with populateWidget().
+A good usage of this function is where your App retrieves data from an API call into an array and you then load this data into a Widget using [populateWidget()](../widget-data-state-manipulation/populatewidget()/index) . If you then offer a filter option against this Widget, you can store a single copy of the entire array and then use filterArray() to create a new array with the appropriate filter before using that new array with populateWidget().
 
 Example
 
@@ -59,7 +59,7 @@ The following example shows how you would filter out any array elements where th
 
 See Also:
 
- - [populateWidget()](../widget-data-state-manipulation/populatewidget()/index.htm)
+ - [populateWidget()](../widget-data-state-manipulation/populatewidget()/index)
 
- - [setData()](../widget-data-state-manipulation/setdata.htm)
+ - [setData()](../widget-data-state-manipulation/setdata)
 

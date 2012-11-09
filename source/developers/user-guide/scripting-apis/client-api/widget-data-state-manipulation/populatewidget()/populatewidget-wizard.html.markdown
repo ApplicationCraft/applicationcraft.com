@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Available in the Advanced Menu bar in the [Designer Screen](../../../../product-guide/content-and-app-layout/introduction/designer-screen.htm) area is the Map Wizard that assists you in getting the data mapping right for the app.populateWidget() method.
+Available in the Advanced Menu bar in the [Designer Screen](../../../../product-guide/content-and-app-layout/introduction/designer-screen) area is the Map Wizard that assists you in getting the data mapping right for the app.populateWidget() method.
 
 ## Step1: Enter in your JSON data
 

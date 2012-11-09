@@ -42,9 +42,9 @@ Example
 
 See Also:
 
- - [Network Availability Handling](../../client-scripting-overview/network-availability-handling.htm)
+ - [Network Availability Handling](../../client-scripting-overview/network-availability-handling)
 
- - [httpRequest()](../soap-restful-ajax-calls/httprequest.htm)
+ - [httpRequest()](../soap-restful-ajax-calls/httprequest)
 
- - [Error Handling](../../client-scripting-overview/error-handling/index.htm)
+ - [Error Handling](../../client-scripting-overview/error-handling/index)
 

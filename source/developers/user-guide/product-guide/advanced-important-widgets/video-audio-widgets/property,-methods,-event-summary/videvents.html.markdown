@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This section list only Events specific to the Audio and Video Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/index.htm) section.
+This section list only Events specific to the Audio and Video Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/index) section.
 
 <table>
 <tr>
@@ -243,7 +243,7 @@ On Play
 <td width="12">
 </td>
 <td width="728">
-Called when the element is no longer paused. Fired after the [play()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/play.htm) method has returned, or when the autoplay attribute has caused playback to begin.
+Called when the element is no longer paused. Fired after the [play()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/play) method has returned, or when the autoplay attribute has caused playback to begin.
 
 </td>
 </tr>
@@ -255,7 +255,7 @@ On Pause
 <td width="12">
 </td>
 <td width="728">
-Called when the element has been paused. Fired after the [pause()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/pause.htm) method has returned.
+Called when the element has been paused. Fired after the [pause()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/pause) method has returned.
 
 </td>
 </tr>
@@ -318,7 +318,7 @@ On State Change
 <td width="11">
 </td>
 <td width="727">
-Called when the state of the widget changes. See [state()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/state.htm)
+Called when the state of the widget changes. See [state()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/state)
 
 </td>
 </tr>
@@ -342,7 +342,7 @@ On Playback Quality Change
 <td width="11">
 </td>
 <td width="727">
-Called when playback quality changes. See [setPlaybackQuality()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/setplaybackquality.htm)
+Called when playback quality changes. See [setPlaybackQuality()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/setplaybackquality)
 
 </td>
 </tr>

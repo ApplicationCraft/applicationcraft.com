@@ -8,9 +8,9 @@ full_width: true
 
 ## In This Section:
 
- - [Introduction](introduction/index.htm)
+ - [Introduction](introduction/index)
 
- - [Responsive / Adaptive / Fluid Design](responsive-/-adaptive-/-fluid-design/index.htm)
+ - [Responsive / Adaptive / Fluid Design](responsive-/-adaptive-/-fluid-design/index)
 
- - [Editing and Laying Out - Reference](editing-and-laying-out--reference/index.htm)
+ - [Editing and Laying Out - Reference](editing-and-laying-out--reference/index)
 

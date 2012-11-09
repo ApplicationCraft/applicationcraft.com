@@ -16,5 +16,5 @@ It is helpful to press the Outline button in the upper toolbar when working with
 
 Properties
 
-To set Repeater Container properties, you need to be sure that the Outer Container is selected. The properties are listed in detail [here](../../../../widget-properties-events/containers/repeater.htm) . The following sections touch on the most important properties you will use.
+To set Repeater Container properties, you need to be sure that the Outer Container is selected. The properties are listed in detail [here](../../../../widget-properties-events/containers/repeater) . The following sections touch on the most important properties you will use.
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-If your custom property does not require a special dialog, then you add your property to the property definitions as described in [Defining Properties](../anatomy-of-a-basic-widget/defining-properties.htm) .
+If your custom property does not require a special dialog, then you add your property to the property definitions as described in [Defining Properties](../anatomy-of-a-basic-widget/defining-properties) .
 
 The entry below would add a new property simpleLength.
 
@@ -22,5 +22,5 @@ The entry below would add a new property simpleLength.
 
 We don't need a dialog, but we would need to implement a widget method within the main widget code, for example
 
-We would then need to handle this within our custom property definition code. Please refer to the section [The full dialog code example](the_full_dialog_code_example.htm) , where you will see this near the top.
+We would then need to handle this within our custom property definition code. Please refer to the section [The full dialog code example](the-full-dialog-code-example) , where you will see this near the top.
 

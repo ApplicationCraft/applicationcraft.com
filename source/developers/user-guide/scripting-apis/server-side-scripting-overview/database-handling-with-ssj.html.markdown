@@ -20,7 +20,7 @@ Application Craft provides a set of SSJ methods that make writing your own datab
 
 Please refer to the following sections for full details
 
- - [Overview and Tutorial](../../data-storage/server-side-data-storage/index.htm)
+ - [Overview and Tutorial](../../data-storage/server-side-data-storage/index)
 
- - [SSJ API methods](../server-side-api/ssj-object/database/index.htm)
+ - [SSJ API methods](../server-side-api/ssj-object/database/index)
 

@@ -8,15 +8,15 @@ full_width: true
 
 ## In This Section:
 
- - [getAppsList()](getappslist.htm)
+ - [getAppsList()](getappslist)
 
- - [getAppsFoldersList()](getappsfolderslist.htm)
+ - [getAppsFoldersList()](getappsfolderslist)
 
- - [getSharedAppsUsersList()](getsharedappsuserslist.htm)
+ - [getSharedAppsUsersList()](getsharedappsuserslist)
 
- - [getSharedAppsFoldersList()](getsharedappsfolderslist.htm)
+ - [getSharedAppsFoldersList()](getsharedappsfolderslist)
 
- - [getSharedAppsItemsList()](getsharedappsitemslist.htm)
+ - [getSharedAppsItemsList()](getsharedappsitemslist)
 
 These functions are not currently documented. If you feel you require documentation for these, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) .
 

@@ -103,7 +103,7 @@ Repeat
 <td width="15">
 </td>
 <td width="784">
-Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi.htm) .
+Find out more about this in [Repeating Widgets Across Multiple Pages](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ Anchors
 <td width="15">
 </td>
 <td width="784">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring.htm) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -295,7 +295,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](../../product-guide/content-and-app-layout/introduction/themes-styles/themesmanage.htm) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](../../product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
@@ -310,7 +310,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 </tr>
 <tr>
 <td width="148">
-[General Events](../events/event-reference-list/general-events.htm)
+[General Events](../events/event-reference-list/general-events)
 
 </td>
 </tr>
@@ -336,5 +336,5 @@ On Refresh
 
 See Also:
 
- - [General Events](../events/event-reference-list/general-events.htm)
+ - [General Events](../events/event-reference-list/general-events)
 

@@ -36,7 +36,7 @@ You can drill down using Grids very easily but you need to decide which column s
 
 Modifying Drill Down from Scripts
 
-You can write scripts that dynamically modify the drill-down filter. Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/index.htm) of the [Client API](../../../../scripting-apis/client-api/index.htm) section for more information.
+You can write scripts that dynamically modify the drill-down filter. Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/index) of the [Client API](../../../../scripting-apis/client-api/index) section for more information.
 
 Related Video:
 

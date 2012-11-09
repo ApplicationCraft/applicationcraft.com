@@ -10,19 +10,19 @@ The functions outlined here are common knowledge to experienced Javascript devel
 
 ## In This Section:
 
-[alert(), confirm()](alert.htm)
+[alert(), confirm()](alert)
 
-[open()](open.htm)
+[open()](open)
 
-[pageXOffset(), pageYOffset()](pagexoffset--pageyoffset.htm)
+[pageXOffset(), pageYOffset()](pagexoffset--pageyoffset)
 
-[scrollTo(), scrollBy()](scrollto.htm)
+[scrollTo(), scrollBy()](scrollto)
 
-[setInterval(), setTimeout()](setinterval--settimeout-et-al.htm)
+[setInterval(), setTimeout()](setinterval--settimeout-et-al)
 
-[window object](window-object.htm)
+[window object](window-object)
 
-[screen object](screen-object.htm)
+[screen object](screen-object)
 
-[navigator object](navigator-object.htm)
+[navigator object](navigator-object)
 

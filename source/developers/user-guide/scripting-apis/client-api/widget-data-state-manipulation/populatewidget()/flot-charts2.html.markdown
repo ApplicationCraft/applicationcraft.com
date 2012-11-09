@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can use [populateWidget()](index.htm) or [setData()](../setdata.htm) to populate a [Flot Charts](../../../../widget-properties-events/advanced/flot-charts.htm) widget.
+You can use [populateWidget()](index) or [setData()](../setdata) to populate a [Flot Charts](../../../../widget-properties-events/advanced/flot-charts) widget.
 
 Example
 
-This example shows how you can have data in an array and populate it into line chart. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex_json_example.htm) ).
+This example shows how you can have data in an array and populate it into line chart. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example) ).
 
     var data = [
     {'series': 'first', 'lbl': 'Jan', 'data': 12},

@@ -19,7 +19,7 @@ Parameters
 <td width="12">
 </td>
 <td width="717">
-A string indicating the type of transition effect. You can find the [available transition values here](page_transitions.htm) .
+A string indicating the type of transition effect. You can find the [available transition values here](page-transitions) .
 
 </td>
 </tr>
@@ -43,17 +43,17 @@ Description
 
 This function had some limitations and is deprecated since pageBack() fully implements back behavior.
 
-You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page_transitions.htm) for valid transition strings and examples.
+You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page-transitions) for valid transition strings and examples.
 
 See Also:
 
- - [pageJump()](pagejump.htm)
+ - [pageJump()](pagejump)
 
- - [pageNext()](pagenext.htm)
+ - [pageNext()](pagenext)
 
- - [pagePrevious()](pageprevious.htm)
+ - [pagePrevious()](pageprevious)
 
- - [showPagePopup()](showpagepopup.htm)
+ - [showPagePopup()](showpagepopup)
 
- - [closePagePopup()](closepagepopup.htm)
+ - [closePagePopup()](closepagepopup)
 

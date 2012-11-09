@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
 ## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
 
@@ -17,7 +17,7 @@ IMPORTANT
 <table>
 <tr>
 <td width="232">
-[instanceXxxx() callback functions](instancexxxx-callback-function.htm)
+[instanceXxxx() callback functions](instancexxxx-callback-function)
 
 </td>
 <td width="17">
@@ -29,7 +29,7 @@ Describes how callbacks work for many of the instanceXxxxx() functions
 </tr>
 <tr>
 <td width="232">
-[instanceCreate()](instancecreate.htm)
+[instanceCreate()](instancecreate)
 
 </td>
 <td width="17">
@@ -41,7 +41,7 @@ Save the current Instance as a new App Instance
 </tr>
 <tr>
 <td width="232">
-[instanceUpdate()](instancesave.htm)
+[instanceUpdate()](instancesave)
 
 </td>
 <td width="17">
@@ -53,7 +53,7 @@ Saves the current Instance, if the current Instance does not exist in the system
 </tr>
 <tr>
 <td width="232">
-[instanceDelete()](instancedelete.htm)
+[instanceDelete()](instancedelete)
 
 </td>
 <td width="17">
@@ -65,7 +65,7 @@ Deletes the current App Instance
 </tr>
 <tr>
 <td width="232">
-[instanceSync()](instancesync.htm)
+[instanceSync()](instancesync)
 
 </td>
 <td width="17">
@@ -77,7 +77,7 @@ Forces a Grid or Repeater Container to synchronize with multiple Instances that 
 </tr>
 <tr>
 <td width="232">
-[instanceLoad()](instanceload.htm)
+[instanceLoad()](instanceload)
 
 </td>
 <td width="17">
@@ -89,7 +89,7 @@ Loads a specific Instance for the current App
 </tr>
 <tr>
 <td width="232">
-[instanceSetRelationship()](instancesetrelationship.htm)
+[instanceSetRelationship()](instancesetrelationship)
 
 </td>
 <td width="17">
@@ -101,7 +101,7 @@ Sets or breaks a relationship between Instances
 </tr>
 <tr>
 <td width="232">
-[instanceNew()](instancenew.htm)
+[instanceNew()](instancenew)
 
 </td>
 <td width="17">
@@ -113,7 +113,7 @@ Creates a new Instance and resets Widgets
 </tr>
 <tr>
 <td width="232">
-[getInstanceData()](getinstancedata.htm)
+[getInstanceData()](getinstancedata)
 
 </td>
 <td width="17">
@@ -125,7 +125,7 @@ Gets the Instance data for the current App as an object so it can be stored exte
 </tr>
 <tr>
 <td width="232">
-[setInstanceData()](setinstancedata.htm)
+[setInstanceData()](setinstancedata)
 
 </td>
 <td width="17">

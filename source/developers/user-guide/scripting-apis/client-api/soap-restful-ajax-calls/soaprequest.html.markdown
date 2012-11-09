@@ -75,7 +75,7 @@ this parameter allows you to pass through special, advanced parameters to the SO
 
 Description
 
-This function passes a parameter list params to the indicated SOAP method at the specified URL. Returned data will be passed asynchronously to the specified callback function. Because SOAP provides more information that a RESTful call, AC is able to convert the returned SOAP XML directly into a JSON object. This means that you do not need to call the [XML2OBJ()](../conversion-functions/xml2json.htm) function afterwards.
+This function passes a parameter list params to the indicated SOAP method at the specified URL. Returned data will be passed asynchronously to the specified callback function. Because SOAP provides more information that a RESTful call, AC is able to convert the returned SOAP XML directly into a JSON object. This means that you do not need to call the [XML2OBJ()](../conversion-functions/xml2json) function afterwards.
 
 Special Parameters
 
@@ -101,5 +101,5 @@ Example
 
 ## See Also:
 
- - [Wizard](web_service_wizard.htm)
+ - [Wizard](web-service-wizard)
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You should also refer to the [Server Side Code](server_side_code.htm) section.
+You should also refer to the [Server Side Code](server-side-code) section.
 
     // This value was specified by you in your Zooz portal
     var AppId = 'com.yourdomain.paymentname';

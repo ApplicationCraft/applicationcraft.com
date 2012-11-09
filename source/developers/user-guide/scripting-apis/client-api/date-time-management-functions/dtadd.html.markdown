@@ -61,11 +61,11 @@ Example
 
 See Also:
 
- - [dtNewDate()](dtnewdate.htm)
+ - [dtNewDate()](dtnewdate)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtAdjust()](dtadjust.htm)
+ - [dtAdjust()](dtadjust)
 
- - [dtDateToString()](dtdatetostring.htm)
+ - [dtDateToString()](dtdatetostring)
 

@@ -19,7 +19,7 @@ Parameters
 <td width="20">
 </td>
 <td width="750">
-The Instance Data object to be restored that was previously acquired with [getAppSnapshot()](../app-functions/getappsnapshot.htm)
+The Instance Data object to be restored that was previously acquired with [getAppSnapshot()](../app-functions/getappsnapshot)
 
 </td>
 </tr>
@@ -27,23 +27,23 @@ The Instance Data object to be restored that was previously acquired with [getAp
 
 Description
 
-This function restores a single data Instance that was created using [getInstanceData()](getinstancedata.htm) . If you had converted the object into a JSON string, you can convert it back into an object using [JSON2OBJ()](../conversion-functions/text2json.htm) . However, if you retrieve it back from an external web service call using our own  httpRequest() function, it will do the conversion for you.
+This function restores a single data Instance that was created using [getInstanceData()](getinstancedata) . If you had converted the object into a JSON string, you can convert it back into an object using [JSON2OBJ()](../conversion-functions/text2json) . However, if you retrieve it back from an external web service call using our own  httpRequest() function, it will do the conversion for you.
 
- - [setAppSnapshot()](../app-functions/setappsnapshot.htm)
+ - [setAppSnapshot()](../app-functions/setappsnapshot)
 
- - [getAppSnapshot()](../app-functions/getappsnapshot.htm)
+ - [getAppSnapshot()](../app-functions/getappsnapshot)
 
- - [switchApp()](../app-functions/switchapp.htm)
+ - [switchApp()](../app-functions/switchapp)
 
- - [setGlobalData()](../global-data-pool-functions/setglobaldata.htm)
+ - [setGlobalData()](../global-data-pool-functions/setglobaldata)
 
- - [getGlobalData()](../global-data-pool-functions/getglobaldata.htm)
+ - [getGlobalData()](../global-data-pool-functions/getglobaldata)
 
- - [getInstanceData()](getinstancedata.htm)
+ - [getInstanceData()](getinstancedata)
 
- - [setInstanceData()](setinstancedata.htm)
+ - [setInstanceData()](setinstancedata)
 
- - [dataSetValues()](../widget-data-state-manipulation/datasetvalues.htm)
+ - [dataSetValues()](../widget-data-state-manipulation/datasetvalues)
 
- - [dataSetStates()](../widget-data-state-manipulation/datasetstates.htm)
+ - [dataSetStates()](../widget-data-state-manipulation/datasetstates)
 

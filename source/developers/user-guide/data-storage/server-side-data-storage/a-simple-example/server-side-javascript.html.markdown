@@ -29,7 +29,7 @@ You can see the folder structure we have created in the above screenshot. You ca
 
 Database Methods Documentation
 
-All of the SSJ Database methods are fully documented in the [SSJ Database](../../../scripting-apis/server-side-api/ssj-object/database/index.htm) section.
+All of the SSJ Database methods are fully documented in the [SSJ Database](../../../scripting-apis/server-side-api/ssj-object/database/index) section.
 
 Error Handling
 

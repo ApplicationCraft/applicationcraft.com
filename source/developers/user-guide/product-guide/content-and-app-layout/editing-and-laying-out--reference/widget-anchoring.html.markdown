@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This feature is only available for Containers (or Pages) in Absolute layout mode. Generally speaking, its use is to be somewhat discouraged as you can usually accomplish most flexible layout designs using [Vertical / Horizontal](../responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout.htm) modes and [Adaptive Layouts](../responsive-/-adaptive-/-fluid-design/adaptive-layout-rules.htm) .
+This feature is only available for Containers (or Pages) in Absolute layout mode. Generally speaking, its use is to be somewhat discouraged as you can usually accomplish most flexible layout designs using [Vertical / Horizontal](../responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout) modes and [Adaptive Layouts](../responsive-/-adaptive-/-fluid-design/adaptive-layout-rules) .
 
 Anchoring
 

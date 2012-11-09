@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="230">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) }
+{ [wlist](../objects-titbits/widget-list-parameters) }
 
 </td>
 <td width="22">
@@ -27,7 +27,7 @@ Widget identifier - string, string array, object or object array
 
 Description
 
-This enables you to remove the highlighting from any fields in your App, normally used in conjunction with [highlightWidgets()](highlightwidgets.htm) . If you do not pass in any array, then all highlighted Widgets will be unhighlighted.
+This enables you to remove the highlighting from any fields in your App, normally used in conjunction with [highlightWidgets()](highlightwidgets) . If you do not pass in any array, then all highlighted Widgets will be unhighlighted.
 
 Example
 
@@ -38,9 +38,9 @@ Example
 
 See Also:
 
- - [checkMandatory()](checkmandatory.htm)
+ - [checkMandatory()](checkmandatory)
 
- - [highlightWidgets()](highlightwidgets.htm)
+ - [highlightWidgets()](highlightwidgets)
 
 Related Videos:
 

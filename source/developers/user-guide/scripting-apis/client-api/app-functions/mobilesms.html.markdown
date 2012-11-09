@@ -38,15 +38,15 @@ Example
 
 See Also:
 
- - [mobileDial()](mobiledial.htm)
+ - [mobileDial()](mobiledial)
 
- - [mobileEmail()](mobileemail.htm)
+ - [mobileEmail()](mobileemail)
 
- - [Label (Common)](../../../widget-properties-events/common/label.htm)
+ - [Label (Common)](../../../widget-properties-events/common/label)
 
- - [Image](../../../widget-properties-events/common/image.htm)
+ - [Image](../../../widget-properties-events/common/image)
 
- - [Action Button (Mobile)](../../../widget-properties-events/mobile/mobaction-button.htm)
+ - [Action Button (Mobile)](../../../widget-properties-events/mobile/mobaction-button)
 
- - [Label (Mobile)](../../../widget-properties-events/mobile/moblabel.htm)
+ - [Label (Mobile)](../../../widget-properties-events/mobile/moblabel)
 

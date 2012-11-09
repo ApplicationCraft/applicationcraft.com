@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="146">
-{ [wlist](../objects-titbits/widget-list-parameters.htm) } widget
+{ [wlist](../objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="13">
@@ -37,5 +37,5 @@ This empties the entire contents of a widget. Ordinary Widgets are cleared and L
 
 See Also:
 
- - [resetWidget()](resetwidget.htm)
+ - [resetWidget()](resetwidget)
 

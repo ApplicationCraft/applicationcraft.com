@@ -11,5 +11,5 @@ A very powerful feature of Application Craft is the ability for a developer to e
     app.weatherClient.WeatherForecast(app.getData("txtZIP"), "txtSuccess", "txtResponse", "txtState", "txtCity", "grdForecast", "date,desc,high,low,precip,icon");
    
 
-Please refer to the [Adding Widgets and API Methods](../../../../adding-widgets-and-api-methods/index.htm) section on how to build Application Craft Widgets and AC Client API Extensions.
+Please refer to the [Adding Widgets and API Methods](../../../../adding-widgets-and-api-methods/index) section on how to build Application Craft Widgets and AC Client API Extensions.
 

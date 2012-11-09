@@ -24,5 +24,5 @@ If you need the fullest control, then you should paste in HTML by switching to H
 
 ![HTMLEdit](/img/docs/htmledit.zoom72.png)
 
-If you want to use HTML code, you can also use the [HTML](../../../widget-properties-events/common/html2.htm) widget
+If you want to use HTML code, you can also use the [HTML](../../../widget-properties-events/common/html2) widget
 

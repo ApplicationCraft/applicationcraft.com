@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Please follow these steps to get set up with your Apple Developer Account. If you feel that you qualify for the [iOS Enterprise Program](creating_an_apple_enterprise_a.htm) or [iOS University](ios_university_program.htm) Program, check these out before signing up as described below.
+Please follow these steps to get set up with your Apple Developer Account. If you feel that you qualify for the [iOS Enterprise Program](creating-an-apple-enterprise-a) or [iOS University](ios-university-program) Program, check these out before signing up as described below.
 
 Note that Apple may update their site, so if you see any image discrepancies, let us know and we will update this guide.
 

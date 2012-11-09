@@ -19,7 +19,7 @@ Parameters
 <td width="9">
 </td>
 <td width="643">
-ID of the [Notifier](../../../product-guide/advanced-features/workflow/notification-server.htm) as defined in the Console
+ID of the [Notifier](../../../product-guide/advanced-features/workflow/notification-server) as defined in the Console
 
 </td>
 </tr>

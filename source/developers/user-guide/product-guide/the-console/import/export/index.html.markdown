@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can import and export your [Apps](../../console-tabs/applications.htm) , [Resources](../../console-tabs/resources.htm) , [Themes](../../console-tabs/themes-overview.htm) , [Connections](../../console-tabs/connections/index.htm) and [Queries](../../console-tabs/queries/index.htm) between other Application Craft Accounts.
+You can import and export your [Apps](../../console-tabs/applications) , [Resources](../../console-tabs/resources) , [Themes](../../console-tabs/themes-overview) , [Connections](../../console-tabs/connections/index) and [Queries](../../console-tabs/queries/index) between other Application Craft Accounts.
 
 ## In This Section:
 
- - [Export](export.htm)
+ - [Export](export)
 
- - [Import](import.htm)
+ - [Import](import)
 

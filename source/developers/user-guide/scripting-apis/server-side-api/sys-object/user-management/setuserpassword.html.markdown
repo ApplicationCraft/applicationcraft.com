@@ -43,7 +43,7 @@ The new password
 <td width="15">
 </td>
 <td width="682">
-[click here](checkowneruserrights_parameter.htm) to see the checkOwnerRights description
+[click here](checkowneruserrights-parameter) to see the checkOwnerRights description
 
 </td>
 </tr>
@@ -57,5 +57,5 @@ Changes the password of the specified user. If there is an error due to permissi
 
 See Also:
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror.htm)
+ - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

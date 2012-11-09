@@ -28,9 +28,9 @@ Panning
 
 There are a couple of ways to adjust the timeline display area. Firstly, there are some widget methods
 
- - [app.w('Timeline1').scroll](../../../scripting-apis/client-api/widget-object-functions/timeline/scroll.htm) (numDaysToScroll)
+ - [app.w('Timeline1').scroll](../../../scripting-apis/client-api/widget-object-functions/timeline/scroll) (numDaysToScroll)
 
- - [app.w('Timeline1').scrollTo](../../../scripting-apis/client-api/useful-browser-functions/scrollto.htm) (date)
+ - [app.w('Timeline1').scrollTo](../../../scripting-apis/client-api/useful-browser-functions/scrollto) (date)
 
 or you can set properties
 

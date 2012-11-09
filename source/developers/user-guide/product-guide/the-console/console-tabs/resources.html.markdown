@@ -10,7 +10,7 @@ Resources are static files that are used within or by Apps, the beauty being tha
 
  - Images (jpg, gif, png, tif, svg)
 
- - Data List. See [Data Lists Management](../../advanced-features/data-lists-management/index.htm)
+ - Data List. See [Data Lists Management](../../advanced-features/data-lists-management/index)
 
  - Video (mpeg, mp4, ogg, quicktime, x-msvideo, x-matroska)
 
@@ -28,7 +28,7 @@ Resources are static files that are used within or by Apps, the beauty being tha
 
 Resource Repository
 
-All Resources are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol.htm) in more detail.
+All Resources are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol) in more detail.
 
 Adding a Resource
 
@@ -40,7 +40,7 @@ When you add a new Resource by clicking on the New Object icon beneath the tree 
 
  - Upload File - this will upload a file from your file system into AC
 
- - Empty - Create an empty Data List file. See: [Creating a Data List](../../advanced-features/data-lists-management/creating-a-data-list.htm)
+ - Empty - Create an empty Data List file. See: [Creating a Data List](../../advanced-features/data-lists-management/creating-a-data-list)
 
 ![lists-upload](/img/docs/lists-upload.jpeg)
 
@@ -125,7 +125,7 @@ This indicates the type of resource
 <td width="16">
 </td>
 <td>
-[See Sharing](../sharing.htm)
+[See Sharing](../sharing)
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Edit Content
 <td width="16">
 </td>
 <td>
-This allows you to edit the content of a Data List. See [Editing a Data List](../../advanced-features/data-lists-management/editing-a-data-list.htm)
+This allows you to edit the content of a Data List. See [Editing a Data List](../../advanced-features/data-lists-management/editing-a-data-list)
 
 </td>
 </tr>

@@ -92,9 +92,9 @@ All functions are called on the created PGSQLitePlugin object:
 
 ## See
 
- - [Methods](methods/index.htm)
+ - [Methods](methods/index)
 
 ## See Also:
 
- - [Mobile & Client Side Data Storage](../../../../../data-storage/mobile-client-side-data-storage/index.htm)
+ - [Mobile & Client Side Data Storage](../../../../../data-storage/mobile-client-side-data-storage/index)
 

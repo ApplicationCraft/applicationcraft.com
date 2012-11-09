@@ -180,11 +180,11 @@ Example
 
 See Also:
 
- - [dtNewDate()](dtnewdate.htm)
+ - [dtNewDate()](dtnewdate)
 
- - [dtadd()](dtadd.htm)
+ - [dtadd()](dtadd)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtAdjust()](dtadjust.htm)
+ - [dtAdjust()](dtadjust)
 

@@ -42,11 +42,11 @@ Adds the current location of the user to the map
 
 ## See Also:
 
- - [whereAmI()](whereami.htm)
+ - [whereAmI()](whereami)
 
- - [getAddress()](getaddress.htm)
+ - [getAddress()](getaddress)
 
- - [getCoord()](getcoord.htm)
+ - [getCoord()](getcoord)
 
- - [getDirections()](getdirections.htm)
+ - [getDirections()](getdirections)
 

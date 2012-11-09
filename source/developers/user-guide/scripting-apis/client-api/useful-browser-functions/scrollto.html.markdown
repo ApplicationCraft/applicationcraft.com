@@ -38,5 +38,5 @@ Example
 
 See Also:
 
- - [Window Object](window_object.htm)
+ - [Window Object](window-object)
 

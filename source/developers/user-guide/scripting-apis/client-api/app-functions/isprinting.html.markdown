@@ -16,9 +16,9 @@ Printing should be considered  Beta until this notice is removed.
 
 Examples
 
-For code examples, please go to the [Printing Examples](../../../product-guide/advanced-features/printing/printing-examples.htm) topic.
+For code examples, please go to the [Printing Examples](../../../product-guide/advanced-features/printing/printing-examples) topic.
 
 See Also:
 
- - [printApp()](printapp.htm)
+ - [printApp()](printapp)
 

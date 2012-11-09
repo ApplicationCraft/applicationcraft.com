@@ -36,5 +36,5 @@ Example
 
 See Also:
 
- - [instanceGetRTZ()](instancegetrtz.htm)
+ - [instanceGetRTZ()](instancegetrtz)
 

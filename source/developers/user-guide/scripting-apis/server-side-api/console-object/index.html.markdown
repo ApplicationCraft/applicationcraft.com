@@ -8,7 +8,7 @@ full_width: true
 
 ## In This Section:
 
- - [log()](log.htm)
+ - [log()](log)
 
- - [dir()](dir.htm)
+ - [dir()](dir)
 

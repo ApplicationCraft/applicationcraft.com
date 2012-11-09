@@ -16,11 +16,11 @@ The Global Data Pool allows you to do exactly this with very little effort.
 
 Saving individual values is done with the following functions
 
- - [setGlobalData()](../../../client-api/global-data-pool-functions/setglobaldata.htm)
+ - [setGlobalData()](../../../client-api/global-data-pool-functions/setglobaldata)
 
- - [getGlobalData()](../../../client-api/global-data-pool-functions/getglobaldata.htm)
+ - [getGlobalData()](../../../client-api/global-data-pool-functions/getglobaldata)
 
- - [clearGlobalData()](../../../client-api/global-data-pool-functions/clearglobaldata.htm)
+ - [clearGlobalData()](../../../client-api/global-data-pool-functions/clearglobaldata)
 
 and saving/restoring entire App instances is done with these
 

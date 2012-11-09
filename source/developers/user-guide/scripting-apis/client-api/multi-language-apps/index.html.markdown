@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[translate()](translate.htm)
+[translate()](translate)
 
 </td>
 <td width="12">
@@ -23,7 +23,7 @@ Performs string translations within your App
 </tr>
 <tr>
 <td width="149">
-[language()](language.htm)
+[language()](language)
 
 </td>
 <td width="12">
@@ -37,7 +37,7 @@ Switches the display language of the App
 
 ## See Also:
 
- - [Internationalization App Events](../../../widget-properties-events/events/event-reference-list/internationalization-app-event.htm)
+ - [Internationalization App Events](../../../widget-properties-events/events/event-reference-list/internationalization-app-event)
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index.htm)
+ - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index)
 

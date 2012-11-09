@@ -62,5 +62,5 @@ Example
 
 ## See Also:
 
- - [Map Styles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles.htm)
+ - [Map Styles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles)
 

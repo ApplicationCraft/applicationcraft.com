@@ -23,13 +23,13 @@ A typical example would be to include an App as a cross-app menu bar. It can be 
 
 See Also:
 
- - [switchApp()](switchapp.htm)
+ - [switchApp()](switchapp)
 
- - [childApp()](childapp.htm)
+ - [childApp()](childapp)
 
- - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/index.htm)
+ - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/index)
 
- - [Embed App Widget](../../../widget-properties-events/advanced/embed-app.htm)
+ - [Embed App Widget](../../../widget-properties-events/advanced/embed-app)
 
 Related Video:
 

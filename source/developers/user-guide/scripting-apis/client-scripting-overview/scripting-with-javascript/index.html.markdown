@@ -16,21 +16,21 @@ This chapter is the most important one of all if you want to build more powerful
 
 For anyone wanting to get the most out of Application Craft, we recommend that you read this chapter carefully, as well as using the Tutorials on our web site.
 
-Refer to the [Client API](../../client-api/index.htm) section for full details about the API.
+Refer to the [Client API](../../client-api/index) section for full details about the API.
 
 ## In This Section:
 
- - [Introduction](introduction/index.htm)
+ - [Introduction](introduction/index)
 
- - [The Code Editor](the-code-editor/index.htm)
+ - [The Code Editor](the-code-editor/index)
 
- - [Important Details](important-details/index.htm)
+ - [Important Details](important-details/index)
 
- - [Widget Reading & Writing](widget-reading-writing/index.htm)
+ - [Widget Reading & Writing](widget-reading-writing/index)
 
- - [Common Usage Examples](common-usage-examples/index.htm)
+ - [Common Usage Examples](common-usage-examples/index)
 
- - [oAuth](oauth/index.htm)
+ - [oAuth](oauth/index)
 
 Related Video:
 

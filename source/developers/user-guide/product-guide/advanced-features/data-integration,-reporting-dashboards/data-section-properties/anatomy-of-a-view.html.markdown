@@ -34,9 +34,9 @@ The Drill Down Filter is affected by all Widgets whose Broadcast property is set
 
 See Also:
 
- - [Must Read Chart Reference](../chart-reference.htm)
+ - [Must Read Chart Reference](../chart-reference)
 
- - [Drilling Down](../drilling-down.htm)
+ - [Drilling Down](../drilling-down)
 
 Related Video:
 

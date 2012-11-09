@@ -28,7 +28,7 @@ If you were to set the Order By to be MonthNameShort(Date) also, then you would 
 
 Modifying the Order By from a Script
 
-Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/index.htm) of the [Client API](../../../../scripting-apis/client-api/index.htm) section for more information.
+Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/index) of the [Client API](../../../../scripting-apis/client-api/index) section for more information.
 
 Related Video:
 

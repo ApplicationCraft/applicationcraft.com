@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Apps built using [Phonegap:Build](../phonegapbuild/index.htm) or [AC Mobile Build](../ac-mobile-build/index.htm) use a config.xml. The config.xml file allows developers to easily specify metadata about their applications.  More details available here: [https://build.phonegap.com/docs/config-xml](https://build.phonegap.com/docs/config-xml)
+Apps built using [Phonegap:Build](../phonegapbuild/index) or [AC Mobile Build](../ac-mobile-build/index) use a config.xml. The config.xml file allows developers to easily specify metadata about their applications.  More details available here: [https://build.phonegap.com/docs/config-xml](https://build.phonegap.com/docs/config-xml)
 
 Using the PhoneGap Options property located in the Phonegap section of the App properties you can manage many of these properties to include within your Build.
 
@@ -179,7 +179,7 @@ Auto Hide Splash Screen
 
 </td>
 <td width="615">
-true(default)/false. If set to true the splash screen is hidden. To show your own Splash Screen images (Pro subscription required) set to false. Supported in [AC Mobile Build](../ac-mobile-build/index.htm)
+true(default)/false. If set to true the splash screen is hidden. To show your own Splash Screen images (Pro subscription required) set to false. Supported in [AC Mobile Build](../ac-mobile-build/index)
 
 </td>
 </tr>
@@ -246,7 +246,7 @@ Open all links in WebView
 
 </td>
 <td width="624">
-true/false. If set to true, all links (even with target set to blank) will open in the app's webview. If your app is utilizing the [YouTube](../../../widget-properties-events/advanced/youtube.htm) widget for iOS, set this property to true
+true/false. If set to true, all links (even with target set to blank) will open in the app's webview. If your app is utilizing the [YouTube](../../../widget-properties-events/advanced/youtube) widget for iOS, set this property to true
 
 </td>
 </tr>
@@ -272,7 +272,7 @@ Show Splash Screen Spinner
 
 </td>
 <td width="624">
-true(default)/false. if set to false, the spinner won't appear on the splash screen during app loading. Supported in [AC Mobile Build](../ac-mobile-build/index.htm)
+true(default)/false. if set to false, the spinner won't appear on the splash screen during app loading. Supported in [AC Mobile Build](../ac-mobile-build/index)
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ Allow Inline Media Playback
 
 </td>
 <td width="624">
-true/false(default). If set to true HTML5 videos will play inline. If set to false HTML5 videos will use the native full-screen controller. To play [YouTube](../../../widget-properties-events/advanced/youtube.htm) videos inline, also set Open all links in WebView to true
+true/false(default). If set to true HTML5 videos will play inline. If set to false HTML5 videos will use the native full-screen controller. To play [YouTube](../../../widget-properties-events/advanced/youtube) videos inline, also set Open all links in WebView to true
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ Launch Mode
 
 </td>
 <td width="617">
-Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see [http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode](http://developer.android.com/guide/topics/manifest/activity-element.html#lmode) . Supported in [AC Mobile Build](../ac-mobile-build/index.htm)
+Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see [http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode](http://developer.android.com/guide/topics/manifest/activity-element.html#lmode) . Supported in [AC Mobile Build](../ac-mobile-build/index)
 
 </td>
 </tr>
@@ -365,7 +365,7 @@ Version Code
 
 </td>
 <td width="617">
-when building for Android, you can set the version Code. For more information on Android's versionCode attribute, see [http://developer.android.com/tools/publishing/versioning.html](http://developer.android.com/tools/publishing/versioning.html) . Supported in [AC Mobile Build](../ac-mobile-build/index.htm)
+when building for Android, you can set the version Code. For more information on Android's versionCode attribute, see [http://developer.android.com/tools/publishing/versioning.html](http://developer.android.com/tools/publishing/versioning.html) . Supported in [AC Mobile Build](../ac-mobile-build/index)
 
 </td>
 </tr>

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Refreshes a Data View Widget using the [refreshData()](../widget-functions/refreshdata.htm) function.
+Refreshes a Data View Widget using the [refreshData()](../widget-functions/refreshdata) function.
 
 Related Video:
 

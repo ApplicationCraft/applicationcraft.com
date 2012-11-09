@@ -44,7 +44,7 @@ Notice that this uses a Month function to extract the Month number from the Date
 
 Setting Group By from Scripting
 
-You can also modify the Group By property dynamically from a script using [app.setProperty](../../../../scripting-apis/client-api/widget-functions/setproperty.htm) ('widgetName', 'groupBy', 'expression')
+You can also modify the Group By property dynamically from a script using [app.setProperty](../../../../scripting-apis/client-api/widget-functions/setproperty) ('widgetName', 'groupBy', 'expression')
 
 Related Video:
 

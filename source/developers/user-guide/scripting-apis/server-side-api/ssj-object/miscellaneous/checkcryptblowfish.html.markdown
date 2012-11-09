@@ -54,7 +54,7 @@ Example
 
 See Also:
 
- - [hash()](cryptblowfish.htm)
+ - [hash()](cryptblowfish)
 
- - [md5()](md5.htm)
+ - [md5()](md5)
 

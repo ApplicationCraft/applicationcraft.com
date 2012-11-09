@@ -18,11 +18,11 @@ This method rolls back a database transaction for the database referenced by the
 
 Example
 
-See the example in [beginTransaction()](begintransaction.htm) .
+See the example in [beginTransaction()](begintransaction) .
 
 See Also:
 
- - [beginTransaction()](begintransaction.htm)
+ - [beginTransaction()](begintransaction)
 
- - [commit()](commit.htm)
+ - [commit()](commit)
 

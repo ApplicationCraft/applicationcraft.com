@@ -8,33 +8,33 @@ full_width: true
 
 ## In This Section:
 
- - [getViewData()](getviewdata2.htm)
+ - [getViewData()](getviewdata2)
 
- - [getConnection()](getconnection.htm)
+ - [getConnection()](getconnection)
 
- - [getConnectionByName()](getconnectionbyname.htm)
+ - [getConnectionByName()](getconnectionbyname)
 
- - [beginTransaction()](begintransaction.htm)
+ - [beginTransaction()](begintransaction)
 
- - [commit()](commit.htm)
+ - [commit()](commit)
 
- - [rollback()](rollback.htm)
+ - [rollback()](rollback)
 
- - [insert()](insert.htm)
+ - [insert()](insert)
 
- - [update()](update.htm)
+ - [update()](update)
 
- - [delete()](delete.htm)
+ - [delete()](delete)
 
- - [exec()](exec.htm)
+ - [exec()](exec)
 
- - [lastInsertId()](lastinsertid.htm)
+ - [lastInsertId()](lastinsertid)
 
- - [quote()](quote.htm)
+ - [quote()](quote)
 
- - [quoteInto()](quoteinto.htm)
+ - [quoteInto()](quoteinto)
 
- - [Select Handling](select-handling/index.htm)
+ - [Select Handling](select-handling/index)
 
 Related Video:
 

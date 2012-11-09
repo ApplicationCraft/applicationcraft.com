@@ -27,19 +27,19 @@ the Name or GUID of the Widget, or can also be a Widget object
 
 Description
 
-Allows you to read the contents of a Widget. Listbox type Widgets are returned as the complete set of list items rather than the selected values (see [getValue()](refsetvalue.htm) for this).
+Allows you to read the contents of a Widget. Listbox type Widgets are returned as the complete set of list items rather than the selected values (see [getValue()](refsetvalue) for this).
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) . You need to be aware of how getData() and [getValue()](refgetvalue.htm) work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) . You need to be aware of how getData() and [getValue()](refgetvalue) work with different Widget types.
 
 Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index.htm) chapter.
+There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter.
 
 See Also:
 
- - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists--dropdowns.htm) Widgets
+ - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists--dropdowns) Widgets
 
- - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers.htm)
+ - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers)
 
- - [populateWidget()](populatewidget.htm) for populating Grids and Repeater Containers with JSON data
+ - [populateWidget()](populatewidget) for populating Grids and Repeater Containers with JSON data
 

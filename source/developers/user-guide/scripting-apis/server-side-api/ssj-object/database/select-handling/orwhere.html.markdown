@@ -41,5 +41,5 @@ Description
 
 Allows you to specify a WHERE expression for your select that is ORed with the previous where() or orWhere() functions.
 
-Refer to the [where()](select_where.htm) section for an example.
+Refer to the [where()](select-where) section for an example.
 

@@ -47,11 +47,11 @@ This sends email specified as a message object.
 
  - To send HTML email, set isHTML to true.
 
- - Attachments that have been uploaded to the app using the [Upload Button](../../../../widget-properties-events/mobile/upload-button.htm) or [File Upload](../../../../widget-properties-events/advanced/file-upload.htm) can also be attached to the email referencing the URL of the uploaded file.
+ - Attachments that have been uploaded to the app using the [Upload Button](../../../../widget-properties-events/mobile/upload-button) or [File Upload](../../../../widget-properties-events/advanced/file-upload) can also be attached to the email referencing the URL of the uploaded file.
 
  - If there is an error of any sort, an exception will be thrown.
 
-The system will send emails out using the [SMTP settings](../../../../product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/index.htm) as defined in the AC Console.
+The system will send emails out using the [SMTP settings](../../../../product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/index) as defined in the AC Console.
 
 The message object has the following structure.
 
@@ -125,7 +125,7 @@ Server Side Script:
 
 See Also:
 
- - [SMTP Parameters](../../../../product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/index.htm)
+ - [SMTP Parameters](../../../../product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/index)
 
- - [callSSJ()](../../../client-api/app-functions/callservice.htm)
+ - [callSSJ()](../../../client-api/app-functions/callservice)
 

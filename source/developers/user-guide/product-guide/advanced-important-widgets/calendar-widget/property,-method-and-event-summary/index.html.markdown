@@ -8,9 +8,9 @@ full_width: true
 
 ## In This Section:
 
- - [Properties](calendarproperties.htm)
+ - [Properties](calendarproperties)
 
- - [Events](calendarevents.htm)
+ - [Events](calendarevents)
 
- - [Methods](calendarmethods.htm)
+ - [Methods](calendarmethods)
 

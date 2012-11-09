@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can use [populateWidget()](index.htm) or [setData()](../setdata.htm) to populate a [Mobiscroll List](../../../../widget-properties-events/mobile/mobiscroll-list.htm) widget.
+You can use [populateWidget()](index) or [setData()](../setdata) to populate a [Mobiscroll List](../../../../widget-properties-events/mobile/mobiscroll-list) widget.
 
 Example
 
-This example shows how you can have data in an array and populate it directly in to a 2 column [Mobiscroll List](../../../../widget-properties-events/mobile/mobiscroll-list.htm) Widget. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex_json_example.htm) ).
+This example shows how you can have data in an array and populate it directly in to a 2 column [Mobiscroll List](../../../../widget-properties-events/mobile/mobiscroll-list) Widget. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example) ).
 
     var Arr = [
     {index:0, lbl:'test11', val:'val'},

@@ -14,7 +14,7 @@ In the database, however, dates are stored in a different format. When filtering
     {orders.date} >= "2010-10-21 21:00:00"
    
 
-If you want to convert from a javascript object into the correct format, AC provides a simple conversion function [DATE2DB()](../../conversion-functions/date2db.htm) that does this for you automatically.
+If you want to convert from a javascript object into the correct format, AC provides a simple conversion function [DATE2DB()](../../conversion-functions/date2db) that does this for you automatically.
 
 Example
 
@@ -32,7 +32,7 @@ This example shows how a Date Pickers is used in Range mode (Range property is t
 
 See Also:
 
- - [Modifying Filters with a Script](filters.htm)
+ - [Modifying Filters with a Script](filters)
 
- - [DATE2DB()](../../conversion-functions/date2db.htm)
+ - [DATE2DB()](../../conversion-functions/date2db)
 

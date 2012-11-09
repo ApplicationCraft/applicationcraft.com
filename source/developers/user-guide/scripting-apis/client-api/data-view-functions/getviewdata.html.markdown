@@ -115,7 +115,7 @@ This function gets data from a View and reads it into an array. Data is passed b
 
 Expressions
 
-Where you are specifying View fields or Widget fields, you need to do this as an Application Craft 'Expression'. If you don't use Javascript, then you would set the Expression using the [Expression Editor](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor.htm) . The expressions you enter there are the same format as you would supply in the getViewData() method.
+Where you are specifying View fields or Widget fields, you need to do this as an Application Craft 'Expression'. If you don't use Javascript, then you would set the Expression using the [Expression Editor](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor) . The expressions you enter there are the same format as you would supply in the getViewData() method.
 
 Expressions can include View (database) fields, App Widgets or  literal values. An expression string might look like this for simply getting a few fields
 
@@ -147,7 +147,7 @@ A Filter Expression can be supplied as an array of string Expressions (and not a
     var filter = ['{customers.CustomerName}="Atelier graphique"'];
    
 
-Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](modifying_data_widgets_with_sc.htm) chapter.
+Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](modifying-data-widgets-with-sc) chapter.
 
 Group By
 
@@ -180,13 +180,13 @@ This example shows simple usage. It is getting two fields from a database and th
 
 See Also:
 
- - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/index.htm) (good introduction to Views)
+ - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/index) (good introduction to Views)
 
- - [getViewData()](getviewdata.htm)
+ - [getViewData()](getviewdata)
 
- - [drillDownBroadcast()](drilldownbroadcast.htm)
+ - [drillDownBroadcast()](drilldownbroadcast)
 
- - [bindViewData()](setviewcallback.htm)
+ - [bindViewData()](setviewcallback)
 
 Related Video:
 

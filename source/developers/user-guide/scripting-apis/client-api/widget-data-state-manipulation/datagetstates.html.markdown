@@ -60,7 +60,7 @@ Description
 
 This function is commonly used to extract widget state information from your App so that it can be passed in a simple format to another system or a Server Side Javascript function (SSJ).
 
-In many cases, your App will show and hide widgets as well as enabling/disabling or setting them to be read-only. The app.dataGetStates() function allows to you get a javascript object that contains this state information for some or all widgets. You can then store these elsewhere along with the widget values and then restore them using the [app.dataSetStates()](datasetstates.htm) and [app.dataSetValues()](datasetvalues.htm) functions.
+In many cases, your App will show and hide widgets as well as enabling/disabling or setting them to be read-only. The app.dataGetStates() function allows to you get a javascript object that contains this state information for some or all widgets. You can then store these elsewhere along with the widget values and then restore them using the [app.dataSetStates()](datasetstates) and [app.dataSetValues()](datasetvalues) functions.
 
 Examples
 
@@ -73,15 +73,15 @@ The following examples show different ways to get state information into an obje
 
 See Also:
 
- - [dataGetValues()](datagetvalues.htm)
+ - [dataGetValues()](datagetvalues)
 
- - [dataSetValues()](datasetvalues.htm)
+ - [dataSetValues()](datasetvalues)
 
- - [dataSetStates()](datasetstates.htm)
+ - [dataSetStates()](datasetstates)
 
- - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index.htm)
+ - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
 
- - [SSJ database functions](../../../data-storage/server-side-data-storage/index.htm)
+ - [SSJ database functions](../../../data-storage/server-side-data-storage/index)
 
- - [Instance Data Functions](../instance-data-functions/index.htm)
+ - [Instance Data Functions](../instance-data-functions/index)
 

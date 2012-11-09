@@ -6,5 +6,5 @@ full_width: true
 ---
 
 
-Application Craft enables your Apps to take credit card payments. Please refer to the [Credit Card Payments Processing](../../../../product-guide/advanced-features/credit-card-payment-processing/index.htm) chapter for a comprehensive overview.
+Application Craft enables your Apps to take credit card payments. Please refer to the [Credit Card Payments Processing](../../../../product-guide/advanced-features/credit-card-payment-processing/index) chapter for a comprehensive overview.
 

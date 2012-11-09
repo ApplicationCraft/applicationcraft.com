@@ -20,7 +20,7 @@ Application Craft automatically loads standard user information once the Signin 
 
  - [User.Name] - this is the Full Name of the authenticated user
 
- - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../the-console/console-tabs/more/account-variables/user-parameters/index.htm) .
+ - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../the-console/console-tabs/more/account-variables/user-parameters/index) .
 
 You would normally access this data in one of two ways
 
@@ -38,7 +38,7 @@ This strategy is described in more detail in the 'Adding a Settings Page' topic.
 
 Accessing User Parameters
 
-Application Craft also provides a way of creating customized parameter groups for users ( [User Parameter Groups](../../the-console/console-tabs/more/account-variables/user-parameters/index.htm) ). This allows you to effectively create any additional parameters your application may require. Our Tutorial App actually uses this approach as described earlier in the [Adding a Settings Page](adding_a_settings_page.htm) chapter.
+Application Craft also provides a way of creating customized parameter groups for users ( [User Parameter Groups](../../the-console/console-tabs/more/account-variables/user-parameters/index) ). This allows you to effectively create any additional parameters your application may require. Our Tutorial App actually uses this approach as described earlier in the [Adding a Settings Page](adding-a-settings-page) chapter.
 
-To access a User Parameter, you use the [app.userParameterGet()](../../../scripting-apis/client-api/app-functions/userparameterget.htm) function.
+To access a User Parameter, you use the [app.userParameterGet()](../../../scripting-apis/client-api/app-functions/userparameterget) function.
 

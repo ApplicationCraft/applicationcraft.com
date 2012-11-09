@@ -10,11 +10,11 @@ Both Client and Server Side scripting overviews and API references are contained
 
 ## In This Section:
 
- - [Client Scripting Overview](client-scripting-overview/index.htm)
+ - [Client Scripting Overview](client-scripting-overview/index)
 
- - [Client API](client-api/index.htm)
+ - [Client API](client-api/index)
 
- - [Server Side Scripting Overview](server-side-scripting-overview/index.htm)
+ - [Server Side Scripting Overview](server-side-scripting-overview/index)
 
- - [Server Side API](server-side-api/index.htm)
+ - [Server Side API](server-side-api/index)
 

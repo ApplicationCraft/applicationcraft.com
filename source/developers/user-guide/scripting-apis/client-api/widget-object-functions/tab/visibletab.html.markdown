@@ -21,5 +21,5 @@ Example
 
 ## See Also:
 
- - [visible()](../../widget-data-state-manipulation/visible.htm)
+ - [visible()](../../widget-data-state-manipulation/visible)
 

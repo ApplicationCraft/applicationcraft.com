@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-Your settings will need to be stored. To do this, you need to tell the App to store data. This is done by selecting the Application properties (press the button at the top of the properties pane on the right) and then selecting the Storage property. You should set it to "Store in Database and Add to Reporting". Storage is discussed in more detail [here](../../data-storage-management/standard-storage-procedures/index.htm) .
+Your settings will need to be stored. To do this, you need to tell the App to store data. This is done by selecting the Application properties (press the button at the top of the properties pane on the right) and then selecting the Storage property. You should set it to "Store in Database and Add to Reporting". Storage is discussed in more detail [here](../../data-storage-management/standard-storage-procedures/index) .
 
-For larger Apps, it is important to have a good understanding of the broader storage concepts, including Relational Apps. Please refer to the main [Data Storage and Management](../../data-storage-management/index.htm) chapter.
+For larger Apps, it is important to have a good understanding of the broader storage concepts, including Relational Apps. Please refer to the main [Data Storage and Management](../../data-storage-management/index) chapter.
 
 ![authentication-app-storage](/img/docs/authentication-app-storage.png)
 

@@ -10,19 +10,19 @@ full_width: true
 
 ## In This Section:
 
-[Apps](applications.htm)
+[Apps](applications)
 
-[Resources](resources.htm)
+[Resources](resources)
 
-[Themes](themes-overview.htm)
+[Themes](themes-overview)
 
-[Connections](connections/index.htm)
+[Connections](connections/index)
 
-[Queries](queries/index.htm)
+[Queries](queries/index)
 
-[Notifiers](notifiers.htm)
+[Notifiers](notifiers)
 
-[More](more/index.htm)
+[More](more/index)
 
-[Import/Export](import_export.htm)
+[Import/Export](import-export)
 

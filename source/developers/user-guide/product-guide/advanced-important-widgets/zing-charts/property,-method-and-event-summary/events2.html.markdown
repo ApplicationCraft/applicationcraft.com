@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This section lists only Events specific to the ZingChart Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/index.htm) section. ZingChart API events are also available. See [ZingChart API events](../events3.htm)
+This section lists only Events specific to the ZingChart Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/index) section. ZingChart API events are also available. See [ZingChart API events](../events3)
 
 <table>
 <tr>

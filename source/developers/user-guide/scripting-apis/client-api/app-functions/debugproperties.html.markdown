@@ -40,15 +40,15 @@ Example
 
 See Also:
 
- - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging.htm)
+ - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugOutput()](debugoutput.htm)
+ - [debugOutput()](debugoutput)
 
- - [debugValues()](debugvalues.htm)
+ - [debugValues()](debugvalues)
 
- - [debugData()](debugdata.htm)
+ - [debugData()](debugdata)
 
- - [getProperty()](../widget-functions/getproperty.htm)
+ - [getProperty()](../widget-functions/getproperty)
 
- - [setProperty()](../widget-functions/setproperty.htm)
+ - [setProperty()](../widget-functions/setproperty)
 

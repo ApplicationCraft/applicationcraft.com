@@ -13,7 +13,7 @@ Parameters
 <table>
 <tr>
 <td width="137">
-{ [wlist](../../objects-titbits/widget-list-parameters.htm) } widget
+{ [wlist](../../objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="20">
@@ -57,7 +57,7 @@ populateWidget() is passed an array of data to populate in the second parameter.
 
 Wizard
 
-To make your life even easier, please read about the [Map Object Wizard](populatewidget-wizard.htm) .
+To make your life even easier, please read about the [Map Object Wizard](populatewidget-wizard) .
 
 The Map Object
 
@@ -83,55 +83,55 @@ and here is one used for mapping data into a Mobile List, where it is possible t
 
 Below you will find links to more detailed examples for each Widget that can have data populated with populateWidget().
 
-Map objects can get very complex and can support mapping from very complex, nested objects. Please refer to [Complex JSON Examples](complex-json-example.htm) for more information.
+Map objects can get very complex and can support mapping from very complex, nested objects. Please refer to [Complex JSON Examples](complex-json-example) for more information.
 
 ## Elements per Page
 
-Widgets that have the Elements per Page property Grid and Repeater Containers will only display as many records as specified. In the case of the Repeater Container, populateWidget() stores all of the data you pass it, regardless of Elements per Page. You can then use the [drawNextPage()](../../widget-object-functions/repeater-grid/drawnextpage.htm) function to load more pages as the user requires them (typically when a button or label widget is pressed).
+Widgets that have the Elements per Page property Grid and Repeater Containers will only display as many records as specified. In the case of the Repeater Container, populateWidget() stores all of the data you pass it, regardless of Elements per Page. You can then use the [drawNextPage()](../../widget-object-functions/repeater-grid/drawnextpage) function to load more pages as the user requires them (typically when a button or label widget is pressed).
 
 Repeater Containers are Slow on Mobile Devices
 
 These can be quite slow to draw as new browser objects need to be created dynamically. You should be aware that performance on Mobile devices, especially lower powered ones, can be pretty woeful even though they look fast on a desktop browser.
 
-For this reason, it is strongly recommended that you use a Mobile List Widget instead. You can format it very nicely and include images as [described in this chapter](../../../../product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/index.htm) .
+For this reason, it is strongly recommended that you use a Mobile List Widget instead. You can format it very nicely and include images as [described in this chapter](../../../../product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/index) .
 
 You can speed things up, also valid for desktop apps
 
- - Set the Elements per Page property of the Repeater Container to a low value first but then use the [drawNextPage()](../../widget-object-functions/repeater-grid/drawnextpage.htm) function to load more pages as the user requires them (typically when a button or label widget is pressed).
+ - Set the Elements per Page property of the Repeater Container to a low value first but then use the [drawNextPage()](../../widget-object-functions/repeater-grid/drawnextpage) function to load more pages as the user requires them (typically when a button or label widget is pressed).
 
 Widget Specific Examples
 
 The following Widgets are covered in subtopics
 
- - [ListBoxes, Dropdowns and Context Menu Examples](listbox---dropdown-example.htm)
+ - [ListBoxes, Dropdowns and Context Menu Examples](listbox---dropdown-example)
 
- - [Mobile List](mobile-list-example.htm)
+ - [Mobile List](mobile-list-example)
 
- - [Repeater Container Example](repeater-container-example.htm)
+ - [Repeater Container Example](repeater-container-example)
 
- - [Advanced Google Maps](advanced-google-maps-example.htm)
+ - [Advanced Google Maps](advanced-google-maps-example)
 
- - [Video Example](audio--video-example.htm)
+ - [Video Example](audio--video-example)
 
- - [Photoswipe Example](photoswipe-example.htm)
+ - [Photoswipe Example](photoswipe-example)
 
- - [Timeline](timeline-example.htm)
+ - [Timeline](timeline-example)
 
- - [Calendar Widget](calendar-widget2.htm)
+ - [Calendar Widget](calendar-widget2)
 
- - [Mobiscroll List](mobiscroll-list2.htm)
+ - [Mobiscroll List](mobiscroll-list2)
 
- - [Zing Charts](zingcharts.htm)
+ - [Zing Charts](zingcharts)
 
- - [Flot Charts](flot-charts2.htm)
+ - [Flot Charts](flot-charts2)
 
 See Also:
 
- - [fetchDataPage()](../../data-view-functions/fetchdatapage.htm)
+ - [fetchDataPage()](../../data-view-functions/fetchdatapage)
 
- - [drawNextPage()](../../widget-object-functions/repeater-grid/drawnextpage.htm)
+ - [drawNextPage()](../../widget-object-functions/repeater-grid/drawnextpage)
 
- - [isAllDataDrawn()](../../widget-object-functions/repeater-grid/isalldatadrawn.htm)
+ - [isAllDataDrawn()](../../widget-object-functions/repeater-grid/isalldatadrawn)
 
 Related Videos:
 

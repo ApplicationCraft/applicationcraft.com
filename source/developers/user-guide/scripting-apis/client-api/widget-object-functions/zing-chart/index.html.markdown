@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-[getZingChartId()](getzingchartid.htm)
+[getZingChartId()](getzingchartid)
 
 </td>
 <td width="8">

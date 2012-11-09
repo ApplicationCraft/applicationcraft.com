@@ -6,14 +6,14 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Video & Audio Widget](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/index.htm) Reference section.
+The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Video & Audio Widget](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/index) Reference section.
 
 HTML5 Audio, HTML5 Video and YouTube widget
 
 <table>
 <tr>
 <td width="182">
-[play()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/play.htm)
+[play()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/play)
 
 </td>
 <td width="8">
@@ -25,7 +25,7 @@ Play the video/audio
 </tr>
 <tr>
 <td width="182">
-[pause()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/pause.htm)
+[pause()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/pause)
 
 </td>
 <td width="8">
@@ -37,7 +37,7 @@ Pause the video/audio
 </tr>
 <tr>
 <td width="182">
-[load()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/load.htm)
+[load()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/load)
 
 </td>
 <td width="8">
@@ -49,7 +49,7 @@ Load or reload the video/audio
 </tr>
 <tr>
 <td width="182">
-[muted()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/muted.htm)
+[muted()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/muted)
 
 </td>
 <td width="8">
@@ -61,7 +61,7 @@ Mute the audio
 </tr>
 <tr>
 <td width="182">
-[currentTime()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/currenttime.htm)
+[currentTime()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/currenttime)
 
 </td>
 <td width="8">
@@ -73,7 +73,7 @@ Go to a specific location within the video/audio (in seconds)
 </tr>
 <tr>
 <td width="182">
-[poster()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/poster.htm)
+[poster()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/poster)
 
 </td>
 <td width="8">
@@ -85,7 +85,7 @@ URL or Resource of the Image displayed in the Widget before it plays
 </tr>
 <tr>
 <td width="182">
-[enable()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/enable.htm)
+[enable()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/enable)
 
 </td>
 <td width="8">
@@ -97,7 +97,7 @@ Enables or Disables the widget
 </tr>
 <tr>
 <td width="182">
-[controls()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/controls.htm)
+[controls()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/controls)
 
 </td>
 <td width="8">
@@ -109,7 +109,7 @@ Show the in-built video controls
 </tr>
 <tr>
 <td width="182">
-[populateWidget()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/vidpopulatewidget.htm)
+[populateWidget()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/vidpopulatewidget)
 
 </td>
 <td width="8">
@@ -134,7 +134,7 @@ YouTube widget
 <table>
 <tr>
 <td width="182">
-[getYoutubePlayer()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getyoutubeplayer.htm)
+[getYoutubePlayer()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getyoutubeplayer)
 
 </td>
 <td width="8">
@@ -146,7 +146,7 @@ Returns the You Tube player object
 </tr>
 <tr>
 <td width="182">
-[clearVideo()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/clearvideo.htm)
+[clearVideo()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/clearvideo)
 
 </td>
 <td width="8">
@@ -158,7 +158,7 @@ Clears the YouTube video
 </tr>
 <tr>
 <td width="182">
-[stop()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/stop.htm)
+[stop()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/stop)
 
 </td>
 <td width="8">
@@ -170,7 +170,7 @@ Stops the You Tube widget playing
 </tr>
 <tr>
 <td width="182">
-[volume()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/volume.htm)
+[volume()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/volume)
 
 </td>
 <td width="8">
@@ -182,7 +182,7 @@ Get/Set the Volume
 </tr>
 <tr>
 <td width="182">
-[duration()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/duration.htm)
+[duration()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/duration)
 
 </td>
 <td width="8">
@@ -194,7 +194,7 @@ Returns the duration in seconds of the currently playing video
 </tr>
 <tr>
 <td width="182">
-[state()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/state.htm)
+[state()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/state)
 
 </td>
 <td width="8">
@@ -206,7 +206,7 @@ Returns the state of the You Tube video
 </tr>
 <tr>
 <td width="182">
-[setPlaybackQuality()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/setplaybackquality.htm)
+[setPlaybackQuality()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/setplaybackquality)
 
 </td>
 <td width="8">
@@ -218,7 +218,7 @@ Sets the suggested video quality for the current video.
 </tr>
 <tr>
 <td width="182">
-[getPlaybackQuality()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getplaybackquality.htm)
+[getPlaybackQuality()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getplaybackquality)
 
 </td>
 <td width="8">
@@ -230,7 +230,7 @@ Gets the video quality for the current video.
 </tr>
 <tr>
 <td width="182">
-[getAvailableQualityLevels()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getavailablequalitylevels.htm)
+[getAvailableQualityLevels()](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getavailablequalitylevels)
 
 </td>
 <td width="8">

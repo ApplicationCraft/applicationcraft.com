@@ -8,7 +8,7 @@ full_width: true
 
 In many cases, you will want to populate your charts from Javascript. If you have data that you have retrieved from elsewhere, using httpRequest() for example, then you will want to manipulate and pass in this data programmatically.
 
-Please refer to [Populating Charts from Script](../../../scripting-apis/client-scripting-overview/populating-charts-from-script.htm) section.
+Please refer to [Populating Charts from Script](../../../scripting-apis/client-scripting-overview/populating-charts-from-script) section.
 
 Related Video:
 

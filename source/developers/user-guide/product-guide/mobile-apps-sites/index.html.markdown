@@ -12,25 +12,25 @@ This chapter looks at some of the things you might want to think about when buil
 
 ## In This Section:
 
-[Standard Mobile Widgets](other-mobile-widgets.htm)
+[Standard Mobile Widgets](other-mobile-widgets)
 
-[Advanced Mobile Widgets](advanced-mobile-widgets.htm)
+[Advanced Mobile Widgets](advanced-mobile-widgets)
 
-[Adaptive (Fluid) Layouts](adaptive-or-fluid-layouts.htm)
+[Adaptive (Fluid) Layouts](adaptive-or-fluid-layouts)
 
-[Mobile Widgets](mappsmobile-widgets.htm)
+[Mobile Widgets](mappsmobile-widgets)
 
-[Mobile Themes](mobile-themes.htm)
+[Mobile Themes](mobile-themes)
 
-[Formatting Mobile Content](formatting-mobile-content.htm)
+[Formatting Mobile Content](formatting-mobile-content)
 
-[Page Transition Effects](page-transition-effects.htm)
+[Page Transition Effects](page-transition-effects)
 
-[Transition Mode](mobile-transition-mode.htm)
+[Transition Mode](mobile-transition-mode)
 
-[Icon Management](icon-management.htm)
+[Icon Management](icon-management)
 
-[Splash Image Management](splash-image-management.htm)
+[Splash Image Management](splash-image-management)
 
 Related Video:
 

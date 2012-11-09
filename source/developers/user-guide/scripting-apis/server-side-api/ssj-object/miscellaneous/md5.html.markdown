@@ -51,7 +51,7 @@ Server Side Script:
 
 ## See Also:
 
- - [hash()](cryptblowfish.htm)
+ - [hash()](cryptblowfish)
 
- - [checkHash()](checkcryptblowfish.htm)
+ - [checkHash()](checkcryptblowfish)
 

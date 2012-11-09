@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can select from 'Connections' where you wish to set up a query based on a Connection you have set up. You can also select 'Apps' which allows you to set up queries on other Apps you have stored data for or 'Lists' See [Data Lists Management](../../../../advanced-features/data-lists-management/index.htm)
+You can select from 'Connections' where you wish to set up a query based on a Connection you have set up. You can also select 'Apps' which allows you to set up queries on other Apps you have stored data for or 'Lists' See [Data Lists Management](../../../../advanced-features/data-lists-management/index)
 
 In the screen shot below, we have selected 'Apps'.
 

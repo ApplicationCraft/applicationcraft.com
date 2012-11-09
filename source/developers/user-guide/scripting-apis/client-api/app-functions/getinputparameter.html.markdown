@@ -77,9 +77,9 @@ In all the above cases, you can read data as follows
 
 See Also:
 
- - [Passing data to Apps in the query string](../../../product-guide/advanced-features/passing-parameters-into-apps/passing-data-to-apps-in-the-qu.htm)
+ - [Passing data to Apps in the query string](../../../product-guide/advanced-features/passing-parameters-into-apps/passing-data-to-apps-in-the-qu)
 
- - [Passing in data with Embedded Apps and Javascript](../../../product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded-.htm)
+ - [Passing in data with Embedded Apps and Javascript](../../../product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded-)
 
 Related Video:
 

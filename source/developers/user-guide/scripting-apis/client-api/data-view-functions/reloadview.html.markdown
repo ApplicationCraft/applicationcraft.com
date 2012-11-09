@@ -31,5 +31,5 @@ Reloads the specified View with fresh data.
 
 See Also:
 
- - [resetView()](resetview.htm)
+ - [resetView()](resetview)
 

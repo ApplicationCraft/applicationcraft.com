@@ -69,13 +69,13 @@ Example
 
 See Also:
 
- - [showMessage()](showmessage.htm)
+ - [showMessage()](showmessage)
 
- - [showPrompt()](showprompt.htm)
+ - [showPrompt()](showprompt)
 
- - [showPagePopup()](../page-functions/showpagepopup.htm)
+ - [showPagePopup()](../page-functions/showpagepopup)
 
- - [closePagePopup()](../page-functions/closepagepopup.htm)
+ - [closePagePopup()](../page-functions/closepagepopup)
 
 Related Videos:
 

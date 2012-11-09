@@ -39,13 +39,13 @@ In addition, there is the On Scroll event. This event is called whenever the tim
 
 See Also:
 
- - [fitData()](fitdata.htm)
+ - [fitData()](fitdata)
 
- - [scroll()](scroll.htm)
+ - [scroll()](scroll)
 
- - [scrollTo()](../../useful-browser-functions/scrollto.htm)
+ - [scrollTo()](../../useful-browser-functions/scrollto)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index.htm)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
 
- - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index.htm)
+ - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index)
 

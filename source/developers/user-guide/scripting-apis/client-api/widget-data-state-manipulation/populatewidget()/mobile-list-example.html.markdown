@@ -29,5 +29,5 @@ In example below, the map object contains all 6 available properties supported b
     }
    
 
-If your data array is not as simple as the one shown above (some AJAX calls can return complex, nested object structures) then read the [Complex JSON Examples](complex_json_example.htm) section to show you how to map these.
+If your data array is not as simple as the one shown above (some AJAX calls can return complex, nested object structures) then read the [Complex JSON Examples](complex-json-example) section to show you how to map these.
 

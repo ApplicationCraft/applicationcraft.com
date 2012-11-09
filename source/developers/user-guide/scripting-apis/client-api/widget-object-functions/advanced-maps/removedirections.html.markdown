@@ -19,5 +19,5 @@ Where you can remove all directions in one go
 
 ## See Also:
 
- - [getDirections()](getdirections.htm)
+ - [getDirections()](getdirections)
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You will need to create a special Distribution Certificate. This is tied to you, the developer, and you need only one for all your Distributed Apps. Please refer to the [Create Development Certificate](../setting-up-for-development/certificates.htm) section but be sure to select the Distribution tab and not the Development tab at the top before following the steps.
+You will need to create a special Distribution Certificate. This is tied to you, the developer, and you need only one for all your Distributed Apps. Please refer to the [Create Development Certificate](../setting-up-for-development/certificates) section but be sure to select the Distribution tab and not the Development tab at the top before following the steps.
 
-Once you have done this, make sure you refer to the section [Generate a new P12 Certificate](../setting-up-for-development/generating-a-p12-certificate.htm) . Again, be sure to select the Distribution tab and not the Development tab at the top before following the steps.
+Once you have done this, make sure you refer to the section [Generate a new P12 Certificate](../setting-up-for-development/generating-a-p12-certificate) . Again, be sure to select the Distribution tab and not the Development tab at the top before following the steps.
 

@@ -19,7 +19,7 @@ Parameters
 <td width="20">
 </td>
 <td width="702">
-the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](../objects-titbits/ref-widget.htm) or other [widget object](../objects-titbits/widget-object.htm) functions.
+the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](../objects-titbits/ref-widget) or other [widget object](../objects-titbits/widget-object) functions.
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ The page 'BG Image' property should be specified as 'backgroundimage' or 'backgr
 
 ![properties](/img/docs/properties.png)
 
-You can also check the available properties for a specific widget using [debugProperties()](../app-functions/debugproperties.htm)
+You can also check the available properties for a specific widget using [debugProperties()](../app-functions/debugproperties)
 
 Example
 
@@ -58,15 +58,15 @@ Example
 
 See Also:
 
- - [setProperty()](setproperty.htm)
+ - [setProperty()](setproperty)
 
- - [\_widget](../objects-titbits/ref-widget.htm)
+ - [\_widget](../objects-titbits/ref-widget)
 
- - [Widget Object](../objects-titbits/widget-object.htm)
+ - [Widget Object](../objects-titbits/widget-object)
 
- - [debugProperties()](../app-functions/debugproperties.htm)
+ - [debugProperties()](../app-functions/debugproperties)
 
- - [Viewing Widget Properties](../../client-scripting-overview/debugging-ac-scripts/viewing-widget-properties.htm)
+ - [Viewing Widget Properties](../../client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
 
 Related Videos:
 

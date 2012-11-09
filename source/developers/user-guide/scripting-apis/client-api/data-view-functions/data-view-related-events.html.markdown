@@ -65,7 +65,7 @@ Grid, Repeater
 
 </td>
 <td width="1126">
-Called whenever a Grid or Repeater Widget has a row of data added (either from a Data View or the [setData()](../widget-data-state-manipulation/setdata.htm) or [populateWidget()](../widget-data-state-manipulation/populatewidget()/index.htm) functions
+Called whenever a Grid or Repeater Widget has a row of data added (either from a Data View or the [setData()](../widget-data-state-manipulation/setdata) or [populateWidget()](../widget-data-state-manipulation/populatewidget()/index) functions
 
 </td>
 </tr>
