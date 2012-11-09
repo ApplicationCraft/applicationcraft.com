@@ -8,12 +8,16 @@
 
     <% if content_for?(:meta_description) %>
       <meta name="description" content="<%= yield_content :meta_description %>">
+    <% elsif current_page.data.meta_description %>
+      <meta name="description" content="<%= current_page.data.meta_description %>">
     <% else %>
       <meta name="description" content="Visual Development in the cloud, for developers of all skill levels. Integrated code editing, drag and drop IDE, then just build once, run anywhere.">
     <% end %>
 
     <% if content_for?(:meta_keywords) %>
       <meta name="keywords" content="<%= yield_content :meta_keywords %>" />
+    <% elsif current_page.data.meta_keywords %>
+      <meta name="description" content="<%= current_page.data.meta_keywords %>">
     <% else %>
       <meta name="keywords" content="ide, development, developers, visual development, mobile development, cloud, drag and drop, application, app, application craft" />
     <% end %>
