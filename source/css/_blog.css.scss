@@ -78,6 +78,18 @@ body.blog {
         position: relative;
       }
 
+      img:not(.fancybox-image) {
+        vertical-align: middle;
+        display: inline-block;
+        padding: 4px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        @include box-shadow(0 1px 3px rgba(0,0,0,0.1));
+        @include border-radius(3px);
+        max-width: 200px;
+        height: inherit;
+      }
+
       .meta {
         text-align: center;
 
@@ -164,6 +176,34 @@ body.blog {
 
         @include apply-to(less-than, ipad-portrait) {
           text-align: center;
+        }
+      }
+
+      h2 {
+        margin: 1.6em 0 0.83em;
+      }
+
+      blockquote {
+        margin: 1.6em 40px 1em;
+
+        em {
+          font-style: normal;
+          font-size: 14px;
+          color: #000;
+        }
+
+        &:before{
+          content: '\201C';
+          font-family: serif;
+          font-style: normal;
+          font-weight: 700;
+          position: absolute;
+          font-size: 175px;
+          top: 40px;
+          left: 175px;
+          color: #f36050;
+          opacity: 0.3;
+          text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
         }
       }
     }
