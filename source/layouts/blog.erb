@@ -14,6 +14,9 @@
     <section class="posts">
 
       <% if is_blog_article? %>
+
+        <% content_for :meta_description, "#{current_article.title}. #{truncate strip_tags(current_article.body), :length => 200}" %>
+
         <article>
           <section class="meta">
             <p class="date"><%= link_to current_article.date.strftime('%B %e, %Y'), current_article %></p>
@@ -33,6 +36,7 @@
           <h1><%= link_to current_article.title, current_article %></h1>
           <p><%= yield %></p>
         </article>
+
       <% end %>
 
       <div id="disqus_thread"></div>
