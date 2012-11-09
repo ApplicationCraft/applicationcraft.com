@@ -16,6 +16,7 @@
       <% if is_blog_article? %>
 
         <% content_for :meta_description, "#{current_article.title}. #{truncate strip_tags(current_article.body), :length => 200}" %>
+        <% content_for :meta_keywords, current_article.tags.join(', ') %>
 
         <article>
           <section class="meta">
