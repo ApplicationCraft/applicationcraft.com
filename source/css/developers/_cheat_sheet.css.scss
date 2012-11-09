@@ -1,4 +1,5 @@
 /* Cheat Sheet */
+
 .pricing-cap {
   display: block;
   width: 164px;
@@ -12,12 +13,19 @@
 
 .pricing-cap h3 { color: #FFFFFF; }
 
-.pkg { font-size: 13px; }
+
+#cheatsheet {
+  background-color: #EFEDE7;
+  border: 1px solid #DDD;
+  @include border-radius(6px);
+  @include box-shadow(1px 1px 3px #DDD);
+}
+
 .pkg ul { list-style: none outside none; clear: both;}
 .pkg ul.large li.divided strong, .pkg ul.large li b, .tooltip b{font-weight:400}
 .pkg .button, .tooltip{font-weight:300}
 
-.pkg{min-height:100px; position:relative; width:164px; padding:8px 14px 12px; float:left}
+.pkg{min-height:100px; position:relative; width:164px; padding:0 14px 12px; float:left}
 .pkg .middle, .pkg .top, .pkg .bottom {width:184px; position:absolute; }
 .pkg .middle { top:12px; bottom:12px; z-index:-1; }
 .pkg .top, .pkg .bottom {height:12px; top:0; background-position:-184px -8px}
@@ -25,19 +33,19 @@
 .pkg h3{font-size:20px; text-align:center; padding:12px 10px; text-transform:uppercase; }
 .pkg h4{font-size:20px; text-align:center; padding:8px 5px; color:#ffffff; margin: 25px 0; line-height: 1.1em;}
 .pkg hr{background-color:#b858fc; border:none; height:10px; background-position:-562px 0px; margin:0}
-.pkg ul li{border-bottom:1px solid #bbb; padding:12px 12px; position:relative; font-size:13px; overflow:hidden}
+.pkg ul li{border-bottom:1px solid #ccc; padding:12px 12px; position:relative; font-size:13px; overflow:hidden}
 .pkg ul.large li{padding-left:82px; line-height:1.2em}
 .pkg ul.large li b{position:absolute; left:10px; font-size:22px; line-height:50px; top:0px; width:65px; text-align:center}
 .pkg ul.large li.long{padding-top:15px; padding-bottom:17px}
-.pkg ul.large li.divided{height:42px; padding:7px 7px; font-size:13px; text-align:center}
+.pkg ul.large li.divided{height:42px; padding:10px 7px 12px; font-size:13px; text-align:center}
 .pkg ul.large li.divided strong{font-size:22px; display:block; padding-top:1px}
 .pkg ul.large li.divided strong.long{font-size:22px}
 
 .pkg ul.cheat li{margin-left:0 !important; padding-left:82px; line-height:2px;}
 .pkg ul.cheat li b{position:absolute; left:10px; font-size:22px; line-height:50px; top:0px; width:65px; text-align:center}
 .pkg ul.cheat li.long{padding-top:15px; padding-bottom:17px}
-.pkg ul.cheat li.divided{height:6px; padding:9px 7px; font-size:11px; text-align:center}
-.pkg ul.cheat li.divided strong{font-size:11px; display:block; padding-top:0px; margin: 0; font-weight: bold; text-transform: uppercase; color: #777;}
+.pkg ul.cheat li.divided{height:10px; padding:9px 7px; font:12px monospace; text-align:center}
+.pkg ul.cheat li.divided strong{font:11px museo_sans_rounded_300regular; display:block; padding-top:0px; margin: 0; font-weight: bold; text-transform: uppercase; }
 .pkg ul.cheat li.divided strong.long{font-size:22px}
 
 .pkg ul.details li{padding:13px 4px 13px 36px}
