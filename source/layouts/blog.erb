@@ -14,6 +14,9 @@
     <section class="posts">
 
       <% if is_blog_article? %>
+
+        <% content_for :meta_description, "#{current_article.title}. #{truncate strip_tags(current_article.body), :length => 200}" %>
+
         <article>
           <section class="meta">
             <p class="date"><%= link_to current_article.date.strftime('%B %e, %Y'), current_article %></p>
@@ -33,6 +36,7 @@
           <h1><%= link_to current_article.title, current_article %></h1>
           <p><%= yield %></p>
         </article>
+
       <% end %>
 
       <div id="disqus_thread"></div>
@@ -72,14 +76,17 @@
 
 
 <script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'applicationcraftwebsite'; // required: replace example with your forum shortname
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'applicationcraftwebsite'; // required: replace example with your forum shortname
 
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function () {
-    var s = document.createElement('script'); s.async = true;
-    s.type = 'text/javascript';
-    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
 </script>
+
+<%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+<%= stylesheet_link_tag 'lib/rainbow/github' %>

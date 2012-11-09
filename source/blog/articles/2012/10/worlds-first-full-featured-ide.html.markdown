@@ -16,10 +16,10 @@ The answers received were kind of obvious, mentioning services such as Cloud9 an
 An IDE or Integrated Development Environment "is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger". The important part here is that an IDE is a lot
 more than just a source code editor, and that building applications involves a lot more than just writing code.
 
+##What is a Cloud Based IDE?
+
 ![Application Craft IDE](/img/blog/blog-ide-worlds-first.png "Application Craft IDE for desktop and mobile apps") 
 
-
-##What is a Cloud Based IDE?
 A cloud based IDE is actually almost the same as a traditional IDE, except for one major thing; the entire enviroment is hosted and run in the Cloud. There is nothing to download or install, and no heavy desktop software to use.
  
 ##So what then, is a Visual IDE?

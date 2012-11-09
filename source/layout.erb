@@ -3,9 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><%= current_page.data.title %> - Application Craft</title>
-    <meta name="description" content="Visual Development in the cloud, for developers of all skill levels. Integrated code editing, drag and drop IDE, then just build once, run anywhere.">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+    <title><%= current_page.data.title %> - Application Craft</title>
+
+    <% if content_for?(:meta_description) %>
+      <meta name="description" content="<%= yield_content :meta_description %>">
+    <% elsif current_page.data.meta_description %>
+      <meta name="description" content="<%= current_page.data.meta_description %>">
+    <% else %>
+      <meta name="description" content="Visual Development in the cloud, for developers of all skill levels. Integrated code editing, drag and drop IDE, then just build once, run anywhere.">
+    <% end %>
+
+    <% if content_for?(:meta_keywords) %>
+      <meta name="keywords" content="<%= yield_content :meta_keywords %>" />
+    <% elsif current_page.data.meta_keywords %>
+      <meta name="description" content="<%= current_page.data.meta_keywords %>">
+    <% else %>
+      <meta name="keywords" content="ide, development, developers, visual development, mobile development, cloud, drag and drop, application, app, application craft" />
+    <% end %>
 
     <%= stylesheet_link_tag 'normalize', 'boilerplate' %>
     <%= yield_content :head %>
