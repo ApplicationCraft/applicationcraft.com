@@ -1,0 +1,12 @@
+---
+title: "Registering your Widget within your Account"
+active_menu_item: developers
+class_name: developers
+full_width: true
+---
+
+
+Once you have built your own widget, you will need to register it within your Account on the system. This is done through the Console as described in the [Widgets](../../product-guide/the-console/console-tabs/more/widgets/index.htm) section of the Console documentation.
+
+Once registered, this widget will be available to all developers in your Application Craft account.
+
