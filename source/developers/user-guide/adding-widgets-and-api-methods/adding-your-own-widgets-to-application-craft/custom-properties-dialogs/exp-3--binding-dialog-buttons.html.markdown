@@ -1,0 +1,38 @@
+---
+title: "EXP 3 : binding dialog buttons"
+active_menu_item: developers
+class_name: developers
+full_width: true
+---
+
+
+The AC Framework provides support for OK, Cancel and Use Style buttons. Use Style is optional but you should use OK and Cancel.
+
+    //
+    : Button binding for OK, Cancel and Use Style buttons
+    var title = 'example title',
+    ok = 'ok',
+    cancel = 'cancel',
+    useTheme = 'Use theme',//optional
+    btn = {};
+    btn[cancel] = function() {
+    self.closeDialog(); // if closeDialog has undefined param, it's ony close, without onChange event
+    };
+    btn[useTheme] = function() {
+    self.closeDialog(""); //if param in NOT undefined, it will be set new value to cell
+    };
+    btn[ok] = function() {
+    if (self.validateValue()){
+    self.closeDialog(self.collectValue());
+    }
+    };
+   
+
+EXP 3
+
+You will generally not need to modify the btn[cancel] function; it simply shuts down the dialog without doing anything with changes. The btn[ok] is the most important function as this is responsible for validating the dialog contents (optional) and then saving the data.
+
+You are responsible for writing both the [self.validateValue()](exp_5__this_validatevalue.htm) and [self.collectValue()](exp_6__this_collectvalue.htm) functions as explained in the following topics.
+
+self.closeDialog() will pass back the javascript object that is stored as the widget property value. This object is the same object as processed by the [edit()](exp_2__this_edit.htm) and [setValue()](exp_1__setvalue.htm) functions.
+

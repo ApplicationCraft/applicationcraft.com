@@ -1,0 +1,13 @@
+---
+title: "OBJ2XML"
+active_menu_item: developers
+class_name: developers
+full_width: true
+---
+
+
+Converts an javascript object to an XML string.
+
+Please refer to [OBJ2XML()](obj2xml.htm) in the Client API documentation
+
+.

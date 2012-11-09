@@ -1,0 +1,30 @@
+---
+title: "Polylines"
+active_menu_item: developers
+class_name: developers
+full_width: true
+---
+
+
+Polylines are formed as a set of latitude/longitude pairs. You can control the visual properties.
+
+Below is some code that shows how to create a new line using [addPolyline()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline.htm) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](../using-populatewidget.htm) function.
+
+    function handler_actionBtn7_onClick(mouseev){
+    if (polylineObj) {
+    app.w('googleMapsAdvanced').removeOverlay(polylineObj);
+    polylineObj = null;
+    } else {
+    var polylinePath = [
+    [37.772323, -122.214897],
+    [21.291982, -157.821856],
+    [-18.142599, 178.431],
+    [-27.46758, 153.027892]
+    ];
+    polylineObj = app.w('googleMapsAdvanced').addPolyline(polylinePath);
+    }
+    }
+   
+
+Please refer to [addPolyline()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline.htm) in the [Client API](../../../../scripting-apis/client-api/index.htm) section for full details on the function.
+
