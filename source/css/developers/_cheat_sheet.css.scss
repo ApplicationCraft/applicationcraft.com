@@ -44,7 +44,7 @@
 .pkg ul.cheat li{margin-left:0 !important; padding-left:82px; line-height:2px;}
 .pkg ul.cheat li b{position:absolute; left:10px; font-size:22px; line-height:50px; top:0px; width:65px; text-align:center}
 .pkg ul.cheat li.long{padding-top:15px; padding-bottom:17px}
-.pkg ul.cheat li.divided{height:10px; padding:9px 7px; font:12px monospace; text-align:center}
+.pkg ul.cheat li.divided{padding:9px 7px; font:12px monospace; text-align:center}
 .pkg ul.cheat li.divided strong{font:11px museo_sans_rounded_300regular; display:block; padding-top:0px; margin: 0; font-weight: bold; text-transform: uppercase; }
 .pkg ul.cheat li.divided strong.long{font-size:22px}
 
@@ -73,10 +73,15 @@
 .pkg li.no-border a{color:#666; text-decoration:underline; font-size:15px; display:block; padding-top:6px}
 .pkg li.no-border a:hover{color:#888}
 
-.tooltip{position:absolute; left:410px; top:40px; width:275px; height:160px; z-index:9; left:0;}
-.tooltip.right{background-position:-666px -257px}
+.tooltip{
+  position:absolute;
+  left:410px;
+  top:40px;
+  width:275px; z-index:9;
+  left:0;
+  background-color: #333;
+  @include border-radius(6px);
+  @include box-shadow(1px 1px 12px #444);
+}
 .tooltip .inner{padding:14px 32px 14px 14px; color:#fff; font-size:13px; line-height:16px}
-.tooltip.right .inner{padding-right:14px; padding-left:32px; }
-.tooltip.bottom{width:220px; height:70px}
-.tooltip.bottom .inner{padding-left:20px; padding-right:20px; padding-top:16px}
 .tooltip b{font-size:15px; display:block; padding-bottom:8px; }

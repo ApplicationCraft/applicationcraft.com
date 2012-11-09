@@ -144,6 +144,7 @@
     <!-- <script src="/js/vendor/protofluid.min.js"></script> -->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     <%= javascript_include_tag 'main' %>
+    <%= yield_content :foot %>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
