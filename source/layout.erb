@@ -78,7 +78,7 @@
       <%= yield %>
     <% end %>
 
-    <%= partial :price_banner %>
+    <%= partial :price_banner unless current_page.data.hide_price_banner %>
 
     <footer>
       <section>
