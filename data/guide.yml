@@ -9,37 +9,37 @@ tree:
     old_url: '/revisions/current/docs/user-guide/index.htm'
   -
     title: Account Management
-    url: '/product/resources/guide/account-management'
+    url: '/developers/user-guide/account-management'
     old_url: '/revisions/current/docs/user-guide/index.html?account_management.htm'
     tree:
       -
         title: Notifications
-        url: '/product/resources/guide/account-management/notifications'
+        url: '/developers/user-guide/account-management/notifications'
         old_url: '/revisions/current/docs/user-guide/index.html?notifications.htm'
       -
         title: Quick Start Menu
-        url: '/product/resources/guide/account-management/quick-start-menu'
+        url: '/developers/user-guide/account-management/quick-start-menu'
         old_url: '/revisions/current/docs/user-guide/index.html?quick_start_menu.htm'
   -
     title: The Console
-    url: '/product/resources/guide/the-console'
+    url: '/developers/user-guide/the-console'
     old_url: '/revisions/current/docs/user-guide/index.html?the_console.htm'
     tree:
       -
         title: General Screen Behaviour
-        url: '/product/resources/guide/the-console/general-screen-behaviour'
+        url: '/developers/user-guide/the-console/general-screen-behaviour'
         old_url: 'etc'
         tree:
           -
             title: Console Tabs
-            url: '/product/resources/guide/the-console/console-tabs'
+            url: '/developers/user-guidee/the-console/console-tabs'
             old_url: 'etc'
             tree:
               -
                 title: Apps
-                url: '/product/resources/guide/the-console/console-tabs/apps'
+                url: '/developers/user-guide/the-console/console-tabs/apps'
                 old_url: 'etc'
               -
                 title: Resources
-                url: '/product/resources/guide/the-console/console-tabs/resources'
+                url: '/developers/user-guide/the-console/console-tabs/resources'
                 old_url: 'etc'
