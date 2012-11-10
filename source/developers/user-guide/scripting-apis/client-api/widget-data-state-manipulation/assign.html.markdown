@@ -46,7 +46,7 @@ You should also note that spaces and other characters are combined literally, me
 
 The following example will assign something like "ACME Widgets Inc. (Michael Caine)"
 
-    app.assign("lblSummary",@"[Form.Widgets.txtCompany]@([Form.Widgets.txtFirstName]@[Form.Widgets.txtLastName])");
+    app.assign("lblSummary", "[Form.Widgets.txtCompany] ([Form.Widgets.txtFirstName] [Form.Widgets.txtLastName])");
    
 
 ## Expression Tokens
@@ -137,7 +137,7 @@ AC allows Parameter Groups and within them Parameters to be defined. For example
 </td>
 </tr>
 </table>
-## See Also:
+## See Also
 
  - [Reading & Writing Simple Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets)
 

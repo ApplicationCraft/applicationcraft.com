@@ -87,7 +87,7 @@ Link
 <td width="15">
 </td>
 <td width="779">
-## Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also [mobileDial()](../../scripting-apis/client-api/app-functions/mobiledial) , [mobileEmail()](../../scripting-apis/client-api/app-functions/mobileemail) , [mobileSMS()](../../scripting-apis/client-api/app-functions/mobilesms)
+Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: [mobileDial()](../../scripting-apis/client-api/app-functions/mobiledial) , [mobileEmail()](../../scripting-apis/client-api/app-functions/mobileemail) , [mobileSMS()](../../scripting-apis/client-api/app-functions/mobilesms)
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Select to set the page to jump to if clicked.('Forward' and 'Back' behave in sam
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -455,7 +455,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -626,7 +626,7 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Label (Common)](../common/label)
 

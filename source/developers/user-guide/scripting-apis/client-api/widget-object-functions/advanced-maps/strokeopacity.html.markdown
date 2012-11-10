@@ -28,16 +28,16 @@ Set the Overlay line opacity
 
 How you can set the line opacity for overlays
 
-**Example**
+## **Example**
 
      
-    app.w('googleMapsAdvanced').strokeOpacity(0.3@+@0.7@*@Math.random());@@//Set@Random@Opacity
+    app.w('googleMapsAdvanced').strokeOpacity(0.3 + 0.7 * Math.random());  //Set Random Opacity
     app.w('googleMapsAdvanced').strokeOpacity(0.7);
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [strokeColor()](strokecolor.htm)
 

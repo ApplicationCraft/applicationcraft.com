@@ -22,7 +22,7 @@ The functions [instanceCreate()](../../../../../scripting-apis/client-api/instan
 
 Application Craft also takes care of [Relationships](../../instance-relationships-in-detail/) , [Integrity Checks](../../uniqueness-and-integrity/) and [Instance Naming](../../instance-names) in the foreign App.
 
-**See Also:**
+## **See Also**
 
  - [Sharing](../../../../the-console/sharing)
 

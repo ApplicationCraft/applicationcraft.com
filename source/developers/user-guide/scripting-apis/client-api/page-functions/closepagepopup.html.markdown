@@ -30,7 +30,7 @@ Close a page that is shown as a popup dialog (using showPagePopup()).
 
 The page event On Page Leave will be called after closePagePopup().
 
-## See Also:
+## See Also
 
  - [pageJump()](pagejump.htm)
 

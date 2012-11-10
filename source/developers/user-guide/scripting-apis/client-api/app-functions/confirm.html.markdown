@@ -85,7 +85,7 @@ If running as a Native App, then this is passed through to [this Phonegap functi
      
    
 
-## See Also:
+## See Also
 
  - [alert()](refalert.htm)
 

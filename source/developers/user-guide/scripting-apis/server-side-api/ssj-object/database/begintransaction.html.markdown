@@ -20,27 +20,27 @@ This method initiates a new database transaction for the database referenced by 
 
 This example shows how a record is first inserted into the 'customers' table and then a person is inserted into the 'people' table. If there is any error with the 'customers' insertion then the transaction is rolled back so the customer insert will not happen.
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
     cObj.beginTransaction();
-    try@{
-    cObj.insert("customers",@cust.data);
-    try@{
-    cObj.insert("people",@person.data);
+    try {
+    cObj.insert("customers", cust.data);
+    try {
+    cObj.insert("people", person.data);
     cObj.commit();
     return("ok");
     }
-    catch(e)@{
+    catch(e) {
     cObj.rollback();
     return(e);
     }
     }
-    catch(e)@{
+    catch(e) {
     cObj.rollback();
     return(e);
     }
    
 
-## See Also:
+## See Also
 
  - [commit()](commit.htm)
 

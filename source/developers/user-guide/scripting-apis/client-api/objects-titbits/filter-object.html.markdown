@@ -18,8 +18,8 @@ You would need an array with 2 elements as shown below. Each element is an expre
 
     ["{person.gender}=[Form.Widgets.ddGender]","{person.age}>[Form.Widgets.numMinAge])OR({person.age}>[Form.Widgets.numMinAge])}]
      
-    app.setProperty("widgetName",@'filter',@objArray);
-    widgetObj.prop('filter',@objArray);
+    app.setProperty("widgetName", 'filter', objArray);
+    widgetObj.prop('filter', objArray);
    
 
 **IMPORTANT** : If your expression contains and OR, then each phrase MUST be enclosed in brackets. This requirement will be removed in due course in an update that will allow complex expressions to be built into a single element.

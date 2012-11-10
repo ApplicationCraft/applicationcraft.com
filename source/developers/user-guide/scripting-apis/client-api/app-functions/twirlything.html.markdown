@@ -92,12 +92,12 @@ You do not need to use twirlyThing() explicitly when data is being loaded from a
 
 ## Example
 
-    app.twirlyThing(app,@true);@@//@locks@down@the@entire@App@and@shows@the@twirly@thing@hourglass.
-    app.twirlyThing(app,@false);@@//@unlocks@down@the@entire@App@and@removes@the@twirly@thing@hourglass.
-    app.twirlyThing('ListboxName',@true);@@//@Locks@down@just@the@listbox@Widget@named@'ListboxName'
-    app.twirlyThing(myListboxObj',@true);@@//@Locks@down@just@the@listbox@widget@object
+    app.twirlyThing(app, true);  // locks down the entire App and shows the twirly thing hourglass.
+    app.twirlyThing(app, false);  // unlocks down the entire App and removes the twirly thing hourglass.
+    app.twirlyThing('ListboxName', true);  // Locks down just the listbox Widget named 'ListboxName'
+    app.twirlyThing(myListboxObj', true);  // Locks down just the listbox widget object
      
-    function@handler_actionBtn_onClick(mouseev){
+    function handler_actionBtn_onClick(mouseev){
      app.twirlyThing(app, true);
      
         setTimeout(function(){
@@ -107,7 +107,7 @@ You do not need to use twirlyThing() explicitly when data is being loaded from a
     }
      
      
-    function@handler_page2_onPageShow(){
+    function handler_page2_onPageShow(){
         app.twirlyThing(app, false);    
     }
      
@@ -115,7 +115,7 @@ You do not need to use twirlyThing() explicitly when data is being loaded from a
 
 Example usage to show twirly thing between page navigation
 
-**See Also:**
+## **See Also**
 
  - [Twirly Thing/Hourglass](../../../product-guide/advanced-features/twirly-thing/hourglass/)
 

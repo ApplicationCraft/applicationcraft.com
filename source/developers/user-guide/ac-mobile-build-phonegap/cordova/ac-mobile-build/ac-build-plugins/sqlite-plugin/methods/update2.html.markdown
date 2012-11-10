@@ -99,13 +99,13 @@ error callback function.
 This function is used to update rows in the database
 
      
-    db.update("test",@{name@:@"New@Username"@},@"id@=@?",@[1],@function(count){@
+    db.update("test", {name : "New Username" }, "id = ?", [1], function(count){ 
         console.log("count="+count); 
-    },@function(er){
+    }, function(er){
         console.log("error="+er);
     });
      
    
 
-**Example**
+## **Example**
 

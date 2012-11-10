@@ -77,7 +77,7 @@ Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-fu
 
 This example shows instanceCreate() being used on a 'local' instance (if the first parameter is omitted then this always saves local Instance data). This means that it will create a new Instance and will save all fields within the current App that are set to store their data in the database. Also notice how it only uses the rdb callback function. This lets the App refresh a Grid once it knows that the data is fully stored within the database and can be read back.
 
-    function@cbCompSave(error,@status)@{
+    function cbCompSave(error, status) {
         if (error === null) {
             app.refreshData('gridCompanies');
         } else {
@@ -86,7 +86,7 @@ This example shows instanceCreate() being used on a 'local' instance (if the fir
         g_CompNew=false;
     }
      
-    function@handler_btnCompSave_onClick(mouseev){
+    function handler_btnCompSave_onClick(mouseev){
          if (g_CompNew){
              app.instanceCreate(undefined, undefined, cbCompSave);
          } 
@@ -94,7 +94,7 @@ This example shows instanceCreate() being used on a 'local' instance (if the fir
              app.instanceUpdate(undefined, undefined, cbCompSave);
          }
     }
-    function@handler_btnContSave_onClick(mouseev){
+    function handler_btnContSave_onClick(mouseev){
         if(g_ContactNew) {
             app.instanceCreate('dcContacts', undefined, function(error, status){ 
                 if(error===null) {
@@ -116,7 +116,7 @@ This example shows instanceCreate() being used on a 'local' instance (if the fir
             });    
         }
     }
-    function@handler_btnContSave_onClick(mouseev){
+    function handler_btnContSave_onClick(mouseev){
         if(g_ContactNew) {
             app.instanceCreate('dcContacts', undefined, undefined)
             };
@@ -131,7 +131,7 @@ The next example specifies the Container Widget as the first parameter, so AC wi
 
 The next example specifies the Container Widget as the first parameter, so AC will update the external database with  the content that currently is loaded into that Container. Please read the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for details on working with external databases.
 
-## See Also:
+## See Also
 
  - [instanceXxxx Callback functions](instancexxxx-callback-function.htm)
 

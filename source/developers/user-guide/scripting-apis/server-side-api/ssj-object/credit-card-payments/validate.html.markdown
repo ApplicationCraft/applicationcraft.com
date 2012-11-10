@@ -38,7 +38,7 @@ Please refer to the [sample application](../../../../product-guide/advanced-feat
 
 This function should be called when you have populated your server a
 
-    function@zooz_validate(token)@{
+    function zooz_validate(token) {
         var tokens = ssj.zooz.validate(token, params, isSandbox);
         return tokens;
     }

@@ -31,7 +31,7 @@ Returns a string array of majorVersion, minorVersion and fixVersion.
 ## Example
 
      
-    app.getACVersion();@@//@returns@[1,20,0]
+    app.getACVersion();  // returns [1,20,0]
      
    
 

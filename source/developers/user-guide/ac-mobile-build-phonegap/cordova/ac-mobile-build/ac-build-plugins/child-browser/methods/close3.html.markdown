@@ -12,7 +12,7 @@ full_width: true
 
 Closes the ChildBrowser.
 
-**Example**
+## **Example**
 
     window.plugins.childBrowser.close();
    

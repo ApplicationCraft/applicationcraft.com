@@ -10,7 +10,7 @@ Application Craft has a large number of defined property types. The following li
 
 If we look an individual case
 
-    backgroundColor@:@{name:@"backgroundColor",@type@:@"color",@set:@"backgroundColor",@get:@"backgroundColor",@alias@:@"widget_bgcolor"},
+    backgroundColor : {name: "backgroundColor", type : "color", set: "backgroundColor", get: "backgroundColor", alias : "widget_bgcolor"},
      
         /* General property group */
         general : {
@@ -92,7 +92,7 @@ If we look an individual case
             dataWithValue: {name: "dataWithValue", type : "flist", set: "dataWithValue", get: "dataWithValue", alias : "widget_records"},
             dataWithValueListBox: {name: "dataWithValue", type : "fListCheckBox", set: "dataWithValue", get: "dataWithValue", alias : "widget_records"},
             assocData: {name: "data", type : "moblistData", set: "data", get: "data", alias : "widget_records"},
-    //@@@@@@@@defaultData@:@{name:@"",@type:@"",@set:@"",@get:@"",@alias@:@"widget_defaultvalues"},
+    //        defaultData : {name: "", type: "", set: "", get: "", alias : "widget_defaultvalues"},
             chartData : {name: "data", type : "flist", set: "data", get: "data", alias : "widget_records", visible: false},
             hiddenData : {name: "data", type : "flist", set: "data", get: "data", alias : "widget_records", visible: false},
             multySeries : {name: "multySeries", type : "multyseries", set: "multySeries", get: "multySeries", alias : "widget_multy_series"},
@@ -227,7 +227,7 @@ If we look an individual case
             cellsSize : {name: "cellsSize", type : "tableCellsSize", get: "cellsSize", set: "cellsSize", alias: "widget_cells_size"},
             cellsStyle : {name: "cellsStyle", type: "tableCellsStyle", get: "cellsStyle", set: "cellsStyle", alias: "widget_cells_style"},
             width : {name: "width", type : "pixels", get: "width", set: "width", alias: "widget_width"},
-    //@@@@@@@@maxWidth@:@{name:@"maxWidth",@type@:@"pixels",@get:@"maxWidth",@set:@"maxWidth",@alias:@"widget_max_width"},
+    //        maxWidth : {name: "maxWidth", type : "pixels", get: "maxWidth", set: "maxWidth", alias: "widget_max_width"},
             height : {name: "height", type : "pixels", get: "height", set: "height", alias: "widget_height"},
             pWidthHidden : {name: "pWidth", type : "widthpercents", get: "pWidth", set: "pWidth", alias: "widget_pwidth", inTheme: true, visible: false},
             widthHidden : {name: "width", type : "pixels", get: "width", set: "width", alias: "widget_width", visible: false},
@@ -238,7 +238,7 @@ If we look an individual case
             maxHeight : {name: "maxHeight", type : "pixels", get: "maxHeight", set: "maxHeight", alias: "widget_max_height", visible: false, inTheme: true },
             sizes : {name: "sizes", type : "sizesopt", set: "updateLayoutSizes", get: "getLayoutSizes", alias: "widget_sizes"},
             //imgWidth : {name: "width", type : "imgsizew", get: "width", set: "width", alias: "widget_width"},
-    //@@@@@@@@imgHeight@:@{name:@"height",@type@:@"imgsizeh",@get:@"height",@set:@"height",@alias:@"widget_height"},
+    //        imgHeight : {name: "height", type : "imgsizeh", get: "height", set: "height", alias: "widget_height"},
             anchors : {name: "anchors", type : "anchor", get: "anchors", set: "anchors", alias : "widget_anchors"},
             zindex : {name: "zindex", type : "ro", get: "zindex", set: "zindex", alias : "widget_zindex"},
             centered : {name: "centered", type : "boolean", set: "centered", get: "centered", alias : "widget_centered", inTheme: true},

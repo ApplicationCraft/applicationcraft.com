@@ -10,7 +10,7 @@ The My User Variables  section allows Users to submit their personal informatio
 
 Also where you can change your logon password to your account.
 
-**See Also:**
+## **See Also**
 
  - [Change Password](../../../account-management/change-password)
 

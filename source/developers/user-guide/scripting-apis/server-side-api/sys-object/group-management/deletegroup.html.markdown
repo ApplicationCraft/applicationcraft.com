@@ -43,7 +43,7 @@ Deletes the Group with the specified Group ID. If there is an error due to permi
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

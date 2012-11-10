@@ -28,16 +28,16 @@ Set the Overlay fill opacity
 
 How you can set the fill opacity for overlays
 
-**Example**
+## **Example**
 
      
-    app.w('googleMapsAdvanced').fillOpacity(0.3@+@0.7@*@Math.random());@@//Set@Random@Opacity
+    app.w('googleMapsAdvanced').fillOpacity(0.3 + 0.7 * Math.random());  //Set Random Opacity
     app.w('googleMapsAdvanced').fillOpacity(0.7);
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [strokeColor()](strokecolor.htm)
 

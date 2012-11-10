@@ -8,7 +8,7 @@ full_width: true
 
 This event is triggered as soon as a user is logged into the App.
 
-    function@handler_server_onUserLogIn(user){
+    function handler_server_onUserLogIn(user){
     }
    
 

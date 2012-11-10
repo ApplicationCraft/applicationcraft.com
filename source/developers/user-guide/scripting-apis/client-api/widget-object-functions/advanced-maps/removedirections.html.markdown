@@ -12,14 +12,14 @@ removeDirections()
 
 Where you can remove all directions in one go
 
-**Example**
+## **Example**
 
       app.w('googleMapsAdvanced').removeDirections();
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [getDirections()](getdirections.htm)
 

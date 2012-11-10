@@ -31,11 +31,11 @@ This displays a debug message to the Debug Console Window of your Chrome, Firebu
 
 ## Example
 
-    app.debugOutput('My@Message');@//@Writes@a@simple@string
-    app.debugOutput(obj);@@//@Or@view@a@Javascript@object@as@a@JSON@string
+    app.debugOutput('My Message'); // Writes a simple string
+    app.debugOutput(obj);  // Or view a Javascript object as a JSON string
    
 
-## See Also:
+## See Also
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 

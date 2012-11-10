@@ -95,7 +95,7 @@ Or
 <td width="1">
 </td>
 <td width="710">
-       {appId:@"1235-12341-1234",@
+       {appId: "1235-12341-1234", 
         pageName: "page1", 
         formInstanceId: "1234-12354-1234", 
         twirlyThing:{bgColor: "silver"}, // full twirlyThing object described below
@@ -106,12 +106,12 @@ Or
         bgColor:"ffffff,
         opacity:100
        }
-       someParam1:@"someValue",@
+       someParam1: "someValue", 
         someParam2: 123
         someParamN: paramN
        }
        app.switchApp('7eb99414-8584-4fbe-a9ba-3fa8d3f50df6');
-       app.switchApp({appId:@"6ec70b3b-4cdb-468d-b0bc-0e6230aa771c",@pageName:@"my@page",@formInstance:'7eb99414-8584-4fbe-a9ba-3fa8d3f50df6'});
+       app.switchApp({appId: "6ec70b3b-4cdb-468d-b0bc-0e6230aa771c", pageName: "my page", formInstance:'7eb99414-8584-4fbe-a9ba-3fa8d3f50df6'});
       
 
 </td>
@@ -150,7 +150,7 @@ There are two ways to pass parameters between Apps.
 
 If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](../../../widget-properties-events/app-properties)
 
-## See Also:
+## See Also
 
  - [parentApp()](parentapp.htm)
 

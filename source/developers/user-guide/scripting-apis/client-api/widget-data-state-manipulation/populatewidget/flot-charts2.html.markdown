@@ -12,7 +12,7 @@ You can use [populateWidget()]() or [setData()](../setdata) to populate a [Flot 
 
 This example shows how you can have data in an array and populate it into line chart. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example.htm) ).
 
-    var@data@=@[
+    var data = [
             {'series': 'first', 'lbl': 'Jan', 'data': 12},
             {'series': 'first', 'lbl': 'Jul', 'data': 15},
             {'series': 'first', 'lbl': 'Jun', 'data': 10},

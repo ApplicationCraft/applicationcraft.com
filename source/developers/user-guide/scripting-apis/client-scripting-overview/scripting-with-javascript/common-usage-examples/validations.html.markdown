@@ -8,15 +8,15 @@ full_width: true
 
 This is another very commonly used feature. It allows users to write simple or very complex validations.
 
-    function@SimpleValidation(){
+    function SimpleValidation(){
      
-    if(app.getValue("dropdownAge").label<18@&&@app.getValue("txtMovieRating")=="18")@{
-    app.showMessage("Minors@may@not@purchase@18@rated@movies");
+    if(app.getValue("dropdownAge").label<18 && app.getValue("txtMovieRating")=="18") {
+    app.showMessage("Minors may not purchase 18 rated movies");
     }
     }
      
      
-    app.highlightWidgets(["If@set@to@true,@the@user@is@able@to@drag@and@drop@the@widget@with@the@mouse@at@run@timeColor",@"shapeColor"],@"#22ff22",@40);
+    app.highlightWidgets(["If set to true, the user is able to drag and drop the widget with the mouse at run timeColor", "shapeColor"], "#22ff22", 40);
    
 
 ## Highlighting Offending Widgets
@@ -29,7 +29,7 @@ You can also use the [checkMandatory()](../../../client-api/widget-functions/che
 
 You should also refer to [Interacting with Widgets](../widget-reading-writing/) for full details on how to read data from the various Widget types.
 
-**See Also:**
+## **See Also**
 
  - [showConfirm()](../../../client-api/app-functions/showconfirm)
 

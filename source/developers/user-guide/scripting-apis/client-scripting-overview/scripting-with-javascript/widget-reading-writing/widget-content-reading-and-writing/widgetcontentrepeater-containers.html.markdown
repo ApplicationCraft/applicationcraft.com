@@ -12,16 +12,16 @@ Repeater Containers are similar in concept to Grids but they are structured diff
 
 If you want to extract the contents of a Repeater, you use the app.getData('RepeaterWidget') function. This returns an object array
 
-    objRepeater@=@app.getData('myRepeater');
+    objRepeater = app.getData('myRepeater');
     alert(app.OBJ2JSON(objRepeater));
      
      
-    [@{"lblItem":"Tenon@Saw","lblPrice":"19.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
+    [ {"lblItem":"Tenon Saw","lblPrice":"19.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Dovetail Saw","lblPrice":"39.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Jack Plane No.4","lblPrice":"69.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Jointer Plane No.7","lblPrice":"29.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Firmer Chisel 1\"","lblPrice":"29.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"}]
-    function@handler_application_onAppStart(){
+    function handler_application_onAppStart(){
         
         // Generate some dummy data for the Repeater
          var data = {"rowitems": {

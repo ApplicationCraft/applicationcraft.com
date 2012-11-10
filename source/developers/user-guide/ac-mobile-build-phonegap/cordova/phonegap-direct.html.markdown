@@ -24,8 +24,8 @@ To download your App from Application Craft, you will need to go to the Console,
 
 In the downloaded App, you will need to make a modification to your index.html file. Locate the script tag and you will see the phonegap.js file is referenced. This is the correct file for Phonegap:Build but not for using Phonegap directly.
 
-    <script@src="phonegap.js">
-    <script@src="phonegap-1.2.0.js">
+    <script src="phonegap.js">
+    <script src="phonegap-1.2.0.js">
    
 
 You should modify this to point to the version on Phonegap you are using, for example

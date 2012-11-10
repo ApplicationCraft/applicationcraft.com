@@ -47,12 +47,12 @@ You can also specify page transitions using the optional parameters. This offers
 
 ## Example
 
-    app.pagePrevious();@@//@go@to@previous@sequential@page
-    app.pagePrevious('flip');@@@@//@go@to@previous@sequential@page@using@the@'flip'@transition@effect
-    app.pagePrevious('flip',true);@@//@go@to@previous@sequential@page@using@the@reverse@'flip'@transition@effect
+    app.pagePrevious();  // go to previous sequential page
+    app.pagePrevious('flip');    // go to previous sequential page using the 'flip' transition effect
+    app.pagePrevious('flip',true);  // go to previous sequential page using the reverse 'flip' transition effect
    
 
-## See Also:
+## See Also
 
  - [pageBack()](pageback.htm)
 

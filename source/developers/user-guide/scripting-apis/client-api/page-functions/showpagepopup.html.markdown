@@ -32,7 +32,7 @@ To control the appearance of popup pages, you may want to set the Page's border 
 
 The page events On Page Show will be called after showPagePopup() to allow you to initialize any fields within the dialog. You use [closePagePopup()](closepagepopup.htm) to remove the page dialog.
 
-## See Also:
+## See Also
 
  - [pageJump()](pagejump.htm)
 

@@ -163,7 +163,7 @@ Where you can set the relationships to other apps (see [Relational Apps & Instan
 </tr>
 <tr>
 <td width="169">
-X
+## X
 
 </td>
 <td width="17">
@@ -518,7 +518,7 @@ Custom CSS Classes
 <td width="16">
 </td>
 <td width="755">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>

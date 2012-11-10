@@ -16,7 +16,7 @@ You can also dynamically control the SMTP senders parameters using [sendEmail()]
 
  - [Adding your SMTP Parameters](adding-your-smtp-parameters)
 
-## See Also:
+## See Also
 
  - [sendEmail()](../../../../../../scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2)
 

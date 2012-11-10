@@ -12,19 +12,19 @@ The following examples illustrate good ways to handle printing
 
 This is the quick and dirty way, with no help for the user as to what is going on, and a label widget with then show 'Open PDF here' when it is ready
 
-    function@handler_actionBtn_onClick(mouseev){
+    function handler_actionBtn_onClick(mouseev){
         params = {
-    pages:@['page1'],
-    instance:@app.getInstanceData(),
-    orientation:@'landscape',@//'Portrait',@@@@@@@@@
+    pages: ['page1'],
+    instance: app.getInstanceData(),
+    orientation: 'landscape', //'Portrait',         
         };
         
         
-    app.printApp(app.id(),params,@function(err,@url){
+    app.printApp(app.id(),params, function(err, url){
             if(!err)
             {
                 app.setProperty('label','label',"<a href='" + url + "' target='_blank'>open PDF here</a>");
-    //@window.open(url);@@@if@you@want@to@automatically@open@
+    // window.open(url);   if you want to automatically open 
             }        
         });
     }
@@ -40,7 +40,7 @@ This way is much nicer and shows a blocking hourglass / twirly thing that remain
 
 This approach lets the user carry on using the App but tells the user when the PDF is ready.
 
-## See Also:
+## See Also
 
  - [printApp()](../../../scripting-apis/client-api/app-functions/printapp)
 

@@ -22,15 +22,15 @@ gets column n+1 from the currently selected row of the Grid
     app.getValue('grid')['Company'];
     var numSelectedRows = app.getValue('grid').length; // number of selected rows in the Grid
     var colValue = app.getValue('grid')[0];
-    rowObj@=@app.w('grid').getRow(ind);
-    arrivalTime@=@rowObj.data['Arrival'];
-    arrivalTime@=@app.getData('grid').rows[index].data[2];
-    app.setValue('grid',@{column:@1},@'Cell@Data');@
-    //sets@the@2nd@column@of@the@currently@selected@row@to@'Cell@Data'.
+    rowObj = app.w('grid').getRow(ind);
+    arrivalTime = rowObj.data['Arrival'];
+    arrivalTime = app.getData('grid').rows[index].data[2];
+    app.setValue('grid', {column: 1}, 'Cell Data'); 
+    //sets the 2nd column of the currently selected row to 'Cell Data'.
      
      
-    app.setValue('grid',@{row:2,@column:@3},@'Cell@Data');@
-    //writes@'Cell@Data'@into@the@4th@column@of@the@3rd@row@of@the@grid.
+    app.setValue('grid', {row:2, column: 3}, 'Cell Data'); 
+    //writes 'Cell Data' into the 4th column of the 3rd row of the grid.
      
    
 
@@ -48,7 +48,7 @@ alternatively,
 
 This can be done in two ways.
 
-## See Also:
+## See Also
 
  - [Reading & Writing the entire Grid contents](../widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
 

@@ -28,7 +28,7 @@ Widget identifier - string, string array, object or object array
 
 This forces the specified Widget(s) to request its data from the data source.
 
-## See Also:
+## See Also
 
  - [enableView()](../data-view-functions/enableview)
 

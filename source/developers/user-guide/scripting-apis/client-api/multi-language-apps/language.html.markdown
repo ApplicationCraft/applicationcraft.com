@@ -36,7 +36,7 @@ Switches the display language of the App to the language code specified in strLa
      
    
 
-## See Also:
+## See Also
 
  - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 

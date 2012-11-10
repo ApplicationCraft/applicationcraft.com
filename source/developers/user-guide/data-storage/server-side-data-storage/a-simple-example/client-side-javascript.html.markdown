@@ -30,14 +30,14 @@ You should handle errors within the callback function. The SSJ function always r
 
 ## Full Client Side Code
 
-    function@handler_application_onAppStarted(){
-    refreshList();@//@used@to@initially@load@the@ListBox@from@the@database
+    function handler_application_onAppStarted(){
+    refreshList(); // used to initially load the ListBox from the database
     }
      
-    var@nSelCustomer;
+    var nSelCustomer;
      
-    //@Refresh@the@Customer@listbox
-    function@refreshList()@{
+    // Refresh the Customer listbox
+    function refreshList() {
         
         // Prepare an object to pass to the SSJ function
         p = {action:"GetCustomers"};
@@ -70,8 +70,8 @@ You should handle errors within the callback function. The SSJ function always r
         
     }
      
-    //@Add@a@New@Customer
-    function@handler_btnNew_onClick(mouseev){
+    // Add a New Customer
+    function handler_btnNew_onClick(mouseev){
         
         // Prepare an object to pass to the SSJ function
         p = {action:"AddCustomer", data:{CompanyName:app.getValue("txtCompany"), country:app.getValue("txtCountry")}};
@@ -87,8 +87,8 @@ You should handle errors within the callback function. The SSJ function always r
         }, [p]);    
     }
      
-    //@Update@the@selected@Company
-    function@handler_btnSave_onClick(mouseev){
+    // Update the selected Company
+    function handler_btnSave_onClick(mouseev){
         
         // If no Customer is selected then do nothing
         if(nSelCustomer===undefined || nSelCustomer==0) {
@@ -109,12 +109,12 @@ You should handle errors within the callback function. The SSJ function always r
         }, [p]);       
     }
      
-    function@handler_btnRefresh_onClick(mouseev){
+    function handler_btnRefresh_onClick(mouseev){
         refreshList();      
     }
      
-    //@new@Customer@selected@by@clicking@in@the@listbox
-    function@handler_lbCustomers_onSelectionChange(newValue,@oldValue){
+    // new Customer selected by clicking in the listbox
+    function handler_lbCustomers_onSelectionChange(newValue, oldValue){
         
         // Prepare an object to pass to the SSJ function
         nSelCustomer = newValue.value;
@@ -133,7 +133,7 @@ You should handle errors within the callback function. The SSJ function always r
         }, [p]);         
     }
      
-    function@handler_btnDelete_onClick(mouseev){
+    function handler_btnDelete_onClick(mouseev){
      
         // If no Customer is selected then do nothing
         if(nSelCustomer===undefined || nSelCustomer==0) {

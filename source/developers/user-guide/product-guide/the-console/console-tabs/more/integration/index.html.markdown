@@ -14,7 +14,7 @@ Application Craft handles data access as shown:
 
 Connections and Queries are built within the console, often by a Data Administrator. AC App Designers will however only need to access Queries that they have access to.
 
-**See Also:**
+## **See Also**
 
  - [Connections](../../connections/)
 

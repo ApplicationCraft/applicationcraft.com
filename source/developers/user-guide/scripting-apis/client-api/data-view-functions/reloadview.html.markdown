@@ -28,7 +28,7 @@ The name (or Widget ID) of the View
 
 Reloads the specified View with fresh data.
 
-## See Also:
+## See Also
 
  - [resetView()](resetview.htm)
 

@@ -46,18 +46,18 @@ If your callback function returns true, then further processing will be aborted.
 
 The first code snippet shows how coordinates are read from the Repeater Container's child widgets
 
-    var@container@=@app.w("PanelContainer");@@//@Get@a@Repeater@Container@widget@object
-    var@map@=@{};@@//@Initialize@an@empty@Javascript@object
+    var container = app.w("PanelContainer");  // Get a Repeater Container widget object
+    var map = {};  // Initialize an empty Javascript object
     container.traverseChildren(function(child){
         if (child.id() != container.id()){  // Ignore the container itself in this example
             map[child.name()] = {left: child.left(), top: child.top()}; // add the coordinate of the child widget
         }
     });
-    var@output@=@JSON.stringify(map);@//@This@object@can@now@be@stored@somewhere@(see@next@example)
-    var@rep@=@app.w('repeatContainer');@@//@Get@a@Repeater@Container@widget@object
-    //@Next@line@recreates@some@sample@data,@as@might@have@been@created@in@the@above@snippet@and@saved@in@var@output
-    var@input@=@'{"text":{"left":12,"top":86},"label3":{"left":13,"top":43},"label2":{"left":56,"top":17}}';@//@for@example
-    data@=@JSON.parse(input);@//@Convert@string@representation@of@object@into@javascript@object
+    var output = JSON.stringify(map); // This object can now be stored somewhere (see next example)
+    var rep = app.w('repeatContainer');  // Get a Repeater Container widget object
+    // Next line recreates some sample data, as might have been created in the above snippet and saved in var output
+    var input = '{"text":{"left":12,"top":86},"label3":{"left":13,"top":43},"label2":{"left":56,"top":17}}'; // for example
+    data = JSON.parse(input); // Convert string representation of object into javascript object
     rep.traverseChildren(function(child){
         var node = data[child.name()];
         if (node){

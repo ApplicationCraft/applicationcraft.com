@@ -50,10 +50,10 @@ You should note that this function returns an array of Connection objects for th
 
 ## Example
 
-    objArray@=@ssj.getConnectionByName("Classic@Cars");
-    cObj@=@objArray[0];@@@//@This@assumes@that@there@is@only@a@single@Connection@called@"Classic@Cars".
-    selectObj@=@cObj.select().from('customers').order('companyName');
-    result@=@cObj.exec(selectObj);
+    objArray = ssj.getConnectionByName("Classic Cars");
+    cObj = objArray[0];   // This assumes that there is only a single Connection called "Classic Cars".
+    selectObj = cObj.select().from('customers').order('companyName');
+    result = cObj.exec(selectObj);
     return(result);
      
    

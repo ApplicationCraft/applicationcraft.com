@@ -8,7 +8,7 @@ full_width: true
 
 The server is about to create a new App instance. You can perform logic on the server side at this point and then decide whether to prevent the instance being created by returning false from the event.
 
-    function@handler_server_onInstanceCreate(user,@instance){
+    function handler_server_onInstanceCreate(user, instance){
     }
    
 

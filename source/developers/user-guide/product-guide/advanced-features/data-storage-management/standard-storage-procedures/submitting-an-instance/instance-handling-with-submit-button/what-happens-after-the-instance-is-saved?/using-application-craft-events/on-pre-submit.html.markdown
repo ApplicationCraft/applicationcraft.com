@@ -14,7 +14,7 @@ IMPORTANT
 
 See the following javascript code example;
 
-    function@handler_application_onPreSubmit(savingOptions){
+    function handler_application_onPreSubmit(savingOptions){
         // perform some validation or checks here
         if(myCondition==false) {
             savingOptions.abortSaving = true;

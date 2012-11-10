@@ -28,7 +28,7 @@ The name (or Widget ID) of the View
 
 This resets all drill-down filters associated with the specified Data View. All Widgets that have their Listen property set to true will then automatically reload their data.
 
-## See Also:
+## See Also
 
 [reloadView()](reloadview.htm)
 

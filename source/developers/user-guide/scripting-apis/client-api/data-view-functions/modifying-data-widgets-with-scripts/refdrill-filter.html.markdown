@@ -12,7 +12,7 @@ You can modify a Widget's Drill Filter in two ways
 
  - Use the [drillDownBroadcast()](../drilldownbroadcast) function to add your own filter expression to the View's dynamic drill filter.
 
-## See Also:
+## See Also
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 

@@ -44,11 +44,11 @@ This is a useful method when you need to handle security properly. For example, 
 
 ## Example
 
-    ssj.setSessionObject("userID",@varUserID);
-    ssj.setSessionObject("userObject",@{userID:varUserID,@userName:strUserName});
+    ssj.setSessionObject("userID", varUserID);
+    ssj.setSessionObject("userObject", {userID:varUserID, userName:strUserName});
    
 
-## See Also:
+## See Also
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 

@@ -104,19 +104,19 @@ Please note: The highlighting is handled with CSS shadow. This is set to render 
 
 ## Example
 
-    //@Check@that@the@email@field@has@been@filled
-    var@valid@=@app.checkMandatory(2,@"txtEmail");
+    // Check that the email field has been filled
+    var valid = app.checkMandatory(2, "txtEmail");
      
-    //@Check@that@all@fields@specified@in@the@array@have@been@filled@in
-    var@valid@=@app.checkMandatory(2,@["txtFirstName",@"txtLastName",@"txtEmail",@"timeRegion"],@undefined,@100);
+    // Check that all fields specified in the array have been filled in
+    var valid = app.checkMandatory(2, ["txtFirstName", "txtLastName", "txtEmail", "timeRegion"], undefined, 100);
      
-    //@valid@is@an@array@containing@any@widgets@that@failed@the@test
-    if(valid.length>0)@{
+    // valid is an array containing any widgets that failed the test
+    if(valid.length>0) {
         app.showMessage("Please complete all required fields.", "Validation Error");
     }
    
 
-## See Also:
+## See Also
 
  - [highlightWidgets()](highlightwidgets.htm)
 

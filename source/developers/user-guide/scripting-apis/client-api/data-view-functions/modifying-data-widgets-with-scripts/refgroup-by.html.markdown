@@ -17,7 +17,7 @@ Having modified the Group By property, you need to call [app.refreshData()](../.
     app.refreshData('widgetName');
    
 
-## See Also:
+## See Also
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 

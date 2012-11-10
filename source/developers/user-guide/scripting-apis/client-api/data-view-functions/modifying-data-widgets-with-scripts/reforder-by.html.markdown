@@ -12,12 +12,12 @@ Having modified the Order By Property, you need to call [app.refreshData()](../.
 
 ## Example
 
-    objOrder@=@{value:"{company.name}",@asc:true};
-    app.setProperty('widgetName',@'orderBy',@objOrder);
+    objOrder = {value:"{company.name}", asc:true};
+    app.setProperty('widgetName', 'orderBy', objOrder);
     app.refreshData('widgetName');
    
 
-## See Also:
+## See Also
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 

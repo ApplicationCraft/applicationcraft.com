@@ -16,7 +16,7 @@ However, if you can easily work with the array structure that getData() and setD
 
 All item data for the Mobile List widget is described in the following Javascript object
 
-    {@"value":"1",@//@If@you@are@storing@data@in@Application@Craft,@this@value@will@get@stored
+    { "value":"1", // If you are storing data in Application Craft, this value will get stored
       "label":"United Kingdom", // appears as list content
       "image": imgUrl,   // image url if required
       "divider": "false",  // true if divider should be shown
@@ -24,13 +24,13 @@ All item data for the Mobile List widget is described in the following Javascrip
       "aside": "Short Text",  // appears on the right of thee content in smaller font
       "action": id    // page jump action id (generally for internal use only)
      }
-    {@"label":"Go",@//@appears@as@list@content
+    { "label":"Go", // appears as list content
       "icon": "none",   // an icon name
       "action": id    // page jump action id (generally for internal use only)
     }
-    lstItems@=@app.w('myMobileList').getData();@@//@get@all@list@items@from@the@list
-    lstItems[0].count@=@12;@@@//@modify@the@count@field@in@the@first@row@to@11
-    app.setData('myMobileList',@lstItems);@//@write@the@whole@array@back
+    lstItems = app.w('myMobileList').getData();  // get all list items from the list
+    lstItems[0].count = 12;   // modify the count field in the first row to 11
+    app.setData('myMobileList', lstItems); // write the whole array back
    
 
 If populating a Navbar widget then the following object is used

@@ -12,7 +12,7 @@ You can get an address from either specific lat/lng coordinates or from your cur
         alert("Address : " + data[0].formatted_address);
     }
      
-    function@handler_actionBtn13_onClick(mouseev){
+    function handler_actionBtn13_onClick(mouseev){
         // Gets an address from a specific coordinate
         app.w('googleMapsAdvanced').getAddress(getAddressCallback, 41.878113, -87.629798);
         // Gets the address of your current location

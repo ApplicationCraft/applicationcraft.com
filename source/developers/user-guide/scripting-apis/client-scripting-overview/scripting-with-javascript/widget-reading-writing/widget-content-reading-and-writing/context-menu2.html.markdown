@@ -10,14 +10,14 @@ The [Context Menu](../../../../../widget-properties-events/beta/context-menu) wi
 
 The following object is used
 
-    app.setData('contextMenu', @[
+    app.setData('contextMenu',  [
             ['Red', 'value'],
             ['Green', 'value2'],
             ['Blue', 'value3']
            ] );
      
     function handler_contextMenu_onPreShow(){
-    app.setData('contextMenu',@@[
+    app.setData('contextMenu',  [
             ['Red', 'value'],
             ['Green', 'value2'],
             ['Blue', 'value3']

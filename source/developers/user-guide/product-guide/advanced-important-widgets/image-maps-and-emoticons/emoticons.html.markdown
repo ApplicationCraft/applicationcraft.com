@@ -60,7 +60,7 @@ Col 1 = The selection values in your Slider
 
 Col 2 = The URL of your Images to associate to the Slider Value selected
 
-## See Also:
+## See Also
 
  - [Image](../../../widget-properties-events/common/image#imagemap)
 

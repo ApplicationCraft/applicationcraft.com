@@ -10,7 +10,7 @@ Polylines are formed as a set of latitude/longitude pairs. You can control the v
 
 Below is some code that shows how to create a new line using [addPolyline()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](../using-populatewidget) function.
 
-    function@handler_actionBtn7_onClick(mouseev){
+    function handler_actionBtn7_onClick(mouseev){
         if (polylineObj) {
             app.w('googleMapsAdvanced').removeOverlay(polylineObj);
             polylineObj = null;

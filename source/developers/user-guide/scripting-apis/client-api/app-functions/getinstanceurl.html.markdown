@@ -32,10 +32,10 @@ This retrieves a url that can be used to load a specific App Instance in a brows
 
 This example gets the url of the currently running Instance. Note that the [Instance.ID] token will not be valid until an Instance has been either saved or loaded. When you create a new instance in an App it has no instance ID until saved.
 
-    myUrl@=@app.getInstanceURL(app.getEnvValue("[Instance.Id]"));
+    myUrl = app.getInstanceURL(app.getEnvValue("[Instance.Id]"));
    
 
-## See Also:
+## See Also
 
  - [instanceLoad()](../instance-data-functions/instanceload)
 

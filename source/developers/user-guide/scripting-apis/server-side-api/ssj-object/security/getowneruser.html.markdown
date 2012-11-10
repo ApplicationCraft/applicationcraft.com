@@ -12,7 +12,7 @@ full_width: true
 
 Returns information about the User that is the owner of the App currently running
 
-    obj@=@ssj.getOwnerUser();
+    obj = ssj.getOwnerUser();
      
     {
         id:'user id',

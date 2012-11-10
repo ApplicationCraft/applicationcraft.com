@@ -36,7 +36,7 @@ Label widgets, Image widget and Mobile Action button have a 'Link' property wher
      
    
 
-## See Also:
+## See Also
 
  - [mobileEmail()](mobileemail.htm)
 

@@ -51,7 +51,7 @@ Performs string translations within your App. This is typically used if your app
      
    
 
-## See Also:
+## See Also
 
  - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 

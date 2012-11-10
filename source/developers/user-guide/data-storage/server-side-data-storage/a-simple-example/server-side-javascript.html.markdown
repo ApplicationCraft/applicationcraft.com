@@ -12,9 +12,9 @@ Server Side Javascript can be found in the AC IDE in the usual; place. In the co
 
 If you write your handlers as public, then you will need to explicitly include these within your App's private Server Scripts by adding the following line of code (in our example, you would add it to the DB Demo virtual file).
 
-    include('Virtual@Folder@1|Virtual@Folder@2|Virtual@File');
-    //@This@SSJ@function@handles@all@DB@methods@for@the@AC@Demo@App
-    function@acDemoWS(p)@{
+    include('Virtual Folder 1|Virtual Folder 2|Virtual File');
+    // This SSJ function handles all DB methods for the AC Demo App
+    function acDemoWS(p) {
      
         // Get the Connection to the Database
         // We are handling the error with try/catch
@@ -25,7 +25,7 @@ If you write your handlers as public, then you will need to explicitly include t
         catch(e) {
             throw("Connection Error");
         }
-    debugger;@@
+    debugger;  
         // Call the relevant DB Handler
         
         console.log(p.action);
@@ -46,44 +46,44 @@ If you write your handlers as public, then you will need to explicitly include t
         
     }
      
-    //@Handles@all@SELECT@type@DB@fetches
+    // Handles all SELECT type DB fetches
      
-    //@Get@a@list@of@all@Customers
-    function@_getCustomers(cObj)@{
+    // Get a list of all Customers
+    function _getCustomers(cObj) {
         selectObj = cObj.select().from('customers').order('companyName');
         result = cObj.exec(selectObj);
         return result;
     }
      
-    //@Get@just@one@Customer@by@ID
-    function@_getCustomer(cObj,@p)@{
+    // Get just one Customer by ID
+    function _getCustomer(cObj, p) {
         selectObj = cObj.select().from("customers").where('id=?', p.id);
         result = cObj.exec(selectObj);
         return result;
     }
      
-    //@Get@total@number@of@records
-    function@_getCustomerCount(cObj)@{
+    // Get total number of records
+    function _getCustomerCount(cObj) {
         selectObj = cObj.select().from({p: 'customers'},{totalRecs: new DbExpr('COUNT(*)')});
         result = cObj.exec(selectObj);
         return result;
     }
      
-    //@Add@a@new@customer@to@the@customers@table
-    function@_addNewCustomer(cObj,@p)@{
+    // Add a new customer to the customers table
+    function _addNewCustomer(cObj, p) {
         cObj.insert("customers", p.data);
         var x = cObj.lastInsertId();
         return x;
     }
      
-    //@Update@a@Company's@data
-    function@_updateCustomer(cObj,@p)@{
+    // Update a Company's data
+    function _updateCustomer(cObj, p) {
         cObj.update("customers", p.data,  cObj.quoteInto('id=?', p.id));
         return p.id;
     }
      
-    //@Delete@a@Company's@data
-    function@_deleteCustomer(cObj,@p)@{
+    // Delete a Company's data
+    function _deleteCustomer(cObj, p) {
         cObj.delete("customers", cObj.quoteInto('id=?', p.id));
         return p.id;
     }

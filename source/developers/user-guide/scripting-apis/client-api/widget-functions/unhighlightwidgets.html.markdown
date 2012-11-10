@@ -31,13 +31,13 @@ This enables you to remove the highlighting from any fields in your App, normall
 
 ## Example
 
-    app.unhighlightWidgets(["timeColor",@"shapeColor"]);@@@//@remove@highlighting@from@widgets@in@array
-    app.unhighlightWidgets(["timeColor"]);@@@@@@@@@@@@@@@@@//@remove@highlighting@from@a@single@widget
-    app.unhighlightWidgets();@@@@@@@@@@@@@@@@@@@@@@@@@@@@//@remove@all@highlighting@from@all@widgets
+    app.unhighlightWidgets(["timeColor", "shapeColor"]);   // remove highlighting from widgets in array
+    app.unhighlightWidgets(["timeColor"]);                 // remove highlighting from a single widget
+    app.unhighlightWidgets();                            // remove all highlighting from all widgets
      
    
 
-## See Also:
+## See Also
 
  - [checkMandatory()](checkmandatory.htm)
 

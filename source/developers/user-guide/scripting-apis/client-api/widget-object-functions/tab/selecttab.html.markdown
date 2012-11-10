@@ -15,6 +15,6 @@ Select a tab by index
 ## Example
 
      
-    app.w("Tab").selectTab(1);@//@Select@the@2nd@tab@in@the@tab@container
+    app.w("Tab").selectTab(1); // Select the 2nd tab in the tab container
    
 

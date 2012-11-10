@@ -14,5 +14,5 @@ Allows you to get the index of the current image.
 
 ## Example
 
-    app.w("Photoswipe").getCurrentImageIndex();@@
+    app.w("Photoswipe").getCurrentImageIndex();  
    

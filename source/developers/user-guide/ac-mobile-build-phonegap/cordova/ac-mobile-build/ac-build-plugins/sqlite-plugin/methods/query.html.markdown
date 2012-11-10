@@ -148,20 +148,20 @@ error callback function.
 ## Description
 
      
-    res@=@{@rows@:@[@{key:@value},@{key:@value1},@{key:@value1}@]@},@//@where@key@is@field@name
+    res = { rows : [ {key: value}, {key: value1}, {key: value1} ] }, // where key is field name
      
-    db.query("test",@["id",@"name"],@"count@>@?",@[100],@null,@null,@"name",@null,@function(res){@
+    db.query("test", ["id", "name"], "count > ?", [100], null, null, "name", null, function(res){ 
         for (var i in res.rows){ 
             for (var key in res.rows[i]){ 
                 console.log(key + "=" + res.rows[i][key] ); 
             } 
         } 
-    },@function(er){
+    }, function(er){
         console.log("error="+er);
     });
    
 
 This function is used to query a given table. The success callback function returns an object in the format of
 
-**Example**
+## **Example**
 

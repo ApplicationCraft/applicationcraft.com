@@ -32,10 +32,10 @@ Scrolls the browser contents by the specified number of pixels.
 
 ## Example
 
-    scrollBy(0,@100);@@//@Scrolls@100@pixels@lower
+    scrollBy(0, 100);  // Scrolls 100 pixels lower
    
 
-## See Also:
+## See Also
 
  - [Window Object](window-object.htm)
 

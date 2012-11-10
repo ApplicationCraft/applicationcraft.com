@@ -68,7 +68,7 @@ Sets the value of a User Parameter Group to the value specified, for the current
 
 The Callback function has the format callback(error), where error is true or false.
 
-## See Also:
+## See Also
 
  - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 

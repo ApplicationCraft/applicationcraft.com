@@ -28,7 +28,7 @@ the XML string to be converted
 
 Converts the supplied XML string to a Javascript object.
 
-## See Also:
+## See Also
 
  - [Data Conversion]() Functions
 

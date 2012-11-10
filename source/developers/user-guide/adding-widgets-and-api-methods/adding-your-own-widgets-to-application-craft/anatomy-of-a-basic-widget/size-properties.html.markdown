@@ -30,7 +30,7 @@ The Layout section of the property bar contains the following properties.
     aSizeProperty
     width
     height
-    pWidth@(%@width)
+    pWidth (% width)
    
 
 In order for your Widget to work with this mechanism, you should be sure to include these properties

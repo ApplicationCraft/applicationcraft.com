@@ -80,7 +80,7 @@ callback(error, instanceId)
 
 {instanceId} is the ID of the Instance loaded
 
-## See Also:
+## See Also
 
  - [switchApp()](../app-functions/switchapp)
 

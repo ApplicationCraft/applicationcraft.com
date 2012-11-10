@@ -8,7 +8,7 @@ full_width: true
 
 The following code is the full code required for a very simple property dialog. Where you see EXP, this corresponds to an explanation in the subsequent sections.
 
-    (function($,@gType)@{
+    (function($, gType) {
         if (!gType)
             return;
      
@@ -147,7 +147,7 @@ The following code is the full code required for a very simple property dialog. 
         };
         gType.dialogExample.prototype = new gType.dialogType;
      
-    })(jQuery,@jqSimpleGrid.types);
+    })(jQuery, jqSimpleGrid.types);
    
 
 **EXP 1**

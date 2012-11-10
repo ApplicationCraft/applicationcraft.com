@@ -41,21 +41,21 @@ a value to insert into the '?' token within strExpr
 Returns a string that is correctly escaped for the target database referenced by
 
     connectionObject
-    SELECT@*@FROM@bugs@WHERE@reported_by@=@variableName
-    SELECT@*@FROM@bugs@WHERE@reported_by@=@'O'Reilly'
-    strName@=@"O'Reilly";
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    sqlString@=@cObj.quoteInto("SELECT@*@FROM@bugs@WHERE@reported_by@=?",@strName);
+    SELECT * FROM bugs WHERE reported_by = variableName
+    SELECT * FROM bugs WHERE reported_by = 'O'Reilly'
+    strName = "O'Reilly";
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    sqlString = cObj.quoteInto("SELECT * FROM bugs WHERE reported_by =?", strName);
     cObj.exec(sqlString);
      
-    SELECT@*@FROM@bugs@WHERE@reported_by@=@'O\'Reilly'
-    nId@=@12345;
-    cObj@=@cObj.update("customers",@p.data,@'companyName='@+@nId);
-    strName@=@"O'Reilly";
-    cObj@=@cObj.update("customers",@p.data,@cObj.quoteInto('companyName=?',@strName));
+    SELECT * FROM bugs WHERE reported_by = 'O\'Reilly'
+    nId = 12345;
+    cObj = cObj.update("customers", p.data, 'companyName=' + nId);
+    strName = "O'Reilly";
+    cObj = cObj.update("customers", p.data, cObj.quoteInto('companyName=?', strName));
      
      
-    cObj.update("customers",@p.data,@
+    cObj.update("customers", p.data, 
             [cObj.quoteInto('companyName=?', p.companyname),cObj.quoteInto('region=?'), p.region)]        ]
     );
    
@@ -80,7 +80,7 @@ Any function that includes a WHERE type clause as a parameter (select(), update(
 
 Multiple WHERE type clauses are handled as an array, and all elements will be joined with 'AND'
 
-## See Also:
+## See Also
 
  - [quote()](quote.htm)
 

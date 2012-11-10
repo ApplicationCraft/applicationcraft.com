@@ -71,35 +71,35 @@ True(default)/False. If True will present a message to users if the app is not b
 
 All functions are called on the created PGSQLitePlugin object:
 
-    var@db@=@new@PGSQLitePlugin(name,@successOpenDatabaseFunction,@errorOpenDatabaseFunction)
+    var db = new PGSQLitePlugin(name, successOpenDatabaseFunction, errorOpenDatabaseFunction)
      
      
-    name@-@database@name
-    successOpenDatabaseFunction@-@success@callback@function,@return@arguments:
-    first@argument@-@object:@
+    name - database name
+    successOpenDatabaseFunction - success callback function, return arguments:
+    first argument - object: 
         obj.version - database version, 
         obj.status - number, 0 - database opened, 1 - database created, 2 - database created from resources
-    second@argument@-@db@-@database@object
-    errorOpenDatabaseFunction@-@error@callback@function
+    second argument - db - database object
+    errorOpenDatabaseFunction - error callback function
      
-    var@db@=@new@PGSQLitePlugin("testdb.sqlite3",@function(dbResult,@dbObject){
+    var db = new PGSQLitePlugin("testdb.sqlite3", function(dbResult, dbObject){
         console.log("Database status=" + dbResult.status);
         console.log("Database version=" + dbResult.version);
         db = dbObject;
-    },@function(err){
+    }, function(err){
         console.log("Error create database::err=" + err);
     });
      
      
    
 
-**Example**
+## **Example**
 
-**See**
+## **See**
 
  - [Methods](methods/)
 
-**See Also:**
+## **See Also**
 
  - [Mobile & Client Side Data Storage](../../../../../data-storage/mobile-client-side-data-storage/)
 

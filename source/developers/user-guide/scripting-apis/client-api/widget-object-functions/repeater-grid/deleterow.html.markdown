@@ -34,11 +34,11 @@ If no parameter is supplied, then for a Grid object it removes the selected row.
 
 These two show a specific row being deleted from a Grid or a Container
 
-    app.w('repeatContainer1').deleteRow(rowIndex);@@//@deletes@a@specific@row
+    app.w('repeatContainer1').deleteRow(rowIndex);  // deletes a specific row
     app.w('grid2').deleteRow(rowIndex);
      
     _widget.parent().rowIndex()
-    rowObj@=@app.w('myRepeater').deleteRow(_widget.parent().rowIndex());
+    rowObj = app.w('myRepeater').deleteRow(_widget.parent().rowIndex());
      
      
      
@@ -48,7 +48,7 @@ And this shows a typical example of a Delete button being pressed in a Repeater 
 
 **Important** : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](../general/parent) topic.
 
-## See Also:
+## See Also
 
  - [deleteRow()](deleterow.htm)
 

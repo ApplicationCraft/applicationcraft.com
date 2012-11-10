@@ -26,12 +26,12 @@ result **getOverlays** ()
 
 Allows you to  retrieve a list of all the available Overlay objects currently placed on the Map.
 
-**Example**
+## **Example**
 
     app.w('googleMapsAdvanced').getOverlays();
    
 
-**See Also:**
+## **See Also**
 
  - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
 

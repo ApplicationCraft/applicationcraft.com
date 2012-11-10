@@ -46,9 +46,9 @@ Before you can use any database methods, you first need to get a valid Connectio
 
 ## Example
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from('customers').order('companyName');
-    result@=@cObj.exec(selectObj);
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from('customers').order('companyName');
+    result = cObj.exec(selectObj);
     return(result);
      
    

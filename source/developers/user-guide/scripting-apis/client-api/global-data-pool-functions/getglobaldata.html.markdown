@@ -40,7 +40,7 @@ The name of the variable to retrieve from the Global Data Pool
 
 Retrieves data from a Global Data Pool variable.
 
-## See Also:
+## See Also
 
  - [switchApp()](../app-functions/switchapp)
 

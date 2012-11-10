@@ -36,7 +36,7 @@ When completed, press 'Send' and the notification will be received on your devic
 
 If you are working with multiple devices for testing you can check the id being used on your specific device by using:
 
-    window.plugins.XtifySDK.getXid(function(xid){},@function(error){});
+    window.plugins.XtifySDK.getXid(function(xid){}, function(error){});
    
 
 This is useful if you want to quickly get the Device ID so you can put use it within Xtify.

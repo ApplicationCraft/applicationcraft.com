@@ -30,7 +30,7 @@ This returns the row index of the currently selected row in a Grid Widget.
 
 Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
-## See Also:
+## See Also
 
  - [setSelectedRow()](setselectedrow.htm)
 

@@ -50,7 +50,7 @@ Please refer to the [sample application](../../../../product-guide/advanced-feat
 
 This function should be called when you have populated your server a
 
-    function@zooz_payment()@{
+    function zooz_payment() {
         var token = ssj.zooz.payment(params, isSandbox);
         return token;
     }

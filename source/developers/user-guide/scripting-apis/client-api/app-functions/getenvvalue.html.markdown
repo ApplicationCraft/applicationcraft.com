@@ -42,7 +42,7 @@ Environment information is sometimes useful if you want your App to be able to i
 
  - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/) .
 
-## **Workflow** See also [Workflow Functions](../workflow-functions/)
+**Workflow** See also: [Workflow Functions](../workflow-functions/)
 
  - [Stage.Id] - this is the Id of the Stage of your App
 
@@ -52,13 +52,13 @@ Environment information is sometimes useful if you want your App to be able to i
 
  - [Stage.Description] - this is the Description of the Stage of your App.
 
-**Example**
+## **Example**
 
-    app.getEnvValue("[User.Login]");@//get@the@authenticated@users@Login@
-    var@myUrl@=@app.getInstanceURL(app.getEnvValue("[Instance.Id]"));@//get@the@Instance@URL
+    app.getEnvValue("[User.Login]"); //get the authenticated users Login 
+    var myUrl = app.getInstanceURL(app.getEnvValue("[Instance.Id]")); //get the Instance URL
    
 
-## See Also:
+## See Also
 
  - [userParameterGet()](userparameterget.htm)
 

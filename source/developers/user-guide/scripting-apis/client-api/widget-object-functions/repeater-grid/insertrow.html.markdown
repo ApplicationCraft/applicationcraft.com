@@ -84,15 +84,15 @@ Read the [Interacting with Widgets](../../../client-scripting-overview/scripting
 
 The following examples inserts a new row at the top of a Repeater Container and then populates the named Widgets within that new row.
 
-    app.w('repeater').insertRow('top',@{'lblItem':'Hammer',@'lblPrice':9.55});
+    app.w('repeater').insertRow('top', {'lblItem':'Hammer', 'lblPrice':9.55});
      
      
-    app.w('grid').insertRow('top',@['Hammer',@9.55]);
+    app.w('grid').insertRow('top', ['Hammer', 9.55]);
    
 
 and this one does the same to a Grid
 
-## See Also:
+## See Also
 
  - [deleteRow()](deleterow.htm)
 

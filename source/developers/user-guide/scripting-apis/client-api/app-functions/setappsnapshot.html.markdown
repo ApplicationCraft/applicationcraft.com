@@ -34,14 +34,14 @@ This is especially useful when used in conjunction with the [switchApp()](switch
 
 ## Example
 
-    //@When@a@button@is@pressed,@we@switch@to@another@App
-    function@handler_actionBtn1_onClick(mouseev){
+    // When a button is pressed, we switch to another App
+    function handler_actionBtn1_onClick(mouseev){
         app.setGlobalData('stateVar', app.getAppSnapshot());      // put the Snapshot into the Global Data Pool with the name 'stateVar'
         app.switchApp('03489a4a-34aa-4d7e-a4a4-207c15511143');    // Switch to another App
     }
      
-    //@This@event@executes@when@the@App@starts.@
-    function@handler_application_1_onAppStarted(){
+    // This event executes when the App starts. 
+    function handler_application_1_onAppStarted(){
         stateObj = app.getGlobalData('stateVar');
         app.clearGlobalData('stateVar'); // remove 'stateVar' from the Pool
         if(stateObj!==undefined) {
@@ -51,7 +51,7 @@ This is especially useful when used in conjunction with the [switchApp()](switch
      
    
 
-## See Also:
+## See Also
 
  - [getAppSnapshot()](getappsnapshot.htm)
 

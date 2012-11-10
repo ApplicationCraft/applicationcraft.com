@@ -35,10 +35,10 @@ This takes a string and produces a Hash from that string. A hash is an encrypted
 
 ## Example
 
-    strHashValue@=@ssj.hash(strUserPassword);
+    strHashValue = ssj.hash(strUserPassword);
    
 
-## See Also:
+## See Also
 
  - [checkHash()](checkcryptblowfish.htm)
 

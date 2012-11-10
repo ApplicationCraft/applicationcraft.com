@@ -32,13 +32,13 @@ This debug function instructs AC to collect the widget data values into an objec
 
 ## Example
 
-    watchVar@=@app.debugValues(["firstName",@"Email",@"Listbox"]);
-    watchSingleVar@=@app.debugValues('widgetName');
+    watchVar = app.debugValues(["firstName", "Email", "Listbox"]);
+    watchSingleVar = app.debugValues('widgetName');
     debugger;
       
    
 
-## See Also:
+## See Also
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 

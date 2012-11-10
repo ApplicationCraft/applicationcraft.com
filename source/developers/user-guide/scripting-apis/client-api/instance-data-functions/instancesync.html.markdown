@@ -79,7 +79,7 @@ Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-fu
 
 This example synchronizes the contents of a Repeater Container with the database. It was populated by a Data View (getting data from a Query that contains data from only a single App, no JOINs).
 
-    function@handler_abSync_onClick(mouseev){
+    function handler_abSync_onClick(mouseev){
         app.instanceSync("rcReadings", undefined, function(error,status){
             if(error===null){
                 app.showMessage("Success","Readings Sync Successful");
@@ -91,7 +91,7 @@ This example synchronizes the contents of a Repeater Container with the database
      
    
 
-## See Also:
+## See Also
 
  - [instanceXxxx Callback functions](instancexxxx-callback-function.htm)
 

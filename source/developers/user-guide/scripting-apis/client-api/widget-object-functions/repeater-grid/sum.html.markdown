@@ -58,5 +58,5 @@ Calculates the sum of either the column in a Grid or a Widget across all rows of
 
 This calculates the total of the 'lblTotals' widget cross all Repeater rows and writes the result to the 'lblGrandTotal' widget.
 
-    app.setValue("lblGrandTotal",@app.w("rptOrders").sum("lblTotal"));
+    app.setValue("lblGrandTotal", app.w("rptOrders").sum("lblTotal"));
    

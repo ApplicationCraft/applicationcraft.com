@@ -7,7 +7,7 @@ full_width: true
 
 
      
-    function@createUserInstance()@{
+    function createUserInstance() {
         // Create the Instance in the DB
         app.instanceCreate(undefined, /*cdb callback*/ undefined,/*rdb callback*/ function(error,result) {
             if(error) {
@@ -25,16 +25,16 @@ full_width: true
           });    
     }
      
-    function@handler_btnSignup_onSuccess(userId){
+    function handler_btnSignup_onSuccess(userId){
         // Copy the main signup page fields to the settings page
         app.assign("txtSettingsLoginName", "[Form.Widgets.txtEmail]");
         app.assign("txtSettingsFullName","[Form.Widgets.txtFullName]");
         createUserInstance();        
     }
      
-    //@This@function@is@only@needed@if@there@is@a@chance@that@a@user@account@gets@created@manually@by@an@Admin
-    //@Otherwise,@you@can@be@sure@that@the@Signup@process@will@create@the@instance
-    function@callbackCheckUser(error,@data)@{
+    // This function is only needed if there is a chance that a user account gets created manually by an Admin
+    // Otherwise, you can be sure that the Signup process will create the instance
+    function callbackCheckUser(error, data) {
         if(error) {
             app.showMessage("Error", "Error fetching data");
         } 
@@ -62,13 +62,13 @@ full_width: true
         }  
     }
      
-    function@handler_application_onAppStarted(){
+    function handler_application_onAppStarted(){
         // Get rid of the label text so they do not look messy
         app.setValue('lblPwConfirm', '');        
         app.setValue('lblPwStr', '');
     }
      
-    function@handler_btnSignin_onSuccess(userId){
+    function handler_btnSignin_onSuccess(userId){
         // Check to see that the user has an App Instance. If not, then create one now
         // getViewData runs a query that locates the user name in the 'Signin Signup' App via the "Tutorial Auth" query
         app.getViewData("Signup Signin", ["{Signup Signin.instance_id}", "{Signup Signin.txtEmail}", 
@@ -79,7 +79,7 @@ full_width: true
         return false;                
     }
      
-    function@handler_btnSettingsSave_onClick(mouseev){
+    function handler_btnSettingsSave_onClick(mouseev){
         app.instanceUpdate(undefined, /* CDB Callback */ function(error, result) {
             if(error) {
                 alert("Error saving Settings data");
@@ -89,16 +89,16 @@ full_width: true
         });
     }
      
-    function@handler_btnSettingsCancel_onClick(mouseev){
+    function handler_btnSettingsCancel_onClick(mouseev){
         // Switch to main App
         app.switchApp('af48a1cf-908c-4572-964d-fcb14bd2b7be');        
     }
      
-    function@handler_btnSignup_onFailure(message){
+    function handler_btnSignup_onFailure(message){
         alert("Unable to create user account: " + message);        
     }
      
-    function@handler_btnSignin_onFailure(message){
+    function handler_btnSignin_onFailure(message){
          alert("Unable to login: " + message);
     }
      

@@ -70,11 +70,11 @@ Please be aware that iOS handles alert in a different manner and it can it to tr
 
 ## Example
 
-    app.alert('Your@data@was@successfully@saved',@undefined,@'My@App@Name',@'Done');
+    app.alert('Your data was successfully saved', undefined, 'My App Name', 'Done');
      
    
 
-## See Also:
+## See Also
 
  - [confirm()](confirm.htm)
 

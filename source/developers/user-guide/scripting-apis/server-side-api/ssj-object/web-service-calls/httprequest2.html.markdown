@@ -99,7 +99,7 @@ If you need to get access to returned Header data and response codes, then pleas
 
 [ssj.getLatestError()](../miscellaneous/getlatesterror) should be used if you want to get full error information where httpRequest() returns false.
 
-## See Also:
+## See Also
 
  - [ssj.httpRequestAdv()](httprequestadv.htm)
 

@@ -8,12 +8,12 @@ full_width: true
 
 It is important to understand how your SSJ scripts handle callbacks to your client side scripts. In order to incorporate proper error handling on the client side, when you call your SSJ script using app.callSSJ() the second parameter is the callback function. Take a look at this client side event handler that is taken from our example.
 
-    //@Add@a@New@Customer
-    function@handler_btnNew_onClick(mouseev){
+    // Add a New Customer
+    function handler_btnNew_onClick(mouseev){
         
         // Prepare an object to pass to the SSJ function
         p = {action:"AddCustomer", 
-    data:{CompanyName:app.getValue("txtCompany"),@
+    data:{CompanyName:app.getValue("txtCompany"), 
     country:app.getValue("txtCountry")}
     };
      

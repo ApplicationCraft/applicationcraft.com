@@ -28,16 +28,16 @@ The object name of the overlay to remove
 
 You can remove a defined overlay as it is clicked on using the onOverlayClick Event
 
-**Example**
+## **Example**
 
-    function@handler_googleMapsAdvanced_onOverlayClick(latlng,@overlay){
+    function handler_googleMapsAdvanced_onOverlayClick(latlng, overlay){
         _widget.removeOverlay(overlay);
     }
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

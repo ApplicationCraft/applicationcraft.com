@@ -36,13 +36,13 @@ If you want to take a snapshot of the entire App, including all Widgets and thei
 
 ## Example
 
-    //@Get@Instance@Data@and@then@call@my@own@external@web@service@to@store@it@somewhere
-    obj@=@app.getInstanceData();
-    app.httpRequest("http://mydomain.com/myStorageProc",@"POST",@callbackFunction,@obj@,@"json"@);
+    // Get Instance Data and then call my own external web service to store it somewhere
+    obj = app.getInstanceData();
+    app.httpRequest("http://mydomain.com/myStorageProc", "POST", callbackFunction, obj , "json" );
      
    
 
-## See Also:
+## See Also
 
  - [setAppSnapshot()](../app-functions/setappsnapshot)
 

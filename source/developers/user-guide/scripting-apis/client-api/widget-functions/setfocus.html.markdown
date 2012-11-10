@@ -33,10 +33,10 @@ Use this property to set the focus to a specified widget on the page
     app.setFocus('myTextBox');
      
      
-    app.setFocus('TxtTicketNotes');@
+    app.setFocus('TxtTicketNotes'); 
     setCursorEnd(app.w('TxtTicketNotes').base().find('textarea')[0]);
     }
-    function@setCursorEnd(elem)@{
+    function setCursorEnd(elem) {
         pos = elem.value.length;
         if (elem.setSelectionRange) {
           elem.setSelectionRange(pos, pos);

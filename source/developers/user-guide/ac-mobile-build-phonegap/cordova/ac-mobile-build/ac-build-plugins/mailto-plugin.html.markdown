@@ -185,26 +185,26 @@ chtitle
 </tr>
 </table>
 
-**Example**
+## **Example**
 
-    function@handler_actionBtn_onClick(mouseev){
+    function handler_actionBtn_onClick(mouseev){
         
         window.plugins.MailTo.mailTo({
         subject: app.getData("subject"), // You can get the subject of the email from a widget
         message: '<b>message</b>', // You can also directly compose your message/subject (HTML allowed)
         isHtml : true,
-        emails : ["mail gmail.com"],  // recipient of the email
-        ccemails : [{"frankx jones.com"},{"joe jones.com"}], // multiple cc recipients
+        emails : ["mail@gmail.com"],  // recipient of the email
+        ccemails : [{"frankx@jones.com"},{"joe@jones.com"}], // multiple cc recipients
         chtitle : "Mail To:" //Android spec
         },
         function() {alert('Mailto success');}, // Success function
         function() {alert('Mailto failed');} // Failure function
-    ); @ @ @ @
+    );        
     }
      
    
 
-**See Also:**
+## **See Also**
 
  - [sendEmail()](../../../../scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2)
 

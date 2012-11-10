@@ -29,7 +29,7 @@ On Online
 <td width="8">
 </td>
 <td width="735">
-## When the network connection goes online, having previously been offline. See also [Network Availability Handling](../../../scripting-apis/client-scripting-overview/network-availability-handling) chapter.
+When the network connection goes online, having previously been offline. See also [Network Availability Handling](../../../scripting-apis/client-scripting-overview/network-availability-handling) chapter.
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ On Offline
 <td width="8">
 </td>
 <td width="735">
-## When the network connection goes offline, having previously been online. See also [Network Availability Handling](../../../scripting-apis/client-scripting-overview/network-availability-handling) chapter.
+When the network connection goes offline, having previously been online. See also [Network Availability Handling](../../../scripting-apis/client-scripting-overview/network-availability-handling) chapter.
 
 </td>
 </tr>

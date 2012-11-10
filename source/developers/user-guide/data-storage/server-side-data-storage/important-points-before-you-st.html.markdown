@@ -22,12 +22,12 @@ Although you can write literal SQL statements and execute these using [exec()](.
 
 Make sure you handle your errors on the client side. The SSJ functions will trigger errors automatically (see [Error Handling](error-handling.htm) ) and return the error to the client callback functions. Make sure you handle them in some way as the following example shows.
 
-    //@Add@a@New@Customer
-    function@handler_btnNew_onClick(mouseev){
+    // Add a New Customer
+    function handler_btnNew_onClick(mouseev){
         
         // Prepare an object to pass to the SSJ function
         p = {action:"AddCustomer", 
-    data:{CompanyName:app.getValue("txtCompany"),@
+    data:{CompanyName:app.getValue("txtCompany"), 
     country:app.getValue("txtCountry")}
     };
      
@@ -43,17 +43,17 @@ Make sure you handle your errors on the client side. The SSJ functions will trig
             }
         }, [p]);    
     }
-    strName@=@"O'Reilly";
-    cObj@=@cObj.update("customers",@p.data,@@"companyName='@+@strName);
+    strName = "O'Reilly";
+    cObj = cObj.update("customers", p.data,  "companyName=' + strName);
      
-    strName@=@"O'Reilly";
-    cObj@=@cObj.update("customers",@p.data,@@cObj.quoteInto('companyName=?',@strName));
+    strName = "O'Reilly";
+    cObj = cObj.update("customers", p.data,  cObj.quoteInto('companyName=?', strName));
      
      
-    strName@=@"O'Reilly";
-    cObj@=@cObj.update("customers",@p.data,@"companyName="@+@cObj.quote(strName));
-    nId@=@12345;
-    cObj@=@cObj.update("customers",@p.data,@@companyName=?',@nId);
+    strName = "O'Reilly";
+    cObj = cObj.update("customers", p.data, "companyName=" + cObj.quote(strName));
+    nId = 12345;
+    cObj = cObj.update("customers", p.data,  companyName=?', nId);
    
 
 ## Escaping with [quote()](../../scripting-apis/server-side-api/ssj-object/database/quote) and [quoteInto()](../../scripting-apis/server-side-api/ssj-object/database/quoteinto)

@@ -109,7 +109,7 @@ Specify the default date highlighted
 </tr>
 <tr>
 <td width="147">
-X
+## X
 
 </td>
 <td width="47">

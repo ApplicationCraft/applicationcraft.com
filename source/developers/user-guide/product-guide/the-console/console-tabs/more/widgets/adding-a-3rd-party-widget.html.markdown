@@ -12,9 +12,9 @@ This can be added to any web site. Application Craft lets you integrate this int
 
 Here is the code that Twitter supplies
 
-    <script@src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
     <script>
-    new@TWTR.Widget({
+    new TWTR.Widget({
       version: 2,
       type: 'search',
       search: 'rainbow',
@@ -45,19 +45,19 @@ Here is the code that Twitter supplies
         behavior: 'default'
       }
     }).render().start();
-    </script>@
-    <script@src="http://widgets.twimg.com/j/2/widget.js"></script>
-    <script>@@
-    new@TWTR.Widget({
-    version:@2,
-    type:@'search',
-    search:@'[#Search@String#General#text#@appcrafty#]',
-    interval:@[#Interval#General#int#6000#],
-    title:@'[#Title#General#text#Twitter@Search#]',
-    subject:@'[#Subject#General#text#Subject#]',
-    width:@[#width#General#pixels#200#]-15,
-    height:@[#height#General#pixels#400#]-120,
-    theme:@{
+    </script> 
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>  
+    new TWTR.Widget({
+    version: 2,
+    type: 'search',
+    search: '[#Search String#General#text#@appcrafty#]',
+    interval: [#Interval#General#int#6000#],
+    title: '[#Title#General#text#Twitter Search#]',
+    subject: '[#Subject#General#text#Subject#]',
+    width: [#width#General#pixels#200#]-15,
+    height: [#height#General#pixels#400#]-120,
+    theme: {
         shell: {
          background: '[#Shell Bg#Style#color#8ec1da#true#]',
          color: '[#Shell color#Style#color#ffffff#true#]'
@@ -68,7 +68,7 @@ Here is the code that Twitter supplies
          links: '[#links color#Style#color#1985b5#true#]'
         }
     },
-    features:@{
+    features: {
         scrollbar: [#Scrollbar#General#boolean#false#],
         loop: [#Loop#General#boolean#false#],
         live: [#Live#General#boolean#true#],
@@ -81,7 +81,7 @@ Here is the code that Twitter supplies
     }).render().start();
     </script>
     search: 'rainbow',
-    search:@'[#Search@String#General#text#@appcrafty#]'
+    search: '[#Search String#General#text#@appcrafty#]'
     #AC property name#AC property section#data type#default value#]
    
 

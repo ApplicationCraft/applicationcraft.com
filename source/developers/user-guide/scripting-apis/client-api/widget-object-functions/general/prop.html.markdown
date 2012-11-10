@@ -54,7 +54,7 @@ The prop() function should be used to get or set a Widget property. It is used a
 
 To determine the property name, look in the property bar and remove any spaces. The property name is not case sensitive. For example, 'BG Color' should be specified as 'bgcolor' or 'BGColor'.
 
-## See Also:
+## See Also
 
  - [getProperty()](../../widget-functions/getproperty)
 

@@ -46,12 +46,12 @@ Read the [Interacting with Widgets](../../../client-scripting-overview/scripting
 
 The following example shows the onRowLoaded event that is called as each individual row is populated. It calculates the difference between the numTotOilBbls and numH2OBbls and writes the results to the numNetOilBbls Widget.
 
-    function@handler_rcReadings_onRowLoaded(index,@createdRow){
+    function handler_rcReadings_onRowLoaded(index, createdRow){
         rowObj=app.w("rcReadings").getRow(index);  // get the current row object
         netOilBbls=rowObj.w("numTotOilBbls").value()-rowObj.w("numH2OBbls").value();
         rowObj.w("numNetOilBbls").value(netOilBbls);
     }
-    function@handler_abCalcNet_onClick(mouseev){
+    function handler_abCalcNet_onClick(mouseev){
         for(i=0; i<app.w('rcReadings').rowCount(); i++) {
             rowObj=app.w("rcReadings").getRow(i);
             rowObj.w("numNetOilBbls").value(rowObj.w("numTotOilBbls").value()-rowObj.w("numH2OBbls").value());    
@@ -61,7 +61,7 @@ The following example shows the onRowLoaded event that is called as each individ
 
 This next example shows how a loop could perform the same operation rather than using the onRowLoaded event
 
-## See Also:
+## See Also
 
  - [rowCount()](length.htm)
 

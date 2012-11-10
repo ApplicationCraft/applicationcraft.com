@@ -22,7 +22,7 @@ This checks to see whether all data that was loaded with [populateWidget()](../.
 
 This example shows how, when data is loaded into the Repeater, it checks to see whether there is more data. If not, the 'More...' button is hidden.
 
-    function@handler_rptEntities_onDataLoaded(error,@data){
+    function handler_rptEntities_onDataLoaded(error, data){
         if(app.w('rptEntities').isAllDataDrawn()) {
             app.visible('btnMoreEntities', false);
         } else {
@@ -32,7 +32,7 @@ This example shows how, when data is loaded into the Repeater, it checks to see 
      
    
 
-## See Also:
+## See Also
 
  - [getViewData()](../../data-view-functions/getviewdata)
 

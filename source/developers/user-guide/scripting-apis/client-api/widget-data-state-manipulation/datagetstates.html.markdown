@@ -68,7 +68,7 @@ In many cases, your App will show and hide widgets as well as enabling/disabling
 
 The following examples show different ways to get state information into an object.
 
-## See Also:
+## See Also
 
  - [dataGetValues()](datagetvalues.htm)
 

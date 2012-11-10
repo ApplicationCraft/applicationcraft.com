@@ -55,7 +55,7 @@ Adds a User to a Group. If there is an error due to permissions, then an excepti
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

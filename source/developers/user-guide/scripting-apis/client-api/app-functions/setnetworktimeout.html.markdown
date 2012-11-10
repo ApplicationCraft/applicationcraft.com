@@ -36,10 +36,10 @@ If you want to change the Timeout value for a single [httpRequest()](../soap-res
 
 ## Example
 
-    app.networkTimeout(20000);@//@set@timeout@to@20@seconds
+    app.networkTimeout(20000); // set timeout to 20 seconds
    
 
-## See Also:
+## See Also
 
  - [httpRequest()](../soap-restful-ajax-calls/httprequest)
 

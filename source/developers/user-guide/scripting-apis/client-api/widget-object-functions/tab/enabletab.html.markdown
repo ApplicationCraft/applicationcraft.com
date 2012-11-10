@@ -15,11 +15,11 @@ Enable/Disable a tab
 ## Example
 
      
-    app.w("Tab").enableTab(1,false);@//@Disables@the@2nd@tab@in@the@tab@container
+    app.w("Tab").enableTab(1,false); // Disables the 2nd tab in the tab container
      
    
 
-**See Also:**
+## **See Also**
 
  - [enabled()](../../widget-data-state-manipulation/enabled)
 

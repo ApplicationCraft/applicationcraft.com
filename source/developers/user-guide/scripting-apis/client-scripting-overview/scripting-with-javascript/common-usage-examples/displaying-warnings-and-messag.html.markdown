@@ -16,7 +16,7 @@ The function [showConfirm()](../../../client-api/app-functions/showconfirm) is a
 
 ## Example
 
-    app.showMessage("Validation@Error",@"Please@complete@all@required@fields.",@function()@{
+    app.showMessage("Validation Error", "Please complete all required fields.", function() {
         // code here will execute once the OK button has been pressed.
         // If there is no code to execute, then leave out the entire callback function
     });
@@ -24,7 +24,7 @@ The function [showConfirm()](../../../client-api/app-functions/showconfirm) is a
      
    
 
-**See Also:**
+## **See Also**
 
  - [showConfirm()](../../../client-api/app-functions/showconfirm)
 

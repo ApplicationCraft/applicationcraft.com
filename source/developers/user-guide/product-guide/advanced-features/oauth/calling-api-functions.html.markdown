@@ -12,11 +12,11 @@ Once your user is authenticated, you can start making calls to 3rd party APIs th
 
 From your App, you will call a Server Side Javascript function (mySSJFunction in the below example). The server code then makes  the real call to the API is made. The reason for this is security. The whole point of oAuth is security and by making API calls from the server, you are in ensuring that the secret keys stay secret.
 
-    app.callSSJ('mySSJFunction',@function(error,data){
+    app.callSSJ('mySSJFunction', function(error,data){
             console.log('error : ' + error);
             console.dir({info : info});
         }, [userAuthKey, myTwitterId]);
-    function@mySSJFunction(userAuthKey,@myTwitterId)@{
+    function mySSJFunction(userAuthKey, myTwitterId) {
         return ssj.oAuthRequest(userAuthKey, 
             'GET',{user_id: myTwitterId, count: 1});
     }

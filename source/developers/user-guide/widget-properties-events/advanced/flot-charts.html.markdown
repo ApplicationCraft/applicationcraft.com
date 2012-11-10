@@ -101,7 +101,7 @@ For Flot Chart widget, where you can change the width of the container relative 
 </tr>
 <tr>
 <td width="137">
-X
+## X
 
 </td>
 <td width="25">
@@ -399,7 +399,7 @@ Custom CSS Classes
 <td width="10">
 </td>
 <td width="782">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -1018,7 +1018,7 @@ On Resize Stop
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

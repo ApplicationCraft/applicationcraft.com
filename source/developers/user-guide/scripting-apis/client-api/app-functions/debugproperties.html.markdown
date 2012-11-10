@@ -38,7 +38,7 @@ This debug function instructs AC to collect all properties of the specified Widg
        
    
 
-## See Also:
+## See Also
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 

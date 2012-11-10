@@ -12,7 +12,7 @@ You can modify many map elements including Roads, Forests, Regions, Points of In
 
 **Important** : Google offers a very nice [style wizard](http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html) that lets you build a map style and then retrieve the equivalent JSON. This JSON can then be pasted into your code. The example below shows the JSON being assigned to the variable 'pinkParkStyles'.
 
-    function@handler_actionBtn4_onClick(mouseev){
+    function handler_actionBtn4_onClick(mouseev){
         var pinkParksStyles = [
           {
             featureType: "all",

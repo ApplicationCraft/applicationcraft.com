@@ -62,21 +62,21 @@ The params object looks like this (you can leave out any fields you do not want 
         printBackground: true, false (default false)
         fitToPage: true, false (default false)
     }
-    callbackFunction(error,@url)@{
+    callbackFunction(error, url) {
      
     }
-    function@handler_actionBtn_onClick(mouseev){
+    function handler_actionBtn_onClick(mouseev){
         params = {
-    pages:@['page1'],@//Print@just@page1@of@the@app
-    instance:@app.getInstanceData(),@//@Print@out@the@data@of@the@current@instance
-    orientation:@'landscape',@//@Print@in@Landscape@mode@
+    pages: ['page1'], //Print just page1 of the app
+    instance: app.getInstanceData(), // Print out the data of the current instance
+    orientation: 'landscape', // Print in Landscape mode 
             };
       
-    //@app.id()@used@to@print@out@the@active@instance@of@the@app
-    app.printApp(app.id(),params,@function(err,@url){@@@
+    // app.id() used to print out the active instance of the app
+    app.printApp(app.id(),params, function(err, url){   
             if(!err)
             {
-    //@If@no@error,@then@show@'open@PDF@here'@in@a@label@on@the@app@for@the@user@to@click
+    // If no error, then show 'open PDF here' in a label on the app for the user to click
                 app.setProperty('label','label',"<a href='" + url + "' target='_blank'>open PDF here</a>");
             }        
         });
@@ -93,7 +93,7 @@ As soon as the printing process has completed, the callback function will be cal
 
 For more code examples, please go to the [Printing Examples](../../../product-guide/advanced-features/printing/printing-examples) topic.
 
-## See Also:
+## See Also
 
  - [isPrinting()](isprinting.htm)
 

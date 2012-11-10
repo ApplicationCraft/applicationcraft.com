@@ -10,7 +10,7 @@ In the example shown below, you can see that the mapping object maps two fields.
 
 If you are not interested in the 'value' then simply leave it out of your mapping object.
 
-    function@handler_application_onAppStarted(){
+    function handler_application_onAppStarted(){
         var data = [
                     {'lbl': 'McClaren','value': '1'},
                     {'lbl': 'Ferrari','value': '2'},

@@ -10,19 +10,19 @@ Our goal is to simplify the functionality of Google Maps for Application Craft u
 
 However, advanced users may want to access the underlying Google Maps object that we hide away from view. Accessing this is simple, as shown in the code snippet below.
 
-**Example**
+## **Example**
 
-    console.dir({map:@app.w('googleMapsAdvanced').googleMap()});
+    console.dir({map: app.w('googleMapsAdvanced').googleMap()});
      
      
-    function@_callback(results,@status)@{
+    function _callback(results, status) {
         if (status == google.maps.places.PlacesServiceStatus.OK) {
             console.log('places founded');
             console.log('results.length : ' + results.length);
         }
     }
      
-    function@handler_googleMapsAdvanced_onIdle(){
+    function handler_googleMapsAdvanced_onIdle(){
         var googleMap = app.w('googleMapsAdvanced').googleMap();
         var boundsevent = googleMap.getBounds();
         service = new google.maps.places.PlacesService(googleMap);
@@ -39,9 +39,9 @@ However, advanced users may want to access the underlying Google Maps object tha
 
 Google Map Libraries can also be accessed by defining the libraries to load in the widget Libraries property
 
-**Example**
+## **Example**
 
-**See Also:**
+## **See Also**
 
  - [googleMap()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/googlemap)
 

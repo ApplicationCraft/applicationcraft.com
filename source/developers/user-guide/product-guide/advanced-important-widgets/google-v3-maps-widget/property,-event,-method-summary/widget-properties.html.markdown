@@ -145,7 +145,7 @@ Indicates whether the Map should maintain its aspect ratio should it be within a
 </tr>
 <tr>
 <td width="172">
-X
+## X
 
 </td>
 <td width="21">

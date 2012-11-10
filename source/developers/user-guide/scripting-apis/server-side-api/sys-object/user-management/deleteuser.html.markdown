@@ -43,7 +43,7 @@ Deletes the user with the specified User ID. If there is an error due to permiss
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

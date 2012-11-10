@@ -14,7 +14,7 @@ The majority of these you can handle using the ['Sizes' Property Dialog](sizes-p
 
 In the following scenario, you have a GoogleMap widget on a page that is set to 250px in height, and when your browser is taller than 500 px you want to increase the height of the widget to 500px
 
-    function@handler_mapPage_onResize(ev,@width,@height){
+    function handler_mapPage_onResize(ev, width, height){
         if (height>500){
             app.setProperty('googlemaps','height',500);
                 } else {
@@ -24,7 +24,7 @@ In the following scenario, you have a GoogleMap widget on a page that is set to 
      
     window.innerHeight
      
-    function@handler_application_onResize(ev,@width,@height){
+    function handler_application_onResize(ev, width, height){
         app.setProperty("mToolbar", "height", window.innerHeight*0.1);        
     }
      
@@ -38,7 +38,7 @@ can be similarly used if required, but in most cases the Percent Wid
 
 Note: We are planning to add Percent Height as a new widget property shortly
 
-## See Also:
+## See Also
 
  - [setProperty()](../../../../../scripting-apis/client-api/widget-functions/setproperty)
 

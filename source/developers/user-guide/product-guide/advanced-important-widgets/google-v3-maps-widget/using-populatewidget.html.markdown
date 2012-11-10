@@ -12,7 +12,7 @@ With maps, you can package data up into an array and then load it with a simple 
 
 ![advanced-maps-populateWidget](/img/docs/advanced-maps-populatewidget.png)
 
-    function@handler_actionBtn17_onClick(mouseev){
+    function handler_actionBtn17_onClick(mouseev){
         polylineObj = null;
         polygonObj = null;
         circleObj = null;
@@ -20,27 +20,27 @@ With maps, you can package data up into an array and then load it with a simple 
         
         var overlaysArr = [
             {type:0, 
-    coords:"41.878113,-87.629798",@mouseOverHTML:@"<div>On@Over@HTML</div>",@
-    onClickHTML:@"<p>Mouse@click!!!</p>",@
+    coords:"41.878113,-87.629798", mouseOverHTML: "<div>On Over HTML</div>", 
+    onClickHTML: "<p>Mouse click!!!</p>", 
     },
             {overlayId:'polylineId', type:1, 
-    coords:"41.878113,-87.629798;47.878113,-87.629798;61.878113,-67.629798",@
-    strokeColor:@"#ff0000",@strokeOpacity:@0.7
+    coords:"41.878113,-87.629798;47.878113,-87.629798;61.878113,-67.629798", 
+    strokeColor: "#ff0000", strokeOpacity: 0.7
     },
             {type:AC.Widgets.GoogleMapsAdvanced.OVERLAY_TYPE_POLYGON, 
-    coords:"21.878113,-77.629798;37.878113,-77.629798;41.878113,-67.629798",@
-    strokeColor:@"#000000",@strokeOpacity:@0.7,@strokeWeight:@2,@
-    fillColor:@"#00ff00",@fillOpacity:@0.5
+    coords:"21.878113,-77.629798;37.878113,-77.629798;41.878113,-67.629798", 
+    strokeColor: "#000000", strokeOpacity: 0.7, strokeWeight: 2, 
+    fillColor: "#00ff00", fillOpacity: 0.5
     },
             {type:AC.Widgets.GoogleMapsAdvanced.OVERLAY_TYPE_CIRCLE, 
-    coords:"61.878113,-57.629798",@radius:@380000,@
-    strokeColor:@"#000000",@strokeOpacity:@0.7,@
-    strokeWeight:@2,@fillOpacity:@0.5
+    coords:"61.878113,-57.629798", radius: 380000, 
+    strokeColor: "#000000", strokeOpacity: 0.7, 
+    strokeWeight: 2, fillOpacity: 0.5
     },
             {type:4, 
-    coords:"31.878113,-57.629798;11.878113,-37.629798",@
-    strokeColor:@"#00ff00",@strokeOpacity:@0.7,@strokeWeight:@1,@
-    fillColor:@"#00ffff",@fillOpacity:@0.7
+    coords:"31.878113,-57.629798;11.878113,-37.629798", 
+    strokeColor: "#00ff00", strokeOpacity: 0.7, strokeWeight: 1, 
+    fillColor: "#00ffff", fillOpacity: 0.7
     }
         ];
         

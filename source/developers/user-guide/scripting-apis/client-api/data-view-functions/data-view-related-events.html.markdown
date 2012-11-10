@@ -29,7 +29,7 @@ There are some handy events that are called when things happen with Data Views
 </tr>
 <tr>
 <td width="129">
-App
+## App
 
 </td>
 <td width="10">
@@ -100,7 +100,7 @@ Called if a Data View has its Drill Down filter reset.
 </table>
 ## Example
 
-    function@handler_rptTest_onRowLoaded(index,@createdRow){
+    function handler_rptTest_onRowLoaded(index, createdRow){
         calc = createdRow.w('lblA').value().toUpperCase();
         app.setValue(createdRow.w('lblCalc'), calc);
     }

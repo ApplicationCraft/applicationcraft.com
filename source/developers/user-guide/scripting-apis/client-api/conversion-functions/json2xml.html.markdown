@@ -29,7 +29,7 @@ the Javascript object that should be converted into XML
 
 Converts the supplied Javascript object into to an XML string.
 
-## See Also:
+## See Also
 
  - [Data Conversion]() Functions
 

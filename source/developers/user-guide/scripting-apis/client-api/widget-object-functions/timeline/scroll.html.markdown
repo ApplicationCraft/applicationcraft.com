@@ -30,11 +30,11 @@ This will scroll the timeline display area the specified number of days.
 
 ## Example
 
-    app.w('timeline1').scroll(7);@@@@//@scroll@forward@one@week
-    app.w('timeline1').scroll(-7);@@@//@scroll@backwards@one@week
+    app.w('timeline1').scroll(7);    // scroll forward one week
+    app.w('timeline1').scroll(-7);   // scroll backwards one week
    
 
-## See Also:
+## See Also
 
  - [fitData()](fitdata.htm)
 

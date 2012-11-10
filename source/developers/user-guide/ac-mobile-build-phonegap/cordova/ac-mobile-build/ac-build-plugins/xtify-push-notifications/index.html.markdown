@@ -21,11 +21,11 @@ If you have developed your App outside Application Craft then please do the foll
 In your index.html include
 
       XtifyCordovaPlugin.js
-      <gap:plugin@name="Xtify"@version="1.0.0"@>
+      <gap:plugin name="Xtify" version="1.0.0" >
         <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_ANDROID" platform="android"/>
         <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_IOS" platform="ios"/>
         <parameter name="XTIFY_SENDER_ID" value="XTIFY_SENDER_ID_VALUE" />
-      </gap:plugin><gap:plugin@name="ChildBrowser"@version="1.0.0"@/>
+      </gap:plugin><gap:plugin name="ChildBrowser" version="1.0.0" />
      
 
 </tr>

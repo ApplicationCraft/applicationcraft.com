@@ -20,7 +20,7 @@ This example shows how we want to set a general filter that covers the age range
     filterArray[0][1] = "{person.age}<=[Form.Widgets.numMaxAge}";
     filterArray[1][0] = "{person.country}='USA'";
     filterArray[2][0] = "{person.country}=Canada";
-    app.setProperty('chartName',@'filter',@filterArray);
+    app.setProperty('chartName', 'filter', filterArray);
     app.refreshData('chartName');
    
 

@@ -148,27 +148,27 @@ Please note that dynamically created widgets can't use the Repeat property
 
 ## Example
 
-    /*@Create@a@widget@with@width@of@50px,@height@100px@
-    at@the@bottom@of@the@stack@of@widgets@in@a@container@set@to@Vertical@Layout@mode@*/
-    var@widget@=@app.createWidget('page1',@'WiziCore_UI_TextWidget',undefined,@{width:50,height:@100});
+    /* Create a widget with width of 50px, height 100px 
+    at the bottom of the stack of widgets in a container set to Vertical Layout mode */
+    var widget = app.createWidget('page1', 'WiziCore_UI_TextWidget',undefined, {width:50,height: 100});
      
-    /*@Create@a@widget@with@width@of@75px,@height@50px@
-    at@the@top@of@the@stack@of@widgets@in@a@container@set@to@Vertical@Layout@mode@*/
-    var@widget@=@app.w('page1').createWidget('WiziCore_UI_TextWidget',0,@{width:75,height:@50}@@
+    /* Create a widget with width of 75px, height 50px 
+    at the top of the stack of widgets in a container set to Vertical Layout mode */
+    var widget = app.w('page1').createWidget('WiziCore_UI_TextWidget',0, {width:75,height: 50}  
      
-    /*@Create@a@widget@with@width@of@75px,@height@50px@
-    3rd@in@the@stack@of@existing@widgets@in@a@container@set@to@Vertical@Layout@mode@*/
-    var@widget@=@app.w('page1').createWidget('WiziCore_UI_TextWidget',2,@{width:75,height:@50}@@
+    /* Create a widget with width of 75px, height 50px 
+    3rd in the stack of existing widgets in a container set to Vertical Layout mode */
+    var widget = app.w('page1').createWidget('WiziCore_UI_TextWidget',2, {width:75,height: 50}  
      
-    /*@Create@a@widget@with@width@of@75px,@height@50px@
-    at@the@location@of@x=50,@y=100@in@a@container@set@to@Absolute@Mode@*/
-    var@widget@=@app.w('page1').createWidget('WiziCore_UI_TextWidget',undefined,@{x:50,@y:100,@width:75,height:@50}@@
+    /* Create a widget with width of 75px, height 50px 
+    at the location of x=50, y=100 in a container set to Absolute Mode */
+    var widget = app.w('page1').createWidget('WiziCore_UI_TextWidget',undefined, {x:50, y:100, width:75,height: 50}  
      
-    //To@get@the@name@of@the@created@widget@use:@
-    var@name@=@widget.name();
+    //To get the name of the created widget use: 
+    var name = widget.name();
    
 
-## See Also:
+## See Also
 
  - [deleteWidget()](deletewidget.htm)
 

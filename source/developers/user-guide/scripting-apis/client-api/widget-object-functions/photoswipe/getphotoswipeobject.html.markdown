@@ -14,5 +14,5 @@ Allows you to get the complete Photoswipe object.
 
 ## Example
 
-    app.w("Photoswipe").getPhotoswipeObject();@@
+    app.w("Photoswipe").getPhotoswipeObject();  
    

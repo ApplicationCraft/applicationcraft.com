@@ -30,11 +30,11 @@ Where you can set the Reference Time Zone
 
 ## Example
 
-    app.instanceSetRTZ(60));@//@will@set@the@RTZ@to@one@hour@forward
+    app.instanceSetRTZ(60)); // will set the RTZ to one hour forward
      
    
 
-## See Also:
+## See Also
 
  - [instanceGetRTZ()](instancegetrtz.htm)
 

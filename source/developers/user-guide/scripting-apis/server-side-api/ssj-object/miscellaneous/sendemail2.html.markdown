@@ -54,29 +54,29 @@ The system will send emails out using the [SMTP settings](../../../../product-gu
 
 The message object has the following structure.
 
-    var@message@=@{
-      from: { address: 'john johnson.com', name: 'John Johnson'},
-      to: { address: 'frank johnson.com', name: 'Frank Johnson'},
-      cc: [{ address: 'frankx jones.com', name: 'Frankx Jones '},{ address: 'joe jones.com', name: 'Joe Jones'}],
-      bcc: ['steve mail.com','eric mail.com'],
-      replyTo: 'mail mail.com',
+    var message = {
+      from: { address: 'john@johnson.com', name: 'John Johnson'},
+      to: { address: 'frank@johnson.com', name: 'Frank Johnson'},
+      cc: [{ address: 'frankx@jones.com', name: 'Frankx Jones '},{ address: 'joe@jones.com', name: 'Joe Jones'}],
+      bcc: ['steve@mail.com','eric@mail.com'],
+      replyTo: 'mail@mail.com',
       subject: 'Some subject',
       body : 'Mail \n body \n multiline \n text!',
       isHtml : (optional)false,
       attachments : [upload]  // URL of the uploaded file referenced in Client side script
     };
      
-    smtpPar@=@{
-    "host":@'smtp.mail.yahoo.com:465',
-    "user":@'your_email',
-    "password":@'your_password',
-    "security":@'ssl'
+    smtpPar = {
+    "host": 'smtp.mail.yahoo.com:465',
+    "user": 'your_email',
+    "password": 'your_password',
+    "security": 'ssl'
     };
      
-    var@upload;
+    var upload;
      
-    function@handler_actionBtn_onClick(mouseev){
-    app.callSSJ("send",@function(error,@res){
+    function handler_actionBtn_onClick(mouseev){
+    app.callSSJ("send", function(error, res){
             if(!error){
                 alert('Email Sent');
             } else {
@@ -85,7 +85,7 @@ The message object has the following structure.
         }, [upload]);
     }
      
-    function@handler_fileUpload_onUploaded(error,@url){
+    function handler_fileUpload_onUploaded(error, url){
         if(!error){
             // Collect the URL of the uploaded file
             upload = url;  
@@ -95,23 +95,23 @@ The message object has the following structure.
         }
     }
      
-    function@send(upload){
-    var@message@=@{
-      from: { address: 'john johnson.com', name: 'John Johnson'},
-      to: { address: 'frank johnson.com', name: 'Frank Johnson'} || [],
-      cc: { address: 'steve johnson.com', name: 'Steve Johnson '} || [],
-      bcc: ['james johnson.com'],
-      replyTo: ['james johnson.com'],
+    function send(upload){
+    var message = {
+      from: { address: 'john@johnson.com', name: 'John Johnson'},
+      to: { address: 'frank@johnson.com', name: 'Frank Johnson'} || [],
+      cc: { address: 'steve@johnson.com', name: 'Steve Johnson '} || [],
+      bcc: ['james@johnson.com'],
+      replyTo: ['james@johnson.com'],
       subject: 'Some subject',
       body : 'Mail \n body \n multiline \n text!',
       isHtml : false,
       attachments : [upload]
     };
-    smtpPar@=@{
-    "host":@'smtp.mail.yahoo.com:465',
-    "user":@'your_email',
-    "password":@'your_password',
-    "security":@'ssl'
+    smtpPar = {
+    "host": 'smtp.mail.yahoo.com:465',
+    "user": 'your_email',
+    "password": 'your_password',
+    "security": 'ssl'
     };
     ssj.sendEmail(message,smtpPar);
     }
@@ -125,7 +125,7 @@ The smtpPar object has the following structure.
 
 Server Side Script:
 
-## See Also:
+## See Also
 
  - [SMTP Parameters](../../../../product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/)
 

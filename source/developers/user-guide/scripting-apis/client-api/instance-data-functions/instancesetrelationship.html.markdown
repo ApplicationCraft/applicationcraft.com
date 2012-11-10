@@ -106,7 +106,7 @@ There are two callback function you can use. cdbCallback returns first once the 
 
 Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function.htm) page for details on these callback functions.
 
-## See Also:
+## See Also
 
  - [instanceNew()](instancenew.htm)
 

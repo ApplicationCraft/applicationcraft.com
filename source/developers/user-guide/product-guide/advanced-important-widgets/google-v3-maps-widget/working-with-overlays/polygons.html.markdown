@@ -10,7 +10,7 @@ A Polygon can be drawn on the Map by specifying an array of coordinates. You can
 
 Below is some code that shows how to create a new line using [addPolygon()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](../using-populatewidget) function.
 
-    function@handler_actionBtn10_onClick(mouseev){
+    function handler_actionBtn10_onClick(mouseev){
         if (polygonObj) {
             app.w('googleMapsAdvanced').removeOverlay(polygonObj);
             polygonObj = null;
@@ -21,7 +21,7 @@ Below is some code that shows how to create a new line using [addPolygon()](../.
                     [32.321384, -64.75737]
                 ];
                 polygonObj = app.w('googleMapsAdvanced').
-    (polygonPath,@@{fillColor:@"#00ffff",@strokeWeight:2});
+    (polygonPath,  {fillColor: "#00ffff", strokeWeight:2});
         }
     }
    

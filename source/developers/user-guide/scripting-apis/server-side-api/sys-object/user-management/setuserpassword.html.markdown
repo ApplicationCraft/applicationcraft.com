@@ -55,7 +55,7 @@ Changes the password of the specified user. If there is an error due to permissi
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

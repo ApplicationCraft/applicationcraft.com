@@ -52,9 +52,9 @@ This is where you define the properties your widget offers in the IDE. Propertie
             set:"hiddenTextFn", get: "hiddenTextFn", alias:"widgetpropname_simpleLabel_hiddenText"}
      
     widgetpropname_simpleLabel_text
-    app.setProperty('widget',@'hiddenText',@'Dark@Matter');
-    app.setProperty('widget',@'Hidden@text',@'Dark@Matter');
-    app.setProperty('widget',@'HIDden@Text',@'Dark@Matter');
+    app.setProperty('widget', 'hiddenText', 'Dark Matter');
+    app.setProperty('widget', 'Hidden text', 'Dark Matter');
+    app.setProperty('widget', 'HIDden Text', 'Dark Matter');
     (etc.)
    
 

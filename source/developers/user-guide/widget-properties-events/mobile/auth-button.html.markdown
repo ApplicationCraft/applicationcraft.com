@@ -219,7 +219,7 @@ Select the app to redirect to on successful login
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -481,7 +481,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -628,7 +628,7 @@ On Resize Stop
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Sign In](../../product-guide/advanced-features/authentication-for-your-apps/sign-in) , [Sign Up](../../product-guide/advanced-features/authentication-for-your-apps/sign-up)
 

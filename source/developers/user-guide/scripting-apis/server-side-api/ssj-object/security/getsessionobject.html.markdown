@@ -34,11 +34,11 @@ See the [setSessionObject()](setsessionobject.htm) description.
 
 ## Example
 
-    strUserID@=@ssj.getSessionObject("userID");
-    objUserDetails@=@ssj.getSessionObject("userObject");
+    strUserID = ssj.getSessionObject("userID");
+    objUserDetails = ssj.getSessionObject("userObject");
    
 
-## See Also:
+## See Also
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 

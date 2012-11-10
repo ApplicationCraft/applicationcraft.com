@@ -257,7 +257,7 @@ Where you can set the button properties - Shape/Image/Text/pushEffect/Sticky/Fil
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">

@@ -28,7 +28,7 @@ And this image, below, shows the page running and populated with data,
 
 ![rpt-preview](/img/docs/rpt-preview.zoom69.png)
 
-## See Also:
+## See Also
 
  - [populateWidget()](../../../client-api/widget-data-state-manipulation/populatewidget/)
 

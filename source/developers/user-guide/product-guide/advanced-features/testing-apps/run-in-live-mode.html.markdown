@@ -10,7 +10,7 @@ Live Mode allows you to final test your App in a pop-up window. Before running i
 
 When you have completed your testing, you can delete all the test app data using the [Purge](../../the-console/console-tabs/applications#purge) option in the App designer view
 
-## See Also:
+## See Also
 
  - [Sharing](../../the-console/sharing)
 

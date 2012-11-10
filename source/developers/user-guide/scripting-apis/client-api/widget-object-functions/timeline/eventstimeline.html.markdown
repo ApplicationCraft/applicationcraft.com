@@ -18,12 +18,12 @@ In most cases, you will be interested in the General Events. These events receiv
 
 There are events for On Click, On Dbl Click, On Mouse Enter and On Mouse Leave. Below is an example
 
-    function@handler_timeline_onItemClick(data,@isItemInTree){
+    function handler_timeline_onItemClick(data, isItemInTree){
         console.log("timeline");
         console.dir(data);
     }
-    function@handler_timeline1_onScroll(startDate,@endDate){
-    console.dir({arg:@arguments});
+    function handler_timeline1_onScroll(startDate, endDate){
+    console.dir({arg: arguments});
     }
    
 
@@ -35,7 +35,7 @@ There are events for On Click, On Dbl Click, On Mouse Enter and On Mouse Leave. 
 
 In addition, there is the On Scroll event. This event is called whenever the timeline display area changes.
 
-## See Also:
+## See Also
 
  - [fitData()](fitdata.htm)
 

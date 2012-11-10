@@ -70,15 +70,15 @@ If any of your fields in the fieldsObject() contain a SQL function or arithmetic
 
 ## Example
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    cObj.update('customers',@
-    {companyName:"Application@Craft",@country:"USA"},@
-    cObj.quoteInto('id=?',@p.id));
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    cObj.update('customers', 
+    {companyName:"Application Craft", country:"USA"}, 
+    cObj.quoteInto('id=?', p.id));
      
      
    
 
-## See Also:
+## See Also
 
  - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 

@@ -91,7 +91,7 @@ Points to a Repeater/Grid/Common List or Mobile Widget that this button will int
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -413,7 +413,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -431,7 +431,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [drawNextPage()](../../scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
 

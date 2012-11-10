@@ -42,7 +42,7 @@ This enables (state=true) or disables (state=false) the specified View as define
 
 If a View is disabled, then it will not request data from the source when drill-down type actions occur. You can force a Widget to refresh its data from a View by using the [refreshData()](../widget-functions/refreshdata) function.
 
-## See Also:
+## See Also
 
  - [refreshData()](../widget-functions/refreshdata)
 

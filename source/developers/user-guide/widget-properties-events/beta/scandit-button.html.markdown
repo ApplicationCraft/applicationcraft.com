@@ -261,7 +261,7 @@ Where you can set the button properties - Shape/Image/Text/pushEffect/Sticky/Fil
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -586,7 +586,7 @@ On Resize Stop
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Scandit Widget](../../product-guide/advanced-important-widgets/scandit-widget/)
 

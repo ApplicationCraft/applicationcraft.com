@@ -40,9 +40,9 @@ true/false. select true to fit the map to overlays
 
 Allows you to fit the map to Markers and/or Overlays
 
-**Example**
+## **Example**
 
      
-    app.w('gma').fitToOverlays(true,@false)
+    app.w('gma').fitToOverlays(true, false)
    
 

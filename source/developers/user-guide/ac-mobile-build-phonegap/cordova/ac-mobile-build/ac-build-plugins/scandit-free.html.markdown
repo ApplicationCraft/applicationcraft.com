@@ -73,13 +73,13 @@ Scandit Button Configurations
 
 **Example AC Events**
 
-    function@handler_Scandit_onSuccess(value,@type){
+    function handler_Scandit_onSuccess(value, type){
     app.setValue('ScanValue',value);
-    app.setValue('ScanType',type); @ @ @ @
+    app.setValue('ScanType',type);        
     }
      
      
-    function@handler_Scandit_onFail(error){
+    function handler_Scandit_onFail(error){
         alert(error);        
     }
      
@@ -96,7 +96,7 @@ You can also use the functions of the Scandit Free Plugin without using the Scan
 
 Link to the complete documentation for this plugin is available here [https://github.com/ApplicationCraft/ScanditUniversalJS](https://github.com/ApplicationCraft/ScanditUniversalJS)
 
-**Example**
+## **Example**
 
 <table>
 <tr>
@@ -165,7 +165,7 @@ Available options: (description see - [https://github.com/ApplicationCraft/Scand
 </tr>
 </table>
 
-**Example**
+## **Example**
 
     window.plugins.ScanditSDK.scan(
         function (value, type){
@@ -179,7 +179,7 @@ Available options: (description see - [https://github.com/ApplicationCraft/Scand
      
    
 
-**See Also:**
+## **See Also**
 
  - [ZXing Bar Code Scanner](zxing-bar-code-scanner.htm)
 

@@ -16,7 +16,7 @@ full_width: true
 
 [Manual Building](manual-building)
 
-**See Also:**
+## **See Also**
 
  - [AC Mobile Build](application-craft-build.htm)
 

@@ -14,7 +14,7 @@ Stops and cancels loading of the current video. This function should be reserved
 
 **Important** : Unlike the [pause()](pause.htm) function, which leaves the player in the paused (2) state, the stop function could put the player into any not-playing state, including ended (0), paused (2), video cued (5) or unstarted (-1).
 
-**Example**
+## **Example**
 
      
     app.w('YouTube').getYouTubePlayer().stop();

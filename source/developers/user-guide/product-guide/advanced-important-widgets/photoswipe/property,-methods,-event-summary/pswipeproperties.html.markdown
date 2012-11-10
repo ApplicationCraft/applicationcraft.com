@@ -145,7 +145,7 @@ true/false.  iOS only - Allow the user to rotate images whilst zooming/panning.
 </tr>
 <tr>
 <td width="237">
-X
+## X
 
 </td>
 <td width="20">

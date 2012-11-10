@@ -40,18 +40,18 @@ This is used in the following common scenarios
 
 ## Example Select Statement Execution
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from("customers").where("id=?",@p.id);
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from("customers").where("id=?", p.id);
     cObj.exec(selectObj);
      
-    selectObj@=@cObj.select().from("customers").order("companyName");
+    selectObj = cObj.select().from("customers").order("companyName");
     cObj.exec(selectObj);
-    CREATE@PROCEDURE@sp_numCustomers()
+    CREATE PROCEDURE sp_numCustomers()
     BEGIN
       SELECT count(*) from customers;
     END
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    return(cObj.exec("CALL@sp_numCustomers()"));
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    return(cObj.exec("CALL sp_numCustomers()"));
      
      
    
@@ -62,7 +62,7 @@ Below is a very simple MySQL stored procedure definition that returns the total 
 
 The following code would call this stored procedure from an SSJ script
 
-## See Also:
+## See Also
 
  - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 

@@ -30,7 +30,7 @@ You should be aware that the return value can only be relied upon if the page is
 
 This example shows how, when a 'More...' button is clicked, the drawNextPage() function is called.
 
-    function@handler_btnMoreEntities_onClick(mouseev){
+    function handler_btnMoreEntities_onClick(mouseev){
         if(app.w('rptEntities').drawNextPage()===false) {
             app.visible('btnMoreEntities', false);
         } 
@@ -38,7 +38,7 @@ This example shows how, when a 'More...' button is clicked, the drawNextPage() f
      
    
 
-## See Also:
+## See Also
 
  - [getViewData()](../../data-view-functions/getviewdata)
 

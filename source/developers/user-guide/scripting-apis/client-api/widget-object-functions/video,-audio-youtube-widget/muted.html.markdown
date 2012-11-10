@@ -16,9 +16,9 @@ Allows you to mute or unmute the sound.
 
 The following example shows how you can toggle to mute/unmute as a button is clicked.
 
-    var@mute@=@false;
+    var mute = false;
      
-    function@handler_btnMute_onClick(mouseev){
+    function handler_btnMute_onClick(mouseev){
         mute = !mute;
         app.w("Video").muted(mute);
     }

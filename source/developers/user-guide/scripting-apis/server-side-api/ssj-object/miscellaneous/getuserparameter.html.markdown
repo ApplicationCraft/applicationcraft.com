@@ -59,10 +59,10 @@ This function is used as a part of User and [Authentication support](../../../..
 
 ## Example
 
-    twitterHandle@=@ssj.getUserParameter('TwitterSettings',@'TwitterID',@strUserID);
+    twitterHandle = ssj.getUserParameter('TwitterSettings', 'TwitterID', strUserID);
    
 
-## See Also:
+## See Also
 
  - [setUserParameter()](setuserparameter.htm)
 

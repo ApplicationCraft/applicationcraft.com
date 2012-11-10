@@ -33,7 +33,7 @@ Allows you to dynamically delete widgets from your app
     app.deleteWidget(['lblName','txtName']);
    
 
-## See Also:
+## See Also
 
  - [createWidget()](createwidget.htm)
 

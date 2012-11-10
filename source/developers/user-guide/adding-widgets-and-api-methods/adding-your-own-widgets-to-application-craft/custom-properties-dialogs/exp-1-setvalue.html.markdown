@@ -12,9 +12,9 @@ Tow important functions that your dialog should call are
 
     this.setCValue(strPropertyDisplayText)
     this.sValue(valOrObject)
-    //@
+    // 
      : You pass in your value or object and the property text value is constructed and displayed
-    this.setValue@=@function(val)@{
+    this.setValue = function(val) {
      
         // ONE of the following would be used, depending on the dialog
      

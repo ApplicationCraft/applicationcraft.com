@@ -31,6 +31,6 @@ Writes a variable to the console on the client browser that called the server sc
 ## Example
 
     console.log(x);
-    console.log("Hello@world");
+    console.log("Hello world");
    
 

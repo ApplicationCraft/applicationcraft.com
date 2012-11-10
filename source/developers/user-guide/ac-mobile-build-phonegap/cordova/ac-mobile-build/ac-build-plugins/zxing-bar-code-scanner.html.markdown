@@ -230,9 +230,9 @@ whether or not the user cancelled the scan
 </tr>
 </table>
 
-**Example**
+## **Example**
 
-    window.plugins.barcodeScanner.scan(@function(result)@{
+    window.plugins.barcodeScanner.scan( function(result) {
             alert("We got a barcode\n" +
                       "Result: " + result.text + "\n" +
                       "Format: " + result.format + "\n" +
@@ -244,7 +244,7 @@ whether or not the user cancelled the scan
      
    
 
-**See Also:**
+## **See Also**
 
  - [Scandit Free](scandit-free.htm)
 

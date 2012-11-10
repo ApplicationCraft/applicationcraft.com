@@ -12,7 +12,7 @@ Below is some code that shows how to create a new Marker using [addMarker()](../
 
 Note that you can modify the Marker image either by setting the widget property or using the [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) function as shown below.
 
-    function@handler_actionBtn_onClick(mouseev){
+    function handler_actionBtn_onClick(mouseev){
         var overContentString = '<div id="content">'+
         '<h2 id="firstHeading" class="firstHeading">Uluru</h2>'+
         '</div>';
@@ -37,10 +37,10 @@ Note that you can modify the Marker image either by setting the widget property 
      
         // Let's add 2 Markers, one with hover and click popup information
         var objName1 = app.w('googleMapsAdvanced').
-    (37.44,@-122.1,@
+    (37.44, -122.1, 
             overContentString, clickContentString, imgUrl);
         var objName2 = app.w('googleMapsAdvanced').
-    (37.55,@-122.15);
+    (37.55, -122.15);
     }
    
 

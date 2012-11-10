@@ -179,7 +179,7 @@ for example 'DOW, Month D Y TZ'
                 app.setValue('text3',rtz);  // returns: 13-09-02
    
 
-## See Also:
+## See Also
 
  - [dtNewDate()](dtnewdate.htm)
 

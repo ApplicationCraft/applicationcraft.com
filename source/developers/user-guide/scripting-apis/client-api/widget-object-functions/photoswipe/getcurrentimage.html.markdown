@@ -14,5 +14,5 @@ Allows you to get the current image object.
 
 ## Example
 
-    app.w("Photoswipe").getCurrentImage();@@
+    app.w("Photoswipe").getCurrentImage();  
    

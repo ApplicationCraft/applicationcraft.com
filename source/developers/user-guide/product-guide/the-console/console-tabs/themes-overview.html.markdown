@@ -132,7 +132,7 @@ This option allows you to export your theme. This creates a 'zip' file which can
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Themes & Styles](../../content-and-app-layout/introduction/themes-styles/)
 

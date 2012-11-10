@@ -18,9 +18,9 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
 
 ## Create a new Database as the app starts or if already exists, populate a Mobile List widget
 
-    var@database@=@null;
+    var database = null;
      
-    function@createNeededTables(db,@callback){
+    function createNeededTables(db, callback){
         db.executeSql("CREATE TABLE IF NOT EXISTS test (testID INTEGER PRIMARY KEY AUTOINCREMENT, fio TEXT NOT NULL, adress TEXT)", function(){
             console.log( "table test was created" );
             if (callback)
@@ -32,7 +32,7 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
         });
     }
      
-    function@updateListFromDb(db){
+    function updateListFromDb(db){
         db.query("test", ["testID", "fio", "address"], undefined, undefined, undefined, undefined, undefined, undefined, function(res){
             var map = { value : "testID", label : "fio", aside : "address" };
             app.populateWidget("list", res.rows, map); //Populate a Mobile list widget from the database
@@ -40,7 +40,7 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
         
         });
     }
-    function@handler_application_onAppStarted(){
+    function handler_application_onAppStarted(){
         database = new PGSQLitePlugin("testingdb.sqlite3", function(dbResult){
             if (dbResult){
                 console.log("Database status=" + dbResult.status);
@@ -59,7 +59,7 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
         });        
     }
      
-    function@insertRow(db,@fio,@address,@callback){
+    function insertRow(db, fio, address, callback){
         db.insert("test", {fio : fio, address : address }, function(id){ 
             console.log("id="+id); 
             if (callback)
@@ -72,8 +72,8 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
         });
     }
      
-    function@handler_actionBtn_onClick(mouseev){
-    //@insert@new@record@to@database@and@update@Mobile@List@with@that@data
+    function handler_actionBtn_onClick(mouseev){
+    // insert new record to database and update Mobile List with that data
         insertRow(database, app.getData("fio"), app.getData("address"), function(){
             updateListFromDb( database );
         });        

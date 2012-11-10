@@ -30,12 +30,12 @@ This is a function of the widget object that returns the number of rows in a Gri
 
 ## Example
 
-    numRows@=@app.w('myGrid').rowCount();@//@returns@the@number@of@rows@for@a@specified@widget@name
-    numRows@=@_widget.rowCount();@@//@returns@the@number@of@rows@in@the@Grid@or@Repeater@that@fired@the@event@that@_widget@is@running@within
+    numRows = app.w('myGrid').rowCount(); // returns the number of rows for a specified widget name
+    numRows = _widget.rowCount();  // returns the number of rows in the Grid or Repeater that fired the event that _widget is running within
      
    
 
-## See Also:
+## See Also
 
  - [rowIndex()](rowindex.htm)
 

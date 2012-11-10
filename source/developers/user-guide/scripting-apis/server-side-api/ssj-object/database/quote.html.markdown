@@ -29,17 +29,17 @@ a string expression to process
 Returns a string that is correctly escaped for the target database referenced by
 
     connectionObject
-    SELECT@*@FROM@bugs@WHERE@reported_by@=@'O'Reilly'
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    sqlString@=@"SELECT@*@FROM@bugs@WHERE@reported_by@="@+@cObj.quote("O'Reilly");
+    SELECT * FROM bugs WHERE reported_by = 'O'Reilly'
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    sqlString = "SELECT * FROM bugs WHERE reported_by =" + cObj.quote("O'Reilly");
      
-    or@
+    or 
      
-    strName@=@"O'Reilly";
-    sqlString@=@"SELECT@*@FROM@bugs@WHERE@reported_by@="@+@cObj.quote(strName);
-    SELECT@*@FROM@bugs@WHERE@reported_by@=@'O\'Reilly'
-    nId@=@12345;
-    cObj@=@cObj.update("customers",@p.data,@'companyName='@+@nId);
+    strName = "O'Reilly";
+    sqlString = "SELECT * FROM bugs WHERE reported_by =" + cObj.quote(strName);
+    SELECT * FROM bugs WHERE reported_by = 'O\'Reilly'
+    nId = 12345;
+    cObj = cObj.update("customers", p.data, 'companyName=' + nId);
    
 
 .
@@ -60,7 +60,7 @@ However, if you are inserting a numeric parameter value, then there is no need f
 
 By the way, when you use . [insert()](insert.htm) and . [update()](update.htm) , the second parameter is an object with key:value contents to be inserted into the fields. Each of the field values will automatically be escaped for you, so you don't need to prepare the contents of this object by using quote() manually in advance.
 
-## See Also:
+## See Also
 
  - [quoteInto()](quoteinto.htm)
 

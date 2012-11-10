@@ -8,7 +8,7 @@ full_width: true
 
 For more complex properties, you may require a dialog. Within your main widget code you can define all of the properties for your widget in the normal way.
 
-    var@props@=@[
+    var props = [
         { name: AC.Property.group_names.general, props:[
             // These are standard AC properties
             AC.Property.general.widgetClass,

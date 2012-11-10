@@ -35,7 +35,7 @@ An array of the following object type is returned, indicating which AC Groups th
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

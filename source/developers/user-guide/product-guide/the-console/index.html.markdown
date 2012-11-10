@@ -12,7 +12,7 @@ Once you have logged into Application Craft, you will go to your 'Apps' tab as d
 
 All other screens can be reached directly from the Tab Bar across the top of the Console screens.
 
-**See Also:**
+## **See Also**
 
  - [General Screen Behavior](general-screen-behavior)
 

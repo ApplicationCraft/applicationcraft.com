@@ -45,7 +45,7 @@ Allows you to enter an email address to test your settings
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Workflow](../../advanced-features/workflow/)
 

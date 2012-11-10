@@ -18,7 +18,7 @@ The following CRUD functions trigger CDB and RDB callback functions once data ha
 
 The CDB callback function returns the result object in the second parameter and has the format
 
-    cdbCallback(error,@result)
+    cdbCallback(error, result)
     for(obj in result.created)
     {
         created: 

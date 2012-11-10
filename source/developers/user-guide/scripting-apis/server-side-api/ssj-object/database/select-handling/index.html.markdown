@@ -12,11 +12,11 @@ If you prefer, you can build a SQL statement as a regular string and then use cO
 
 The various SELECT clauses can be represented using javascript object functions. The following code illustrates this
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from("customers").where("id=?",@p.id).order('companyName');
-    result@=@cObj.exec(selectObj);
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from("customers").where("id=?", p.id).order('companyName');
+    result = cObj.exec(selectObj);
     return(result);
-    selectObj@=@cObj.select().order('companyName').where("id=?",@p.id).order('companyName').from("customers");
+    selectObj = cObj.select().order('companyName').where("id=?", p.id).order('companyName').from("customers");
      
    
 

@@ -50,13 +50,13 @@ or you can use Javascript to manage the redirection within the On Success event
 
 Here is an example of a typical function that would be called after a successful login Note that the App GUID of the App being switched to can be retrieved by locating that App in the Console. The ID is on the right hand side.
 
-    function@handler_btnSignin_onSuccess(login,@token){
+    function handler_btnSignin_onSuccess(login, token){
         app.setGlobalData("UserInstId", token); // pass the Instance ID to other Apps via the Global Data Pool
         app.switchApp("f1000334-62b3-4f03-b26a-cef2d2608eba");  // Switch to another App  
     }
    
 
-## See Also:
+## See Also
 
  - [Sign In Properties](../../../widget-properties-events/authentication/authsign-in)
 

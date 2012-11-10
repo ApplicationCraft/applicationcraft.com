@@ -141,7 +141,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ On Pre Show
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Popup Dropdown](../mobile/popup-dropdown)
 

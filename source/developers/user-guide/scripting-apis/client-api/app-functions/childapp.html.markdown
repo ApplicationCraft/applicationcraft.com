@@ -37,12 +37,12 @@ To ensure that the Embedded app is running, use the 'On Started' event
 
 A typical example would be to include an App as a cross-app menu bar. It can be Embedded into all your individual Apps that together form one, large Application. When the user clicks on a link, the Parent App must be used to switch Apps using the app.switchApp() function.
 
-    function@handler_lblChangeName_onClick(){
+    function handler_lblChangeName_onClick(){
         app.childApp('widgetName').setValue("Name", app.getValue("txtFullName"));   
-    }@@
+    }  
    
 
-## See Also:
+## See Also
 
  - [switchApp()](switchapp.htm)
 

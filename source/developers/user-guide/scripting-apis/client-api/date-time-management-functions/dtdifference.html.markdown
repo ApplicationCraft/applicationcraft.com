@@ -42,12 +42,12 @@ Returns the difference between the specified date objects in the specified time 
 
 ## Example
 
-    dObj1=app.dtNewDate('locale',@2015,@7,@14,@8,@2,30);@@@//@set@Date@Object(1)@to@Fri@Aug@14@2015@08:02:30
-    dObj2=app.dtNewDate('locale',@new@Date(2012,8,12,8,2,30));@@//@set@Date@Object(2)@to@Wed@Sep@12@2012@08:02:30
-    dDiff=app.dtDifference(dObj1,dObj2,'D');@//@Return@the@number@of@days@difference@(1066@days)@between@the@2@date@objects)
+    dObj1=app.dtNewDate('locale', 2015, 7, 14, 8, 2,30);   // set Date Object(1) to Fri Aug 14 2015 08:02:30
+    dObj2=app.dtNewDate('locale', new Date(2012,8,12,8,2,30));  // set Date Object(2) to Wed Sep 12 2012 08:02:30
+    dDiff=app.dtDifference(dObj1,dObj2,'D'); // Return the number of days difference (1066 days) between the 2 date objects)
    
 
-## See Also:
+## See Also
 
  - [dtNewDate()](dtnewdate.htm)
 

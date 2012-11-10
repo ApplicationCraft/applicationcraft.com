@@ -72,7 +72,7 @@ When a prompt box pops up, the user will have to click either "OK" or "Cancel" t
 
 Rich Text is supported.
 
-## See Also:
+## See Also
 
  - [showMessage()](showmessage.htm)
 

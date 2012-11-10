@@ -113,7 +113,7 @@ Select the view to use
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -435,7 +435,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -527,7 +527,7 @@ On Resize Stop
 </td>
 </tr>
 </table>
-## See Also:
+## See Also
 
  - [Reports & Dashboards](../../product-guide/advanced-features/data-integration,-reporting-dashboards/)
 

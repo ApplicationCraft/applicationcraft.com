@@ -28,7 +28,7 @@ True if the App is running in Native Mode, false if running as a Web App
 
 Indicates whether the App is running in Native or Web App mode.
 
-## See Also:
+## See Also
 
  - [Network Availability Handling](../../client-scripting-overview/network-availability-handling)
 

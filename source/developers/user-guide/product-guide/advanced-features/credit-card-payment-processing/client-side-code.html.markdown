@@ -8,15 +8,15 @@ full_width: true
 
 You should also refer to the [Server Side Code](server-side-code.htm) section.
 
-    //@This@value@was@specified@by@you@in@your@Zooz@portal
-    var@AppId@=@'com.yourdomain.paymentname';
+    // This value was specified by you in your Zooz portal
+    var AppId = 'com.yourdomain.paymentname';
      
-    function@handler_actionBtn1_onClick(mouseev){
+    function handler_actionBtn1_onClick(mouseev){
      
         // This data shows a simulated shopping cart
         // It is hard-coded for demo purposes
         var orderDetails = {
-            email: 'someone somewhere.com',
+            email: 'someone@somewhere.com',
             firstName: 'John',
             lastName: 'Smith'
         };    
@@ -34,19 +34,19 @@ You should also refer to the [Server Side Code](server-side-code.htm) section.
         
         // Now call the SSJ function passing in Order details and (if applicable) 
         // shopping cart contents
-    app.callSSJ("zooz_payment",@function(error,@result){
+    app.callSSJ("zooz_payment", function(error, result){
             // The SSJ function should return a token that you now pass to the Zooz on the client
             // This is where the actual payment screen will appear to the user
     zoozStartCheckout({
-    token@:@result, @ @ @ @ @ @ @ @ @ @ @ @//@Session@token@recieved@from@server
-    uniqueId@:@AppId, @ @ @ @ @ @ @ @//@unique@ID@as@registered@in@the@developer@portal
-    isSandbox@:@true, @ @ @ @ @ @ @ @//@true@=@Sandbox@environment @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @
+    token : result,                        // Session token recieved from server
+    uniqueId : AppId,                // unique ID as registered in the developer portal
+    isSandbox : true,                // true = Sandbox environment                                                
                 completeCallBackFunc : transactionComplete  // callback function from Zooz after payment attempt
     });
-    },@[orderDetails,@cartItems]);@@@@@@@
+    }, [orderDetails, cartItems]);       
     }
      
-    function@transactionComplete(response)@{
+    function transactionComplete(response) {
         // Zooz returns a string, so we will convert it into an object
         response = JSON.parse(response);
         // Now check the status code
@@ -73,8 +73,8 @@ You should also refer to the [Server Side Code](server-side-code.htm) section.
         
     }
      
-    //@You@must@load@the@Zooz@library@either@as@shown@below@...
-    //@Or@by@adding@'https://app.zooz.com/mobile/js/zooz-ext-web.js'@to@the@preload@property@of@your@App
+    // You must load the Zooz library either as shown below ...
+    // Or by adding 'https://app.zooz.com/mobile/js/zooz-ext-web.js' to the preload property of your App
     $.getScript('https://app.zooz.com/mobile/js/zooz-ext-web.js',
         function() {
             app.setData('labelScriptStatus', 'JS loaded');

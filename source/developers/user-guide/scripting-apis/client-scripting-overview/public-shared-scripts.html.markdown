@@ -14,13 +14,13 @@ If you are in the Code Editor, you will see on the left hand panel a folder call
 
 In the image above, if you want to include 'sad functions', then you would need to add the following line of code to your App Scripts somewhere. Although you can include the same code several times, we recommend putting in the main app scripts folder (in the above image, this would be App Scripts -\> Device Hardware).
 
-    include('sad@functions');
-    include('virtual@folder@name|another@folder@perhaps|virtual@file@name');
+    include('sad functions');
+    include('virtual folder name|another folder perhaps|virtual file name');
    
 
 If your virtual file is within a virtual folder path, you need to specify the path with the | character as a delimiter, so
 
-## See Also:
+## See Also
 
  - [Defining SSJ Methods](../server-side-scripting-overview/ssj-user-defined-methods)
 

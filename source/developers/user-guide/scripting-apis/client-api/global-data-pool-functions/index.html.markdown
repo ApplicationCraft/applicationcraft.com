@@ -48,7 +48,7 @@ Removes a variable from the Global Data Pool
 </td>
 </tr>
 </table>
-## See Also:
+## See Also
 
  - [App Switching](../../client-scripting-overview/scripting-with-javascript/important-details/app-switching)
 

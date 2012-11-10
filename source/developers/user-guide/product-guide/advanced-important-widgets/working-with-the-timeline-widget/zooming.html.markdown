@@ -34,11 +34,11 @@ There are a couple of ways to adjust the timeline display area. Firstly, there a
 
 or you can set properties
 
-    function@handler_btnSetRange_onClick(mouseev){
+    function handler_btnSetRange_onClick(mouseev){
         app.setProperty('timeline1', 'timelineMinDate', app.getValue('dtStart'));
         app.setProperty('timeline1', 'timelineMaxDate', app.getValue('dtEnd'));
     }
-    function@handler_sliderH_onSlide(value){
+    function handler_sliderH_onSlide(value){
         var fSize;
         app.setProperty("timeline1", "timelineIconSize", value);
         app.setProperty("timeline1", "treeIconSize", value);

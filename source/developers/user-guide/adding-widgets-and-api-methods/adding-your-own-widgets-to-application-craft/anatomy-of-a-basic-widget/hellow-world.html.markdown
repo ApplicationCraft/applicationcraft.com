@@ -11,7 +11,7 @@ Below is the code for a very simple 'Hello World' type widget.
 This Widget does very little other than display a piece of text. It is explained in more detail in the next Chapter 'Anatomy of a Basic Widget'. We will then develop this widget over the following chapters.
 
      
-    (function($,@windows,@document,@undefined){
+    (function($, windows, document, undefined){
      
         // This top section should always be present
         var widget = AC.Widgets.SimpleLabel = function() {
@@ -25,8 +25,8 @@ This Widget does very little other than display a piece of text. It is explained
      
         /**
          * Constructor
-         *  class  Constructor / Destructor below
-         *  constructs
+         * @class  Constructor / Destructor below
+         * @constructs
          */
         p.init = function() {
             widget._sc.init.apply(this, arguments);
@@ -154,7 +154,7 @@ This Widget does very little other than display a piece of text. It is explained
      
         /**
          * Return available widget prop
-         *  return {Object} available property
+         * @return {Object} available property
          */
         widget.props = function() {
             return props;
@@ -162,7 +162,7 @@ This Widget does very little other than display a piece of text. It is explained
      
         /**
          * Return empty widget prop
-         *  return {Object} default properties
+         * @return {Object} default properties
          */
         widget.emptyProps = function() {
             return emptyProps;
@@ -170,7 +170,7 @@ This Widget does very little other than display a piece of text. It is explained
      
         /**
          * Return widget inline edit prop name
-         *  return {String} default properties
+         * @return {String} default properties
          */
         widget.inlineEditPropName = function() {
             return "data";
@@ -182,7 +182,7 @@ This Widget does very little other than display a piece of text. It is explained
      
         /**
          * Return available widget actions
-         *  return {Object} available actions
+         * @return {Object} available actions
          */
         widget.actions = function() {
             return actions;
@@ -191,7 +191,7 @@ This Widget does very little other than display a piece of text. It is explained
         /* Lang constants */
         /**
          * Return available widget langs
-         *  return {Object} available actions
+         * @return {Object} available actions
          */
         widget.langs = function() {
             return lng;

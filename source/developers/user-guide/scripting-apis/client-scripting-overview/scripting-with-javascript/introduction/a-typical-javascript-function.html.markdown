@@ -8,7 +8,7 @@ full_width: true
 
 The following is an event that is called when a Respondent presses the 'Next Page' button. It checks to see whether all required fields have been completed before jumping to the next Page in the App, which is conditional on a response to which Region that person comes from.
 
-    function@handler_btnHomeNext_onClick(mouseev){
+    function handler_btnHomeNext_onClick(mouseev){
         
         // Check that all required fields have been filled in
         var valid = app.checkMandatory(2, ["txtFirstName", "txtLastName", "txtEmail", "If set to true, the user is able to drag and drop the widget with the mouse at run timeRegion"],undefined, 100);

@@ -20,7 +20,7 @@ An Application Craft Database Agent is installed by default alongside the AC sys
 
 Application Craft itself automatically installs a local database Agent so local databases can be interacted with. You may purchase additional AC Database Agents to install at remote locations, should you need to interact securely with data at multiple locations.
 
-## See Also:
+## See Also
 
  - [AC Advanced Data Agent](ac-data-agent.htm)
 

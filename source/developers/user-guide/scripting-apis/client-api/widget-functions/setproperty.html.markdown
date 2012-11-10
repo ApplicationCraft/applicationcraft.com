@@ -60,13 +60,13 @@ The page 'BG Image' property should be specified as 'backgroundimage' or 'backgr
 
 You can also check the available properties for a specific widget using [debugProperties()](../app-functions/debugproperties)
 
-    app.setProperty('myTextBox',@'color',@'#ffffff');
-    app.setProperty(['myTextBox',@'myOtherTextBox'],@'color',@'#ffffff');
-    obj@=@app.w('myTextBox');
-    app.setProperty(obj,@'color',@'#ffffff');@//@shows@how@a@Widget@object@can@be@passed
+    app.setProperty('myTextBox', 'color', '#ffffff');
+    app.setProperty(['myTextBox', 'myOtherTextBox'], 'color', '#ffffff');
+    obj = app.w('myTextBox');
+    app.setProperty(obj, 'color', '#ffffff'); // shows how a Widget object can be passed
    
 
-## See Also:
+## See Also
 
  - [getProperty()](getproperty.htm)
 

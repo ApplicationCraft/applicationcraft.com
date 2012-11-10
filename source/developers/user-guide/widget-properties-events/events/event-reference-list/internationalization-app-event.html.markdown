@@ -52,7 +52,7 @@ Called as the Language is detected
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 

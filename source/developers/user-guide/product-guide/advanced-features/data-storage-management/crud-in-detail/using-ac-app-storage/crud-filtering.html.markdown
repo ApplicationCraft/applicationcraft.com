@@ -18,7 +18,7 @@ Let's say we have a Grid with all companies listed. When someone clicks on the G
 
 ## Method 1 - Doing Everything in Script
 
-    function@handler_gridCompanies_onRowSelect(id,@ind){
+    function handler_gridCompanies_onRowSelect(id, ind){
         g_CompInstance = app.getValue('gridCompanies')[2];  // Get the instance ID from a hidden Grid column
         g_CompContactsFilter = ["{CRUD Companies.instance_id}='"+g_CompInstance+"'"];  // Filter
         app.instanceLoad(g_CompInstance); // Load the Company Instance into the App

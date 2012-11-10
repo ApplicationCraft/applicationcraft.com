@@ -30,7 +30,7 @@ This is a function of the widget object, so it is used as objWidget.deleteRow() 
 
 Populating Grids with Id values is [described here](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers) .
 
-## See Also:
+## See Also
 
  - [deleteRow()](deleterow.htm)
 

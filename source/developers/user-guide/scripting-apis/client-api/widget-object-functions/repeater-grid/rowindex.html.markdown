@@ -34,13 +34,13 @@ Read the [Interacting with Widgets](../../../client-scripting-overview/scripting
 
 ## Example
 
-    rowObj@=@app.w('myRepeater').getRow(_widget.parent().rowIndex());
-    app.setValue(rowObj.w('total'),@app.getValue(rowObj.w('quantity'))@*@app.getValue(rowObj.w('price'));
+    rowObj = app.w('myRepeater').getRow(_widget.parent().rowIndex());
+    app.setValue(rowObj.w('total'), app.getValue(rowObj.w('quantity')) * app.getValue(rowObj.w('price'));
    
 
 This example might run in a text OnChange event. A quantity  is multiplied by the price to give the total.
 
-## See Also:
+## See Also
 
  - [getRow()](getrow.htm)
 

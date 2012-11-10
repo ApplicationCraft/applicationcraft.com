@@ -43,7 +43,7 @@ Gets all Users of a Group for the specified ID. If there is an error due to perm
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

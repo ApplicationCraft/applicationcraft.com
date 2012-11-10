@@ -63,29 +63,29 @@ Russia
 
 All selection data from the app.getValue(ListBoxName) is returned in the following Javascript object
 
-    {@"value":"UK",
+    { "value":"UK",
       "label":"United Kingdom",
       "index":"1" }
-    app.getValue(@WidgetName).index@//@returns@the@0-based@row@number@of@the@selected@row
+    app.getValue( WidgetName).index // returns the 0-based row number of the selected row
      
-    app.getValue(@WidgetName).value@//@returns@the@'select@value'
+    app.getValue( WidgetName).value // returns the 'select value'
      
-    app.getValue(@WidgetName).label@@//@returns@the@displayed@text
-    app.getValue(WidgetName).length@
-    //@get@the@number@of@selected@items@in@the@list@(returns@an@object@array)
-    app.getValue(WidgetName)@//@returns@the@full@object@array@of@selected@row@items
-    app.getValue(WidgetName)[n].index,@app.setValue(@WidgetName)[n].value,@app.setValue(@WidgetName)[n].label@
-    //(where@n@is@the@index@into@the@array@of@selected@items)@gets@the@index/select@value/row@text@of@the@nth@selected@row@item.
-    app.setValue(WidgetName,@{index:1})@//@sets@the@2nd@row@item,@'US'
-    app.setValue(WidgetName,@{value:'US'})@//@also@sets@'US'
-    app.setValue(WidgetName,@{label:'United@States@of@America'})@//@and@this@also@sets@'US'
+    app.getValue( WidgetName).label  // returns the displayed text
+    app.getValue(WidgetName).length 
+    // get the number of selected items in the list (returns an object array)
+    app.getValue(WidgetName) // returns the full object array of selected row items
+    app.getValue(WidgetName)[n].index, app.setValue( WidgetName)[n].value, app.setValue( WidgetName)[n].label 
+    //(where n is the index into the array of selected items) gets the index/select value/row text of the nth selected row item.
+    app.setValue(WidgetName, {index:1}) // sets the 2nd row item, 'US'
+    app.setValue(WidgetName, {value:'US'}) // also sets 'US'
+    app.setValue(WidgetName, {label:'United States of America'}) // and this also sets 'US'
     app.setValue(WidgetName, [{index:0},{label:'Russia'}]) // sets United Kingdom (Index 0) and Russia (by label)
-    app.setValue('mobiscrollList',['Value1']);@@
-    //will@set@a@single@column@mobiscroll@list@to@that@value@
+    app.setValue('mobiscrollList',['Value1']);  
+    //will set a single column mobiscroll list to that value 
      
      
-    app.setValue('mobiscrollList',['Value1','AnotherValue']);@
-    //if@your@list@contains@multiple@columns
+    app.setValue('mobiscrollList',['Value1','AnotherValue']); 
+    //if your list contains multiple columns
    
 
 Multi response selections are returned as an array of this object.

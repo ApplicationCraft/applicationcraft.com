@@ -21,18 +21,18 @@ If you have any array of the following object
         maxtempF, 
         hourly[10].pressure
     }
-    var@mapObject@=@{
-    'lblOne'@:@'maxtempC',
-    'lblTwo'@:@'maxtempF',
-    'lblThree'@:@['hourly',@0@,'pressure']
-    };@
+    var mapObject = {
+    'lblOne' : 'maxtempC',
+    'lblTwo' : 'maxtempF',
+    'lblThree' : ['hourly', 0 ,'pressure']
+    }; 
     media:group.media:thumbnail.url
-    var@mapObject@=@{
+    var mapObject = {
         'imgURL' : ['media:group','media:thumbnail','url'], // look for the corresponding location in the JSON data below
         'lblLink' : 'link',
         'lblTitle' : 'title'
     };
-    var@mapObject@=@{
+    var mapObject = {
         0 : ['media:group','media:thumbnail','url'], // look for the corresponding location in the JSON data below
         1 : 'link',
         2 : 'title'
@@ -41,7 +41,7 @@ If you have any array of the following object
        "length":"0",
        "url":"http://farm6.static.flickr.com/5245/5254676655_78ba530110.jpg",
        "type":"image/jpeg"},
-       "link":"http://flickr.com/photos/86818294 N00/5254676655/",
+       "link":"http://flickr.com/photos/86818294@N00/5254676655/",
        "media:group":{
           "media:content":{"url":"http://farm6.static.flickr.com/5245/5254676655_78ba530110.jpg"},
            "media:thumbnail":{
@@ -49,7 +49,7 @@ If you have any array of the following object
           }
        },
        "y:id":{"content":"tag:flickr.com,2004:/photo/5254676655"},
-       "author":"nobody flickr.com (alto maltÃ©s)",
+       "author":"nobody@flickr.com (alto maltÃ©s)",
        "title":"AXIS",
        "description":"<p>A long HTML description</p>",
        "y:published":{"utime":"1292182256"}

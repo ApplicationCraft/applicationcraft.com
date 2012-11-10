@@ -32,7 +32,7 @@ Pie Charts, Grids and Listboxes have the ability to allow multiple item selectio
 
 The Drill Down Filter is affected by all Widgets whose Broadcast property is set to True. As soon as a Widget is clicked on whose Broadcast property is set to true,  Application Craft will internally set the Drill Down Filter and then instruct all Widgets on that Page, that a) share the same View and b) have their Listen properties set to True, to request new (and therefore filtered) data.
 
-## See Also:
+## See Also
 
  - [Must Read Chart Reference](../chart-reference)
 

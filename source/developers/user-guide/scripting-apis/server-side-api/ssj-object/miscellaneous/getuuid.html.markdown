@@ -18,6 +18,6 @@ Use this function if you need to get a unique identifier of the following format
 
 ## Example
 
-    strUID@=@ssj.getUUID();
+    strUID = ssj.getUUID();
    
 

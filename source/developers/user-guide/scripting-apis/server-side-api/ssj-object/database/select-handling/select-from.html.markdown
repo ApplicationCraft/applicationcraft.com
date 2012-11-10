@@ -68,21 +68,21 @@ If your expression includes characters that are likely to cause problems for the
 
 For example the following statement would be invalid due to the ' appearing mid word.
 
-    SELECT@*@FROM@bugs@WHERE@reported_by@=@'O'Reilly'
+    SELECT * FROM bugs WHERE reported_by = 'O'Reilly'
      
      
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from("customers")
-    result@=@cObj.exec(selectObj);
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from("customers")
+    result = cObj.exec(selectObj);
     return(result);
      
-    selectObj@=@cObj.select().from("customers");
+    selectObj = cObj.select().from("customers");
      
-    selectObj@=@cObj.select().from("customers",@['companyName',@'country']);
-    cObj.select().from({p:@'customers'},['companyName',@'country'])
-    cObj.select().from({p:@'customers'},{name:@'companyName',@country:@'country'})
-    cObj.select().from({p:@'customers'},{name:@'companyName',@country:@new@DbExpr('LOWER(p.country)')})
-    cObj.select().from({p:@'products'},{product_id:@'product_id',@cost_plus_tax:@new@DbExpr('p.cost@*@1.08')})
+    selectObj = cObj.select().from("customers", ['companyName', 'country']);
+    cObj.select().from({p: 'customers'},['companyName', 'country'])
+    cObj.select().from({p: 'customers'},{name: 'companyName', country: 'country'})
+    cObj.select().from({p: 'customers'},{name: 'companyName', country: new DbExpr('LOWER(p.country)')})
+    cObj.select().from({p: 'products'},{product_id: 'product_id', cost_plus_tax: new DbExpr('p.cost * 1.08')})
    
 
 ## Field Expressions

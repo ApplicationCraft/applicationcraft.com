@@ -44,7 +44,7 @@ In most cases if your CSV file is correctly set up this will enable to file to b
 
 If you do not see the Parsed Resource as intended, 'Cancel' back to the previous screen and review the options available for the Delimiter, Enclosure and Escape fields in your CSV file
 
-## See Also:
+## See Also
 
  - [Listbox](common/listbox)
 

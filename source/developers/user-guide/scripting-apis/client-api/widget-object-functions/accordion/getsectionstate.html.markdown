@@ -14,7 +14,7 @@ Allows you to get the state of an Accordion section.
 
 Returns true if section is open, false if section is closed
 
-**Example**
+## **Example**
 
-    app.w("accordion").getSectionState(1);@//@Gets@the@state@of@the@2nd@section@in@the@container
+    app.w("accordion").getSectionState(1); // Gets the state of the 2nd section in the container
    

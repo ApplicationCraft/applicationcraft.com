@@ -102,29 +102,29 @@ For more information on rendererOptions see: [https://developers.google.com/maps
 
 Note that the returned directions are presented via a callback function.
 
-**Example**
+## **Example**
 
-    function@getDirectionsCallback(result,@data)@{
+    function getDirectionsCallback(result, data) {
         // Put all of the directions into a single HTML string
         for(i=0, htmlStr="";i<data.routes[0].legs[0].steps.length; i++) {
             htmlStr += data.routes[0].legs[0].steps[i].instructions + "</br>";
         }
     }
      
-    function@handler_actionBtn15_onClick(mouseev){
+    function handler_actionBtn15_onClick(mouseev){
      var rendererOptions = {
             preserveViewport: true
         };
           
         app.w('googleMapsAdvanced').getDirections(getDirectionsCallback, "Moscow", "Minsk", true, {}, rendererOptions);
         app.w('googleMapsAdvanced').
-    (getDirectionsCallback,@[37.7,@-97.2],@"Oklahoma@City");
+    (getDirectionsCallback, [37.7, -97.2], "Oklahoma City");
     }
    
 
 **getDirections**
 
-**See Also:**
+## **See Also**
 
  - [whereAmI()](whereami.htm)
 

@@ -8,7 +8,7 @@ full_width: true
 
 Here is a typical example of populateWidget() being used to populate data from a hard-coded data array into two Label Widgets 'lblItem' and 'lblPrice'.
 
-    function@handler_application_onAppStart(){
+    function handler_application_onAppStart(){
         
         // Generate some dummy data for the Repeater  
          var data = {"rowitems": {

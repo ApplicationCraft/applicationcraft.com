@@ -10,7 +10,7 @@ If you need an OK or Cancel response from the Respondent, you can use the [showC
 
 ## Example
 
-    app.showConfirm("Confirm",@"Are@you@sure@you@want@to@remove@the@highlighting@from@the@drop@down@list?",function(response)@{
+    app.showConfirm("Confirm", "Are you sure you want to remove the highlighting from the drop down list?",function(response) {
         if(response) {
              app.unhighlightWidgets(["If set to true, the user is able to drag and drop the widget with the mouse at run timeColor"]);
              app.pageJump("Farewell");

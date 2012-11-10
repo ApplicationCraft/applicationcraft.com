@@ -10,7 +10,7 @@ There are two ways of removing overlays from the Map.
 
 The following example removes an overlay if it is clicked on
 
-    function@handler_googleMapsAdvanced_onOverlayClick(latlng,@overlay){
+    function handler_googleMapsAdvanced_onOverlayClick(latlng, overlay){
         _widget.removeOverlay(overlay);
     }
     app.w('googleMapsAdvanced').clearOverlays();

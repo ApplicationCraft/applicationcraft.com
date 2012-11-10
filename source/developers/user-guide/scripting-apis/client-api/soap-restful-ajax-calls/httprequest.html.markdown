@@ -179,11 +179,11 @@ httpResponse .getAllResponseHeaders() - returns the entire header as a string
 
 There are some advanced parameters that are passed through to the underlying JQuery API. On the whole, you should not need to supply these other for very special situations. The example parameter object shown in the example below you might find useful.
 
-    {timeout:@20000}@//@set@the@timeout@value@to@20@seconds@before@an@error@is@thrown
-    {traditional:@true}@//@we@have@had@to@use@this@when@calling@some@3rd@party@APIs@(SalesForce@for@example).
-    {ignoreNetworkState:@true}@@//@suppress@network@state@checking@before@httpRequest()@is@called
-    {crossdomain:true}@//@true@-@request@to@another@domain@will@be@sent@directly;@false@(default)@-@request@to@another@domain@will@be@sent@to@acgo@proxy.
-    function@handler_btnGet_onClick(mouseev){
+    {timeout: 20000} // set the timeout value to 20 seconds before an error is thrown
+    {traditional: true} // we have had to use this when calling some 3rd party APIs (SalesForce for example).
+    {ignoreNetworkState: true}  // suppress network state checking before httpRequest() is called
+    {crossdomain:true} // true - request to another domain will be sent directly; false (default) - request to another domain will be sent to acgo proxy.
+    function handler_btnGet_onClick(mouseev){
         app.httpRequest("http://maps.google.com/maps/api/geocode/json", "GET", function(data, error, httpResponse){    
             debugger;
             if (error === false){
@@ -196,14 +196,14 @@ There are some advanced parameters that are passed through to the underlying JQu
         }, {address: app.getData("txtZIP"), sensor:"false"} , "json" );
     }
      
-    function@handler_btnTest_onClick(mouseev){@
+    function handler_btnTest_onClick(mouseev){ 
        __headers = {'X-Auth-User' : 'rackspaceUserName','X-Auth-Key' : 'rackspaceApiKey'};    
        app.httpRequest('https://auth.api.rackspacecloud.com/v1.0', 'GET', 
-    function(@data,@error,@httpResponse){
+    function( data, error, httpResponse){
                    var __token = httpResponse.getResponseHeader('X-Auth-Token');
                    var __headers = {'X-Auth-Token' : __token, 'Content-Type' : 'application/json'};
                    var __servers = httpResponse.getResponseHeader('X-Server-Management-Url');
-    },@undefined,@undefined,@__headers,@{timeout:@20000});
+    }, undefined, undefined, __headers, {timeout: 20000});
     }
      
      
@@ -227,7 +227,7 @@ This example calls the Google Geocoding API. It passes in a lat/lng coordinate a
 
 This example shows how headers are used to provide authentication information and the necessary token used for subsequent calls are then extracted. Atypically, this call does not receive any data in the callback which is why the dataType parameter was left undefined. Normally, we would not recommend implementing authentication via the client side App due to security considerations but we have included this as a genuine working example showing the use of headers.
 
-## See Also:
+## See Also
 
  - [Crossdomain Handling](../../client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues)
 

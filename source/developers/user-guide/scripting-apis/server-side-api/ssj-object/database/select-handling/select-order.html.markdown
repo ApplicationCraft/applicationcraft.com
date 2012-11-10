@@ -32,12 +32,12 @@ Note you can include ASC or DESC directives by appending ASC or DESC to the fiel
 
 ## Simple Example
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from("customers").order('country');
-    result@=@cObj.exec(selectObj);
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from("customers").order('country');
+    result = cObj.exec(selectObj);
     return(result);
-    selectObj@=@cObj.select().from("customers").order(['country',@'state@DESC']);
-    selectObj@=@cObj.select().from("customers").order('country').order('state@DESC');
+    selectObj = cObj.select().from("customers").order(['country', 'state DESC']);
+    selectObj = cObj.select().from("customers").order('country').order('state DESC');
    
 
 ## 2 Fields Example

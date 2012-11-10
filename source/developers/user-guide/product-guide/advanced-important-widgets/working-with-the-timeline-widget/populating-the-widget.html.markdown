@@ -16,19 +16,19 @@ The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-mani
 
 The following code shows how we can create some dummy entries manually. In practice, your data will come back in some format determined by the back-end the data is pulled from. You will rarely populate your Timeline widget using hard-coded arrays but the example does a good job of explaining the process.
 
-    function@getSampleDate()@{
+    function getSampleDate() {
         var dateEvent = new Date();
         dateEvent.setTime(dateEvent.getTime() + ((Math.floor(Math.random() * 11) - 4) * 12 * 60 * 60 * 1000));
         return dateEvent;
     }
      
-    function@getNextWeekDate()@{
+    function getNextWeekDate() {
         var dateEvent = new Date();
         dateEvent.setTime(dateEvent.getTime() + ((Math.floor(Math.random() * 7) + 7) * 12 * 60 * 60 * 1000));
         return dateEvent;
     }
      
-    function@getSomeData()@{
+    function getSomeData() {
         var dummyDate = getSampleDate();
         var dummyEndDate = getNextWeekDate(); 
         // This array is purely for our example. Your data will come back in a different and potentially more complex format    

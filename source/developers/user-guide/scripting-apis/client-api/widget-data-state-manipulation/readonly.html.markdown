@@ -43,12 +43,12 @@ This is a utility function that enables you to set the 'Read Only' property of o
 
 ## Example
 
-    app.readOnly(["timeColor",@"shapeColor"],@true);@@//@make@the@listed@widgets@read-only
-    app.readOnly(["timeColor"],@true);@@@@@@@@@@@@@@@@//@make@a@single@widget@read-only
+    app.readOnly(["timeColor", "shapeColor"], true);  // make the listed widgets read-only
+    app.readOnly(["timeColor"], true);                // make a single widget read-only
         
    
 
-## See Also:
+## See Also
 
  - [visible()](visible.htm)
 

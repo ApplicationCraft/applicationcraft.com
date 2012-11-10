@@ -18,7 +18,7 @@ Your App will want to submit data at some point and this can be done in the foll
 
  - Using the Submit Button
 
-## See Also:
+## See Also
 
  - [Instance Handling with Javascript](instance-handling-with-javascr)
 

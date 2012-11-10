@@ -60,7 +60,7 @@ The example below shows how the response to the question is handled by the callb
 ## Example
 
      
-    app.showConfirm(undefined,@"Are@you@<b>sure</b>@you@want@to@remove@the@highlighting@from@the@drop@down@list?",function(response)@{
+    app.showConfirm(undefined, "Are you <b>sure</b> you want to remove the highlighting from the drop down list?",function(response) {
         if(response) {
              app.unhighlightWidgets(["timeColor"]);
              app.pageJump("Farewell");
@@ -68,7 +68,7 @@ The example below shows how the response to the question is handled by the callb
         });
    
 
-## See Also:
+## See Also
 
  - [showMessage()](showmessage.htm)
 

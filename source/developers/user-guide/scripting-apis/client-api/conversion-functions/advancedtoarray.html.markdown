@@ -28,7 +28,7 @@ Any Javascript object can be passed in that can be expected to return an array.
 
 This converts a Javascript object into an array. It is intended to be used as a helper function to convert data that has been extracted from a Grid,Repeater, List or Chart type object (using [getData()](../widget-data-state-manipulation/getdata) ) into a simple array format.
 
-## See Also:
+## See Also
 
  - [Data Conversion]() Functions
 

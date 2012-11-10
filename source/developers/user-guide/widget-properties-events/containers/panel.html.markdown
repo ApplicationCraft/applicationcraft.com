@@ -167,7 +167,7 @@ Where you can set the relationships to other apps (see [Relational Apps & Instan
 </tr>
 <tr>
 <td width="173">
-X
+## X
 
 </td>
 <td width="21">
@@ -630,7 +630,7 @@ Custom CSS Classes
 <td width="19">
 </td>
 <td width="745">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -775,7 +775,7 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

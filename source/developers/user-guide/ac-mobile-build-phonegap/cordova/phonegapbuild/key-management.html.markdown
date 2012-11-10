@@ -59,7 +59,7 @@ For more details
 
 [http://us.blackberry.com/ataglance/academic/gettingstarted/BlackBerry+-+Code+Signing+-+Step+By+Step+Guide-2.pdf](http://us.blackberry.com/ataglance/academic/gettingstarted/BlackBerry+-+Code+Signing+-+Step+By+Step+Guide-2.pdf) (BlackBerry)
 
-## See Also:
+## See Also
 
  - [iOS Keys and Certificates](../certificates/ios-keys-and-certificates/)
 

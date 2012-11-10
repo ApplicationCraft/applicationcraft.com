@@ -21,7 +21,7 @@ This is a function of the widget object. It removes all of the selected rows fro
     app.w('gridWidget').deleteSelectedRows();
    
 
-## See Also:
+## See Also
 
  - [deleteRow()](deleterow.htm)
 

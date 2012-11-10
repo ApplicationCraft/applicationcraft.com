@@ -30,16 +30,16 @@ Description
 
 How you can set the line color for overlays
 
-**Example**
+## **Example**
 
      
-    app.w('googleMapsAdvanced').strokeColor("#"@+@(Math.round(Math.random()@*@16777215)).toString(16));@@//Set@Random@Color
+    app.w('googleMapsAdvanced').strokeColor("#" + (Math.round(Math.random() * 16777215)).toString(16));  //Set Random Color
     app.w('googleMapsAdvanced').strokeColor("#ff0000");
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [strokeOpacity()](strokeopacity.htm)
 

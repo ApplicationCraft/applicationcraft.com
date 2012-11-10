@@ -42,7 +42,7 @@ This stores any data to the Global Data Pool. The data can then be recalled at a
 
 Read up on [getAppSnapshot()](../app-functions/getappsnapshot) and [setAppSnapshot()](../app-functions/setappsnapshot) for useful example of storing an entire App snapshot to the Global Data Pool.
 
-## See Also:
+## See Also
 
  - [switchApp()](../app-functions/switchapp)
 

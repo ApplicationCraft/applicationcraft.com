@@ -49,7 +49,7 @@ Updates the user with the details of the user passed in the userObject parameter
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

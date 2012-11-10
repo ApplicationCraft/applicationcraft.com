@@ -42,23 +42,23 @@ How you can get a map coordinate from a specified address.
 
 Note that the returned coordinates are presented via a callback function.
 
-**Example** :
+## **Example** 
 
-    function@getCoordsCallback(result,@data)@{
+    function getCoordsCallback(result, data) {
         if (result) {
             app.setValue("googleMapsAdvanced", data);
             //or app.setValue("googleMapsAdvanced", [data.lat(), data.lng()]);
         }
     }
      
-    function@handler_actionBtn2_onClick(mouseev){
+    function handler_actionBtn2_onClick(mouseev){
         app.w('googleMapsAdvanced').getCoord(getCoordsCallback, "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA");
     }
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [whereAmI()](whereami.htm)
 

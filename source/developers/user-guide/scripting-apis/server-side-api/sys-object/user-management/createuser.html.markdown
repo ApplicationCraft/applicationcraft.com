@@ -51,7 +51,7 @@ Creates a new User in the AC system. You should pass in the following object
 
 If there is an error creating the user due to permissions, then an exception is thrown.
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

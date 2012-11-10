@@ -71,10 +71,10 @@ This function is used as a part of User and [Authentication support](../../../..
 
 ## Example
 
-    ssj.getUserParameter('TwitterSettings',@'TwitterID',@strUserHandle,@strUserID);
+    ssj.getUserParameter('TwitterSettings', 'TwitterID', strUserHandle, strUserID);
    
 
-## See Also:
+## See Also
 
  - [getUserParameter()](getuserparameter.htm)
 

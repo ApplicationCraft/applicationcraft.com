@@ -28,18 +28,18 @@ Handles the location array and adds marker to the map, returning the google.maps
 
 Adds the current location of the user to the map
 
-**Example**
+## **Example**
 
-    function@onLocationUpdated(res,@data)@{
+    function onLocationUpdated(res, data) {
        app.setValue("googleMapsAdvanced", (data)); 
-    //or@app.setValue("googleMapsAdvanced",@[data.lat(),@data.lng()]);
+    //or app.setValue("googleMapsAdvanced", [data.lat(), data.lng()]);
     }
-    function@handler_actionBtn2_onClick(mouseev){
+    function handler_actionBtn2_onClick(mouseev){
     app.w('googleMapsAdvanced').addCurrentLocation(onLocationUpdated);
     }
    
 
-**See Also:**
+## **See Also**
 
  - [whereAmI()](whereami.htm)
 

@@ -33,6 +33,6 @@ Refer to the [Google Analytics](../../../product-guide/advanced-features/google-
 
 Call the following code anywhere within your code.
 
-    app.gaTrack('myCode');@@
+    app.gaTrack('myCode');  
    
 

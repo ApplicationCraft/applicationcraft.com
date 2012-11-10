@@ -10,7 +10,7 @@ full_width: true
 
 ## Description
 
-**Example**
+## **Example**
 
      
     app.w('YouTube').getYouTubePlayer().clearVideo();

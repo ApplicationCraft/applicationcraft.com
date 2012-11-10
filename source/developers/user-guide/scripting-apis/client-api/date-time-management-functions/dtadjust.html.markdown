@@ -43,10 +43,10 @@ Adjusts a Date Object to the specified time zone. The absolute time remains the 
 ## Example
 
     dnew=app.dtNewDate('locale');
-    adj=app.dtAdjust(dnew,@'utc');@@//@adjust@date@object@'dnew'@from@local@time@to@UTC@time
+    adj=app.dtAdjust(dnew, 'utc');  // adjust date object 'dnew' from local time to UTC time
    
 
-## See Also:
+## See Also
 
  - [dtNewDate()](dtnewdate.htm)
 

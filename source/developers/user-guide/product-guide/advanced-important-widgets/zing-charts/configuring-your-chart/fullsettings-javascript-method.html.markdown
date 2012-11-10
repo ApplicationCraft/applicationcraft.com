@@ -10,7 +10,7 @@ This approach allows you to set up your chart by configuring the javascript obje
 
 In your code, you would then use the following code in your App to set the chart object.
 
-    app.w('zingchart').fullSettings(jsObj)@
+    app.w('zingchart').fullSettings(jsObj) 
    
 
 Where 'zingchart' is the name of your Application Craft widget and jsObj is an object.

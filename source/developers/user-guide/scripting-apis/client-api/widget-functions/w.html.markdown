@@ -30,13 +30,13 @@ This function locates the specified Widget within the App if used as app.w('myWi
 
 However, you can also use it as follows
 
-    myContainer@=@app.w("myRepeater");
-    widgetObject@=@myContainer.w("textField");
+    myContainer = app.w("myRepeater");
+    widgetObject = myContainer.w("textField");
    
 
 In this case, you can see how the w() function can be used to locate a Widget inside a Container Widget.
 
-## See Also:
+## See Also
 
  - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 

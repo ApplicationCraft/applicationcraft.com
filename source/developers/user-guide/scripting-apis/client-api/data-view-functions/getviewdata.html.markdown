@@ -118,8 +118,8 @@ Where you are specifying View fields or Widget fields, you need to do this as an
 
 Expressions can include View (database) fields, App Widgets or  literal values. An expression string might look like this for simply getting a few fields
 
-    var@fields@=@['{orders.orderDate}',@'Count({orders.orderNumber})',@'{customers.customerName}'];
-    var@fields@=@['Sum({orders.orderValue})']@//@Calculate@the@total@order@value@within@the@database@query
+    var fields = ['{orders.orderDate}', 'Count({orders.orderNumber})', '{customers.customerName}'];
+    var fields = ['Sum({orders.orderValue})'] // Calculate the total order value within the database query
     var fields = ['[Form.Widgets.numQuantity] * {products.price}']; // the product price multiplied by the App Widget 'numQuantity'
    
 
@@ -143,9 +143,9 @@ This gets two parameters - error (boolean) and data (array). The first element o
 
 A Filter Expression can be supplied as an array of string Expressions (and not an array of objects containing string expressions).
 
-    var@filter@=@['{customers.CustomerName}="Atelier@graphique"'];
-    var@groupBy@=@["{customers.CustomerName}"];
-    var@orderBy@=@[{value:'{customers.CustomerName}',@asc:true}];
+    var filter = ['{customers.CustomerName}="Atelier graphique"'];
+    var groupBy = ["{customers.CustomerName}"];
+    var orderBy = [{value:'{customers.CustomerName}', asc:true}];
      app.getViewData('Classic', ['{customers.country}','{customers.countryCode}'], function(error, data) {
             if (!error) {
                 var listBoxData = [];
@@ -172,7 +172,7 @@ This is an object (or an array of objects if their are multiple fields to order 
 
 This example shows simple usage. It is getting two fields from a database and then adding one of them to a listbox. There is no filter in this example but you can see it is Grouped By and Ordered By 'country'. It is also fetching 50 rows of data starting at the 101st row,
 
-## See Also:
+## See Also
 
  - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
 

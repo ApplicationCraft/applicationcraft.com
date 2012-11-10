@@ -89,16 +89,16 @@ The events "On Mouse Leave" & "On Mouse Enter" are called when you hover above t
 
 If you want to access the internal events (very rare that you would want to) you can find details at [http://www.zingchart.com/learn/api/events.php](http://www.zingchart.com/learn/api/events.php) . In general, you are advised to stick with the Application Craft events.
 
-**Example**
+## **Example**
 
 This event will be called for the all ZingChart widgets in the current app.
 
-    zingchart.load@=@function(jsonObj){
+    zingchart.load = function(jsonObj){
         alert("ZingChart has completed loading the Chart " + jsonObj["id"]);
     }
      
      
-    zingchart.load@=@function(data)@{
+    zingchart.load = function(data) {
             if (data.id == app.w('zing').getZingChartId()) {
                 alert("ZingChart with the name = zing has completed loading the Chart");
             }

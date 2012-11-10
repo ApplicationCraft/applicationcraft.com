@@ -12,22 +12,22 @@ If you are getting your data manually, probably using httpRequest() or soapReque
 
 Get your data into an object that looks like this and then pass it to app.setData(). A simple, hard-coded example with 2 data points looks like this
 
-    var@obj@=@@{'my@data':@[{label:@"Point@1@Label",@data:@60},@{label:@"Point@2@Label",@data:@90}]};
-    app.setData("flotChart",@obj);
-    //@Populate@the@Country@Pie@Chart@(single@series)
-    var@fldsArray@=@['{customers.country}',@'Count({customers.country})'];
-    var@grpArray@=@['{customers.country}'];
-    var@orderArray@=@[{value:'Count({customers.country})',@asc:true}];
-    app.getViewData("Customers",@fldsArray,@function(error,@data)@{
+    var obj =  {'my data': [{label: "Point 1 Label", data: 60}, {label: "Point 2 Label", data: 90}]};
+    app.setData("flotChart", obj);
+    // Populate the Country Pie Chart (single series)
+    var fldsArray = ['{customers.country}', 'Count({customers.country})'];
+    var grpArray = ['{customers.country}'];
+    var orderArray = [{value:'Count({customers.country})', asc:true}];
+    app.getViewData("Customers", fldsArray, function(error, data) {
         var chartArray = [];
         for(i=1; i<data.length; i++) {
             chartArray.push({"label":data[i][0], "data":data[i][1]});
         }
         app.setData("flotCountry", {"My Series Name":chartArray});
-    },@undefined,@grpArray,@orderArray);@@@
+    }, undefined, grpArray, orderArray);   
      
-    var@obj@=@{'2010':@[{Label@A:@"123",@data:@60},@{label:@"Label@B",@data:@90}],@'2011':@[{label:@"Label@A",@data:@90},@{label:@"Label@B",@data:@60}]};
-    app.setData("flotChart",@obj);
+    var obj = {'2010': [{Label A: "123", data: 60}, {label: "Label B", data: 90}], '2011': [{label: "Label A", data: 90}, {label: "Label B", data: 60}]};
+    app.setData("flotChart", obj);
         // Populate the Sales Chart with 2 years of Sales data (multi series)
         fldsArray = ['Year({orders.orderDate})', 'MonthNameShort({orders.orderDate})', 'Count({orders.orderNumber})'];
         grpArray = ['Year({orders.orderDate})', 'Month({orders.orderDate})'];
@@ -46,11 +46,11 @@ Get your data into an object that looks like this and then pass it to app.setDat
             }, filterArray, grpArray, orderArray);
      
      
-    var@colors@=@{"rows":[{"data":[1,"Title1","#ff0000"],"ind":0},{"data":[2,"Title2","#00ff00"],"ind":1}]}
+    var colors = {"rows":[{"data":[1,"Title1","#ff0000"],"ind":0},{"data":[2,"Title2","#00ff00"],"ind":1}]}
     app.w("flotChart").multySeries(colors);
      
      
-    var@flotData@=@{"Title1":[{"label":"AppLoad","data":1},{"label":"InstanceSave","data":1}],@"Title2":[{"label":"AppLoad","data":3},@{"label":"InstanceSave","data":1}]};
+    var flotData = {"Title1":[{"label":"AppLoad","data":1},{"label":"InstanceSave","data":1}], "Title2":[{"label":"AppLoad","data":3}, {"label":"InstanceSave","data":1}]};
        var colors = {"rows":[{"data":[1,"Title1","#ff0000"],"ind":0},{"data":[2,"Title2","#00ff00"],"ind":1}]};
         app.w("flotChart").multiSeries(colors);
         app.setData("flotChart", flotData);

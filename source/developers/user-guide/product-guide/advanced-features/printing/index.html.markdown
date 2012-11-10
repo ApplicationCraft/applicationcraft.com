@@ -16,7 +16,7 @@ The Application Craft printing feature allows you to print out your Apps along w
 
 The printApp() does not actually cause the Application to print and as such is a bit of a misnomer. It actually generates a pdf that can then be printed by the user.
 
-## See Also:
+## See Also
 
  - [printApp()](../../../scripting-apis/client-api/app-functions/printapp)
 

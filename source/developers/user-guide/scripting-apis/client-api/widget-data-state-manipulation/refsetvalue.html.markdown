@@ -58,7 +58,7 @@ It is recommended you read the chapter [Interacting with Widgets](../../client-s
 
 There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
 
-## See Also:
+## See Also
 
  - [setValue() for Simple Widget](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets) types
 

@@ -91,7 +91,7 @@ The URL of the page to show in the dialog. By default this will be populated wit
 </tr>
 <tr>
 <td width="137">
-X
+## X
 
 </td>
 <td width="23">
@@ -281,7 +281,7 @@ Custom CSS Classes
 <td width="10">
 </td>
 <td width="782">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/)
 
 </td>
 </tr>

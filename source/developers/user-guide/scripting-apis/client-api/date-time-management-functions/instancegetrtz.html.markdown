@@ -14,11 +14,11 @@ Returns the RTZ (Reference Time  Zone) set from app. [instanceSetRTZ()](instanc
 
 ## Example
 
-    app.setValue('txtGetRTZ',app.instanceGetRTZ());@//@will@return@the@RTZ@if@set
+    app.setValue('txtGetRTZ',app.instanceGetRTZ()); // will return the RTZ if set
      
    
 
-## See Also:
+## See Also
 
  - [instanceSetRTZ()](instancesetrtz.htm)
 

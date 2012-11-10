@@ -30,16 +30,16 @@ Set the Overlay line weight
 
 How you can set the line thickness for overlays
 
-**Example**
+## **Example**
 
      
-    app.w('googleMapsAdvanced').strokeWeight(1@+@Math.random()@*@10);@@//Set@Random@Line@Weight
+    app.w('googleMapsAdvanced').strokeWeight(1 + Math.random() * 10);  //Set Random Line Weight
     app.w('googleMapsAdvanced').strokeWeigth(2);
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [strokeColor()](strokecolor.htm)
 

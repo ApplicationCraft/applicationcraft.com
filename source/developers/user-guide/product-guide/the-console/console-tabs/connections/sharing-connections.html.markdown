@@ -14,7 +14,7 @@ However, in many cases an Administrator will create a Connection that should be 
 
 If you want to make a shared Connection Public, you can drag it into a Public folder. Note that being in the Public folder does not make it accessible to all users, it merely makes shared Connections visible within the context of a Public folder structure. If you want a Connection to be available to everyone, use Sharing to grant permissions to the Group 'Everyone' before dragging it into the Public folder.
 
-**See Also** :
+## **See Also** 
 
  - [Sharing](../../sharing)
 

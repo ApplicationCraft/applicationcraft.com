@@ -10,18 +10,18 @@ You can use the Map widget to get directions from one location to another using 
 
 Note that the returned directions are presented via a callback function.
 
-    function@getDirectionsCallback(result,@data)@{
+    function getDirectionsCallback(result, data) {
         // Put all of the directions into a single HTML string
         for(i=0, htmlStr="";i<data.routes[0].legs[0].steps.length; i++) {
             htmlStr += data.routes[0].legs[0].steps[i].instructions + "</br>";
         }
     }
      
-    function@handler_actionBtn15_onClick(mouseev){
+    function handler_actionBtn15_onClick(mouseev){
         app.w('googleMapsAdvanced').
-    (getDirectionsCallback,@"Moscow",@"Minsk");
+    (getDirectionsCallback, "Moscow", "Minsk");
         app.w('googleMapsAdvanced').
-    (getDirectionsCallback,@[37.7,@-97.2],@"Oklahoma@City");
+    (getDirectionsCallback, [37.7, -97.2], "Oklahoma City");
     }
    
 

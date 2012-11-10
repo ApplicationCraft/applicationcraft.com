@@ -16,7 +16,7 @@ You can optionally use the Strength Colors property to control the color that th
 
 ![Password\_strength](/img/docs/password_strength.zoom74.png)
 
-## See Also:
+## See Also
 
  - [Password Properties](../../../widget-properties-events/authentication/authpassword)
 

@@ -8,7 +8,7 @@ full_width: true
 
 Any custom dialog has a basic skeleton.
 
-    (function($,@gType)@{
+    (function($, gType) {
         if (!gType)
             return;
      
@@ -20,9 +20,9 @@ Any custom dialog has a basic skeleton.
         ...
      
         gType.
-    .prototype@=@new@gType.dialogType;
+    .prototype = new gType.dialogType;
      
-    })(jQuery,@jqSimpleGrid.types);
+    })(jQuery, jqSimpleGrid.types);
     {name: "exampleDialogProperty", type : "
     ", get: "exampleDialogProperty", set: "exampleDialogProperty", alias : "example Dialog Property"}
                 ]}

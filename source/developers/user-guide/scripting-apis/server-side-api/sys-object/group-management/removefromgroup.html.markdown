@@ -55,7 +55,7 @@ Removes a User from a Group. If there is an error due to permissions, then an ex
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

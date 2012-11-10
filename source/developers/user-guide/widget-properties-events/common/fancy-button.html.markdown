@@ -55,7 +55,7 @@ Link
 <td width="15">
 </td>
 <td width="779">
-## Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also [mobileDial()](../../scripting-apis/client-api/app-functions/mobiledial) , [mobileEmail()](../../scripting-apis/client-api/app-functions/mobileemail) , [mobileSMS()](../../scripting-apis/client-api/app-functions/mobilesms)
+Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: [mobileDial()](../../scripting-apis/client-api/app-functions/mobiledial) , [mobileEmail()](../../scripting-apis/client-api/app-functions/mobileemail) , [mobileSMS()](../../scripting-apis/client-api/app-functions/mobilesms)
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Where you can set the button properties - Shape/Image/Text/pushEffect/Sticky/Fil
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -321,7 +321,7 @@ Custom CSS Styles
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -390,7 +390,7 @@ On Mouse Leave
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - Mobile Widgets: [Action Button](../mobile/mobaction-button)
 

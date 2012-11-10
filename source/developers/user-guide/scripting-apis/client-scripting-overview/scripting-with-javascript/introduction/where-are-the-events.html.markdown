@@ -14,7 +14,7 @@ Select 'Javascript' from the available list
 
 Each event can reference the object [\_widget](../../../client-api/objects-titbits/ref-widget) . This is the [object of the Widget](../important-details/the-widget-object) that the Event belongs to.
 
-## See Also:
+## See Also
 
  - [Events](../../../../widget-properties-events/events/)
 

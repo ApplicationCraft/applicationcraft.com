@@ -28,12 +28,12 @@ An array of top left and bottom right coordinates of the rectangle
 
 A Rectangle can be drawn on the Map by specifying the top left and bottom right coordinates. You can also specify line and fill properties
 
-**Example**
+## **Example**
 
-    function@handler_actionBtn12_onClick(mouseev){
+    function handler_actionBtn12_onClick(mouseev){
             var rect = [[31.772323, -102.214897], [21.291982, -77.821856]];
             rectObj = app.w('googleMapsAdvanced').
-    (rect,@{fillColor:@"#00ffff"});
+    (rect, {fillColor: "#00ffff"});
      }
      
      
@@ -41,7 +41,7 @@ A Rectangle can be drawn on the Map by specifying the top left and bottom right 
 
 **addRectangle**
 
-**See Also:**
+## **See Also**
 
  - [Rectangles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/rectangles)
 

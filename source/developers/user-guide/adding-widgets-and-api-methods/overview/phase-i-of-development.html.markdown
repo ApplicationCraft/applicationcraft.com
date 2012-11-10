@@ -12,10 +12,10 @@ From the 'type' dropdown select 'Load from URL'. This will tell AC that the widg
 
 Next, at the top of the right panel, press the Source button. You will now paste in regular HTML that points to your widget.
 
-    <script@type='text/javascript'@src='http://myDomain.com/myWidget.js'></script>@
-    <script@type='text/javascript'@src='http://myDomain.com/myWidgetLibrary.js'></script>@
-    <script@type='text/javascript'@src='http://myDomain.com/myWidget.js'></script>@
-    AC.Core.Widgets().registerWidget(widgetClass,@toolboxSection,@"Widget@Name",@"",@"",@"http://icon_url");
+    <script type='text/javascript' src='http://myDomain.com/myWidget.js'></script> 
+    <script type='text/javascript' src='http://myDomain.com/myWidgetLibrary.js'></script> 
+    <script type='text/javascript' src='http://myDomain.com/myWidget.js'></script> 
+    AC.Core.Widgets().registerWidget(widgetClass, toolboxSection, "Widget Name", "", "", "http://icon_url");
     widgetClass
     "SimpleLabel"
     toolboxSection

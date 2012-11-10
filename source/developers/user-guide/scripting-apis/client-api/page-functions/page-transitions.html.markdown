@@ -22,7 +22,7 @@ The following string values can be specified for the transition parameter.
 
  - flip
 
-**See Also:**
+## **See Also**
 
  - [Page Transition Effects](../../../product-guide/mobile-apps-sites/page-transition-effects)
 

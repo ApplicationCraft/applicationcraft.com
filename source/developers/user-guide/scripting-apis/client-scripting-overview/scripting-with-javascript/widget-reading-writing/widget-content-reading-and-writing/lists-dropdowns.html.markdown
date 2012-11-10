@@ -65,13 +65,13 @@ Blue
 
 I can use [getData()](../../../../client-api/widget-data-state-manipulation/getdata) to access data from all of the List as follows
 
-    [@["Red","#ff0000"],["Green","#00ff00"],["Blue","#0000ff"]@];
-    app.getData('listColor').length@@@@@@@//@the@number@of@items@(rows)@in@the@listbox
-    app.getData("listColor")[0][1]@@@//@the@list@select@value@from@the@first@listbox@row
-    var@mapObject@=@{
+    [ ["Red","#ff0000"],["Green","#00ff00"],["Blue","#0000ff"] ];
+    app.getData('listColor').length       // the number of items (rows) in the listbox
+    app.getData("listColor")[0][1]   // the list select value from the first listbox row
+    var mapObject = {
         0 : 'lblInArray',
         1 : 'valueInArray'
-    };@
+    }; 
    
 
 I can then access information, for example
@@ -86,7 +86,7 @@ Currently, these  Widgets must use the following mapping object (you cannot use
 
 For more on this, see [populateWidget()](../../../../client-api/widget-data-state-manipulation/populatewidget/)
 
-## See Also:
+## See Also
 
  - [setData()](../../../../client-api/widget-data-state-manipulation/setdata)
 

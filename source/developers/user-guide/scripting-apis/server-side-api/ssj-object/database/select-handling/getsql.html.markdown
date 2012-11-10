@@ -16,13 +16,13 @@ full_width: true
 
 This returns the SQL statement that will be executed. This is a function of the select object, so you must use correct format as shown in the example below.
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from('customers').where('country=?',@strCountry);
-    sqlString@=@selectObj.getSql();
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from('customers').where('country=?', strCountry);
+    sqlString = selectObj.getSql();
      
     sqlString
      
-    "SELECT@*@FROM@customers@WHERE@country='usa'"
+    "SELECT * FROM customers WHERE country='usa'"
      
      
    

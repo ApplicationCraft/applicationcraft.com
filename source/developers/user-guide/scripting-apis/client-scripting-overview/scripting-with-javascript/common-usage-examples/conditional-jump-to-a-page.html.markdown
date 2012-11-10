@@ -8,12 +8,12 @@ full_width: true
 
 This is one of the most common scripting uses. When a button is pressed, you need to jump to a page depending on the answer to a question in your App.
 
-    function@handler_btnNext_onClick(mouseev){
-    //Write@code@handler@here
-    if(app.getValue("rbFemale"))@{
+    function handler_btnNext_onClick(mouseev){
+    //Write code handler here
+    if(app.getValue("rbFemale")) {
     app.pageJump("FemalePage");
     }
-    else@{
+    else {
     app.pageJump("MalePage");
     }
     }

@@ -20,7 +20,7 @@ This method rolls back a database transaction for the database referenced by the
 
 See the example in [beginTransaction()](begintransaction.htm) .
 
-## See Also:
+## See Also
 
  - [beginTransaction()](begintransaction.htm)
 

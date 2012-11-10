@@ -52,7 +52,7 @@ If you are using a Repeater Container then you should be aware of the [drawNextP
     app.w('repeaterContainer').fetchDataPage(3);
    
 
-## See Also:
+## See Also
 
  - [getViewData()](../../data-view-functions/getviewdata)
 

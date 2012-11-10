@@ -28,10 +28,10 @@ Returns the parent Widget of the Widget
 
 This function is useful for finding out the parent Widget of another Widget. This is especially useful within a Repeater Container where a Respondent might interact with a Widget inside a row of a Repeater Container. Let's say the use presses an 'Order' button,.
 
-    rowObj@=@_widget.parent();@@@@//@the@row@within@the@Repeater@Container
-    rptObj@=@rowObj.parent();@@@@@//@And@the@parent@of@that@row@is@the@actual@Repeater@Container
-    quantityOrder@=@_widget.parent().w('numQuantity');
-    rowObj@=@_widget.parent().parent().parent()
+    rowObj = _widget.parent();    // the row within the Repeater Container
+    rptObj = rowObj.parent();     // And the parent of that row is the actual Repeater Container
+    quantityOrder = _widget.parent().w('numQuantity');
+    rowObj = _widget.parent().parent().parent()
    
 
 The following command would be used to get the value of a Widget contained within the same Repeater row as the Widget that is clicked on.

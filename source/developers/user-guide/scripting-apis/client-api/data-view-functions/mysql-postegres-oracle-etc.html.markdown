@@ -48,7 +48,7 @@ When you press the fn button in any of the Data View dialogs, you can see a list
 
 If you want to concatenate a string in MySQL, then you would need to use a statement like
 
-    Concat({orders.orderNumber},@'@',{customers.customerName},@'@',@DATE_FORMAT({orders.orderDate},'%Y/%m/%d'),
+    Concat({orders.orderNumber}, ' ',{customers.customerName}, ' ', DATE_FORMAT({orders.orderDate},'%Y/%m/%d'),
      ' ',  sum({orderdetails.quantityOrdered}*{orderdetails.priceEach})
      
    

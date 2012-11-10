@@ -18,7 +18,7 @@ Relationships are handled automatically using [CRUD](crud-in-detail.htm) functio
 
 Application Craft handles this with App Instance linking, enabling you to set the Application Relationship in the [App Properties](../../../widget-properties-events/app-properties) . It allows a user to set up all sorts of relationships (one-to-one, one-to-many and many-to-many) through the App itself. Each App allows any number of relationships to be defined.
 
-## See Also:
+## See Also
 
  - [Relationships in Detail](instance-relationships-in-deta.htm)
 

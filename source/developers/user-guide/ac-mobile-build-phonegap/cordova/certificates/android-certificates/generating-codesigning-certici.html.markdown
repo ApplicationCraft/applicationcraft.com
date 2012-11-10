@@ -173,7 +173,7 @@ A password for the keystore. As a security precaution, do not include this optio
 
 Here's an example of a Keytool command that generates a private key:
 
-    $@keytool@-genkey@-v@-keystore@my-release-key.keystore@-alias@alias_name@-keyalg@RSA@-keysize@2048@-validity@10000
+    $ keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
    
 
 Running the example command above, Keytool prompts you to provide passwords for the keystore (Certificate password) and key (File password).

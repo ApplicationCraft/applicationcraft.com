@@ -36,15 +36,15 @@ What is somewhat different is that WebSQL is asynchronous. For novice javascript
 
 This is the first step and is done like this
 
-    var@db@=@openDatabase('mydb',@'1.0',@'my@first@database',@2@*@1024@*@1024);
-    db.transaction(function@(tx)@{
+    var db = openDatabase('mydb', '1.0', 'my first database', 2 * 1024 * 1024);
+    db.transaction(function (tx) {
         tx.executeSql('CREATE TABLE IF NOT EXISTS foo (id unique, text)');
         tx.executeSql('INSERT INTO foo (id, text) VALUES (1, "synergies")');
     });
-    db.transaction(function@(tx)@{
+    db.transaction(function (tx) {
         tx.executeSql('INSERT INTO foo (id, text) VALUES (?, ?)', [id, userValue]);
     }
-    db.transaction(function@(tx)@{
+    db.transaction(function (tx) {
         tx.executeSql('SELECT * FROM foo', [], function (tx, results) {
         var len = results.rows.length, i;
         for (i = 0; i < len; i++) {

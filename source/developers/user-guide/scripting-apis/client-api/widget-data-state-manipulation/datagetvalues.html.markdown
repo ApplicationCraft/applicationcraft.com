@@ -71,7 +71,7 @@ This example extracts all widgets from and the single widget . Label values are 
 
 This example extracts the widgets and .
 
-## See Also:
+## See Also
 
  - [dataGetStates()](datagetstates.htm)
 

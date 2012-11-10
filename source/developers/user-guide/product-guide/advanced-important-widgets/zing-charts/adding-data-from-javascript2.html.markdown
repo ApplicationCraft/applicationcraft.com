@@ -12,39 +12,39 @@ The format of the data can vary depending on the type of chart and whether Multi
 
 For a simple chart, the format of the data is
 
-    <the@plot@title>:@[{label,@data}]@
-    p@=@{@<series@number>:@
-    [{label1:labelString1,@data:dataValue1},
-    {label2:labelString2,@data:dataValue2},
+    <the plot title>: [{label, data}] 
+    p = { <series number>: 
+    [{label1:labelString1, data:dataValue1},
+    {label2:labelString2, data:dataValue2},
     ....
-    {labeln:labelStringn,@data:dataValuen}]
+    {labeln:labelStringn, data:dataValuen}]
     };
-    p@=@{0:[{label:'Jan',@data:@1},@
-    {label:'Feb',@data:@10},@
-    {label:'Mar',@data:@4},@
-    {label:'Apr',@data:@11}],
+    p = {0:[{label:'Jan', data: 1}, 
+    {label:'Feb', data: 10}, 
+    {label:'Mar', data: 4}, 
+    {label:'Apr', data: 11}],
              second: [{label:'Jan', data: 4}, 
-    {label:'Feb',@data:@1},@
-    {label:'Mar',@data:@7},@
-    {label:'Apr',@data:@3}]};
+    {label:'Feb', data: 1}, 
+    {label:'Mar', data: 7}, 
+    {label:'Apr', data: 3}]};
      
-    app.setData('zing',@p);
-    var@data@=@[
-    {'year':@'2012',@'lbl':@'Jan',@'amount':@12},
-    {'year':@'2012',@'lbl':@'Feb',@'amount':@15},
-    {'year':@'2012',@'lbl':@'Mar',@'amount':@10},
-    {'year':@'2013',@'lbl':@'Jan',@'amount':@11},
-    {'year':@'2013',@'lbl':@'Feb',@'amount':@9},
-    {'year':@'2013',@'lbl':@'Mar',@'amount':@16}
+    app.setData('zing', p);
+    var data = [
+    {'year': '2012', 'lbl': 'Jan', 'amount': 12},
+    {'year': '2012', 'lbl': 'Feb', 'amount': 15},
+    {'year': '2012', 'lbl': 'Mar', 'amount': 10},
+    {'year': '2013', 'lbl': 'Jan', 'amount': 11},
+    {'year': '2013', 'lbl': 'Feb', 'amount': 9},
+    {'year': '2013', 'lbl': 'Mar', 'amount': 16}
     ];
         
-    var@map@=@{
-    'title':@'year',
-    'label':@'lbl',
-    'data':@'amount'
+    var map = {
+    'title': 'year',
+    'label': 'lbl',
+    'data': 'amount'
     };
         
-    app.populateWidget('zingChart',@data,@map);
+    app.populateWidget('zingChart', data, map);
      
    
 

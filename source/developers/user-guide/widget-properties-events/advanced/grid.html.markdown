@@ -240,7 +240,7 @@ Height of the Widget in pixels.
 </tr>
 <tr>
 <td width="159">
-X
+## X
 
 </td>
 <td width="10">
@@ -708,7 +708,7 @@ Custom CSS Classes
 <td width="21">
 </td>
 <td width="773">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -841,7 +841,7 @@ On Open End
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

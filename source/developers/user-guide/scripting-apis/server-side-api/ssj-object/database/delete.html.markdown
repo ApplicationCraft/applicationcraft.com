@@ -50,12 +50,12 @@ If you have complex conditions then simply build your strings using quote() or q
 
 ## Example
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    cObj.delete('customers',@cObj.quoteInto('id=?',@p.id));
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    cObj.delete('customers', cObj.quoteInto('id=?', p.id));
      
    
 
-## See Also:
+## See Also
 
  - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 

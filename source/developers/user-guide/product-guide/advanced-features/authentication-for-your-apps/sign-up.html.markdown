@@ -36,7 +36,7 @@ The following properties are the main ones that should be configured
 
 When the Signup button is pressed, AC will first of all perform all necessary validations for the Captcha and password confirmation. It will also detect if the requested login name already exists. If everything is ok, it will then create the new User Account.
 
-## See Also:
+## See Also
 
  - [Sign Up Properties](../../../widget-properties-events/authentication/authsign-up)
 

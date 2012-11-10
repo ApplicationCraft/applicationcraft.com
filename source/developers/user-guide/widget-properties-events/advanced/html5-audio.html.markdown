@@ -123,7 +123,7 @@ The default volume level
 </tr>
 <tr>
 <td width="172">
-X
+## X
 
 </td>
 <td width="21">
@@ -359,7 +359,7 @@ Custom CSS Classes
 <td width="16">
 </td>
 <td width="752">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -642,7 +642,7 @@ On Volume Change
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Video & Audio Widgets](../../product-guide/advanced-important-widgets/video-audio-widgets/)
 

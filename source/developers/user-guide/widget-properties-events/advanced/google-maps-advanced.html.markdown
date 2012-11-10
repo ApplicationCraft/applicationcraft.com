@@ -159,7 +159,7 @@ Indicates whether the Map should maintain its aspect ratio should it be within a
 </tr>
 <tr>
 <td width="172">
-X
+## X
 
 </td>
 <td width="21">
@@ -710,7 +710,7 @@ Control the shadow around the widget
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Google V3 Maps Widget](../../product-guide/advanced-important-widgets/google-v3-maps-widget/)
 

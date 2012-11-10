@@ -58,8 +58,8 @@ Any user interaction is blocked by AC until the OK button has been pressed.
 
 ## Example
 
-    //@valid@is@an@array@containing@any@widgets@that@failed@the@test
-    if(valid.length>0)@{
+    // valid is an array containing any widgets that failed the test
+    if(valid.length>0) {
         app.showMessage("Validation Error", "<b>Please</b> complete all required fields.", function() {
             // code here will execute once the OK button has been pressed.
             // If there is no code to execute, then leave out the entire callback function
@@ -68,7 +68,7 @@ Any user interaction is blocked by AC until the OK button has been pressed.
      
    
 
-## See Also:
+## See Also
 
  - [showConfirm()](showconfirm.htm)
 

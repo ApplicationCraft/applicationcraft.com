@@ -131,7 +131,7 @@ If you change the Theme, you will be asked whether you want to import Widget Sty
 
 **Note** : If the new Theme contains Styles with the same name as the Theme you are changing from, but these Styles have different settings, the Widgets will adopt the settings of the Styles in the new Theme.
 
-**See Also:**
+## **See Also**
 
  - [Import/Export](../../../the-console/import/export/)
 

@@ -14,7 +14,7 @@ The Share This widget presents a simple 'share' button to your app and when sele
 
 Register for an account at [http://www.sharethis.com](http://www.sharethis.com) to obtain a publisher key and include this as the Publisher Key property in your widget.
 
-**See Also:**
+## **See Also**
 
  - [Share This](../../../widget-properties-events/beta/share-this)
 

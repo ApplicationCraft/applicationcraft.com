@@ -8,7 +8,7 @@ full_width: true
 
 Your App can also set User Parameters by using the following [Javascript](../../../../../../scripting-apis/client-scripting-overview/scripting-with-javascript/) function
 
-    app.userParameterSet(UserIdentifier,@Item)@=@app.getData("txtUserName");@
+    app.userParameterSet(UserIdentifier, Item) = app.getData("txtUserName"); 
      
    
 

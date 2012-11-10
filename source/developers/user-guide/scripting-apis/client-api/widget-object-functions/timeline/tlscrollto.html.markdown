@@ -35,7 +35,7 @@ This example reads the date object contained by the 'dtGoto' widget and scrolls 
     app.w('timeline1').scrollTo(app.getValue('dtGoto'));
    
 
-## See Also:
+## See Also
 
  - [fitData()](fitdata.htm)
 

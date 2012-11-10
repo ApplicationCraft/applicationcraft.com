@@ -34,7 +34,7 @@ See the [setSessionObject()](setsessionobject.htm) description.
     ssj.deleteSessionObject("userObject");
    
 
-## See Also:
+## See Also
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 

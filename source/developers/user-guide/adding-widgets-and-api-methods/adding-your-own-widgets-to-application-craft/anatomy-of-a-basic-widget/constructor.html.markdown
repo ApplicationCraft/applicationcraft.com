@@ -10,14 +10,14 @@ The constructor provides context in which the Widget is running. In our Hello Wo
 
         /**
          * Description of constructor
-         *  class  Some words about label widget class
-         *  constructs
+         * @class  Some words about label widget class
+         * @constructs
          */
         p.init = function() {
             widget._sc.init.apply(this, arguments);
         };
      
-    p.init@=@function(param)@{
+    p.init = function(param) {
       var mode = param.mode; // widget mode editor or runtime
       var parent = param.parent; // parent widget (a container) object
       var form = param.form; // link to the form (App) object

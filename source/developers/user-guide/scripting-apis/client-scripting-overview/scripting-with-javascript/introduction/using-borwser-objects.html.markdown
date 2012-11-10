@@ -10,7 +10,7 @@ You may also access browser objects directly from your scripts.
 
 The following example uses the window object to open a new browser window of a specified size.
 
-    window.open("http://www.dynamicdrive.com",@"",@"width=800px,@height=600px,@resizable")
+    window.open("http://www.dynamicdrive.com", "", "width=800px, height=600px, resizable")
      
     Math.floor(Math.random()*10)
    

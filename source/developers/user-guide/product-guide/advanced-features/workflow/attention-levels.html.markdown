@@ -16,7 +16,7 @@ An attention level of 0 means indicates that the assignment does not require any
 
 When you are looking at your Assignments in the Console or in a Report, you can then sort or filter based on the attention level.
 
-## See Also:
+## See Also
 
  - [assignInstance()](../../../scripting-apis/client-api/workflow-functions/assigninstance)
 

@@ -54,12 +54,12 @@ This removes all selection data for the specified Widget. Text, number, date and
 
 The useDefaults parameter should be set to true if you do not want to clear label content.
 
-**Example**
+## **Example**
 
-    app.resetWidget(['mlCountries','mlLogs'],true,true);@//@reset@2@mobile@lists@to@the@default@settings
+    app.resetWidget(['mlCountries','mlLogs'],true,true); // reset 2 mobile lists to the default settings
    
 
-## See Also:
+## See Also
 
  - [emptyWidget()](emptywidget.htm)
 

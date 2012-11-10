@@ -10,7 +10,7 @@ Note that the Mobile list has quite a few extra fields - count, aside, divider, 
 
 In example below, the map object contains all 6 available properties supported by the Mobile List Widget. You do not have to supply all of these if you are not using them, in which case you simply omit them.
 
-    function@handler_application_onAppStarted(){
+    function handler_application_onAppStarted(){
         var data = [
                     {'lbl': 'McClaren','value': '1','count': '12','aside': 'Mercedes', 'separator':'false', 'img':'http://adomain/animage.png'},
                     {'lbl': 'Ferrari','value': '2','count': '15','aside': 'Ferrari', 'separator':'false', 'img':'http://adomain/animage.png'},

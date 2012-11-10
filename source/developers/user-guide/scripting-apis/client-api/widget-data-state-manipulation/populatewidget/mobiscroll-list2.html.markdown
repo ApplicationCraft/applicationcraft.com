@@ -12,7 +12,7 @@ You can use [populateWidget()]() or [setData()](../setdata) to populate a [Mobis
 
 This example shows how you can have data in an array and populate it directly in to a 2 column [Mobiscroll List](../../../../widget-properties-events/mobile/mobiscroll-list) Widget. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example.htm) ).
 
-    var@Arr@=@[
+    var Arr = [
             {index:0, lbl:'test11', val:'val'},
             {index:0, lbl:'test1', val:true},
             {index:0, lbl:'test12', val:1},

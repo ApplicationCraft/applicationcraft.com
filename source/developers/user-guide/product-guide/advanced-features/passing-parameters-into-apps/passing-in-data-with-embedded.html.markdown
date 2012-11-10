@@ -14,17 +14,17 @@ If you are launching an embedded App that is located within your web page, you m
  - 
 
 </td>
-      text@=@'test@test@test'@
+      text = 'test test test' 
       num=54
       id=12
       id=14
-      <script@src="http://ac-dev.applicationcraft.com//live/userlive.js"@type="text/javascript"></script>
-      <script@type="text/javascript">
+      <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
+      <script type="text/javascript">
          waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
            757, 811, "id=12&id=14&text=test test test&num=54");
       </script>
-      <script@src="http://ac-dev.applicationcraft.com//live/userlive.js"@type="text/javascript"></script>
-      <script@type="text/javascript">
+      <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
+      <script type="text/javascript">
          waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
            757, 811, {id:[12,14], text:"test test test", num:54});
       </script>
@@ -44,7 +44,7 @@ Of particular interest is the fact that there are two id parameters being passed
 
 Additionally, you can pass in data in a JSON format
 
-## See Also:
+## See Also
 
  - [Reading query string parameters in your App](reading-querystring-parameters.htm)
 

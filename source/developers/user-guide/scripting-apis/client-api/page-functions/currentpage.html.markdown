@@ -14,6 +14,6 @@ This returns the object of the currently displayed page.
 
 ## Example
 
-    var@pageName@=@app.currentPage().name();
+    var pageName = app.currentPage().name();
    
 

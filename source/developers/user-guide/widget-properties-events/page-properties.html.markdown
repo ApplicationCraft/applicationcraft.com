@@ -352,7 +352,7 @@ Custom CSS Classes
 <td width="19">
 </td>
 <td width="765">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -541,7 +541,7 @@ On Mouse Leave
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Mouse Events](events/event-reference-list/mouse-events)
 

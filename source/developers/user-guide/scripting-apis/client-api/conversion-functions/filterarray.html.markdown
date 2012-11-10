@@ -46,7 +46,7 @@ A good usage of this function is where your App retrieves data from an API call 
 
 The following example shows how you would filter out any array elements where the age is less than 40.
 
-    filteredArray@=@app.filterArray(patients,@function(element)@{
+    filteredArray = app.filterArray(patients, function(element) {
             if(element.patientAge<40) {
                 return true;
             } 
@@ -56,7 +56,7 @@ The following example shows how you would filter out any array elements where th
         }); 
    
 
-## See Also:
+## See Also
 
  - [populateWidget()](../widget-data-state-manipulation/populatewidget/)
 

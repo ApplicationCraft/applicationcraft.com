@@ -63,14 +63,14 @@ error callback function
         tr.update("test_table", {data_num : 999}, "id = ?", [1]);
         tr.insert("test_table", {data_num : 333});
         tr.executeSql("SELECT * FROM test_table WHERE id=1'");
-    },@function(){
+    }, function(){
         console.log("transaction completed");
-    },@function(){
+    }, function(){
         console.log("error transaction");
     });
    
 
 This function executes SQL transactions
 
-**Example**
+## **Example**
 

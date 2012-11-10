@@ -78,7 +78,7 @@ Download [Man Blue.png](http://www.applicationcraft.com/sites/applicationcraft/f
 
 Download [HumanBody.csv](http://www.applicationcraft.com/sites/applicationcraft/files/files/HumanBody.csv)
 
-## See Also:
+## See Also
 
  - [Image](../../../widget-properties-events/common/image#imagemap)
 

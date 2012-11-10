@@ -16,12 +16,12 @@ This function is used in association with Embedded Apps and allows the Embedded 
 
 A typical example would be to include an App as a cross-app menu bar. It can be Embedded into all your individual Apps that together form one, large Application. When the user clicks on a link, the Parent App must be used to switch Apps using the app.switchApp() function.
 
-    function@handler_lblFindPeople_onClick(mouseev){
+    function handler_lblFindPeople_onClick(mouseev){
         app.parentApp().switchApp("ffb343ba-0550-4af3-ad0d-954fd068b68e");    
-    }@@
+    }  
    
 
-## See Also:
+## See Also
 
  - [switchApp()](switchapp.htm)
 

@@ -32,7 +32,7 @@ The folder structure you see here will appear the same for all developers. If yo
 
 Application Craft has a different API on the server side to the client API. Please refer to the [Server Side API](../server-side-api/) chapter.
 
-## See Also:
+## See Also
 
  - [Public Shared Scripts](../client-scripting-overview/public-shared-scripts)
 

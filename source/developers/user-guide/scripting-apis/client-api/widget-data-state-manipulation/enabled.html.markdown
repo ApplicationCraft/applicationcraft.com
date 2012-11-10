@@ -43,12 +43,12 @@ This is a utility function that enables you to set the 'enable' property of one 
 
 ## Example
 
-    app.enabled(["timeColor",@"shapeColor"],@true);@@//@make@the@listed@widgets@enabled
-    app.enabled(["timeColor"],@true);@@@@@@@@@@@@@@@@//@make@a@single@widget@enabled
+    app.enabled(["timeColor", "shapeColor"], true);  // make the listed widgets enabled
+    app.enabled(["timeColor"], true);                // make a single widget enabled
         
    
 
-## See Also:
+## See Also
 
  - [visible()](visible.htm)
 

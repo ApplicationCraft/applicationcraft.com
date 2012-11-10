@@ -30,7 +30,7 @@ This function converts a Javascript date object into a string that is compatible
 
 The database stores App Instance dates in the format 'YYYY-MM-DD hh:mm:ss' and DATE2DB() simply converts into this string format.
 
-## See Also:
+## See Also
 
  - [Data Conversion]() Functions
 

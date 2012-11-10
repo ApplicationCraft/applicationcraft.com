@@ -43,7 +43,7 @@ The object passed to zoozStartsCheckout() should look like this
     });
      
      
-    function@transactionComplete(response)@{
+    function transactionComplete(response) {
         // Zooz returns a string, so we will convert it into an object
         response = JSON.parse(response);
         // Now check the status code

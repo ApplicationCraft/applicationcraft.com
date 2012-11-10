@@ -215,7 +215,7 @@ true/false
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -640,7 +640,7 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

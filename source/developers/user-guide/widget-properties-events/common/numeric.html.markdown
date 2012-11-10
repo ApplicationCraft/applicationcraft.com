@@ -187,7 +187,7 @@ Where you can set the Width and Height of the widget. If a widget is within a Co
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -673,7 +673,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -930,7 +930,7 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - Common Widgets: [Text Area](text-area.htm) , [Text](text.htm) , [Alpha Numeric](alpha-numeric.htm)
 

@@ -10,7 +10,7 @@ Once you have defined the Roles, Groups and Stages you are ready to implement yo
 
 Please read the section on [Server Side Rules](server-side-rules.htm) as it is important that, until we implement Server Side Javascript, you are aware of risks relating to processes that require secure processing.
 
-## See Also:
+## See Also
 
  - [Workflow Functions](../../../scripting-apis/client-api/workflow-functions/)
 

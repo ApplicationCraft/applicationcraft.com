@@ -170,7 +170,7 @@ this parameter allows you to pass through special, advanced parameters to the un
 
 Returns false if an error was encountered otherwise the following object is returned.
 
-    {@
+    { 
         ResponseCode: 200, 
         Headers: {content-Type: ....},
         Content: // content object or text
@@ -183,7 +183,7 @@ Performs an AJAX call and returns more comprehensive content than [httpRequest()
 
 [ssj.getLatestError()](../miscellaneous/getlatesterror) should be used if you want to get full error information where httpRequest() returns false.
 
-## See Also:
+## See Also
 
  - [ssj.httpRequest()](httprequest2.htm)
 

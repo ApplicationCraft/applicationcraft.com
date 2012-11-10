@@ -97,7 +97,7 @@ Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-fu
 
 This example shows instanceDelete() operating on a local instance and calls the RDB Callback..
 
-    function@handler_btnCompDelete_onClick(mouseev){
+    function handler_btnCompDelete_onClick(mouseev){
         app.instanceDelete(undefined, undefined,undefined, function(error, status){
             if(error===null) {
                 app.refreshData('gridCompanies');
@@ -108,7 +108,7 @@ This example shows instanceDelete() operating on a local instance and calls the 
             }
         });
     }
-    function@handler_btnContDelete_onClick(mouseev){
+    function handler_btnContDelete_onClick(mouseev){
         app.instanceDelete('dcContacts', undefined, undefined, function(error, status){
             if(error===null) {
                 refreshAllCompDetails();
@@ -119,7 +119,7 @@ This example shows instanceDelete() operating on a local instance and calls the 
             }
            });
     }
-    function@handler_btnContDelete_onClick(mouseev){
+    function handler_btnContDelete_onClick(mouseev){
           app.instanceDelete('dcContacts', undefined, undefined);
        }
    
@@ -128,7 +128,7 @@ The next example specifies the Container Widget as the first parameter, so AC wi
 
 The next example specifies the Container Widget as the first parameter, so AC will delete from the external database the content that currently is loaded into that Container. Please read the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for details on working with external databases.
 
-## See Also:
+## See Also
 
  - [instanceXxxx Callback functions](instancexxxx-callback-function.htm)
 

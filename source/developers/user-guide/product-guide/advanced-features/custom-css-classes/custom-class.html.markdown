@@ -14,7 +14,7 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
 
 **.**
 
-    label@{
+    label {
         border: 1px solid #fff;
         text-shadow: none;
         font-size: 16px;
@@ -31,9 +31,9 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
         padding: 6px 0px 0px 15px;
     }
      
-    .txtSize@.m-ui-input-text@{
-    font-size@:@@26px@!important;
-    font-family@:@Verdana;
+    .txtSize .m-ui-input-text {
+    font-size :  26px !important;
+    font-family : Verdana;
     }
      
      

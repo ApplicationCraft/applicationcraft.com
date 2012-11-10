@@ -12,7 +12,7 @@ Please note that the Twirly Thing will have no visible effect if used on the On 
 
 The [Display Hourglass Over](display-hourglass-over) property allows you to control how the [Twirly Thing](twirly-thing) is shown within your app. You can have it show over a Page in one part of your form, and over specific Widgets in other parts of the form.
 
-**Example**
+## **Example**
 
 We have set the App [Twirly Thing](twirly-thing) properties and you can see in the preview area how it will look.
 
@@ -22,20 +22,20 @@ We have set the App display hourglass property to 'Widget' so it will show over 
 
 1: As a button is pressed to 'jump' to another page, to show the twirly thing:
 
-    function@handler_btnCollect_onClick(mouseev){
+    function handler_btnCollect_onClick(mouseev){
      
       app.twirlyThing(app, true);
      
         setTimeout(function(){   // to show the twirly thing for 100ms before going to the next page
-    //@other@actions
+    // other actions
             app.pageJump("page2");
         }, 100);
         
     }
-    function@handler_SummaryPage_onPageShow(){
+    function handler_SummaryPage_onPageShow(){
         app.twirlyThing(app, false);        
     }
-    function@handler_btnUpload_onClick(mouseev){
+    function handler_btnUpload_onClick(mouseev){
      
         // Prepare an object to pass to the SSJ function
         p = {action:"AddRecord", data:_allData};
@@ -46,7 +46,7 @@ We have set the App display hourglass property to 'Widget' so it will show over 
             app.callSSJ("acUploadData", function(error, data) {
                 if(error) {
                     // Error from SSJ, so display and do nothing
-    app.twirlyThing(app,@false);
+    app.twirlyThing(app, false);
                     app.showMessage("SSJ Error", "Error (" + data.code + ") " + data.message);    
                 }
                 else {

@@ -28,16 +28,16 @@ The object name of the overlay to hide
 
 How you can hide a defined overlay
 
-**Example**
+## **Example**
 
-    function@handler_actionBtn24_onClick(mouseev){
+    function handler_actionBtn24_onClick(mouseev){
         app.w('googleMapsAdvanced').hideOverlay(polylineObj);
     }
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

@@ -36,7 +36,7 @@ Google offers a very nice [style wizard](http://gmaps-samples-v3.googlecode.com/
 
 ## Example
 
-    function@handler_actionBtn4_onClick(mouseev){
+    function handler_actionBtn4_onClick(mouseev){
         var pinkParksStyles = [
           {
             featureType: "all",
@@ -60,7 +60,7 @@ Google offers a very nice [style wizard](http://gmaps-samples-v3.googlecode.com/
 
 **mapStyles**
 
-**See Also:**
+## **See Also**
 
  - [Map Styles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles)
 

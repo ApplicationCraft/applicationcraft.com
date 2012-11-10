@@ -34,7 +34,7 @@ Switches the display language of the App
 </td>
 </tr>
 </table>
-**See Also:**
+## **See Also**
 
  - [Internationalization App Events](../../../widget-properties-events/events/event-reference-list/internationalization-app-event)
 

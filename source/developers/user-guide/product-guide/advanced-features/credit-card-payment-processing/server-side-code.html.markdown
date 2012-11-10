@@ -6,15 +6,15 @@ full_width: true
 ---
 
 
-    //@If@true,@then@you@can@test@your@payments.@Use@the@following@card@details@for@testing
-    //@Card@:@4580-4580-4580-4580
-    //@Expiry@:@any@date@(01/15)@in@the@future
-    //@CV@Code@:@any@3@digit@number
-    var@isSandbox@=@true;
-    var@zoozID@=@'com.yourdomain.paymentname';
-    var@zoozKey@=@'e1292f95-4d26-4e78-a884-0da072a99f9c';
+    // If true, then you can test your payments. Use the following card details for testing
+    // Card : 4580-4580-4580-4580
+    // Expiry : any date (01/15) in the future
+    // CV Code : any 3 digit number
+    var isSandbox = true;
+    var zoozID = 'com.yourdomain.paymentname';
+    var zoozKey = 'e1292f95-4d26-4e78-a884-0da072a99f9c';
      
-    function@calcPayment(objDetails,@cartItems)@{
+    function calcPayment(objDetails, cartItems) {
      
         // This is hard-coded to keep the example simple. In reality you should now get the 
         // product prices for your cart items from the server side to avoid hacking of the price
@@ -52,17 +52,17 @@ full_width: true
         return obj;
     }
      
-    //@Your@SSJ@function@that@initiates@the@payment@process
-    function@zooz_payment(objDetails,@cartItems)@{
+    // Your SSJ function that initiates the payment process
+    function zooz_payment(objDetails, cartItems) {
         // the params object will contain all the order details you pass to Zoom
         params = calcPayment(objDetails, cartItems);
         var token = ssj.zooz.payment(params, isSandbox);
         return token;
     }
      
-    //@This@function@is@where@you@complete@your@processing
-    //@It@is@important@to@inspect@the@result@and@only@release@your@order/product@if@it@is@confirmed@as@valid
-    function@zooz_validate(transactionId)@{
+    // This function is where you complete your processing
+    // It is important to inspect the result and only release your order/product if it is confirmed as valid
+    function zooz_validate(transactionId) {
         var obj = {
             ZooZUniqueID : zoozID,
             ZooZAppKey : zoozKey

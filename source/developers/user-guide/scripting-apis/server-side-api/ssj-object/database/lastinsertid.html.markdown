@@ -20,13 +20,13 @@ It is not safe to generate a SELECT query that does a MAX(id) to get the latest 
 
 ## Example
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    cObj.insert('customers',@{companyName:"Application@Craft",@country:"USA"});
-    nLastId@=@cObj.lastInsertId();
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    cObj.insert('customers', {companyName:"Application Craft", country:"USA"});
+    nLastId = cObj.lastInsertId();
      
    
 
-## See Also:
+## See Also
 
  - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 

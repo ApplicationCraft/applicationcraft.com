@@ -38,7 +38,7 @@ To illustrate this, let's assume a widget has the following properties
 
 The user code shown below shows the textFn method that is associated with the 'text' property (see [Defining Properties](defining-properties.htm) ). You will see this property definition
 
-    {name:@"text",@type@:@"text",@set:@"textFn",@get:@"textFn",@alias:@"Text"},
+    {name: "text", type : "text", set: "textFn", get: "textFn", alias: "Text"},
     AC.Property.html
         // The get/set function for the 'text' property
         p._simpleText = function(value) {

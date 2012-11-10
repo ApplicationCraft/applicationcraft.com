@@ -10,7 +10,7 @@ full_width: true
 
 [setData()](../../../scripting-apis/client-api/widget-data-state-manipulation/setdata) would most likely be used to modify existing overlays as shown in the code example below.
 
-    function@handler_googleMapsAdvanced_onOverlayClick(latlng,@overlay){
+    function handler_googleMapsAdvanced_onOverlayClick(latlng, overlay){
         objAll = app.getData("googleMapsAdvanced");
         objSel = objAll[overlay];
         objSel.strokeWeight = 22;

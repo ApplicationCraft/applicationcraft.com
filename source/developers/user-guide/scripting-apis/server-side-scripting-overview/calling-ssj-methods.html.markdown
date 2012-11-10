@@ -15,13 +15,13 @@ To call an SSJ method from client code, you need to use the [callSSJ()](../clien
      
     error
     res
-    function@handler_btnSnap_onClick(mouseev){
+    function handler_btnSnap_onClick(mouseev){
         app.callSSJ("mySSJFunction", function(error, res) {
             if(error===false) {
                 // Callback called, so do something
             }}, ['Hello', 'World']);
     }
-    function@mySSJFunction(str1,@str2)@{
+    function mySSJFunction(str1, str2) {
         if(str1=='') {
             throw('My Error'); // or you can return a value in which case error will be false and you check 'res'
         } else {
@@ -43,7 +43,7 @@ and here is the server side function that gets called
 
 The value that you return is passed to the client side callback function and appears as the res parameter. If any error is thrown, whether by your code or by the system, then the client side error parameter in the callback will be set to true.
 
-**See Also:**
+## **See Also**
 
  - [callSSJ()](../client-api/app-functions/callservice)
 

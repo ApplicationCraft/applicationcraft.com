@@ -63,7 +63,7 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-X
+## X
 
 </td>
 <td width="15">
@@ -334,7 +334,7 @@ On Refresh
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [General Events](../events/event-reference-list/general-events)
 

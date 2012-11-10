@@ -28,7 +28,7 @@ Returns the You Tube player object
 
 Returns the You Tube player object
 
-**Example**
+## **Example**
 
      
     console.dir(app.w('YouTube').getYouTubePlayer()});

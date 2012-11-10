@@ -18,7 +18,7 @@ Let's assume you have a shopping basket where each 'row' in a repeating group co
 
 The following example shows how a total is calculated when a Respondent enters a quantity into a Text Widget belonging to the Repeater row.
 
-    function@handler_Repeater_numQuantity_onBlur(){
+    function handler_Repeater_numQuantity_onBlur(){
         rowObj =_widget.parent();
         app.setValue(rowObj.w('lblTotal'), rowObj.w('lblPrice').value() * _widget.value());
     }

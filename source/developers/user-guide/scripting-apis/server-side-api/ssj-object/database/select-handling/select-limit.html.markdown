@@ -44,13 +44,13 @@ This lets you restrict the amount of data returned as well as handling data pagi
 
 If you want to retrieve the first 100 records
 
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from("customers").limit(100);
-    result@=@cObj.exec(selectObj);
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from("customers").limit(100);
+    result = cObj.exec(selectObj);
     return(result);
-    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj@=@cObj.select().from("customers").limit(50,100);
-    result@=@cObj.exec(selectObj);
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj = cObj.select().from("customers").limit(50,100);
+    result = cObj.exec(selectObj);
     return(result);
    
 

@@ -28,8 +28,8 @@ If you are building a Native App and require your media to be playable even if n
 
 If you are looking to work with large media files, do not add your video to the List of Items, but handle it by code as the app starts:
 
-    function@handler_application_onAppStarted(){
-    app.setProperty('HTML5Video',@'source',@[{type:'video/mp4',@src:'http://yourserver.com/yourmedia.mp4'}]);
+    function handler_application_onAppStarted(){
+    app.setProperty('HTML5Video', 'source', [{type:'video/mp4', src:'http://yourserver.com/yourmedia.mp4'}]);
     }
      
    

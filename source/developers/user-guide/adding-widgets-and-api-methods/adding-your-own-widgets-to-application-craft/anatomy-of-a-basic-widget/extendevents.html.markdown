@@ -47,7 +47,7 @@ There are two ways to add events to you widget
     action
     params
     group
-    widget.onChange@=@"Event#SimpleLabel#onChange";
+    widget.onChange = "Event#SimpleLabel#onChange";
      
    
 

@@ -85,13 +85,13 @@ error callback function.
 This function is used to delete rows from  the database
 
      
-    db.del("test",@"id@=@?",@["1"],@function(count){@
+    db.del("test", "id = ?", ["1"], function(count){ 
         console.log("count="+count); 
-    },@function(er){
+    }, function(er){
         console.log("error="+er);
     });
      
    
 
-**Example**
+## **Example**
 

@@ -32,7 +32,7 @@ The Stage is actually an internal property of the App Instance (record). The Sta
 
 An error will be triggered if you specify an invalid stage name as soon as you call setStage() and again once the instance is saved.
 
-## See Also:
+## See Also
 
  - [getStage()](getstage.htm)
 

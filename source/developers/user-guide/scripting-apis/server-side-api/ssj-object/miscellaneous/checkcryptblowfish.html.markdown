@@ -47,12 +47,12 @@ Checks an unhashed string, probably a password, and compares it with the hash va
 
 ## Example
 
-    if(ssj.checkHash(strHash,@strUserPassword)@{
+    if(ssj.checkHash(strHash, strUserPassword) {
         // User password is ok
     }
    
 
-## See Also:
+## See Also
 
  - [hash()](cryptblowfish.htm)
 

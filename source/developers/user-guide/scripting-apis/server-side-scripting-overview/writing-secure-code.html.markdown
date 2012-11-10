@@ -52,7 +52,7 @@ On the positive side, this is completely normal and is the way things work on th
 
 The following notional function illustrates a common way of securing your SSJ Web Service. Note that we have protected \_getUserLevel() by virtue of the fact that the function name starts with '\_'.
 
-    function@mySSJService(action,@parameter1,@parameter2,@parameterN)@{
+    function mySSJService(action, parameter1, parameter2, parameterN) {
      
         if(_getUserLevel()=='deity') {
             launchArmageddon();
@@ -64,7 +64,7 @@ The following notional function illustrates a common way of securing your SSJ We
      
     }
      
-    function@_getUserLevel()@{
+    function _getUserLevel() {
      
         // If you have your own user management then use whatever you have
      

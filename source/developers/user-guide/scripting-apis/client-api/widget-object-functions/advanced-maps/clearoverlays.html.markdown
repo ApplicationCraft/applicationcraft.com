@@ -12,14 +12,14 @@ full_width: true
 
 Where you can remove all overlays in one go
 
-**Example**
+## **Example**
 
     app.w('googleMapsAdvanced').clearOverlays();
      
      
    
 
-**See Also:**
+## **See Also**
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

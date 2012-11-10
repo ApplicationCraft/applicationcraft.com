@@ -66,7 +66,7 @@ Each object can contain any number of widgets but must be formatted as follows. 
 
 The following example populates two widgets. The third widget does not exist but the system will simply ignore it, so it is safe to mix in other key fields.
 
-## See Also:
+## See Also
 
  - [dataGetValues()](datagetvalues.htm)
 

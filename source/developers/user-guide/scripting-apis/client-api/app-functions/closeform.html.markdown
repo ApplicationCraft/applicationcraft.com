@@ -52,14 +52,14 @@ true/false.
 
 This enables you to control the closing of the App, defining your message and redirecting them if required.  Quiet - 'true' will try to close the browser without prompting user involvement (browser dependant), Quiet - 'false' will prompt user to confirm if they wish to exit or not.
 
-**Example**
+## **Example**
 
      
-    app.closeForm("",@'http://www.yourwebsite.com',@true);@//@will@close@app@and@redirect@the@user
+    app.closeForm("", 'http://www.yourwebsite.com', true); // will close app and redirect the user
      
-    app.closeForm("Are@you@sure@you@want@to@Quit@?",@'http://www.yourwebsite.com',@false);@//@will@present@message@to@users@to@confirm@and@then@redirect@the@user
+    app.closeForm("Are you sure you want to Quit ?", 'http://www.yourwebsite.com', false); // will present message to users to confirm and then redirect the user
      
-    app.closeForm();@//@will@close@the@app
+    app.closeForm(); // will close the app
      
    
 

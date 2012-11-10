@@ -54,7 +54,7 @@ The following example populates two widgets. The third widget does not exist but
         vapp.dataSetValues(rObj);
    
 
-## See Also:
+## See Also
 
  - [dataGetValues()](datagetvalues.htm)
 

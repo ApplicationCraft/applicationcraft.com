@@ -62,14 +62,14 @@ obj.message - error message
 
      
      
-    PGSQLitePlugin.remove("testdb.sqlite3",@function(){
+    PGSQLitePlugin.remove("testdb.sqlite3", function(){
         console.log("database was removed");
-    },@function(err){
+    }, function(err){
         console.log("error remove database::err.message=" + err.message + "::err.status="+err.status);
     });
    
 
 This function is used to remove a database.
 
-**Example**
+## **Example**
 

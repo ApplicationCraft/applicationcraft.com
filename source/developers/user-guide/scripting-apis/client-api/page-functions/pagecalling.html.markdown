@@ -45,7 +45,7 @@ This function had some limitations and is deprecated since pageBack() fully impl
 
 You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page-transitions.htm) for valid transition strings and examples.
 
-## See Also:
+## See Also
 
  - [pageJump()](pagejump.htm)
 

@@ -213,7 +213,7 @@ How the menu is triggered to open and close, whether by hovering over the center
 </tr>
 <tr>
 <td width="137">
-X
+## X
 
 </td>
 <td width="23">
@@ -607,7 +607,7 @@ Custom CSS Classes
 <td width="10">
 </td>
 <td width="782">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -808,7 +808,7 @@ On Resize Stop
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Circular Menu Widget](../../product-guide/advanced-important-widgets/circle-menu-widget/)
 

@@ -18,10 +18,10 @@ Many functions require you to identify a Widget or Widgets. Wherever you see a {
 
 ## Example
 
-    app.visible('myTextBox',@true)
-    app.resetWidget(['myTextBox',@'yourTextBox']);
-    var@wobj@=@app.w('myGrid');
-    var@wobj2@=@app.w('myLabel');
-    app.resetWidget([wobj,@wobj2]);
+    app.visible('myTextBox', true)
+    app.resetWidget(['myTextBox', 'yourTextBox']);
+    var wobj = app.w('myGrid');
+    var wobj2 = app.w('myLabel');
+    app.resetWidget([wobj, wobj2]);
    
 

@@ -113,7 +113,7 @@ Specify the default date highlighted
 </tr>
 <tr>
 <td width="150">
-X
+## X
 
 </td>
 <td width="43">
@@ -651,7 +651,7 @@ Custom CSS Classes
 <td width="20">
 </td>
 <td width="748">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -860,7 +860,7 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Calendar Widget](../../product-guide/advanced-important-widgets/calendar-widget/)
 

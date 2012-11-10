@@ -21,17 +21,17 @@ The following methods are all you need in order to work with it effectively.
       localStorage.setItem()
       localStorage.getItem()
       localStorage.removeItem()
-      jsonText@=@JSON.stringify(myCustomerArray);
-      localStorage.setItem("AppCustomers",@jsonText);
-      jsonText@=@localStorage.getItem("AppCustomers");
-      myCustomerArray@=@JSON.parse(jsonText);
+      jsonText = JSON.stringify(myCustomerArray);
+      localStorage.setItem("AppCustomers", jsonText);
+      jsonText = localStorage.getItem("AppCustomers");
+      myCustomerArray = JSON.parse(jsonText);
       localStorage.removeItem("AppCustomers");
-      function@listAllItems(){@@
+      function listAllItems(){  
           for (i=0; i<=localStorage.length-1; i++) {  
               key = localStorage.key(i);  
               val = localStorage.getItem(key);  
           }  
-      }@@
+      }  
       localStorage.clear();
      
 

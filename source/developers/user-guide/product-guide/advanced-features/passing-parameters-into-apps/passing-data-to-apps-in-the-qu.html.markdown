@@ -14,7 +14,7 @@ A really useful way of getting data into an App is to use the query string. The 
      
    
 
-## See Also:
+## See Also
 
  - [Reading parameters within your App](../../the-console/console-tabs/more/account-variables/user-parameters/accessing-user-parameters-from)
 

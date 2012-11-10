@@ -10,7 +10,7 @@ A Circle can be drawn on the Map with a radius as well as line and fill properti
 
 Below is some code that shows how to create a new line using [addCircle()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](../using-populatewidget) function.
 
-    function@handler_actionBtn11_onClick(mouseev){
+    function handler_actionBtn11_onClick(mouseev){
         if (circleObj) {
             app.w('googleMapsAdvanced').removeOverlay(circleObj);
             circleObj = null;

@@ -129,7 +129,7 @@ Show/Hide/Hide ProgressBar
 </tr>
 <tr>
 <td width="155">
-X
+## X
 
 </td>
 <td width="22">
@@ -574,7 +574,7 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+## See Also
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

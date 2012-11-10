@@ -36,7 +36,7 @@ The default App ID will be
     com.applicationcraft.app<xxxxxxxxxxxxxxxxx>
     com.applicationcraft.*
     com.yourdomain.yoursuffix
-    id@=@"com.yourdomain.yoursuffix"
+    id = "com.yourdomain.yoursuffix"
    
 
 where \<xxxxxxxxxxxxxxx\> is the ID of your App as can be seen in the AC Console with your App selected. The Bundle Identifier you specify in the Apple Developer Portal can then be one of the following

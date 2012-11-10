@@ -8,7 +8,7 @@ full_width: true
 
 The server is about to load a new App instance and send it to the client. You can perform logic on the server side at this point and then decide whether to prevent the instance being loaded by returning false from the event.
 
-    function@handler_server_onInstanceLoad(user,@instance){
+    function handler_server_onInstanceLoad(user, instance){
     }
    
 

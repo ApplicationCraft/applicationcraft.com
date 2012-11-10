@@ -61,18 +61,18 @@ Because SOAP provides more information that a RESTful call, AC is able to conver
 
 ## Example
 
-    function@handler_application_onAppStarted(){
+    function handler_application_onAppStarted(){
         ws = "http://wsf.cdyne.com/WeatherWS/Weather.asmx?wsdl";
         var data = ssj.soapRequest(ws, "GetCityForecastByZIP", {ZIP : "94102"}); 
     }
      
-    ssj.__lastSoapRequest()@//@Allows@you@to@get@the@generated@XML@for@the@request
-    ssj.__lastSoapResponse()//@Allows@you@to@get@the@raw@XML@output@from@the@server@response
+    ssj.__lastSoapRequest() // Allows you to get the generated XML for the request
+    ssj.__lastSoapResponse()// Allows you to get the raw XML output from the server response
      
-    function@mySoapRequest(){
+    function mySoapRequest(){
         ws = "http://wsf.cdyne.com/WeatherWS/Weather.asmx?wsdl"; // url to wsdl MUST be here
         var data = ssj.soapRequest(ws, "GetCityForecastByZIP", {ZIP : "94102"}); 
-    return@{data:@data,@rawRequest:@ssj.__lastSoapRequest(),@rawResponse:@__lastSoapResponse()};
+    return {data: data, rawRequest: ssj.__lastSoapRequest(), rawResponse: __lastSoapResponse()};
     }
    
 
@@ -80,5 +80,5 @@ Because SOAP provides more information that a RESTful call, AC is able to conver
 
 To assist debugging there are 2 functions available
 
-**Example**
+## **Example**
 

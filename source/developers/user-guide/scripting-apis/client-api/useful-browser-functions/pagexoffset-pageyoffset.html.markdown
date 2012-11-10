@@ -30,7 +30,7 @@ The number of pixels
 
 Returns the number of pixels the current document has been scrolled from the upper left corner of the window
 
-## See Also:
+## See Also
 
  - [Window Object](window-object.htm)
 

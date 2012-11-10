@@ -42,12 +42,12 @@ This is a utility function that enables you to set the 'visible' property of one
 
 ## Example
 
-    app.visible(["timeColor",@"shapeColor"],@true);@@//@make@the@listed@widgets@visible
-    app.visible(["timeColor"],@true);@@@@@@@@@@@@@@@@//@make@a@single@widget@visible
+    app.visible(["timeColor", "shapeColor"], true);  // make the listed widgets visible
+    app.visible(["timeColor"], true);                // make a single widget visible
         
    
 
-## See Also:
+## See Also
 
  - [enabled()](enabled.htm)
 

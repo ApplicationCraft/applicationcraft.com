@@ -62,24 +62,24 @@ Yahoo
 
 You can write Javascript that builds or stores this data in an array variable and write that array to the Widget in order to load it. Here is some sample code to illustrate this.
 
-    function@showFriends(friends){
+    function showFriends(friends){
      
-    //@Initalize@the@array
-    var@data@=@{@rows@:@[]@};
-    //@Loop@through@each@item@in@friends
-    for@(var@i@in@friends){
+    // Initalize the array
+    var data = { rows : [] };
+    // Loop through each item in friends
+    for (var i in friends){
     if(friends[i]){
-    var@friend@=@friends[i];
-    //@Get@the@Friend@Name@ID@and@Friend@Name@Text@and@assign@it@to@item
-    var@item@=@[friend.name,@friend.screen_name];
-    //@add@item@to@the@array@'data'
-    data.rows.push(@{@data@:@item@}@);
+    var friend = friends[i];
+    // Get the Friend Name ID and Friend Name Text and assign it to item
+    var item = [friend.name, friend.screen_name];
+    // add item to the array 'data'
+    data.rows.push( { data : item } );
     }
     }
-    //@Finally,@repopulate@the@Listbox@Widget@with@new@data
-    app.setData("listBox1",@data);
+    // Finally, repopulate the Listbox Widget with new data
+    app.setData("listBox1", data);
     }
-    app.setData("listBox1",@{@rows@:@[]@});
+    app.setData("listBox1", { rows : [] });
    
 
 To empty a Listbox of all items and values, you would use the following code

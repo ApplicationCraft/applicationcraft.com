@@ -95,7 +95,7 @@ The URL of the app to show within the widget. By default it is set to the Short 
 </tr>
 <tr>
 <td width="137">
-X
+## X
 
 </td>
 <td width="23">
@@ -285,7 +285,7 @@ Custom CSS Classes
 <td width="10">
 </td>
 <td width="782">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -378,7 +378,7 @@ On Resize Stop
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [Share This Widget](../../product-guide/advanced-important-widgets/share-this-widget/)
 

@@ -15,14 +15,14 @@ Adjusts the date range of a Timeline widget to accommodate all events loaded int
 ## Example
 
      
-    function@handler_actionBtn6_onClick(mouseev){
+    function handler_actionBtn6_onClick(mouseev){
         app.w("timeline1").fitData();
     }
      
      
    
 
-## See Also:
+## See Also
 
  - [scroll()](scroll.htm)
 

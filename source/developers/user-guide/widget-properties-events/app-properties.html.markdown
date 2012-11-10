@@ -343,7 +343,7 @@ Page Target
 <td width="20">
 </td>
 <td width="740">
-## This defines where to go in the current App after the Instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
+This defines where to go in the current App after the Instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
 
 </td>
 </tr>
@@ -355,7 +355,7 @@ Redirect URL
 <td width="20">
 </td>
 <td width="740">
-## This defines which URL to go to after the instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
+This defines which URL to go to after the instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
 
 </td>
 </tr>
@@ -487,7 +487,7 @@ Instance Name
 <td width="20">
 </td>
 <td width="740">
-## This is the name of the Instance when it is saved so you can access it through a Query. See also [How to Report on App Data](../product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/) .
+This is the name of the Instance when it is saved so you can access it through a Query. See also [How to Report on App Data](../product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/) .
 
 </td>
 </tr>
@@ -499,7 +499,7 @@ Application Relationship
 <td width="20">
 </td>
 <td width="740">
-## Through this dialog you can pair Apps together through any form of relationship; One to One, One to Many and Many to Many. See also [App Instances](../product-guide/advanced-features/data-storage-management/dataapp-instances) .
+Through this dialog you can pair Apps together through any form of relationship; One to One, One to Many and Many to Many. See also [App Instances](../product-guide/advanced-features/data-storage-management/dataapp-instances) .
 
 </td>
 </tr>
@@ -882,7 +882,7 @@ On Resize
 </tr>
 </table>
 
-**See Also:**
+## **See Also**
 
  - [General Events](events/event-reference-list/general-events)
 

@@ -18,10 +18,10 @@ To format your content you should follow these guidelines
 
 If your label items are not displaying or behaving badly, then you have almost certainly mis-formatted your text string.
 
-    lbl@=@"<p><h1>"@+@result.pAddress.pAddressRow[0].Name1@+@"</h1></p>";
-    lbl@+=@"<p><span@style='font-size:14px;'><strong>Kunden-#:@</strong>"@+@result.pCustomer.pCustomerRow[0].CustomerID@+@"</p>";@@@@
-    lbl@+=@"<p@style='font-size:14px;'>"@+@result.pAddress.pAddressRow[0].Street1@+@"</p>";
-    lbl@+=@"<p@style='font-size:14px;'>"@+@result.pAddress.pAddressRow[0].ZIP@+@"@"@+@result.pAddress.pAddressRow[0].City@+@"</p>";
+    lbl = "<p><h1>" + result.pAddress.pAddressRow[0].Name1 + "</h1></p>";
+    lbl += "<p><span style='font-size:14px;'><strong>Kunden-#: </strong>" + result.pCustomer.pCustomerRow[0].CustomerID + "</p>";    
+    lbl += "<p style='font-size:14px;'>" + result.pAddress.pAddressRow[0].Street1 + "</p>";
+    lbl += "<p style='font-size:14px;'>" + result.pAddress.pAddressRow[0].ZIP + " " + result.pAddress.pAddressRow[0].City + "</p>";
      
    
 

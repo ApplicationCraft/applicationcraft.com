@@ -72,11 +72,11 @@ error callback function.
 
 This function inserts a row into the database.
 
-**Example**
+## **Example**
 
-    db.insert("test",@{@id_user@:@100,@name@:@"Username"@},@function(id){@
+    db.insert("test", { id_user : 100, name : "Username" }, function(id){ 
         console.log("id="+id); 
-    },@function(er){
+    }, function(er){
         console.log("error="+er);
     });
    

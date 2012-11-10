@@ -48,7 +48,7 @@ Creates a new group in the AC system. You should pass in the following object
 
 If there is an error creating the Group due to permissions, then an exception is thrown.
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

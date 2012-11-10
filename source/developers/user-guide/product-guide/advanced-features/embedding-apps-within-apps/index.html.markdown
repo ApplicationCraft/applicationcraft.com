@@ -8,7 +8,7 @@ full_width: true
 
 A useful feature is to be able to embed one App within another. This is very easily done thanks to the Embed App Widget. This can be found in the Advanced section of the Widget toolbox.
 
-## See Also:
+## See Also
 
  - [switchApp()](../../../scripting-apis/client-api/app-functions/switchapp)
 

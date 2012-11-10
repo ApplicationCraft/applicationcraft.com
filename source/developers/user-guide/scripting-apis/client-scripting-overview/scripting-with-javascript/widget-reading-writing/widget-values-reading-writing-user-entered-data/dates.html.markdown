@@ -8,13 +8,13 @@ full_width: true
 
 The Date Widget can be either a single date or a date range (by setting the Range property). If a regular date (Range = false), then you can get and set using a regular date object.
 
-    app.setValue('dtDeparture',@dateObject);
+    app.setValue('dtDeparture', dateObject);
     app.w('dtDeparture').value(dateObject);
-    dateRange[0]@=@dateObjectDepart;
-    dateRange[1]@=@dateObjectReturn;
-    app.setValue('dtTravelDates',@dateRange);
-    opStockFilter=['{CF_Readings.dpReadingDate}<="'+app.DATE2DB(firstDay)+'"','{CF_Tanks.TankNo}="'@+g_tankNoArray[i]+'"'];
-    app.setProperty('myDataWidget',@'filter',@opStockFilter);
+    dateRange[0] = dateObjectDepart;
+    dateRange[1] = dateObjectReturn;
+    app.setValue('dtTravelDates', dateRange);
+    opStockFilter=['{CF_Readings.dpReadingDate}<="'+app.DATE2DB(firstDay)+'"','{CF_Tanks.TankNo}="' +g_tankNoArray[i]+'"'];
+    app.setProperty('myDataWidget', 'filter', opStockFilter);
    
 
 or

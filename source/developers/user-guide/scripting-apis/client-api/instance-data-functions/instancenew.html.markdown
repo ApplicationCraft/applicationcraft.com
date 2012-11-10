@@ -20,7 +20,7 @@ This creates a brand new Instance within the currently loaded App. Note that onl
 
 If you want to reset all fields in the App, then use app.reset().
 
-## See Also:
+## See Also
 
  - [instanceCreate()](instancecreate.htm)
 

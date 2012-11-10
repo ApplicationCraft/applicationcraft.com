@@ -58,12 +58,12 @@ You can also specify page transitions using the optional parameters. This offers
 
 ## Example
 
-    app.pageJump('Intro');@@@@@@//@jump@to@page@'Intro'
-    app.pageJump('Intro','flip');@@@@//@jump@to@page@'Intro'@using@the@'flip'@transition@effect
-    app.pageJump('Intro;,'flip',true);@@//@jump@to@page@'Intro'@using@the@reverse@'flip'@transition@effect
+    app.pageJump('Intro');      // jump to page 'Intro'
+    app.pageJump('Intro','flip');    // jump to page 'Intro' using the 'flip' transition effect
+    app.pageJump('Intro;,'flip',true);  // jump to page 'Intro' using the reverse 'flip' transition effect
    
 
-## See Also:
+## See Also
 
  - [pageBack()](pageback.htm)
 

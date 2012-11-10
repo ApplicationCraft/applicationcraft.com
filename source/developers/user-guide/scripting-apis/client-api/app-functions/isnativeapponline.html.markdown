@@ -31,15 +31,15 @@ Returns the status of internet / network connectivity. If the App is not running
 ## Example
 
     if(app.isNativeAppOnline()){
-    //@ok@to@access@the@internet
+    // ok to access the internet
     }
-    else@{
-    //@NOT@ok@to@access@the@internet
+    else {
+    // NOT ok to access the internet
    
 
 }
 
-## See Also:
+## See Also
 
  - [Network Availability Handling](../../client-scripting-overview/network-availability-handling)
 

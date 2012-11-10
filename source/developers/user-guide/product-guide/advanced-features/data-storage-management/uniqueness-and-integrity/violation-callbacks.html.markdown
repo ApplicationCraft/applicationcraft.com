@@ -16,7 +16,7 @@ If there is an Integrity Violation, then the script that caused the violation ca
 
 Let's say you use the instanceCreate() function to add a new Instance to an App. This is a simple script that shows how you can handle the error.
 
-    app.instanceCreate("dataContainer1",@undefined,@function(errorObj,@statusObj)@{
+    app.instanceCreate("dataContainer1", undefined, function(errorObj, statusObj) {
             if (error === null) {
                     // Worked OK, so do nothing or say congratulations
             } else {

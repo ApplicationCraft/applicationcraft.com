@@ -22,7 +22,7 @@ Because [httpRequest()](../../client-api/soap-restful-ajax-calls/httprequest) is
 
 This function shows the error handler catching the error and simply displaying the error message the page that will be displayed with [showPagePopup()](../../client-api/page-functions/showpagepopup)
 
-    function@handler_application_onError(error){
+    function handler_application_onError(error){
         app.setValue('lblError', error.message);   // Display the error message in a label on the error page
         return(false);  // suppress Application Craft's popup message box
     }

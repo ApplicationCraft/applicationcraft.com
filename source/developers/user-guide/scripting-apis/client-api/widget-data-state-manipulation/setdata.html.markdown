@@ -46,7 +46,7 @@ It is recommended you read the chapter [Interacting with Widgets](../../client-s
 
 There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
 
-## See Also:
+## See Also
 
  - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists-dropdowns) Widgets
 

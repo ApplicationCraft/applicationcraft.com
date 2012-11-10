@@ -47,7 +47,7 @@ Updates the group with the details of the group passed in the groupObject parame
      
    
 
-## See Also:
+## See Also
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

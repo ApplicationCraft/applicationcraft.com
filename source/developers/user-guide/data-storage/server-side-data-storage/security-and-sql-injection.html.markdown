@@ -24,7 +24,7 @@ When building SSJ functions, if there are functions that should not be callable 
 
 Handling Parameters correctly is one of the best ways of protecting your queries against manipulation. Your queries will often require you to pass data from the client for your queries. The [quoteInto()](../../scripting-apis/server-side-api/ssj-object/database/quoteinto) function is very useful. Take the following SQL statement
 
-    SELECT@*@FROM@customers@WHERE@ID=x
+    SELECT * FROM customers WHERE ID=x
         selectObj = cObj.select().from("customers").where('id=' + p.id);
         result = cObj.exec(selectObj);
         return(result);

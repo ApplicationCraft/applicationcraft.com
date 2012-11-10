@@ -12,7 +12,7 @@ full_width: true
 
 Returns information about the currently logged in user accessing the App.
 
-    obj@=@ssj.getLoggedUser();
+    obj = ssj.getLoggedUser();
    
 
 where obj has the following keys

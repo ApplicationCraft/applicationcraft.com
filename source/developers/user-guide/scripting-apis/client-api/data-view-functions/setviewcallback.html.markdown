@@ -74,7 +74,7 @@ The callback functions have the format **callback** (error, data, identifier), w
 
 The identifier is the identifier string that was included in the bindViewData() function call. It allows you to uniquely identify a binding should multiple viewBindData calls all share the same callback function.
 
-## See Also:
+## See Also
 
  - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
 
