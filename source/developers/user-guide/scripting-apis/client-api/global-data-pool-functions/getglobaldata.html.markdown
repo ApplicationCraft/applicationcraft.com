@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## variable getGlobalData (varName)
+variable **getGlobalData** (varName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,16 +36,15 @@ The name of the variable to retrieve from the Global Data Pool
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Retrieves data from a Global Data Pool variable.
 
-See Also:
+## See Also:
 
  - [switchApp()](../app-functions/switchapp)
 
- - [setGlobalData()](setglobaldata)
+ - [setGlobalData()](setglobaldata.htm)
 
- - [clearGlobalData()](clearglobaldata)
+ - [clearGlobalData()](clearglobaldata.htm)
 

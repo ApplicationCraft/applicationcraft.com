@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## scrollTo (date)
+**scrollTo** (date)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,27 +24,26 @@ Scrolls the timeline display, locating the specified date in the center of the t
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Does what it says.
 
-Example
+## Example
 
 This example reads the date object contained by the 'dtGoto' widget and scrolls to that date
 
     app.w('timeline1').scrollTo(app.getValue('dtGoto'));
    
 
-See Also:
+## See Also:
 
- - [fitData()](fitdata)
+ - [fitData()](fitdata.htm)
 
- - [scroll()](scroll)
+ - [scroll()](scroll.htm)
 
- - [Timeline Events](eventstimeline)
+ - [Timeline Events](eventstimeline.htm)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 
- - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index)
+ - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
 

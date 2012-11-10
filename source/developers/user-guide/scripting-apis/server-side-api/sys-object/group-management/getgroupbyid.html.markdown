@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {object} getGroupById (groupId])
+{object} **getGroupById** (groupId])
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,18 +24,17 @@ The Group ID to search for
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This returns an object of the format shown below describing the Group
 
     {
-    id: group ID ,
-    name: frendly group name
+        id: group ID , 
+        name: frendly group name
     }
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

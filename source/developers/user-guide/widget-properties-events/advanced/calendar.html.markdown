@@ -11,7 +11,7 @@ This Widget offers a variety of ways to display Monthly information on both Desk
 <table>
 <tr>
 <th style="vertical-align:top; width:147px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:47px; background-color:#ffffff;">
@@ -207,7 +207,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="145">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="49">
@@ -275,7 +275,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="48">
@@ -303,7 +303,7 @@ Fields
 <td width="48">
 </td>
 <td width="746">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -407,7 +407,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <th style="vertical-align:top; width:174px; background-color:#ffffff;">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </th>
 <th style="vertical-align:top; width:20px; background-color:#ffffff;">
@@ -651,7 +651,7 @@ Custom CSS Classes
 <td width="20">
 </td>
 <td width="748">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -672,7 +672,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -860,9 +860,9 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
- - [Calendar Widget](../../product-guide/advanced-important-widgets/calendar-widget/index)
+ - [Calendar Widget](../../product-guide/advanced-important-widgets/calendar-widget/)
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

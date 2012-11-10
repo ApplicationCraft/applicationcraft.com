@@ -8,16 +8,16 @@ full_width: true
 
 A Query is a collection of fields taken from a Connection/App or List. The Query Wizard allows you to define which fields are used. In the case of a database, a query can point directly to a table or a view. You can also define your own table joins in the AC Query Wizard so you don't have to set them up in the database if they don't already exist there.
 
-Query Repository
+## Query Repository
 
-All Queries are stored in the standard [Private/Shared/Public](../../private--shared-and-public-fol) folder structure.
+All Queries are stored in the standard [Private/Shared/Public](../../private-shared-and-public-fol) folder structure.
 
-Properties & Settings
+## Properties & Settings
 
 <table>
 <tr>
 <td width="126">
-## General
+**General**
 
 </td>
 <td width="16">
@@ -51,7 +51,7 @@ This is the Unique Identifier of the Query.
 </tr>
 <tr>
 <td width="126">
-## Sharing
+**Sharing**
 
 </td>
 <td width="16">
@@ -63,7 +63,7 @@ Please refer to the [Sharing](../../sharing) section for details
 </tr>
 </table>
 
-Action Buttons
+## Action Buttons
 
 <table>
 <tr>
@@ -74,7 +74,7 @@ Edit
 <td width="16">
 </td>
 <td>
-This takes you into the [Query Wizard](query-wizard/index) .
+This takes you into the [Query Wizard](query-wizard/) .
 
 </td>
 </tr>
@@ -164,9 +164,9 @@ Generate a Data URL for your query. For use with Reporting - coming soon
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
- - [Data Lists Management](../../../advanced-features/data-lists-management/index)
+ - [Data Lists Management](../../../advanced-features/data-lists-management/)
 
  - [Database Handling with SSJ](../../../../scripting-apis/server-side-scripting-overview/database-handling-with-ssj)
 

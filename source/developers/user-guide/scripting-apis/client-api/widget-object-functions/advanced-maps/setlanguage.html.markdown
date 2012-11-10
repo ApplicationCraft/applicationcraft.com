@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## setLanguage (lng)
+**setLanguage** (lng)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,13 +24,14 @@ Set the map language
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Where you can define the language within the Google Map. A List of supported languages can be found here: [https://spreadsheets.google.com/pub?key=p9pdwsai2hDMsLkXsoM05KQ&gid=1](https://spreadsheets.google.com/pub?key=p9pdwsai2hDMsLkXsoM05KQ&gid=1)
 
-## Example
+**Example**
 
+     
     app.w('googleMapsAdvanced').setLanguage('ja');
+     
    
 

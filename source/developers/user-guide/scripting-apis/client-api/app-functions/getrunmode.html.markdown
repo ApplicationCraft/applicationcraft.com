@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-numMode getRunMode()
+## numMode getRunMode()
 
 <table>
 <tr>
@@ -22,8 +22,7 @@ The mode as an integer
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function returns 0,1 or 2 depending on the mode your app is running.
 

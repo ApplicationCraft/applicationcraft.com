@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## visible ( widget , value)
+**visible** ( widget , value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,22 +36,22 @@ the value to set the property to: true/false
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This is a utility function that enables you to set the 'visible' property of one or more Widgets. It is the functional equivalent to app.setProperty('widgetName', 'visible', true|false). Its purpose is simply to reduce the amount of code and also to make code easier to read.
 
-Example
+## Example
 
-    app.visible(["timeColor", "shapeColor"], true);  // make the listed widgets visible
-    app.visible(["timeColor"], true);                // make a single widget visible
+    app.visible(["timeColor",@"shapeColor"],@true);@@//@make@the@listed@widgets@visible
+    app.visible(["timeColor"],@true);@@@@@@@@@@@@@@@@//@make@a@single@widget@visible
+        
    
 
-See Also:
+## See Also:
 
- - [enabled()](enabled)
+ - [enabled()](enabled.htm)
 
- - [readOnly()](readonly)
+ - [readOnly()](readonly.htm)
 
  - [setProperty()](../widget-functions/setproperty)
 

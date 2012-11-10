@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## string userParameterSet (parameterGroup, paramName, value, callback)
+string **userParameterSet** (parameterGroup, paramName, value, callback)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -60,18 +60,17 @@ true/false
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Sets the value of a User Parameter Group to the value specified, for the currently logged on user. If the App Instance does not have a logged in user, then the call will have no effect.
 
-Callback
+## Callback
 
 The Callback function has the format callback(error), where error is true or false.
 
-See Also:
+## See Also:
 
- - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/index)
+ - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 
- - [userParameterGet()](userparameterget)
+ - [userParameterGet()](userparameterget.htm)
 

@@ -18,5 +18,5 @@ If there is only one App that has the settings button on it (as is the case in o
 
 ![Auth\_Save](/img/docs/auth_save.zoom95.png)
 
-For completeness, if you had several Apps that could call the Settings App, then you should use the [Global Data Pool](../../../../scripting-apis/client-api/global-data-pool-functions/index) and [app.setGlobalData()](../../../../scripting-apis/client-api/global-data-pool-functions/setglobaldata) to pass in the ID of the calling App. The Settings page can then use [app.getGlobalData()](../../../../scripting-apis/client-api/global-data-pool-functions/getglobaldata) to get the ID of the caller and use this ID to switch back to.
+For completeness, if you had several Apps that could call the Settings App, then you should use the [Global Data Pool](../../../../scripting-apis/client-api/global-data-pool-functions/) and [app.setGlobalData()](../../../../scripting-apis/client-api/global-data-pool-functions/setglobaldata) to pass in the ID of the calling App. The Settings page can then use [app.getGlobalData()](../../../../scripting-apis/client-api/global-data-pool-functions/getglobaldata) to get the ID of the caller and use this ID to switch back to.
 

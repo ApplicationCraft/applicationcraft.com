@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## setPlaybackQuality (quality)
+**setPlaybackQuality** (quality)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -38,27 +38,26 @@ Sets the suggested video quality for the current video. Available parameters
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function sets the suggested video quality for the current video. The function causes the video to reload at its current position in the new quality. If the playback quality does change, it will only change for the video being played. Calling this function does not guarantee that the playback quality will actually change. However, if the playback quality does change, the [On Playback Quality Change](../../../../widget-properties-events/events/event-reference-list/general-events#playback) event will fire, and your code should respond to the event rather than the fact that it called the setPlaybackQuality function.
 
 We recommend that you set the parameter value to default, which instructs YouTube to select the most appropriate playback quality, which will vary for different users, videos, systems and other playback conditions.
 
-When you suggest a playback quality for a video, the suggested quality will only be in effect for that video. You should select a playback quality that corresponds to the size of your video player. For example, if your page displays a 1280px by 720px video player, a hd720 quality video will actually look better than an hd1080 quality video. We recommend calling the [getAvailableQualityLevels()](getavailablequalitylevels) function to determine which quality levels are available for a video.
+When you suggest a playback quality for a video, the suggested quality will only be in effect for that video. You should select a playback quality that corresponds to the size of your video player. For example, if your page displays a 1280px by 720px video player, a hd720 quality video will actually look better than an hd1080 quality video. We recommend calling the [getAvailableQualityLevels()](getavailablequalitylevels.htm) function to determine which quality levels are available for a video.
 
 The list below shows the playback quality levels that correspond to different standard player sizes. We recommend that you set the height of your video player to one of the values listed below and that you size your player to use 16:9 aspect ratio. As stated above, even if you choose a standard player size, we also recommend that you set the suggestedQuality parameter value to default to enable YouTube to select the most appropriate playback quality.
 
 <table>
 <tr>
 <td width="121">
-## Quality Level
+**Quality Level**
 
 </td>
 <td width="16">
 </td>
 <td width="1201">
-## Description
+**Description**
 
 </td>
 </tr>
@@ -68,6 +67,7 @@ small
 
 </td>
 <td width="16">
+        
       
 
 </td>
@@ -82,6 +82,7 @@ medium
 
 </td>
 <td width="16">
+        
       
 
 </td>
@@ -96,6 +97,7 @@ large
 
 </td>
 <td width="16">
+        
       
 
 </td>
@@ -110,6 +112,7 @@ hd720
 
 </td>
 <td width="16">
+        
       
 
 </td>
@@ -124,6 +127,7 @@ hd1080
 
 </td>
 <td width="16">
+        
       
 
 </td>
@@ -138,6 +142,7 @@ highres
 
 </td>
 <td width="16">
+        
       
 
 </td>
@@ -152,6 +157,7 @@ default
 
 </td>
 <td width="16">
+        
       
 
 </td>
@@ -162,14 +168,17 @@ YouTube selects the appropriate playback quality. This setting effective
 </tr>
 </table>
 
-## Example
+**Example**
 
+     
     app.w('YouTube').getYouTubePlayer().setPlaybackQuality('small');
+     
+     
    
 
-## See Also:
+**See Also:**
 
- - [getPlaybackQuality()](getplaybackquality)
+ - [getPlaybackQuality()](getplaybackquality.htm)
 
- - [getAvailableQualityLevels()](getavailablequalitylevels)
+ - [getAvailableQualityLevels()](getavailablequalitylevels.htm)
 

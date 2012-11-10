@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## At the time of writing, Workflow is still in alpha. Please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) if you require more information or assistance .
+**At the time of writing, Workflow is still in alpha. Please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) if you require more information or assistance** .
 
-The [Client API](../../../scripting-apis/client-api/index) section describes the complete set of [workflow functions](../../../scripting-apis/client-api/workflow-functions/index) .
+The [Client API](../../../scripting-apis/client-api/) section describes the complete set of [workflow functions](../../../scripting-apis/client-api/workflow-functions/) .
 
 Workflow is a set of client side API functions that allows you to do the following
 

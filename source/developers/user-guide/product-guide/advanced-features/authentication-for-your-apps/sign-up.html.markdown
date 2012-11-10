@@ -44,5 +44,5 @@ When the Signup button is pressed, AC will first of all perform all necessary va
 
  - [Signin](../../../widget-properties-events/authentication/authsign-in)
 
- - [Password](password)
+ - [Password](password.htm)
 

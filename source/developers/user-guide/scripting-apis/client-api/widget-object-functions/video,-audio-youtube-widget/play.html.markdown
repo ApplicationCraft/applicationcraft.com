@@ -6,14 +6,15 @@ full_width: true
 ---
 
 
-## play ()
+**play** ()
 
-Description
+## Description
 
 Play the specified video/audio.
 
-Example
+## Example
 
+     
     app.w("Video").play();
    
 

@@ -19,7 +19,7 @@ There are 2 types of users:
 <td width="19">
 </td>
 <td width="667">
-This refers to the number of developer users in your account and can be granted [rights](users.htm#ri) to be able to access specific areas in your account.
+This refers to the number of developer users in your account and can be granted [rights](users.htm#rights#rights) to be able to access specific areas in your account.
 
 Additional developer users can also be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription)
 
@@ -35,7 +35,7 @@ If you wish to reduce (temporarily) the number of developers in your account, bu
 <td width="19">
 </td>
 <td width="667">
-This refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/index) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/index) . This user does not require any 'rights'. You can disable users to restrict access to your apps.  There are no limits to the number of app users you can have in your account
+This refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/) . This user does not require any 'rights'. You can disable users to restrict access to your apps.  There are no limits to the number of app users you can have in your account
 
 </td>
 </tr>
@@ -47,12 +47,12 @@ On the left side is a pane that shows all users in the system. Check 'Only Devel
 
 Search is available to filter your users list.
 
-Properties & Settings
+## Properties & Settings
 
 <table>
 <tr>
 <td width="149">
-## General
+**General**
 
 </td>
 <td width="19">
@@ -96,7 +96,7 @@ developer/app.
 
  - 'developer' refers to the number of developer users in your account. Additional developer users can be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription)
 
- - 'app' refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/index) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/index)
+ - 'app' refers to any user accounts created in your account where you require [Authentication for Your Apps](../../../../advanced-features/authentication-for-your-apps/) or if using Server Side scripting [User Management](../../../../../scripting-apis/server-side-api/sys-object/user-management/)
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Check to disable a developer user. Disabling a user will remove their Access rig
 </tr>
 <tr>
 <td width="149">
-## <a id="rights"> </a> Rights
+<a id="rights"> </a> **Rights**
 
 </td>
 <td width="19">
@@ -236,7 +236,7 @@ Manage Widgets
 <td width="19">
 </td>
 <td width="667">
-Can create, administer and use Custom Widgets. See [Adding your own Widgets to Application Craft](../../../../../adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/index)
+Can create, administer and use Custom Widgets. See [Adding your own Widgets to Application Craft](../../../../../adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/)
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ Access all logs
 <td width="19">
 </td>
 <td width="667">
-Can the user access logs. See [Logging Support](../../../../advanced-features/logging-support/index)
+Can the user access logs. See [Logging Support](../../../../advanced-features/logging-support/)
 
 </td>
 </tr>
@@ -296,7 +296,7 @@ Write Logs
 <td width="19">
 </td>
 <td width="667">
-Can the user write logs. See [Logging Support](../../../../advanced-features/logging-support/index)
+Can the user write logs. See [Logging Support](../../../../advanced-features/logging-support/)
 
 </td>
 </tr>
@@ -310,7 +310,7 @@ Can the user write logs. See [Logging Support](../../../../advanced-features/log
 </tr>
 <tr>
 <td width="149">
-## Member Of
+**Member Of**
 
 </td>
 <td width="19">
@@ -340,7 +340,7 @@ This list shows which Groups the user is a member of. You can add Users to or re
 </tr>
 <tr>
 <td width="149">
-## User Parameters
+**User Parameters**
 
 </td>
 <td width="19">
@@ -354,7 +354,7 @@ This list shows which Groups the user is a member of. You can add Users to or re
 <td width="19">
 </td>
 <td width="667">
-Where users individual parameters can be set. See [User Parameters](../account-variables/user-parameters/index)
+Where users individual parameters can be set. See [User Parameters](../account-variables/user-parameters/)
 
 </td>
 </tr>
@@ -368,7 +368,7 @@ Where users individual parameters can be set. See [User Parameters](../account-v
 </tr>
 </table>
 
-Action Buttons
+## Action Buttons
 
 <table>
 <tr>

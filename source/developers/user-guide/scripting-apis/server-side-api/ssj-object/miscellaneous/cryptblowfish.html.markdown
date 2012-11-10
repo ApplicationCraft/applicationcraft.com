@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {string} hash (strSourceString)
+{string} **hash** (strSourceString)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -25,22 +25,22 @@ the parameter group name
 </tr>
 </table>
 
-Return Value
+## Return Value
 
-String value which is the hash of strSourceString.
+## String value which is the hash of strSourceString.
 
-Description
+## Description
 
 This takes a string and produces a Hash from that string. A hash is an encrypted value than cannot be decrypted again. The most common use case is for password handling, where take a password and pass it to the hash() function to get a value back that you then store in a database.
 
-Example
+## Example
 
-    strHashValue = ssj.hash(strUserPassword);
+    strHashValue@=@ssj.hash(strUserPassword);
    
 
-See Also:
+## See Also:
 
- - [checkHash()](checkcryptblowfish)
+ - [checkHash()](checkcryptblowfish.htm)
 
- - [md5()](md5)
+ - [md5()](md5.htm)
 

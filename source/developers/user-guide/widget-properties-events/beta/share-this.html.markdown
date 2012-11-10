@@ -13,7 +13,7 @@ The Share This widget presents a simple 'share' button to your app and when sele
 <table>
 <tr>
 <th style="vertical-align:top; width:138px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:21px; background-color:#ffffff;">
@@ -85,7 +85,7 @@ The URL of the app to show within the widget. By default it is set to the Short 
 <table>
 <tr>
 <td width="137">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="23">
@@ -189,7 +189,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="135">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="25">
@@ -233,7 +233,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="150">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="10">
@@ -285,7 +285,7 @@ Custom CSS Classes
 <td width="10">
 </td>
 <td width="782">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -306,7 +306,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 </tr>
@@ -378,9 +378,9 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
- - [Share This Widget](../../product-guide/advanced-important-widgets/share-this-widget/index)
+ - [Share This Widget](../../product-guide/advanced-important-widgets/share-this-widget/)
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

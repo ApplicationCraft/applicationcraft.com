@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## strokeColor (color)
+**strokeColor** (color)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -30,21 +30,24 @@ Description
 
 How you can set the line color for overlays
 
-## Example
+**Example**
 
-    app.w('googleMapsAdvanced').strokeColor("#" + (Math.round(Math.random() * 16777215)).toString(16));  //Set Random Color
+     
+    app.w('googleMapsAdvanced').strokeColor("#"@+@(Math.round(Math.random()@*@16777215)).toString(16));@@//Set@Random@Color
     app.w('googleMapsAdvanced').strokeColor("#ff0000");
+     
+     
    
 
-## See Also:
+**See Also:**
 
- - [strokeOpacity()](strokeopacity)
+ - [strokeOpacity()](strokeopacity.htm)
 
- - [strokeWeight()](strokeweight)
+ - [strokeWeight()](strokeweight.htm)
 
- - [fillColor()](fillcolor)
+ - [fillColor()](fillcolor.htm)
 
- - [fillOpacity()](fillopacity)
+ - [fillOpacity()](fillopacity.htm)
 
- - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/index)
+ - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/)
 

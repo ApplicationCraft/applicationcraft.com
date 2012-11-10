@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## enable ()
+**enable** ()
 
-Description
+## Description
 
 Allows you to enable or disable the widget
 
-Example
+## Example
 
 This example shows the widget enabled state being toggled on and off.
 

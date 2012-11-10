@@ -18,10 +18,10 @@ Each Theme controls the colors and fonts of the mobile Widgets. Currently, these
 
 ![button-themes](/img/docs/button-themes.png)
 
-Adding Your Own Mobile Themes
+## Adding Your Own Mobile Themes
 
 You will shortly be able to add your own extensions to Mobile Themes. If you are in a hurry, please contact support.
 
-The Role of Desktop Themes
+## The Role of Desktop Themes
 
 Desktop Themes and Styles still have a role to play for mobile widgets in that things like Margin, Width, Height, Percent Width etc. all need to be controlled.

@@ -13,7 +13,7 @@ With the OnChange event, you can apply this color to multiple widgets using [set
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -124,7 +124,7 @@ Use this to select other widget to apply border color to from selection made in 
 <table>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ None/Case Sensitive/Case Insensitive. For use with [Relational Apps](../../produ
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -281,7 +281,7 @@ If set to True, this displays the Widget on either all pages except ones you spe
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -349,7 +349,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="15">
@@ -377,7 +377,7 @@ Fields
 <td width="15">
 </td>
 <td width="779">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -489,7 +489,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -589,7 +589,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -610,7 +610,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="142">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="17">
@@ -661,8 +661,7 @@ On Data Reset
 </td>
 </tr>
 </table>
-
-See Also:
+## See Also:
 
  - [General Events](../events/event-reference-list/general-events)
 

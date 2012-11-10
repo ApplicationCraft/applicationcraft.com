@@ -8,7 +8,7 @@ full_width: true
 
 AC Build Plugins should be considered to be in a Beta state until mention of it is removed from the documentation.
 
-Non AC Developed HTML5+CSS+JS Apps
+## Non AC Developed HTML5+CSS+JS Apps
 
 If you have developed your App outside the Application Craft platform then you will need to
 
@@ -16,22 +16,22 @@ If you have developed your App outside the Application Craft platform then you w
 
  - make sure your index.html includes a reference to the relevant .js file -  the individual plugin sections within this chapter tell you what to add
 
-AC Apps
+## AC Apps
 
 AC Apps provide dialogs that let you choose which plugins you wish to include.
 
-The AC Build Plugins [App Property](../../../../widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](../index) .
+The AC Build Plugins [App Property](../../../../widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](../) .
 
-The Child Browser plugin can also be used if building using [Phonegap:Build](../../phonegapbuild/index) .
+The Child Browser plugin can also be used if building using [Phonegap:Build](../../phonegapbuild/) .
 
 ![acPllugins](/img/docs/acpllugins.zoom83.png)
 
-## Available plugins
+**Available plugins**
 
 <table>
 <tr>
 <td width="211">
- - [Child Browser](child-browser/index)
+ - [Child Browser](child-browser/)
 
 </td>
 <td width="27">
@@ -41,7 +41,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [SQLite Plugin](sqlite-plugin/index)
+ - [SQLite Plugin](sqlite-plugin/)
 
 </td>
 <td width="27">
@@ -81,7 +81,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [Xtify Push Notifications](xtify-push-notifications/index)
+ - [Xtify Push Notifications](xtify-push-notifications/)
 
 </td>
 <td width="27">

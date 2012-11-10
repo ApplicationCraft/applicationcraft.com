@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## string userParameterGet (userParamGroup, paramName)
+string **userParameterGet** (userParamGroup, paramName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,14 +36,13 @@ the parameter name
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Gets the value of a User Parameter for the currently logged on user. You need to specify the Parameter Group and a valid Parameter Item within that Group. If the App Instance does not have a logged in user, then the call will have no effect.
 
 ## See A l so
 
- - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/index)
+ - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 
- - [userParameterSet()](userparameterset)
+ - [userParameterSet()](userparameterset.htm)
 

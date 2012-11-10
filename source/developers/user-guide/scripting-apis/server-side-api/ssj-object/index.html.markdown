@@ -10,17 +10,17 @@ The ssj object is the server side equivalent of the app object and contains util
 
 You will find some functions with direct equivalents on the server such as getViewData() and httpRequest(). In many of these functions you will find a callback function as a parameter. When running on the server, there are no callbacks and so that parameter should be completely omitted (not left blank) and you will get the result as the return value of the function itself.
 
-## In This Section:
+**In This Section:**
 
- - [Web Service Calls](web-service-calls/index)
+ - [Web Service Calls](web-service-calls/)
 
- - [Security](security/index)
+ - [Security](security/)
 
- - [Database](database/index)
+ - [Database](database/)
 
- - [Credit Card Payments](credit-card-payments/index)
+ - [Credit Card Payments](credit-card-payments/)
 
  - [Data Preparation](data-preparation)
 
- - [Miscellaneous](miscellaneous/index)
+ - [Miscellaneous](miscellaneous/)
 

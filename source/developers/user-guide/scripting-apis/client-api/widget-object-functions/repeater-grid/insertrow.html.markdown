@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## index insertRow (position, optional data)
+index **insertRow** (position, optional data)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -72,38 +72,39 @@ For Repeater Containers, you should pass in an object array of the following obj
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This is a function of the widget object that inserts a row into a Grid or Repeater Container. It returns a row index for the newly created row.
 
 If you specify a Repeater Container, then you can use getRow(index) to get the row object for that newly created row, which in turn gives you access to the row's widgets using the .w() function of that row object.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
-Example
+## Example
 
 The following examples inserts a new row at the top of a Repeater Container and then populates the named Widgets within that new row.
 
-    app.w('repeater').insertRow('top', {'lblItem':'Hammer', 'lblPrice':9.55});
-    app.w('grid').insertRow('top', ['Hammer', 9.55]);
+    app.w('repeater').insertRow('top',@{'lblItem':'Hammer',@'lblPrice':9.55});
+     
+     
+    app.w('grid').insertRow('top',@['Hammer',@9.55]);
    
 
 and this one does the same to a Grid
 
-See Also:
+## See Also:
 
- - [deleteRow()](deleterow)
+ - [deleteRow()](deleterow.htm)
 
- - [deleteRowById()](deleterowbyid)
+ - [deleteRowById()](deleterowbyid.htm)
 
- - [deleteSelectedRows()](deleteselectedrows)
+ - [deleteSelectedRows()](deleteselectedrows.htm)
 
- - [insertRow()](insertrow)
+ - [insertRow()](insertrow.htm)
 
- - [rowIndex()](rowindex)
+ - [rowIndex()](rowindex.htm)
 
- - [getRow()](getrow)
+ - [getRow()](getrow.htm)
 
  - [Widget Object](../../objects-titbits/widget-object)
 

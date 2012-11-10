@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-Please refer to the section [Direct Web Service Calls](calling-web-services) , which contains extensive examples on how your Apps can consume 3rd party SOAP and RESTful APIs.
+Please refer to the section [Direct Web Service Calls](calling-web-services.htm) , which contains extensive examples on how your Apps can consume 3rd party SOAP and RESTful APIs.
 
-See Also:
+## See Also:
 
  - [soapRequest()](../../../client-api/soap-restful-ajax-calls/soaprequest)
 

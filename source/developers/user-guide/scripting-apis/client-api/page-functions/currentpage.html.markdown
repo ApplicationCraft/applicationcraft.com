@@ -6,14 +6,14 @@ full_width: true
 ---
 
 
-## currentPage()
+**currentPage()**
 
-Description
+## Description
 
 This returns the object of the currently displayed page.
 
-Example
+## Example
 
-    var pageName = app.currentPage().name();
+    var@pageName@=@app.currentPage().name();
    
 

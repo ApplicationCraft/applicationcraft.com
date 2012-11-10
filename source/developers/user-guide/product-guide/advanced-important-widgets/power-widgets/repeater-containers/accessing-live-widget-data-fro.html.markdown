@@ -26,11 +26,12 @@ When the user enters a quantity value and tabs away from it, we want to calculat
 
 In code, this looks like this
 
-    function handler_numQuantity_onBlur(){
-    rowObj=_widget.parent();  // _widget is the current object (numQuantity in this case)
-    app.setValue(rowObj.w('numTotal'), rowObj.w('numCost').value() * _widget.value());
-    calcGrandTotal();
+    function@handler_numQuantity_onBlur(){
+        rowObj=_widget.parent();  // _widget is the current object (numQuantity in this case)
+        app.setValue(rowObj.w('numTotal'), rowObj.w('numCost').value() * _widget.value());
+        calcGrandTotal();
     }
+     
     _widget
    
 

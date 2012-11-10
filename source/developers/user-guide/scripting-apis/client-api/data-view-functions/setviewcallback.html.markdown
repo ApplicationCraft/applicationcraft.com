@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## bindViewData (viewName, identifier, postCallback(), optional preCallback()) [coming soon]
+**bindViewData** (viewName, identifier, postCallback(), optional preCallback()) **[coming soon]**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -60,8 +60,7 @@ Optional, the callback function that should be called just before AC requests ne
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function allows you to define callback functions that should be called whenever
 
@@ -69,19 +68,19 @@ This function allows you to define callback functions that should be called when
 
  - data has been fetched (postCallback - this is the one you will use most often)
 
-Callback Functions
+## Callback Functions
 
-## The callback functions have the format callback (error, data, identifier), where  error is a boolean value and data is an array containing the returned data and identifier is the string specified in the bindViewData() function call.
+The callback functions have the format **callback** (error, data, identifier), where  error is a boolean value and data is an array containing the returned data and identifier is the string specified in the bindViewData() function call.
 
 The identifier is the identifier string that was included in the bindViewData() function call. It allows you to uniquely identify a binding should multiple viewBindData calls all share the same callback function.
 
-See Also:
+## See Also:
 
- - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/index) (good introduction to Views)
+ - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
 
- - [getViewData()](getviewdata)
+ - [getViewData()](getviewdata.htm)
 
- - [drillDownBroadcast()](drilldownbroadcast)
+ - [drillDownBroadcast()](drilldownbroadcast.htm)
 
- - [bindViewData()](setviewcallback)
+ - [bindViewData()](setviewcallback.htm)
 

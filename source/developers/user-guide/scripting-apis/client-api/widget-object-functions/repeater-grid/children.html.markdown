@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## res search (searchString, optional where, optional start, optional caseSensitive)
+res **search** (searchString, optional where, optional start, optional caseSensitive)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -72,17 +72,17 @@ Indicates whether there should be an exact match of the string. Defaults to fals
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function looks for a text string within a Grid or Repeater container and returns the result as an array of the objects found. You can specify which column or Repeater Container Widget to search in and arrays can also be passed in if you want to search in more than one location.Omitting the 'where' parameter will results in all Widgets / columns being searched.
 
 In some cases you may want to search within a widget or column starting at a specific offsets within it. The 'start' parameter allows you to specify this. Case sensitivity and exact matches can also be specified.
 
-## Example
+**Example**
 
-    function handler_actionBtn_onClick(mouseev){
-    var res = app.w("grdtable").search("text");
+    function@handler_actionBtn_onClick(mouseev){
+    var@res@=@app.w("grdtable").search("text");
     }
+     
    
 

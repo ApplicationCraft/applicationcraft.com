@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## mobileSMS (number)
+**mobileSMS** (number)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,23 +24,23 @@ enter the Telephone number to send SMS to (optional)
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This will invoke the devices SMS program, and if optional number entered that will be pre populated.
 
 Label widgets, Image widget and Mobile Action button have a 'Link' property where you can also invoke the devices SMS program,
 
-Example
+## Example
 
     app.mobileSMS("07784355515");
+     
    
 
-See Also:
+## See Also:
 
- - [mobileDial()](mobiledial)
+ - [mobileDial()](mobiledial.htm)
 
- - [mobileEmail()](mobileemail)
+ - [mobileEmail()](mobileemail.htm)
 
  - [Label (Common)](../../../widget-properties-events/common/label)
 

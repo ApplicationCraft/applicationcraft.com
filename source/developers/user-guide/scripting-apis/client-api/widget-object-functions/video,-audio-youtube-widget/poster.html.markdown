@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## poster (url)
+**poster** (url)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,13 +24,14 @@ Define the URL of the image to show when the video has not yet started.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to define the URL of the image to show when the video has not yet started
 
-Example
+## Example
 
     app.w("Video").poster("http://cdn4.louis.de/shop/img80/508021_410_12.JPG");
+     
+     
    
 

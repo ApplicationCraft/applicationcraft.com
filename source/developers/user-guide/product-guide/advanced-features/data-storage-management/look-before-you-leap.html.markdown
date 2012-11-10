@@ -8,9 +8,9 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
 Although Application Craft avoids many of the formalities of application design, you should still think ahead and plan as much of your complete application before you start. In fact, Application Craft is a great way of doing this, starting of with UI design which can then be refined until you are ready to make it work for real.
 
@@ -18,9 +18,9 @@ The first thing to think about is how your overall application can be broken dow
 
 Application Craft lets you join all of these Apps together or even to embed one into another.
 
-You can also use the so-called [CRUD functions](crud---create-read-update-dele) [instanceCreate()](../../../scripting-apis/client-api/instance-data-functions/instancecreate) , [instanceUpdate()](../../../scripting-apis/client-api/instance-data-functions/instancesave) and [instanceDelete()](../../../scripting-apis/client-api/instance-data-functions/instancedelete) to manage data in a different App to the one you are working on.
+You can also use the so-called [CRUD functions](crud--create-read-update-dele.htm) [instanceCreate()](../../../scripting-apis/client-api/instance-data-functions/instancecreate) , [instanceUpdate()](../../../scripting-apis/client-api/instance-data-functions/instancesave) and [instanceDelete()](../../../scripting-apis/client-api/instance-data-functions/instancedelete) to manage data in a different App to the one you are working on.
 
-## See Also:
+**See Also:**
 
  - [CRUD Permissions](crud-in-detail/using-ac-app-storage/crud-permissions)
 

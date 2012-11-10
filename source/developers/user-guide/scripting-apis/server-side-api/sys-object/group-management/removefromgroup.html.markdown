@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## removeFromGroup (groupId, userId, optional checkOwnerRights)
+**removeFromGroup** (groupId, userId, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,14 +48,14 @@ the ID of the user to remove from the Group
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Removes a User from a Group. If there is an error due to permissions, then an exception is thrown.
 
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

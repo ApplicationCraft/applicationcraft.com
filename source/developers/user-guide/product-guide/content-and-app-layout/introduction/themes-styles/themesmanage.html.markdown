@@ -10,9 +10,9 @@ Themes allow you to set the properties for all Widgets in an App using a pre-det
 
 ![CreateAppThemeSelection](/img/docs/createappthemeselection.zoom84.png)
 
-Themes Repository
+## Themes Repository
 
-Themes are stored in the standard [Private/Shared/Public folder structure](../../../the-console/private--shared-and-public-fol) . They can be viewed by clicking on the Themes tab in the console.
+Themes are stored in the standard [Private/Shared/Public folder structure](../../../the-console/private-shared-and-public-fol) . They can be viewed by clicking on the Themes tab in the console.
 
 In the Themes Console, you can perform the following actions:
 
@@ -43,7 +43,7 @@ Set permissions for Use and Administration of the Theme.  See [Sharing](../../.
 </tr>
 <tr>
 <td width="147">
-## Action Buttons
+**Action Buttons**
 
 </td>
 <td width="21">
@@ -101,7 +101,7 @@ Export your Theme
 </tr>
 </table>
 
-Editing Themes
+## Editing Themes
 
 Themes are edited using the App designer.
 
@@ -109,19 +109,19 @@ To view the pre-set Styles for any Widget, select that Widget in the Designer an
 
 ![Styles\_tab](/img/docs/styles_tab.zoom56.png)
 
-Making a change to the property settings for any Style will change all Widgets using that Style – see [Style Management](style-management) for more detail on Editing Styles within Themes.
+Making a change to the property settings for any Style will change all Widgets using that Style – see [Style Management](style-management.htm) for more detail on Editing Styles within Themes.
 
 You can only make changes to Styles (and hence the Theme) if you have been given Edit rights in the Sharing section for that Theme. See [Sharing](../../../the-console/sharing) for more information.
 
 Any changes you make to a Theme will be applied to all Apps that use the Theme. It is therefore important that if you want to make changes to an existing Theme without affecting other Apps, you should first make a clone of the Theme, which can then be edited.
 
-Theme Contents
+## Theme Contents
 
 The Theme contains property settings for all Widgets. The settings that are saved are largely the visual ones contained in the Style section, but also other properties depending on the Widget type.
 
 For any Widget, there will be a default Style. Within a Theme, in addition to the default, you can create any number of other Styles for the Widget.
 
-Selecting Theme
+## Selecting Theme
 
 The Theme associated with an App can be changed in the Style section of the Properties bar for the App (click on the App background to see the Properties bar for the App).
 
@@ -129,9 +129,9 @@ The Theme associated with an App can be changed in the Style section of the Prop
 
 If you change the Theme, you will be asked whether you want to import Widget Styles from the existing Theme to the new Theme if they do not already exist there.  This will create a copy of all Widget Styles used in the current Theme in the new Theme.
 
-## Note : If the new Theme contains Styles with the same name as the Theme you are changing from, but these Styles have different settings, the Widgets will adopt the settings of the Styles in the new Theme.
+**Note** : If the new Theme contains Styles with the same name as the Theme you are changing from, but these Styles have different settings, the Widgets will adopt the settings of the Styles in the new Theme.
 
-## See Also:
+**See Also:**
 
- - [Import/Export](../../../the-console/import/export/index)
+ - [Import/Export](../../../the-console/import/export/)
 

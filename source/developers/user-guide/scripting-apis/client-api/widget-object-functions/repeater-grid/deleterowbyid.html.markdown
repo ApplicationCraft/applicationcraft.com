@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## deleteRowById (Id)
+**deleteRowById** (Id)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,20 +24,19 @@ the string Id of the Grid row to be deleted
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This is a function of the widget object, so it is used as objWidget.deleteRow() rather than app.deleteRow(). It removes the row with the specified Id from a Grid Widget. This will only be needed in rare circumstances and you are more likely to use deleteRow().
 
-Populating Grids with Id values is [described here](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers) .
+Populating Grids with Id values is [described here](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers) .
 
-See Also:
+## See Also:
 
- - [deleteRow()](deleterow)
+ - [deleteRow()](deleterow.htm)
 
- - [deleteSelectedRows()](deleteselectedrows)
+ - [deleteSelectedRows()](deleteselectedrows.htm)
 
- - [insertRow()](insertrow)
+ - [insertRow()](insertrow.htm)
 
  - [Widget Object](../../objects-titbits/widget-object)
 

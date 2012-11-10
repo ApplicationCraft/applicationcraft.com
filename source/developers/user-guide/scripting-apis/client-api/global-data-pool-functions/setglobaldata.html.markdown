@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## ret = setGlobalData (varName, data)
+ret = **setGlobalData** (varName, data)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,20 +36,19 @@ The data to save to varName
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This stores any data to the Global Data Pool. The data can then be recalled at any point and from any App within the current browser session. Any Apps spawned or switched to will have access to it.
 
 Read up on [getAppSnapshot()](../app-functions/getappsnapshot) and [setAppSnapshot()](../app-functions/setappsnapshot) for useful example of storing an entire App snapshot to the Global Data Pool.
 
-See Also:
+## See Also:
 
  - [switchApp()](../app-functions/switchapp)
 
- - [getGlobalData()](getglobaldata)
+ - [getGlobalData()](getglobaldata.htm)
 
- - [clearGlobalData()](clearglobaldata)
+ - [clearGlobalData()](clearglobaldata.htm)
 
  - [getAppSnaphot()](../app-functions/getappsnapshot)
 

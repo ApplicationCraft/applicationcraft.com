@@ -8,12 +8,12 @@ full_width: true
 
 These events are only available for Apps running in Native mode. If you are running an App in a regular browser on your mobile device then these events will not be available.
 
-For more information on building Native Apps, see the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap/cordova/index) chapter.
+For more information on building Native Apps, see the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap/cordova/) chapter.
 
 <table>
 <tr>
 <td width="199">
-## Mobile Native App Events
+**Mobile Native App Events**
 
 </td>
 <td width="8">

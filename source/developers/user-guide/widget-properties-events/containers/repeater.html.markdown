@@ -13,7 +13,7 @@ You can do a lot with Repeaters using AC Javascript. Our [Videos](http://www.app
 <table>
 <tr>
 <th style="vertical-align:top; width:172px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:21px; background-color:#ffffff;">
@@ -94,7 +94,7 @@ Controls which page is the first displayed
 <table>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Where you can set the relationships to other apps (see [Relational Apps & Instan
 </tr>
 <tr>
 <td width="172">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="21">
@@ -333,7 +333,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="174">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="20">
@@ -413,7 +413,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="174">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="18">
@@ -443,7 +443,7 @@ Fields
 <td width="18">
 </td>
 <td width="750">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -531,7 +531,7 @@ Set to map View fields. For use in writing data back out to connected database t
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
@@ -751,7 +751,7 @@ Custom CSS Classes
 <td width="16">
 </td>
 <td width="750">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -774,7 +774,7 @@ Repeater:
 <table>
 <tr>
 <td width="149">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="18">
@@ -823,7 +823,7 @@ Repeater Container:
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="17">
@@ -947,7 +947,7 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 
@@ -955,5 +955,5 @@ See Also:
 
  - [Data Events](../events/event-reference-list/data-events)
 
- - [Repeater & Grid Object functions](../../scripting-apis/client-api/widget-object-functions/repeater-grid/index)
+ - [Repeater & Grid Object functions](../../scripting-apis/client-api/widget-object-functions/repeater-grid/)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {string} getProperty (widget, propertyName)
+{string} **getProperty** (widget, propertyName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,8 +36,7 @@ name of the property whose value you want to retrieve
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Use this property to get a property value from the specified Widget. The property name can be derived from the property name in the Property Bar of the Designer for the selected Widget. To determine the property name, hover over the property name and the actual property name will be shown. In most cases this may be similar to the main property name. The property name is not case sensitive.
 
@@ -49,16 +48,16 @@ The page 'BG Image' property should be specified as 'backgroundimage' or 'backgr
 
 You can also check the available properties for a specific widget using [debugProperties()](../app-functions/debugproperties)
 
-Example
+## Example
 
-    app.getProperty('myTextBox', 'color');
-    obj = app.w('myTextBox');
-    app.getProperty(obj, 'color'); // this is the functional equivalent, but shows how a Widget object can be passed
+    app.getProperty('myTextBox',@'color');
+    obj@=@app.w('myTextBox');
+    app.getProperty(obj,@'color');@//@this@is@the@functional@equivalent,@but@shows@how@a@Widget@object@can@be@passed
    
 
-See Also:
+## See Also:
 
- - [setProperty()](setproperty)
+ - [setProperty()](setproperty.htm)
 
  - [\_widget](../objects-titbits/ref-widget)
 

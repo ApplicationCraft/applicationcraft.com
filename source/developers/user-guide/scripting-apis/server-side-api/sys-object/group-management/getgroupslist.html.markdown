@@ -6,19 +6,20 @@ full_width: true
 ---
 
 
-## {objArray} getGroupsList ()
+{objArray} **getGroupsList** ()
 
-Description
+## Description
 
 This returns an object array of the below structure.
 
     {
-    id_group: group ID,
-    name: group_name
+        id_group: group ID, 
+        name: group_name
     }
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

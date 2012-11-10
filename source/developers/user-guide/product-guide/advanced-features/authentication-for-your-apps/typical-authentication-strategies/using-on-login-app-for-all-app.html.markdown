@@ -16,7 +16,7 @@ You choose your authentication App from the dialog. Now, whenever someone tries 
 
 Once signed it, the Authentication App knows to redirect back to the App that referred the User.
 
-See Also:
+## See Also:
 
  - [Sign In](../sign-in)
 

@@ -6,12 +6,13 @@ full_width: true
 ---
 
 
-insert (
+**insert** (
 
     table, values, success, error)
+     
    
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -67,17 +68,16 @@ error callback function.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function inserts a row into the database.
 
-## Example
+**Example**
 
-    db.insert("test", { id_user : 100, name : "Username" }, function(id){
-    console.log("id="+id);
-    }, function(er){
-    console.log("error="+er);
+    db.insert("test",@{@id_user@:@100,@name@:@"Username"@},@function(id){@
+        console.log("id="+id); 
+    },@function(er){
+        console.log("error="+er);
     });
    
 

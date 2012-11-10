@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {objArray} getUsersList (optional [ids])
+{objArray} **getUsersList** (optional [ids])
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,21 +24,20 @@ An optional array of User IDs
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This returns an object array of the below structure. If no parameter is supplied then all Users are returned.
 
     {
-    id: userId,
-    login: login,
-    removed: null | remove date,
-    type: system or external,
-    username: frendly user name
+        id: userId, 
+        login: login, 
+        removed: null | remove date, 
+        type: system or external, 
+        username: frendly user name
     }
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

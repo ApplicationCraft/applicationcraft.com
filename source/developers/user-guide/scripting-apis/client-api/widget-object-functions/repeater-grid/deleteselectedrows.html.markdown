@@ -6,28 +6,28 @@ full_width: true
 ---
 
 
-## deleteSelectedRows ()
+**deleteSelectedRows** ()
 
-Parameters
+## Parameters
 
 None
 
-Description
+## Description
 
 This is a function of the widget object. It removes all of the selected rows from a Grid Widget.
 
-Example
+## Example
 
     app.w('gridWidget').deleteSelectedRows();
    
 
-See Also:
+## See Also:
 
- - [deleteRow()](deleterow)
+ - [deleteRow()](deleterow.htm)
 
- - [deleteRowById()](deleterowbyid)
+ - [deleteRowById()](deleterowbyid.htm)
 
- - [insertRow()](insertrow)
+ - [insertRow()](insertrow.htm)
 
  - [Widget Object](../../objects-titbits/widget-object)
 

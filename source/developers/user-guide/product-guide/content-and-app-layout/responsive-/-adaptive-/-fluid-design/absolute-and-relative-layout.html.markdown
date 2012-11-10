@@ -10,7 +10,7 @@ The next key thing to understand is how widgets are displayed once you drop them
 
 This property applies to any Container, including the Page itself. As you can have multiple Containers on a page (nested or not) you can easily mix different Layout modes.
 
-Absolute Mode
+## Absolute Mode
 
 If you drop a widget into a container whose Layout property is set to Absolute, then you can position that widget to the nearest pixel within its Container. Just drag it around with the mouse or use the arrow keys to nudge it one pixel at a time. You can also, once you have clicked and held the mouse button, press the shift key to drag to the nearest. This overrides the snap-to-grid feature if enabled.
 
@@ -22,7 +22,7 @@ The screenshot below shows widgets inside the white box that are all in a fixed 
 
 This is great where you are trying to achieve precise layout control but if you want to have widgets resizing themselves depending upon the device size or orientation then you will need to understand Vertical and Horizontal Layout modes also.
 
-Vertical and Horizontal : Relative Layout Modes
+## Vertical and Horizontal : Relative Layout Modes
 
 If the page or container is set to Vertical mode (we will discuss horizontal in a moment) then any widget that is dropped into that container will automatically be snapped to the left edge of the container and will be immediately above or below the other widgets (if there are any).
 
@@ -32,7 +32,7 @@ You can move the widget's position relative to the other either by dragging with
 
 Some widgets (label, text etc.) will have content that forces the widget's height to change depending on the width of the device screen. A very narrow display will require more height in order to show all of its content. With Vertical layout mode, as each widget is rendered by Application Craft, it forces the widgets below it down the page. If you used the same widgets in absolute mode, your content would be truncated.
 
-Horizontal Mode Containers
+## Horizontal Mode Containers
 
 Horizontal mode works in a similar way except that Widgets in that containers will line up next to each other rather then beneath one another. If there is not enough horizontal space to accommodate all the Containers, then they will wrap underneath.
 

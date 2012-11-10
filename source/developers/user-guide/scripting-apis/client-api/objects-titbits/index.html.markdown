@@ -8,7 +8,7 @@ full_width: true
 
 This section contains details about various things that are not actual functions but are important for you to understand when writing scripts and using the API functions.
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>
@@ -120,4 +120,3 @@ How to do visual effects such as fade ins and outs, Widget slides, animations et
 </td>
 </tr>
 </table>
-

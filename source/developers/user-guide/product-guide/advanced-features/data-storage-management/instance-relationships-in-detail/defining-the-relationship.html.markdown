@@ -8,9 +8,9 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
 To define the relationship, you should open your App and then select the App properties. In the property toolbar, find the Database section and there you will find the 'Application Relationships' property.
 
@@ -26,7 +26,7 @@ Press the Add button to create a new Relationship. In the right hand panel, you 
 
  - whether you wish to enforce Cascade Deletion (to delete all associated 'child' records if the 'parent' is deleted)
 
-## See Also:
+**See Also:**
 
  - [CRUD Permissions](../crud-in-detail/using-ac-app-storage/crud-permissions)
 

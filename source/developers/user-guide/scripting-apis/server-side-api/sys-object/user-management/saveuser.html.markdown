@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## saveUser (userObject, optional checkOwnerRights)
+**saveUser** (userObject, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -31,25 +31,25 @@ The ID of the User to update
 <td width="15">
 </td>
 <td width="682">
-[click here](checkowneruserrights-parameter) to see the checkOwnerRights description
+[click here](checkowneruserrights-parameter.htm) to see the checkOwnerRights description
 
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Updates the user with the details of the user passed in the userObject parameter (shown below). If there is an error due to permissions, then an exception is thrown.
 
     {
-    username: friendly name,
-    login: login,
-    password: pasword,
-    type: 'system or external'
+        username: friendly name, 
+        login: login, 
+        password: pasword, 
+        type: 'system or external'
     }
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## mapStyles (array)
+**mapStyles** (array)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,8 +24,7 @@ An array where your style is stored.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 You can control the visual style of a Map using the this function. This allows you to pass in a structure that defines the main style elements used by the map.
 
@@ -35,32 +34,33 @@ You can read about map styles [here](http://code.google.com/apis/maps/documentat
 
 Google offers a very nice [style wizard](http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html) that lets you build a map style and then retrieve the equivalent JSON. This JSON can then be pasted into your code. The example below shows the JSON being assigned to the variable 'pinkParkStyles'.
 
-Example
+## Example
 
-    function handler_actionBtn4_onClick(mouseev){
-    var pinkParksStyles = [
-    {
-    featureType: "all",
-    stylers: [
-    { saturation: -80 }
-    ]
-    },
-    {
-    featureType: "poi.park",
-    stylers: [
-    { hue: "#ff0023" },
-    { saturation: 40 }
-    ]
-    }
-    ];
-    app.w('googleMapsAdvanced').
+    function@handler_actionBtn4_onClick(mouseev){
+        var pinkParksStyles = [
+          {
+            featureType: "all",
+            stylers: [
+              { saturation: -80 }
+            ]
+          },
+          {
+            featureType: "poi.park",
+            stylers: [
+              { hue: "#ff0023" },
+              { saturation: 40 }
+            ]
+          }
+        ];
+        app.w('googleMapsAdvanced').
     (pinkParksStyles);
     }
+     
    
 
-## mapStyles
+**mapStyles**
 
-## See Also:
+**See Also:**
 
  - [Map Styles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles)
 

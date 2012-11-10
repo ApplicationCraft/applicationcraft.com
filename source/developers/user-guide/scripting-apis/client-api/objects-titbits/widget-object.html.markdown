@@ -13,7 +13,7 @@ The following table shows various ways of accessing the Widget Object.
 <table>
 <tr>
 <td width="219">
-## [\_widget](ref-widget)
+**[\_widget](ref-widget.htm)**
 
 </td>
 <td width="19">
@@ -25,7 +25,7 @@ The \_widget variable is available within every Application Craft Event and is t
 </tr>
 <tr>
 <td width="219">
-## app.w('widgetName')
+**app.w('widgetName')**
 
 </td>
 <td width="19">
@@ -37,7 +37,7 @@ Finds any Widget in the entire App with the specified name.
 </tr>
 <tr>
 <td width="219">
-## pageObj.w('widgetName')
+**pageObj.w('widgetName')**
 
 </td>
 <td width="19">
@@ -49,7 +49,7 @@ Assuming that pageObj is a Page Widget, this locates the specified Widget and re
 </tr>
 <tr>
 <td width="219">
-## containerObj.w('widgetName')
+**containerObj.w('widgetName')**
 
 </td>
 <td width="19">
@@ -60,6 +60,5 @@ If containerObj is an AC Container Widget, it returns a Widget object within tha
 </td>
 </tr>
 </table>
-
-There are several methods and properties available within the Widget object. Please refer to the [Widget Object Functions](../widget-object-functions/index) chapter for a complete list of functions.
+There are several methods and properties available within the Widget object. Please refer to the [Widget Object Functions](../widget-object-functions/) chapter for a complete list of functions.
 

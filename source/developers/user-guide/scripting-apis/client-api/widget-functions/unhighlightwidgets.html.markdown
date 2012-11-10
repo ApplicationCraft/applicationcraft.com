@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## unhighlightWidgets (optional widget)
+**unhighlightWidgets** (optional widget)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -25,22 +25,23 @@ Widget identifier - string, string array, object or object array
 </tr>
 </table>
 
-Description
+## Description
 
-This enables you to remove the highlighting from any fields in your App, normally used in conjunction with [highlightWidgets()](highlightwidgets) . If you do not pass in any array, then all highlighted Widgets will be unhighlighted.
+This enables you to remove the highlighting from any fields in your App, normally used in conjunction with [highlightWidgets()](highlightwidgets.htm) . If you do not pass in any array, then all highlighted Widgets will be unhighlighted.
 
-Example
+## Example
 
-    app.unhighlightWidgets(["timeColor", "shapeColor"]);   // remove highlighting from widgets in array
-    app.unhighlightWidgets(["timeColor"]);                 // remove highlighting from a single widget
-    app.unhighlightWidgets();                            // remove all highlighting from all widgets
+    app.unhighlightWidgets(["timeColor",@"shapeColor"]);@@@//@remove@highlighting@from@widgets@in@array
+    app.unhighlightWidgets(["timeColor"]);@@@@@@@@@@@@@@@@@//@remove@highlighting@from@a@single@widget
+    app.unhighlightWidgets();@@@@@@@@@@@@@@@@@@@@@@@@@@@@//@remove@all@highlighting@from@all@widgets
+     
    
 
-See Also:
+## See Also:
 
- - [checkMandatory()](checkmandatory)
+ - [checkMandatory()](checkmandatory.htm)
 
- - [highlightWidgets()](highlightwidgets)
+ - [highlightWidgets()](highlightwidgets.htm)
 
 Related Videos:
 

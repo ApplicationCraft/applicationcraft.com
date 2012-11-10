@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## strTranslatedString translate (strToken, strLang);
+strTranslatedString **translate** (strToken, strLang);
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,24 +36,24 @@ The language code to translate to
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 The translated string.
 
-Description
+## Description
 
 Performs string translations within your App. This is typically used if your application needs to perform multi-language message handling.
 
-Example
+## Example
 
-    strLangCode = 'de';
-    strUserMessage = app.translate('ac-my-token-name', strLangCode);
+      strLangCode = 'de';  
+      strUserMessage = app.translate('ac-my-token-name', strLangCode);   
+     
    
 
-See Also:
+## See Also:
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index)
+ - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 
- - [language()](language)
+ - [language()](language.htm)
 

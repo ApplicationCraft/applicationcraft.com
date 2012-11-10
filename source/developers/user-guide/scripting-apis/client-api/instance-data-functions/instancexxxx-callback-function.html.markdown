@@ -8,21 +8,21 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
 This topic relates to the following functions
 
- - [instanceCreate()](instancecreate)
+ - [instanceCreate()](instancecreate.htm)
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](instancesave.htm)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](instancedelete.htm)
 
- - [instanceSync()](instancesync)
+ - [instanceSync()](instancesync.htm)
 
- - [instanceSetRelationship()](instancesetrelationship)
+ - [instanceSetRelationship()](instancesetrelationship.htm)
 
 Each of these functions supports two distinct callback functions
 
@@ -32,7 +32,7 @@ Each of these functions supports two distinct callback functions
 
 The CDB (Core Database) is the database that holds the JSON representation of the Instance data (values and altered properties). Instance data is stored to and loaded from the CDB very quickly. As a result, the cdbCallback function will always be called first.
 
-The problem with the CDB is that while it is fast, JSON is a bad format for reporting against. As a result, we also provide the RDB (Results Database) that can report on data very efficiently. Using the App 'Store in Database' property you can control whether your App saves data a) at all b) just in the CDB or c) in both the CDB and the RDB. This is described in more detail in the [Data Storage and Management](../../../product-guide/advanced-features/data-storage-management/index) chapter .
+The problem with the CDB is that while it is fast, JSON is a bad format for reporting against. As a result, we also provide the RDB (Results Database) that can report on data very efficiently. Using the App 'Store in Database' property you can control whether your App saves data a) at all b) just in the CDB or c) in both the CDB and the RDB. This is described in more detail in the [Data Storage and Management](../../../product-guide/advanced-features/data-storage-management/) chapter .
 
 In most cases, you will use either cdbCallback or rdbCallback and not both.
 

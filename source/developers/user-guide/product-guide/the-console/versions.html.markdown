@@ -13,7 +13,7 @@ Application Craft allows you to manage versions of your apps.
 <table>
 <tr>
 <td width="71">
-## Open
+**Open**
 
 </td>
 <td width="19">
@@ -25,7 +25,7 @@ will open that version of your app in the Designer
 </tr>
 <tr>
 <td width="71">
-## Revert
+**Revert**
 
 </td>
 <td width="19">

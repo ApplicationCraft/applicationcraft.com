@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## WARNING : we are planning some changes to this part of the system. For the time being, we recommend that you do not user language constants and instead hard-code your property texts. We will remove this warning once this has been carried out.
+**WARNING** : we are planning some changes to this part of the system. For the time being, we recommend that you do not user language constants and instead hard-code your property texts. We will remove this warning once this has been carried out.
 
 Language constants are used for multi-language support within the designer. All strings (properties and events) have strings that appear in the IDE. Property Name and Event Name are prime examples.
 
@@ -20,10 +20,12 @@ where XX denotes the language. At the time of writing, only en' (english) is sup
 
 In most cases you will want to define your own language constants. This is done within the widget code itself on the whole
 
-    /* Lang constants */
-    lng =  { "en" : {
-    widget_name_simpleLabel: "Simple Label"
-    } },
-    emptyProps = {};
+        /* Lang constants */
+        lng =  { "en" : {  
+            widget_name_simpleLabel: "Simple Label"
+         } },
+         emptyProps = {};
+     
+     
    
 

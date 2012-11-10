@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result isNativeApp ()
+result **isNativeApp** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,16 +24,15 @@ True if the App is running in Native Mode, false if running as a Web App
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Indicates whether the App is running in Native or Web App mode.
 
-See Also:
+## See Also:
 
  - [Network Availability Handling](../../client-scripting-overview/network-availability-handling)
 
  - [httpRequest()](../soap-restful-ajax-calls/httprequest)
 
- - [Error Handling](../../client-scripting-overview/error-handling/index)
+ - [Error Handling](../../client-scripting-overview/error-handling/)
 

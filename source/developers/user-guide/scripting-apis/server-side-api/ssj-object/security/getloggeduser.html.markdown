@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## {object} getLoggedUser()
+{object} **getLoggedUser()**
 
-Returns
+## Returns
 
 Returns information about the currently logged in user accessing the App.
 
-    obj = ssj.getLoggedUser();
+    obj@=@ssj.getLoggedUser();
    
 
 where obj has the following keys

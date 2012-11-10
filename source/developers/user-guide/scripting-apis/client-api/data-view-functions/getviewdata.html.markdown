@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## getViewData (viewName, fieldsExpressionArray, callback(), optional filter, optional groupBy, optional orderBy, optional offset, optional count)
+**getViewData** (viewName, fieldsExpressionArray, callback(), optional filter, optional groupBy, optional orderBy, optional offset, optional count)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -108,19 +108,18 @@ How many rows to get from the data source.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function gets data from a View and reads it into an array. Data is passed back to a callback function as an array.
 
-Expressions
+## Expressions
 
 Where you are specifying View fields or Widget fields, you need to do this as an Application Craft 'Expression'. If you don't use Javascript, then you would set the Expression using the [Expression Editor](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor) . The expressions you enter there are the same format as you would supply in the getViewData() method.
 
 Expressions can include View (database) fields, App Widgets or  literal values. An expression string might look like this for simply getting a few fields
 
-    var fields = ['{orders.orderDate}', 'Count({orders.orderNumber})', '{customers.customerName}'];
-    var fields = ['Sum({orders.orderValue})'] // Calculate the total order value within the database query
+    var@fields@=@['{orders.orderDate}',@'Count({orders.orderNumber})',@'{customers.customerName}'];
+    var@fields@=@['Sum({orders.orderValue})']@//@Calculate@the@total@order@value@within@the@database@query
     var fields = ['[Form.Widgets.numQuantity] * {products.price}']; // the product price multiplied by the App Widget 'numQuantity'
    
 
@@ -132,61 +131,56 @@ Or you can build compound expressions like
 
 All field data is translated into a database query, so functions are executed as a part of the query.
 
-Aggregate Expressions
+## Aggregate Expressions
 
 You are free to include aggregate functions in your expressions like Count({table.field}) \* [Forms.Widget.taxAmount].
 
-Callback Function
+## Callback Function
 
 This gets two parameters - error (boolean) and data (array). The first element of the data array will contain the field names, not actual data. For each element, there will be as many dimensions as there were elements in the fieldsExpressionArray in the main getViewData() function call.
 
-Filter  (where clause)
+## Filter  (where clause)
 
 A Filter Expression can be supplied as an array of string Expressions (and not an array of objects containing string expressions).
 
-    var filter = ['{customers.CustomerName}="Atelier graphique"'];
+    var@filter@=@['{customers.CustomerName}="Atelier@graphique"'];
+    var@groupBy@=@["{customers.CustomerName}"];
+    var@orderBy@=@[{value:'{customers.CustomerName}',@asc:true}];
+     app.getViewData('Classic', ['{customers.country}','{customers.countryCode}'], function(error, data) {
+            if (!error) {
+                var listBoxData = [];
+                for (var i = 1; i < data.length; i++) { //start with 1 in 0 string header is placed
+                    listBoxData.push([data[i][0], data[i][0]]); 
+                }
+                app.setData('listBox1', listBoxData);
+            }
+        
+        }, undefined, ['{customers.country}'], [{value: '{customers.country}', asc: false}], 101, 50);
    
 
-Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](modifying-data-widgets-with-sc) chapter.
+Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](modifying-data-widgets-with-sc.htm) chapter.
 
-Group By
+## Group By
 
 This is an AC Expression and will execute as a database GROUP BY statement. If there are multiple fields to group on, then each field should be placed in its own array element.
 
-    var groupBy = ["{customers.CustomerName}"];
-   
-
-Order By
+## Order By
 
 This is an object (or an array of objects if their are multiple fields to order on) that specifies the field(s) and sort order.
 
-    var orderBy = [{value:'{customers.CustomerName}', asc:true}];
-   
-
-Example
+## Example
 
 This example shows simple usage. It is getting two fields from a database and then adding one of them to a listbox. There is no filter in this example but you can see it is Grouped By and Ordered By 'country'. It is also fetching 50 rows of data starting at the 101st row,
 
-    app.getViewData('Classic', ['{customers.country}','{customers.countryCode}'], function(error, data) {
-    if (!error) {
-    var listBoxData = [];
-    for (var i = 1; i < data.length; i++) { //start with 1 in 0 string header is placed
-    listBoxData.push([data[i][0], data[i][0]]);
-    }
-    app.setData('listBox1', listBoxData);
-    }
-    }, undefined, ['{customers.country}'], [{value: '{customers.country}', asc: false}], 101, 50);
-   
+## See Also:
 
-See Also:
+ - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
 
- - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/index) (good introduction to Views)
+ - [getViewData()](getviewdata.htm)
 
- - [getViewData()](getviewdata)
+ - [drillDownBroadcast()](drilldownbroadcast.htm)
 
- - [drillDownBroadcast()](drilldownbroadcast)
-
- - [bindViewData()](setviewcallback)
+ - [bindViewData()](setviewcallback.htm)
 
 Related Video:
 

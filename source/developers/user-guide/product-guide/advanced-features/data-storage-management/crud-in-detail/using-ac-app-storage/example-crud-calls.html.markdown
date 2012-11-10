@@ -8,17 +8,17 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
 All CRUD functions have the same three parameters
 
 instanceCreate({string} ContainerName, {function} cdbCallback, {function} rdbCallback)
 
-ContainerName Parameter
+## ContainerName Parameter
 
-If you are operating on local Instance data, then the first parameter is undefined or empty. If you are operating on Foreign data, then this will usually be the name of a Panel Container Widget (read [How CRUD Works](how-crud-works) page for correct setup)
+If you are operating on local Instance data, then the first parameter is undefined or empty. If you are operating on Foreign data, then this will usually be the name of a Panel Container Widget (read [How CRUD Works](how-crud-works.htm) page for correct setup)
 
 cdbCallback / rdbCallback functions
 

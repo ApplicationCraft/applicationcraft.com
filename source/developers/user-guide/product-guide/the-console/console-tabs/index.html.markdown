@@ -8,7 +8,7 @@ full_width: true
 
 ![App\_Console\_Screen2](/img/docs/app_console_screen2.zoom40.png)
 
-## In This Section:
+**In This Section:**
 
 [Apps](applications)
 
@@ -16,13 +16,13 @@ full_width: true
 
 [Themes](themes-overview)
 
-[Connections](connections/index)
+[Connections](connections/)
 
-[Queries](queries/index)
+[Queries](queries/)
 
 [Notifiers](notifiers)
 
-[More](more/index)
+[More](more/)
 
-[Import/Export](import-export)
+[Import/Export](import-export.htm)
 

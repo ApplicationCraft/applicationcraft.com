@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
  - [getLoggedUser()](getloggeduser)
 

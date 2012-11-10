@@ -18,7 +18,7 @@ To reach this you can go directly to the App Store Resource Center by [clicking 
 
 ![iosa-publ-2](/img/docs/iosa-publ-2.zoom66.png)
 
-Beware Rejection!!!
+## Beware Rejection!!!
 
 The App Resource Center has some good general information about what you need to know about the submission process. Apple will reject things if you do not conform. Their approval process takes between one and two weeks, so please read about this thoroughly to avoid losing time.
 
@@ -32,7 +32,7 @@ In our experience, the things that you need to be especially careful of are
 
 The above screenshot shows where you can find tips about the submission and approval process.
 
-iTunesConnect
+## iTunesConnect
 
 You should visit this page next to start the whole process. For some reason, it is hard to find the link to the main page, but here it is :
 
@@ -42,17 +42,17 @@ It may change so if this link does not work, look for links to iTunes Connect.
 
 ![iosa-publ-4](/img/docs/iosa-publ-4.zoom75.png)
 
-Manage Users
+## Manage Users
 
 You can add Users who can access the App submission process. The link is highlighted in the screenshot above.
 
-Manage Applications
+## Manage Applications
 
 You should locate the Manage your Applications link. This is where you actually add new Apps and start adding the App data required by Apple.
 
 This is where the guide stops as there are a lot of things you can enter within iTunes Connect. It is all quite straightforward and be sure to give Apple what they ask for.
 
-Uploading the App Itself
+## Uploading the App Itself
 
-It is the very final stage but (annoyingly) it is not done from iTunes Connect. Please read the next [App Uploader](app-uploader) section for details.
+It is the very final stage but (annoyingly) it is not done from iTunes Connect. Please read the next [App Uploader](app-uploader.htm) section for details.
 

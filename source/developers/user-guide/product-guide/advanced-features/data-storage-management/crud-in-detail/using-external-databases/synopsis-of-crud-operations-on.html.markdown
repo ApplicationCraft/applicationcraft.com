@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-CRUD works by letting an App access an external Database using instanceXxxx() functions that reference Data Containers that are connected to Data Views, which in turn are connected to Queries. Before building CRUD enabled Apps, you should first read the [Data Section Properties](../../../data-integration,-reporting-dashboards/data-section-properties/index) chapter.
+CRUD works by letting an App access an external Database using instanceXxxx() functions that reference Data Containers that are connected to Data Views, which in turn are connected to Queries. Before building CRUD enabled Apps, you should first read the [Data Section Properties](../../../data-integration,-reporting-dashboards/data-section-properties/) chapter.
 
 You must include all the fields that you want to map to the external database in a [Panel Container](../../../../../widget-properties-events/containers/panel) Widget and also map the fields in the Key Fields property
 

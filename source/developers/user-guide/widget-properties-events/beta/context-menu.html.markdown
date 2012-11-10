@@ -13,7 +13,7 @@ The Context Menu widget can be used to show a simple pop up selection box in a s
 <table>
 <tr>
 <th style="vertical-align:top; width:148px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:15px; background-color:#ffffff;">
@@ -81,7 +81,7 @@ Select the widget to invoke the Context Menu
 <table>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -113,7 +113,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -141,7 +141,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -194,7 +194,7 @@ On Pre Show
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
  - [Popup Dropdown](../mobile/popup-dropdown)
 

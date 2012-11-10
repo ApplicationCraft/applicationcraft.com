@@ -22,17 +22,19 @@ These are Widgets that capture a single field of data.
 
  - Masked Edit
 
-## Reading Values
+**Reading Values**
 
 Use app.getValue(WidgetName) to read the contents of any of these widgets
 
-    var firstName = app.getValue("txtFirstName");
-    var firstName = app.setValue("txtFirstName", 'Michael Caine');
+    var@firstName@=@app.getValue("txtFirstName");
+    var@firstName@=@app.setValue("txtFirstName",@'Michael@Caine');
+     
+     
    
 
-## Writing Values - use app.setValue(WidgetName, Value) to write data to a widget
+**Writing Values** - use app.setValue(WidgetName, Value) to write data to a widget
 
-See Also:
+## See Also:
 
  - [assign()](../../../../client-api/widget-data-state-manipulation/assign)
 

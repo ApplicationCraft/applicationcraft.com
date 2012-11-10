@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## setUserPassword (userId, userPassword, optional checkOwnerRights)
+**setUserPassword** (userId, userPassword, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -43,19 +43,19 @@ The new password
 <td width="15">
 </td>
 <td width="682">
-[click here](checkowneruserrights-parameter) to see the checkOwnerRights description
+[click here](checkowneruserrights-parameter.htm) to see the checkOwnerRights description
 
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Changes the password of the specified user. If there is an error due to permissions, then an exception is thrown.
 
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

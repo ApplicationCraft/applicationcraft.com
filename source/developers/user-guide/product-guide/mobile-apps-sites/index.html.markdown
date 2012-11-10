@@ -10,7 +10,7 @@ Application Craft is equally good at building Apps for both Mobile and Desktop p
 
 This chapter looks at some of the things you might want to think about when building your Apps.
 
-## In This Section:
+**In This Section:**
 
 [Standard Mobile Widgets](other-mobile-widgets)
 

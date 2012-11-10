@@ -11,36 +11,36 @@ When you create a map overlay, you will often want to control events when it is 
 In your source data's array element that corresponds to each overlay, you can include the overlay id as shown here
 
     {
-    , type:1,
-    coords:"41.878113,-87.629798;47.878113,-87.629798;61.878113,-67.629798",
-    strokeColor: "#ff0000", strokeOpacity: 0.7}
-    var overlaysMap = {
-    ,
-    type:'type',
-    coords: "coords",
-    radius:"radius",
-    strokeColor: "strokeColor",
-    strokeOpacity: "strokeOpacity",
-    strokeWeight: "strokeWeight",
-    fillColor: "fillColor",
-    fillOpacity: "fillOpacity",
-    mouseOverHTML:"mouseOverHTML",
-    onClickHTML: "onClickHTML",
-    markerImageURL: "markerImageURL"
+    ,@type:1,@
+      coords:"41.878113,-87.629798;47.878113,-87.629798;61.878113,-67.629798", 
+      strokeColor: "#ff0000", strokeOpacity: 0.7}
+    var@overlaysMap@=@{
+    ,@
+    type:'type',@
+    coords:@"coords",@
+    radius:"radius",@
+    strokeColor:@"strokeColor",@
+    strokeOpacity:@"strokeOpacity",@
+    strokeWeight:@"strokeWeight",@
+    fillColor:@"fillColor",@
+    fillOpacity:@"fillOpacity",@
+    mouseOverHTML:"mouseOverHTML",@
+    onClickHTML:@"onClickHTML",@
+    markerImageURL:@"markerImageURL"
     };
-    function handler_googleMapsAdvanced_onOverlayClick(latlng, overlay){
-    objAll = app.getData("googleMapsAdvanced");
-    objSel = objAll[overlay];
-    objSel.strokeWeight = 22;
-    app.setData("googleMapsAdvanced", objAll);
+    function@handler_googleMapsAdvanced_onOverlayClick(latlng,@overlay){
+        objAll = app.getData("googleMapsAdvanced");
+        objSel = objAll[overlay];
+        objSel.strokeWeight = 22;
+        app.setData("googleMapsAdvanced", objAll);
     }
    
 
-overlayId:'polylineId'
+**overlayId:'polylineId'**
 
 You then use the map object to map this into the map widget.
 
-## id:'overlayId'
+**id:'overlayId'**
 
 When a user clicks on any overlay, the [onOverlayClick](../property,-event,-method-summary/gmapevents) Event can be triggered
 

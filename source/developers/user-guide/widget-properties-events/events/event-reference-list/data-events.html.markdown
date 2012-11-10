@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="148">
-## Data Events
+**Data Events**
 
 </td>
 <td width="15">
@@ -25,7 +25,7 @@ On Data Loaded
 <td width="15">
 </td>
 <td width="779">
-## This is called once data has been fully loaded to the appropriate Data View. N.B. When a widget is in a container, it is the container which is loading data, so this event listens to the container. See also On Row Loaded in [General Events](general-events) .
+## This is called once data has been fully loaded to the appropriate Data View. N.B. When a widget is in a container, it is the container which is loading data, so this event listens to the container. See also On Row Loaded in [General Events](general-events.htm) .
 
 </td>
 </tr>
@@ -51,7 +51,7 @@ This is called when some action occurs, such as a drill-down, that causes a Widg
 </tr>
 <tr>
 <td width="148">
-## ZingChart
+**ZingChart**
 
 </td>
 <td width="15">
@@ -81,7 +81,7 @@ Called when the chart has completed loading its data
 </tr>
 <tr>
 <td width="148">
-## Circle Menu
+**Circle Menu**
 
 </td>
 <td width="15">
@@ -103,7 +103,7 @@ Triggered when an item is selected.
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
  - [Zing Chart Events](../../../product-guide/advanced-important-widgets/zing-charts/property,-method-and-event-summary/events2)
 

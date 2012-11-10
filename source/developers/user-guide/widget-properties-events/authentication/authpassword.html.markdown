@@ -11,7 +11,7 @@ The Password Widget simply provides the Developer with an easy way to authentica
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -109,7 +109,7 @@ Where you can enter text that will show to the user. As they focus/click into th
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -237,7 +237,7 @@ If set to True, this displays the Widget on either all pages except ones you spe
 <table>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -329,7 +329,7 @@ Defines a limit for characters in the Text Area.
 <table>
 <tr>
 <td width="146">
-## <a id="appearance"> </a> Appearance
+<a id="appearance"> </a> **Appearance**
 
 </td>
 <td width="17">
@@ -361,7 +361,7 @@ Align your text Left/Right or Center
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -497,7 +497,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -518,7 +518,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -700,7 +700,7 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Password](../../product-guide/advanced-features/authentication-for-your-apps/password)
 

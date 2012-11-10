@@ -10,13 +10,13 @@ This Console screen is the location where you will administer your Apps, enablin
 
 ![App\_Console\_Screen2](/img/docs/app_console_screen2.zoom54.png)
 
-App Repository
+## App Repository
 
-All Apps are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol) in more detail.
+All Apps are stored in the standard Private/Shared/Public folder structure as [described here](../private-shared-and-public-fol) in more detail.
 
 You can search for apps by name in the search field, and you can find recently used forms from the 'Select last used form..' list
 
-Apps Tree Settings
+## Apps Tree Settings
 
 <table>
 <tr>
@@ -81,12 +81,12 @@ Click to refresh the Tree view.
 </tr>
 </table>
 
-Properties & Settings
+## Properties & Settings
 
 <table>
 <tr>
 <td width="126">
-## General
+**General**
 
 </td>
 <td width="16">
@@ -154,7 +154,7 @@ Short URL
 <td width="16">
 </td>
 <td>
-A short URL that can be used if you require. You can also pass parameters to your app using a shortended Url. See [Passing Parameters into Apps](../../advanced-features/passing-parameters-into-apps/index)
+A short URL that can be used if you require. You can also pass parameters to your app using a shortended Url. See [Passing Parameters into Apps](../../advanced-features/passing-parameters-into-apps/)
 
 </td>
 </tr>
@@ -176,11 +176,11 @@ Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/lZ-AAMuPVNA?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deploying Mobile Apps [1:18]
 
-Versions
+## Versions
 
 Please refer to the [Versions](../versions) section for details
 
-Action Buttons
+## Action Buttons
 
 <table>
 <tr>
@@ -251,9 +251,9 @@ Mobile Build
 <td width="16">
 </td>
 <td>
-Choose to build your apps using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/index) or [Phonegap:Build](../../../ac-mobile-build-phonegap/cordova/phonegapbuild/index) . If you wish to compile as a Native App for mobile devices you can do so here.
+Choose to build your apps using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/) or [Phonegap:Build](../../../ac-mobile-build-phonegap/cordova/phonegapbuild/) . If you wish to compile as a Native App for mobile devices you can do so here.
 
-If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap/cordova/index) chapter, which describes how this can be achieved.
+If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap/cordova/) chapter, which describes how this can be achieved.
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ Embed
 <td width="16">
 </td>
 <td>
-If you want to embed an App into your own HTML page, then pressing the Embed button will provide you with the necessary HTML code that you can copy and paste into your page. You can also pass parameters into your app by editing this code. See [Passing in data with Embedded Apps and Javascript](../../advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded-)
+If you want to embed an App into your own HTML page, then pressing the Embed button will provide you with the necessary HTML code that you can copy and paste into your page. You can also pass parameters into your app by editing this code. See [Passing in data with Embedded Apps and Javascript](../../advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded)
 
 </td>
 </tr>
@@ -371,10 +371,10 @@ Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/wrXV9Db7yhs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deleting App Data Instance [1:01]
 
-Sharing
+## Sharing
 
 Please refer to the [Sharing](../sharing) section for details
 
-User Roles
+## User Roles
 
-For use in WorkFlow apps (See: [Workflow](../../advanced-features/workflow/index) )
+For use in WorkFlow apps (See: [Workflow](../../advanced-features/workflow/) )

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## int soapRequest (url, method, params, callback, optional specialParams)
+int **soapRequest** (url, method, params, callback, optional specialParams)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -73,33 +73,32 @@ this parameter allows you to pass through special, advanced parameters to the SO
 </tr>
 </table>
 
-Description
+## Description
 
 This function passes a parameter list params to the indicated SOAP method at the specified URL. Returned data will be passed asynchronously to the specified callback function. Because SOAP provides more information that a RESTful call, AC is able to convert the returned SOAP XML directly into a JSON object. This means that you do not need to call the [XML2OBJ()](../conversion-functions/xml2json) function afterwards.
 
-Special Parameters
+## Special Parameters
 
 There are some advanced parameters that are passed through to the SOAP library. On the whole, you should not need to supply these other for very special situations. The example parameter object shown in the example below you might find useful.
 
-    {timeout: 20000} // set the timeout value to 20 seconds before an error is thrown
-    {traditional: true} // we have had to use this when calling some 3rd party APIs (SalesForce for example).
-    {ignoreNetworkState: true}  // suppress network state checking before httpRequest() is called
-    {crossdomain:true} // true - request to another domain will be sent directly; false (default) - request to another domain will be sent to acgo proxy.
-    {tagNamespace: true/false} //  false by default. true to put namespace to request tag instead of soap:Envelope.
-   
-
-Example
-
-    function processForecast(data, error, httpResponse) {
-    console.log(data);
+    {timeout:@20000}@//@set@the@timeout@value@to@20@seconds@before@an@error@is@thrown
+    {traditional:@true}@//@we@have@had@to@use@this@when@calling@some@3rd@party@APIs@(SalesForce@for@example).
+    {ignoreNetworkState:@true}@@//@suppress@network@state@checking@before@httpRequest()@is@called
+    {crossdomain:true}@//@true@-@request@to@another@domain@will@be@sent@directly;@false@(default)@-@request@to@another@domain@will@be@sent@to@acgo@proxy.
+    {tagNamespace:@true/false}@//@@false@by@default.@true@to@put@namespace@to@request@tag@instead@of@soap:Envelope.@
+    function@processForecast(data,@error,@httpResponse)@{
+                     console.log(data);
     }
-    function handler_application_onAppStarted(){
-    ws = "http://wsf.cdyne.com/WeatherWS/Weather.asmx";
-    app.soapRequest(ws, "GetCityForecastByZIP", {ZIP : "94102"} , processForecast);
+     
+    function@handler_application_onAppStarted(){
+        ws = "http://wsf.cdyne.com/WeatherWS/Weather.asmx";
+        app.soapRequest(ws, "GetCityForecastByZIP", {ZIP : "94102"} , processForecast); 
     }
    
 
-## See Also:
+## Example
 
- - [Wizard](web-service-wizard)
+**See Also:**
+
+ - [Wizard](web-service-wizard.htm)
 

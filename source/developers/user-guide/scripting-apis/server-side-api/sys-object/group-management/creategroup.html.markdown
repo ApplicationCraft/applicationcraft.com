@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## createGroup (objGroup, optional checkOwnerRights)
+**createGroup** (objGroup, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,19 +36,19 @@ an object containing information about the Group to be created
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Creates a new group in the AC system. You should pass in the following object
 
     {
-    name: group_name
+        name: group_name
     }
+     
    
 
 If there is an error creating the Group due to permissions, then an exception is thrown.
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

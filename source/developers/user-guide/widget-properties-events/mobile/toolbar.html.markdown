@@ -15,7 +15,7 @@ In the above image, you will see that when you drag a Mobile Action Button widge
 <table>
 <tr>
 <td width="176">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="22">
@@ -78,7 +78,7 @@ Absolute/Relative. Select Relative to enable your container to resize to the ava
 <table>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Where you can set the relationships to other apps (see [Relational Apps & Instan
 <table>
 <tr>
 <td width="177">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="20">
@@ -241,7 +241,7 @@ None/Auto/Vertical/Horizontal. Allows you to set the scrolling behaviour. Please
 <table>
 <tr>
 <td width="177">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="21">
@@ -321,7 +321,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="178">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="20">
@@ -349,7 +349,7 @@ Fields
 <td width="20">
 </td>
 <td width="744">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -437,7 +437,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="179">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="20">
@@ -549,7 +549,7 @@ Custom CSS Classes
 <td width="20">
 </td>
 <td width="743">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>

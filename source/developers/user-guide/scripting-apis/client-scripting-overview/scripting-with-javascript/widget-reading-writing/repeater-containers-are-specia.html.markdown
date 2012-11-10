@@ -8,15 +8,15 @@ full_width: true
 
 Grids and Repeater Containers are very similar in many respects - they both take repeating rows of data and display them in one object, often with the ability to scroll through the rows.
 
-A Grid is essentially a spreadsheet type Widget, A Repeater, however, lets the user configure the individuals elements of each row by laying out ordinary Widgets in any way they choose. At runtime, these rows can be presented horizontally, vertically or both, with data that can be loaded from Views or from the [populateWidget](../../../client-api/widget-data-state-manipulation/populatewidget()/index) () function.
+A Grid is essentially a spreadsheet type Widget, A Repeater, however, lets the user configure the individuals elements of each row by laying out ordinary Widgets in any way they choose. At runtime, these rows can be presented horizontally, vertically or both, with data that can be loaded from Views or from the [populateWidget](../../../client-api/widget-data-state-manipulation/populatewidget/) () function.
 
 We recommend reading the sections on Grids and Repeater Containers to properly understand how to work with them. They do not work in the same way.
 
- - [Reading and Writing user selections and values in Grids](widget-values-reading-writing-user-entered-data/grids--repeater-containers)
+ - [Reading and Writing user selections and values in Grids](widget-values-reading-writing-user-entered-data/grids-repeater-containers)
 
  - [Reading and Writing user selections and values in Repeater Containers](widget-values-reading-writing-user-entered-data/repeater-containers)
 
- - [Reading and Writing Grid content](widget-content-reading-and-writing/widgetcontentgrids--repeater-containers)
+ - [Reading and Writing Grid content](widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
 
  - [Reading and Writing Repeater Container content](widget-content-reading-and-writing/widgetcontentrepeater-containers)
 
@@ -28,9 +28,9 @@ And this image, below, shows the page running and populated with data,
 
 ![rpt-preview](/img/docs/rpt-preview.zoom69.png)
 
-See Also:
+## See Also:
 
- - [populateWidget()](../../../client-api/widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../../../client-api/widget-data-state-manipulation/populatewidget/)
 
  - [setData()](../../../client-api/widget-data-state-manipulation/setdata)
 

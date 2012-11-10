@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the ZingChart  object. Each method is described in detail in the [Zing Chart](../../../../scripting-apis/client-api/widget-object-functions/zing-chart/index) reference section. ZingChart API methods are also available. See [ZingChart Methods](methods3.htm)
+The following method table is a summary of the methods available for the ZingChart  object. Each method is described in detail in the [Zing Chart](../../../../scripting-apis/client-api/widget-object-functions/zing-chart/) reference section. ZingChart API methods are also available. See [ZingChart Methods](methods3.htm)
 
 <table>
 <tr>

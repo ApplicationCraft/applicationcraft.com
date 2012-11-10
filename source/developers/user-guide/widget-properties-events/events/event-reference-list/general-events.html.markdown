@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="178">
-## Application Events
+**Application Events**
 
 </td>
 <td width="17">
@@ -109,7 +109,7 @@ On Error
 <td width="17">
 </td>
 <td width="747">
-This is called if an error is detected. By returning false, the popup window can be suppressed if required. See [Error Handling](../../../scripting-apis/client-scripting-overview/error-handling/index) for details.
+This is called if an error is detected. By returning false, the popup window can be suppressed if required. See [Error Handling](../../../scripting-apis/client-scripting-overview/error-handling/) for details.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ Called whenever the browser resizes. See [Resize Events](../../../product-guide/
 </tr>
 <tr>
 <td width="178">
-## Page Events
+**Page Events**
 
 </td>
 <td width="17">
@@ -213,7 +213,7 @@ Called when the App is about to switch to the page. This will enable you to writ
 </tr>
 <tr>
 <td width="178">
-## Other Events
+**Other Events**
 
 </td>
 <td width="17">
@@ -279,7 +279,7 @@ When a change is made to a Widget.
 </tr>
 <tr>
 <td width="178">
-## Date Picker
+**Date Picker**
 
 </td>
 <td width="17">
@@ -321,13 +321,13 @@ Called when a selection is made.
 </tr>
 <tr>
 <td width="178">
-## Timeline
+**Timeline**
 
 </td>
 <td width="17">
 </td>
 <td width="747">
-See [Timeline](../../../scripting-apis/client-api/widget-object-functions/timeline/index)
+See [Timeline](../../../scripting-apis/client-api/widget-object-functions/timeline/)
 
 </td>
 </tr>
@@ -425,7 +425,7 @@ When a scroll operation occurs on a timeline item.
 </tr>
 <tr>
 <td width="178">
-## Grid/Repeater
+**Grid/Repeater**
 
 </td>
 <td width="17">
@@ -503,7 +503,7 @@ If you use set the Group By property for a Grid column, then this event is calle
 </tr>
 <tr>
 <td width="178">
-## Slider
+**Slider**
 
 </td>
 <td width="17">
@@ -557,7 +557,7 @@ Called each time the slider value changes.
 </tr>
 <tr>
 <td width="178">
-## File Upload
+**File Upload**
 
 </td>
 <td width="17">
@@ -587,7 +587,7 @@ Called when file has been uploaded.
 </tr>
 <tr>
 <td width="178">
-## Embed App
+**Embed App**
 
 </td>
 <td width="17">
@@ -629,7 +629,7 @@ Called when the Embedded app is terminated
 </tr>
 <tr>
 <td width="178">
-## iFrame
+**iFrame**
 
 </td>
 <td width="17">
@@ -659,7 +659,7 @@ When the iFrame loads.
 </tr>
 <tr>
 <td width="178">
-## Collapsible
+**Collapsible**
 
 </td>
 <td width="17">
@@ -689,7 +689,7 @@ Called when the state of the widget changes. true when expanded, false when not 
 </tr>
 <tr>
 <td width="178">
-## Upload Button
+**Upload Button**
 
 </td>
 <td width="17">
@@ -755,7 +755,7 @@ Called when the file has been uploaded.
 </tr>
 <tr>
 <td width="178">
-## Context Menu
+**Context Menu**
 
 </td>
 <td width="17">
@@ -785,7 +785,7 @@ Called as the Context Menu's 'Parent' widget is selected. This can be used to dy
 </tr>
 <tr>
 <td width="178">
-## You Tube
+**You Tube**
 
 </td>
 <td width="17">
@@ -853,7 +853,7 @@ Called when playback quality changes. See [setPlaybackQuality()](../../../script
 </tr>
 <tr>
 <td width="178">
-## Tab Container
+**Tab Container**
 
 </td>
 <td width="17">
@@ -883,7 +883,7 @@ Called when a tab is selected.
 </tr>
 <tr>
 <td width="178">
-## Accordion Container
+**Accordion Container**
 
 </td>
 <td width="17">
@@ -913,10 +913,12 @@ Called when an accordion section is selected
 </tr>
 <tr>
 <td width="178">
-## Advertising
+**Advertising**
 
 </td>
 <td width="17">
+        
+        
       
 
 </td>
@@ -930,6 +932,7 @@ On Refresh
 
 </td>
 <td width="17">
+        
       
 
 </td>
@@ -948,7 +951,7 @@ Called when the widget is refreshed.
 </tr>
 <tr>
 <td width="178">
-## Circle Menu
+**Circle Menu**
 
 </td>
 <td width="17">
@@ -1002,7 +1005,7 @@ Trigged when the menu closes.
 </tr>
 <tr>
 <td width="178">
-## Scandit
+**Scandit**
 
 </td>
 <td width="17">
@@ -1036,7 +1039,7 @@ Called when barcode was not successfully read or if scan was canceled by user.
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
  - [Google V3 Map Events](../../../product-guide/advanced-important-widgets/google-v3-maps-widget/property,-event,-method-summary/gmapevents)
 

@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## In this Section:
+**In this Section:**
 
- - [console object](console-object/index)
+ - [console object](console-object/)
 
- - [ssj object](ssj-object/index)
+ - [ssj object](ssj-object/)
 
- - [sys object](sys-object/index)
+ - [sys object](sys-object/)
 
 Related Video:
 

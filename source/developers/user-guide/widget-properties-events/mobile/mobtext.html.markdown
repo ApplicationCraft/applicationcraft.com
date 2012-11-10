@@ -11,7 +11,7 @@ Used for single row entry. If you need to enter data in a specific way that isn'
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -107,7 +107,7 @@ Where you can enter text that will show to the user. As they focus/click into th
 </tr>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 <td width="15">
@@ -183,7 +183,7 @@ See [App Properties](../app-properties#mandatory) Mandatory settings where you c
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -299,7 +299,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -379,7 +379,7 @@ If set to True, the object can be interacted with by a user but data cannot be a
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="15">
@@ -407,7 +407,7 @@ Fields
 <td width="15">
 </td>
 <td width="779">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -519,7 +519,7 @@ Set to true to automatically fetch data from assigned view.
 </tr>
 <tr>
 <td width="146">
-## <a id="appearance"> </a> Appearance
+<a id="appearance"> </a> **Appearance**
 
 </td>
 <td width="17">
@@ -551,7 +551,7 @@ Align your text Left/Right or Center
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -603,7 +603,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -624,7 +624,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -806,9 +806,9 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
- - Mobile Widgets: [Text Area](mobtext-area)
+ - Mobile Widgets: [Text Area](mobtext-area.htm)
 
  - Common Widgets: [Text](../common/text) , [Text Area](../common/text-area) , [Alpha Numeric](../common/alpha-numeric) , [Numeric](../common/numeric)
 

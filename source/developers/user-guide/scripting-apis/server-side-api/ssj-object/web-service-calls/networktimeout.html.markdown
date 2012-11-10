@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## networkTimeout (milliseconds)
+**networkTimeout** (milliseconds)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -25,17 +25,19 @@ number of milliseconds until a timeout occurs
 </tr>
 </table>
 
-Returns
+## Returns
 
 Nothing.
 
-Description
+## Description
 
 This specified the timeout period for Web Service calls made from SSJ.
 
-Example
+## Example
 
-    // Set timeout to 30 seconds
+    //@Set@timeout@to@30@seconds
     ssj.networkTimeout(20000);
+     
+     
    
 

@@ -12,7 +12,7 @@ This allows you to specify the order in which records are returned from the View
 
 This property is obviously useful for Grid or List type data where you want to order rows of data displayed in a tabular format. However, it is also useful for ordering aggregated and grouped data that might appear in chart Widgets.
 
-Example
+## Example
 
 Let's suppose you want to display monthly sales data in a Bar Chart with labels Jan, Feb, Mar etc. but you also want the data correctly ordered. You would set the following Fields settings
 
@@ -26,9 +26,9 @@ If you were to set the Order By to be MonthNameShort(Date) also, then you would 
 
  - Order By - Month(Date)
 
-Modifying the Order By from a Script
+## Modifying the Order By from a Script
 
-Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/index) of the [Client API](../../../../scripting-apis/client-api/index) section for more information.
+Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/) of the [Client API](../../../../scripting-apis/client-api/) section for more information.
 
 Related Video:
 

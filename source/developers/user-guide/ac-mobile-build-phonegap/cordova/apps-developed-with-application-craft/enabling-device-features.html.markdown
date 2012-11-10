@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Apps built using [Phonegap:Build](../phonegapbuild/index) or [AC Mobile Build](../ac-mobile-build/index) use a config.xml. The config.xml file allows developers to easily specify metadata about their applications.  More details available here: [https://build.phonegap.com/docs/config-xml](https://build.phonegap.com/docs/config-xml)
+Apps built using [Phonegap:Build](../phonegapbuild/) or [AC Mobile Build](../ac-mobile-build/) use a config.xml. The config.xml file allows developers to easily specify metadata about their applications.  More details available here: [https://build.phonegap.com/docs/config-xml](https://build.phonegap.com/docs/config-xml)
 
 Using the PhoneGap Options property located in the Phonegap section of the App properties you can manage many of these properties to include within your Build.
 
@@ -15,7 +15,7 @@ Using the PhoneGap Options property located in the Phonegap section of the App p
 <table>
 <tr>
 <td width="181">
-## Essential Properties
+**Essential Properties**
 
 </td>
 <td width="46">
@@ -108,7 +108,7 @@ Enter your website
 <table>
 <tr>
 <td width="182">
-## Multi-Platform
+**Multi-Platform**
 
 </td>
 <td width="44">
@@ -179,7 +179,7 @@ Auto Hide Splash Screen
 
 </td>
 <td width="615">
-true(default)/false. If set to true the splash screen is hidden. To show your own Splash Screen images (Pro subscription required) set to false. Supported in [AC Mobile Build](../ac-mobile-build/index)
+true(default)/false. If set to true the splash screen is hidden. To show your own Splash Screen images (Pro subscription required) set to false. Supported in [AC Mobile Build](../ac-mobile-build/)
 
 </td>
 </tr>
@@ -210,11 +210,10 @@ true/false(default). Safari on iOS detects any string formatted like a phone num
 </td>
 </tr>
 </table>
-
 <table>
 <tr>
 <td width="199">
-## iOS Specific
+**iOS Specific**
 
 </td>
 <td width="18">
@@ -272,7 +271,7 @@ Show Splash Screen Spinner
 
 </td>
 <td width="624">
-true(default)/false. if set to false, the spinner won't appear on the splash screen during app loading. Supported in [AC Mobile Build](../ac-mobile-build/index)
+true(default)/false. if set to false, the spinner won't appear on the splash screen during app loading. Supported in [AC Mobile Build](../ac-mobile-build/)
 
 </td>
 </tr>
@@ -294,7 +293,7 @@ true/false(default). If set to true HTML5 videos will play inline. If set to fal
 <table>
 <tr>
 <td width="183">
-## Android Specific
+**Android Specific**
 
 </td>
 <td width="42">
@@ -352,7 +351,7 @@ Launch Mode
 
 </td>
 <td width="617">
-Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see [http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode](http://developer.android.com/guide/topics/manifest/activity-element.html#lmode) . Supported in [AC Mobile Build](../ac-mobile-build/index)
+Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see [http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode](http://developer.android.com/guide/topics/manifest/activity-element.html#lmode) . Supported in [AC Mobile Build](../ac-mobile-build/)
 
 </td>
 </tr>
@@ -365,7 +364,7 @@ Version Code
 
 </td>
 <td width="617">
-when building for Android, you can set the version Code. For more information on Android's versionCode attribute, see [http://developer.android.com/tools/publishing/versioning.html](http://developer.android.com/tools/publishing/versioning.html) . Supported in [AC Mobile Build](../ac-mobile-build/index)
+when building for Android, you can set the version Code. For more information on Android's versionCode attribute, see [http://developer.android.com/tools/publishing/versioning.html](http://developer.android.com/tools/publishing/versioning.html) . Supported in [AC Mobile Build](../ac-mobile-build/)
 
 </td>
 </tr>
@@ -382,7 +381,7 @@ Currently supported through this interface are the following feature names:
 <table>
 <tr>
 <td width="183">
-## API Features
+**API Features**
 
 </td>
 <td width="25">

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## language (strLang);
+**language** (strLang);
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -25,19 +25,20 @@ The language code to which to switch the App
 </tr>
 </table>
 
-Description
+## Description
 
 Switches the display language of the App to the language code specified in strLang.
 
-Example
+## Example
 
-    strLangCode = 'de';
-    strUserMessage = app.language(strLang);
+      strLangCode = 'de';  
+      strUserMessage = app.language(strLang);   
+     
    
 
-See Also:
+## See Also:
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index)
+ - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 
- - [translate()](translate)
+ - [translate()](translate.htm)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## hideOverlay (id)
+**hideOverlay** (id)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,31 +24,32 @@ The object name of the overlay to hide
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 How you can hide a defined overlay
 
-## Example
+**Example**
 
-    function handler_actionBtn24_onClick(mouseev){
-    app.w('googleMapsAdvanced').hideOverlay(polylineObj);
+    function@handler_actionBtn24_onClick(mouseev){
+        app.w('googleMapsAdvanced').hideOverlay(polylineObj);
     }
+     
+     
    
 
-## See Also:
+**See Also:**
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 
- - [getOverlays()](getoverlays)
+ - [getOverlays()](getoverlays.htm)
 
- - [clearOverlays()](clearoverlays)
+ - [clearOverlays()](clearoverlays.htm)
 
- - [removeOverlay()](removeoverlay)
+ - [removeOverlay()](removeoverlay.htm)
 
- - [showOverlay()](showoverlayid)
+ - [showOverlay()](showoverlayid.htm)
 
- - [fitToOverlays()](fittooverlays)
+ - [fitToOverlays()](fittooverlays.htm)
 
- - [getOverlayObjById()](getoverlayobjbyidid)
+ - [getOverlayObjById()](getoverlayobjbyidid.htm)
 

@@ -10,7 +10,7 @@ Resources are static files that are used within or by Apps, the beauty being tha
 
  - Images (jpg, gif, png, tif, svg)
 
- - Data List. See [Data Lists Management](../../advanced-features/data-lists-management/index)
+ - Data List. See [Data Lists Management](../../advanced-features/data-lists-management/)
 
  - Video (mpeg, mp4, ogg, quicktime, x-msvideo, x-matroska)
 
@@ -26,11 +26,11 @@ Resources are static files that are used within or by Apps, the beauty being tha
 
  - Other
 
-Resource Repository
+## Resource Repository
 
-All Resources are stored in the standard Private/Shared/Public folder structure as [described here](../private--shared-and-public-fol) in more detail.
+All Resources are stored in the standard Private/Shared/Public folder structure as [described here](../private-shared-and-public-fol) in more detail.
 
-Adding a Resource
+## Adding a Resource
 
 When you add a new Resource by clicking on the New Object icon beneath the tree view, you are asked to enter the location from where the Resource should be taken. You have the following options
 
@@ -44,12 +44,12 @@ When you add a new Resource by clicking on the New Object icon beneath the tree 
 
 ![lists-upload](/img/docs/lists-upload.jpeg)
 
-Properties & Settings
+## Properties & Settings
 
 <table>
 <tr>
 <td width="126">
-## General
+**General**
 
 </td>
 <td width="16">
@@ -119,7 +119,7 @@ This indicates the type of resource
 </tr>
 <tr>
 <td width="126">
-## Sharing
+**Sharing**
 
 </td>
 <td width="16">
@@ -131,7 +131,7 @@ This indicates the type of resource
 </tr>
 </table>
 
-Action Buttons
+## Action Buttons
 
 <table>
 <tr>

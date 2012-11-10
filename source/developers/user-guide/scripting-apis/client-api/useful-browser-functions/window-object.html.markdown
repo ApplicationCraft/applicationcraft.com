@@ -11,13 +11,13 @@ This object contains a lot of useful properties and methods. Visit [w3schools](h
 <table>
 <tr>
 <td width="142">
-## Method
+**Method**
 
 </td>
 <td width="15">
 </td>
 <td width="759">
-## Description
+**Description**
 
 </td>
 </tr>
@@ -29,7 +29,7 @@ This object contains a lot of useful properties and methods. Visit [w3schools](h
 <td width="15">
 </td>
 <td width="759">
-Displays an alert box with a message and an OK button. See [alert(), confirm()](alert)
+Displays an alert box with a message and an OK button. See [alert(), confirm()](alert.htm)
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Removes focus from the current window
 <td width="15">
 </td>
 <td width="759">
-Clears a timer set with setInterval(). See [setInterval(), setTimeout()](setinterval--settimeout-et-al)
+Clears a timer set with setInterval(). See [setInterval(), setTimeout()](setinterval-settimeout-et-al.htm)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Clears a timer set with setInterval(). See [setInterval(), setTimeout()](setinte
 <td width="15">
 </td>
 <td width="759">
-Clears a timer set with setTimeout(). See [setInterval(), setTimeout()](setinterval--settimeout-et-al)
+Clears a timer set with setTimeout(). See [setInterval(), setTimeout()](setinterval-settimeout-et-al.htm)
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Moves a window to the specified position
 <td width="15">
 </td>
 <td width="759">
-Opens a new browser window. See [open()](open)
+Opens a new browser window. See [open()](open.htm)
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ Resizes the window to the specified width and height. See [Resize Events](../../
 <td width="15">
 </td>
 <td width="759">
-Scrolls the content by the specified number of pixels. See [scrollTo(), scrollBy()](scrollto)
+Scrolls the content by the specified number of pixels. See [scrollTo(), scrollBy()](scrollto.htm)
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ Scrolls the content by the specified number of pixels. See [scrollTo(), scrollBy
 <td width="15">
 </td>
 <td width="759">
-Scrolls the content to the specified coordinates. See [scrollTo(), scrollBy()](scrollto)
+Scrolls the content to the specified coordinates. See [scrollTo(), scrollBy()](scrollto.htm)
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Scrolls the content to the specified coordinates. See [scrollTo(), scrollBy()](s
 <td width="15">
 </td>
 <td width="759">
-Calls a function or evaluates an expression at specified intervals (in milliseconds). See [setInterval(), setTimeout()](setinterval--settimeout-et-al)
+Calls a function or evaluates an expression at specified intervals (in milliseconds). See [setInterval(), setTimeout()](setinterval-settimeout-et-al.htm)
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ Calls a function or evaluates an expression at specified intervals (in milliseco
 <td width="15">
 </td>
 <td width="759">
-Calls a function or evaluates an expression after a specified number of milliseconds. See [setInterval(), setTimeout()](setinterval--settimeout-et-al)
+Calls a function or evaluates an expression after a specified number of milliseconds. See [setInterval(), setTimeout()](setinterval-settimeout-et-al.htm)
 
 </td>
 </tr>

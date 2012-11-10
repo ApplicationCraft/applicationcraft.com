@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The Fancy Button allows you to define shapes, gradient colors when pressed, as well as be used to manage Data views and Page Navigation, but also can be used to trigger [Events](../events/index) using [Scripting with Javascript](../../scripting-apis/client-scripting-overview/scripting-with-javascript/index)
+The Fancy Button allows you to define shapes, gradient colors when pressed, as well as be used to manage Data views and Page Navigation, but also can be used to trigger [Events](../events/) using [Scripting with Javascript](../../scripting-apis/client-scripting-overview/scripting-with-javascript/)
 
 A range of options are available to be set:
 
@@ -15,7 +15,7 @@ A range of options are available to be set:
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -95,7 +95,7 @@ Where you can set the button properties - Shape/Image/Text/pushEffect/Sticky/Fil
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -235,7 +235,7 @@ true/false.  If set to false users will not tab into this field
 <table>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -279,7 +279,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -321,7 +321,7 @@ Custom CSS Styles
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -342,7 +342,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 </tr>
@@ -390,11 +390,11 @@ On Mouse Leave
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - Mobile Widgets: [Action Button](../mobile/mobaction-button)
 
- - Common Widgets: [Action Button](action-button)
+ - Common Widgets: [Action Button](action-button.htm)
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

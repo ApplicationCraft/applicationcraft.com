@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## Important : refer to the [Workflow](../../../product-guide/advanced-features/workflow/index) section, which gives you a general overview.
+**Important** : refer to the [Workflow](../../../product-guide/advanced-features/workflow/) section, which gives you a general overview.
 
 These functions allow you to assign data instances to Roles, Persons and Groups. It also handles Notifications, Reminders and cancellations of these.
 
@@ -19,7 +19,7 @@ These functions allow you to assign data instances to Roles, Persons and Groups.
 <td width="13">
 </td>
 <td width="637">
-Assigns a Person or Group to a Role for a specified App (can also be [done manually in the Console](../../../product-guide/advanced-features/workflow/roles--stages) )
+Assigns a Person or Group to a Role for a specified App (can also be [done manually in the Console](../../../product-guide/advanced-features/workflow/roles-stages) )
 
 </td>
 </tr>
@@ -148,4 +148,3 @@ Cancels any outstanding repeat notifications queued (reminders, typically)
 </td>
 </tr>
 </table>
-

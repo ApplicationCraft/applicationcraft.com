@@ -10,13 +10,13 @@ All CRUD functions have the same three parameters
 
 instanceCreate({string} ContainerName, undefined, undefined)
 
-ContainerName Parameter
+## ContainerName Parameter
 
-If you are operating on external database, then this will usually be the name of a Panel Container Widget (read [How CRUD works for External Databases](how-crud-works-for-external-da) page for correct setup)
+If you are operating on external database, then this will usually be the name of a Panel Container Widget (read [How CRUD works for External Databases](how-crud-works-for-external-da.htm) page for correct setup)
 
 Note: There are currently no Callback functions available for use with external databases.
 
-## See Also:
+**See Also:**
 
  - [instanceCreate()](../../../../../scripting-apis/client-api/instance-data-functions/instancecreate)
 

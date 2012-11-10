@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Photoswipe](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/index) Reference section.
+The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Photoswipe](../../../../scripting-apis/client-api/widget-object-functions/photoswipe/) Reference section.
 
 <table>
 <tr>

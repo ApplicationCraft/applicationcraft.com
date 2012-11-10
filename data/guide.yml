@@ -28,7 +28,7 @@ tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?general_screen_behavior.htm',
       title: General Screen Behavior, url: /developers/user-guide/product-guide/the-console/general-screen-behavior}
     - {old_url: '/revisions/current/docs/user-guide/index.html?private__shared_and_public_fol.htm',
-      title: 'Private, Shared and Public Folders', url: /developers/user-guide/product-guide/the-console/private--shared-and-public-fol}
+      title: 'Private, Shared and Public Folders', url: /developers/user-guide/product-guide/the-console/private-shared-and-public-fol}
     - {old_url: '/revisions/current/docs/user-guide/index.html?sharing.htm', title: Sharing,
       url: /developers/user-guide/product-guide/the-console/sharing}
     - {old_url: '/revisions/current/docs/user-guide/index.html?versions.htm', title: Versions,
@@ -61,7 +61,7 @@ tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?join_configuration.htm',
             title: Join Configuration, url: /developers/user-guide/product-guide/the-console/console-tabs/queries/query-wizard/join-configuration}
           - {old_url: '/revisions/current/docs/user-guide/index.html?input__output_field_configurat.htm',
-            title: Input & Output Field Configuration, url: /developers/user-guide/product-guide/the-console/console-tabs/queries/query-wizard/input--output-field-configurat}
+            title: Input & Output Field Configuration, url: /developers/user-guide/product-guide/the-console/console-tabs/queries/query-wizard/input-output-field-configurat}
           - {old_url: '/revisions/current/docs/user-guide/index.html?query_test.htm',
             title: Query Test, url: /developers/user-guide/product-guide/the-console/console-tabs/queries/query-wizard/query-test}
           url: /developers/user-guide/product-guide/the-console/console-tabs/queries/query-wizard
@@ -247,11 +247,11 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?repeating_widgets_across_multi.htm',
         title: Repeating Widgets Across Multiple Pages, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi}
       - {old_url: '/revisions/current/docs/user-guide/index.html?widget_alignment__distribution.htm',
-        title: Widget Alignment, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-alignment--distribution}
+        title: Widget Alignment, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-alignment-distribution}
       - {old_url: '/revisions/current/docs/user-guide/index.html?drag_alignment.htm',
         title: Drag Alignment, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/drag-alignment}
       - {old_url: '/revisions/current/docs/user-guide/index.html?selection__multi_selection.htm',
-        title: Selection & Multi Selection, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/selection--multi-selection}
+        title: Selection & Multi Selection, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/selection-multi-selection}
       - {old_url: '/revisions/current/docs/user-guide/index.html?showing_container_outlines.htm',
         title: Showing container outlines, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/showing-container-outlines}
       - {old_url: '/revisions/current/docs/user-guide/index.html?menus_and_navigation.htm',
@@ -261,7 +261,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?reverting_to_theme_style.htm',
         title: Reverting to Theme Style, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/reverting-to-theme-style}
       - {old_url: '/revisions/current/docs/user-guide/index.html?layer___z_order.htm',
-        title: Widget Layer / Z-Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/layer---z-order}
+        title: Widget Layer / Z-Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/layer--z-order}
       - {old_url: '/revisions/current/docs/user-guide/index.html?widget_grouping.htm',
         title: Widget Grouping, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-grouping}
       - {old_url: '/revisions/current/docs/user-guide/index.html?undo_redo.htm', title: Undo
@@ -281,9 +281,9 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?snap_to_grid.htm',
         title: Snap to Grid, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/snap-to-grid}
       - {old_url: '/revisions/current/docs/user-guide/index.html?referencing_documents__files.htm',
-        title: Referencing Documents & Files, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/referencing-documents--files}
+        title: Referencing Documents & Files, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/referencing-documents-files}
       - {old_url: '/revisions/current/docs/user-guide/index.html?adding_audio__video.htm',
-        title: Adding Audio & Video, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/adding-audio--video}
+        title: Adding Audio & Video, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/adding-audio-video}
       - {old_url: '/revisions/current/docs/user-guide/index.html?working_with_images.htm',
         title: Working with Images, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/working-with-images}
       url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference
@@ -371,7 +371,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?using_getdata_and_setdata.htm',
         title: Using getData() and setData(), url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/using-getdata-and-setdata}
       - {old_url: '/revisions/current/docs/user-guide/index.html?advanced___accessing_the_googl.htm',
-        title: Advanced - Accessing the Google Object, url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/advanced---accessing-the-googl}
+        title: Advanced - Accessing the Google Object, url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/advanced--accessing-the-googl}
       - old_url: /revisions/current/docs/user-guide/index.html?working_with_overlays.htm
         title: Working with Overlays
         tree:
@@ -429,7 +429,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?populating_the_widget.htm',
         title: Populating the Widget, url: /developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/populating-the-widget}
       - {old_url: '/revisions/current/docs/user-guide/index.html?fitting_all_data_in_available_.htm',
-        title: Fitting All Data In Available Display, url: /developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/fitting-all-data-in-available-}
+        title: Fitting All Data In Available Display, url: /developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/fitting-all-data-in-available}
       - {old_url: '/revisions/current/docs/user-guide/index.html?zooming.htm', title: 'Zooming,
           Panning & Scaling', url: /developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/zooming}
       url: /developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget
@@ -575,7 +575,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?switching_languages_in_the_ide.htm',
         title: Switching Languages in the IDE, url: /developers/user-guide/product-guide/advanced-features/multi-language-apps/switching-languages-in-the-ide}
       - {old_url: '/revisions/current/docs/user-guide/index.html?auto_vs__manual_language_switc.htm',
-        title: Auto vs. Manual Language Switching, url: /developers/user-guide/product-guide/advanced-features/multi-language-apps/auto-vs--manual-language-switc}
+        title: Auto vs. Manual Language Switching, url: /developers/user-guide/product-guide/advanced-features/multi-language-apps/auto-vs-manual-language-switc}
       - {old_url: '/revisions/current/docs/user-guide/index.html?relevant_api_methods.htm',
         title: Relevant API Methods, url: /developers/user-guide/product-guide/advanced-features/multi-language-apps/relevant-api-methods}
       url: /developers/user-guide/product-guide/advanced-features/multi-language-apps
@@ -637,7 +637,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?instance_names.htm',
         title: Instance Names, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/instance-names}
       - {old_url: '/revisions/current/docs/user-guide/index.html?crud___create_read_update_dele.htm',
-        title: CRUD - Create Read Update Delete, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/crud---create-read-update-dele}
+        title: CRUD - Create Read Update Delete, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/crud--create-read-update-dele}
       - {old_url: '/revisions/current/docs/user-guide/index.html?instance_linking.htm',
         title: Relational Apps & Instance Linking, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/instance-linking}
       - old_url: /revisions/current/docs/user-guide/index.html?uniqueness_and_integrity.htm
@@ -664,7 +664,7 @@ tree:
         title: Standard Storage Procedures
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?configuring_your_app_for_data_.htm',
-          title: Configuring your App for Data Storage, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/configuring-your-app-for-data-}
+          title: Configuring your App for Data Storage, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/configuring-your-app-for-data}
         - old_url: /revisions/current/docs/user-guide/index.html?submitting_an_instance.htm
           title: Submitting an Instance
           tree:
@@ -721,7 +721,7 @@ tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?joined_app_queries.htm',
             title: JOINed App Queries, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/joined-app-queries}
           - {old_url: '/revisions/current/docs/user-guide/index.html?crud__filtering.htm',
-            title: CRUD & Filtering, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud--filtering}
+            title: CRUD & Filtering, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-filtering}
           url: /developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage
         - old_url: /revisions/current/docs/user-guide/index.html?using_external_databases.htm
           title: Using External Databases
@@ -778,7 +778,7 @@ tree:
         title: Data Section Properties
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?configuring_the_app_to_access_.htm',
-          title: Configuring the App to Access Queries, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/configuring-the-app-to-access-'}
+          title: Configuring the App to Access Queries, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/configuring-the-app-to-access'}
         - {old_url: '/revisions/current/docs/user-guide/index.html?view.htm', title: View,
           url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/view'}
         - {old_url: '/revisions/current/docs/user-guide/index.html?anatomy_of_a_view.htm',
@@ -791,13 +791,13 @@ tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?typical_scenarios.htm',
             title: Single Field Widgets, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/typical-scenarios'}
           - {old_url: '/revisions/current/docs/user-guide/index.html?radio_buttons__checkboxes_and_.htm',
-            title: 'Radio Buttons, Checkboxes and Groups', url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/radio-buttons--checkboxes-and-'}
+            title: 'Radio Buttons, Checkboxes and Groups', url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/radio-buttons-checkboxes-and'}
           - {old_url: '/revisions/current/docs/user-guide/index.html?grids.htm', title: Grids,
             url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/grids'}
           - {old_url: '/revisions/current/docs/user-guide/index.html?repeater__data_containers.htm',
-            title: Repeater & Data Containers, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/repeater--data-containers'}
+            title: Repeater & Data Containers, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/repeater-data-containers'}
           - {old_url: '/revisions/current/docs/user-guide/index.html?list__dropdowns.htm',
-            title: List & Dropdowns, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/list--dropdowns'}
+            title: List & Dropdowns, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/list-dropdowns'}
           - {old_url: '/revisions/current/docs/user-guide/index.html?fieldscharts.htm',
             title: Charts, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/fieldscharts'}
           - {old_url: '/revisions/current/docs/user-guide/index.html?fieldsgauges.htm',
@@ -827,7 +827,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?view_filtering.htm',
         title: View Filtering, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/view-filtering'}
       - {old_url: '/revisions/current/docs/user-guide/index.html?using_the_same_query_multiple_.htm',
-        title: Using the same Query Multiple Times in an App, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/using-the-same-query-multiple-'}
+        title: Using the same Query Multiple Times in an App, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/using-the-same-query-multiple'}
       - {old_url: '/revisions/current/docs/user-guide/index.html?drilling_down.htm',
         title: Drilling Down, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/drilling-down'}
       - {old_url: '/revisions/current/docs/user-guide/index.html?importing_and_exporting_data.htm',
@@ -839,7 +839,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?session_management.htm',
         title: Session Management & Authentication, url: /developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/session-management}
       - {old_url: '/revisions/current/docs/user-guide/index.html?communication_between_parent__.htm',
-        title: Communication between Parent / Child Apps, url: /developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/communication-between-parent--}
+        title: Communication between Parent / Child Apps, url: /developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/communication-between-parent}
       url: /developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps
     - old_url: /revisions/current/docs/user-guide/index.html?authentication_for_your_apps.htm
       title: Authentication for Your Apps
@@ -893,7 +893,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?passing_data_to_apps_in_the_qu.htm',
         title: Passing data to Apps in the querystring, url: /developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/passing-data-to-apps-in-the-qu}
       - {old_url: '/revisions/current/docs/user-guide/index.html?passing_in_data_with_embedded_.htm',
-        title: Passing in data with Embedded Apps and Javascript, url: /developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded-}
+        title: Passing in data with Embedded Apps and Javascript, url: /developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded}
       - {old_url: '/revisions/current/docs/user-guide/index.html?reading_querystring_parameters.htm',
         title: Reading querystring parameters in your App, url: /developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/reading-querystring-parameters}
       - {old_url: '/revisions/current/docs/user-guide/index.html?user_parameter_groups.htm',
@@ -939,7 +939,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?server_side_rules.htm',
         title: Server Side Rules, url: /developers/user-guide/product-guide/advanced-features/workflow/server-side-rules}
       - {old_url: '/revisions/current/docs/user-guide/index.html?roles__stages.htm',
-        title: Roles & Stages, url: /developers/user-guide/product-guide/advanced-features/workflow/roles--stages}
+        title: Roles & Stages, url: /developers/user-guide/product-guide/advanced-features/workflow/roles-stages}
       - {old_url: '/revisions/current/docs/user-guide/index.html?workflow_diagram.htm',
         title: Workflow Diagram, url: /developers/user-guide/product-guide/advanced-features/workflow/workflow-diagram}
       - {old_url: '/revisions/current/docs/user-guide/index.html?attention_levels.htm',
@@ -1020,7 +1020,7 @@ tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?local_storage_example.htm',
       title: Local Storage, url: /developers/user-guide/data-storage/mobile-client-side-data-storage/local-storage-example}
     - {old_url: '/revisions/current/docs/user-guide/index.html?websql__sqlite.htm',
-      title: WebSQL, url: /developers/user-guide/data-storage/mobile-client-side-data-storage/websql--sqlite}
+      title: WebSQL, url: /developers/user-guide/data-storage/mobile-client-side-data-storage/websql-sqlite}
     - {old_url: '/revisions/current/docs/user-guide/index.html?sqlite.htm', title: SQLite,
       url: /developers/user-guide/data-storage/mobile-client-side-data-storage/sqlite}
     url: /developers/user-guide/data-storage/mobile-client-side-data-storage
@@ -1050,7 +1050,7 @@ tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?error_handling.htm',
       title: Error Handling, url: /developers/user-guide/data-storage/server-side-data-storage/error-handling}
     - {old_url: '/revisions/current/docs/user-guide/index.html?exposing_your_ssj_db_handlers_.htm',
-      title: Exposing your SSJ DB handlers to other systems, url: /developers/user-guide/data-storage/server-side-data-storage/exposing-your-ssj-db-handlers-}
+      title: Exposing your SSJ DB handlers to other systems, url: /developers/user-guide/data-storage/server-side-data-storage/exposing-your-ssj-db-handlers}
     url: /developers/user-guide/data-storage/server-side-data-storage
   url: /developers/user-guide/data-storage
 - old_url: /revisions/current/docs/user-guide/index.html?scripting__apis.htm
@@ -1091,7 +1091,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?your_own_error_handler.htm',
         title: Your Own Error Handler, url: /developers/user-guide/scripting-apis/client-scripting-overview/error-handling/your-own-error-handler}
       - {old_url: '/revisions/current/docs/user-guide/index.html?try__catch.htm',
-        title: Try & Catch, url: /developers/user-guide/scripting-apis/client-scripting-overview/error-handling/try--catch}
+        title: Try & Catch, url: /developers/user-guide/scripting-apis/client-scripting-overview/error-handling/try-catch}
       url: /developers/user-guide/scripting-apis/client-scripting-overview/error-handling
     - {old_url: '/revisions/current/docs/user-guide/index.html?network_availability_handling.htm',
       title: Network Availability Handling, url: /developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling}
@@ -1102,7 +1102,7 @@ tree:
         title: Introduction
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?where_are_the_events_.htm',
-          title: 'Where are the Events?', url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/where-are-the-events-}
+          title: 'Where are the Events?', url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/where-are-the-events}
         - {old_url: '/revisions/current/docs/user-guide/index.html?how_swirl_javascript_is_tied_i.htm',
           title: How Application Craft Javascript is tied into AC, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/how-swirl-javascript-is-tied-i}
         - {old_url: '/revisions/current/docs/user-guide/index.html?switching_between_code_and_lay.htm',
@@ -1110,7 +1110,7 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?writing_user_defined_functions.htm',
           title: Writing User Defined Functions, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/writing-user-defined-functions}
         - {old_url: '/revisions/current/docs/user-guide/index.html?for_those_who_know_javascript_.htm',
-          title: For those who know Javascript already, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/for-those-who-know-javascript-}
+          title: For those who know Javascript already, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/for-those-who-know-javascript}
         - {old_url: '/revisions/current/docs/user-guide/index.html?a_typical_javascript_function.htm',
           title: A typical Javascript function, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/a-typical-javascript-function}
         - {old_url: '/revisions/current/docs/user-guide/index.html?using_borwser_objects.htm',
@@ -1124,7 +1124,7 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?syntax_errors.htm',
           title: Syntax Errors, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/syntax-errors}
         - {old_url: '/revisions/current/docs/user-guide/index.html?search___replace.htm',
-          title: Search / Replace, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/search---replace}
+          title: Search / Replace, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/search--replace}
         - {old_url: '/revisions/current/docs/user-guide/index.html?code_higlighting.htm',
           title: Code Editor Color Schemes, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/code-higlighting}
         url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor
@@ -1156,7 +1156,7 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?widgetpopulatewidget.htm',
           title: populateWidget(), url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widgetpopulatewidget}
         - {old_url: '/revisions/current/docs/user-guide/index.html?the_assign_helper_function_.htm',
-          title: The assign() helper function, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/the-assign-helper-function-}
+          title: The assign() helper function, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/the-assign-helper-function}
         - old_url: /revisions/current/docs/user-guide/index.html?json__listboxes_and_grids.htm
           title: 'Widget Values : Reading & Writing User Entered Data'
           tree:
@@ -1165,9 +1165,9 @@ tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?dates.htm', title: Dates,
             url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/dates}
           - {old_url: '/revisions/current/docs/user-guide/index.html?lists__dropdown_widgets.htm',
-            title: 'Lists, Dropdowns, Context Menu & Mobiscroll List', url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists--dropdown-widgets}
+            title: 'Lists, Dropdowns, Context Menu & Mobiscroll List', url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists-dropdown-widgets}
           - {old_url: '/revisions/current/docs/user-guide/index.html?grids__repeater_containers.htm',
-            title: Grids, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids--repeater-containers}
+            title: Grids, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers}
           - {old_url: '/revisions/current/docs/user-guide/index.html?repeater_containers.htm',
             title: Repeater Containers, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/repeater-containers}
           url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data
@@ -1177,11 +1177,11 @@ tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?wdgetcontentsimple_widgets.htm',
             title: Simple Widgets, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/wdgetcontentsimple-widgets}
           - {old_url: '/revisions/current/docs/user-guide/index.html?lists__dropdowns.htm',
-            title: Lists & Dropdowns, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists--dropdowns}
+            title: Lists & Dropdowns, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists-dropdowns}
           - {old_url: '/revisions/current/docs/user-guide/index.html?mobile_list.htm',
             title: Mobile List & Navbar, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/mobile-list}
           - {old_url: '/revisions/current/docs/user-guide/index.html?widgetcontentgrids__repeater_containers.htm',
-            title: Grids, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers}
+            title: Grids, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers}
           - {old_url: '/revisions/current/docs/user-guide/index.html?widgetcontentrepeater_containers.htm',
             title: Repeater Containers, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentrepeater-containers}
           - {old_url: '/revisions/current/docs/user-guide/index.html?context_menu2.htm',
@@ -1220,7 +1220,7 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?setting_up_your_consumer_keys.htm',
           title: Setting up your Consumer Keys, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth/setting-up-your-consumer-keys}
         - {old_url: '/revisions/current/docs/user-guide/index.html?example__twitter.htm',
-          title: 'Example : Twitter', url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth/example--twitter}
+          title: 'Example : Twitter', url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth/example-twitter}
         - {old_url: '/revisions/current/docs/user-guide/index.html?authenticating_from_your_scrip.htm',
           title: Authenticating from your Script, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth/authenticating-from-your-scrip}
         url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth
@@ -1232,7 +1232,7 @@ tree:
     title: Client API
     tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?tutorials__examples.htm',
-      title: Training Videos, url: /developers/user-guide/scripting-apis/client-api/tutorials--examples}
+      title: Training Videos, url: /developers/user-guide/scripting-apis/client-api/tutorials-examples}
     - old_url: /revisions/current/docs/user-guide/index.html?objects__titbits.htm
       title: Objects & Titbits
       tree:
@@ -1263,11 +1263,11 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?open.htm', title: open(),
         url: /developers/user-guide/scripting-apis/client-api/useful-browser-functions/open}
       - {old_url: '/revisions/current/docs/user-guide/index.html?pagexoffset__pageyoffset.htm',
-        title: 'pageXOffset(), pageYOffset()', url: /developers/user-guide/scripting-apis/client-api/useful-browser-functions/pagexoffset--pageyoffset}
+        title: 'pageXOffset(), pageYOffset()', url: /developers/user-guide/scripting-apis/client-api/useful-browser-functions/pagexoffset-pageyoffset}
       - {old_url: '/revisions/current/docs/user-guide/index.html?scrollto.htm', title: 'scrollTo(),
           scrollBy()', url: /developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto}
       - {old_url: '/revisions/current/docs/user-guide/index.html?setinterval__settimeout_et_al.htm',
-        title: 'setInterval(), setTimeout()', url: /developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval--settimeout-et-al}
+        title: 'setInterval(), setTimeout()', url: /developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al}
       - {old_url: '/revisions/current/docs/user-guide/index.html?window_object.htm',
         title: window object, url: /developers/user-guide/scripting-apis/client-api/useful-browser-functions/window-object}
       - {old_url: '/revisions/current/docs/user-guide/index.html?screen_object.htm',
@@ -1306,34 +1306,34 @@ tree:
         title: populateWidget()
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?populatewidget_wizard.htm',
-          title: Populate Widget Map Wizard, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/populatewidget-wizard}
+          title: Populate Widget Map Wizard, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/populatewidget-wizard}
         - {old_url: '/revisions/current/docs/user-guide/index.html?listbox___dropdown_example.htm',
-          title: 'ListBoxes, Dropdowns and Context Menu Examples', url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/listbox---dropdown-example}
+          title: 'ListBoxes, Dropdowns and Context Menu Examples', url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/listbox--dropdown-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?mobile_list_example.htm',
-          title: Mobile List Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/mobile-list-example}
+          title: Mobile List Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobile-list-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?repeater_container_example.htm',
-          title: Repeater Container Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/repeater-container-example}
+          title: Repeater Container Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/repeater-container-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?advanced_google_maps_example.htm',
-          title: Advanced Google Maps Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/advanced-google-maps-example}
+          title: Advanced Google Maps Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/advanced-google-maps-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?audio__video_example.htm',
-          title: Video Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/audio--video-example}
+          title: Video Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/audio-video-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?photoswipe_example.htm',
-          title: Photoswipe Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/photoswipe-example}
+          title: Photoswipe Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/photoswipe-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?timeline_example.htm',
-          title: Timeline Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/timeline-example}
+          title: Timeline Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/timeline-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?calendar_widget2.htm',
-          title: Calendar Widget, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/calendar-widget2}
+          title: Calendar Widget, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/calendar-widget2}
         - {old_url: '/revisions/current/docs/user-guide/index.html?mobiscroll_list2.htm',
-          title: Mobiscroll List, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/mobiscroll-list2}
+          title: Mobiscroll List, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobiscroll-list2}
         - {old_url: '/revisions/current/docs/user-guide/index.html?zingcharts.htm',
-          title: Zing Charts, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/zingcharts}
+          title: Zing Charts, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/zingcharts}
         - {old_url: '/revisions/current/docs/user-guide/index.html?flot_charts2.htm',
-          title: Flot Charts, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/flot-charts2}
+          title: Flot Charts, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/flot-charts2}
         - {old_url: '/revisions/current/docs/user-guide/index.html?array_as_data_source_example.htm',
-          title: Array as Data Source Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/array-as-data-source-example}
+          title: Array as Data Source Example, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/array-as-data-source-example}
         - {old_url: '/revisions/current/docs/user-guide/index.html?complex_json_example.htm',
-          title: Complex JSON Examples, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/complex-json-example}
-        url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget()
+          title: Complex JSON Examples, url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/complex-json-example}
+        url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget
       url: /developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation
     - old_url: /revisions/current/docs/user-guide/index.html?general.htm
       title: App Functions
@@ -1711,7 +1711,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?data_view_related_events.htm',
         title: Data View Related Events, url: /developers/user-guide/scripting-apis/client-api/data-view-functions/data-view-related-events}
       - {old_url: '/revisions/current/docs/user-guide/index.html?mysql__postegres__oracle_etc.htm',
-        title: 'MySQL, Postegres, Oracle etc.', url: /developers/user-guide/scripting-apis/client-api/data-view-functions/mysql--postegres--oracle-etc}
+        title: 'MySQL, Postegres, Oracle etc.', url: /developers/user-guide/scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc}
       - {old_url: '/revisions/current/docs/user-guide/index.html?getviewdata.htm',
         title: getViewData(), url: /developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata}
       - {old_url: '/revisions/current/docs/user-guide/index.html?getting_data_for_charts.htm',
@@ -1750,7 +1750,7 @@ tree:
         title: bindViewData(), url: /developers/user-guide/scripting-apis/client-api/data-view-functions/setviewcallback}
       url: /developers/user-guide/scripting-apis/client-api/data-view-functions
     - {old_url: '/revisions/current/docs/user-guide/index.html?accessing_device_hardware__fea.htm',
-      title: Accessing Device Hardware & Features, url: /developers/user-guide/scripting-apis/client-api/accessing-device-hardware--fea}
+      title: Accessing Device Hardware & Features, url: /developers/user-guide/scripting-apis/client-api/accessing-device-hardware-fea}
     - old_url: /revisions/current/docs/user-guide/index.html?soap__restful_ajax_calls.htm
       title: SOAP & RESTful AJAX Calls
       tree:
@@ -1824,7 +1824,7 @@ tree:
         title: cancelNotifications(), url: /developers/user-guide/scripting-apis/client-api/workflow-functions/cancelnotificationsforinstance}
       url: /developers/user-guide/scripting-apis/client-api/workflow-functions
     - {old_url: '/revisions/current/docs/user-guide/index.html?mobile_device_hardware__featur.htm',
-      title: Mobile Device Hardware & Features, url: /developers/user-guide/scripting-apis/client-api/mobile-device-hardware--featur}
+      title: Mobile Device Hardware & Features, url: /developers/user-guide/scripting-apis/client-api/mobile-device-hardware-featur}
     - old_url: /revisions/current/docs/user-guide/index.html?others.htm
       title: Others
       tree:
@@ -2292,7 +2292,7 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?configuring_your_app.htm',
           title: Configuring your app, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app}
         - {old_url: '/revisions/current/docs/user-guide/index.html?sending_push_notifications_to_.htm',
-          title: Sending Push Notifications to your apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to-}
+          title: Sending Push Notifications to your apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to}
         url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications
       url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins
     url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build
@@ -2532,13 +2532,13 @@ tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?creating_a_new_widget.htm',
       title: Creating a New Widget, url: /developers/user-guide/adding-widgets-and-api-methods/overview/creating-a-new-widget}
     - {old_url: '/revisions/current/docs/user-guide/index.html?who_has_access_to_my_widget_.htm',
-      title: 'Who Has Access To My Widget?', url: /developers/user-guide/adding-widgets-and-api-methods/overview/who-has-access-to-my-widget-}
+      title: 'Who Has Access To My Widget?', url: /developers/user-guide/adding-widgets-and-api-methods/overview/who-has-access-to-my-widget}
     - {old_url: '/revisions/current/docs/user-guide/index.html?phase_i_of_development.htm',
       title: Phase I - Development, url: /developers/user-guide/adding-widgets-and-api-methods/overview/phase-i-of-development}
     - {old_url: '/revisions/current/docs/user-guide/index.html?refresh_ac_after_changes.htm',
       title: Refresh AC after Changes, url: /developers/user-guide/adding-widgets-and-api-methods/overview/refresh-ac-after-changes}
     - {old_url: '/revisions/current/docs/user-guide/index.html?phase_ii___production_ready.htm',
-      title: Phase II - Production Ready, url: /developers/user-guide/adding-widgets-and-api-methods/overview/phase-ii---production-ready}
+      title: Phase II - Production Ready, url: /developers/user-guide/adding-widgets-and-api-methods/overview/phase-ii--production-ready}
     - {old_url: '/revisions/current/docs/user-guide/index.html?starting_ac_in_safe_mode.htm',
       title: Starting AC in Safe Mode, url: /developers/user-guide/adding-widgets-and-api-methods/overview/starting-ac-in-safe-mode}
     - {old_url: '/revisions/current/docs/user-guide/index.html?css.htm', title: CSS,
@@ -2595,17 +2595,17 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?the_html_template.htm',
         title: The HTML Template, url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/the-html-template}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_1__setvalue.htm',
-        title: 'EXP 1 : this.setValue', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-1--setvalue}
+        title: 'EXP 1 : this.setValue', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-1-setvalue}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_2__this_edit.htm',
-        title: 'EXP 2 : this.edit', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-2--this-edit}
+        title: 'EXP 2 : this.edit', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-2-this-edit}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_3__binding_dialog_buttons.htm',
-        title: 'EXP 3 : binding dialog buttons', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-3--binding-dialog-buttons}
+        title: 'EXP 3 : binding dialog buttons', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-3-binding-dialog-buttons}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_4__the_dialog_code.htm',
-        title: 'EXP 4 : the dialog code', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-4--the-dialog-code}
+        title: 'EXP 4 : the dialog code', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-4-the-dialog-code}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_5__this_validatevalue.htm',
-        title: 'EXP 5 : this.validateValue', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-5--this-validatevalue}
+        title: 'EXP 5 : this.validateValue', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-5-this-validatevalue}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_6__this_collectvalue.htm',
-        title: 'EXP 6 : this.collectValue', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-6--this-collectvalue}
+        title: 'EXP 6 : this.collectValue', url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-6-this-collectvalue}
       - old_url: /revisions/current/docs/user-guide/index.html?using_ac_dialogs_in_your_dialo.htm
         title: Using AC Dialogs in Your Dialogs
         tree:
@@ -2621,7 +2621,7 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?layout_types_overview.htm',
         title: Layout Types Overview, url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/layout-framework/layout-types-overview}
       - {old_url: '/revisions/current/docs/user-guide/index.html?important_callbacks__hooks.htm',
-        title: Important Callbacks & Hooks, url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/layout-framework/important-callbacks--hooks}
+        title: Important Callbacks & Hooks, url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/layout-framework/important-callbacks-hooks}
       url: /developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/layout-framework
     - old_url: /revisions/current/docs/user-guide/index.html?extendcontainers.htm
       title: Containers

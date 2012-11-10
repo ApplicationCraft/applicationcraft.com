@@ -22,7 +22,7 @@ Please be aware that iOS handles alert and confirm in a different manner and it 
 
 You can build your own message handling using [showPagePopup()](../page-functions/showpagepopup) or [showMessage()](../app-functions/showmessage) , [showConfirm()](../app-functions/showconfirm) . If you are using alert() to do debugging, please read these chapters. It will save you a load of time.
 
- - [Debugging](../../client-scripting-overview/debugging-ac-scripts/index)
+ - [Debugging](../../client-scripting-overview/debugging-ac-scripts/)
 
- - [Error Handling](../../client-scripting-overview/error-handling/index)
+ - [Error Handling](../../client-scripting-overview/error-handling/)
 

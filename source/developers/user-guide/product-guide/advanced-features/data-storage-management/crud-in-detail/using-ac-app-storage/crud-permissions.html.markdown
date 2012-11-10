@@ -8,9 +8,9 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
 In order to provide proper security control, AC restricts access based upon the type of CRUD operation(Create, Read, Update, Delete) required. Access permissions are granted in the Console. Each of the CRUD operations can be found in the sharing section on the right hand side. For any of the Users or Groups listed, you can specify what CRUD related access rights they have.
 
@@ -22,7 +22,7 @@ In order to provide proper security control, AC restricts access based upon the 
 
  - Delete Instance - allows a foreign App to delete its Instances
 
-## See Also:
+**See Also:**
 
  - [Sharing](../../../../the-console/sharing)
 

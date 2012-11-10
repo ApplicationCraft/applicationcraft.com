@@ -14,6 +14,6 @@ Once a Query is defined, access permissions can be granted for security purposes
 
 The beauty of a Query is that once it is setup, it can be left alone and re-used by any number of Apps.
 
-Please refer to the [Query topic](../../the-console/console-tabs/queries/index) in the Console Documentation for full details.
+Please refer to the [Query topic](../../the-console/console-tabs/queries/) in the Console Documentation for full details.
 
 ![QW\_define\_join](/img/docs/qw_define_join.zoom69.png)

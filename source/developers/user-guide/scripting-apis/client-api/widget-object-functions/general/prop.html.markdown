@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result prop (propName, optional propValue)
+result **prop** (propName, optional propValue)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,14 +48,13 @@ The variable or object that contains the property value to be applied
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 The prop() function should be used to get or set a Widget property. It is used as an alternative to app.getProperty() or app.setProperty(). You might choose to use widgetObj.prop() when you are working with a Widget object rather than at the App level.
 
 To determine the property name, look in the property bar and remove any spaces. The property name is not case sensitive. For example, 'BG Color' should be specified as 'bgcolor' or 'BGColor'.
 
-See Also:
+## See Also:
 
  - [getProperty()](../../widget-functions/getproperty)
 

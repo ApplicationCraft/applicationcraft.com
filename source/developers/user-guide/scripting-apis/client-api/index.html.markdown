@@ -11,7 +11,7 @@ The functions listed in the following sections are exposed as standard through t
 <table>
 <tr>
 <td width="194">
-[Objects & Titbits](objects-titbits/index)
+[Objects & Titbits](objects-titbits/)
 
 </td>
 <td width="20">
@@ -23,7 +23,7 @@ Important information about objects and parameter types
 </tr>
 <tr>
 <td width="194">
-[Useful Browser Functions](useful-browser-functions/index)
+[Useful Browser Functions](useful-browser-functions/)
 
 </td>
 <td width="20">
@@ -35,7 +35,7 @@ Summary of useful standard browser functions
 </tr>
 <tr>
 <td width="194">
-[Widget Data & State Manipulation](widget-data-state-manipulation/index)
+[Widget Data & State Manipulation](widget-data-state-manipulation/)
 
 </td>
 <td width="20">
@@ -47,7 +47,7 @@ Dealing with widget values and states (visible, enabled, read-only)
 </tr>
 <tr>
 <td width="194">
-[App Functions](app-functions/index)
+[App Functions](app-functions/)
 
 </td>
 <td width="20">
@@ -59,7 +59,7 @@ Functions that operate at the App level
 </tr>
 <tr>
 <td width="194">
-[Page Functions](page-functions/index)
+[Page Functions](page-functions/)
 
 </td>
 <td width="20">
@@ -71,7 +71,7 @@ Page navigation functions
 </tr>
 <tr>
 <td width="194">
-[Widget Functions](widget-functions/index)
+[Widget Functions](widget-functions/)
 
 </td>
 <td width="20">
@@ -83,7 +83,7 @@ Functions that operate at the general Widget level
 </tr>
 <tr>
 <td width="194">
-[Widget Object Functions](widget-object-functions/index)
+[Widget Object Functions](widget-object-functions/)
 
 </td>
 <td width="20">
@@ -95,7 +95,7 @@ Functions available within certain widget objects
 </tr>
 <tr>
 <td width="194">
-[Instance Data Functions](instance-data-functions/index)
+[Instance Data Functions](instance-data-functions/)
 
 </td>
 <td width="20">
@@ -107,7 +107,7 @@ These allow you to manage data Instances
 </tr>
 <tr>
 <td width="194">
-[Data View Functions](data-view-functions/index)
+[Data View Functions](data-view-functions/)
 
 </td>
 <td width="20">
@@ -119,7 +119,7 @@ Functions that allow you to interact with Data Views
 </tr>
 <tr>
 <td width="194">
-[SOAP & Restful Ajax Calls](soap-restful-ajax-calls/index)
+[SOAP & Restful Ajax Calls](soap-restful-ajax-calls/)
 
 </td>
 <td width="20">
@@ -131,7 +131,7 @@ These calls allow a very easy way of making Web Service calls. You can control a
 </tr>
 <tr>
 <td width="194">
-[Multi Language Apps](multi-language-apps/index)
+[Multi Language Apps](multi-language-apps/)
 
 </td>
 <td width="20">
@@ -143,7 +143,7 @@ Functions for Multi Language Apps
 </tr>
 <tr>
 <td width="194">
-[Conversion Functions](conversion-functions/index)
+[Conversion Functions](conversion-functions/)
 
 </td>
 <td width="20">
@@ -155,7 +155,7 @@ Useful functions to convert between Javascript Objects, JSON strings, XML string
 </tr>
 <tr>
 <td width="194">
-[Global Data Pool Functions](global-data-pool-functions/index)
+[Global Data Pool Functions](global-data-pool-functions/)
 
 </td>
 <td width="20">
@@ -167,7 +167,7 @@ A very useful way of storing data or entire App snapshots so when you switch bet
 </tr>
 <tr>
 <td width="194">
-[Workflow Functions](workflow-functions/index)
+[Workflow Functions](workflow-functions/)
 
 </td>
 <td width="20">
@@ -179,7 +179,7 @@ Functions that allow you to assign data instances to Roles, Persons and Groups. 
 </tr>
 <tr>
 <td width="194">
-[Others](others/index)
+[Others](others/)
 
 </td>
 <td width="20">
@@ -191,7 +191,7 @@ Email, oAuth and cookies
 </tr>
 <tr>
 <td width="194">
-[Date & Time Management Functions](date-time-management-functions/index)
+[Date & Time Management Functions](date-time-management-functions/)
 
 </td>
 <td width="20">

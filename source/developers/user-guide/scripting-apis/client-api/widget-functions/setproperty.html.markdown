@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## int setProperty (widget, propertyName, value)
+int **setProperty** (widget, propertyName, value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,8 +48,7 @@ the value to set the property to
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Use this property to set a property value from the specified Widget. The property name can be derived from the property name in the Property Bar of the Designer for the selected Widget. To determine the property name, hover over the property name and the actual property name will be shown. In most cases this may be similar to the main property name. The property name is not case sensitive.
 
@@ -61,15 +60,15 @@ The page 'BG Image' property should be specified as 'backgroundimage' or 'backgr
 
 You can also check the available properties for a specific widget using [debugProperties()](../app-functions/debugproperties)
 
-    app.setProperty('myTextBox', 'color', '#ffffff');
-    app.setProperty(['myTextBox', 'myOtherTextBox'], 'color', '#ffffff');
-    obj = app.w('myTextBox');
-    app.setProperty(obj, 'color', '#ffffff'); // shows how a Widget object can be passed
+    app.setProperty('myTextBox',@'color',@'#ffffff');
+    app.setProperty(['myTextBox',@'myOtherTextBox'],@'color',@'#ffffff');
+    obj@=@app.w('myTextBox');
+    app.setProperty(obj,@'color',@'#ffffff');@//@shows@how@a@Widget@object@can@be@passed
    
 
-See Also:
+## See Also:
 
- - [getProperty()](getproperty)
+ - [getProperty()](getproperty.htm)
 
  - [visible()](../widget-data-state-manipulation/visible)
 

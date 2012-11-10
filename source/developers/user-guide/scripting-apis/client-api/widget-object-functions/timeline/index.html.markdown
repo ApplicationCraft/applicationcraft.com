@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-Refer to the [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index) section for general usage information.
+Refer to the [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/) section for general usage information.
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>

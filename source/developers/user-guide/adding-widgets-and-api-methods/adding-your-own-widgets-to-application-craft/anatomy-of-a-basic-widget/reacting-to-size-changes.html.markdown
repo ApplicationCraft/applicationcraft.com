@@ -16,13 +16,13 @@ Your Widgets can change size in one of several ways.
 
 In any of these cases, you may wish for your widget to adjust itself depending on the new size.
 
-    /**
-    * Widget update function
-    */
-    p._updateLayout = function(){
-    widget._sc._updateLayout.apply(this, arguments);
-    //put your code here to reflect on size properties changed
-    };
+        /**
+         * Widget update function
+         */
+        p._updateLayout = function(){
+            widget._sc._updateLayout.apply(this, arguments);
+            //put your code here to reflect on size properties changed
+        };
     this.width()
     this.height()
     this.pWidth()

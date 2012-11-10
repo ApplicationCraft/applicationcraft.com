@@ -11,10 +11,10 @@ The SSJ Events use the user object. This object is used to access all details re
 It has the following structure
 
     {
-    'login' : login,
-    'id' : id,
-    'name' :sername,
-    'ip' : ip
+        'login' : login, 
+        'id' : id, 
+        'name' :sername, 
+        'ip' : ip
     }
    
 

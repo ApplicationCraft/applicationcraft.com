@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## token ssj.zooz.payment (params, isSandbox)
+token **ssj.zooz.payment** (params, isSandbox)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,24 +36,23 @@ If true, then test payments will be made in test mode (see below)
 </td>
 </tr>
 </table>
+## Return Value
 
-Return Value
+## Returns a token (synchronously) that should be passed back to the client side callback function.
 
-Returns a token (synchronously) that should be passed back to the client side callback function.
-
-Description
+## Description
 
 This function must be called when you are ready to process a payment. You will get back a token that should be passed back to the client App by returning the token form your SSJ function.
 
-Please refer to the [sample application](../../../../product-guide/advanced-features/credit-card-payment-processing/index) to see a comprehensive example and overview of the entire process.
+Please refer to the [sample application](../../../../product-guide/advanced-features/credit-card-payment-processing/) to see a comprehensive example and overview of the entire process.
 
-Example
+## Example
 
 This function should be called when you have populated your server a
 
-    function zooz_payment() {
-    var token = ssj.zooz.payment(params, isSandbox);
-    return token;
+    function@zooz_payment()@{
+        var token = ssj.zooz.payment(params, isSandbox);
+        return token;
     }
    
 

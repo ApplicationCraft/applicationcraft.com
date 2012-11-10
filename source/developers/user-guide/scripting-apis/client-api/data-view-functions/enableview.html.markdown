@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## enableView (viewName, state)
+**enableView** (viewName, state)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,14 +36,13 @@ the state of enable view
 </td>
 </tr>
 </table>
+## Description
 
-Description
-
-This enables (state=true) or disables (state=false) the specified View as defined in the [Data Manager](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/configuring-the-app-to-access-) . The View Name is the name specified in the "Queries Used" section.
+This enables (state=true) or disables (state=false) the specified View as defined in the [Data Manager](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/configuring-the-app-to-access) . The View Name is the name specified in the "Queries Used" section.
 
 If a View is disabled, then it will not request data from the source when drill-down type actions occur. You can force a Widget to refresh its data from a View by using the [refreshData()](../widget-functions/refreshdata) function.
 
-See Also:
+## See Also:
 
  - [refreshData()](../widget-functions/refreshdata)
 

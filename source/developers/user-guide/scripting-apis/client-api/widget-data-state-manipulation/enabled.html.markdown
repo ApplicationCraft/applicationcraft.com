@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## enabled (widget, value)
+**enabled** (widget, value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -37,21 +37,22 @@ the value to set the property to: true/false
 </tr>
 </table>
 
-Description
+## Description
 
 This is a utility function that enables you to set the 'enable' property of one or more Widgets. It is the functional equivalent to app.setProperty('widgetName', 'enable', true|false). Its purpose is simply to reduce the amount of code and also to make code easier to read.
 
-Example
+## Example
 
-    app.enabled(["timeColor", "shapeColor"], true);  // make the listed widgets enabled
-    app.enabled(["timeColor"], true);                // make a single widget enabled
+    app.enabled(["timeColor",@"shapeColor"],@true);@@//@make@the@listed@widgets@enabled
+    app.enabled(["timeColor"],@true);@@@@@@@@@@@@@@@@//@make@a@single@widget@enabled
+        
    
 
-See Also:
+## See Also:
 
- - [visible()](visible)
+ - [visible()](visible.htm)
 
- - [readOnly()](readonly)
+ - [readOnly()](readonly.htm)
 
  - [setProperty()](../widget-functions/setproperty)
 

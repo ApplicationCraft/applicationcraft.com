@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## closePagePopup (pageName)
+**closePagePopup** (pageName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,22 +24,21 @@ the Page Name, Page Number or  Page GUID of the page to close.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Close a page that is shown as a popup dialog (using showPagePopup()).
 
 The page event On Page Leave will be called after closePagePopup().
 
-See Also:
+## See Also:
 
- - [pageJump()](pagejump)
+ - [pageJump()](pagejump.htm)
 
- - [pageNext()](pagenext)
+ - [pageNext()](pagenext.htm)
 
- - [pagePrevious()](pageprevious)
+ - [pagePrevious()](pageprevious.htm)
 
- - [pageBack()](pageback)
+ - [pageBack()](pageback.htm)
 
- - [showPagePopup()](showpagepopup)
+ - [showPagePopup()](showpagepopup.htm)
 

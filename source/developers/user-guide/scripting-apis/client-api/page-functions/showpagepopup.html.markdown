@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## showPagePopup ()
+**showPagePopup** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,24 +24,23 @@ the Page Name, Page Number or  Page GUID of the page to display.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 You can display any AC page as a popup dialog. This allows you to create modal dialogs that can appear over the current page rather than switch away from the current page to the new page.
 
 To control the appearance of popup pages, you may want to set the Page's border and border radius properties.
 
-The page events On Page Show will be called after showPagePopup() to allow you to initialize any fields within the dialog. You use [closePagePopup()](closepagepopup) to remove the page dialog.
+The page events On Page Show will be called after showPagePopup() to allow you to initialize any fields within the dialog. You use [closePagePopup()](closepagepopup.htm) to remove the page dialog.
 
-See Also:
+## See Also:
 
- - [pageJump()](pagejump)
+ - [pageJump()](pagejump.htm)
 
- - [pageNext()](pagenext)
+ - [pageNext()](pagenext.htm)
 
- - [pagePrevious()](pageprevious)
+ - [pagePrevious()](pageprevious.htm)
 
- - [pageBack()](pageback)
+ - [pageBack()](pageback.htm)
 
- - [closePagePopup()](closepagepopup)
+ - [closePagePopup()](closepagepopup.htm)
 

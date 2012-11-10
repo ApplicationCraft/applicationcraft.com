@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## resetView (viewName)
+**resetView** (viewName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,12 +24,11 @@ The name (or Widget ID) of the View
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This resets all drill-down filters associated with the specified Data View. All Widgets that have their Listen property set to true will then automatically reload their data.
 
-See Also:
+## See Also:
 
-[reloadView()](reloadview)
+[reloadView()](reloadview.htm)
 

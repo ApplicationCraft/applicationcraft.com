@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## assignInstance (instanceId, optional roleName, optional users, optional groups, attentionLevel, cancelCondition, cancelAction, callback)
+**assignInstance** (instanceId, optional roleName, optional users, optional groups, attentionLevel, cancelCondition, cancelAction, callback)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -108,8 +108,7 @@ Called when AC has completed execution
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This is the main workflow function that is used to assign an App instance to one or more Roles, Persons or Groups. If the instanceId is not specified, then the current instance is assumed.
 

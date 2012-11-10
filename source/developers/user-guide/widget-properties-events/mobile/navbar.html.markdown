@@ -11,7 +11,7 @@ This is used as a way of navigating around an App or for triggering other action
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -71,7 +71,7 @@ This is where you can prefill your widget either manually or by importing a CSV 
 </tr>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -197,7 +197,7 @@ If set to True, this displays the Widget on either all pages except ones you spe
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -247,7 +247,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -347,7 +347,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -368,7 +368,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 </tr>
@@ -386,7 +386,7 @@ On Click
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
  - [General Events](../events/event-reference-list/general-events)
 

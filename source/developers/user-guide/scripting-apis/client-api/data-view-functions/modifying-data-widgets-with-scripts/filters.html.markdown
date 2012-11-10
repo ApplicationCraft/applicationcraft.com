@@ -16,10 +16,10 @@ Application Craft deals with Filter in a way that allows conditions to be nicely
 
     {person.gender}='Male'
     {person.gender}=[Form.Widgets.ddGender]
-    app.setProperty('widgetName', 'filter',  ['{person.gender}="Male"']);
-    ({person.country}="USA" OR {person.country}="Canada") AND ({person.age}>[Form.Widgets.numMinAge] AND {person.age}>[Form.Widgets.numMinAge])
+    app.setProperty('widgetName',@'filter',@@['{person.gender}="Male"']);
+    ({person.country}="USA"@OR@{person.country}="Canada")@AND@({person.age}>[Form.Widgets.numMinAge]@AND@{person.age}>[Form.Widgets.numMinAge])
     var filterArray = ["({person.country}='USA'}) OR ({person.country}='Canada')","{person.age}>=[Form.Widgets.numMinAge]","{person.age}<=[Form.Widgets.numMaxAge}"];
-    app.setProperty('widgetName', 'filter', filterArray);
+    app.setProperty('widgetName',@'filter',@filterArray);
    
 
 In this case you can simple set the Filter as follows
@@ -30,7 +30,7 @@ If we take the following logical expression
 
 You would use the following approach, which constructs an array with three elements, one for each of the AND'd clauses. Note that each expression either side of the OR must be bracketed.
 
-## Important
+**Important**
 
  - Each of the expressions that are OR'd must be enclosed in brackets.
 
@@ -38,19 +38,19 @@ You would use the following approach, which constructs an array with three eleme
 
  - If you need to access View data in the background, without the need to populate widgets, you should can use the [getViewData()](../getviewdata) function,
 
-Filtering Dates
+## Filtering Dates
 
 Refer to the next section for information on how to filter dates.
 
-See Also:
+## See Also:
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 
- - [Filtering Dates](filtering-dates)
+ - [Filtering Dates](filtering-dates.htm)
 
  - [getViewData()](../getviewdata)
 
- - [Drill Filter](refdrill-filter)
+ - [Drill Filter](refdrill-filter.htm)
 
  - [drillDownBroadcast()](../drilldownbroadcast)
 

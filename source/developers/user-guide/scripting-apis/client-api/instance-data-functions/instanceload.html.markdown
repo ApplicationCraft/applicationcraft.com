@@ -6,15 +6,15 @@ full_width: true
 ---
 
 
-## instanceLoad (instanceId, optional openInSamePage, optional callback, optional roleId)
+**instanceLoad** (instanceId, optional openInSamePage, optional callback, optional roleId)
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -66,12 +66,11 @@ Workflow Role ID to indicate the role of the person who will be accessing this i
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This loads the specified Instance ID into its App. Once loaded, the callback function will be called. For this, use the [switchApp()](../app-functions/switchapp) function.
 
-Callback Function
+## Callback Function
 
 The callback function is optional and has the following format
 
@@ -81,19 +80,19 @@ callback(error, instanceId)
 
 {instanceId} is the ID of the Instance loaded
 
-See Also:
+## See Also:
 
  - [switchApp()](../app-functions/switchapp)
 
- - [instanceNew()](instancenew)
+ - [instanceNew()](instancenew.htm)
 
- - [instanceCreate()](instancecreate)
+ - [instanceCreate()](instancecreate.htm)
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](instancesave.htm)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](instancedelete.htm)
 
- - [instanceSync()](instancesync)
+ - [instanceSync()](instancesync.htm)
 
  - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 

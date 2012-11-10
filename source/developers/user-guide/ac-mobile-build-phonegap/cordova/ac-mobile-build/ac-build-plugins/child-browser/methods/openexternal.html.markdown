@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## openExternal (url, optional usePhoneGap)
+**openExternal** (url, optional usePhoneGap)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -17,6 +17,7 @@ url
 
 </td>
 <td width="29">
+        
       
 
 </td>
@@ -31,6 +32,7 @@ usePhonegap
 
 </td>
 <td width="29">
+        
       
 
 </td>
@@ -40,12 +42,11 @@ The browser will be a PhoneGap-enabled webview
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 (Android only) Opens the URL in a regular browser
 
-## Example
+**Example**
 
     window.plugins.childBrowser.openExternal('http://www.google.com');
    

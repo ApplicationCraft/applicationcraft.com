@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Accessing Data Lists is the same as for any other Queries. This process is described in the [Data Integration](../data-integration,-reporting-dashboards/index) section.
+Accessing Data Lists is the same as for any other Queries. This process is described in the [Data Integration](../data-integration,-reporting-dashboards/) section.
 
 If you need to access your product lists from Javascript, you have two choices
 

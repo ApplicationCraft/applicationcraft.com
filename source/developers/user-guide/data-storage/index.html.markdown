@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
- - [Mobile & Client Side Data Storage](mobile-client-side-data-storage/index)
+ - [Mobile & Client Side Data Storage](mobile-client-side-data-storage/)
 
- - [Server Side Data Storage](server-side-data-storage/index)
+ - [Server Side Data Storage](server-side-data-storage/)
 

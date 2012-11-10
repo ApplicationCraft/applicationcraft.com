@@ -10,7 +10,7 @@ There are certain things you should be aware of that affect performance with Rep
 
 If you throw 100 rows at it, then this is probably fine on a desktop browser but probably awful on a smartphone. The trick is to plan the way you manage your data.
 
-Elements Per Page Property
+## Elements Per Page Property
 
 This specified the maximum number of records that the Repeater Container will load. You can then use Data Paging (next topic) to move through your data source. There are also API methods [fetchDataPage()](../../../../scripting-apis/client-api/data-view-functions/fetchdatapage) and [drawNextPage()](../../../../scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) that support data page navigation.
 

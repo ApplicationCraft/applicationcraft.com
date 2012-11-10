@@ -8,7 +8,7 @@ full_width: true
 
 setStage (stageName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,8 +24,7 @@ The name of the Stage to change to; must be a Stage defined within the [Workflow
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This sets the Stage for your App.
 
@@ -33,7 +32,7 @@ The Stage is actually an internal property of the App Instance (record). The Sta
 
 An error will be triggered if you specify an invalid stage name as soon as you call setStage() and again once the instance is saved.
 
-See Also:
+## See Also:
 
- - [getStage()](getstage)
+ - [getStage()](getstage.htm)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result getACVersion ()
+result **getACVersion** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,13 +24,14 @@ returns string array [majorVersion, minorVersion, fixVersion]
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Returns a string array of majorVersion, minorVersion and fixVersion.
 
-Example
+## Example
 
-    app.getACVersion();  // returns [1,20,0]
+     
+    app.getACVersion();@@//@returns@[1,20,0]
+     
    
 

@@ -11,21 +11,19 @@ There are some handy events that are called when things happen with Data Views
 <table>
 <tr>
 <td width="129">
-## Widget Type
+**Widget Type**
 
 </td>
 <td width="10">
-
 </td>
 <td width="259">
-## Event Name
+**Event Name**
 
 </td>
 <td width="12">
-
 </td>
 <td width="1126">
-## Description
+**Description**
 
 </td>
 </tr>
@@ -35,14 +33,12 @@ App
 
 </td>
 <td width="10">
-
 </td>
 <td width="259">
-## onDrillDown (viewName, widgetId, filters, resetFlag)
+**onDrillDown** (viewName, widgetId, filters, resetFlag)
 
 </td>
 <td width="12">
-
 </td>
 <td width="1126">
 Called when a Drill Down has been triggered and data is about to be requested.
@@ -55,17 +51,15 @@ Grid, Repeater
 
 </td>
 <td width="10">
-
 </td>
 <td width="259">
-## onRowLoaded (index, createdRow)
+**onRowLoaded** (index, createdRow)
 
 </td>
 <td width="12">
-
 </td>
 <td width="1126">
-Called whenever a Grid or Repeater Widget has a row of data added (either from a Data View or the [setData()](../widget-data-state-manipulation/setdata) or [populateWidget()](../widget-data-state-manipulation/populatewidget()/index) functions
+Called whenever a Grid or Repeater Widget has a row of data added (either from a Data View or the [setData()](../widget-data-state-manipulation/setdata) or [populateWidget()](../widget-data-state-manipulation/populatewidget/) functions
 
 </td>
 </tr>
@@ -75,14 +69,12 @@ All Data Enabled Widgets
 
 </td>
 <td width="10">
-
 </td>
 <td width="259">
-## onDataLoaded (error, data)
+**onDataLoaded** (error, data)
 
 </td>
 <td width="12">
-
 </td>
 <td width="1126">
 This is called once data has been fully loaded to  When a widget is in a container,When a widget is in a container it is the container which is loading data, so this event listens to the container.
@@ -91,17 +83,14 @@ This is called once data has been fully loaded to  When a widget is in a contai
 </tr>
 <tr>
 <td width="129">
-
 </td>
 <td width="10">
-
 </td>
 <td width="259">
-## onDataReset ()
+**onDataReset** ()
 
 </td>
 <td width="12">
-
 </td>
 <td width="1126">
 Called if a Data View has its Drill Down filter reset.
@@ -109,12 +98,11 @@ Called if a Data View has its Drill Down filter reset.
 </td>
 </tr>
 </table>
+## Example
 
-Example
-
-    function handler_rptTest_onRowLoaded(index, createdRow){
-    calc = createdRow.w('lblA').value().toUpperCase();
-    app.setValue(createdRow.w('lblCalc'), calc);
+    function@handler_rptTest_onRowLoaded(index,@createdRow){
+        calc = createdRow.w('lblA').value().toUpperCase();
+        app.setValue(createdRow.w('lblCalc'), calc);
     }
     calc = createdRow.w('lblA').value().toUpperCase();
    

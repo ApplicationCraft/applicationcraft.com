@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-## {string} appName ()
+{string} **appName** ()
 
-Return Value
+## Return Value
 
-Returns the name of the App that the server side script belongs to. This is the same name that can be seen in the Application Craft Console.
+## Returns the name of the App that the server side script belongs to. This is the same name that can be seen in the Application Craft Console.
 
-    var strName = ssj.appName();
+    var@strName@=@ssj.appName();
    
 

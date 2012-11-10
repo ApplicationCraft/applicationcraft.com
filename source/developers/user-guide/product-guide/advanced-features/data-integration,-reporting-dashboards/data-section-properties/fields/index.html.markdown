@@ -8,13 +8,13 @@ full_width: true
 
 Having selected a View, you will now want to specify which fields are used to supply the Widget with its data. When you click in the Fields property, you will use the Expression Builder to select the fields. The Expression builder will let you select not just a simple field but expressions combining multiple fields and functions.
 
-Simple Widgets
+## Simple Widgets
 
 For widgets that have a single data value (text Widget for example), the left column will contain a single item 'value'. This tells AC to map the data returned and assign it to the Widget's value property.
 
 ![txt\_expr](/img/docs/txt_expr.zoom77.png)
 
-Grids, Repeater & Data Containers, Lists and Dropdowns
+## Grids, Repeater & Data Containers, Lists and Dropdowns
 
 These have a multi-dimensional data structure and so there will be an item and associated expression for each element of the Widget. These elements are
 
@@ -28,9 +28,9 @@ These have a multi-dimensional data structure and so there will be an item and a
 
 ![list\_expr](/img/docs/list_expr.zoom66.png)
 
-## See Also:
+**See Also:**
 
- - [Using Automatic Property Settings](using-automatic-property-setti)
+ - [Using Automatic Property Settings](using-automatic-property-setti.htm)
 
 Related Video:
 

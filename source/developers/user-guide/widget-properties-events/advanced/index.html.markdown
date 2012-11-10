@@ -8,7 +8,7 @@ full_width: true
 
 Advanced Widgets are also accessed from the left hand Toolbox, by clicking on the Advanced section of the accordion menu.
 
-## In This Section:
+**In This Section:**
 
 [Grid](grid)
 

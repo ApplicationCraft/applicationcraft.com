@@ -6,18 +6,18 @@ full_width: true
 ---
 
 
-## {string} getUUID ()
+{string} **getUUID** ()
 
-Return Value
+## Return Value
 
-A unique identifier string.
+## A unique identifier string.
 
-Description
+## Description
 
 Use this function if you need to get a unique identifier of the following format '550e8400-e29b-41d4-a716-446655440000'.
 
-Example
+## Example
 
-    strUID = ssj.getUUID();
+    strUID@=@ssj.getUUID();
    
 

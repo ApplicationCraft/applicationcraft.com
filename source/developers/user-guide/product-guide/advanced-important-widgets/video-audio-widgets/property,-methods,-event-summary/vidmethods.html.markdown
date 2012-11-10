@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Video & Audio Widget](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/index) Reference section.
+The following method table is a summary of the methods available for the Widget object. Each method is described in detail in the [Video & Audio Widget](../../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/) Reference section.
 
 HTML5 Audio, HTML5 Video and YouTube widget
 

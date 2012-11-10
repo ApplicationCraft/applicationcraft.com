@@ -8,7 +8,7 @@ full_width: true
 
 object w(widgetName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,22 +24,21 @@ the name of the Widget to locate
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function locates the specified Widget within the App if used as app.w('myWidget'). It returns the Widget object.
 
 However, you can also use it as follows
 
-    myContainer = app.w("myRepeater");
-    widgetObject = myContainer.w("textField");
+    myContainer@=@app.w("myRepeater");
+    widgetObject@=@myContainer.w("textField");
    
 
 In this case, you can see how the w() function can be used to locate a Widget inside a Container Widget.
 
-See Also:
+## See Also:
 
- - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/index)
+ - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 
  - [userParameterSet()](../app-functions/userparameterset)
 

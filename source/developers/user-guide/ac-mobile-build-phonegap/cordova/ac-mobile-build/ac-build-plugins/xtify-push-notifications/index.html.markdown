@@ -8,7 +8,7 @@ full_width: true
 
 The Xtify Push Notifications Plugins enables send notifications to your native apps.
 
-HTML5+CSS+JS Apps not developed in Application Craft
+## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following
 
@@ -21,11 +21,11 @@ If you have developed your App outside Application Craft then please do the foll
 In your index.html include
 
       XtifyCordovaPlugin.js
-      <gap:plugin name="Xtify" version="1.0.0" >
-      <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_ANDROID" platform="android"/>
-      <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_IOS" platform="ios"/>
-      <parameter name="XTIFY_SENDER_ID" value="XTIFY_SENDER_ID_VALUE" />
-      </gap:plugin><gap:plugin name="ChildBrowser" version="1.0.0" />
+      <gap:plugin@name="Xtify"@version="1.0.0"@>
+        <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_ANDROID" platform="android"/>
+        <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_IOS" platform="ios"/>
+        <parameter name="XTIFY_SENDER_ID" value="XTIFY_SENDER_ID_VALUE" />
+      </gap:plugin><gap:plugin@name="ChildBrowser"@version="1.0.0"@/>
      
 
 </tr>
@@ -40,7 +40,7 @@ You should replace x.y.z in version='x.y.z' depending on which version of Cordov
 
  - Cordova 2.1.0 or later use "2.1.0"
 
-Apps Developed with Application Craft
+## Apps Developed with Application Craft
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ To obtain keys, you need to first register at [https://console.xtify.com/registr
 
 The Free account is suitable for 10,000 notifications but for larger volumes see [http://www.xtify.com/pricing.html](http://www.xtify.com/pricing.html) .
 
-## In This Section:
+**In This Section:**
 
  - [Google Cloud Messaging](google-cloud-messaging)
 
@@ -152,5 +152,5 @@ The Free account is suitable for 10,000 notifications but for larger volumes see
 
  - [Configuring your app](configuring-your-app)
 
- - [Sending Push Notifications to your apps](sending-push-notifications-to-)
+ - [Sending Push Notifications to your apps](sending-push-notifications-to)
 

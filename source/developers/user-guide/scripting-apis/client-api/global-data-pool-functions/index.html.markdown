@@ -8,7 +8,7 @@ full_width: true
 
 These functions allow values and entire instances to be saved outside the scope of an individual App. This is especially useful when switching between Apps with [switchApp()](../app-functions/switchapp) or as a way of passing data between Apps running within the same browser session.
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>
@@ -48,8 +48,7 @@ Removes a variable from the Global Data Pool
 </td>
 </tr>
 </table>
-
-See Also:
+## See Also:
 
  - [App Switching](../../client-scripting-overview/scripting-with-javascript/important-details/app-switching)
 

@@ -6,20 +6,22 @@ full_width: true
 ---
 
 
-## visibleTab (index,true/false)
+**visibleTab** (index,true/false)
 
-Description
+## Description
 
 Hide/show a tab.
 
 Please note that you cannot make a selected tab invisible.
 
-Example
+## Example
 
-    app.w("Tab").visibleTab(1,false); // Hide the 2nd tab in the tab container
+     
+    app.w("Tab").visibleTab(1,false);@//@Hide@the@2nd@tab@in@the@tab@container
+     
    
 
-## See Also:
+**See Also:**
 
  - [visible()](../../widget-data-state-manipulation/visible)
 

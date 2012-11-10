@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## dataSetStates (strPageOrWidget)
+**dataSetStates** (strPageOrWidget)
 
-## dataSetStates (strPageOrWidgets[])
+**dataSetStates** (strPageOrWidgets[])
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -38,48 +38,45 @@ An array of objects containing widget key names and values
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 This does not return a value.
 
-Description
+## Description
 
-This function performs the inverse of [app.dataGetStates()](datagetstates) . You pass in an object that is made up of key names that must correspond to Widget names. The object associated with each key is then used to set the state properties of those widgets.
+This function performs the inverse of [app.dataGetStates()](datagetstates.htm) . You pass in an object that is made up of key names that must correspond to Widget names. The object associated with each key is then used to set the state properties of those widgets.
 
 Each object can contain any number of widgets but must be formatted as follows. Any extra key fields will be ignored and will not generate an error.
 
     {
-    "txtFirstName":{
-    "visible":true|false,
-    "enabled":true|false
-    },
-    "txtLast":{
-    "visible":true|false,
-    "enabled":true|false
-    }
+     "txtFirstName":{
+       "visible":true|false,
+       "enabled":true|false
+     },
+     "txtLast":{
+       "visible":true|false,
+     "enabled":true|false
+     }
     };
+        var rObj = {"txtFirst":{"visible":false}, "txtLast":{"visible":false}};
+        app.dataSetStates(rObj);
    
 
-Examples
+## Examples
 
 The following example populates two widgets. The third widget does not exist but the system will simply ignore it, so it is safe to mix in other key fields.
 
-    var rObj = {"txtFirst":{"visible":false}, "txtLast":{"visible":false}};
-    app.dataSetStates(rObj);
-   
+## See Also:
 
-See Also:
+ - [dataGetValues()](datagetvalues.htm)
 
- - [dataGetValues()](datagetvalues)
+ - [dataGetStates()](datagetstates.htm)
 
- - [dataGetStates()](datagetstates)
+ - [dataSetValues()](datasetvalues.htm)
 
- - [dataSetValues()](datasetvalues)
+ - [Server Side Data Storage](../../../data-storage/server-side-data-storage/)
 
- - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+ - [SSJ database functions](../../../data-storage/server-side-data-storage/)
 
- - [SSJ database functions](../../../data-storage/server-side-data-storage/index)
-
- - [Instance Data Functions](../instance-data-functions/index)
+ - [Instance Data Functions](../instance-data-functions/)
 

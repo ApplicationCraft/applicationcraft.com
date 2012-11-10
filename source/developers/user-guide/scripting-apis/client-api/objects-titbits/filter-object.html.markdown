@@ -17,11 +17,12 @@ AC handles filters in a slightly complex way (that may be simplified soon). This
 You would need an array with 2 elements as shown below. Each element is an expression that is ANDed with the next expression element.
 
     ["{person.gender}=[Form.Widgets.ddGender]","{person.age}>[Form.Widgets.numMinAge])OR({person.age}>[Form.Widgets.numMinAge])}]
-    app.setProperty("widgetName", 'filter', objArray);
-    widgetObj.prop('filter', objArray);
+     
+    app.setProperty("widgetName",@'filter',@objArray);
+    widgetObj.prop('filter',@objArray);
    
 
-## IMPORTANT : If your expression contains and OR, then each phrase MUST be enclosed in brackets. This requirement will be removed in due course in an update that will allow complex expressions to be built into a single element.
+**IMPORTANT** : If your expression contains and OR, then each phrase MUST be enclosed in brackets. This requirement will be removed in due course in an update that will allow complex expressions to be built into a single element.
 
 A filter array like this can then be passed to the filter property of all data enabled Widgets using one of the following methods
 

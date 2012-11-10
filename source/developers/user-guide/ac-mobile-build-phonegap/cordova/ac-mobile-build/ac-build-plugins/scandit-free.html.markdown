@@ -10,9 +10,9 @@ This plugin is used in conjunction with the [Scandit Button](../../../../widget-
 
 Simple configure your [Scandit Button](../../../../widget-properties-events/beta/scandit-button) widget and set the onSuccess/onFail events, and then enable this plugin and build your app.
 
-See [Scandit Widget](../../../../product-guide/advanced-important-widgets/scandit-widget/index)
+See [Scandit Widget](../../../../product-guide/advanced-important-widgets/scandit-widget/)
 
-HTML5+CSS+JS Apps not developed in Application Craft
+## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following
 
@@ -26,7 +26,7 @@ You should replace x.y.z in version='x.y.z' depending on which version of Cordov
 
  - Cordova 2.0.0 or later use "2.0.0"
 
-Apps Developed with Application Craft
+## Apps Developed with Application Craft
 
 <table>
 <tr>
@@ -71,28 +71,32 @@ True(default)/False. If True will present a message to users if the app is not b
 
 Scandit Button Configurations
 
-## Example AC Events
+**Example AC Events**
 
-    function handler_Scandit_onSuccess(value, type){
+    function@handler_Scandit_onSuccess(value,@type){
     app.setValue('ScanValue',value);
-    app.setValue('ScanType',type);
+    app.setValue('ScanType',type); @ @ @ @
     }
-    function handler_Scandit_onFail(error){
-    alert(error);
+     
+     
+    function@handler_Scandit_onFail(error){
+        alert(error);        
     }
+     
     window.plugins.ScanditSDK.scan(
     onSuccessfucntion(),
     onFailFucntion(),
     application_key,
     [options]
     );
+     
    
 
 You can also use the functions of the Scandit Free Plugin without using the Scandit Button widget.
 
 Link to the complete documentation for this plugin is available here [https://github.com/ApplicationCraft/ScanditUniversalJS](https://github.com/ApplicationCraft/ScanditUniversalJS)
 
-## Example
+**Example**
 
 <table>
 <tr>
@@ -161,19 +165,21 @@ Available options: (description see - [https://github.com/ApplicationCraft/Scand
 </tr>
 </table>
 
-## Example
+**Example**
 
     window.plugins.ScanditSDK.scan(
-    function (value, type){
-    alert(type + "::" + value);
-    }, function (error){
-    alert(error);
-    }, "trJvMl1GEeGVLDvgFHhgRr8i0rpdRhHhmxskD/fkrP0",
-    {vibrate : true, beep : true, torch : true}
+        function (value, type){
+            alert(type + "::" + value);
+        }, function (error){
+            alert(error);
+        }, "trJvMl1GEeGVLDvgFHhgRr8i0rpdRhHhmxskD/fkrP0", 
+        {vibrate : true, beep : true, torch : true}
     );
+     
+     
    
 
-## See Also:
+**See Also:**
 
- - [ZXing Bar Code Scanner](zxing-bar-code-scanner)
+ - [ZXing Bar Code Scanner](zxing-bar-code-scanner.htm)
 

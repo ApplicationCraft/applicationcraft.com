@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {bool} checkHash (strHashString, strCompareString)
+{bool} **checkHash** (strHashString, strCompareString)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -37,24 +37,24 @@ a string value that you want to compare check for a match against the hash
 </tr>
 </table>
 
-Return Value
+## Return Value
 
-True if there is a match.
+## True if there is a match.
 
-Description
+## Description
 
 Checks an unhashed string, probably a password, and compares it with the hash value supplied, which was probably stored in a database field. If the function returns true then password (if it is a password you are checking) is matched.
 
-Example
+## Example
 
-    if(ssj.checkHash(strHash, strUserPassword) {
-    // User password is ok
+    if(ssj.checkHash(strHash,@strUserPassword)@{
+        // User password is ok
     }
    
 
-See Also:
+## See Also:
 
- - [hash()](cryptblowfish)
+ - [hash()](cryptblowfish.htm)
 
- - [md5()](md5)
+ - [md5()](md5.htm)
 

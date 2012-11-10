@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## getParent (widgetName)
+**getParent** (widgetName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,22 +24,21 @@ the Name or GUID of the Widget or a [Widget Object](../objects-titbits/widget-ob
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This returns the Widget object that is the parent of 'widgetName'. If you want to get the Parent of a Widget that is inside a Repeater, refer to the [parent()](../widget-object-functions/general/parent) Widget Object Function.
 
 This is very useful when processing Repeater Containers. If a Respondent clicks on a Widget within a Repeater group, you might then want to perform a calculation involving other Widgets within the same Repeater group.
 
-Example
+## Example
 
-For a good example of this, refer to the [populateWidget()](../widget-data-state-manipulation/populatewidget()/index) function.
+For a good example of this, refer to the [populateWidget()](../widget-data-state-manipulation/populatewidget/) function.
 
-See Also:
+## See Also:
 
  - [parent()](../widget-object-functions/general/parent)
 
- - [populateWidget()](../widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../widget-data-state-manipulation/populatewidget/)
 
  - [Widget Object](../objects-titbits/widget-object)
 

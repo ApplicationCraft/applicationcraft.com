@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## connectionObject.select().from().order ([orderByFields])
+**connectionObject.select().from().order** ([orderByFields])
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,28 +24,23 @@ specify the field or fields; use an array for more than one field
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 You are able to supply the ORDER BY clause by specifying one of more fields (use an array of strings for multiple fields) in the orderByFields parameter. You can also specify more than one ORDER BY field by using .order() multiple times as shown in an example below.
 
 Note you can include ASC or DESC directives by appending ASC or DESC to the field name.
 
-Simple Example
+## Simple Example
 
-    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj = cObj.select().from("customers").order('country');
-    result = cObj.exec(selectObj);
+    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj@=@cObj.select().from("customers").order('country');
+    result@=@cObj.exec(selectObj);
     return(result);
+    selectObj@=@cObj.select().from("customers").order(['country',@'state@DESC']);
+    selectObj@=@cObj.select().from("customers").order('country').order('state@DESC');
    
 
-2 Fields Example
+## 2 Fields Example
 
-    selectObj = cObj.select().from("customers").order(['country', 'state DESC']);
-   
-
-Alternative 2 Fields Example
-
-    selectObj = cObj.select().from("customers").order('country').order('state DESC');
-   
+## Alternative 2 Fields Example
 

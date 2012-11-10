@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## addPolyline (coords)
+**addPolyline** (coords)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,25 +24,25 @@ An array of lat/long pairs defining your Polyline points
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Polylines are formed as a set of latitude/longitude pairs. You can also control the visual properties.
 
-## Example
+**Example**
 
-    function handler_actionBtn7_onClick(mouseev){
-    var polylinePath = [
-    [37.772323, -122.214897],
-    [21.291982, -157.821856],
-    [-18.142599, 178.431],
-    [-27.46758, 153.027892]
-    ];
-    polylineObj = app.w('googleMapsAdvanced').addPolyline(polylinePath);
+    function@handler_actionBtn7_onClick(mouseev){
+          var polylinePath = [
+                    [37.772323, -122.214897],
+                    [21.291982, -157.821856],
+                    [-18.142599, 178.431],
+                    [-27.46758, 153.027892]
+                ];
+                polylineObj = app.w('googleMapsAdvanced').addPolyline(polylinePath);
+        
     }
    
 
-## See Also:
+**See Also:**
 
  - [Polylines](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polylines)
 

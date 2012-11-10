@@ -8,7 +8,7 @@ full_width: true
 
 AC has a Database Agent that lets your Apps talk to most databases.
 
-An Integration Agent takes data from an external source and offers it up to a [Query](advqueries) (via a [Connection](advconnections) ) in a standardized format. This format allows an App to easily consume that Agents content in a standard fashion.
+An Integration Agent takes data from an external source and offers it up to a [Query](advqueries.htm) (via a [Connection](advconnections.htm) ) in a standardized format. This format allows an App to easily consume that Agents content in a standard fashion.
 
 If you need to access data stored in other Apps, you do not need to use an Agent nor a Connection.
 

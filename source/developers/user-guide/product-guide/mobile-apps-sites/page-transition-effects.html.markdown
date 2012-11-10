@@ -16,13 +16,13 @@ There are two ways to specify the transition effects
 
 To enable consistent performance, we would recommend you use the Mobile & Desktop effects if your app is targeted for mobile devices
 
-## Mobile & Desktop:
+**Mobile & Desktop:**
 
  - Slide - new page slides in from the right
 
  - Fade - new page fades in and old one out
 
-## Desktop Only:
+**Desktop Only:**
 
  - Slide Up - new page slides up from the bottom
 
@@ -34,7 +34,7 @@ To enable consistent performance, we would recommend you use the Mobile & Deskto
 
 On lower-powered phones, the effects may not be great so bear this in mind before choosing to use any effects.
 
-## See Also:
+**See Also:**
 
- - [Mobile Transition Mode](mobile-transition-mode)
+ - [Mobile Transition Mode](mobile-transition-mode.htm)
 

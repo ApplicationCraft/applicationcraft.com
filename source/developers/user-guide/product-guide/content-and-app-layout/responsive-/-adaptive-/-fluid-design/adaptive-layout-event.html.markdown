@@ -10,7 +10,7 @@ If you want maximum control, you can write some Javascript that controls what ha
 
 This Event is an App event (not an event of the Panel Container as you might think). It is called once whenever the App resizing triggers an Adaptive Layout rule.
 
-    function handler_application_onAdaptiveLayout(widget, props){
+    function@handler_application_onAdaptiveLayout(widget,@props){
     }
    
 

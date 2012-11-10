@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Dec 2011 - This widget is deprecated. Please use the [Panel](panel) container
+Dec 2011 - This widget is deprecated. Please use the [Panel](panel.htm) container
 
 The more individual data requests an App page makes, the slower it will get. Many labels and images being populated from a data source will rapidly degrade the performance of your App if each one is set to get its own data from the View.
 
@@ -17,7 +17,7 @@ To configure the Data Container, place the Widgets you wish to display, such as 
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="37">
@@ -91,7 +91,7 @@ Absolute/Relative. Select Relative to enable your container to resize to the ava
 <table>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Where you can set the relationships to other apps (see [Relational Apps & Instan
 <table>
 <tr>
 <td width="169">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="17">
@@ -233,7 +233,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="174">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="12">
@@ -313,7 +313,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="145">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="42">
@@ -342,7 +342,7 @@ Fields
 <td width="42">
 </td>
 <td width="755">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -418,7 +418,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="171">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="16">
@@ -518,7 +518,7 @@ Custom CSS Classes
 <td width="16">
 </td>
 <td width="755">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>

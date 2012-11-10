@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available. Each one is described in detail in the [Advanced Maps](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/index) Reference section.
+The following method table is a summary of the methods available. Each one is described in detail in the [Advanced Maps](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/) Reference section.
 
 <table>
 <tr>

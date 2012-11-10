@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## drillDownBroadcast (viewName, filter, identifier, optional reset) [coming soon]
+**drillDownBroadcast** (viewName, filter, identifier, optional reset) **[coming soon]**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -60,8 +60,7 @@ If set to true,
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function triggers a drill down on the specified View using the specified filter. Any Widgets that are set to listen to a View's broadcast action will automatically request new data with the combined filter applied.
 
@@ -69,17 +68,17 @@ It is important to realize that the 'filter' expression supplied will, by defaul
 
 The 'identifier' parameter is important to set properly. It allows AC to know where the drill-down has come from. The next time a script calls the  drill-down with the same identifier, AC knows to remove the same expression and replace it with the new filter rather than adding it (which makes no sense on the same expression).
 
-Filter Expressions
+## Filter Expressions
 
-Please refer to the explanation provided in the previous [getViewData()](getviewdata) topic.
+Please refer to the explanation provided in the previous [getViewData()](getviewdata.htm) topic.
 
-See Also:
+## See Also:
 
- - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/index) (good introduction to Views)
+ - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
 
- - [getViewData()](getviewdata)
+ - [getViewData()](getviewdata.htm)
 
- - [drillDownBroadcast()](drilldownbroadcast)
+ - [drillDownBroadcast()](drilldownbroadcast.htm)
 
- - [bindViewData()](setviewcallback)
+ - [bindViewData()](setviewcallback.htm)
 

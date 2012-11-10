@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## highlightWidgets (widget, optional highlightColor, optional highlightOpacity)
+**highlightWidgets** (widget, optional highlightColor, optional highlightOpacity)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -51,8 +51,7 @@ optional, enter the required highlight opacity. If left blank then the App prope
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This enables you to highlight any fields in your App. A common reason for doing this is validations. If you have performed a validation in your code and it determines that the respondent's attention needs drawing to one or more particular Widgets, then this function highlights the Widgets specified in the array.
 
@@ -60,9 +59,10 @@ Highlighting color and opacity do not need to be specified. If the color paramet
 
 Please note: The highlighting is handled with CSS shadow. This is set to render outside the widget but the outside shadow isn't included in  the widget's (element's) size and so if your widget is in a container some of the outside elements can be hidden by the container. If you add a small (3-5px) margin to the widget it will ensure that the outside shadow lies within the container, or alternatively set a small padding to the container
 
-Example
+## Example
 
-    app.highlightWidgets(["timeColor", "shapeColor"], "#22ff22", 40);
+    app.highlightWidgets(["timeColor",@"shapeColor"],@"#22ff22",@40);
+     
     app.highlightWidgets(["timeColor"]);
    
 
@@ -70,11 +70,11 @@ or
 
 .
 
-See Also:
+## See Also:
 
- - [checkMandatory()](checkmandatory)
+ - [checkMandatory()](checkmandatory.htm)
 
- - [unhighlightWidgets()](unhighlightwidgets)
+ - [unhighlightWidgets()](unhighlightwidgets.htm)
 
 Related Videos:
 

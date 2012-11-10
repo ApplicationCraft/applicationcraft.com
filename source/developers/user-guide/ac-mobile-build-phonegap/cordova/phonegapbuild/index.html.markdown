@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
 [Building your Apps](building-the-native-apps)
 
@@ -16,9 +16,9 @@ full_width: true
 
 [Manual Building](manual-building)
 
-## See Also:
+**See Also:**
 
- - [AC Mobile Build](application-craft-build)
+ - [AC Mobile Build](application-craft-build.htm)
 
 Related Videos:
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## scroll (days)
+**scroll** (days)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,26 +24,25 @@ Scroll forward or backward (negative integer) the specified number of days.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This will scroll the timeline display area the specified number of days.
 
-Example
+## Example
 
-    app.w('timeline1').scroll(7);    // scroll forward one week
-    app.w('timeline1').scroll(-7);   // scroll backwards one week
+    app.w('timeline1').scroll(7);@@@@//@scroll@forward@one@week
+    app.w('timeline1').scroll(-7);@@@//@scroll@backwards@one@week
    
 
-See Also:
+## See Also:
 
- - [fitData()](fitdata)
+ - [fitData()](fitdata.htm)
 
  - [scrollTo()](../../useful-browser-functions/scrollto)
 
- - [Timeline Events](eventstimeline)
+ - [Timeline Events](eventstimeline.htm)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 
- - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/index)
+ - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
 

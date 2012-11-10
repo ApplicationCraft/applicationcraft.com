@@ -6,14 +6,14 @@ full_width: true
 ---
 
 
-Display Hourglass Over property is available at all levels of your app for complete control. By selecting 'Inherit' for Page or Widget properties you can use the same [Twirly Thing](twirly-thing) app properties throughout your app, but you can also override this by selecting other display options.
+Display Hourglass Over property is available at all levels of your app for complete control. By selecting 'Inherit' for Page or Widget properties you can use the same [Twirly Thing](twirly-thing.htm) app properties throughout your app, but you can also override this by selecting other display options.
 
 The hourglass will present 'centered' to the widget you have selected.
 
 <table>
 <tr>
 <td width="138">
-## App Properties
+**App Properties**
 
 </td>
 <td width="11">
@@ -46,11 +46,10 @@ If selected the twirly thing hourglass will display over the whole app
 </td>
 </tr>
 </table>
-
 <table>
 <tr>
 <td width="138">
-## Page Properties
+**Page Properties**
 
 </td>
 <td width="11">
@@ -107,11 +106,10 @@ If selected the twirly thing hourglass will display over the whole app
 </td>
 </tr>
 </table>
-
 <table>
 <tr>
 <td width="138">
-## Widget Properties
+**Widget Properties**
 
 </td>
 <td width="11">

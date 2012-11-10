@@ -6,12 +6,14 @@ full_width: true
 ---
 
 
-## volume ()
+**volume** ()
 
-Description
+## Description
 
-## Example
+**Example**
 
+     
     app.w('YouTube').getYouTubePlayer().clearVideo();
+     
    
 

@@ -14,15 +14,17 @@ There are two ways to manage this.
 
 The function [showConfirm()](../../../client-api/app-functions/showconfirm) is also useful if you want the Respondent to confirm with a Yes or No answer.
 
-Example
+## Example
 
-    app.showMessage("Validation Error", "Please complete all required fields.", function() {
-    // code here will execute once the OK button has been pressed.
-    // If there is no code to execute, then leave out the entire callback function
+    app.showMessage("Validation@Error",@"Please@complete@all@required@fields.",@function()@{
+        // code here will execute once the OK button has been pressed.
+        // If there is no code to execute, then leave out the entire callback function
     });
+     
+     
    
 
-## See Also:
+**See Also:**
 
  - [showConfirm()](../../../client-api/app-functions/showconfirm)
 

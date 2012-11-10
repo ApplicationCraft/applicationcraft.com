@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## Themes contain a set of Styles for different Widget types (including Pages).
+**Themes** contain a set of Styles for different Widget types (including Pages).
 
-## Styles contain a set of Properties for Widgets.
+**Styles** contain a set of Properties for Widgets.
 
 Styles contained within a Theme can only be changed if you have permission to Edit the Theme that you are using. Any changes you make to a Style are made to all Apps that use that Theme, not just the App that you are editing. Individual Widgets can have individual Style settings which override those of the Theme.
 

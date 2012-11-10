@@ -8,7 +8,7 @@ full_width: true
 
 The following permissions are available that control reading and writing of log data.
 
-User Specific Permissions
+## User Specific Permissions
 
 As shown in the screenshot below. you can grant the following log specific permissions to a user
 
@@ -18,8 +18,8 @@ As shown in the screenshot below. you can grant the following log specific permi
 
 ![permission-logs-user](/img/docs/permission-logs-user.zoom72.png)
 
-App Specific Permissions
+## App Specific Permissions
 
-The User is able to grant access to any User or Group to access the selected App's log entries. This is explained in more detail in the [Reading from a Log](reading-from-a-log) topic.
+The User is able to grant access to any User or Group to access the selected App's log entries. This is explained in more detail in the [Reading from a Log](reading-from-a-log.htm) topic.
 
 ![permission-logs-app](/img/docs/permission-logs-app.zoom71.png)

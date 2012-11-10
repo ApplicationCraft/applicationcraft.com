@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
 [Mobile Toolbar](mobile-toolbar)
 
@@ -14,5 +14,5 @@ full_width: true
 
 [Large and Small Mobile Buttons](large-and-small-mobile-buttons)
 
-[Mobile List Widget](mobile-list-widget/index)
+[Mobile List Widget](mobile-list-widget/)
 

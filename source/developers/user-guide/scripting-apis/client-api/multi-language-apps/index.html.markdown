@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>
@@ -34,10 +34,9 @@ Switches the display language of the App
 </td>
 </tr>
 </table>
-
-## See Also:
+**See Also:**
 
  - [Internationalization App Events](../../../widget-properties-events/events/event-reference-list/internationalization-app-event)
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index)
+ - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 

@@ -6,14 +6,15 @@ full_width: true
 ---
 
 
-## selectTab (index)
+**selectTab** (index)
 
-Description
+## Description
 
 Select a tab by index
 
-Example
+## Example
 
-    app.w("Tab").selectTab(1); // Select the 2nd tab in the tab container
+     
+    app.w("Tab").selectTab(1);@//@Select@the@2nd@tab@in@the@tab@container
    
 

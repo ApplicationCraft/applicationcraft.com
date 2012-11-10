@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="227">
-## Internationalization App Events
+**Internationalization App Events**
 
 </td>
 <td width="44">
@@ -52,9 +52,9 @@ Called as the Language is detected
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/index)
+ - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 
  - [translate()](../../../scripting-apis/client-api/multi-language-apps/translate)
 

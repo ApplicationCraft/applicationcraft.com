@@ -6,14 +6,16 @@ full_width: true
 ---
 
 
-## clearVideo ()
+**clearVideo** ()
 
-Description
+## Description
 
 Clears the You Tube ID from the widget. Can be used to stop the Video playing
 
-## Example
+**Example**
 
+     
     app.w('YouTube').getYouTubePlayer().clearVideo();
+     
    
 

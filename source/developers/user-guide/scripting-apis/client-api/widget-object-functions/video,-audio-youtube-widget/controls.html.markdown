@@ -6,16 +6,18 @@ full_width: true
 ---
 
 
-## controls ()
+**controls** ()
 
-Description
+## Description
 
 Allows you to show/hide the in-built video/audio controls
 
-Example
+## Example
 
 This example shows the widget's playback controls being toggled on and off.
 
     app.w("Video").controls(!app.w("Video").controls());
+     
+     
    
 

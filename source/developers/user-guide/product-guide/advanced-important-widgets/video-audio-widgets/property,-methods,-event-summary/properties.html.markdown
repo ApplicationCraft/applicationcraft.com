@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <th style="vertical-align:top; width:172px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:21px; background-color:#ffffff;">
@@ -123,7 +123,7 @@ The default volume level
 </tr>
 <tr>
 <td width="172">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="21">
@@ -227,7 +227,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="174">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="20">
@@ -295,7 +295,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="174">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="18">
@@ -317,7 +317,7 @@ Not currently supported
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">

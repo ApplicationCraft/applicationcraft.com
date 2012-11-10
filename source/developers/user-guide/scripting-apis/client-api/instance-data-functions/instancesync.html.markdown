@@ -6,15 +6,15 @@ full_width: true
 ---
 
 
-## instanceSync (complexWidget, optional cdbCallback, optional rdbCallback)
+**instanceSync** (complexWidget, optional cdbCallback, optional rdbCallback)
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -55,7 +55,7 @@ optional. is called after instance is synced with the RDB
 </tr>
 </table>
 
-Description
+## Description
 
 This lets you update fields of multiple App Instances that are loaded into either a Grid or a Repeater Container Widget. Each row will contain some fields from one Instance. You can then modify those fields as well as add new rows and delete existing ones. When you call the instanceSync() function, AC will synchronize all of these changes with the database.
 
@@ -69,42 +69,43 @@ Calling instanceSync() will reflect ALL of the following changes that have been 
 
  - Delete - any rows that you delete will result in deletion of the corresponding Instances
 
-Callback Functions
+## Callback Functions
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully stored in the CDB (Core Database). rdbCallback is called once the data is fully saved and available in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function.htm) page for details on these callback functions.
 
-Example
+## Example
 
 This example synchronizes the contents of a Repeater Container with the database. It was populated by a Data View (getting data from a Query that contains data from only a single App, no JOINs).
 
-    function handler_abSync_onClick(mouseev){
-    app.instanceSync("rcReadings", undefined, function(error,status){
-    if(error===null){
-    app.showMessage("Success","Readings Sync Successful");
-    } else {
-    app.showMessage("Error","Readings Sync Failed");
+    function@handler_abSync_onClick(mouseev){
+        app.instanceSync("rcReadings", undefined, function(error,status){
+            if(error===null){
+                app.showMessage("Success","Readings Sync Successful");
+            } else {
+                app.showMessage("Error","Readings Sync Failed");
+            }
+        });
     }
-    });
-    }
+     
    
 
-See Also:
+## See Also:
 
- - [instanceXxxx Callback functions](instancexxxx-callback-function)
+ - [instanceXxxx Callback functions](instancexxxx-callback-function.htm)
 
- - [CRUD in Detail](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/index)
+ - [CRUD in Detail](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/)
 
- - [instanceNew()](instancenew)
+ - [instanceNew()](instancenew.htm)
 
- - [instanceCreate()](instancesave "instance")
+ - [instanceCreate()](instancesave.htm "instance")
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](instancesave.htm)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](instancedelete.htm)
 
- - [instanceLoad()](instanceload)
+ - [instanceLoad()](instanceload.htm)
 
  - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 

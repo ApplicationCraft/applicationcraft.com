@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {objArray} getMemberOf (strUserId)
+{objArray} **getMemberOf** (strUserId)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,18 +24,18 @@ the UID of the User
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 An array of the following object type is returned, indicating which AC Groups the specified User belongs to.
 
     {
-    id_group:group_ID,
-    name: friendly_name
+        id_group:group_ID,
+        name: friendly_name
     };
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

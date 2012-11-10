@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {value|object} getSessionObject (key)
+{value|object} **getSessionObject** (key)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,26 +24,25 @@ a key string that identifies the variable created previously with setSessionObje
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 Either a simple variable value or an object, whichever was written using setSessionObject().
 
-Description
+## Description
 
-See the [setSessionObject()](setsessionobject) description.
+See the [setSessionObject()](setsessionobject.htm) description.
 
-Example
+## Example
 
-    strUserID = ssj.getSessionObject("userID");
-    objUserDetails = ssj.getSessionObject("userObject");
+    strUserID@=@ssj.getSessionObject("userID");
+    objUserDetails@=@ssj.getSessionObject("userObject");
    
 
-See Also:
+## See Also:
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 
- - [setSessionObject()](setsessionobject)
+ - [setSessionObject()](setsessionobject.htm)
 
- - [deleteSessionObject()](deletesessionobject)
+ - [deleteSessionObject()](deletesessionobject.htm)
 

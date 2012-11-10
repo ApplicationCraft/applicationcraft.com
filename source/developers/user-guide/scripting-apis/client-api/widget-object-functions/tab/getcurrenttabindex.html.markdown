@@ -6,14 +6,15 @@ full_width: true
 ---
 
 
-## getCurrentTabIndex()
+**getCurrentTabIndex()**
 
-Description
+## Description
 
 Returns the current tab index (from 0)
 
-Example
+## Example
 
+     
     app.w("Tab").getCurrentTabIndex();
    
 

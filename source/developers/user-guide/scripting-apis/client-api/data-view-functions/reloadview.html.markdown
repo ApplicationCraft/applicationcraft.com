@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## reloadView (viewName)
+**reloadView** (viewName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,12 +24,11 @@ The name (or Widget ID) of the View
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Reloads the specified View with fresh data.
 
-See Also:
+## See Also:
 
- - [resetView()](resetview)
+ - [resetView()](resetview.htm)
 

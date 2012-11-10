@@ -8,7 +8,7 @@ full_width: true
 
 This feature is only available for Containers (or Pages) in Absolute layout mode. Generally speaking, its use is to be somewhat discouraged as you can usually accomplish most flexible layout designs using [Vertical / Horizontal](../responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout) modes and [Adaptive Layouts](../responsive-/-adaptive-/-fluid-design/adaptive-layout-rules) .
 
-Anchoring
+## Anchoring
 
 Each Widget has an Anchor property. If you click on it, you will see a pop-up rectangle appear with for possible locations you can select. It is possible to select a number of these four Anchor points.
 

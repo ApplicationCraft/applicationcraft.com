@@ -6,19 +6,19 @@ full_width: true
 ---
 
 
-## connectionObject.select().from().join()
+**connectionObject.select().from().join()**
 
-## connectionObject.select().from().joinLeft()
+**connectionObject.select().from().joinLeft()**
 
-## connectionObject.select().from().joinRight()
+**connectionObject.select().from().joinRight()**
 
-## connectionObject.select().from().joinFull()
+**connectionObject.select().from().joinFull()**
 
 All functions, except joinCross(), which only takes two parameters, are used follows.
 
-## connectionObject.select().from().join (strTable, strCondition, optional [columns]|objColumns)
+**connectionObject.select().from().join** (strTable, strCondition, optional [columns]|objColumns)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -76,9 +76,9 @@ if you specify an object, you can replace the field names
 </tr>
 </table>
 
-## connectionObject.select().from().joinCross( strTable, strTable )
+**connectionObject.select().from().joinCross(** strTable, strTable **)**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -95,32 +95,32 @@ the table name to JOIN to the from() or join()s
 </tr>
 </table>
 
-Description
+## Description
 
 These methods may or may not work depending on the ability of the back end database to support them.
 
 <table>
 <tr>
 <td width="119">
-## SSJ Method
+**SSJ Method**
 
 </td>
 <td width="22">
 </td>
 <td width="117">
-## SQL
+**SQL**
 
 </td>
 <td width="27">
 </td>
 <td width="943">
-## Description
+**Description**
 
 </td>
 </tr>
 <tr>
 <td width="119">
-## join()
+**join()**
 
 </td>
 <td width="22">
@@ -140,7 +140,7 @@ All RDBMS brands support this join type.
 </tr>
 <tr>
 <td width="119">
-## joinLeft()
+**joinLeft()**
 
 </td>
 <td width="22">
@@ -160,7 +160,7 @@ All RDBMS brands support this join type.
 </tr>
 <tr>
 <td width="119">
-## joinRight()
+**joinRight()**
 
 </td>
 <td width="22">
@@ -180,7 +180,7 @@ Some RDBMS brands don't support this join type, but in general any right join ca
 </tr>
 <tr>
 <td width="119">
-## joinFull()
+**joinFull()**
 
 </td>
 <td width="22">
@@ -200,7 +200,7 @@ Some RDBMS brands don't support this join type.
 </tr>
 <tr>
 <td width="119">
-## joinCross()
+**joinCross()**
 
 </td>
 <td width="22">
@@ -220,39 +220,38 @@ The joinCross() method has no parameter to specify the join condition. Some RDBM
 </tr>
 </table>
 
-Examples
+## Examples
 
 The following examples cover a few typical scenarios joining tables. Note the last example shows how to JOIN 3 tables.
 
-SELECT customers.\*, orders.\* FROM customers INNER JOIN orders ON orders.customerNumber=customers.customerNumber
+## SELECT customers.\*, orders.\* FROM customers INNER JOIN orders ON orders.customerNumber=customers.customerNumber
 
-    cObj = ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
-    selectObj = cObj.select().from("customers").join("orders", "customers.customerNumber=orders.customerNumber");
-    result = cObj.exec(selectObj);
-    return result;
+    cObj@=@ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
+    selectObj@=@cObj.select().from("customers").join("orders",@"customers.customerNumber=orders.customerNumber");@@@@
+    result@=@cObj.exec(selectObj);
+    return@result;@
+     
+     
+    cObj@=@ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
+    selectObj@=@cObj.select().from({c:"customers"}).join({o:"orders"},@"o.customerNumber=c.customerNumber");@@@
+    result@=@cObj.exec(selectObj);
+    return@result;@
+     
+     
+     
+    cObj@=@ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
+    selectObj@=@cObj.select().from({c:"customers"},@{cCust:"customerName",@cName:"contactlastName",@cNum:"customerNumber"}).join({o:"orders"},@"c.customerNumber=o.customerNumber");@@@
+    result@=@cObj.exec(selectObj);
+    return@result;@
+    cObj@=@ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
+    selectObj@=@cObj.select().from("orderdetails").join("orders",@"orderdetails.orderNumber=orders.orderNumber").join("customers",@"orders.customerNumber=customers.customerNumber");
+    result@=@cObj.exec(selectObj);
+    return@result;@
    
 
-SELECT c.\*, o.\* FROM customers AS C INNER JOIN orders AS o ON o.customerNumber=c.customerNumber
+## SELECT c.\*, o.\* FROM customers AS C INNER JOIN orders AS o ON o.customerNumber=c.customerNumber
 
-    cObj = ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
-    selectObj = cObj.select().from({c:"customers"}).join({o:"orders"}, "o.customerNumber=c.customerNumber");
-    result = cObj.exec(selectObj);
-    return result;
-   
+## SELECT c.customerName as cCust, c.contactLastName as cName, c.customerNumber as cNum, o.\* FROM customers AS c INNER JOIN orders AS o ON o.customerNumber=c.customerNumber
 
-SELECT c.customerName as cCust, c.contactLastName as cName, c.customerNumber as cNum, o.\* FROM customers AS c INNER JOIN orders AS o ON o.customerNumber=c.customerNumber
-
-    cObj = ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
-    selectObj = cObj.select().from({c:"customers"}, {cCust:"customerName", cName:"contactlastName", cNum:"customerNumber"}).join({o:"orders"}, "c.customerNumber=o.customerNumber");
-    result = cObj.exec(selectObj);
-    return result;
-   
-
-SELECT orderdetails.\*, orders.\*, customers.\* FROM orderdetails INNER JOIN orders ON orderdetails.orderNumber=orders.orderNumber INNER JOIN customers ON orders.customerNumber=customers.customerNumber
-
-    cObj = ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
-    selectObj = cObj.select().from("orderdetails").join("orders", "orderdetails.orderNumber=orders.orderNumber").join("customers", "orders.customerNumber=customers.customerNumber");
-    result = cObj.exec(selectObj);
-    return result;
-   
+## SELECT orderdetails.\*, orders.\*, customers.\* FROM orderdetails INNER JOIN orders ON orderdetails.orderNumber=orders.orderNumber INNER JOIN customers ON orders.customerNumber=customers.customerNumber
 

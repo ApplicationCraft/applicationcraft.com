@@ -14,7 +14,7 @@ The Repeater can be found in the Containers section of the Toolbox. When you dra
 
 It is helpful to press the Outline button in the upper toolbar when working with Containers. This clearly shows the structure of each Container.
 
-Properties
+## Properties
 
 To set Repeater Container properties, you need to be sure that the Outer Container is selected. The properties are listed in detail [here](../../../../widget-properties-events/containers/repeater) . The following sections touch on the most important properties you will use.
 

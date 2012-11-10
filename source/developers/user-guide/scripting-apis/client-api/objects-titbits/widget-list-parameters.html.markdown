@@ -12,16 +12,16 @@ Many functions require you to identify a Widget or Widgets. Wherever you see a {
 
  - Widget Name array - an array of strings
 
- - Widget Object - a [Widget Object](widget-object)
+ - Widget Object - a [Widget Object](widget-object.htm)
 
  - Widget Object Array - an array of Widget objects
 
-Example
+## Example
 
-    app.visible('myTextBox', true)
-    app.resetWidget(['myTextBox', 'yourTextBox']);
-    var wobj = app.w('myGrid');
-    var wobj2 = app.w('myLabel');
-    app.resetWidget([wobj, wobj2]);
+    app.visible('myTextBox',@true)
+    app.resetWidget(['myTextBox',@'yourTextBox']);
+    var@wobj@=@app.w('myGrid');
+    var@wobj2@=@app.w('myLabel');
+    app.resetWidget([wobj,@wobj2]);
    
 

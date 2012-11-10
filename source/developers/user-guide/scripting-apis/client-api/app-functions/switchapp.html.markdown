@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## switchApp (appID, pageName, instanceId, twirlyThing, inputParams);
+**switchApp** (appID, pageName, instanceId, twirlyThing, inputParams);
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ Twirly Thing (hourglass) object (see below)
 <td width="1">
 </td>
 <td width="710">
-You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](getinputparameter) . Object described below.
+You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](getinputparameter.htm) . Object described below.
 
 </td>
 </tr>
@@ -82,10 +82,9 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 </td>
 </tr>
 </table>
-
 Or
 
-## switchApp (objParameters);
+**switchApp** (objParameters);
 
 <table>
 <tr>
@@ -96,80 +95,72 @@ Or
 <td width="1">
 </td>
 <td width="710">
-       {appId: "1235-12341-1234",
-       pageName: "page1",
-       formInstanceId: "1234-12354-1234",
-       twirlyThing:{bgColor: "silver"}, // full twirlyThing object described below
-       inputParams: inputParams}  // inputParams object described below
+       {appId:@"1235-12341-1234",@
+        pageName: "page1", 
+        formInstanceId: "1234-12354-1234", 
+        twirlyThing:{bgColor: "silver"}, // full twirlyThing object described below
+        inputParams: inputParams}  // inputParams object described below
+       {state:true,
+        text:"text",
+        textColor:"000000",
+        bgColor:"ffffff,
+        opacity:100
+       }
+       someParam1:@"someValue",@
+        someParam2: 123
+        someParamN: paramN
+       }
+       app.switchApp('7eb99414-8584-4fbe-a9ba-3fa8d3f50df6');
+       app.switchApp({appId:@"6ec70b3b-4cdb-468d-b0bc-0e6230aa771c",@pageName:@"my@page",@formInstance:'7eb99414-8584-4fbe-a9ba-3fa8d3f50df6'});
       
 
 </td>
 </tr>
 </table>
 
-twirlyThing Object
+## twirlyThing Object
 
 You can control the hourglass appearance using the following object
 
-    {state:true,
-    text:"text",
-    textColor:"000000",
-    bgColor:"ffffff,
-    opacity:100
-    }
-   
-
-inputParams Object
+## inputParams Object
 
 This object is used to pass parameters in the same way as you would pass them in the querystring.
 
 {
 
-    someParam1: "someValue",
-    someParam2: 123
-    someParamN: paramN
-    }
-   
-
-Description - Simple Switch
+## Description - Simple Switch
 
 This function is used to switch from the current App to the APP specified by the appID string. You only supply a single parameter.
 
-    app.switchApp('7eb99414-8584-4fbe-a9ba-3fa8d3f50df6');
-   
-
-Description - Detailed Switch
+## Description - Detailed Switch
 
 If you want to specify not just the App to switch to but also the Page within that App that should be displayed and/or the App Instance that should be loaded, then you should supply the following object.
 
-    app.switchApp({appId: "6ec70b3b-4cdb-468d-b0bc-0e6230aa771c", pageName: "my page", formInstance:'7eb99414-8584-4fbe-a9ba-3fa8d3f50df6'});
-   
-
 You must always specify the appId but can then specify either the pageName or the formInstance or both.
 
-Parameter Passing
+## Parameter Passing
 
 There are two ways to pass parameters between Apps.
 
- - [Global Data Pool](../global-data-pool-functions/index) - This allows data to be passed between Apps as well as restoring data when you eventually switch back to the App that was switched away from.
+ - [Global Data Pool](../global-data-pool-functions/) - This allows data to be passed between Apps as well as restoring data when you eventually switch back to the App that was switched away from.
 
  - switchApp() parameters - this may be preferable in some circumstances where you are not going to modify the values and inspect them later (in which case the Global Data Pool is better).
 
-Important
+## Important
 
 If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](../../../widget-properties-events/app-properties)
 
-See Also:
+## See Also:
 
- - [parentApp()](parentapp)
+ - [parentApp()](parentapp.htm)
 
- - [childApp()](childapp)
+ - [childApp()](childapp.htm)
 
- - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/index)
+ - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/)
 
  - [Embed App Widget](../../../widget-properties-events/advanced/embed-app)
 
- - [Global Data Pool](../global-data-pool-functions/index)
+ - [Global Data Pool](../global-data-pool-functions/)
 
 Related Videos:
 

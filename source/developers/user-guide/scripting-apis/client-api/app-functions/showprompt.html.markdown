@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## showPrompt (title, text, value, callback())
+**showPrompt** (title, text, value, callback())
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -60,8 +60,7 @@ the callback function is used to receive and handle the response (true/false)
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 A Show Prompt is often used if you want the user to input a value before proceeding
 
@@ -73,11 +72,11 @@ When a prompt box pops up, the user will have to click either "OK" or "Cancel" t
 
 Rich Text is supported.
 
-See Also:
+## See Also:
 
- - [showMessage()](showmessage)
+ - [showMessage()](showmessage.htm)
 
- - [showConfirm()](showconfirm)
+ - [showConfirm()](showconfirm.htm)
 
  - [showPagePopup()](../page-functions/showpagepopup)
 

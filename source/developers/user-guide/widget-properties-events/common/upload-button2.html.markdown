@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -129,7 +129,7 @@ true/false. Set to true to auto start the upload
 <table>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ true/false
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -333,7 +333,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -401,7 +401,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -510,7 +510,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -640,7 +640,7 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

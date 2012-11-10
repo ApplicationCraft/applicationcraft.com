@@ -8,7 +8,7 @@ full_width: true
 
 The MailTo plugin allows you to send email from a native app using the settings of the default email account on the users device.
 
-HTML5+CSS+JS Apps not developed in Application Craft
+## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following
 
@@ -34,7 +34,7 @@ You should replace x.y.z in version='x.y.z' depending on which version of Cordov
 
  - Cordova 2.0.0 or later use "2.0.0"
 
-Apps Developed with Application Craft
+## Apps Developed with Application Craft
 
 <table>
 <tr>
@@ -76,7 +76,7 @@ True(default)/False. If True will present a message to users if the app is not b
 </table>
 .
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -185,24 +185,26 @@ chtitle
 </tr>
 </table>
 
-## Example
+**Example**
 
-    function handler_actionBtn_onClick(mouseev){
-    window.plugins.MailTo.mailTo({
-    subject: app.getData("subject"), // You can get the subject of the email from a widget
-    message: '<b>message</b>', // You can also directly compose your message/subject (HTML allowed)
-    isHtml : true,
-    emails : ["mail@gmail.com"],  // recipient of the email
-    ccemails : [{"frankx@jones.com"},{"joe@jones.com"}], // multiple cc recipients
-    chtitle : "Mail To:" //Android spec
-    },
-    function() {alert('Mailto success');}, // Success function
-    function() {alert('Mailto failed');} // Failure function
-    );
+    function@handler_actionBtn_onClick(mouseev){
+        
+        window.plugins.MailTo.mailTo({
+        subject: app.getData("subject"), // You can get the subject of the email from a widget
+        message: '<b>message</b>', // You can also directly compose your message/subject (HTML allowed)
+        isHtml : true,
+        emails : ["mail gmail.com"],  // recipient of the email
+        ccemails : [{"frankx jones.com"},{"joe jones.com"}], // multiple cc recipients
+        chtitle : "Mail To:" //Android spec
+        },
+        function() {alert('Mailto success');}, // Success function
+        function() {alert('Mailto failed');} // Failure function
+    ); @ @ @ @
     }
+     
    
 
-## See Also:
+**See Also:**
 
  - [sendEmail()](../../../../scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2)
 

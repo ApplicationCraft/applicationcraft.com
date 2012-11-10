@@ -12,7 +12,7 @@ The main reason for writing server side scripts is to execute certain processes 
 
 The most common usage of SSJ is to write your database layer. Application Craft has a set of database handling functions that make database handling extremely easy and powerful. Please refer to the section [Database Handling with SSJ](database-handling-with-ssj) for more information.
 
-## In this Section:
+**In this Section:**
 
  - [Where to Write SSJ Scripts](where-to-write-ssj-scripts)
 
@@ -20,7 +20,7 @@ The most common usage of SSJ is to write your database layer. Application Craft 
 
  - [Writing Secure Code](writing-secure-code)
 
- - [SSJ Events](ssj-events/index)
+ - [SSJ Events](ssj-events/)
 
  - [Defining SSJ Methods](ssj-user-defined-methods)
 

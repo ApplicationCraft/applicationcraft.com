@@ -18,55 +18,55 @@ The following CRUD functions trigger CDB and RDB callback functions once data ha
 
 The CDB callback function returns the result object in the second parameter and has the format
 
-    cdbCallback(error, result)
+    cdbCallback(error,@result)
     for(obj in result.created)
     {
-    created:
-    {
-    <rowIndex1> : {
-    error: <errorObj>,   // is null if instance and links were added to CDB
-    version:             // version of created instance revision
-    id: ...              // if no error occured, this is an id of created instance
-    linkInstanceId: ...  // id of current form instance (which created instance may be linked to
-    linkVersions: [...]  // instance revisions of automatic links
-    },
-    <rowIndex2> : {
-    error: <errorObj>,   // is null if instance and links were added to CDB
-    version:             // version of created instance revision
-    id: ...              // if no error occured, this is an id of created instance
-    linkInstanceId: ...  // id of current form instance (which created instance may be linked to
-    linkVersions: [...]  // instance revisions of automatic links
-    },
-    ...
-    },
-    updated:
-    {
-    <instanceId1> : {
-    error:   // is null if no error occured in CDB
-    version: // version of instance revision
-    id: ...  // if no error occured, this is an id of instance
-    },
-    <instanceId2> : {
-    error:   // is null if no error occured in CDB
-    version: // version of instance revision
-    id: ...  // if no error occured, this is an id of instance
-    },
-    ...
-    },
-    deleted:
-    {
-    <instanceId1> : {
-    error: // is null if no error occured in CDB
-    version: // version of instance revision
-    id: ...  // if no error occured, this is an id of instance
-    },
-    <instanceId2> : {
-    error: // is null if no error occured in CDB
-    version: // version of instance revision
-    id: ...  // if no error occured, this is an id of instance
-    },
-    ...
-    }
+        created: 
+        { 
+            <rowIndex1> : {
+              error: <errorObj>,   // is null if instance and links were added to CDB
+              version:             // version of created instance revision
+              id: ...              // if no error occured, this is an id of created instance
+              linkInstanceId: ...  // id of current form instance (which created instance may be linked to
+              linkVersions: [...]  // instance revisions of automatic links
+            },
+            <rowIndex2> : {
+              error: <errorObj>,   // is null if instance and links were added to CDB
+              version:             // version of created instance revision
+              id: ...              // if no error occured, this is an id of created instance
+              linkInstanceId: ...  // id of current form instance (which created instance may be linked to
+              linkVersions: [...]  // instance revisions of automatic links
+            },
+            ...
+        },
+        updated: 
+        {
+            <instanceId1> : {
+              error:   // is null if no error occured in CDB
+              version: // version of instance revision
+              id: ...  // if no error occured, this is an id of instance
+            },
+            <instanceId2> : {
+              error:   // is null if no error occured in CDB
+              version: // version of instance revision
+              id: ...  // if no error occured, this is an id of instance
+            },
+            ...
+        },
+        deleted: 
+        {
+            <instanceId1> : {
+              error: // is null if no error occured in CDB
+              version: // version of instance revision
+              id: ...  // if no error occured, this is an id of instance
+            },
+            <instanceId2> : {
+              error: // is null if no error occured in CDB
+              version: // version of instance revision
+              id: ...  // if no error occured, this is an id of instance
+            },
+            ...
+        }
     }
    
 

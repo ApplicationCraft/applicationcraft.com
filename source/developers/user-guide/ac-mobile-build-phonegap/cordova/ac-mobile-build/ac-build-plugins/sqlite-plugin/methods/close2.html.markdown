@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-close
+**close**
 
     (success, error)
    
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -41,9 +41,10 @@ error callback function
 </td>
 </tr>
 </table>
+     
    
 
-Description
+## Description
 
 This function is used to close a database.
 

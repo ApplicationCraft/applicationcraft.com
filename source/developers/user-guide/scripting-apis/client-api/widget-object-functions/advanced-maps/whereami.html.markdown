@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result whereAmI (coords)
+result **whereAmI** (coords)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,33 +24,32 @@ Handles the returned coordinates of location, returning the google.maps.LatLng o
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 How you can get the current location.
 
-## Example
+**Example**
 
-    function onLocationUpdated(res, data) {
-    app.setValue("googleMapsAdvanced", (data));
-    //or app.setValue("googleMapsAdvanced", [data.lat(), data.lng()]);
+    function@onLocationUpdated(res,@data)@{
+       app.setValue("googleMapsAdvanced", (data)); 
+    //or@app.setValue("googleMapsAdvanced",@[data.lat(),@data.lng()]);
     }
-    function handler_actionBtn_onClick(mouseev){
-    //Detect where I am
-    app.w('googleMapsAdvanced').
+    function@handler_actionBtn_onClick(mouseev){
+        //Detect where I am
+        app.w('googleMapsAdvanced').
     (onLocationUpdated);
-    }
+     }
    
 
-## whereAmI
+**whereAmI**
 
-## See Also:
+**See Also:**
 
- - [getAddress()](getaddress)
+ - [getAddress()](getaddress.htm)
 
- - [getCoord()](getcoord)
+ - [getCoord()](getcoord.htm)
 
- - [getDirections()](getdirections)
+ - [getDirections()](getdirections.htm)
 
- - [addCurrentLocation()](addcurrentlocation)
+ - [addCurrentLocation()](addcurrentlocation.htm)
 

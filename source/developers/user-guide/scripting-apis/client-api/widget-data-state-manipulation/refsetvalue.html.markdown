@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## setValue (widget, optional columnId, value)
+**setValue** (widget, optional columnId, value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,22 +48,21 @@ the value to write
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to set the contents of a Widget.
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) . You need to be aware of how setData() and setValue() work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how setData() and setValue() work with different Widget types.
 
-Example
+## Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter.
+There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
 
-See Also:
+## See Also:
 
  - [setValue() for Simple Widget](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets) types
 
- - [setValue() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists--dropdown-widgets) Widgets
+ - [setValue() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists-dropdown-widgets) Widgets
 
- - [setValue() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids--repeater-containers)
+ - [setValue() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
 

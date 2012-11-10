@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The whole point of using SSJ is to improve security by having important scripts execute on the server where they cannot be tampered with. Application Craft provides an excellent set of SSJ [database functions](../server-side-api/ssj-object/database/index) that support this and [server side database handling](../../data-storage/server-side-data-storage/index) is the most common situation for SSJ code and also where the need for security is greatest.
+The whole point of using SSJ is to improve security by having important scripts execute on the server where they cannot be tampered with. Application Craft provides an excellent set of SSJ [database functions](../server-side-api/ssj-object/database/) that support this and [server side database handling](../../data-storage/server-side-data-storage/) is the most common situation for SSJ code and also where the need for security is greatest.
 
 To ensure maximum security, you should ensure that you perform proper checks also in your server side code.
 
@@ -14,7 +14,7 @@ Let's say you have a server side function called deleteAll(). Having this functi
 
 The following things help you secure things further.
 
-Private vs. Public Functions
+## Private vs. Public Functions
 
 Application Craft has three types of SSJ functions. Below is a screenshot showing the code explorer in the IDE.
 
@@ -36,11 +36,11 @@ Application Craft has three types of SSJ functions. Below is a screenshot showin
 </tr>
 </table>
 
-Protecting your SSJ Functions with the '\_' prefix
+## Protecting your SSJ Functions with the '\_' prefix
 
 When building SSJ functions, if there are functions that should not be callable from the client, then be sure to prefix the function name with '\_'. This protects them and makes them only callable from within SSJ code. Calls from a client will not be accepted.
 
-Why App Private functions are not secure
+## Why App Private functions are not secure
 
 It is important to understand exactly what is going on with one of these functions.
 
@@ -48,31 +48,37 @@ The code cannot be tampered with and so from the code perspective it is fully se
 
 On the positive side, this is completely normal and is the way things work on the web. What is important is that you make sure that you handle this situation properly in your exposed SSJ functions. Some ways to address this are discussed below.
 
-User Validation
+## User Validation
 
 The following notional function illustrates a common way of securing your SSJ Web Service. Note that we have protected \_getUserLevel() by virtue of the fact that the function name starts with '\_'.
 
-    function mySSJService(action, parameter1, parameter2, parameterN) {
-    if(_getUserLevel()=='deity') {
-    launchArmageddon();
-    return('Hide');
+    function@mySSJService(action,@parameter1,@parameter2,@parameterN)@{
+     
+        if(_getUserLevel()=='deity') {
+            launchArmageddon();
+            return('Hide');
+        }
+        else {
+            return('Sorry, but you are either a just a demi-god or a mere human');
+        }
+     
     }
-    else {
-    return('Sorry, but you are either a just a demi-god or a mere human');
-    }
-    }
-    function _getUserLevel() {
-    // If you have your own user management then use whatever you have
-    if( .......... ) {
-    return('deity');
-    }
-    else {
-    return('mortal');
-    }
+     
+    function@_getUserLevel()@{
+     
+        // If you have your own user management then use whatever you have
+     
+        if( .......... ) {
+            return('deity');
+        }
+        else {
+            return('mortal');
+        }
+     
     }
    
 
-SSJ Session Variables
+## SSJ Session Variables
 
 A very important set of SSJ functions that can help you with general security management is the [setSessionObject()](../server-side-api/ssj-object/security/setsessionobject) set of functions.
 

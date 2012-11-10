@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-April 2012 - This widget is deprecated Please use [HTML5 Video](html5-video) widget
+April 2012 - This widget is deprecated Please use [HTML5 Video](html5-video.htm) widget
 
 <table>
 <tr>
 <th style="vertical-align:top; width:172px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:21px; background-color:#ffffff;">
@@ -125,7 +125,7 @@ The default volume level
 </tr>
 <tr>
 <td width="172">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="21">
@@ -229,7 +229,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="174">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="20">
@@ -297,7 +297,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="174">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="18">
@@ -319,7 +319,7 @@ Not currently supported
 <table>
 <tr>
 <td width="176">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="16">
@@ -383,7 +383,7 @@ Custom CSS Classes
 <td width="16">
 </td>
 <td width="752">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## showOverlay (id)
+**showOverlay** (id)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,31 +24,32 @@ The object name of the overlay to show
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 How you can show a defined overlay
 
-## Example
+**Example**
 
-    function handler_actionBtn23_onClick(mouseev){
-    app.w('googleMapsAdvanced').showOverlay(polylineObj);
+    function@handler_actionBtn23_onClick(mouseev){
+        app.w('googleMapsAdvanced').showOverlay(polylineObj);
     }
+     
+     
    
 
-## See Also:
+**See Also:**
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 
- - [getOverlays()](getoverlays)
+ - [getOverlays()](getoverlays.htm)
 
- - [clearOverlays()](clearoverlays)
+ - [clearOverlays()](clearoverlays.htm)
 
- - [removeOverlay()](removeoverlay)
+ - [removeOverlay()](removeoverlay.htm)
 
- - [hideOverlay()](hideoverlay)
+ - [hideOverlay()](hideoverlay.htm)
 
- - [fitToOverlays()](fittooverlays)
+ - [fitToOverlays()](fittooverlays.htm)
 
- - [getOverlayObjById()](getoverlayobjbyidid)
+ - [getOverlayObjById()](getoverlayobjbyidid.htm)
 

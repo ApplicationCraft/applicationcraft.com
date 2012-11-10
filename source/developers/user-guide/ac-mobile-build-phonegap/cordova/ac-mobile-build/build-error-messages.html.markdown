@@ -8,7 +8,7 @@ full_width: true
 
 The following list contains the common errors that can be generated form the build process along with advice on how to address them.
 
-Pre Build Errors
+## Pre Build Errors
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ This should be self-explanatory.
 </tr>
 </table>
 
-iOS Build Errors
+## iOS Build Errors
 
 <table>
 <tr>
@@ -60,7 +60,7 @@ You have entered an invalid password for your Certificate. It must be the same a
 <td width="20">
 </td>
 <td width="595">
-Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Please refer to [this section](../certificates/ios-keys-and-certificates/do-it-yourself-guide/index) on how to generate your Certificates correctly.
+Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Please refer to [this section](../certificates/ios-keys-and-certificates/do-it-yourself-guide/) on how to generate your Certificates correctly.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Your Mobile Provisioning Profile is not valid.
 <td width="20">
 </td>
 <td width="595">
-It looks like you have uploaded the wrong type of file. Please refer to [this section](../certificates/ios-keys-and-certificates/do-it-yourself-guide/index) for help on Provisioning Profiles and upload again.
+It looks like you have uploaded the wrong type of file. Please refer to [this section](../certificates/ios-keys-and-certificates/do-it-yourself-guide/) for help on Provisioning Profiles and upload again.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ When you configure your Provisioning Profile in the Apple Developer Portal, you 
 </tr>
 </table>
 
-Android Build Errors
+## Android Build Errors
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ You have uploaded an invalid Android Certificate.
 <td width="20">
 </td>
 <td width="595">
-Certificates are fiddly little things and you will need to be absolutely sure you have gone through the correct process to generate them. Please refer to [this section](../certificates/android-certificates/index) on how to generate your Certificates correctly.
+Certificates are fiddly little things and you will need to be absolutely sure you have gone through the correct process to generate them. Please refer to [this section](../certificates/android-certificates/) on how to generate your Certificates correctly.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ You have entered an invalid password for your Certificate file. It must be the s
 <td width="20">
 </td>
 <td width="595">
-Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the FILE password, not the keychain password. Please refer to [this section](../certificates/android-certificates/index) on how to generate your Certificates correctly.
+Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the FILE password, not the keychain password. Please refer to [this section](../certificates/android-certificates/) on how to generate your Certificates correctly.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ You have entered an invalid password for your Certificate. It must be the same a
 <td width="20">
 </td>
 <td width="595">
-Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the KEYCHAIN password, not the File password. Please refer to [this section](../certificates/android-certificates/index) on how to generate your Certificates correctly..
+Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the KEYCHAIN password, not the File password. Please refer to [this section](../certificates/android-certificates/) on how to generate your Certificates correctly..
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ Should be self-explanatory.
 </tr>
 </table>
 
-Other Build Errors
+## Other Build Errors
 
 If you get any other errors, then you should contact [support@applicationcraft.com](mailto:support@applicationcraft.com) . We will probably need to take a look behind the scenes and sort it out.
 

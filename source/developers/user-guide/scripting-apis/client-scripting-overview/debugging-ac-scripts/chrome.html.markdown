@@ -8,7 +8,7 @@ full_width: true
 
 Google Chrome comes with Developer Tools support that many readers will already be familiar with. In order to debug an AC App, you need to have the debugger open. This is done as follows
 
-Starting the Debugger
+## Starting the Debugger
 
  - Mac - View menu, then select Developer Tools (cmd+shift+I) or Javascript Console (cmd+shift+J)
 

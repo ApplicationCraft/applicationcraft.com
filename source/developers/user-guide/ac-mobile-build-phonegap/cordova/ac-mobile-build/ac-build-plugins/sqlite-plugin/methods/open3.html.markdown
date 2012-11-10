@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-open
+**open**
 
     (success, error)
    
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -41,10 +41,11 @@ error callback function.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function is used to open a database.
 
+     
+     
    
 

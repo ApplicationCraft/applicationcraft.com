@@ -8,11 +8,11 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-An App Instance is a record of data. Please refer to the [Data Storage](../../../../product-guide/advanced-features/data-storage-management/index) chapter for detailed information on this.
+An App Instance is a record of data. Please refer to the [Data Storage](../../../../product-guide/advanced-features/data-storage-management/) chapter for detailed information on this.
 
 AC allows you to manage your App Instances using Javascript. The following functions are available
 
@@ -28,5 +28,7 @@ AC allows you to manage your App Instances using Javascript. The following funct
 
  - [instanceSync()](../../../client-api/instance-data-functions/instancesync)
 
+     
+     
    
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## deleteSessionObject (key)
+**deleteSessionObject** (key)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,22 +24,21 @@ a key string that identifies the session object created previously with setSessi
 </td>
 </tr>
 </table>
+## Description
 
-Description
+See the [setSessionObject()](setsessionobject.htm) description.
 
-See the [setSessionObject()](setsessionobject) description.
-
-Example
+## Example
 
     ssj.deleteSessionObject("userID");
     ssj.deleteSessionObject("userObject");
    
 
-See Also:
+## See Also:
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 
- - [setSessionObject()](setsessionobject)
+ - [setSessionObject()](setsessionobject.htm)
 
- - [getSessionObject()](getsessionobject)
+ - [getSessionObject()](getsessionobject.htm)
 

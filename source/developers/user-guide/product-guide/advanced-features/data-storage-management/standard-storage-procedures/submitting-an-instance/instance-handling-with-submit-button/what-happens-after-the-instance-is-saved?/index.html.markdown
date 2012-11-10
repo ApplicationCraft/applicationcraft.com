@@ -8,9 +8,9 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
 Once the Instance has been successfully saved, the App will not change appearance, by default. However, there are several things you can do in the [Application Properties](../../../../../../../widget-properties-events/app-properties#advanced) to modify the behavior upon successful submission.
 
@@ -20,7 +20,7 @@ Once the Instance has been successfully saved, the App will not change appearanc
 
 You can also redirect to another Page in the App or to another URL using scripting.
 
-## See Also:
+**See Also:**
 
- - [Page Functions](../../../../../../../scripting-apis/client-api/page-functions/index)
+ - [Page Functions](../../../../../../../scripting-apis/client-api/page-functions/)
 

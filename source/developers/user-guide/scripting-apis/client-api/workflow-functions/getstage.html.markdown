@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## obj getStage()
+obj **getStage()**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,14 +24,13 @@ The object returned contains all the Workflow Stage information.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This retrieves all the Workflow Stage information as an object. You can also retrieve specific Stage information using [getEnvValue()](../app-functions/getenvvalue)
 
-See Also:
+## See Also:
 
- - [setStage()](setstage)
+ - [setStage()](setstage.htm)
 
  - [getEnvValue()](../app-functions/getenvvalue)
 

@@ -8,16 +8,18 @@ full_width: true
 
 removeDirections()
 
-Description
+## Description
 
 Where you can remove all directions in one go
 
-## Example
+**Example**
 
-    app.w('googleMapsAdvanced').removeDirections();
+      app.w('googleMapsAdvanced').removeDirections();
+     
+     
    
 
-## See Also:
+**See Also:**
 
- - [getDirections()](getdirections)
+ - [getDirections()](getdirections.htm)
 

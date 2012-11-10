@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {string} getEnvValue (VariableName)
+{string} **getEnvValue** (VariableName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,8 +24,7 @@ the name of the environment variable you want to retrieve.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Environment information is sometimes useful if you want your App to be able to identify information that lies outside the Widget data. The following variables are supported currently. You should enter them inside square brackets as shown below.
 
@@ -41,9 +40,9 @@ Environment information is sometimes useful if you want your App to be able to i
 
  - [User.Name] - this is the Full Name of the authenticated user
 
- - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/index) .
+ - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/) .
 
-## Workflow See also [Workflow Functions](../workflow-functions/index)
+## **Workflow** See also [Workflow Functions](../workflow-functions/)
 
  - [Stage.Id] - this is the Id of the Stage of your App
 
@@ -53,15 +52,15 @@ Environment information is sometimes useful if you want your App to be able to i
 
  - [Stage.Description] - this is the Description of the Stage of your App.
 
-## Example
+**Example**
 
-    app.getEnvValue("[User.Login]"); //get the authenticated users Login
-    var myUrl = app.getInstanceURL(app.getEnvValue("[Instance.Id]")); //get the Instance URL
+    app.getEnvValue("[User.Login]");@//get@the@authenticated@users@Login@
+    var@myUrl@=@app.getInstanceURL(app.getEnvValue("[Instance.Id]"));@//get@the@Instance@URL
    
 
-See Also:
+## See Also:
 
- - [userParameterGet()](userparameterget)
+ - [userParameterGet()](userparameterget.htm)
 
- - [Custom User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/index)
+ - [Custom User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 

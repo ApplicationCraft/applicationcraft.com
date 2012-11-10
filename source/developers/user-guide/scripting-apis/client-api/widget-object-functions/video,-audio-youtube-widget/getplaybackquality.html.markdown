@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## getPlaybackQuality (quality)
+**getPlaybackQuality** (quality)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,19 +36,20 @@ Gets the video quality for the current video. Available parameters
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Gets the Playback Quality for a You Tube Video.
 
-## Example
+**Example**
 
+     
     app.w('YouTube').getYouTubePlayer().getPlaybackQuality();
+     
    
 
-## See Also:
+**See Also:**
 
- - [setPlaybackQuality()](setplaybackquality)
+ - [setPlaybackQuality()](setplaybackquality.htm)
 
- - [getAvailableQualityLevels()](getavailablequalitylevels)
+ - [getAvailableQualityLevels()](getavailablequalitylevels.htm)
 

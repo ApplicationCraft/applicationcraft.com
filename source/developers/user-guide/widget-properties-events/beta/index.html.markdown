@@ -11,13 +11,13 @@ As we release new Widgets as Beta we will include them in this section if the to
 <table>
 <tr>
 <td width="148">
-## In This Section:
+**In This Section:**
 
 </td>
 <td width="15">
 </td>
 <td width="779">
-## Planned section of Toolbox
+**Planned section of Toolbox**
 
 </td>
 </tr>

@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-This section lists only Events specific to the Circle Menu Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/index) section.
+This section lists only Events specific to the Circle Menu Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/) section.
 
 <table>
 <tr>
 <td width="151">
-## General Events
+**General Events**
 
 </td>
 <td width="23">
@@ -65,7 +65,7 @@ Trigged when the menu closes.
 </tr>
 <tr>
 <td width="151">
-## Data Events
+**Data Events**
 
 </td>
 <td width="23">

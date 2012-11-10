@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>
@@ -58,7 +58,6 @@ returns the same value as getValue()
 </td>
 </tr>
 </table>
-
 Related Videos:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3rAyD-f30ic?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeater Container Overview  [5:04]

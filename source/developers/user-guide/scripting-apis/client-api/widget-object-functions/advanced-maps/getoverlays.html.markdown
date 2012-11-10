@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result getOverlays ()
+result **getOverlays** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -22,29 +22,28 @@ Parameters
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to  retrieve a list of all the available Overlay objects currently placed on the Map.
 
-## Example
+**Example**
 
     app.w('googleMapsAdvanced').getOverlays();
    
 
-## See Also:
+**See Also:**
 
  - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
 
- - [removeOverlay()](removeoverlay)
+ - [removeOverlay()](removeoverlay.htm)
 
- - [getOverlayObjById()](getoverlayobjbyidid)
+ - [getOverlayObjById()](getoverlayobjbyidid.htm)
 
- - [clearOverlays()](clearoverlays)
+ - [clearOverlays()](clearoverlays.htm)
 
- - [showOverlay()](showoverlayid)
+ - [showOverlay()](showoverlayid.htm)
 
- - [hideOverlay()](hideoverlay)
+ - [hideOverlay()](hideoverlay.htm)
 
- - [fitToOverlays()](fittooverlays)
+ - [fitToOverlays()](fittooverlays.htm)
 

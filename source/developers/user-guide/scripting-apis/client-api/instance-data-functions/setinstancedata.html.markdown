@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## setInstanceData (obj)
+**setInstanceData** (obj)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,10 +24,9 @@ The Instance Data object to be restored that was previously acquired with [getAp
 </td>
 </tr>
 </table>
+## Description
 
-Description
-
-This function restores a single data Instance that was created using [getInstanceData()](getinstancedata) . If you had converted the object into a JSON string, you can convert it back into an object using [JSON2OBJ()](../conversion-functions/text2json) . However, if you retrieve it back from an external web service call using our own  httpRequest() function, it will do the conversion for you.
+This function restores a single data Instance that was created using [getInstanceData()](getinstancedata.htm) . If you had converted the object into a JSON string, you can convert it back into an object using [JSON2OBJ()](../conversion-functions/text2json) . However, if you retrieve it back from an external web service call using our own  httpRequest() function, it will do the conversion for you.
 
  - [setAppSnapshot()](../app-functions/setappsnapshot)
 
@@ -39,9 +38,9 @@ This function restores a single data Instance that was created using [getInstanc
 
  - [getGlobalData()](../global-data-pool-functions/getglobaldata)
 
- - [getInstanceData()](getinstancedata)
+ - [getInstanceData()](getinstancedata.htm)
 
- - [setInstanceData()](setinstancedata)
+ - [setInstanceData()](setinstancedata.htm)
 
  - [dataSetValues()](../widget-data-state-manipulation/datasetvalues)
 

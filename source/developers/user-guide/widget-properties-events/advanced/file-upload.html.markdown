@@ -11,7 +11,7 @@ File Upload enables you to upload files
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -155,7 +155,7 @@ This is where you can specify the sources of files from the mobile device
 <table>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ true/false
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -335,7 +335,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -415,7 +415,7 @@ If set to True, the object can be interacted with by a user but data cannot be a
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -563,7 +563,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -632,7 +632,7 @@ Where you can override the default hourglass image to an image of your Resources
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -756,7 +756,7 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

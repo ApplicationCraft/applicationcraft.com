@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## mobileEmail (object)
+**mobileEmail** (object)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,24 +24,24 @@ You can enter the recipients email address, subject and/or body to send to (opti
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This will invoke the devices Email program, and if optional details are entered they will be pre populated.
 
 Label widgets, Image widget and Mobile Action button have a 'Link' property where you can also invoke the devices Email program
 
-Example
+## Example
 
     app.mobileEmail("someone@email.com");
     app.mobileEmail("someon@email.com?subject=ASubject&body=SomeText");
+     
    
 
-See Also:
+## See Also:
 
- - [mobileDial()](mobiledial)
+ - [mobileDial()](mobiledial.htm)
 
- - [mobileSMS()](mobilesms)
+ - [mobileSMS()](mobilesms.htm)
 
  - [Label (Common)](../../../widget-properties-events/common/label)
 
@@ -51,4 +51,3 @@ See Also:
 
  - [Label (Mobile)](../../../widget-properties-events/mobile/moblabel)
 
-   

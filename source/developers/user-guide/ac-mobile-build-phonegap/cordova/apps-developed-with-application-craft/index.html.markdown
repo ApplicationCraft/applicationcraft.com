@@ -10,11 +10,11 @@ Application Craft generates Web Apps. However, these can be turned into Native A
 
 These apps can access device hardware and features such as GPS, Accelerometer, Camera, Audio, Contacts etc and can also be deployed in App Stores.
 
-Using our [AC Mobile Build](application-craft-build) platform you can also integrate with a number of Plugins for iOS and Android.
+Using our [AC Mobile Build](application-craft-build.htm) platform you can also integrate with a number of Plugins for iOS and Android.
 
 This chapter describes the various ways you can generate and deploy these native Apps.
 
-## In This Section:
+**In This Section:**
 
 [Mobile Widgets and Layout](mobile-widgets-and-layout)
 

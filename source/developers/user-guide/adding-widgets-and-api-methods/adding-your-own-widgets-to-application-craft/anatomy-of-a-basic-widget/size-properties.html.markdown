@@ -10,27 +10,27 @@ This is included for informational purposes only. In most cases, your widget sim
 
 The Layout section of the property bar contains the following properties.
 
-    { name: AC.Property.group_names.layout, props:[
-    AC.Property.layout.x,
-    AC.Property.layout.y,
-    AC.Property.layout.pWidthHidden,
-    AC.Property.layout.widthHidden,
-    AC.Property.layout.heightHidden,
-    AC.Property.layout.sizes,
-    AC.Property.layout.repeat,
-    AC.Property.layout.zindex,
-    AC.Property.layout.anchors,
-    AC.Property.layout.alignInContainer
-    ]},
-    AC.Property.layout.pWidthHidden,
-    AC.Property.layout.widthHidden,
-    AC.Property.layout.heightHidden,
-    AC.Property.layout.sizes,
+                { name: AC.Property.group_names.layout, props:[
+                    AC.Property.layout.x,
+                    AC.Property.layout.y,
+                    AC.Property.layout.pWidthHidden,
+                    AC.Property.layout.widthHidden,
+                    AC.Property.layout.heightHidden,
+                    AC.Property.layout.sizes,
+                    AC.Property.layout.repeat,
+                    AC.Property.layout.zindex,
+                    AC.Property.layout.anchors,
+                    AC.Property.layout.alignInContainer
+                ]},
+                    AC.Property.layout.pWidthHidden,
+                    AC.Property.layout.widthHidden,
+                    AC.Property.layout.heightHidden,
+                    AC.Property.layout.sizes,
     setProperty("myWidget", aSizeProperty, value)
     aSizeProperty
     width
     height
-    pWidth (% width)
+    pWidth@(%@width)
    
 
 In order for your Widget to work with this mechanism, you should be sure to include these properties

@@ -16,7 +16,7 @@ There are three types of filters that can be applied to Views:
 
 ![ViewFilter](/img/docs/viewfilter.zoom87.png)
 
- - Drill Down Filter - this is applied when you drill down by clicking on charts or Grid rows. This is described in more detail in the [Drilling Down](drilling-down) section.
+ - Drill Down Filter - this is applied when you drill down by clicking on charts or Grid rows. This is described in more detail in the [Drilling Down](drilling-down.htm) section.
 
  - User Specific Filter - this has not yet been implemented. It will allow filtering to be done that applies an extra filter layer depending on who the user is viewing the report. This will allow standard reports to be built that then have filters applied that ensure that the report viewer only sees data related to them.
 

@@ -10,7 +10,7 @@ To be able to push notifications to Android devices you need to set up Google Cl
 
 To get started go: [http://developer.android.com/guide/google/gcm/gs.html](http://developer.android.com/guide/google/gcm/gs.html) .
 
-To Create your project
+## To Create your project
 
 As you create your project, your browser URL will change to something like:
 
@@ -18,6 +18,6 @@ As you create your project, your browser URL will change to something like:
 
 Take note of the value after \#project: (4815162342 in this example). This is your project ID, and it will be used later on as the GCM Sender ID.
 
-To obtain an API key
+## To obtain an API key
 
 In the main Google APIs Console page, select API Access.

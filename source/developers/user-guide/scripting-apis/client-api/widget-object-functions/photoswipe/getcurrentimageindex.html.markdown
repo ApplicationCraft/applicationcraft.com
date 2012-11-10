@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## index getCurrentImageIndex ()
+index **getCurrentImageIndex** ()
 
-Description
+## Description
 
 Allows you to get the index of the current image.
 
-Example
+## Example
 
-    app.w("Photoswipe").getCurrentImageIndex();
+    app.w("Photoswipe").getCurrentImageIndex();@@
    

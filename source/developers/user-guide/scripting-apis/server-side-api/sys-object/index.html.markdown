@@ -6,15 +6,15 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
- - [User Management](user-management/index)
+ - [User Management](user-management/)
 
- - [Group Management](group-management/index)
+ - [Group Management](group-management/)
 
- - [App Management](app-management/index)
+ - [App Management](app-management/)
 
- - [Resources Management](resources-management/index)
+ - [Resources Management](resources-management/)
 
- - [Queries Management](queries-management/index)
+ - [Queries Management](queries-management/)
 

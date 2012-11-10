@@ -8,7 +8,7 @@ full_width: true
 
 The Child Browser plugin allows you to display external web pages within your app, in a sub view. It is preferable to a regular link in that it allows the user to press a button to dismiss that view, returning control back to your App.
 
-HTML5+CSS+JS Apps not developed in Application Craft
+## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following
 
@@ -24,7 +24,7 @@ You should replace x.y.z in version='x.y.z' depending on which version of Cordov
 
  - Cordova \>=2.1.0 use "4.0.0"
 
-Apps Developed with Application Craft
+## Apps Developed with Application Craft
 
 <table>
 <tr>
@@ -72,11 +72,11 @@ All functions are called on the singleton ChildBrowser instance - accessible as
 
 .
 
-The Child Browser plugin can also be used if building using [Phonegap:Build](../../../phonegapbuild/index)
+The Child Browser plugin can also be used if building using [Phonegap:Build](../../../phonegapbuild/)
 
-See
+## See
 
- - [Methods](methods/index)
+ - [Methods](methods/)
 
- - [Events](events/index)
+ - [Events](events/)
 

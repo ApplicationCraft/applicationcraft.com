@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## callSSJ (serverFunctionName, callbackFunction, [arg1, arg2, .... , argN])
+**callSSJ** (serverFunctionName, callbackFunction, [arg1, arg2, .... , argN])
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,12 +48,11 @@ an optional array of arguments as may be required by the server side function
 </td>
 </tr>
 </table>
+## Description
 
-Description
+This function is used if you want to call a server side function from your client App. [Server Side Scripting](../../server-side-scripting-overview/) is covered in its own chapter, so please refer to it for more details.
 
-This function is used if you want to call a server side function from your client App. [Server Side Scripting](../../server-side-scripting-overview/index) is covered in its own chapter, so please refer to it for more details.
-
-Example
+## Example
 
 See [Calling SSJ Methods](../../server-side-scripting-overview/calling-ssj-methods) for an example.
 

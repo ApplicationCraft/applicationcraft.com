@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-As well as being able to populate [Mobile List](mobile/list) [Listbox](common/listbox) , [Dropdown List](common/dropdown-list) and [Grid](advanced/grid) widgets from an external data source by setting properties in the [Data Section](../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/index) , you can also do this using [Data Lists](../product-guide/advanced-features/data-lists-management/index) .
+As well as being able to populate [Mobile List](mobile/list) [Listbox](common/listbox) , [Dropdown List](common/dropdown-list) and [Grid](advanced/grid) widgets from an external data source by setting properties in the [Data Section](../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/) , you can also do this using [Data Lists](../product-guide/advanced-features/data-lists-management/) .
 
-If you are likely to want to populate multiple widgets with this data, either in the same app or in future apps, [Data Lists](../product-guide/advanced-features/data-lists-management/index) is recommended
+If you are likely to want to populate multiple widgets with this data, either in the same app or in future apps, [Data Lists](../product-guide/advanced-features/data-lists-management/) is recommended
 
 You can also though manually populate your widgets if required.
 
@@ -22,11 +22,11 @@ or
 
 ![ImportResouce3](/img/docs/importresouce3.zoom63.png)
 
-## Manual method:
+**Manual method:**
 
 Use Add Row, Delete Row, Up and Down as required and enter in the required Label text (that will be visible to your app users) and the Value
 
-## Import Resource:
+**Import Resource:**
 
 Having already uploaded your CSV file as a [Resource](../product-guide/the-console/console-tabs/resources) , click the 'Import Resource' button to initiate the Import Resource Dialog
 
@@ -44,7 +44,7 @@ In most cases if your CSV file is correctly set up this will enable to file to b
 
 If you do not see the Parsed Resource as intended, 'Cancel' back to the previous screen and review the options available for the Delimiter, Enclosure and Escape fields in your CSV file
 
-See Also:
+## See Also:
 
  - [Listbox](common/listbox)
 

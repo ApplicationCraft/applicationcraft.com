@@ -12,11 +12,11 @@ You can also dynamically control the SMTP senders parameters using [sendEmail()]
 
 ![smtpparams](/img/docs/smtpparams.zoom65.png)
 
-## In This Section:
+**In This Section:**
 
  - [Adding your SMTP Parameters](adding-your-smtp-parameters)
 
-See Also:
+## See Also:
 
  - [sendEmail()](../../../../../../scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2)
 

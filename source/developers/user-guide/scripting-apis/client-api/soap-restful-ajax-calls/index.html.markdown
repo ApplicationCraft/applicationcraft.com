@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>
@@ -34,7 +34,6 @@ Makes a SOAP call
 </td>
 </tr>
 </table>
-
 Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Ly5KbmvHk7E?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) AJAX functions, timeouts and data population [3:13]

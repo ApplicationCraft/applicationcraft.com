@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## deleteWidget (widgets);
+**deleteWidget** (widgets);
 
 <table>
 <tr>
@@ -23,17 +23,17 @@ Widget identifier - string, string array, object or object array
 </tr>
 </table>
 
-Description
+## Description
 
 Allows you to dynamically delete widgets from your app
 
-Example
+## Example
 
     app.deleteWidget('lblName');
     app.deleteWidget(['lblName','txtName']);
    
 
-See Also:
+## See Also:
 
- - [createWidget()](createwidget)
+ - [createWidget()](createwidget.htm)
 

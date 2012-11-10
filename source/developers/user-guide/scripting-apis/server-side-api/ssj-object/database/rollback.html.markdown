@@ -6,23 +6,23 @@ full_width: true
 ---
 
 
-## connectionObject.rollback()
+**connectionObject.rollback()**
 
-Return Value
+## Return Value
 
-This function does not return a value.
+## This function does not return a value.
 
-Description
+## Description
 
 This method rolls back a database transaction for the database referenced by the Connection Object.
 
-Example
+## Example
 
-See the example in [beginTransaction()](begintransaction) .
+See the example in [beginTransaction()](begintransaction.htm) .
 
-See Also:
+## See Also:
 
- - [beginTransaction()](begintransaction)
+ - [beginTransaction()](begintransaction.htm)
 
- - [commit()](commit)
+ - [commit()](commit.htm)
 

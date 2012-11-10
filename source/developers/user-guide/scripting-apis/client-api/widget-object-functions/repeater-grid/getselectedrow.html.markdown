@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## indexValue getSelectedRow ()
+indexValue **getSelectedRow** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,14 +24,13 @@ The row index of the selected row is returned,. If no row is selected, then retu
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This returns the row index of the currently selected row in a Grid Widget.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
-See Also:
+## See Also:
 
- - [setSelectedRow()](setselectedrow)
+ - [setSelectedRow()](setselectedrow.htm)
 

@@ -8,19 +8,20 @@ full_width: true
 
 From your client code you will need to cal
 
-    app.oAuthSignIn('twitter', authCallback);
+    app.oAuthSignIn('twitter',@authCallback);
     twitter, facebook
     dropbox
-    function authCallback(result, userAuthKey) {
-    if (result) {
-    // Successfully authenticated
-    // We can store 'id', the authentication token now
-    window.userAuthKey = userAuthKey;
+    function@authCallback(result,@userAuthKey)@{
+        if (result) {
+            // Successfully authenticated   
+            // We can store 'id', the authentication token now
+            window.userAuthKey = userAuthKey;
+        }
+        else {
+            // There was an error, so handle it 
+        }
     }
-    else {
-    // There was an error, so handle it
-    }
-    }
+     
    
 
 Valid parameters are currently and . If you are interested in more services then please contact support@applicationcraft.com

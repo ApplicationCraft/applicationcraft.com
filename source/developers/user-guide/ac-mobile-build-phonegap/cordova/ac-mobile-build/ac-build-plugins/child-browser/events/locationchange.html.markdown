@@ -6,14 +6,14 @@ full_width: true
 ---
 
 
-Description
+## Description
 
 This event is called when the ChildBrowser loads a URL (including the initial location, when [showWebPage()](../methods/showwebpage) is called). The callback function is passed the new URL being loaded.
 
-## Example
+**Example**
 
-    window.plugins.childBrowser.onLocationChange = function (url) {
-    alert('childBrowser has loaded ' + url);
+    window.plugins.childBrowser.onLocationChange@=@function@(url)@{
+        alert('childBrowser has loaded ' + url);
     };
    
 

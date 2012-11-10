@@ -15,7 +15,7 @@ If compiling for iOS, you will need to set the [PhoneGap App Options](../../ac-m
 <table>
 <tr>
 <td width="156">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="24">
@@ -119,7 +119,7 @@ Show/Hide/Hide ProgressBar
 <table>
 <tr>
 <td width="155">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="22">
@@ -223,7 +223,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="154">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="22">
@@ -291,7 +291,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="29">
@@ -319,7 +319,7 @@ Fields
 <td width="29">
 </td>
 <td width="765">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -423,7 +423,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="26">
@@ -484,7 +484,7 @@ The background color of the Widget. If it is empty, the App's Theme Back Color w
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -574,11 +574,11 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 
  - [General Events](../events/event-reference-list/general-events)
 
- - [Video, Audio & YouTube Widget Methods](../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/index)
+ - [Video, Audio & YouTube Widget Methods](../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## assignToRole (formId, optional roleName, optional users, optional groups, callback)
+**assignToRole** (formId, optional roleName, optional users, optional groups, callback)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -72,12 +72,11 @@ Called when AC has completed execution
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Assigns a Person, Email Address or Group to the specified Role for the specified App.
 
-Callback Function
+## Callback Function
 
 The callback function should be provided in order to check for errors. The error parameter indicates success (false) or failure (true).
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The following method table is a summary of the methods available for the Circular Menu object. Each method is described in detail in the [Circular Menu](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/index) Reference section.
+The following method table is a summary of the methods available for the Circular Menu object. Each method is described in detail in the [Circular Menu](../../../../scripting-apis/client-api/widget-object-functions/circular-menu/) Reference section.
 
 <table>
 <tr>

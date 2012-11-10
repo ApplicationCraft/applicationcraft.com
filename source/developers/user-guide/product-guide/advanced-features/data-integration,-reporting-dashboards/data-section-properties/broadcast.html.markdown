@@ -14,7 +14,7 @@ This property is available on any Widget that is able to set the Drill Down Filt
 
 ![Broadcast](/img/docs/broadcast.zoom95.png)
 
-This can also be set [Using Automatic Property Settings](using-automatic-property-setti)
+This can also be set [Using Automatic Property Settings](using-automatic-property-setti.htm)
 
 ![txt\_expr](/img/docs/txt_expr.zoom66.png)
 

@@ -14,17 +14,17 @@ Obviously, you can use the alert() function to display your errors but a nicer w
 
 The advantage of this approach is that it will fit in with the design of your App and is also very quick and easy to set up.
 
-httpRequest() Error Handling
+## httpRequest() Error Handling
 
 Because [httpRequest()](../../client-api/soap-restful-ajax-calls/httprequest) is makes asynchronous AJAX calls, Application Craft will never handle the error automatically. This is the responsibility of the [httpRequest()](../../client-api/soap-restful-ajax-calls/httprequest) callback function.
 
-Example
+## Example
 
 This function shows the error handler catching the error and simply displaying the error message the page that will be displayed with [showPagePopup()](../../client-api/page-functions/showpagepopup)
 
-    function handler_application_onError(error){
-    app.setValue('lblError', error.message);   // Display the error message in a label on the error page
-    return(false);  // suppress Application Craft's popup message box
+    function@handler_application_onError(error){
+        app.setValue('lblError', error.message);   // Display the error message in a label on the error page
+        return(false);  // suppress Application Craft's popup message box
     }
    
 

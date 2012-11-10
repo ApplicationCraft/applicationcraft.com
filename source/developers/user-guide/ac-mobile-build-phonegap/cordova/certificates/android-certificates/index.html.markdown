@@ -16,7 +16,7 @@ Unlike iOS, you can actually build and distribute your Android APK files without
 
 This chapter describes how all this is done.
 
-## In This Section:
+**In This Section:**
 
 [Debug Development Certificates](debug-development-certificates)
 

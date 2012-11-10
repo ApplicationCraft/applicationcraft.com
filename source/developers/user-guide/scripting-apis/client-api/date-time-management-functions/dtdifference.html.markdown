@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-dtDifference (dObj1, dObj2,DateUnit);
+## dtDifference (dObj1, dObj2,DateUnit);
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,25 +36,24 @@ Define the Date unit: (Y=Year, M=Month, W=Week, D=Day, X=WorkingDays, H=Hour, S=
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Returns the difference between the specified date objects in the specified time units. X=working days.
 
-Example
+## Example
 
-    dObj1=app.dtNewDate('locale', 2015, 7, 14, 8, 2,30);   // set Date Object(1) to Fri Aug 14 2015 08:02:30
-    dObj2=app.dtNewDate('locale', new Date(2012,8,12,8,2,30));  // set Date Object(2) to Wed Sep 12 2012 08:02:30
-    dDiff=app.dtDifference(dObj1,dObj2,'D'); // Return the number of days difference (1066 days) between the 2 date objects)
+    dObj1=app.dtNewDate('locale',@2015,@7,@14,@8,@2,30);@@@//@set@Date@Object(1)@to@Fri@Aug@14@2015@08:02:30
+    dObj2=app.dtNewDate('locale',@new@Date(2012,8,12,8,2,30));@@//@set@Date@Object(2)@to@Wed@Sep@12@2012@08:02:30
+    dDiff=app.dtDifference(dObj1,dObj2,'D');@//@Return@the@number@of@days@difference@(1066@days)@between@the@2@date@objects)
    
 
-See Also:
+## See Also:
 
- - [dtNewDate()](dtnewdate)
+ - [dtNewDate()](dtnewdate.htm)
 
- - [dtadd()](dtadd)
+ - [dtadd()](dtadd.htm)
 
- - [dtAdjust()](dtadjust)
+ - [dtAdjust()](dtadjust.htm)
 
- - [dtDateToString()](dtdatetostring)
+ - [dtDateToString()](dtdatetostring.htm)
 

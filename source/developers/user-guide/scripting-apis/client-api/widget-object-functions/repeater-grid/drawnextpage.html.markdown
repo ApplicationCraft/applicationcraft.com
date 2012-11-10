@@ -6,15 +6,15 @@ full_width: true
 ---
 
 
-## boolean drawNextPage()
+**boolean drawNextPage()**
 
-Returns
+## Returns
 
  - True, if there is more data available after the Repeater Container contents has been drawn, in which case you can call drawNextPage() again.
 
  - False, if there is no more data to fetch.
 
-Description
+## Description
 
 This function is only available for the Repeater Container widget. If you have used populateWidget() to load data into a Repeater Container, then it will display only as many records as the Elements per Page property of the  Repeater Container specifies, even if you passed in many more records. However, you can then either use one of the following approaches to access the remaining data
 
@@ -24,26 +24,27 @@ This function is only available for the Repeater Container widget. If you have u
 
 Typically, you might use buttons above or below the Repeater to manage the paging.
 
-You should be aware that the return value can only be relied upon if the page is already shown where the Repeater Container is located. If not, then you should perform a check with the [isAllDataDrawn()](isalldatadrawn) function once you have switched to that page.
+You should be aware that the return value can only be relied upon if the page is already shown where the Repeater Container is located. If not, then you should perform a check with the [isAllDataDrawn()](isalldatadrawn.htm) function once you have switched to that page.
 
-Example
+## Example
 
 This example shows how, when a 'More...' button is clicked, the drawNextPage() function is called.
 
-    function handler_btnMoreEntities_onClick(mouseev){
-    if(app.w('rptEntities').drawNextPage()===false) {
-    app.visible('btnMoreEntities', false);
+    function@handler_btnMoreEntities_onClick(mouseev){
+        if(app.w('rptEntities').drawNextPage()===false) {
+            app.visible('btnMoreEntities', false);
+        } 
     }
-    }
+     
    
 
-See Also:
+## See Also:
 
  - [getViewData()](../../data-view-functions/getviewdata)
 
- - [isAllDataDrawn()](isalldatadrawn)
+ - [isAllDataDrawn()](isalldatadrawn.htm)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 
  - [fetchDataPage()](../../data-view-functions/fetchdatapage)
 

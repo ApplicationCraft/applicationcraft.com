@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## gaTrack ();
+**gaTrack** ();
 
 <table>
 <tr>
@@ -23,16 +23,16 @@ A tracking code that is passed to Google Analytics
 </tr>
 </table>
 
-Description
+## Description
 
 Calls Google Analytics with the specified tracking code. It uses the account wide GA Account ID or the App's own GA Account ID.
 
-Refer to the [Google Analytics](../../../product-guide/advanced-features/google-analytics/index) section for more information on how to set up GA support.
+Refer to the [Google Analytics](../../../product-guide/advanced-features/google-analytics/) section for more information on how to set up GA support.
 
-Example
+## Example
 
 Call the following code anywhere within your code.
 
-    app.gaTrack('myCode');
+    app.gaTrack('myCode');@@
    
 

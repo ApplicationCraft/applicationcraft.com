@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## setSectionState (index,true/false)
+**setSectionState** (index,true/false)
 
-Description
+## Description
 
 Allows you to programmatically open/close the accordion sections
 
-## Example
+**Example**
 
-    app.w("accordion").setSectionState(1,true); // Opens the 2nd section in the container
+    app.w("accordion").setSectionState(1,true);@//@Opens@the@2nd@section@in@the@container
    

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## strokeWeight (weight)
+**strokeWeight** (weight)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,28 +24,30 @@ Set the Overlay line weight
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 .
 
 How you can set the line thickness for overlays
 
-## Example
+**Example**
 
-    app.w('googleMapsAdvanced').strokeWeight(1 + Math.random() * 10);  //Set Random Line Weight
+     
+    app.w('googleMapsAdvanced').strokeWeight(1@+@Math.random()@*@10);@@//Set@Random@Line@Weight
     app.w('googleMapsAdvanced').strokeWeigth(2);
+     
+     
    
 
-## See Also:
+**See Also:**
 
- - [strokeColor()](strokecolor)
+ - [strokeColor()](strokecolor.htm)
 
- - [strokeOpacity()](strokeopacity)
+ - [strokeOpacity()](strokeopacity.htm)
 
- - [fillColor()](fillcolor)
+ - [fillColor()](fillcolor.htm)
 
- - [fillOpacity()](fillopacity)
+ - [fillOpacity()](fillopacity.htm)
 
- - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/index)
+ - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/)
 

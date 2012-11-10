@@ -73,7 +73,7 @@ Resets the value of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[populateWidget()](../widget-data-state-manipulation/populatewidget()/index)
+[populateWidget()](../widget-data-state-manipulation/populatewidget/)
 
 </td>
 <td width="12">

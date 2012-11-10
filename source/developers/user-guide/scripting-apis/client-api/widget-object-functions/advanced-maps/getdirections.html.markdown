@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result getDirections (callback, origin, destination, drawOnMap, options (optional), rendererOptions(optional))
+result **getDirections** (callback, origin, destination, drawOnMap, options (optional), rendererOptions(optional))
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -92,8 +92,7 @@ An object to extend direction renderer options
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 You can use the Map widget to get directions from one location to another.  The locations you specify can be addresses or lat/lng coordinates.
 
@@ -103,35 +102,37 @@ For more information on rendererOptions see: [https://developers.google.com/maps
 
 Note that the returned directions are presented via a callback function.
 
-## Example
+**Example**
 
-    function getDirectionsCallback(result, data) {
-    // Put all of the directions into a single HTML string
-    for(i=0, htmlStr="";i<data.routes[0].legs[0].steps.length; i++) {
-    htmlStr += data.routes[0].legs[0].steps[i].instructions + "</br>";
+    function@getDirectionsCallback(result,@data)@{
+        // Put all of the directions into a single HTML string
+        for(i=0, htmlStr="";i<data.routes[0].legs[0].steps.length; i++) {
+            htmlStr += data.routes[0].legs[0].steps[i].instructions + "</br>";
+        }
     }
-    }
-    function handler_actionBtn15_onClick(mouseev){
-    var rendererOptions = {
-    preserveViewport: true
-    };
-    app.w('googleMapsAdvanced').getDirections(getDirectionsCallback, "Moscow", "Minsk", true, {}, rendererOptions);
-    app.w('googleMapsAdvanced').
-    (getDirectionsCallback, [37.7, -97.2], "Oklahoma City");
+     
+    function@handler_actionBtn15_onClick(mouseev){
+     var rendererOptions = {
+            preserveViewport: true
+        };
+          
+        app.w('googleMapsAdvanced').getDirections(getDirectionsCallback, "Moscow", "Minsk", true, {}, rendererOptions);
+        app.w('googleMapsAdvanced').
+    (getDirectionsCallback,@[37.7,@-97.2],@"Oklahoma@City");
     }
    
 
-## getDirections
+**getDirections**
 
-## See Also:
+**See Also:**
 
- - [whereAmI()](whereami)
+ - [whereAmI()](whereami.htm)
 
- - [getAddress()](getaddress)
+ - [getAddress()](getaddress.htm)
 
- - [getCoord()](getcoord)
+ - [getCoord()](getcoord.htm)
 
- - [addCurrentLocation()](addcurrentlocation)
+ - [addCurrentLocation()](addcurrentlocation.htm)
 
- - [removeDirections()](removedirections)
+ - [removeDirections()](removedirections.htm)
 

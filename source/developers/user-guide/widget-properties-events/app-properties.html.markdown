@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="20">
@@ -219,7 +219,7 @@ Where you can define other apps that are linked to this app using [switchApp()](
 </tr>
 <tr>
 <td width="182">
-## Internationalization
+**Internationalization**
 
 </td>
 <td width="20">
@@ -261,7 +261,7 @@ Where you can set your Language Tokens and also import/export a CSV file to work
 </tr>
 <tr>
 <td width="182">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="20">
@@ -291,7 +291,7 @@ This indicates the number of Views used within the App. To add or remove Views, 
 </tr>
 <tr>
 <td width="182">
-## <a id="advanced"> </a> Advanced
+<a id="advanced"> </a> **Advanced**
 
 </td>
 <td width="20">
@@ -343,7 +343,7 @@ Page Target
 <td width="20">
 </td>
 <td width="740">
-## This defines where to go in the current App after the Instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/index) .
+## This defines where to go in the current App after the Instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
 
 </td>
 </tr>
@@ -355,7 +355,7 @@ Redirect URL
 <td width="20">
 </td>
 <td width="740">
-## This defines which URL to go to after the instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/index) .
+## This defines which URL to go to after the instance is submitted. See also [What happens after the instance is saved](../product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
 
 </td>
 </tr>
@@ -417,7 +417,7 @@ Allows you to add code between the head tags of the app's index.html page.
 </tr>
 <tr>
 <td width="182">
-## <a id="phonegap"> </a> Phonegap
+<a id="phonegap"> </a> **Phonegap**
 
 </td>
 <td width="20">
@@ -433,7 +433,7 @@ PhoneGap Options
 <td width="20">
 </td>
 <td width="740">
-Where you can manage your app properties and enable device [AC Mobile Build](../ac-mobile-build-phonegap/cordova/ac-mobile-build/index) features. See [PhoneGap App Options](../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
+Where you can manage your app properties and enable device [AC Mobile Build](../ac-mobile-build-phonegap/cordova/ac-mobile-build/) features. See [PhoneGap App Options](../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
 
 </td>
 </tr>
@@ -459,7 +459,7 @@ Available plugins can be enabled and used within apps built using
 </tr>
 <tr>
 <td width="182">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 <td width="20">
@@ -487,7 +487,7 @@ Instance Name
 <td width="20">
 </td>
 <td width="740">
-## This is the name of the Instance when it is saved so you can access it through a Query. See also [How to Report on App Data](../product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/index) .
+## This is the name of the Instance when it is saved so you can access it through a Query. See also [How to Report on App Data](../product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/) .
 
 </td>
 </tr>
@@ -575,7 +575,7 @@ See Also: [checkMandatory()](../scripting-apis/client-api/widget-functions/check
 </tr>
 <tr>
 <td width="182">
-## <a id="custom"> </a> Custom
+<a id="custom"> </a> **Custom**
 
 </td>
 <td width="20">
@@ -597,7 +597,7 @@ Select to render any charts using Flash or Javascript
 </tr>
 <tr>
 <td width="182">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="20">
@@ -622,7 +622,7 @@ This is the [Theme](../product-guide/content-and-app-layout/introduction/themes-
 <table>
 <tr>
 <td width="139">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="14">
@@ -882,7 +882,7 @@ On Resize
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
  - [General Events](events/event-reference-list/general-events)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## setData (widget, value)
+**setData** (widget, value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,24 +36,23 @@ the value to write
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to set the contents of a Widget.
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) . You need to be aware of how setData() and setValue() work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how setData() and setValue() work with different Widget types.
 
-Example
+## Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter.
+There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
 
-See Also:
+## See Also:
 
- - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists--dropdowns) Widgets
+ - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists-dropdowns) Widgets
 
- - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids--repeater-containers)
+ - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
 
- - [populateWidget()](populatewidget) for populating Grids and Repeater Containers with JSON data
+ - [populateWidget()](populatewidget.htm) for populating Grids and Repeater Containers with JSON data
 
 Related Video:
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## objArray objConnection getConnectionByName (strConnectionName)
+objArray objConnection **getConnectionByName** (strConnectionName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,8 +24,7 @@ the Connection Name of the Connection as found in the AC Console
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 <table>
 <tr>
@@ -41,22 +40,22 @@ returns an array of Connection Objects that match the suppled name.
 </td>
 </tr>
 </table>
+## Description
 
-Description
-
-This is provided as an alternative way of opening a Connection. It is very much advised that you do not use this function but use [getConnection()](getconnection) instead.
+This is provided as an alternative way of opening a Connection. It is very much advised that you do not use this function but use [getConnection()](getconnection.htm) instead.
 
 The only advantage of using getConnectionByName() over getConnection() is that you can pass in a Connection Name rather than a Connection ID. This may make it more appealing superficially, but you should be aware that Connection Names are not guaranteed to be unique, which can result in problems if you are not careful with your naming.
 
 You should note that this function returns an array of Connection objects for this same reason. Any matching Connection Names will be returned within the array. If there is only one matching name, then you will still get an array returned.
 
-Example
+## Example
 
-    objArray = ssj.getConnectionByName("Classic Cars");
-    cObj = objArray[0];   // This assumes that there is only a single Connection called "Classic Cars".
-    selectObj = cObj.select().from('customers').order('companyName');
-    result = cObj.exec(selectObj);
+    objArray@=@ssj.getConnectionByName("Classic@Cars");
+    cObj@=@objArray[0];@@@//@This@assumes@that@there@is@only@a@single@Connection@called@"Classic@Cars".
+    selectObj@=@cObj.select().from('customers').order('companyName');
+    result@=@cObj.exec(selectObj);
     return(result);
+     
    
 
 Related Video:

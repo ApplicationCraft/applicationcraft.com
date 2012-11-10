@@ -8,11 +8,11 @@ full_width: true
 
 This property is located in each widget's Layout property section, just beneath the X and Y properties. This is an extremely important property to understand, especially when doing adaptive/responsive layout work.
 
-Absolute Mode
+## Absolute Mode
 
 If a widget is inside an Absolute mode Container (or Page), then there is not too much to worry about. The size you see on screen will remain unchanged as the browser window changes size, or as it appears on different device screens.
 
-Vertical and Horizontal Modes
+## Vertical and Horizontal Modes
 
 If a widget is within a Container in Vertical or Horizontal mode, then the widget can be made to change size in response to the size of the display width and height. It is here that the Sizes property comes into its own.
 

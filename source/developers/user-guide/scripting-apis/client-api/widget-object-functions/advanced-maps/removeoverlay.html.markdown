@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## removeOverlay (overlayId)
+**removeOverlay** (overlayId)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,31 +24,32 @@ The object name of the overlay to remove
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 You can remove a defined overlay as it is clicked on using the onOverlayClick Event
 
-## Example
+**Example**
 
-    function handler_googleMapsAdvanced_onOverlayClick(latlng, overlay){
-    _widget.removeOverlay(overlay);
+    function@handler_googleMapsAdvanced_onOverlayClick(latlng,@overlay){
+        _widget.removeOverlay(overlay);
     }
+     
+     
    
 
-## See Also:
+**See Also:**
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 
- - [getOverlays()](getoverlays)
+ - [getOverlays()](getoverlays.htm)
 
- - [clearOverlays()](clearoverlays)
+ - [clearOverlays()](clearoverlays.htm)
 
- - [showOverlay()](showoverlayid)
+ - [showOverlay()](showoverlayid.htm)
 
- - [hideOverlay()](hideoverlay)
+ - [hideOverlay()](hideoverlay.htm)
 
- - [fitToOverlays()](fittooverlays)
+ - [fitToOverlays()](fittooverlays.htm)
 
- - [getOverlayObjById()](getoverlayobjbyidid)
+ - [getOverlayObjById()](getoverlayobjbyidid.htm)
 

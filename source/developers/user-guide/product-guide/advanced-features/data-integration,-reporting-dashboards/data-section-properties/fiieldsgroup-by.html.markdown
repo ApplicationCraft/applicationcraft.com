@@ -20,7 +20,7 @@ Group By is best explained using examples. Let's assume we have the following Fi
 
  - Country
 
-Example 1
+## Example 1
 
 You want to display in a Chart the number of Sales made in each Country. You would make the following key property settings
 
@@ -30,7 +30,7 @@ You want to display in a Chart the number of Sales made in each Country. You wou
 
   3.   Group By - {customers.country}. This tells AC to group the rows of data being returned into groups of each Country. Any aggregate functions (in this case, Count()) are applied to each group of countries.
 
-Example 2
+## Example 2
 
 You want to display the total sales made in each month of the year in a Bar Chart
 
@@ -42,7 +42,7 @@ You want to display the total sales made in each month of the year in a Bar Char
 
 Notice that this uses a Month function to extract the Month number from the Date field. This is not an aggregate function, whereas the Sum function is.
 
-Setting Group By from Scripting
+## Setting Group By from Scripting
 
 You can also modify the Group By property dynamically from a script using [app.setProperty](../../../../scripting-apis/client-api/widget-functions/setproperty) ('widgetName', 'groupBy', 'expression')
 

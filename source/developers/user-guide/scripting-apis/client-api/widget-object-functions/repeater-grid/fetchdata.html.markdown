@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## fetchDataPage (relativePageString)
+**fetchDataPage** (relativePageString)
 
-## fetchDataPage (relativePageNumber)
+**fetchDataPage** (relativePageNumber)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -38,30 +38,29 @@ Fetch page 'n'
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Grids and Repeater Containers that are connected to Data Views fetch pages of data from the server. The size of the data page is specified in the 'Elements per Page' property of the Widget.
 
 In order to fetch another or a previous page of data, you use the fetchDataPage() function. The easiest way to do this is the use the string values shown in the relativePageString parameter description shown above.
 
-If you are using a Repeater Container then you should be aware of the [drawNextPage()](drawnextpage) and [isAllDataDrawn()](isalldatadrawn) functions. See the [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index) function for a general description of Repeater Container usage with these functions.
+If you are using a Repeater Container then you should be aware of the [drawNextPage()](drawnextpage.htm) and [isAllDataDrawn()](isalldatadrawn.htm) functions. See the [populateWidget()](../../widget-data-state-manipulation/populatewidget/) function for a general description of Repeater Container usage with these functions.
 
-Example
+## Example
 
     app.w('grid1').fetchDataPage('next');
     app.w('repeaterContainer').fetchDataPage(3);
    
 
-See Also:
+## See Also:
 
  - [getViewData()](../../data-view-functions/getviewdata)
 
- - [drawNextPage()](drawnextpage)
+ - [drawNextPage()](drawnextpage.htm)
 
- - [isAllDataDrawn()](isalldatadrawn)
+ - [isAllDataDrawn()](isalldatadrawn.htm)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 
 Related Videos:
 

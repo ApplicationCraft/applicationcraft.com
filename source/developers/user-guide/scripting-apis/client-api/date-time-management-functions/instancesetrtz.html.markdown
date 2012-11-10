@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-instanceSetRTZ (n)
+## instanceSetRTZ (n)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,17 +24,17 @@ where n is the Time Zone (minutes)
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Where you can set the Reference Time Zone
 
-Example
+## Example
 
-    app.instanceSetRTZ(60)); // will set the RTZ to one hour forward
+    app.instanceSetRTZ(60));@//@will@set@the@RTZ@to@one@hour@forward
+     
    
 
-See Also:
+## See Also:
 
- - [instanceGetRTZ()](instancegetrtz)
+ - [instanceGetRTZ()](instancegetrtz.htm)
 

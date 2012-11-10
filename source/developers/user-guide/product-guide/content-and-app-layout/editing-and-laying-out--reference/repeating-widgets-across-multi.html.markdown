@@ -8,7 +8,7 @@ full_width: true
 
 This feature is a real time saver when building things like backgrounds and menus that should repeat across many Pages in your App.
 
-Menu Example
+## Menu Example
 
 Let's say you want to build a really nice menu bar for your 10 Page App. In this case, you really do not want to build it, then Copy and Paste it across every Page in your App so that every time you make a minor change, you have to make the change on the 10 other Pages.
 

@@ -8,7 +8,7 @@ full_width: true
 
 Unless you are populating your Repeater from a Data View, you should be familiar with the API methods. These let you do some powerful things with very little code.
 
-app. [populateWidget()](../../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) () - this is the main way of getting data from an array or object into the widget with minimal fuss
+app. [populateWidget()](../../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) () - this is the main way of getting data from an array or object into the widget with minimal fuss
 
 app. [deleteRow](../../../../scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow) () - removes a row from the Repeater
 

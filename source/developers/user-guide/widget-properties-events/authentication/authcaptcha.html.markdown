@@ -13,7 +13,7 @@ Captcha Verification prevents automated software from accessing your Apps.  You
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -95,7 +95,7 @@ The minimum number of characters required in the Password.
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -223,7 +223,7 @@ true/false.  If set to false users will not tab into this field
 <table>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -279,7 +279,7 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 <table>
 <tr>
 <td width="146">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="17">
@@ -355,7 +355,7 @@ Custom CSS Classes
 <td width="17">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -424,7 +424,7 @@ Where you can override the default hourglass image to an image of your Resources
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 </tr>
@@ -496,7 +496,7 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Captcha](../../product-guide/advanced-features/authentication-for-your-apps/captcha)
 

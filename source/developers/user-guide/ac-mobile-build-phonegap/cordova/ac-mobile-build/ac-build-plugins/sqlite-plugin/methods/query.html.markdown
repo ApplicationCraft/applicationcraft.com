@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-query
+**query**
 
     (table, columns, where, whereArgs, groupBy, having, orderBy, limit, success, error)
    
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -145,22 +145,23 @@ error callback function.
 </td>
 </tr>
 </table>
+## Description
 
-Description
-
-    res = { rows : [ {key: value}, {key: value1}, {key: value1} ] }, // where key is field name
-    db.query("test", ["id", "name"], "count > ?", [100], null, null, "name", null, function(res){
-    for (var i in res.rows){
-    for (var key in res.rows[i]){
-    console.log(key + "=" + res.rows[i][key] );
-    }
-    }
-    }, function(er){
-    console.log("error="+er);
+     
+    res@=@{@rows@:@[@{key:@value},@{key:@value1},@{key:@value1}@]@},@//@where@key@is@field@name
+     
+    db.query("test",@["id",@"name"],@"count@>@?",@[100],@null,@null,@"name",@null,@function(res){@
+        for (var i in res.rows){ 
+            for (var key in res.rows[i]){ 
+                console.log(key + "=" + res.rows[i][key] ); 
+            } 
+        } 
+    },@function(er){
+        console.log("error="+er);
     });
    
 
 This function is used to query a given table. The success callback function returns an object in the format of
 
-## Example
+**Example**
 

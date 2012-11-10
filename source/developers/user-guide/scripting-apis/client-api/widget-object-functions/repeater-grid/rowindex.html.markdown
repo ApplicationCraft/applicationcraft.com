@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## index rowIndex ()
+index **rowIndex** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,26 +24,25 @@ the index within a Repeater (not Grid) of a Repeater Container Row
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 A function of a Repeater Container row object, it returns the row index of a Repeater Container's row. This function is not available for the Grid widget.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
-## Important : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](../general/parent) topic.
+**Important** : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](../general/parent) topic.
 
-Example
+## Example
 
-    rowObj = app.w('myRepeater').getRow(_widget.parent().rowIndex());
-    app.setValue(rowObj.w('total'), app.getValue(rowObj.w('quantity')) * app.getValue(rowObj.w('price'));
+    rowObj@=@app.w('myRepeater').getRow(_widget.parent().rowIndex());
+    app.setValue(rowObj.w('total'),@app.getValue(rowObj.w('quantity'))@*@app.getValue(rowObj.w('price'));
    
 
 This example might run in a text OnChange event. A quantity  is multiplied by the price to give the total.
 
-See Also:
+## See Also:
 
- - [getRow()](getrow)
+ - [getRow()](getrow.htm)
 
- - [rowCount()](length)
+ - [rowCount()](length.htm)
 

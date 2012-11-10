@@ -11,7 +11,7 @@ Mobiscroll List is a scroller style list picker optimized for touch devices such
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -51,7 +51,7 @@ Items
 <td width="15">
 </td>
 <td width="779">
-This is where you can prefill your list. You can also populate your list by code. See [Mobiscroll List](../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/mobiscroll-list2)
+This is where you can prefill your list. You can also populate your list by code. See [Mobiscroll List](../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobiscroll-list2)
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Select the theme for the widget: Default/Android ICS/Android ICS Light/Android/S
 </tr>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 <td width="15">
@@ -145,7 +145,7 @@ See [App Properties](../app-properties#mandatory) Mandatory settings where you c
 </tr>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -235,7 +235,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -303,7 +303,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="15">
@@ -331,7 +331,7 @@ Fields
 <td width="15">
 </td>
 <td width="779">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -443,7 +443,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -495,7 +495,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -516,7 +516,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">

@@ -10,14 +10,14 @@ Your script can modify a Widget's Group By property by passing in an array of st
 
 Having modified the Group By property, you need to call [app.refreshData()](../../widget-functions/refreshdata) to reload the Widget's data to reflect the change.
 
-Example
+## Example
 
     var group = ["{company.country}", "{company.state}"];
     app.setProperty('widgetName', 'groupBy', group);
     app.refreshData('widgetName');
    
 
-See Also:
+## See Also:
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 

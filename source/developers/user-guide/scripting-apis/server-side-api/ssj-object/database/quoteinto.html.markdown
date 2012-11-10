@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## connectionObject.quoteInto (strExpr, value)
+**connectionObject.quoteInto** (strExpr, value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,35 +36,35 @@ a value to insert into the '?' token within strExpr
 </td>
 </tr>
 </table>
-
-Return Value
+## Return Value
 
 Returns a string that is correctly escaped for the target database referenced by
 
     connectionObject
+    SELECT@*@FROM@bugs@WHERE@reported_by@=@variableName
+    SELECT@*@FROM@bugs@WHERE@reported_by@=@'O'Reilly'
+    strName@=@"O'Reilly";
+    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    sqlString@=@cObj.quoteInto("SELECT@*@FROM@bugs@WHERE@reported_by@=?",@strName);
+    cObj.exec(sqlString);
+     
+    SELECT@*@FROM@bugs@WHERE@reported_by@=@'O\'Reilly'
+    nId@=@12345;
+    cObj@=@cObj.update("customers",@p.data,@'companyName='@+@nId);
+    strName@=@"O'Reilly";
+    cObj@=@cObj.update("customers",@p.data,@cObj.quoteInto('companyName=?',@strName));
+     
+     
+    cObj.update("customers",@p.data,@
+            [cObj.quoteInto('companyName=?', p.companyname),cObj.quoteInto('region=?'), p.region)]        ]
+    );
    
 
 .
 
-Description
+## Description
 
 Often, your code gets a value and then needs to insert it into a SQL statement at a specific location while at the same time escaping special characters (see the quote() method). For example, take the following SQL statement
-
-    SELECT * FROM bugs WHERE reported_by = variableName
-    SELECT * FROM bugs WHERE reported_by = 'O'Reilly'
-    strName = "O'Reilly";
-    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    sqlString = cObj.quoteInto("SELECT * FROM bugs WHERE reported_by =?", strName);
-    cObj.exec(sqlString);
-    SELECT * FROM bugs WHERE reported_by = 'O\'Reilly'
-    nId = 12345;
-    cObj = cObj.update("customers", p.data, 'companyName=' + nId);
-    strName = "O'Reilly";
-    cObj = cObj.update("customers", p.data, cObj.quoteInto('companyName=?', strName));
-    cObj.update("customers", p.data,
-    [cObj.quoteInto('companyName=?', p.companyname),cObj.quoteInto('region=?'), p.region)]        ]
-    );
-   
 
 And assume that the variableName could contain special characters such as the ' character. The following SQL is invalid as the ' in the O'Reilly confuses the SQL parser because it also has single quotes surrounding the name.
 
@@ -80,7 +80,7 @@ Any function that includes a WHERE type clause as a parameter (select(), update(
 
 Multiple WHERE type clauses are handled as an array, and all elements will be joined with 'AND'
 
-See Also:
+## See Also:
 
- - [quote()](quote)
+ - [quote()](quote.htm)
 

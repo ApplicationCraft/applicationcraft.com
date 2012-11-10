@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## addToGroup (groupId, userId, optional checkOwnerRights)
+**addToGroup** (groupId, userId, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,14 +48,14 @@ the ID of the user to add to the Group
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Adds a User to a Group. If there is an error due to permissions, then an exception is thrown.
 
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

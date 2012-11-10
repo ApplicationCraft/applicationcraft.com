@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## sleep (ms)
+**sleep** (ms)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,12 +24,11 @@ Time to wait in milliseconds
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 Nothing.
 
-Description
+## Description
 
 Pauses execution for the specified number of milliseconds.
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## currentTime (secs)
+**currentTime** (secs)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,12 +24,11 @@ Jump to a point, in seconds, from the start of the video/audio
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to Jump to a point, in seconds, from the start of the video/audio
 
-Example
+## Example
 
     app.w("Video").currentTime(30);
    

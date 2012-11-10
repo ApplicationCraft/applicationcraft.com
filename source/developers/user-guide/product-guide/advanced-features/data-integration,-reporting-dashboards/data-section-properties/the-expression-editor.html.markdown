@@ -28,11 +28,11 @@ Several Data properties will invoke the Expression Editor such as
 
 ![Auto\_property\_settings](/img/docs/auto_property_settings.zoom64.png)
 
-Bringing up the Expression Editor
+## Bringing up the Expression Editor
 
 The Expression Editor appears when a relevant property is clicked on in the property bar for a data widget. It will take on a slightly different appearance, depending on the property selected.
 
-Example Expressions
+## Example Expressions
 
 Expressions can vary in complexity.
 

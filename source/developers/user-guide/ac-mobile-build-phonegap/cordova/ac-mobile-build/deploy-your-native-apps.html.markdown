@@ -28,7 +28,7 @@ When you sync, the App will be transferred to your iOS device.
 
 Important: this will not work unless your device has been added to the iOS Provisioning Portal. Please refer to [Add Devices](../certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices) for more information.
 
-## Application Versions List
+**Application Versions List**
 
 You can see a list of recently built apps by clicking on the titles (Android/iOS):
 

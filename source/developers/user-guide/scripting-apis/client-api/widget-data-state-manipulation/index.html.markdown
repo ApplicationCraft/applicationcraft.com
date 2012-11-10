@@ -8,9 +8,9 @@ full_width: true
 
 The functions in this section deal with widget values and states (visible, enabled, read-only).
 
-For normal reading and writing of widget data, please refer to the section [Reading and Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/index) .
+For normal reading and writing of widget data, please refer to the section [Reading and Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) .
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>
@@ -159,7 +159,7 @@ Sets widget states from a javascript object
 </tr>
 <tr>
 <td width="206">
-[populateWidget()](populatewidget()/index)
+[populateWidget()](populatewidget/)
 
 </td>
 <td width="17">
@@ -171,7 +171,7 @@ This is a powerful and easy way of populating many Widgets including Grid, Repea
 </tr>
 </table>
 
-If you are working with [Server Side Javascripting](../../server-side-scripting-overview/index) (SSJ) and you want to store widget data in [server side databases](../../../data-storage/server-side-data-storage/index) , then the [dataGetValues()](datagetvalues) , [dataGetStates()](datagetstates) , [dataSetValues()](datasetvalues) , [dataSetStates()](datasetstates) functions can be very useful.
+If you are working with [Server Side Javascripting](../../server-side-scripting-overview/) (SSJ) and you want to store widget data in [server side databases](../../../data-storage/server-side-data-storage/) , then the [dataGetValues()](datagetvalues) , [dataGetStates()](datagetstates) , [dataSetValues()](datasetvalues) , [dataSetStates()](datasetstates) functions can be very useful.
 
 These functions are used to extract Widget Values and Widget States from your App into simple object structures that can be passed to SSJ functions (often SSJ Database functions) or any other external systems.
 

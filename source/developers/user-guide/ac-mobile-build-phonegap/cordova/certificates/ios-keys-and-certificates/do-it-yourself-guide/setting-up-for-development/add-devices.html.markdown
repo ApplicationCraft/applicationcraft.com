@@ -8,13 +8,13 @@ full_width: true
 
 Next, you will need to add test devices to your iOS Portal. You can only run your development Apps on devices that have been added in this way. You can add up to 100 of these, which should be plenty.
 
-Select the Devices section
+## Select the Devices section
 
 Do this by clicking on 'Devices' in the left hand side. You will initially see this empty list.
 
 ![iosa-devices-1](/img/docs/iosa-devices-1.zoom67.png)
 
-Add a Device
+## Add a Device
 
 If you have XCode available (Apples compiler) - and most of you will not have it, or will not want to have it - then you can add a device from XCode. However, the easy way is to add it manually.
 

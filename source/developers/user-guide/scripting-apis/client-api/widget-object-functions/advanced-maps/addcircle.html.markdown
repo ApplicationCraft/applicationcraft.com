@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## addCircle (coords,radius,....)
+**addCircle** (coords,radius,....)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,23 +36,23 @@ The radius of your circle (meters)
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 A Circle can be drawn on the Map with a radius as well as line and fill properties.
 
-## Example
+**Example**
 
-    function handler_actionBtn11_onClick(mouseev){
-    var circle = [[41.878113, -87.629798], 200000, "Title Text"];
-    circleObj = app.w('googleMapsAdvanced').
+    function@handler_actionBtn11_onClick(mouseev){
+         var circle = [[41.878113, -87.629798], 200000, "Title Text"];
+                circleObj = app.w('googleMapsAdvanced').
     (circle);
     }
+     
    
 
-## addCircle
+**addCircle**
 
-## See Also:
+**See Also:**
 
  - [Circles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/circles)
 

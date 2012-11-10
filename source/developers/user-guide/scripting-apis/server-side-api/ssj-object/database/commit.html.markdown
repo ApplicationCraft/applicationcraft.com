@@ -6,23 +6,23 @@ full_width: true
 ---
 
 
-## connectionObject.commit()
+**connectionObject.commit()**
 
-Return Value
+## Return Value
 
-This function does not return a value.
+## This function does not return a value.
 
-Description
+## Description
 
 This method commits a database transaction for the database referenced by the Connection Object.
 
-Example
+## Example
 
-See the example in [beginTransaction()](begintransaction) .
+See the example in [beginTransaction()](begintransaction.htm) .
 
-See Also:
+## See Also:
 
- - [beginTransaction()](begintransaction)
+ - [beginTransaction()](begintransaction.htm)
 
- - [rollback()](rollback)
+ - [rollback()](rollback.htm)
 

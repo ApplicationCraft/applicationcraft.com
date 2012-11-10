@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result getCoord (getCoordsCallback, address)
+result **getCoord** (getCoordsCallback, address)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,33 +36,35 @@ The address you wish to obtain the coordinates for
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 How you can get a map coordinate from a specified address.
 
 Note that the returned coordinates are presented via a callback function.
 
-## Example :
+**Example** :
 
-    function getCoordsCallback(result, data) {
-    if (result) {
-    app.setValue("googleMapsAdvanced", data);
-    //or app.setValue("googleMapsAdvanced", [data.lat(), data.lng()]);
+    function@getCoordsCallback(result,@data)@{
+        if (result) {
+            app.setValue("googleMapsAdvanced", data);
+            //or app.setValue("googleMapsAdvanced", [data.lat(), data.lng()]);
+        }
     }
+     
+    function@handler_actionBtn2_onClick(mouseev){
+        app.w('googleMapsAdvanced').getCoord(getCoordsCallback, "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA");
     }
-    function handler_actionBtn2_onClick(mouseev){
-    app.w('googleMapsAdvanced').getCoord(getCoordsCallback, "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA");
-    }
+     
+     
    
 
-## See Also:
+**See Also:**
 
- - [whereAmI()](whereami)
+ - [whereAmI()](whereami.htm)
 
- - [getAddress()](getaddress)
+ - [getAddress()](getaddress.htm)
 
- - [getDirections()](getdirections)
+ - [getDirections()](getdirections.htm)
 
- - [addCurrentLocation()](addcurrentlocation)
+ - [addCurrentLocation()](addcurrentlocation.htm)
 

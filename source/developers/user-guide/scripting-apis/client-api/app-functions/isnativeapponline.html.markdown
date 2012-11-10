@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result isNativeAppOnline ()
+result **isNativeAppOnline** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,27 +24,26 @@ True if App is running in Native Mode.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Returns the status of internet / network connectivity. If the App is not running as a Native App then this will always return true.
 
-Example
+## Example
 
     if(app.isNativeAppOnline()){
-    // ok to access the internet
+    //@ok@to@access@the@internet
     }
-    else {
-    // NOT ok to access the internet
+    else@{
+    //@NOT@ok@to@access@the@internet
    
 
 }
 
-See Also:
+## See Also:
 
  - [Network Availability Handling](../../client-scripting-overview/network-availability-handling)
 
  - [httpRequest()](../soap-restful-ajax-calls/httprequest)
 
- - [Error Handling](../../client-scripting-overview/error-handling/index)
+ - [Error Handling](../../client-scripting-overview/error-handling/)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## cancelAssignments (instanceId, optional roleName, optional users, optional groups, callback)
+**cancelAssignments** (instanceId, optional roleName, optional users, optional groups, callback)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -72,8 +72,7 @@ Called when AC has completed execution
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function is used to remove Assignments to Persons, Groups or Roles.  If you leave the roleName, users and group parameters empty, then all Assignments for the specified Instance will be removed.
 

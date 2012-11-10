@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## showMessage (titleText, messageText, optional callback())
+**showMessage** (titleText, messageText, optional callback())
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,8 +48,7 @@ the callback function is called when the OK button is pressed. You wouldn't norm
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This displays a simple message to the Respondent. Execution of the App is paused until the Respondent presses the OK button. You would use the callback function for any code that should execute once the OK button has been pressed.
 
@@ -57,22 +56,23 @@ Rich Text is supported.
 
 Any user interaction is blocked by AC until the OK button has been pressed.
 
-Example
+## Example
 
-    // valid is an array containing any widgets that failed the test
-    if(valid.length>0) {
-    app.showMessage("Validation Error", "<b>Please</b> complete all required fields.", function() {
-    // code here will execute once the OK button has been pressed.
-    // If there is no code to execute, then leave out the entire callback function
-    });
+    //@valid@is@an@array@containing@any@widgets@that@failed@the@test
+    if(valid.length>0)@{
+        app.showMessage("Validation Error", "<b>Please</b> complete all required fields.", function() {
+            // code here will execute once the OK button has been pressed.
+            // If there is no code to execute, then leave out the entire callback function
+        });
     }
+     
    
 
-See Also:
+## See Also:
 
- - [showConfirm()](showconfirm)
+ - [showConfirm()](showconfirm.htm)
 
- - [showPrompt()](showprompt)
+ - [showPrompt()](showprompt.htm)
 
  - [showPagePopup()](../page-functions/showpagepopup)
 

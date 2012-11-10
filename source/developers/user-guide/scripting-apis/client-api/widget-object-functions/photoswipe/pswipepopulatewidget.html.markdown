@@ -8,7 +8,7 @@ full_width: true
 
 This is not an actual object function but it is a very useful function to be aware of if you want to overwrite the Source property of your widget.
 
- - [general overview of populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
+ - [general overview of populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 
- - [Photoswipe specific example](../../widget-data-state-manipulation/populatewidget()/photoswipe-example)
+ - [Photoswipe specific example](../../widget-data-state-manipulation/populatewidget/photoswipe-example)
 

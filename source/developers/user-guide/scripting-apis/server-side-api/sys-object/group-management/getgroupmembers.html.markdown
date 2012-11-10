@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## getGroupMembers (groupId, optional memberType)
+**getGroupMembers** (groupId, optional memberType)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,14 +36,14 @@ Leave empty to get all members of the group or supply 'u' for users only or 'g' 
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Gets all Users of a Group for the specified ID. If there is an error due to permissions, then an exception is thrown.
 
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

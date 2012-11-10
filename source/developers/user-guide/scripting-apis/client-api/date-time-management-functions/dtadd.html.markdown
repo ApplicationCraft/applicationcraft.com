@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-{object} dtAdd (dObj,DateUnit, value)
+## {object} dtAdd (dObj,DateUnit, value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,24 +48,23 @@ the value to add/subtract
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Adds or subtracts from the defined date object.
 
-Example
+## Example
 
-    dObj=app.dtNewDate('locale', new Date(2012,8,12)); //// to set the Date Object to Wed Sep 12 2012 00:00:00
-    myDate=app.dtAdd(dObj,'Y',-1);         // Subtracts one Year from the Date Obj to give Mon Sep 12 2011 00:00:00
+    dObj=app.dtNewDate('locale',@new@Date(2012,8,12));@////@to@set@the@Date@Object@to@Wed@Sep@12@2012@00:00:00
+    myDate=app.dtAdd(dObj,'Y',-1);@ @ @ @ @//@Subtracts@one@Year@from@the@Date@Obj@to@give@Mon@Sep@12@2011@00:00:00
    
 
-See Also:
+## See Also:
 
- - [dtNewDate()](dtnewdate)
+ - [dtNewDate()](dtnewdate.htm)
 
- - [dtDifference()](dtdifference)
+ - [dtDifference()](dtdifference.htm)
 
- - [dtAdjust()](dtadjust)
+ - [dtAdjust()](dtadjust.htm)
 
- - [dtDateToString()](dtdatetostring)
+ - [dtDateToString()](dtdatetostring.htm)
 

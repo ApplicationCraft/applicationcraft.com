@@ -6,20 +6,23 @@ full_width: true
 ---
 
 
-## muted ()
+**muted** ()
 
-Description
+## Description
 
 Allows you to mute or unmute the sound.
 
-Example
+## Example
 
 The following example shows how you can toggle to mute/unmute as a button is clicked.
 
-    var mute = false;
-    function handler_btnMute_onClick(mouseev){
-    mute = !mute;
-    app.w("Video").muted(mute);
+    var@mute@=@false;
+     
+    function@handler_btnMute_onClick(mouseev){
+        mute = !mute;
+        app.w("Video").muted(mute);
     }
+     
+     
    
 

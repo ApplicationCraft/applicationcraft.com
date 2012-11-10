@@ -6,24 +6,24 @@ full_width: true
 ---
 
 
-The following parameters are available to be inserted into the params object for the [ssj.zooz.payment()](payment) function.
+The following parameters are available to be inserted into the params object for the [ssj.zooz.payment()](payment.htm) function.
 
 <table>
 <tr>
 <td width="215">
-## Parameter
+**Parameter**
 
 </td>
 <td width="13">
 </td>
 <td width="89">
-## Max Length
+**Max Length**
 
 </td>
 <td width="19">
 </td>
 <td width="174">
-## Comments
+**Comments**
 
 </td>
 </tr>
@@ -349,5 +349,5 @@ billingAddress.zipCode
 </tr>
 </table>
 
-Refer to the [Server Side Code](../../../../product-guide/advanced-features/credit-card-payment-processing/server-side-code) chapter of the [Credit Card Payment Processing](../../../../product-guide/advanced-features/credit-card-payment-processing/index) chapter to see example code.
+Refer to the [Server Side Code](../../../../product-guide/advanced-features/credit-card-payment-processing/server-side-code) chapter of the [Credit Card Payment Processing](../../../../product-guide/advanced-features/credit-card-payment-processing/) chapter to see example code.
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## refreshData (widget)
+**refreshData** (widget)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,12 +24,11 @@ Widget identifier - string, string array, object or object array
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This forces the specified Widget(s) to request its data from the data source.
 
-See Also:
+## See Also:
 
  - [enableView()](../data-view-functions/enableview)
 

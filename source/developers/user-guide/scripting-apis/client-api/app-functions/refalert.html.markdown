@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result alert (txtMessage, callback, txtTitle, txtButton)
+result **alert** (txtMessage, callback, txtTitle, txtButton)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -60,8 +60,7 @@ Text to display on the OK button
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function should be used instead of the regular alert() function. The main reason is that if the App is running as a native app, it allows you to control more text data (title and button) than the regular alert() function which only allows access to the message text.
 
@@ -69,12 +68,13 @@ If your App is running in desktop mode, it will ignore the extra parameters.
 
 Please be aware that iOS handles alert in a different manner and it can it to trigger twice.
 
-Example
+## Example
 
-    app.alert('Your data was successfully saved', undefined, 'My App Name', 'Done');
+    app.alert('Your@data@was@successfully@saved',@undefined,@'My@App@Name',@'Done');
+     
    
 
-See Also:
+## See Also:
 
- - [confirm()](confirm)
+ - [confirm()](confirm.htm)
 

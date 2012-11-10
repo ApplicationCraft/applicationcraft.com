@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## widgetObj value (optional objectOrVar)
+widgetObj **value** (optional objectOrVar)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,8 +36,7 @@ If you are setting a value, then you pass in the variable or object here. A copy
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Sets or gets the value of a Widget. Depending on the Widget type, this can be a variable or an object. Getting the value returns and object reference and setting will overwrite the Widget's value with a copy of object supplied.
 

@@ -6,38 +6,39 @@ full_width: true
 ---
 
 
-## boolean isAllDataDrawn()
+**boolean isAllDataDrawn()**
 
-Returns
+## Returns
 
  - True, if there is no more data available in the Repeater Container's buffer that has not yet been displayed.
 
- - False, if there is more data to fetch in which case you could use [drawNextPage()](drawnextpage) to fetch and display it.
+ - False, if there is more data to fetch in which case you could use [drawNextPage()](drawnextpage.htm) to fetch and display it.
 
-Description
+## Description
 
-This checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index) has been displayed. This function is only available for the Repeater Container widget. See the [drawNextPage()](drawnextpage) function for more details.
+This checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget/) has been displayed. This function is only available for the Repeater Container widget. See the [drawNextPage()](drawnextpage.htm) function for more details.
 
-Example
+## Example
 
 This example shows how, when data is loaded into the Repeater, it checks to see whether there is more data. If not, the 'More...' button is hidden.
 
-    function handler_rptEntities_onDataLoaded(error, data){
-    if(app.w('rptEntities').isAllDataDrawn()) {
-    app.visible('btnMoreEntities', false);
-    } else {
-    app.visible('btnMoreEntities', true);
+    function@handler_rptEntities_onDataLoaded(error,@data){
+        if(app.w('rptEntities').isAllDataDrawn()) {
+            app.visible('btnMoreEntities', false);
+        } else {
+            app.visible('btnMoreEntities', true);
+        }        
     }
-    }
+     
    
 
-See Also:
+## See Also:
 
  - [getViewData()](../../data-view-functions/getviewdata)
 
- - [drawNextPage()](drawnextpage)
+ - [drawNextPage()](drawnextpage.htm)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 
  - [fetchDataPage()](../../data-view-functions/fetchdatapage)
 

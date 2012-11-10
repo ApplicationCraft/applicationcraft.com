@@ -12,7 +12,7 @@ These Widgets will always require at least 2 fields to be defined and more if yo
 
  - Value : this will usually be an aggregate function such as Count({customers.country}) or Sum({orders.paymentAmount})
 
-Important Chart Data Properties
+## Important Chart Data Properties
 
 You will often need to set the Group By, Drill Filter, Broadcast and Listen properties when working with Charts. You can save a lot of time by using the [Automatic Property Settings](../using-automatic-property-setti) to help make these settings at the same time as defining Fields.
 

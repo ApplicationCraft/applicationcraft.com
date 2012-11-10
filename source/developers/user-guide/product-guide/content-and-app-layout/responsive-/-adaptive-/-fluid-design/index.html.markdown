@@ -8,7 +8,7 @@ full_width: true
 
 If you want to build sites that run on different device types and screen sizes then it is critical that you understand the contents of this chapter. The concepts here are straightforward and logical but take a little time to master.
 
-## In This Section:
+**In This Section:**
 
 [Understanding Containers](understanding-containers)
 

@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## pause ()
+**pause** ()
 
-Description
+## Description
 
 Pause the specified video/audio.
 
-Example
+## Example
 
     app.w("Video").pause();
    

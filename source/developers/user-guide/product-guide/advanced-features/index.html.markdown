@@ -6,45 +6,45 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
-[Multi Language Apps](multi-language-apps/index)
+[Multi Language Apps](multi-language-apps/)
 
-[Credit Card Payment Processing](credit-card-payment-processing/index)
+[Credit Card Payment Processing](credit-card-payment-processing/)
 
-[Accessing Data in other Apps, Databases and APIs](accessing-data-in-other-apps,-databases-and-apis/index)
+[Accessing Data in other Apps, Databases and APIs](accessing-data-in-other-apps,-databases-and-apis/)
 
 [Advertising](pro-account-advertising)
 
-[Data Storage & Management](data-storage-management/index)
+[Data Storage & Management](data-storage-management/)
 
-[Google Analytics](google-analytics/index)
+[Google Analytics](google-analytics/)
 
-[Data Integration, Reporting & Dashboards](data-integration,-reporting-dashboards/index)
+[Data Integration, Reporting & Dashboards](data-integration,-reporting-dashboards/)
 
-[Embedding Apps within Apps](embedding-apps-within-apps/index)
+[Embedding Apps within Apps](embedding-apps-within-apps/)
 
-[Authentication for Your Apps](authentication-for-your-apps/index)
+[Authentication for Your Apps](authentication-for-your-apps/)
 
-[Passing Parameters into Apps](passing-parameters-into-apps/index)
+[Passing Parameters into Apps](passing-parameters-into-apps/)
 
-[Testing Apps](testing-apps/index)
+[Testing Apps](testing-apps/)
 
-[Deploying & Embedding Apps](deploying-embedding-apps/index)
+[Deploying & Embedding Apps](deploying-embedding-apps/)
 
-[Logging Support](logging-support/index)
+[Logging Support](logging-support/)
 
-[Workflow](workflow/index)
+[Workflow](workflow/)
 
-[Data Lists Management](data-lists-management/index)
+[Data Lists Management](data-lists-management/)
 
-[Printing](printing/index)
+[Printing](printing/)
 
-[Custom CSS Classes](custom-css-classes/index)
+[Custom CSS Classes](custom-css-classes/)
 
-[Twirly Thing/Hourglass](twirly-thing/hourglass/index)
+[Twirly Thing/Hourglass](twirly-thing/hourglass/)
 
-[oAuth](oauth/index)
+[oAuth](oauth/)
 
 Video Tutorials can be found on our [Training Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) page
 

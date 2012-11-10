@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-ZXing Bar Code Scanner allows you to scan barcodes and can be used as the alternative for the [Scandit Free](scandit-free) Plugin.
+ZXing Bar Code Scanner allows you to scan barcodes and can be used as the alternative for the [Scandit Free](scandit-free.htm) Plugin.
 
-HTML5+CSS+JS Apps not developed in Application Craft
+## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following
 
@@ -22,7 +22,7 @@ You should replace x.y.z in version='x.y.z' depending on which version of Cordov
 
  - Cordova 2.0.0 or later use "2.0.0"
 
-Apps Developed with Application Craft
+## Apps Developed with Application Craft
 
 <table>
 <tr>
@@ -43,6 +43,7 @@ Enabled
 
 </td>
 <td width="20">
+        
       
 
 </td>
@@ -57,6 +58,7 @@ Show 'not native' warning
 
 </td>
 <td width="20">
+        
       
 
 </td>
@@ -71,6 +73,7 @@ Documentation
 
 </td>
 <td width="20">
+        
       
 
 </td>
@@ -81,7 +84,7 @@ Link to documentation for this plugin: [https://github.com/phonegap/phonega
 </tr>
 </table>
 
-## Description
+**Description**
 
 The following barcode types are currently supported
 
@@ -201,6 +204,7 @@ format
 
 </td>
 <td width="20">
+        
       
 
 </td>
@@ -215,6 +219,7 @@ cancelled
 
 </td>
 <td width="20">
+        
       
 
 </td>
@@ -225,20 +230,21 @@ whether or not the user cancelled the scan
 </tr>
 </table>
 
-## Example
+**Example**
 
-    window.plugins.barcodeScanner.scan( function(result) {
-    alert("We got a barcode\n" +
-    "Result: " + result.text + "\n" +
-    "Format: " + result.format + "\n" +
-    "Cancelled: " + result.cancelled);
-    }, function(error) {
-    alert("Scanning failed: " + error);
-    }
+    window.plugins.barcodeScanner.scan(@function(result)@{
+            alert("We got a barcode\n" +
+                      "Result: " + result.text + "\n" +
+                      "Format: " + result.format + "\n" +
+                      "Cancelled: " + result.cancelled);
+        }, function(error) {
+            alert("Scanning failed: " + error);
+        }
     );
+     
    
 
-## See Also:
+**See Also:**
 
- - [Scandit Free](scandit-free)
+ - [Scandit Free](scandit-free.htm)
 

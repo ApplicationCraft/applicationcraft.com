@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-Please refer to the [Video & Audio Widgets](../../../../product-guide/advanced-important-widgets/video-audio-widgets/index) chapter for a thorough introduction and explanation.
+Please refer to the [Video & Audio Widgets](../../../../product-guide/advanced-important-widgets/video-audio-widgets/) chapter for a thorough introduction and explanation.
 
 The methods outlined here are also valid for the [YouTube](../../../../widget-properties-events/advanced/youtube) widget.
 
-## In This Section:
+**In This Section:**
 
 HTML5 Audio, HTML5 Video and YouTube widget
 

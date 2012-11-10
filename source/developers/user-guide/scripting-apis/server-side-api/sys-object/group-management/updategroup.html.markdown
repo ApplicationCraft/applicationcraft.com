@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## updateGroup (groupObject, optional checkOwnerRights)
+**updateGroup** (groupObject, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,18 +36,18 @@ The ID of the group to update
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Updates the group with the details of the group passed in the groupObject parameter (shown below). If there is an error due to permissions, then an exception is thrown.
 
     {
-    id: string,
-    name: string
+        id: string, 
+        name: string
     }
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

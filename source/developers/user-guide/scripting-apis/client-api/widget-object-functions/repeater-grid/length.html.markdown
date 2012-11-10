@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## numRows rowCount ()
+numRows **rowCount** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,20 +24,20 @@ the total number of rows within the Grid or Repeater
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This is a function of the widget object that returns the number of rows in a Grid or Repeater Widget.
 
-Example
+## Example
 
-    numRows = app.w('myGrid').rowCount(); // returns the number of rows for a specified widget name
-    numRows = _widget.rowCount();  // returns the number of rows in the Grid or Repeater that fired the event that _widget is running within
+    numRows@=@app.w('myGrid').rowCount();@//@returns@the@number@of@rows@for@a@specified@widget@name
+    numRows@=@_widget.rowCount();@@//@returns@the@number@of@rows@in@the@Grid@or@Repeater@that@fired@the@event@that@_widget@is@running@within
+     
    
 
-See Also:
+## See Also:
 
- - [rowIndex()](rowindex)
+ - [rowIndex()](rowindex.htm)
 
- - [getRow()](getrow)
+ - [getRow()](getrow.htm)
 

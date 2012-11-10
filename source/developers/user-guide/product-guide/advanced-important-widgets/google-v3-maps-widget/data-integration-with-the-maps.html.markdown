@@ -10,15 +10,15 @@ Data Integration allows you to retrieve data from an Application Craft Query and
 
 Provided you can pull data directly from a query that can supply the necessary data direct to the Maps widget, you can then achieve map population completely code free.
 
-Accessing Data is the same as for any other Queries. This process is described in the [Data Integration](../../advanced-features/data-integration,-reporting-dashboards/index) section.
+Accessing Data is the same as for any other Queries. This process is described in the [Data Integration](../../advanced-features/data-integration,-reporting-dashboards/) section.
 
 If your data source is storing Latitude and Longitude in separate fields you will need to join these in the field mapping for the Coords field
 
 ![latlng](/img/docs/latlng.zoom90.png)
 
-Example showing data from Postgres DB (and also if using a [Data List](../../advanced-features/data-lists-management/index) )
+Example showing data from Postgres DB (and also if using a [Data List](../../advanced-features/data-lists-management/) )
 
-For other databases see: [MySQL, Postgres, Oracle etc.](../../../scripting-apis/client-api/data-view-functions/mysql--postegres--oracle-etc)
+For other databases see: [MySQL, Postgres, Oracle etc.](../../../scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc)
 
 The following table explains all of the possible fields
 
@@ -39,7 +39,7 @@ Description
 </tr>
 <tr>
 <td width="151">
-## id
+**id**
 
 </td>
 <td width="14">
@@ -51,7 +51,7 @@ The text ID of the overlay object that will get created. Use this to identify th
 </tr>
 <tr>
 <td width="151">
-## type
+**type**
 
 </td>
 <td width="14">
@@ -63,7 +63,7 @@ This value indicates the type of overlay to be created (see table below this one
 </tr>
 <tr>
 <td width="151">
-## coords
+**coords**
 
 </td>
 <td width="14">
@@ -75,7 +75,7 @@ A string representing coordinates. A single coordinate is represented as "lat, l
 </tr>
 <tr>
 <td width="151">
-## radius
+**radius**
 
 </td>
 <td width="14">
@@ -87,7 +87,7 @@ The radius of a circle in meters
 </tr>
 <tr>
 <td width="151">
-## strokeColor
+**strokeColor**
 
 </td>
 <td width="14">
@@ -99,7 +99,7 @@ Color of the line defining the overlay in hex format
 </tr>
 <tr>
 <td width="151">
-## strokeWeight
+**strokeWeight**
 
 </td>
 <td width="14">
@@ -111,7 +111,7 @@ Thickness of the line defining the overlay in pixels
 </tr>
 <tr>
 <td width="151">
-## strokeOpacity
+**strokeOpacity**
 
 </td>
 <td width="14">
@@ -123,7 +123,7 @@ Thickness of the line defining the overlay in pixels
 </tr>
 <tr>
 <td width="151">
-## fillColor
+**fillColor**
 
 </td>
 <td width="14">
@@ -135,7 +135,7 @@ The color of the inside or fill area of the overlay in hex
 </tr>
 <tr>
 <td width="151">
-## fillOpacity
+**fillOpacity**
 
 </td>
 <td width="14">
@@ -147,7 +147,7 @@ The color of the inside or fill area of the overlay in hex
 </tr>
 <tr>
 <td width="151">
-## mouseOverHTML
+**mouseOverHTML**
 
 </td>
 <td width="14">
@@ -159,7 +159,7 @@ HTML displayed as a popup when the user moves the mouse over a marker
 </tr>
 <tr>
 <td width="151">
-## onClickHTML
+**onClickHTML**
 
 </td>
 <td width="14">
@@ -171,7 +171,7 @@ HTML displayed as a popup when the user clicks a marker
 </tr>
 <tr>
 <td width="151">
-## markerImageURL
+**markerImageURL**
 
 </td>
 <td width="14">
@@ -186,13 +186,13 @@ Alternative Image URL of the marker
 <table>
 <tr>
 <td width="182">
-## Overlay Object Type
+**Overlay Object Type**
 
 </td>
 <td width="8">
 </td>
 <td width="85">
-## Value
+**Value**
 
 </td>
 </tr>
@@ -264,9 +264,9 @@ If you have data in an AC Query but you need to do some pre-processing before pa
 
  - process the array of data in any way you like
 
- - use [populateWidget()](using-populatewidget) to write the array into the Map widget
+ - use [populateWidget()](using-populatewidget.htm) to write the array into the Map widget
 
-## See Also:
+**See Also:**
 
- - [MySQL, Postgres, Oracle etc.](../../../scripting-apis/client-api/data-view-functions/mysql--postegres--oracle-etc)
+ - [MySQL, Postgres, Oracle etc.](../../../scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc)
 

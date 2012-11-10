@@ -28,7 +28,7 @@ When you sync, the App will be transferred to your iOS device.
 
 Important: this will not work unless your device has been added to the iOS Provisioning Portal. Please refer to [Add Devices](../certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices) for more information.
 
-## Android
+**Android**
 
 When building to deploy to Google Play store, you first need to have registered a keystore file to your Phonegap:Build account. See [https://build.phonegap.com/docs/android-signing](https://build.phonegap.com/docs/android-signing) for more information.
 

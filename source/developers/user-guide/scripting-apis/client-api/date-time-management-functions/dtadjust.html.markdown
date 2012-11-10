@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-dtAdjust (dObj, [locale|rtz|utc|n]);
+## dtAdjust (dObj, [locale|rtz|utc|n]);
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,24 +36,23 @@ Enter the relative time zone to adjust to.  n indicates a relative offset to UT
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Adjusts a Date Object to the specified time zone. The absolute time remains the same.
 
-Example
+## Example
 
     dnew=app.dtNewDate('locale');
-    adj=app.dtAdjust(dnew, 'utc');  // adjust date object 'dnew' from local time to UTC time
+    adj=app.dtAdjust(dnew,@'utc');@@//@adjust@date@object@'dnew'@from@local@time@to@UTC@time
    
 
-See Also:
+## See Also:
 
- - [dtNewDate()](dtnewdate)
+ - [dtNewDate()](dtnewdate.htm)
 
- - [dtadd()](dtadd)
+ - [dtadd()](dtadd.htm)
 
- - [dtDifference()](dtdifference)
+ - [dtDifference()](dtdifference.htm)
 
- - [dtDateToString()](dtdatetostring)
+ - [dtDateToString()](dtdatetostring.htm)
 

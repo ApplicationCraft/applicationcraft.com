@@ -8,7 +8,7 @@ full_width: true
 
 Almost every App will have images displayed in its Pages to make forms look good.
 
-Resources
+## Resources
 
 Application Craft handles Images in a very elegant fashion. Rather than loading your images into the App directly, AC requires you to load your image as a Resource. Resources are managed in the Console and are described in detail in the [Resources](../../the-console/console-tabs/resources) section.
 
@@ -18,7 +18,7 @@ The big advantage of this is that Resources can be shared and re-used by other A
 
 You can apply permissions to all Resources if you need to restrict access.
 
-Image Widget
+## Image Widget
 
 Having loaded your image Resources, you now locate the Image Widget in the Toolbox and then drag it into the Page. Now locate the Image property in the General section of the Property Pane. Click in the field and you can now locate your image in the Resource Browser dialog.
 

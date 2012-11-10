@@ -6,18 +6,19 @@ full_width: true
 ---
 
 
-## clearMarkers ()
+**clearMarkers** ()
 
-Description
+## Description
 
-Where you can clear all markers added by [addMarker()](addmarker)
+Where you can clear all markers added by [addMarker()](addmarker.htm)
 
-## Example
+**Example**
 
     app.w('googleMapsAdvanced').clearMarkers();
+     
    
 
-## See Also:
+**See Also:**
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

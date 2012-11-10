@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## networkTimeout (milliseconds)
+**networkTimeout** (milliseconds)
 
-## milliseconds networkTimeout ()
+milliseconds **networkTimeout** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -26,8 +26,7 @@ Time, in milliseconds, before a Timeout error is generated
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Gets or sets the network timeout period. In all cases except for httpRequest() calls, a Timeout error will be generated after 30 seconds and the onError() event will be fired, if you have specified one. Otherwise Application Craft will display a Timeout message.
 
@@ -35,16 +34,16 @@ Error handling for httpRequest() calls must be done within the [httpRequest()](.
 
 If you want to change the Timeout value for a single [httpRequest()](../soap-restful-ajax-calls/httprequest) call, then you can override the timeout value using special parameters.
 
-Example
+## Example
 
-    app.networkTimeout(20000); // set timeout to 20 seconds
+    app.networkTimeout(20000);@//@set@timeout@to@20@seconds
    
 
-See Also:
+## See Also:
 
  - [httpRequest()](../soap-restful-ajax-calls/httprequest)
 
- - [Error Handling](../../client-scripting-overview/error-handling/index)
+ - [Error Handling](../../client-scripting-overview/error-handling/)
 
 Related Video:
 

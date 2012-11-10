@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## createWidget ('containerName', 'widgetClassName', position, defaultProps);
+**createWidget** ('containerName', 'widgetClassName', position, defaultProps);
 
 <table>
 <tr>
@@ -59,7 +59,7 @@ Create the object with defined properties: {name: 'my\_cool\_name', width: 200, 
 </tr>
 </table>
 
-Description
+## Description
 
 Allows you to dynamically create widgets in your app.
 
@@ -68,7 +68,7 @@ If container is in Vertical or Horizontal layout mode:
 <table>
 <tr>
 <td width="175">
-## Position
+**Position**
 
 </td>
 <td width="14">
@@ -140,33 +140,37 @@ etc
 
 If the container is in Absolute Layout mode, use {x:100,y:100} in defaultProps parameter to create the widget with x/y coords of 100
 
-Due to differences between the GoogleMap V2 Api (used in the Google Map widget) and the GoogleMap V3 Api (used in the [Google V3 Maps Widget](../../../product-guide/advanced-important-widgets/google-v3-maps-widget/index) that can cause conflicts, do not use createWidget() for both widgets in the same app.
+Due to differences between the GoogleMap V2 Api (used in the Google Map widget) and the GoogleMap V3 Api (used in the [Google V3 Maps Widget](../../../product-guide/advanced-important-widgets/google-v3-maps-widget/) that can cause conflicts, do not use createWidget() for both widgets in the same app.
 
 Please note that dynamically created widgets can't use the Repeat property
 
 ( [Repeating Widgets Across Multiple Pages](../../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) ) and can't be used as fields in the schema.
 
-Example
+## Example
 
-    /* Create a widget with width of 50px, height 100px
-    at the bottom of the stack of widgets in a container set to Vertical Layout mode */
-    var widget = app.createWidget('page1', 'WiziCore_UI_TextWidget',undefined, {width:50,height: 100});
-    /* Create a widget with width of 75px, height 50px
-    at the top of the stack of widgets in a container set to Vertical Layout mode */
-    var widget = app.w('page1').createWidget('WiziCore_UI_TextWidget',0, {width:75,height: 50}
-    /* Create a widget with width of 75px, height 50px
-    3rd in the stack of existing widgets in a container set to Vertical Layout mode */
-    var widget = app.w('page1').createWidget('WiziCore_UI_TextWidget',2, {width:75,height: 50}
-    /* Create a widget with width of 75px, height 50px
-    at the location of x=50, y=100 in a container set to Absolute Mode */
-    var widget = app.w('page1').createWidget('WiziCore_UI_TextWidget',undefined, {x:50, y:100, width:75,height: 50}
-    //To get the name of the created widget use:
-    var name = widget.name();
+    /*@Create@a@widget@with@width@of@50px,@height@100px@
+    at@the@bottom@of@the@stack@of@widgets@in@a@container@set@to@Vertical@Layout@mode@*/
+    var@widget@=@app.createWidget('page1',@'WiziCore_UI_TextWidget',undefined,@{width:50,height:@100});
+     
+    /*@Create@a@widget@with@width@of@75px,@height@50px@
+    at@the@top@of@the@stack@of@widgets@in@a@container@set@to@Vertical@Layout@mode@*/
+    var@widget@=@app.w('page1').createWidget('WiziCore_UI_TextWidget',0,@{width:75,height:@50}@@
+     
+    /*@Create@a@widget@with@width@of@75px,@height@50px@
+    3rd@in@the@stack@of@existing@widgets@in@a@container@set@to@Vertical@Layout@mode@*/
+    var@widget@=@app.w('page1').createWidget('WiziCore_UI_TextWidget',2,@{width:75,height:@50}@@
+     
+    /*@Create@a@widget@with@width@of@75px,@height@50px@
+    at@the@location@of@x=50,@y=100@in@a@container@set@to@Absolute@Mode@*/
+    var@widget@=@app.w('page1').createWidget('WiziCore_UI_TextWidget',undefined,@{x:50,@y:100,@width:75,height:@50}@@
+     
+    //To@get@the@name@of@the@created@widget@use:@
+    var@name@=@widget.name();
    
 
-See Also:
+## See Also:
 
- - [deleteWidget()](deletewidget)
+ - [deleteWidget()](deletewidget.htm)
 
  - [Absolute and Relative Layout](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
 

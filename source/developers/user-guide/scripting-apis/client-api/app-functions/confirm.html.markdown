@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result confirm (txtMessage, optional callback, optional txtTitle, optional txtButtonTexts)
+result **confirm** (txtMessage, optional callback, optional txtTitle, optional txtButtonTexts)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -72,8 +72,7 @@ Comma separated string with button labels (Default: "OK,Cancel")
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function should be used instead of the regular confirm() function. The main reason is that if the App is running as a native app, it allows you to control more text data (title and button) than the regular confirm() function which only allows access to the message text.
 
@@ -83,9 +82,10 @@ Please be aware that iOS handles confirm() in a different manner and it can caus
 
 If running as a Native App, then this is passed through to [this Phonegap function](http://docs.phonegap.com/phonegap_notification_notification.md.html#notification.confirm) .
 
+     
    
 
-See Also:
+## See Also:
 
- - [alert()](refalert)
+ - [alert()](refalert.htm)
 

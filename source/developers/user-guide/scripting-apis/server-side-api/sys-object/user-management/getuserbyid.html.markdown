@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {object} getUserById (userId])
+{object} **getUserById** (userId])
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,21 +24,20 @@ The User ID to search for
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This returns an object of the format shown below describing the User
 
     {
-    id: userId,
-    login: login,
-    removed: null | remove date,
-    type: system or external,
-    username: frendly user name
+        id: userId, 
+        login: login, 
+        removed: null | remove date, 
+        type: system or external, 
+        username: frendly user name
     }
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

@@ -14,12 +14,12 @@ By default this will be an Application Craft but you can manage and control your
 
 You can define the images (png format) you wish to use here. If any fields are left empty, the Default Icon Image will be used in its place
 
-Recommended Properties
+## Recommended Properties
 
 <table>
 <tr>
 <td width="200">
-## iOS Optional Icon Image
+**iOS Optional Icon Image**
 
 </td>
 <td width="15">
@@ -105,13 +105,12 @@ iPad
 </td>
 </tr>
 </table>
-
 Prerendered Icon: If 'True', iOS will not apply its gloss to the app's icon on the user's home screen
 
 <table>
 <tr>
 <td width="200">
-## Android Optional Icon Image
+**Android Optional Icon Image**
 
 </td>
 <td width="15">

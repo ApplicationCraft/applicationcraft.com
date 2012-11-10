@@ -6,14 +6,15 @@ full_width: true
 ---
 
 
-## showGallery ()
+**showGallery** ()
 
-Description
+## Description
 
 Switches from Tiled mode to Swipe mode.
 
-Example
+## Example
 
+     
     app.w("Photoswipe").showGallery();
    
 

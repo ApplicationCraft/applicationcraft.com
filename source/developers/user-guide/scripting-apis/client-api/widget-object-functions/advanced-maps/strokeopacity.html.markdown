@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## strokeOpacity (opacity)
+**strokeOpacity** (opacity)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,26 +24,28 @@ Set the Overlay line opacity
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 How you can set the line opacity for overlays
 
-## Example
+**Example**
 
-    app.w('googleMapsAdvanced').strokeOpacity(0.3 + 0.7 * Math.random());  //Set Random Opacity
+     
+    app.w('googleMapsAdvanced').strokeOpacity(0.3@+@0.7@*@Math.random());@@//Set@Random@Opacity
     app.w('googleMapsAdvanced').strokeOpacity(0.7);
+     
+     
    
 
-## See Also:
+**See Also:**
 
- - [strokeColor()](strokecolor)
+ - [strokeColor()](strokecolor.htm)
 
- - [strokeWeight()](strokeweight)
+ - [strokeWeight()](strokeweight.htm)
 
- - [fillColor()](fillcolor)
+ - [fillColor()](fillcolor.htm)
 
- - [fillOpacity()](fillopacity)
+ - [fillOpacity()](fillopacity.htm)
 
- - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/index)
+ - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/)
 

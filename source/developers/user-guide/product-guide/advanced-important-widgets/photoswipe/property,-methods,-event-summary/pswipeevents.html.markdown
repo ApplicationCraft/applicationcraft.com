@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-This section list only Events specific to the Photoswipe Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/index) section.
+This section list only Events specific to the Photoswipe Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/) section.
 
 <table>
 <tr>
 <td width="254">
-## General Events
+**General Events**
 
 </td>
 <td width="25">

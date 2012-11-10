@@ -12,7 +12,7 @@ The Signup Widget's 'Captcha' property points to this Widget so AC can automatic
 
 ![authentication-captcha](/img/docs/authentication-captcha.png)
 
-See Also:
+## See Also:
 
  - [Captcha Properties](../../../widget-properties-events/authentication/authcaptcha)
 

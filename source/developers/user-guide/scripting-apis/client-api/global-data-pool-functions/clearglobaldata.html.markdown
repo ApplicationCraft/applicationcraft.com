@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## variable clearGlobalData (optional varName)
+variable **clearGlobalData** (optional varName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,16 +24,15 @@ The name of the variable to retrieve from the Global Data Pool. If no variable n
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 When you call this function, all trace of the variable will be removed from the Global Data Pool. Subsequent getGlobalData() calls will return an error if the same variable name is used again (unless re-created using setGlobalData()).
 
-See Also:
+## See Also:
 
  - [switchApp()](../app-functions/switchapp)
 
- - [setGlobalData()](setglobaldata)
+ - [setGlobalData()](setglobaldata.htm)
 
- - [getGlobalData()](getglobaldata)
+ - [getGlobalData()](getglobaldata.htm)
 

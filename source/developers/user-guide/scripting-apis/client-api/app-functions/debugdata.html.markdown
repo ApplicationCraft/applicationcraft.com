@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## object debugData (optional widgetName or widgetNameArray)
+object **debugData** (optional widgetName or widgetNameArray)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -26,27 +26,27 @@ An Widget name or an array or Widget names that should be collected into an obje
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This debug function instructs AC to collect the widget contents into an object that can be easily viewed in your Javascript debugger. You can include this in your Javascript code or enter it directly into your debugger to inspect any Widgets of interest.
 
 Note that you should use debugValues() for data entry or listbox, repeater or listbox selections. debugData shows the contents of Grids, Repeaters, Dropdowns and List Boxes although it also shows the same as debugValues() for simple widgets like text boxes.
 
-Example
+## Example
 
     watchVars = app.debugData(["gridWidget", "repeaterContainer"]); // Watches 2 widgets
     singleWatchVar = app.debugData('firstName'); // watches a text field. Returns the same as debugValues()
     debugger;
+       
    
 
-See Also:
+## See Also:
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugOutput()](debugoutput)
+ - [debugOutput()](debugoutput.htm)
 
- - [debugValues()](debugvalues)
+ - [debugValues()](debugvalues.htm)
 
- - [debugProperties()](debugproperties)
+ - [debugProperties()](debugproperties.htm)
 

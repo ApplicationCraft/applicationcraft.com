@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You will need to generate a P12 Certificate which needs to be provided to the [AC Mobile Build](../../../../ac-mobile-build/index) Platform or to [Phonegap:Build](../../../../phonegapbuild/index) . The screenshot below shows where this certificate should be used.
+You will need to generate a P12 Certificate which needs to be provided to the [AC Mobile Build](../../../../ac-mobile-build/) Platform or to [Phonegap:Build](../../../../phonegapbuild/) . The screenshot below shows where this certificate should be used.
 
 ![iosa-p12-1](/img/docs/iosa-p12-1.zoom71.png)
 
@@ -27,7 +27,7 @@ Double click this file or open the Keychain App on your Mac and from the menu, s
 
 Finally, right click on the key as shown in the screenshot above. Select Export and your P12 file will be created. During this process, you will be asked for a password. This password is associated with the actual certificate and so you should be sure to remember it. If you forget it you just need to regenerate it.
 
-The P12 certificate is now ready for upload into either your [AC Mobile Build](../../../../ac-mobile-build/index) screen (shown at the very top of this page) or into Phonegap Build.
+The P12 certificate is now ready for upload into either your [AC Mobile Build](../../../../ac-mobile-build/) screen (shown at the very top of this page) or into Phonegap Build.
 
 If you lose your P12 certificate, as happens to most people, simply regenerate it by re-doing the above steps.
 

@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-This section lists only Events specific to the Calendar Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/index) section.
+This section lists only Events specific to the Calendar Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/) section.
 
 <table>
 <tr>
 <td width="151">
-## Selection Events
+**Selection Events**
 
 </td>
 <td width="23">
@@ -89,7 +89,7 @@ Called when Multiple Selections are made
 </tr>
 <tr>
 <td width="151">
-## View Events
+**View Events**
 
 </td>
 <td width="23">

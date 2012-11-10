@@ -17,7 +17,7 @@ You can add/Delete Rows/Columns and set Row/Column height/width by right clickin
 <table>
 <tr>
 <td width="168">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="19">
@@ -79,7 +79,7 @@ This is the Widget name that is displayed when references are made to the Widget
 <table>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Where you can set the relationships to other apps (see [Relational Apps & Instan
 <table>
 <tr>
 <td width="167">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="17">
@@ -293,7 +293,7 @@ If set to True, this displays the Widget on either all pages except ones you spe
 <table>
 <tr>
 <td width="166">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="18">
@@ -373,7 +373,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="166">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="17">
@@ -402,7 +402,7 @@ Fields
 <td width="17">
 </td>
 <td width="759">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -490,7 +490,7 @@ Set to map View fields. For use in writing data back out to connected database t
 <table>
 <tr>
 <td width="168">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="13">
@@ -614,7 +614,7 @@ Custom CSS Classes
 <td width="13">
 </td>
 <td width="761">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -635,7 +635,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="17">
@@ -759,7 +759,7 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## visible (widget, value)
+**visible** (widget, value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -37,21 +37,22 @@ the value to set the property to: true/false
 </tr>
 </table>
 
-Description
+## Description
 
 This is a utility function that enables you to set the 'Read Only' property of one or more Widgets. It is the functional equivalent to app.setProperty('widgetName', 'readOnly', true|false). Its purpose is simply to reduce the amount of code and also to make code easier to read.
 
-Example
+## Example
 
-    app.readOnly(["timeColor", "shapeColor"], true);  // make the listed widgets read-only
-    app.readOnly(["timeColor"], true);                // make a single widget read-only
+    app.readOnly(["timeColor",@"shapeColor"],@true);@@//@make@the@listed@widgets@read-only
+    app.readOnly(["timeColor"],@true);@@@@@@@@@@@@@@@@//@make@a@single@widget@read-only
+        
    
 
-See Also:
+## See Also:
 
- - [visible()](visible)
+ - [visible()](visible.htm)
 
- - [enabled()](enabled)
+ - [enabled()](enabled.htm)
 
  - [setProperty()](../widget-functions/setproperty)
 

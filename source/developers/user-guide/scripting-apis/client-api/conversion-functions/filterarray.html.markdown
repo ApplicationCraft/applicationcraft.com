@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {array} filterArray (inputArray, callbackFunction)
+{array} **filterArray** (inputArray, callbackFunction)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,30 +36,29 @@ A callback function that will be called for each array element and determines wh
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This filters a Javascript array using a jolly clever callback function. You pass in an input array and for each element within the array, the callback function you supply will be called. If your callback returns true, the element is included otherwise it will be excluded. Once completed, the function returns a new, filtered array.
 
-A good usage of this function is where your App retrieves data from an API call into an array and you then load this data into a Widget using [populateWidget()](../widget-data-state-manipulation/populatewidget()/index) . If you then offer a filter option against this Widget, you can store a single copy of the entire array and then use filterArray() to create a new array with the appropriate filter before using that new array with populateWidget().
+A good usage of this function is where your App retrieves data from an API call into an array and you then load this data into a Widget using [populateWidget()](../widget-data-state-manipulation/populatewidget/) . If you then offer a filter option against this Widget, you can store a single copy of the entire array and then use filterArray() to create a new array with the appropriate filter before using that new array with populateWidget().
 
-Example
+## Example
 
 The following example shows how you would filter out any array elements where the age is less than 40.
 
-    filteredArray = app.filterArray(patients, function(element) {
-    if(element.patientAge<40) {
-    return true;
-    }
-    else {
-    return false;
-    }
-    });
+    filteredArray@=@app.filterArray(patients,@function(element)@{
+            if(element.patientAge<40) {
+                return true;
+            } 
+            else {
+                return false;
+            }
+        }); 
    
 
-See Also:
+## See Also:
 
- - [populateWidget()](../widget-data-state-manipulation/populatewidget()/index)
+ - [populateWidget()](../widget-data-state-manipulation/populatewidget/)
 
  - [setData()](../widget-data-state-manipulation/setdata)
 

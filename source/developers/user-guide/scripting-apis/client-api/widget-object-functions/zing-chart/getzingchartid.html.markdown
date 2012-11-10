@@ -6,14 +6,15 @@ full_width: true
 ---
 
 
-## getZingChartId()
+**getZingChartId()**
 
-Description
+## Description
 
 Returns the unique Id of the ZingChart widget
 
-Example
+## Example
 
+     
     app.w('zing1').getZingChartId()
    
 

@@ -10,19 +10,19 @@ If you want to store additional information about your user, then you can add a 
 
 Other Apps can switch to this settings page directly, bypassing the Signup and Signin pages completely. When the settings have been modified, the user can be sent back to the App it came from.
 
-User Parameter Groups
+## User Parameter Groups
 
-If you have only a handful of parameters, then a good way of storing these parameters is to just use [User Parameters](../../../the-console/console-tabs/more/account-variables/user-parameters/index) . These allow you to define new User Parameters within the Console. You can access these using the [userParameterGet()](../../../../scripting-apis/client-api/app-functions/userparameterget) and [userParameterSet()](../../../../scripting-apis/client-api/app-functions/userparameterset) functions. This is fast and easy as any Apps can access the parameters of the authenticated user without the need to store data in an App Instance.
+If you have only a handful of parameters, then a good way of storing these parameters is to just use [User Parameters](../../../the-console/console-tabs/more/account-variables/user-parameters/) . These allow you to define new User Parameters within the Console. You can access these using the [userParameterGet()](../../../../scripting-apis/client-api/app-functions/userparameterget) and [userParameterSet()](../../../../scripting-apis/client-api/app-functions/userparameterset) functions. This is fast and easy as any Apps can access the parameters of the authenticated user without the need to store data in an App Instance.
 
-Instance Storage
+## Instance Storage
 
 If you have lots of parameters, then the best way to store these is using an App Instance. It requires a little more code but is very flexible.
 
-Both
+## Both
 
 You can also mix the two methods. We have used both in the 'Signup Signin' Tutorial App in fact. It can very easily be used as a complete template for most authentication situations you will encounter. The rest of this Chapter discusses both the User Parameter Groups and Instance Storage in more detail.
 
-The Tutorial Example
+## The Tutorial Example
 
 We will look at a comprehensive example of how your settings page can be accesses, which is taken from the Tutorial. The App 'Signin Signup App' is the App that is accessed post authentication.
 

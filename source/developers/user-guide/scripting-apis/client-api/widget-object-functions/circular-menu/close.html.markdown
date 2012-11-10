@@ -6,14 +6,15 @@ full_width: true
 ---
 
 
-## close()
+**close()**
 
-Description
+## Description
 
 Closes the Circle Menu widget
 
-## Example
+**Example**
 
     app.w('CircleMenu').open();
+     
    
 

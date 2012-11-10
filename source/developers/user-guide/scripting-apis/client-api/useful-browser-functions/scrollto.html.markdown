@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## scrollTo (xNum, yNum)
+**scrollTo** (xNum, yNum)
 
-## scrollBy (xNum, yNum)
+**scrollBy** (xNum, yNum)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -26,17 +26,16 @@ X and Y coordinates to scroll by
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Scrolls the browser contents by the specified number of pixels.
 
-Example
+## Example
 
-    scrollBy(0, 100);  // Scrolls 100 pixels lower
+    scrollBy(0,@100);@@//@Scrolls@100@pixels@lower
    
 
-See Also:
+## See Also:
 
- - [Window Object](window-object)
+ - [Window Object](window-object.htm)
 

@@ -6,12 +6,13 @@ full_width: true
 ---
 
 
-update
+**update**
 
     (table, values, where, whereArgs, success, error)
+     
    
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -93,17 +94,18 @@ error callback function.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function is used to update rows in the database
 
-    db.update("test", {name : "New Username" }, "id = ?", [1], function(count){
-    console.log("count="+count);
-    }, function(er){
-    console.log("error="+er);
+     
+    db.update("test",@{name@:@"New@Username"@},@"id@=@?",@[1],@function(count){@
+        console.log("count="+count); 
+    },@function(er){
+        console.log("error="+er);
     });
+     
    
 
-## Example
+**Example**
 

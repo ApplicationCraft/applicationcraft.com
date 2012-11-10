@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## object debugValues (optional widgetName or widgetNameArray)
+object **debugValues** (optional widgetName or widgetNameArray)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -26,25 +26,25 @@ A Widget name, an array of Widget names or Widget objects that should be collect
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This debug function instructs AC to collect the widget data values into an object that can be easily viewed in your Javascript debugger. You can include this in your Javascript code or enter it directly into your debugger to inspect any Widgets of interest.
 
-Example
+## Example
 
-    watchVar = app.debugValues(["firstName", "Email", "Listbox"]);
-    watchSingleVar = app.debugValues('widgetName');
+    watchVar@=@app.debugValues(["firstName",@"Email",@"Listbox"]);
+    watchSingleVar@=@app.debugValues('widgetName');
     debugger;
+      
    
 
-See Also:
+## See Also:
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugOutput()](debugoutput)
+ - [debugOutput()](debugoutput.htm)
 
- - [debugData()](debugdata)
+ - [debugData()](debugdata.htm)
 
- - [debugProperties()](debugproperties)
+ - [debugProperties()](debugproperties.htm)
 

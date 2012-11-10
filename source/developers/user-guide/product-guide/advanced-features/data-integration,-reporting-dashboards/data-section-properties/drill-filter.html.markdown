@@ -24,19 +24,19 @@ Using the Expression Builder, you are able to control the expression that is add
 
  - Other Widgets - most Widgets have Drill Filter property and how you use this is up to your and your imagination.
 
-Drill Filter Expression &  {value} and {label}
+## Drill Filter Expression &  {value} and {label}
 
 This will be the condition that should be added to the drill down filter. For example, if you have a Listbox containing country names and you want to drill down on the Country Name., you would use something like {customers.country}={label}. AC will replace {label} with the label of the selected item. You will see both {label} and {value} in the Fields list in the expression editor.
 
 {value} is used when your Widget has a Value property for the clicked on item. A Listbox, for example, can have both a Label (that is see in the list) and a Select Value (that is not seen but is associated with each list item). If, for example, your country list needs to set a filter using a Country Code, then you would set the Value property in the Fields property with something like {Customers.CountryCode} and the Label with {Customers.Country}. The Drill Filter would then be set to {customers.country}={value}.
 
-Drilling Down Using Grids
+## Drilling Down Using Grids
 
 You can drill down using Grids very easily but you need to decide which column should be used to drill down on. This is done by selecting the {value} option from the Field list in the Expression Editor. Next to {value} is a number that indicates the column number. This is 0-based, so {value}[0] means the first column.
 
-Modifying Drill Down from Scripts
+## Modifying Drill Down from Scripts
 
-You can write scripts that dynamically modify the drill-down filter. Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/index) of the [Client API](../../../../scripting-apis/client-api/index) section for more information.
+You can write scripts that dynamically modify the drill-down filter. Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/) of the [Client API](../../../../scripting-apis/client-api/) section for more information.
 
 Related Video:
 

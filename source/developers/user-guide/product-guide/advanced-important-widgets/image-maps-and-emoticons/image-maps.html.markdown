@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## What is an Image Map
+**What is an Image Map**
 
 An image map is a list of coordinates defined in a specific image,
 
-They can be used to allow users to click areas in your image that can then stored and/or allow you to dynamically interact with the user by writing [scripts](../../../scripting-apis/client-scripting-overview/index) . For example, a map of the world may have each country hyperlinked to further information about that country by using the [showMessage()](../../../scripting-apis/client-api/app-functions/showmessage) or [pageJump()](../../../scripting-apis/client-api/page-functions/pagejump) to send them to a specific page in your App, or to allow you to store the country they selected and to then report on that data.
+They can be used to allow users to click areas in your image that can then stored and/or allow you to dynamically interact with the user by writing [scripts](../../../scripting-apis/client-scripting-overview/) . For example, a map of the world may have each country hyperlinked to further information about that country by using the [showMessage()](../../../scripting-apis/client-api/app-functions/showmessage) or [pageJump()](../../../scripting-apis/client-api/page-functions/pagejump) to send them to a specific page in your App, or to allow you to store the country they selected and to then report on that data.
 
 On Area Click, On Area Mouse Enter and On Area Mouse Leave events are available.
 
@@ -22,7 +22,7 @@ Because creating image maps in a text editor requires much time and effort, ther
 
 Examples of these are Adobe's [Dreamweaver](http://www.adobe.com/products/dreamweaver/) or [KImageMapEditor](http://www.nongnu.org/kimagemap/index.html) (for KDE), and the imagemap plug in found in [GIMP](http://www.gimp.org/) . There are also a number of online Image Map Editors ( [http://toolserver.org/\~dapete/ImageMapEdit/ImageMapEdit.html](http://toolserver.org/~dapete/ImageMapEdit/ImageMapEdit.html) , [http://www.maschek.hu/imagemap/imgmap](http://www.maschek.hu/imagemap/imgmap) )
 
-An Embedded App Example
+## An Embedded App Example
 
 Click on the highlighted areas
 
@@ -34,7 +34,7 @@ Click on the highlighted areas
   </script>
 </p>
 
-## How to Set up an Image Map
+**How to Set up an Image Map**
 
 1: Insert your Image into your App.
 
@@ -78,7 +78,7 @@ Download [Man Blue.png](http://www.applicationcraft.com/sites/applicationcraft/f
 
 Download [HumanBody.csv](http://www.applicationcraft.com/sites/applicationcraft/files/files/HumanBody.csv)
 
-See Also:
+## See Also:
 
  - [Image](../../../widget-properties-events/common/image#imagemap)
 

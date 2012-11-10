@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <th style="vertical-align:top; width:172px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:21px; background-color:#ffffff;">
@@ -123,7 +123,7 @@ A dialog that allows you to specify which Map controls are visible (Map Type, Pa
 </tr>
 <tr>
 <td width="172">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="21">
@@ -239,7 +239,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="174">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="20">
@@ -307,7 +307,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="174">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="18">
@@ -337,7 +337,7 @@ Fields
 <td width="18">
 </td>
 <td width="750">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -449,7 +449,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
@@ -534,7 +534,7 @@ This refers to the [Theme entry](../../../content-and-app-layout/introduction/th
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-## <a id="style"> </a> Marker Style
+<a id="style"> </a> **Marker Style**
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
@@ -561,13 +561,13 @@ The default image to be used for markers. Using javascript, you can create indiv
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-## <a id="style"> </a> Default Overlay
+<a id="style"> </a> **Default Overlay**
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
 </th>
 <th style="vertical-align:top; width:728px; background-color:#ffffff;">
-See [Working with Overlays](../working-with-overlays/index) for information and examples.
+See [Working with Overlays](../working-with-overlays/) for information and examples.
 
 </th>
 </tr>
@@ -636,7 +636,7 @@ For rectangles, circles and areas, indicates the opacity level of the color with
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-## <a id="style"> </a> Adsense
+<a id="style"> </a> **Adsense**
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
  - [getViewData()](getviewdata2)
 
@@ -34,7 +34,7 @@ full_width: true
 
  - [quoteInto()](quoteinto)
 
- - [Select Handling](select-handling/index)
+ - [Select Handling](select-handling/)
 
 Related Video:
 

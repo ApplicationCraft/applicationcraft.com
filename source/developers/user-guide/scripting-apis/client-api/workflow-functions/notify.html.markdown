@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## notify (notifierId, optional users, optional groups, notificationDetails, optional time, timeType , optional numRepeats, optional repeatInterval, callback)
+**notify** (notifierId, optional users, optional groups, notificationDetails, optional time, timeType , optional numRepeats, optional repeatInterval, callback)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -120,8 +120,7 @@ Called when the function has succeeded or failed.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This is a key workflow function and instructs the system to send notifications to Roles, Persons or Groups. You can also schedule reminders using the numRepeats and repeatInterval parameters.
 

@@ -73,18 +73,18 @@ Moves a Widget around and can also control various effects at the same time
 </tr>
 </table>
 
-Examples
+## Examples
 
 Fade a Widget out instantly and then fade it back in over 2 seconds
 
-    app.w('shape1').base().fadeOut(0);
+    app.w('shape1').base().fadeOut(0);@@@@
     app.w('shape1').base().fadeIn(2000);
     app.w('textarea1').base().animate({
-    opacity: 0.25,
-    top: '+=100',
-    left: '+=500',
-    height: 400
-    }, 3000);
+            opacity: 0.25,
+            top: '+=100',
+            left: '+=500',
+            height: 400
+    },@3000);@@
    
 
 Move a Widget from its current position to a new position 500 pixels to the right and 100 pixels lower down. At the same time, change its opacity  and height. All done over a 3 second period.

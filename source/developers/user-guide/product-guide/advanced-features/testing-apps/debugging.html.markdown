@@ -6,5 +6,5 @@ full_width: true
 ---
 
 
-You can debug very powerfully with the Chrome Developer Tools or Firebug. Please refer to the [Debugging Overview](../../../scripting-apis/client-scripting-overview/debugging-ac-scripts/index) section for full details.
+You can debug very powerfully with the Chrome Developer Tools or Firebug. Please refer to the [Debugging Overview](../../../scripting-apis/client-scripting-overview/debugging-ac-scripts/) section for full details.
 

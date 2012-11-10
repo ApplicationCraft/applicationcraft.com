@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="191">
-## General
+**General**
 
 </td>
 <td width="19">
@@ -124,7 +124,7 @@ If you want your GA tracking to be javascript free, then you can set the 'Google
 </tr>
 <tr>
 <td width="191">
-## Layout
+**Layout**
 
 </td>
 <td width="19">
@@ -167,7 +167,7 @@ true/false. Select true for the page to expand (if necessary) to browser height
 </tr>
 <tr>
 <td width="191">
-## Behavior
+**Behavior**
 
 </td>
 <td width="19">
@@ -204,7 +204,7 @@ Post Rendering - The target page will be loaded and while the content is rendere
 </tr>
 <tr>
 <td width="191">
-## Style
+**Style**
 
 </td>
 <td width="19">
@@ -352,7 +352,7 @@ Custom CSS Classes
 <td width="19">
 </td>
 <td width="765">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -378,7 +378,7 @@ This indicates which Page Style should be used within the Theme. A Theme allows 
 </tr>
 <tr>
 <td width="191">
-## Grid
+**Grid**
 
 </td>
 <td width="19">
@@ -394,7 +394,7 @@ Snap to grid
 <td width="19">
 </td>
 <td width="765">
-This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice [Drag Alignment](../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-alignment--distribution) feature.
+This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice [Drag Alignment](../product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-alignment-distribution) feature.
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ The size, in pixels, of the Grid as used by the Snap to grid feature and propert
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -541,7 +541,7 @@ On Mouse Leave
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
  - [Mouse Events](events/event-reference-list/mouse-events)
 

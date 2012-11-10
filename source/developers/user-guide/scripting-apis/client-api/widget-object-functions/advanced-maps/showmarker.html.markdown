@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result showMarker ()
+result **showMarker** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,16 +24,16 @@ True if Marker is shown, false if Marker is not shown
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to show/hide the map's base coordinate marker. The following example shows how you can toggle to show/hide the marker as a button is clicked
 
-## Example
+**Example**
 
-    function handler_actionBtn16_onClick(mouseev){
-    var showMarker = app.w('googleMapsAdvanced').showMarker();
-    app.w('googleMapsAdvanced').showMarker(!showMarker);
+    function@handler_actionBtn16_onClick(mouseev){
+        var showMarker = app.w('googleMapsAdvanced').showMarker();
+        app.w('googleMapsAdvanced').showMarker(!showMarker);
     }
+     
    
 

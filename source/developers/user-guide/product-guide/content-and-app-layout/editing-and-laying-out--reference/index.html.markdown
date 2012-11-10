@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
 [Must Read Layout Tips and Tricks](must-read-layout-tips-and-tric)
 
@@ -14,11 +14,11 @@ full_width: true
 
 [Repeating Widgets Across Multiple Pages](repeating-widgets-across-multi)
 
-[Widget Alignment](widget-alignment--distribution)
+[Widget Alignment](widget-alignment-distribution)
 
 [Drag Alignment](drag-alignment)
 
-[Selection & Multi Selection](selection--multi-selection)
+[Selection & Multi Selection](selection-multi-selection)
 
 [Showing container outlines](showing-container-outlines)
 
@@ -28,7 +28,7 @@ full_width: true
 
 [Reverting to Theme Style](reverting-to-theme-style)
 
-[Widget Layer / Z-Order](layer---z-order)
+[Widget Layer / Z-Order](layer--z-order)
 
 [Widget Grouping](widget-grouping)
 
@@ -48,9 +48,9 @@ full_width: true
 
 [Snap to Grid](snap-to-grid)
 
-[Referencing Documents & Files](referencing-documents--files)
+[Referencing Documents & Files](referencing-documents-files)
 
-[Adding Audio & Video](adding-audio--video)
+[Adding Audio & Video](adding-audio-video)
 
 [Working with Images](working-with-images)
 

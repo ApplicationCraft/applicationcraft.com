@@ -11,7 +11,7 @@ Search is to allow you to search for data and return the results to other Widget
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -133,7 +133,7 @@ Where you can enter text that will show to the user. As they focus/click into th
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -261,7 +261,7 @@ If set to True, this displays the Widget on either all pages except ones you spe
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -341,7 +341,7 @@ If set to True, the object can be interacted with by a user but data cannot be a
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="15">
@@ -381,7 +381,7 @@ Field
 <td width="15">
 </td>
 <td width="779">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -421,7 +421,7 @@ Set to true to automatically fetch data from assigned view.
 </tr>
 <tr>
 <td width="146">
-## <a id="appearance"> </a> Appearance
+<a id="appearance"> </a> **Appearance**
 
 </td>
 <td width="17">
@@ -453,7 +453,7 @@ Align your text Left/Right or Center
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -481,7 +481,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -658,7 +658,7 @@ Where you can override the default hourglass image to an image of your Resources
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -842,7 +842,7 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Search](../mobile/mobsearch) (Mobile)
 

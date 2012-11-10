@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## runEditor ()
+**runEditor ()**
 
-Description
+## Description
 
 This will load the currently running App into the Editor in design mode.
 

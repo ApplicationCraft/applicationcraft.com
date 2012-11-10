@@ -26,8 +26,8 @@ The Map allows the following controls to be displayed to the user
 
 The Map Controls are also accessible via a javascript object. The following code returns the Controls as an object.
 
-    controlObj = app.getProperty('googleMapsAdvanced', 'mapcontrols');
-    controlObj.gmMapType.visible = false;
+    controlObj@=@app.getProperty('googleMapsAdvanced',@'mapcontrols');
+    controlObj.gmMapType.visible@=@false;
    
 
 Explore this object with the debugger to see available settings. The following table shows the available objects and their keys.
@@ -35,13 +35,13 @@ Explore this object with the debugger to see available settings. The following t
 <table>
 <tr>
 <td width="202">
-## Object Name
+**Object Name**
 
 </td>
 <td width="15">
 </td>
 <td width="418">
-## Available Keys
+**Available Keys**
 
 </td>
 </tr>

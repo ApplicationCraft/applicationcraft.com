@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## total = sum (column)
+total = **sum** (column)
 
-## total = sum (widget)
+total = **sum** (widget)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -50,15 +50,13 @@ A Widget name or object that is a part of a Repeater Container
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Calculates the sum of either the column in a Grid or a Widget across all rows of a Repeater Container.
 
-Example
+## Example
 
 This calculates the total of the 'lblTotals' widget cross all Repeater rows and writes the result to the 'lblGrandTotal' widget.
 
-    app.setValue("lblGrandTotal", app.w("rptOrders").sum("lblTotal"));
+    app.setValue("lblGrandTotal",@app.w("rptOrders").sum("lblTotal"));
    
-

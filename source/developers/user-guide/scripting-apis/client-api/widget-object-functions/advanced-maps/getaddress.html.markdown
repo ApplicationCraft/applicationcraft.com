@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result getAddress (getAddressCallback, lat, long)
+result **getAddress** (getAddressCallback, lat, long)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,31 +48,31 @@ Specify the longitude of the address to return
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 How you can get an address from either specific lat/lng coordinates or from your current location. Also by omitting the coordinate parameters, Application Craft returns the address of your current location
 
-## Example :
+**Example** :
 
     function getAddressCallback(res, data) {
-    alert("Address : " + data[0].formatted_address);
+        alert("Address : " + data[0].formatted_address);
     }
-    function handler_actionBtn13_onClick(mouseev){
-    // Gets an address from a specific coordinate
-    app.w('googleMapsAdvanced').getAddress(getAddressCallback, 41.878113, -87.629798);
-    // Gets the address of your current location
-    app.w('googleMapsAdvanced').getAddress(getAddressCallback);
+     
+    function@handler_actionBtn13_onClick(mouseev){
+        // Gets an address from a specific coordinate
+        app.w('googleMapsAdvanced').getAddress(getAddressCallback, 41.878113, -87.629798);
+        // Gets the address of your current location
+        app.w('googleMapsAdvanced').getAddress(getAddressCallback);
     }
    
 
-## See Also:
+**See Also:**
 
- - [whereAmI()](whereami)
+ - [whereAmI()](whereami.htm)
 
- - [getCoord()](getcoord)
+ - [getCoord()](getcoord.htm)
 
- - [getDirections()](getdirections)
+ - [getDirections()](getdirections.htm)
 
- - [addCurrentLocation()](addcurrentlocation)
+ - [addCurrentLocation()](addcurrentlocation.htm)
 

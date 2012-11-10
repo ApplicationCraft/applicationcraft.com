@@ -6,17 +6,17 @@ full_width: true
 ---
 
 
-## instanceCreate (containerWidget, optional cdbCallback, optional rdbCallback)
+**instanceCreate** (containerWidget, optional cdbCallback, optional rdbCallback)
 
-## instanceCreate (undefined, optional cdbCallback, optional rdbCallback)
+**instanceCreate** (undefined, optional cdbCallback, optional rdbCallback)
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -57,96 +57,97 @@ optional. is called after instance is saved and is available in the results data
 </tr>
 </table>
 
-Description
+## Description
 
 This function will create a new Instance
 
- - either for the currently running App if the ContainerWidget parameter is unspecified or empty. See the [Configuring Your App for Data Storage](../../../product-guide/advanced-features/data-storage-management/standard-storage-procedures/configuring-your-app-for-data-) chapter for a general overview on storing data for the currently running App.
+ - either for the currently running App if the ContainerWidget parameter is unspecified or empty. See the [Configuring Your App for Data Storage](../../../product-guide/advanced-features/data-storage-management/standard-storage-procedures/configuring-your-app-for-data) chapter for a general overview on storing data for the currently running App.
 
- - or for a foreign App, in which case a new Instance will be created in the App pointed to by the Data View that the   ContainerWidget is connected to. See the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index) chapter for a general overview of writing to foreign Apps.
+ - or for a foreign App, in which case a new Instance will be created in the App pointed to by the Data View that the   ContainerWidget is connected to. See the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/) chapter for a general overview of writing to foreign Apps.
 
- - or to create a new record in an external database pointing to by the Data View that the ContainerWidget is connected to. See the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index) chapter for a general overview of writing to foreign Apps
+ - or to create a new record in an external database pointing to by the Data View that the ContainerWidget is connected to. See the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for a general overview of writing to foreign Apps
 
-Callback Functions
+## Callback Functions
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully stored in the CDB (Core Database). rdbCallback is called once the data is fully saved and available in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function.htm) page for details on these callback functions.
 
-Example
+## Example
 
 This example shows instanceCreate() being used on a 'local' instance (if the first parameter is omitted then this always saves local Instance data). This means that it will create a new Instance and will save all fields within the current App that are set to store their data in the database. Also notice how it only uses the rdb callback function. This lets the App refresh a Grid once it knows that the data is fully stored within the database and can be read back.
 
-    function cbCompSave(error, status) {
-    if (error === null) {
-    app.refreshData('gridCompanies');
-    } else {
-    app.showMessage('Save Error', 'Unable to save company data');
+    function@cbCompSave(error,@status)@{
+        if (error === null) {
+            app.refreshData('gridCompanies');
+        } else {
+            app.showMessage('Save Error', 'Unable to save company data');
+        }
+        g_CompNew=false;
     }
-    g_CompNew=false;
+     
+    function@handler_btnCompSave_onClick(mouseev){
+         if (g_CompNew){
+             app.instanceCreate(undefined, undefined, cbCompSave);
+         } 
+         else {
+             app.instanceUpdate(undefined, undefined, cbCompSave);
+         }
     }
-    function handler_btnCompSave_onClick(mouseev){
-    if (g_CompNew){
-    app.instanceCreate(undefined, undefined, cbCompSave);
+    function@handler_btnContSave_onClick(mouseev){
+        if(g_ContactNew) {
+            app.instanceCreate('dcContacts', undefined, function(error, status){ 
+                if(error===null) {
+                    app.visible('dcContacts', false);
+                    app.refreshData('gridContacts');       
+                }
+                else {
+                    alert("Error saving");                        
+                }
+            });
+        }
+        else {
+            app.instanceUpdate('dcContacts', undefined, function(error, status){ 
+                if(error===null) {
+                    app.refreshData('gridContacts');
+                } else {
+                    alert("Error saving");                      
+                }
+            });    
+        }
     }
-    else {
-    app.instanceUpdate(undefined, undefined, cbCompSave);
-    }
-    }
-    function handler_btnContSave_onClick(mouseev){
-    if(g_ContactNew) {
-    app.instanceCreate('dcContacts', undefined, function(error, status){
-    if(error===null) {
-    app.visible('dcContacts', false);
-    app.refreshData('gridContacts');
-    }
-    else {
-    alert("Error saving");
-    }
-    });
-    }
-    else {
-    app.instanceUpdate('dcContacts', undefined, function(error, status){
-    if(error===null) {
-    app.refreshData('gridContacts');
-    } else {
-    alert("Error saving");
-    }
-    });
-    }
-    }
-    function handler_btnContSave_onClick(mouseev){
-    if(g_ContactNew) {
-    app.instanceCreate('dcContacts', undefined, undefined)
-    };
-    }
-    else {
-    app.instanceUpdate('dcContacts', undefined, undefined){
-    };
-    }
+    function@handler_btnContSave_onClick(mouseev){
+        if(g_ContactNew) {
+            app.instanceCreate('dcContacts', undefined, undefined)
+            };
+        }
+        else {
+            app.instanceUpdate('dcContacts', undefined, undefined){ 
+                };    
+       }
    
 
-The next example specifies the Container Widget as the first parameter, so AC will update the foreign Instance that currently is loaded into that Container. Please read the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index) chapter for details on working with local and foreign Instances.
+The next example specifies the Container Widget as the first parameter, so AC will update the foreign Instance that currently is loaded into that Container. Please read the [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/) chapter for details on working with local and foreign Instances.
 
-The next example specifies the Container Widget as the first parameter, so AC will update the external database with  the content that currently is loaded into that Container. Please read the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index) chapter for details on working with external databases.
+The next example specifies the Container Widget as the first parameter, so AC will update the external database with  the content that currently is loaded into that Container. Please read the [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for details on working with external databases.
 
-See Also:
+## See Also:
 
- - [instanceXxxx Callback functions](instancexxxx-callback-function)
+ - [instanceXxxx Callback functions](instancexxxx-callback-function.htm)
 
- - [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/index)
+ - [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/)
 
- - [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/index)
+ - [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/)
 
- - [instanceNew()](instancenew)
+ - [instanceNew()](instancenew.htm)
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](instancesave.htm)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](instancedelete.htm)
 
- - [instanceLoad()](instanceload)
+ - [instanceLoad()](instanceload.htm)
 
- - [instanceSync()](instancesync)
+ - [instanceSync()](instancesync.htm)
 
  - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 

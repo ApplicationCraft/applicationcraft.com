@@ -16,7 +16,7 @@ Once the Widget is in the page, you control its appearance and behavior by selec
 
 Application Craft has a lot of Widgets, many of which are intended for App building rather than pure content, although you are free to use any of them.
 
-Common Content Widgets
+## Common Content Widgets
 
 The following Widgets are the most commonly used and useful for typical Content Sites.
 
@@ -35,7 +35,7 @@ The following Widgets are the most commonly used and useful for typical Content 
 <table>
 <tr>
 <td width="133">
-## General
+**General**
 
 </td>
 <td width="17">
@@ -105,7 +105,7 @@ For mobile device work, you will be better off using the equivalent in the Mobil
 </tr>
 <tr>
 <td width="133">
-## Advanced
+**Advanced**
 
 </td>
 <td width="17">
@@ -127,7 +127,7 @@ This support a common way of managing multi-dimensional menus by entering all me
 </tr>
 <tr>
 <td width="133">
-## Mobile
+**Mobile**
 
 </td>
 <td width="17">

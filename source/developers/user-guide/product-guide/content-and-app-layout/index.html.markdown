@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
- - [Introduction](introduction/index)
+ - [Introduction](introduction/)
 
- - [Responsive / Adaptive / Fluid Design](responsive-/-adaptive-/-fluid-design/index)
+ - [Responsive / Adaptive / Fluid Design](responsive-/-adaptive-/-fluid-design/)
 
- - [Editing and Laying Out - Reference](editing-and-laying-out--reference/index)
+ - [Editing and Laying Out - Reference](editing-and-laying-out--reference/)
 

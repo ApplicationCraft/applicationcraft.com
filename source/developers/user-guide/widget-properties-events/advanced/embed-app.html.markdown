@@ -11,7 +11,7 @@ The Embed App Widget allows you to embed other Apps into your App. Simply drag t
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -79,7 +79,7 @@ This is where you select the app to embed
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -171,7 +171,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -239,7 +239,7 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -315,7 +315,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 </tr>
@@ -360,7 +360,7 @@ On App Terminate
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [switchApp()](../../scripting-apis/client-api/app-functions/switchapp)
 
@@ -368,7 +368,7 @@ See Also:
 
  - [childApp()](../../scripting-apis/client-api/app-functions/childapp)
 
- - [Embedding apps within Apps](../../product-guide/advanced-features/embedding-apps-within-apps/index)
+ - [Embedding apps within Apps](../../product-guide/advanced-features/embedding-apps-within-apps/)
 
  - [General Events](../events/event-reference-list/general-events)
 

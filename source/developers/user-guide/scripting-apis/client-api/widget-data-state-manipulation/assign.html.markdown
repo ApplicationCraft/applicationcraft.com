@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## assign (widget, acExpression)
+**assign** (widget, acExpression)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,21 +36,20 @@ An Application Craft expression as described below
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This takes an Application Expression and assigns it to the Widget specified in targetWidgetID. The expression can contain a mixture of literal text, User Data, and Widget Data.  Note, this is not a Javascript expression. We simply replace anything in square brackets with App related data. Everything else stays the same.
 
 You should also note that spaces and other characters are combined literally, meaning that you do not need to concatenate strings to make one larger string.
 
-Example
+## Example
 
 The following example will assign something like "ACME Widgets Inc. (Michael Caine)"
 
-    app.assign("lblSummary", "[Form.Widgets.txtCompany] ([Form.Widgets.txtFirstName] [Form.Widgets.txtLastName])");
+    app.assign("lblSummary",@"[Form.Widgets.txtCompany]@([Form.Widgets.txtFirstName]@[Form.Widgets.txtLastName])");
    
 
-Expression Tokens
+## Expression Tokens
 
 You can also use Expression tokens to pull in data from other Objects. Below are some examples of valid tokens.
 
@@ -138,8 +137,7 @@ AC allows Parameter Groups and within them Parameters to be defined. For example
 </td>
 </tr>
 </table>
-
-See Also:
+## See Also:
 
  - [Reading & Writing Simple Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets)
 

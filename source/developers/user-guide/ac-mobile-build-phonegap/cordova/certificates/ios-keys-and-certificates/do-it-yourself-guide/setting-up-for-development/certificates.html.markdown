@@ -10,13 +10,13 @@ After logging in, you should first of all click on the Certificates link on the 
 
 ![iosa-cert-1](/img/docs/iosa-cert-1.zoom67.png)
 
-Install the WWDR Intermediate Certificate on your PC
+## Install the WWDR Intermediate Certificate on your PC
 
 Download and install the WWDR Intermediate Certificate by clicking on the link underneath the (empty) table of certificates. Once this has been downloaded, you should double click it or open it. At this point, your Keychain app will appear. Click on the Certificates category on the left and you should see it installed as shown below.
 
 ![iosa-cert-2](/img/docs/iosa-cert-2.zoom70.png)
 
-Create iOS Development Certificate
+## Create iOS Development Certificate
 
 Back in the iOS Provisioning Portal in your browser, click on the Request Certificate button. The instructions provided there should be pretty clear and are shown below with some minor edits for clarity
 

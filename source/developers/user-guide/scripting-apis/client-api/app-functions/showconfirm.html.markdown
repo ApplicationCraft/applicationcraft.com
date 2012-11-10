@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {boolean} showConfirm (title, text, callback())
+{boolean} **showConfirm** (title, text, callback())
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -49,7 +49,7 @@ the callback function is used to receive and handle the response (true/false)
 </tr>
 </table>
 
-Description
+## Description
 
 You use this when you want to get a Yes/No or OK/Cancel response (browser dependent) from the Respondent using the standard browser message box. You pass in the message to display to the Respondent and you get back a true or false value.
 
@@ -57,21 +57,22 @@ Rich Text is supported
 
 The example below shows how the response to the question is handled by the callback function.
 
-Example
+## Example
 
-    app.showConfirm(undefined, "Are you <b>sure</b> you want to remove the highlighting from the drop down list?",function(response) {
-    if(response) {
-    app.unhighlightWidgets(["timeColor"]);
-    app.pageJump("Farewell");
-    }
-    });
+     
+    app.showConfirm(undefined,@"Are@you@<b>sure</b>@you@want@to@remove@the@highlighting@from@the@drop@down@list?",function(response)@{
+        if(response) {
+             app.unhighlightWidgets(["timeColor"]);
+             app.pageJump("Farewell");
+        }
+        });
    
 
-See Also:
+## See Also:
 
- - [showMessage()](showmessage)
+ - [showMessage()](showmessage.htm)
 
- - [showPrompt()](showprompt)
+ - [showPrompt()](showprompt.htm)
 
  - [showPagePopup()](../page-functions/showpagepopup)
 

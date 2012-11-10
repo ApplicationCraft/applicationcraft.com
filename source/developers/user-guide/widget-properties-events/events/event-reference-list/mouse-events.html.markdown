@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-## Mouse Events
+**Mouse Events**
 
 </td>
 <td width="8">
@@ -147,7 +147,7 @@ When a Resizing operation stops
 </tr>
 <tr>
 <td width="182">
-## Image
+**Image**
 
 </td>
 <td width="8">
@@ -201,7 +201,7 @@ Called when mouse moves away from or leaves a defined Area in an Image widget. (
 </tr>
 <tr>
 <td width="182">
-## Grid
+**Grid**
 
 </td>
 <td width="8">

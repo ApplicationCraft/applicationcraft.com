@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## objUser currentUserRole ()
+objUser **currentUserRole** ()
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,8 +24,7 @@ User object for the currently authenticated user
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 When a user accesses an instance, if it is Workflow related, then it will almost always be as a system user. If, in an email, someone clicks on a link, then they will already have a system account, even if it is the basic account level indicating that they are only app instance users.
 
@@ -33,7 +32,7 @@ The only common situation where an instance will be opened without the user bein
 
 If there is no role, then all fields will be null.
 
-objUser Object
+## objUser Object
 
 This object has the elements
 

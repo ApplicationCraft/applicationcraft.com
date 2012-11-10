@@ -6,19 +6,19 @@ full_width: true
 ---
 
 
-## isPrinting ();
+**isPrinting** ();
 
-Description
+## Description
 
 Call this method if you need to query whether the printing process is still underway on the server.
 
 Printing should be considered  Beta until this notice is removed.
 
-Examples
+## Examples
 
 For code examples, please go to the [Printing Examples](../../../product-guide/advanced-features/printing/printing-examples) topic.
 
-See Also:
+## See Also:
 
- - [printApp()](printapp)
+ - [printApp()](printapp.htm)
 

@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## getYoutubePlayer (obj)
+**getYoutubePlayer** (obj)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,13 +24,14 @@ Returns the You Tube player object
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Returns the You Tube player object
 
-## Example
+**Example**
 
+     
     console.dir(app.w('YouTube').getYouTubePlayer()});
+     
    
 

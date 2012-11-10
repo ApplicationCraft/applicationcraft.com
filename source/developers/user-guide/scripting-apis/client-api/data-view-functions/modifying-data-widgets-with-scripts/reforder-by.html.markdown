@@ -10,14 +10,14 @@ Your script can modify a Widget's Order By property by passing in an object that
 
 Having modified the Order By Property, you need to call [app.refreshData()](../../widget-functions/refreshdata) to reload the Widget's data to reflect the change.
 
-Example
+## Example
 
-    objOrder = {value:"{company.name}", asc:true};
-    app.setProperty('widgetName', 'orderBy', objOrder);
+    objOrder@=@{value:"{company.name}",@asc:true};
+    app.setProperty('widgetName',@'orderBy',@objOrder);
     app.refreshData('widgetName');
    
 
-See Also:
+## See Also:
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 

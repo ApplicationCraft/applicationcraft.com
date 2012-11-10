@@ -10,5 +10,5 @@ You should download and install the Firebug add-on for FireFox. Although we curr
 
 For those of you using Firebug, the approach is exactly the same as for Chrome. The only differences are the way that the debugger is accessed from the menu or hot keys.
 
-Please refer to the [Chrome](chrome) section for more information.
+Please refer to the [Chrome](chrome.htm) section for more information.
 

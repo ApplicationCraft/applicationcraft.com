@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## dir (objName)
+**dir** (objName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,13 +24,13 @@ a javascript object or variable
 </td>
 </tr>
 </table>
+## Description
 
-Description
+Writes a complex javascript object to the console on the client browser that called the server script. This function cannot be used within a server side event. See [Logging Support](../../../product-guide/advanced-features/logging-support/) if you want to do this.
 
-Writes a complex javascript object to the console on the client browser that called the server script. This function cannot be used within a server side event. See [Logging Support](../../../product-guide/advanced-features/logging-support/index) if you want to do this.
-
-Example
+## Example
 
     console.log(myObj);
+     
    
 

@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## dataSetValues (strPageOrWidget)
+**dataSetValues** (strPageOrWidget)
 
-## dataSetValues (strPageOrWidgets[])
+**dataSetValues** (strPageOrWidgets[])
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -38,34 +38,33 @@ An array of objects containing multiple widget key names and values
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 This does not return a value.
 
-Description
+## Description
 
-This function performs the inverse of [app.dataGetValues()](datagetvalues) . You pass in an object that is made up of key names that must correspond to Widget names. The value associated with each key is then used to populate those widgets.
+This function performs the inverse of [app.dataGetValues()](datagetvalues.htm) . You pass in an object that is made up of key names that must correspond to Widget names. The value associated with each key is then used to populate those widgets.
 
-Examples
+## Examples
 
 The following example populates two widgets. The third widget does not exist but the system will simply ignore it, so it is safe to mix in other key fields.
 
-    var rObj = {"txtFirst":"Freddy", "txtLast":"May", "notAnACWidget":"rubbish"};
-    vapp.dataSetValues(rObj);
+        var rObj = {"txtFirst":"Freddy", "txtLast":"May", "notAnACWidget":"rubbish"};
+        vapp.dataSetValues(rObj);
    
 
-See Also:
+## See Also:
 
- - [dataGetValues()](datagetvalues)
+ - [dataGetValues()](datagetvalues.htm)
 
- - [dataGetStates()](datagetstates)
+ - [dataGetStates()](datagetstates.htm)
 
- - [dataSetStates()](datasetstates)
+ - [dataSetStates()](datasetstates.htm)
 
- - [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+ - [Server Side Data Storage](../../../data-storage/server-side-data-storage/)
 
- - [SSJ database functions](../../../data-storage/server-side-data-storage/index)
+ - [SSJ database functions](../../../data-storage/server-side-data-storage/)
 
- - [Instance Data Functions](../instance-data-functions/index)
+ - [Instance Data Functions](../instance-data-functions/)
 

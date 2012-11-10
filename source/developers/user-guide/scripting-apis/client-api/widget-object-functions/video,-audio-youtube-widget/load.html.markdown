@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## load ()
+**load** ()
 
-Description
+## Description
 
 Loads the video/audio from its source.
 
-Example
+## Example
 
     app.w("Video").load();
    

@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-del
+**del**
 
     (table, where, whereArgs, success, error)
    
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -80,17 +80,18 @@ error callback function.
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function is used to delete rows from  the database
 
-    db.del("test", "id = ?", ["1"], function(count){
-    console.log("count="+count);
-    }, function(er){
-    console.log("error="+er);
+     
+    db.del("test",@"id@=@?",@["1"],@function(count){@
+        console.log("count="+count); 
+    },@function(er){
+        console.log("error="+er);
     });
+     
    
 
-## Example
+**Example**
 

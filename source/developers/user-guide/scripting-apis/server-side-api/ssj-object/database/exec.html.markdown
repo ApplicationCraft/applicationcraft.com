@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## connectionObject.exec (strSqlString)
+**connectionObject.exec** (strSqlString)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,51 +24,51 @@ the Connection ID of the Connection as found in the AC Console
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 The result set from the SQL execution as an array, where each array element corresponds to a single item in the result set.
 
-Description
+## Description
 
 This is used in the following common scenarios
 
- - executing SELECT statements that were prepared with the cObj.select() method (refer to the [Select Handling](select-handling) section for an overview of how AC handles SELECT statements)
+ - executing SELECT statements that were prepared with the cObj.select() method (refer to the [Select Handling](select-handling.htm) section for an overview of how AC handles SELECT statements)
 
  - creating your own SQL Statement that you want to pass directly through to the database for execution
 
  - calling stored procedures
 
-Example Select Statement Execution
+## Example Select Statement Execution
 
-    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj = cObj.select().from("customers").where("id=?", p.id);
+    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj@=@cObj.select().from("customers").where("id=?",@p.id);
     cObj.exec(selectObj);
-    selectObj = cObj.select().from("customers").order("companyName");
+     
+    selectObj@=@cObj.select().from("customers").order("companyName");
     cObj.exec(selectObj);
+    CREATE@PROCEDURE@sp_numCustomers()
+    BEGIN
+      SELECT count(*) from customers;
+    END
+    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    return(cObj.exec("CALL@sp_numCustomers()"));
+     
+     
    
 
-Example Stored Procedure Call
+## Example Stored Procedure Call
 
 Below is a very simple MySQL stored procedure definition that returns the total number of customers.
 
-    CREATE PROCEDURE sp_numCustomers()
-    BEGIN
-    SELECT count(*) from customers;
-    END
-    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    return(cObj.exec("CALL sp_numCustomers()"));
-   
-
 The following code would call this stored procedure from an SSJ script
 
-See Also:
+## See Also:
 
  - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 
  - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/index)
+ - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)
 
 Related Video:
 

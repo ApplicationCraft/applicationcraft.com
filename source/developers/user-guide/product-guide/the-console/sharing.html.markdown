@@ -36,20 +36,20 @@ The list at the bottom of the Sharing section lists the possible Permissions. Ea
 
 ![App\_sharing](/img/docs/app_sharing.zoom79.png)
 
-Allow / Deny
+## Allow / Deny
 
 Normally, you will check a box in the Allow column. However, occasionally, you may want to specifically Deny a permission to a User or Group.
 
 When evaluating whether a User is able to access an Object, AC will first check to see if that Object can be accessed by that User directly or as a Group member. If that User is allowed, then AC will check to see whether there are any specific Deny permissions for the Object / User.  If there are both Allow and Deny permissions, then the Deny permission will prevail.
 
-Permissions Types
+## Permissions Types
 
 The following permissions types are standard but different AC objects have varying collections of permissions, which you can set for both individual Users and Groups.
 
 <table>
 <tr>
 <td width="143">
-## Full
+**Full**
 
 </td>
 <td width="7">
@@ -61,7 +61,7 @@ The User/Group is given the full set of permissions
 </tr>
 <tr>
 <td width="143">
-## Use
+**Use**
 
 </td>
 <td width="7">
@@ -73,7 +73,7 @@ The User/Group may use or access the Object
 </tr>
 <tr>
 <td width="143">
-## Edit
+**Edit**
 
 </td>
 <td width="7">
@@ -85,7 +85,7 @@ The User/Group may edit the Object (only used in the Apps Console)
 </tr>
 <tr>
 <td width="143">
-## Administer
+**Administer**
 
 </td>
 <td width="7">
@@ -97,7 +97,7 @@ The User/Group may make changes to the Object's properties and settings in the C
 </tr>
 <tr>
 <td width="143">
-## Clone
+**Clone**
 
 </td>
 <td width="7">
@@ -109,7 +109,7 @@ The User/Group may Clone the app
 </tr>
 <tr>
 <td width="143">
-## Create Instances
+**Create Instances**
 
 </td>
 <td width="7">
@@ -121,7 +121,7 @@ The User/Group may submit data into the App
 </tr>
 <tr>
 <td width="143">
-## Read Instances
+**Read Instances**
 
 </td>
 <td width="7">
@@ -133,7 +133,7 @@ The User/Group can access App data and use the data for Reporting
 </tr>
 <tr>
 <td width="143">
-## Update Instances
+**Update Instances**
 
 </td>
 <td width="7">
@@ -145,7 +145,7 @@ The User/Group can update instances
 </tr>
 <tr>
 <td width="143">
-## Delete Instances
+**Delete Instances**
 
 </td>
 <td width="7">

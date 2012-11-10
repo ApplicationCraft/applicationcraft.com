@@ -10,7 +10,7 @@ Available in the Advanced Menu bar in the [Designer Screen](../../../product-gui
 
 Define the details of your webservice as required and then 'Run Request' to test and inspect the result.
 
-The response can also then be copied into the [Populate Widget Map Wizard](../widget-data-state-manipulation/populatewidget()/populatewidget-wizard) to assist with the mapping of the response into your widgets
+The response can also then be copied into the [Populate Widget Map Wizard](../widget-data-state-manipulation/populatewidget/populatewidget-wizard) to assist with the mapping of the response into your widgets
 
 ![WebTest1](/img/docs/webtest1.zoom82.png)
 

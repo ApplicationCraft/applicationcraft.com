@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
-[Widgets](widgets/index)
+[Widgets](widgets/)
 
-[Account Variables](account-variables/index)
+[Account Variables](account-variables/)
 
-[Users & Groups](users-groups/index)
+[Users & Groups](users-groups/)
 
 [My User Variables](my-details)
 

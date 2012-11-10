@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## cancelNotifications (instanceId, optional roleName, optional users, optional groups, callback)
+**cancelNotifications** (instanceId, optional roleName, optional users, optional groups, callback)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -72,8 +72,7 @@ Called when AC has completed execution
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This function is used to remove outstanding notifications to Persons, Groups or Roles.  If you leave the roleName, users and group parameters empty, then all Notifications for the specified Instance will be removed.
 

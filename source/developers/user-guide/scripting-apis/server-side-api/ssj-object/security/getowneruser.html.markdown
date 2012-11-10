@@ -6,17 +6,18 @@ full_width: true
 ---
 
 
-## {object} getOwnerUser()
+{object} **getOwnerUser()**
 
-Returns
+## Returns
 
 Returns information about the User that is the owner of the App currently running
 
-    obj = ssj.getOwnerUser();
+    obj@=@ssj.getOwnerUser();
+     
     {
-    id:'user id',
-    name: 'user name',
-    type: 'user type
+        id:'user id',
+        name: 'user name',
+        type: 'user type
     }
    
 

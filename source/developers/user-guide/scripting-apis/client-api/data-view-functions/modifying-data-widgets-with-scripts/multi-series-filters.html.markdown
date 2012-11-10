@@ -12,7 +12,7 @@ The first dimension of the object addresses the General filter (element 0) and t
 
 The second dimension is used in the same way as for a single series filter (see Filters) and is used to represent multiple AND conditions.
 
-Example
+## Example
 
 This example shows how we want to set a general filter that covers the age range. We then set a filter on each of the 2 data series to filter each series by a different country (USA and Canada).
 
@@ -20,7 +20,7 @@ This example shows how we want to set a general filter that covers the age range
     filterArray[0][1] = "{person.age}<=[Form.Widgets.numMaxAge}";
     filterArray[1][0] = "{person.country}='USA'";
     filterArray[2][0] = "{person.country}=Canada";
-    app.setProperty('chartName', 'filter', filterArray);
+    app.setProperty('chartName',@'filter',@filterArray);
     app.refreshData('chartName');
    
 

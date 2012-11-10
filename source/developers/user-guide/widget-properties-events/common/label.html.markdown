@@ -6,12 +6,12 @@ full_width: true
 ---
 
 
-The Label Widget is one of the fundamental objects within Application Craft and is used to place text on a Page. The Label text and other properties can be changed dynamically using AC [Javascript](../../scripting-apis/client-scripting-overview/scripting-with-javascript/index)
+The Label Widget is one of the fundamental objects within Application Craft and is used to place text on a Page. The Label text and other properties can be changed dynamically using AC [Javascript](../../scripting-apis/client-scripting-overview/scripting-with-javascript/)
 
 <table>
 <tr>
 <th style="vertical-align:top; width:161px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:22px; background-color:#ffffff;">
@@ -115,7 +115,7 @@ Select to set the page to jump to if clicked.('Forward' and 'Back' behave in sam
 <table>
 <tr>
 <td width="159">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="25">
@@ -219,7 +219,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="159">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="26">
@@ -275,7 +275,7 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="38">
@@ -303,7 +303,7 @@ Fields
 <td width="38">
 </td>
 <td width="756">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -379,7 +379,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="165">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="20">
@@ -491,7 +491,7 @@ Custom CSS Classes
 <td width="20">
 </td>
 <td width="757">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -560,7 +560,7 @@ Specified the spacing between letters.
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -686,9 +686,9 @@ On Resize Stop
 </tr>
 </table>
 
-See Also:
+## See Also:
 
- - [HTML](html2)
+ - [HTML](html2.htm)
 
  - [Label (Mobile)](../mobile/moblabel)
 

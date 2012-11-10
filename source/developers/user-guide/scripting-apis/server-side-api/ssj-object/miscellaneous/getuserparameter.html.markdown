@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {object} getUserParameter (strParmGroup, strParm, strUserID)
+{object} **getUserParameter** (strParmGroup, strParm, strUserID)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -49,24 +49,24 @@ the ID of the user for whom the parameter should be retrieved
 </tr>
 </table>
 
-Return Value
+## Return Value
 
-This returns an object or variable as stored using setUserParameter.
+## This returns an object or variable as stored using setUserParameter.
 
-Description
+## Description
 
-This function is used as a part of User and [Authentication support](../../../../product-guide/advanced-features/authentication-for-your-apps/index) . It allows you to retrieve a parameter/value that is specific to the logged in user. If you are not using  AC User Management as an integrated part of your App then you should not use this function.
+This function is used as a part of User and [Authentication support](../../../../product-guide/advanced-features/authentication-for-your-apps/) . It allows you to retrieve a parameter/value that is specific to the logged in user. If you are not using  AC User Management as an integrated part of your App then you should not use this function.
 
-Example
+## Example
 
-    twitterHandle = ssj.getUserParameter('TwitterSettings', 'TwitterID', strUserID);
+    twitterHandle@=@ssj.getUserParameter('TwitterSettings',@'TwitterID',@strUserID);
    
 
-See Also:
+## See Also:
 
- - [setUserParameter()](setuserparameter)
+ - [setUserParameter()](setuserparameter.htm)
 
- - [Authentication for your Apps](../../../../product-guide/advanced-features/authentication-for-your-apps/index)
+ - [Authentication for your Apps](../../../../product-guide/advanced-features/authentication-for-your-apps/)
 
- - [User Management](../../sys-object/user-management/index)
+ - [User Management](../../sys-object/user-management/)
 

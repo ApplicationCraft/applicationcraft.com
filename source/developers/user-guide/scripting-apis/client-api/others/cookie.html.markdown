@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-## setting : cookie (cookieName, value, optional options);
+setting : **cookie** (cookieName, value, optional options);
 
-## getting : {string} cookie (cookieName)
+getting : {string} **cookie** (cookieName)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -60,33 +60,34 @@ secure: // if you are using https you should set this flag to true
 </td>
 </tr>
 </table>
+## Description
 
-Description
-
-You may need to set and get cookies for your Apps for all sorts of reasons. If you are using [oAuth](../../client-scripting-overview/scripting-with-javascript/oauth/index) to handle user authentication to 3rd party systems, cookies can be a useful way to ensure that users do not have to login each time they access your App.
+You may need to set and get cookies for your Apps for all sorts of reasons. If you are using [oAuth](../../client-scripting-overview/scripting-with-javascript/oauth/) to handle user authentication to 3rd party systems, cookies can be a useful way to ensure that users do not have to login each time they access your App.
 
 Please note that if you do not set an 'expire' duration in setting, the cookie will expire as soon as the app is closed
 
-## Example
+**Example**
 
-    function handler_actionBtn1_onClick(mouseev){
-    if(app.getCookie('cookieName')===null){
-    alert('cookie not found');  // if the cookie does not exist, do this.
-    } else {
-    alert('cookie was found'); // if the cookied does exist, do this.
+     
+    function@handler_actionBtn1_onClick(mouseev){
+         if(app.getCookie('cookieName')===null){
+             alert('cookie not found');  // if the cookie does not exist, do this.
+         } else {
+             alert('cookie was found'); // if the cookied does exist, do this.
+         }
     }
+    function@handler_actionBtn2_onClick(mouseev){
+        var options = {
+            expire:  5,// date object or number of days to live 
+            path: "/",// a full url in association with which the cookie is saved
+            secure:  false// if you are using https you should set this flag to true
+        };
+    app.setCookie("cookieName",@"value",@options);
     }
-    function handler_actionBtn2_onClick(mouseev){
-    var options = {
-    expire:  5,// date object or number of days to live
-    path: "/",// a full url in association with which the cookie is saved
-    secure:  false// if you are using https you should set this flag to true
-    };
-    app.setCookie("cookieName", "value", options);
-    }
+     
    
 
-See Also:
+## See Also:
 
- - [oAuth Overview](../../client-scripting-overview/scripting-with-javascript/oauth/index)
+ - [oAuth Overview](../../client-scripting-overview/scripting-with-javascript/oauth/)
 

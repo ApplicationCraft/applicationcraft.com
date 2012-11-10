@@ -8,11 +8,11 @@ full_width: true
 
 You can modify a Widget's Drill Filter in two ways
 
- - Change the actual Drill Filter property as described in the previous [Filters](filters) topic.
+ - Change the actual Drill Filter property as described in the previous [Filters](filters.htm) topic.
 
  - Use the [drillDownBroadcast()](../drilldownbroadcast) function to add your own filter expression to the View's dynamic drill filter.
 
-See Also:
+## See Also:
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 
@@ -20,7 +20,7 @@ See Also:
 
  - [drillDownBroadcast()](../drilldownbroadcast)
 
- - [Filters](filters)
+ - [Filters](filters.htm)
 
  - [Data View Related Events](../data-view-related-events)
 

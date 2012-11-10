@@ -14,12 +14,12 @@ By default this will be an Application Craft logo, but you can manage and contro
 
 You can define the images (png format) you wish to use here. If any fields are left empty, the Default Image will be used in its place
 
-Recommended Properties
+## Recommended Properties
 
 <table>
 <tr>
 <td width="277">
-## Desktop App Splash Image
+**Desktop App Splash Image**
 
 </td>
 <td width="29">
@@ -105,11 +105,10 @@ Top/Center/Right
 </td>
 </tr>
 </table>
-
 <table>
 <tr>
 <td width="278">
-## Default Native App Splash Image
+**Default Native App Splash Image**
 
 </td>
 <td width="27">
@@ -157,11 +156,10 @@ Image
 </td>
 </tr>
 </table>
-
 <table>
 <tr>
 <td width="276">
-## iOS Optional Splash Screen Image
+**iOS Optional Splash Screen Image**
 
 </td>
 <td width="31">
@@ -270,7 +268,7 @@ iPad (Portrait)
 <table>
 <tr>
 <td width="274">
-## Android Optional Splash Screen Image
+**Android Optional Splash Screen Image**
 
 </td>
 <td width="34">

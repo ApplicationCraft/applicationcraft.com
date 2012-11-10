@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## obj getCurrentImage ()
+obj **getCurrentImage** ()
 
-Description
+## Description
 
 Allows you to get the current image object.
 
-Example
+## Example
 
-    app.w("Photoswipe").getCurrentImage();
+    app.w("Photoswipe").getCurrentImage();@@
    

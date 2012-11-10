@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## result addCurrentLocation (coords)
+result **addCurrentLocation** (coords)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,29 +24,28 @@ Handles the location array and adds marker to the map, returning the google.maps
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Adds the current location of the user to the map
 
-## Example
+**Example**
 
-    function onLocationUpdated(res, data) {
-    app.setValue("googleMapsAdvanced", (data));
-    //or app.setValue("googleMapsAdvanced", [data.lat(), data.lng()]);
+    function@onLocationUpdated(res,@data)@{
+       app.setValue("googleMapsAdvanced", (data)); 
+    //or@app.setValue("googleMapsAdvanced",@[data.lat(),@data.lng()]);
     }
-    function handler_actionBtn2_onClick(mouseev){
+    function@handler_actionBtn2_onClick(mouseev){
     app.w('googleMapsAdvanced').addCurrentLocation(onLocationUpdated);
     }
    
 
-## See Also:
+**See Also:**
 
- - [whereAmI()](whereami)
+ - [whereAmI()](whereami.htm)
 
- - [getAddress()](getaddress)
+ - [getAddress()](getaddress.htm)
 
- - [getCoord()](getcoord)
+ - [getCoord()](getcoord.htm)
 
- - [getDirections()](getdirections)
+ - [getDirections()](getdirections.htm)
 

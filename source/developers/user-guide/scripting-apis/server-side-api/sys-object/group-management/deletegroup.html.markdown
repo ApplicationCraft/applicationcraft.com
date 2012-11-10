@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## deleteGroup (groupId, optional checkOwnerRights)
+**deleteGroup** (groupId, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,14 +36,14 @@ The ID of the group to delete
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Deletes the Group with the specified Group ID. If there is an error due to permissions, then an exception is thrown.
 
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

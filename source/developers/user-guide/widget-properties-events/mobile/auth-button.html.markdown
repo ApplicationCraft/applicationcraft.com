@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This widget allows you to handle Authentication to your AC apps. Please see [Authentication for your Apps](../../product-guide/advanced-features/authentication-for-your-apps/index) section for more detail
+This widget allows you to handle Authentication to your AC apps. Please see [Authentication for your Apps](../../product-guide/advanced-features/authentication-for-your-apps/) section for more detail
 
 When the Action is defined as 'Sign In' the widget will be used by anyone accessing your App. Most Apps require a Sign In to verify the users are properly authenticated.
 
@@ -15,7 +15,7 @@ When the Action is defined as 'Sign Up' the widget allows Users to sign up to ac
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="15">
@@ -209,7 +209,7 @@ Select the app to redirect to on successful login
 <table>
 <tr>
 <td width="148">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="15">
@@ -337,7 +337,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="15">
@@ -405,7 +405,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="15">
@@ -481,7 +481,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -502,7 +502,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -628,11 +628,11 @@ On Resize Stop
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
  - [Sign In](../../product-guide/advanced-features/authentication-for-your-apps/sign-in) , [Sign Up](../../product-guide/advanced-features/authentication-for-your-apps/sign-up)
 
- - Mobile Widgets: [Text](mobtext)
+ - Mobile Widgets: [Text](mobtext.htm)
 
  - Authentication Widgets: [Password](../authentication/authpassword) , [Sign In](../authentication/authsign-in) , [Sign Up](../authentication/authsign-up) , [Captcha](../authentication/authcaptcha)
 

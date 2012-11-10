@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## {boolean} || {string] httpRequest (url, type, optional params, optional dataType, optional header, optional specialParams)
+{boolean} || {string] **httpRequest** (url, type, optional params, optional dataType, optional header, optional specialParams)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -85,23 +85,23 @@ this parameter allows you to pass through special, advanced parameters to the un
 </tr>
 </table>
 
-## Important: Note that httpRequest() on the server does runs synchronously and so no callback is called, unlike the client side equivalent. Code execution will pause until data (or an error) is returned.
+**Important:** Note that httpRequest() on the server does runs synchronously and so no callback is called, unlike the client side equivalent. Code execution will pause until data (or an error) is returned.
 
-Returns
+## Returns
 
 Returns false if an error was encountered otherwise data content is returned.
 
-Description
+## Description
 
 Performs an AJAX call. Please refer to [httpRequest()](../../../client-api/soap-restful-ajax-calls/httprequest) in the client API for full documentation.
 
-If you need to get access to returned Header data and response codes, then please use [ssj.httpRequestAdv()](httprequestadv)
+If you need to get access to returned Header data and response codes, then please use [ssj.httpRequestAdv()](httprequestadv.htm)
 
 [ssj.getLatestError()](../miscellaneous/getlatesterror) should be used if you want to get full error information where httpRequest() returns false.
 
-See Also:
+## See Also:
 
- - [ssj.httpRequestAdv()](httprequestadv)
+ - [ssj.httpRequestAdv()](httprequestadv.htm)
 
  - [ssj.getLatestError()](../miscellaneous/getlatesterror)
 

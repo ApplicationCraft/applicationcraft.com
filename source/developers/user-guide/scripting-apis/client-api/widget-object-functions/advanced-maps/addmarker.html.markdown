@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## addMarker (lat,long)
+**addMarker** (lat,long)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,17 +36,18 @@ Set to the longitude co-ordinate
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Where you add a new Marker to the map, along with optional mouse-over and mouse-click HTML for popup windows.
 
-## Example
+**Example**
 
-    app.w('googleMapsAdvanced').addMarker(37.45, -122.14);
+    app.w('googleMapsAdvanced').addMarker(37.45,@-122.14);
+     
+     
    
 
-## See Also:
+**See Also:**
 
  - [Markers and Popup Windows](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows)
 

@@ -6,15 +6,15 @@ full_width: true
 ---
 
 
-## instanceSetRelationship (forminstanceID, relationName, addLinks, removeLinks, cdbCallback, rdbCallback)
+**instanceSetRelationship** (forminstanceID, relationName, addLinks, removeLinks, cdbCallback, rdbCallback)
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -90,8 +90,7 @@ optional, this is called once the relationship has been successfully stored in t
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This defines and/or removes a relationship between the Application Instance as specified in instanceID and a single other instance or an array of other Instance IDs as specified in addLinks (if adding) and/or removeLinks (if deleting).
 
@@ -99,23 +98,23 @@ You are free to define or break multiple relationships with a single call by the
 
 If you want to only remove relationships, then you leave addLinks empty and just specify the removeLinks string or array.
 
-## Important : the instanceID specified in the first parameter must be an instance of the App that defines the Relationship that is referred to in the relationName parameter. This may not be the App where your code is running, so be sure to think about this.
+**Important** : the instanceID specified in the first parameter must be an instance of the App that defines the Relationship that is referred to in the relationName parameter. This may not be the App where your code is running, so be sure to think about this.
 
-Callback Functions
+## Callback Functions
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully reflected in the CDB (Core Database). rdbCallback is called once the data is fully reflected in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function.htm) page for details on these callback functions.
 
-See Also:
+## See Also:
 
- - [instanceNew()](instancenew)
+ - [instanceNew()](instancenew.htm)
 
- - [instanceCreate()](instancecreate)
+ - [instanceCreate()](instancecreate.htm)
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](instancesave.htm)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](instancedelete.htm)
 
 Related Video:
 

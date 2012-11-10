@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ Inserts a row into a Grid or Repeater Container
 <td width="21">
 </td>
 <td width="697">
-checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget()/index) has been displayed into a Repeater Container
+checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget/) has been displayed into a Repeater Container
 
 </td>
 </tr>
@@ -178,7 +178,6 @@ Calculates the total of a Grid column or a Widget across all rows of a Repeater
 </td>
 </tr>
 </table>
-
 Related Videos:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3rAyD-f30ic?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeater Container Overview  [5:04]

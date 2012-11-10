@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## mobileDial (number)
+**mobileDial** (number)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,23 +24,23 @@ enter the Telephone number to call (optional)
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This will invoke the devices dialler, and if optional number entered that will be pre populated.
 
 Label widgets, Image widget and Mobile Action button have a 'Link' property where you can also invoke the device dialler
 
-Example
+## Example
 
     app.mobileDial("07784355515");
+     
    
 
-See Also:
+## See Also:
 
- - [mobileEmail()](mobileemail)
+ - [mobileEmail()](mobileemail.htm)
 
- - [mobileSMS()](mobilesms)
+ - [mobileSMS()](mobilesms.htm)
 
  - [Label (Common)](../../../widget-properties-events/common/label)
 

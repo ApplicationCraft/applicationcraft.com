@@ -11,7 +11,7 @@ Widgets in this section will be deprecated in the near future. They are retained
 <table>
 <tr>
 <td width="190">
-## Widget
+**Widget**
 
 </td>
 <td width="13">
@@ -41,7 +41,7 @@ Submit Buttons
 <td width="13">
 </td>
 <td width="739">
-AC Native Data storage is deprecated. Instead we have introduced far superior data storage using any connection  database. See: [Server Side Data Storage](../data-storage/server-side-data-storage/index)
+AC Native Data storage is deprecated. Instead we have introduced far superior data storage using any connection  database. See: [Server Side Data Storage](../data-storage/server-side-data-storage/)
 
 </td>
 </tr>

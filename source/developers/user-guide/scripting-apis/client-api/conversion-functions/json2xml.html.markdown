@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## string OBJ2XML (object)
+string **OBJ2XML** (object)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -25,11 +25,11 @@ the Javascript object that should be converted into XML
 </tr>
 </table>
 
-Description
+## Description
 
 Converts the supplied Javascript object into to an XML string.
 
-See Also:
+## See Also:
 
- - [Data Conversion](index) Functions
+ - [Data Conversion]() Functions
 

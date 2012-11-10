@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-## obj getPhotoswipeObject ()
+obj **getPhotoswipeObject** ()
 
-Description
+## Description
 
 Allows you to get the complete Photoswipe object.
 
-Example
+## Example
 
-    app.w("Photoswipe").getPhotoswipeObject();
+    app.w("Photoswipe").getPhotoswipeObject();@@
    

@@ -8,13 +8,13 @@ full_width: true
 
 For sites and content oriented applications, you will need to work with text in two main ways. We recommend watching the [very short videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) on Layout and Design that show exactly how many key concepts work.
 
-Simple Text Titles and Labels
+## Simple Text Titles and Labels
 
 If you have a simple heading or line of text, then you select the Label widget from the toolbox on the left side of the designer and drag it onto your page. You can edit the text for the label directly in the Label property in the property bar on the right side.
 
 ![Label](/img/docs/label.png)
 
-Large Blocks of Text
+## Large Blocks of Text
 
 If you want to display paragraphs of text, then you use the same Label widget. However, you select the Editor property in the property bar rather than the Label property. This brings up a rich text editor.
 

@@ -8,7 +8,7 @@ full_width: true
 
 To close your account, hover over your user name to select Close Account.
 
-If you are a subscriber, you must first [Cancel](cancel-subscription) your subscription before you can close your account. This is to ensure that any payment information is also properly handled.
+If you are a subscriber, you must first [Cancel](cancel-subscription.htm) your subscription before you can close your account. This is to ensure that any payment information is also properly handled.
 
 ![CloseAc](/img/docs/closeac.png)
 

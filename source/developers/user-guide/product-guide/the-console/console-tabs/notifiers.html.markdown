@@ -18,7 +18,7 @@ Notifiers are used from client API functions. Currently, the [notify()](../../..
 
 ![notifiers](/img/docs/notifiers.zoom63.png)
 
-Email Notifier
+## Email Notifier
 
  - Notifier ID - this is the internal unique ID of the notifier. You will need this when referring to it from the [notify()](../../../scripting-apis/client-api/workflow-functions/notify) workflow function.
 
@@ -45,9 +45,9 @@ Allows you to enter an email address to test your settings
 </tr>
 </table>
 
-## See Also:
+**See Also:**
 
- - [Workflow](../../advanced-features/workflow/index)
+ - [Workflow](../../advanced-features/workflow/)
 
  - [Notifications](../../account-management/notifications)
 

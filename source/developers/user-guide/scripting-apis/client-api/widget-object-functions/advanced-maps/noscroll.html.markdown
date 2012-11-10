@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## noScroll (value)
+**noScroll** (value)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,14 +24,15 @@ the value to set: true to disable scrolling/false to enable
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 How you can enable/disable map scrolling
 
-## Example
+**Example**
 
-    app.w('googleMapsAdvanced').noScroll(true);        //disable scrolling/dragging
-    app.w('googleMapsAdvanced').noScroll(false);        //enable scrolling/dragging
+     
+    app.w('googleMapsAdvanced').noScroll(true); @ @ @ @//disable@scrolling/dragging
+    app.w('googleMapsAdvanced').noScroll(false); @ @ @ @//enable@scrolling/dragging
+     
    
 

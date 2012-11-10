@@ -11,13 +11,13 @@ The navigator object contains information about the browser : [http://www.w3scho
 <table>
 <tr>
 <td width="219">
-## Property
+**Property**
 
 </td>
 <td width="26">
 </td>
 <td width="635">
-## Description
+**Description**
 
 </td>
 </tr>

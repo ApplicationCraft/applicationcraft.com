@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## object JSON2OBJ (jsonText)
+object **JSON2OBJ** (jsonText)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -25,11 +25,11 @@ the string to be converted into object format
 </tr>
 </table>
 
-Description
+## Description
 
-Converts a valid JSON text string into a Javascript object. It is useful for converting data that has been returned from a Web Service calls, for example, and that you then want to populate Widgets using the [populateWidget(](../widget-data-state-manipulation/populatewidget()/index) ) function.
+Converts a valid JSON text string into a Javascript object. It is useful for converting data that has been returned from a Web Service calls, for example, and that you then want to populate Widgets using the [populateWidget(](../widget-data-state-manipulation/populatewidget/) ) function.
 
-See Also:
+## See Also:
 
- - [Data Conversion](index) Functions
+ - [Data Conversion]() Functions
 

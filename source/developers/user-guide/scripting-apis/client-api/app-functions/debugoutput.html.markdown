@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## debugOutput (objStringVar)
+**debugOutput** (objStringVar)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -25,23 +25,23 @@ Any string, Javascript object or variable to display in the debug console
 </tr>
 </table>
 
-Description
+## Description
 
 This displays a debug message to the Debug Console Window of your Chrome, Firebug or Safari debugger. You can output anything at all which makes for a great way to see the structure and contents of a Javascript object as well as simple strings or variables.
 
-Example
+## Example
 
-    app.debugOutput('My Message'); // Writes a simple string
-    app.debugOutput(obj);  // Or view a Javascript object as a JSON string
+    app.debugOutput('My@Message');@//@Writes@a@simple@string
+    app.debugOutput(obj);@@//@Or@view@a@Javascript@object@as@a@JSON@string
    
 
-See Also:
+## See Also:
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugValues()](debugvalues)
+ - [debugValues()](debugvalues.htm)
 
- - [debugData()](debugdata)
+ - [debugData()](debugdata.htm)
 
- - [debugProperties()](debugproperties)
+ - [debugProperties()](debugproperties.htm)
 

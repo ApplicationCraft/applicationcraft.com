@@ -12,11 +12,11 @@ Account Variables allow you to configure system and user level parameters as wel
 
 This is accessible only to those Users who have been granted Account rights within the User or Group section.
 
-## In This Section:
+**In This Section:**
 
-[User Parameters](user-parameters/index)
+[User Parameters](user-parameters/)
 
-[SMTP Parameters](smtp-parameters/index)
+[SMTP Parameters](smtp-parameters/)
 
 [PhoneGap Parameters](phonegap-parameters)
 

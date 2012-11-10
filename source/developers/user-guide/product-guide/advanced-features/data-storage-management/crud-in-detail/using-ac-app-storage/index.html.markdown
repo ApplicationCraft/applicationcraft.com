@@ -8,11 +8,11 @@ full_width: true
 
 IMPORTANT
 
-## WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/index)
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/)**
 
-## WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.
+**WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-## CRUD is a very important concept to master as it allows more complex, relational Apps to be built. The CRUD functions operate on both local and foreign data
+**CRUD** is a very important concept to master as it allows more complex, relational Apps to be built. The CRUD functions operate on both local and foreign data
 
  - Local Data - Widgets in 'this' App that are set to store data in database
 
@@ -30,7 +30,7 @@ These are the available CRUD operations
 
 To understand how this works, we will use a simple App that shows all of these features in action.
 
-## In This Section:
+**In This Section:**
 
  - [CRUD on Local Instances](crud-on-local-instances)
 
@@ -46,5 +46,5 @@ To understand how this works, we will use a simple App that shows all of these f
 
  - [JOINed App Queries](joined-app-queries)
 
- - [CRUD & Filtering](crud--filtering)
+ - [CRUD & Filtering](crud-filtering)
 

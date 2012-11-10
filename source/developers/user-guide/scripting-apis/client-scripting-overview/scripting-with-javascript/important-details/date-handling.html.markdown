@@ -16,7 +16,7 @@ Working with Dates is rarely pain-free in any development environment. We have t
 
  - When Instance data is loaded into a Date Picker Widget, it is automatically stored internally as a javascript date object.
 
-Regular Date Picking and Date Range Picking
+## Regular Date Picking and Date Range Picking
 
 In most cases, you will want to select a single date. However, you can also set the 'Range' property of the Date Picker Widget to allow 2 clicks to be made in the Date Picker, which set the start and end of the range respectively.
 
@@ -24,11 +24,11 @@ Regular dates represent their data internally as a single date object. The app.g
 
 single date object or an array of two date objects if 'Range' is true.
 
-Date Filtering
+## Date Filtering
 
 If you want to set a date filter on a data view, then you should build your filter expression by converting the date object into a string using the [app.DATE2DB()](../../../client-api/conversion-functions/date2db) function. Application Craft will then perform the necessary conversion to ensure it is correctly converted so it can filter at the database level. Refer to the [Filters](../../../client-api/data-view-functions/modifying-data-widgets-with-scripts/filters) page to find out more about filtering.
 
-See Also:
+## See Also:
 
  - [Getting and Setting Date Widget Values](../widget-reading-writing/widget-values-reading-writing-user-entered-data/dates)
 
@@ -36,5 +36,5 @@ See Also:
 
  - [Filtering (Dates)](../../../client-api/data-view-functions/modifying-data-widgets-with-scripts/filters)
 
- - [Date & Time Management Functions](../../../client-api/date-time-management-functions/index)
+ - [Date & Time Management Functions](../../../client-api/date-time-management-functions/)
 

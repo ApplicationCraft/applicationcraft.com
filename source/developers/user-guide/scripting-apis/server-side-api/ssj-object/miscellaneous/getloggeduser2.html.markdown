@@ -6,22 +6,23 @@ full_width: true
 ---
 
 
-## {object} getLoggedUser()
+{object} **getLoggedUser()**
 
-Return Value
+## Return Value
 
-Returns an object containing information about the currently logged in user.
+## Returns an object containing information about the currently logged in user.
 
-Description
+## Description
 
 This function is generally only used in rare circumstances and should be avoided for most applications.
 
 The returned object has the following format.
 
     {
-    id:'user id',
-    name: 'user name',
-    type: 'user type
+        id:'user id',
+        name: 'user name',
+        type: 'user type
     }
+     
    
 

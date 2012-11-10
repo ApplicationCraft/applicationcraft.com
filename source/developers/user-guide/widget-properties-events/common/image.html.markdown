@@ -11,7 +11,7 @@ The Image displays an Image that is stored within the [Resources](../../product-
 <table>
 <tr>
 <td width="148">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="30">
@@ -101,7 +101,7 @@ Select to set the page to jump to when Image is clicked
 </tr>
 <tr>
 <td width="148">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 <td width="30">
@@ -159,7 +159,7 @@ See [App Properties](../app-properties#mandatory) Mandatory settings where you c
 <table>
 <tr>
 <td width="160">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="19">
@@ -275,7 +275,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="31">
@@ -343,7 +343,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="31">
@@ -371,7 +371,7 @@ Fields
 <td width="31">
 </td>
 <td width="763">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -469,7 +469,7 @@ Set to true to automatically fetch data from assigned view.
 </tr>
 <tr>
 <td width="148">
-## <a id="imagemap"> </a> Image Map
+<a id="imagemap"> </a> **Image Map**
 
 </td>
 <td width="31">
@@ -621,7 +621,7 @@ true/false.
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="31">
@@ -721,7 +721,7 @@ Custom CSS Classes
 <td width="31">
 </td>
 <td width="763">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -742,7 +742,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -898,9 +898,9 @@ On Area Mouse Leave
 </tr>
 </table>
 
-See Also:
+## See Also:
 
- - [Image Maps and Emoticons](../../product-guide/advanced-important-widgets/image-maps-and-emoticons/index)
+ - [Image Maps and Emoticons](../../product-guide/advanced-important-widgets/image-maps-and-emoticons/)
 
  - [Sliders](../advanced/sliders#general)
 

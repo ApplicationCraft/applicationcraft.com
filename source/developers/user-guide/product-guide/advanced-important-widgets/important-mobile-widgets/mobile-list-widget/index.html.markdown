@@ -10,7 +10,7 @@ The Mobile List Widget is a very powerful and versatile widget. It can be used t
 
 If you are building hybrid Mobile and Desktop Apps or content, then this really is a widget to use. The only caveat is that although it works in IE 6, 7 and 8 it is not a joy to behold. Where you see rounded corners and subtle gradients in other browsers, you will see square boxes with about the same color as otherwise but without any gradient effect.
 
-Mobile List Properties
+## Mobile List Properties
 
 Here are several interesting style properties
 
@@ -40,7 +40,7 @@ Here are several interesting style properties
 
  - Count Theme - the color theme to use for the count bubble
 
-Some Examples
+## Some Examples
 
 <table>
 <tr>

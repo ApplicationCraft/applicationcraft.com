@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## deleteUser (userId, optional checkOwnerRights)
+**deleteUser** (userId, optional checkOwnerRights)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -31,19 +31,19 @@ The ID of the User to delete
 <td width="15">
 </td>
 <td width="682">
-[click here](checkowneruserrights-parameter) to see the checkOwnerRights description
+[click here](checkowneruserrights-parameter.htm) to see the checkOwnerRights description
 
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Deletes the user with the specified User ID. If there is an error due to permissions, then an exception is thrown.
 
+     
    
 
-See Also:
+## See Also:
 
  - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
 

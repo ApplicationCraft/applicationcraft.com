@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <th style="vertical-align:top; width:147px; background-color:#ffffff;">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </th>
 <th style="vertical-align:top; width:47px; background-color:#ffffff;">
@@ -99,7 +99,7 @@ Specify the default date highlighted
 </tr>
 <tr>
 <td width="147">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="47">
@@ -167,7 +167,7 @@ A number that indicates the imaginary layer that the Widget is in. If you imagin
 <table>
 <tr>
 <td width="144">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="53">
@@ -223,7 +223,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="48">
@@ -251,7 +251,7 @@ Fields
 <td width="48">
 </td>
 <td width="746">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -355,7 +355,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <th style="vertical-align:top; width:174px; background-color:#ffffff;">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </th>
 <th style="vertical-align:top; width:20px; background-color:#ffffff;">

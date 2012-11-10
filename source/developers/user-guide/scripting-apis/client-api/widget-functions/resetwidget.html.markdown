@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## resetWidget (optional widget, optional useDefaults, optional restoreContent)
+**resetWidget** (optional widget, optional useDefaults, optional restoreContent)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,21 +48,20 @@ Applies only to Grids and Repeater Containers. If true, then the original conten
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 This removes all selection data for the specified Widget. Text, number, date and other simple fields will be emptied. Grids, Lists, Dropdowns, Repeater Containers and other complex objects will keep their content but selections will be removed unless restoreContent is set to true, in which case they will be reset.
 
 The useDefaults parameter should be set to true if you do not want to clear label content.
 
-## Example
+**Example**
 
-    app.resetWidget(['mlCountries','mlLogs'],true,true); // reset 2 mobile lists to the default settings
+    app.resetWidget(['mlCountries','mlLogs'],true,true);@//@reset@2@mobile@lists@to@the@default@settings
    
 
-See Also:
+## See Also:
 
- - [emptyWidget()](emptywidget)
+ - [emptyWidget()](emptywidget.htm)
 
 Related Videos:
 

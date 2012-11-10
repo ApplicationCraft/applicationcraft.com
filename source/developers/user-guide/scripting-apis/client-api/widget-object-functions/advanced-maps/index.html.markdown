@@ -8,9 +8,9 @@ full_width: true
 
 The Advanced Map widget is a very powerful widget that incorporates much of the Google V3 Maps API. It makes the mapping process very easy to learn and use.
 
-Please refer to the [Google V3 Maps Widget](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/index) chapter for a thorough introduction and explanation.
+Please refer to the [Google V3 Maps Widget](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/) chapter for a thorough introduction and explanation.
 
-## In This Section:
+**In This Section:**
 
 <table>
 <tr>

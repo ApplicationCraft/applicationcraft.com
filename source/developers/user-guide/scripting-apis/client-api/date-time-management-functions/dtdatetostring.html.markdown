@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-dtDateToString (dObj, formatBasic, formatMask);
+## dtDateToString (dObj, formatBasic, formatMask);
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -48,8 +48,7 @@ The mask to apply to the resultant string. See below
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Converts a date object to a string in the specified time zone as indicated by formatBasic and formats the actual string as specified by formatMask.
 
@@ -58,21 +57,21 @@ where formatBasic can be:
 <table>
 <tr>
 <td width="133">
-## Locale Based
+**Locale Based**
 
 </td>
 <td width="20">
 
 </td>
 <td width="127">
-## RTZ Based
+**RTZ Based**
 
 </td>
 <td width="14">
 
 </td>
 <td width="130">
-## UTC Based
+**UTC Based**
 
 </td>
 </tr>
@@ -162,29 +161,31 @@ and where formatMask is any combination of the following string parameters
 
 for example 'DOW, Month D Y TZ'
 
-Example
+## Example
 
-    dstr1=app.dtNewDate('locale');
-    fMask = "DOW Y-M-D HH:MM:SS";
-    locale = app.dtDateToString(dstr1, 'localeDateTime', fMask);
-    app.setValue('text1',locale);  // returns: Thu 2011-07-14 13:09:02
+             dstr1=app.dtNewDate('locale');
+                fMask = "DOW Y-M-D HH:MM:SS";
+                locale = app.dtDateToString(dstr1, 'localeDateTime', fMask);
+                app.setValue('text1',locale);  // returns: Thu 2011-07-14 13:09:02
+        
     dstr2=app.dtNewDate('utc');
-    fMask1 = "DOW D - Month M - Y";
-    utc = app.dtDateToString(dstr2, 'UTCDateTime', fMask1);
-    app.setValue('text2',utc);  // returns: Thu 14 - Jul 07 - 2011
+                fMask1 = "DOW D - Month M - Y";
+                utc = app.dtDateToString(dstr2, 'UTCDateTime', fMask1);
+                app.setValue('text2',utc);  // returns: Thu 14 - Jul 07 - 2011
+     
     dstr3=app.dtNewDate('rtz');
-    fMask2 = "HH-MM-SS";
-    rtz = app.dtDateToString(dstr3, 'RTZDateTime', fMask2);
-    app.setValue('text3',rtz);  // returns: 13-09-02
+                fMask2 = "HH-MM-SS";
+                rtz = app.dtDateToString(dstr3, 'RTZDateTime', fMask2);
+                app.setValue('text3',rtz);  // returns: 13-09-02
    
 
-See Also:
+## See Also:
 
- - [dtNewDate()](dtnewdate)
+ - [dtNewDate()](dtnewdate.htm)
 
- - [dtadd()](dtadd)
+ - [dtadd()](dtadd.htm)
 
- - [dtDifference()](dtdifference)
+ - [dtDifference()](dtdifference.htm)
 
- - [dtAdjust()](dtadjust)
+ - [dtAdjust()](dtadjust.htm)
 

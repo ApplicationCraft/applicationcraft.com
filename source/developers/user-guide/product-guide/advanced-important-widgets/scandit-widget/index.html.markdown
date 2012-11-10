@@ -12,7 +12,7 @@ This widget allows you to implement scanning in your native apps in conjunction 
 
 The Scandit barcode scanner offers the most accurate recognition when faced with real-world challenges.
 
-## Configure your Scandit widget properties
+**Configure your Scandit widget properties**
 
 ![Scandit](/img/docs/scandit.zoom83.png)
 
@@ -26,7 +26,7 @@ The Scandit barcode scanner offers the most accurate recognition when faced with
 
  - whether to allow regular 1D codes (normal barcodes) and/or 2D barcodes (QR and other codes)
 
-## Customize your AC Events
+**Customize your AC Events**
 
  - onSuccess - a barcode was successfully read and you are passed the type of barcode as parameter 1 and the actual barcode value in parameter 2; you would normally then display this value in a field elsewhere in your App.
 
@@ -34,11 +34,11 @@ The Scandit barcode scanner offers the most accurate recognition when faced with
 
  - onFail - usually called when the user presses ‘Cancel’ in the scanning window
 
-## Build your app:
+**Build your app:**
 
 With most Application Craft Apps, you can now simply run your App directly from the IDE. However, because the Scandit component is a binary component that is not part of HTML5, we need to build a Phonegap/Cordova App.
 
-Enable the [Scandit Free](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free) plugin from the App Property: [AC Build Plugins](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/index) and build your Native app using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/index) .
+Enable the [Scandit Free](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free) plugin from the App Property: [AC Build Plugins](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/) and build your Native app using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/) .
 
 Related Video:
 

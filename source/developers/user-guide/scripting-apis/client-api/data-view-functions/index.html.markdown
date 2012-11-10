@@ -8,11 +8,11 @@ full_width: true
 
 These functions allow you to interact with Data Views from your scripts.
 
-## In This Section:
+**In This Section:**
 
 [Data View Related Events](data-view-related-events)
 
-[Modifying Data Widgets with Scripts](modifying-data-widgets-with-scripts/index)
+[Modifying Data Widgets with Scripts](modifying-data-widgets-with-scripts/)
 
 <table>
 <tr>
@@ -124,7 +124,6 @@ This function allows you to define callback functions when data is about to be o
 </td>
 </tr>
 </table>
-
 Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/4FXN_AsiiMs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating Chart Widgets [5:04]

@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-Here you will see a list of all your outstanding [Workflow](../advanced-features/workflow/index) notifications.
+Here you will see a list of all your outstanding [Workflow](../advanced-features/workflow/) notifications.
 
 ![notifiers1](/img/docs/notifiers1.zoom67.png)
 
-## See Also:
+**See Also:**
 
- - [Workflow](../advanced-features/workflow/index)
+ - [Workflow](../advanced-features/workflow/)
 
  - [Viewing Notifications in the Console](../advanced-features/workflow/viewing-your-notifications)
 

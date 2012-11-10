@@ -16,7 +16,7 @@ If you have a Dedicated Authentication App Strategy (as discussed in the previou
 
  - the Application property 'Login Form' points to the Signin App for all Apps except the authentication App
 
-App Permissions
+## App Permissions
 
 When you set the 'User Access' property to 'Authenticated Users', Application Craft will automatically remove Everyone and set Authenticated Users in the Application Permissions section of the Console.
 
@@ -24,7 +24,7 @@ You can also manually set the permissions by selecting the App in the Console an
 
 ![permissions-authenticated-users](/img/docs/permissions-authenticated-users.zoom50.png)
 
-Application Settings
+## Application Settings
 
 To correctly set up the Apps that require authentication before they are accessed, open the App in the designer and then press the Application Properties button at the top of the properties column. You will find the User Access and Login Form properties near the top of the property bar.
 

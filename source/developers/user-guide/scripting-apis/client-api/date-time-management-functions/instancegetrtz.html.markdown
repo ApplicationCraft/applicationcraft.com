@@ -6,18 +6,19 @@ full_width: true
 ---
 
 
-instanceGetRTZ()
+## instanceGetRTZ()
 
-Description
+## Description
 
-Returns the RTZ (Reference Time  Zone) set from app. [instanceSetRTZ()](instancesetrtz) . If instanceSetRTZ() hasn't been set, it will return (in minutes) the difference from your time zone to UTC.
+Returns the RTZ (Reference Time  Zone) set from app. [instanceSetRTZ()](instancesetrtz.htm) . If instanceSetRTZ() hasn't been set, it will return (in minutes) the difference from your time zone to UTC.
 
-Example
+## Example
 
-    app.setValue('txtGetRTZ',app.instanceGetRTZ()); // will return the RTZ if set
+    app.setValue('txtGetRTZ',app.instanceGetRTZ());@//@will@return@the@RTZ@if@set
+     
    
 
-See Also:
+## See Also:
 
- - [instanceSetRTZ()](instancesetrtz)
+ - [instanceSetRTZ()](instancesetrtz.htm)
 

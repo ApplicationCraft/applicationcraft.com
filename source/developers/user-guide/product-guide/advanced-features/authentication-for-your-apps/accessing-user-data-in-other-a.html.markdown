@@ -10,7 +10,7 @@ Assuming you have a dedicated App for handling authentication, any other Apps th
 
 There are two main ways to get access to user data.
 
-Accessing Standard User Data
+## Accessing Standard User Data
 
 Application Craft automatically loads standard user information once the Signin process is completed. The user related fields available are
 
@@ -20,7 +20,7 @@ Application Craft automatically loads standard user information once the Signin 
 
  - [User.Name] - this is the Full Name of the authenticated user
 
- - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../the-console/console-tabs/more/account-variables/user-parameters/index) .
+ - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../the-console/console-tabs/more/account-variables/user-parameters/) .
 
 You would normally access this data in one of two ways
 
@@ -28,7 +28,7 @@ You would normally access this data in one of two ways
 
  - From the Expression Editor
 
-Global Data Store
+## Global Data Store
 
 A nice way of passing data between Apps is to use the Global Data Store. The Global Data Store is a temporary place to store any data you like that exists as long as the browser is open. As soon as the browser is closed, all information will be lost.
 
@@ -36,9 +36,9 @@ You would use this strategy if you have certain important user specific settings
 
 This strategy is described in more detail in the 'Adding a Settings Page' topic.
 
-Accessing User Parameters
+## Accessing User Parameters
 
-Application Craft also provides a way of creating customized parameter groups for users ( [User Parameter Groups](../../the-console/console-tabs/more/account-variables/user-parameters/index) ). This allows you to effectively create any additional parameters your application may require. Our Tutorial App actually uses this approach as described earlier in the [Adding a Settings Page](adding-a-settings-page) chapter.
+Application Craft also provides a way of creating customized parameter groups for users ( [User Parameter Groups](../../the-console/console-tabs/more/account-variables/user-parameters/) ). This allows you to effectively create any additional parameters your application may require. Our Tutorial App actually uses this approach as described earlier in the [Adding a Settings Page](adding-a-settings-page.htm) chapter.
 
 To access a User Parameter, you use the [app.userParameterGet()](../../../scripting-apis/client-api/app-functions/userparameterget) function.
 

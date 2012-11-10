@@ -12,86 +12,84 @@ This can be added to any web site. Application Craft lets you integrate this int
 
 Here is the code that Twitter supplies
 
-    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script@src="http://widgets.twimg.com/j/2/widget.js"></script>
     <script>
-    new TWTR.Widget({
-    version: 2,
-    type: 'search',
-    search: 'rainbow',
-    interval: 30000,
-    title: 'It\'s a double rainbow',
-    subject: 'Across the sky',
-    width: 250,
-    height: 300,
-    theme: {
-    shell: {
-    background: '#8ec1da',
-    color: '#ffffff'
+    new@TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: 'rainbow',
+      interval: 30000,
+      title: 'It\'s a double rainbow',
+      subject: 'Across the sky',
+      width: 250,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#8ec1da',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#1985b5'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: true,
+        live: true,
+        hashtags: true,
+        timestamp: true,
+        avatars: true,
+        toptweets: true,
+        behavior: 'default'
+      }
+    }).render().start();
+    </script>@
+    <script@src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>@@
+    new@TWTR.Widget({
+    version:@2,
+    type:@'search',
+    search:@'[#Search@String#General#text#@appcrafty#]',
+    interval:@[#Interval#General#int#6000#],
+    title:@'[#Title#General#text#Twitter@Search#]',
+    subject:@'[#Subject#General#text#Subject#]',
+    width:@[#width#General#pixels#200#]-15,
+    height:@[#height#General#pixels#400#]-120,
+    theme:@{
+        shell: {
+         background: '[#Shell Bg#Style#color#8ec1da#true#]',
+         color: '[#Shell color#Style#color#ffffff#true#]'
+        },
+        tweets: {
+         background: '[#Tweets BG#Style#color#ffffff#true#]',
+         color: '[#Tweets color#Style#color#444444#true#]',
+         links: '[#links color#Style#color#1985b5#true#]'
+        }
     },
-    tweets: {
-    background: '#ffffff',
-    color: '#444444',
-    links: '#1985b5'
-    }
-    },
-    features: {
-    scrollbar: false,
-    loop: true,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: true,
-    toptweets: true,
-    behavior: 'default'
+    features:@{
+        scrollbar: [#Scrollbar#General#boolean#false#],
+        loop: [#Loop#General#boolean#false#],
+        live: [#Live#General#boolean#true#],
+        hashtags: [#Hashtags#General#boolean#true#],
+        timestamp: [#Timestamp#General#boolean#true#],
+        avatars: [#Avatars#General#boolean#false#],
+        toptweets: [#Toptweets#General#boolean#false#],
+        behavior: '[#Behavior#General#text#default#]'
     }
     }).render().start();
     </script>
-    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-    <script>
-    new TWTR.Widget({
-    version: 2,
-    type: 'search',
-    search: '[#Search String#General#text#@appcrafty#]',
-    interval: [#Interval#General#int#6000#],
-    title: '[#Title#General#text#Twitter Search#]',
-    subject: '[#Subject#General#text#Subject#]',
-    width: [#width#General#pixels#200#]-15,
-    height: [#height#General#pixels#400#]-120,
-    theme: {
-    shell: {
-    background: '[#Shell Bg#Style#color#8ec1da#true#]',
-    color: '[#Shell color#Style#color#ffffff#true#]'
-    },
-    tweets: {
-    background: '[#Tweets BG#Style#color#ffffff#true#]',
-    color: '[#Tweets color#Style#color#444444#true#]',
-    links: '[#links color#Style#color#1985b5#true#]'
-    }
-    },
-    features: {
-    scrollbar: [#Scrollbar#General#boolean#false#],
-    loop: [#Loop#General#boolean#false#],
-    live: [#Live#General#boolean#true#],
-    hashtags: [#Hashtags#General#boolean#true#],
-    timestamp: [#Timestamp#General#boolean#true#],
-    avatars: [#Avatars#General#boolean#false#],
-    toptweets: [#Toptweets#General#boolean#false#],
-    behavior: '[#Behavior#General#text#default#]'
-    }
-    }).render().start();
-    </script>
+    search: 'rainbow',
+    search:@'[#Search@String#General#text#@appcrafty#]'
+    #AC property name#AC property section#data type#default value#]
    
 
 Below is the same code once it has been modified and is ready to paste into the Application Craft Console.
 
-Token Setup
+## Token Setup
 
 Let's look at the following line taken from the original Twitter code
-
-    search: 'rainbow',
-    search: '[#Search String#General#text#@appcrafty#]'
-    #AC property name#AC property section#data type#default value#]
-   
 
 and the same line taken from the modified code
 
@@ -101,7 +99,7 @@ You then remove the precise portion of the code that you want parameterized and 
 
 [
 
-Adding it to the Console
+## Adding it to the Console
 
 To add your widget to the Console, follow these steps
 

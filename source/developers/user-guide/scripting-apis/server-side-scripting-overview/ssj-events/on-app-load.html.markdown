@@ -8,7 +8,7 @@ full_width: true
 
 Contains all information about the App being accessed.
 
-    function handler_server_onAppLoad(user, id, name, customUrl, longUrl, shortUrl){
+    function@handler_server_onAppLoad(user,@id,@name,@customUrl,@longUrl,@shortUrl){
     }
    
 

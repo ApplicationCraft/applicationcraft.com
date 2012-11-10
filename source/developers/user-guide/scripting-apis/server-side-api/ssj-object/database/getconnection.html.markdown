@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## objConnection getConnection (strConnectionID)
+objConnection **getConnection** (strConnectionID)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -24,8 +24,7 @@ the Connection ID of the Connection as found in the AC Console
 </td>
 </tr>
 </table>
-
-Returns
+## Returns
 
 <table>
 <tr>
@@ -41,17 +40,17 @@ the Connection object that is used in subsequent database operations
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Before you can use any database methods, you first need to get a valid Connection object. To find the Connection ID, locate the Connection in the AC Console and then copy and paste the ID from the right hand pane.
 
-Example
+## Example
 
-    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    selectObj = cObj.select().from('customers').order('companyName');
-    result = cObj.exec(selectObj);
+    cObj@=@ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    selectObj@=@cObj.select().from('customers').order('companyName');
+    result@=@cObj.exec(selectObj);
     return(result);
+     
    
 
 Related Video:
@@ -62,4 +61,5 @@ Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/qY9M8bP9b70?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Coding up client/server side javascript calls [7:24]
 
+     
    

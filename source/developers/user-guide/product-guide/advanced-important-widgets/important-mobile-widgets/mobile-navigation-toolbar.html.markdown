@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This is used as a way of navigating around an App or for triggering other actions. In most cases, you will want to place this widget in a [Mobile Toolbar](mobile-toolbar) widget, which can be fixed in position to the bottom or top of the screen.
+This is used as a way of navigating around an App or for triggering other actions. In most cases, you will want to place this widget in a [Mobile Toolbar](mobile-toolbar.htm) widget, which can be fixed in position to the bottom or top of the screen.
 
 You should also be aware of the [Repeat](../../content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) property which allows you to repeat your Toolbars and Navigation Bars across multiple App pages.
 
@@ -34,7 +34,7 @@ You add items to the Navbar using the Items property in the toolbar. When you cl
 
 ![mob-navbar-items](/img/docs/mob-navbar-items.zoom83.png)
 
-This can also be populated dynamically from code using either [app.setData()](../../../scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/mobile-list) or [app.populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget()/index) .
+This can also be populated dynamically from code using either [app.setData()](../../../scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/mobile-list) or [app.populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) .
 
 Related Video:
 

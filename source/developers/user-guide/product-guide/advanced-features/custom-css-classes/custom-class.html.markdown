@@ -10,30 +10,33 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
 
 ![CustomClass.](/img/docs/customclass..zoom74.png)
 
-## Example CSS file
+**Example CSS file**
 
-.
+**.**
 
-    label {
-    border: 1px solid #fff;
-    text-shadow: none;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: none;
-    background: #e0e0e0;
-    border: none;
-    height: 26px;
-    -moz-border-radius: 29px;
-    -webkit-border-radius: 29px;
-    border-radius: 29px;
-    margin:10px;
-    padding: 6px 0px 0px 15px;
+    label@{
+        border: 1px solid #fff;
+        text-shadow: none;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: none;
+        background: #e0e0e0;
+        border: none;
+        height: 26px;
+        -moz-border-radius: 29px;
+        -webkit-border-radius: 29px;
+        border-radius: 29px;
+        margin:10px;
+        padding: 6px 0px 0px 15px;
     }
-    .txtSize .m-ui-input-text {
-    font-size :  26px !important;
-    font-family : Verdana;
+     
+    .txtSize@.m-ui-input-text@{
+    font-size@:@@26px@!important;
+    font-family@:@Verdana;
     }
+     
+     
    
 
 This will then customise the label widget as:

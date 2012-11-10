@@ -14,17 +14,17 @@ Columns are added to the Grid using the Columns property in the General section.
 
 ![Grid\_columns](/img/docs/grid_columns.zoom50.png)
 
-Setting Column Widths
+## Setting Column Widths
 
 In the main Grid properties, you can set the Column Width Type property to be pixels or %. If you select pixels, you can have a Grid with column widths that add up to be wider than the Grid's width. In this case, you will see a horizontal scrollbar. If you select %, then your columns will add up to be the exact width of the Grid.
 
-Auto Creating Columns and Data Bindings
+## Auto Creating Columns and Data Bindings
 
 If you are using a Grid to display data from a View, then you can automatically generate the columns names as well as the data bindings. First of all, set the Grid's View property to bind it to a View. Next, go to the Columns property to open the Grid Columns manager dialog, where you will find a button 'Generate from View'. This dialog will list all fields in the View that you want to appear in your Grid. Highlight these fields and press OK. You can then fine tune the column order, size and their properties as you require.
 
 Note that the actual data bindings are located in the Fields property of the Data property section for the main Grid.
 
-Grid Drill Down Broadcast
+## Grid Drill Down Broadcast
 
 You may want to allow a Grid to drive a drill down process so a Respondent can click on a Grid row and see other Widgets that are bound to the same View drill down. To do this, you will need to use the Grid's 'Drill Filter' property. This will bring up the Expression Editor so you can supply the filter condition.
 
@@ -37,12 +37,12 @@ Where  {value}[0] is the 0-based column index of the Grid and {customers.countr
 
 You should also ensure the Broadcast property is set to True, so the Grid click event is broadcast to the View properly.
 
-Grid Properties
+## Grid Properties
 
 <table>
 <tr>
 <td width="159">
-## <a id="general"> </a> General
+<a id="general"> </a> **General**
 
 </td>
 <td width="9">
@@ -150,7 +150,7 @@ Controls which page is the first displayed
 </tr>
 <tr>
 <td width="159">
-## <a id="database"> </a> Database
+<a id="database"> </a> **Database**
 
 </td>
 <td width="9">
@@ -206,7 +206,7 @@ Where you can set the relationships to other apps (see [Relational Apps & Instan
 <table>
 <tr>
 <td width="159">
-## <a id="layout"> </a> Layout
+<a id="layout"> </a> **Layout**
 
 </td>
 <td width="10">
@@ -322,7 +322,7 @@ If set to True, this displays the Widget on either all pages except ones you spe
 </tr>
 <tr>
 <td width="158">
-## <a id="behavior"> </a> Behavior
+<a id="behavior"> </a> **Behavior**
 
 </td>
 <td width="11">
@@ -390,7 +390,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="148">
-## <a id="data"> </a> Data
+<a id="data"> </a> **Data**
 
 </td>
 <td width="15">
@@ -418,7 +418,7 @@ Fields
 <td width="15">
 </td>
 <td width="779">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/index) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -548,7 +548,7 @@ Set to map View fields. For use in writing data back out to connected database t
 <table>
 <tr>
 <td width="148">
-## <a id="style"> </a> Style
+<a id="style"> </a> **Style**
 
 </td>
 <td width="21">
@@ -708,7 +708,7 @@ Custom CSS Classes
 <td width="21">
 </td>
 <td width="773">
-## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/index)
+## Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -729,7 +729,7 @@ This refers to the [Theme entry](../../product-guide/content-and-app-layout/intr
 <table>
 <tr>
 <td width="148">
-## Supported Events:
+**Supported Events:**
 
 </td>
 <td width="15">
@@ -841,7 +841,7 @@ On Open End
 </tr>
 </table>
 
-See Also:
+## See Also:
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

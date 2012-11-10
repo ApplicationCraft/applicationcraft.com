@@ -18,11 +18,11 @@ The Table container is the most advanced of these as each cell within the table 
 
 There is not really any magic to a container or a container widget but the next sections are really important as they will ensure you can get nice device and device orientation independent displays.
 
-Nesting Containers
+## Nesting Containers
 
 You can quite happily drop one container widget within another one. This is know as 'nesting'. More complex designs are often achieved by nesting one container within another.
 
-Showing Container Outlines
+## Showing Container Outlines
 
 If you use nested containers, you may find it useful to show the container outlines clearly. To do this, you press the 'Outlines' button in the 'App' section of the top toolbar in the designer.
 

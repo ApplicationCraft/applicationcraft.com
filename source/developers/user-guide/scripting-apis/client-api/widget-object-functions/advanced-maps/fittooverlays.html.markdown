@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## fitToOverlays (fitMarkers, fitOverlays)
+**fitToOverlays** (fitMarkers, fitOverlays)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,13 +36,13 @@ true/false. select true to fit the map to overlays
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to fit the map to Markers and/or Overlays
 
-## Example
+**Example**
 
-    app.w('gma').fitToOverlays(true, false)
+     
+    app.w('gma').fitToOverlays(true,@false)
    
 

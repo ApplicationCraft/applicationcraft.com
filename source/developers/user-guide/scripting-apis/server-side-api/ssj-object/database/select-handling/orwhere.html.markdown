@@ -6,9 +6,9 @@ full_width: true
 ---
 
 
-## connectionObject.select().from().orWhere (strExpression, optional tokenValue)
+**connectionObject.select().from().orWhere** (strExpression, optional tokenValue)
 
-Parameters
+## Parameters
 
 <table>
 <tr>
@@ -36,10 +36,9 @@ if strExpression contains a token, then this contains the corresponding value
 </td>
 </tr>
 </table>
-
-Description
+## Description
 
 Allows you to specify a WHERE expression for your select that is ORed with the previous where() or orWhere() functions.
 
-Refer to the [where()](select-where) section for an example.
+Refer to the [where()](select-where.htm) section for an example.
 

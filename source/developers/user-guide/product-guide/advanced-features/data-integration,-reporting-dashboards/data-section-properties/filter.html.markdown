@@ -10,9 +10,9 @@ Using the Expression Builder you can specify a static filter that can be added t
 
 ![filter](/img/docs/filter.zoom84.png)
 
-Modifying the Filter from a Script
+## Modifying the Filter from a Script
 
-A script is able to modify a Filter that always applies to the Widget. Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/index) of the [Client API](../../../../scripting-apis/client-api/index) section for more information.
+A script is able to modify a Filter that always applies to the Widget. Please refer to the [Data Views chapter](../../../../scripting-apis/client-api/data-view-functions/) of the [Client API](../../../../scripting-apis/client-api/) section for more information.
 
 Related Video:
 
