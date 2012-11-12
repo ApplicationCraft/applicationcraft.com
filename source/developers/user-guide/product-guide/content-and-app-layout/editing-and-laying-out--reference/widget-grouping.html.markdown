@@ -14,7 +14,7 @@ You can group a number of Widgets by
 
 ## The Group Widget
 
-When you group a number of Widgets together, Application Craft creates a new Widget of type Group and the selected Widgets become children of that Group Widget. You can now change properties of the Group Widget. For [Radio Buttons](../../../widget-properties-events/common/radio-button) , you can then set 'Mandatory = true' so users have to make a selection before submitting the app. See [App Properties](../../../widget-properties-events/app-properties#mandatory)
+When you group a number of Widgets together, Application Craft creates a new Widget of type Group and the selected Widgets become children of that Group Widget. You can now change properties of the Group Widget. For [Radio Buttons](../../widget-properties-events/common/radio-button) , you can then set 'Mandatory = true' so users have to make a selection before submitting the app. See [App Properties](../../widget-properties-events/app-properties#mandatory)
 
 ## Effect on Data
 

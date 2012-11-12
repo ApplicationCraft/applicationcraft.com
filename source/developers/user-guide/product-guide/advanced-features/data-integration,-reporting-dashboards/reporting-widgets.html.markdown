@@ -14,31 +14,31 @@ These are fields that can hold a single data value. As such, they will be linked
 
  - [Group](../../content-and-app-layout/editing-and-laying-out--reference/widget-grouping)
 
- - [Radio Button](../../../widget-properties-events/common/radio-button)
+ - [Radio Button](../../widget-properties-events/common/radio-button)
 
- - [Checkbox](../../../widget-properties-events/common/checkbox)
+ - [Checkbox](../../widget-properties-events/common/checkbox)
 
- - [Label](../../../widget-properties-events/common/label)
+ - [Label](../../widget-properties-events/common/label)
 
- - [Text](../../../widget-properties-events/common/text)
+ - [Text](../../widget-properties-events/common/text)
 
- - [Text Area](../../../widget-properties-events/common/text-area)
+ - [Text Area](../../widget-properties-events/common/text-area)
 
- - [Numeric Text](../../../widget-properties-events/common/alpha-numeric)
+ - [Numeric Text](../../widget-properties-events/common/alpha-numeric)
 
- - [Image](../../../widget-properties-events/common/image)
+ - [Image](../../widget-properties-events/common/image)
 
- - [Date Picker](../../../widget-properties-events/common/date-picker)
+ - [Date Picker](../../widget-properties-events/common/date-picker)
 
- - [Mask Edit](../../../widget-properties-events/advanced/mask-edit)
+ - [Mask Edit](../../widget-properties-events/advanced/mask-edit)
 
- - [Sliders](../../../widget-properties-events/advanced/sliders)
+ - [Sliders](../../widget-properties-events/advanced/sliders)
 
 ## Dual Field Widgets
 
- - [Drop Down List](../../../widget-properties-events/common/dropdown-list)
+ - [Drop Down List](../../widget-properties-events/common/dropdown-list)
 
- - [Listbox](../../../widget-properties-events/common/listbox)
+ - [Listbox](../../widget-properties-events/common/listbox)
 
 These Widgets hold a pair of fields. The Item Label is what is displayed for each list item and the Item Value (which defaults to being the same as the Label) is a secondary value that can be used for setting filters or using in calculations.
 
@@ -48,7 +48,7 @@ Grids can display multiple fields of data over multiple rows. They are very wide
 
 ## Charts
 
-Application Craft offers a [Flot Charts](../../../widget-properties-events/advanced/flot-charts) . More advanced Charting widgets will be coming soon
+Application Craft offers a [Flot Charts](../../widget-properties-events/advanced/flot-charts) . More advanced Charting widgets will be coming soon
 
 ## Configuring Widgets
 

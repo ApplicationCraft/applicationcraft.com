@@ -46,7 +46,7 @@ This sends email specified as a message object.
 
  - To send HTML email, set isHTML to true.
 
- - Attachments that have been uploaded to the app using the [Upload Button](../../../../widget-properties-events/mobile/upload-button) or [File Upload](../../../../widget-properties-events/advanced/file-upload) can also be attached to the email referencing the URL of the uploaded file.
+ - Attachments that have been uploaded to the app using the [Upload Button](../../../../product-guide/widget-properties-events/mobile/upload-button) or [File Upload](../../../../product-guide/widget-properties-events/advanced/file-upload) can also be attached to the email referencing the URL of the uploaded file.
 
  - If there is an error of any sort, an exception will be thrown.
 

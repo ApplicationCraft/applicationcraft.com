@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can use [populateWidget()]() or [setData()](../setdata) to populate a [Flot Charts](../../../../widget-properties-events/advanced/flot-charts) widget.
+You can use [populateWidget()]() or [setData()](../setdata) to populate a [Flot Charts](../../../../product-guide/widget-properties-events/advanced/flot-charts) widget.
 
 ## Example
 

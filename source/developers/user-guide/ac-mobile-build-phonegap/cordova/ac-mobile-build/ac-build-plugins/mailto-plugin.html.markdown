@@ -212,13 +212,13 @@ chtitle
 
 'Link' property available with:
 
- - [Action Button (Mobile)](../../../../widget-properties-events/mobile/mobaction-button)
+ - [Action Button (Mobile)](../../../../product-guide/widget-properties-events/mobile/mobaction-button)
 
- - [Action Button (Common)](../../../../widget-properties-events/mobile/mobaction-button)
+ - [Action Button (Common)](../../../../product-guide/widget-properties-events/mobile/mobaction-button)
 
- - [Image](../../../../widget-properties-events/common/image)
+ - [Image](../../../../product-guide/widget-properties-events/common/image)
 
- - [Label (Common)](../../../../widget-properties-events/common/label)
+ - [Label (Common)](../../../../product-guide/widget-properties-events/common/label)
 
- - [Label (Mobile)](../../../../widget-properties-events/mobile/moblabel)
+ - [Label (Mobile)](../../../../product-guide/widget-properties-events/mobile/moblabel)
 

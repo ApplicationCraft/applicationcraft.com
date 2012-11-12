@@ -16,5 +16,5 @@ A useful feature is to be able to embed one App within another. This is very eas
 
  - [childApp()](../../../scripting-apis/client-api/app-functions/childapp)
 
- - [Embed App Widget](../../../widget-properties-events/advanced/embed-app)
+ - [Embed App Widget](../../widget-properties-events/advanced/embed-app)
 

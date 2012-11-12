@@ -50,7 +50,7 @@ You may want to use the [client side api functions to extract data](../../../cli
 
 ## Field Expressions
 
-If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../data-storage/server-side-data-storage/handling-sql-expressions) .
+If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
 
 ## Example
 
@@ -65,5 +65,5 @@ If any of your fields in the fieldsObject() contain a SQL function or arithmetic
 
  - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](../../../../product-guide/data-storage/server-side-data-storage/)
 

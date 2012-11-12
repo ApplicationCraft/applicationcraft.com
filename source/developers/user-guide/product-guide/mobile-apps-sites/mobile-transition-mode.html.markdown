@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This [Page Property](../../widget-properties-events/page-properties) can be used to help give a clear visual indication to users during Page navigation and transitions when there is a delay in the target page preparation.
+This [Page Property](../widget-properties-events/page-properties) can be used to help give a clear visual indication to users during Page navigation and transitions when there is a delay in the target page preparation.
 
 ![mobtransmode](/img/docs/mobtransmode.png)
 

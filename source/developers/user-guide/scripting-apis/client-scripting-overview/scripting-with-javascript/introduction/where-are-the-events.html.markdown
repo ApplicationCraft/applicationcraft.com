@@ -16,5 +16,5 @@ Each event can reference the object [\_widget](../../../client-api/objects-titbi
 
 ## See Also
 
- - [Events](../../../../widget-properties-events/events/)
+ - [Events](../../../../product-guide/widget-properties-events/events/)
 

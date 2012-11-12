@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The [Image](../../../widget-properties-events/common/image) widget in Application Craft has some very useful features.
+The [Image](../../widget-properties-events/common/image) widget in Application Craft has some very useful features.
 
 [Image Maps](image-maps) where you can define areas in your images, store these selections and/or carry out dynamic functions as users select the area(s). As users 'hover' over your defined areas they can be 'highlighted' and the caption for this area shown as well
 

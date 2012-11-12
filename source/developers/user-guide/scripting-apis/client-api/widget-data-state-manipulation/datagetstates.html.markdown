@@ -76,9 +76,9 @@ The following examples show different ways to get state information into an obje
 
  - [dataSetStates()](datasetstates)
 
- - [Server Side Data Storage](../../../data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](../../../product-guide/data-storage/server-side-data-storage/)
 
- - [SSJ database functions](../../../data-storage/server-side-data-storage/)
+ - [SSJ database functions](../../../product-guide/data-storage/server-side-data-storage/)
 
  - [Instance Data Functions](../instance-data-functions/)
 

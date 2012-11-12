@@ -171,7 +171,7 @@ This is a powerful and easy way of populating many Widgets including Grid, Repea
 </tr>
 </table>
 
-If you are working with [Server Side Javascripting](../../server-side-scripting-overview/) (SSJ) and you want to store widget data in [server side databases](../../../data-storage/server-side-data-storage/) , then the [dataGetValues()](datagetvalues) , [dataGetStates()](datagetstates) , [dataSetValues()](datasetvalues) , [dataSetStates()](datasetstates) functions can be very useful.
+If you are working with [Server Side Javascripting](../../server-side-scripting-overview/) (SSJ) and you want to store widget data in [server side databases](../../../product-guide/data-storage/server-side-data-storage/) , then the [dataGetValues()](datagetvalues) , [dataGetStates()](datagetstates) , [dataSetValues()](datasetvalues) , [dataSetStates()](datasetstates) functions can be very useful.
 
 These functions are used to extract Widget Values and Widget States from your App into simple object structures that can be passed to SSJ functions (often SSJ Database functions) or any other external systems.
 

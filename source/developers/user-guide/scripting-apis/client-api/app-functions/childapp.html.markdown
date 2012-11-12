@@ -50,5 +50,5 @@ A typical example would be to include an App as a cross-app menu bar. It can be 
 
  - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/)
 
- - [Embed App Widget](../../../widget-properties-events/advanced/embed-app)
+ - [Embed App Widget](../../../product-guide/widget-properties-events/advanced/embed-app)
 

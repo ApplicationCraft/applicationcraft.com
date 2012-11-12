@@ -61,5 +61,5 @@ If you have complex conditions then simply build your strings using quote() or q
 
  - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](../../../../product-guide/data-storage/server-side-data-storage/)
 

@@ -18,13 +18,13 @@ In your App, [create a View](../../../data-integration,-reporting-dashboards/dat
 
 ## Map your Widget(s) to the View
 
-In your App you will usually have a Panel Container Widget that contains individual Widgets that will interact with the external database. Map this [Panel Container](../../../../../widget-properties-events/containers/panel) to point to the View and, in the Fields property of the Panel Container, map any Widgets to the View fields that need to be mapped. You can also use Grids or Repeater Containers with CRUD operations.
+In your App you will usually have a Panel Container Widget that contains individual Widgets that will interact with the external database. Map this [Panel Container](../../../../widget-properties-events/containers/panel) to point to the View and, in the Fields property of the Panel Container, map any Widgets to the View fields that need to be mapped. You can also use Grids or Repeater Containers with CRUD operations.
 
 ![Crud-map-external](/img/docs/crud-map-external.zoom57.png)
 
 **Set your 'Key Fields' to the View**
 
-Map this [Panel Container](../../../../../widget-properties-events/containers/panel) to point to the View and, in the Key Fields property of the Panel Container, select all the database fields that are mapped to the container widgets.
+Map this [Panel Container](../../../../widget-properties-events/containers/panel) to point to the View and, in the Key Fields property of the Panel Container, select all the database fields that are mapped to the container widgets.
 
 ![Crud-keyfields-external](/img/docs/crud-keyfields-external.zoom57.png)
 

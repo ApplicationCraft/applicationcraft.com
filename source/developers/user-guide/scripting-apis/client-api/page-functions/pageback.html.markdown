@@ -63,5 +63,5 @@ You can also specify page transitions using the optional parameters. This offers
 
  - [closePagePopup()](closepagepopup)
 
- - [Back Button Pressed event](../../../widget-properties-events/events/event-reference-list/mobile-native-app-events)
+ - [Back Button Pressed event](../../../product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 

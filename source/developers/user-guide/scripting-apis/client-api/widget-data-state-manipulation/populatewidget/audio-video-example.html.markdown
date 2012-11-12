@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can use populateWidget() or setData() to overwrite the 'Source' property of a [HTML5 Video](../../../../widget-properties-events/advanced/html5-video) widget.
+You can use populateWidget() or setData() to overwrite the 'Source' property of a [HTML5 Video](../../../../product-guide/widget-properties-events/advanced/html5-video) widget.
 
 ## Example
 

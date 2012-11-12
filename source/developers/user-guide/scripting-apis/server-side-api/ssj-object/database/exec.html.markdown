@@ -68,7 +68,7 @@ The following code would call this stored procedure from an SSJ script
 
  - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](../../../../product-guide/data-storage/server-side-data-storage/)
 
 Related Video:
 

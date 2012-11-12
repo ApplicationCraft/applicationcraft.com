@@ -22,5 +22,7 @@ You will find some functions with direct equivalents on the server such as getVi
 
  - [Data Preparation](data-preparation)
 
+ - [oAuth](oauth/)
+
  - [Miscellaneous](miscellaneous/)
 

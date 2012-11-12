@@ -148,7 +148,7 @@ There are two ways to pass parameters between Apps.
 
 ## Important
 
-If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](../../../widget-properties-events/app-properties)
+If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](../../../product-guide/widget-properties-events/app-properties)
 
 ## See Also
 
@@ -158,7 +158,7 @@ If you are using switchApp() in Mobile Native apps, you must define the 'child' 
 
  - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/)
 
- - [Embed App Widget](../../../widget-properties-events/advanced/embed-app)
+ - [Embed App Widget](../../../product-guide/widget-properties-events/advanced/embed-app)
 
  - [Global Data Pool](../global-data-pool-functions/)
 

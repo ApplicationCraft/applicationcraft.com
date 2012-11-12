@@ -131,6 +131,18 @@ These calls allow a very easy way of making Web Service calls. You can control a
 </tr>
 <tr>
 <td width="194">
+[oAuth](oauth/)
+
+</td>
+<td width="20">
+</td>
+<td width="666">
+Client side functions to initiate oAuth
+
+</td>
+</tr>
+<tr>
+<td width="194">
 [Multi Language Apps](multi-language-apps/)
 
 </td>

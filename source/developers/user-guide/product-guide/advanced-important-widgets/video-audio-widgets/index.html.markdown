@@ -18,5 +18,5 @@ Each of these Widgets come with [Properties](property,-methods,-event-summary/pr
 
 Please note that Android 2.3.x is not able to support HTML5 Video.  You may wish to implement detection of the OS on the users device to give Android 2.3.x users an alternative method to access the Video
 
-Also available is a  widget that can be used to play YouTube videos in Apps. The [Methods](property,-methods,-event-summary/vidmethods) for Video/Audio widgets also apply to the [YouTube](../../../widget-properties-events/advanced/youtube) widget. If you are planning to compile your app to use on iOS, you will need  to set the [PhoneGap App Options](../../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features) 'Open all links in WebView' to true.
+Also available is a  widget that can be used to play YouTube videos in Apps. The [Methods](property,-methods,-event-summary/vidmethods) for Video/Audio widgets also apply to the [YouTube](../../widget-properties-events/advanced/youtube) widget. If you are planning to compile your app to use on iOS, you will need  to set the [PhoneGap App Options](../../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features) 'Open all links in WebView' to true.
 
