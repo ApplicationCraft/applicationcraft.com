@@ -1,12 +1,35 @@
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/developers/training-videos">Videos</a></li>
+        <li class="active"><a href="/developers/docs">Documentation</a></li>
+        <li><a href="https://getsatisfaction.com/application_craft" target="_blank">Forum</a></li>
+        <li><a href="http://portal.applicationcraft.com" target="_blank">Bug Tracker</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
 <% wrap_layout :layout do %>
 
   <div class="container clearfix docs">
 
-    <h1><span>User Guide</span> <%= current_page.data.title %></h1>
+    <header>
+      <div id="breadcrumbs">
+        <ul>
+          <% breadcrumbs(2).each do |crumb| %>
+            <li><%= link_to crumb[:title], crumb[:url] %></li>
+          <% end %>
+          <li><%= current_page.data.title %></li>
+        </ul>
+      </div>
+    </header>
 
     <%= tree_for :guide %>
 
     <article>
+      <h2><%= current_page.data.title %></h2>
       <%= yield %>
     </article>
 
