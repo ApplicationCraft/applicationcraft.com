@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-A Site/App can have as many Pages as you want. A Page will take its Style properties from the App Theme property. These properties can be overridden.  See [Page Properties](../../../widget-properties-events/page-properties) for more information on individual Page properties.
+A Site/App can have as many Pages as you want. A Page will take its Style properties from the App Theme property. These properties can be overridden.  See [Page Properties](../../widget-properties-events/page-properties) for more information on individual Page properties.
 
 ## Add New Page
 

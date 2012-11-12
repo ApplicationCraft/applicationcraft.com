@@ -143,7 +143,7 @@ Returns the index of a Repeater Container row
 </tr>
 <tr>
 <td width="162">
-[search()](../../../../widget-properties-events/advanced/search)
+[search()](../../../../product-guide/widget-properties-events/advanced/search)
 
 </td>
 <td width="21">

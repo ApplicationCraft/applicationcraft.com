@@ -49,7 +49,7 @@ Items
 <td width="21">
 </td>
 <td width="782">
-This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See [Prefill](../../../../widget-properties-events/prefill) . The top entry is where you can enter text to show in the main item
+This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See [Prefill](../../../widget-properties-events/prefill) . The top entry is where you can enter text to show in the main item
 
 </td>
 </tr>

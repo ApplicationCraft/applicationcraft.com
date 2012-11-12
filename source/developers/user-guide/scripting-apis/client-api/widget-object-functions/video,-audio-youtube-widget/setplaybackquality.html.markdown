@@ -40,7 +40,7 @@ Sets the suggested video quality for the current video. Available parameters
 </table>
 ## Description
 
-This function sets the suggested video quality for the current video. The function causes the video to reload at its current position in the new quality. If the playback quality does change, it will only change for the video being played. Calling this function does not guarantee that the playback quality will actually change. However, if the playback quality does change, the [On Playback Quality Change](../../../../widget-properties-events/events/event-reference-list/general-events#playback) event will fire, and your code should respond to the event rather than the fact that it called the setPlaybackQuality function.
+This function sets the suggested video quality for the current video. The function causes the video to reload at its current position in the new quality. If the playback quality does change, it will only change for the video being played. Calling this function does not guarantee that the playback quality will actually change. However, if the playback quality does change, the [On Playback Quality Change](../../../../product-guide/widget-properties-events/events/event-reference-list/general-events#playback) event will fire, and your code should respond to the event rather than the fact that it called the setPlaybackQuality function.
 
 We recommend that you set the parameter value to default, which instructs YouTube to select the most appropriate playback quality, which will vary for different users, videos, systems and other playback conditions.
 

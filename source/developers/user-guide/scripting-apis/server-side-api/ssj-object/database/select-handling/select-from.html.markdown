@@ -87,7 +87,7 @@ For example the following statement would be invalid due to the ' appearing mid 
 
 ## Field Expressions
 
-If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../../data-storage/server-side-data-storage/handling-sql-expressions) .
+If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../../product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
 
 ## Examples
 

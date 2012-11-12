@@ -38,9 +38,9 @@ Click on the highlighted areas
 
 1: Insert your Image into your App.
 
-2: Set the [Aspect Ratio](../../../widget-properties-events/common/image#general) to 'Original Size'
+2: Set the [Aspect Ratio](../../widget-properties-events/common/image#general) to 'Original Size'
 
-3: Go to the [Image Map](../../../widget-properties-events/common/image#imagemap) properties
+3: Go to the [Image Map](../../widget-properties-events/common/image#imagemap) properties
 
 ![ImageMap](/img/docs/imagemap.png)
 
@@ -80,7 +80,7 @@ Download [HumanBody.csv](http://www.applicationcraft.com/sites/applicationcraft/
 
 ## See Also
 
- - [Image](../../../widget-properties-events/common/image#imagemap)
+ - [Image](../../widget-properties-events/common/image#imagemap)
 
 Related Video:
 

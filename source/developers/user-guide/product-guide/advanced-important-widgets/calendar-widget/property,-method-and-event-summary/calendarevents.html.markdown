@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This section lists only Events specific to the Calendar Widget. For the common Events, please refer to the [Events](../../../../widget-properties-events/events/) section.
+This section lists only Events specific to the Calendar Widget. For the common Events, please refer to the [Events](../../../widget-properties-events/events/) section.
 
 <table>
 <tr>

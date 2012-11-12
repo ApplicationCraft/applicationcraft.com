@@ -6,17 +6,11 @@ full_width: true
 ---
 
 
-**In This Section:**
+For anyone looking to get their first Site up and running as quickly as possible, start here:
 
- - [Account Management](account-management/)
+[![Videos\_P](/img/docs/videos_p.png)](http://www.applicationcraft.com/learning-center) **Developer Center / Training Videos** - probably the best place to start, this is a collection of short videos that will get you up and running as quickly as possible. [Go to Developer Center](http://www.applicationcraft.com/mobile-application/developer-center) .
 
- - [The Console](the-console/)
+**Preloaded Demo Content** - We put a couple of Content Sites and Apps into your Account so can take a look at something that already exists. Check the 'Private Folder' in your account.
 
- - [Content and App Layout](content-and-app-layout/)
-
- - [Mobile Apps & Sites](mobile-apps-sites/)
-
- - [Advanced & Important Widgets](advanced-important-widgets/)
-
- - [Advanced Features](advanced-features/)
+If you are building Mobile content, then read the [Content and App Layout](content-and-app-layout/) chapter and within that, the [Mobile Specific](mobile-apps-sites/) chapter.
 

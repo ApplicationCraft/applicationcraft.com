@@ -1,11 +1,11 @@
 tree:
-- {old_url: '/revisions/current/docs/user-guide/index.html?quick_start_guide_for_content_.htm',
-  title: Introduction, url: /developers/user-guide/}
-- {old_url: '/revisions/current/docs/user-guide/index.html?signing_in__accounts_and_users.htm',
-  title: 'Signing In, Accounts and Users', url: /developers/user-guide/signing-in-accounts-and-users}
 - old_url: /revisions/current/docs/user-guide/index.html?product_guide.htm
   title: Product Guide
   tree:
+  - {old_url: '/revisions/current/docs/user-guide/index.html?quick_start_guide_for_content_.htm',
+    title: Quick Start, url: /developers/user-guide/product-guide}
+  - {old_url: '/revisions/current/docs/user-guide/index.html?signing_in__accounts_and_users.htm',
+    title: 'Signing In, Accounts and Users', url: /developers/user-guide/product-guide/signing-in-accounts-and-users}
   - old_url: /revisions/current/docs/user-guide/index.html?account_management.htm
     title: Account Management
     tree:
@@ -763,6 +763,24 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?app_gatrack.htm',
         title: app.gaTrack(), url: /developers/user-guide/product-guide/advanced-features/google-analytics/app-gatrack}
       url: /developers/user-guide/product-guide/advanced-features/google-analytics
+    - old_url: /revisions/current/docs/user-guide/index.html?oauth2.htm
+      title: oAuth
+      tree:
+      - old_url: /revisions/current/docs/user-guide/index.html?app_key_and_app_secret.htm
+        title: App Key and App Secret
+        tree:
+        - {old_url: '/revisions/current/docs/user-guide/index.html?twitter.htm', title: Twitter,
+          url: /developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret/twitter}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?facebook.htm',
+          title: Facebook, url: /developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret/facebook}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?dropbox.htm', title: Dropbox,
+          url: /developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret/dropbox}
+        url: /developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret
+      - {old_url: '/revisions/current/docs/user-guide/index.html?authentication2.htm',
+        title: Authentication, url: /developers/user-guide/product-guide/advanced-features/oauth/authentication2}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?calling_api_functions.htm',
+        title: Calling API functions, url: /developers/user-guide/product-guide/advanced-features/oauth/calling-api-functions}
+      url: /developers/user-guide/product-guide/advanced-features/oauth
     - old_url: /revisions/current/docs/user-guide/index.html?reports__dashboards.htm
       title: Data Integration, Reporting & Dashboards
       tree:
@@ -997,62 +1015,264 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?display_hourglass_over.htm',
         title: Display Hourglass Over, url: /developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/display-hourglass-over}
       url: /developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass
-    - old_url: /revisions/current/docs/user-guide/index.html?oauth2.htm
-      title: oAuth
-      tree:
-      - {old_url: '/revisions/current/docs/user-guide/index.html?authentication2.htm',
-        title: Authentication, url: /developers/user-guide/product-guide/advanced-features/oauth/authentication2}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?calling_api_functions.htm',
-        title: Calling API functions, url: /developers/user-guide/product-guide/advanced-features/oauth/calling-api-functions}
-      url: /developers/user-guide/product-guide/advanced-features/oauth
     url: /developers/user-guide/product-guide/advanced-features
-  url: /developers/user-guide/product-guide
-- old_url: /revisions/current/docs/user-guide/index.html?data_storage3.htm
-  title: Data Storage
-  tree:
-  - old_url: /revisions/current/docs/user-guide/index.html?mobile__client_side_data_stora.htm
-    title: Mobile & Client Side Data Storage
+  - old_url: /revisions/current/docs/user-guide/index.html?data_storage3.htm
+    title: Data Storage
     tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?our_recommendation.htm',
-      title: Our Recommendations, url: /developers/user-guide/data-storage/mobile-client-side-data-storage/our-recommendation}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?cookie_storage.htm',
-      title: Cookie Storage, url: /developers/user-guide/data-storage/mobile-client-side-data-storage/cookie-storage}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?local_storage_example.htm',
-      title: Local Storage, url: /developers/user-guide/data-storage/mobile-client-side-data-storage/local-storage-example}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?websql__sqlite.htm',
-      title: WebSQL, url: /developers/user-guide/data-storage/mobile-client-side-data-storage/websql-sqlite}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?sqlite.htm', title: SQLite,
-      url: /developers/user-guide/data-storage/mobile-client-side-data-storage/sqlite}
-    url: /developers/user-guide/data-storage/mobile-client-side-data-storage
-  - old_url: /revisions/current/docs/user-guide/index.html?data_storage2.htm
-    title: Server Side Data Storage
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?important_points_before_you_st.htm',
-      title: Important Points Before you Start, url: /developers/user-guide/data-storage/server-side-data-storage/important-points-before-you-st}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?security_and_sql_injection.htm',
-      title: 'MUST READ: Security and SQL Injection', url: /developers/user-guide/data-storage/server-side-data-storage/security-and-sql-injection}
-    - old_url: /revisions/current/docs/user-guide/index.html?a_simple_example.htm
-      title: A Simple Example
+    - old_url: /revisions/current/docs/user-guide/index.html?mobile__client_side_data_stora.htm
+      title: Mobile & Client Side Data Storage
       tree:
-      - {old_url: '/revisions/current/docs/user-guide/index.html?create_the_example_database.htm',
-        title: Create the Example Database, url: /developers/user-guide/data-storage/server-side-data-storage/a-simple-example/create-the-example-database}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?client_side_javascript.htm',
-        title: Client Side Javascript, url: /developers/user-guide/data-storage/server-side-data-storage/a-simple-example/client-side-javascript}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?server_side_javascript.htm',
-        title: Server Side Javascript, url: /developers/user-guide/data-storage/server-side-data-storage/a-simple-example/server-side-javascript}
-      url: /developers/user-guide/data-storage/server-side-data-storage/a-simple-example
-    - {old_url: '/revisions/current/docs/user-guide/index.html?getting_widget_data_into_an_ob.htm',
-      title: Getting Widget Data into an Object, url: /developers/user-guide/data-storage/server-side-data-storage/getting-widget-data-into-an-ob}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?handling_sql_expressions.htm',
-      title: Functions and Complex Expressions, url: /developers/user-guide/data-storage/server-side-data-storage/handling-sql-expressions}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?callbacks_to_your_client_scrip.htm',
-      title: Callbacks to your Client Scripts, url: /developers/user-guide/data-storage/server-side-data-storage/callbacks-to-your-client-scrip}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?error_handling.htm',
-      title: Error Handling, url: /developers/user-guide/data-storage/server-side-data-storage/error-handling}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?exposing_your_ssj_db_handlers_.htm',
-      title: Exposing your SSJ DB handlers to other systems, url: /developers/user-guide/data-storage/server-side-data-storage/exposing-your-ssj-db-handlers}
-    url: /developers/user-guide/data-storage/server-side-data-storage
-  url: /developers/user-guide/data-storage
+      - {old_url: '/revisions/current/docs/user-guide/index.html?our_recommendation.htm',
+        title: Our Recommendations, url: /developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/our-recommendation}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?cookie_storage.htm',
+        title: Cookie Storage, url: /developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/cookie-storage}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?local_storage_example.htm',
+        title: Local Storage, url: /developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/local-storage-example}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?websql__sqlite.htm',
+        title: WebSQL, url: /developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/websql-sqlite}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?sqlite.htm', title: SQLite,
+        url: /developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/sqlite}
+      url: /developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage
+    - old_url: /revisions/current/docs/user-guide/index.html?data_storage2.htm
+      title: Server Side Data Storage
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?important_points_before_you_st.htm',
+        title: Important Points Before you Start, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/important-points-before-you-st}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?security_and_sql_injection.htm',
+        title: 'MUST READ: Security and SQL Injection', url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/security-and-sql-injection}
+      - old_url: /revisions/current/docs/user-guide/index.html?a_simple_example.htm
+        title: A Simple Example
+        tree:
+        - {old_url: '/revisions/current/docs/user-guide/index.html?create_the_example_database.htm',
+          title: Create the Example Database, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/a-simple-example/create-the-example-database}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?client_side_javascript.htm',
+          title: Client Side Javascript, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/a-simple-example/client-side-javascript}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?server_side_javascript.htm',
+          title: Server Side Javascript, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/a-simple-example/server-side-javascript}
+        url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/a-simple-example
+      - {old_url: '/revisions/current/docs/user-guide/index.html?getting_widget_data_into_an_ob.htm',
+        title: Getting Widget Data into an Object, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/getting-widget-data-into-an-ob}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?handling_sql_expressions.htm',
+        title: Functions and Complex Expressions, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/handling-sql-expressions}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?callbacks_to_your_client_scrip.htm',
+        title: Callbacks to your Client Scripts, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/callbacks-to-your-client-scrip}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?error_handling.htm',
+        title: Error Handling, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/error-handling}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?exposing_your_ssj_db_handlers_.htm',
+        title: Exposing your SSJ DB handlers to other systems, url: /developers/user-guide/product-guide/data-storage/server-side-data-storage/exposing-your-ssj-db-handlers}
+      url: /developers/user-guide/product-guide/data-storage/server-side-data-storage
+    url: /developers/user-guide/product-guide/data-storage
+  - old_url: /revisions/current/docs/user-guide/index.html?object_reference.htm
+    title: Widget Properties & Events
+    tree:
+    - {old_url: '/revisions/current/docs/user-guide/index.html?app_properties.htm',
+      title: App Properties, url: /developers/user-guide/product-guide/widget-properties-events/app-properties}
+    - {old_url: '/revisions/current/docs/user-guide/index.html?page_properties.htm',
+      title: Page Properties, url: /developers/user-guide/product-guide/widget-properties-events/page-properties}
+    - old_url: /revisions/current/docs/user-guide/index.html?common.htm
+      title: Common
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?label.htm', title: Label,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/label}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?text.htm', title: Text,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/text}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?text_area.htm', title: Text
+          Area, url: /developers/user-guide/product-guide/widget-properties-events/common/text-area}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?alpha_numeric.htm',
+        title: Alpha Numeric, url: /developers/user-guide/product-guide/widget-properties-events/common/alpha-numeric}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?numeric.htm', title: Numeric,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/numeric}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?action_button.htm',
+        title: Action Button, url: /developers/user-guide/product-guide/widget-properties-events/common/action-button}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?upload_button2.htm',
+        title: Upload Button, url: /developers/user-guide/product-guide/widget-properties-events/common/upload-button2}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?radio_button.htm',
+        title: Radio Button, url: /developers/user-guide/product-guide/widget-properties-events/common/radio-button}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?checkbox.htm', title: Checkbox,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/checkbox}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?image.htm', title: Image,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/image}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?qr_code.htm', title: QR
+          Code, url: /developers/user-guide/product-guide/widget-properties-events/common/qr-code}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?date_picker.htm',
+        title: Date Picker, url: /developers/user-guide/product-guide/widget-properties-events/common/date-picker}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?listbox.htm', title: Listbox,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/listbox}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?dropdown_list.htm',
+        title: Dropdown List, url: /developers/user-guide/product-guide/widget-properties-events/common/dropdown-list}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?color_picker.htm',
+        title: Color Picker, url: /developers/user-guide/product-guide/widget-properties-events/common/color-picker}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?rich_text.htm', title: Rich
+          Text, url: /developers/user-guide/product-guide/widget-properties-events/common/rich-text}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?shape.htm', title: Shape,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/shape}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?html2.htm', title: HTML,
+        url: /developers/user-guide/product-guide/widget-properties-events/common/html2}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?fancy_button.htm',
+        title: Fancy Button, url: /developers/user-guide/product-guide/widget-properties-events/common/fancy-button}
+      url: /developers/user-guide/product-guide/widget-properties-events/common
+    - old_url: /revisions/current/docs/user-guide/index.html?mobile.htm
+      title: Mobile
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mobcheckbox.htm',
+        title: Checkbox, url: /developers/user-guide/product-guide/widget-properties-events/mobile/mobcheckbox}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?toolbar.htm', title: Toolbar,
+        url: /developers/user-guide/product-guide/widget-properties-events/mobile/toolbar}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mobtext_area.htm',
+        title: Text Area, url: /developers/user-guide/product-guide/widget-properties-events/mobile/mobtext-area}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mobaction_button.htm',
+        title: Action Button, url: /developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?upload_button.htm',
+        title: Upload Button, url: /developers/user-guide/product-guide/widget-properties-events/mobile/upload-button}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?popup_dropdown.htm',
+        title: Popup Dropdown, url: /developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?radiobuttonsgroup.htm',
+        title: Radio Buttons Group, url: /developers/user-guide/product-guide/widget-properties-events/mobile/radiobuttonsgroup}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?popup_listbox.htm',
+        title: Popup Listbox, url: /developers/user-guide/product-guide/widget-properties-events/mobile/popup-listbox}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mobtext.htm', title: Text,
+        url: /developers/user-guide/product-guide/widget-properties-events/mobile/mobtext}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mobsearch.htm', title: Search,
+        url: /developers/user-guide/product-guide/widget-properties-events/mobile/mobsearch}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?slider.htm', title: Slider,
+        url: /developers/user-guide/product-guide/widget-properties-events/mobile/slider}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?flip_toggle_switch.htm',
+        title: Flip Toggle Switch, url: /developers/user-guide/product-guide/widget-properties-events/mobile/flip-toggle-switch}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?checkbox_group.htm',
+        title: Checkbox Group, url: /developers/user-guide/product-guide/widget-properties-events/mobile/checkbox-group}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?list.htm', title: List,
+        url: /developers/user-guide/product-guide/widget-properties-events/mobile/list}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?navbar.htm', title: NavBar,
+        url: /developers/user-guide/product-guide/widget-properties-events/mobile/navbar}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?collapsible.htm',
+        title: Collapsible, url: /developers/user-guide/product-guide/widget-properties-events/mobile/collapsible}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?auth_button.htm',
+        title: Auth Button, url: /developers/user-guide/product-guide/widget-properties-events/mobile/auth-button}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?moblabel.htm', title: Label,
+        url: /developers/user-guide/product-guide/widget-properties-events/mobile/moblabel}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mobiscroll.htm',
+        title: Mobiscroll Date, url: /developers/user-guide/product-guide/widget-properties-events/mobile/mobiscroll}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mobiscroll_list.htm',
+        title: Mobiscroll List, url: /developers/user-guide/product-guide/widget-properties-events/mobile/mobiscroll-list}
+      url: /developers/user-guide/product-guide/widget-properties-events/mobile
+    - old_url: /revisions/current/docs/user-guide/index.html?advanced.htm
+      title: Advanced
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?grid.htm', title: Grid,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/grid}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?mask_edit.htm', title: Mask
+          Edit, url: /developers/user-guide/product-guide/widget-properties-events/advanced/mask-edit}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?sliders.htm', title: Sliders,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/sliders}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?search.htm', title: Search,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/search}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?audio.htm', title: Audio,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/audio}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?html5_audio.htm',
+        title: HTML5 Audio, url: /developers/user-guide/product-guide/widget-properties-events/advanced/html5-audio}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?video.htm', title: Video,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/video}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?html5_video.htm',
+        title: HTML5 Video, url: /developers/user-guide/product-guide/widget-properties-events/advanced/html5-video}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?youtube.htm', title: YouTube,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/youtube}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?photoswipe.htm',
+        title: Photoswipe, url: /developers/user-guide/product-guide/widget-properties-events/advanced/photoswipe}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?calendar.htm', title: Calendar,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/calendar}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?embed_app.htm', title: Embed
+          App, url: /developers/user-guide/product-guide/widget-properties-events/advanced/embed-app}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?file_upload.htm',
+        title: File Upload, url: /developers/user-guide/product-guide/widget-properties-events/advanced/file-upload}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?advreset_filter.htm',
+        title: Reset Filter, url: /developers/user-guide/product-guide/widget-properties-events/advanced/advreset-filter}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?advanced_menu.htm',
+        title: Advanced Menu, url: /developers/user-guide/product-guide/widget-properties-events/advanced/advanced-menu}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?google_maps_advanced.htm',
+        title: Google Maps Advanced, url: /developers/user-guide/product-guide/widget-properties-events/advanced/google-maps-advanced}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?flot_charts.htm',
+        title: Flot Charts, url: /developers/user-guide/product-guide/widget-properties-events/advanced/flot-charts}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?timeline.htm', title: Timeline,
+        url: /developers/user-guide/product-guide/widget-properties-events/advanced/timeline}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?advertising1.htm',
+        title: Advertising, url: /developers/user-guide/product-guide/widget-properties-events/advanced/advertising1}
+      url: /developers/user-guide/product-guide/widget-properties-events/advanced
+    - old_url: /revisions/current/docs/user-guide/index.html?authentication.htm
+      title: Authentication
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?authpassword.htm',
+        title: Password, url: /developers/user-guide/product-guide/widget-properties-events/authentication/authpassword}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?authsign_in.htm',
+        title: Sign In, url: /developers/user-guide/product-guide/widget-properties-events/authentication/authsign-in}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?authsign_up.htm',
+        title: Sign Up, url: /developers/user-guide/product-guide/widget-properties-events/authentication/authsign-up}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?authcaptcha.htm',
+        title: Captcha, url: /developers/user-guide/product-guide/widget-properties-events/authentication/authcaptcha}
+      url: /developers/user-guide/product-guide/widget-properties-events/authentication
+    - old_url: /revisions/current/docs/user-guide/index.html?containersprop.htm
+      title: Containers
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?accordion.htm', title: Accordion,
+        url: /developers/user-guide/product-guide/widget-properties-events/containers/accordion}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?tab.htm', title: Tab,
+        url: /developers/user-guide/product-guide/widget-properties-events/containers/tab}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?repeater.htm', title: Repeater,
+        url: /developers/user-guide/product-guide/widget-properties-events/containers/repeater}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?page_button.htm',
+        title: Page Button, url: /developers/user-guide/product-guide/widget-properties-events/containers/page-button}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?panel.htm', title: Panel,
+        url: /developers/user-guide/product-guide/widget-properties-events/containers/panel}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?table_containerprop.htm',
+        title: Table Container, url: /developers/user-guide/product-guide/widget-properties-events/containers/table-containerprop}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?data_container.htm',
+        title: Data Container, url: /developers/user-guide/product-guide/widget-properties-events/containers/data-container}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?iframe.htm', title: iFrame,
+        url: /developers/user-guide/product-guide/widget-properties-events/containers/iframe}
+      url: /developers/user-guide/product-guide/widget-properties-events/containers
+    - old_url: /revisions/current/docs/user-guide/index.html?beta.htm
+      title: Beta
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?scandit_button.htm',
+        title: Scandit Button, url: /developers/user-guide/product-guide/widget-properties-events/beta/scandit-button}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?zingchart.htm', title: Zingchart,
+        url: /developers/user-guide/product-guide/widget-properties-events/beta/zingchart}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?circle_menu.htm',
+        title: Circle Menu, url: /developers/user-guide/product-guide/widget-properties-events/beta/circle-menu}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?context_menu.htm',
+        title: Context Menu, url: /developers/user-guide/product-guide/widget-properties-events/beta/context-menu}
+      - {old_url: '/revisions/current/docs/user-guide/index.html?share_this.htm',
+        title: Share This, url: /developers/user-guide/product-guide/widget-properties-events/beta/share-this}
+      url: /developers/user-guide/product-guide/widget-properties-events/beta
+    - {old_url: '/revisions/current/docs/user-guide/index.html?deprecated.htm', title: Deprecated,
+      url: /developers/user-guide/product-guide/widget-properties-events/deprecated}
+    - {old_url: '/revisions/current/docs/user-guide/index.html?prefill.htm', title: Prefilling
+        List and Grids, url: /developers/user-guide/product-guide/widget-properties-events/prefill}
+    - old_url: /revisions/current/docs/user-guide/index.html?events.htm
+      title: Events
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?accessing_events.htm',
+        title: Accessing Events, url: /developers/user-guide/product-guide/widget-properties-events/events/accessing-events}
+      - old_url: /revisions/current/docs/user-guide/index.html?event_reference_list.htm
+        title: Event Reference List
+        tree:
+        - {old_url: '/revisions/current/docs/user-guide/index.html?general_events.htm',
+          title: General Events, url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?mobile_native_app_events.htm',
+          title: Mobile Native App Events, url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?mouse_events.htm',
+          title: Mouse Events, url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?key_events.htm',
+          title: Key Events, url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?data_events.htm',
+          title: Data Events, url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?auth_events.htm',
+          title: Auth Events, url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/auth-events}
+        - {old_url: '/revisions/current/docs/user-guide/index.html?internationalization_app_event.htm',
+          title: Internationalization App Events, url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event}
+        url: /developers/user-guide/product-guide/widget-properties-events/events/event-reference-list
+      url: /developers/user-guide/product-guide/widget-properties-events/events
+    url: /developers/user-guide/product-guide/widget-properties-events
+  url: /developers/user-guide/product-guide
 - old_url: /revisions/current/docs/user-guide/index.html?scripting__apis.htm
   title: Scripting & APIs
   tree:
@@ -1214,16 +1434,6 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?calling_web_services.htm',
           title: Calling Web Service APIs, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/calling-web-services}
         url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples
-      - old_url: /revisions/current/docs/user-guide/index.html?oauth_and_3rd_party_apis.htm
-        title: oAuth
-        tree:
-        - {old_url: '/revisions/current/docs/user-guide/index.html?setting_up_your_consumer_keys.htm',
-          title: Setting up your Consumer Keys, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth/setting-up-your-consumer-keys}
-        - {old_url: '/revisions/current/docs/user-guide/index.html?example__twitter.htm',
-          title: 'Example : Twitter', url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth/example-twitter}
-        - {old_url: '/revisions/current/docs/user-guide/index.html?authenticating_from_your_scrip.htm',
-          title: Authenticating from your Script, url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth/authenticating-from-your-scrip}
-        url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/oauth
       url: /developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript
     - {old_url: '/revisions/current/docs/user-guide/index.html?populating_charts_from_script.htm',
       title: Populating Charts from Script, url: /developers/user-guide/scripting-apis/client-scripting-overview/populating-charts-from-script}
@@ -1761,6 +1971,12 @@ tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?soaprequest.htm',
         title: soapRequest(), url: /developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest}
       url: /developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls
+    - old_url: /revisions/current/docs/user-guide/index.html?oauth3.htm
+      title: oAuth
+      tree:
+      - {old_url: '/revisions/current/docs/user-guide/index.html?oauthsignin.htm',
+        title: oAuthSignin(), url: /developers/user-guide/scripting-apis/client-api/oauth/oauthsignin}
+      url: /developers/user-guide/scripting-apis/client-api/oauth
     - old_url: /revisions/current/docs/user-guide/index.html?multi_language_apps2.htm
       title: Multi Language Apps
       tree:
@@ -1978,6 +2194,12 @@ tree:
             title: getSql(), url: /developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/getsql}
           url: /developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling
         url: /developers/user-guide/scripting-apis/server-side-api/ssj-object/database
+      - old_url: /revisions/current/docs/user-guide/index.html?oauth4.htm
+        title: oAuth
+        tree:
+        - {old_url: '/revisions/current/docs/user-guide/index.html?oauthrequest.htm',
+          title: oAuthRequest(), url: /developers/user-guide/scripting-apis/server-side-api/ssj-object/oauth/oauthrequest}
+        url: /developers/user-guide/scripting-apis/server-side-api/ssj-object/oauth
       - old_url: /revisions/current/docs/user-guide/index.html?credit_card_payments2.htm
         title: Credit Card Payments
         tree:
@@ -2313,216 +2535,6 @@ tree:
   - {old_url: '/revisions/current/docs/user-guide/index.html?debugging_native_apps.htm',
     title: Debugging Native Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/debugging-native-apps}
   url: /developers/user-guide/ac-mobile-build-phonegap/cordova
-- old_url: /revisions/current/docs/user-guide/index.html?object_reference.htm
-  title: Widget Properties & Events
-  tree:
-  - {old_url: '/revisions/current/docs/user-guide/index.html?app_properties.htm',
-    title: App Properties, url: /developers/user-guide/widget-properties-events/app-properties}
-  - {old_url: '/revisions/current/docs/user-guide/index.html?page_properties.htm',
-    title: Page Properties, url: /developers/user-guide/widget-properties-events/page-properties}
-  - old_url: /revisions/current/docs/user-guide/index.html?common.htm
-    title: Common
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?label.htm', title: Label,
-      url: /developers/user-guide/widget-properties-events/common/label}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?text.htm', title: Text,
-      url: /developers/user-guide/widget-properties-events/common/text}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?text_area.htm', title: Text
-        Area, url: /developers/user-guide/widget-properties-events/common/text-area}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?alpha_numeric.htm',
-      title: Alpha Numeric, url: /developers/user-guide/widget-properties-events/common/alpha-numeric}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?numeric.htm', title: Numeric,
-      url: /developers/user-guide/widget-properties-events/common/numeric}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?action_button.htm',
-      title: Action Button, url: /developers/user-guide/widget-properties-events/common/action-button}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?upload_button2.htm',
-      title: Upload Button, url: /developers/user-guide/widget-properties-events/common/upload-button2}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?radio_button.htm',
-      title: Radio Button, url: /developers/user-guide/widget-properties-events/common/radio-button}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?checkbox.htm', title: Checkbox,
-      url: /developers/user-guide/widget-properties-events/common/checkbox}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?image.htm', title: Image,
-      url: /developers/user-guide/widget-properties-events/common/image}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?qr_code.htm', title: QR
-        Code, url: /developers/user-guide/widget-properties-events/common/qr-code}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?date_picker.htm', title: Date
-        Picker, url: /developers/user-guide/widget-properties-events/common/date-picker}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?listbox.htm', title: Listbox,
-      url: /developers/user-guide/widget-properties-events/common/listbox}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?dropdown_list.htm',
-      title: Dropdown List, url: /developers/user-guide/widget-properties-events/common/dropdown-list}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?color_picker.htm',
-      title: Color Picker, url: /developers/user-guide/widget-properties-events/common/color-picker}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?rich_text.htm', title: Rich
-        Text, url: /developers/user-guide/widget-properties-events/common/rich-text}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?shape.htm', title: Shape,
-      url: /developers/user-guide/widget-properties-events/common/shape}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?html2.htm', title: HTML,
-      url: /developers/user-guide/widget-properties-events/common/html2}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?fancy_button.htm',
-      title: Fancy Button, url: /developers/user-guide/widget-properties-events/common/fancy-button}
-    url: /developers/user-guide/widget-properties-events/common
-  - old_url: /revisions/current/docs/user-guide/index.html?mobile.htm
-    title: Mobile
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mobcheckbox.htm', title: Checkbox,
-      url: /developers/user-guide/widget-properties-events/mobile/mobcheckbox}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?toolbar.htm', title: Toolbar,
-      url: /developers/user-guide/widget-properties-events/mobile/toolbar}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mobtext_area.htm',
-      title: Text Area, url: /developers/user-guide/widget-properties-events/mobile/mobtext-area}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mobaction_button.htm',
-      title: Action Button, url: /developers/user-guide/widget-properties-events/mobile/mobaction-button}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?upload_button.htm',
-      title: Upload Button, url: /developers/user-guide/widget-properties-events/mobile/upload-button}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?popup_dropdown.htm',
-      title: Popup Dropdown, url: /developers/user-guide/widget-properties-events/mobile/popup-dropdown}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?radiobuttonsgroup.htm',
-      title: Radio Buttons Group, url: /developers/user-guide/widget-properties-events/mobile/radiobuttonsgroup}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?popup_listbox.htm',
-      title: Popup Listbox, url: /developers/user-guide/widget-properties-events/mobile/popup-listbox}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mobtext.htm', title: Text,
-      url: /developers/user-guide/widget-properties-events/mobile/mobtext}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mobsearch.htm', title: Search,
-      url: /developers/user-guide/widget-properties-events/mobile/mobsearch}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?slider.htm', title: Slider,
-      url: /developers/user-guide/widget-properties-events/mobile/slider}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?flip_toggle_switch.htm',
-      title: Flip Toggle Switch, url: /developers/user-guide/widget-properties-events/mobile/flip-toggle-switch}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?checkbox_group.htm',
-      title: Checkbox Group, url: /developers/user-guide/widget-properties-events/mobile/checkbox-group}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?list.htm', title: List,
-      url: /developers/user-guide/widget-properties-events/mobile/list}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?navbar.htm', title: NavBar,
-      url: /developers/user-guide/widget-properties-events/mobile/navbar}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?collapsible.htm', title: Collapsible,
-      url: /developers/user-guide/widget-properties-events/mobile/collapsible}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?auth_button.htm', title: Auth
-        Button, url: /developers/user-guide/widget-properties-events/mobile/auth-button}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?moblabel.htm', title: Label,
-      url: /developers/user-guide/widget-properties-events/mobile/moblabel}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mobiscroll.htm', title: Mobiscroll
-        Date, url: /developers/user-guide/widget-properties-events/mobile/mobiscroll}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mobiscroll_list.htm',
-      title: Mobiscroll List, url: /developers/user-guide/widget-properties-events/mobile/mobiscroll-list}
-    url: /developers/user-guide/widget-properties-events/mobile
-  - old_url: /revisions/current/docs/user-guide/index.html?advanced.htm
-    title: Advanced
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?grid.htm', title: Grid,
-      url: /developers/user-guide/widget-properties-events/advanced/grid}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?mask_edit.htm', title: Mask
-        Edit, url: /developers/user-guide/widget-properties-events/advanced/mask-edit}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?sliders.htm', title: Sliders,
-      url: /developers/user-guide/widget-properties-events/advanced/sliders}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?search.htm', title: Search,
-      url: /developers/user-guide/widget-properties-events/advanced/search}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?audio.htm', title: Audio,
-      url: /developers/user-guide/widget-properties-events/advanced/audio}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?html5_audio.htm', title: HTML5
-        Audio, url: /developers/user-guide/widget-properties-events/advanced/html5-audio}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?video.htm', title: Video,
-      url: /developers/user-guide/widget-properties-events/advanced/video}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?html5_video.htm', title: HTML5
-        Video, url: /developers/user-guide/widget-properties-events/advanced/html5-video}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?youtube.htm', title: YouTube,
-      url: /developers/user-guide/widget-properties-events/advanced/youtube}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?photoswipe.htm', title: Photoswipe,
-      url: /developers/user-guide/widget-properties-events/advanced/photoswipe}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?calendar.htm', title: Calendar,
-      url: /developers/user-guide/widget-properties-events/advanced/calendar}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?embed_app.htm', title: Embed
-        App, url: /developers/user-guide/widget-properties-events/advanced/embed-app}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?file_upload.htm', title: File
-        Upload, url: /developers/user-guide/widget-properties-events/advanced/file-upload}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?advreset_filter.htm',
-      title: Reset Filter, url: /developers/user-guide/widget-properties-events/advanced/advreset-filter}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?advanced_menu.htm',
-      title: Advanced Menu, url: /developers/user-guide/widget-properties-events/advanced/advanced-menu}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?google_maps_advanced.htm',
-      title: Google Maps Advanced, url: /developers/user-guide/widget-properties-events/advanced/google-maps-advanced}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?flot_charts.htm', title: Flot
-        Charts, url: /developers/user-guide/widget-properties-events/advanced/flot-charts}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?timeline.htm', title: Timeline,
-      url: /developers/user-guide/widget-properties-events/advanced/timeline}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?advertising1.htm',
-      title: Advertising, url: /developers/user-guide/widget-properties-events/advanced/advertising1}
-    url: /developers/user-guide/widget-properties-events/advanced
-  - old_url: /revisions/current/docs/user-guide/index.html?authentication.htm
-    title: Authentication
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?authpassword.htm',
-      title: Password, url: /developers/user-guide/widget-properties-events/authentication/authpassword}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?authsign_in.htm', title: Sign
-        In, url: /developers/user-guide/widget-properties-events/authentication/authsign-in}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?authsign_up.htm', title: Sign
-        Up, url: /developers/user-guide/widget-properties-events/authentication/authsign-up}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?authcaptcha.htm', title: Captcha,
-      url: /developers/user-guide/widget-properties-events/authentication/authcaptcha}
-    url: /developers/user-guide/widget-properties-events/authentication
-  - old_url: /revisions/current/docs/user-guide/index.html?containersprop.htm
-    title: Containers
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?accordion.htm', title: Accordion,
-      url: /developers/user-guide/widget-properties-events/containers/accordion}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?tab.htm', title: Tab,
-      url: /developers/user-guide/widget-properties-events/containers/tab}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?repeater.htm', title: Repeater,
-      url: /developers/user-guide/widget-properties-events/containers/repeater}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?page_button.htm', title: Page
-        Button, url: /developers/user-guide/widget-properties-events/containers/page-button}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?panel.htm', title: Panel,
-      url: /developers/user-guide/widget-properties-events/containers/panel}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?table_containerprop.htm',
-      title: Table Container, url: /developers/user-guide/widget-properties-events/containers/table-containerprop}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?data_container.htm',
-      title: Data Container, url: /developers/user-guide/widget-properties-events/containers/data-container}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?iframe.htm', title: iFrame,
-      url: /developers/user-guide/widget-properties-events/containers/iframe}
-    url: /developers/user-guide/widget-properties-events/containers
-  - old_url: /revisions/current/docs/user-guide/index.html?beta.htm
-    title: Beta
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?scandit_button.htm',
-      title: Scandit Button, url: /developers/user-guide/widget-properties-events/beta/scandit-button}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?zingchart.htm', title: Zingchart,
-      url: /developers/user-guide/widget-properties-events/beta/zingchart}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?circle_menu.htm', title: Circle
-        Menu, url: /developers/user-guide/widget-properties-events/beta/circle-menu}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?context_menu.htm',
-      title: Context Menu, url: /developers/user-guide/widget-properties-events/beta/context-menu}
-    - {old_url: '/revisions/current/docs/user-guide/index.html?share_this.htm', title: Share
-        This, url: /developers/user-guide/widget-properties-events/beta/share-this}
-    url: /developers/user-guide/widget-properties-events/beta
-  - {old_url: '/revisions/current/docs/user-guide/index.html?deprecated.htm', title: Deprecated,
-    url: /developers/user-guide/widget-properties-events/deprecated}
-  - {old_url: '/revisions/current/docs/user-guide/index.html?prefill.htm', title: Prefilling
-      List and Grids, url: /developers/user-guide/widget-properties-events/prefill}
-  - old_url: /revisions/current/docs/user-guide/index.html?events.htm
-    title: Events
-    tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?accessing_events.htm',
-      title: Accessing Events, url: /developers/user-guide/widget-properties-events/events/accessing-events}
-    - old_url: /revisions/current/docs/user-guide/index.html?event_reference_list.htm
-      title: Event Reference List
-      tree:
-      - {old_url: '/revisions/current/docs/user-guide/index.html?general_events.htm',
-        title: General Events, url: /developers/user-guide/widget-properties-events/events/event-reference-list/general-events}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?mobile_native_app_events.htm',
-        title: Mobile Native App Events, url: /developers/user-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?mouse_events.htm',
-        title: Mouse Events, url: /developers/user-guide/widget-properties-events/events/event-reference-list/mouse-events}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?key_events.htm',
-        title: Key Events, url: /developers/user-guide/widget-properties-events/events/event-reference-list/key-events}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?data_events.htm',
-        title: Data Events, url: /developers/user-guide/widget-properties-events/events/event-reference-list/data-events}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?auth_events.htm',
-        title: Auth Events, url: /developers/user-guide/widget-properties-events/events/event-reference-list/auth-events}
-      - {old_url: '/revisions/current/docs/user-guide/index.html?internationalization_app_event.htm',
-        title: Internationalization App Events, url: /developers/user-guide/widget-properties-events/events/event-reference-list/internationalization-app-event}
-      url: /developers/user-guide/widget-properties-events/events/event-reference-list
-    url: /developers/user-guide/widget-properties-events/events
-  url: /developers/user-guide/widget-properties-events
 - old_url: /revisions/current/docs/user-guide/index.html?developer_guide.htm
   title: Adding Widgets and API Methods
   tree:

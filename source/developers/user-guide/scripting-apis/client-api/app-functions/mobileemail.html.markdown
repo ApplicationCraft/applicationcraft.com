@@ -43,11 +43,11 @@ Label widgets, Image widget and Mobile Action button have a 'Link' property wher
 
  - [mobileSMS()](mobilesms)
 
- - [Label (Common)](../../../widget-properties-events/common/label)
+ - [Label (Common)](../../../product-guide/widget-properties-events/common/label)
 
- - [Image](../../../widget-properties-events/common/image)
+ - [Image](../../../product-guide/widget-properties-events/common/image)
 
- - [Action Button (Mobile)](../../../widget-properties-events/mobile/mobaction-button)
+ - [Action Button (Mobile)](../../../product-guide/widget-properties-events/mobile/mobaction-button)
 
- - [Label (Mobile)](../../../widget-properties-events/mobile/moblabel)
+ - [Label (Mobile)](../../../product-guide/widget-properties-events/mobile/moblabel)
 

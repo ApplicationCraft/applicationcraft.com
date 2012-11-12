@@ -36,7 +36,7 @@ Switches the display language of the App
 </table>
 ## **See Also**
 
- - [Internationalization App Events](../../../widget-properties-events/events/event-reference-list/internationalization-app-event)
+ - [Internationalization App Events](../../../product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
 
  - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 

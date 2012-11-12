@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -16,13 +16,13 @@ Once you have built your different Apps for the various entities in your overall
 
 Relationships are handled automatically using [CRUD](crud-in-detail/) functions and you can manually create and break them using the [instanceSetRelationship()](../../../scripting-apis/client-api/instance-data-functions/instancesetrelationship) function.
 
-Application Craft handles this with App Instance linking, enabling you to set the Application Relationship in the [App Properties](../../../widget-properties-events/app-properties) . It allows a user to set up all sorts of relationships (one-to-one, one-to-many and many-to-many) through the App itself. Each App allows any number of relationships to be defined.
+Application Craft handles this with App Instance linking, enabling you to set the Application Relationship in the [App Properties](../../widget-properties-events/app-properties) . It allows a user to set up all sorts of relationships (one-to-one, one-to-many and many-to-many) through the App itself. Each App allows any number of relationships to be defined.
 
 ## See Also
 
  - [Relationships in Detail](instance-relationships-in-detail/)
 
- - [Application Relationship Property](../../../widget-properties-events/app-properties#advanced)
+ - [Application Relationship Property](../../widget-properties-events/app-properties#advanced)
 
  - [setInstanceRelationship()](../../../scripting-apis/client-api/instance-data-functions/instancesetrelationship)
 

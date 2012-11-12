@@ -24,7 +24,7 @@ Move the slider to see the image change
 
 **How to Set up an Emoticon**
 
-1: Insert a [Slider](../../../widget-properties-events/advanced/sliders) and [Image](../../../widget-properties-events/common/image) widget into your App
+1: Insert a [Slider](../../widget-properties-events/advanced/sliders) and [Image](../../widget-properties-events/common/image) widget into your App
 
 2: Align them as required.
 
@@ -62,7 +62,7 @@ Col 2 = The URL of your Images to associate to the Slider Value selected
 
 ## See Also
 
- - [Image](../../../widget-properties-events/common/image#imagemap)
+ - [Image](../../widget-properties-events/common/image#imagemap)
 
 Related Video:
 

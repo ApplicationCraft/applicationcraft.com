@@ -30,7 +30,9 @@ Refer to the [Client API](../../client-api/) section for full details about the 
 
  - [Common Usage Examples](common-usage-examples/)
 
- - [oAuth](oauth/)
+## **See Also**
+
+ - [oAuth](../../../product-guide/advanced-features/oauth/)
 
 Related Video:
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The whole point of using SSJ is to improve security by having important scripts execute on the server where they cannot be tampered with. Application Craft provides an excellent set of SSJ [database functions](../server-side-api/ssj-object/database/) that support this and [server side database handling](../../data-storage/server-side-data-storage/) is the most common situation for SSJ code and also where the need for security is greatest.
+The whole point of using SSJ is to improve security by having important scripts execute on the server where they cannot be tampered with. Application Craft provides an excellent set of SSJ [database functions](../server-side-api/ssj-object/database/) that support this and [server side database handling](../../product-guide/data-storage/server-side-data-storage/) is the most common situation for SSJ code and also where the need for security is greatest.
 
 To ensure maximum security, you should ensure that you perform proper checks also in your server side code.
 

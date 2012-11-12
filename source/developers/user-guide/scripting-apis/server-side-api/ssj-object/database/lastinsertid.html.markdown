@@ -32,5 +32,5 @@ It is not safe to generate a SELECT query that does a MAX(id) to get the latest 
 
  - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](../../../../product-guide/data-storage/server-side-data-storage/)
 

@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../../data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -36,7 +36,7 @@ In your App (CRUD Companies), [create a View](../../../data-integration,-reporti
 
 ## Map your Widget(s) to the View
 
-In your App (CRUD Companies) you will usually have a Panel Container Widget that contains individual Widgets that will interact with the foreign App (CRUD Contacts). Map this [Panel Container](../../../../../widget-properties-events/containers/panel) to point to the CRUD Contacts View and, in the Fields property of the Panel Container, map any Widgets to the View fields that need to be mapped. You can also use Grids or Repeater Containers with CRUD operations.
+In your App (CRUD Companies) you will usually have a Panel Container Widget that contains individual Widgets that will interact with the foreign App (CRUD Contacts). Map this [Panel Container](../../../../widget-properties-events/containers/panel) to point to the CRUD Contacts View and, in the Fields property of the Panel Container, map any Widgets to the View fields that need to be mapped. You can also use Grids or Repeater Containers with CRUD operations.
 
 ![crud-map-internal](/img/docs/crud-map-internal.zoom63.png)
 

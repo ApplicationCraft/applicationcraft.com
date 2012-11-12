@@ -8,7 +8,7 @@ full_width: true
 
 Please refer to the [Video & Audio Widgets](../../../../product-guide/advanced-important-widgets/video-audio-widgets/) chapter for a thorough introduction and explanation.
 
-The methods outlined here are also valid for the [YouTube](../../../../widget-properties-events/advanced/youtube) widget.
+The methods outlined here are also valid for the [YouTube](../../../../product-guide/widget-properties-events/advanced/youtube) widget.
 
 **In This Section:**
 

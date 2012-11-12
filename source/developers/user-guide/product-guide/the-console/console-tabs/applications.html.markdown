@@ -239,7 +239,7 @@ Download
 <td width="16">
 </td>
 <td>
-Where you can download the Source Code of your app to deploy to your own environment
+Where you can download the Source Code of your app to deploy to your own environment. Not available in Trial version.
 
 </td>
 </tr>
@@ -349,7 +349,7 @@ Export
 <td width="16">
 </td>
 <td>
-This option allows you to export your app. You can select to export just the app, to include all or selected dependencies. This creates a 'zip' file which can then be imported into another account using the 'Import' function
+This option allows you to export your app. You can select to export just the app, to include all or selected dependencies. This creates a 'zip' file which can then be imported into another account using the 'Import' function. Not available in Trial version.
 
 </td>
 </tr>
