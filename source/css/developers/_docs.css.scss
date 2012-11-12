@@ -2,19 +2,22 @@
 
   header {
     margin: 20px 0 0 90px;
-
-    h1 {
-      width: 235px;
-      font: 30px gotham_thinregular;
-      text-transform: uppercase;
-    }
+    overflow: hidden;
   }
 
   article {
     margin: 0 10px 50px 335px;
 
-    h3 {
-      margin: 1.8em 0 1em;
+    h1 {
+      font: 30px gotham_mediumregular;
+      margin: 0 0 35px;
+      border-bottom: 3px solid #ccc;
+      padding-bottom: 8px;
+    }
+
+    h2 {
+      font: 1.2em gotham_bookregular;
+      margin: 2em 0 1em;
     }
 
     img:not(.fancybox-image) {
