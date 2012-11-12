@@ -1,14 +1,12 @@
 .docs {
 
-  h1 {
-    font: 26px gotham_bookregular;
-    text-transform: uppercase;
-    margin: 30px 0 40px 90px;
+  header {
+    margin: 20px 0 0 90px;
 
-    span {
+    h1 {
       width: 235px;
       font: 30px gotham_thinregular;
-      display: inline-block;
+      text-transform: uppercase;
     }
   }
 

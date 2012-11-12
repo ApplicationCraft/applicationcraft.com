@@ -9,6 +9,18 @@ module TreeHelpers
     end
   end
 
+  def breadcrumbs(pop = 0)
+    page, crumbs = current_page, []
+    while page = page.parent
+      crumbs << {
+        :url => page.url,
+        :title => page.data.title
+      }
+    end
+    crumbs.pop pop
+    crumbs.reverse
+  end
+
 
   private
 
