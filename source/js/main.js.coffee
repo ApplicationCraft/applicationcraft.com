@@ -46,6 +46,11 @@ $ ->
 $ ->
   if $('.tree').length > 0
 
+    # Handle blog images
+    if (images = $('body.developers .docs article img')).length > 0
+      # images.attr 'align', 'left'
+      images.css 'margin', '0 25px 15px 0'
+      images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
 
     # Add/remove classes depending upon the collapsed state.
     $('.tree div>span').on 'click', ->
