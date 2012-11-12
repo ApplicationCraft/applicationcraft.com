@@ -14,13 +14,13 @@ This is accessible only to those Users who have been granted Account rights with
 
 **In This Section:**
 
-[User Parameters](user-parameters/)
+[User Parameters](account-variables/user-parameters/)
 
-[SMTP Parameters](smtp-parameters/)
+[SMTP Parameters](account-variables/smtp-parameters/)
 
-[PhoneGap Parameters](phonegap-parameters)
+[PhoneGap Parameters](account-variables/phonegap-parameters)
 
-[Google Analytics Parameters](google-analytics-parameters)
+[Google Analytics Parameters](account-variables/google-analytics-parameters)
 
-[Google Maps](google-maps)
+[Google Maps](account-variables/google-maps)
 

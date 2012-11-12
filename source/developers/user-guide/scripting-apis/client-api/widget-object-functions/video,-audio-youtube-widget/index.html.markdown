@@ -17,7 +17,7 @@ HTML5 Audio, HTML5 Video and YouTube widget
 <table>
 <tr>
 <td width="182">
-[play()](play)
+[play()](video,-audio--youtube-widget/play)
 
 </td>
 <td width="8">
@@ -29,7 +29,7 @@ Play the video/audio
 </tr>
 <tr>
 <td width="182">
-[pause()](pause)
+[pause()](video,-audio--youtube-widget/pause)
 
 </td>
 <td width="8">
@@ -41,7 +41,7 @@ Pause the video/audio
 </tr>
 <tr>
 <td width="182">
-[load()](load)
+[load()](video,-audio--youtube-widget/load)
 
 </td>
 <td width="8">
@@ -53,7 +53,7 @@ Load or reload the video/audio
 </tr>
 <tr>
 <td width="182">
-[muted()](muted)
+[muted()](video,-audio--youtube-widget/muted)
 
 </td>
 <td width="8">
@@ -65,7 +65,7 @@ Mute the audio
 </tr>
 <tr>
 <td width="182">
-[currentTime()](currenttime)
+[currentTime()](video,-audio--youtube-widget/currenttime)
 
 </td>
 <td width="8">
@@ -77,7 +77,7 @@ Go to a specific location within the video/audio (in seconds)
 </tr>
 <tr>
 <td width="182">
-[poster()](poster)
+[poster()](video,-audio--youtube-widget/poster)
 
 </td>
 <td width="8">
@@ -89,7 +89,7 @@ URL or Resource of the Image displayed in the Widget before it plays
 </tr>
 <tr>
 <td width="182">
-[enable()](enable)
+[enable()](video,-audio--youtube-widget/enable)
 
 </td>
 <td width="8">
@@ -101,7 +101,7 @@ Enables or Disables the widget
 </tr>
 <tr>
 <td width="182">
-[controls()](controls)
+[controls()](video,-audio--youtube-widget/controls)
 
 </td>
 <td width="8">
@@ -113,7 +113,7 @@ Show the in-built video controls
 </tr>
 <tr>
 <td width="182">
-[populateWidget()](vidpopulatewidget)
+[populateWidget()](video,-audio--youtube-widget/vidpopulatewidget)
 
 </td>
 <td width="8">
@@ -138,7 +138,7 @@ YouTube widget
 <table>
 <tr>
 <td width="182">
-[getYoutubePlayer()](getyoutubeplayer)
+[getYoutubePlayer()](video,-audio--youtube-widget/getyoutubeplayer)
 
 </td>
 <td width="8">
@@ -150,7 +150,7 @@ Returns the You Tube player object
 </tr>
 <tr>
 <td width="182">
-[clearVideo()](clearvideo)
+[clearVideo()](video,-audio--youtube-widget/clearvideo)
 
 </td>
 <td width="8">
@@ -162,7 +162,7 @@ Clears the YouTube video
 </tr>
 <tr>
 <td width="182">
-[stop()](stop)
+[stop()](video,-audio--youtube-widget/stop)
 
 </td>
 <td width="8">
@@ -174,7 +174,7 @@ Stops the You Tube widget playing
 </tr>
 <tr>
 <td width="182">
-[volume()](volume)
+[volume()](video,-audio--youtube-widget/volume)
 
 </td>
 <td width="8">
@@ -186,7 +186,7 @@ Get/Set the Volume
 </tr>
 <tr>
 <td width="182">
-[duration()](duration)
+[duration()](video,-audio--youtube-widget/duration)
 
 </td>
 <td width="8">
@@ -198,7 +198,7 @@ Returns the duration in seconds of the currently playing video
 </tr>
 <tr>
 <td width="182">
-[state()](state)
+[state()](video,-audio--youtube-widget/state)
 
 </td>
 <td width="8">
@@ -210,7 +210,7 @@ Returns the state of the You Tube video
 </tr>
 <tr>
 <td width="182">
-[setPlaybackQuality()](setplaybackquality)
+[setPlaybackQuality()](video,-audio--youtube-widget/setplaybackquality)
 
 </td>
 <td width="8">
@@ -222,7 +222,7 @@ Sets the suggested video quality for the current video.
 </tr>
 <tr>
 <td width="182">
-[getPlaybackQuality()](getplaybackquality)
+[getPlaybackQuality()](video,-audio--youtube-widget/getplaybackquality)
 
 </td>
 <td width="8">
@@ -234,7 +234,7 @@ Gets the video quality for the current video.
 </tr>
 <tr>
 <td width="182">
-[getAvailableQualityLevels()](getavailablequalitylevels)
+[getAvailableQualityLevels()](video,-audio--youtube-widget/getavailablequalitylevels)
 
 </td>
 <td width="8">

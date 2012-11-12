@@ -144,7 +144,7 @@ Due to differences between the GoogleMap V2 Api (used in the Google Map widget) 
 
 Please note that dynamically created widgets can't use the Repeat property
 
-( [Repeating Widgets Across Multiple Pages](../../../product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) ) and can't be used as fields in the schema.
+( [Repeating Widgets Across Multiple Pages](../../../product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) ) and can't be used as fields in the schema.
 
 ## Example
 

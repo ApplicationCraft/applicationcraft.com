@@ -8,7 +8,7 @@ full_width: true
 
 This is a useful API function command to be familiar with. If you have a data set (perhaps returned from an API call) and you need to map some fields from that data set into any of the following widgets, then [populateWidget()](../../../client-api/widget-data-state-manipulation/populatewidget/) lets you do this with virtually no code at all.
 
- - [ListBoxes, Dropdowns and Context Menu Examples](../../../client-api/widget-data-state-manipulation/populatewidget/listbox--dropdown-example)
+ - [ListBoxes, Dropdowns and Context Menu Examples](../../../client-api/widget-data-state-manipulation/populatewidget/listbox-dropdown-example)
 
  - [Mobile List Example](../../../client-api/widget-data-state-manipulation/populatewidget/mobile-list-example)
 

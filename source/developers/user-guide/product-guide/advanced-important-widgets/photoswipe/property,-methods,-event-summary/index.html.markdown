@@ -8,9 +8,9 @@ full_width: true
 
 **In This Section:**
 
- - [Properties](pswipeproperties)
+ - [Properties](property,-methods,-event-summary/pswipeproperties)
 
- - [Events](pswipeevents)
+ - [Events](property,-methods,-event-summary/pswipeevents)
 
- - [Methods](pswipemethods)
+ - [Methods](property,-methods,-event-summary/pswipemethods)
 

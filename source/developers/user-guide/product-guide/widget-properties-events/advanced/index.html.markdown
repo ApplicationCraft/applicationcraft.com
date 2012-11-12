@@ -10,40 +10,40 @@ Advanced Widgets are also accessed from the left hand Toolbox, by clicking on th
 
 **In This Section:**
 
-[Grid](grid)
+[Grid](advanced/grid)
 
-[Mask Edit](mask-edit)
+[Mask Edit](advanced/mask-edit)
 
-[Sliders](sliders)
+[Sliders](advanced/sliders)
 
-[Search](search)
+[Search](advanced/search)
 
-[Audio](audio)
+[Audio](advanced/audio)
 
-[HTML5 Audio](html5-audio)
+[HTML5 Audio](advanced/html5-audio)
 
-[Video](video)
+[Video](advanced/video)
 
-[HTML5 Video](html5-video)
+[HTML5 Video](advanced/html5-video)
 
-[YouTube](youtube)
+[YouTube](advanced/youtube)
 
-[Photoswipe](photoswipe)
+[Photoswipe](advanced/photoswipe)
 
-[Calendar](calendar)
+[Calendar](advanced/calendar)
 
-[Embed App](embed-app)
+[Embed App](advanced/embed-app)
 
-[File Upload](file-upload)
+[File Upload](advanced/file-upload)
 
-[Reset Filter](advreset-filter)
+[Reset Filter](advanced/advreset-filter)
 
-[Advanced Menu](advanced-menu)
+[Advanced Menu](advanced/advanced-menu)
 
-[Google Maps Advanced](google-maps-advanced)
+[Google Maps Advanced](advanced/google-maps-advanced)
 
-[Flot Charts](flot-charts)
+[Flot Charts](advanced/flot-charts)
 
-[Timeline](timeline)
+[Timeline](advanced/timeline)
 
-[Advertising](advertising1)
+[Advertising](advanced/advertising1)

@@ -8,13 +8,13 @@ full_width: true
 
 **In This Section:**
 
- - [CRUD on External Databases](crud-on-external-databases)
+ - [CRUD on External Databases](using-external-databases/crud-on-external-databases)
 
- - [Synopsis of CRUD Operations on External Databases](synopsis-of-crud-operations-on)
+ - [Synopsis of CRUD Operations on External Databases](using-external-databases/synopsis-of-crud-operations-on)
 
- - [Permissions](permissions)
+ - [Permissions](using-external-databases/permissions)
 
- - [Example CRUD calls](example-crud-calls2)
+ - [Example CRUD calls](using-external-databases/example-crud-calls2)
 
- - [How CRUD works for External Databases](how-crud-works-for-external-da)
+ - [How CRUD works for External Databases](using-external-databases/how-crud-works-for-external-da)
 

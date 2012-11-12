@@ -251,9 +251,9 @@ Mobile Build
 <td width="16">
 </td>
 <td>
-Choose to build your apps using [AC Mobile Build](../../../ac-mobile-build-phonegap-cordova/ac-mobile-build/) or [Phonegap:Build](../../../ac-mobile-build-phonegap-cordova/phonegapbuild/) . If you wish to compile as a Native App for mobile devices you can do so here.
+Choose to build your apps using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/) or [Phonegap:Build](../../../ac-mobile-build-phonegap/cordova/phonegapbuild/) . If you wish to compile as a Native App for mobile devices you can do so here.
 
-If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap-cordova/) chapter, which describes how this can be achieved.
+If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](../../../ac-mobile-build-phonegap/cordova/) chapter, which describes how this can be achieved.
 
 </td>
 </tr>

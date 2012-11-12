@@ -24,13 +24,13 @@ Tutorial Videos can be found at our [Learning Center](http://www.applicationcraf
 
 **In This Section:**
 
- - [Where are the Events?](where-are-the-events)
+ - [Where are the Events?](introduction/where-are-the-events)
 
- - [How Application Craft Javascript is tied into AC](how-swirl-javascript-is-tied-i)
+ - [How Application Craft Javascript is tied into AC](introduction/how-swirl-javascript-is-tied-i)
 
- - [Switching between Code and Layout modes](switching-between-code-and-lay)
+ - [Switching between Code and Layout modes](introduction/switching-between-code-and-lay)
 
- - [For those who know Javascript already](for-those-who-know-javascript)
+ - [For those who know Javascript already](introduction/for-those-who-know-javascript)
 
- - [Using Browser Objects](using-borwser-objects)
+ - [Using Browser Objects](introduction/using-borwser-objects)
 

@@ -14,7 +14,7 @@ You can also dynamically control the SMTP senders parameters using [sendEmail()]
 
 **In This Section:**
 
- - [Adding your SMTP Parameters](adding-your-smtp-parameters)
+ - [Adding your SMTP Parameters](smtp-parameters/adding-your-smtp-parameters)
 
 ## See Also
 

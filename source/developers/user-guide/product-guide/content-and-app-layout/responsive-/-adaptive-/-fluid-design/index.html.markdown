@@ -10,27 +10,27 @@ If you want to build sites that run on different device types and screen sizes t
 
 **In This Section:**
 
-[Understanding Containers](understanding-containers)
+[Understanding Containers](responsive-/-adaptive-/-fluid-design/understanding-containers)
 
-[Absolute and Relative Layout](absolute-and-relative-layout)
+[Absolute and Relative Layout](responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
 
-['Sizes' Property Dialog](sizes-property-dialog)
+['Sizes' Property Dialog](responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
-[Right Click Width Settings](right-click-width-settings)
+[Right Click Width Settings](responsive-/-adaptive-/-fluid-design/right-click-width-settings)
 
-[Right Click Parent Container Selection](right-click-parent-container-s)
+[Right Click Parent Container Selection](responsive-/-adaptive-/-fluid-design/right-click-parent-container-s)
 
-[Container Outlines](container-outlines)
+[Container Outlines](responsive-/-adaptive-/-fluid-design/container-outlines)
 
-[Margins](margins)
+[Margins](responsive-/-adaptive-/-fluid-design/margins)
 
-[Aligning Widgets Inside Containers](aligning-widgets-inside-contai)
+[Aligning Widgets Inside Containers](responsive-/-adaptive-/-fluid-design/aligning-widgets-inside-contai)
 
-[Adaptive Layout Overview](adaptive-layout-rules)
+[Adaptive Layout Overview](responsive-/-adaptive-/-fluid-design/adaptive-layout-rules)
 
-[Adaptive Layout Rule Definition](adaptive-layout-rule-definitio)
+[Adaptive Layout Rule Definition](responsive-/-adaptive-/-fluid-design/adaptive-layout-rule-definitio)
 
-[Adaptive Layout Event](adaptive-layout-event)
+[Adaptive Layout Event](responsive-/-adaptive-/-fluid-design/adaptive-layout-event)
 
-[Resize Events](resize-events)
+[Resize Events](responsive-/-adaptive-/-fluid-design/resize-events)
 

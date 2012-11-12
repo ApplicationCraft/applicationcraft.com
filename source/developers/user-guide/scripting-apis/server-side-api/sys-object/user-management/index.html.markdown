@@ -10,19 +10,19 @@ These functions allow you to access information about Users stored in Applicatio
 
 **In This Section:**
 
- - [getMemberOf()](getmemberof)
+ - [getMemberOf()](user-management/getmemberof)
 
- - [getUsersList()](loaduserslist)
+ - [getUsersList()](user-management/loaduserslist)
 
- - [createUser()](createuser)
+ - [createUser()](user-management/createuser)
 
- - [deleteUser()](deleteuser)
+ - [deleteUser()](user-management/deleteuser)
 
- - [saveUser()](saveuser)
+ - [saveUser()](user-management/saveuser)
 
- - [setUserPassword()](setuserpassword)
+ - [setUserPassword()](user-management/setuserpassword)
 
- - [getUserById()](getuserbyid)
+ - [getUserById()](user-management/getuserbyid)
 
- - [checkOwnerUserRights parameter](checkowneruserrights-parameter)
+ - [checkOwnerUserRights parameter](user-management/checkowneruserrights-parameter)
 

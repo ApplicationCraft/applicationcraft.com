@@ -32,19 +32,19 @@ To understand how this works, we will use a simple App that shows all of these f
 
 **In This Section:**
 
- - [CRUD on Local Instances](crud-on-local-instances)
+ - [CRUD on Local Instances](using-ac-app-storage/crud-on-local-instances)
 
- - [Synopsis of Foreign CRUD Operations](synopsis)
+ - [Synopsis of Foreign CRUD Operations](using-ac-app-storage/synopsis)
 
- - [CRUD Permissions](crud-permissions)
+ - [CRUD Permissions](using-ac-app-storage/crud-permissions)
 
- - [Setting up Grids To Edit Foreign Data](setting-up-grids-to-edit-forei)
+ - [Setting up Grids To Edit Foreign Data](using-ac-app-storage/setting-up-grids-to-edit-forei)
 
- - [Example CRUD Calls](example-crud-calls)
+ - [Example CRUD Calls](using-ac-app-storage/example-crud-calls)
 
- - [How CRUD works](how-crud-works)
+ - [How CRUD works](using-ac-app-storage/how-crud-works)
 
- - [JOINed App Queries](joined-app-queries)
+ - [JOINed App Queries](using-ac-app-storage/joined-app-queries)
 
- - [CRUD & Filtering](crud-filtering)
+ - [CRUD & Filtering](using-ac-app-storage/crud-filtering)
 

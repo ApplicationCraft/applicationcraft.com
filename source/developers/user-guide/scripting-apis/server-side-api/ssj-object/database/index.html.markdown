@@ -8,33 +8,33 @@ full_width: true
 
 **In This Section:**
 
- - [getViewData()](getviewdata2)
+ - [getViewData()](database/getviewdata2)
 
- - [getConnection()](getconnection)
+ - [getConnection()](database/getconnection)
 
- - [getConnectionByName()](getconnectionbyname)
+ - [getConnectionByName()](database/getconnectionbyname)
 
- - [beginTransaction()](begintransaction)
+ - [beginTransaction()](database/begintransaction)
 
- - [commit()](commit)
+ - [commit()](database/commit)
 
- - [rollback()](rollback)
+ - [rollback()](database/rollback)
 
- - [insert()](insert)
+ - [insert()](database/insert)
 
- - [update()](update)
+ - [update()](database/update)
 
- - [delete()](delete)
+ - [delete()](database/delete)
 
- - [exec()](exec)
+ - [exec()](database/exec)
 
- - [lastInsertId()](lastinsertid)
+ - [lastInsertId()](database/lastinsertid)
 
- - [quote()](quote)
+ - [quote()](database/quote)
 
- - [quoteInto()](quoteinto)
+ - [quoteInto()](database/quoteinto)
 
- - [Select Handling](select-handling/)
+ - [Select Handling](database/select-handling/)
 
 Related Video:
 

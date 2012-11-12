@@ -8,11 +8,11 @@ full_width: true
 
 **In This Section:**
 
- - [httpRequest()](httprequest2)
+ - [httpRequest()](web-service-calls/httprequest2)
 
- - [httpRequestAdv()](httprequestadv)
+ - [httpRequestAdv()](web-service-calls/httprequestadv)
 
- - [soapRequest()](soaprequest2)
+ - [soapRequest()](web-service-calls/soaprequest2)
 
- - [networkTimeout()](networktimeout)
+ - [networkTimeout()](web-service-calls/networktimeout)
 

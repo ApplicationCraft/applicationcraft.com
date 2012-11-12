@@ -8,19 +8,19 @@ full_width: true
 
 **In This Section:**
 
- - [getGroupById()](getgroupbyid)
+ - [getGroupById()](group-management/getgroupbyid)
 
- - [createGroup()](creategroup)
+ - [createGroup()](group-management/creategroup)
 
- - [updateGroup()](updategroup)
+ - [updateGroup()](group-management/updategroup)
 
- - [deleteGroup()](deletegroup)
+ - [deleteGroup()](group-management/deletegroup)
 
- - [addToGroup()](addtogroup)
+ - [addToGroup()](group-management/addtogroup)
 
- - [removeFromGroup()](removefromgroup)
+ - [removeFromGroup()](group-management/removefromgroup)
 
- - [getGroupMembers()](getgroupmembers)
+ - [getGroupMembers()](group-management/getgroupmembers)
 
- - [getGroupsList()](getgroupslist)
+ - [getGroupsList()](group-management/getgroupslist)
 

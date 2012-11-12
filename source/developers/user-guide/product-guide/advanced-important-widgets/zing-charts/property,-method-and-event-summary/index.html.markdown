@@ -8,9 +8,9 @@ full_width: true
 
 **In This Section:**
 
- - [Properties](properties3)
+ - [Properties](property,-method-and-event-summary/properties3)
 
- - [Events](events2)
+ - [Events](property,-method-and-event-summary/events2)
 
- - [Methods](methods2)
+ - [Methods](property,-method-and-event-summary/methods2)
 

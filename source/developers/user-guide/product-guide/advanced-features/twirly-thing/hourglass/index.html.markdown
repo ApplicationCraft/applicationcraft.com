@@ -10,15 +10,15 @@ The "twirly thing" hourglass can be applied to any Widget object, including the 
 
 Please note that the Twirly Thing will have no visible effect if used on the On Page Prepare event as this is called before the page content is drawn
 
-The [Display Hourglass Over](display-hourglass-over) property allows you to control how the [Twirly Thing](twirly-thing) is shown within your app. You can have it show over a Page in one part of your form, and over specific Widgets in other parts of the form.
+The [Display Hourglass Over](twirly-thing/hourglass/display-hourglass-over) property allows you to control how the [Twirly Thing](twirly-thing/hourglass/twirly-thing) is shown within your app. You can have it show over a Page in one part of your form, and over specific Widgets in other parts of the form.
 
 ## **Example**
 
-We have set the App [Twirly Thing](twirly-thing) properties and you can see in the preview area how it will look.
+We have set the App [Twirly Thing](twirly-thing/hourglass/twirly-thing) properties and you can see in the preview area how it will look.
 
 ![twirlythingexample](/img/docs/twirlythingexample.zoom84.png)
 
-We have set the App display hourglass property to 'Widget' so it will show over individual widgets and where we are going to show the [Twirly Thing](twirly-thing) we have set the property to 'Inherit'.
+We have set the App display hourglass property to 'Widget' so it will show over individual widgets and where we are going to show the [Twirly Thing](twirly-thing/hourglass/twirly-thing) we have set the property to 'Inherit'.
 
 1: As a button is pressed to 'jump' to another page, to show the twirly thing:
 
@@ -68,7 +68,7 @@ and on the target page 'On Page Show' event, to hide the twirly thing:
 
 **In This Section:**
 
- - [Twirly Thing](twirly-thing)
+ - [Twirly Thing](twirly-thing/hourglass/twirly-thing)
 
- - [Display Hourglass Over](display-hourglass-over)
+ - [Display Hourglass Over](twirly-thing/hourglass/display-hourglass-over)
 

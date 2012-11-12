@@ -12,7 +12,7 @@ You can upload your CSS file to your account [Resources](../../the-console/conso
 
 **In This Section:**
 
- - [CSS files](css-files)
+ - [CSS files](custom-css-classes/css-files)
 
- - [Custom Class Property](custom-class)
+ - [Custom Class Property](custom-css-classes/custom-class)
 

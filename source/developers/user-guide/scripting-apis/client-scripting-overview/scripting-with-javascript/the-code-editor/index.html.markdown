@@ -26,13 +26,13 @@ Related Videos:
 
 **In This Section:**
 
- - [Code Explorer](code-explorer)
+ - [Code Explorer](the-code-editor/code-explorer)
 
- - [Syntax Errors](syntax-errors)
+ - [Syntax Errors](the-code-editor/syntax-errors)
 
  - [Writing User Defined Functions](../introduction/writing-user-defined-functions)
 
- - [Search / Replace](search--replace)
+ - [Search / Replace](the-code-editor/search--replace)
 
- - [Code Editor Color Schemes](code-higlighting)
+ - [Code Editor Color Schemes](the-code-editor/code-higlighting)
 

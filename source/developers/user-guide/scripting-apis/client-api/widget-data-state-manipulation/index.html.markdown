@@ -15,7 +15,7 @@ For normal reading and writing of widget data, please refer to the section [Read
 <table>
 <tr>
 <td width="206">
-[assign()](assign)
+[assign()](widget-data--state-manipulation/assign)
 
 </td>
 <td width="17">
@@ -27,7 +27,7 @@ Assigns an AC Expression to one or more Widgets
 </tr>
 <tr>
 <td width="206">
-[getValue()](refgetvalue)
+[getValue()](widget-data--state-manipulation/refgetvalue)
 
 </td>
 <td width="17">
@@ -39,7 +39,7 @@ Gets the value of one or more Widgets.
 </tr>
 <tr>
 <td width="206">
-[setValue()](refsetvalue)
+[setValue()](widget-data--state-manipulation/refsetvalue)
 
 </td>
 <td width="17">
@@ -51,7 +51,7 @@ Sets the value of one or more Widgets
 </tr>
 <tr>
 <td width="206">
-[getData()](getdata)
+[getData()](widget-data--state-manipulation/getdata)
 
 </td>
 <td width="17">
@@ -63,7 +63,7 @@ Gets the contents (rather than the value) of one or more Widgets.
 </tr>
 <tr>
 <td width="206">
-[setData()](setdata)
+[setData()](widget-data--state-manipulation/setdata)
 
 </td>
 <td width="17">
@@ -75,7 +75,7 @@ Sets the contents (rather than the value) of one or more Widgets.
 </tr>
 <tr>
 <td width="206">
-[visible()](visible)
+[visible()](widget-data--state-manipulation/visible)
 
 </td>
 <td width="17">
@@ -87,7 +87,7 @@ Control the visibility of one or more Widgets
 </tr>
 <tr>
 <td width="206">
-[readOnly](readonly)
+[readOnly](widget-data--state-manipulation/readonly)
 
 </td>
 <td width="17">
@@ -99,7 +99,7 @@ Control the read-only status of one or more Widgets
 </tr>
 <tr>
 <td width="206">
-[enabled()](enabled)
+[enabled()](widget-data--state-manipulation/enabled)
 
 </td>
 <td width="17">
@@ -111,7 +111,7 @@ Control the enabled status of one or more Widgets
 </tr>
 <tr>
 <td width="206">
-[dataGetValues()](datagetvalues)
+[dataGetValues()](widget-data--state-manipulation/datagetvalues)
 
 </td>
 <td width="17">
@@ -123,7 +123,7 @@ Extracts widget values into a javascript object
 </tr>
 <tr>
 <td width="206">
-[dataGetStates()](datagetstates)
+[dataGetStates()](widget-data--state-manipulation/datagetstates)
 
 </td>
 <td width="17">
@@ -135,7 +135,7 @@ Extracts widget states (visible, enabled, read-only) into a javascript object
 </tr>
 <tr>
 <td width="206">
-[dataSetValues()](datasetvalues)
+[dataSetValues()](widget-data--state-manipulation/datasetvalues)
 
 </td>
 <td width="17">
@@ -147,7 +147,7 @@ Sets widget values from a javascript object
 </tr>
 <tr>
 <td width="206">
-[dataSetStates()](datasetstates)
+[dataSetStates()](widget-data--state-manipulation/datasetstates)
 
 </td>
 <td width="17">
@@ -159,7 +159,7 @@ Sets widget states from a javascript object
 </tr>
 <tr>
 <td width="206">
-[populateWidget()](populatewidget/)
+[populateWidget()](widget-data--state-manipulation/populatewidget/)
 
 </td>
 <td width="17">
@@ -171,7 +171,7 @@ This is a powerful and easy way of populating many Widgets including Grid, Repea
 </tr>
 </table>
 
-If you are working with [Server Side Javascripting](../../server-side-scripting-overview/) (SSJ) and you want to store widget data in [server side databases](../../../product-guide/data-storage/server-side-data-storage/) , then the [dataGetValues()](datagetvalues) , [dataGetStates()](datagetstates) , [dataSetValues()](datasetvalues) , [dataSetStates()](datasetstates) functions can be very useful.
+If you are working with [Server Side Javascripting](../../server-side-scripting-overview/) (SSJ) and you want to store widget data in [server side databases](../../../product-guide/data-storage/server-side-data-storage/) , then the [dataGetValues()](widget-data--state-manipulation/datagetvalues) , [dataGetStates()](widget-data--state-manipulation/datagetstates) , [dataSetValues()](widget-data--state-manipulation/datasetvalues) , [dataSetStates()](widget-data--state-manipulation/datasetstates) functions can be very useful.
 
 These functions are used to extract Widget Values and Widget States from your App into simple object structures that can be passed to SSJ functions (often SSJ Database functions) or any other external systems.
 

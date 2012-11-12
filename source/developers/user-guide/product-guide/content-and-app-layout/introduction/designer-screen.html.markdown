@@ -155,17 +155,17 @@ Related Video:
 
 ## **See Also**
 
- - [Widget Alignment](../editing-and-laying-out--reference/widget-alignment-distribution)
+ - [Widget Alignment](../editing-and-laying-out-reference/widget-alignment-distribution)
 
- - [Equal Spacing](../editing-and-laying-out--reference/equal-spacing)
+ - [Equal Spacing](../editing-and-laying-out-reference/equal-spacing)
 
- - [Equal Sizing](../editing-and-laying-out--reference/equal-sizing)
+ - [Equal Sizing](../editing-and-laying-out-reference/equal-sizing)
 
- - [Equal Distribution](../editing-and-laying-out--reference/equal-distribution)
+ - [Equal Distribution](../editing-and-laying-out-reference/equal-distribution)
 
- - [Widget Layer / Z-Order](../editing-and-laying-out--reference/layer--z-order)
+ - [Widget Layer / Z-Order](../editing-and-laying-out-reference/layer-z-order)
 
- - [Tab Order](../editing-and-laying-out--reference/tab-order)
+ - [Tab Order](../editing-and-laying-out-reference/tab-order)
 
  - [Populate Widget Map Wizard](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/populatewidget-wizard)
 

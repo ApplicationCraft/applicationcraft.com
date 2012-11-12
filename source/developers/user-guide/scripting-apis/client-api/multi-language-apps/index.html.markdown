@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[translate()](translate)
+[translate()](multi-language-apps/translate)
 
 </td>
 <td width="12">
@@ -23,7 +23,7 @@ Performs string translations within your App
 </tr>
 <tr>
 <td width="149">
-[language()](language)
+[language()](multi-language-apps/language)
 
 </td>
 <td width="12">

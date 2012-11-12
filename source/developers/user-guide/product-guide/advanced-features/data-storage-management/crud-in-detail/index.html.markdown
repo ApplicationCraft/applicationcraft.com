@@ -14,7 +14,7 @@ IMPORTANT
 
 **In This Section:**
 
- - [Using AC App Storage](using-ac-app-storage/)
+ - [Using AC App Storage](crud-in-detail/using-ac-app-storage/)
 
- - [Using External Databases](using-external-databases/)
+ - [Using External Databases](crud-in-detail/using-external-databases/)
 

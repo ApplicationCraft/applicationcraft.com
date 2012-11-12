@@ -74,7 +74,7 @@ Edit
 <td width="16">
 </td>
 <td>
-This takes you into the [Query Wizard](query-wizard/) .
+This takes you into the [Query Wizard](queries/query-wizard/) .
 
 </td>
 </tr>

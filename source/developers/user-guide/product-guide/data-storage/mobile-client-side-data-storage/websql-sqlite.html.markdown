@@ -22,7 +22,7 @@ What this means in practice is the following
 
  - If you are building something that is a pure Web application then be aware of the risks and be prepared, in the future, to replace it. The most likely replacement will be IndexedDB, which is under development.
 
- - If you are compiling your Apps using our Phonegap/Cordova support, then use the special [SQLite Plugin](../../../ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/) for that. This is available for iOS and Android with more platforms to follow. With this approach it does not matter what happens at the browser level as the SQLite database library is a part of your application. See [SQLite](sqlite) .
+ - If you are compiling your Apps using our Phonegap/Cordova support, then use the special [SQLite Plugin](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/) for that. This is available for iOS and Android with more platforms to follow. With this approach it does not matter what happens at the browser level as the SQLite database library is a part of your application. See [SQLite](sqlite) .
 
 ## Typical Architecture
 

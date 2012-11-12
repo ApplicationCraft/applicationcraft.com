@@ -13,7 +13,7 @@ These functions allow values and entire instances to be saved outside the scope 
 <table>
 <tr>
 <td width="149">
-[setGlobalData()](setglobaldata)
+[setGlobalData()](global-data-pool-functions/setglobaldata)
 
 </td>
 <td width="12">
@@ -25,7 +25,7 @@ Save any data to a variable that exists independent of all Apps
 </tr>
 <tr>
 <td width="149">
-[getGlobalData()](getglobaldata)
+[getGlobalData()](global-data-pool-functions/getglobaldata)
 
 </td>
 <td width="12">
@@ -37,7 +37,7 @@ Gets data into a variable that was previously saved with setGlobalData()
 </tr>
 <tr>
 <td width="149">
-[clearGlobalData()](clearglobaldata)
+[clearGlobalData()](global-data-pool-functions/clearglobaldata)
 
 </td>
 <td width="12">

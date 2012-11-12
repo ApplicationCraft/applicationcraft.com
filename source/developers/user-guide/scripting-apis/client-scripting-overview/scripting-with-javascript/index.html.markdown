@@ -20,15 +20,15 @@ Refer to the [Client API](../../client-api/) section for full details about the 
 
 **In This Section:**
 
- - [Introduction](introduction/)
+ - [Introduction](scripting-with-javascript/introduction/)
 
- - [The Code Editor](the-code-editor/)
+ - [The Code Editor](scripting-with-javascript/the-code-editor/)
 
- - [Important Details](important-details/)
+ - [Important Details](scripting-with-javascript/important-details/)
 
- - [Widget Reading & Writing](widget-reading-writing/)
+ - [Widget Reading & Writing](scripting-with-javascript/widget-reading--writing/)
 
- - [Common Usage Examples](common-usage-examples/)
+ - [Common Usage Examples](scripting-with-javascript/common-usage-examples/)
 
 ## **See Also**
 

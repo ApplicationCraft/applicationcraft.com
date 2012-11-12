@@ -8,13 +8,13 @@ full_width: true
 
 **In This Section:**
 
- - [getResources()](getresources)
+ - [getResources()](resources-management/getresources)
 
- - [loadResourceFolders()](loadresourcefolders)
+ - [loadResourceFolders()](resources-management/loadresourcefolders)
 
- - [getSharedResources()](getsharedresources)
+ - [getSharedResources()](resources-management/getsharedresources)
 
- - [getSharedResourceFolders()](getsharedresourcefolders)
+ - [getSharedResourceFolders()](resources-management/getsharedresourcefolders)
 
 These functions are not currently documented. If you feel you require documentation for these, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) .
 

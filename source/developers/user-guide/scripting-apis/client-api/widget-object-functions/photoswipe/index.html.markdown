@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-[showGallery()](showgallery)
+[showGallery()](photoswipe/showgallery)
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ Show the Gallery/Start the slide Show
 </tr>
 <tr>
 <td width="182">
-[columnWidth()](columnwidth)
+[columnWidth()](photoswipe/columnwidth)
 
 </td>
 <td width="8">
@@ -35,7 +35,7 @@ Set the column width in the widget
 </tr>
 <tr>
 <td width="182">
-[getCurrentImage()](getcurrentimage)
+[getCurrentImage()](photoswipe/getcurrentimage)
 
 </td>
 <td width="8">
@@ -47,7 +47,7 @@ Allows you to get the currentImage
 </tr>
 <tr>
 <td width="182">
-[getCurrentImageIndex()](getcurrentimageindex)
+[getCurrentImageIndex()](photoswipe/getcurrentimageindex)
 
 </td>
 <td width="8">
@@ -59,7 +59,7 @@ Allows you to get the currentImage index
 </tr>
 <tr>
 <td width="182">
-[getPhotoswipeObject()](getphotoswipeobject)
+[getPhotoswipeObject()](photoswipe/getphotoswipeobject)
 
 </td>
 <td width="8">
@@ -71,7 +71,7 @@ Allows you to get the Photoswipe Object
 </tr>
 <tr>
 <td width="182">
-[populateWidget()](pswipepopulatewidget)
+[populateWidget()](photoswipe/pswipepopulatewidget)
 
 </td>
 <td width="8">

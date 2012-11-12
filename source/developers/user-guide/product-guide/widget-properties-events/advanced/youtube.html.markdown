@@ -10,7 +10,7 @@ The You Tube Widget lets you play You Tube videos in your apps.
 
 You can also access the You Tube player object with [getYoutubePlayer()](../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getyoutubeplayer) . For more information and other advanced use, see [https://developers.google.com/youtube/iframe\_api\_reference](https://developers.google.com/youtube/iframe_api_reference)
 
-If compiling for iOS, you will need to set the [PhoneGap App Options](../../../ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/enabling-device-features) property 'Open all links in WebView' to 'true'.
+If compiling for iOS, you will need to set the [PhoneGap App Options](../../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features) property 'Open all links in WebView' to 'true'.
 
 <table>
 <tr>
@@ -171,7 +171,7 @@ Repeat
 <td width="22">
 </td>
 <td width="765">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Anchors
 <td width="22">
 </td>
 <td width="765">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../content-and-app-layout/editing-and-laying-out--reference/widget-anchoring) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
 
 </td>
 </tr>

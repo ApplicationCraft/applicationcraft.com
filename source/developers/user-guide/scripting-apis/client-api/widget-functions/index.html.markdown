@@ -13,7 +13,7 @@ Most of these functions accept individual or arrays of Widgets specified as eith
 <table>
 <tr>
 <td width="149">
-[w()](w)
+[w()](widget-functions/w)
 
 </td>
 <td width="12">
@@ -25,7 +25,7 @@ You specify a Widget name, you get a Widget object back.
 </tr>
 <tr>
 <td width="149">
-[checkMandatory()](checkmandatory)
+[checkMandatory()](widget-functions/checkmandatory)
 
 </td>
 <td width="12">
@@ -37,7 +37,7 @@ Checks that required Widgets have been completed
 </tr>
 <tr>
 <td width="149">
-[highlightWidgets()](highlightwidgets)
+[highlightWidgets()](widget-functions/highlightwidgets)
 
 </td>
 <td width="12">
@@ -49,7 +49,7 @@ Highlights one or more Widgets to draw the Respondent's attention
 </tr>
 <tr>
 <td width="149">
-[unhighlightWidgets()](unhighlightwidgets)
+[unhighlightWidgets()](widget-functions/unhighlightwidgets)
 
 </td>
 <td width="12">
@@ -61,7 +61,7 @@ Remove highlighting
 </tr>
 <tr>
 <td width="149">
-[resetWidget()](resetwidget)
+[resetWidget()](widget-functions/resetwidget)
 
 </td>
 <td width="12">
@@ -85,7 +85,7 @@ This is a powerful and easy way of populating many Widgets including Grid, Repea
 </tr>
 <tr>
 <td width="149">
-[emptyWidget()](emptywidget)
+[emptyWidget()](widget-functions/emptywidget)
 
 </td>
 <td width="12">
@@ -97,7 +97,7 @@ Resets the contents of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[setProperty()](setproperty)
+[setProperty()](widget-functions/setproperty)
 
 </td>
 <td width="12">
@@ -109,7 +109,7 @@ Sets a property of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[getProperty()](getproperty)
+[getProperty()](widget-functions/getproperty)
 
 </td>
 <td width="12">
@@ -121,7 +121,7 @@ Gets any property of a single Widget
 </tr>
 <tr>
 <td width="149">
-[refreshData()](refreshdata)
+[refreshData()](widget-functions/refreshdata)
 
 </td>
 <td width="12">
@@ -133,7 +133,7 @@ Refresh the contents of a single Widget's data if bound to a Data View
 </tr>
 <tr>
 <td width="149">
-[getParent()](getparentwidget)
+[getParent()](widget-functions/getparentwidget)
 
 </td>
 <td width="12">
@@ -145,7 +145,7 @@ Returns the parent object of a Widget
 </tr>
 <tr>
 <td width="149">
-[createWidget()](createwidget)
+[createWidget()](widget-functions/createwidget)
 
 </td>
 <td width="12">
@@ -157,7 +157,7 @@ Allows you to dynamically create Widgets
 </tr>
 <tr>
 <td width="149">
-[deleteWidget()](deletewidget)
+[deleteWidget()](widget-functions/deletewidget)
 
 </td>
 <td width="12">
@@ -169,7 +169,7 @@ Allows you to dynamically delete Widgets
 </tr>
 <tr>
 <td width="149">
-[setFocus()](setfocus)
+[setFocus()](widget-functions/setfocus)
 
 </td>
 <td width="12">

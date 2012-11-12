@@ -12,15 +12,15 @@ One of the key principles behind Application Craft is to allow you to build Apps
 
 **In This Section:**
 
- - [Public Shared Scripts](public-shared-scripts)
+ - [Public Shared Scripts](client-scripting-overview/public-shared-scripts)
 
- - [Debugging AC Scripts](debugging-ac-scripts/)
+ - [Debugging AC Scripts](client-scripting-overview/debugging-ac-scripts/)
 
- - [Error Handling](error-handling/)
+ - [Error Handling](client-scripting-overview/error-handling/)
 
- - [Network Availability Handling](network-availability-handling)
+ - [Network Availability Handling](client-scripting-overview/network-availability-handling)
 
- - [Scripting with Javascript](scripting-with-javascript/)
+ - [Scripting with Javascript](client-scripting-overview/scripting-with-javascript/)
 
- - [Populating Charts from Script](populating-charts-from-script)
+ - [Populating Charts from Script](client-scripting-overview/populating-charts-from-script)
 

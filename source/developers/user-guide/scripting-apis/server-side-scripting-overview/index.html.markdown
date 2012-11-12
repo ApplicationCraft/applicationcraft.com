@@ -10,25 +10,25 @@ Your server side scripts are also written in Javascript. Much like client side s
 
 The main reason for writing server side scripts is to execute certain processes more securely than on the client. You should consider all client scripts inherently unsecure as they can easily be tampered with. By executing a script on the server, it is not possible for anyone to tamper with that script before executing it.
 
-The most common usage of SSJ is to write your database layer. Application Craft has a set of database handling functions that make database handling extremely easy and powerful. Please refer to the section [Database Handling with SSJ](database-handling-with-ssj) for more information.
+The most common usage of SSJ is to write your database layer. Application Craft has a set of database handling functions that make database handling extremely easy and powerful. Please refer to the section [Database Handling with SSJ](server-side-scripting-overview/database-handling-with-ssj) for more information.
 
 **In this Section:**
 
- - [Where to Write SSJ Scripts](where-to-write-ssj-scripts)
+ - [Where to Write SSJ Scripts](server-side-scripting-overview/where-to-write-ssj-scripts)
 
- - [Database Handling with SSJ](database-handling-with-ssj)
+ - [Database Handling with SSJ](server-side-scripting-overview/database-handling-with-ssj)
 
- - [Writing Secure Code](writing-secure-code)
+ - [Writing Secure Code](server-side-scripting-overview/writing-secure-code)
 
- - [SSJ Events](ssj-events/)
+ - [SSJ Events](server-side-scripting-overview/ssj-events/)
 
- - [Defining SSJ Methods](ssj-user-defined-methods)
+ - [Defining SSJ Methods](server-side-scripting-overview/ssj-user-defined-methods)
 
- - [Including Public Server Side Scripts](including-public-server-side-s)
+ - [Including Public Server Side Scripts](server-side-scripting-overview/including-public-server-side-s)
 
- - [Calling SSJ Methods](calling-ssj-methods)
+ - [Calling SSJ Methods](server-side-scripting-overview/calling-ssj-methods)
 
- - [Debugging](debugging2)
+ - [Debugging](server-side-scripting-overview/debugging2)
 
 Related Video:
 

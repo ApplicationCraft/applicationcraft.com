@@ -20,5 +20,5 @@ Your App will want to submit data at some point and this can be done in the foll
 
 ## See Also
 
- - [Instance Handling with Javascript](instance-handling-with-javascr)
+ - [Instance Handling with Javascript](submitting-an-instance/instance-handling-with-javascr)
 

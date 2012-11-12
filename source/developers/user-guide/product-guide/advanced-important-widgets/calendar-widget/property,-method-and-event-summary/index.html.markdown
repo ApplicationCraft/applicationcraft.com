@@ -8,9 +8,9 @@ full_width: true
 
 **In This Section:**
 
- - [Properties](calendarproperties)
+ - [Properties](property,-method-and-event-summary/calendarproperties)
 
- - [Events](calendarevents)
+ - [Events](property,-method-and-event-summary/calendarevents)
 
- - [Methods](calendarmethods)
+ - [Methods](property,-method-and-event-summary/calendarmethods)
 

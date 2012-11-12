@@ -24,5 +24,5 @@ The purpose of this widget is to make working with maps as easy as it possibly c
 
  - Data Integration support so you can build an Application Craft query and then populate markers directly to a map
 
- - [populateWidget()](using-populatewidget) support allowing easy mapping of any JSON data structure to a map
+ - [populateWidget()](google-v3-maps-widget/using-populatewidget) support allowing easy mapping of any JSON data structure to a map
 

@@ -8,11 +8,11 @@ full_width: true
 
 **In This Section:**
 
-[Widgets](widgets/)
+[Widgets](more/widgets/)
 
-[Account Variables](account-variables/)
+[Account Variables](more/account-variables/)
 
-[Users & Groups](users-groups/)
+[Users & Groups](more/users--groups/)
 
-[My User Variables](my-details)
+[My User Variables](more/my-details)
 

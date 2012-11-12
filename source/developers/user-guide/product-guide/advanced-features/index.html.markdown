@@ -8,43 +8,43 @@ full_width: true
 
 **In This Section:**
 
-[Multi Language Apps](multi-language-apps/)
+[Multi Language Apps](advanced-features/multi-language-apps/)
 
-[Credit Card Payment Processing](credit-card-payment-processing/)
+[Credit Card Payment Processing](advanced-features/credit-card-payment-processing/)
 
-[Accessing Data in other Apps, Databases and APIs](accessing-data-in-other-apps,-databases-and-apis/)
+[Accessing Data in other Apps, Databases and APIs](advanced-features/accessing-data-in-other-apps,-databases-and-apis/)
 
-[Advertising](pro-account-advertising)
+[Advertising](advanced-features/pro-account-advertising)
 
-[Data Storage & Management](data-storage-management/)
+[Data Storage & Management](advanced-features/data-storage--management/)
 
-[Google Analytics](google-analytics/)
+[Google Analytics](advanced-features/google-analytics/)
 
-[Data Integration, Reporting & Dashboards](data-integration,-reporting-dashboards/)
+[Data Integration, Reporting & Dashboards](advanced-features/data-integration,-reporting--dashboards/)
 
-[Embedding Apps within Apps](embedding-apps-within-apps/)
+[Embedding Apps within Apps](advanced-features/embedding-apps-within-apps/)
 
-[Authentication for Your Apps](authentication-for-your-apps/)
+[Authentication for Your Apps](advanced-features/authentication-for-your-apps/)
 
-[Passing Parameters into Apps](passing-parameters-into-apps/)
+[Passing Parameters into Apps](advanced-features/passing-parameters-into-apps/)
 
-[Testing Apps](testing-apps/)
+[Testing Apps](advanced-features/testing-apps/)
 
-[Deploying & Embedding Apps](deploying-embedding-apps/)
+[Deploying & Embedding Apps](advanced-features/deploying--embedding-apps/)
 
-[Logging Support](logging-support/)
+[Logging Support](advanced-features/logging-support/)
 
-[Workflow](workflow/)
+[Workflow](advanced-features/workflow/)
 
-[Data Lists Management](data-lists-management/)
+[Data Lists Management](advanced-features/data-lists-management/)
 
-[Printing](printing/)
+[Printing](advanced-features/printing/)
 
-[Custom CSS Classes](custom-css-classes/)
+[Custom CSS Classes](advanced-features/custom-css-classes/)
 
-[Twirly Thing/Hourglass](twirly-thing/hourglass/)
+[Twirly Thing/Hourglass](advanced-features/twirly-thing/hourglass/)
 
-[oAuth](oauth/)
+[oAuth](advanced-features/oauth/)
 
 Video Tutorials can be found on our [Training Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) page
 

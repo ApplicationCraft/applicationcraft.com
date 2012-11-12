@@ -28,21 +28,21 @@ The exec() function returns the result set that can then be passed back to your 
 
 **In This Section:**
 
- - [select()](select)
+ - [select()](select-handling/select)
 
- - [select().from()](select-from)
+ - [select().from()](select-handling/select-from)
 
- - [select().where()](select-where)
+ - [select().where()](select-handling/select-where)
 
- - [select().orWhere()](orwhere)
+ - [select().orWhere()](select-handling/orwhere)
 
- - [select().group()](select-group)
+ - [select().group()](select-handling/select-group)
 
- - [select().order()](select-order)
+ - [select().order()](select-handling/select-order)
 
- - [select().join()](select-join)
+ - [select().join()](select-handling/select-join)
 
- - [select().limit()](select-limit)
+ - [select().limit()](select-handling/select-limit)
 
- - [getSql()](getsql)
+ - [getSql()](select-handling/getsql)
 

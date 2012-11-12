@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-[setSectionState()](statesection)
+[setSectionState()](accordion/statesection)
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ Allows you to set the section state (true - open, false - closed)
 </tr>
 <tr>
 <td width="182">
-[getSectionState()](getsectionstate)
+[getSectionState()](accordion/getsectionstate)
 
 </td>
 <td width="8">

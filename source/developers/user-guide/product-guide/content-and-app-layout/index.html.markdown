@@ -8,9 +8,9 @@ full_width: true
 
 **In This Section:**
 
- - [Introduction](introduction/)
+ - [Introduction](content-and-app-layout/introduction/)
 
- - [Responsive / Adaptive / Fluid Design](responsive-/-adaptive-/-fluid-design/)
+ - [Responsive / Adaptive / Fluid Design](content-and-app-layout/responsive-/-adaptive-/-fluid-design/)
 
- - [Editing and Laying Out - Reference](editing-and-laying-out--reference/)
+ - [Editing and Laying Out - Reference](content-and-app-layout/editing-and-laying-out--reference/)
 

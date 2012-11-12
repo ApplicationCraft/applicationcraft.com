@@ -8,29 +8,29 @@ full_width: true
 
 **In This Section:**
 
- - [Important Mobile Widgets](important-mobile-widgets/)
+ - [Important Mobile Widgets](advanced--important-widgets/important-mobile-widgets/)
 
- - [Power Widgets](power-widgets/)
+ - [Power Widgets](advanced--important-widgets/power-widgets/)
 
- - [Google V3 Maps Widget](google-v3-maps-widget/)
+ - [Google V3 Maps Widget](advanced--important-widgets/google-v3-maps-widget/)
 
- - [Image Maps and Emoticons](image-maps-and-emoticons/)
+ - [Image Maps and Emoticons](advanced--important-widgets/image-maps-and-emoticons/)
 
- - [Working with the Timeline Widget](working-with-the-timeline-widget/)
+ - [Working with the Timeline Widget](advanced--important-widgets/working-with-the-timeline-widget/)
 
- - [Video & Audio Widgets](video-audio-widgets/)
+ - [Video & Audio Widgets](advanced--important-widgets/video--audio-widgets/)
 
- - [Photoswipe](photoswipe/)
+ - [Photoswipe](advanced--important-widgets/photoswipe/)
 
- - [Calendar Widget](calendar-widget/)
+ - [Calendar Widget](advanced--important-widgets/calendar-widget/)
 
- - [Zing Charts](zing-charts/)
+ - [Zing Charts](advanced--important-widgets/zing-charts/)
 
- - [Circle Menu Widget](circle-menu-widget/)
+ - [Circle Menu Widget](advanced--important-widgets/circle-menu-widget/)
 
- - [Scandit Widget](scandit-widget/)
+ - [Scandit Widget](advanced--important-widgets/scandit-widget/)
 
- - [Share This Widget](share-this-widget/)
+ - [Share This Widget](advanced--important-widgets/share-this-widget/)
 
- - [Credit Card Payments](credit-card-payments)
+ - [Credit Card Payments](advanced--important-widgets/credit-card-payments)
 

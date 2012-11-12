@@ -10,19 +10,19 @@ full_width: true
 
 **In This Section:**
 
-[Apps](applications)
+[Apps](console-tabs/applications)
 
-[Resources](resources)
+[Resources](console-tabs/resources)
 
-[Themes](themes-overview)
+[Themes](console-tabs/themes-overview)
 
-[Connections](connections/)
+[Connections](console-tabs/connections/)
 
-[Queries](queries/)
+[Queries](console-tabs/queries/)
 
-[Notifiers](notifiers)
+[Notifiers](console-tabs/notifiers)
 
-[More](more/)
+[More](console-tabs/more/)
 
 [Import/Export](../import/export/)
 

@@ -8,8 +8,8 @@ full_width: true
 
 **In This Section:**
 
-[Widget Properties](widget-properties)
+[Widget Properties](property,-event,-method-summary/widget-properties)
 
-[Events](gmapevents)
+[Events](property,-event,-method-summary/gmapevents)
 
-[Methods](methods)
+[Methods](property,-event,-method-summary/methods)

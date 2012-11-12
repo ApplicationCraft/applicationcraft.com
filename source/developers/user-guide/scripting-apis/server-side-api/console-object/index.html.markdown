@@ -8,7 +8,7 @@ full_width: true
 
 **In This Section:**
 
- - [log()](log)
+ - [log()](console-object/log)
 
- - [dir()](dir)
+ - [dir()](console-object/dir)
 

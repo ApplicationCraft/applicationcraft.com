@@ -14,7 +14,7 @@ IMPORTANT
 
 Depending on how you set the App’s Storage property, you can report on CDB and/or RDB data.
 
- - Save Instances - this guarantees that the CDB data can be reported on as described below. See [Instance (CDB) Data](instance-cdb-data)
+ - Save Instances - this guarantees that the CDB data can be reported on as described below. See [Instance (CDB) Data](to-use-cdb-or-rdb-data/instance-cdb-data)
 
- - Save Instances and add to Reporting - this allows you to also report on individual fields within the App. See [Reporting (RDB) Data](reporting-rdb-data)
+ - Save Instances and add to Reporting - this allows you to also report on individual fields within the App. See [Reporting (RDB) Data](to-use-cdb-or-rdb-data/reporting-rdb-data)
 

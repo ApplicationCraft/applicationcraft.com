@@ -8,13 +8,13 @@ full_width: true
 
 **In This Section:**
 
- - [User Management](user-management/)
+ - [User Management](sys-object/user-management/)
 
- - [Group Management](group-management/)
+ - [Group Management](sys-object/group-management/)
 
- - [App Management](app-management/)
+ - [App Management](sys-object/app-management/)
 
- - [Resources Management](resources-management/)
+ - [Resources Management](sys-object/resources-management/)
 
- - [Queries Management](queries-management/)
+ - [Queries Management](sys-object/queries-management/)
 

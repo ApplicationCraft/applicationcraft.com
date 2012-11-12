@@ -10,7 +10,7 @@ You can import and export your [Apps](../../console-tabs/applications) , [Resour
 
 **In This Section:**
 
- - [Export](export)
+ - [Export](import/export/export)
 
- - [Import](import)
+ - [Import](import/export/import)
 

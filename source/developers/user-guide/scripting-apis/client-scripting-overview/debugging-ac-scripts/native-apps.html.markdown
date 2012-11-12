@@ -40,7 +40,7 @@ Related Video:
 
 ## Weinre Debugger
 
-This debugger is available if you are using PhoneGap:Build and use either the [Manual Building](../../../ac-mobile-build-phonegap-cordova/phonegapbuild/manual-building) approach or if you use the [Automatic Building](../../../ac-mobile-build-phonegap-cordova/phonegapbuild/building-the-native-apps) but shut down the Application Craft build window and leave it closed.
+This debugger is available if you are using PhoneGap:Build and use either the [Manual Building](../../../ac-mobile-build-phonegap/cordova/phonegapbuild/manual-building) approach or if you use the [Automatic Building](../../../ac-mobile-build-phonegap/cordova/phonegapbuild/building-the-native-apps) but shut down the Application Craft build window and leave it closed.
 
 Any console.log() or app.debugOutput() allow you to write to the Weinre Console.
 

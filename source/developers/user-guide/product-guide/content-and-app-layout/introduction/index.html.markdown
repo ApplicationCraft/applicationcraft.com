@@ -12,22 +12,22 @@ Sorry we mention this a lot, but a really good way to learn how to build Apps is
 
 **In This Section:**
 
-[Creating a New Content App](creating-a-new-content-app)
+[Creating a New Content App](introduction/creating-a-new-content-app)
 
-[Designer Screen](designer-screen)
+[Designer Screen](introduction/designer-screen)
 
-[Pages](pagesintro)
+[Pages](introduction/pagesintro)
 
-[Understanding Widgets](understanding-widgets)
+[Understanding Widgets](introduction/understanding-widgets)
 
-[Mobile Widgets](mobile-widgets)
+[Mobile Widgets](introduction/mobile-widgets)
 
-[Setting a Margin](setting-a-margin)
+[Setting a Margin](introduction/setting-a-margin)
 
-[Table Widget](table-widget)
+[Table Widget](introduction/table-widget)
 
-[Working with Blocks of Text](working-with-blocks-of-text)
+[Working with Blocks of Text](introduction/working-with-blocks-of-text)
 
-[Managing Images](managing-images)
+[Managing Images](introduction/managing-images)
 
-[Themes & Styles](themes-styles/)
+[Themes & Styles](introduction/themes--styles/)

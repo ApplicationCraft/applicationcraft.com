@@ -37,5 +37,5 @@ Returns the Google Maps API object
 
 ## **See Also**
 
- - [Advanced - Accessing the Google Object](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/advanced--accessing-the-googl)
+ - [Advanced - Accessing the Google Object](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/advanced-accessing-the-googl)
 

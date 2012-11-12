@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[Page Transitions](page-transitions)
+[Page Transitions](page-functions/page-transitions)
 
 </td>
 <td width="12">
@@ -23,7 +23,7 @@ Supported animated page transitions
 </tr>
 <tr>
 <td width="149">
-[currentPage()](currentpage)
+[currentPage()](page-functions/currentpage)
 
 </td>
 <td width="12">
@@ -35,7 +35,7 @@ This returns the object of the currently displayed page
 </tr>
 <tr>
 <td width="149">
-[pageBack()](pageback)
+[pageBack()](page-functions/pageback)
 
 </td>
 <td width="12">
@@ -47,7 +47,7 @@ Jumps to the Page in the App that the current page was called from
 </tr>
 <tr>
 <td width="149">
-[pageCalling()](pagecalling)
+[pageCalling()](page-functions/pagecalling)
 
 </td>
 <td width="12">
@@ -59,7 +59,7 @@ Return to the Page that called the current page
 </tr>
 <tr>
 <td width="149">
-[pageJump()](pagejump)
+[pageJump()](page-functions/pagejump)
 
 </td>
 <td width="12">
@@ -71,7 +71,7 @@ Jump to a specific page
 </tr>
 <tr>
 <td width="149">
-[pageNext()](pagenext)
+[pageNext()](page-functions/pagenext)
 
 </td>
 <td width="12">
@@ -83,7 +83,7 @@ Jump to the next sequential page
 </tr>
 <tr>
 <td width="149">
-[pagePrevious()](pageprevious)
+[pagePrevious()](page-functions/pageprevious)
 
 </td>
 <td width="12">
@@ -95,7 +95,7 @@ Jump to the previous sequential page
 </tr>
 <tr>
 <td width="149">
-[showPagePopup()](showpagepopup)
+[showPagePopup()](page-functions/showpagepopup)
 
 </td>
 <td width="12">
@@ -107,7 +107,7 @@ Allows you to  display any AC page as a popup dialog
 </tr>
 <tr>
 <td width="149">
-[closePagePopup()](closepagepopup)
+[closePagePopup()](page-functions/closepagepopup)
 
 </td>
 <td width="12">

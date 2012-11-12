@@ -8,39 +8,39 @@ full_width: true
 
 **In This Section:**
 
- - [appId()](appid)
+ - [appId()](miscellaneous/appid)
 
- - [appName()](appname)
+ - [appName()](miscellaneous/appname)
 
- - [id()](id) - Deprecated
+ - [id()](miscellaneous/id) - Deprecated
 
- - [getLatestError()](getlatesterror)
+ - [getLatestError()](miscellaneous/getlatesterror)
 
- - [getLoggedUser()](getloggeduser2)
+ - [getLoggedUser()](miscellaneous/getloggeduser2)
 
- - [setUserParameter()](setuserparameter)
+ - [setUserParameter()](miscellaneous/setuserparameter)
 
- - [getUserParameter()](getuserparameter)
+ - [getUserParameter()](miscellaneous/getuserparameter)
 
- - [sendEmail()](sendemail2)
+ - [sendEmail()](miscellaneous/sendemail2)
 
- - [sleep()](sleep)
+ - [sleep()](miscellaneous/sleep)
 
- - [hash()](cryptblowfish)
+ - [hash()](miscellaneous/cryptblowfish)
 
- - [checkHash()](checkcryptblowfish)
+ - [checkHash()](miscellaneous/checkcryptblowfish)
 
- - [md5()](md5)
+ - [md5()](miscellaneous/md5)
 
- - [getUUID()](getuuid)
+ - [getUUID()](miscellaneous/getuuid)
 
- - [OBJ2JSON](obj2json)
+ - [OBJ2JSON](miscellaneous/obj2json)
 
- - [JSON2OBJ](json2obj)
+ - [JSON2OBJ](miscellaneous/json2obj)
 
- - [OBJ2XML](obj2xml)
+ - [OBJ2XML](miscellaneous/obj2xml)
 
- - [XML2OBJ](xml2obj)
+ - [XML2OBJ](miscellaneous/xml2obj)
 
  - [printApp()](../../../client-api/app-functions/printapp)
 

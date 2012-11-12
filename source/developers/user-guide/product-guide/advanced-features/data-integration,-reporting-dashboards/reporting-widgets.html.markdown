@@ -12,7 +12,7 @@ There are a large number of Widgets that are capable of accessing a View.
 
 These are fields that can hold a single data value. As such, they will be linked to either a) an aggregate function such as Sum() or Count() that aggregate many rows of data into a single total or number. or b) a filtered query that only returns a single row of data, from which one field is taken.
 
- - [Group](../../content-and-app-layout/editing-and-laying-out--reference/widget-grouping)
+ - [Group](../../content-and-app-layout/editing-and-laying-out-reference/widget-grouping)
 
  - [Radio Button](../../widget-properties-events/common/radio-button)
 

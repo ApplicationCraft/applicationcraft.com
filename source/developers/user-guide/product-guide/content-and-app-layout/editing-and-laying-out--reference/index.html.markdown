@@ -8,49 +8,49 @@ full_width: true
 
 **In This Section:**
 
-[Must Read Layout Tips and Tricks](must-read-layout-tips-and-tric)
+[Must Read Layout Tips and Tricks](editing-and-laying-out--reference/must-read-layout-tips-and-tric)
 
-[The Widget Explorer](the-widget-explorer)
+[The Widget Explorer](editing-and-laying-out--reference/the-widget-explorer)
 
-[Repeating Widgets Across Multiple Pages](repeating-widgets-across-multi)
+[Repeating Widgets Across Multiple Pages](editing-and-laying-out--reference/repeating-widgets-across-multi)
 
-[Widget Alignment](widget-alignment-distribution)
+[Widget Alignment](editing-and-laying-out--reference/widget-alignment-distribution)
 
-[Drag Alignment](drag-alignment)
+[Drag Alignment](editing-and-laying-out--reference/drag-alignment)
 
-[Selection & Multi Selection](selection-multi-selection)
+[Selection & Multi Selection](editing-and-laying-out--reference/selection-multi-selection)
 
-[Showing container outlines](showing-container-outlines)
+[Showing container outlines](editing-and-laying-out--reference/showing-container-outlines)
 
-[Menus and Navigation](menus-and-navigation)
+[Menus and Navigation](editing-and-laying-out--reference/menus-and-navigation)
 
-[Anchoring](widget-anchoring)
+[Anchoring](editing-and-laying-out--reference/widget-anchoring)
 
-[Reverting to Theme Style](reverting-to-theme-style)
+[Reverting to Theme Style](editing-and-laying-out--reference/reverting-to-theme-style)
 
-[Widget Layer / Z-Order](layer--z-order)
+[Widget Layer / Z-Order](editing-and-laying-out--reference/layer--z-order)
 
-[Widget Grouping](widget-grouping)
+[Widget Grouping](editing-and-laying-out--reference/widget-grouping)
 
-[Undo & Redo](undo-redo)
+[Undo & Redo](editing-and-laying-out--reference/undo-redo)
 
-[Clipboard](clipboard)
+[Clipboard](editing-and-laying-out--reference/clipboard)
 
-[Page Order](page-order)
+[Page Order](editing-and-laying-out--reference/page-order)
 
-[Tab Order](tab-order)
+[Tab Order](editing-and-laying-out--reference/tab-order)
 
-[Equal Spacing](equal-spacing)
+[Equal Spacing](editing-and-laying-out--reference/equal-spacing)
 
-[Equal Sizing](equal-sizing)
+[Equal Sizing](editing-and-laying-out--reference/equal-sizing)
 
-[Equal Distribution](equal-distribution)
+[Equal Distribution](editing-and-laying-out--reference/equal-distribution)
 
-[Snap to Grid](snap-to-grid)
+[Snap to Grid](editing-and-laying-out--reference/snap-to-grid)
 
-[Referencing Documents & Files](referencing-documents-files)
+[Referencing Documents & Files](editing-and-laying-out--reference/referencing-documents-files)
 
-[Adding Audio & Video](adding-audio-video)
+[Adding Audio & Video](editing-and-laying-out--reference/adding-audio-video)
 
-[Working with Images](working-with-images)
+[Working with Images](editing-and-laying-out--reference/working-with-images)
 

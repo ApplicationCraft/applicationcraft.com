@@ -394,7 +394,7 @@ Snap to grid
 <td width="19">
 </td>
 <td width="765">
-This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice [Drag Alignment](../content-and-app-layout/editing-and-laying-out--reference/widget-alignment-distribution) feature.
+This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice [Drag Alignment](../content-and-app-layout/editing-and-laying-out-reference/widget-alignment-distribution) feature.
 
 </td>
 </tr>

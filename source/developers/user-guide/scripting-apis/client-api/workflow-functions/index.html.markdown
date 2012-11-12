@@ -13,7 +13,7 @@ These functions allow you to assign data instances to Roles, Persons and Groups.
 <table>
 <tr>
 <td width="230">
-[assignToRole()](assigntorole)
+[assignToRole()](workflow-functions/assigntorole)
 
 </td>
 <td width="13">
@@ -25,7 +25,7 @@ Assigns a Person or Group to a Role for a specified App (can also be [done manua
 </tr>
 <tr>
 <td width="230">
-[unassignFromRole()](unassignfromrole)
+[unassignFromRole()](workflow-functions/unassignfromrole)
 
 </td>
 <td width="13">
@@ -37,7 +37,7 @@ Removes a Person or Group from a Role  for a specified App
 </tr>
 <tr>
 <td width="230">
-[currentUserRole()](currentuserrole)
+[currentUserRole()](workflow-functions/currentuserrole)
 
 </td>
 <td width="13">
@@ -49,7 +49,7 @@ Returns the Role (if there is one) of the currently logged in User / Person
 </tr>
 <tr>
 <td width="230">
-[getAssignedRoles()](getassignedroles)
+[getAssignedRoles()](workflow-functions/getassignedroles)
 
 </td>
 <td width="13">
@@ -61,7 +61,7 @@ Returns a list of all Roles that are currently assigned to a specified instance
 </tr>
 <tr>
 <td width="230">
-[setStage()](setstage)
+[setStage()](workflow-functions/setstage)
 
 </td>
 <td width="13">
@@ -73,7 +73,7 @@ Changes the Stage for the currently loaded Instance
 </tr>
 <tr>
 <td width="230">
-[getStage()](getstage)
+[getStage()](workflow-functions/getstage)
 
 </td>
 <td width="13">
@@ -85,7 +85,7 @@ Enables you to get the current stage of the currently loaded instance
 </tr>
 <tr>
 <td width="230">
-[assignInstance()](assigninstance)
+[assignInstance()](workflow-functions/assigninstance)
 
 </td>
 <td width="13">
@@ -97,7 +97,7 @@ Assigns the specified instance id to a Role, Person or Group and assigns it an [
 </tr>
 <tr>
 <td width="230">
-[cancelAssignments()](cancelassignments)
+[cancelAssignments()](workflow-functions/cancelassignments)
 
 </td>
 <td width="13">
@@ -109,7 +109,7 @@ Cancels an existing assignment for a specified instance for a Role, Group or Per
 </tr>
 <tr>
 <td width="230">
-[notify()](notify)
+[notify()](workflow-functions/notify)
 
 </td>
 <td width="13">
@@ -121,7 +121,7 @@ Sends a notification (typically email) to one or more Role, Group or Person and 
 </tr>
 <tr>
 <td width="230">
-[cancelNotifications()](cancelnotificationsforinstance)
+[cancelNotifications()](workflow-functions/cancelnotificationsforinstance)
 
 </td>
 <td width="13">

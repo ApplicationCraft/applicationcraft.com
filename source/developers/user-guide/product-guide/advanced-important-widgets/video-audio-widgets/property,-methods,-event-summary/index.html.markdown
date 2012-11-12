@@ -8,9 +8,9 @@ full_width: true
 
 **In This Section:**
 
- - [Properties](properties)
+ - [Properties](property,-methods,-event-summary/properties)
 
- - [Events](videvents)
+ - [Events](property,-methods,-event-summary/videvents)
 
- - [Methods](vidmethods)
+ - [Methods](property,-methods,-event-summary/vidmethods)
 

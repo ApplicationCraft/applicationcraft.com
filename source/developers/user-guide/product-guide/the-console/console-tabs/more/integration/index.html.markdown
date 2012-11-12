@@ -20,5 +20,5 @@ Connections and Queries are built within the console, often by a Data Administra
 
  - [Queries](../../queries/)
 
- - [Integration Agents](integration-agents/)
+ - [Integration Agents](integration/integration-agents/)
 

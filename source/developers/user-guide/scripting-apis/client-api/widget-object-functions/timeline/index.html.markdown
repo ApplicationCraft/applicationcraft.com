@@ -13,7 +13,7 @@ Refer to the [Working with the Timeline Widget](../../../../product-guide/advanc
 <table>
 <tr>
 <td width="162">
-[fitData()](fitdata)
+[fitData()](timeline/fitdata)
 
 </td>
 <td width="21">
@@ -25,7 +25,7 @@ Adjusts the date range of a Timeline widget to accommodate all events loaded int
 </tr>
 <tr>
 <td width="162">
-[scroll()](scroll)
+[scroll()](timeline/scroll)
 
 </td>
 <td width="21">
@@ -37,7 +37,7 @@ This will scroll the timeline display area the specified number of days.
 </tr>
 <tr>
 <td width="162">
-[scrollTo()](tlscrollto)
+[scrollTo()](timeline/tlscrollto)
 
 </td>
 <td width="21">
@@ -49,7 +49,7 @@ This will scroll to a defined date
 </tr>
 <tr>
 <td width="162">
-[Events](eventstimeline)
+[Events](timeline/eventstimeline)
 
 </td>
 <td width="21">

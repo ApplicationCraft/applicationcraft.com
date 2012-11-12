@@ -56,7 +56,7 @@ populateWidget() is passed an array of data to populate in the second parameter.
 
 ## Wizard
 
-To make your life even easier, please read about the [Map Object Wizard](populatewidget-wizard) .
+To make your life even easier, please read about the [Map Object Wizard](populatewidget/populatewidget-wizard) .
 
 ## The Map Object
 
@@ -82,7 +82,7 @@ and here is one used for mapping data into a Mobile List, where it is possible t
 
 Below you will find links to more detailed examples for each Widget that can have data populated with populateWidget().
 
-Map objects can get very complex and can support mapping from very complex, nested objects. Please refer to [Complex JSON Examples](complex-json-example) for more information.
+Map objects can get very complex and can support mapping from very complex, nested objects. Please refer to [Complex JSON Examples](populatewidget/complex-json-example) for more information.
 
 **Elements per Page**
 
@@ -102,27 +102,27 @@ You can speed things up, also valid for desktop apps
 
 The following Widgets are covered in subtopics
 
- - [ListBoxes, Dropdowns and Context Menu Examples](listbox--dropdown-example)
+ - [ListBoxes, Dropdowns and Context Menu Examples](populatewidget/listbox--dropdown-example)
 
- - [Mobile List](mobile-list-example)
+ - [Mobile List](populatewidget/mobile-list-example)
 
- - [Repeater Container Example](repeater-container-example)
+ - [Repeater Container Example](populatewidget/repeater-container-example)
 
- - [Advanced Google Maps](advanced-google-maps-example)
+ - [Advanced Google Maps](populatewidget/advanced-google-maps-example)
 
- - [Video Example](audio-video-example)
+ - [Video Example](populatewidget/audio-video-example)
 
- - [Photoswipe Example](photoswipe-example)
+ - [Photoswipe Example](populatewidget/photoswipe-example)
 
- - [Timeline](timeline-example)
+ - [Timeline](populatewidget/timeline-example)
 
- - [Calendar Widget](calendar-widget2)
+ - [Calendar Widget](populatewidget/calendar-widget2)
 
- - [Mobiscroll List](mobiscroll-list2)
+ - [Mobiscroll List](populatewidget/mobiscroll-list2)
 
- - [Zing Charts](zingcharts)
+ - [Zing Charts](populatewidget/zingcharts)
 
- - [Flot Charts](flot-charts2)
+ - [Flot Charts](populatewidget/flot-charts2)
 
 ## See Also
 

@@ -20,11 +20,11 @@ The following topics should be understood in order to build these solutions
 
 **In This Section:**
 
- - [Important Points Before you Start](important-points-before-you-st)
+ - [Important Points Before you Start](server-side-data-storage/important-points-before-you-st)
 
- - [MUST READ: Security and SQL Injection](security-and-sql-injection)
+ - [MUST READ: Security and SQL Injection](server-side-data-storage/security-and-sql-injection)
 
- - [A Simple Example](a-simple-example/)
+ - [A Simple Example](server-side-data-storage/a-simple-example/)
 
  - [Create the Example Database](a-simple-example/create-the-example-database)
 
@@ -32,13 +32,13 @@ The following topics should be understood in order to build these solutions
 
  - [Server Side Javascript](a-simple-example/server-side-javascript)
 
- - [Functions and Complex Expressions](handling-sql-expressions)
+ - [Functions and Complex Expressions](server-side-data-storage/handling-sql-expressions)
 
- - [Callbacks to your Client Scripts](callbacks-to-your-client-scrip)
+ - [Callbacks to your Client Scripts](server-side-data-storage/callbacks-to-your-client-scrip)
 
- - [Error Handling](error-handling)
+ - [Error Handling](server-side-data-storage/error-handling)
 
- - [Exposing your SSJ DB handlers to other systems](exposing-your-ssj-db-handlers)
+ - [Exposing your SSJ DB handlers to other systems](server-side-data-storage/exposing-your-ssj-db-handlers)
 
 Related Video:
 

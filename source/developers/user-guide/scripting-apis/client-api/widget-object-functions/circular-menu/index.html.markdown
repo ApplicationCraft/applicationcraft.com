@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-[open()](open2)
+[open()](circular-menu/open2)
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ Open the Circular Menu
 </tr>
 <tr>
 <td width="182">
-[close()](close)
+[close()](circular-menu/close)
 
 </td>
 <td width="8">

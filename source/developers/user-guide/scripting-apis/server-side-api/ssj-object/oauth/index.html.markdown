@@ -8,5 +8,5 @@ full_width: true
 
 **In This Section:**
 
- - [oAuthRequest()](oauthrequest)
+ - [oAuthRequest()](oauth/oauthrequest)
 
