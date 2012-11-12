@@ -46,11 +46,15 @@ $ ->
 $ ->
   if $('.tree').length > 0
 
-    # Handle blog images
-    if (images = $('body.developers .docs article img')).length > 0
-      # images.attr 'align', 'left'
-      images.css 'margin', '0 25px 15px 0'
+    # Handle images
+    if (images = $('body.developers .docs article :not(a)>img')).length > 0
       images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
+
+
+    # Handle video links so they open in fancybox
+    if (videos = $("body.developers .docs article a[href*='youtube']")).length > 0
+      videos.addClass 'fancybox fancybox.iframe'
+
 
     # Add/remove classes depending upon the collapsed state.
     $('.tree div>span').on 'click', ->
@@ -88,7 +92,9 @@ $ ->
 
 
     # Expands the tree to the current URL
-    if (selected = $(".tree a[href='#{document.location.pathname}']")).length > 0
+    path = document.location.pathname
+    if path.substr(-1) == '/' then path = path.slice(0, path.length-1)
+    if (selected = $(".tree a[href='#{path}']")).length > 0
       if selected.parent().find('>span')
         li = selected.parent().parent()
       else
