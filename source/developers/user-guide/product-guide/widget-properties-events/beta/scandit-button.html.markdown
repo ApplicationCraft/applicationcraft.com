@@ -8,7 +8,7 @@ full_width: true
 
 The Scandit Button Widget should be considered to be in a Beta state until mention of it is removed from the documentation and is accessible from the Common section of the Toolbox
 
-This widget allows you to scan barcodes and other codes in your Native Apps using the [Scandit](http://www.scandit.com/) barcode scanner and the [Scandit Free](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free) plugin.
+This widget allows you to scan barcodes and other codes in your Native Apps using the [Scandit](http://www.scandit.com/) barcode scanner and the [Scandit Free](../../../ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/scandit-free) plugin.
 
 <table>
 <tr>

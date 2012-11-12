@@ -24,5 +24,5 @@ The following Application Craft events can be triggered by your device
 
 ## **See Also**
 
- - [Mobile Native App Events](../../../product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
+ - [Mobile Native App Events](../../product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 

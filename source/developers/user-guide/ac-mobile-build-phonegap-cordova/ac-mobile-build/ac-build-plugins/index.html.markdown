@@ -20,7 +20,7 @@ If you have developed your App outside the Application Craft platform then you w
 
 AC Apps provide dialogs that let you choose which plugins you wish to include.
 
-The AC Build Plugins [App Property](../../../../product-guide/widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](../) .
+The AC Build Plugins [App Property](../../../product-guide/widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](../) .
 
 The Child Browser plugin can also be used if building using [Phonegap:Build](../../phonegapbuild/) .
 
