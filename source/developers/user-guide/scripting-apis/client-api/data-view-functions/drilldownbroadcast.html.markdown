@@ -70,15 +70,15 @@ The 'identifier' parameter is important to set properly. It allows AC to know wh
 
 ## Filter Expressions
 
-Please refer to the explanation provided in the previous [getViewData()](getviewdata) topic.
+Please refer to the explanation provided in the previous [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata) topic.
 
 ## See Also
 
- - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
+ - [Reporting & Dashboards](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/) (good introduction to Views)
 
- - [getViewData()](getviewdata)
+ - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
 
- - [drillDownBroadcast()](drilldownbroadcast)
+ - [drillDownBroadcast()](/developers/user-guide/scripting-apis/client-api/data-view-functions/drilldownbroadcast)
 
- - [bindViewData()](setviewcallback)
+ - [bindViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/setviewcallback)
 

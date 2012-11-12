@@ -18,9 +18,9 @@ These need to be entered within your App properties as shown in the screenshot a
 
 The following sections explain how to register your App with the service provider
 
-[Twitter](app-key-and-app-secret/twitter)
+[Twitter](/developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret/twitter)
 
-[Facebook](app-key-and-app-secret/facebook)
+[Facebook](/developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret/facebook)
 
-[Dropbox](app-key-and-app-secret/dropbox)
+[Dropbox](/developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret/dropbox)
 

@@ -99,7 +99,7 @@ this parameter allows you to pass through special, advanced parameters to the un
 
 ## Description
 
-Calls a Web Service at the specified URL and can pass a parameter list and HTTP headers with the indicated type (GET or POST). Also specifies a callback function that should be called to process the returned data. If the call returns XML data, then you may want to call the [XML2OBJ()](../conversion-functions/xml2json) function that converts the data into a Javascript object.
+Calls a Web Service at the specified URL and can pass a parameter list and HTTP headers with the indicated type (GET or POST). Also specifies a callback function that should be called to process the returned data. If the call returns XML data, then you may want to call the [XML2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/xml2json) function that converts the data into a Javascript object.
 
 The 'params' parameter is passed a simple object consisting of parameter name / parameter value pairs. These parameters will be automatically appended to the URL if type="GET".
 
@@ -165,7 +165,7 @@ Object containing http request object. Typically required for advanced usage.
 </td>
 </tr>
 </table>
-If you want to handle timeout errors resulting from httpRequest() calls then you must use the callback function. If there is no Network available at all, then it will generate an error immediately. A timeout error will be generated after the default timeout or the timeout value specified within [networkTimeout()](../app-functions/setnetworktimeout) .
+If you want to handle timeout errors resulting from httpRequest() calls then you must use the callback function. If there is no Network available at all, then it will generate an error immediately. A timeout error will be generated after the default timeout or the timeout value specified within [networkTimeout()](/developers/user-guide/scripting-apis/client-api/app-functions/setnetworktimeout) .
 
 ## Getting Response Headers
 
@@ -229,11 +229,11 @@ This example shows how headers are used to provide authentication information an
 
 ## See Also
 
- - [Crossdomain Handling](../../client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues)
+ - [Crossdomain Handling](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues)
 
- - [Data Conversion Functions](../conversion-functions/)
+ - [Data Conversion Functions](/developers/user-guide/scripting-apis/client-api/conversion-functions/)
 
- - [Extending Application Craft](../../../adding-widgets-and-api-methods/)
+ - [Extending Application Craft](/developers/user-guide/adding-widgets-and-api-methods/)
 
- - [Wizard](web-service-wizard)
+ - [Wizard](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard)
 

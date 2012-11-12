@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can upload a .css file to your Application Craft account as a [Resource](../../the-console/console-tabs/resources) and then use that within your apps by entering it as a "Preload file"
+You can upload a .css file to your Application Craft account as a [Resource](/developers/user-guide/product-guide/the-console/console-tabs/resources) and then use that within your apps by entering it as a "Preload file"
 
 ![preloadFile](/img/docs/preloadfile.zoom78.png)
 

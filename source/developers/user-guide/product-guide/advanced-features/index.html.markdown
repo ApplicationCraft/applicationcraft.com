@@ -8,43 +8,43 @@ full_width: true
 
 **In This Section:**
 
-[Multi Language Apps](advanced-features/multi-language-apps/)
+[Multi Language Apps](/developers/user-guide/product-guide/advanced-features/multi-language-apps/)
 
-[Credit Card Payment Processing](advanced-features/credit-card-payment-processing/)
+[Credit Card Payment Processing](/developers/user-guide/product-guide/advanced-features/credit-card-payment-processing/)
 
-[Accessing Data in other Apps, Databases and APIs](advanced-features/accessing-data-in-other-apps,-databases-and-apis/)
+[Accessing Data in other Apps, Databases and APIs](/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/)
 
-[Advertising](advanced-features/pro-account-advertising)
+[Advertising](/developers/user-guide/product-guide/advanced-features/pro-account-advertising)
 
-[Data Storage & Management](advanced-features/data-storage--management/)
+[Data Storage & Management](/developers/user-guide/product-guide/advanced-features/data-storage-management/)
 
-[Google Analytics](advanced-features/google-analytics/)
+[Google Analytics](/developers/user-guide/product-guide/advanced-features/google-analytics/)
 
-[Data Integration, Reporting & Dashboards](advanced-features/data-integration,-reporting--dashboards/)
+[Data Integration, Reporting & Dashboards](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/)
 
-[Embedding Apps within Apps](advanced-features/embedding-apps-within-apps/)
+[Embedding Apps within Apps](/developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/)
 
-[Authentication for Your Apps](advanced-features/authentication-for-your-apps/)
+[Authentication for Your Apps](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/)
 
-[Passing Parameters into Apps](advanced-features/passing-parameters-into-apps/)
+[Passing Parameters into Apps](/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/)
 
-[Testing Apps](advanced-features/testing-apps/)
+[Testing Apps](/developers/user-guide/product-guide/advanced-features/testing-apps/)
 
-[Deploying & Embedding Apps](advanced-features/deploying--embedding-apps/)
+[Deploying & Embedding Apps](/developers/user-guide/product-guide/advanced-features/deploying-embedding-apps/)
 
-[Logging Support](advanced-features/logging-support/)
+[Logging Support](/developers/user-guide/product-guide/advanced-features/logging-support/)
 
-[Workflow](advanced-features/workflow/)
+[Workflow](/developers/user-guide/product-guide/advanced-features/workflow/)
 
-[Data Lists Management](advanced-features/data-lists-management/)
+[Data Lists Management](/developers/user-guide/product-guide/advanced-features/data-lists-management/)
 
-[Printing](advanced-features/printing/)
+[Printing](/developers/user-guide/product-guide/advanced-features/printing/)
 
-[Custom CSS Classes](advanced-features/custom-css-classes/)
+[Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
 
-[Twirly Thing/Hourglass](advanced-features/twirly-thing/hourglass/)
+[Twirly Thing/Hourglass](/developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/)
 
-[oAuth](advanced-features/oauth/)
+[oAuth](/developers/user-guide/product-guide/advanced-features/oauth/)
 
 Video Tutorials can be found on our [Training Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) page
 

@@ -8,13 +8,13 @@ full_width: true
 
 **In This Section:**
 
- - [getResources()](resources-management/getresources)
+ - [getResources()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/getresources)
 
- - [loadResourceFolders()](resources-management/loadresourcefolders)
+ - [loadResourceFolders()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/loadresourcefolders)
 
- - [getSharedResources()](resources-management/getsharedresources)
+ - [getSharedResources()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/getsharedresources)
 
- - [getSharedResourceFolders()](resources-management/getsharedresourcefolders)
+ - [getSharedResourceFolders()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/getsharedresourcefolders)
 
 These functions are not currently documented. If you feel you require documentation for these, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) .
 

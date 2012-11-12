@@ -10,7 +10,7 @@ In the previous section you can see that there is a checkbox option. This checkb
 
 ## See Also
 
- - [Relevant API Methods](relevant-api-methods)
+ - [Relevant API Methods](/developers/user-guide/product-guide/advanced-features/multi-language-apps/relevant-api-methods)
 
- - [app.language()](../../../scripting-apis/client-api/multi-language-apps/language)
+ - [app.language()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/language)
 

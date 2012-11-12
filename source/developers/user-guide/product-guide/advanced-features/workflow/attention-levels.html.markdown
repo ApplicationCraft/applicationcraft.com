@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-When you are working with workflowed instances, it can be useful to see how urgent an instance is for a given assignment. An Attention Level can be specified in the assignment function [assignInstance()](../../../scripting-apis/client-api/workflow-functions/assigninstance) so that when you report on workflow instances, you can
+When you are working with workflowed instances, it can be useful to see how urgent an instance is for a given assignment. An Attention Level can be specified in the assignment function [assignInstance()](/developers/user-guide/scripting-apis/client-api/workflow-functions/assigninstance) so that when you report on workflow instances, you can
 
  - see the urgency of an instance
 
@@ -18,5 +18,5 @@ When you are looking at your Assignments in the Console or in a Report, you can 
 
 ## See Also
 
- - [assignInstance()](../../../scripting-apis/client-api/workflow-functions/assigninstance)
+ - [assignInstance()](/developers/user-guide/scripting-apis/client-api/workflow-functions/assigninstance)
 

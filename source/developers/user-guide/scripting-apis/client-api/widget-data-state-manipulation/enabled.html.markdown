@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="166">
-{ [wlist](../objects-titbits/widget-list-parameters) } widget
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="1">
@@ -50,9 +50,9 @@ This is a utility function that enables you to set the 'enable' property of one 
 
 ## See Also
 
- - [visible()](visible)
+ - [visible()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/visible)
 
- - [readOnly()](readonly)
+ - [readOnly()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/readonly)
 
- - [setProperty()](../widget-functions/setproperty)
+ - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
 

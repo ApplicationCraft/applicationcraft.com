@@ -12,5 +12,5 @@ Also where you can change your logon password to your account.
 
 ## **See Also**
 
- - [Change Password](../../../account-management/change-password)
+ - [Change Password](/developers/user-guide/product-guide/account-management/change-password)
 

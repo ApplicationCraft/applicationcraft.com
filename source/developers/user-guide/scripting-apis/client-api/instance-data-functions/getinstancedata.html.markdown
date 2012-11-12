@@ -26,13 +26,13 @@ The object returned that stores the Instance data
 </table>
 ## Description
 
-This function takes a data and state snapshot of the currently running App Instance and stores it in an object variable, which can then be restored later using [setInstanceData()](setinstancedata) or passed to [printApp()](../app-functions/printapp) etc.
+This function takes a data and state snapshot of the currently running App Instance and stores it in an object variable, which can then be restored later using [setInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/setinstancedata) or passed to [printApp()](/developers/user-guide/scripting-apis/client-api/app-functions/printapp) etc.
 
-Instance Data contains data and field state (visible, read-only, enabled properties) information only for those fields in the App that have the 'Store in Database' property set to true. This is the same data that is saved with [instanceUpdate()](instancesave) and [instanceCreate()](instancecreate) .
+Instance Data contains data and field state (visible, read-only, enabled properties) information only for those fields in the App that have the 'Store in Database' property set to true. This is the same data that is saved with [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave) and [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate) .
 
-You would most likely use this function if you want to store the Instance data in your own external system or database. You can then restore the App Instance later using the [setInstanceData()](setinstancedata) function. You can use the [OBJ2JSON()](../conversion-functions/json2text) function to convert the returned object into a JSON string before passing it on to your own external storage function or, if you are using AC's [httpRequest()](../soap-restful-ajax-calls/httprequest) function, it will do the conversion for you.
+You would most likely use this function if you want to store the Instance data in your own external system or database. You can then restore the App Instance later using the [setInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/setinstancedata) function. You can use the [OBJ2JSON()](/developers/user-guide/scripting-apis/client-api/conversion-functions/json2text) function to convert the returned object into a JSON string before passing it on to your own external storage function or, if you are using AC's [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) function, it will do the conversion for you.
 
-If you want to take a snapshot of the entire App, including all Widgets and their current property states, you can use the [getAppSnapshot()](../app-functions/getappsnapshot) and [setAppSnapshot()](../app-functions/setappsnapshot) functions.
+If you want to take a snapshot of the entire App, including all Widgets and their current property states, you can use the [getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot) and [setAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/setappsnapshot) functions.
 
 ## Example
 
@@ -44,21 +44,21 @@ If you want to take a snapshot of the entire App, including all Widgets and thei
 
 ## See Also
 
- - [setAppSnapshot()](../app-functions/setappsnapshot)
+ - [setAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/setappsnapshot)
 
- - [getAppSnapshot()](../app-functions/getappsnapshot)
+ - [getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot)
 
- - [switchApp()](../app-functions/switchapp)
+ - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
 
- - [setGlobalData()](../global-data-pool-functions/setglobaldata)
+ - [setGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/setglobaldata)
 
- - [getGlobalData()](../global-data-pool-functions/getglobaldata)
+ - [getGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/getglobaldata)
 
- - [getInstanceData()](getinstancedata)
+ - [getInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/getinstancedata)
 
- - [setInstanceData()](setinstancedata)
+ - [setInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/setinstancedata)
 
- - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../widget-data-state-manipulation/datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 

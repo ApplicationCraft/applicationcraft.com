@@ -19,30 +19,30 @@ full_width: true
 <td width="20">
 </td>
 <td width="750">
-The Instance Data object to be restored that was previously acquired with [getAppSnapshot()](../app-functions/getappsnapshot)
+The Instance Data object to be restored that was previously acquired with [getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot)
 
 </td>
 </tr>
 </table>
 ## Description
 
-This function restores a single data Instance that was created using [getInstanceData()](getinstancedata) . If you had converted the object into a JSON string, you can convert it back into an object using [JSON2OBJ()](../conversion-functions/text2json) . However, if you retrieve it back from an external web service call using our own  httpRequest() function, it will do the conversion for you.
+This function restores a single data Instance that was created using [getInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/getinstancedata) . If you had converted the object into a JSON string, you can convert it back into an object using [JSON2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/text2json) . However, if you retrieve it back from an external web service call using our own  httpRequest() function, it will do the conversion for you.
 
- - [setAppSnapshot()](../app-functions/setappsnapshot)
+ - [setAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/setappsnapshot)
 
- - [getAppSnapshot()](../app-functions/getappsnapshot)
+ - [getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot)
 
- - [switchApp()](../app-functions/switchapp)
+ - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
 
- - [setGlobalData()](../global-data-pool-functions/setglobaldata)
+ - [setGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/setglobaldata)
 
- - [getGlobalData()](../global-data-pool-functions/getglobaldata)
+ - [getGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/getglobaldata)
 
- - [getInstanceData()](getinstancedata)
+ - [getInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/getinstancedata)
 
- - [setInstanceData()](setinstancedata)
+ - [setInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/setinstancedata)
 
- - [dataSetValues()](../widget-data-state-manipulation/datasetvalues)
+ - [dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues)
 
- - [dataSetStates()](../widget-data-state-manipulation/datasetstates)
+ - [dataSetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetstates)
 

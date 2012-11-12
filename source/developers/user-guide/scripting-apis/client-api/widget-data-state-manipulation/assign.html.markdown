@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="199">
-{ [wlist](../objects-titbits/widget-list-parameters) } widgetName
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widgetName
 
 </td>
 <td width="17">
@@ -139,7 +139,7 @@ AC allows Parameter Groups and within them Parameters to be defined. For example
 </table>
 ## See Also
 
- - [Reading & Writing Simple Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets)
+ - [Reading & Writing Simple Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets)
 
 Related Videos:
 

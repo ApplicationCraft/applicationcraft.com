@@ -30,9 +30,9 @@ Time, in milliseconds, before a Timeout error is generated
 
 Gets or sets the network timeout period. In all cases except for httpRequest() calls, a Timeout error will be generated after 30 seconds and the onError() event will be fired, if you have specified one. Otherwise Application Craft will display a Timeout message.
 
-Error handling for httpRequest() calls must be done within the [httpRequest()](../soap-restful-ajax-calls/httprequest) callback function.
+Error handling for httpRequest() calls must be done within the [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) callback function.
 
-If you want to change the Timeout value for a single [httpRequest()](../soap-restful-ajax-calls/httprequest) call, then you can override the timeout value using special parameters.
+If you want to change the Timeout value for a single [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) call, then you can override the timeout value using special parameters.
 
 ## Example
 
@@ -41,9 +41,9 @@ If you want to change the Timeout value for a single [httpRequest()](../soap-res
 
 ## See Also
 
- - [httpRequest()](../soap-restful-ajax-calls/httprequest)
+ - [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
 
- - [Error Handling](../../client-scripting-overview/error-handling/)
+ - [Error Handling](/developers/user-guide/scripting-apis/client-scripting-overview/error-handling/)
 
 Related Video:
 

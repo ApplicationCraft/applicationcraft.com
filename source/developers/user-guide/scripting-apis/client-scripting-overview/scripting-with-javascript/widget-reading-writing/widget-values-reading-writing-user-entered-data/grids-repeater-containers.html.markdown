@@ -38,7 +38,7 @@ or you can reference using the Column name property
 
 ## Reading Unselected Data
 
-If you want to read data from any row in a Grid they will probably unselected by the Respondent. In this case you have to use the [getData()](../../../../client-api/widget-data-state-manipulation/getdata) function. You should also [see here](../widget-content-reading-and-writing/widgetcontentgrids-repeater-containers) for more about getData().
+If you want to read data from any row in a Grid they will probably unselected by the Respondent. In this case you have to use the [getData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/getdata) function. You should also [see here](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers) for more about getData().
 
 This shows how you can get the entire row into an object and then process it
 
@@ -50,9 +50,9 @@ This can be done in two ways.
 
 ## See Also
 
- - [Reading & Writing the entire Grid contents](../widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
+ - [Reading & Writing the entire Grid contents](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
 
- - [setValue()](../../../../client-api/widget-data-state-manipulation/refsetvalue)
+ - [setValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refsetvalue)
 
- - [getValue()](../../../../client-api/widget-data-state-manipulation/refgetvalue)
+ - [getValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refgetvalue)
 

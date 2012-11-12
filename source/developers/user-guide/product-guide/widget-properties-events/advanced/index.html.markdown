@@ -10,40 +10,40 @@ Advanced Widgets are also accessed from the left hand Toolbox, by clicking on th
 
 **In This Section:**
 
-[Grid](advanced/grid)
+[Grid](/developers/user-guide/product-guide/widget-properties-events/advanced/grid)
 
-[Mask Edit](advanced/mask-edit)
+[Mask Edit](/developers/user-guide/product-guide/widget-properties-events/advanced/mask-edit)
 
-[Sliders](advanced/sliders)
+[Sliders](/developers/user-guide/product-guide/widget-properties-events/advanced/sliders)
 
-[Search](advanced/search)
+[Search](/developers/user-guide/product-guide/widget-properties-events/advanced/search)
 
-[Audio](advanced/audio)
+[Audio](/developers/user-guide/product-guide/widget-properties-events/advanced/audio)
 
-[HTML5 Audio](advanced/html5-audio)
+[HTML5 Audio](/developers/user-guide/product-guide/widget-properties-events/advanced/html5-audio)
 
-[Video](advanced/video)
+[Video](/developers/user-guide/product-guide/widget-properties-events/advanced/video)
 
-[HTML5 Video](advanced/html5-video)
+[HTML5 Video](/developers/user-guide/product-guide/widget-properties-events/advanced/html5-video)
 
-[YouTube](advanced/youtube)
+[YouTube](/developers/user-guide/product-guide/widget-properties-events/advanced/youtube)
 
-[Photoswipe](advanced/photoswipe)
+[Photoswipe](/developers/user-guide/product-guide/widget-properties-events/advanced/photoswipe)
 
-[Calendar](advanced/calendar)
+[Calendar](/developers/user-guide/product-guide/widget-properties-events/advanced/calendar)
 
-[Embed App](advanced/embed-app)
+[Embed App](/developers/user-guide/product-guide/widget-properties-events/advanced/embed-app)
 
-[File Upload](advanced/file-upload)
+[File Upload](/developers/user-guide/product-guide/widget-properties-events/advanced/file-upload)
 
-[Reset Filter](advanced/advreset-filter)
+[Reset Filter](/developers/user-guide/product-guide/widget-properties-events/advanced/advreset-filter)
 
-[Advanced Menu](advanced/advanced-menu)
+[Advanced Menu](/developers/user-guide/product-guide/widget-properties-events/advanced/advanced-menu)
 
-[Google Maps Advanced](advanced/google-maps-advanced)
+[Google Maps Advanced](/developers/user-guide/product-guide/widget-properties-events/advanced/google-maps-advanced)
 
-[Flot Charts](advanced/flot-charts)
+[Flot Charts](/developers/user-guide/product-guide/widget-properties-events/advanced/flot-charts)
 
-[Timeline](advanced/timeline)
+[Timeline](/developers/user-guide/product-guide/widget-properties-events/advanced/timeline)
 
-[Advertising](advanced/advertising1)
+[Advertising](/developers/user-guide/product-guide/widget-properties-events/advanced/advertising1)

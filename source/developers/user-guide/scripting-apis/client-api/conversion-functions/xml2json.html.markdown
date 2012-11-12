@@ -30,5 +30,5 @@ Converts the supplied XML string to a Javascript object.
 
 ## See Also
 
- - [Data Conversion]() Functions
+ - [Data Conversion](/developers/user-guide/scripting-apis/client-api/conversion-functions/) Functions
 

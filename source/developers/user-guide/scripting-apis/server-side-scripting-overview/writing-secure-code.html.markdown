@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The whole point of using SSJ is to improve security by having important scripts execute on the server where they cannot be tampered with. Application Craft provides an excellent set of SSJ [database functions](../server-side-api/ssj-object/database/) that support this and [server side database handling](../../product-guide/data-storage/server-side-data-storage/) is the most common situation for SSJ code and also where the need for security is greatest.
+The whole point of using SSJ is to improve security by having important scripts execute on the server where they cannot be tampered with. Application Craft provides an excellent set of SSJ [database functions](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/) that support this and [server side database handling](/developers/user-guide/product-guide/data-storage/server-side-data-storage/) is the most common situation for SSJ code and also where the need for security is greatest.
 
 To ensure maximum security, you should ensure that you perform proper checks also in your server side code.
 
@@ -81,9 +81,9 @@ The following notional function illustrates a common way of securing your SSJ We
 
 ## SSJ Session Variables
 
-A very important set of SSJ functions that can help you with general security management is the [setSessionObject()](../server-side-api/ssj-object/security/setsessionobject) set of functions.
+A very important set of SSJ functions that can help you with general security management is the [setSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/setsessionobject) set of functions.
 
-[setSessionObject()](../server-side-api/ssj-object/security/setsessionobject) allows you to store a value or object on the server in association with the current browser sessions. So, assuming that you have some sort of authentication procedure for the logged on user, you can store information about that user in a session variable. Other functions can then reference that variable using [getSessionObject()](../server-side-api/ssj-object/security/getsessionobject) in order to decide whether to accept or reject the request.
+[setSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/setsessionobject) allows you to store a value or object on the server in association with the current browser sessions. So, assuming that you have some sort of authentication procedure for the logged on user, you can store information about that user in a session variable. Other functions can then reference that variable using [getSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/getsessionobject) in order to decide whether to accept or reject the request.
 
 Related Video:
 

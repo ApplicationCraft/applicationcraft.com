@@ -14,17 +14,17 @@ All other screens can be reached directly from the Tab Bar across the top of the
 
 ## **See Also**
 
- - [General Screen Behavior](the-console/general-screen-behavior)
+ - [General Screen Behavior](/developers/user-guide/product-guide/the-console/general-screen-behavior)
 
- - [Private, Shared and Public Folders](the-console/private-shared-and-public-fol)
+ - [Private, Shared and Public Folders](/developers/user-guide/product-guide/the-console/private-shared-and-public-fol)
 
- - [Sharing](the-console/sharing)
+ - [Sharing](/developers/user-guide/product-guide/the-console/sharing)
 
- - [Versions](the-console/versions)
+ - [Versions](/developers/user-guide/product-guide/the-console/versions)
 
 For detailed descriptions of the different Console windows see:
 
-[Console Tabs](the-console/console-tabs/)
+[Console Tabs](/developers/user-guide/product-guide/the-console/console-tabs/)
 
 Related Video:
 

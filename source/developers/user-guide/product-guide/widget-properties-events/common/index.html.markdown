@@ -10,41 +10,41 @@ These Widgets can be dragged and dropped into your App from the Common section o
 
 **In This Section:**
 
-[Label](common/label)
+[Label](/developers/user-guide/product-guide/widget-properties-events/common/label)
 
-[Text](common/text)
+[Text](/developers/user-guide/product-guide/widget-properties-events/common/text)
 
-[Text Area](common/text-area)
+[Text Area](/developers/user-guide/product-guide/widget-properties-events/common/text-area)
 
-[Alpha Numeric](common/alpha-numeric)
+[Alpha Numeric](/developers/user-guide/product-guide/widget-properties-events/common/alpha-numeric)
 
-[Numeric Text](common/alpha-numeric)
+[Numeric Text](/developers/user-guide/product-guide/widget-properties-events/common/alpha-numeric)
 
-[Action Button](common/action-button)
+[Action Button](/developers/user-guide/product-guide/widget-properties-events/common/action-button)
 
-[Upload Button](common/upload-button2)
+[Upload Button](/developers/user-guide/product-guide/widget-properties-events/common/upload-button2)
 
-[Radio Button](common/radio-button)
+[Radio Button](/developers/user-guide/product-guide/widget-properties-events/common/radio-button)
 
-[Checkbox](common/checkbox)
+[Checkbox](/developers/user-guide/product-guide/widget-properties-events/common/checkbox)
 
-[Image](common/image)
+[Image](/developers/user-guide/product-guide/widget-properties-events/common/image)
 
-[QR Code](common/qr-code)
+[QR Code](/developers/user-guide/product-guide/widget-properties-events/common/qr-code)
 
-[Date Picker](common/date-picker)
+[Date Picker](/developers/user-guide/product-guide/widget-properties-events/common/date-picker)
 
-[Listbox](common/listbox)
+[Listbox](/developers/user-guide/product-guide/widget-properties-events/common/listbox)
 
-[Dropdown List](common/dropdown-list)
+[Dropdown List](/developers/user-guide/product-guide/widget-properties-events/common/dropdown-list)
 
-[Color Picker](common/color-picker)
+[Color Picker](/developers/user-guide/product-guide/widget-properties-events/common/color-picker)
 
-[Rich Text](common/rich-text)
+[Rich Text](/developers/user-guide/product-guide/widget-properties-events/common/rich-text)
 
-[Shape](common/shape)
+[Shape](/developers/user-guide/product-guide/widget-properties-events/common/shape)
 
-[HTML](common/html2)
+[HTML](/developers/user-guide/product-guide/widget-properties-events/common/html2)
 
-[Fancy Button](common/fancy-button)
+[Fancy Button](/developers/user-guide/product-guide/widget-properties-events/common/fancy-button)
 

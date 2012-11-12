@@ -20,6 +20,6 @@ As shown in the screenshot below. you can grant the following log specific permi
 
 ## App Specific Permissions
 
-The User is able to grant access to any User or Group to access the selected App's log entries. This is explained in more detail in the [Reading from a Log](reading-from-a-log) topic.
+The User is able to grant access to any User or Group to access the selected App's log entries. This is explained in more detail in the [Reading from a Log](/developers/user-guide/product-guide/advanced-features/logging-support/reading-from-a-log) topic.
 
 ![permission-logs-app](/img/docs/permission-logs-app.zoom71.png)

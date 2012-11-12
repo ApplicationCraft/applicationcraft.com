@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can use [populateWidget()]() or [setData()](../setdata) to populate a [Zing Charts](../../../../product-guide/advanced-important-widgets/zing-charts/) widget.
+You can use [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) or [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata) to populate a [Zing Charts](/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/) widget.
 
 ## Example
 
-This example shows how you can have data in an array and populate it into line chart. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example) ).
+This example shows how you can have data in an array and populate it into line chart. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/complex-json-example) ).
 
         var data = [
             {'title': 'first', 'lbl': 'Jan', 'data': 12},
@@ -31,5 +31,5 @@ This example shows how you can have data in an array and populate it into line c
 
 ## **See Also**
 
- - [Adding Data from Javascript](../../../../product-guide/advanced-important-widgets/zing-charts/adding-data-from-javascript2)
+ - [Adding Data from Javascript](/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/adding-data-from-javascript2)
 

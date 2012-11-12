@@ -8,11 +8,11 @@ full_width: true
 
 **In This Section:**
 
-[Widgets](more/widgets/)
+[Widgets](/developers/user-guide/product-guide/the-console/console-tabs/more/widgets/)
 
-[Account Variables](more/account-variables/)
+[Account Variables](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/)
 
-[Users & Groups](more/users--groups/)
+[Users & Groups](/developers/user-guide/product-guide/the-console/console-tabs/more/users-groups/)
 
-[My User Variables](more/my-details)
+[My User Variables](/developers/user-guide/product-guide/the-console/console-tabs/more/my-details)
 

@@ -73,7 +73,7 @@ Icon
 <td width="20">
 </td>
 <td width="740">
-Set the icon to use in your App when compiling as a Mobile Native App. See [Icon Management](../mobile-apps-sites/icon-management)
+Set the icon to use in your App when compiling as a Mobile Native App. See [Icon Management](/developers/user-guide/product-guide/mobile-apps-sites/icon-management)
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Splash Image
 <td width="20">
 </td>
 <td width="740">
-Points to an image that is used as a splash screen when the App loads. See [Splash Image Management](../mobile-apps-sites/splash-image-management)
+Points to an image that is used as a splash screen when the App loads. See [Splash Image Management](/developers/user-guide/product-guide/mobile-apps-sites/splash-image-management)
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Page Transition
 <td width="20">
 </td>
 <td width="740">
-This is where you can set the default app page transition properties See [Page Transition Effects](../mobile-apps-sites/page-transition-effects)
+This is where you can set the default app page transition properties See [Page Transition Effects](/developers/user-guide/product-guide/mobile-apps-sites/page-transition-effects)
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Login App
 <td width="20">
 </td>
 <td width="740">
-The login form to be used for this app See [Using one Login App for all Apps](../advanced-features/authentication-for-your-apps/typical-authentication-strategies/using-on-login-app-for-all-app)
+The login form to be used for this app See [Using one Login App for all Apps](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/typical-authentication-strategies/using-on-login-app-for-all-app)
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ User Access
 <td width="20">
 </td>
 <td width="740">
-Set User access levels to your app. See [Sharing](../the-console/sharing)
+Set User access levels to your app. See [Sharing](/developers/user-guide/product-guide/the-console/sharing)
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ Linked Apps
 <td width="20">
 </td>
 <td width="740">
-Where you can define other apps that are linked to this app using [switchApp()](../../scripting-apis/client-api/app-functions/switchapp) . This will then include these apps as you compile as a Mobile Native App
+Where you can define other apps that are linked to this app using [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp) . This will then include these apps as you compile as a Mobile Native App
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ Language
 <td width="20">
 </td>
 <td width="740">
-Where you can add languages to your app. See [Adding One or More Languages](../advanced-features/multi-language-apps/adding-one-or-more-languages)
+Where you can add languages to your app. See [Adding One or More Languages](/developers/user-guide/product-guide/advanced-features/multi-language-apps/adding-one-or-more-languages)
 
 </td>
 </tr>
@@ -247,7 +247,7 @@ String Table
 <td width="20">
 </td>
 <td width="740">
-Where you can set your Language Tokens and also import/export a CSV file to work with externally. See [Language Tokens](../advanced-features/multi-language-apps/tokens)
+Where you can set your Language Tokens and also import/export a CSV file to work with externally. See [Language Tokens](/developers/user-guide/product-guide/advanced-features/multi-language-apps/tokens)
 
 </td>
 </tr>
@@ -343,7 +343,7 @@ Page Target
 <td width="20">
 </td>
 <td width="740">
-This defines where to go in the current App after the Instance is submitted. See also [What happens after the instance is saved](../advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
+This defines where to go in the current App after the Instance is submitted. See also [What happens after the instance is saved](/developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/) .
 
 </td>
 </tr>
@@ -355,7 +355,7 @@ Redirect URL
 <td width="20">
 </td>
 <td width="740">
-This defines which URL to go to after the instance is submitted. See also [What happens after the instance is saved](../advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/) .
+This defines which URL to go to after the instance is submitted. See also [What happens after the instance is saved](/developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/) .
 
 </td>
 </tr>
@@ -367,7 +367,7 @@ Google Analytics Account Id
 <td width="20">
 </td>
 <td width="740">
-Where you can define a specific Google Analytics Account ID overriding your account default. See [Google Analytics ID Override Property](../advanced-features/google-analytics/google-analytics-id-override-p)
+Where you can define a specific Google Analytics Account ID overriding your account default. See [Google Analytics ID Override Property](/developers/user-guide/product-guide/advanced-features/google-analytics/google-analytics-id-override-p)
 
 </td>
 </tr>
@@ -379,7 +379,7 @@ Google Maps API Key
 <td width="20">
 </td>
 <td width="740">
-Where you can set a specific API key for [Google Maps Advanced](advanced/google-maps-advanced) overriding the [Google Maps](../the-console/console-tabs/more/account-variables/google-maps) account key
+Where you can set a specific API key for [Google Maps Advanced](/developers/user-guide/product-guide/widget-properties-events/advanced/google-maps-advanced) overriding the [Google Maps](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/google-maps) account key
 
 </td>
 </tr>
@@ -433,7 +433,7 @@ PhoneGap Options
 <td width="20">
 </td>
 <td width="740">
-Where you can manage your app properties and enable device [AC Mobile Build](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/) features. See [PhoneGap App Options](../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
+Where you can manage your app properties and enable device [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) features. See [PhoneGap App Options](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
 
 </td>
 </tr>
@@ -487,7 +487,7 @@ Instance Name
 <td width="20">
 </td>
 <td width="740">
-This is the name of the Instance when it is saved so you can access it through a Query. See also [How to Report on App Data](../advanced-features/data-storage-management/how-to-report-on-app-data/) .
+This is the name of the Instance when it is saved so you can access it through a Query. See also [How to Report on App Data](/developers/user-guide/product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/) .
 
 </td>
 </tr>
@@ -499,7 +499,7 @@ Application Relationship
 <td width="20">
 </td>
 <td width="740">
-Through this dialog you can pair Apps together through any form of relationship; One to One, One to Many and Many to Many. See also [App Instances](../advanced-features/data-storage-management/dataapp-instances) .
+Through this dialog you can pair Apps together through any form of relationship; One to One, One to Many and Many to Many. See also [App Instances](/developers/user-guide/product-guide/advanced-features/data-storage-management/dataapp-instances) .
 
 </td>
 </tr>
@@ -569,7 +569,7 @@ Set the color to highlight any mandatory fields that are not completed on submis
 <td width="20">
 </td>
 <td width="740">
-See Also: [checkMandatory()](../../scripting-apis/client-api/widget-functions/checkmandatory) , [highlightWidgets()](../../scripting-apis/client-api/widget-functions/highlightwidgets) , [unhighlightWidgets()](../../scripting-apis/client-api/widget-functions/unhighlightwidgets)
+See Also: [checkMandatory()](/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory) , [highlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets) , [unhighlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/unhighlightwidgets)
 
 </td>
 </tr>
@@ -613,7 +613,7 @@ Theme
 <td width="20">
 </td>
 <td width="740">
-This is the [Theme](../content-and-app-layout/introduction/themes-styles/themesmanage) that the App uses. Widgets within the App will take their default Style settings from this Theme.
+This is the [Theme](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that the App uses. Widgets within the App will take their default Style settings from this Theme.
 
 </td>
 </tr>
@@ -640,25 +640,25 @@ This is the [Theme](../content-and-app-layout/introduction/themes-styles/themesm
 </tr>
 <tr>
 <td width="139">
-[General Events](events/event-reference-list/general-events)
+[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 
 </td>
 <td width="14">
 </td>
 <td width="101">
-[Key Events](events/event-reference-list/key-events)
+[Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
 
 </td>
 <td width="13">
 </td>
 <td width="219">
-[Internationalization App Events](events/event-reference-list/internationalization-app-event)
+[Internationalization App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
 
 </td>
 <td width="14">
 </td>
 <td width="171">
-[Mobile Native App Events](events/event-reference-list/mobile-native-app-events)
+[Mobile Native App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 
 </td>
 </tr>
@@ -884,11 +884,11 @@ On Resize
 
 ## **See Also**
 
- - [General Events](events/event-reference-list/general-events)
+ - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 
- - [Key Events](events/event-reference-list/key-events)
+ - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
 
- - [Internationalization App Events](events/event-reference-list/internationalization-app-event)
+ - [Internationalization App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
 
- - [Mobile Native App Events](events/event-reference-list/mobile-native-app-events)
+ - [Mobile Native App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 

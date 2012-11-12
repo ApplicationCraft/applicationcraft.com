@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This is somewhat different to the process for the [Development Provisioning Profile](../setting-up-for-development/create-a-provisioning-profile) . As you can see from the screenshot below, the main choice is whether to deploy to the App Store (the normal situation) or to go Ad Hoc (your are limited to 100 devices as defined in the Devices section of the iOS Provisioning Portal.
+This is somewhat different to the process for the [Development Provisioning Profile](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile) . As you can see from the screenshot below, the main choice is whether to deploy to the App Store (the normal situation) or to go Ad Hoc (your are limited to 100 devices as defined in the Devices section of the iOS Provisioning Portal.
 
 You will also need to select the specific App ID from the drop down.
 

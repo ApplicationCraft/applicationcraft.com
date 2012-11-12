@@ -72,11 +72,11 @@ All functions are called on the singleton ChildBrowser instance - accessible as
 
 .
 
-The Child Browser plugin can also be used if building using [Phonegap:Build](../../../phonegapbuild/)
+The Child Browser plugin can also be used if building using [Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/)
 
 ## See
 
- - [Methods](child-browser/methods/)
+ - [Methods](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/)
 
- - [Events](child-browser/events/)
+ - [Events](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/)
 

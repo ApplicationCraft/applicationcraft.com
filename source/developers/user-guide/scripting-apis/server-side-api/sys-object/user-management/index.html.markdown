@@ -10,19 +10,19 @@ These functions allow you to access information about Users stored in Applicatio
 
 **In This Section:**
 
- - [getMemberOf()](user-management/getmemberof)
+ - [getMemberOf()](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/getmemberof)
 
- - [getUsersList()](user-management/loaduserslist)
+ - [getUsersList()](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/loaduserslist)
 
- - [createUser()](user-management/createuser)
+ - [createUser()](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/createuser)
 
- - [deleteUser()](user-management/deleteuser)
+ - [deleteUser()](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/deleteuser)
 
- - [saveUser()](user-management/saveuser)
+ - [saveUser()](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/saveuser)
 
- - [setUserPassword()](user-management/setuserpassword)
+ - [setUserPassword()](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/setuserpassword)
 
- - [getUserById()](user-management/getuserbyid)
+ - [getUserById()](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/getuserbyid)
 
- - [checkOwnerUserRights parameter](user-management/checkowneruserrights-parameter)
+ - [checkOwnerUserRights parameter](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/checkowneruserrights-parameter)
 

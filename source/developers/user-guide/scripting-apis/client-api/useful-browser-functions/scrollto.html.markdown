@@ -37,5 +37,5 @@ Scrolls the browser contents by the specified number of pixels.
 
 ## See Also
 
- - [Window Object](window-object)
+ - [Window Object](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/window-object)
 

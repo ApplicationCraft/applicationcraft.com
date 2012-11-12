@@ -28,9 +28,9 @@ the index within a Repeater (not Grid) of a Repeater Container Row
 
 A function of a Repeater Container row object, it returns the row index of a Repeater Container's row. This function is not available for the Grid widget.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
-**Important** : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](../general/parent) topic.
+**Important** : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/parent) topic.
 
 ## Example
 
@@ -42,7 +42,7 @@ This example might run in a text OnChange event. A quantity  is multiplied by t
 
 ## See Also
 
- - [getRow()](getrow)
+ - [getRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow)
 
- - [rowCount()](length)
+ - [rowCount()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/length)
 

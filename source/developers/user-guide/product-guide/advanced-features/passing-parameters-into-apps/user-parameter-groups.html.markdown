@@ -6,5 +6,5 @@ full_width: true
 ---
 
 
-Application Craft also offers a powerful way of adding user parameters. Please refer to the [User Parameter Groups](../../the-console/console-tabs/more/account-variables/user-parameters/) chapter.
+Application Craft also offers a powerful way of adding user parameters. Please refer to the [User Parameter Groups](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/) chapter.
 

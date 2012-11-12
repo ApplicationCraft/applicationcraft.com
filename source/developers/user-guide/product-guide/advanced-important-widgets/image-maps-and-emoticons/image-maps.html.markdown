@@ -10,7 +10,7 @@ full_width: true
 
 An image map is a list of coordinates defined in a specific image,
 
-They can be used to allow users to click areas in your image that can then stored and/or allow you to dynamically interact with the user by writing [scripts](../../../scripting-apis/client-scripting-overview/) . For example, a map of the world may have each country hyperlinked to further information about that country by using the [showMessage()](../../../scripting-apis/client-api/app-functions/showmessage) or [pageJump()](../../../scripting-apis/client-api/page-functions/pagejump) to send them to a specific page in your App, or to allow you to store the country they selected and to then report on that data.
+They can be used to allow users to click areas in your image that can then stored and/or allow you to dynamically interact with the user by writing [scripts](/developers/user-guide/scripting-apis/client-scripting-overview/) . For example, a map of the world may have each country hyperlinked to further information about that country by using the [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage) or [pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump) to send them to a specific page in your App, or to allow you to store the country they selected and to then report on that data.
 
 On Area Click, On Area Mouse Enter and On Area Mouse Leave events are available.
 
@@ -38,9 +38,9 @@ Click on the highlighted areas
 
 1: Insert your Image into your App.
 
-2: Set the [Aspect Ratio](../../widget-properties-events/common/image#general) to 'Original Size'
+2: Set the [Aspect Ratio](/developers/user-guide/product-guide/widget-properties-events/common/image#general) to 'Original Size'
 
-3: Go to the [Image Map](../../widget-properties-events/common/image#imagemap) properties
+3: Go to the [Image Map](/developers/user-guide/product-guide/widget-properties-events/common/image#imagemap) properties
 
 ![ImageMap](/img/docs/imagemap.png)
 
@@ -58,7 +58,7 @@ You can manually define your areas using 'Add Row', entering in the Area Co-ordi
 
 You can 'Import' to paste in HTML code for the image mapping
 
-or        You can 'Resource' to load in a CSV file that you have uploaded as a [Resource](../../the-console/console-tabs/resources) .
+or        You can 'Resource' to load in a CSV file that you have uploaded as a [Resource](/developers/user-guide/product-guide/the-console/console-tabs/resources) .
 
 The structure of your CSV should be 3 columns.
 
@@ -80,7 +80,7 @@ Download [HumanBody.csv](http://www.applicationcraft.com/sites/applicationcraft/
 
 ## See Also
 
- - [Image](../../widget-properties-events/common/image#imagemap)
+ - [Image](/developers/user-guide/product-guide/widget-properties-events/common/image#imagemap)
 
 Related Video:
 

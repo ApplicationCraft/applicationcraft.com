@@ -8,22 +8,22 @@ full_width: true
 
 There are three ways of building your Apps
 
- - [AC Mobile Build](ac-mobile-build--phonegap/cordova/ac-mobile-build/) let's you manage Native App creation directly from Application Craft. AC Mobile Build can be used for Apps built within the Application Craft platform as well as HTML5+CSS+JS Apps built externally.
+ - [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) let's you manage Native App creation directly from Application Craft. AC Mobile Build can be used for Apps built within the Application Craft platform as well as HTML5+CSS+JS Apps built externally.
 
- - [Phonegap:Build](ac-mobile-build--phonegap/cordova/phonegapbuild/) support is for those developers who have built their Apps within the Application Craft platform but want to built their Apps using Adobe's Phonegap:Build platform.
+ - [Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/) support is for those developers who have built their Apps within the Application Craft platform but want to built their Apps using Adobe's Phonegap:Build platform.
 
- - [Phonegap Direct](ac-mobile-build--phonegap/cordova/phonegap-direct) assumes you want to build your Apps using tools like Apple's XCode or Eclipse for Android Apps. This is more involved than the other approaches but can give you more control should you need it.
+ - [Phonegap Direct](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegap-direct) assumes you want to build your Apps using tools like Apple's XCode or Eclipse for Android Apps. This is more involved than the other approaches but can give you more control should you need it.
 
 **In This Section:**
 
-[Apps Developed with Application Craft](ac-mobile-build--phonegap/cordova/apps-developed-with-application-craft/)
+[Apps Developed with Application Craft](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/)
 
-[Certificates](ac-mobile-build--phonegap/cordova/certificates/)
+[Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/)
 
-[AC Mobile Build](ac-mobile-build--phonegap/cordova/ac-mobile-build/)
+[AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
 
-[Phonegap:Build](ac-mobile-build--phonegap/cordova/phonegapbuild/)
+[Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/)
 
-[Phonegap Direct](ac-mobile-build--phonegap/cordova/phonegap-direct)
+[Phonegap Direct](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegap-direct)
 
-[Debugging Native Apps](ac-mobile-build--phonegap/cordova/debugging-native-apps)
+[Debugging Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/debugging-native-apps)

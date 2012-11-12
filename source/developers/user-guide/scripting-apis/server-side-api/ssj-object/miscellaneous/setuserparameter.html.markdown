@@ -67,7 +67,7 @@ Nothing.
 
 ## Description
 
-This function is used as a part of User and [Authentication support](../../../../product-guide/advanced-features/authentication-for-your-apps/) . It allows you to set a parameter/value that is specific to the logged in user. If you are not using AC User Management as an integrated part of your App then you should not use this function.
+This function is used as a part of User and [Authentication support](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/) . It allows you to set a parameter/value that is specific to the logged in user. If you are not using AC User Management as an integrated part of your App then you should not use this function.
 
 ## Example
 
@@ -76,9 +76,9 @@ This function is used as a part of User and [Authentication support](../../../..
 
 ## See Also
 
- - [getUserParameter()](getuserparameter)
+ - [getUserParameter()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getuserparameter)
 
- - [Authentication for your Apps](../../../../product-guide/advanced-features/authentication-for-your-apps/)
+ - [Authentication for your Apps](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/)
 
- - [User Management](../../sys-object/user-management/)
+ - [User Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/)
 

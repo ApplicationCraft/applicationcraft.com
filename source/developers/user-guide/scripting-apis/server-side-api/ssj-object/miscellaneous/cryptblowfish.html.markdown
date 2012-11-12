@@ -40,7 +40,7 @@ This takes a string and produces a Hash from that string. A hash is an encrypted
 
 ## See Also
 
- - [checkHash()](checkcryptblowfish)
+ - [checkHash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/checkcryptblowfish)
 
- - [md5()](md5)
+ - [md5()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/md5)
 

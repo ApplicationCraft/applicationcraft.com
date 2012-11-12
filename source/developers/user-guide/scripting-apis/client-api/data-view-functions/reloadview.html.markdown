@@ -30,5 +30,5 @@ Reloads the specified View with fresh data.
 
 ## See Also
 
- - [resetView()](resetview)
+ - [resetView()](/developers/user-guide/scripting-apis/client-api/data-view-functions/resetview)
 

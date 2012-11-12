@@ -18,13 +18,13 @@ full_width: true
 
 This function is only available for the Repeater Container widget. If you have used populateWidget() to load data into a Repeater Container, then it will display only as many records as the Elements per Page property of the  Repeater Container specifies, even if you passed in many more records. However, you can then either use one of the following approaches to access the remaining data
 
- - [fetchDataPage()](../../data-view-functions/fetchdatapage) allows you to page up and down through the available data
+ - [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage) allows you to page up and down through the available data
 
  - drawNextPage() retrieves the next block of data and adds this to the Repeater Container
 
 Typically, you might use buttons above or below the Repeater to manage the paging.
 
-You should be aware that the return value can only be relied upon if the page is already shown where the Repeater Container is located. If not, then you should perform a check with the [isAllDataDrawn()](isalldatadrawn) function once you have switched to that page.
+You should be aware that the return value can only be relied upon if the page is already shown where the Repeater Container is located. If not, then you should perform a check with the [isAllDataDrawn()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn) function once you have switched to that page.
 
 ## Example
 
@@ -40,13 +40,13 @@ This example shows how, when a 'More...' button is clicked, the drawNextPage() f
 
 ## See Also
 
- - [getViewData()](../../data-view-functions/getviewdata)
+ - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
 
- - [isAllDataDrawn()](isalldatadrawn)
+ - [isAllDataDrawn()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
+ - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 
- - [fetchDataPage()](../../data-view-functions/fetchdatapage)
+ - [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage)
 
 Related Videos:
 

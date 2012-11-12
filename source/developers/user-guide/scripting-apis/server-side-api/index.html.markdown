@@ -8,11 +8,11 @@ full_width: true
 
 **In this Section:**
 
- - [console object](server-side-api/console-object/)
+ - [console object](/developers/user-guide/scripting-apis/server-side-api/console-object/)
 
- - [ssj object](server-side-api/ssj-object/)
+ - [ssj object](/developers/user-guide/scripting-apis/server-side-api/ssj-object/)
 
- - [sys object](server-side-api/sys-object/)
+ - [sys object](/developers/user-guide/scripting-apis/server-side-api/sys-object/)
 
 Related Video:
 

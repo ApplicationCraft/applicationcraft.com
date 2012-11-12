@@ -37,11 +37,11 @@ This displays a debug message to the Debug Console Window of your Chrome, Firebu
 
 ## See Also
 
- - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
+ - [Debugging](/developers/user-guide/product-guide/advanced-features/testing-apps/debugging)
 
- - [debugValues()](debugvalues)
+ - [debugValues()](/developers/user-guide/scripting-apis/client-api/app-functions/debugvalues)
 
- - [debugData()](debugdata)
+ - [debugData()](/developers/user-guide/scripting-apis/client-api/app-functions/debugdata)
 
- - [debugProperties()](debugproperties)
+ - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 

@@ -10,14 +10,14 @@ These functions allow you to interact with Data Views from your scripts.
 
 **In This Section:**
 
-[Data View Related Events](data-view-functions/data-view-related-events)
+[Data View Related Events](/developers/user-guide/scripting-apis/client-api/data-view-functions/data-view-related-events)
 
-[Modifying Data Widgets with Scripts](data-view-functions/modifying-data-widgets-with-scripts/)
+[Modifying Data Widgets with Scripts](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/)
 
 <table>
 <tr>
 <td width="149">
-[enableView()](data-view-functions/enableview)
+[enableView()](/developers/user-guide/scripting-apis/client-api/data-view-functions/enableview)
 
 </td>
 <td width="12">
@@ -29,7 +29,7 @@ Enable/Disable a view
 </tr>
 <tr>
 <td width="149">
-[refreshData()](data-view-functions/refrefreshdata)
+[refreshData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/refrefreshdata)
 
 </td>
 <td width="12">
@@ -41,7 +41,7 @@ Refresh the contents of a single Widget's data if bound to a Data View
 </tr>
 <tr>
 <td width="149">
-[resetView()](data-view-functions/resetview)
+[resetView()](/developers/user-guide/scripting-apis/client-api/data-view-functions/resetview)
 
 </td>
 <td width="12">
@@ -53,7 +53,7 @@ Resets all drill-down filters associated with the specified Data View
 </tr>
 <tr>
 <td width="149">
-[reloadView()](data-view-functions/reloadview)
+[reloadView()](/developers/user-guide/scripting-apis/client-api/data-view-functions/reloadview)
 
 </td>
 <td width="12">
@@ -65,7 +65,7 @@ Reloads the specified View with fresh data
 </tr>
 <tr>
 <td width="149">
-[Setting a View Filter](data-view-functions/setting-a-view-filter)
+[Setting a View Filter](/developers/user-guide/scripting-apis/client-api/data-view-functions/setting-a-view-filter)
 
 </td>
 <td width="12">
@@ -77,7 +77,7 @@ How to set a View Filter
 </tr>
 <tr>
 <td width="149">
-[getViewData()](data-view-functions/getviewdata)
+[getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
 
 </td>
 <td width="12">
@@ -89,7 +89,7 @@ Loads data from a View into an array, allowing Filter, Group By and Order By to 
 </tr>
 <tr>
 <td width="149">
-[fetchDataPage()](data-view-functions/fetchdatapage)
+[fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage)
 
 </td>
 <td width="12">
@@ -101,7 +101,7 @@ Loads a new page of data into a Repeater Container or Grid Widget.
 </tr>
 <tr>
 <td width="149">
-[drillDownBroadcast()](data-view-functions/drilldownbroadcast)
+[drillDownBroadcast()](/developers/user-guide/scripting-apis/client-api/data-view-functions/drilldownbroadcast)
 
 </td>
 <td width="12">
@@ -113,7 +113,7 @@ This function triggers a drill down on the specified View using the specified fi
 </tr>
 <tr>
 <td width="149">
-[bindViewData()](data-view-functions/setviewcallback)
+[bindViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/setviewcallback)
 
 </td>
 <td width="12">

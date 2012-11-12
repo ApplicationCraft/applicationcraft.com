@@ -32,5 +32,5 @@ Returns the number of pixels the current document has been scrolled from the upp
 
 ## See Also
 
- - [Window Object](window-object)
+ - [Window Object](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/window-object)
 

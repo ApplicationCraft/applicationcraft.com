@@ -18,7 +18,7 @@ Within PhoneGap:Build
 
 See [https://build.phonegap.com/docs](https://build.phonegap.com/docs) for more information.
 
-You should note that Application Craft currently will only use the default key. If you wish to use another key, then you will need to upload your App manually into PhoneGap:Build. This manual process is covered in a later section ( [Manual Building](manual-building) ).
+You should note that Application Craft currently will only use the default key. If you wish to use another key, then you will need to upload your App manually into PhoneGap:Build. This manual process is covered in a later section ( [Manual Building](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/manual-building) ).
 
 When you are building to deploy to the App Stores, you should also ensure that you are signing with a distribution certificate, and not a development certificate. Signing with a development certificate will not allow your app to be distributed and you may experience errors deploying to an App Store.
 
@@ -61,5 +61,5 @@ For more details
 
 ## See Also
 
- - [iOS Keys and Certificates](../certificates/ios-keys-and-certificates/)
+ - [iOS Keys and Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/)
 

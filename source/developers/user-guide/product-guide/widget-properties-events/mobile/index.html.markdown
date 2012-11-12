@@ -10,42 +10,42 @@ These widgets are optimised for mobile devices, but can be used on 'desktop' app
 
 **In This Section:**
 
-[Checkbox](mobile/mobcheckbox)
+[Checkbox](/developers/user-guide/product-guide/widget-properties-events/mobile/mobcheckbox)
 
-[Toolbar](mobile/toolbar)
+[Toolbar](/developers/user-guide/product-guide/widget-properties-events/mobile/toolbar)
 
-[Text Area](mobile/mobtext-area)
+[Text Area](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext-area)
 
-[Action Button](mobile/mobaction-button)
+[Action Button](/developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button)
 
-[Upload Button](mobile/upload-button)
+[Upload Button](/developers/user-guide/product-guide/widget-properties-events/mobile/upload-button)
 
-[Popup Dropdown](mobile/popup-dropdown)
+[Popup Dropdown](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown)
 
-[Radio Buttons Group](mobile/radiobuttonsgroup)
+[Radio Buttons Group](/developers/user-guide/product-guide/widget-properties-events/mobile/radiobuttonsgroup)
 
-[Popup Listbox](mobile/popup-listbox)
+[Popup Listbox](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-listbox)
 
-[Text](mobile/mobtext)
+[Text](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext)
 
-[Search](mobile/mobsearch)
+[Search](/developers/user-guide/product-guide/widget-properties-events/mobile/mobsearch)
 
-[Slider](mobile/slider)
+[Slider](/developers/user-guide/product-guide/widget-properties-events/mobile/slider)
 
-[Flip Toggle Switch](mobile/flip-toggle-switch)
+[Flip Toggle Switch](/developers/user-guide/product-guide/widget-properties-events/mobile/flip-toggle-switch)
 
-[Checkbox Group](mobile/checkbox-group)
+[Checkbox Group](/developers/user-guide/product-guide/widget-properties-events/mobile/checkbox-group)
 
-[List](mobile/list)
+[List](/developers/user-guide/product-guide/widget-properties-events/mobile/list)
 
-[NavBar](mobile/navbar)
+[NavBar](/developers/user-guide/product-guide/widget-properties-events/mobile/navbar)
 
-[Collapsible](mobile/collapsible)
+[Collapsible](/developers/user-guide/product-guide/widget-properties-events/mobile/collapsible)
 
-[Auth Button](mobile/auth-button)
+[Auth Button](/developers/user-guide/product-guide/widget-properties-events/mobile/auth-button)
 
-[Label](mobile/moblabel)
+[Label](/developers/user-guide/product-guide/widget-properties-events/mobile/moblabel)
 
-[Mobiscroll Date](mobile/mobiscroll)
+[Mobiscroll Date](/developers/user-guide/product-guide/widget-properties-events/mobile/mobiscroll)
 
-[Mobiscroll List](mobile/mobiscroll-list)
+[Mobiscroll List](/developers/user-guide/product-guide/widget-properties-events/mobile/mobiscroll-list)

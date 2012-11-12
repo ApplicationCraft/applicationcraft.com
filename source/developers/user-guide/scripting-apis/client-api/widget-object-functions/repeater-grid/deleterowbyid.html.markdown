@@ -28,15 +28,15 @@ the string Id of the Grid row to be deleted
 
 This is a function of the widget object, so it is used as objWidget.deleteRow() rather than app.deleteRow(). It removes the row with the specified Id from a Grid Widget. This will only be needed in rare circumstances and you are more likely to use deleteRow().
 
-Populating Grids with Id values is [described here](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers) .
+Populating Grids with Id values is [described here](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers) .
 
 ## See Also
 
- - [deleteRow()](deleterow)
+ - [deleteRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
 
- - [deleteSelectedRows()](deleteselectedrows)
+ - [deleteSelectedRows()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows)
 
- - [insertRow()](insertrow)
+ - [insertRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
 
- - [Widget Object](../../objects-titbits/widget-object)
+ - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

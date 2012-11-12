@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The Fancy Button allows you to define shapes, gradient colors when pressed, as well as be used to manage Data views and Page Navigation, but also can be used to trigger [Events](../events/) using [Scripting with Javascript](../../../scripting-apis/client-scripting-overview/scripting-with-javascript/)
+The Fancy Button allows you to define shapes, gradient colors when pressed, as well as be used to manage Data views and Page Navigation, but also can be used to trigger [Events](/developers/user-guide/product-guide/widget-properties-events/events/) using [Scripting with Javascript](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/)
 
 A range of options are available to be set:
 
@@ -55,7 +55,7 @@ Link
 <td width="15">
 </td>
 <td width="779">
-Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: [mobileDial()](../../../scripting-apis/client-api/app-functions/mobiledial) , [mobileEmail()](../../../scripting-apis/client-api/app-functions/mobileemail) , [mobileSMS()](../../../scripting-apis/client-api/app-functions/mobilesms)
+Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: [mobileDial()](/developers/user-guide/scripting-apis/client-api/app-functions/mobiledial) , [mobileEmail()](/developers/user-guide/scripting-apis/client-api/app-functions/mobileemail) , [mobileSMS()](/developers/user-guide/scripting-apis/client-api/app-functions/mobilesms)
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -307,7 +307,7 @@ Margin
 <td width="15">
 </td>
 <td width="779">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../content-and-app-layout/introduction/setting-a-margin)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -321,7 +321,7 @@ Custom CSS Styles
 <td width="15">
 </td>
 <td width="779">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -333,7 +333,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](../../content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
@@ -348,7 +348,7 @@ This refers to the [Theme entry](../../content-and-app-layout/introduction/theme
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](../events/event-reference-list/mouse-events)
+[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 
 </td>
 </tr>
@@ -392,9 +392,9 @@ On Mouse Leave
 
 ## See Also
 
- - Mobile Widgets: [Action Button](../mobile/mobaction-button)
+ - Mobile Widgets: [Action Button](/developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button)
 
- - Common Widgets: [Action Button](action-button)
+ - Common Widgets: [Action Button](/developers/user-guide/product-guide/widget-properties-events/common/action-button)
 
- - [Mouse Events](../events/event-reference-list/mouse-events)
+ - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 

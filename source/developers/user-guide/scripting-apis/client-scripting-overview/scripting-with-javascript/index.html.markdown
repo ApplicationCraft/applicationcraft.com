@@ -16,23 +16,23 @@ This chapter is the most important one of all if you want to build more powerful
 
 For anyone wanting to get the most out of Application Craft, we recommend that you read this chapter carefully, as well as using the Tutorials on our web site.
 
-Refer to the [Client API](../../client-api/) section for full details about the API.
+Refer to the [Client API](/developers/user-guide/scripting-apis/client-api/) section for full details about the API.
 
 **In This Section:**
 
- - [Introduction](scripting-with-javascript/introduction/)
+ - [Introduction](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/)
 
- - [The Code Editor](scripting-with-javascript/the-code-editor/)
+ - [The Code Editor](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/)
 
- - [Important Details](scripting-with-javascript/important-details/)
+ - [Important Details](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/)
 
- - [Widget Reading & Writing](scripting-with-javascript/widget-reading--writing/)
+ - [Widget Reading & Writing](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/)
 
- - [Common Usage Examples](scripting-with-javascript/common-usage-examples/)
+ - [Common Usage Examples](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/)
 
 ## **See Also**
 
- - [oAuth](../../../product-guide/advanced-features/oauth/)
+ - [oAuth](/developers/user-guide/product-guide/advanced-features/oauth/)
 
 Related Video:
 

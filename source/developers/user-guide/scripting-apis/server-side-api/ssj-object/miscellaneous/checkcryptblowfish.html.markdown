@@ -54,7 +54,7 @@ Checks an unhashed string, probably a password, and compares it with the hash va
 
 ## See Also
 
- - [hash()](cryptblowfish)
+ - [hash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/cryptblowfish)
 
- - [md5()](md5)
+ - [md5()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/md5)
 

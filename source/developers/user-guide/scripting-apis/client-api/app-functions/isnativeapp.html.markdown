@@ -30,9 +30,9 @@ Indicates whether the App is running in Native or Web App mode.
 
 ## See Also
 
- - [Network Availability Handling](../../client-scripting-overview/network-availability-handling)
+ - [Network Availability Handling](/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling)
 
- - [httpRequest()](../soap-restful-ajax-calls/httprequest)
+ - [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
 
- - [Error Handling](../../client-scripting-overview/error-handling/)
+ - [Error Handling](/developers/user-guide/scripting-apis/client-scripting-overview/error-handling/)
 

@@ -44,7 +44,7 @@ This does not return a value.
 
 ## Description
 
-This function performs the inverse of [app.dataGetStates()](datagetstates) . You pass in an object that is made up of key names that must correspond to Widget names. The object associated with each key is then used to set the state properties of those widgets.
+This function performs the inverse of [app.dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates) . You pass in an object that is made up of key names that must correspond to Widget names. The object associated with each key is then used to set the state properties of those widgets.
 
 Each object can contain any number of widgets but must be formatted as follows. Any extra key fields will be ignored and will not generate an error.
 
@@ -68,15 +68,15 @@ The following example populates two widgets. The third widget does not exist but
 
 ## See Also
 
- - [dataGetValues()](datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 
- - [dataSetValues()](datasetvalues)
+ - [dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues)
 
- - [Server Side Data Storage](../../../product-guide/data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 
- - [SSJ database functions](../../../product-guide/data-storage/server-side-data-storage/)
+ - [SSJ database functions](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 
- - [Instance Data Functions](../instance-data-functions/)
+ - [Instance Data Functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/)
 

@@ -10,13 +10,13 @@ This section describes how to set up your iOS certificates and profiles on your 
 
 **In This Section:**
 
-[Apple Accounts](do-it-yourself-guide/apple-accounts/)
+[Apple Accounts](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/)
 
-[Setting up for development](do-it-yourself-guide/setting-up-for-development/)
+[Setting up for development](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/)
 
-[Setting up for Distribution](do-it-yourself-guide/setting-up-for-distribution/)
+[Setting up for Distribution](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/)
 
-[Building your Apps](do-it-yourself-guide/building-your-apps)
+[Building your Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/building-your-apps)
 
-[Publishing your iOS App](do-it-yourself-guide/publishing-your-ios-app/)
+[Publishing your iOS App](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/)
 

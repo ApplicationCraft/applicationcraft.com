@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-[getZingChartId()](zing-chart/getzingchartid)
+[getZingChartId()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/zing-chart/getzingchartid)
 
 </td>
 <td width="8">

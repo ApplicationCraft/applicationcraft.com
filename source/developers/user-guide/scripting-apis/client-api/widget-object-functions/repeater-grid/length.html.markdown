@@ -37,7 +37,7 @@ This is a function of the widget object that returns the number of rows in a Gri
 
 ## See Also
 
- - [rowIndex()](rowindex)
+ - [rowIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
 
- - [getRow()](getrow)
+ - [getRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow)
 

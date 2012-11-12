@@ -12,5 +12,5 @@ If you are viewing a selected Instance from a foreign App, for example, you can 
 
 ## **See Also**
 
- - [Panel](../../widget-properties-events/containers/panel)
+ - [Panel](/developers/user-guide/product-guide/widget-properties-events/containers/panel)
 

@@ -10,7 +10,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../product-guide/data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -73,7 +73,7 @@ Calling instanceSync() will reflect ALL of the following changes that have been 
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully stored in the CDB (Core Database). rdbCallback is called once the data is fully saved and available in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function) page for details on these callback functions.
 
 ## Example
 
@@ -93,21 +93,21 @@ This example synchronizes the contents of a Repeater Container with the database
 
 ## See Also
 
- - [instanceXxxx Callback functions](instancexxxx-callback-function)
+ - [instanceXxxx Callback functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function)
 
- - [CRUD in Detail](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/)
+ - [CRUD in Detail](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/)
 
- - [instanceNew()](instancenew)
+ - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
 
- - [instanceCreate()](instancesave "instance")
+ - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave "instance")
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 
- - [instanceLoad()](instanceload)
+ - [instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
 
- - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../widget-data-state-manipulation/datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 

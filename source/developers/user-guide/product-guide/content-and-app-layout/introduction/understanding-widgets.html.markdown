@@ -75,7 +75,7 @@ Image
 <td width="17">
 </td>
 <td width="685">
-Also very commonly used, this allows you to load an image from the [Resources](../../the-console/console-tabs/resources) or a specific URL.
+Also very commonly used, this allows you to load an image from the [Resources](/developers/user-guide/product-guide/the-console/console-tabs/resources) or a specific URL.
 
 </td>
 </tr>

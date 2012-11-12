@@ -18,7 +18,7 @@ Press Continue, and you should then set app domains for authentication (without 
 
 ![oauth-fb-2](/img/docs/oauth-fb-2.png)
 
-Once this is completed, you will then see the 2 keys, which can be copied into the AC App oAuth property dialog as [explained here]() .
+Once this is completed, you will then see the 2 keys, which can be copied into the AC App oAuth property dialog as [explained here](/developers/user-guide/product-guide/advanced-features/oauth/app-key-and-app-secret/) .
 
 ![oauth-fb-3](/img/docs/oauth-fb-3.png)
 

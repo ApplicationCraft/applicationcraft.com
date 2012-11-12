@@ -8,11 +8,11 @@ full_width: true
 
 PhoneGap Parameters is where you define your PhoneGap:Build account details to be able to create Native Apps.
 
-See: [Phonegap:Build](../../../../../ac-mobile-build-phonegap/cordova/phonegapbuild/)
+See: [Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/)
 
 ## Also See
 
- - [AC Mobile Build](../../../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/)
+ - [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
 
 Related Video:
 

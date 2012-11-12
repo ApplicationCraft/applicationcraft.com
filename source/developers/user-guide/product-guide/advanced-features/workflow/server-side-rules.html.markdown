@@ -12,5 +12,5 @@ We are currently planning a powerful new feature that allows you to write Javasc
 
 ## See Also
 
- - [Workflow Functions](../../../scripting-apis/client-api/workflow-functions/) section of the [Client API](../../../scripting-apis/client-api/) section.
+ - [Workflow Functions](/developers/user-guide/scripting-apis/client-api/workflow-functions/) section of the [Client API](/developers/user-guide/scripting-apis/client-api/) section.
 

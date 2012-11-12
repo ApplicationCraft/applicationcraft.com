@@ -54,9 +54,9 @@ Called as the Language is detected
 
 ## **See Also**
 
- - [Multi Language Apps](../../../advanced-features/multi-language-apps/)
+ - [Multi Language Apps](/developers/user-guide/product-guide/advanced-features/multi-language-apps/)
 
- - [translate()](../../../../scripting-apis/client-api/multi-language-apps/translate)
+ - [translate()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/translate)
 
- - [language()](../../../../scripting-apis/client-api/multi-language-apps/language)
+ - [language()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/language)
 

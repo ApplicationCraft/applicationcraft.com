@@ -8,17 +8,17 @@ full_width: true
 
 **In This Section:**
 
-[General Events](event-reference-list/general-events)
+[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 
-[Mobile Native App Events](event-reference-list/mobile-native-app-events)
+[Mobile Native App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 
-[Mouse Events](event-reference-list/mouse-events)
+[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 
-[Key Events](event-reference-list/key-events)
+[Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
 
-[Data Events](event-reference-list/data-events)
+[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
-[Auth Events](event-reference-list/auth-events)
+[Auth Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/auth-events)
 
-[Internationalization App Events](event-reference-list/internationalization-app-event)
+[Internationalization App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
 

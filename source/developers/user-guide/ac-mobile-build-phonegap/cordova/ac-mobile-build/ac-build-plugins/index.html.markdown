@@ -20,9 +20,9 @@ If you have developed your App outside the Application Craft platform then you w
 
 AC Apps provide dialogs that let you choose which plugins you wish to include.
 
-The AC Build Plugins [App Property](../../../../product-guide/widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](../) .
+The AC Build Plugins [App Property](/developers/user-guide/product-guide/widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) .
 
-The Child Browser plugin can also be used if building using [Phonegap:Build](../../phonegapbuild/) .
+The Child Browser plugin can also be used if building using [Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/) .
 
 ![acPllugins](/img/docs/acpllugins.zoom83.png)
 
@@ -31,7 +31,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 <table>
 <tr>
 <td width="211">
- - [Child Browser](ac-build-plugins/child-browser/)
+ - [Child Browser](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/)
 
 </td>
 <td width="27">
@@ -41,7 +41,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [SQLite Plugin](ac-build-plugins/sqlite-plugin/)
+ - [SQLite Plugin](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/)
 
 </td>
 <td width="27">
@@ -51,7 +51,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [MailTo Plugin](ac-build-plugins/mailto-plugin)
+ - [MailTo Plugin](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/mailto-plugin)
 
 </td>
 <td width="27">
@@ -61,7 +61,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [Scandit Free](ac-build-plugins/scandit-free)
+ - [Scandit Free](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free)
 
 </td>
 <td width="27">
@@ -71,7 +71,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [ZXing Bar Code Scanner](ac-build-plugins/zxing-bar-code-scanner)
+ - [ZXing Bar Code Scanner](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner)
 
 </td>
 <td width="27">
@@ -81,7 +81,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](../
 </tr>
 <tr>
 <td width="211">
- - [Xtify Push Notifications](ac-build-plugins/xtify-push-notifications/)
+ - [Xtify Push Notifications](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/)
 
 </td>
 <td width="27">

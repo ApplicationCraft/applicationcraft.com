@@ -106,7 +106,7 @@ You can see the folder structure we have created in the above screenshot. You ca
 
 ## Database Methods Documentation
 
-All of the SSJ Database methods are fully documented in the [SSJ Database](../../../../scripting-apis/server-side-api/ssj-object/database/) section.
+All of the SSJ Database methods are fully documented in the [SSJ Database](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/) section.
 
 ## Error Handling
 

@@ -129,7 +129,7 @@ Unique
 <td width="15">
 </td>
 <td width="779">
-None/Case Sensitive/Case Insensitive. For use with [Relational Apps](../../advanced-features/accessing-data-in-other-apps,-databases-and-apis/relational-apps)
+None/Case Sensitive/Case Insensitive. For use with [Relational Apps](/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/relational-apps)
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Mandatory
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
 
-See [App Properties](../app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See [App Properties](/developers/user-guide/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Sizes
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -383,7 +383,7 @@ Fields
 <td width="15">
 </td>
 <td width="779">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/) section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/) section for more details.
 
 </td>
 </tr>
@@ -395,7 +395,7 @@ Group By
 <td width="15">
 </td>
 <td width="779">
-This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by) section for more details.
+This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by) section for more details.
 
 </td>
 </tr>
@@ -407,7 +407,7 @@ Order By
 <td width="15">
 </td>
 <td width="779">
-Specifies the order in which data is presented to the Widget.  Read the [Order By](../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by) section for more details.
+Specifies the order in which data is presented to the Widget.  Read the [Order By](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by) section for more details.
 
 </td>
 </tr>
@@ -431,7 +431,7 @@ Drill Filter
 <td width="15">
 </td>
 <td width="779">
-This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter) section for more details.
+This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the [Drill Filter](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-filter) section for more details.
 
 </td>
 </tr>
@@ -443,7 +443,7 @@ Broadcast
 <td width="15">
 </td>
 <td width="779">
-Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast) section for more details.
+Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the [Broadcast](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/broadcast) section for more details.
 
 </td>
 </tr>
@@ -455,7 +455,7 @@ Listen
 <td width="15">
 </td>
 <td width="779">
-This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen) section for more details.
+This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen) section for more details.
 
 </td>
 </tr>
@@ -467,7 +467,7 @@ Reset Filter
 <td width="15">
 </td>
 <td width="779">
-Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](../../advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter) section for more details.
+Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter) section for more details.
 
 </td>
 </tr>
@@ -547,7 +547,7 @@ Margin
 <td width="15">
 </td>
 <td width="779">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../content-and-app-layout/introduction/setting-a-margin)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -607,7 +607,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -619,7 +619,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](../../content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
@@ -638,13 +638,13 @@ This refers to the [Theme entry](../../content-and-app-layout/introduction/theme
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](../events/event-reference-list/mouse-events)
+[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 
 </td>
 <td width="15">
 </td>
 <td width="128">
-[Data Events](../events/event-reference-list/data-events)
+[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
 </td>
 </tr>
@@ -756,11 +756,11 @@ On Resize Stop
 
 ## **See Also**
 
- - Common Widgets: [Radio Button](radio-button) , [Listbox](listbox)
+ - Common Widgets: [Radio Button](/developers/user-guide/product-guide/widget-properties-events/common/radio-button) , [Listbox](/developers/user-guide/product-guide/widget-properties-events/common/listbox)
 
- - Mobile Widgets: [Checkbox](../mobile/mobcheckbox) , [Checkbox Group](../mobile/checkbox-group) , [Radio Buttons Group](../mobile/radiobuttonsgroup) , [Popup Listbox](../mobile/popup-listbox) , [Popup Dropdown](../mobile/popup-dropdown) , [Flip Toggle Switch](../mobile/flip-toggle-switch)
+ - Mobile Widgets: [Checkbox](/developers/user-guide/product-guide/widget-properties-events/mobile/mobcheckbox) , [Checkbox Group](/developers/user-guide/product-guide/widget-properties-events/mobile/checkbox-group) , [Radio Buttons Group](/developers/user-guide/product-guide/widget-properties-events/mobile/radiobuttonsgroup) , [Popup Listbox](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-listbox) , [Popup Dropdown](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown) , [Flip Toggle Switch](/developers/user-guide/product-guide/widget-properties-events/mobile/flip-toggle-switch)
 
- - [Mouse Events](../events/event-reference-list/mouse-events)
+ - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 
- - [Data Events](../events/event-reference-list/data-events)
+ - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

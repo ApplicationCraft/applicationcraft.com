@@ -70,11 +70,11 @@ Any user interaction is blocked by AC until the OK button has been pressed.
 
 ## See Also
 
- - [showConfirm()](showconfirm)
+ - [showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm)
 
- - [showPrompt()](showprompt)
+ - [showPrompt()](/developers/user-guide/scripting-apis/client-api/app-functions/showprompt)
 
- - [showPagePopup()](../page-functions/showpagepopup)
+ - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
 
- - [closePagePopup()](../page-functions/closepagepopup)
+ - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 

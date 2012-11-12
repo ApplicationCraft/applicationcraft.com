@@ -32,7 +32,7 @@ If your app is targeted specifically for iOS and/or Android you can of course se
 
 ![adfonic](/img/docs/adfonic.zoom79.png)
 
-It is recommended that you use Custom URL ID where you can choose a 'short name' for your app. See [Apps](../the-console/console-tabs/applications) This will help Adfonic to review your app as an Application Craft app.
+It is recommended that you use Custom URL ID where you can choose a 'short name' for your app. See [Apps](/developers/user-guide/product-guide/the-console/console-tabs/applications) This will help Adfonic to review your app as an Application Craft app.
 
 Entering a description of your app can also help speed up the approval process of your app.
 

@@ -12,7 +12,7 @@ On the right side, you will see the available Group Parameters for the selected 
 
  - Type : this is the data type for this parameter and you can choose between Text, Number, Boolean (true/false) and Password (ensures field entry shows '\*' as well as hashing the password within the system storage)
 
- - Access : this allows you to specify whether and how the User can see or modify this parameter. 'Edit' means the user can modify this parameter within the [My User Variables](../../my-details) section. 'Read-Only' allows the users to see the parameter value but not change it and 'Hidden' means that the parameter can only be set by an Administrator or the API.
+ - Access : this allows you to specify whether and how the User can see or modify this parameter. 'Edit' means the user can modify this parameter within the [My User Variables](/developers/user-guide/product-guide/the-console/console-tabs/more/my-details) section. 'Read-Only' allows the users to see the parameter value but not change it and 'Hidden' means that the parameter can only be set by an Administrator or the API.
 
  - Value : this is the default value of the parameter.
 

@@ -8,7 +8,7 @@ full_width: true
 
 A Console screen is made up of two main areas.
 
-On the left of the screen is a tree view folder structure showing the available objects for that section (in Design and Integration Consoles). See [Private, Shared and Public Folders](private-shared-and-public-fol) for more information.
+On the left of the screen is a tree view folder structure showing the available objects for that section (in Design and Integration Consoles). See [Private, Shared and Public Folders](/developers/user-guide/product-guide/the-console/private-shared-and-public-fol) for more information.
 
 On the right, detailed information and settings are shown for the selected object. These include sections for Version control for Apps, and Sharing/Permissions settings for all objects.
 
@@ -18,5 +18,5 @@ Each section can be expanded or collapsed by pressing the arrow in the grey head
 
 Any changes you make to the selected object's settings are not made until you press the Save button. If you press the Cancel button, all changes will be lost.
 
-All Design and Integration screens have the [Sharing](sharing) section. This is worth understanding properly as it is used a lot within AC and allows you to control access to many objects.
+All Design and Integration screens have the [Sharing](/developers/user-guide/product-guide/the-console/sharing) section. This is worth understanding properly as it is used a lot within AC and allows you to control access to many objects.
 

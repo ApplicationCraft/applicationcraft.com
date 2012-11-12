@@ -8,5 +8,5 @@ full_width: true
 
 This is a very powerful way of getting an array of data into different types of widgets. The beauty about this function is that the source data array does not have to be in any specific format.
 
-Read all about it [here](../widget-data-state-manipulation/populatewidget/) .
+Read all about it [here](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) .
 

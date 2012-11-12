@@ -6,5 +6,5 @@ full_width: true
 ---
 
 
-If you have not already done so, please read the chapter [Interacting with Widgets](../widget-reading-writing/) . This provides an overview of how to read and write data to the various Widget types.
+If you have not already done so, please read the chapter [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . This provides an overview of how to read and write data to the various Widget types.
 

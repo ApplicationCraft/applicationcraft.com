@@ -12,17 +12,17 @@ You will find some functions with direct equivalents on the server such as getVi
 
 **In This Section:**
 
- - [Web Service Calls](ssj-object/web-service-calls/)
+ - [Web Service Calls](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/)
 
- - [Security](ssj-object/security/)
+ - [Security](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/)
 
- - [Database](ssj-object/database/)
+ - [Database](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/)
 
- - [Credit Card Payments](ssj-object/credit-card-payments/)
+ - [Credit Card Payments](/developers/user-guide/scripting-apis/server-side-api/ssj-object/credit-card-payments/)
 
- - [Data Preparation](ssj-object/data-preparation)
+ - [Data Preparation](/developers/user-guide/scripting-apis/server-side-api/ssj-object/data-preparation)
 
- - [oAuth](ssj-object/oauth/)
+ - [oAuth](/developers/user-guide/scripting-apis/server-side-api/ssj-object/oauth/)
 
- - [Miscellaneous](ssj-object/miscellaneous/)
+ - [Miscellaneous](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/)
 

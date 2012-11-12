@@ -31,7 +31,7 @@ In your Server Side code, you create a function to receive the client side call
 
 Here you can see how the first parameter is the userAuthKey, followed by the API endpoint, the verb, and finally any parameters to be passed to the API.
 
-Other than the first userAuthKey parameter, the remaining parameters are the same as [ssj.httpRequest()](../../../scripting-apis/server-side-api/ssj-object/web-service-calls/httprequest2) , so please refer to that for full details.
+Other than the first userAuthKey parameter, the remaining parameters are the same as [ssj.httpRequest()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequest2) , so please refer to that for full details.
 
 ## Callback
 

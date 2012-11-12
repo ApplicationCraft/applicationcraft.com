@@ -50,11 +50,11 @@ an optional array of arguments as may be required by the server side function
 </table>
 ## Description
 
-This function is used if you want to call a server side function from your client App. [Server Side Scripting](../../server-side-scripting-overview/) is covered in its own chapter, so please refer to it for more details.
+This function is used if you want to call a server side function from your client App. [Server Side Scripting](/developers/user-guide/scripting-apis/server-side-scripting-overview/) is covered in its own chapter, so please refer to it for more details.
 
 ## Example
 
-See [Calling SSJ Methods](../../server-side-scripting-overview/calling-ssj-methods) for an example.
+See [Calling SSJ Methods](/developers/user-guide/scripting-apis/server-side-scripting-overview/calling-ssj-methods) for an example.
 
 Related Video:
 

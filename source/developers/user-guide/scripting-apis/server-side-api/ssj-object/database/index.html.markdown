@@ -8,33 +8,33 @@ full_width: true
 
 **In This Section:**
 
- - [getViewData()](database/getviewdata2)
+ - [getViewData()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/getviewdata2)
 
- - [getConnection()](database/getconnection)
+ - [getConnection()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/getconnection)
 
- - [getConnectionByName()](database/getconnectionbyname)
+ - [getConnectionByName()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/getconnectionbyname)
 
- - [beginTransaction()](database/begintransaction)
+ - [beginTransaction()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/begintransaction)
 
- - [commit()](database/commit)
+ - [commit()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/commit)
 
- - [rollback()](database/rollback)
+ - [rollback()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/rollback)
 
- - [insert()](database/insert)
+ - [insert()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/insert)
 
- - [update()](database/update)
+ - [update()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/update)
 
- - [delete()](database/delete)
+ - [delete()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/delete)
 
- - [exec()](database/exec)
+ - [exec()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/exec)
 
- - [lastInsertId()](database/lastinsertid)
+ - [lastInsertId()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/lastinsertid)
 
- - [quote()](database/quote)
+ - [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote)
 
- - [quoteInto()](database/quoteinto)
+ - [quoteInto()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quoteinto)
 
- - [Select Handling](database/select-handling/)
+ - [Select Handling](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/)
 
 Related Video:
 

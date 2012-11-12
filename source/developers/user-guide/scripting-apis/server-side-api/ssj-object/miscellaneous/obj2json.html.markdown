@@ -8,6 +8,6 @@ full_width: true
 
 Converts an javascript object to a JSON string.
 
-Please refer to [OBJ2JSON()](obj2json) in the Client API documentation
+Please refer to [OBJ2JSON()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/obj2json) in the Client API documentation
 
 .

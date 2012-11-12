@@ -241,51 +241,51 @@ tree:
       title: Editing and Laying Out - Reference
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?must_read_layout_tips_and_tric.htm',
-        title: Must Read Layout Tips and Tricks, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/must-read-layout-tips-and-tric}
+        title: Must Read Layout Tips and Tricks, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/must-read-layout-tips-and-tric}
       - {old_url: '/revisions/current/docs/user-guide/index.html?the_widget_explorer.htm',
-        title: The Widget Explorer, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/the-widget-explorer}
+        title: The Widget Explorer, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/the-widget-explorer}
       - {old_url: '/revisions/current/docs/user-guide/index.html?repeating_widgets_across_multi.htm',
-        title: Repeating Widgets Across Multiple Pages, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/repeating-widgets-across-multi}
+        title: Repeating Widgets Across Multiple Pages, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi}
       - {old_url: '/revisions/current/docs/user-guide/index.html?widget_alignment__distribution.htm',
-        title: Widget Alignment, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-alignment-distribution}
+        title: Widget Alignment, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-alignment-distribution}
       - {old_url: '/revisions/current/docs/user-guide/index.html?drag_alignment.htm',
-        title: Drag Alignment, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/drag-alignment}
+        title: Drag Alignment, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/drag-alignment}
       - {old_url: '/revisions/current/docs/user-guide/index.html?selection__multi_selection.htm',
-        title: Selection & Multi Selection, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/selection-multi-selection}
+        title: Selection & Multi Selection, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/selection-multi-selection}
       - {old_url: '/revisions/current/docs/user-guide/index.html?showing_container_outlines.htm',
-        title: Showing container outlines, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/showing-container-outlines}
+        title: Showing container outlines, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/showing-container-outlines}
       - {old_url: '/revisions/current/docs/user-guide/index.html?menus_and_navigation.htm',
-        title: Menus and Navigation, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/menus-and-navigation}
+        title: Menus and Navigation, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/menus-and-navigation}
       - {old_url: '/revisions/current/docs/user-guide/index.html?widget_anchoring.htm',
-        title: Anchoring, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-anchoring}
+        title: Anchoring, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring}
       - {old_url: '/revisions/current/docs/user-guide/index.html?reverting_to_theme_style.htm',
-        title: Reverting to Theme Style, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/reverting-to-theme-style}
+        title: Reverting to Theme Style, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/reverting-to-theme-style}
       - {old_url: '/revisions/current/docs/user-guide/index.html?layer___z_order.htm',
-        title: Widget Layer / Z-Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/layer--z-order}
+        title: Widget Layer / Z-Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/layer--z-order}
       - {old_url: '/revisions/current/docs/user-guide/index.html?widget_grouping.htm',
-        title: Widget Grouping, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/widget-grouping}
+        title: Widget Grouping, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-grouping}
       - {old_url: '/revisions/current/docs/user-guide/index.html?undo_redo.htm', title: Undo
-          & Redo, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/undo-redo}
+          & Redo, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/undo-redo}
       - {old_url: '/revisions/current/docs/user-guide/index.html?clipboard.htm', title: Clipboard,
-        url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/clipboard}
+        url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/clipboard}
       - {old_url: '/revisions/current/docs/user-guide/index.html?page_order.htm',
-        title: Page Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/page-order}
+        title: Page Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/page-order}
       - {old_url: '/revisions/current/docs/user-guide/index.html?tab_order.htm', title: Tab
-          Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/tab-order}
+          Order, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/tab-order}
       - {old_url: '/revisions/current/docs/user-guide/index.html?equal_spacing.htm',
-        title: Equal Spacing, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/equal-spacing}
+        title: Equal Spacing, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-spacing}
       - {old_url: '/revisions/current/docs/user-guide/index.html?equal_sizing.htm',
-        title: Equal Sizing, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/equal-sizing}
+        title: Equal Sizing, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-sizing}
       - {old_url: '/revisions/current/docs/user-guide/index.html?equal_distribution.htm',
-        title: Equal Distribution, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/equal-distribution}
+        title: Equal Distribution, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-distribution}
       - {old_url: '/revisions/current/docs/user-guide/index.html?snap_to_grid.htm',
-        title: Snap to Grid, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/snap-to-grid}
+        title: Snap to Grid, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/snap-to-grid}
       - {old_url: '/revisions/current/docs/user-guide/index.html?referencing_documents__files.htm',
-        title: Referencing Documents & Files, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/referencing-documents-files}
+        title: Referencing Documents & Files, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/referencing-documents-files}
       - {old_url: '/revisions/current/docs/user-guide/index.html?adding_audio__video.htm',
-        title: Adding Audio & Video, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/adding-audio-video}
+        title: Adding Audio & Video, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/adding-audio-video}
       - {old_url: '/revisions/current/docs/user-guide/index.html?working_with_images.htm',
-        title: Working with Images, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference/working-with-images}
+        title: Working with Images, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/working-with-images}
       url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference
     url: /developers/user-guide/product-guide/content-and-app-layout
   - old_url: /revisions/current/docs/user-guide/index.html?desktop_vs__mobile.htm
@@ -408,12 +408,12 @@ tree:
         title: Property, Event, Method Summary
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?widget_properties.htm',
-          title: Widget Properties, url: '/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property,-event,-method-summary/widget-properties'}
+          title: Widget Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/widget-properties}
         - {old_url: '/revisions/current/docs/user-guide/index.html?gmapevents.htm',
-          title: Events, url: '/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property,-event,-method-summary/gmapevents'}
+          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/gmapevents}
         - {old_url: '/revisions/current/docs/user-guide/index.html?methods.htm', title: Methods,
-          url: '/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property,-event,-method-summary/methods'}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property,-event,-method-summary
+          url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/methods}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary
       url: /developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget
     - old_url: /revisions/current/docs/user-guide/index.html?image_maps_and_emoticons.htm
       title: Image Maps and Emoticons
@@ -446,12 +446,12 @@ tree:
         title: Property, Methods, Event Summary
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?properties.htm',
-          title: Properties, url: '/developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property,-methods,-event-summary/properties'}
+          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/properties}
         - {old_url: '/revisions/current/docs/user-guide/index.html?videvents.htm',
-          title: Events, url: '/developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property,-methods,-event-summary/videvents'}
+          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/videvents}
         - {old_url: '/revisions/current/docs/user-guide/index.html?vidmethods.htm',
-          title: Methods, url: '/developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property,-methods,-event-summary/vidmethods'}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property,-methods,-event-summary
+          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/vidmethods}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary
       url: /developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets
     - old_url: /revisions/current/docs/user-guide/index.html?advancedphotoswipe.htm
       title: Photoswipe
@@ -466,12 +466,12 @@ tree:
         title: Property, Methods, Event Summary
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?pswipeproperties.htm',
-          title: Properties, url: '/developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property,-methods,-event-summary/pswipeproperties'}
+          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipeproperties}
         - {old_url: '/revisions/current/docs/user-guide/index.html?pswipeevents.htm',
-          title: Events, url: '/developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property,-methods,-event-summary/pswipeevents'}
+          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipeevents}
         - {old_url: '/revisions/current/docs/user-guide/index.html?pswipemethods.htm',
-          title: Methods, url: '/developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property,-methods,-event-summary/pswipemethods'}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property,-methods,-event-summary
+          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipemethods}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary
       url: /developers/user-guide/product-guide/advanced-important-widgets/photoswipe
     - old_url: /revisions/current/docs/user-guide/index.html?calendar_widget.htm
       title: Calendar Widget
@@ -484,12 +484,12 @@ tree:
         title: Property, Method and Event Summary
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?calendarproperties.htm',
-          title: Properties, url: '/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property,-method-and-event-summary/calendarproperties'}
+          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarproperties}
         - {old_url: '/revisions/current/docs/user-guide/index.html?calendarevents.htm',
-          title: Events, url: '/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property,-method-and-event-summary/calendarevents'}
+          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents}
         - {old_url: '/revisions/current/docs/user-guide/index.html?calendarmethods.htm',
-          title: Methods, url: '/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property,-method-and-event-summary/calendarmethods'}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property,-method-and-event-summary
+          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarmethods}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary
       url: /developers/user-guide/product-guide/advanced-important-widgets/calendar-widget
     - old_url: /revisions/current/docs/user-guide/index.html?zing_charts.htm
       title: Zing Charts
@@ -514,12 +514,12 @@ tree:
         title: Property, Method and Event Summary
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?properties3.htm',
-          title: Properties, url: '/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property,-method-and-event-summary/properties3'}
+          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/properties3}
         - {old_url: '/revisions/current/docs/user-guide/index.html?events2.htm', title: Events,
-          url: '/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property,-method-and-event-summary/events2'}
+          url: /developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/events2}
         - {old_url: '/revisions/current/docs/user-guide/index.html?methods2.htm',
-          title: Methods, url: '/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property,-method-and-event-summary/methods2'}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property,-method-and-event-summary
+          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/methods2}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary
       url: /developers/user-guide/product-guide/advanced-important-widgets/zing-charts
     - old_url: /revisions/current/docs/user-guide/index.html?circular_menu.htm
       title: Circle Menu Widget
@@ -528,12 +528,12 @@ tree:
         title: Property, Method and Event Summary_2
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?properties3_2.htm',
-          title: Properties, url: '/developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property,-method-and-event-summary-2/properties3-2'}
+          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/properties3-2}
         - {old_url: '/revisions/current/docs/user-guide/index.html?events2_2.htm',
-          title: Events, url: '/developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property,-method-and-event-summary-2/events2-2'}
+          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/events2-2}
         - {old_url: '/revisions/current/docs/user-guide/index.html?methods2_2.htm',
-          title: Methods, url: '/developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property,-method-and-event-summary-2/methods2-2'}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property,-method-and-event-summary-2
+          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/methods2-2}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2
       url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget
     - old_url: /revisions/current/docs/user-guide/index.html?scandit.htm
       title: Scandit Widget
@@ -542,12 +542,12 @@ tree:
         title: Property, Method and Event Summary
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?properties3_3.htm',
-          title: Properties, url: '/developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property,-method-and-event-summary/properties3-3'}
+          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary/properties3-3}
         - {old_url: '/revisions/current/docs/user-guide/index.html?events2_3.htm',
-          title: Events, url: '/developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property,-method-and-event-summary/events2-3'}
+          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary/events2-3}
         - {old_url: '/revisions/current/docs/user-guide/index.html?methods2_3.htm',
-          title: Methods, url: '/developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property,-method-and-event-summary/methods2-3'}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property,-method-and-event-summary
+          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary/methods2-3}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary
       url: /developers/user-guide/product-guide/advanced-important-widgets/scandit-widget
     - old_url: /revisions/current/docs/user-guide/index.html?share_this_widget.htm
       title: Share This Widget
@@ -599,30 +599,30 @@ tree:
       title: Accessing Data in other Apps, Databases and APIs
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?integration_agents.htm',
-        title: Integration Agents, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/integration-agents'}
+        title: Integration Agents, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/integration-agents}
       - {old_url: '/revisions/current/docs/user-guide/index.html?advconnections.htm',
-        title: Connections, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/advconnections'}
+        title: Connections, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/advconnections}
       - {old_url: '/revisions/current/docs/user-guide/index.html?advqueries.htm',
-        title: Queries, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/advqueries'}
+        title: Queries, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/advqueries}
       - {old_url: '/revisions/current/docs/user-guide/index.html?accessing_queries_from_apps.htm',
-        title: Accessing Queries from Apps, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/accessing-queries-from-apps'}
+        title: Accessing Queries from Apps, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/accessing-queries-from-apps}
       - {old_url: '/revisions/current/docs/user-guide/index.html?the_data_properties.htm',
-        title: The Data Properties, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/the-data-properties'}
+        title: The Data Properties, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/the-data-properties}
       - {old_url: '/revisions/current/docs/user-guide/index.html?drill_down.htm',
-        title: Drill Down, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/drill-down'}
+        title: Drill Down, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/drill-down}
       - {old_url: '/revisions/current/docs/user-guide/index.html?how_to_store_data.htm',
-        title: How to Store Data, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/how-to-store-data'}
+        title: How to Store Data, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/how-to-store-data}
       - {old_url: '/revisions/current/docs/user-guide/index.html?relational_apps.htm',
-        title: Relational Apps, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/relational-apps'}
+        title: Relational Apps, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/relational-apps}
       - {old_url: '/revisions/current/docs/user-guide/index.html?accessing_external_data_via_we.htm',
-        title: Accessing External Data via Web Services, url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/accessing-external-data-via-we'}
+        title: Accessing External Data via Web Services, url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/accessing-external-data-via-we}
       - {old_url: '/revisions/current/docs/user-guide/index.html?writing_to_other_apps_crud.htm',
-        title: Writing to other Apps (CRUD), url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/writing-to-other-apps-crud'}
+        title: Writing to other Apps (CRUD), url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/writing-to-other-apps-crud}
       - {old_url: '/revisions/current/docs/user-guide/index.html?grids_and_repeater_containers.htm',
-        title: 'Grids, Repeater & Data Containers', url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/grids-and-repeater-containers'}
+        title: 'Grids, Repeater & Data Containers', url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/grids-and-repeater-containers}
       - {old_url: '/revisions/current/docs/user-guide/index.html?charting.htm', title: Charting,
-        url: '/developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis/charting'}
-      url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps,-databases-and-apis
+        url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/charting}
+      url: /developers/user-guide/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis
     - {old_url: '/revisions/current/docs/user-guide/index.html?pro_account_advertising.htm',
       title: Advertising, url: /developers/user-guide/product-guide/advanced-features/pro-account-advertising}
     - old_url: /revisions/current/docs/user-guide/index.html?data_storage.htm
@@ -680,11 +680,11 @@ tree:
                 title: Using Application Craft Events
                 tree:
                 - {old_url: '/revisions/current/docs/user-guide/index.html?on_pre_submit.htm',
-                  title: On Pre Submit, url: '/developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/using-application-craft-events/on-pre-submit'}
+                  title: On Pre Submit, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/using-application-craft-events/on-pre-submit}
                 - {old_url: '/revisions/current/docs/user-guide/index.html?on_submitted.htm',
-                  title: On Submitted, url: '/developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/using-application-craft-events/on-submitted'}
-                url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?/using-application-craft-events
-              url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved?
+                  title: On Submitted, url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/using-application-craft-events/on-submitted}
+                url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/using-application-craft-events
+              url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved
             url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button
           url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance
         url: /developers/user-guide/product-guide/advanced-features/data-storage-management/standard-storage-procedures
@@ -785,72 +785,72 @@ tree:
       title: Data Integration, Reporting & Dashboards
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?populating_charts_from_javascr.htm',
-        title: Populating Charts from Javascript, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/populating-charts-from-javascr'}
+        title: Populating Charts from Javascript, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/populating-charts-from-javascr}
       - {old_url: '/revisions/current/docs/user-guide/index.html?chart_reference.htm',
-        title: Must Read Chart Reference, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/chart-reference'}
+        title: Must Read Chart Reference, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/chart-reference}
       - {old_url: '/revisions/current/docs/user-guide/index.html?key_concepts.htm',
-        title: Data Sources, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/key-concepts'}
+        title: Data Sources, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/key-concepts}
       - {old_url: '/revisions/current/docs/user-guide/index.html?reporting_widgets.htm',
-        title: Reporting Widgets, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/reporting-widgets'}
+        title: Reporting Widgets, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/reporting-widgets}
       - old_url: /revisions/current/docs/user-guide/index.html?data_section_properties.htm
         title: Data Section Properties
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?configuring_the_app_to_access_.htm',
-          title: Configuring the App to Access Queries, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/configuring-the-app-to-access'}
+          title: Configuring the App to Access Queries, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/configuring-the-app-to-access}
         - {old_url: '/revisions/current/docs/user-guide/index.html?view.htm', title: View,
-          url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/view'}
+          url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/view}
         - {old_url: '/revisions/current/docs/user-guide/index.html?anatomy_of_a_view.htm',
-          title: Anatomy of a View, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/anatomy-of-a-view'}
+          title: Anatomy of a View, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/anatomy-of-a-view}
         - {old_url: '/revisions/current/docs/user-guide/index.html?the_expression_editor.htm',
-          title: The Expression Editor, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor'}
+          title: The Expression Editor, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/the-expression-editor}
         - old_url: /revisions/current/docs/user-guide/index.html?fields.htm
           title: Fields
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?typical_scenarios.htm',
-            title: Single Field Widgets, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/typical-scenarios'}
+            title: Single Field Widgets, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/typical-scenarios}
           - {old_url: '/revisions/current/docs/user-guide/index.html?radio_buttons__checkboxes_and_.htm',
-            title: 'Radio Buttons, Checkboxes and Groups', url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/radio-buttons-checkboxes-and'}
+            title: 'Radio Buttons, Checkboxes and Groups', url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/radio-buttons-checkboxes-and}
           - {old_url: '/revisions/current/docs/user-guide/index.html?grids.htm', title: Grids,
-            url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/grids'}
+            url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/grids}
           - {old_url: '/revisions/current/docs/user-guide/index.html?repeater__data_containers.htm',
-            title: Repeater & Data Containers, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/repeater-data-containers'}
+            title: Repeater & Data Containers, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/repeater-data-containers}
           - {old_url: '/revisions/current/docs/user-guide/index.html?list__dropdowns.htm',
-            title: List & Dropdowns, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/list-dropdowns'}
+            title: List & Dropdowns, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/list-dropdowns}
           - {old_url: '/revisions/current/docs/user-guide/index.html?fieldscharts.htm',
-            title: Charts, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/fieldscharts'}
+            title: Charts, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/fieldscharts}
           - {old_url: '/revisions/current/docs/user-guide/index.html?fieldsgauges.htm',
-            title: Gauges, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields/fieldsgauges'}
-          url: /developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fields
+            title: Gauges, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/fieldsgauges}
+          url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields
         - {old_url: '/revisions/current/docs/user-guide/index.html?using_automatic_property_setti.htm',
-          title: Using Automatic Property Settings, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/using-automatic-property-setti'}
+          title: Using Automatic Property Settings, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/using-automatic-property-setti}
         - {old_url: '/revisions/current/docs/user-guide/index.html?fiieldsgroup_by.htm',
-          title: Group By, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/fiieldsgroup-by'}
+          title: Group By, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by}
         - {old_url: '/revisions/current/docs/user-guide/index.html?order_by.htm',
-          title: Order By, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/order-by'}
+          title: Order By, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by}
         - {old_url: '/revisions/current/docs/user-guide/index.html?filter.htm', title: Filter,
-          url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/filter'}
+          url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/filter}
         - {old_url: '/revisions/current/docs/user-guide/index.html?drill_filter.htm',
-          title: Drill Filter, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-filter'}
+          title: Drill Filter, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-filter}
         - {old_url: '/revisions/current/docs/user-guide/index.html?drill_type.htm',
-          title: Drill Type, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/drill-type'}
+          title: Drill Type, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-type}
         - {old_url: '/revisions/current/docs/user-guide/index.html?broadcast.htm',
-          title: Broadcast, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/broadcast'}
+          title: Broadcast, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/broadcast}
         - {old_url: '/revisions/current/docs/user-guide/index.html?listen.htm', title: Listen,
-          url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/listen'}
+          url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen}
         - {old_url: '/revisions/current/docs/user-guide/index.html?reset_filter.htm',
-          title: Reset Filter, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/reset-filter'}
+          title: Reset Filter, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter}
         - {old_url: '/revisions/current/docs/user-guide/index.html?auto_load.htm',
-          title: Auto Load, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/auto-load'}
-        url: /developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties
+          title: Auto Load, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/auto-load}
+        url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties
       - {old_url: '/revisions/current/docs/user-guide/index.html?view_filtering.htm',
-        title: View Filtering, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/view-filtering'}
+        title: View Filtering, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/view-filtering}
       - {old_url: '/revisions/current/docs/user-guide/index.html?using_the_same_query_multiple_.htm',
-        title: Using the same Query Multiple Times in an App, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/using-the-same-query-multiple'}
+        title: Using the same Query Multiple Times in an App, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/using-the-same-query-multiple}
       - {old_url: '/revisions/current/docs/user-guide/index.html?drilling_down.htm',
-        title: Drilling Down, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/drilling-down'}
+        title: Drilling Down, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/drilling-down}
       - {old_url: '/revisions/current/docs/user-guide/index.html?importing_and_exporting_data.htm',
-        title: Application Craft Data Graphs, url: '/developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards/importing-and-exporting-data'}
-      url: /developers/user-guide/product-guide/advanced-features/data-integration,-reporting-dashboards
+        title: Application Craft Data Graphs, url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/importing-and-exporting-data}
+      url: /developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards
     - old_url: /revisions/current/docs/user-guide/index.html?embedding_apps_within_apps.htm
       title: Embedding Apps within Apps
       tree:
@@ -1804,42 +1804,42 @@ tree:
         title: Video, Audio & YouTube Widget
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?play.htm', title: play(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/play'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/play}
         - {old_url: '/revisions/current/docs/user-guide/index.html?pause.htm', title: pause(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/pause'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/pause}
         - {old_url: '/revisions/current/docs/user-guide/index.html?load.htm', title: load(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/load'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/load}
         - {old_url: '/revisions/current/docs/user-guide/index.html?muted.htm', title: muted(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/muted'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/muted}
         - {old_url: '/revisions/current/docs/user-guide/index.html?currenttime.htm',
-          title: currentTime(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/currenttime'}
+          title: currentTime(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/currenttime}
         - {old_url: '/revisions/current/docs/user-guide/index.html?poster.htm', title: poster(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/poster'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/poster}
         - {old_url: '/revisions/current/docs/user-guide/index.html?enable.htm', title: enable(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/enable'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/enable}
         - {old_url: '/revisions/current/docs/user-guide/index.html?controls.htm',
-          title: controls(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/controls'}
+          title: controls(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/controls}
         - {old_url: '/revisions/current/docs/user-guide/index.html?getyoutubeplayer.htm',
-          title: getYoutubePlayer(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getyoutubeplayer'}
+          title: getYoutubePlayer(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getyoutubeplayer}
         - {old_url: '/revisions/current/docs/user-guide/index.html?clearvideo.htm',
-          title: clearVideo(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/clearvideo'}
+          title: clearVideo(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/clearvideo}
         - {old_url: '/revisions/current/docs/user-guide/index.html?stop.htm', title: stop(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/stop'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/stop}
         - {old_url: '/revisions/current/docs/user-guide/index.html?volume.htm', title: volume(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/volume'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/volume}
         - {old_url: '/revisions/current/docs/user-guide/index.html?duration.htm',
-          title: duration(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/duration'}
+          title: duration(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/duration}
         - {old_url: '/revisions/current/docs/user-guide/index.html?state.htm', title: state(),
-          url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/state'}
+          url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/state}
         - {old_url: '/revisions/current/docs/user-guide/index.html?setplaybackquality.htm',
-          title: setPlaybackQuality(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/setplaybackquality'}
+          title: setPlaybackQuality(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/setplaybackquality}
         - {old_url: '/revisions/current/docs/user-guide/index.html?getplaybackquality.htm',
-          title: getPlaybackQuality(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getplaybackquality'}
+          title: getPlaybackQuality(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getplaybackquality}
         - {old_url: '/revisions/current/docs/user-guide/index.html?getavailablequalitylevels.htm',
-          title: getAvailableQualityLevels(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getavailablequalitylevels'}
+          title: getAvailableQualityLevels(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getavailablequalitylevels}
         - {old_url: '/revisions/current/docs/user-guide/index.html?vidpopulatewidget.htm',
-          title: populateWidget(), url: '/developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/vidpopulatewidget'}
-        url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget
+          title: populateWidget(), url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/vidpopulatewidget}
+        url: /developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget
       - old_url: /revisions/current/docs/user-guide/index.html?photoswiperef.htm
         title: Photoswipe
         tree:

@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -18,25 +18,25 @@ Preparing for CRUD requires an understanding of how AC deals with writing to for
 
 ## CRUD and Relationships
 
-CRUD involves data operations on foreign Apps. As a result, you will often create Instance relationships between your App and the other App. You should define these Relationships properly within your App properties as described in [Instance Relationships in Detail](../../instance-relationships-in-detail/) .
+CRUD involves data operations on foreign Apps. As a result, you will often create Instance relationships between your App and the other App. You should define these Relationships properly within your App properties as described in [Instance Relationships in Detail](/developers/user-guide/product-guide/advanced-features/data-storage-management/instance-relationships-in-detail/) .
 
 ![crud-relation](/img/docs/crud-relation.zoom52.png)
 
 ## CRUD Requires a Query
 
-All CRUD operations are passed into a Query via the App's data view, so you need to [define a Query](../../../../the-console/console-tabs/queries/) that points to your App (CRUD Contacts, for example). **Important** : you must not include a JOIN in your query, so make sure only a single App is selected.
+All CRUD operations are passed into a Query via the App's data view, so you need to [define a Query](/developers/user-guide/product-guide/the-console/console-tabs/queries/) that points to your App (CRUD Contacts, for example). **Important** : you must not include a JOIN in your query, so make sure only a single App is selected.
 
 In the next topic, we discuss how you can create JOINed Apps based on their Relationships.
 
 ## Create a View in your App that points to the Query
 
-In your App (CRUD Companies), [create a View](../../../data-integration,-reporting-dashboards/data-section-properties/configuring-the-app-to-access) that references the Query (CRUD Contacts in our example).
+In your App (CRUD Companies), [create a View](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/configuring-the-app-to-access) that references the Query (CRUD Contacts in our example).
 
 ![crud-view-internal](/img/docs/crud-view-internal.zoom51.png)
 
 ## Map your Widget(s) to the View
 
-In your App (CRUD Companies) you will usually have a Panel Container Widget that contains individual Widgets that will interact with the foreign App (CRUD Contacts). Map this [Panel Container](../../../../widget-properties-events/containers/panel) to point to the CRUD Contacts View and, in the Fields property of the Panel Container, map any Widgets to the View fields that need to be mapped. You can also use Grids or Repeater Containers with CRUD operations.
+In your App (CRUD Companies) you will usually have a Panel Container Widget that contains individual Widgets that will interact with the foreign App (CRUD Contacts). Map this [Panel Container](/developers/user-guide/product-guide/widget-properties-events/containers/panel) to point to the CRUD Contacts View and, in the Fields property of the Panel Container, map any Widgets to the View fields that need to be mapped. You can also use Grids or Repeater Containers with CRUD operations.
 
 ![crud-map-internal](/img/docs/crud-map-internal.zoom63.png)
 
@@ -54,19 +54,19 @@ If required, you should set this property to true so that AC knows to automatica
 
 ## Manual Relationships
 
-Relationships between any two Instances can also be created at any time using the [instanceSetRelationship()](../../../../../scripting-apis/client-api/instance-data-functions/instancesetrelationship) function. This function also allows you to remove existing relationships.
+Relationships between any two Instances can also be created at any time using the [instanceSetRelationship()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesetrelationship) function. This function also allows you to remove existing relationships.
 
 ## Ready to Go
 
 You are now ready to perform CRUD operations such as
 
- - [instanceCreate()](../../../../../scripting-apis/client-api/instance-data-functions/instancecreate)
+ - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
 
- - [instanceUpdate()](../../../../../scripting-apis/client-api/instance-data-functions/instancesave)
+ - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
 
- - [instanceDelete()](../../../../../scripting-apis/client-api/instance-data-functions/instancedelete)
+ - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 
 ## **See Also**
 
- - [CRUD Permissions](crud-permissions)
+ - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
 

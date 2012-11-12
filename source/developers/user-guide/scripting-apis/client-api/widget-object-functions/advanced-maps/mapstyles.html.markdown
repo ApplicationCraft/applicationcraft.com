@@ -62,5 +62,5 @@ Google offers a very nice [style wizard](http://gmaps-samples-v3.googlecode.com/
 
 ## **See Also**
 
- - [Map Styles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles)
+ - [Map Styles](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles)
 

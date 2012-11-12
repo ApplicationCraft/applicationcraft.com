@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="142">
-{ [wlist](../objects-titbits/widget-list-parameters) } widget
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="15">
@@ -35,5 +35,5 @@ Allows you to dynamically delete widgets from your app
 
 ## See Also
 
- - [createWidget()](createwidget)
+ - [createWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/createwidget)
 

@@ -21,15 +21,15 @@ This is one of the most common scripting uses. When a button is pressed, you nee
 
 In this example, we are inspecting the contents of a RadioBtn named rbFemale using the getData function.
 
-You should also refer to [Interacting with Widgets](../widget-reading-writing/) for full details on how to read data from the various Widget types.
+You should also refer to [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) for full details on how to read data from the various Widget types.
 
 ## See also
 
- - [pageJump()](../../../client-api/page-functions/pagejump)
+ - [pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump)
 
- - [pageNext()](../../../client-api/page-functions/pagenext)
+ - [pageNext()](/developers/user-guide/scripting-apis/client-api/page-functions/pagenext)
 
- - [pagePrevious()](../../../client-api/page-functions/pageprevious)
+ - [pagePrevious()](/developers/user-guide/scripting-apis/client-api/page-functions/pageprevious)
 
- - [PageCalling()](../../../client-api/page-functions/pagecalling)
+ - [PageCalling()](/developers/user-guide/scripting-apis/client-api/page-functions/pagecalling)
 

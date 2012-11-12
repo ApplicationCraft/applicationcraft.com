@@ -36,5 +36,5 @@ Where you can set the Reference Time Zone
 
 ## See Also
 
- - [instanceGetRTZ()](instancegetrtz)
+ - [instanceGetRTZ()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/instancegetrtz)
 

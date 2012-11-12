@@ -8,11 +8,11 @@ full_width: true
 
 **In This Section:**
 
- - [httpRequest()](web-service-calls/httprequest2)
+ - [httpRequest()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequest2)
 
- - [httpRequestAdv()](web-service-calls/httprequestadv)
+ - [httpRequestAdv()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv)
 
- - [soapRequest()](web-service-calls/soaprequest2)
+ - [soapRequest()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/soaprequest2)
 
- - [networkTimeout()](web-service-calls/networktimeout)
+ - [networkTimeout()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/networktimeout)
 

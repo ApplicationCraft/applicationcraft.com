@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Under the More tab in the console you will see [Notifications](../../account-management/notifications) .
+Under the More tab in the console you will see [Notifications](/developers/user-guide/product-guide/account-management/notifications) .
 
 ![notifications](/img/docs/notifications.png)
 

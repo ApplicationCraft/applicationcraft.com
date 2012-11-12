@@ -12,25 +12,25 @@ This chapter looks at some of the things you might want to think about when buil
 
 **In This Section:**
 
-[Standard Mobile Widgets](mobile-apps--sites/other-mobile-widgets)
+[Standard Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/other-mobile-widgets)
 
-[Advanced Mobile Widgets](mobile-apps--sites/advanced-mobile-widgets)
+[Advanced Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/advanced-mobile-widgets)
 
-[Adaptive (Fluid) Layouts](mobile-apps--sites/adaptive-or-fluid-layouts)
+[Adaptive (Fluid) Layouts](/developers/user-guide/product-guide/mobile-apps-sites/adaptive-or-fluid-layouts)
 
-[Mobile Widgets](mobile-apps--sites/mappsmobile-widgets)
+[Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/mappsmobile-widgets)
 
-[Mobile Themes](mobile-apps--sites/mobile-themes)
+[Mobile Themes](/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes)
 
-[Formatting Mobile Content](mobile-apps--sites/formatting-mobile-content)
+[Formatting Mobile Content](/developers/user-guide/product-guide/mobile-apps-sites/formatting-mobile-content)
 
-[Page Transition Effects](mobile-apps--sites/page-transition-effects)
+[Page Transition Effects](/developers/user-guide/product-guide/mobile-apps-sites/page-transition-effects)
 
-[Transition Mode](mobile-apps--sites/mobile-transition-mode)
+[Transition Mode](/developers/user-guide/product-guide/mobile-apps-sites/mobile-transition-mode)
 
-[Icon Management](mobile-apps--sites/icon-management)
+[Icon Management](/developers/user-guide/product-guide/mobile-apps-sites/icon-management)
 
-[Splash Image Management](mobile-apps--sites/splash-image-management)
+[Splash Image Management](/developers/user-guide/product-guide/mobile-apps-sites/splash-image-management)
 
 Related Video:
 

@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[oAuthSignin()](oauth/oauthsignin)
+[oAuthSignin()](/developers/user-guide/scripting-apis/client-api/oauth/oauthsignin)
 
 </td>
 <td width="12">

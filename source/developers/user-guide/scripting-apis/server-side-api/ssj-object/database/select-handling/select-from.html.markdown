@@ -60,11 +60,11 @@ See select().
 
 ## Description
 
-This function allows you to specify the table and, optionally, the fields. If you want to select fields from multiple tables you will use select().from() for your first table and then use [select().join()](select-join) for subsequent tables.
+This function allows you to specify the table and, optionally, the fields. If you want to select fields from multiple tables you will use select().from() for your first table and then use [select().join()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-join) for subsequent tables.
 
 ## Escaping Expressions
 
-If your expression includes characters that are likely to cause problems for the SQL interpreter, then refer to the [quote()](../quote) and [quoteInto()](../quoteinto) methods. These handle the escaping for you in a way that lets you write more readable code.
+If your expression includes characters that are likely to cause problems for the SQL interpreter, then refer to the [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote) and [quoteInto()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quoteinto) methods. These handle the escaping for you in a way that lets you write more readable code.
 
 For example the following statement would be invalid due to the ' appearing mid word.
 
@@ -87,7 +87,7 @@ For example the following statement would be invalid due to the ' appearing mid 
 
 ## Field Expressions
 
-If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../../product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
+If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](/developers/user-guide/product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
 
 ## Examples
 

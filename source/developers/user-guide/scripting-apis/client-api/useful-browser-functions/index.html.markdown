@@ -10,19 +10,19 @@ The functions outlined here are common knowledge to experienced Javascript devel
 
 **In This Section:**
 
-[alert(), confirm()](useful-browser-functions/alert)
+[alert(), confirm()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/alert)
 
-[open()](useful-browser-functions/open)
+[open()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/open)
 
-[pageXOffset(), pageYOffset()](useful-browser-functions/pagexoffset-pageyoffset)
+[pageXOffset(), pageYOffset()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/pagexoffset-pageyoffset)
 
-[scrollTo(), scrollBy()](useful-browser-functions/scrollto)
+[scrollTo(), scrollBy()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto)
 
-[setInterval(), setTimeout()](useful-browser-functions/setinterval-settimeout-et-al)
+[setInterval(), setTimeout()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al)
 
-[window object](useful-browser-functions/window-object)
+[window object](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/window-object)
 
-[screen object](useful-browser-functions/screen-object)
+[screen object](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/screen-object)
 
-[navigator object](useful-browser-functions/navigator-object)
+[navigator object](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/navigator-object)
 

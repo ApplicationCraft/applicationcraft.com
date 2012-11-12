@@ -41,13 +41,13 @@ How you can set the line color for overlays
 
 ## **See Also**
 
- - [strokeOpacity()](strokeopacity)
+ - [strokeOpacity()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/strokeopacity)
 
- - [strokeWeight()](strokeweight)
+ - [strokeWeight()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/strokeweight)
 
- - [fillColor()](fillcolor)
+ - [fillColor()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fillcolor)
 
- - [fillOpacity()](fillopacity)
+ - [fillOpacity()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fillopacity)
 
- - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/)
+ - [Working with Overlays](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/)
 

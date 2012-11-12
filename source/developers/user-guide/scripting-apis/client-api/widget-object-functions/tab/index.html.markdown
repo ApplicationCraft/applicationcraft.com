@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-[getCurrentTabIndex()](tab/getcurrenttabindex)
+[getCurrentTabIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/tab/getcurrenttabindex)
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ Gets the index of the current tab item
 </tr>
 <tr>
 <td width="182">
-[selectTab()](tab/selecttab)
+[selectTab()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/tab/selecttab)
 
 </td>
 <td width="8">
@@ -35,7 +35,7 @@ Select a tab item
 </tr>
 <tr>
 <td width="182">
-[enableTab()](tab/enabletab)
+[enableTab()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/tab/enabletab)
 
 </td>
 <td width="8">
@@ -47,7 +47,7 @@ enable/disable a tab item and its container
 </tr>
 <tr>
 <td width="182">
-[visibleTab()](tab/visibletab)
+[visibleTab()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/tab/visibletab)
 
 </td>
 <td width="8">

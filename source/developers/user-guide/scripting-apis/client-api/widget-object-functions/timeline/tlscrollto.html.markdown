@@ -37,13 +37,13 @@ This example reads the date object contained by the 'dtGoto' widget and scrolls 
 
 ## See Also
 
- - [fitData()](fitdata)
+ - [fitData()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/fitdata)
 
- - [scroll()](scroll)
+ - [scroll()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/scroll)
 
- - [Timeline Events](eventstimeline)
+ - [Timeline Events](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/eventstimeline)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
+ - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 
- - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
+ - [Working with the Timeline Widget](/developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
 

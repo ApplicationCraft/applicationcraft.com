@@ -10,17 +10,17 @@ Application Craft supports an entirely code free approach to translating your Ap
 
 **In This Section:**
 
-[Adding One or More Languages](multi-language-apps/adding-one-or-more-languages)
+[Adding One or More Languages](/developers/user-guide/product-guide/advanced-features/multi-language-apps/adding-one-or-more-languages)
 
-[Setting for Auto Language Detection at Run Time](multi-language-apps/setting-for-auto-language-dete)
+[Setting for Auto Language Detection at Run Time](/developers/user-guide/product-guide/advanced-features/multi-language-apps/setting-for-auto-language-dete)
 
-[Language Tokens](multi-language-apps/tokens)
+[Language Tokens](/developers/user-guide/product-guide/advanced-features/multi-language-apps/tokens)
 
-[Auto Translation](multi-language-apps/auto-translation)
+[Auto Translation](/developers/user-guide/product-guide/advanced-features/multi-language-apps/auto-translation)
 
-[Switching Languages in the IDE](multi-language-apps/switching-languages-in-the-ide)
+[Switching Languages in the IDE](/developers/user-guide/product-guide/advanced-features/multi-language-apps/switching-languages-in-the-ide)
 
-[Auto vs. Manual Language Switching](multi-language-apps/auto-vs-manual-language-switc)
+[Auto vs. Manual Language Switching](/developers/user-guide/product-guide/advanced-features/multi-language-apps/auto-vs-manual-language-switc)
 
-[Relevant API Methods](multi-language-apps/relevant-api-methods)
+[Relevant API Methods](/developers/user-guide/product-guide/advanced-features/multi-language-apps/relevant-api-methods)
 

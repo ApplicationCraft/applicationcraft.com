@@ -8,7 +8,7 @@ full_width: true
 
 These events are only available for Apps running in Native mode. If you are running an App in a regular browser on your mobile device then these events will not be available.
 
-For more information on building Native Apps, see the [Phonegap & Native Apps](../../../../ac-mobile-build-phonegap/cordova/) chapter.
+For more information on building Native Apps, see the [Phonegap & Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/) chapter.
 
 <table>
 <tr>
@@ -29,7 +29,7 @@ On Online
 <td width="8">
 </td>
 <td width="735">
-When the network connection goes online, having previously been offline. See also [Network Availability Handling](../../../../scripting-apis/client-scripting-overview/network-availability-handling) chapter.
+When the network connection goes online, having previously been offline. See also [Network Availability Handling](/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling) chapter.
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ On Offline
 <td width="8">
 </td>
 <td width="735">
-When the network connection goes offline, having previously been online. See also [Network Availability Handling](../../../../scripting-apis/client-scripting-overview/network-availability-handling) chapter.
+When the network connection goes offline, having previously been online. See also [Network Availability Handling](/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling) chapter.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ On Back Button Press
 <td width="8">
 </td>
 <td width="735">
-When the 'Back' button is pressed. You should note that if this event returns false, then Application Craft will not handle the back action, otherwise it will automatically jump to the previous page as with [app.pageBack()](../../../../scripting-apis/client-api/page-functions/pageback) .
+When the 'Back' button is pressed. You should note that if this event returns false, then Application Craft will not handle the back action, otherwise it will automatically jump to the previous page as with [app.pageBack()](/developers/user-guide/scripting-apis/client-api/page-functions/pageback) .
 
 </td>
 </tr>

@@ -87,5 +87,5 @@ If running as a Native App, then this is passed through to [this Phonegap functi
 
 ## See Also
 
- - [alert()](refalert)
+ - [alert()](/developers/user-guide/scripting-apis/client-api/app-functions/refalert)
 

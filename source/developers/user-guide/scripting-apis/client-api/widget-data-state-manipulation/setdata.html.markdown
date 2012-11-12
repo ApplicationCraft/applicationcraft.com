@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="131">
-{ [wlist](../objects-titbits/widget-list-parameters) } widget
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="13">
@@ -40,19 +40,19 @@ the value to write
 
 Allows you to set the contents of a Widget.
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how setData() and setValue() work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how setData() and setValue() work with different Widget types.
 
 ## Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
+There are examples in the [Reading & Writing App Data](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
 
 ## See Also
 
- - [getData() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists-dropdowns) Widgets
+ - [getData() for Listbox and Drop Down](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists-dropdowns) Widgets
 
- - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
+ - [getData() for Grids](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
 
- - [populateWidget()](populatewidget/) for populating Grids and Repeater Containers with JSON data
+ - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) for populating Grids and Repeater Containers with JSON data
 
 Related Video:
 

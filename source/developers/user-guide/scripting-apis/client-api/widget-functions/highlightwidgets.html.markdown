@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="202">
-{ [wlist](../objects-titbits/widget-list-parameters) }
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) }
 
 </td>
 <td width="11">
@@ -72,9 +72,9 @@ or
 
 ## See Also
 
- - [checkMandatory()](checkmandatory)
+ - [checkMandatory()](/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory)
 
- - [unhighlightWidgets()](unhighlightwidgets)
+ - [unhighlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/unhighlightwidgets)
 
 Related Videos:
 

@@ -49,11 +49,11 @@ Creates a new date object in the specified format. If no parameters are supplied
 
 ## See Also
 
- - [dtadd()](dtadd)
+ - [dtadd()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadd)
 
- - [dtDifference()](dtdifference)
+ - [dtDifference()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdifference)
 
- - [dtAdjust()](dtadjust)
+ - [dtAdjust()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadjust)
 
- - [dtDateToString()](dtdatetostring)
+ - [dtDateToString()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdatetostring)
 

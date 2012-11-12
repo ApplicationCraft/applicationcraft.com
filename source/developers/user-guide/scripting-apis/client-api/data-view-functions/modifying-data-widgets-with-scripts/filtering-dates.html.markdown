@@ -22,7 +22,7 @@ In the database, however, dates are stored in a different format. When filtering
     }
    
 
-If you want to convert from a javascript object into the correct format, AC provides a simple conversion function [DATE2DB()](../../conversion-functions/date2db) that does this for you automatically.
+If you want to convert from a javascript object into the correct format, AC provides a simple conversion function [DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db) that does this for you automatically.
 
 ## Example
 
@@ -30,7 +30,7 @@ This example shows how a Date Pickers is used in Range mode (Range property is t
 
 ## See Also
 
- - [Modifying Filters with a Script](filters)
+ - [Modifying Filters with a Script](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filters)
 
- - [DATE2DB()](../../conversion-functions/date2db)
+ - [DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db)
 

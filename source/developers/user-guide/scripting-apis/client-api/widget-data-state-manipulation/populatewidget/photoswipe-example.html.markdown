@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can use populateWidget() or setData() to populate a [Photoswipe](../../../../product-guide/widget-properties-events/advanced/photoswipe) widget.
+You can use populateWidget() or setData() to populate a [Photoswipe](/developers/user-guide/product-guide/widget-properties-events/advanced/photoswipe) widget.
 
 ## Example
 
-This example shows how you can have data in an array and populate it directly in to the [Photoswipe](../../../../product-guide/widget-properties-events/advanced/photoswipe) Widget. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example) ).
+This example shows how you can have data in an array and populate it directly in to the [Photoswipe](/developers/user-guide/product-guide/widget-properties-events/advanced/photoswipe) Widget. The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/complex-json-example) ).
 
     var data = [ 
     {mytitle:'title1', mythumbnail:"http://10.0.0.36:8080/images/thumb/001.jpg", mythumbnailtext:'Label 1', mysrc:"http://10.0.0.36:8080/images/full/001.jpg"}, 

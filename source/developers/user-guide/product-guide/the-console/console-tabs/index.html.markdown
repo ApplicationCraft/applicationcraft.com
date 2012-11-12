@@ -10,19 +10,19 @@ full_width: true
 
 **In This Section:**
 
-[Apps](console-tabs/applications)
+[Apps](/developers/user-guide/product-guide/the-console/console-tabs/applications)
 
-[Resources](console-tabs/resources)
+[Resources](/developers/user-guide/product-guide/the-console/console-tabs/resources)
 
-[Themes](console-tabs/themes-overview)
+[Themes](/developers/user-guide/product-guide/the-console/console-tabs/themes-overview)
 
-[Connections](console-tabs/connections/)
+[Connections](/developers/user-guide/product-guide/the-console/console-tabs/connections/)
 
-[Queries](console-tabs/queries/)
+[Queries](/developers/user-guide/product-guide/the-console/console-tabs/queries/)
 
-[Notifiers](console-tabs/notifiers)
+[Notifiers](/developers/user-guide/product-guide/the-console/console-tabs/notifiers)
 
-[More](console-tabs/more/)
+[More](/developers/user-guide/product-guide/the-console/console-tabs/more/)
 
-[Import/Export](../import/export/)
+[Import/Export](/developers/user-guide/product-guide/the-console/import/export/)
 

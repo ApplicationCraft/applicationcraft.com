@@ -44,7 +44,7 @@ Returns a token (synchronously) that should be passed back to the client side ca
 
 This function must be called when you are ready to process a payment. You will get back a token that should be passed back to the client App by returning the token form your SSJ function.
 
-Please refer to the [sample application](../../../../product-guide/advanced-features/credit-card-payment-processing/) to see a comprehensive example and overview of the entire process.
+Please refer to the [sample application](/developers/user-guide/product-guide/advanced-features/credit-card-payment-processing/) to see a comprehensive example and overview of the entire process.
 
 ## Example
 

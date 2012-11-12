@@ -8,5 +8,5 @@ full_width: true
 
 To debug using Safari, you first need to enable Developer support. This is done from the Advanced section of Safari's Preferences, where you should enable 'Show Develop menu in menu bar'.
 
-Behavior is the same as for Chrome, so please refer to the [Chrome](chrome) section for more information.
+Behavior is the same as for Chrome, so please refer to the [Chrome](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/chrome) section for more information.
 

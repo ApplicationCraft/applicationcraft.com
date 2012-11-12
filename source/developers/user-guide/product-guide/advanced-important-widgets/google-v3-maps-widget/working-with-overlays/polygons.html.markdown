@@ -8,7 +8,7 @@ full_width: true
 
 A Polygon can be drawn on the Map by specifying an array of coordinates. You can also specify line and fill properties.
 
-Below is some code that shows how to create a new line using [addPolygon()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](../using-populatewidget) function.
+Below is some code that shows how to create a new line using [addPolygon()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/using-populatewidget) function.
 
     function handler_actionBtn10_onClick(mouseev){
         if (polygonObj) {
@@ -28,5 +28,5 @@ Below is some code that shows how to create a new line using [addPolygon()](../.
 
 **addPolygon**
 
-Please refer to [addPolygon()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon) in the [Client API](../../../../scripting-apis/client-api/) section for full details on the function.
+Please refer to [addPolygon()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon) in the [Client API](/developers/user-guide/scripting-apis/client-api/) section for full details on the function.
 

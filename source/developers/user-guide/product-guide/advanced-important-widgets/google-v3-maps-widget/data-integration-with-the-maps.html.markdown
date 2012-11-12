@@ -10,15 +10,15 @@ Data Integration allows you to retrieve data from an Application Craft Query and
 
 Provided you can pull data directly from a query that can supply the necessary data direct to the Maps widget, you can then achieve map population completely code free.
 
-Accessing Data is the same as for any other Queries. This process is described in the [Data Integration](../../advanced-features/data-integration,-reporting-dashboards/) section.
+Accessing Data is the same as for any other Queries. This process is described in the [Data Integration](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/) section.
 
 If your data source is storing Latitude and Longitude in separate fields you will need to join these in the field mapping for the Coords field
 
 ![latlng](/img/docs/latlng.zoom90.png)
 
-Example showing data from Postgres DB (and also if using a [Data List](../../advanced-features/data-lists-management/) )
+Example showing data from Postgres DB (and also if using a [Data List](/developers/user-guide/product-guide/advanced-features/data-lists-management/) )
 
-For other databases see: [MySQL, Postgres, Oracle etc.](../../../scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc)
+For other databases see: [MySQL, Postgres, Oracle etc.](/developers/user-guide/scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc)
 
 The following table explains all of the possible fields
 
@@ -260,13 +260,13 @@ Rectangle
 
 If you have data in an AC Query but you need to do some pre-processing before passing it into the map, then you should follow these steps
 
- - use [getViewData()](../../../scripting-apis/client-api/data-view-functions/getviewdata) to retrieve your data
+ - use [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata) to retrieve your data
 
  - process the array of data in any way you like
 
- - use [populateWidget()](using-populatewidget) to write the array into the Map widget
+ - use [populateWidget()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/using-populatewidget) to write the array into the Map widget
 
 ## **See Also**
 
- - [MySQL, Postgres, Oracle etc.](../../../scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc)
+ - [MySQL, Postgres, Oracle etc.](/developers/user-guide/scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc)
 

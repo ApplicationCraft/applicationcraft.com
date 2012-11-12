@@ -8,14 +8,14 @@ full_width: true
 
 **In This Section:**
 
-[The Widget Object](important-details/the-widget-object)
+[The Widget Object](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/the-widget-object)
 
-[App Switching](important-details/app-switching)
+[App Switching](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/app-switching)
 
-[Extending the Client API](important-details/extending-the-ac-dom)
+[Extending the Client API](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/extending-the-ac-dom)
 
-[Loading and Saving Instance Data](important-details/loading-and-saving-instance-da)
+[Loading and Saving Instance Data](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/loading-and-saving-instance-da)
 
-[adding Widget Effects](important-details/adding-widget-effects)
+[adding Widget Effects](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/adding-widget-effects)
 
-[Date Handling](important-details/date-handling)
+[Date Handling](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/date-handling)

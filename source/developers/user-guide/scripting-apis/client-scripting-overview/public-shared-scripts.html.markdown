@@ -22,5 +22,5 @@ If your virtual file is within a virtual folder path, you need to specify the pa
 
 ## See Also
 
- - [Defining SSJ Methods](../server-side-scripting-overview/ssj-user-defined-methods)
+ - [Defining SSJ Methods](/developers/user-guide/scripting-apis/server-side-scripting-overview/ssj-user-defined-methods)
 

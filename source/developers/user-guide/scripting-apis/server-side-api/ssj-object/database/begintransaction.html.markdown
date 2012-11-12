@@ -42,11 +42,11 @@ This example shows how a record is first inserted into the 'customers' table and
 
 ## See Also
 
- - [commit()](commit)
+ - [commit()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/commit)
 
- - [rollback()](rollback)
+ - [rollback()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/rollback)
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 

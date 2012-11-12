@@ -39,17 +39,17 @@ You can remove a defined overlay as it is clicked on using the onOverlayClick Ev
 
 ## **See Also**
 
- - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
+ - [Removing Overlays](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 
- - [getOverlays()](getoverlays)
+ - [getOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlays)
 
- - [clearOverlays()](clearoverlays)
+ - [clearOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/clearoverlays)
 
- - [showOverlay()](showoverlayid)
+ - [showOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/showoverlayid)
 
- - [hideOverlay()](hideoverlay)
+ - [hideOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/hideoverlay)
 
- - [fitToOverlays()](fittooverlays)
+ - [fitToOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fittooverlays)
 
- - [getOverlayObjById()](getoverlayobjbyidid)
+ - [getOverlayObjById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlayobjbyidid)
 

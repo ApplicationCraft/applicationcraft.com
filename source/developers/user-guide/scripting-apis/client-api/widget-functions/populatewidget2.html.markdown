@@ -6,4 +6,4 @@ full_width: true
 ---
 
 
-See: [populateWidget()](../widget-data-state-manipulation/populatewidget/)
+See: [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)

@@ -8,5 +8,5 @@ full_width: true
 
 Application Craft Javascript provides App Client APIs that gives you comprehensive access to Apps, their Widgets as well as Session data and information about the logged on User using an App.
 
-Please refer to the [Client API](../../../client-api/) section for full details.
+Please refer to the [Client API](/developers/user-guide/scripting-apis/client-api/) section for full details.
 

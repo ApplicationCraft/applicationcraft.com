@@ -22,5 +22,5 @@ Application Craft itself automatically installs a local database Agent so local 
 
 ## See Also
 
- - [AC Advanced Data Agent](../application-craft-advanced-data-agent/)
+ - [AC Advanced Data Agent](/developers/user-guide/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-advanced-data-agent/)
 

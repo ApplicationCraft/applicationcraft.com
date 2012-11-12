@@ -32,13 +32,13 @@ The page event On Page Leave will be called after closePagePopup().
 
 ## See Also
 
- - [pageJump()](pagejump)
+ - [pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump)
 
- - [pageNext()](pagenext)
+ - [pageNext()](/developers/user-guide/scripting-apis/client-api/page-functions/pagenext)
 
- - [pagePrevious()](pageprevious)
+ - [pagePrevious()](/developers/user-guide/scripting-apis/client-api/page-functions/pageprevious)
 
- - [pageBack()](pageback)
+ - [pageBack()](/developers/user-guide/scripting-apis/client-api/page-functions/pageback)
 
- - [showPagePopup()](showpagepopup)
+ - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
 

@@ -47,7 +47,7 @@ Styles
 <td width="28">
 </td>
 <td width="720">
-displays the preset Styles contained in the App Theme (see [Theme Management](themes-styles/themesmanage) for more information on Styles)
+displays the preset Styles contained in the App Theme (see [Theme Management](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) for more information on Styles)
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Toolbox
 <td width="28">
 </td>
 <td width="720">
-contains all the available [Widgets](../../widget-properties-events/) that can be used in a AC App.
+contains all the available [Widgets](/developers/user-guide/product-guide/widget-properties-events/) that can be used in a AC App.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Properties
 <td width="32">
 </td>
 <td width="712">
-Displays all available Properties for the selected Widget. See [Widget Properties](../../widget-properties-events/) for more information.
+Displays all available Properties for the selected Widget. See [Widget Properties](/developers/user-guide/product-guide/widget-properties-events/) for more information.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Events
 <td width="32">
 </td>
 <td width="712">
-Displays all available Event actions for the selected Widget. See [Event Handling](../../widget-properties-events/events/) for more information.
+Displays all available Event actions for the selected Widget. See [Event Handling](/developers/user-guide/product-guide/widget-properties-events/events/) for more information.
 
 </td>
 </tr>
@@ -155,19 +155,19 @@ Related Video:
 
 ## **See Also**
 
- - [Widget Alignment](../editing-and-laying-out-reference/widget-alignment-distribution)
+ - [Widget Alignment](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-alignment-distribution)
 
- - [Equal Spacing](../editing-and-laying-out-reference/equal-spacing)
+ - [Equal Spacing](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-spacing)
 
- - [Equal Sizing](../editing-and-laying-out-reference/equal-sizing)
+ - [Equal Sizing](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-sizing)
 
- - [Equal Distribution](../editing-and-laying-out-reference/equal-distribution)
+ - [Equal Distribution](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-distribution)
 
- - [Widget Layer / Z-Order](../editing-and-laying-out-reference/layer-z-order)
+ - [Widget Layer / Z-Order](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/layer-z-order)
 
- - [Tab Order](../editing-and-laying-out-reference/tab-order)
+ - [Tab Order](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/tab-order)
 
- - [Populate Widget Map Wizard](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/populatewidget-wizard)
+ - [Populate Widget Map Wizard](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/populatewidget-wizard)
 
- - [Web Test Wizard](../../../scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard)
+ - [Web Test Wizard](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard)
 

@@ -42,7 +42,7 @@ returns an array of Connection Objects that match the suppled name.
 </table>
 ## Description
 
-This is provided as an alternative way of opening a Connection. It is very much advised that you do not use this function but use [getConnection()](getconnection) instead.
+This is provided as an alternative way of opening a Connection. It is very much advised that you do not use this function but use [getConnection()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/getconnection) instead.
 
 The only advantage of using getConnectionByName() over getConnection() is that you can pass in a Connection Name rather than a Connection ID. This may make it more appealing superficially, but you should be aware that Connection Names are not guaranteed to be unique, which can result in problems if you are not careful with your naming.
 

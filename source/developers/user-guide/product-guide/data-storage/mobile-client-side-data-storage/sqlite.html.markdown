@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-If you are compiling your Apps using [AC Mobile Build](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/) , then use the special [SQLite Plugin](../../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/) . This is available for iOS and Android with more platforms to follow. With this approach the SQLite database library is a part of your application.
+If you are compiling your Apps using [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) , then use the special [SQLite Plugin](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/) . This is available for iOS and Android with more platforms to follow. With this approach the SQLite database library is a part of your application.
 
 ## Typical Architecture
 

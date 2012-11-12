@@ -32,5 +32,5 @@ There are a couple of important things going on here
 
  - w() is a function that all Widgets have and it returns the Widget object of the specified Widget
 
-\_widget and the Widget Object are discussed in detail in the [Objects & Titbits](../../../../client-api/objects-titbits/) chapter of the [Client API](../../../../client-api/) section.
+\_widget and the Widget Object are discussed in detail in the [Objects & Titbits](/developers/user-guide/scripting-apis/client-api/objects-titbits/) chapter of the [Client API](/developers/user-guide/scripting-apis/client-api/) section.
 

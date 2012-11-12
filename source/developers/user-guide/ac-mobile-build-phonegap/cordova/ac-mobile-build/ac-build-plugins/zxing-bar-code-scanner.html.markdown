@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-ZXing Bar Code Scanner allows you to scan barcodes and can be used as the alternative for the [Scandit Free](scandit-free) Plugin.
+ZXing Bar Code Scanner allows you to scan barcodes and can be used as the alternative for the [Scandit Free](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free) Plugin.
 
 ## HTML5+CSS+JS Apps not developed in Application Craft
 
@@ -246,5 +246,5 @@ whether or not the user cancelled the scan
 
 ## **See Also**
 
- - [Scandit Free](scandit-free)
+ - [Scandit Free](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free)
 

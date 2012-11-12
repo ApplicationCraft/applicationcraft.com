@@ -12,9 +12,9 @@ Select 'Javascript' from the available list
 
 ![AcEditor\_select](/img/docs/aceditor_select.png)
 
-Each event can reference the object [\_widget](../../../client-api/objects-titbits/ref-widget) . This is the [object of the Widget](../important-details/the-widget-object) that the Event belongs to.
+Each event can reference the object [\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget) . This is the [object of the Widget](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/the-widget-object) that the Event belongs to.
 
 ## See Also
 
- - [Events](../../../../product-guide/widget-properties-events/events/)
+ - [Events](/developers/user-guide/product-guide/widget-properties-events/events/)
 

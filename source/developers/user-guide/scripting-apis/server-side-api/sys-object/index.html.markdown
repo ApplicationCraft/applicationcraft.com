@@ -8,13 +8,13 @@ full_width: true
 
 **In This Section:**
 
- - [User Management](sys-object/user-management/)
+ - [User Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/)
 
- - [Group Management](sys-object/group-management/)
+ - [Group Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/)
 
- - [App Management](sys-object/app-management/)
+ - [App Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/app-management/)
 
- - [Resources Management](sys-object/resources-management/)
+ - [Resources Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/)
 
- - [Queries Management](sys-object/queries-management/)
+ - [Queries Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/queries-management/)
 

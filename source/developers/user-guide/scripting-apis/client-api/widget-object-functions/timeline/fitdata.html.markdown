@@ -10,7 +10,7 @@ full_width: true
 
 ## Description
 
-Adjusts the date range of a Timeline widget to accommodate all events loaded into it. Should be called after data has been loaded using [populateWidget()](../../widget-data-state-manipulation/populatewidget/) .
+Adjusts the date range of a Timeline widget to accommodate all events loaded into it. Should be called after data has been loaded using [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) .
 
 ## Example
 
@@ -24,13 +24,13 @@ Adjusts the date range of a Timeline widget to accommodate all events loaded int
 
 ## See Also
 
- - [scroll()](scroll)
+ - [scroll()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/scroll)
 
- - [scrollTo()](../../useful-browser-functions/scrollto)
+ - [scrollTo()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto)
 
- - [Timeline Events](eventstimeline)
+ - [Timeline Events](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/eventstimeline)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
+ - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 
- - [Working with the Timeline Widget](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
+ - [Working with the Timeline Widget](/developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
 

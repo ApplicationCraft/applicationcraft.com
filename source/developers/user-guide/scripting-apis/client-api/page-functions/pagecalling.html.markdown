@@ -19,7 +19,7 @@ full_width: true
 <td width="12">
 </td>
 <td width="717">
-A string indicating the type of transition effect. You can find the [available transition values here](page-transitions) .
+A string indicating the type of transition effect. You can find the [available transition values here](/developers/user-guide/scripting-apis/client-api/page-functions/page-transitions) .
 
 </td>
 </tr>
@@ -43,17 +43,17 @@ Deprecated - please use pageBack() instead.
 
 This function had some limitations and is deprecated since pageBack() fully implements back behavior.
 
-You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page-transitions) for valid transition strings and examples.
+You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](/developers/user-guide/scripting-apis/client-api/page-functions/page-transitions) for valid transition strings and examples.
 
 ## See Also
 
- - [pageJump()](pagejump)
+ - [pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump)
 
- - [pageNext()](pagenext)
+ - [pageNext()](/developers/user-guide/scripting-apis/client-api/page-functions/pagenext)
 
- - [pagePrevious()](pageprevious)
+ - [pagePrevious()](/developers/user-guide/scripting-apis/client-api/page-functions/pageprevious)
 
- - [showPagePopup()](showpagepopup)
+ - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
 
- - [closePagePopup()](closepagepopup)
+ - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 

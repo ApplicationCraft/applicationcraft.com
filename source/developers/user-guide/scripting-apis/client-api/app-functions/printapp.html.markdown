@@ -48,7 +48,7 @@ Invoked once the printing process is complete and returns an error and the url o
 </table>
 ## Description
 
-Please refer to the [Printing](../../../product-guide/advanced-features/printing/) section for an overview of printing in general. For code examples, please go to the [Printing Examples](../../../product-guide/advanced-features/printing/printing-examples) topic.
+Please refer to the [Printing](/developers/user-guide/product-guide/advanced-features/printing/) section for an overview of printing in general. For code examples, please go to the [Printing Examples](/developers/user-guide/product-guide/advanced-features/printing/printing-examples) topic.
 
 Call this method when you need to generate a pdf representation of any App/App Instance. You should pass in the id of the app and if you do not pass in the params object, you will get a pdf with no data in the widgets.
 
@@ -91,9 +91,9 @@ As soon as the printing process has completed, the callback function will be cal
 
 ## Examples
 
-For more code examples, please go to the [Printing Examples](../../../product-guide/advanced-features/printing/printing-examples) topic.
+For more code examples, please go to the [Printing Examples](/developers/user-guide/product-guide/advanced-features/printing/printing-examples) topic.
 
 ## See Also
 
- - [isPrinting()](isprinting)
+ - [isPrinting()](/developers/user-guide/scripting-apis/client-api/app-functions/isprinting)
 

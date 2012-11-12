@@ -56,7 +56,7 @@ To determine the property name, look in the property bar and remove any spaces. 
 
 ## See Also
 
- - [getProperty()](../../widget-functions/getproperty)
+ - [getProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/getproperty)
 
- - [setProperty()](../../widget-functions/setproperty)
+ - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
 

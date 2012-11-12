@@ -32,4 +32,4 @@ Here is a typical example of populateWidget() being used to populate data from a
     }
    
 
-You will often get your data by making an AJAX call using [httpRequest()](../../soap-restful-ajax-calls/httprequest) and so this example shows the principle clearly. If your data comes as an array of complex, nested objects, then you should refer to the [Complex JSON Examples](complex-json-example) topic.
+You will often get your data by making an AJAX call using [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) and so this example shows the principle clearly. If your data comes as an array of complex, nested objects, then you should refer to the [Complex JSON Examples](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/complex-json-example) topic.

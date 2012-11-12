@@ -25,7 +25,7 @@ On Data Loaded
 <td width="15">
 </td>
 <td width="779">
-This is called once data has been fully loaded to the appropriate Data View. N.B. When a widget is in a container, it is the container which is loading data, so this event listens to the container. See also On Row Loaded in [General Events](general-events) .
+This is called once data has been fully loaded to the appropriate Data View. N.B. When a widget is in a container, it is the container which is loading data, so this event listens to the container. See also On Row Loaded in [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events) .
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Triggered when an item is selected.
 
 ## **See Also**
 
- - [Zing Chart Events](../../../advanced-important-widgets/zing-charts/property,-method-and-event-summary/events2)
+ - [Zing Chart Events](/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/events2)
 
- - [Circle Menu Events](../../../advanced-important-widgets/circle-menu-widget/property,-method-and-event-summary-2/events2-2)
+ - [Circle Menu Events](/developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/events2-2)
 

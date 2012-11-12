@@ -97,9 +97,9 @@ All functions are called on the created PGSQLitePlugin object:
 
 ## **See**
 
- - [Methods](sqlite-plugin/methods/)
+ - [Methods](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/)
 
 ## **See Also**
 
- - [Mobile & Client Side Data Storage](../../../../../product-guide/data-storage/mobile-client-side-data-storage/)
+ - [Mobile & Client Side Data Storage](/developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/)
 

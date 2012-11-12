@@ -8,7 +8,7 @@ full_width: true
 
 The Context Menu widget should be considered to be in a Beta state until mention of it is removed from the documentation and is accessible from the Mobile section of the Toolbox
 
-The Context Menu widget can be used to show a simple pop up selection box in a similar way to the [Popup Dropdown](../mobile/popup-dropdown) . The widget is not visible in runtime so can be placed anywhere on your page. As the Parent widget is selected it will present the pop up selection. A single item can be selected and any widget can be set as the Parent widget (eg a label widget when clicked/touched)
+The Context Menu widget can be used to show a simple pop up selection box in a similar way to the [Popup Dropdown](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown) . The widget is not visible in runtime so can be placed anywhere on your page. As the Parent widget is selected it will present the pop up selection. A single item can be selected and any widget can be set as the Parent widget (eg a label widget when clicked/touched)
 
 <table>
 <tr>
@@ -53,7 +53,7 @@ Items
 <td width="15">
 </td>
 <td width="779">
-This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See [Prefill](../prefill) or by code, see [Context Menu](../../../scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/context-menu2)
+This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See [Prefill](/developers/user-guide/product-guide/widget-properties-events/prefill) or by code, see [Context Menu](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/context-menu2)
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Mobile Theme
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Theme colors for the widget. See [Mobile Themes](../../mobile-apps-sites/mobile-themes)
+Where you can set the Theme colors for the widget. See [Mobile Themes](/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes)
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](../../content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ This refers to the [Theme entry](../../content-and-app-layout/introduction/theme
 </tr>
 <tr>
 <td width="148">
-[General Events](../events/event-reference-list/general-events)
+[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 
 </td>
 <td width="15">
@@ -196,9 +196,9 @@ On Pre Show
 
 ## **See Also**
 
- - [Popup Dropdown](../mobile/popup-dropdown)
+ - [Popup Dropdown](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown)
 
- - [Popup Listbox](../mobile/popup-listbox)
+ - [Popup Listbox](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-listbox)
 
- - [General Events](../events/event-reference-list/general-events)
+ - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

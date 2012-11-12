@@ -43,5 +43,5 @@ A Rectangle can be drawn on the Map by specifying the top left and bottom right 
 
 ## **See Also**
 
- - [Rectangles](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/rectangles)
+ - [Rectangles](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/rectangles)
 

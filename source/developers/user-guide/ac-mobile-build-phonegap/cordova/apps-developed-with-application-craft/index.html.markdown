@@ -10,21 +10,21 @@ Application Craft generates Web Apps. However, these can be turned into Native A
 
 These apps can access device hardware and features such as GPS, Accelerometer, Camera, Audio, Contacts etc and can also be deployed in App Stores.
 
-Using our [AC Mobile Build](../ac-mobile-build/) platform you can also integrate with a number of Plugins for iOS and Android.
+Using our [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) platform you can also integrate with a number of Plugins for iOS and Android.
 
 This chapter describes the various ways you can generate and deploy these native Apps.
 
 **In This Section:**
 
-[Mobile Widgets and Layout](apps-developed-with-application-craft/mobile-widgets-and-layout)
+[Mobile Widgets and Layout](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/mobile-widgets-and-layout)
 
-[Device Events](apps-developed-with-application-craft/phonegap-specific-events)
+[Device Events](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-specific-events)
 
-[PhoneGap API Functions](apps-developed-with-application-craft/phonegap-functions)
+[PhoneGap API Functions](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-functions)
 
-[PhoneGap Options](apps-developed-with-application-craft/enabling-device-features)
+[PhoneGap Options](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
 
-[Splash Screen and Icon](apps-developed-with-application-craft/splash-screen-and-icon)
+[Splash Screen and Icon](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/splash-screen-and-icon)
 
 Related Video:
 

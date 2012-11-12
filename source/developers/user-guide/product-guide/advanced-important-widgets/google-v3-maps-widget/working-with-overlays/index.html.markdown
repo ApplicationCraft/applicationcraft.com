@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This chapter deals with the Overlay types supported by the Application Craft Advanced Maps Widget. Overlays can be created individually with dedicated functions such as [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) or all at once using [populateWidget()](../using-populatewidget) .
+This chapter deals with the Overlay types supported by the Application Craft Advanced Maps Widget. Overlays can be created individually with dedicated functions such as [addMarker()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) or all at once using [populateWidget()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/using-populatewidget) .
 
 Below is the list of available types and their type values and the corresponding function name for creating them.
 
@@ -39,7 +39,7 @@ Marker
 
 </td>
 <td width="301">
-[addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker)
+[addMarker()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker)
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Polyline
 
 </td>
 <td width="301">
-[addPolyline()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline)
+[addPolyline()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline)
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ Polygon
 
 </td>
 <td width="301">
-[addPolygon()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon)
+[addPolygon()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon)
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Circle
 
 </td>
 <td width="301">
-[addCircle()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle)
+[addCircle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle)
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Rectangle
 
 </td>
 <td width="301">
-[addRectangle()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle)
+[addRectangle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle)
 
 </td>
 </tr>

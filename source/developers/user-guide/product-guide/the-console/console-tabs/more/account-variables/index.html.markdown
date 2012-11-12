@@ -14,13 +14,13 @@ This is accessible only to those Users who have been granted Account rights with
 
 **In This Section:**
 
-[User Parameters](account-variables/user-parameters/)
+[User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 
-[SMTP Parameters](account-variables/smtp-parameters/)
+[SMTP Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/)
 
-[PhoneGap Parameters](account-variables/phonegap-parameters)
+[PhoneGap Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/phonegap-parameters)
 
-[Google Analytics Parameters](account-variables/google-analytics-parameters)
+[Google Analytics Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/google-analytics-parameters)
 
-[Google Maps](account-variables/google-maps)
+[Google Maps](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/google-maps)
 

@@ -19,7 +19,7 @@ full_width: true
 <td width="12">
 </td>
 <td width="717">
-A string indicating the type of transition effect. You can find the [available transition values here](page-transitions) .
+A string indicating the type of transition effect. You can find the [available transition values here](/developers/user-guide/scripting-apis/client-api/page-functions/page-transitions) .
 
 </td>
 </tr>
@@ -42,7 +42,7 @@ Jumps to the Page in the App that the current page was called from. Works in the
 
 If this is all you are using in an Event function and you are using a Button, Image, Label or Shape Widget, then you may want to set the 'Page Jump' property of the Widget instead. This removes the need to use a script at all.
 
-You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page-transitions) for valid transition strings and examples.
+You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](/developers/user-guide/scripting-apis/client-api/page-functions/page-transitions) for valid transition strings and examples.
 
 ## Example
 
@@ -53,15 +53,15 @@ You can also specify page transitions using the optional parameters. This offers
 
 ## See Also
 
- - [pageJump()](pagejump)
+ - [pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump)
 
- - [pageNext()](pagenext)
+ - [pageNext()](/developers/user-guide/scripting-apis/client-api/page-functions/pagenext)
 
- - [pagePrevious()](pageprevious)
+ - [pagePrevious()](/developers/user-guide/scripting-apis/client-api/page-functions/pageprevious)
 
- - [showPagePopup()](showpagepopup)
+ - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
 
- - [closePagePopup()](closepagepopup)
+ - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 
- - [Back Button Pressed event](../../../product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
+ - [Back Button Pressed event](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 

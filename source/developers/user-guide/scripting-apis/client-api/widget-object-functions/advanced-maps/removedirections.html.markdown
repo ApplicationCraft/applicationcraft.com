@@ -21,5 +21,5 @@ Where you can remove all directions in one go
 
 ## **See Also**
 
- - [getDirections()](getdirections)
+ - [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
 

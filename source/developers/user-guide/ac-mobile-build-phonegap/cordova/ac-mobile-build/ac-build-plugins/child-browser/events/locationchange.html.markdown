@@ -8,7 +8,7 @@ full_width: true
 
 ## Description
 
-This event is called when the ChildBrowser loads a URL (including the initial location, when [showWebPage()](../methods/showwebpage) is called). The callback function is passed the new URL being loaded.
+This event is called when the ChildBrowser loads a URL (including the initial location, when [showWebPage()](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/showwebpage) is called). The callback function is passed the new URL being loaded.
 
 ## **Example**
 

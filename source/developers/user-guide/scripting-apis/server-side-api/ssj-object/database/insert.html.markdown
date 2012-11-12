@@ -44,13 +44,13 @@ This function does not return a value.
 
 Inserts a record of data into the specified database table. The dataObject passed in the parameter must be a simple key:value object as shown in the example below. The key should match a table field name exactly.
 
-The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](quote) manually in advance.
+The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote) manually in advance.
 
-You may want to use the [client side api functions to extract data](../../../client-api/widget-data-state-manipulation/) from your widgets. [app.dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues) , for example, can be used to extract widget names and values into an object. If you choose widget names to match your database field names, then you can use the object returned by app.dataGetValues() and use it as your fieldsObject data without any further manipulation.
+You may want to use the [client side api functions to extract data](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/) from your widgets. [app.dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues) , for example, can be used to extract widget names and values into an object. If you choose widget names to match your database field names, then you can use the object returned by app.dataGetValues() and use it as your fieldsObject data without any further manipulation.
 
 ## Field Expressions
 
-If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
+If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](/developers/user-guide/product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
 
 ## Example
 
@@ -61,9 +61,9 @@ If any of your fields in the fieldsObject() contain a SQL function or arithmetic
 
 ## See Also
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../product-guide/data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 

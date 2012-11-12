@@ -8,14 +8,14 @@ full_width: true
 
 The Advanced Map widget is a very powerful widget that incorporates much of the Google V3 Maps API. It makes the mapping process very easy to learn and use.
 
-Please refer to the [Google V3 Maps Widget](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/) chapter for a thorough introduction and explanation.
+Please refer to the [Google V3 Maps Widget](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/) chapter for a thorough introduction and explanation.
 
 **In This Section:**
 
 <table>
 <tr>
 <td width="182">
-[showMarker()](advanced-maps/showmarker)
+[showMarker()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/showmarker)
 
 </td>
 <td width="8">
@@ -27,7 +27,7 @@ Shows or hides the map's base coordinate marker
 </tr>
 <tr>
 <td width="182">
-[mapStyles()](advanced-maps/mapstyles)
+[mapStyles()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/mapstyles)
 
 </td>
 <td width="8">
@@ -39,7 +39,7 @@ Sets the look and feel of the map
 </tr>
 <tr>
 <td width="182">
-[getOverlays()](advanced-maps/getoverlays)
+[getOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlays)
 
 </td>
 <td width="8">
@@ -51,7 +51,7 @@ Retrieves a list of currently displayed overlay objects
 </tr>
 <tr>
 <td width="182">
-[removeOverlay()](advanced-maps/removeoverlay)
+[removeOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/removeoverlay)
 
 </td>
 <td width="8">
@@ -63,7 +63,7 @@ Removes an individual Overlay object from the map
 </tr>
 <tr>
 <td width="182">
-[clearOverlays()](advanced-maps/clearoverlays)
+[clearOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/clearoverlays)
 
 </td>
 <td width="8">
@@ -75,7 +75,7 @@ Removes all Overlay objects from the map
 </tr>
 <tr>
 <td width="182">
-[showOverlay()](advanced-maps/showoverlayid)
+[showOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/showoverlayid)
 
 </td>
 <td width="8">
@@ -87,7 +87,7 @@ Shows an overlay by Id
 </tr>
 <tr>
 <td width="182">
-[hideOverlay()](advanced-maps/hideoverlay)
+[hideOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/hideoverlay)
 
 </td>
 <td width="8">
@@ -99,7 +99,7 @@ Hides an overlay by id
 </tr>
 <tr>
 <td width="182">
-[fitToOverlays()](advanced-maps/fittooverlays)
+[fitToOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fittooverlays)
 
 </td>
 <td width="8">
@@ -111,7 +111,7 @@ Fits the map to overlays and/or markers
 </tr>
 <tr>
 <td width="182">
-[getOverlayObjById()](advanced-maps/getoverlayobjbyidid)
+[getOverlayObjById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlayobjbyidid)
 
 </td>
 <td width="8">
@@ -123,7 +123,7 @@ Returns the google maps api overlay object
 </tr>
 <tr>
 <td width="182">
-[addPolyline()](advanced-maps/addpolyline)
+[addPolyline()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline)
 
 </td>
 <td width="8">
@@ -135,7 +135,7 @@ Adds a multi-point line to the map
 </tr>
 <tr>
 <td width="182">
-[addPolygon()](advanced-maps/addpolygon)
+[addPolygon()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon)
 
 </td>
 <td width="8">
@@ -147,7 +147,7 @@ Adds a Polygon area to the map
 </tr>
 <tr>
 <td width="182">
-[addCircle()](advanced-maps/addcircle)
+[addCircle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle)
 
 </td>
 <td width="8">
@@ -159,7 +159,7 @@ Adds a Circle to the map
 </tr>
 <tr>
 <td width="182">
-[addRectangle()](advanced-maps/addrectangle)
+[addRectangle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle)
 
 </td>
 <td width="8">
@@ -171,7 +171,7 @@ Adds a rectangle to the map
 </tr>
 <tr>
 <td width="182">
-[addMarker()](advanced-maps/addmarker)
+[addMarker()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker)
 
 </td>
 <td width="8">
@@ -183,7 +183,7 @@ Adds a new Marker to the map, along with optional mouse-over and mouse-click HTM
 </tr>
 <tr>
 <td width="182">
-[clearMarkers()](advanced-maps/clearmarkers)
+[clearMarkers()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/clearmarkers)
 
 </td>
 <td width="8">
@@ -195,7 +195,7 @@ Removes all Markers from the map
 </tr>
 <tr>
 <td width="182">
-[strokeColor()](advanced-maps/strokecolor)
+[strokeColor()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/strokecolor)
 
 </td>
 <td width="8">
@@ -207,7 +207,7 @@ Sets the default line color for overlays
 </tr>
 <tr>
 <td width="182">
-[strokeOpacity()](advanced-maps/strokeopacity)
+[strokeOpacity()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/strokeopacity)
 
 </td>
 <td width="8">
@@ -219,7 +219,7 @@ Sets the default line opacity for overlays
 </tr>
 <tr>
 <td width="182">
-[strokeWeight()](advanced-maps/strokeweight)
+[strokeWeight()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/strokeweight)
 
 </td>
 <td width="8">
@@ -231,7 +231,7 @@ Sets the default line thickness for overlays
 </tr>
 <tr>
 <td width="182">
-[fillColor()](advanced-maps/fillcolor)
+[fillColor()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fillcolor)
 
 </td>
 <td width="8">
@@ -243,7 +243,7 @@ Sets the default fill color for overlays
 </tr>
 <tr>
 <td width="182">
-[fillOpacity()](advanced-maps/fillopacity)
+[fillOpacity()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fillopacity)
 
 </td>
 <td width="8">
@@ -255,7 +255,7 @@ Sets the default fill opacity for overlays
 </tr>
 <tr>
 <td width="182">
-[whereAmI()](advanced-maps/whereami)
+[whereAmI()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami)
 
 </td>
 <td width="8">
@@ -267,7 +267,7 @@ Gets my current location and returns it as a coordinate array
 </tr>
 <tr>
 <td width="182">
-[getAddress()](advanced-maps/getaddress)
+[getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress)
 
 </td>
 <td width="8">
@@ -279,7 +279,7 @@ Returns an address object based on a supplied coordinate
 </tr>
 <tr>
 <td width="182">
-[getCoord()](advanced-maps/getcoord)
+[getCoord()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord)
 
 </td>
 <td width="8">
@@ -291,7 +291,7 @@ Gets a coordinate array based on a supplied address
 </tr>
 <tr>
 <td width="182">
-[getDirections()](advanced-maps/getdirections)
+[getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
 
 </td>
 <td width="8">
@@ -303,7 +303,7 @@ Gets Directions between two coordinate pairs or addresses.
 </tr>
 <tr>
 <td width="182">
-[removeDirections()](advanced-maps/removedirections)
+[removeDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/removedirections)
 
 </td>
 <td width="8">
@@ -315,7 +315,7 @@ Removes all directions from the map
 </tr>
 <tr>
 <td width="182">
-[addCurrentLocation()](advanced-maps/addcurrentlocation)
+[addCurrentLocation()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation)
 
 </td>
 <td width="8">
@@ -327,7 +327,7 @@ Adds the current location of the user to the map
 </tr>
 <tr>
 <td width="182">
-[setLanguage()](advanced-maps/setlanguage)
+[setLanguage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/setlanguage)
 
 </td>
 <td width="8">
@@ -339,7 +339,7 @@ Sets the language code for the map.
 </tr>
 <tr>
 <td width="182">
-[noScroll()](advanced-maps/noscroll)
+[noScroll()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/noscroll)
 
 </td>
 <td width="8">
@@ -351,7 +351,7 @@ Enable/Disable map scrolling
 </tr>
 <tr>
 <td width="182">
-[googleMap()](advanced-maps/googlemap)
+[googleMap()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/googlemap)
 
 </td>
 <td width="8">
@@ -363,7 +363,7 @@ Returns the google maps api object
 </tr>
 <tr>
 <td width="182">
-[loadApi()](advanced-maps/loadapi)
+[loadApi()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/loadapi)
 
 </td>
 <td width="8">

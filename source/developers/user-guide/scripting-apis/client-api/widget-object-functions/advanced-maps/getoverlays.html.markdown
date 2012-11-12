@@ -33,17 +33,17 @@ Allows you to  retrieve a list of all the available Overlay objects currently p
 
 ## **See Also**
 
- - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
+ - [Using getOverlays()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
 
- - [removeOverlay()](removeoverlay)
+ - [removeOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/removeoverlay)
 
- - [getOverlayObjById()](getoverlayobjbyidid)
+ - [getOverlayObjById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlayobjbyidid)
 
- - [clearOverlays()](clearoverlays)
+ - [clearOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/clearoverlays)
 
- - [showOverlay()](showoverlayid)
+ - [showOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/showoverlayid)
 
- - [hideOverlay()](hideoverlay)
+ - [hideOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/hideoverlay)
 
- - [fitToOverlays()](fittooverlays)
+ - [fitToOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fittooverlays)
 

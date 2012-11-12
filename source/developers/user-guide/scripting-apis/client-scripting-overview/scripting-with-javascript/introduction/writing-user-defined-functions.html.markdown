@@ -30,11 +30,11 @@ The folder structure you see here will appear the same for all developers. If yo
 
 ## Server Side API Methods
 
-Application Craft has a different API on the server side to the client API. Please refer to the [Server Side API](../../../server-side-api/) chapter.
+Application Craft has a different API on the server side to the client API. Please refer to the [Server Side API](/developers/user-guide/scripting-apis/server-side-api/) chapter.
 
 ## See Also
 
- - [Defining SSJ Methods](../../../server-side-scripting-overview/ssj-user-defined-methods)
+ - [Defining SSJ Methods](/developers/user-guide/scripting-apis/server-side-scripting-overview/ssj-user-defined-methods)
 
- - [Public Shared Scripts](../../public-shared-scripts)
+ - [Public Shared Scripts](/developers/user-guide/scripting-apis/client-scripting-overview/public-shared-scripts)
 

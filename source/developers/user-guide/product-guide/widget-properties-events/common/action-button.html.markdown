@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The action button can be used to manage Data views and Page Navigation, but also can be used to trigger [Events](../events/) using [Scripting with Javascript](../../../scripting-apis/client-scripting-overview/scripting-with-javascript/)
+The action button can be used to manage Data views and Page Navigation, but also can be used to trigger [Events](/developers/user-guide/product-guide/widget-properties-events/events/) using [Scripting with Javascript](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/)
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ Sizes
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](../../content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](../../content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
+If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](../../content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
 
 </td>
 </tr>
@@ -345,7 +345,7 @@ Margin
 <td width="15">
 </td>
 <td width="779">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](../../content-and-app-layout/introduction/setting-a-margin)
+Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin)
 
 </td>
 </tr>
@@ -417,7 +417,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](../../advanced-features/custom-css-classes/)
+Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
 
 </td>
 </tr>
@@ -429,7 +429,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](../../content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
@@ -448,13 +448,13 @@ This refers to the [Theme entry](../../content-and-app-layout/introduction/theme
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](../events/event-reference-list/mouse-events)
+[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 
 </td>
 <td width="15">
 </td>
 <td width="779">
-[Data Events](../events/event-reference-list/data-events)
+[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
 </td>
 </tr>
@@ -566,13 +566,13 @@ On Resize Stop
 
 ## See Also
 
- - Common Widgets: [Fancy Button](fancy-button)
+ - Common Widgets: [Fancy Button](/developers/user-guide/product-guide/widget-properties-events/common/fancy-button)
 
- - Advanced Widgets: [Reset Filter](../advanced/advreset-filter)
+ - Advanced Widgets: [Reset Filter](/developers/user-guide/product-guide/widget-properties-events/advanced/advreset-filter)
 
- - Mobile Widgets: [Action Button](../mobile/mobaction-button)
+ - Mobile Widgets: [Action Button](/developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button)
 
- - [Mouse Events](../events/event-reference-list/mouse-events)
+ - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 
- - [Data Events](../events/event-reference-list/data-events)
+ - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

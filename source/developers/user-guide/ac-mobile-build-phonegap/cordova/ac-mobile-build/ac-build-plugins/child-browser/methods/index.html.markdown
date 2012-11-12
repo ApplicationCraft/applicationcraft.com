@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="151">
-[showWebPage()](methods/showwebpage)
+[showWebPage()](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/showwebpage)
 
 </td>
 <td width="23">
@@ -23,7 +23,7 @@ Displays a new ChildBrowser with the specified URL
 </tr>
 <tr>
 <td width="151">
-[close()](methods/close3)
+[close()](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/close3)
 
 </td>
 <td width="23">
@@ -35,7 +35,7 @@ Closes the ChildBrowser.
 </tr>
 <tr>
 <td width="151">
-[openExternal()](methods/openexternal)
+[openExternal()](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/openexternal)
 
 </td>
 <td width="23">

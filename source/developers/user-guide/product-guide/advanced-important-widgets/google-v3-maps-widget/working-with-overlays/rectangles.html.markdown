@@ -8,7 +8,7 @@ full_width: true
 
 A Rectangle can be drawn on the Map by specifying the top left and bottom right coordinates. You can also specify line and fill properties.
 
-Below is some code that shows how to create a new line using [addRectangle()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](../using-populatewidget) function.
+Below is some code that shows how to create a new line using [addRectangle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/using-populatewidget) function.
 
     function handler_actionBtn12_onClick(mouseev){
         if (rectObj) {
@@ -24,5 +24,5 @@ Below is some code that shows how to create a new line using [addRectangle()](..
 
 **addRectangle**
 
-Please refer to [addRectangle()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle) in the [Client API](../../../../scripting-apis/client-api/) section for full details on the function.
+Please refer to [addRectangle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle) in the [Client API](/developers/user-guide/scripting-apis/client-api/) section for full details on the function.
 

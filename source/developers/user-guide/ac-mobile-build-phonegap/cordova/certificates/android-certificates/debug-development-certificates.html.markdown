@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The good news is that you don't actually need any certificates for developing and testing your Apps. Both [AC Mobile Build](../../ac-mobile-build/) and [Phonegap:Build](../../phonegapbuild/) do not require them in order to build you APK files.
+The good news is that you don't actually need any certificates for developing and testing your Apps. Both [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) and [Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/) do not require them in order to build you APK files.
 
 The screenshot below shows how the 'Debug certificate' is specified in the dropdown list in the Android section.
 

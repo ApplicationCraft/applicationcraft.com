@@ -46,9 +46,9 @@ Additionally, you can pass in data in a JSON format
 
 ## See Also
 
- - [Reading query string parameters in your App](reading-querystring-parameters)
+ - [Reading query string parameters in your App](/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/reading-querystring-parameters)
 
- - [getInputParameters()](../../../scripting-apis/client-api/app-functions/getinputparameter)
+ - [getInputParameters()](/developers/user-guide/scripting-apis/client-api/app-functions/getinputparameter)
 
 Related Video:
 

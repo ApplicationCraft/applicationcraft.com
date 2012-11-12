@@ -38,9 +38,9 @@ the index of the row within the Repeater
 </table>
 ## Description
 
-Returns the specified Repeater Container row as a Widget object. Grids do not need this as the selected row index is passed into relevant Grid events as well as being able to use the [getSelectedRow()](getselectedrow) object function.
+Returns the specified Repeater Container row as a Widget object. Grids do not need this as the selected row index is passed into relevant Grid events as well as being able to use the [getSelectedRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getselectedrow) object function.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
 ## Examples
 
@@ -63,11 +63,11 @@ This next example shows how a loop could perform the same operation rather than 
 
 ## See Also
 
- - [rowCount()](length)
+ - [rowCount()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/length)
 
- - [rowIndex()](rowindex)
+ - [rowIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
 
- - [parent()](../general/parent)
+ - [parent()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/parent)
 
- - [Widget Object](../../objects-titbits/widget-object)
+ - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

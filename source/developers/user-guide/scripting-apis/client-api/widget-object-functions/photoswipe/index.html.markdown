@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-[showGallery()](photoswipe/showgallery)
+[showGallery()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/showgallery)
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ Show the Gallery/Start the slide Show
 </tr>
 <tr>
 <td width="182">
-[columnWidth()](photoswipe/columnwidth)
+[columnWidth()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/columnwidth)
 
 </td>
 <td width="8">
@@ -35,7 +35,7 @@ Set the column width in the widget
 </tr>
 <tr>
 <td width="182">
-[getCurrentImage()](photoswipe/getcurrentimage)
+[getCurrentImage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimage)
 
 </td>
 <td width="8">
@@ -47,7 +47,7 @@ Allows you to get the currentImage
 </tr>
 <tr>
 <td width="182">
-[getCurrentImageIndex()](photoswipe/getcurrentimageindex)
+[getCurrentImageIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimageindex)
 
 </td>
 <td width="8">
@@ -59,7 +59,7 @@ Allows you to get the currentImage index
 </tr>
 <tr>
 <td width="182">
-[getPhotoswipeObject()](photoswipe/getphotoswipeobject)
+[getPhotoswipeObject()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getphotoswipeobject)
 
 </td>
 <td width="8">
@@ -71,7 +71,7 @@ Allows you to get the Photoswipe Object
 </tr>
 <tr>
 <td width="182">
-[populateWidget()](photoswipe/pswipepopulatewidget)
+[populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/pswipepopulatewidget)
 
 </td>
 <td width="8">

@@ -12,11 +12,11 @@ full_width: true
 
  - True, if there is no more data available in the Repeater Container's buffer that has not yet been displayed.
 
- - False, if there is more data to fetch in which case you could use [drawNextPage()](drawnextpage) to fetch and display it.
+ - False, if there is more data to fetch in which case you could use [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) to fetch and display it.
 
 ## Description
 
-This checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget/) has been displayed. This function is only available for the Repeater Container widget. See the [drawNextPage()](drawnextpage) function for more details.
+This checks to see whether all data that was loaded with [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) has been displayed. This function is only available for the Repeater Container widget. See the [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) function for more details.
 
 ## Example
 
@@ -34,11 +34,11 @@ This example shows how, when data is loaded into the Repeater, it checks to see 
 
 ## See Also
 
- - [getViewData()](../../data-view-functions/getviewdata)
+ - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
 
- - [drawNextPage()](drawnextpage)
+ - [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
 
- - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
+ - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 
- - [fetchDataPage()](../../data-view-functions/fetchdatapage)
+ - [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage)
 

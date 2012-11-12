@@ -36,5 +36,5 @@ This returns an object of the format shown below describing the Group
 
 ## See Also
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
+ - [getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror)
 

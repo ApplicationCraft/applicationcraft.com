@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[httpRequest()](soap--restful-ajax-calls/httprequest)
+[httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
 
 </td>
 <td width="12">
@@ -23,7 +23,7 @@ Calls an external Web Service with GET or POST, allowing extensive control and a
 </tr>
 <tr>
 <td width="149">
-[soapRequest()](soap--restful-ajax-calls/soaprequest)
+[soapRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest)
 
 </td>
 <td width="12">

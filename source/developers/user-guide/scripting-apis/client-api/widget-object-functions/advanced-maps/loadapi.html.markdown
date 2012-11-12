@@ -26,7 +26,7 @@ True if Marker is shown, false if Marker is not shown
 </table>
 ## Description
 
-Allows you to preload the google maps api. An onInitialized event will be thrown. For example if you have map widget on page 2 and you are on page1 and want to get directions, you can call use this method and after receiving onInitialized event you can use [getDirections()](getdirections) method)
+Allows you to preload the google maps api. An onInitialized event will be thrown. For example if you have map widget on page 2 and you are on page1 and want to get directions, you can call use this method and after receiving onInitialized event you can use [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections) method)
 
 ## **Example**
 

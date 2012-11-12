@@ -13,7 +13,7 @@ This section contains details about various things that are not actual functions
 <table>
 <tr>
 <td width="210">
-[\_widget](objects--titbits/ref-widget)
+[\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget)
 
 </td>
 <td width="23">
@@ -25,7 +25,7 @@ Available from all AC Event handlers, this gives you immediate access to the Wid
 </tr>
 <tr>
 <td width="210">
-[Widget Object](objects--titbits/widget-object)
+[Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 
 </td>
 <td width="23">
@@ -37,7 +37,7 @@ You can access any Widget's object in various ways such as app.w('widgetName')
 </tr>
 <tr>
 <td width="210">
-[Filter Object](objects--titbits/filter-object)
+[Filter Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/filter-object)
 
 </td>
 <td width="23">
@@ -49,7 +49,7 @@ Used when applying filters to Widgets connected to Data Views
 </tr>
 <tr>
 <td width="210">
-[Rows Object](objects--titbits/rows-object)
+[Rows Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/rows-object)
 
 </td>
 <td width="23">
@@ -61,7 +61,7 @@ A special object that can describes Grids, Repeater Containers, Listboxes and Dr
 </tr>
 <tr>
 <td width="210">
-[result object for instanceXxxx() callbacks](objects--titbits/result-object-for-instancexxxx)
+[result object for instanceXxxx() callbacks](/developers/user-guide/scripting-apis/client-api/objects-titbits/result-object-for-instancexxxx)
 
 </td>
 <td width="23">
@@ -73,7 +73,7 @@ Several of the instanceXxxxx() functions use standard callbacks to inform the Ap
 </tr>
 <tr>
 <td width="210">
-[status object for instanceXxxx() functions](objects--titbits/status-object-for-instancexxxx)
+[status object for instanceXxxx() functions](/developers/user-guide/scripting-apis/client-api/objects-titbits/status-object-for-instancexxxx)
 
 </td>
 <td width="23">
@@ -85,7 +85,7 @@ Several of the instanceXxxxx() functions use standard callbacks to inform the Ap
 </tr>
 <tr>
 <td width="210">
-[error object](objects--titbits/error-object)
+[error object](/developers/user-guide/scripting-apis/client-api/objects-titbits/error-object)
 
 </td>
 <td width="23">
@@ -97,7 +97,7 @@ A basic error object that many functions use to show the error status of instanc
 </tr>
 <tr>
 <td width="210">
-[Widget List Parameters](objects--titbits/widget-list-parameters)
+[Widget List Parameters](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters)
 
 </td>
 <td width="23">
@@ -109,7 +109,7 @@ A type of parameter used by many Widget Functions that let's can accept Widget n
 </tr>
 <tr>
 <td width="210">
-[Widget Effects](objects--titbits/widget-effects)
+[Widget Effects](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-effects)
 
 </td>
 <td width="23">

@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="162">
-[parent()](general/parent)
+[parent()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/parent)
 
 </td>
 <td width="21">
@@ -23,7 +23,7 @@ Returns the Widget's parent Widget
 </tr>
 <tr>
 <td width="162">
-[prop()](general/prop)
+[prop()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/prop)
 
 </td>
 <td width="21">
@@ -35,7 +35,7 @@ Gets or sets a property
 </tr>
 <tr>
 <td width="162">
-[traverseChildren()](general/traversechildren)
+[traverseChildren()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/traversechildren)
 
 </td>
 <td width="21">
@@ -47,7 +47,7 @@ Is used to traverse all child widgets of the widget.
 </tr>
 <tr>
 <td width="162">
-[value()](general/value)
+[value()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/value)
 
 </td>
 <td width="21">

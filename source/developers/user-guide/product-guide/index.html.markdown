@@ -12,5 +12,5 @@ For anyone looking to get their first Site up and running as quickly as possible
 
 **Preloaded Demo Content** - We put a couple of Content Sites and Apps into your Account so can take a look at something that already exists. Check the 'Private Folder' in your account.
 
-If you are building Mobile content, then read the [Content and App Layout](content-and-app-layout/) chapter and within that, the [Mobile Specific](mobile-apps-sites/) chapter.
+If you are building Mobile content, then read the [Content and App Layout](/developers/user-guide/product-guide/content-and-app-layout/) chapter and within that, the [Mobile Specific](/developers/user-guide/product-guide/mobile-apps-sites/) chapter.
 

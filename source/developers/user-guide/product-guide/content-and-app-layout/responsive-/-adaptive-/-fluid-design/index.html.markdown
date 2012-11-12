@@ -10,27 +10,27 @@ If you want to build sites that run on different device types and screen sizes t
 
 **In This Section:**
 
-[Understanding Containers](responsive-/-adaptive-/-fluid-design/understanding-containers)
+[Understanding Containers](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/understanding-containers)
 
-[Absolute and Relative Layout](responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
+[Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
 
-['Sizes' Property Dialog](responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
+['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
 
-[Right Click Width Settings](responsive-/-adaptive-/-fluid-design/right-click-width-settings)
+[Right Click Width Settings](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/right-click-width-settings)
 
-[Right Click Parent Container Selection](responsive-/-adaptive-/-fluid-design/right-click-parent-container-s)
+[Right Click Parent Container Selection](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/right-click-parent-container-s)
 
-[Container Outlines](responsive-/-adaptive-/-fluid-design/container-outlines)
+[Container Outlines](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/container-outlines)
 
-[Margins](responsive-/-adaptive-/-fluid-design/margins)
+[Margins](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/margins)
 
-[Aligning Widgets Inside Containers](responsive-/-adaptive-/-fluid-design/aligning-widgets-inside-contai)
+[Aligning Widgets Inside Containers](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/aligning-widgets-inside-contai)
 
-[Adaptive Layout Overview](responsive-/-adaptive-/-fluid-design/adaptive-layout-rules)
+[Adaptive Layout Overview](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-rules)
 
-[Adaptive Layout Rule Definition](responsive-/-adaptive-/-fluid-design/adaptive-layout-rule-definitio)
+[Adaptive Layout Rule Definition](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-rule-definitio)
 
-[Adaptive Layout Event](responsive-/-adaptive-/-fluid-design/adaptive-layout-event)
+[Adaptive Layout Event](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-event)
 
-[Resize Events](responsive-/-adaptive-/-fluid-design/resize-events)
+[Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events)
 

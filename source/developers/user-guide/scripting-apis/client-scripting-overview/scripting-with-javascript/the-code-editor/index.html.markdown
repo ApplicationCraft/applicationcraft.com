@@ -14,9 +14,9 @@ There are some parts of the Application Craft system where we need to give credi
 
 ## **See Also**
 
- - [Public Shared Scripts](../../public-shared-scripts)
+ - [Public Shared Scripts](/developers/user-guide/scripting-apis/client-scripting-overview/public-shared-scripts)
 
- - [Server Side Scripting](../../../server-side-scripting-overview/)
+ - [Server Side Scripting](/developers/user-guide/scripting-apis/server-side-scripting-overview/)
 
 Related Videos:
 
@@ -26,13 +26,13 @@ Related Videos:
 
 **In This Section:**
 
- - [Code Explorer](the-code-editor/code-explorer)
+ - [Code Explorer](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/code-explorer)
 
- - [Syntax Errors](the-code-editor/syntax-errors)
+ - [Syntax Errors](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/syntax-errors)
 
- - [Writing User Defined Functions](../introduction/writing-user-defined-functions)
+ - [Writing User Defined Functions](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/writing-user-defined-functions)
 
- - [Search / Replace](the-code-editor/search--replace)
+ - [Search / Replace](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/search-replace)
 
- - [Code Editor Color Schemes](the-code-editor/code-higlighting)
+ - [Code Editor Color Schemes](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/code-higlighting)
 

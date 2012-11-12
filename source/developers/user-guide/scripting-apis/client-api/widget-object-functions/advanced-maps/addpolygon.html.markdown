@@ -47,5 +47,5 @@ A Polygon can be drawn on the Map by specifying an array of coordinates. You can
 
 ## **See Also**
 
- - [Polygons](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polygons)
+ - [Polygons](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polygons)
 

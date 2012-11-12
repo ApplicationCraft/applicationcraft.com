@@ -30,7 +30,7 @@ Either a simple variable value or an object, whichever was written using setSess
 
 ## Description
 
-See the [setSessionObject()](setsessionobject) description.
+See the [setSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/setsessionobject) description.
 
 ## Example
 
@@ -40,9 +40,9 @@ See the [setSessionObject()](setsessionobject) description.
 
 ## See Also
 
- - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
+ - [Security and Server Side Javascript](/developers/user-guide/scripting-apis/server-side-scripting-overview/writing-secure-code)
 
- - [setSessionObject()](setsessionobject)
+ - [setSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/setsessionobject)
 
- - [deleteSessionObject()](deletesessionobject)
+ - [deleteSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/deletesessionobject)
 

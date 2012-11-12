@@ -12,22 +12,22 @@ Sorry we mention this a lot, but a really good way to learn how to build Apps is
 
 **In This Section:**
 
-[Creating a New Content App](introduction/creating-a-new-content-app)
+[Creating a New Content App](/developers/user-guide/product-guide/content-and-app-layout/introduction/creating-a-new-content-app)
 
-[Designer Screen](introduction/designer-screen)
+[Designer Screen](/developers/user-guide/product-guide/content-and-app-layout/introduction/designer-screen)
 
-[Pages](introduction/pagesintro)
+[Pages](/developers/user-guide/product-guide/content-and-app-layout/introduction/pagesintro)
 
-[Understanding Widgets](introduction/understanding-widgets)
+[Understanding Widgets](/developers/user-guide/product-guide/content-and-app-layout/introduction/understanding-widgets)
 
-[Mobile Widgets](introduction/mobile-widgets)
+[Mobile Widgets](/developers/user-guide/product-guide/content-and-app-layout/introduction/mobile-widgets)
 
-[Setting a Margin](introduction/setting-a-margin)
+[Setting a Margin](/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin)
 
-[Table Widget](introduction/table-widget)
+[Table Widget](/developers/user-guide/product-guide/content-and-app-layout/introduction/table-widget)
 
-[Working with Blocks of Text](introduction/working-with-blocks-of-text)
+[Working with Blocks of Text](/developers/user-guide/product-guide/content-and-app-layout/introduction/working-with-blocks-of-text)
 
-[Managing Images](introduction/managing-images)
+[Managing Images](/developers/user-guide/product-guide/content-and-app-layout/introduction/managing-images)
 
-[Themes & Styles](introduction/themes--styles/)
+[Themes & Styles](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/)

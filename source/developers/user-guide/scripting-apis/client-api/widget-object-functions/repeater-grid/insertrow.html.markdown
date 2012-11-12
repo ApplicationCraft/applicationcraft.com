@@ -78,7 +78,7 @@ This is a function of the widget object that inserts a row into a Grid or Repeat
 
 If you specify a Repeater Container, then you can use getRow(index) to get the row object for that newly created row, which in turn gives you access to the row's widgets using the .w() function of that row object.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
 ## Example
 
@@ -94,17 +94,17 @@ and this one does the same to a Grid
 
 ## See Also
 
- - [deleteRow()](deleterow)
+ - [deleteRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
 
- - [deleteRowById()](deleterowbyid)
+ - [deleteRowById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterowbyid)
 
- - [deleteSelectedRows()](deleteselectedrows)
+ - [deleteSelectedRows()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows)
 
- - [insertRow()](insertrow)
+ - [insertRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
 
- - [rowIndex()](rowindex)
+ - [rowIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
 
- - [getRow()](getrow)
+ - [getRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow)
 
- - [Widget Object](../../objects-titbits/widget-object)
+ - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

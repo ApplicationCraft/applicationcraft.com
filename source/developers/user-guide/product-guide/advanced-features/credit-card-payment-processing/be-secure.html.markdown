@@ -16,6 +16,6 @@ Let's say you have a shopping cart and you maintain the contents on the client A
 
 If you maintain the shopping cart contents on the server then this is not an issue.
 
-## Use the [ssj.zooz.validate()](../../../scripting-apis/server-side-api/ssj-object/credit-card-payments/validate) ) function properly
+## Use the [ssj.zooz.validate()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/credit-card-payments/validate) ) function properly
 
-This function validates the Transaction ID that is passed back from the payment and avoids people hacking the callback function. If [zooz.validate()](../../../scripting-apis/server-side-api/ssj-object/credit-card-payments/validate) returns true, then you know it is safe to ship your products. So, make sure that you only carry out the instruction to ship here and not on the client.
+This function validates the Transaction ID that is passed back from the payment and avoids people hacking the callback function. If [zooz.validate()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/credit-card-payments/validate) returns true, then you know it is safe to ship your products. So, make sure that you only carry out the instruction to ship here and not on the client.

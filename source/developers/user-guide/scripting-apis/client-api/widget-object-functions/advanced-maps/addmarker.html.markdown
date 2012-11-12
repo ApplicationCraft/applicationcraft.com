@@ -49,5 +49,5 @@ Where you add a new Marker to the map, along with optional mouse-over and mouse-
 
 **See Also:**
 
- - [Markers and Popup Windows](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows)
+ - [Markers and Popup Windows](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows)
 

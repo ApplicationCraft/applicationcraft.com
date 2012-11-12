@@ -43,7 +43,7 @@ a key:value object where key is the field name in the database and value is the 
 <td width="18">
 </td>
 <td width="681">
-a regular WHERE string. Please see below for recommendations on how to best construct this string. It can be the complete WHERE clause, but you should make use of [quote()](quote) and [quoteInto()](quoteinto) .
+a regular WHERE string. Please see below for recommendations on how to best construct this string. It can be the complete WHERE clause, but you should make use of [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote) and [quoteInto()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quoteinto) .
 
 </td>
 </tr>
@@ -56,17 +56,17 @@ This function returns the number of rows updated.
 
 Updates any record or records that match the whereString criteria. The dataObject passed in the parameter must be a simple key:value object as shown in the example below. The key (field name) should match a table field name exactly.
 
-The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](quote) manually in advance.
+The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote) manually in advance.
 
-Even though the whereString parameter can be a regular string containing the entire WHERE clause, we highly recommend that you use [quote()](quote) or [quoteInto()](quoteinto) for the whereString parameter (see example below) to make your code more secure and avoid potential problems with special sql characters. So, please embrace these functions and get used to using them.
+Even though the whereString parameter can be a regular string containing the entire WHERE clause, we highly recommend that you use [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote) or [quoteInto()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quoteinto) for the whereString parameter (see example below) to make your code more secure and avoid potential problems with special sql characters. So, please embrace these functions and get used to using them.
 
 If you have complex conditions then simply build your strings using quote() or quoteInto() for the individual field components of the overall expression.
 
-You may want to use the [client side api functions to extract data](../../../client-api/widget-data-state-manipulation/) from your widgets. [app.dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues) , for example, can be used to extract widget names and values into an object. If you choose widget names to match your database field names, then you can use the object returned by app.dataGetValues() and use it as your fieldsObject data without any further manipulation.
+You may want to use the [client side api functions to extract data](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/) from your widgets. [app.dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues) , for example, can be used to extract widget names and values into an object. If you choose widget names to match your database field names, then you can use the object returned by app.dataGetValues() and use it as your fieldsObject data without any further manipulation.
 
 ## Field Expressions
 
-If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](../../../../product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
+If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as [described here](/developers/user-guide/product-guide/data-storage/server-side-data-storage/handling-sql-expressions) .
 
 ## Example
 
@@ -80,9 +80,9 @@ If any of your fields in the fieldsObject() contain a SQL function or arithmetic
 
 ## See Also
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../product-guide/data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 

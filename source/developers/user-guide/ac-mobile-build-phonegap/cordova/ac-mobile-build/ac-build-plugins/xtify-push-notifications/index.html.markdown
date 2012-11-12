@@ -136,7 +136,7 @@ Xtify iOS key
 </tr>
 </table>
 
-The properties “Android App Key” and “iOS App Key” are unique for the each app. The Android Sender Id is created by [Google Cloud Messaging](xtify-push-notifications/google-cloud-messaging)
+The properties “Android App Key” and “iOS App Key” are unique for the each app. The Android Sender Id is created by [Google Cloud Messaging](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging)
 
 To obtain keys, you need to first register at [https://console.xtify.com/registration](https://console.xtify.com/registration)
 
@@ -144,13 +144,13 @@ The Free account is suitable for 10,000 notifications but for larger volumes see
 
 **In This Section:**
 
- - [Google Cloud Messaging](xtify-push-notifications/google-cloud-messaging)
+ - [Google Cloud Messaging](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging)
 
- - [Apple App Id](xtify-push-notifications/apple-app-id)
+ - [Apple App Id](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apple-app-id)
 
- - [Adding New Application Keys](xtify-push-notifications/adding-new-application)
+ - [Adding New Application Keys](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/adding-new-application)
 
- - [Configuring your app](xtify-push-notifications/configuring-your-app)
+ - [Configuring your app](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app)
 
- - [Sending Push Notifications to your apps](xtify-push-notifications/sending-push-notifications-to)
+ - [Sending Push Notifications to your apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to)
 

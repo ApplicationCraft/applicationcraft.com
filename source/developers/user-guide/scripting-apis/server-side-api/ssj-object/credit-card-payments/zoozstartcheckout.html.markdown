@@ -75,7 +75,7 @@ The object passed to zoozStartsCheckout() should look like this
 
 This is called from your **client code** and initiates the payment process. The user can then enter card details and complete the payment. Once it is complete, a callback function is called where you can validate the payment and begin the fulfillment process.
 
-Please refer to the [sample application](../../../../product-guide/advanced-features/credit-card-payment-processing/) to see a comprehensive payment example.
+Please refer to the [sample application](/developers/user-guide/product-guide/advanced-features/credit-card-payment-processing/) to see a comprehensive payment example.
 
 ## Example
 

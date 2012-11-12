@@ -6,27 +6,27 @@ full_width: true
 ---
 
 
-This is a useful API function command to be familiar with. If you have a data set (perhaps returned from an API call) and you need to map some fields from that data set into any of the following widgets, then [populateWidget()](../../../client-api/widget-data-state-manipulation/populatewidget/) lets you do this with virtually no code at all.
+This is a useful API function command to be familiar with. If you have a data set (perhaps returned from an API call) and you need to map some fields from that data set into any of the following widgets, then [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) lets you do this with virtually no code at all.
 
- - [ListBoxes, Dropdowns and Context Menu Examples](../../../client-api/widget-data-state-manipulation/populatewidget/listbox-dropdown-example)
+ - [ListBoxes, Dropdowns and Context Menu Examples](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/listbox-dropdown-example)
 
- - [Mobile List Example](../../../client-api/widget-data-state-manipulation/populatewidget/mobile-list-example)
+ - [Mobile List Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobile-list-example)
 
- - [Repeater Container Example](../../../client-api/widget-data-state-manipulation/populatewidget/repeater-container-example)
+ - [Repeater Container Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/repeater-container-example)
 
- - [Advanced Google Maps Example](../../../client-api/widget-data-state-manipulation/populatewidget/advanced-google-maps-example)
+ - [Advanced Google Maps Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/advanced-google-maps-example)
 
- - [Video Example](../../../client-api/widget-data-state-manipulation/populatewidget/audio-video-example)
+ - [Video Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/audio-video-example)
 
- - [Photoswipe Example](../../../client-api/widget-data-state-manipulation/populatewidget/photoswipe-example)
+ - [Photoswipe Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/photoswipe-example)
 
- - [Timeline Example](../../../../product-guide/advanced-important-widgets/working-with-the-timeline-widget/populating-the-widget)
+ - [Timeline Example](/developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/populating-the-widget)
 
- - [Calendar Widget](../../../client-api/widget-data-state-manipulation/populatewidget/calendar-widget2)
+ - [Calendar Widget](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/calendar-widget2)
 
- - [Mobiscroll List](../../../client-api/widget-data-state-manipulation/populatewidget/mobiscroll-list2)
+ - [Mobiscroll List](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobiscroll-list2)
 
- - [Array as Data Source Example](../../../client-api/widget-data-state-manipulation/populatewidget/array-as-data-source-example)
+ - [Array as Data Source Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/array-as-data-source-example)
 
- - [Complex JSON Examples](../../../client-api/widget-data-state-manipulation/populatewidget/complex-json-example)
+ - [Complex JSON Examples](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/complex-json-example)
 

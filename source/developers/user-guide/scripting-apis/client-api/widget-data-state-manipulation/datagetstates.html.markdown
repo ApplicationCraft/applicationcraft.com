@@ -62,7 +62,7 @@ The image below shows an object created with
 
 This function is commonly used to extract widget state information from your App so that it can be passed in a simple format to another system or a Server Side Javascript function (SSJ).
 
-In many cases, your App will show and hide widgets as well as enabling/disabling or setting them to be read-only. The app.dataGetStates() function allows to you get a javascript object that contains this state information for some or all widgets. You can then store these elsewhere along with the widget values and then restore them using the [app.dataSetStates()](datasetstates) and [app.dataSetValues()](datasetvalues) functions.
+In many cases, your App will show and hide widgets as well as enabling/disabling or setting them to be read-only. The app.dataGetStates() function allows to you get a javascript object that contains this state information for some or all widgets. You can then store these elsewhere along with the widget values and then restore them using the [app.dataSetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetstates) and [app.dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues) functions.
 
 ## Examples
 
@@ -70,15 +70,15 @@ The following examples show different ways to get state information into an obje
 
 ## See Also
 
- - [dataGetValues()](datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataSetValues()](datasetvalues)
+ - [dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues)
 
- - [dataSetStates()](datasetstates)
+ - [dataSetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetstates)
 
- - [Server Side Data Storage](../../../product-guide/data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 
- - [SSJ database functions](../../../product-guide/data-storage/server-side-data-storage/)
+ - [SSJ database functions](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 
- - [Instance Data Functions](../instance-data-functions/)
+ - [Instance Data Functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/)
 

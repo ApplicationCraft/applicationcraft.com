@@ -93,15 +93,15 @@ Returns false if an error was encountered otherwise data content is returned.
 
 ## Description
 
-Performs an AJAX call. Please refer to [httpRequest()](../../../client-api/soap-restful-ajax-calls/httprequest) in the client API for full documentation.
+Performs an AJAX call. Please refer to [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) in the client API for full documentation.
 
-If you need to get access to returned Header data and response codes, then please use [ssj.httpRequestAdv()](httprequestadv)
+If you need to get access to returned Header data and response codes, then please use [ssj.httpRequestAdv()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv)
 
-[ssj.getLatestError()](../miscellaneous/getlatesterror) should be used if you want to get full error information where httpRequest() returns false.
+[ssj.getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror) should be used if you want to get full error information where httpRequest() returns false.
 
 ## See Also
 
- - [ssj.httpRequestAdv()](httprequestadv)
+ - [ssj.httpRequestAdv()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv)
 
- - [ssj.getLatestError()](../miscellaneous/getlatesterror)
+ - [ssj.getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror)
 

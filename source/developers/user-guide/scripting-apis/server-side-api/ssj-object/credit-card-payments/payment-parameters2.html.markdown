@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The following parameters are available to be inserted into the params object for the [ssj.zooz.payment()](payment) function.
+The following parameters are available to be inserted into the params object for the [ssj.zooz.payment()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/credit-card-payments/payment) function.
 
 <table>
 <tr>
@@ -349,5 +349,5 @@ billingAddress.zipCode
 </tr>
 </table>
 
-Refer to the [Server Side Code](../../../../product-guide/advanced-features/credit-card-payment-processing/server-side-code) chapter of the [Credit Card Payment Processing](../../../../product-guide/advanced-features/credit-card-payment-processing/) chapter to see example code.
+Refer to the [Server Side Code](/developers/user-guide/product-guide/advanced-features/credit-card-payment-processing/server-side-code) chapter of the [Credit Card Payment Processing](/developers/user-guide/product-guide/advanced-features/credit-card-payment-processing/) chapter to see example code.
 

@@ -38,9 +38,9 @@ In this case, you can see how the w() function can be used to locate a Widget in
 
 ## See Also
 
- - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
+ - [User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 
- - [userParameterSet()](../app-functions/userparameterset)
+ - [userParameterSet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterset)
 
 Related Videos:
 

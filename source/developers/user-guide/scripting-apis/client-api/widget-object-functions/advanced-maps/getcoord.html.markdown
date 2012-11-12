@@ -60,11 +60,11 @@ Note that the returned coordinates are presented via a callback function.
 
 ## **See Also**
 
- - [whereAmI()](whereami)
+ - [whereAmI()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami)
 
- - [getAddress()](getaddress)
+ - [getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress)
 
- - [getDirections()](getdirections)
+ - [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
 
- - [addCurrentLocation()](addcurrentlocation)
+ - [addCurrentLocation()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation)
 

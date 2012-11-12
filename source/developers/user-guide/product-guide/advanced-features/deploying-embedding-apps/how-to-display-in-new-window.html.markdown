@@ -13,7 +13,7 @@ The quickest way to see this in action is to locate the App in the Console and t
 
 You can replace the formID component with any App GUID you like.
 
-You can also access this URL from the [Apps](../../the-console/console-tabs/applications) console.
+You can also access this URL from the [Apps](/developers/user-guide/product-guide/the-console/console-tabs/applications) console.
 
 ![App\_Console\_Screen2](/img/docs/app_console_screen2.zoom54.png)
 

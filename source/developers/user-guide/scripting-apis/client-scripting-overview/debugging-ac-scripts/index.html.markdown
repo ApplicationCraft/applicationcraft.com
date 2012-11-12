@@ -12,25 +12,25 @@ Application Craft includes some very simple debug support functions that make de
 
 **In This Section:**
 
- - [Chrome](debugging-ac-scripts/chrome)
+ - [Chrome](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/chrome)
 
- - [Firefox](debugging-ac-scripts/firefox)
+ - [Firefox](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/firefox)
 
- - [Safari](debugging-ac-scripts/safari)
+ - [Safari](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/safari)
 
- - [Debug Support Functions](debugging-ac-scripts/debug-support-functions)
+ - [Debug Support Functions](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/debug-support-functions)
 
- - [The 'debugger' Command](debugging-ac-scripts/the-debugger-command)
+ - [The 'debugger' Command](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/the-debugger-command)
 
- - [Debug Message](debugging-ac-scripts/debdebug-message)
+ - [Debug Message](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/debdebug-message)
 
- - [Native Apps](debugging-ac-scripts/native-apps)
+ - [Native Apps](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/native-apps)
 
- - [Viewing Widget Values](debugging-ac-scripts/viewing-widget-values)
+ - [Viewing Widget Values](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-values)
 
- - [Viewing Complex Widget Content](debugging-ac-scripts/viewing-complex-widget-content)
+ - [Viewing Complex Widget Content](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-complex-widget-content)
 
- - [Viewing Widget Properties](debugging-ac-scripts/viewing-widget-properties)
+ - [Viewing Widget Properties](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
 
 Related Video:
 

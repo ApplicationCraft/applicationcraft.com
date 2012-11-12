@@ -18,5 +18,5 @@ You can optionally use the Strength Colors property to control the color that th
 
 ## See Also
 
- - [Password Properties](../../widget-properties-events/authentication/authpassword)
+ - [Password Properties](/developers/user-guide/product-guide/widget-properties-events/authentication/authpassword)
 

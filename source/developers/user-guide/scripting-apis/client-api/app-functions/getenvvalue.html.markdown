@@ -40,9 +40,9 @@ Environment information is sometimes useful if you want your App to be able to i
 
  - [User.Name] - this is the Full Name of the authenticated user
 
- - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/) .
+ - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/) .
 
-**Workflow** See also: [Workflow Functions](../workflow-functions/)
+**Workflow** See also: [Workflow Functions](/developers/user-guide/scripting-apis/client-api/workflow-functions/)
 
  - [Stage.Id] - this is the Id of the Stage of your App
 
@@ -60,7 +60,7 @@ Environment information is sometimes useful if you want your App to be able to i
 
 ## See Also
 
- - [userParameterGet()](userparameterget)
+ - [userParameterGet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterget)
 
- - [Custom User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
+ - [Custom User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 

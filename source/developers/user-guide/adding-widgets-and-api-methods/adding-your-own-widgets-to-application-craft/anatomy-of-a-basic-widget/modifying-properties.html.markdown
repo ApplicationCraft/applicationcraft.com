@@ -36,7 +36,7 @@ To illustrate this, let's assume a widget has the following properties
 
 ## The html() template
 
-The user code shown below shows the textFn method that is associated with the 'text' property (see [Defining Properties](defining-properties) ). You will see this property definition
+The user code shown below shows the textFn method that is associated with the 'text' property (see [Defining Properties](/developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/defining-properties) ). You will see this property definition
 
     {name: "text", type : "text", set: "textFn", get: "textFn", alias: "Text"},
     AC.Property.html

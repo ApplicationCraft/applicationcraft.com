@@ -8,25 +8,25 @@ full_width: true
 
 **In This Section:**
 
- - [General](widget-object-functions/general/)
+ - [General](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/)
 
- - [Repeater & Grid](widget-object-functions/repeater--grid/)
+ - [Repeater & Grid](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/)
 
- - [Timeline](widget-object-functions/timeline/)
+ - [Timeline](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/)
 
- - [Advanced Maps](widget-object-functions/advanced-maps/)
+ - [Advanced Maps](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/)
 
- - [Video, Audio & YouTube Widget](widget-object-functions/video,-audio--youtube-widget/)
+ - [Video, Audio & YouTube Widget](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/)
 
- - [Photoswipe](widget-object-functions/photoswipe/)
+ - [Photoswipe](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/)
 
- - [Tab](widget-object-functions/tab/)
+ - [Tab](/developers/user-guide/scripting-apis/client-api/widget-object-functions/tab/)
 
- - [Zing Chart](widget-object-functions/zing-chart/)
+ - [Zing Chart](/developers/user-guide/scripting-apis/client-api/widget-object-functions/zing-chart/)
 
- - [Circular Menu](widget-object-functions/circular-menu/)
+ - [Circular Menu](/developers/user-guide/scripting-apis/client-api/widget-object-functions/circular-menu/)
 
- - [Accordion](widget-object-functions/accordion/)
+ - [Accordion](/developers/user-guide/scripting-apis/client-api/widget-object-functions/accordion/)
 
 Related Videos:
 

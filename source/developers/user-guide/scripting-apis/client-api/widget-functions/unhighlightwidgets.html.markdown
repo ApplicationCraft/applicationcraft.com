@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="230">
-{ [wlist](../objects-titbits/widget-list-parameters) }
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) }
 
 </td>
 <td width="22">
@@ -27,7 +27,7 @@ Widget identifier - string, string array, object or object array
 
 ## Description
 
-This enables you to remove the highlighting from any fields in your App, normally used in conjunction with [highlightWidgets()](highlightwidgets) . If you do not pass in any array, then all highlighted Widgets will be unhighlighted.
+This enables you to remove the highlighting from any fields in your App, normally used in conjunction with [highlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets) . If you do not pass in any array, then all highlighted Widgets will be unhighlighted.
 
 ## Example
 
@@ -39,9 +39,9 @@ This enables you to remove the highlighting from any fields in your App, normall
 
 ## See Also
 
- - [checkMandatory()](checkmandatory)
+ - [checkMandatory()](/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory)
 
- - [highlightWidgets()](highlightwidgets)
+ - [highlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets)
 
 Related Videos:
 

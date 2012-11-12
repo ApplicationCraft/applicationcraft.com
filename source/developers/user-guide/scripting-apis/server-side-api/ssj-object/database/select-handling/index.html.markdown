@@ -28,21 +28,21 @@ The exec() function returns the result set that can then be passed back to your 
 
 **In This Section:**
 
- - [select()](select-handling/select)
+ - [select()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select)
 
- - [select().from()](select-handling/select-from)
+ - [select().from()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-from)
 
- - [select().where()](select-handling/select-where)
+ - [select().where()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-where)
 
- - [select().orWhere()](select-handling/orwhere)
+ - [select().orWhere()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/orwhere)
 
- - [select().group()](select-handling/select-group)
+ - [select().group()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-group)
 
- - [select().order()](select-handling/select-order)
+ - [select().order()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-order)
 
- - [select().join()](select-handling/select-join)
+ - [select().join()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-join)
 
- - [select().limit()](select-handling/select-limit)
+ - [select().limit()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-limit)
 
- - [getSql()](select-handling/getsql)
+ - [getSql()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/getsql)
 

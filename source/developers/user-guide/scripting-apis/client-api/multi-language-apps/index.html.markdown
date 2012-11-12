@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[translate()](multi-language-apps/translate)
+[translate()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/translate)
 
 </td>
 <td width="12">
@@ -23,7 +23,7 @@ Performs string translations within your App
 </tr>
 <tr>
 <td width="149">
-[language()](multi-language-apps/language)
+[language()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/language)
 
 </td>
 <td width="12">
@@ -36,7 +36,7 @@ Switches the display language of the App
 </table>
 ## **See Also**
 
- - [Internationalization App Events](../../../product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
+ - [Internationalization App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
+ - [Multi Language Apps](/developers/user-guide/product-guide/advanced-features/multi-language-apps/)
 

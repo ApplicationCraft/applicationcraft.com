@@ -10,7 +10,7 @@ full_width: true
 
 ## Description
 
-Returns the RTZ (Reference Time  Zone) set from app. [instanceSetRTZ()](instancesetrtz) . If instanceSetRTZ() hasn't been set, it will return (in minutes) the difference from your time zone to UTC.
+Returns the RTZ (Reference Time  Zone) set from app. [instanceSetRTZ()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/instancesetrtz) . If instanceSetRTZ() hasn't been set, it will return (in minutes) the difference from your time zone to UTC.
 
 ## Example
 
@@ -20,5 +20,5 @@ Returns the RTZ (Reference Time  Zone) set from app. [instanceSetRTZ()](instanc
 
 ## See Also
 
- - [instanceSetRTZ()](instancesetrtz)
+ - [instanceSetRTZ()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/instancesetrtz)
 

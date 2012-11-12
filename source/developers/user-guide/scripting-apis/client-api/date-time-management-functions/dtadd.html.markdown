@@ -60,11 +60,11 @@ Adds or subtracts from the defined date object.
 
 ## See Also
 
- - [dtNewDate()](dtnewdate)
+ - [dtNewDate()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtnewdate)
 
- - [dtDifference()](dtdifference)
+ - [dtDifference()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdifference)
 
- - [dtAdjust()](dtadjust)
+ - [dtAdjust()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadjust)
 
- - [dtDateToString()](dtdatetostring)
+ - [dtDateToString()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdatetostring)
 

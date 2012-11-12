@@ -6,17 +6,17 @@ full_width: true
 ---
 
 
-Here you will see a list of all your outstanding [Workflow](../advanced-features/workflow/) notifications.
+Here you will see a list of all your outstanding [Workflow](/developers/user-guide/product-guide/advanced-features/workflow/) notifications.
 
 ![notifiers1](/img/docs/notifiers1.zoom67.png)
 
 ## **See Also**
 
- - [Workflow](../advanced-features/workflow/)
+ - [Workflow](/developers/user-guide/product-guide/advanced-features/workflow/)
 
- - [Viewing Notifications in the Console](../advanced-features/workflow/viewing-your-notifications)
+ - [Viewing Notifications in the Console](/developers/user-guide/product-guide/advanced-features/workflow/viewing-your-notifications)
 
- - [Notifiers](../the-console/console-tabs/notifiers)
+ - [Notifiers](/developers/user-guide/product-guide/the-console/console-tabs/notifiers)
 
- - [Viewing Assignments in the Console](../advanced-features/workflow/viewing-your-assignments)
+ - [Viewing Assignments in the Console](/developers/user-guide/product-guide/advanced-features/workflow/viewing-your-assignments)
 

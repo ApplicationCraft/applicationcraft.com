@@ -48,11 +48,11 @@ Adjusts a Date Object to the specified time zone. The absolute time remains the 
 
 ## See Also
 
- - [dtNewDate()](dtnewdate)
+ - [dtNewDate()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtnewdate)
 
- - [dtadd()](dtadd)
+ - [dtadd()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadd)
 
- - [dtDifference()](dtdifference)
+ - [dtDifference()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdifference)
 
- - [dtDateToString()](dtdatetostring)
+ - [dtDateToString()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdatetostring)
 

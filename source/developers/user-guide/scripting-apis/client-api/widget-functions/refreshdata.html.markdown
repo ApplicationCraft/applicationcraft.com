@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="135">
-{ [wlist](../objects-titbits/widget-list-parameters) } widget
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="14">
@@ -30,7 +30,7 @@ This forces the specified Widget(s) to request its data from the data source.
 
 ## See Also
 
- - [enableView()](../data-view-functions/enableview)
+ - [enableView()](/developers/user-guide/scripting-apis/client-api/data-view-functions/enableview)
 
 Related Videos:
 

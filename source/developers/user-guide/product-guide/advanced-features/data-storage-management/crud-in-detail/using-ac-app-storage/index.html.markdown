@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../../data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -20,31 +20,31 @@ IMPORTANT
 
 These are the available CRUD operations
 
- - C - Create = [instanceCreate()](../../../../../scripting-apis/client-api/instance-data-functions/instancecreate) - create new App Instances in the current or a foreign App. For example, adding a Contact (the data for which is defined within a separate Contact App) from within a Company App.
+ - C - Create = [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate) - create new App Instances in the current or a foreign App. For example, adding a Contact (the data for which is defined within a separate Contact App) from within a Company App.
 
  - R - Read or display data from a foreign App within the current App. This is done using Queries and Views, which load data into Widgets which are connected to Data Views.
 
- - U - Update = [instanceUpdate()](../../../../../scripting-apis/client-api/instance-data-functions/instancesave) - update data in the local or a foreign App
+ - U - Update = [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave) - update data in the local or a foreign App
 
- - D - Delete = [instanceDelete()](../../../../../scripting-apis/client-api/instance-data-functions/instancedelete) - data from a foreign App (or the current App).
+ - D - Delete = [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete) - data from a foreign App (or the current App).
 
 To understand how this works, we will use a simple App that shows all of these features in action.
 
 **In This Section:**
 
- - [CRUD on Local Instances](using-ac-app-storage/crud-on-local-instances)
+ - [CRUD on Local Instances](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-on-local-instances)
 
- - [Synopsis of Foreign CRUD Operations](using-ac-app-storage/synopsis)
+ - [Synopsis of Foreign CRUD Operations](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/synopsis)
 
- - [CRUD Permissions](using-ac-app-storage/crud-permissions)
+ - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
 
- - [Setting up Grids To Edit Foreign Data](using-ac-app-storage/setting-up-grids-to-edit-forei)
+ - [Setting up Grids To Edit Foreign Data](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/setting-up-grids-to-edit-forei)
 
- - [Example CRUD Calls](using-ac-app-storage/example-crud-calls)
+ - [Example CRUD Calls](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/example-crud-calls)
 
- - [How CRUD works](using-ac-app-storage/how-crud-works)
+ - [How CRUD works](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/how-crud-works)
 
- - [JOINed App Queries](using-ac-app-storage/joined-app-queries)
+ - [JOINed App Queries](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/joined-app-queries)
 
- - [CRUD & Filtering](using-ac-app-storage/crud-filtering)
+ - [CRUD & Filtering](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-filtering)
 

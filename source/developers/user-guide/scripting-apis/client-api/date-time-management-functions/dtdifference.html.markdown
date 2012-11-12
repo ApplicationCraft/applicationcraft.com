@@ -49,11 +49,11 @@ Returns the difference between the specified date objects in the specified time 
 
 ## See Also
 
- - [dtNewDate()](dtnewdate)
+ - [dtNewDate()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtnewdate)
 
- - [dtadd()](dtadd)
+ - [dtadd()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadd)
 
- - [dtAdjust()](dtadjust)
+ - [dtAdjust()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadjust)
 
- - [dtDateToString()](dtdatetostring)
+ - [dtDateToString()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdatetostring)
 

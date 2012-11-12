@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="162">
-[deleteRow()](repeater--grid/deleterow)
+[deleteRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
 
 </td>
 <td width="21">
@@ -23,7 +23,7 @@ Deletes a row from a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[deleteSelectedRows()](repeater--grid/deleteselectedrows)
+[deleteSelectedRows()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows)
 
 </td>
 <td width="21">
@@ -35,7 +35,7 @@ Delete the selected row from a Grid Container
 </tr>
 <tr>
 <td width="162">
-[deleteRowById()](repeater--grid/deleterowbyid)
+[deleteRowById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterowbyid)
 
 </td>
 <td width="21">
@@ -47,7 +47,7 @@ Internal use only
 </tr>
 <tr>
 <td width="162">
-[drawNextPage()](repeater--grid/drawnextpage)
+[drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
 
 </td>
 <td width="21">
@@ -59,7 +59,7 @@ Returns the next block of data and adds this to the Repeater Container
 </tr>
 <tr>
 <td width="162">
-[fetchDataPage()](repeater--grid/fetchdata)
+[fetchDataPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata)
 
 </td>
 <td width="21">
@@ -71,7 +71,7 @@ Instructs a Grid or Repeater Container Widget to fetch a 'page' of data from the
 </tr>
 <tr>
 <td width="162">
-[getRow()](repeater--grid/getrow)
+[getRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow)
 
 </td>
 <td width="21">
@@ -83,7 +83,7 @@ Returns a Repeater Container row as an object
 </tr>
 <tr>
 <td width="162">
-[getSelectedRow()](repeater--grid/getselectedrow)
+[getSelectedRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getselectedrow)
 
 </td>
 <td width="21">
@@ -95,7 +95,7 @@ Returns the row index of the currently selected row in a Grid Widget
 </tr>
 <tr>
 <td width="162">
-[insertRow()](repeater--grid/insertrow)
+[insertRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
 
 </td>
 <td width="21">
@@ -107,19 +107,19 @@ Inserts a row into a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[isAllDataDrawn()](repeater--grid/isalldatadrawn)
+[isAllDataDrawn()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn)
 
 </td>
 <td width="21">
 </td>
 <td width="697">
-checks to see whether all data that was loaded with [populateWidget()](../../widget-data-state-manipulation/populatewidget/) has been displayed into a Repeater Container
+checks to see whether all data that was loaded with [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) has been displayed into a Repeater Container
 
 </td>
 </tr>
 <tr>
 <td width="162">
-[rowCount()](repeater--grid/length)
+[rowCount()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/length)
 
 </td>
 <td width="21">
@@ -131,7 +131,7 @@ The number of rows in a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[rowIndex()](repeater--grid/rowindex)
+[rowIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
 
 </td>
 <td width="21">
@@ -143,7 +143,7 @@ Returns the index of a Repeater Container row
 </tr>
 <tr>
 <td width="162">
-[search()](../../../../product-guide/widget-properties-events/advanced/search)
+[search()](/developers/user-guide/product-guide/widget-properties-events/advanced/search)
 
 </td>
 <td width="21">
@@ -155,7 +155,7 @@ Locates a string within a Grid or Repeater Container
 </tr>
 <tr>
 <td width="162">
-[setSelectedRow()](repeater--grid/setselectedrow)
+[setSelectedRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/setselectedrow)
 
 </td>
 <td width="21">
@@ -167,7 +167,7 @@ Specifies a row that should be selected in the Grid Widget.
 </tr>
 <tr>
 <td width="162">
-[sum()](repeater--grid/sum)
+[sum()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/sum)
 
 </td>
 <td width="21">

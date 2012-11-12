@@ -16,7 +16,7 @@ All events can be subscribed to by assigning a function to
 <table>
 <tr>
 <td width="151">
-[close](events/close4)
+[close](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/close4)
 
 </td>
 <td width="23">
@@ -28,7 +28,7 @@ Called when the ChildBrowser has been closed
 </tr>
 <tr>
 <td width="151">
-[locationChange](events/locationchange)
+[locationChange](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/locationchange)
 
 </td>
 <td width="23">
@@ -40,7 +40,7 @@ Called when the ChildBrowser loads a URL
 </tr>
 <tr>
 <td width="151">
-[openExternal](events/openexternal2)
+[openExternal](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/openexternal2)
 
 </td>
 <td width="23">

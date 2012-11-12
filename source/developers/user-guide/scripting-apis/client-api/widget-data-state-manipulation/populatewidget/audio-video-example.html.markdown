@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can use populateWidget() or setData() to overwrite the 'Source' property of a [HTML5 Video](../../../../product-guide/widget-properties-events/advanced/html5-video) widget.
+You can use populateWidget() or setData() to overwrite the 'Source' property of a [HTML5 Video](/developers/user-guide/product-guide/widget-properties-events/advanced/html5-video) widget.
 
 ## Example
 
-The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example) ).
+The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/complex-json-example) ).
 
     var data = [
         {type:'video/mp4', src:"http://10.0.0.36:8080/johndyer-mediaelement-70d209d/media/echo-hereweare.mp4"},

@@ -65,7 +65,7 @@ Twirly Thing (hourglass) object (see below)
 <td width="1">
 </td>
 <td width="710">
-You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](getinputparameter) . Object described below.
+You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](/developers/user-guide/scripting-apis/client-api/app-functions/getinputparameter) . Object described below.
 
 </td>
 </tr>
@@ -142,25 +142,25 @@ You must always specify the appId but can then specify either the pageName or th
 
 There are two ways to pass parameters between Apps.
 
- - [Global Data Pool](../global-data-pool-functions/) - This allows data to be passed between Apps as well as restoring data when you eventually switch back to the App that was switched away from.
+ - [Global Data Pool](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/) - This allows data to be passed between Apps as well as restoring data when you eventually switch back to the App that was switched away from.
 
  - switchApp() parameters - this may be preferable in some circumstances where you are not going to modify the values and inspect them later (in which case the Global Data Pool is better).
 
 ## Important
 
-If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](../../../product-guide/widget-properties-events/app-properties)
+If you are using switchApp() in Mobile Native apps, you must define the 'child' apps as Linked Apps. See [App Properties](/developers/user-guide/product-guide/widget-properties-events/app-properties)
 
 ## See Also
 
- - [parentApp()](parentapp)
+ - [parentApp()](/developers/user-guide/scripting-apis/client-api/app-functions/parentapp)
 
- - [childApp()](childapp)
+ - [childApp()](/developers/user-guide/scripting-apis/client-api/app-functions/childapp)
 
- - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/)
+ - [Embedding Apps within Apps](/developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/)
 
- - [Embed App Widget](../../../product-guide/widget-properties-events/advanced/embed-app)
+ - [Embed App Widget](/developers/user-guide/product-guide/widget-properties-events/advanced/embed-app)
 
- - [Global Data Pool](../global-data-pool-functions/)
+ - [Global Data Pool](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/)
 
 Related Videos:
 

@@ -26,15 +26,15 @@ single date object or an array of two date objects if 'Range' is true.
 
 ## Date Filtering
 
-If you want to set a date filter on a data view, then you should build your filter expression by converting the date object into a string using the [app.DATE2DB()](../../../client-api/conversion-functions/date2db) function. Application Craft will then perform the necessary conversion to ensure it is correctly converted so it can filter at the database level. Refer to the [Filters](../../../client-api/data-view-functions/modifying-data-widgets-with-scripts/filters) page to find out more about filtering.
+If you want to set a date filter on a data view, then you should build your filter expression by converting the date object into a string using the [app.DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db) function. Application Craft will then perform the necessary conversion to ensure it is correctly converted so it can filter at the database level. Refer to the [Filters](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filters) page to find out more about filtering.
 
 ## See Also
 
- - [Getting and Setting Date Widget Values](../widget-reading-writing/widget-values-reading-writing-user-entered-data/dates)
+ - [Getting and Setting Date Widget Values](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/dates)
 
- - [DATE2DB()](../../../client-api/conversion-functions/date2db)
+ - [DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db)
 
- - [Filtering (Dates)](../../../client-api/data-view-functions/modifying-data-widgets-with-scripts/filters)
+ - [Filtering (Dates)](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filters)
 
- - [Date & Time Management Functions](../../../client-api/date-time-management-functions/)
+ - [Date & Time Management Functions](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/)
 

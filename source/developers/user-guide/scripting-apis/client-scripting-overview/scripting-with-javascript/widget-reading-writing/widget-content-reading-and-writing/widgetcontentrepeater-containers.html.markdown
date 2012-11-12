@@ -55,11 +55,11 @@ Repeaters can be quite slow to draw as new browser objects need to be created dy
 
  - Set any labels 'Fast Draw' property to true (which should not effect rendering behavior)
 
- - Set the Elements per Page property of the Repeater Container to a low value first but then use the [drawNextPage()](../../../../client-api/widget-object-functions/repeater-grid/drawnextpage) function to load more pages as the user requires them (typically when a button or label widget is pressed).
+ - Set the Elements per Page property of the Repeater Container to a low value first but then use the [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) function to load more pages as the user requires them (typically when a button or label widget is pressed).
 
-The following example shows how we load some simple, dummy data into a Repeater. We can load data directly from any array within any object directly into the Repeater without having to write any messy mapping code. Please refer to the [populateWidget()](../../../../client-api/widget-data-state-manipulation/populatewidget/) function reference for a detailed explanation. The populateWidget() function works just as well with Grids, Lists and Dropdowns.
+The following example shows how we load some simple, dummy data into a Repeater. We can load data directly from any array within any object directly into the Repeater without having to write any messy mapping code. Please refer to the [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) function reference for a detailed explanation. The populateWidget() function works just as well with Grids, Lists and Dropdowns.
 
 ## Deleting and Inserting Individual Rows with Scripts
 
-You can add or remove rows using object functions described in the [Widget Object](../../../../client-api/objects-titbits/widget-object) topic.
+You can add or remove rows using object functions described in the [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object) topic.
 

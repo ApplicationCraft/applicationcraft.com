@@ -8,19 +8,19 @@ full_width: true
 
 **In This Section:**
 
- - [getGroupById()](group-management/getgroupbyid)
+ - [getGroupById()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/getgroupbyid)
 
- - [createGroup()](group-management/creategroup)
+ - [createGroup()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/creategroup)
 
- - [updateGroup()](group-management/updategroup)
+ - [updateGroup()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/updategroup)
 
- - [deleteGroup()](group-management/deletegroup)
+ - [deleteGroup()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/deletegroup)
 
- - [addToGroup()](group-management/addtogroup)
+ - [addToGroup()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/addtogroup)
 
- - [removeFromGroup()](group-management/removefromgroup)
+ - [removeFromGroup()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/removefromgroup)
 
- - [getGroupMembers()](group-management/getgroupmembers)
+ - [getGroupMembers()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/getgroupmembers)
 
- - [getGroupsList()](group-management/getgroupslist)
+ - [getGroupsList()](/developers/user-guide/scripting-apis/server-side-api/sys-object/group-management/getgroupslist)
 

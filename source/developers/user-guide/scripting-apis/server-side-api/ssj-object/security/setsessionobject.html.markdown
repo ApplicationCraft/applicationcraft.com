@@ -50,9 +50,9 @@ This is a useful method when you need to handle security properly. For example, 
 
 ## See Also
 
- - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
+ - [Security and Server Side Javascript](/developers/user-guide/scripting-apis/server-side-scripting-overview/writing-secure-code)
 
- - [getSessionObject()](getsessionobject)
+ - [getSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/getsessionobject)
 
- - [deleteSessionObject()](deletesessionobject)
+ - [deleteSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/deletesessionobject)
 

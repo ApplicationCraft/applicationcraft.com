@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-When you load data into the timeline widget, Application Craft will not resize the window to accommodate the events. The [fitData()](../../../scripting-apis/client-api/widget-object-functions/timeline/fitdata) widget function does this for you.
+When you load data into the timeline widget, Application Craft will not resize the window to accommodate the events. The [fitData()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/fitdata) widget function does this for you.
 
         // This takes your source data and puts it into the timeline widget
         // Note that the tree and timeline data arrays are accompanied by their mapping objects

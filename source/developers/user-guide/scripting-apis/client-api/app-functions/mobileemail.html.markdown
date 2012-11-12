@@ -39,15 +39,15 @@ Label widgets, Image widget and Mobile Action button have a 'Link' property wher
 
 ## See Also
 
- - [mobileDial()](mobiledial)
+ - [mobileDial()](/developers/user-guide/scripting-apis/client-api/app-functions/mobiledial)
 
- - [mobileSMS()](mobilesms)
+ - [mobileSMS()](/developers/user-guide/scripting-apis/client-api/app-functions/mobilesms)
 
- - [Label (Common)](../../../product-guide/widget-properties-events/common/label)
+ - [Label (Common)](/developers/user-guide/product-guide/widget-properties-events/common/label)
 
- - [Image](../../../product-guide/widget-properties-events/common/image)
+ - [Image](/developers/user-guide/product-guide/widget-properties-events/common/image)
 
- - [Action Button (Mobile)](../../../product-guide/widget-properties-events/mobile/mobaction-button)
+ - [Action Button (Mobile)](/developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button)
 
- - [Label (Mobile)](../../../product-guide/widget-properties-events/mobile/moblabel)
+ - [Label (Mobile)](/developers/user-guide/product-guide/widget-properties-events/mobile/moblabel)
 

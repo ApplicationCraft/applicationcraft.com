@@ -19,7 +19,7 @@ full_width: true
 <td width="20">
 </td>
 <td width="702">
-the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](../objects-titbits/ref-widget) or other [widget object](../objects-titbits/widget-object) functions.
+the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget) or other [widget object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object) functions.
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ The page 'BG Image' property should be specified as 'backgroundimage' or 'backgr
 
 ![properties](/img/docs/properties.png)
 
-You can also check the available properties for a specific widget using [debugProperties()](../app-functions/debugproperties)
+You can also check the available properties for a specific widget using [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 
 ## Example
 
@@ -57,15 +57,15 @@ You can also check the available properties for a specific widget using [debugPr
 
 ## See Also
 
- - [setProperty()](setproperty)
+ - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
 
- - [\_widget](../objects-titbits/ref-widget)
+ - [\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget)
 
- - [Widget Object](../objects-titbits/widget-object)
+ - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 
- - [debugProperties()](../app-functions/debugproperties)
+ - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 
- - [Viewing Widget Properties](../../client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
+ - [Viewing Widget Properties](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
 
 Related Videos:
 

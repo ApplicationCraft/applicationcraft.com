@@ -14,11 +14,11 @@ Application Craft lets you call SOAP and RESTful Web Services in a way that look
 
  - Write your own Widget : this is the Rolls-Royce approach. It requires most work up front, but once built, your App designers will thank you as there is often no code at all for the App designer. All code is contained within the Widget and you access it using properties. You Web Service can be called, processed and then the results can be mapped using a simple mapping dialog (Application Craft provides one of these as standard).
 
-This chapter shows all of these approaches being used. If you want to know how to build AC system extensions, then [Extending Application Craft](../../../../adding-widgets-and-api-methods/) and [Widget Extensions](../../../../adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/) are described within the Developer Guides.
+This chapter shows all of these approaches being used. If you want to know how to build AC system extensions, then [Extending Application Craft](/developers/user-guide/adding-widgets-and-api-methods/) and [Widget Extensions](/developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/) are described within the Developer Guides.
 
 ## **See Also**
 
-[Extending Application Craft](../../../../adding-widgets-and-api-methods/)
+[Extending Application Craft](/developers/user-guide/adding-widgets-and-api-methods/)
 
-[Widget Extensions](../../../../adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/)
+[Widget Extensions](/developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/)
 

@@ -8,7 +8,7 @@ full_width: true
 
 **In This Section:**
 
- - [Mobile & Client Side Data Storage](data-storage/mobile--client-side-data-storage/)
+ - [Mobile & Client Side Data Storage](/developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/)
 
- - [Server Side Data Storage](data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 

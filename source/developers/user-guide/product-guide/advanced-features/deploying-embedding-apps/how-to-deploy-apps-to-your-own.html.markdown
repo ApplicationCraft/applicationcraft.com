@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-On the [Apps](../../the-console/console-tabs/applications) console screen is the Download action button.
+On the [Apps](/developers/user-guide/product-guide/the-console/console-tabs/applications) console screen is the Download action button.
 
 ![Download](/img/docs/download.zoom68.png)
 

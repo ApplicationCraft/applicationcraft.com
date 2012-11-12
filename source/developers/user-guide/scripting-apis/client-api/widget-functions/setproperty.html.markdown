@@ -13,7 +13,7 @@ int **setProperty** (widget, propertyName, value)
 <table>
 <tr>
 <td width="175">
-{ [wlist](../objects-titbits/widget-list-parameters) }
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) }
 
 </td>
 <td width="14">
@@ -58,7 +58,7 @@ The page 'BG Image' property should be specified as 'backgroundimage' or 'backgr
 
 ![properties](/img/docs/properties.png)
 
-You can also check the available properties for a specific widget using [debugProperties()](../app-functions/debugproperties)
+You can also check the available properties for a specific widget using [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 
     app.setProperty('myTextBox', 'color', '#ffffff');
     app.setProperty(['myTextBox', 'myOtherTextBox'], 'color', '#ffffff');
@@ -68,21 +68,21 @@ You can also check the available properties for a specific widget using [debugPr
 
 ## See Also
 
- - [getProperty()](getproperty)
+ - [getProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/getproperty)
 
- - [visible()](../widget-data-state-manipulation/visible)
+ - [visible()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/visible)
 
- - [readOnly](../widget-data-state-manipulation/readonly)
+ - [readOnly](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/readonly)
 
- - [enabled()](../widget-data-state-manipulation/enabled)
+ - [enabled()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/enabled)
 
- - [\_widget](../objects-titbits/ref-widget)
+ - [\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget)
 
- - [Widget Object](../objects-titbits/widget-object)
+ - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 
- - [debugProperties()](../app-functions/debugproperties)
+ - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 
- - [Viewing Widget Properties](../../client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
+ - [Viewing Widget Properties](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
 
 Related Videos:
 

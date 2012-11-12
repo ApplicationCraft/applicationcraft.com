@@ -84,5 +84,5 @@ Multiple WHERE type clauses are handled as an array, and all elements will be jo
 
 ## See Also
 
- - [quote()](quote)
+ - [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote)
 

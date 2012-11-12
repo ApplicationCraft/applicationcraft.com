@@ -38,7 +38,7 @@ Switches the display language of the App to the language code specified in strLa
 
 ## See Also
 
- - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
+ - [Multi Language Apps](/developers/user-guide/product-guide/advanced-features/multi-language-apps/)
 
- - [translate()](translate)
+ - [translate()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/translate)
 

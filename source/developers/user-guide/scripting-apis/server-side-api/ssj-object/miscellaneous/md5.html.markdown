@@ -53,7 +53,7 @@ Server Side Script:
 
 ## **See Also**
 
- - [hash()](cryptblowfish)
+ - [hash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/cryptblowfish)
 
- - [checkHash()](checkcryptblowfish)
+ - [checkHash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/checkcryptblowfish)
 

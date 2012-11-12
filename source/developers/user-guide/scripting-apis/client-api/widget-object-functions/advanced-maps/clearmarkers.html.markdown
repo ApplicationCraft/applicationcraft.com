@@ -10,7 +10,7 @@ full_width: true
 
 ## Description
 
-Where you can clear all markers added by [addMarker()](addmarker)
+Where you can clear all markers added by [addMarker()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker)
 
 ## **Example**
 
@@ -20,5 +20,5 @@ Where you can clear all markers added by [addMarker()](addmarker)
 
 ## **See Also**
 
- - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
+ - [Removing Overlays](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

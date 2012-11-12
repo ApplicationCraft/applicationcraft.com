@@ -42,7 +42,7 @@ This approach lets the user carry on using the App but tells the user when the P
 
 ## See Also
 
- - [printApp()](../../../scripting-apis/client-api/app-functions/printapp)
+ - [printApp()](/developers/user-guide/scripting-apis/client-api/app-functions/printapp)
 
- - [isPrinting()](../../../scripting-apis/client-api/app-functions/isprinting)
+ - [isPrinting()](/developers/user-guide/scripting-apis/client-api/app-functions/isprinting)
 

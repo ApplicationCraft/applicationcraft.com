@@ -12,7 +12,7 @@ Other Apps can switch to this settings page directly, bypassing the Signup and S
 
 ## User Parameter Groups
 
-If you have only a handful of parameters, then a good way of storing these parameters is to just use [User Parameters](../../../the-console/console-tabs/more/account-variables/user-parameters/) . These allow you to define new User Parameters within the Console. You can access these using the [userParameterGet()](../../../../scripting-apis/client-api/app-functions/userparameterget) and [userParameterSet()](../../../../scripting-apis/client-api/app-functions/userparameterset) functions. This is fast and easy as any Apps can access the parameters of the authenticated user without the need to store data in an App Instance.
+If you have only a handful of parameters, then a good way of storing these parameters is to just use [User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/) . These allow you to define new User Parameters within the Console. You can access these using the [userParameterGet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterget) and [userParameterSet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterset) functions. This is fast and easy as any Apps can access the parameters of the authenticated user without the need to store data in an App Instance.
 
 ## Instance Storage
 

@@ -44,7 +44,7 @@ This function returns the number of rows deleted.
 
 Deletes a record or records that match the whereString criteria. .
 
-Even though the whereString parameter can be a regular string containing the entire WHERE clause, we highly recommend that you use [quote()](quote) or [quoteInto()](quoteinto) for the whereString parameter (see example below) to make your code more secure and avoid potential problems with special sql characters. So, please embrace these functions and get used to using them.
+Even though the whereString parameter can be a regular string containing the entire WHERE clause, we highly recommend that you use [quote()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quote) or [quoteInto()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quoteinto) for the whereString parameter (see example below) to make your code more secure and avoid potential problems with special sql characters. So, please embrace these functions and get used to using them.
 
 If you have complex conditions then simply build your strings using quote() or quoteInto() for the individual field components of the overall expression.
 
@@ -57,9 +57,9 @@ If you have complex conditions then simply build your strings using quote() or q
 
 ## See Also
 
- - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
+ - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
 
- - [dataGetStates()](../../../client-api/widget-data-state-manipulation/datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 
- - [Server Side Data Storage](../../../../product-guide/data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 

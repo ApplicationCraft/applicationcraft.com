@@ -114,7 +114,7 @@ This function gets data from a View and reads it into an array. Data is passed b
 
 ## Expressions
 
-Where you are specifying View fields or Widget fields, you need to do this as an Application Craft 'Expression'. If you don't use Javascript, then you would set the Expression using the [Expression Editor](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor) . The expressions you enter there are the same format as you would supply in the getViewData() method.
+Where you are specifying View fields or Widget fields, you need to do this as an Application Craft 'Expression'. If you don't use Javascript, then you would set the Expression using the [Expression Editor](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/the-expression-editor) . The expressions you enter there are the same format as you would supply in the getViewData() method.
 
 Expressions can include View (database) fields, App Widgets or  literal values. An expression string might look like this for simply getting a few fields
 
@@ -158,7 +158,7 @@ A Filter Expression can be supplied as an array of string Expressions (and not a
         }, undefined, ['{customers.country}'], [{value: '{customers.country}', asc: false}], 101, 50);
    
 
-Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](modifying-data-widgets-with-scripts/) chapter.
+Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/) chapter.
 
 ## Group By
 
@@ -174,13 +174,13 @@ This example shows simple usage. It is getting two fields from a database and th
 
 ## See Also
 
- - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
+ - [Reporting & Dashboards](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/) (good introduction to Views)
 
- - [getViewData()](getviewdata)
+ - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
 
- - [drillDownBroadcast()](drilldownbroadcast)
+ - [drillDownBroadcast()](/developers/user-guide/scripting-apis/client-api/data-view-functions/drilldownbroadcast)
 
- - [bindViewData()](setviewcallback)
+ - [bindViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/setviewcallback)
 
 Related Video:
 

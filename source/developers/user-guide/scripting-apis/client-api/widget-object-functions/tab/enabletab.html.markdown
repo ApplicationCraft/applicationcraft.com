@@ -21,5 +21,5 @@ Enable/Disable a tab
 
 ## **See Also**
 
- - [enabled()](../../widget-data-state-manipulation/enabled)
+ - [enabled()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/enabled)
 

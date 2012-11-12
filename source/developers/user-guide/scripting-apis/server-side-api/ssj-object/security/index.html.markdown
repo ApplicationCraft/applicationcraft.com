@@ -8,13 +8,13 @@ full_width: true
 
 **In This Section:**
 
- - [getLoggedUser()](security/getloggeduser)
+ - [getLoggedUser()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/getloggeduser)
 
- - [getOwnerUser()](security/getowneruser)
+ - [getOwnerUser()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/getowneruser)
 
- - [setSessionObject()](security/setsessionobject)
+ - [setSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/setsessionobject)
 
- - [getSessionObject()](security/getsessionobject)
+ - [getSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/getsessionobject)
 
- - [deleteSessionObject()](security/deletesessionobject)
+ - [deleteSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/deletesessionobject)
 

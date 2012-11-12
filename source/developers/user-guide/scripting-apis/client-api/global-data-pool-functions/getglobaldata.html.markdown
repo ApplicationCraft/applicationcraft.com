@@ -42,9 +42,9 @@ Retrieves data from a Global Data Pool variable.
 
 ## See Also
 
- - [switchApp()](../app-functions/switchapp)
+ - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
 
- - [setGlobalData()](setglobaldata)
+ - [setGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/setglobaldata)
 
- - [clearGlobalData()](clearglobaldata)
+ - [clearGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/clearglobaldata)
 

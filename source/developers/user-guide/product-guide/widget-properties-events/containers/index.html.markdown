@@ -10,16 +10,16 @@ Containers present information in your App in a neat and attractive way. We prov
 
 **In This Section:**
 
-[Accordion](containers/accordion)
+[Accordion](/developers/user-guide/product-guide/widget-properties-events/containers/accordion)
 
-[Tab](containers/tab)
+[Tab](/developers/user-guide/product-guide/widget-properties-events/containers/tab)
 
-[Repeater](containers/repeater)
+[Repeater](/developers/user-guide/product-guide/widget-properties-events/containers/repeater)
 
-[Page Button](containers/page-button)
+[Page Button](/developers/user-guide/product-guide/widget-properties-events/containers/page-button)
 
-[Panel](containers/panel)
+[Panel](/developers/user-guide/product-guide/widget-properties-events/containers/panel)
 
-[Data Container](containers/data-container)
+[Data Container](/developers/user-guide/product-guide/widget-properties-events/containers/data-container)
 
-[iFrame](containers/iframe)
+[iFrame](/developers/user-guide/product-guide/widget-properties-events/containers/iframe)

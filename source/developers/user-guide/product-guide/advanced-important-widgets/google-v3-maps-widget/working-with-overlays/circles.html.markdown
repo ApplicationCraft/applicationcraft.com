@@ -8,7 +8,7 @@ full_width: true
 
 A Circle can be drawn on the Map with a radius as well as line and fill properties.
 
-Below is some code that shows how to create a new line using [addCircle()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](../using-populatewidget) function.
+Below is some code that shows how to create a new line using [addCircle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle) . Don't forget that you can also create multiple overlays from any simple or complex array using the [populateWidget()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/using-populatewidget) function.
 
     function handler_actionBtn11_onClick(mouseev){
         if (circleObj) {
@@ -24,4 +24,4 @@ Below is some code that shows how to create a new line using [addCircle()](../..
 
 **addCircle**
 
-Please refer to [addCircle()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle) in the [Client API](../../../../scripting-apis/client-api/) section for full details on the function.
+Please refer to [addCircle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle) in the [Client API](/developers/user-guide/scripting-apis/client-api/) section for full details on the function.

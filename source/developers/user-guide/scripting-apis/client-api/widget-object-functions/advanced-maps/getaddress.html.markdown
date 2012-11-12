@@ -68,11 +68,11 @@ How you can get an address from either specific lat/lng coordinates or from your
 
 ## **See Also**
 
- - [whereAmI()](whereami)
+ - [whereAmI()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami)
 
- - [getCoord()](getcoord)
+ - [getCoord()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord)
 
- - [getDirections()](getdirections)
+ - [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
 
- - [addCurrentLocation()](addcurrentlocation)
+ - [addCurrentLocation()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation)
 

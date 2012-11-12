@@ -8,17 +8,17 @@ full_width: true
 
 **In This Section:**
 
-[Building your Apps](phonegapbuild/building-the-native-apps)
+[Building your Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/building-the-native-apps)
 
-[Key Management](phonegapbuild/key-management)
+[Key Management](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/key-management)
 
-[Deploying your Native Apps](phonegapbuild/deploying-your-native-apps)
+[Deploying your Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/deploying-your-native-apps)
 
-[Manual Building](phonegapbuild/manual-building)
+[Manual Building](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/manual-building)
 
 ## **See Also**
 
- - [AC Mobile Build](../ac-mobile-build/)
+ - [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
 
 Related Videos:
 

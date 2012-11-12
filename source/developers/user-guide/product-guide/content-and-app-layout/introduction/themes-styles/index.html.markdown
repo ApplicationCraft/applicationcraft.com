@@ -14,9 +14,9 @@ Styles contained within a Theme can only be changed if you have permission to Ed
 
 For detailed information on editing Themes and Styles, see the following sections:
 
-[Theme Management](themes--styles/themesmanage)
+[Theme Management](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage)
 
-[Style Management](themes--styles/style-management)
+[Style Management](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/style-management)
 
 Related Video:
 

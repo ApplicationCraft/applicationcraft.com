@@ -19,9 +19,9 @@ When creating queries that require
 
 The same applies to fieldsObject parameters in the following cases
 
- - [update()](../../../scripting-apis/server-side-api/ssj-object/database/update)
+ - [update()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/update)
 
- - [delete()](../../../scripting-apis/server-side-api/ssj-object/database/delete)
+ - [delete()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/delete)
 
 If one of your fields referenced a SQL function then you would also use to encapsulate your SQL function.
 

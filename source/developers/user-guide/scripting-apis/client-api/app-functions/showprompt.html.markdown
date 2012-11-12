@@ -74,11 +74,11 @@ Rich Text is supported.
 
 ## See Also
 
- - [showMessage()](showmessage)
+ - [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
 
- - [showConfirm()](showconfirm)
+ - [showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm)
 
- - [showPagePopup()](../page-functions/showpagepopup)
+ - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
 
- - [closePagePopup()](../page-functions/closepagepopup)
+ - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 

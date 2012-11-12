@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="149">
-[getACVersion()](app-functions/getacversion)
+[getACVersion()](/developers/user-guide/scripting-apis/client-api/app-functions/getacversion)
 
 </td>
 <td width="12">
@@ -21,7 +21,7 @@ full_width: true
 </tr>
 <tr>
 <td width="149">
-[alert()](app-functions/refalert)
+[alert()](/developers/user-guide/scripting-apis/client-api/app-functions/refalert)
 
 </td>
 <td width="12">
@@ -33,7 +33,7 @@ This function can be used instead of the regular alert() function
 </tr>
 <tr>
 <td width="149">
-[confirm()](app-functions/confirm)
+[confirm()](/developers/user-guide/scripting-apis/client-api/app-functions/confirm)
 
 </td>
 <td width="12">
@@ -45,7 +45,7 @@ This function can be used instead of the regular confirm() function
 </tr>
 <tr>
 <td width="149">
-[isNativeAppOnline()](app-functions/isnativeapponline)
+[isNativeAppOnline()](/developers/user-guide/scripting-apis/client-api/app-functions/isnativeapponline)
 
 </td>
 <td width="12">
@@ -57,7 +57,7 @@ Returns the status of internet / network connectivity.
 </tr>
 <tr>
 <td width="149">
-[isNativeApp()](app-functions/isnativeapp)
+[isNativeApp()](/developers/user-guide/scripting-apis/client-api/app-functions/isnativeapp)
 
 </td>
 <td width="12">
@@ -69,7 +69,7 @@ Indicates whether the App is running in Native or Web App mode.
 </tr>
 <tr>
 <td width="149">
-[networkTimeout()](app-functions/setnetworktimeout)
+[networkTimeout()](/developers/user-guide/scripting-apis/client-api/app-functions/setnetworktimeout)
 
 </td>
 <td width="12">
@@ -81,7 +81,7 @@ Gets or sets the network timeout period
 </tr>
 <tr>
 <td width="149">
-[reset()](app-functions/refreset)
+[reset()](/developers/user-guide/scripting-apis/client-api/app-functions/refreset)
 
 </td>
 <td width="12">
@@ -93,7 +93,7 @@ Reset an App to the same state it would be in if freshly loaded
 </tr>
 <tr>
 <td width="149">
-[mobileDial()](app-functions/mobiledial)
+[mobileDial()](/developers/user-guide/scripting-apis/client-api/app-functions/mobiledial)
 
 </td>
 <td width="12">
@@ -105,7 +105,7 @@ Invoke the devices Dialler (and optionally pre populate with a phone number)
 </tr>
 <tr>
 <td width="149">
-[mobileEmail()](app-functions/mobileemail)
+[mobileEmail()](/developers/user-guide/scripting-apis/client-api/app-functions/mobileemail)
 
 </td>
 <td width="12">
@@ -117,7 +117,7 @@ Invoke the devices Email program (and optionally pre populate the recipient
 </tr>
 <tr>
 <td width="149">
-[mobileSMS()](app-functions/mobilesms)
+[mobileSMS()](/developers/user-guide/scripting-apis/client-api/app-functions/mobilesms)
 
 </td>
 <td width="12">
@@ -129,7 +129,7 @@ Invoke the devices SMS program (and optionally pre populate the recipients phone
 </tr>
 <tr>
 <td width="149">
-[showMessage()](app-functions/showmessage)
+[showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
 
 </td>
 <td width="12">
@@ -141,7 +141,7 @@ Show a message
 </tr>
 <tr>
 <td width="149">
-[showConfirm()](app-functions/showconfirm)
+[showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm)
 
 </td>
 <td width="12">
@@ -153,7 +153,7 @@ Show a message that requires a yes/no response
 </tr>
 <tr>
 <td width="149">
-[showPrompt()](app-functions/showprompt)
+[showPrompt()](/developers/user-guide/scripting-apis/client-api/app-functions/showprompt)
 
 </td>
 <td width="12">
@@ -165,7 +165,7 @@ Prompt for a text or number to be entered
 </tr>
 <tr>
 <td width="149">
-[closeForm()](app-functions/closeform)
+[closeForm()](/developers/user-guide/scripting-apis/client-api/app-functions/closeform)
 
 </td>
 <td width="12">
@@ -177,7 +177,7 @@ Close the App
 </tr>
 <tr>
 <td width="149">
-[debugOutput()](app-functions/debugoutput)
+[debugOutput()](/developers/user-guide/scripting-apis/client-api/app-functions/debugoutput)
 
 </td>
 <td width="12">
@@ -189,7 +189,7 @@ Writes a string to the Debug Console (Chrome Developer Tools / Firebug etc)
 </tr>
 <tr>
 <td width="149">
-[debugValues()](app-functions/debugvalues)
+[debugValues()](/developers/user-guide/scripting-apis/client-api/app-functions/debugvalues)
 
 </td>
 <td width="12">
@@ -201,7 +201,7 @@ Assigns the values of one or more Widgets in a single call to a single object th
 </tr>
 <tr>
 <td width="149">
-[debugData()](app-functions/debugdata)
+[debugData()](/developers/user-guide/scripting-apis/client-api/app-functions/debugdata)
 
 </td>
 <td width="12">
@@ -213,7 +213,7 @@ Assigns the contents of one or more Widgets in a single call to a single object 
 </tr>
 <tr>
 <td width="149">
-[debugProperties()](app-functions/debugproperties)
+[debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 
 </td>
 <td width="12">
@@ -225,7 +225,7 @@ Assigns all the properties of one or more Widgets in a single call to a single o
 </tr>
 <tr>
 <td width="149">
-[gaTrack()](app-functions/gatrack)
+[gaTrack()](/developers/user-guide/scripting-apis/client-api/app-functions/gatrack)
 
 </td>
 <td width="12">
@@ -237,7 +237,7 @@ Calls Google Analytics with the specified tracking code
 </tr>
 <tr>
 <td width="149">
-[switchApp()](app-functions/switchapp)
+[switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
 
 </td>
 <td width="12">
@@ -249,7 +249,7 @@ Switch from the running App to another App
 </tr>
 <tr>
 <td width="149">
-[parentApp()](app-functions/parentapp)
+[parentApp()](/developers/user-guide/scripting-apis/client-api/app-functions/parentapp)
 
 </td>
 <td width="12">
@@ -261,7 +261,7 @@ This function is used in association with Embedded Apps
 </tr>
 <tr>
 <td width="149">
-[printApp()](app-functions/printapp)
+[printApp()](/developers/user-guide/scripting-apis/client-api/app-functions/printapp)
 
 </td>
 <td width="12">
@@ -273,7 +273,7 @@ Call this method when you need to generate a pdf representation of any App/App I
 </tr>
 <tr>
 <td width="149">
-[isPrinting()](app-functions/isprinting)
+[isPrinting()](/developers/user-guide/scripting-apis/client-api/app-functions/isprinting)
 
 </td>
 <td width="12">
@@ -285,7 +285,7 @@ Call this method if you need to query whether the printing process is still unde
 </tr>
 <tr>
 <td width="149">
-[childApp()](app-functions/childapp)
+[childApp()](/developers/user-guide/scripting-apis/client-api/app-functions/childapp)
 
 </td>
 <td width="12">
@@ -297,7 +297,7 @@ This function is used in association with Embedded Apps
 </tr>
 <tr>
 <td width="149">
-[twirlyThing()](app-functions/twirlything)
+[twirlyThing()](/developers/user-guide/scripting-apis/client-api/app-functions/twirlything)
 
 </td>
 <td width="12">
@@ -309,7 +309,7 @@ Displays the twirling hourglass and locks the entire App or individual Widgets
 </tr>
 <tr>
 <td width="149">
-[getInputParameter()](app-functions/getinputparameter)
+[getInputParameter()](/developers/user-guide/scripting-apis/client-api/app-functions/getinputparameter)
 
 </td>
 <td width="12">
@@ -321,7 +321,7 @@ Gets a value from the querystring
 </tr>
 <tr>
 <td width="149">
-[callSSJ()](app-functions/callservice)
+[callSSJ()](/developers/user-guide/scripting-apis/client-api/app-functions/callservice)
 
 </td>
 <td width="12">
@@ -333,7 +333,7 @@ This function is used if you want to call a server side function from your clien
 </tr>
 <tr>
 <td width="149">
-[getEnvValue()](app-functions/getenvvalue)
+[getEnvValue()](/developers/user-guide/scripting-apis/client-api/app-functions/getenvvalue)
 
 </td>
 <td width="12">
@@ -345,7 +345,7 @@ Get a special AC session environment variable
 </tr>
 <tr>
 <td width="149">
-[userParameterGet()](app-functions/userparameterget)
+[userParameterGet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterget)
 
 </td>
 <td width="12">
@@ -357,7 +357,7 @@ Get an AC user parameter
 </tr>
 <tr>
 <td width="149">
-[userParameterSet()](app-functions/userparameterset)
+[userParameterSet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterset)
 
 </td>
 <td width="12">
@@ -369,7 +369,7 @@ Set an AC user parameter
 </tr>
 <tr>
 <td width="149">
-[runEditor()](app-functions/runeditor)
+[runEditor()](/developers/user-guide/scripting-apis/client-api/app-functions/runeditor)
 
 </td>
 <td width="12">
@@ -381,7 +381,7 @@ Switches an App from Live Mode directly into the App Designer
 </tr>
 <tr>
 <td width="149">
-[logout()](app-functions/logout)
+[logout()](/developers/user-guide/scripting-apis/client-api/app-functions/logout)
 
 </td>
 <td width="12">
@@ -393,7 +393,7 @@ Logs a user out from the App
 </tr>
 <tr>
 <td width="149">
-[getInstanceURL()](app-functions/getinstanceurl)
+[getInstanceURL()](/developers/user-guide/scripting-apis/client-api/app-functions/getinstanceurl)
 
 </td>
 <td width="12">
@@ -405,7 +405,7 @@ Gets a URL that can be used to launch the current App Instance
 </tr>
 <tr>
 <td width="149">
-[getAppSnapshot()](app-functions/getappsnapshot)
+[getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot)
 
 </td>
 <td width="12">
@@ -417,7 +417,7 @@ Takes a snapshot of the entire running App
 </tr>
 <tr>
 <td width="149">
-[setAppSnapshot()](app-functions/setappsnapshot)
+[setAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/setappsnapshot)
 
 </td>
 <td width="12">
@@ -429,7 +429,7 @@ Restores a snapshot into the current running App
 </tr>
 <tr>
 <td width="149">
-[getRunMode()](app-functions/getrunmode)
+[getRunMode()](/developers/user-guide/scripting-apis/client-api/app-functions/getrunmode)
 
 </td>
 <td width="12">

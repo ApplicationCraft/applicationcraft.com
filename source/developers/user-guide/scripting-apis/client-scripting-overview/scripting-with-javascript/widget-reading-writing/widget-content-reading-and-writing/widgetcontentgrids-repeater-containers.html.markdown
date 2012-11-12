@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-The [getData()](../../../../client-api/widget-data-state-manipulation/getdata) and [setData()](../../../../client-api/widget-data-state-manipulation/setdata) functions allow you to read and populate the actual contents rather than selections made by the user of that content.
+The [getData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/getdata) and [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata) functions allow you to read and populate the actual contents rather than selections made by the user of that content.
 
 ## Reading Contents
 
-[getData()](../../../../client-api/widget-data-state-manipulation/getdata) will return an object containing all columns for all rows. For example, let's say I had a Grid called myACGrid with the following data in it
+[getData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/getdata) will return an object containing all columns for all rows. For example, let's say I had a Grid called myACGrid with the following data in it
 
 <table>
 <tr>
@@ -109,27 +109,27 @@ Or I could get:
 
 **Converting to a simple Array**
 
-If you want to operate on a simple array, you can call the app. [OBJ2ARRAY()](../../../../client-api/conversion-functions/advancedtoarray) function, which will return a Javascript array.
+If you want to operate on a simple array, you can call the app. [OBJ2ARRAY()](/developers/user-guide/scripting-apis/client-api/conversion-functions/advancedtoarray) function, which will return a Javascript array.
 
 ## Populating a Grid
 
 There are two ways to populate a Grid
 
- - You create a 'rows' object and fill it with your data and then use the [app.setData(widgetName, rowsObject)](../../../../client-api/widget-data-state-manipulation/setdata) function to populate.
+ - You create a 'rows' object and fill it with your data and then use the [app.setData(widgetName, rowsObject)](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata) function to populate.
 
- - You can use the [populateWidget()](../../../../client-api/widget-data-state-manipulation/populatewidget/) function to map data from any array within any object directly into the Grid using a field map. This is better, faster and results in much less code, so take a look at it.
+ - You can use the [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) function to map data from any array within any object directly into the Grid using a field map. This is better, faster and results in much less code, so take a look at it.
 
 ## Deleting and Inserting Individual Rows with Scripts
 
-You can add or remove rows using object functions described in the [Widget Object](../../../../client-api/objects-titbits/widget-object) topic.
+You can add or remove rows using object functions described in the [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object) topic.
 
 ## See Also
 
- - [Reading & Writing Cell Values](../widget-values-reading-writing-user-entered-data/grids-repeater-containers)
+ - [Reading & Writing Cell Values](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
 
- - [setData()](../../../../client-api/widget-data-state-manipulation/setdata)
+ - [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata)
 
- - [getData()](../../../../client-api/widget-data-state-manipulation/getdata)
+ - [getData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/getdata)
 
- - [populateWidget()](../../../../client-api/widget-data-state-manipulation/populatewidget/)
+ - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 

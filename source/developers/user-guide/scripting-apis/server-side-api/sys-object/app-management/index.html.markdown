@@ -8,15 +8,15 @@ full_width: true
 
 **In This Section:**
 
- - [getAppsList()](app-management/getappslist)
+ - [getAppsList()](/developers/user-guide/scripting-apis/server-side-api/sys-object/app-management/getappslist)
 
- - [getAppsFoldersList()](app-management/getappsfolderslist)
+ - [getAppsFoldersList()](/developers/user-guide/scripting-apis/server-side-api/sys-object/app-management/getappsfolderslist)
 
- - [getSharedAppsUsersList()](app-management/getsharedappsuserslist)
+ - [getSharedAppsUsersList()](/developers/user-guide/scripting-apis/server-side-api/sys-object/app-management/getsharedappsuserslist)
 
- - [getSharedAppsFoldersList()](app-management/getsharedappsfolderslist)
+ - [getSharedAppsFoldersList()](/developers/user-guide/scripting-apis/server-side-api/sys-object/app-management/getsharedappsfolderslist)
 
- - [getSharedAppsItemsList()](app-management/getsharedappsitemslist)
+ - [getSharedAppsItemsList()](/developers/user-guide/scripting-apis/server-side-api/sys-object/app-management/getsharedappsitemslist)
 
 These functions are not currently documented. If you feel you require documentation for these, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) .
 

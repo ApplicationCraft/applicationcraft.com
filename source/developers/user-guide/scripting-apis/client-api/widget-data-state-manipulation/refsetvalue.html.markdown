@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="173">
-{ [wlist](../objects-titbits/widget-list-parameters) } widgetName
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widgetName
 
 </td>
 <td width="19">
@@ -52,17 +52,17 @@ the value to write
 
 Allows you to set the contents of a Widget.
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how setData() and setValue() work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how setData() and setValue() work with different Widget types.
 
 ## Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
+There are examples in the [Reading & Writing App Data](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
 
 ## See Also
 
- - [setValue() for Simple Widget](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets) types
+ - [setValue() for Simple Widget](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets) types
 
- - [setValue() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists-dropdown-widgets) Widgets
+ - [setValue() for Listbox and Drop Down](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists-dropdown-widgets) Widgets
 
- - [setValue() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
+ - [setValue() for Grids](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
 

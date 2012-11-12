@@ -28,9 +28,9 @@ The row index of the selected row is returned,. If no row is selected, then retu
 
 This returns the row index of the currently selected row in a Grid Widget.
 
-Read the [Interacting with Widgets](../../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
+Read the [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter to learn more about reading from and writing to Grids and Repeater Containers.
 
 ## See Also
 
- - [setSelectedRow()](setselectedrow)
+ - [setSelectedRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/setselectedrow)
 

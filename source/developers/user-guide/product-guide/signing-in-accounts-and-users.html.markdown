@@ -20,11 +20,11 @@ A User ID is not needed within an Application Craft Account for anonymous use of
 
 ## User and Group Management
 
-Please refer to [this section](the-console/console-tabs/more/users-groups/) for details on how to create new Users and Groups.
+Please refer to [this section](/developers/user-guide/product-guide/the-console/console-tabs/more/users-groups/) for details on how to create new Users and Groups.
 
 ## Sharing and Permissions
 
-Please refer to [this section](the-console/sharing) for details on assigning permissions to users and groups.
+Please refer to [this section](/developers/user-guide/product-guide/the-console/sharing) for details on assigning permissions to users and groups.
 
 When a user first signs in, the Quick Start pop up guide will be presented to assist users to get started. This can be suppressed for future logins as required by checking the 'Never show this again' check box. It can also though be accessed under the 'More' tab in the console if needed.
 

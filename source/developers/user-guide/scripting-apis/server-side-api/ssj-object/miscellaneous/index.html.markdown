@@ -8,39 +8,39 @@ full_width: true
 
 **In This Section:**
 
- - [appId()](miscellaneous/appid)
+ - [appId()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/appid)
 
- - [appName()](miscellaneous/appname)
+ - [appName()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/appname)
 
- - [id()](miscellaneous/id) - Deprecated
+ - [id()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/id) - Deprecated
 
- - [getLatestError()](miscellaneous/getlatesterror)
+ - [getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror)
 
- - [getLoggedUser()](miscellaneous/getloggeduser2)
+ - [getLoggedUser()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getloggeduser2)
 
- - [setUserParameter()](miscellaneous/setuserparameter)
+ - [setUserParameter()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/setuserparameter)
 
- - [getUserParameter()](miscellaneous/getuserparameter)
+ - [getUserParameter()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getuserparameter)
 
- - [sendEmail()](miscellaneous/sendemail2)
+ - [sendEmail()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2)
 
- - [sleep()](miscellaneous/sleep)
+ - [sleep()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/sleep)
 
- - [hash()](miscellaneous/cryptblowfish)
+ - [hash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/cryptblowfish)
 
- - [checkHash()](miscellaneous/checkcryptblowfish)
+ - [checkHash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/checkcryptblowfish)
 
- - [md5()](miscellaneous/md5)
+ - [md5()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/md5)
 
- - [getUUID()](miscellaneous/getuuid)
+ - [getUUID()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getuuid)
 
- - [OBJ2JSON](miscellaneous/obj2json)
+ - [OBJ2JSON](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/obj2json)
 
- - [JSON2OBJ](miscellaneous/json2obj)
+ - [JSON2OBJ](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/json2obj)
 
- - [OBJ2XML](miscellaneous/obj2xml)
+ - [OBJ2XML](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/obj2xml)
 
- - [XML2OBJ](miscellaneous/xml2obj)
+ - [XML2OBJ](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/xml2obj)
 
- - [printApp()](../../../client-api/app-functions/printapp)
+ - [printApp()](/developers/user-guide/scripting-apis/client-api/app-functions/printapp)
 

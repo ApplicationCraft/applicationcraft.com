@@ -46,9 +46,9 @@ A javascript object where the object key name corresponds to the widget name and
 
 This function is commonly used to extract data from your App so that it can be passed in a simple format to another system or a Server Side Javascript function (SSJ).
 
-A common usage is where you want to extract data from your App so it can be stored in a database table using Application Crafts [SSJ database functions](../../../product-guide/data-storage/server-side-data-storage/) . If you choose your Widget names to match the database field names then the javascript object returned by app.dataGetValues() can be used as-is by the [ssj.insert()](../../server-side-api/ssj-object/database/insert) and [ssj.update()](../../server-side-api/ssj-object/database/update) methods.
+A common usage is where you want to extract data from your App so it can be stored in a database table using Application Crafts [SSJ database functions](/developers/user-guide/product-guide/data-storage/server-side-data-storage/) . If you choose your Widget names to match the database field names then the javascript object returned by app.dataGetValues() can be used as-is by the [ssj.insert()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/insert) and [ssj.update()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/update) methods.
 
-You can also store these values in 3rd party systems or database by converting the javascript object to JSON ( [app.OBJ2JSON()](../conversion-functions/json2text) ) and then storing the object as a string. You can restore later using [app.JSON2OBJ()](../conversion-functions/text2json) and then [app.dataSetValues()](datasetvalues) .
+You can also store these values in 3rd party systems or database by converting the javascript object to JSON ( [app.OBJ2JSON()](/developers/user-guide/scripting-apis/client-api/conversion-functions/json2text) ) and then storing the object as a string. You can restore later using [app.JSON2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/text2json) and then [app.dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues) .
 
 ## Examples
 
@@ -73,15 +73,15 @@ This example extracts the widgets and .
 
 ## See Also
 
- - [dataGetStates()](datagetstates)
+ - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 
- - [dataSetValues()](datasetvalues)
+ - [dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues)
 
- - [dataSetStates()](datasetstates)
+ - [dataSetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetstates)
 
- - [Server Side Data Storage](../../../product-guide/data-storage/server-side-data-storage/)
+ - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 
- - [SSJ database functions](../../../product-guide/data-storage/server-side-data-storage/)
+ - [SSJ database functions](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 
- - [Instance Data Functions](../instance-data-functions/)
+ - [Instance Data Functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/)
 

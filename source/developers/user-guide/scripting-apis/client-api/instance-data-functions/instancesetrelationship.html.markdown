@@ -10,7 +10,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../product-guide/data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -37,7 +37,7 @@ The Instance ID of the App in which the relationName parameter is defined
 <td width="10">
 </td>
 <td width="700">
-Enter Relation Name as defined in App Properties - Application Relationship. See [App Instances](../../../product-guide/advanced-features/data-storage-management/dataapp-instances)
+Enter Relation Name as defined in App Properties - Application Relationship. See [App Instances](/developers/user-guide/product-guide/advanced-features/data-storage-management/dataapp-instances)
 
 </td>
 </tr>
@@ -104,17 +104,17 @@ If you want to only remove relationships, then you leave addLinks empty and just
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully reflected in the CDB (Core Database). rdbCallback is called once the data is fully reflected in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function) page for details on these callback functions.
 
 ## See Also
 
- - [instanceNew()](instancenew)
+ - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
 
- - [instanceCreate()](instancecreate)
+ - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 
 Related Video:
 

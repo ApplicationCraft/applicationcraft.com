@@ -31,7 +31,7 @@ The ID of the group to update
 <td width="15">
 </td>
 <td width="682">
-[click here](../user-management/checkowneruserrights-parameter) to see the checkOwnerRights description
+[click here](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/checkowneruserrights-parameter) to see the checkOwnerRights description
 
 </td>
 </tr>
@@ -49,5 +49,5 @@ Updates the group with the details of the group passed in the groupObject parame
 
 ## See Also
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
+ - [getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror)
 

@@ -19,7 +19,7 @@ full_width: true
 <td width="20">
 </td>
 <td width="702">
-the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](../objects-titbits/ref-widget) or other [widget object](../objects-titbits/widget-object) functions.
+the Name or GUID of the Widget. This can be either a string or a widget object as available from [\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget) or other [widget object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object) functions.
 
 </td>
 </tr>

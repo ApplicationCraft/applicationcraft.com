@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-[Mobile Lists](../../../../../product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/) (of all types) and [Navbars](../../../../../product-guide/advanced-important-widgets/important-mobile-widgets/mobile-navigation-toolbar) can be populated from code using [setData()](../../../../client-api/widget-data-state-manipulation/setdata) or [populateWidget()](../../../../client-api/widget-data-state-manipulation/populatewidget/) . Each has its own distinct advantages. Which one to use depends entirely on where the data originates that populates your Mobile List.
+[Mobile Lists](/developers/user-guide/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/) (of all types) and [Navbars](/developers/user-guide/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-navigation-toolbar) can be populated from code using [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata) or [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) . Each has its own distinct advantages. Which one to use depends entirely on where the data originates that populates your Mobile List.
 
-If your recordset/dataset comes from another system (maybe a Web Service API) then you will probably want to use [populateWidget()](../../../../client-api/widget-data-state-manipulation/populatewidget/) as it allows very easy mapping from your source data to the widget without the need to write your own mapping logic.
+If your recordset/dataset comes from another system (maybe a Web Service API) then you will probably want to use [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) as it allows very easy mapping from your source data to the widget without the need to write your own mapping logic.
 
-However, if you can easily work with the array structure that getData() and setData() work with, then this is a little simpler. [setData()](../../../../client-api/widget-data-state-manipulation/setdata) requires an object array parameter.
+However, if you can easily work with the array structure that getData() and setData() work with, then this is a little simpler. [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata) requires an object array parameter.
 
-## [setData()](../../../../client-api/widget-data-state-manipulation/setdata) Selection Object
+## [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata) Selection Object
 
 All item data for the Mobile List widget is described in the following Javascript object
 

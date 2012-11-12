@@ -34,9 +34,9 @@ You would use the following approach, which constructs an array with three eleme
 
  - Each of the expressions that are OR'd must be enclosed in brackets.
 
- - You must use the app. [refreshData()](../../widget-functions/refreshdata) function to reload the widget with the filter applied.
+ - You must use the app. [refreshData()](/developers/user-guide/scripting-apis/client-api/widget-functions/refreshdata) function to reload the widget with the filter applied.
 
- - If you need to access View data in the background, without the need to populate widgets, you should can use the [getViewData()](../getviewdata) function,
+ - If you need to access View data in the background, without the need to populate widgets, you should can use the [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata) function,
 
 ## Filtering Dates
 
@@ -44,17 +44,17 @@ Refer to the next section for information on how to filter dates.
 
 ## See Also
 
- - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
+ - [Expressions](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/the-expression-editor)
 
- - [Filtering Dates](filtering-dates)
+ - [Filtering Dates](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filtering-dates)
 
- - [getViewData()](../getviewdata)
+ - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
 
- - [Drill Filter](refdrill-filter)
+ - [Drill Filter](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/refdrill-filter)
 
- - [drillDownBroadcast()](../drilldownbroadcast)
+ - [drillDownBroadcast()](/developers/user-guide/scripting-apis/client-api/data-view-functions/drilldownbroadcast)
 
- - [Data View Related Events](../data-view-related-events)
+ - [Data View Related Events](/developers/user-guide/scripting-apis/client-api/data-view-functions/data-view-related-events)
 
 Related Video:
 

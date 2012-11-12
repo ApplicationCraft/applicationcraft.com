@@ -30,9 +30,9 @@ The folder structure you see here will appear the same for all developers. If yo
 
 ## Server Side API Methods
 
-Application Craft has a different API on the server side to the client API. Please refer to the [Server Side API](../server-side-api/) chapter.
+Application Craft has a different API on the server side to the client API. Please refer to the [Server Side API](/developers/user-guide/scripting-apis/server-side-api/) chapter.
 
 ## See Also
 
- - [Public Shared Scripts](../client-scripting-overview/public-shared-scripts)
+ - [Public Shared Scripts](/developers/user-guide/scripting-apis/client-scripting-overview/public-shared-scripts)
 

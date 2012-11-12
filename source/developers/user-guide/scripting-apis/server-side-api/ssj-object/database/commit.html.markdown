@@ -18,11 +18,11 @@ This method commits a database transaction for the database referenced by the Co
 
 ## Example
 
-See the example in [beginTransaction()](begintransaction) .
+See the example in [beginTransaction()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/begintransaction) .
 
 ## See Also
 
- - [beginTransaction()](begintransaction)
+ - [beginTransaction()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/begintransaction)
 
- - [rollback()](rollback)
+ - [rollback()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/rollback)
 

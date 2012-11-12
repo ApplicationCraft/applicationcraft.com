@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-If you need an OK or Cancel response from the Respondent, you can use the [showConfirm()](../../../client-api/app-functions/showconfirm) function. This allows you to handle the response in your script as shown in the simple example below.
+If you need an OK or Cancel response from the Respondent, you can use the [showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm) function. This allows you to handle the response in your script as shown in the simple example below.
 
 ## Example
 
@@ -20,5 +20,5 @@ If you need an OK or Cancel response from the Respondent, you can use the [showC
 
 ## **See also** 
 
- - [showMessage()](../../../client-api/app-functions/showmessage)
+ - [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
 

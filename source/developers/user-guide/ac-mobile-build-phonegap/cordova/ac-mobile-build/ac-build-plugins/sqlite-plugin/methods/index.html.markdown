@@ -11,7 +11,7 @@ full_width: true
 <table>
 <tr>
 <td width="151">
-[open](methods/open3)
+[open](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/open3)
 
 </td>
 <td width="23">
@@ -23,7 +23,7 @@ Open a database
 </tr>
 <tr>
 <td width="151">
-[close](methods/close2)
+[close](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/close2)
 
 </td>
 <td width="23">
@@ -35,7 +35,7 @@ Close a database
 </tr>
 <tr>
 <td width="151">
-[remove](methods/remove)
+[remove](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/remove)
 
 </td>
 <td width="23">
@@ -47,7 +47,7 @@ Remove a database
 </tr>
 <tr>
 <td width="151">
-[executeSQL](methods/executesql)
+[executeSQL](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/executesql)
 
 </td>
 <td width="23">
@@ -59,7 +59,7 @@ Runs a provided SQL statement
 </tr>
 <tr>
 <td width="151">
-[insert](methods/insert2)
+[insert](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/insert2)
 
 </td>
 <td width="23">
@@ -71,7 +71,7 @@ Inserts a row into the database
 </tr>
 <tr>
 <td width="151">
-[update](methods/update2)
+[update](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/update2)
 
 </td>
 <td width="23">
@@ -83,7 +83,7 @@ Updates a row into the database
 </tr>
 <tr>
 <td width="151">
-[del](methods/del)
+[del](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/del)
 
 </td>
 <td width="23">
@@ -95,7 +95,7 @@ Deletes a row from the database
 </tr>
 <tr>
 <td width="151">
-[query](methods/query)
+[query](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/query)
 
 </td>
 <td width="23">
@@ -107,7 +107,7 @@ Queries a specified table
 </tr>
 <tr>
 <td width="151">
-[transaction](methods/transaction)
+[transaction](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/transaction)
 
 </td>
 <td width="23">

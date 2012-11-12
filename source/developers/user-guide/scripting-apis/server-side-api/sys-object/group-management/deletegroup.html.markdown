@@ -31,7 +31,7 @@ The ID of the group to delete
 <td width="15">
 </td>
 <td width="682">
-[click here](../user-management/checkowneruserrights-parameter) to see the checkOwnerRights description
+[click here](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/checkowneruserrights-parameter) to see the checkOwnerRights description
 
 </td>
 </tr>
@@ -45,5 +45,5 @@ Deletes the Group with the specified Group ID. If there is an error due to permi
 
 ## See Also
 
- - [getLatestError()](../../ssj-object/miscellaneous/getlatesterror)
+ - [getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror)
 

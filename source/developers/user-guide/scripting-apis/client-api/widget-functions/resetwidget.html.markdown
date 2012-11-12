@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="183">
-{ [wlist](../objects-titbits/widget-list-parameters) } widget
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="9">
@@ -61,7 +61,7 @@ The useDefaults parameter should be set to true if you do not want to clear labe
 
 ## See Also
 
- - [emptyWidget()](emptywidget)
+ - [emptyWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/emptywidget)
 
 Related Videos:
 

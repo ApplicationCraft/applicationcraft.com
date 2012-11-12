@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can get an address from either specific lat/lng coordinates or from your current location using [getAddress()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress) as follows:
+You can get an address from either specific lat/lng coordinates or from your current location using [getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress) as follows:
 
      function getAddressCallback(res, data) {
         alert("Address : " + data[0].formatted_address);
@@ -24,5 +24,5 @@ You can see that by omitting the coordinate parameters, Application Craft return
 
 ![advanced-maps-revgeo-debugger](/img/docs/advanced-maps-revgeo-debugger.png)
 
-Please refer to [getAddress()](../../../scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress) in the [Client API](../../../scripting-apis/client-api/) section for full details on the function.
+Please refer to [getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress) in the [Client API](/developers/user-guide/scripting-apis/client-api/) section for full details on the function.
 

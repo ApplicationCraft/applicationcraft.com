@@ -18,7 +18,7 @@ The printApp() does not actually cause the Application to print and as such is a
 
 ## See Also
 
- - [printApp()](../../../scripting-apis/client-api/app-functions/printapp)
+ - [printApp()](/developers/user-guide/scripting-apis/client-api/app-functions/printapp)
 
- - [isPrinting()](../../../scripting-apis/client-api/app-functions/isprinting)
+ - [isPrinting()](/developers/user-guide/scripting-apis/client-api/app-functions/isprinting)
 

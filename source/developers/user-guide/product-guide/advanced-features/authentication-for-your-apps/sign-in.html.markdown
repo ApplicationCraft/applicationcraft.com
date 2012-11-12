@@ -42,9 +42,9 @@ If the authentication App was called by another App, whose 'Login Form' property
 
 or you can use Javascript to manage the redirection within the On Success event
 
- - Move to another Page within the same App - just use the [app.pageJump()](../../../scripting-apis/client-api/page-functions/pagejump) function
+ - Move to another Page within the same App - just use the [app.pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump) function
 
- - Switch to another App - use [app.switchApp()](../../../scripting-apis/client-api/app-functions/switchapp)
+ - Switch to another App - use [app.switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
 
 ## Example Code
 
@@ -58,7 +58,7 @@ Here is an example of a typical function that would be called after a successful
 
 ## See Also
 
- - [Sign In Properties](../../widget-properties-events/authentication/authsign-in)
+ - [Sign In Properties](/developers/user-guide/product-guide/widget-properties-events/authentication/authsign-in)
 
- - [Signup Widget](sign-up)
+ - [Signup Widget](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/sign-up)
 

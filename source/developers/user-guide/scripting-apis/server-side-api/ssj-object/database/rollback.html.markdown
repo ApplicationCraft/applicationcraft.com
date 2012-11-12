@@ -18,11 +18,11 @@ This method rolls back a database transaction for the database referenced by the
 
 ## Example
 
-See the example in [beginTransaction()](begintransaction) .
+See the example in [beginTransaction()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/begintransaction) .
 
 ## See Also
 
- - [beginTransaction()](begintransaction)
+ - [beginTransaction()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/begintransaction)
 
- - [commit()](commit)
+ - [commit()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/commit)
 

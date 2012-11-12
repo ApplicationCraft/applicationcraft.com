@@ -44,11 +44,11 @@ A typical example would be to include an App as a cross-app menu bar. It can be 
 
 ## See Also
 
- - [switchApp()](switchapp)
+ - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
 
- - [parentApp()](parentapp)
+ - [parentApp()](/developers/user-guide/scripting-apis/client-api/app-functions/parentapp)
 
- - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/)
+ - [Embedding Apps within Apps](/developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/)
 
- - [Embed App Widget](../../../product-guide/widget-properties-events/advanced/embed-app)
+ - [Embed App Widget](/developers/user-guide/product-guide/widget-properties-events/advanced/embed-app)
 

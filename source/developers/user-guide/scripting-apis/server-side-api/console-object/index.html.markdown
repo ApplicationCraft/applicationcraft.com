@@ -8,7 +8,7 @@ full_width: true
 
 **In This Section:**
 
- - [log()](console-object/log)
+ - [log()](/developers/user-guide/scripting-apis/server-side-api/console-object/log)
 
- - [dir()](console-object/dir)
+ - [dir()](/developers/user-guide/scripting-apis/server-side-api/console-object/dir)
 

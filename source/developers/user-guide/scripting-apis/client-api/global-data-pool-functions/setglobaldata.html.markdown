@@ -40,17 +40,17 @@ The data to save to varName
 
 This stores any data to the Global Data Pool. The data can then be recalled at any point and from any App within the current browser session. Any Apps spawned or switched to will have access to it.
 
-Read up on [getAppSnapshot()](../app-functions/getappsnapshot) and [setAppSnapshot()](../app-functions/setappsnapshot) for useful example of storing an entire App snapshot to the Global Data Pool.
+Read up on [getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot) and [setAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/setappsnapshot) for useful example of storing an entire App snapshot to the Global Data Pool.
 
 ## See Also
 
- - [switchApp()](../app-functions/switchapp)
+ - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
 
- - [getGlobalData()](getglobaldata)
+ - [getGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/getglobaldata)
 
- - [clearGlobalData()](clearglobaldata)
+ - [clearGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/clearglobaldata)
 
- - [getAppSnaphot()](../app-functions/getappsnapshot)
+ - [getAppSnaphot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot)
 
- - [setAppSnapshot()](../app-functions/setappsnapshot)
+ - [setAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/setappsnapshot)
 

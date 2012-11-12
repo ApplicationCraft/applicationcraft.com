@@ -14,5 +14,5 @@ You can control the location and style of the ads as well. The image below is an
 
 ![advanced-maps-adsense-props](/img/docs/advanced-maps-adsense-props.png)
 
-These properties can also be changed at runtime using the [app.setProperty()](../../../scripting-apis/client-api/widget-functions/setproperty) function.
+These properties can also be changed at runtime using the [app.setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty) function.
 

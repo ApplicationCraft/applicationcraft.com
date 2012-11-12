@@ -8,7 +8,7 @@ full_width: true
 
 You may want to use getViewData() to get data from Application Craft Data Views that should then be manipulated and used to populate single and multi series charts.
 
-You will find some good example in the [Populating Charts from Script](../../client-scripting-overview/populating-charts-from-script) section.
+You will find some good example in the [Populating Charts from Script](/developers/user-guide/scripting-apis/client-scripting-overview/populating-charts-from-script) section.
 
 Related Video:
 

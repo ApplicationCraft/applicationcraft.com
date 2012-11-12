@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="146">
-{ [wlist](../objects-titbits/widget-list-parameters) } widget
+{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widget
 
 </td>
 <td width="13">
@@ -36,5 +36,5 @@ This empties the entire contents of a widget. Ordinary Widgets are cleared and L
 
 ## See Also
 
- - [resetWidget()](resetwidget)
+ - [resetWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/resetwidget)
 

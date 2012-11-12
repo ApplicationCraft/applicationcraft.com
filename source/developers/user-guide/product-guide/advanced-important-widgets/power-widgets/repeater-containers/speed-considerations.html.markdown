@@ -12,7 +12,7 @@ If you throw 100 rows at it, then this is probably fine on a desktop browser but
 
 ## Elements Per Page Property
 
-This specified the maximum number of records that the Repeater Container will load. You can then use Data Paging (next topic) to move through your data source. There are also API methods [fetchDataPage()](../../../../scripting-apis/client-api/data-view-functions/fetchdatapage) and [drawNextPage()](../../../../scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) that support data page navigation.
+This specified the maximum number of records that the Repeater Container will load. You can then use Data Paging (next topic) to move through your data source. There are also API methods [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage) and [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) that support data page navigation.
 
 Related Videos:
 

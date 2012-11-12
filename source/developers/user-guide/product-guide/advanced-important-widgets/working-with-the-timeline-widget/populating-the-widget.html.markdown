@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-You can populate the Timeline Widget using the [app.populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) method. This allows all meta information to be passed from almost any simple or complex JSON object.
+You can populate the Timeline Widget using the [app.populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) method. This allows all meta information to be passed from almost any simple or complex JSON object.
 
-Typically, you will retrieve data using [getViewData()](../../../scripting-apis/client-api/data-view-functions/getviewdata) or [httpRequest()](../../../scripting-apis/client-api/soap-restful-ajax-calls/httprequest) . These both return data in some format that includes at least the metadata required. Importantly, you do not have to transform this data into a precise object/array structure in order to populate the widget.
+Typically, you will retrieve data using [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata) or [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) . These both return data in some format that includes at least the metadata required. Importantly, you do not have to transform this data into a precise object/array structure in order to populate the widget.
 
-The [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) method allows you to pass a simple mapping object that tells AC where to get data from in your source data and where to put it in the widget. The mapping objects used in the example below are fully explained here.
+The [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) method allows you to pass a simple mapping object that tells AC where to get data from in your source data and where to put it in the widget. The mapping objects used in the example below are fully explained here.
 
 ## Example
 
@@ -87,7 +87,7 @@ You can see an array called treeArr[ ], which is where we will store the tree ca
 
  - icon - url of the icon that should appear net to this item. Can be undefined, in which case the default icon is used (if there is one).
 
-Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) documentation for a full explanation of these mapping, which are capable of working with complex objects.
+Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) documentation for a full explanation of these mapping, which are capable of working with complex objects.
 
 ## Timeline Data
 
@@ -103,5 +103,5 @@ You can see an array called timelineArr[ ], which is where we will store the tim
 
  - icon - the url of the icon to display alongside the event text
 
-Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](../../../scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) documentation for a full explanation of these mappings, which are capable of working with complex objects.
+Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) documentation for a full explanation of these mappings, which are capable of working with complex objects.
 

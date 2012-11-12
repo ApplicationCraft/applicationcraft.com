@@ -140,11 +140,11 @@ etc
 
 If the container is in Absolute Layout mode, use {x:100,y:100} in defaultProps parameter to create the widget with x/y coords of 100
 
-Due to differences between the GoogleMap V2 Api (used in the Google Map widget) and the GoogleMap V3 Api (used in the [Google V3 Maps Widget](../../../product-guide/advanced-important-widgets/google-v3-maps-widget/) that can cause conflicts, do not use createWidget() for both widgets in the same app.
+Due to differences between the GoogleMap V2 Api (used in the Google Map widget) and the GoogleMap V3 Api (used in the [Google V3 Maps Widget](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/) that can cause conflicts, do not use createWidget() for both widgets in the same app.
 
 Please note that dynamically created widgets can't use the Repeat property
 
-( [Repeating Widgets Across Multiple Pages](../../../product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) ) and can't be used as fields in the schema.
+( [Repeating Widgets Across Multiple Pages](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) ) and can't be used as fields in the schema.
 
 ## Example
 
@@ -170,7 +170,7 @@ Please note that dynamically created widgets can't use the Repeat property
 
 ## See Also
 
- - [deleteWidget()](deletewidget)
+ - [deleteWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/deletewidget)
 
- - [Absolute and Relative Layout](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
+ - [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
 

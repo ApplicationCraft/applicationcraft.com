@@ -28,21 +28,21 @@ the Name or GUID of the Widget
 
 Allows you to read the Respondent selected value of a Widget. For most simple Widgets, getValue() returns the same as getData().
 
-It is recommended you read the chapter [Interacting with Widgets](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how getData() and getValue() work with different Widget types.
+It is recommended you read the chapter [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) . You need to be aware of how getData() and getValue() work with different Widget types.
 
 Where getValue() returns an object (Listboxes, Grid, Repeater Containers etc) rather than a simple variable, your code will get a copy of the Widget object and not an object reference. This means that any manipulations you carry out on that object will need to be written back again with app.setValue() or widgetObj.value(). However, if you read a value using widgetObj.value(), then you get an object reference and not a copy of the object.
 
 ## Example
 
-There are examples in the [Reading & Writing App Data](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
+There are examples in the [Reading & Writing App Data](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) chapter.
 
 ## See also
 
- - [getValue() for Simple Widget](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets) types
+ - [getValue() for Simple Widget](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets) types
 
- - [getValue() for Listbox and Drop Down](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists-dropdown-widgets) Widgets
+ - [getValue() for Listbox and Drop Down](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists-dropdown-widgets) Widgets
 
- - [getValue() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
+ - [getValue() for Grids](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
 
 Related Videos:
 

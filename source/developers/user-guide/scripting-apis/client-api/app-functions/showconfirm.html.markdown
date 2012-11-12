@@ -70,13 +70,13 @@ The example below shows how the response to the question is handled by the callb
 
 ## See Also
 
- - [showMessage()](showmessage)
+ - [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
 
- - [showPrompt()](showprompt)
+ - [showPrompt()](/developers/user-guide/scripting-apis/client-api/app-functions/showprompt)
 
- - [showPagePopup()](../page-functions/showpagepopup)
+ - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
 
- - [closePagePopup()](../page-functions/closepagepopup)
+ - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 
 Related Videos:
 

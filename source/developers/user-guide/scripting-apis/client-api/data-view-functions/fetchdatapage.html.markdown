@@ -8,5 +8,5 @@ full_width: true
 
 This loads a new page of data into a Repeater Container or Grid Widget.
 
-[Click here](../widget-object-functions/repeater-grid/fetchdata) to go to the full description in the Widget Objects Functions chapter.
+[Click here](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata) to go to the full description in the Widget Objects Functions chapter.
 

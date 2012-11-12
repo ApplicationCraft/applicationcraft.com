@@ -12,9 +12,9 @@ Novice developers may not be aware of the dangers and so this section should giv
 
 Please don't take this as a comprehensive guide to security. There are also other ways you can enhance security using enhanced user validation. Please refer to the following sections
 
- - [SSJ - Writing Secure Code](../../../scripting-apis/server-side-scripting-overview/writing-secure-code)
+ - [SSJ - Writing Secure Code](/developers/user-guide/scripting-apis/server-side-scripting-overview/writing-secure-code)
 
- - [SSJ API - Security](../../../scripting-apis/server-side-api/ssj-object/security/)
+ - [SSJ API - Security](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/)
 
 ## Protecting your SSJ Functions with the '\_' prefix
 
@@ -22,7 +22,7 @@ When building SSJ functions, if there are functions that should not be callable 
 
 ## Inserting Parameters
 
-Handling Parameters correctly is one of the best ways of protecting your queries against manipulation. Your queries will often require you to pass data from the client for your queries. The [quoteInto()](../../../scripting-apis/server-side-api/ssj-object/database/quoteinto) function is very useful. Take the following SQL statement
+Handling Parameters correctly is one of the best ways of protecting your queries against manipulation. Your queries will often require you to pass data from the client for your queries. The [quoteInto()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/quoteinto) function is very useful. Take the following SQL statement
 
     SELECT * FROM customers WHERE ID=x
         selectObj = cObj.select().from("customers").where('id=' + p.id);

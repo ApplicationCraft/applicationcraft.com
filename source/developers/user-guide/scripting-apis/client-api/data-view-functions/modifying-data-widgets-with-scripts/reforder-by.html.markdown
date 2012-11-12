@@ -8,7 +8,7 @@ full_width: true
 
 Your script can modify a Widget's Order By property by passing in an object that allows you to specify the Data View field and ascending or descending order.
 
-Having modified the Order By Property, you need to call [app.refreshData()](../../widget-functions/refreshdata) to reload the Widget's data to reflect the change.
+Having modified the Order By Property, you need to call [app.refreshData()](/developers/user-guide/scripting-apis/client-api/widget-functions/refreshdata) to reload the Widget's data to reflect the change.
 
 ## Example
 
@@ -19,11 +19,11 @@ Having modified the Order By Property, you need to call [app.refreshData()](../.
 
 ## See Also
 
- - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
+ - [Expressions](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/the-expression-editor)
 
- - [getViewData()](../getviewdata)
+ - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
 
- - [Data View Related Events](../data-view-related-events)
+ - [Data View Related Events](/developers/user-guide/scripting-apis/client-api/data-view-functions/data-view-related-events)
 
 Related Video:
 

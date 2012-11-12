@@ -8,7 +8,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -18,4 +18,4 @@ Because AC obviously understands its own data setup you do not need to define an
 
 ![Query\_apps\_edit](/img/docs/query_apps_edit.zoom50.png)
 
-To see how to set up your App to work with Data see [Configuring the App to Access Queries](../../data-integration,-reporting-dashboards/data-section-properties/configuring-the-app-to-access)
+To see how to set up your App to work with Data see [Configuring the App to Access Queries](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/configuring-the-app-to-access)

@@ -10,7 +10,7 @@ full_width: true
 
 IMPORTANT
 
-**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](../../../product-guide/data-storage/server-side-data-storage/)**
+**WE ARE DISCONTINUING FUTURE ENHANCEMENTS  FOR NATIVE DATA STORAGE. INSTEAD, WE HAVE INTRODUCED FAR SUPERIOR DATA STORAGE USING ANY CONNECTED DATABASE. See: [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)**
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
@@ -22,13 +22,13 @@ If you want to reset all fields in the App, then use app.reset().
 
 ## See Also
 
- - [instanceCreate()](instancecreate)
+ - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
 
- - [instanceUpdate()](instancesave)
+ - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
 
- - [instanceDelete()](instancedelete)
+ - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 
- - [instanceLoad()](instanceload)
+ - [instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
 
- - [reset()](../app-functions/refreset)
+ - [reset()](/developers/user-guide/scripting-apis/client-api/app-functions/refreset)
 

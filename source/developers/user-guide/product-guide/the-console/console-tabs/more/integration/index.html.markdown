@@ -16,9 +16,9 @@ Connections and Queries are built within the console, often by a Data Administra
 
 ## **See Also**
 
- - [Connections](../../connections/)
+ - [Connections](/developers/user-guide/product-guide/the-console/console-tabs/connections/)
 
- - [Queries](../../queries/)
+ - [Queries](/developers/user-guide/product-guide/the-console/console-tabs/queries/)
 
- - [Integration Agents](integration/integration-agents/)
+ - [Integration Agents](/developers/user-guide/product-guide/the-console/console-tabs/more/integration/integration-agents/)
 
