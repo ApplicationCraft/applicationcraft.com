@@ -8,7 +8,7 @@ full_width: true
 
 One of the key principles behind Application Craft is to allow you to build Apps very quickly indeed. The UI Designer takes care of the visuals. The Application Craft API provides a very wide range of functions, each of which is designed to get the job done with far fewer lines of code than any other approach.
 
- - Javascript - this gives you maximum power and thanks to our Client API, it is very easy to use. You only need to use it as a scripting language as AC takes care of the heavy lifting. Be sure to read the full [Client API](functions-you-need-a-lot.htm) section.
+ - Javascript - this gives you maximum power and thanks to our Client API, it is very easy to use. You only need to use it as a scripting language as AC takes care of the heavy lifting. Be sure to read the full [Client API](../client-api/) section.
 
 **In This Section:**
 

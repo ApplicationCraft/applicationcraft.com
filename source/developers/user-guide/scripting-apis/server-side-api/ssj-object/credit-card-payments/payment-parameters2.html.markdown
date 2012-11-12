@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The following parameters are available to be inserted into the params object for the [ssj.zooz.payment()](payment.htm) function.
+The following parameters are available to be inserted into the params object for the [ssj.zooz.payment()](payment) function.
 
 <table>
 <tr>

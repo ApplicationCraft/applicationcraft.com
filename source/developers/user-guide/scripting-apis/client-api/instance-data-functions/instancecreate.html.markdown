@@ -71,7 +71,7 @@ This function will create a new Instance
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully stored in the CDB (Core Database). rdbCallback is called once the data is fully saved and available in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function.htm) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
 
 ## Example
 
@@ -133,21 +133,21 @@ The next example specifies the Container Widget as the first parameter, so AC wi
 
 ## See Also
 
- - [instanceXxxx Callback functions](instancexxxx-callback-function.htm)
+ - [instanceXxxx Callback functions](instancexxxx-callback-function)
 
  - [Using AC App Storage](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/)
 
  - [Using External Databases](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/)
 
- - [instanceNew()](instancenew.htm)
+ - [instanceNew()](instancenew)
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceLoad()](instanceload.htm)
+ - [instanceLoad()](instanceload)
 
- - [instanceSync()](instancesync.htm)
+ - [instanceSync()](instancesync)
 
  - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 

@@ -20,13 +20,15 @@ open()
 Opens a new browser window.
 
        window.open(URL,name,specs,replace)
-       navigator.app.loadUrl('http://www.examplewebsite.com');
       
 
 </td>
 </tr>
 </table>
-## Note: If you are running as native app be aware that older version of Android will not open the link in the devices browser. It can open within the native app. To open links within the devices browser use
+Note: If you are running as native app be aware that older version of Android will not open the link in the devices browser. It can open within the native app. To open links within the devices browser use
+
+    navigator.app.loadUrl('http://www.examplewebsite.com');
+   
 
 <table>
 <tr>

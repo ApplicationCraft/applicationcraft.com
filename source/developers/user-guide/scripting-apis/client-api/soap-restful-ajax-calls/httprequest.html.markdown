@@ -199,11 +199,11 @@ There are some advanced parameters that are passed through to the underlying JQu
     function handler_btnTest_onClick(mouseev){ 
        __headers = {'X-Auth-User' : 'rackspaceUserName','X-Auth-Key' : 'rackspaceApiKey'};    
        app.httpRequest('https://auth.api.rackspacecloud.com/v1.0', 'GET', 
-    function( data, error, httpResponse){
+        function( data, error, httpResponse){
                    var __token = httpResponse.getResponseHeader('X-Auth-Token');
                    var __headers = {'X-Auth-Token' : __token, 'Content-Type' : 'application/json'};
                    var __servers = httpResponse.getResponseHeader('X-Server-Management-Url');
-    }, undefined, undefined, __headers, {timeout: 20000});
+        }, undefined, undefined, __headers, {timeout: 20000});
     }
      
      
@@ -235,5 +235,5 @@ This example shows how headers are used to provide authentication information an
 
  - [Extending Application Craft](../../../adding-widgets-and-api-methods/)
 
- - [Wizard](web-service-wizard.htm)
+ - [Wizard](web-service-wizard)
 

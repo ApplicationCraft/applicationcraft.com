@@ -630,7 +630,7 @@ On Data Loaded
 
 ## **See Also**
 
- - Mobile Widgets: [Popup Dropdown](popup-dropdown.htm)
+ - Mobile Widgets: [Popup Dropdown](popup-dropdown)
 
  - Common Widgets: [Listbox](../common/listbox) , [Dropdown List](../common/dropdown-list)
 

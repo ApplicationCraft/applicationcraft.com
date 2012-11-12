@@ -23,7 +23,7 @@ There are events for On Click, On Dbl Click, On Mouse Enter and On Mouse Leave. 
         console.dir(data);
     }
     function handler_timeline1_onScroll(startDate, endDate){
-    console.dir({arg: arguments});
+        console.dir({arg: arguments});
     }
    
 
@@ -37,9 +37,9 @@ In addition, there is the On Scroll event. This event is called whenever the tim
 
 ## See Also
 
- - [fitData()](fitdata.htm)
+ - [fitData()](fitdata)
 
- - [scroll()](scroll.htm)
+ - [scroll()](scroll)
 
  - [scrollTo()](../../useful-browser-functions/scrollto)
 

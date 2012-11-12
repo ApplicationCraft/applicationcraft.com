@@ -566,7 +566,7 @@ On Resize Stop
 
 ## See Also
 
- - Common Widgets: [Fancy Button](fancy-button.htm)
+ - Common Widgets: [Fancy Button](fancy-button)
 
  - Advanced Widgets: [Reset Filter](../advanced/advreset-filter)
 

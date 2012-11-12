@@ -18,7 +18,7 @@ But you may want your Companies App to be able to add or modify Contacts data (a
 
 You can also read/write to external databases
 
-Please refer to [CRUD in Detail](crud-in-detail.htm) for an in depth description..
+Please refer to [CRUD in Detail](crud-in-detail/) for an in depth description..
 
 ## **See Also**
 

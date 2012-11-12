@@ -722,7 +722,7 @@ On Resize Stop
 
 ## **See Also**
 
- - Mobile Widgets: [Checkbox](mobcheckbox.htm) , [Radio Buttons Group](radiobuttonsgroup.htm)
+ - Mobile Widgets: [Checkbox](mobcheckbox) , [Radio Buttons Group](radiobuttonsgroup)
 
  - Common Widgets: [Checkbox](../common/checkbox) , [Radio Button](../common/radio-button)
 

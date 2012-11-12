@@ -47,7 +47,7 @@ Get your data into an object that looks like this and then pass it to app.setDat
      
      
     var colors = {"rows":[{"data":[1,"Title1","#ff0000"],"ind":0},{"data":[2,"Title2","#00ff00"],"ind":1}]}
-    app.w("flotChart").multySeries(colors);
+        app.w("flotChart").multySeries(colors);
      
      
     var flotData = {"Title1":[{"label":"AppLoad","data":1},{"label":"InstanceSave","data":1}], "Title2":[{"label":"AppLoad","data":3}, {"label":"InstanceSave","data":1}]};

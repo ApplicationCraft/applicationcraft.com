@@ -74,8 +74,8 @@ Scandit Button Configurations
 **Example AC Events**
 
     function handler_Scandit_onSuccess(value, type){
-    app.setValue('ScanValue',value);
-    app.setValue('ScanType',type);        
+        app.setValue('ScanValue',value);
+        app.setValue('ScanType',type);        
     }
      
      
@@ -181,5 +181,5 @@ Available options: (description see - [https://github.com/ApplicationCraft/Scand
 
 ## **See Also**
 
- - [ZXing Bar Code Scanner](zxing-bar-code-scanner.htm)
+ - [ZXing Bar Code Scanner](zxing-bar-code-scanner)
 

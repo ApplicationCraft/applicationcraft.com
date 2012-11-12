@@ -170,7 +170,7 @@ Please note that dynamically created widgets can't use the Repeat property
 
 ## See Also
 
- - [deleteWidget()](deletewidget.htm)
+ - [deleteWidget()](deletewidget)
 
  - [Absolute and Relative Layout](../../../product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
 

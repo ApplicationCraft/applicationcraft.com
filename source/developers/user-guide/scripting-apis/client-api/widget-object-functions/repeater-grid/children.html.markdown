@@ -81,7 +81,7 @@ In some cases you may want to search within a widget or column starting at a spe
 ## **Example**
 
     function handler_actionBtn_onClick(mouseev){
-    var res = app.w("grdtable").search("text");
+        var res = app.w("grdtable").search("text");
     }
      
    

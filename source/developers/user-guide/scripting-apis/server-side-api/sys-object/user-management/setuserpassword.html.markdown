@@ -43,7 +43,7 @@ The new password
 <td width="15">
 </td>
 <td width="682">
-[click here](checkowneruserrights-parameter.htm) to see the checkOwnerRights description
+[click here](checkowneruserrights-parameter) to see the checkOwnerRights description
 
 </td>
 </tr>

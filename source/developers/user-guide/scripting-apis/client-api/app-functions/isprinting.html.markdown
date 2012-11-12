@@ -20,5 +20,5 @@ For code examples, please go to the [Printing Examples](../../../product-guide/a
 
 ## See Also
 
- - [printApp()](printapp.htm)
+ - [printApp()](printapp)
 

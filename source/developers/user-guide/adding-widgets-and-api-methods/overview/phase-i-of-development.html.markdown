@@ -21,6 +21,7 @@ Next, at the top of the right panel, press the Source button. You will now paste
     toolboxSection
     sections_extensible, widget_cat_common, widget_cat_mobile, =widget_cat_adv, widget_cat_auth, widget_cat_cont, widget_cat_chart, widget_cat_gauge
     "Widget Name"
+    None
    
 
 You can also specify external js libraries

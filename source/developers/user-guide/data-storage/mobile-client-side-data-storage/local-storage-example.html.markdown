@@ -8,7 +8,7 @@ full_width: true
 
 Local Storage is an HTML5 standard that offers persistent offline storage. It is very easy to use and allows any sort of data, including objects and arrays, to be quickly stored on your mobile device or desktop device.
 
-**Warning** : iOS 5.0.1 has a nasty bug that means that iOS can delete your entire Local Storage data as a part of its cleanup operations when it needs to make space. Local Storage is supposed to be persistent. This bug has now been fixed in iOS 6 but you should be aware of this risk. You might not notice, but if you cannot take the risk, heed the warning and take a look at the [WebSQL topic](websql-sqlite.htm) .
+**Warning** : iOS 5.0.1 has a nasty bug that means that iOS can delete your entire Local Storage data as a part of its cleanup operations when it needs to make space. Local Storage is supposed to be persistent. This bug has now been fixed in iOS 6 but you should be aware of this risk. You might not notice, but if you cannot take the risk, heed the warning and take a look at the [WebSQL topic](websql-sqlite) .
 
 The following methods are all you need in order to work with it effectively.
 
@@ -47,7 +47,7 @@ Let's assume a customer database application as a simple use-case. When using th
 
 This is not the most sophisticated approach, but for many applications this works perfectly, is fast enough, keeps you code really simple and unless you are dealing with large amounts of data, is the right tool for the job.
 
-This is not the only approach by any means but it works. If your data storage needs are more complex, you may be ready to take a look at the [WebSQL](websql-sqlite.htm) approach, which is more of a traditional database approach.
+This is not the only approach by any means but it works. If your data storage needs are more complex, you may be ready to take a look at the [WebSQL](websql-sqlite) approach, which is more of a traditional database approach.
 
 ## Storing Data
 

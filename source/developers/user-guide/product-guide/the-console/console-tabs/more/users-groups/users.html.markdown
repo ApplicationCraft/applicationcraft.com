@@ -19,7 +19,7 @@ There are 2 types of users:
 <td width="19">
 </td>
 <td width="667">
-This refers to the number of developer users in your account and can be granted [rights](users.htm#rights#rights) to be able to access specific areas in your account.
+This refers to the number of developer users in your account and can be granted [rights](users#rights) to be able to access specific areas in your account.
 
 Additional developer users can also be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](../../../../account-management/upgrade-subscription)
 

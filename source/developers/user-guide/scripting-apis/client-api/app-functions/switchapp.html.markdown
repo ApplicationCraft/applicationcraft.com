@@ -65,7 +65,7 @@ Twirly Thing (hourglass) object (see below)
 <td width="1">
 </td>
 <td width="710">
-You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](getinputparameter.htm) . Object described below.
+You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](getinputparameter) . Object described below.
 
 </td>
 </tr>
@@ -152,9 +152,9 @@ If you are using switchApp() in Mobile Native apps, you must define the 'child' 
 
 ## See Also
 
- - [parentApp()](parentapp.htm)
+ - [parentApp()](parentapp)
 
- - [childApp()](childapp.htm)
+ - [childApp()](childapp)
 
  - [Embedding Apps within Apps](../../../product-guide/advanced-features/embedding-apps-within-apps/)
 

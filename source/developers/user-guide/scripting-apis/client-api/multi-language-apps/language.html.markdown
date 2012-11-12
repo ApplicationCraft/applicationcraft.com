@@ -40,5 +40,5 @@ Switches the display language of the App to the language code specified in strLa
 
  - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 
- - [translate()](translate.htm)
+ - [translate()](translate)
 

@@ -26,11 +26,11 @@ The object returned that stores the Instance data
 </table>
 ## Description
 
-This function takes a data and state snapshot of the currently running App Instance and stores it in an object variable, which can then be restored later using [setInstanceData()](setinstancedata.htm) or passed to [printApp()](../app-functions/printapp) etc.
+This function takes a data and state snapshot of the currently running App Instance and stores it in an object variable, which can then be restored later using [setInstanceData()](setinstancedata) or passed to [printApp()](../app-functions/printapp) etc.
 
-Instance Data contains data and field state (visible, read-only, enabled properties) information only for those fields in the App that have the 'Store in Database' property set to true. This is the same data that is saved with [instanceUpdate()](instancesave.htm) and [instanceCreate()](instancecreate.htm) .
+Instance Data contains data and field state (visible, read-only, enabled properties) information only for those fields in the App that have the 'Store in Database' property set to true. This is the same data that is saved with [instanceUpdate()](instancesave) and [instanceCreate()](instancecreate) .
 
-You would most likely use this function if you want to store the Instance data in your own external system or database. You can then restore the App Instance later using the [setInstanceData()](setinstancedata.htm) function. You can use the [OBJ2JSON()](../conversion-functions/json2text) function to convert the returned object into a JSON string before passing it on to your own external storage function or, if you are using AC's [httpRequest()](../soap-restful-ajax-calls/httprequest) function, it will do the conversion for you.
+You would most likely use this function if you want to store the Instance data in your own external system or database. You can then restore the App Instance later using the [setInstanceData()](setinstancedata) function. You can use the [OBJ2JSON()](../conversion-functions/json2text) function to convert the returned object into a JSON string before passing it on to your own external storage function or, if you are using AC's [httpRequest()](../soap-restful-ajax-calls/httprequest) function, it will do the conversion for you.
 
 If you want to take a snapshot of the entire App, including all Widgets and their current property states, you can use the [getAppSnapshot()](../app-functions/getappsnapshot) and [setAppSnapshot()](../app-functions/setappsnapshot) functions.
 
@@ -54,9 +54,9 @@ If you want to take a snapshot of the entire App, including all Widgets and thei
 
  - [getGlobalData()](../global-data-pool-functions/getglobaldata)
 
- - [getInstanceData()](getinstancedata.htm)
+ - [getInstanceData()](getinstancedata)
 
- - [setInstanceData()](setinstancedata.htm)
+ - [setInstanceData()](setinstancedata)
 
  - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 

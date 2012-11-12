@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This chapter deals with the Overlay types supported by the Application Craft Advanced Maps Widget. Overlays can be created individually with dedicated functions such as [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) or all at once using [populateWidget()](using-populatewidget.htm) .
+This chapter deals with the Overlay types supported by the Application Craft Advanced Maps Widget. Overlays can be created individually with dedicated functions such as [addMarker()](../../../../scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) or all at once using [populateWidget()](../using-populatewidget) .
 
 Below is the list of available types and their type values and the corresponding function name for creating them.
 

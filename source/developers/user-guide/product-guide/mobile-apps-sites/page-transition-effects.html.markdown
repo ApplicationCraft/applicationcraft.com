@@ -36,5 +36,5 @@ On lower-powered phones, the effects may not be great so bear this in mind befor
 
 ## **See Also**
 
- - [Mobile Transition Mode](mobile-transition-mode.htm)
+ - [Mobile Transition Mode](mobile-transition-mode)
 

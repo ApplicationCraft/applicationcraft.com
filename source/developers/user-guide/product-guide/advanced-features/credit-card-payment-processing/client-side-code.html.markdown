@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You should also refer to the [Server Side Code](server-side-code.htm) section.
+You should also refer to the [Server Side Code](server-side-code) section.
 
     // This value was specified by you in your Zooz portal
     var AppId = 'com.yourdomain.paymentname';
@@ -34,16 +34,16 @@ You should also refer to the [Server Side Code](server-side-code.htm) section.
         
         // Now call the SSJ function passing in Order details and (if applicable) 
         // shopping cart contents
-    app.callSSJ("zooz_payment", function(error, result){
+        app.callSSJ("zooz_payment", function(error, result){
             // The SSJ function should return a token that you now pass to the Zooz on the client
             // This is where the actual payment screen will appear to the user
-    zoozStartCheckout({
-    token : result,                        // Session token recieved from server
-    uniqueId : AppId,                // unique ID as registered in the developer portal
-    isSandbox : true,                // true = Sandbox environment                                                
+        zoozStartCheckout({
+        token : result,                        // Session token recieved from server
+        uniqueId : AppId,                // unique ID as registered in the developer portal
+        isSandbox : true,                // true = Sandbox environment                                                
                 completeCallBackFunc : transactionComplete  // callback function from Zooz after payment attempt
-    });
-    }, [orderDetails, cartItems]);       
+        });
+        }, [orderDetails, cartItems]);       
     }
      
     function transactionComplete(response) {

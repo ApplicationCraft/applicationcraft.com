@@ -24,7 +24,7 @@ This function is only available for the Repeater Container widget. If you have u
 
 Typically, you might use buttons above or below the Repeater to manage the paging.
 
-You should be aware that the return value can only be relied upon if the page is already shown where the Repeater Container is located. If not, then you should perform a check with the [isAllDataDrawn()](isalldatadrawn.htm) function once you have switched to that page.
+You should be aware that the return value can only be relied upon if the page is already shown where the Repeater Container is located. If not, then you should perform a check with the [isAllDataDrawn()](isalldatadrawn) function once you have switched to that page.
 
 ## Example
 
@@ -42,7 +42,7 @@ This example shows how, when a 'More...' button is clicked, the drawNextPage() f
 
  - [getViewData()](../../data-view-functions/getviewdata)
 
- - [isAllDataDrawn()](isalldatadrawn.htm)
+ - [isAllDataDrawn()](isalldatadrawn)
 
  - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 

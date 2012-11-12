@@ -38,7 +38,7 @@ If true, then test payments will be made in test mode (see below)
 </table>
 ## Return Value
 
-## Returns a token (synchronously) that should be passed back to the client side callback function.
+Returns a token (synchronously) that should be passed back to the client side callback function.
 
 ## Description
 

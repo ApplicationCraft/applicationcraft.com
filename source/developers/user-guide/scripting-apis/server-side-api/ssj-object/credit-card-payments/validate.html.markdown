@@ -26,7 +26,7 @@ The transactionId that is passed in from the client
 </table>
 ## Return Value
 
-## Returns a boolean variable indicating whether it was successfully validated or not.
+Returns a boolean variable indicating whether it was successfully validated or not.
 
 ## Description
 

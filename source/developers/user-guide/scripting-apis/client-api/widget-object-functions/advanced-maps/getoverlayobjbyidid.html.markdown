@@ -41,7 +41,7 @@ Returns the Google Maps API Overlay object
 
  - [Using getOverlays()](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
 
- - [getOverlays()](getoverlays.htm)
+ - [getOverlays()](getoverlays)
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

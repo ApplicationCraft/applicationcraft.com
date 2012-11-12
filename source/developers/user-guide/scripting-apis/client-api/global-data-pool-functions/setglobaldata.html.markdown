@@ -46,9 +46,9 @@ Read up on [getAppSnapshot()](../app-functions/getappsnapshot) and [setAppSnapsh
 
  - [switchApp()](../app-functions/switchapp)
 
- - [getGlobalData()](getglobaldata.htm)
+ - [getGlobalData()](getglobaldata)
 
- - [clearGlobalData()](clearglobaldata.htm)
+ - [clearGlobalData()](clearglobaldata)
 
  - [getAppSnaphot()](../app-functions/getappsnapshot)
 

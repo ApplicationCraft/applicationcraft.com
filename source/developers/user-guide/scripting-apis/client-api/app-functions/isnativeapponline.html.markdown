@@ -31,10 +31,10 @@ Returns the status of internet / network connectivity. If the App is not running
 ## Example
 
     if(app.isNativeAppOnline()){
-    // ok to access the internet
+        // ok to access the internet
     }
     else {
-    // NOT ok to access the internet
+        // NOT ok to access the internet
    
 
 }

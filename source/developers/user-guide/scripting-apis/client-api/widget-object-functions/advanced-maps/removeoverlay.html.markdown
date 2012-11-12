@@ -41,15 +41,15 @@ You can remove a defined overlay as it is clicked on using the onOverlayClick Ev
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 
- - [getOverlays()](getoverlays.htm)
+ - [getOverlays()](getoverlays)
 
- - [clearOverlays()](clearoverlays.htm)
+ - [clearOverlays()](clearoverlays)
 
- - [showOverlay()](showoverlayid.htm)
+ - [showOverlay()](showoverlayid)
 
- - [hideOverlay()](hideoverlay.htm)
+ - [hideOverlay()](hideoverlay)
 
- - [fitToOverlays()](fittooverlays.htm)
+ - [fitToOverlays()](fittooverlays)
 
- - [getOverlayObjById()](getoverlayobjbyidid.htm)
+ - [getOverlayObjById()](getoverlayobjbyidid)
 

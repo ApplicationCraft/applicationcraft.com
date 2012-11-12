@@ -51,7 +51,7 @@ the ID of the user for whom the parameter should be retrieved
 
 ## Return Value
 
-## This returns an object or variable as stored using setUserParameter.
+This returns an object or variable as stored using setUserParameter.
 
 ## Description
 
@@ -64,7 +64,7 @@ This function is used as a part of User and [Authentication support](../../../..
 
 ## See Also
 
- - [setUserParameter()](setuserparameter.htm)
+ - [setUserParameter()](setuserparameter)
 
  - [Authentication for your Apps](../../../../product-guide/advanced-features/authentication-for-your-apps/)
 

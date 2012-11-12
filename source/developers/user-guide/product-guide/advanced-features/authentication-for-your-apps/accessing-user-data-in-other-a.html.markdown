@@ -38,7 +38,7 @@ This strategy is described in more detail in the 'Adding a Settings Page' topic.
 
 ## Accessing User Parameters
 
-Application Craft also provides a way of creating customized parameter groups for users ( [User Parameter Groups](../../the-console/console-tabs/more/account-variables/user-parameters/) ). This allows you to effectively create any additional parameters your application may require. Our Tutorial App actually uses this approach as described earlier in the [Adding a Settings Page](adding-a-settings-page.htm) chapter.
+Application Craft also provides a way of creating customized parameter groups for users ( [User Parameter Groups](../../the-console/console-tabs/more/account-variables/user-parameters/) ). This allows you to effectively create any additional parameters your application may require. Our Tutorial App actually uses this approach as described earlier in the [Adding a Settings Page](adding-a-settings-page/) chapter.
 
 To access a User Parameter, you use the [app.userParameterGet()](../../../scripting-apis/client-api/app-functions/userparameterget) function.
 

@@ -10,18 +10,20 @@ This is another very commonly used feature. It allows users to write simple or v
 
     function SimpleValidation(){
      
-    if(app.getValue("dropdownAge").label<18 && app.getValue("txtMovieRating")=="18") {
-    app.showMessage("Minors may not purchase 18 rated movies");
-    }
+        if(app.getValue("dropdownAge").label<18 && app.getValue("txtMovieRating")=="18") {
+            app.showMessage("Minors may not purchase 18 rated movies");
+        }
     }
      
-     
-    app.highlightWidgets(["If set to true, the user is able to drag and drop the widget with the mouse at run timeColor", "shapeColor"], "#22ff22", 40);
    
 
 ## Highlighting Offending Widgets
 
-## If your code detects a validation issue, then you can draw the user's attention to the offending fields using the [highlightWidgets()](../../../client-api/widget-functions/highlightwidgets) function.
+If your code detects a validation issue, then you can draw the user's attention to the offending fields using the [highlightWidgets()](../../../client-api/widget-functions/highlightwidgets) function.
+
+     
+    app.highlightWidgets(["If set to true, the user is able to drag and drop the widget with the mouse at run timeColor", "shapeColor"], "#22ff22", 40);
+   
 
 ## Checking for Required Fields
 

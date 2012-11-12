@@ -39,9 +39,9 @@ This displays a debug message to the Debug Console Window of your Chrome, Firebu
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugValues()](debugvalues.htm)
+ - [debugValues()](debugvalues)
 
- - [debugData()](debugdata.htm)
+ - [debugData()](debugdata)
 
- - [debugProperties()](debugproperties.htm)
+ - [debugProperties()](debugproperties)
 

@@ -42,9 +42,9 @@ This debug function instructs AC to collect the widget data values into an objec
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugOutput()](debugoutput.htm)
+ - [debugOutput()](debugoutput)
 
- - [debugData()](debugdata.htm)
+ - [debugData()](debugdata)
 
- - [debugProperties()](debugproperties.htm)
+ - [debugProperties()](debugproperties)
 

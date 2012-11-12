@@ -54,17 +54,17 @@ Adds or subtracts from the defined date object.
 
 ## Example
 
-    dObj=app.dtNewDate('locale', new Date(2012,8,12)); //// to set the Date Object to Wed Sep 12 2012 00:00:00
-    myDate=app.dtAdd(dObj,'Y',-1);         // Subtracts one Year from the Date Obj to give Mon Sep 12 2011 00:00:00
+        dObj=app.dtNewDate('locale', new Date(2012,8,12)); //// to set the Date Object to Wed Sep 12 2012 00:00:00
+        myDate=app.dtAdd(dObj,'Y',-1);         // Subtracts one Year from the Date Obj to give Mon Sep 12 2011 00:00:00
    
 
 ## See Also
 
- - [dtNewDate()](dtnewdate.htm)
+ - [dtNewDate()](dtnewdate)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtAdjust()](dtadjust.htm)
+ - [dtAdjust()](dtadjust)
 
- - [dtDateToString()](dtdatetostring.htm)
+ - [dtDateToString()](dtdatetostring)
 

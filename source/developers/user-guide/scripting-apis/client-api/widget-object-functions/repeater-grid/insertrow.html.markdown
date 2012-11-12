@@ -94,17 +94,17 @@ and this one does the same to a Grid
 
 ## See Also
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteRowById()](deleterowbyid.htm)
+ - [deleteRowById()](deleterowbyid)
 
- - [deleteSelectedRows()](deleteselectedrows.htm)
+ - [deleteSelectedRows()](deleteselectedrows)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
- - [rowIndex()](rowindex.htm)
+ - [rowIndex()](rowindex)
 
- - [getRow()](getrow.htm)
+ - [getRow()](getrow)
 
  - [Widget Object](../../objects-titbits/widget-object)
 

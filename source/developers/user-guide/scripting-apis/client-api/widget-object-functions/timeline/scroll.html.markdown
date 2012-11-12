@@ -36,11 +36,11 @@ This will scroll the timeline display area the specified number of days.
 
 ## See Also
 
- - [fitData()](fitdata.htm)
+ - [fitData()](fitdata)
 
  - [scrollTo()](../../useful-browser-functions/scrollto)
 
- - [Timeline Events](eventstimeline.htm)
+ - [Timeline Events](eventstimeline)
 
  - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 

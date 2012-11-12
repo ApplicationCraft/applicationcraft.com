@@ -41,6 +41,14 @@ a value to insert into the '?' token within strExpr
 Returns a string that is correctly escaped for the target database referenced by
 
     connectionObject
+   
+
+.
+
+## Description
+
+Often, your code gets a value and then needs to insert it into a SQL statement at a specific location while at the same time escaping special characters (see the quote() method). For example, take the following SQL statement
+
     SELECT * FROM bugs WHERE reported_by = variableName
     SELECT * FROM bugs WHERE reported_by = 'O'Reilly'
     strName = "O'Reilly";
@@ -57,14 +65,8 @@ Returns a string that is correctly escaped for the target database referenced by
      
     cObj.update("customers", p.data, 
             [cObj.quoteInto('companyName=?', p.companyname),cObj.quoteInto('region=?'), p.region)]        ]
-    );
+        );
    
-
-.
-
-## Description
-
-Often, your code gets a value and then needs to insert it into a SQL statement at a specific location while at the same time escaping special characters (see the quote() method). For example, take the following SQL statement
 
 And assume that the variableName could contain special characters such as the ' character. The following SQL is invalid as the ' in the O'Reilly confuses the SQL parser because it also has single quotes surrounding the name.
 
@@ -82,5 +84,5 @@ Multiple WHERE type clauses are handled as an array, and all elements will be jo
 
 ## See Also
 
- - [quote()](quote.htm)
+ - [quote()](quote)
 

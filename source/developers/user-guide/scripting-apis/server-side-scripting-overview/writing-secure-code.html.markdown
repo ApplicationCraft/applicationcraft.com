@@ -66,6 +66,7 @@ The following notional function illustrates a common way of securing your SSJ We
      
     function _getUserLevel() {
      
+    None
         // If you have your own user management then use whatever you have
      
         if( .......... ) {

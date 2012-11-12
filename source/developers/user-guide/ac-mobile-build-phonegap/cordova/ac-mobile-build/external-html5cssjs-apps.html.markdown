@@ -26,7 +26,7 @@ You edit the file by selection the
 
 ## Certificates and Build
 
-Once your project is uploaded, you will see the following screen. You are then ready to [add your certificates](../certificates/) and then [build](automatic-building.htm) your App.
+Once your project is uploaded, you will see the following screen. You are then ready to [add your certificates](../certificates/) and then [build](automatic-building) your App.
 
 ![acmb-html5](/img/docs/acmb-html5.png)
 

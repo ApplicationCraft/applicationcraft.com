@@ -32,7 +32,7 @@ When you call this function, all trace of the variable will be removed from the 
 
  - [switchApp()](../app-functions/switchapp)
 
- - [setGlobalData()](setglobaldata.htm)
+ - [setGlobalData()](setglobaldata)
 
- - [getGlobalData()](getglobaldata.htm)
+ - [getGlobalData()](getglobaldata)
 

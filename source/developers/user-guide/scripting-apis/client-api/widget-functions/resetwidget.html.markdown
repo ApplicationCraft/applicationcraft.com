@@ -61,7 +61,7 @@ The useDefaults parameter should be set to true if you do not want to clear labe
 
 ## See Also
 
- - [emptyWidget()](emptywidget.htm)
+ - [emptyWidget()](emptywidget)
 
 Related Videos:
 

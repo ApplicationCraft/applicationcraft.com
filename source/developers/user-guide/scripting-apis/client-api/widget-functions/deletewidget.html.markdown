@@ -35,5 +35,5 @@ Allows you to dynamically delete widgets from your app
 
 ## See Also
 
- - [createWidget()](createwidget.htm)
+ - [createWidget()](createwidget)
 

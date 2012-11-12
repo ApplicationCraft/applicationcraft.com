@@ -37,5 +37,5 @@ Scrolls the browser contents by the specified number of pixels.
 
 ## See Also
 
- - [Window Object](window-object.htm)
+ - [Window Object](window-object)
 

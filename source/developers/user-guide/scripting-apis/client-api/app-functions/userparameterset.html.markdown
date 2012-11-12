@@ -72,5 +72,5 @@ The Callback function has the format callback(error), where error is true or fal
 
  - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 
- - [userParameterGet()](userparameterget.htm)
+ - [userParameterGet()](userparameterget)
 

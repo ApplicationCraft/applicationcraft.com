@@ -24,5 +24,5 @@ The reason for this is that Grids, ListBox and Image mapping (where multiple sel
 
 ## **See Also**
 
- - [Instance (CDB) Data](instance-cdb-data.htm)
+ - [Instance (CDB) Data](instance-cdb-data)
 

@@ -31,7 +31,7 @@ You should handle errors within the callback function. The SSJ function always r
 ## Full Client Side Code
 
     function handler_application_onAppStarted(){
-    refreshList(); // used to initially load the ListBox from the database
+        refreshList(); // used to initially load the ListBox from the database
     }
      
     var nSelCustomer;

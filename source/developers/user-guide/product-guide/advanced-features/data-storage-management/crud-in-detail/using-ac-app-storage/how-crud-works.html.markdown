@@ -68,5 +68,5 @@ You are now ready to perform CRUD operations such as
 
 ## **See Also**
 
- - [CRUD Permissions](crud-permissions.htm)
+ - [CRUD Permissions](crud-permissions)
 

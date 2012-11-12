@@ -17,6 +17,7 @@ There are two ways to add events to you widget
          */
      
         // If you want to just inherit the standard AC Events, then use the following line
+    None
      
         // But we will just add in this single "onChange" custom event definition
         actions = {

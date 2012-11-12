@@ -26,7 +26,7 @@ The object returned contains the App snapshot.
 </table>
 ## Description
 
-This function takes a complete snapshot of the currently running App and stores it in an object variable, which can then be restored later using [setAppSnapshot()](setappsnapshot.htm) .
+This function takes a complete snapshot of the currently running App and stores it in an object variable, which can then be restored later using [setAppSnapshot()](setappsnapshot) .
 
 This is especially useful when used in conjunction with the switchApp() and [setGlobalData()](../global-data-pool-functions/setglobaldata) functions. When you switch to another App, you may want to store the state of the current App so when you later switchApp() back again, it is able to restore to the exact same state.
 
@@ -52,9 +52,9 @@ You could also serialize the object (use OBJ2JSON()) and store this in an extern
 
 ## See Also
 
- - [setAppSnapshot()](setappsnapshot.htm)
+ - [setAppSnapshot()](setappsnapshot)
 
- - [switchApp()](switchapp.htm)
+ - [switchApp()](switchapp)
 
  - [setGlobalData()](../global-data-pool-functions/setglobaldata)
 

@@ -74,9 +74,9 @@ Rich Text is supported.
 
 ## See Also
 
- - [showMessage()](showmessage.htm)
+ - [showMessage()](showmessage)
 
- - [showConfirm()](showconfirm.htm)
+ - [showConfirm()](showconfirm)
 
  - [showPagePopup()](../page-functions/showpagepopup)
 

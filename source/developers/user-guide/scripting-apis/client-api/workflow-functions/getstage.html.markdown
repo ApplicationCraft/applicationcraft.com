@@ -30,7 +30,7 @@ This retrieves all the Workflow Stage information as an object. You can also ret
 
 ## See Also
 
- - [setStage()](setstage.htm)
+ - [setStage()](setstage)
 
  - [getEnvValue()](../app-functions/getenvvalue)
 

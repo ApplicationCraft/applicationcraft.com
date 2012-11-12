@@ -8,5 +8,5 @@ full_width: true
 
 Converts an XML string to a javascript object.
 
-Please refer to [XML2OBJ()](xml2obj.htm) in the Client API documentation.
+Please refer to [XML2OBJ()](xml2obj) in the Client API documentation.
 

@@ -52,7 +52,7 @@ This is a useful method when you need to handle security properly. For example, 
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 
- - [getSessionObject()](getsessionobject.htm)
+ - [getSessionObject()](getsessionobject)
 
- - [deleteSessionObject()](deletesessionobject.htm)
+ - [deleteSessionObject()](deletesessionobject)
 

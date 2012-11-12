@@ -72,9 +72,9 @@ or
 
 ## See Also
 
- - [checkMandatory()](checkmandatory.htm)
+ - [checkMandatory()](checkmandatory)
 
- - [unhighlightWidgets()](unhighlightwidgets.htm)
+ - [unhighlightWidgets()](unhighlightwidgets)
 
 Related Videos:
 

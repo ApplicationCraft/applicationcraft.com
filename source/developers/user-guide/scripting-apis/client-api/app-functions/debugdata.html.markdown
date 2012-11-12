@@ -44,9 +44,9 @@ Note that you should use debugValues() for data entry or listbox, repeater or li
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugOutput()](debugoutput.htm)
+ - [debugOutput()](debugoutput)
 
- - [debugValues()](debugvalues.htm)
+ - [debugValues()](debugvalues)
 
- - [debugProperties()](debugproperties.htm)
+ - [debugProperties()](debugproperties)
 

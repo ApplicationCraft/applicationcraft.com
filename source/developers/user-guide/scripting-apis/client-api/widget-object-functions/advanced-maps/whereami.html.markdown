@@ -45,11 +45,11 @@ How you can get the current location.
 
 ## **See Also**
 
- - [getAddress()](getaddress.htm)
+ - [getAddress()](getaddress)
 
- - [getCoord()](getcoord.htm)
+ - [getCoord()](getcoord)
 
- - [getDirections()](getdirections.htm)
+ - [getDirections()](getdirections)
 
- - [addCurrentLocation()](addcurrentlocation.htm)
+ - [addCurrentLocation()](addcurrentlocation)
 

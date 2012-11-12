@@ -24,5 +24,5 @@ Provided you have set the App’s Storage property to something other than ‘no
 
 ## **See Also**
 
- - [Reporting (RDB) Data](reporting-rdb-data.htm)
+ - [Reporting (RDB) Data](reporting-rdb-data)
 

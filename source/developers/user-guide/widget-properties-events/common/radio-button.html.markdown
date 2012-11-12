@@ -742,7 +742,7 @@ On Resize Stop
 
 ## **See Also**
 
- - Common Widgets: [Checkbox](checkbox.htm) , [Dropdown List](dropdown-list.htm) ,
+ - Common Widgets: [Checkbox](checkbox) , [Dropdown List](dropdown-list) ,
 
  - Advanced Widgets: [Sliders](../advanced/sliders)
 

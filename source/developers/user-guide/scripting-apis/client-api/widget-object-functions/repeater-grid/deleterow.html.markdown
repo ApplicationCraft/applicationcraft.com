@@ -50,13 +50,13 @@ And this shows a typical example of a Delete button being pressed in a Repeater 
 
 ## See Also
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteRowById()](deleterowbyid.htm)
+ - [deleteRowById()](deleterowbyid)
 
- - [deleteSelectedRows()](deleteselectedrows.htm)
+ - [deleteSelectedRows()](deleteselectedrows)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
  - [Widget Object](../../objects-titbits/widget-object)
 

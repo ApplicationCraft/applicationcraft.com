@@ -15,6 +15,7 @@ This is where you define the properties your widget offers in the IDE. Propertie
         /**
          * Property definitions and then their default values 
          */
+    None
             { name: AC.Property.group_names.general, props:[
                 AC.Property.general.widgetClass,  // required
                 AC.Property.general.name,         // required
@@ -84,7 +85,7 @@ The key meanings are as follows
 
  - get : function name that is called when the widget's property is read from
 
- - alias : a [language constant](language-constants.htm) that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant defined. Read the note below on property naming.
+ - alias : a [language constant](language-constants) that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant defined. Read the note below on property naming.
 
 ## Property Naming
 
@@ -110,5 +111,5 @@ As you can see, the AC API will take a Property name (or Widget name as it happe
 
 ## Application Craft String Constants
 
-Application Craft has a constants file that contains all strings used throughout the system, including the property name constants. If you want to use these, you can. In our example, we reference widget\_font instead of creating our own. You will notice in the [language constants](language-constants.htm) code that widget\_font is not defined, as this gets taken from the AC constants.
+Application Craft has a constants file that contains all strings used throughout the system, including the property name constants. If you want to use these, you can. In our example, we reference widget\_font instead of creating our own. You will notice in the [language constants](language-constants) code that widget\_font is not defined, as this gets taken from the AC constants.
 

@@ -32,7 +32,7 @@ The result set from the SQL execution as an array, where each array element corr
 
 This is used in the following common scenarios
 
- - executing SELECT statements that were prepared with the cObj.select() method (refer to the [Select Handling](select-handling.htm) section for an overview of how AC handles SELECT statements)
+ - executing SELECT statements that were prepared with the cObj.select() method (refer to the [Select Handling](select-handling/) section for an overview of how AC handles SELECT statements)
 
  - creating your own SQL Statement that you want to pass directly through to the database for execution
 

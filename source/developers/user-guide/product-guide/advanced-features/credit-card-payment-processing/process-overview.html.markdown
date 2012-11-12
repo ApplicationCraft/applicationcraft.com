@@ -8,7 +8,7 @@ full_width: true
 
 There is a specific payment flow that ensures a secure payment process. The basic presumption (and requirement) is that you have certain functions executed on the client side of the App and the rest on the server side (SSJ).
 
-The reason that there is this split between the client and server side scripts is to ensure security. There are further things you should consider if you want to make things even more secure. These are discussed in the [Be Secure!](be-secure.htm) chapter.
+The reason that there is this split between the client and server side scripts is to ensure security. There are further things you should consider if you want to make things even more secure. These are discussed in the [Be Secure!](be-secure) chapter.
 
 The following function is the client side function that might be called when a button is pressed to initiate the payment.
 
@@ -28,7 +28,7 @@ Don't do this in the Client App as it is hackable. If you have a shopping cart t
 
 **[SSJ] Assemble the invoice details**
 
-There are various mandatory parameters (AppID, AppKey) that must be passed in. There are also a lot of [optional parameters](payment-parameters.htm) that can be used to provide full invoice details etc.
+There are various mandatory parameters (AppID, AppKey) that must be passed in. There are also a lot of [optional parameters](payment-parameters) that can be used to provide full invoice details etc.
 
 **[SSJ] Call [ssj.zooz.payment()](../../../scripting-apis/server-side-api/ssj-object/credit-card-payments/payment)**
 

@@ -90,14 +90,14 @@ Russia
 If I use the basic getData like this app.getData('myACGrid'), it will return a rows object array
 
         "rows":[
-    {"id":"wwrt5jflhlqyp4mxk37borj178d88yds12rwv4","data":["UK","United Kingdom","61 million"]},
-    {"id":"wzs4rashjhp3gmpf-ji8fk8pdhhx82l0x8zd6t","data":["US","United States of America","250 million"]},
-    {"id":"w3hkr9l-f6yq-vhit490846titrw6-bj2o58ac","data":["RU","Russia","96 million"]}]
+        {"id":"wwrt5jflhlqyp4mxk37borj178d88yds12rwv4","data":["UK","United Kingdom","61 million"]},
+        {"id":"wzs4rashjhp3gmpf-ji8fk8pdhhx82l0x8zd6t","data":["US","United States of America","250 million"]},
+        {"id":"w3hkr9l-f6yq-vhit490846titrw6-bj2o58ac","data":["RU","Russia","96 million"]}]
      
-    var grid = app.getData("myACGrid");
-    var population = grid.rows[1].data[2]; // returns '250 million'
-    var gridRow = app.getData("myACGrid").rows[2];
-    var myCountry = gridRow.data[1]; // returns 'Russia'
+        var grid = app.getData("myACGrid");
+        var population = grid.rows[1].data[2]; // returns '250 million'
+        var gridRow = app.getData("myACGrid").rows[2];
+        var myCountry = gridRow.data[1]; // returns 'Russia'
     var gridAdvData = app.getData('myGrid');
     var dData = app.OBJ2ARRAY(gridAdvData);
      

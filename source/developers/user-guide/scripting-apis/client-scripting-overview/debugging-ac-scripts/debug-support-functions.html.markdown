@@ -16,5 +16,5 @@ AC offers several support functions that help you debug your code.
 
 These all allow you to watch a single Javascript object with the individual widget contents represented as properties within the object.
 
-These, combined with the ['debugger'](the-debugger-command.htm) command are all you need to bolster the Chrome or Firebug debuggers.
+These, combined with the ['debugger'](the-debugger-command) command are all you need to bolster the Chrome or Firebug debuggers.
 

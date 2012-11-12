@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-If you want to compile your App with AC Mobile build and it was developed with Application Craft (if you built your App externally, [click here](external-html5cssjs-apps.htm) ), then you select your App in the usual Apps tab in the Console.
+If you want to compile your App with AC Mobile build and it was developed with Application Craft (if you built your App externally, [click here](external-html5cssjs-apps) ), then you select your App in the usual Apps tab in the Console.
 
 ![acmb-acdeveloped](/img/docs/acmb-acdeveloped.png)
 

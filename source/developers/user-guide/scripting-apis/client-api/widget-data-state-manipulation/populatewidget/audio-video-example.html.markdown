@@ -10,7 +10,7 @@ You can use populateWidget() or setData() to overwrite the 'Source' property of 
 
 ## Example
 
-The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example.htm) ).
+The advantage of using populateWidget() is that the map object allows you to easily extract the data you need from your own data array. Complex, nested object arrays are also handled (see [Complex JSON Examples](complex-json-example) ).
 
     var data = [
         {type:'video/mp4', src:"http://10.0.0.36:8080/johndyer-mediaelement-70d209d/media/echo-hereweare.mp4"},

@@ -22,9 +22,9 @@ If you have any array of the following object
         hourly[10].pressure
     }
     var mapObject = {
-    'lblOne' : 'maxtempC',
-    'lblTwo' : 'maxtempF',
-    'lblThree' : ['hourly', 0 ,'pressure']
+        'lblOne' : 'maxtempC',
+        'lblTwo' : 'maxtempF',
+        'lblThree' : ['hourly', 0 ,'pressure']
     }; 
     media:group.media:thumbnail.url
     var mapObject = {

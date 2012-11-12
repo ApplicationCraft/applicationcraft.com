@@ -18,7 +18,7 @@ instanceCreate({string} ContainerName, {function} cdbCallback, {function} rdbCal
 
 ## ContainerName Parameter
 
-If you are operating on local Instance data, then the first parameter is undefined or empty. If you are operating on Foreign data, then this will usually be the name of a Panel Container Widget (read [How CRUD Works](how-crud-works.htm) page for correct setup)
+If you are operating on local Instance data, then the first parameter is undefined or empty. If you are operating on Foreign data, then this will usually be the name of a Panel Container Widget (read [How CRUD Works](how-crud-works) page for correct setup)
 
 cdbCallback / rdbCallback functions
 

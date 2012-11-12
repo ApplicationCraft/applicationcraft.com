@@ -632,7 +632,7 @@ On Resize Stop
 
  - [Sign In](../../product-guide/advanced-features/authentication-for-your-apps/sign-in) , [Sign Up](../../product-guide/advanced-features/authentication-for-your-apps/sign-up)
 
- - Mobile Widgets: [Text](mobtext.htm)
+ - Mobile Widgets: [Text](mobtext)
 
  - Authentication Widgets: [Password](../authentication/authpassword) , [Sign In](../authentication/authsign-in) , [Sign Up](../authentication/authsign-up) , [Captcha](../authentication/authcaptcha)
 

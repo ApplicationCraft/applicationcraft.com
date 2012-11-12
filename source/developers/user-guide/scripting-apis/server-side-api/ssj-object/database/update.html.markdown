@@ -43,22 +43,22 @@ a key:value object where key is the field name in the database and value is the 
 <td width="18">
 </td>
 <td width="681">
-a regular WHERE string. Please see below for recommendations on how to best construct this string. It can be the complete WHERE clause, but you should make use of [quote()](quote.htm) and [quoteInto()](quoteinto.htm) .
+a regular WHERE string. Please see below for recommendations on how to best construct this string. It can be the complete WHERE clause, but you should make use of [quote()](quote) and [quoteInto()](quoteinto) .
 
 </td>
 </tr>
 </table>
 ## Return Value
 
-## This function returns the number of rows updated.
+This function returns the number of rows updated.
 
 ## Description
 
 Updates any record or records that match the whereString criteria. The dataObject passed in the parameter must be a simple key:value object as shown in the example below. The key (field name) should match a table field name exactly.
 
-The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](quote.htm) manually in advance.
+The fieldsObject value will automatically be escaped for you, so you don't need to prepare the contents of this object by using [quote()](quote) manually in advance.
 
-Even though the whereString parameter can be a regular string containing the entire WHERE clause, we highly recommend that you use [quote()](quote.htm) or [quoteInto()](quoteinto.htm) for the whereString parameter (see example below) to make your code more secure and avoid potential problems with special sql characters. So, please embrace these functions and get used to using them.
+Even though the whereString parameter can be a regular string containing the entire WHERE clause, we highly recommend that you use [quote()](quote) or [quoteInto()](quoteinto) for the whereString parameter (see example below) to make your code more secure and avoid potential problems with special sql characters. So, please embrace these functions and get used to using them.
 
 If you have complex conditions then simply build your strings using quote() or quoteInto() for the individual field components of the overall expression.
 

@@ -808,7 +808,7 @@ On Resize Stop
 
 ## See Also
 
- - Mobile Widgets: [Text Area](mobtext-area.htm)
+ - Mobile Widgets: [Text Area](mobtext-area)
 
  - Common Widgets: [Text](../common/text) , [Text Area](../common/text-area) , [Alpha Numeric](../common/alpha-numeric) , [Numeric](../common/numeric)
 

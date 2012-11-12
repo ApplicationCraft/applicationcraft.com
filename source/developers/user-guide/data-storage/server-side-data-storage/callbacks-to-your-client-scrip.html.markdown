@@ -33,7 +33,7 @@ It is important to understand how your SSJ scripts handle callbacks to your clie
 
 This shows how a new customer is being added by calling the acDemoWS() SSJ function. When the SSJ script calls back, you get error information back for you to handle.
 
-As described in the [next section](error-handling.htm) , you can let AC handle the errors for you or you can build your own server side error handler.
+As described in the [next section](error-handling) , you can let AC handle the errors for you or you can build your own server side error handler.
 
 However, when your SSJ script returns, whatever you return gets passed back to the client side callback automatically. You should return a single value that will appear as the second parameter in your callback. The first parameter is the error status (true or false).
 

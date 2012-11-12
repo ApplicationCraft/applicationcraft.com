@@ -14,5 +14,5 @@ Your dialog will need to display the various settings that make up the custom pr
         <label><input type="checkbox" class="exampleDialogCheck"/>To check or not to check ?</label></div>';
    
 
-To see how this gets populated by our property value, refer to [EXP 4 : the dialog code](exp-4-the-dialog-code.htm) .
+To see how this gets populated by our property value, refer to [EXP 4 : the dialog code](exp-4-the-dialog-code) .
 

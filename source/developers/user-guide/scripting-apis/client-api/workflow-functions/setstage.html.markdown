@@ -34,5 +34,5 @@ An error will be triggered if you specify an invalid stage name as soon as you c
 
 ## See Also
 
- - [getStage()](getstage.htm)
+ - [getStage()](getstage)
 

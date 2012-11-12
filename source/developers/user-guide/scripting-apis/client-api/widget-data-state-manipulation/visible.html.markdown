@@ -49,9 +49,9 @@ This is a utility function that enables you to set the 'visible' property of one
 
 ## See Also
 
- - [enabled()](enabled.htm)
+ - [enabled()](enabled)
 
- - [readOnly()](readonly.htm)
+ - [readOnly()](readonly)
 
  - [setProperty()](../widget-functions/setproperty)
 

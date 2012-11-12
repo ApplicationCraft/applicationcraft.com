@@ -42,17 +42,17 @@ Adjusts a Date Object to the specified time zone. The absolute time remains the 
 
 ## Example
 
-    dnew=app.dtNewDate('locale');
-    adj=app.dtAdjust(dnew, 'utc');  // adjust date object 'dnew' from local time to UTC time
+        dnew=app.dtNewDate('locale');
+        adj=app.dtAdjust(dnew, 'utc');  // adjust date object 'dnew' from local time to UTC time
    
 
 ## See Also
 
- - [dtNewDate()](dtnewdate.htm)
+ - [dtNewDate()](dtnewdate)
 
- - [dtadd()](dtadd.htm)
+ - [dtadd()](dtadd)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtDateToString()](dtdatetostring.htm)
+ - [dtDateToString()](dtdatetostring)
 

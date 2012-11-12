@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-The Page Button works with the [Repeating Container](repeater.htm) , [Listbox](../common/listbox) , [Dropdown List](../common/dropdown-list) , [Grid](../advanced/grid) , [Mobile Checkbox](../mobile/mobcheckbox) , [Mobile Popup Listbox](../mobile/popup-listbox) , [Mobile Popup Dropdown](../mobile/popup-dropdown) and [Mobile List](../mobile/list) and allows the User to view more data entries. At the time of writing the button only allows you to move on to the next page but we will soon enable homepage and previous page functions.
+The Page Button works with the [Repeating Container](repeater) , [Listbox](../common/listbox) , [Dropdown List](../common/dropdown-list) , [Grid](../advanced/grid) , [Mobile Checkbox](../mobile/mobcheckbox) , [Mobile Popup Listbox](../mobile/popup-listbox) , [Mobile Popup Dropdown](../mobile/popup-dropdown) and [Mobile List](../mobile/list) and allows the User to view more data entries. At the time of writing the button only allows you to move on to the next page but we will soon enable homepage and previous page functions.
 
 <table>
 <tr>

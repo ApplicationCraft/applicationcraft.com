@@ -126,13 +126,13 @@ Note that the returned directions are presented via a callback function.
 
 ## **See Also**
 
- - [whereAmI()](whereami.htm)
+ - [whereAmI()](whereami)
 
- - [getAddress()](getaddress.htm)
+ - [getAddress()](getaddress)
 
- - [getCoord()](getcoord.htm)
+ - [getCoord()](getcoord)
 
- - [addCurrentLocation()](addcurrentlocation.htm)
+ - [addCurrentLocation()](addcurrentlocation)
 
- - [removeDirections()](removedirections.htm)
+ - [removeDirections()](removedirections)
 

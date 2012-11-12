@@ -6,5 +6,5 @@ full_width: true
 ---
 
 
-Deprecated - use [appId()](appid.htm) instead.
+Deprecated - use [appId()](appid) instead.
 

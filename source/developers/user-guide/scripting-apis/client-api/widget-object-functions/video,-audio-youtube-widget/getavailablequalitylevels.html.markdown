@@ -53,7 +53,7 @@ Your client should not automatically switch to use the highest (or lowest) quali
 
 ## **See Also**
 
- - [getPlaybackQuality()](getplaybackquality.htm)
+ - [getPlaybackQuality()](getplaybackquality)
 
- - [setPlaybackQuality()](setplaybackquality.htm)
+ - [setPlaybackQuality()](setplaybackquality)
 

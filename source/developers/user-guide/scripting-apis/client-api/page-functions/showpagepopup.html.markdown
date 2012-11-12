@@ -30,17 +30,17 @@ You can display any AC page as a popup dialog. This allows you to create modal d
 
 To control the appearance of popup pages, you may want to set the Page's border and border radius properties.
 
-The page events On Page Show will be called after showPagePopup() to allow you to initialize any fields within the dialog. You use [closePagePopup()](closepagepopup.htm) to remove the page dialog.
+The page events On Page Show will be called after showPagePopup() to allow you to initialize any fields within the dialog. You use [closePagePopup()](closepagepopup) to remove the page dialog.
 
 ## See Also
 
- - [pageJump()](pagejump.htm)
+ - [pageJump()](pagejump)
 
- - [pageNext()](pagenext.htm)
+ - [pageNext()](pagenext)
 
- - [pagePrevious()](pageprevious.htm)
+ - [pagePrevious()](pageprevious)
 
- - [pageBack()](pageback.htm)
+ - [pageBack()](pageback)
 
- - [closePagePopup()](closepagepopup.htm)
+ - [closePagePopup()](closepagepopup)
 

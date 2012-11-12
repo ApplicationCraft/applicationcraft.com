@@ -20,7 +20,7 @@ Although you can write literal SQL statements and execute these using [exec()](.
 
 ## Error Handling
 
-Make sure you handle your errors on the client side. The SSJ functions will trigger errors automatically (see [Error Handling](error-handling.htm) ) and return the error to the client callback functions. Make sure you handle them in some way as the following example shows.
+Make sure you handle your errors on the client side. The SSJ functions will trigger errors automatically (see [Error Handling](error-handling) ) and return the error to the client callback functions. Make sure you handle them in some way as the following example shows.
 
     // Add a New Customer
     function handler_btnNew_onClick(mouseev){
@@ -28,7 +28,7 @@ Make sure you handle your errors on the client side. The SSJ functions will trig
         // Prepare an object to pass to the SSJ function
         p = {action:"AddCustomer", 
     data:{CompanyName:app.getValue("txtCompany"), 
-    country:app.getValue("txtCountry")}
+            country:app.getValue("txtCountry")}
     };
      
         // Call the SSJ script

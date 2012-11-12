@@ -878,7 +878,7 @@ On Resize Stop
 
 ## See Also
 
- - Common Widgets: [Text Area](text-area.htm) , [Text](text.htm) , [Numeric](numeric.htm)
+ - Common Widgets: [Text Area](text-area) , [Text](text) , [Numeric](numeric)
 
  - Advanced Widgets: [Mask Edit](../advanced/mask-edit)
 

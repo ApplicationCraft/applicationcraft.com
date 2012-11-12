@@ -18,7 +18,7 @@ Another thing you will consider is what to do while you wait for the printing to
 
  - Use the standard javascript function setTimeout() to check the status in combination with isPrinting().
 
-For code examples, please go to the [Printing Examples](printing-examples.htm) topic.
+For code examples, please go to the [Printing Examples](printing-examples) topic.
 
 **Important:** do not try to use window.open(url) with in the printApp() callback function. It will not work. Take the url and activate a link on the screen or store it in a global and when a button is pressed, use window.open(url) at that point.
 

@@ -32,11 +32,11 @@ Populating Grids with Id values is [described here](../../../client-scripting-ov
 
 ## See Also
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteSelectedRows()](deleteselectedrows.htm)
+ - [deleteSelectedRows()](deleteselectedrows)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
  - [Widget Object](../../objects-titbits/widget-object)
 

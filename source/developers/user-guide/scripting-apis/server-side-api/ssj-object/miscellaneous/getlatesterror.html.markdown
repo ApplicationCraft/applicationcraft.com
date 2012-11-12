@@ -10,7 +10,7 @@ full_width: true
 
 ## Return Value
 
-## Returns an error string.
+Returns an error string.
 
 ## Description
 

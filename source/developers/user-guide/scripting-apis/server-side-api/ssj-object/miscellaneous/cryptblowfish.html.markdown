@@ -27,7 +27,7 @@ the parameter group name
 
 ## Return Value
 
-## String value which is the hash of strSourceString.
+String value which is the hash of strSourceString.
 
 ## Description
 
@@ -40,7 +40,7 @@ This takes a string and produces a Hash from that string. A hash is an encrypted
 
 ## See Also
 
- - [checkHash()](checkcryptblowfish.htm)
+ - [checkHash()](checkcryptblowfish)
 
- - [md5()](md5.htm)
+ - [md5()](md5)
 

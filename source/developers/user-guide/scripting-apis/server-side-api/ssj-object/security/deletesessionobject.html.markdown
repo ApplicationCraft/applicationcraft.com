@@ -26,7 +26,7 @@ a key string that identifies the session object created previously with setSessi
 </table>
 ## Description
 
-See the [setSessionObject()](setsessionobject.htm) description.
+See the [setSessionObject()](setsessionobject) description.
 
 ## Example
 
@@ -38,7 +38,7 @@ See the [setSessionObject()](setsessionobject.htm) description.
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 
- - [setSessionObject()](setsessionobject.htm)
+ - [setSessionObject()](setsessionobject)
 
- - [getSessionObject()](getsessionobject.htm)
+ - [getSessionObject()](getsessionobject)
 

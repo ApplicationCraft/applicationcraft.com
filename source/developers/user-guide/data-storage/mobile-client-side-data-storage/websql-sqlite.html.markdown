@@ -18,11 +18,11 @@ WebSQL offers full relational database capabilities to your mobile applications.
 
 What this means in practice is the following
 
- - If your data is relatively simple in structure, look at [Local Storage](local-storage-example.htm) . It is easier to implement.
+ - If your data is relatively simple in structure, look at [Local Storage](local-storage-example) . It is easier to implement.
 
  - If you are building something that is a pure Web application then be aware of the risks and be prepared, in the future, to replace it. The most likely replacement will be IndexedDB, which is under development.
 
- - If you are compiling your Apps using our Phonegap/Cordova support, then use the special [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/) for that. This is available for iOS and Android with more platforms to follow. With this approach it does not matter what happens at the browser level as the SQLite database library is a part of your application. See [SQLite](sqlite.htm) .
+ - If you are compiling your Apps using our Phonegap/Cordova support, then use the special [SQLite Plugin](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/) for that. This is available for iOS and Android with more platforms to follow. With this approach it does not matter what happens at the browser level as the SQLite database library is a part of your application. See [SQLite](sqlite) .
 
 ## Typical Architecture
 

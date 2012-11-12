@@ -14,7 +14,7 @@ One of the key aspects of charts is properly configuring the data views and fiel
 
 ![Auto\_property\_settings](/img/docs/auto_property_settings.zoom77.png)
 
-You may also want to read the section on [Drilling Down](drilling-down.htm) , to make your Charts even more effective at presenting the relevant data.
+You may also want to read the section on [Drilling Down](drilling-down) , to make your Charts even more effective at presenting the relevant data.
 
 ## Chart Properties
 

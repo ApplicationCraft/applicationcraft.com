@@ -12,7 +12,7 @@ Many functions require you to identify a Widget or Widgets. Wherever you see a {
 
  - Widget Name array - an array of strings
 
- - Widget Object - a [Widget Object](widget-object.htm)
+ - Widget Object - a [Widget Object](widget-object)
 
  - Widget Object Array - an array of Widget objects
 

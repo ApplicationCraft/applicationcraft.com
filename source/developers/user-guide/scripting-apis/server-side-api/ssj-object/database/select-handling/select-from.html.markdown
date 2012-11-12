@@ -60,7 +60,7 @@ See select().
 
 ## Description
 
-This function allows you to specify the table and, optionally, the fields. If you want to select fields from multiple tables you will use select().from() for your first table and then use [select().join()](select-join.htm) for subsequent tables.
+This function allows you to specify the table and, optionally, the fields. If you want to select fields from multiple tables you will use select().from() for your first table and then use [select().join()](select-join) for subsequent tables.
 
 ## Escaping Expressions
 

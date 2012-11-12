@@ -57,7 +57,7 @@ You can also check the available properties for a specific widget using [debugPr
 
 ## See Also
 
- - [setProperty()](setproperty.htm)
+ - [setProperty()](setproperty)
 
  - [\_widget](../objects-titbits/ref-widget)
 

@@ -14,10 +14,10 @@ For a simple chart, the format of the data is
 
     <the plot title>: [{label, data}] 
     p = { <series number>: 
-    [{label1:labelString1, data:dataValue1},
-    {label2:labelString2, data:dataValue2},
-    ....
-    {labeln:labelStringn, data:dataValuen}]
+        [{label1:labelString1, data:dataValue1},
+        {label2:labelString2, data:dataValue2},
+        ....
+        {labeln:labelStringn, data:dataValuen}]
     };
     p = {0:[{label:'Jan', data: 1}, 
     {label:'Feb', data: 10}, 

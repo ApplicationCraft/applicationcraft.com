@@ -15,8 +15,8 @@ IMPORTANT
 See the following code example;
 
     function handler_application_onSubmitted(error, created){
-    // write the parameters to the console for no good reason
-    app.debugOutput("onSubmitted: error:" + error + " created:" + created);
+        // write the parameters to the console for no good reason
+        app.debugOutput("onSubmitted: error:" + error + " created:" + created);
     }
      
    

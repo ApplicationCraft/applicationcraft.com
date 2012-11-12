@@ -22,13 +22,13 @@ If you want to reset all fields in the App, then use app.reset().
 
 ## See Also
 
- - [instanceCreate()](instancecreate.htm)
+ - [instanceCreate()](instancecreate)
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceLoad()](instanceload.htm)
+ - [instanceLoad()](instanceload)
 
  - [reset()](../app-functions/refreset)
 

@@ -932,7 +932,7 @@ On Resize Stop
 
 ## See Also
 
- - Common Widgets: [Text Area](text-area.htm) , [Text](text.htm) , [Alpha Numeric](alpha-numeric.htm)
+ - Common Widgets: [Text Area](text-area) , [Text](text) , [Alpha Numeric](alpha-numeric)
 
  - Advanced Widgets: [Mask Edit](../advanced/mask-edit)
 

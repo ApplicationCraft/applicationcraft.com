@@ -85,6 +85,7 @@ There are some advanced parameters that are passed through to the SOAP library. 
     {traditional: true} // we have had to use this when calling some 3rd party APIs (SalesForce for example).
     {ignoreNetworkState: true}  // suppress network state checking before httpRequest() is called
     {crossdomain:true} // true - request to another domain will be sent directly; false (default) - request to another domain will be sent to acgo proxy.
+    None
     {tagNamespace: true/false} //  false by default. true to put namespace to request tag instead of soap:Envelope. 
     function processForecast(data, error, httpResponse) {
                      console.log(data);
@@ -100,5 +101,5 @@ There are some advanced parameters that are passed through to the SOAP library. 
 
 ## **See Also**
 
- - [Wizard](web-service-wizard.htm)
+ - [Wizard](web-service-wizard)
 

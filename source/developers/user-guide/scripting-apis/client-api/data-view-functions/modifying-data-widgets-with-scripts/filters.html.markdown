@@ -46,11 +46,11 @@ Refer to the next section for information on how to filter dates.
 
  - [Expressions](../../../../product-guide/advanced-features/data-integration,-reporting-dashboards/data-section-properties/the-expression-editor)
 
- - [Filtering Dates](filtering-dates.htm)
+ - [Filtering Dates](filtering-dates)
 
  - [getViewData()](../getviewdata)
 
- - [Drill Filter](refdrill-filter.htm)
+ - [Drill Filter](refdrill-filter)
 
  - [drillDownBroadcast()](../drilldownbroadcast)
 

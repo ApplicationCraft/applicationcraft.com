@@ -24,11 +24,11 @@ Adjusts the date range of a Timeline widget to accommodate all events loaded int
 
 ## See Also
 
- - [scroll()](scroll.htm)
+ - [scroll()](scroll)
 
  - [scrollTo()](../../useful-browser-functions/scrollto)
 
- - [Timeline Events](eventstimeline.htm)
+ - [Timeline Events](eventstimeline)
 
  - [populateWidget()](../../widget-data-state-manipulation/populatewidget/)
 

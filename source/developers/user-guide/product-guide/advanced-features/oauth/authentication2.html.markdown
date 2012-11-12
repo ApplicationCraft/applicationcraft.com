@@ -8,7 +8,7 @@ full_width: true
 
 From your client code you will need to cal
 
-    app.oAuthSignIn('twitter', authCallback);
+        app.oAuthSignIn('twitter', authCallback);
     twitter, facebook
     dropbox
     function authCallback(result, userAuthKey) {

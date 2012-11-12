@@ -492,7 +492,7 @@ On Resize Stop
 
 ## See Also
 
- - [Label (Common)](label.htm)
+ - [Label (Common)](label)
 
  - [Label (Mobile)](../mobile/moblabel)
 

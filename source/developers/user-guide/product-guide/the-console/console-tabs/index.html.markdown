@@ -24,5 +24,5 @@ full_width: true
 
 [More](more/)
 
-[Import/Export](import-export.htm)
+[Import/Export](../import/export/)
 

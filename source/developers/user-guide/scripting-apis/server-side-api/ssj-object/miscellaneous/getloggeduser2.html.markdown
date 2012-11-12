@@ -10,7 +10,7 @@ full_width: true
 
 ## Return Value
 
-## Returns an object containing information about the currently logged in user.
+Returns an object containing information about the currently logged in user.
 
 ## Description
 

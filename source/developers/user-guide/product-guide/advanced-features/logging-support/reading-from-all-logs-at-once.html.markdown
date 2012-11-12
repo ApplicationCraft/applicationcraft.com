@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-It is also possible to have a single query that contains all App logs at once. In order for this to be possible, the developer needs to have appropriate permissions as described in the [Permissioning](permissioning.htm) topic.
+It is also possible to have a single query that contains all App logs at once. In order for this to be possible, the developer needs to have appropriate permissions as described in the [Permissioning](permissioning) topic.
 
 If you have the required rights, then the first screen within the query editor will contain a tab 'Global', as shown below. You then select 'All logs' and carry on with the query.
 

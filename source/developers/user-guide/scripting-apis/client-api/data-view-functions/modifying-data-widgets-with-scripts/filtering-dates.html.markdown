@@ -30,7 +30,7 @@ This example shows how a Date Pickers is used in Range mode (Range property is t
 
 ## See Also
 
- - [Modifying Filters with a Script](filters.htm)
+ - [Modifying Filters with a Script](filters)
 
  - [DATE2DB()](../../conversion-functions/date2db)
 

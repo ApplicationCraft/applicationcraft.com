@@ -688,7 +688,7 @@ On Resize Stop
 
 ## See Also
 
- - [HTML](html2.htm)
+ - [HTML](html2)
 
  - [Label (Mobile)](../mobile/moblabel)
 

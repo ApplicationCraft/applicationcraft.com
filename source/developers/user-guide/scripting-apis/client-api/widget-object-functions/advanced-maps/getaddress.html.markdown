@@ -68,11 +68,11 @@ How you can get an address from either specific lat/lng coordinates or from your
 
 ## **See Also**
 
- - [whereAmI()](whereami.htm)
+ - [whereAmI()](whereami)
 
- - [getCoord()](getcoord.htm)
+ - [getCoord()](getcoord)
 
- - [getDirections()](getdirections.htm)
+ - [getDirections()](getdirections)
 
- - [addCurrentLocation()](addcurrentlocation.htm)
+ - [addCurrentLocation()](addcurrentlocation)
 

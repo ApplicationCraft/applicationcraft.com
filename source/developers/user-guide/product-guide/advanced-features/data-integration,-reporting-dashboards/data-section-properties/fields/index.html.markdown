@@ -30,7 +30,7 @@ These have a multi-dimensional data structure and so there will be an item and a
 
 ## **See Also**
 
- - [Using Automatic Property Settings](using-automatic-property-setti.htm)
+ - [Using Automatic Property Settings](../using-automatic-property-setti)
 
 Related Video:
 

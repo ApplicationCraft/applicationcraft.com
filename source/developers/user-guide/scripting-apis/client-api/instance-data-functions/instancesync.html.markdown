@@ -73,7 +73,7 @@ Calling instanceSync() will reflect ALL of the following changes that have been 
 
 There are two callback function you can use. cdbCallback returns first once the data has been successfully stored in the CDB (Core Database). rdbCallback is called once the data is fully saved and available in the results database for reporting and Data View access.
 
-Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function.htm) page for details on these callback functions.
+Please refer to the [instanceXxxx() callback functions](instancexxxx-callback-function) page for details on these callback functions.
 
 ## Example
 
@@ -93,19 +93,19 @@ This example synchronizes the contents of a Repeater Container with the database
 
 ## See Also
 
- - [instanceXxxx Callback functions](instancexxxx-callback-function.htm)
+ - [instanceXxxx Callback functions](instancexxxx-callback-function)
 
  - [CRUD in Detail](../../../product-guide/advanced-features/data-storage-management/crud-in-detail/)
 
- - [instanceNew()](instancenew.htm)
+ - [instanceNew()](instancenew)
 
- - [instanceCreate()](instancesave.htm "instance")
+ - [instanceCreate()](instancesave "instance")
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceLoad()](instanceload.htm)
+ - [instanceLoad()](instanceload)
 
  - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 

@@ -646,7 +646,7 @@ On Volume Change
 
  - [Video & Audio Widgets](../../product-guide/advanced-important-widgets/video-audio-widgets/)
 
- - [Video](video.htm)
+ - [Video](video)
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

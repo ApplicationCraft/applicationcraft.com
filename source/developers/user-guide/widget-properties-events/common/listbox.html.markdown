@@ -870,7 +870,7 @@ On Resize Stop
 
 ## **See Also**
 
- - Common Widgets: [Dropdown List](dropdown-list.htm) , [Checkbox](checkbox.htm) , [Radio Button](radio-button.htm)
+ - Common Widgets: [Dropdown List](dropdown-list) , [Checkbox](checkbox) , [Radio Button](radio-button)
 
  - Advanced Widgets: [Sliders](../advanced/sliders)
 

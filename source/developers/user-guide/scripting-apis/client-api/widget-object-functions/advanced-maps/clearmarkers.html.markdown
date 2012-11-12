@@ -10,7 +10,7 @@ full_width: true
 
 ## Description
 
-Where you can clear all markers added by [addMarker()](addmarker.htm)
+Where you can clear all markers added by [addMarker()](addmarker)
 
 ## **Example**
 

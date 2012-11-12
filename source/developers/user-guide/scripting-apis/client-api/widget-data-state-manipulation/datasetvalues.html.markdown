@@ -44,7 +44,7 @@ This does not return a value.
 
 ## Description
 
-This function performs the inverse of [app.dataGetValues()](datagetvalues.htm) . You pass in an object that is made up of key names that must correspond to Widget names. The value associated with each key is then used to populate those widgets.
+This function performs the inverse of [app.dataGetValues()](datagetvalues) . You pass in an object that is made up of key names that must correspond to Widget names. The value associated with each key is then used to populate those widgets.
 
 ## Examples
 
@@ -56,11 +56,11 @@ The following example populates two widgets. The third widget does not exist but
 
 ## See Also
 
- - [dataGetValues()](datagetvalues.htm)
+ - [dataGetValues()](datagetvalues)
 
- - [dataGetStates()](datagetstates.htm)
+ - [dataGetStates()](datagetstates)
 
- - [dataSetStates()](datasetstates.htm)
+ - [dataSetStates()](datasetstates)
 
  - [Server Side Data Storage](../../../data-storage/server-side-data-storage/)
 

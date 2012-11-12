@@ -35,17 +35,17 @@ Adds the current location of the user to the map
     //or app.setValue("googleMapsAdvanced", [data.lat(), data.lng()]);
     }
     function handler_actionBtn2_onClick(mouseev){
-    app.w('googleMapsAdvanced').addCurrentLocation(onLocationUpdated);
+        app.w('googleMapsAdvanced').addCurrentLocation(onLocationUpdated);
     }
    
 
 ## **See Also**
 
- - [whereAmI()](whereami.htm)
+ - [whereAmI()](whereami)
 
- - [getAddress()](getaddress.htm)
+ - [getAddress()](getaddress)
 
- - [getCoord()](getcoord.htm)
+ - [getCoord()](getcoord)
 
- - [getDirections()](getdirections.htm)
+ - [getDirections()](getdirections)
 

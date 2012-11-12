@@ -63,7 +63,7 @@ the ID of the user for whom the parameter should be retrieved
 
 ## Return Value
 
-## Nothing.
+Nothing.
 
 ## Description
 
@@ -76,7 +76,7 @@ This function is used as a part of User and [Authentication support](../../../..
 
 ## See Also
 
- - [getUserParameter()](getuserparameter.htm)
+ - [getUserParameter()](getuserparameter)
 
  - [Authentication for your Apps](../../../../product-guide/advanced-features/authentication-for-your-apps/)
 

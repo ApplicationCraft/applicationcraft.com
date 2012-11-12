@@ -12,6 +12,7 @@ When Application Craft wants to render the widget, the draw function will be cal
         /**
          * Widget draw function
          */
+    None
            this.base().html(this.textFn())
            .css('font', this.fontFn());
            widget._sc.draw.apply(this, arguments); // call parent class draw method (required) 

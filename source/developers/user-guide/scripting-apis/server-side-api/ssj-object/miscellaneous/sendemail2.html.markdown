@@ -73,10 +73,18 @@ The message object has the following structure.
     "security": 'ssl'
     };
      
+   
+
+The smtpPar object has the following structure.
+
+## Example
+
+Client Side Script:
+
     var upload;
      
     function handler_actionBtn_onClick(mouseev){
-    app.callSSJ("send", function(error, res){
+        app.callSSJ("send", function(error, res){
             if(!error){
                 alert('Email Sent');
             } else {
@@ -96,32 +104,26 @@ The message object has the following structure.
     }
      
     function send(upload){
-    var message = {
-      from: { address: 'john@johnson.com', name: 'John Johnson'},
-      to: { address: 'frank@johnson.com', name: 'Frank Johnson'} || [],
-      cc: { address: 'steve@johnson.com', name: 'Steve Johnson '} || [],
-      bcc: ['james@johnson.com'],
-      replyTo: ['james@johnson.com'],
-      subject: 'Some subject',
-      body : 'Mail \n body \n multiline \n text!',
-      isHtml : false,
-      attachments : [upload]
-    };
-    smtpPar = {
-    "host": 'smtp.mail.yahoo.com:465',
-    "user": 'your_email',
-    "password": 'your_password',
-    "security": 'ssl'
-    };
-    ssj.sendEmail(message,smtpPar);
+        var message = {
+          from: { address: 'john@johnson.com', name: 'John Johnson'},
+          to: { address: 'frank@johnson.com', name: 'Frank Johnson'} || [],
+          cc: { address: 'steve@johnson.com', name: 'Steve Johnson '} || [],
+          bcc: ['james@johnson.com'],
+          replyTo: ['james@johnson.com'],
+          subject: 'Some subject',
+          body : 'Mail \n body \n multiline \n text!',
+          isHtml : false,
+          attachments : [upload]
+        };
+        smtpPar = {
+        "host": 'smtp.mail.yahoo.com:465',
+        "user": 'your_email',
+        "password": 'your_password',
+        "security": 'ssl'
+        };
+        ssj.sendEmail(message,smtpPar);
     }
    
-
-The smtpPar object has the following structure.
-
-## Example
-
-## Client Side Script:
 
 Server Side Script:
 

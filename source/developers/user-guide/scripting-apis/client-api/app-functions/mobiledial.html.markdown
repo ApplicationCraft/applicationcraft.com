@@ -38,9 +38,9 @@ Label widgets, Image widget and Mobile Action button have a 'Link' property wher
 
 ## See Also
 
- - [mobileEmail()](mobileemail.htm)
+ - [mobileEmail()](mobileemail)
 
- - [mobileSMS()](mobilesms.htm)
+ - [mobileSMS()](mobilesms)
 
  - [Label (Common)](../../../widget-properties-events/common/label)
 

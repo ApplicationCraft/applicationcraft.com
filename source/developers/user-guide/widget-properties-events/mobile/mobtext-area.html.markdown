@@ -826,7 +826,7 @@ On Resize Stop
 
 ## **See Also**
 
- - Mobile Widgets: [Text](mobtext.htm)
+ - Mobile Widgets: [Text](mobtext)
 
  - Common Widgets: [Text Area](../common/text-area) , [Text](../common/text)
 

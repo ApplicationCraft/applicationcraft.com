@@ -39,7 +39,7 @@ a string value that you want to compare check for a match against the hash
 
 ## Return Value
 
-## True if there is a match.
+True if there is a match.
 
 ## Description
 
@@ -54,7 +54,7 @@ Checks an unhashed string, probably a password, and compares it with the hash va
 
 ## See Also
 
- - [hash()](cryptblowfish.htm)
+ - [hash()](cryptblowfish)
 
- - [md5()](md5.htm)
+ - [md5()](md5)
 

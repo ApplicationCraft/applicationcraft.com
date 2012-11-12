@@ -30,5 +30,5 @@ This resets all drill-down filters associated with the specified Data View. All 
 
 ## See Also
 
-[reloadView()](reloadview.htm)
+[reloadView()](reloadview)
 

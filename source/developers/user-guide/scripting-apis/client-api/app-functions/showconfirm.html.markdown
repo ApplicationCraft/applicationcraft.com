@@ -70,9 +70,9 @@ The example below shows how the response to the question is handled by the callb
 
 ## See Also
 
- - [showMessage()](showmessage.htm)
+ - [showMessage()](showmessage)
 
- - [showPrompt()](showprompt.htm)
+ - [showPrompt()](showprompt)
 
  - [showPagePopup()](../page-functions/showpagepopup)
 

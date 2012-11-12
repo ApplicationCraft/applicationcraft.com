@@ -37,7 +37,7 @@ This is a function of the widget object that returns the number of rows in a Gri
 
 ## See Also
 
- - [rowIndex()](rowindex.htm)
+ - [rowIndex()](rowindex)
 
- - [getRow()](getrow.htm)
+ - [getRow()](getrow)
 

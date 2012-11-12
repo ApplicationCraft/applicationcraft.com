@@ -18,6 +18,7 @@ From your App, you will call a Server Side Javascript function (mySSJFunction in
         }, [userAuthKey, myTwitterId]);
     function mySSJFunction(userAuthKey, myTwitterId) {
         return ssj.oAuthRequest(userAuthKey, 
+    None
             'GET',{user_id: myTwitterId, count: 1});
     }
    

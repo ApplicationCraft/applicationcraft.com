@@ -70,9 +70,9 @@ Any user interaction is blocked by AC until the OK button has been pressed.
 
 ## See Also
 
- - [showConfirm()](showconfirm.htm)
+ - [showConfirm()](showconfirm)
 
- - [showPrompt()](showprompt.htm)
+ - [showPrompt()](showprompt)
 
  - [showPagePopup()](../page-functions/showpagepopup)
 

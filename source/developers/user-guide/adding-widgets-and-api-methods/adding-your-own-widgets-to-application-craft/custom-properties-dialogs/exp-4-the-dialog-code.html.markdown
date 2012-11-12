@@ -41,5 +41,5 @@ This is the bit where you finally render the dialog contents. AC provides a simp
 
 The next piece of code takes the individual property settings ('text' and 'checked') from the object and populates them into your dialog.
 
-You should note that this data is inserted into the [HTML Template](the-html-template.htm) that was defined at the top of the dialog function.
+You should note that this data is inserted into the [HTML Template](the-html-template) that was defined at the top of the dialog function.
 

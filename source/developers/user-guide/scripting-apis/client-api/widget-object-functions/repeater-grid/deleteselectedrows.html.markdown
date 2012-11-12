@@ -23,11 +23,11 @@ This is a function of the widget object. It removes all of the selected rows fro
 
 ## See Also
 
- - [deleteRow()](deleterow.htm)
+ - [deleteRow()](deleterow)
 
- - [deleteRowById()](deleterowbyid.htm)
+ - [deleteRowById()](deleterowbyid)
 
- - [insertRow()](insertrow.htm)
+ - [insertRow()](insertrow)
 
  - [Widget Object](../../objects-titbits/widget-object)
 

@@ -76,5 +76,5 @@ Please be aware that iOS handles alert in a different manner and it can it to tr
 
 ## See Also
 
- - [confirm()](confirm.htm)
+ - [confirm()](confirm)
 

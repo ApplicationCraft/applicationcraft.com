@@ -756,7 +756,7 @@ On Resize Stop
 
 ## **See Also**
 
- - Common Widgets: [Radio Button](radio-button.htm) , [Listbox](listbox.htm)
+ - Common Widgets: [Radio Button](radio-button) , [Listbox](listbox)
 
  - Mobile Widgets: [Checkbox](../mobile/mobcheckbox) , [Checkbox Group](../mobile/checkbox-group) , [Radio Buttons Group](../mobile/radiobuttonsgroup) , [Popup Listbox](../mobile/popup-listbox) , [Popup Dropdown](../mobile/popup-dropdown) , [Flip Toggle Switch](../mobile/flip-toggle-switch)
 

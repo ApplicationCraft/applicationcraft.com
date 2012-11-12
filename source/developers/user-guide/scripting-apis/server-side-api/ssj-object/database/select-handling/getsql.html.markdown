@@ -10,7 +10,7 @@ full_width: true
 
 ## Return Value
 
-## A function of the object returned by the select() function, this returns the actual SQL statement that will be executed.
+A function of the object returned by the select() function, this returns the actual SQL statement that will be executed.
 
 ## Description
 

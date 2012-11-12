@@ -946,11 +946,11 @@ On Resize Stop
 
 ## See Also
 
- - Common Widgets: [Text Area](text-area.htm) , [Alpha Numeric](alpha-numeric.htm) , [Numeric](numeric.htm)
+ - Common Widgets: [Text Area](text-area) , [Alpha Numeric](alpha-numeric) , [Numeric](numeric)
 
  - Advanced Widgets: [Mask Edit](../advanced/mask-edit)
 
- - Mobile Widgets: [Text](../mobile/mobtext) , [Text Area](text-area.htm)
+ - Mobile Widgets: [Text](../mobile/mobtext) , [Text Area](text-area)
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-April 2012 - This widget is deprecated Please use [HTML5 Audio](html5-audio.htm) widget
+April 2012 - This widget is deprecated Please use [HTML5 Audio](html5-audio) widget
 
 <table>
 <tr>

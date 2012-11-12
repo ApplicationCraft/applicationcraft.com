@@ -19,7 +19,7 @@ full_width: true
 <td width="12">
 </td>
 <td width="717">
-A string indicating the type of transition effect. You can find the [available transition values here](page-transitions.htm) .
+A string indicating the type of transition effect. You can find the [available transition values here](page-transitions) .
 
 </td>
 </tr>
@@ -43,7 +43,7 @@ Jumps to the next sequential Page in the App.
 
 If this is all you are using in an Event function and you are using a Button, Image, Label or Shape Widget, then you may want to set the 'Page Jump' property of the Widget instead. This removes the need to use a script at all.
 
-You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page-transitions.htm) for valid transition strings and examples.
+You can also specify page transitions using the optional parameters. This offers sliding and other effects as commonly seen in Native apps. Please refer to [Page Transitions](page-transitions) for valid transition strings and examples.
 
 ## Example
 
@@ -55,13 +55,13 @@ You can also specify page transitions using the optional parameters. This offers
 
 ## See Also
 
- - [pageBack()](pageback.htm)
+ - [pageBack()](pageback)
 
- - [pageJump()](pagejump.htm)
+ - [pageJump()](pagejump)
 
- - [pagePrevious()](pageprevious.htm)
+ - [pagePrevious()](pageprevious)
 
- - [showPagePopup()](showpagepopup.htm)
+ - [showPagePopup()](showpagepopup)
 
- - [closePagePopup()](closepagepopup.htm)
+ - [closePagePopup()](closepagepopup)
 

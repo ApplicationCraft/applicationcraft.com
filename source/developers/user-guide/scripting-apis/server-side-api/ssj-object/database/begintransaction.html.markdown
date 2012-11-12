@@ -10,7 +10,7 @@ full_width: true
 
 ## Return Value
 
-## This function does not return a value.
+This function does not return a value.
 
 ## Description
 
@@ -23,28 +23,28 @@ This example shows how a record is first inserted into the 'customers' table and
     cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
     cObj.beginTransaction();
     try {
-    cObj.insert("customers", cust.data);
-    try {
-    cObj.insert("people", person.data);
-    cObj.commit();
-    return("ok");
+        cObj.insert("customers", cust.data);
+        try {
+            cObj.insert("people", person.data);
+            cObj.commit();
+            return("ok");
+        }
+        catch(e) {
+            cObj.rollback();
+            return(e);
+        }
     }
     catch(e) {
-    cObj.rollback();
-    return(e);
-    }
-    }
-    catch(e) {
-    cObj.rollback();
-    return(e);
+        cObj.rollback();
+        return(e);
     }
    
 
 ## See Also
 
- - [commit()](commit.htm)
+ - [commit()](commit)
 
- - [rollback()](rollback.htm)
+ - [rollback()](rollback)
 
  - [dataGetValues()](../../../client-api/widget-data-state-manipulation/datagetvalues)
 

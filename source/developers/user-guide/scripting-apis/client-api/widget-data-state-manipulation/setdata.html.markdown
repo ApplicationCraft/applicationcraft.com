@@ -52,7 +52,7 @@ There are examples in the [Reading & Writing App Data](../../client-scripting-ov
 
  - [getData() for Grids](../../client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
 
- - [populateWidget()](populatewidget.htm) for populating Grids and Repeater Containers with JSON data
+ - [populateWidget()](populatewidget/) for populating Grids and Repeater Containers with JSON data
 
 Related Video:
 

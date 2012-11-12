@@ -16,6 +16,6 @@ Creating iOS Application Key                                   
 
  - For iOS upload your certificate file you have and the required password.
 
- - For Android (GCM) enter in the Google API key obtained when setting up [Google Cloud Messaging](google-cloud-messaging.htm) .
+ - For Android (GCM) enter in the Google API key obtained when setting up [Google Cloud Messaging](google-cloud-messaging) .
 
 When completed make a note of the Application Keys to enter into the [Xtify Push Notifications]() properties.

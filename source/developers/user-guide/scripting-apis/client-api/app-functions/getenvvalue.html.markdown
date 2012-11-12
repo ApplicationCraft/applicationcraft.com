@@ -60,7 +60,7 @@ Environment information is sometimes useful if you want your App to be able to i
 
 ## See Also
 
- - [userParameterGet()](userparameterget.htm)
+ - [userParameterGet()](userparameterget)
 
  - [Custom User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 

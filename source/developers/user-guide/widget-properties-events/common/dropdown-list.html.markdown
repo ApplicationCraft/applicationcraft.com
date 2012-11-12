@@ -906,7 +906,7 @@ On Resize Stop
 
 ## **See Also**
 
- - Common Widgets: [Listbox](listbox.htm) , [Checkbox](checkbox.htm) , [Radio Button](radio-button.htm)
+ - Common Widgets: [Listbox](listbox) , [Checkbox](checkbox) , [Radio Button](radio-button)
 
  - Advanced Widgets: [Sliders](../advanced/sliders)
 

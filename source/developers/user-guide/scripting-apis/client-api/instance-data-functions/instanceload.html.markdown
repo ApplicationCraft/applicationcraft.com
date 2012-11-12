@@ -84,15 +84,15 @@ callback(error, instanceId)
 
  - [switchApp()](../app-functions/switchapp)
 
- - [instanceNew()](instancenew.htm)
+ - [instanceNew()](instancenew)
 
- - [instanceCreate()](instancecreate.htm)
+ - [instanceCreate()](instancecreate)
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceSync()](instancesync.htm)
+ - [instanceSync()](instancesync)
 
  - [dataGetValues()](../widget-data-state-manipulation/datagetvalues)
 

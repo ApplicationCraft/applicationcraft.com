@@ -44,5 +44,5 @@ Gets the value of a User Parameter for the currently logged on user. You need to
 
  - [User Parameters](../../../product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 
- - [userParameterSet()](userparameterset.htm)
+ - [userParameterSet()](userparameterset)
 

@@ -612,7 +612,7 @@ On Data Loaded
 
 ## **See Also**
 
- - Mobile Widgets: [Checkbox Group](checkbox-group.htm) , [Flip Toggle Switch](flip-toggle-switch.htm)
+ - Mobile Widgets: [Checkbox Group](checkbox-group) , [Flip Toggle Switch](flip-toggle-switch)
 
  - Common Widgets: [Radio Button](../common/radio-button) , [Checkbox](../common/checkbox)
 

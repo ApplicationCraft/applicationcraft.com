@@ -30,7 +30,7 @@ Either a simple variable value or an object, whichever was written using setSess
 
 ## Description
 
-See the [setSessionObject()](setsessionobject.htm) description.
+See the [setSessionObject()](setsessionobject) description.
 
 ## Example
 
@@ -42,7 +42,7 @@ See the [setSessionObject()](setsessionobject.htm) description.
 
  - [Security and Server Side Javascript](../../../server-side-scripting-overview/writing-secure-code)
 
- - [setSessionObject()](setsessionobject.htm)
+ - [setSessionObject()](setsessionobject)
 
- - [deleteSessionObject()](deletesessionobject.htm)
+ - [deleteSessionObject()](deletesessionobject)
 

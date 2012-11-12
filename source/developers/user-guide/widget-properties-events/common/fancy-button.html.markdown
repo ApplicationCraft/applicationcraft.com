@@ -394,7 +394,7 @@ On Mouse Leave
 
  - Mobile Widgets: [Action Button](../mobile/mobaction-button)
 
- - Common Widgets: [Action Button](action-button.htm)
+ - Common Widgets: [Action Button](action-button)
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

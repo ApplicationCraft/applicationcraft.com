@@ -60,11 +60,11 @@ Note that the returned coordinates are presented via a callback function.
 
 ## **See Also**
 
- - [whereAmI()](whereami.htm)
+ - [whereAmI()](whereami)
 
- - [getAddress()](getaddress.htm)
+ - [getAddress()](getaddress)
 
- - [getDirections()](getdirections.htm)
+ - [getDirections()](getdirections)
 
- - [addCurrentLocation()](addcurrentlocation.htm)
+ - [addCurrentLocation()](addcurrentlocation)
 

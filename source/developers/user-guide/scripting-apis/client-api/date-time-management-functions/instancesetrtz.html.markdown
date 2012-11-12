@@ -36,5 +36,5 @@ Where you can set the Reference Time Zone
 
 ## See Also
 
- - [instanceGetRTZ()](instancegetrtz.htm)
+ - [instanceGetRTZ()](instancegetrtz)
 

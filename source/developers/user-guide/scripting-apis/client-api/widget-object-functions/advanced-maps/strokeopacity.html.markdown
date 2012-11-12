@@ -39,13 +39,13 @@ How you can set the line opacity for overlays
 
 ## **See Also**
 
- - [strokeColor()](strokecolor.htm)
+ - [strokeColor()](strokecolor)
 
- - [strokeWeight()](strokeweight.htm)
+ - [strokeWeight()](strokeweight)
 
- - [fillColor()](fillcolor.htm)
+ - [fillColor()](fillcolor)
 
- - [fillOpacity()](fillopacity.htm)
+ - [fillOpacity()](fillopacity)
 
  - [Working with Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/)
 

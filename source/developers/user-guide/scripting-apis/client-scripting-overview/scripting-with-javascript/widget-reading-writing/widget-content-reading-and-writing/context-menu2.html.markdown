@@ -17,7 +17,7 @@ The following object is used
            ] );
      
     function handler_contextMenu_onPreShow(){
-    app.setData('contextMenu',  [
+        app.setData('contextMenu',  [
             ['Red', 'value'],
             ['Green', 'value2'],
             ['Blue', 'value3']

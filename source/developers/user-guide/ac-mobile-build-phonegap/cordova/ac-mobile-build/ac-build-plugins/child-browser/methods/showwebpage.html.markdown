@@ -71,7 +71,7 @@ showNavigationBar
 
 </td>
 <td width="679">
-show/hide the entire navigation bar. Important: since there is no "Done"-Button anymore, the ChildBrowser can only be closed with the api call [close()](close3.htm)
+show/hide the entire navigation bar. Important: since there is no "Done"-Button anymore, the ChildBrowser can only be closed with the api call [close()](close3)
 
 </td>
 </tr>

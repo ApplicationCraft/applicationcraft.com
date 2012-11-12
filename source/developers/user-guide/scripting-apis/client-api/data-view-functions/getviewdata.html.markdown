@@ -158,7 +158,7 @@ A Filter Expression can be supplied as an array of string Expressions (and not a
         }, undefined, ['{customers.country}'], [{value: '{customers.country}', asc: false}], 101, 50);
    
 
-Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](modifying-data-widgets-with-sc.htm) chapter.
+Please refer to the earlier topic on Filters in the [Modifying Data Widgets with Scripts](modifying-data-widgets-with-scripts/) chapter.
 
 ## Group By
 
@@ -176,11 +176,11 @@ This example shows simple usage. It is getting two fields from a database and th
 
  - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
 
- - [getViewData()](getviewdata.htm)
+ - [getViewData()](getviewdata)
 
- - [drillDownBroadcast()](drilldownbroadcast.htm)
+ - [drillDownBroadcast()](drilldownbroadcast)
 
- - [bindViewData()](setviewcallback.htm)
+ - [bindViewData()](setviewcallback)
 
 Related Video:
 

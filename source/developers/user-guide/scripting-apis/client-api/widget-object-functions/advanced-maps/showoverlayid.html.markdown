@@ -41,15 +41,15 @@ How you can show a defined overlay
 
  - [Removing Overlays](../../../../product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 
- - [getOverlays()](getoverlays.htm)
+ - [getOverlays()](getoverlays)
 
- - [clearOverlays()](clearoverlays.htm)
+ - [clearOverlays()](clearoverlays)
 
- - [removeOverlay()](removeoverlay.htm)
+ - [removeOverlay()](removeoverlay)
 
- - [hideOverlay()](hideoverlay.htm)
+ - [hideOverlay()](hideoverlay)
 
- - [fitToOverlays()](fittooverlays.htm)
+ - [fitToOverlays()](fittooverlays)
 
- - [getOverlayObjById()](getoverlayobjbyidid.htm)
+ - [getOverlayObjById()](getoverlayobjbyidid)
 

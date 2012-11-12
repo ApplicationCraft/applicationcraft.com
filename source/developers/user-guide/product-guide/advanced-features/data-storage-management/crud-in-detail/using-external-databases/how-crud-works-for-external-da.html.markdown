@@ -48,5 +48,5 @@ You are now ready to perform CRUD operations such as
 
 ## **See Also**
 
- - [Permissions](permissions.htm)
+ - [Permissions](permissions)
 

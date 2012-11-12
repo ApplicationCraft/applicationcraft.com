@@ -68,7 +68,7 @@ You can also check the available properties for a specific widget using [debugPr
 
 ## See Also
 
- - [getProperty()](getproperty.htm)
+ - [getProperty()](getproperty)
 
  - [visible()](../widget-data-state-manipulation/visible)
 

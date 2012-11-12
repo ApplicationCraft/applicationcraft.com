@@ -10,7 +10,7 @@ full_width: true
 
 ## Return Value
 
-## This function does not return a value.
+This function does not return a value.
 
 ## Description
 
@@ -18,11 +18,11 @@ This method commits a database transaction for the database referenced by the Co
 
 ## Example
 
-See the example in [beginTransaction()](begintransaction.htm) .
+See the example in [beginTransaction()](begintransaction) .
 
 ## See Also
 
- - [beginTransaction()](begintransaction.htm)
+ - [beginTransaction()](begintransaction)
 
- - [rollback()](rollback.htm)
+ - [rollback()](rollback)
 

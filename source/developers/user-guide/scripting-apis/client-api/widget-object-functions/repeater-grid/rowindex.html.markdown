@@ -42,7 +42,7 @@ This example might run in a text OnChange event. A quantity  is multiplied by t
 
 ## See Also
 
- - [getRow()](getrow.htm)
+ - [getRow()](getrow)
 
- - [rowCount()](length.htm)
+ - [rowCount()](length)
 

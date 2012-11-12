@@ -10,7 +10,7 @@ If any errors are encountered, you will see Error appear in red. Click on it to 
 
 ![BuildErrors](/img/docs/builderrors.zoom81.png)
 
-You will initially see a relatively short error description. We are striving to make this error clear and helpful. Most errors are related to bad certificates or provisioning profiles and the messages shown should make this clear and point to a remedy. See [Build Error Messages](build-error-messages.htm)
+You will initially see a relatively short error description. We are striving to make this error clear and helpful. Most errors are related to bad certificates or provisioning profiles and the messages shown should make this clear and point to a remedy. See [Build Error Messages](build-error-messages)
 
 ![shortError](/img/docs/shorterror.zoom81.png)
 

@@ -42,18 +42,18 @@ Creates a new date object in the specified format. If no parameters are supplied
 
 ## Example
 
-    dObj=app.dtNewDate('locale', 2015, 7, 14, 8, 2,30);  // to set the Date Object to Fri Aug 14 2015 08:02:30
-    dObj=app.dtNewDate('locale');  // to set the Date Object to the current locale date/time
-    dObj=app.dtNewDate('locale', new Date(2012,8,12));  // to set the Date Object to Wed Sep 12 2012 00:00:00
+        dObj=app.dtNewDate('locale', 2015, 7, 14, 8, 2,30);  // to set the Date Object to Fri Aug 14 2015 08:02:30
+        dObj=app.dtNewDate('locale');  // to set the Date Object to the current locale date/time
+        dObj=app.dtNewDate('locale', new Date(2012,8,12));  // to set the Date Object to Wed Sep 12 2012 00:00:00
    
 
 ## See Also
 
- - [dtadd()](dtadd.htm)
+ - [dtadd()](dtadd)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtAdjust()](dtadjust.htm)
+ - [dtAdjust()](dtadjust)
 
- - [dtDateToString()](dtdatetostring.htm)
+ - [dtDateToString()](dtdatetostring)
 

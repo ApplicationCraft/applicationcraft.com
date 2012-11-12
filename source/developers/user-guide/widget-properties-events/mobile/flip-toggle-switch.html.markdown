@@ -664,7 +664,7 @@ On Resize Stop
 
 ## **See Also**
 
- - Mobile Widgets: [Radio Buttons Group](radiobuttonsgroup.htm)
+ - Mobile Widgets: [Radio Buttons Group](radiobuttonsgroup)
 
  - [Mouse Events](../events/event-reference-list/mouse-events)
 

@@ -78,9 +78,9 @@ The identifier is the identifier string that was included in the bindViewData() 
 
  - [Reporting & Dashboards](../../../product-guide/advanced-features/data-integration,-reporting-dashboards/) (good introduction to Views)
 
- - [getViewData()](getviewdata.htm)
+ - [getViewData()](getviewdata)
 
- - [drillDownBroadcast()](drilldownbroadcast.htm)
+ - [drillDownBroadcast()](drilldownbroadcast)
 
- - [bindViewData()](setviewcallback.htm)
+ - [bindViewData()](setviewcallback)
 

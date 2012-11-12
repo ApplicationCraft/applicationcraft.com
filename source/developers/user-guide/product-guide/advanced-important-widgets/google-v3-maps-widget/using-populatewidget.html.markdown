@@ -22,6 +22,7 @@ With maps, you can package data up into an array and then load it with a simple 
             {type:0, 
     coords:"41.878113,-87.629798", mouseOverHTML: "<div>On Over HTML</div>", 
     onClickHTML: "<p>Mouse click!!!</p>", 
+    None
     },
             {overlayId:'polylineId', type:1, 
     coords:"41.878113,-87.629798;47.878113,-87.629798;61.878113,-67.629798", 

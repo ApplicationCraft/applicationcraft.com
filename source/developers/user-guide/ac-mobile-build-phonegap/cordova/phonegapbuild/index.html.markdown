@@ -18,7 +18,7 @@ full_width: true
 
 ## **See Also**
 
- - [AC Mobile Build](application-craft-build.htm)
+ - [AC Mobile Build](../ac-mobile-build/)
 
 Related Videos:
 

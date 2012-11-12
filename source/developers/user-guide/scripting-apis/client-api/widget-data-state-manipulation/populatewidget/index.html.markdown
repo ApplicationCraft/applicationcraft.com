@@ -70,11 +70,11 @@ Here is an example of a mapObject used to map two fields of data from an array i
         };
         var map = {
                         'label': 'lbl',
-    'value': 'value',
-    'count': 'count',
-    'aside': 'aside'},
-    'image': 'img',
-    'divider' : 'separator';        
+            'value': 'value',
+            'count': 'count',
+            'aside': 'aside'},
+            'image': 'img',
+            'divider' : 'separator';        
         }   
    
 

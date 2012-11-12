@@ -109,7 +109,7 @@ To view the pre-set Styles for any Widget, select that Widget in the Designer an
 
 ![Styles\_tab](/img/docs/styles_tab.zoom56.png)
 
-Making a change to the property settings for any Style will change all Widgets using that Style – see [Style Management](style-management.htm) for more detail on Editing Styles within Themes.
+Making a change to the property settings for any Style will change all Widgets using that Style – see [Style Management](style-management) for more detail on Editing Styles within Themes.
 
 You can only make changes to Styles (and hence the Theme) if you have been given Edit rights in the Sharing section for that Theme. See [Sharing](../../../the-console/sharing) for more information.
 

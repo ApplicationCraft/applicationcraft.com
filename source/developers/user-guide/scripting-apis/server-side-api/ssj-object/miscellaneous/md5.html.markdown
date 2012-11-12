@@ -34,7 +34,7 @@ This takes a string and produces an md5 hash from that string. The most common u
 Client Side Script:
 
     function handler_actionBtn_onClick(mouseev){
-    app.callSSJ("getMd5",function(error, res){
+        app.callSSJ("getMd5",function(error, res){
             if(!error){
                 alert('No Error');
             } else {
@@ -53,7 +53,7 @@ Server Side Script:
 
 ## **See Also**
 
- - [hash()](cryptblowfish.htm)
+ - [hash()](cryptblowfish)
 
- - [checkHash()](checkcryptblowfish.htm)
+ - [checkHash()](checkcryptblowfish)
 

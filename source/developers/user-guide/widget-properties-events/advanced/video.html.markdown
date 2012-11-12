@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-April 2012 - This widget is deprecated Please use [HTML5 Video](html5-video.htm) widget
+April 2012 - This widget is deprecated Please use [HTML5 Video](html5-video) widget
 
 <table>
 <tr>

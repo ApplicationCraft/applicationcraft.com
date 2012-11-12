@@ -14,15 +14,15 @@ IMPORTANT
 
 This topic relates to the following functions
 
- - [instanceCreate()](instancecreate.htm)
+ - [instanceCreate()](instancecreate)
 
- - [instanceUpdate()](instancesave.htm)
+ - [instanceUpdate()](instancesave)
 
- - [instanceDelete()](instancedelete.htm)
+ - [instanceDelete()](instancedelete)
 
- - [instanceSync()](instancesync.htm)
+ - [instanceSync()](instancesync)
 
- - [instanceSetRelationship()](instancesetrelationship.htm)
+ - [instanceSetRelationship()](instancesetrelationship)
 
 Each of these functions supports two distinct callback functions
 

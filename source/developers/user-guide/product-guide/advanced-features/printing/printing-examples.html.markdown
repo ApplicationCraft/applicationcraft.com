@@ -14,17 +14,17 @@ This is the quick and dirty way, with no help for the user as to what is going o
 
     function handler_actionBtn_onClick(mouseev){
         params = {
-    pages: ['page1'],
-    instance: app.getInstanceData(),
-    orientation: 'landscape', //'Portrait',         
+        pages: ['page1'],
+        instance: app.getInstanceData(),
+        orientation: 'landscape', //'Portrait',         
         };
         
         
-    app.printApp(app.id(),params, function(err, url){
+        app.printApp(app.id(),params, function(err, url){
             if(!err)
             {
                 app.setProperty('label','label',"<a href='" + url + "' target='_blank'>open PDF here</a>");
-    // window.open(url);   if you want to automatically open 
+            // window.open(url);   if you want to automatically open 
             }        
         });
     }

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Dec 2011 - This widget is deprecated. Please use the [Panel](panel.htm) container
+Dec 2011 - This widget is deprecated. Please use the [Panel](panel) container
 
 The more individual data requests an App page makes, the slower it will get. Many labels and images being populated from a data source will rapidly degrade the performance of your App if each one is set to get its own data from the View.
 

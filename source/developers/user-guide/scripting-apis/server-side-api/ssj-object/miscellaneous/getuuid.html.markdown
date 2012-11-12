@@ -10,7 +10,7 @@ full_width: true
 
 ## Return Value
 
-## A unique identifier string.
+A unique identifier string.
 
 ## Description
 

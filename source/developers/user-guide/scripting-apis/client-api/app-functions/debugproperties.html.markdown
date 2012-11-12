@@ -42,11 +42,11 @@ This debug function instructs AC to collect all properties of the specified Widg
 
  - [Debugging](../../../product-guide/advanced-features/testing-apps/debugging)
 
- - [debugOutput()](debugoutput.htm)
+ - [debugOutput()](debugoutput)
 
- - [debugValues()](debugvalues.htm)
+ - [debugValues()](debugvalues)
 
- - [debugData()](debugdata.htm)
+ - [debugData()](debugdata)
 
  - [getProperty()](../widget-functions/getproperty)
 

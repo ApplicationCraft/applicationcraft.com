@@ -36,5 +36,5 @@ This empties the entire contents of a widget. Ordinary Widgets are cleared and L
 
 ## See Also
 
- - [resetWidget()](resetwidget.htm)
+ - [resetWidget()](resetwidget)
 

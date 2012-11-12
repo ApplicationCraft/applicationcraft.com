@@ -67,13 +67,13 @@ The params object looks like this (you can leave out any fields you do not want 
     }
     function handler_actionBtn_onClick(mouseev){
         params = {
-    pages: ['page1'], //Print just page1 of the app
-    instance: app.getInstanceData(), // Print out the data of the current instance
-    orientation: 'landscape', // Print in Landscape mode 
+        pages: ['page1'], //Print just page1 of the app
+        instance: app.getInstanceData(), // Print out the data of the current instance
+        orientation: 'landscape', // Print in Landscape mode 
             };
       
     // app.id() used to print out the active instance of the app
-    app.printApp(app.id(),params, function(err, url){   
+        app.printApp(app.id(),params, function(err, url){   
             if(!err)
             {
     // If no error, then show 'open PDF here' in a label on the app for the user to click
@@ -95,5 +95,5 @@ For more code examples, please go to the [Printing Examples](../../../product-gu
 
 ## See Also
 
- - [isPrinting()](isprinting.htm)
+ - [isPrinting()](isprinting)
 

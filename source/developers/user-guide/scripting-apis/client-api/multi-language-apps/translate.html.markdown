@@ -55,5 +55,5 @@ Performs string translations within your App. This is typically used if your app
 
  - [Multi Language Apps](../../../product-guide/advanced-features/multi-language-apps/)
 
- - [language()](language.htm)
+ - [language()](language)
 

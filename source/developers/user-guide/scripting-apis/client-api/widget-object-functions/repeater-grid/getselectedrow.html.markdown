@@ -32,5 +32,5 @@ Read the [Interacting with Widgets](../../../client-scripting-overview/scripting
 
 ## See Also
 
- - [setSelectedRow()](setselectedrow.htm)
+ - [setSelectedRow()](setselectedrow)
 

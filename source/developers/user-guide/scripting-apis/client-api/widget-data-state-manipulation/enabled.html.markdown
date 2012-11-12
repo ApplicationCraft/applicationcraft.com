@@ -50,9 +50,9 @@ This is a utility function that enables you to set the 'enable' property of one 
 
 ## See Also
 
- - [visible()](visible.htm)
+ - [visible()](visible)
 
- - [readOnly()](readonly.htm)
+ - [readOnly()](readonly)
 
  - [setProperty()](../widget-functions/setproperty)
 

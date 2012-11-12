@@ -13,7 +13,7 @@ The following table shows various ways of accessing the Widget Object.
 <table>
 <tr>
 <td width="219">
-**[\_widget](ref-widget.htm)**
+**[\_widget](ref-widget)**
 
 </td>
 <td width="19">

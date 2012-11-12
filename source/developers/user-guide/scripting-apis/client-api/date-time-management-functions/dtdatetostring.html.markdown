@@ -168,12 +168,12 @@ for example 'DOW, Month D Y TZ'
                 locale = app.dtDateToString(dstr1, 'localeDateTime', fMask);
                 app.setValue('text1',locale);  // returns: Thu 2011-07-14 13:09:02
         
-    dstr2=app.dtNewDate('utc');
+        dstr2=app.dtNewDate('utc');
                 fMask1 = "DOW D - Month M - Y";
                 utc = app.dtDateToString(dstr2, 'UTCDateTime', fMask1);
                 app.setValue('text2',utc);  // returns: Thu 14 - Jul 07 - 2011
      
-    dstr3=app.dtNewDate('rtz');
+        dstr3=app.dtNewDate('rtz');
                 fMask2 = "HH-MM-SS";
                 rtz = app.dtDateToString(dstr3, 'RTZDateTime', fMask2);
                 app.setValue('text3',rtz);  // returns: 13-09-02
@@ -181,11 +181,11 @@ for example 'DOW, Month D Y TZ'
 
 ## See Also
 
- - [dtNewDate()](dtnewdate.htm)
+ - [dtNewDate()](dtnewdate)
 
- - [dtadd()](dtadd.htm)
+ - [dtadd()](dtadd)
 
- - [dtDifference()](dtdifference.htm)
+ - [dtDifference()](dtdifference)
 
- - [dtAdjust()](dtadjust.htm)
+ - [dtAdjust()](dtadjust)
 

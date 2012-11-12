@@ -12,5 +12,5 @@ If you log into the Console, you will see a drop down next to the logged in user
 
 This is work in progress and will be enhanced with more functionality to deliver a better user experience.
 
-If you want to offer a fully tailored experience, you can also display Assignments in an App. Please refer to the next section [Viewing Assignments in Apps](accessing-assignments-in-queri.htm) for more details.
+If you want to offer a fully tailored experience, you can also display Assignments in an App. Please refer to the next section [Viewing Assignments in Apps](accessing-assignments-in-queri) for more details.
 

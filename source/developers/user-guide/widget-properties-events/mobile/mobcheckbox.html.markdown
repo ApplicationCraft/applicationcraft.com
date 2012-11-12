@@ -576,7 +576,7 @@ On Change
 
 ## **See Also**
 
- - Mobile Widgets: [Checkbox Group](checkbox-group.htm) , [Radio Buttons Group](radiobuttonsgroup.htm)
+ - Mobile Widgets: [Checkbox Group](checkbox-group) , [Radio Buttons Group](radiobuttonsgroup)
 
  - Common Widgets: [Checkbox](../common/checkbox) , [Radio Button](../common/radio-button)
 

@@ -50,9 +50,9 @@ This is a utility function that enables you to set the 'Read Only' property of o
 
 ## See Also
 
- - [visible()](visible.htm)
+ - [visible()](visible)
 
- - [enabled()](enabled.htm)
+ - [enabled()](enabled)
 
  - [setProperty()](../widget-functions/setproperty)
 
