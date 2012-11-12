@@ -245,7 +245,7 @@ Open all links in WebView
 
 </td>
 <td width="624">
-true/false. If set to true, all links (even with target set to blank) will open in the app's webview. If your app is utilizing the [YouTube](../../../product-guide/widget-properties-events/advanced/youtube) widget for iOS, set this property to true
+true/false. If set to true, all links (even with target set to blank) will open in the app's webview. If your app is utilizing the [YouTube](../../product-guide/widget-properties-events/advanced/youtube) widget for iOS, set this property to true
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ Allow Inline Media Playback
 
 </td>
 <td width="624">
-true/false(default). If set to true HTML5 videos will play inline. If set to false HTML5 videos will use the native full-screen controller. To play [YouTube](../../../product-guide/widget-properties-events/advanced/youtube) videos inline, also set Open all links in WebView to true
+true/false(default). If set to true HTML5 videos will play inline. If set to false HTML5 videos will use the native full-screen controller. To play [YouTube](../../product-guide/widget-properties-events/advanced/youtube) videos inline, also set Open all links in WebView to true
 
 </td>
 </tr>

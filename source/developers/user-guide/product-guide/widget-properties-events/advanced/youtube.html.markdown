@@ -10,7 +10,7 @@ The You Tube Widget lets you play You Tube videos in your apps.
 
 You can also access the You Tube player object with [getYoutubePlayer()](../../../scripting-apis/client-api/widget-object-functions/video,-audio-youtube-widget/getyoutubeplayer) . For more information and other advanced use, see [https://developers.google.com/youtube/iframe\_api\_reference](https://developers.google.com/youtube/iframe_api_reference)
 
-If compiling for iOS, you will need to set the [PhoneGap App Options](../../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features) property 'Open all links in WebView' to 'true'.
+If compiling for iOS, you will need to set the [PhoneGap App Options](../../../ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/enabling-device-features) property 'Open all links in WebView' to 'true'.
 
 <table>
 <tr>

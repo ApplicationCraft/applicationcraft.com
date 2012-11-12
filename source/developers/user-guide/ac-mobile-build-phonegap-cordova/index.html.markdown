@@ -1,5 +1,5 @@
 ---
-title: "AC Mobile Build & Phonegap/Cordova"
+title: "AC Mobile Build & Phonegap Cordova"
 active_menu_item: developers
 class_name: developers
 full_width: true

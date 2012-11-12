@@ -433,7 +433,7 @@ PhoneGap Options
 <td width="20">
 </td>
 <td width="740">
-Where you can manage your app properties and enable device [AC Mobile Build](../../ac-mobile-build-phonegap/cordova/ac-mobile-build/) features. See [PhoneGap App Options](../../ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
+Where you can manage your app properties and enable device [AC Mobile Build](../../ac-mobile-build-phonegap-cordova/ac-mobile-build/) features. See [PhoneGap App Options](../../ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/enabling-device-features)
 
 </td>
 </tr>

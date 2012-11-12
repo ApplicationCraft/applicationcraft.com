@@ -101,5 +101,5 @@ All functions are called on the created PGSQLitePlugin object:
 
 ## **See Also**
 
- - [Mobile & Client Side Data Storage](../../../../../product-guide/data-storage/mobile-client-side-data-storage/)
+ - [Mobile & Client Side Data Storage](../../../../product-guide/data-storage/mobile-client-side-data-storage/)
 

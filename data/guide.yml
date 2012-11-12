@@ -2338,22 +2338,22 @@ tree:
     url: /developers/user-guide/scripting-apis/server-side-api
   url: /developers/user-guide/scripting-apis
 - old_url: /revisions/current/docs/user-guide/index.html?phonegap__native_apps.htm
-  title: AC Mobile Build & Phonegap/Cordova
+  title: AC Mobile Build & Phonegap Cordova
   tree:
   - old_url: /revisions/current/docs/user-guide/index.html?apps_developed_with_applicatio.htm
     title: Apps Developed with Application Craft
     tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?mobile_widgets_and_layout.htm',
-      title: Mobile Widgets and Layout, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/mobile-widgets-and-layout}
+      title: Mobile Widgets and Layout, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/mobile-widgets-and-layout}
     - {old_url: '/revisions/current/docs/user-guide/index.html?phonegap_specific_events.htm',
-      title: Device Events, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-specific-events}
+      title: Device Events, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/phonegap-specific-events}
     - {old_url: '/revisions/current/docs/user-guide/index.html?phonegap_functions.htm',
-      title: PhoneGap API Functions, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-functions}
+      title: PhoneGap API Functions, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/phonegap-functions}
     - {old_url: '/revisions/current/docs/user-guide/index.html?enabling_device_features.htm',
-      title: PhoneGap Options, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features}
+      title: PhoneGap Options, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/enabling-device-features}
     - {old_url: '/revisions/current/docs/user-guide/index.html?splash_screen_and_icon.htm',
-      title: Splash Screen and Icon, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/splash-screen-and-icon}
-    url: /developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft
+      title: Splash Screen and Icon, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft/splash-screen-and-icon}
+    url: /developers/user-guide/ac-mobile-build-phonegap-cordova/apps-developed-with-application-craft
   - old_url: /revisions/current/docs/user-guide/index.html?certificates2.htm
     title: Certificates
     tree:
@@ -2361,7 +2361,7 @@ tree:
       title: iOS Keys and Certificates
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?i_havent_got_a_mac.htm',
-        title: iOS Assist Service, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/i-havent-got-a-mac}
+        title: iOS Assist Service, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/i-havent-got-a-mac}
       - old_url: /revisions/current/docs/user-guide/index.html?do_it_yourself_guide.htm
         title: Do It Yourself Guide
         tree:
@@ -2369,83 +2369,83 @@ tree:
           title: Apple Accounts
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?creating_an_apple_developer_ac.htm',
-            title: Creating an Apple Developer Account, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-developer-ac}
+            title: Creating an Apple Developer Account, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-developer-ac}
           - {old_url: '/revisions/current/docs/user-guide/index.html?creating_an_apple_enterprise_a.htm',
-            title: iOS Enterprise Program, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-enterprise-a}
+            title: iOS Enterprise Program, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-enterprise-a}
           - {old_url: '/revisions/current/docs/user-guide/index.html?ios_university_program.htm',
-            title: iOS University Program, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/ios-university-program}
-          url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts
+            title: iOS University Program, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/ios-university-program}
+          url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts
         - old_url: /revisions/current/docs/user-guide/index.html?setting_up_for_development.htm
           title: Setting up for development
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?sign_in2.htm',
-            title: Sign in, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/sign-in2}
+            title: Sign in, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/sign-in2}
           - {old_url: '/revisions/current/docs/user-guide/index.html?certificates.htm',
-            title: Create Development Certificate, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/certificates}
+            title: Create Development Certificate, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/certificates}
           - {old_url: '/revisions/current/docs/user-guide/index.html?generating_a_p12_certificate.htm',
-            title: Generating a P12 Certificate, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate}
+            title: Generating a P12 Certificate, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate}
           - {old_url: '/revisions/current/docs/user-guide/index.html?add_devices.htm',
-            title: Add Devices, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices}
+            title: Add Devices, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices}
           - {old_url: '/revisions/current/docs/user-guide/index.html?create_an_app_id.htm',
-            title: Create an App ID, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-an-app-id}
+            title: Create an App ID, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-an-app-id}
           - {old_url: '/revisions/current/docs/user-guide/index.html?create_a_provisioning_profile.htm',
-            title: Create a Provisioning Profile, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile}
-          url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development
+            title: Create a Provisioning Profile, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile}
+          url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development
         - old_url: /revisions/current/docs/user-guide/index.html?setting_up_for_distribution.htm
           title: Setting up for Distribution
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?distrbution_certificate_and_p1.htm',
-            title: Distribution Certificate and P12, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distrbution-certificate-and-p1}
+            title: Distribution Certificate and P12, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distrbution-certificate-and-p1}
           - {old_url: '/revisions/current/docs/user-guide/index.html?distribution_profile.htm',
-            title: Distribution Profile, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distribution-profile}
-          url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution
+            title: Distribution Profile, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distribution-profile}
+          url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution
         - {old_url: '/revisions/current/docs/user-guide/index.html?building_your_apps.htm',
-          title: Building your Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/building-your-apps}
+          title: Building your Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/building-your-apps}
         - old_url: /revisions/current/docs/user-guide/index.html?publishing_your_ios_app.htm
           title: Publishing your iOS App
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?itunes_connect.htm',
-            title: iTunes Connect, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/itunes-connect}
+            title: iTunes Connect, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/itunes-connect}
           - {old_url: '/revisions/current/docs/user-guide/index.html?app_uploader.htm',
-            title: Application Loader, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/app-uploader}
-          url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app
-        url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide
-      url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates
+            title: Application Loader, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/app-uploader}
+          url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app
+        url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide
+      url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/ios-keys-and-certificates
     - old_url: /revisions/current/docs/user-guide/index.html?andriod_certificate.htm
       title: Android Certificates
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?debug_development_certificates.htm',
-        title: Debug Development Certificates, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates/debug-development-certificates}
+        title: Debug Development Certificates, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/android-certificates/debug-development-certificates}
       - {old_url: '/revisions/current/docs/user-guide/index.html?generating_codesigning_certici.htm',
-        title: Generating Codesigning Certificates, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates/generating-codesigning-certici}
+        title: Generating Codesigning Certificates, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/android-certificates/generating-codesigning-certici}
       - {old_url: '/revisions/current/docs/user-guide/index.html?google_play.htm',
-        title: Google Play Signup, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates/google-play}
+        title: Google Play Signup, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/android-certificates/google-play}
       - {old_url: '/revisions/current/docs/user-guide/index.html?selling_android_apps.htm',
-        title: Selling Android Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates/selling-android-apps}
+        title: Selling Android Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/android-certificates/selling-android-apps}
       - {old_url: '/revisions/current/docs/user-guide/index.html?publishing_android_apps_on_pla.htm',
-        title: Publishing Android Apps on Play, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates/publishing-android-apps-on-pla}
-      url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates
-    url: /developers/user-guide/ac-mobile-build-phonegap/cordova/certificates
+        title: Publishing Android Apps on Play, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/android-certificates/publishing-android-apps-on-pla}
+      url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates/android-certificates
+    url: /developers/user-guide/ac-mobile-build-phonegap-cordova/certificates
   - old_url: /revisions/current/docs/user-guide/index.html?application_craft_build.htm
     title: AC Mobile Build
     tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?ac_apps.htm', title: AC
-        Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-apps}
+        Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-apps}
     - {old_url: '/revisions/current/docs/user-guide/index.html?external_html5cssjs_apps.htm',
-      title: Non AC HTML5+CSS+JS Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/external-html5cssjs-apps}
+      title: Non AC HTML5+CSS+JS Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/external-html5cssjs-apps}
     - {old_url: '/revisions/current/docs/user-guide/index.html?automatic_building.htm',
-      title: Building Your Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/automatic-building}
+      title: Building Your Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/automatic-building}
     - {old_url: '/revisions/current/docs/user-guide/index.html?build_errors.htm',
-      title: Build Errors, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/build-errors}
+      title: Build Errors, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/build-errors}
     - {old_url: '/revisions/current/docs/user-guide/index.html?build_error_messages.htm',
-      title: Build Error Messages, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/build-error-messages}
+      title: Build Error Messages, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/build-error-messages}
     - {old_url: '/revisions/current/docs/user-guide/index.html?deploy_your_native_apps.htm',
-      title: Deploy your Native Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/deploy-your-native-apps}
+      title: Deploy your Native Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/deploy-your-native-apps}
     - old_url: /revisions/current/docs/user-guide/index.html?ac_plugins.htm
       title: AC Build Plugins
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?adding_your_own_plugins.htm',
-        title: Adding your own Plugins, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/adding-your-own-plugins}
+        title: Adding your own Plugins, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/adding-your-own-plugins}
       - old_url: /revisions/current/docs/user-guide/index.html?child_browser.htm
         title: Child Browser
         tree:
@@ -2453,23 +2453,23 @@ tree:
           title: Methods
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?showwebpage.htm',
-            title: showWebPage(), url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/showwebpage}
+            title: showWebPage(), url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/showwebpage}
           - {old_url: '/revisions/current/docs/user-guide/index.html?close3.htm',
-            title: close(), url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/close3}
+            title: close(), url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/close3}
           - {old_url: '/revisions/current/docs/user-guide/index.html?openexternal.htm',
-            title: openExternal(), url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/openexternal}
-          url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods
+            title: openExternal(), url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/openexternal}
+          url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/methods
         - old_url: /revisions/current/docs/user-guide/index.html?events4.htm
           title: Events
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?close4.htm',
-            title: close, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/close4}
+            title: close, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/events/close4}
           - {old_url: '/revisions/current/docs/user-guide/index.html?locationchange.htm',
-            title: locationChange, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/locationchange}
+            title: locationChange, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/events/locationchange}
           - {old_url: '/revisions/current/docs/user-guide/index.html?openexternal2.htm',
-            title: openExternal, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/openexternal2}
-          url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events
-        url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser
+            title: openExternal, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/events/openexternal2}
+          url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser/events
+        url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/child-browser
       - old_url: /revisions/current/docs/user-guide/index.html?sqlite_plugin.htm
         title: SQLite Plugin
         tree:
@@ -2477,64 +2477,64 @@ tree:
           title: Methods
           tree:
           - {old_url: '/revisions/current/docs/user-guide/index.html?open3.htm', title: open,
-            url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/open3}
+            url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/open3}
           - {old_url: '/revisions/current/docs/user-guide/index.html?close2.htm',
-            title: close, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/close2}
+            title: close, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/close2}
           - {old_url: '/revisions/current/docs/user-guide/index.html?remove.htm',
-            title: remove, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/remove}
+            title: remove, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/remove}
           - {old_url: '/revisions/current/docs/user-guide/index.html?executesql.htm',
-            title: executeSQL, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/executesql}
+            title: executeSQL, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/executesql}
           - {old_url: '/revisions/current/docs/user-guide/index.html?insert2.htm',
-            title: insert, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/insert2}
+            title: insert, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/insert2}
           - {old_url: '/revisions/current/docs/user-guide/index.html?update2.htm',
-            title: update, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/update2}
+            title: update, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/update2}
           - {old_url: '/revisions/current/docs/user-guide/index.html?del.htm', title: del,
-            url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/del}
+            url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/del}
           - {old_url: '/revisions/current/docs/user-guide/index.html?query.htm', title: query,
-            url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/query}
+            url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/query}
           - {old_url: '/revisions/current/docs/user-guide/index.html?transaction.htm',
-            title: transaction, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/transaction}
-          url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods
-        url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin
+            title: transaction, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/transaction}
+          url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods
+        url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin
       - {old_url: '/revisions/current/docs/user-guide/index.html?mailto_plugin.htm',
-        title: MailTo Plugin, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/mailto-plugin}
+        title: MailTo Plugin, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/mailto-plugin}
       - {old_url: '/revisions/current/docs/user-guide/index.html?scandit_free.htm',
-        title: Scandit Free, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free}
+        title: Scandit Free, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/scandit-free}
       - {old_url: '/revisions/current/docs/user-guide/index.html?zxing_bar_code_scanner.htm',
-        title: ZXing Bar Code Scanner, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner}
+        title: ZXing Bar Code Scanner, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner}
       - old_url: /revisions/current/docs/user-guide/index.html?xtify_push_notifications.htm
         title: Xtify Push Notifications
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?google_cloud_messaging.htm',
-          title: Google Cloud Messaging, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging}
+          title: Google Cloud Messaging, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging}
         - {old_url: '/revisions/current/docs/user-guide/index.html?apple_app_id.htm',
-          title: Apple App Id, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apple-app-id}
+          title: Apple App Id, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apple-app-id}
         - {old_url: '/revisions/current/docs/user-guide/index.html?adding_new_application.htm',
-          title: Adding New Application Keys, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/adding-new-application}
+          title: Adding New Application Keys, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/adding-new-application}
         - {old_url: '/revisions/current/docs/user-guide/index.html?configuring_your_app.htm',
-          title: Configuring your app, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app}
+          title: Configuring your app, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app}
         - {old_url: '/revisions/current/docs/user-guide/index.html?sending_push_notifications_to_.htm',
-          title: Sending Push Notifications to your apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to}
-        url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications
-      url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins
-    url: /developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build
+          title: Sending Push Notifications to your apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to}
+        url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications
+      url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build/ac-build-plugins
+    url: /developers/user-guide/ac-mobile-build-phonegap-cordova/ac-mobile-build
   - old_url: /revisions/current/docs/user-guide/index.html?phonegapbuild.htm
     title: Phonegap:Build
     tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?building_the_native_apps.htm',
-      title: Building your Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/building-the-native-apps}
+      title: Building your Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/phonegapbuild/building-the-native-apps}
     - {old_url: '/revisions/current/docs/user-guide/index.html?key_management.htm',
-      title: Key Management, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/key-management}
+      title: Key Management, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/phonegapbuild/key-management}
     - {old_url: '/revisions/current/docs/user-guide/index.html?deploying_your_native_apps.htm',
-      title: Deploying your Native Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/deploying-your-native-apps}
+      title: Deploying your Native Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/phonegapbuild/deploying-your-native-apps}
     - {old_url: '/revisions/current/docs/user-guide/index.html?manual_building.htm',
-      title: Manual Building, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/manual-building}
-    url: /developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild
+      title: Manual Building, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/phonegapbuild/manual-building}
+    url: /developers/user-guide/ac-mobile-build-phonegap-cordova/phonegapbuild
   - {old_url: '/revisions/current/docs/user-guide/index.html?phonegap_direct.htm',
-    title: Phonegap Direct, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/phonegap-direct}
+    title: Phonegap Direct, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/phonegap-direct}
   - {old_url: '/revisions/current/docs/user-guide/index.html?debugging_native_apps.htm',
-    title: Debugging Native Apps, url: /developers/user-guide/ac-mobile-build-phonegap/cordova/debugging-native-apps}
-  url: /developers/user-guide/ac-mobile-build-phonegap/cordova
+    title: Debugging Native Apps, url: /developers/user-guide/ac-mobile-build-phonegap-cordova/debugging-native-apps}
+  url: /developers/user-guide/ac-mobile-build-phonegap-cordova
 - old_url: /revisions/current/docs/user-guide/index.html?developer_guide.htm
   title: Adding Widgets and API Methods
   tree:
