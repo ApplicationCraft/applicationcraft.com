@@ -19,14 +19,18 @@ module TreeHelpers
             content_tag :li do
               id = random_string
 
-              content_tag :label, :for => id, :'data-href' => ele['url'] do
-                ele['title']
+              content_tag :div, :class => "nofade" do
+                content_tag :span do
+                  "expand"
+                end
+                content_tag :a, :href => ele['url'] do
+                  ele['title']
+                end
               end
-              concat_content "<input type='checkbox' id='#{id}'>"
               generate_tree_for ele['tree']
             end
           else
-            content_tag :li do
+            content_tag :li, :class => "nofade" do
               content_tag :a, :href => ele['url'], :class => current_page?(ele['url']) ? 'active' : '' do
                 ele['title']
               end
