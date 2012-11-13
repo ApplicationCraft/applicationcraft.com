@@ -19,7 +19,7 @@
       <div id="breadcrumbs">
         <ul>
           <li><%= link_to 'Docs', '/developers/documentation' %></li>
-          <% breadcrumbs(2).each do |crumb| %>
+          <% breadcrumbs.each do |crumb| %>
             <li><%= link_to crumb[:title], crumb[:url] %></li>
           <% end %>
           <li><%= current_page.data.title %></li>
