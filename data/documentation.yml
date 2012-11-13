@@ -2557,7 +2557,7 @@ tree:
       url: /developers/documentation/extending-ac/overview/css}
     url: /developers/documentation/extending-ac/overview
   - old_url: /revisions/current/docs/user-guide/index.html?adding_your_own_widget_to_ac.htm
-    title: Adding your own Widgets to Application Craft
+    title: Adding your own Widgets
     tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?prerequisite_skills.htm',
       title: Prerequisite Skills, url: /developers/documentation/extending-ac/adding-your-own-widgets/prerequisite-skills}

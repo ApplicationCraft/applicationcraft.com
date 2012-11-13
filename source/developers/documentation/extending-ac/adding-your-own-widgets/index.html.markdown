@@ -1,5 +1,5 @@
 ---
-title: "Adding your own Widgets to Application Craft"
+title: "Adding your own Widgets"
 active_menu_item: developers
 class_name: developers
 full_width: true

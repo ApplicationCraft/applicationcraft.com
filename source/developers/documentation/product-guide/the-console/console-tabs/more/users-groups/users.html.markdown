@@ -236,7 +236,7 @@ Manage Widgets
 <td width="19">
 </td>
 <td width="667">
-  Can create, administer and use Custom Widgets. See <a href="/developers/documentation/extending-ac/adding-your-own-widgets/">Adding your own Widgets to Application Craft</a>
+  Can create, administer and use Custom Widgets. See <a href="/developers/documentation/extending-ac/adding-your-own-widgets/">Adding your own Widgets</a>
 
 </td>
 </tr>
