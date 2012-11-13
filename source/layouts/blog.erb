@@ -35,6 +35,9 @@
           </section>
 
           <h1><%= link_to current_article.title, current_article %></h1>
+          <% if current_article.data.image %>
+            <%= image_tag current_article.data.image, :alt => current_article.title, :align => "left" %>
+          <% end %>
           <p><%= yield %></p>
         </article>
 
@@ -61,7 +64,7 @@
     </section>
 
     <aside>
-      <section id="latest-posts">
+      <section class="latest-posts">
         <h4>Latest posts</h4>
         <ul>
           <% blog.articles[0...5].each do |post| %>

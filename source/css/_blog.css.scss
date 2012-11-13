@@ -46,10 +46,14 @@ body.blog {
       display: none;
     }
 
-    #latest-posts {
+    .latest-posts {
+      &:first-child h4 {
+        margin-top: 100px;
+      }
+
       h4 {
         text-transform: uppercase;
-        margin: 100px 0 0 38px;
+        margin: 40px 0 0 38px;
       }
 
       li {
@@ -197,6 +201,10 @@ body.blog {
 
       h2 {
         margin: 1.6em 0 0.83em;
+      }
+
+      h3 {
+        margin: 1.8em 0 1em;
       }
 
       blockquote {

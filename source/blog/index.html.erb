@@ -18,7 +18,7 @@ pageable: true
 <div class="container clearfix">
 
   <section class="posts">
-    <% page_articles.each_with_index do |article, i| %>
+    <% page_articles.each do |article| %>
 
       <article>
         <section class="meta">
@@ -37,6 +37,9 @@ pageable: true
         </section>
 
         <h1><%= link_to article.title, article %></h1>
+        <% if article.data.image %>
+          <%= image_tag article.data.image, :alt => article.title, :align => "left" %>
+        <% end %>
         <p><%= article.body %></p>
       </article>
 
@@ -56,7 +59,16 @@ pageable: true
 
 
   <aside>
-    <section id="latest-posts">
+    <section class="latest-posts">
+      <h4>Post on this page</h4>
+      <ul>
+        <% page_articles.each do |post| %>
+          <li><%= link_to post.title, post %></li>
+        <% end %>
+      </ul>
+    </section>
+
+    <section class="latest-posts">
       <h4>Latest posts</h4>
       <ul>
         <% blog.articles[0...5].each do |post| %>
@@ -81,3 +93,6 @@ var disqus_shortname = 'applicationcraftwebsite'; // required: replace example w
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
 </script>
+
+<%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+<%= stylesheet_link_tag 'lib/rainbow/github' %>

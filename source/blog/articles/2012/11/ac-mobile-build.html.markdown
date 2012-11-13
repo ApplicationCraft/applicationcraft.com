@@ -1,16 +1,15 @@
 ---
 title: AC Mobile Build, a Phonegap Build alternative with Plugins
-date: 2012-11-01
+date: 2012-11-15
 tags: phonegap, cordova, html5, native apps, mobile build
 class_name: blog
 full_width: true
+image: blog/acmb-1.png
 ---
 
 We're really excited to announce the availability of a full-featured alternative to Phonegap Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins.
 
 Feel free to take a look at the [User Guide section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps)
-
-![AC Mobile Build](/img/blog/acmb-1.png "Application Craft Mobile Build") 
 
 For those who don't know Phonegap/Cordova, it lets you take any HTML5+CSS+JS App or Site and compile it into a binary that can be deployed to App Stores. It also lets you access all the hardware goodies on your device (GPS, Accelerometer, Compass, Camera etc.).
 
