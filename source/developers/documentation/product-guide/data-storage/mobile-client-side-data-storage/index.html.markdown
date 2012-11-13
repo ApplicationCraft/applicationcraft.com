@@ -36,7 +36,7 @@ Web SQL is not nearly as easy to use as Local Storage, which should be used wher
 
 ## SQLite for Compiled Apps
 
-If you are using [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/) to compile your application, then you can build applications using SQLite. SQLite is a popular choice as embedded database for local storage in native apps and with this approach the SQLite database library is a part of your application. Also, there are no storage size limits. See [SQLite Plugin](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/)
+If you are using [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) to compile your application, then you can build applications using SQLite. SQLite is a popular choice as embedded database for local storage in native apps and with this approach the SQLite database library is a part of your application. Also, there are no storage size limits. See [SQLite Plugin](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/)
 
 ## Indexed DB
 

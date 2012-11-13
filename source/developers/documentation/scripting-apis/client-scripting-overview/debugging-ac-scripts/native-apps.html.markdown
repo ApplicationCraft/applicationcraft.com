@@ -40,7 +40,7 @@ A very neat way to test your Apps is to make use of the [app.switchApp()](/devel
 
 ## Weinre Debugger
 
-This debugger is available if you are using PhoneGap:Build and use either the [Manual Building](/developers/documentation/ac-mobile-build-phonegap/cordova/phonegapbuild/manual-building) approach or if you use the [Automatic Building](/developers/documentation/ac-mobile-build-phonegap/cordova/phonegapbuild/building-the-native-apps) but shut down the Application Craft build window and leave it closed.
+This debugger is available if you are using PhoneGap:Build and use either the [Manual Building](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/manual-building) approach or if you use the [Automatic Building](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/building-the-native-apps) but shut down the Application Craft build window and leave it closed.
 
 Any console.log() or app.debugOutput() allow you to write to the Weinre Console.
 

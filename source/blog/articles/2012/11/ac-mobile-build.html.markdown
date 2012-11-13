@@ -8,7 +8,7 @@ full_width: true
 
 We're really excited to announce the availability of a full-featured alternative to Phonegap Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins.
 
-Feel free to take a look at the [User Guide section](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/external-html5cssjs-apps)
+Feel free to take a look at the [User Guide section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps)
 
 ![AC Mobile Build](/img/blog/acmb-1.png "Application Craft Mobile Build") 
 
