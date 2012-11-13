@@ -17,7 +17,7 @@ module TreeHelpers
         :title => page.data.title
       }
     end
-    crumbs.pop pop
+    # crumbs.pop pop
     crumbs.reverse
   end
 
