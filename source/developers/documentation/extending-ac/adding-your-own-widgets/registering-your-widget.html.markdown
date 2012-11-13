@@ -1,5 +1,5 @@
 ---
-title: "Registering your Widget within your Account"
+title: "Registering your Widget"
 active_menu_item: developers
 class_name: developers
 full_width: true

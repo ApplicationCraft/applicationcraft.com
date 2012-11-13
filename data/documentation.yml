@@ -2562,7 +2562,7 @@ tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?prerequisite_skills.htm',
       title: Prerequisite Skills, url: /developers/documentation/extending-ac/adding-your-own-widgets/prerequisite-skills}
     - {old_url: '/revisions/current/docs/user-guide/index.html?registering_your_widget_within.htm',
-      title: Registering your Widget within your Account, url: /developers/documentation/extending-ac/adding-your-own-widgets/registering-your-widget-within}
+      title: Registering your Widget, url: /developers/documentation/extending-ac/adding-your-own-widgets/registering-your-widget}
     - old_url: /revisions/current/docs/user-guide/index.html?anatomy_of_a_widget.htm
       title: Anatomy of a Basic Widget
       tree:
