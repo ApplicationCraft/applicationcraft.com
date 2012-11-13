@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [loadQueryFolders()](/developers/documentation/scripting-apis/server-side-api/sys-object/queries-management/loadqueryfolders)
  - [getSharedQueries()](/developers/documentation/scripting-apis/server-side-api/sys-object/queries-management/getsharedqueries)

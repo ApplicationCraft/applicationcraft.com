@@ -14,7 +14,7 @@ Using our [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/c
 
 This chapter describes the various ways you can generate and deploy these native Apps.
 
-## In This Section:
+## In This Section
 
  - [Mobile Widgets and Layout](/developers/documentation/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/mobile-widgets-and-layout)
  - [Device Events](/developers/documentation/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-specific-events)

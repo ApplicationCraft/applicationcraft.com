@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [showGallery()](/developers/documentation/scripting-apis/client-api/widget-object-functions/photoswipe/showgallery)
     Show the Gallery/Start the slide Show

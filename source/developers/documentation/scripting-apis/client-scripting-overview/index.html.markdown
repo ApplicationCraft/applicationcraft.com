@@ -10,7 +10,7 @@ One of the key principles behind Application Craft is to allow you to build Apps
 
  - Javascript - this gives you maximum power and thanks to our Client API, it is very easy to use. You only need to use it as a scripting language as AC takes care of the heavy lifting. Be sure to read the full [Client API](/developers/documentation/scripting-apis/client-api/) section.
 
-## In This Section:
+## In This Section
 
  - [Public Shared Scripts](/developers/documentation/scripting-apis/client-scripting-overview/public-shared-scripts)
  - [Debugging AC Scripts](/developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/)

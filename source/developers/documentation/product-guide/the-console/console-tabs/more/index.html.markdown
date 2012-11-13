@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Widgets](/developers/documentation/product-guide/the-console/console-tabs/more/widgets/)
  - [Account Variables](/developers/documentation/product-guide/the-console/console-tabs/more/account-variables/)

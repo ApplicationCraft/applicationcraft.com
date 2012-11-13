@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Building your Apps](/developers/documentation/ac-mobile-build-phonegap/cordova/phonegapbuild/building-the-native-apps)
  - [Key Management](/developers/documentation/ac-mobile-build-phonegap/cordova/phonegapbuild/key-management)

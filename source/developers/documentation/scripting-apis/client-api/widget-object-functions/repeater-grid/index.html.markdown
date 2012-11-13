@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [deleteRow()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
     Deletes a row from a Grid or Repeater Container

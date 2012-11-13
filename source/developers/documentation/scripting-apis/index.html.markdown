@@ -8,7 +8,7 @@ full_width: true
 
 Both Client and Server Side scripting overviews and API references are contained within this chapter.
 
-## In This Section:
+## In This Section
 
  - [Client Scripting Overview](/developers/documentation/scripting-apis/client-scripting-overview/)
  - [Client API](/developers/documentation/scripting-apis/client-api/)

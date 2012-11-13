@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [appId()](/developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/appid)
  - [appName()](/developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/appname)

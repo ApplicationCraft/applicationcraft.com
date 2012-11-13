@@ -8,7 +8,7 @@ full_width: true
 
 Here are some common uses for scripting. Please be sure to our [Learning Center](http://www.applicationcraft.com/learning-center#Coding) on the web site.
 
-## In This Section:
+## In This Section
 
  - [Displaying warnings and messages](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/displaying-warnings-and-messag)
  - [Getting a confirmation response from the Respondent](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/getting-a-confirmation-respons)

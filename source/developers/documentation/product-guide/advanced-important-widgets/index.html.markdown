@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Important Mobile Widgets](/developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/)
  - [Power Widgets](/developers/documentation/product-guide/advanced-important-widgets/power-widgets/)

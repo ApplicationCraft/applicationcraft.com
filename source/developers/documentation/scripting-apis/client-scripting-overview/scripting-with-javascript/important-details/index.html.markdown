@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [The Widget Object](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/the-widget-object)
  - [App Switching](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/app-switching)

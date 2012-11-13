@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [getResources()](/developers/documentation/scripting-apis/server-side-api/sys-object/resources-management/getresources)
  - [loadResourceFolders()](/developers/documentation/scripting-apis/server-side-api/sys-object/resources-management/loadresourcefolders)

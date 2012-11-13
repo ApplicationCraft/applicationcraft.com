@@ -20,7 +20,7 @@ It is beyond the scope of this manual to teach you Javascript, but suffice to sa
 
 Tutorial Videos can be found at our [Learning Center](http://www.applicationcraft.com/learning-center#Coding) .
 
-## In This Section:
+## In This Section
 
  - [Where are the Events?](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/where-are-the-events)
  - [How Application Craft Javascript is tied into AC](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/how-swirl-javascript-is-tied-i)

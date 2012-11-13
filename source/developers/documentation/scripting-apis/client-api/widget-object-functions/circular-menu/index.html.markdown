@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [open()](/developers/documentation/scripting-apis/client-api/widget-object-functions/circular-menu/open2)
     Open the Circular Menu

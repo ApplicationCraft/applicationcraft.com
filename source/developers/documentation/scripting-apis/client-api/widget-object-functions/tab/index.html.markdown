@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [getCurrentTabIndex()](/developers/documentation/scripting-apis/client-api/widget-object-functions/tab/getcurrenttabindex)
     Gets the index of the current tab item

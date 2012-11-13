@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [General](/developers/documentation/scripting-apis/client-api/widget-object-functions/general/)
  - [Repeater & Grid](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/)

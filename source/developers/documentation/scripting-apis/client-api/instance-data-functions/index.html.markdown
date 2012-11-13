@@ -12,7 +12,7 @@ IMPORTANT
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-## In This Section:
+## In This Section
 
  - [instanceXxxx() callback functions](/developers/documentation/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function)
     Describes how callbacks work for many of the instanceXxxxx() functions

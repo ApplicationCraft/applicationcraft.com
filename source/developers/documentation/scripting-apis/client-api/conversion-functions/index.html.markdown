@@ -14,7 +14,7 @@ These functions are really useful for converting data between different data typ
 
  - Array - some AC functions expect objects and so the ARRAY2OBJ() function allows for a quick and easy conversion into object format.
 
-## In This Section:
+## In This Section
 
  - [[filterArray()](/developers/documentation/scripting-apis/client-api/conversion-functions/filterarray)
     Filters an array

@@ -10,7 +10,7 @@ Please refer to the [Video & Audio Widgets](/developers/documentation/product-gu
 
 The methods outlined here are also valid for the [YouTube](/developers/documentation/product-guide/widget-properties-events/advanced/youtube) widget.
 
-## In This Section:
+## In This Section
 
 **HTML5 Audio, HTML5 Video and YouTube widget**
   

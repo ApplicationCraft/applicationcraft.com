@@ -16,7 +16,7 @@ For anyone wanting to get the most out of Application Craft, we recommend that y
 
 Refer to the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details about the API.
 
-## In This Section:
+## In This Section
 
  - [Introduction](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/)
  - [The Code Editor](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/)

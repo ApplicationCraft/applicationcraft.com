@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [cookie()](/developers/documentation/scripting-apis/client-api/others/cookie)
     Setting and Getting a cookie

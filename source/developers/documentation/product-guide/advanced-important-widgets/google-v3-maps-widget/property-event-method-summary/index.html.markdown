@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Widget Properties](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/widget-properties)
  - [Events](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/gmapevents)

@@ -10,7 +10,7 @@ The functions in this section deal with widget values and states (visible, enabl
 
 For normal reading and writing of widget data, please refer to the section [Reading and Writing App Data](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) .
 
-## In This Section:
+## In This Section
 
  - [assign()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/assign)
     Assigns an AC Expression to one or more Widgets

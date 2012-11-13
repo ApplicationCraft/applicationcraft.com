@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [parent()](/developers/documentation/scripting-apis/client-api/widget-object-functions/general/parent)
     Returns the Widget's parent Widget

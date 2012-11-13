@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [getGroupById()](/developers/documentation/scripting-apis/server-side-api/sys-object/group-management/getgroupbyid)
  - [createGroup()](/developers/documentation/scripting-apis/server-side-api/sys-object/group-management/creategroup)

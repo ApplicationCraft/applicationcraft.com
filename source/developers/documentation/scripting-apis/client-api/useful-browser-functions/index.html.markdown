@@ -8,7 +8,7 @@ full_width: true
 
 The functions outlined here are common knowledge to experienced Javascript developers. For those of you new to Javascript, these are not a part of the Application Craft app object but they can be very useful within your Apps.
 
-## In This Section:
+## In This Section
 
  - [alert(), confirm()](/developers/documentation/scripting-apis/client-api/useful-browser-functions/alert)
  - [open()](/developers/documentation/scripting-apis/client-api/useful-browser-functions/open)

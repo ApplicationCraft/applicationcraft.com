@@ -8,7 +8,7 @@ full_width: true
 
 This section contains details about various things that are not actual functions but are important for you to understand when writing scripts and using the API functions.
 
-## In This Section:
+## In This Section
 
  - [\_widget](/developers/documentation/scripting-apis/client-api/objects-titbits/ref-widget)
     Available from all AC Event handlers, this gives you immediate access to the Widget that the Event handler belongs to

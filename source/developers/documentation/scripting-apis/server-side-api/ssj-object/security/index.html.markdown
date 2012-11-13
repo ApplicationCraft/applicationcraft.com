@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [getLoggedUser()](/developers/documentation/scripting-apis/server-side-api/ssj-object/security/getloggeduser)
  - [getOwnerUser()](/developers/documentation/scripting-apis/server-side-api/ssj-object/security/getowneruser)

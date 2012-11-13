@@ -8,7 +8,7 @@ full_width: true
 
 This section describes how to set up your iOS certificates and profiles on your own.
 
-## In This Section:
+## In This Section
 
  - [Apple Accounts](/developers/documentation/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/)
  - [Setting up for development](/developers/documentation/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/)

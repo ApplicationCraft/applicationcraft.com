@@ -23,7 +23,7 @@ There are some parts of the Application Craft system where we need to give credi
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/ct8xOC_K2Rk?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The Code Explorer and Editor [2:03]
 
-## In This Section:
+## In This Section
 
  - [Code Explorer](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/code-explorer)
  - [Syntax Errors](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/syntax-errors)

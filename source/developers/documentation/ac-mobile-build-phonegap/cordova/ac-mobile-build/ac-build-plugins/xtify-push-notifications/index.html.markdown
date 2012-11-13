@@ -142,7 +142,7 @@ To obtain keys, you need to first register at [https://console.xtify.com/registr
 
 The Free account is suitable for 10,000 notifications but for larger volumes see [http://www.xtify.com/pricing.html](http://www.xtify.com/pricing.html) .
 
-## In This Section:
+## In This Section
 
  - [Google Cloud Messaging](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging)
  - [Apple App Id](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apple-app-id)

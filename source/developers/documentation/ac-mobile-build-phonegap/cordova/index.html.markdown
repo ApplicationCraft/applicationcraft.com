@@ -14,7 +14,7 @@ There are three ways of building your Apps
 
  - [Phonegap Direct](/developers/documentation/ac-mobile-build-phonegap/cordova/phonegap-direct) assumes you want to build your Apps using tools like Apple's XCode or Eclipse for Android Apps. This is more involved than the other approaches but can give you more control should you need it.
 
-## In This Section:
+## In This Section
 
  - [Apps Developed with Application Craft](/developers/documentation/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/)
  - [Certificates](/developers/documentation/ac-mobile-build-phonegap/cordova/certificates/)

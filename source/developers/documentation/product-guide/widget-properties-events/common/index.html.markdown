@@ -8,7 +8,7 @@ full_width: true
 
 These Widgets can be dragged and dropped into your App from the Common section of the Toolbox on the left hand side of the Designer.
 
-## In This Section:
+## In This Section
 
  - [Label](/developers/documentation/product-guide/widget-properties-events/common/label)
  - [Text](/developers/documentation/product-guide/widget-properties-events/common/text)

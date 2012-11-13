@@ -18,7 +18,7 @@ The following topics should be understood in order to build these solutions
 
  - [Database Methods](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/) - also a part of Server Side Javascript, the database methods allow you to manage SQL operations such as Select, Insert, Update, Delete in a friendly way. You can also write literal SQL statements and call stored procedures.
 
-## In This Section:
+## In This Section
 
  - [Important Points Before you Start](/developers/documentation/product-guide/data-storage/server-side-data-storage/important-points-before-you-st)
  - [MUST READ: Security and SQL Injection](/developers/documentation/product-guide/data-storage/server-side-data-storage/security-and-sql-injection)

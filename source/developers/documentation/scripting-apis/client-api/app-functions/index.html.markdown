@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [`getACVersion()`](/developers/documentation/scripting-apis/client-api/app-functions/getacversion)
  - [alert()](/developers/documentation/scripting-apis/client-api/app-functions/refalert)

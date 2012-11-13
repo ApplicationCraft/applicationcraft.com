@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [httpRequest()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequest2)
  - [httpRequestAdv()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv)

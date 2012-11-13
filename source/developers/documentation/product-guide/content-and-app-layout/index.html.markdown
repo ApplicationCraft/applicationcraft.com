@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Introduction](/developers/documentation/product-guide/content-and-app-layout/introduction/)
  - [Responsive / Adaptive / Fluid Design](/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/)

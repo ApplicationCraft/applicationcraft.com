@@ -10,7 +10,7 @@ The Advanced Map widget is a very powerful widget that incorporates much of the 
 
 Please refer to the [Google V3 Maps Widget](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/) chapter for a thorough introduction and explanation.
 
-## In This Section:
+## In This Section
 
  - [showMarker()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/showmarker)
     Shows or hides the map's base coordinate marker

@@ -12,7 +12,7 @@ IMPORTANT
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-## In This Section:
+## In This Section
 
  - [Using AC App Storage](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/)
  - [Using External Databases](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/)

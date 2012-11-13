@@ -8,7 +8,7 @@ full_width: true
 
 These widgets are optimised for mobile devices, but can be used on 'desktop' apps as well.
 
-## In This Section:
+## In This Section
 
  - [Checkbox](/developers/documentation/product-guide/widget-properties-events/mobile/mobcheckbox)
  - [Toolbar](/developers/documentation/product-guide/widget-properties-events/mobile/toolbar)

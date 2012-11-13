@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [translate()](/developers/documentation/scripting-apis/client-api/multi-language-apps/translate)
     Performs string translations within your App

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [CRUD on External Databases](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/crud-on-external-databases)
  - [Synopsis of CRUD Operations on External Databases](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/synopsis-of-crud-operations-on)

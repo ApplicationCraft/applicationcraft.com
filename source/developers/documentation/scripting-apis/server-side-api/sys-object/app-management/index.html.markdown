@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [getAppsList()](/developers/documentation/scripting-apis/server-side-api/sys-object/app-management/getappslist)
  - [getAppsFoldersList()](/developers/documentation/scripting-apis/server-side-api/sys-object/app-management/getappsfolderslist)

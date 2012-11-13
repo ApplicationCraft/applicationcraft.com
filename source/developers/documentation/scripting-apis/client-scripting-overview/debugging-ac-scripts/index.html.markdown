@@ -10,7 +10,7 @@ Apps will run in any modernish browser but for App development, we strongly reco
 
 Application Craft includes some very simple debug support functions that make debugging your Apps a real pleasure.
 
-## In This Section:
+## In This Section
 
  - [Chrome](/developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/chrome)
  - [Firefox](/developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/firefox)

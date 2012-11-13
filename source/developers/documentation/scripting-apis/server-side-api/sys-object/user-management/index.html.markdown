@@ -8,7 +8,7 @@ full_width: true
 
 These functions allow you to access information about Users stored in Application Craft
 
-## In This Section:
+## In This Section
 
  - [getMemberOf()](/developers/documentation/scripting-apis/server-side-api/sys-object/user-management/getmemberof)
  - [getUsersList()](/developers/documentation/scripting-apis/server-side-api/sys-object/user-management/loaduserslist)

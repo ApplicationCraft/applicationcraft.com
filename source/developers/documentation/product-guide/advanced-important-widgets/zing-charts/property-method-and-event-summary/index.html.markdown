@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Properties](/developers/documentation/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/properties3)
  - [Events](/developers/documentation/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/events2)

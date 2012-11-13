@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [getViewData()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/getviewdata2)
  - [getConnection()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/getconnection)

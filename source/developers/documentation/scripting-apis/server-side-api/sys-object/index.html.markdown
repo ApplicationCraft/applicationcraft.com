@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [User Management](/developers/documentation/scripting-apis/server-side-api/sys-object/user-management/)
  - [Group Management](/developers/documentation/scripting-apis/server-side-api/sys-object/group-management/)

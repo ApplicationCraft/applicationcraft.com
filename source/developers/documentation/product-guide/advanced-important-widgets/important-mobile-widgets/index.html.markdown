@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Mobile Toolbar](/developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-toolbar)
  - [Mobile Navigation Toolbar](/developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-navigation-toolbar)

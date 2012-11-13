@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Multi Language Apps](/developers/documentation/product-guide/advanced-features/multi-language-apps/)
  - [Credit Card Payment Processing](/developers/documentation/product-guide/advanced-features/credit-card-payment-processing/)

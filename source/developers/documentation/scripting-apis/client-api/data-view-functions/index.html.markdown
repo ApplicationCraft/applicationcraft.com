@@ -8,7 +8,7 @@ full_width: true
 
 These functions allow you to interact with Data Views from your scripts.
 
-## In This Section:
+## In This Section
 
  - [Data View Related Events](/developers/documentation/scripting-apis/client-api/data-view-functions/data-view-related-events)
  - [Modifying Data Widgets with Scripts](/developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/)

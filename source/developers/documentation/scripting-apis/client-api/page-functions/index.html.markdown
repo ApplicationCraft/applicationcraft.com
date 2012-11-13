@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Page Transitions](/developers/documentation/scripting-apis/client-api/page-functions/page-transitions)
     Supported animated page transitions

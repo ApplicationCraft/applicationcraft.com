@@ -30,7 +30,7 @@ These are the available CRUD operations
 
 To understand how this works, we will use a simple App that shows all of these features in action.
 
-## In This Section:
+## In This Section
 
  - [CRUD on Local Instances](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-on-local-instances)
  - [Synopsis of Foreign CRUD Operations](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/synopsis)

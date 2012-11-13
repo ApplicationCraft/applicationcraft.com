@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [setSectionState()](/developers/documentation/scripting-apis/client-api/widget-object-functions/accordion/statesection)
     Allows you to set the section state (true - open, false - closed)

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [httpRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
     Calls an external Web Service with GET or POST, allowing extensive control and automatic data conversions

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
  - [Mobile Native App Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)

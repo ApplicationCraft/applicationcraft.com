@@ -12,7 +12,7 @@ Account Variables allow you to configure system and user level parameters as wel
 
 This is accessible only to those Users who have been granted Account rights within the User or Group section.
 
-## In This Section:
+## In This Section
 
  - [User Parameters](/developers/documentation/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
  - [SMTP Parameters](/developers/documentation/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/)

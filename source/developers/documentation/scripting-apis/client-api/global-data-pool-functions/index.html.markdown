@@ -8,7 +8,7 @@ full_width: true
 
 These functions allow values and entire instances to be saved outside the scope of an individual App. This is especially useful when switching between Apps with [switchApp()](/developers/documentation/scripting-apis/client-api/app-functions/switchapp) or as a way of passing data between Apps running within the same browser session.
 
-## In This Section:
+## In This Section
 
  - [setGlobalData()](/developers/documentation/scripting-apis/client-api/global-data-pool-functions/setglobaldata)
     Save any data to a variable that exists independent of all Apps

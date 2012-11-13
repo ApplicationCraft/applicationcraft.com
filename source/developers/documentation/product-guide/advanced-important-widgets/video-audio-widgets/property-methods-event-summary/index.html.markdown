@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Properties](/developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/properties)
  - [Events](/developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/videvents)

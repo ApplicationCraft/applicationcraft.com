@@ -10,7 +10,7 @@ Application Craft has its own error handling but it will not necessarily handle 
 
 As Application Craft is a pure Javascript system, you can also use try / catch.
 
-## In This Section:
+## In This Section
 
  - [Your own handler](/developers/documentation/scripting-apis/client-scripting-overview/error-handling/your-own-error-handler)
  - [Try / Catch](/developers/documentation/scripting-apis/client-scripting-overview/error-handling/try-catch)

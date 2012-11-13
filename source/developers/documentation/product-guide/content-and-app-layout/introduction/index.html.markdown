@@ -10,7 +10,7 @@ This section should be read by people building Content Sites as well as those bu
 
 Sorry we mention this a lot, but a really good way to learn how to build Apps is the [watch the videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) listed on the web site. These are short and to the point.
 
-## In This Section:
+## In This Section
 
  - [Creating a New Content App](/developers/documentation/product-guide/content-and-app-layout/introduction/creating-a-new-content-app)
  - [Designer Screen](/developers/documentation/product-guide/content-and-app-layout/introduction/designer-screen)

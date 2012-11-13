@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [getZingChartId()](/developers/documentation/scripting-apis/client-api/widget-object-functions/zing-chart/getzingchartid)
     Gets the unique id of the ZingChart widget

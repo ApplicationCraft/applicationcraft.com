@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Properties](/developers/documentation/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarproperties)
  - [Events](/developers/documentation/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents)

@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Must Read Layout Tips and Tricks](/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/must-read-layout-tips-and-tric)
  - [The Widget Explorer](/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/the-widget-explorer)

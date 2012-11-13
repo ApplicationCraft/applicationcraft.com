@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [Properties](/developers/documentation/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipeproperties)
  - [Events](/developers/documentation/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipeevents)

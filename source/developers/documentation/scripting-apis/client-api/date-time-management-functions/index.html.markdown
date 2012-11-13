@@ -8,7 +8,7 @@ full_width: true
 
 All Dates are stored as UTC objects, and to make this more accessible and usable, we have added some special functions
 
-## In This Section:
+## In This Section
 
  - [instanceGetRTZ()](/developers/documentation/scripting-apis/client-api/date-time-management-functions/instancegetrtz)
     Returns the RTZ (Reference Time Zone)

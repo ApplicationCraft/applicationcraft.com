@@ -26,7 +26,7 @@ The .where() function allows you to compose the entire string or to insert '?' t
 
 The exec() function returns the result set that can then be passed back to your callback function.
 
-## In This Section:
+## In This Section
 
  - [select()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select)
  - [select().from()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-from)

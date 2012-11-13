@@ -8,7 +8,7 @@ full_width: true
 
 Refer to the [Working with the Timeline Widget](/developers/documentation/product-guide/advanced-important-widgets/working-with-the-timeline-widget/) section for general usage information.
 
-## In This Section:
+## In This Section
 
  - [fitData()](/developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/fitdata)
     Adjusts the date range of a Timeline widget to accommodate all events loaded into it

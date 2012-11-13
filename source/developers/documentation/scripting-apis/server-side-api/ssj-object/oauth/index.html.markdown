@@ -6,6 +6,6 @@ full_width: true
 ---
 
 
-## In This Section:
+## In This Section
 
  - [oAuthRequest()](/developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/oauthrequest)

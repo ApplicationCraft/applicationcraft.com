@@ -8,7 +8,7 @@ full_width: true
 
 If you want to build sites that run on different device types and screen sizes then it is critical that you understand the contents of this chapter. The concepts here are straightforward and logical but take a little time to master.
 
-## In This Section:
+## In This Section
 
  - [Understanding Containers](/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/understanding-containers)
  - [Absolute and Relative Layout](/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
