@@ -4,6 +4,26 @@ helpers VideoHelpers
 helpers TreeHelpers
 
 
+module DocsRedirect
+  class << self
+    def registered(app)
+      app.after_build do |builder|
+        rules = []
+        YAML::load(File.read("data/guide.yml"))['tree'].each do |data|
+          old = data['old_url'].split('?').last
+          rules << "if ($args = #{old}) {\n  rewrite ^ #{data['url']}? permanent;\n}"
+        end
+
+        builder.create_file 'build/docs_redirect.map', rules.join("\n")
+      end
+    end
+    alias :included :registered
+  end
+end
+::Middleman::Extensions.register(:docs_redirect, DocsRedirect)
+activate :docs_redirect
+
+
 ###
 # Compass
 ###
