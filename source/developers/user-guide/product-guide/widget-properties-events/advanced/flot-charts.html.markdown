@@ -95,7 +95,7 @@ Percent Width
 <td width="25">
 </td>
 <td width="780">
-For Flot Chart widget, where you can change the width of the container relative to the width of a parent container. Used in 'Relative Mode'. See [Absolute & Relative Positioning](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
+For Flot Chart widget, where you can change the width of the container relative to the width of a parent container. Used in 'Relative Mode'. See [Absolute & Relative Positioning](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
 
 </td>
 </tr>

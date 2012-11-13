@@ -49,7 +49,7 @@ On Adaptive Layout
 <td width="17">
 </td>
 <td width="747">
-It is called once whenever the App resizing triggers an Adaptive Layout rule. See [Adaptive Layout Event](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-event) .
+It is called once whenever the App resizing triggers an Adaptive Layout rule. See [Adaptive Layout Event](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-event) .
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ On Resize
 <td width="17">
 </td>
 <td width="747">
-Called whenever the browser resizes. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events) .
+Called whenever the browser resizes. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events) .
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ On Resize
 <td width="17">
 </td>
 <td width="747">
-Called whenever the browser resizes but is called on an App resize whenever a specific page is already shown. Allows the user to write page specific handling. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events) .
+Called whenever the browser resizes but is called on an App resize whenever a specific page is already shown. Allows the user to write page specific handling. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events) .
 
 </td>
 </tr>

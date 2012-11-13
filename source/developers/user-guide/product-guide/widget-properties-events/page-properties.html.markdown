@@ -97,7 +97,7 @@ Layout
 <td width="19">
 </td>
 <td width="765">
-Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
+Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Percent Width
 <td width="19">
 </td>
 <td width="765">
-Where you can change the width of the page relative to the size of the browser. Used in 'Relative Mode'. See [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
+Where you can change the width of the page relative to the size of the browser. Used in 'Relative Mode'. See [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
 
 </td>
 </tr>

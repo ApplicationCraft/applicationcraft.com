@@ -61,7 +61,7 @@ Layout
 <td width="22">
 </td>
 <td width="744">
-Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout)
+Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Sizes
 <td width="20">
 </td>
 <td width="745">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog)
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog)
 
 </td>
 </tr>

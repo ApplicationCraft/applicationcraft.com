@@ -24,7 +24,7 @@ Change the Repeat State drop-down to Repeat. Underneath, you will now see anothe
 
  - Exclude - the Widget will be repeated on all Pages by default unless specifically excluded in the Page list below
 
-Note: Widgets that are contained within other container widgets on a page cannot be repeated. Select the container widget that is on the 'page' to repeat. To identify the appropriate container see [Right Click Parent Container Selection](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/right-click-parent-container-s)
+Note: Widgets that are contained within other container widgets on a page cannot be repeated. Select the container widget that is on the 'page' to repeat. To identify the appropriate container see [Right Click Parent Container Selection](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/right-click-parent-container-s)
 
 Related Video:
 

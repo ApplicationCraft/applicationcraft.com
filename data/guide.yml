@@ -213,30 +213,30 @@ tree:
       title: Responsive / Adaptive / Fluid Design
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?understanding_containers.htm',
-        title: Understanding Containers, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/understanding-containers}
+        title: Understanding Containers, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/understanding-containers}
       - {old_url: '/revisions/current/docs/user-guide/index.html?absolute_and_relative_layout.htm',
-        title: Absolute and Relative Layout, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/absolute-and-relative-layout}
+        title: Absolute and Relative Layout, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout}
       - {old_url: '/revisions/current/docs/user-guide/index.html?sizes_property_dialog.htm',
-        title: '''Sizes'' Property Dialog', url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/sizes-property-dialog}
+        title: '''Sizes'' Property Dialog', url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog}
       - {old_url: '/revisions/current/docs/user-guide/index.html?right_click_width_settings.htm',
-        title: Right Click Width Settings, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/right-click-width-settings}
+        title: Right Click Width Settings, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/right-click-width-settings}
       - {old_url: '/revisions/current/docs/user-guide/index.html?right_click_parent_container_s.htm',
-        title: Right Click Parent Container Selection, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/right-click-parent-container-s}
+        title: Right Click Parent Container Selection, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/right-click-parent-container-s}
       - {old_url: '/revisions/current/docs/user-guide/index.html?container_outlines.htm',
-        title: Container Outlines, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/container-outlines}
+        title: Container Outlines, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/container-outlines}
       - {old_url: '/revisions/current/docs/user-guide/index.html?margins.htm', title: Margins,
-        url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/margins}
+        url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/margins}
       - {old_url: '/revisions/current/docs/user-guide/index.html?aligning_widgets_inside_contai.htm',
-        title: Aligning Widgets Inside Containers, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/aligning-widgets-inside-contai}
+        title: Aligning Widgets Inside Containers, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/aligning-widgets-inside-contai}
       - {old_url: '/revisions/current/docs/user-guide/index.html?adaptive_layout_rules.htm',
-        title: Adaptive Layout Overview, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-rules}
+        title: Adaptive Layout Overview, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-rules}
       - {old_url: '/revisions/current/docs/user-guide/index.html?adaptive_layout_rule_definitio.htm',
-        title: Adaptive Layout Rule Definition, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-rule-definitio}
+        title: Adaptive Layout Rule Definition, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-rule-definitio}
       - {old_url: '/revisions/current/docs/user-guide/index.html?adaptive_layout_event.htm',
-        title: Adaptive Layout Event, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/adaptive-layout-event}
+        title: Adaptive Layout Event, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-event}
       - {old_url: '/revisions/current/docs/user-guide/index.html?resize_events.htm',
-        title: Resize Events, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events}
-      url: /developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design
+        title: Resize Events, url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events}
+      url: /developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design
     - old_url: /revisions/current/docs/user-guide/index.html?editing_and_laying_out.htm
       title: Editing and Laying Out - Reference
       tree:

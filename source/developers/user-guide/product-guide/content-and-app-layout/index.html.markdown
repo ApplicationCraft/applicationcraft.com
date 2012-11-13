@@ -10,7 +10,7 @@ full_width: true
 
  - [Introduction](/developers/user-guide/product-guide/content-and-app-layout/introduction/)
 
- - [Responsive / Adaptive / Fluid Design](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/)
+ - [Responsive / Adaptive / Fluid Design](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/)
 
  - [Editing and Laying Out - Reference](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/)
 

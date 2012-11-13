@@ -185,7 +185,7 @@ Displays a dialog box that prompts the visitor for input. See [showPrompt()](/de
 <td width="15">
 </td>
 <td width="759">
-Resizes the window by the specified pixels. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events)
+Resizes the window by the specified pixels. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events)
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ Resizes the window by the specified pixels. See [Resize Events](/developers/user
 <td width="15">
 </td>
 <td width="759">
-Resizes the window to the specified width and height. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-/-adaptive-/-fluid-design/resize-events)
+Resizes the window to the specified width and height. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events)
 
 </td>
 </tr>
