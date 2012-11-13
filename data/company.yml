@@ -3,5 +3,8 @@ submenu:
     text: About Us
     url: /company
   -
+    text: Team
+    url: /company/team
+  -
     text: Contact Us
-    url: /company/contact-us
+    url: /company/contact-us    
