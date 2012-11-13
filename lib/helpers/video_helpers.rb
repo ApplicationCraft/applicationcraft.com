@@ -48,6 +48,20 @@ module VideoHelpers
     end
   end
 
+  def video(id, options = {})
+    content_tag :div, :class => "video-thumb" do
+      content_tag :span do
+        content_tag :a, :class => 'fancybox fancybox.iframe',
+                        :href => "http://www.youtube.com/v/#{id}?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" do
+          tag :img, :src => "//i1.ytimg.com/vi/#{id}/default.jpg"
+        end
+      end
+      content_tag :span do
+        options[:time]
+      end
+    end
+  end
+
   # <section>
   #   <h3>
   #     <a href="http://www.youtube.com/v/56jct5SJLIo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&">Logging into the Console</a>

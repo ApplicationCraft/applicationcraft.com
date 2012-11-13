@@ -5,25 +5,24 @@ date: 2012-10-09
 tags: credit card, payments
 class_name: blog
 full_width: true
+image: blog/zooz-blog.png
 ---
 
 Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.
 
 It handles not just the payment but can also send detailed invoices. The money from the transaction is managed by Zooz and can be paid directly to your bank (most countries are supported) or to a Payoneer account.
 
-##Zooz
-
-![Mobile payments in your App](/img/blog/zooz-blog.png "Three simple steps for mobile and desktop payments in your App")
+## Zooz
 
 We have integrated Zooz into the Application Craft backend, so as a developer you can just get on with building an app and you don't have to worry about the deeper technical details. All you need to do is to sign up with Zooz, register your app within Zooz and you're ready to get started.
 
-##What the user sees ...
+## What the user sees ...
 
 ![](/img/blog/zooz-blog-2.png "Payments in your mobile or desktop app and invoice generated")
 
 At some point, a user will press a button within your app when s/he is ready to pay. At this point, a very nice 'n' easy screen will appear (see below) and credit card details are entered.  The user is then shown a confirmation screen (an app screen) and and invoice is sent.
 
-##What the developer does ...
+## What the developer does ...
 If you want full details on coding your payments app, please click to see the relevant section in the User Guide. For those not familiar with Application Craft yet, all code (client and server) is written in the browser based IDE and is regular javascript.
 
 This is a brief summary of how it works. [SSJ] means it is being executed as a server-side JavaScript.
@@ -34,16 +33,16 @@ This is a brief summary of how it works. [SSJ] means it is being executed as a s
   - [SSJ] Prepare the payment details
     You can prepare invoice details on the client but to be secure, it should be done on the server.
  
-  - [SSJ] Call ssj.zooz.payment()
+  - [SSJ] Call `ssj.zooz.payment()`
     This is where you initiate the payment process. Your code gets a token back which is passed back to the client.
  
-  - [Client] Call zoozStartCheckout()
+  - [Client] Call `zoozStartCheckout()`
     This initiates the actual payment process where the user will be asked to enter credit card details etc. You specify a callback function is called once it completes.
  
   - [Client] Call SSJ function to validate the transaction
     Your callback function should transfer control to an SSJ script where you validate the payment. You pass in the Zooz transaction id so it can be correctly validated.
  
-  - [SSJ] Call ssj.zooz.validate()
+  - [SSJ] Call `ssj.zooz.validate()`
     This is a final security measure to safeguard against hacking. If it returns true, then you know it is good to proceed with the order fulfillment. 
  
   - [Client] Tell user of success or failure
@@ -51,7 +50,7 @@ This is a brief summary of how it works. [SSJ] means it is being executed as a s
 
 The code samples below show how payments are handled. Click to see the relevant section in the User Guide if you want to copy and paste code.
  
-##Client-side code
+## Client-side code
 
     // This value was specified by you in your Zooz portal
     var AppId = 'com.yourdomain.yourpayment';

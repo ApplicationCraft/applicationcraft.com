@@ -5,6 +5,7 @@ date: 2012-10-22
 tags: ide, cloud, code editor
 class_name: blog
 full_width: true
+image: blog/blog-ide-worlds-first.png
 ---
 
 This morning I came across a question on Quora, that asked the question:
@@ -17,8 +18,6 @@ An IDE or Integrated Development Environment "is a software application that pro
 more than just a source code editor, and that building applications involves a lot more than just writing code.
 
 ##What is a Cloud Based IDE?
-
-![Application Craft IDE](/img/blog/blog-ide-worlds-first.png "Application Craft IDE for desktop and mobile apps") 
 
 A cloud based IDE is actually almost the same as a traditional IDE, except for one major thing; the entire enviroment is hosted and run in the Cloud. There is nothing to download or install, and no heavy desktop software to use.
  
