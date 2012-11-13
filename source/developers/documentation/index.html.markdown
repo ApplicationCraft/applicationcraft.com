@@ -11,7 +11,10 @@ The Application Craft User Guide with over 400 pages.
 ## [SCRIPTING & API GUIDE](/developers/documentation/scripting-apis)
 Client and Server Side Javascript API references and how-to's.
 
-## [AC MOBILE BUILD & PHONEGAP](/developers/documentation/ac-mobile-build-phonegap/cordova)
+## [API CHEAT SHEET](/developers/cheat-sheet)
+Contains a summary of all of the client and server-side API calls available for Application Craft powered apps.
+
+## [AC MOBILE BUILD & PHONEGAP](/developers/documentation/ac-mobile-build-phonegap)
 Everything you need to know about turning your AC and any other HTML5+CSS+JS app into a mobile app store ready binary.
 
 ## [EXTENDING AC](/developers/documentation/extending-ac)
