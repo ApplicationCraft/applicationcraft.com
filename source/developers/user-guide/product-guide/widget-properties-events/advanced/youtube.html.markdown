@@ -577,8 +577,6 @@ On Resize Stop
 ## See Also
 
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Video, Audio & YouTube Widget Methods](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/)
 

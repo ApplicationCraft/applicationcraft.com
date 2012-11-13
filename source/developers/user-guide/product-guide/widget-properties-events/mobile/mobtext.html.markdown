@@ -811,10 +811,7 @@ On Resize Stop
  - Mobile Widgets: [Text Area](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext-area)
 
  - Common Widgets: [Text](/developers/user-guide/product-guide/widget-properties-events/common/text) , [Text Area](/developers/user-guide/product-guide/widget-properties-events/common/text-area) , [Alpha Numeric](/developers/user-guide/product-guide/widget-properties-events/common/alpha-numeric) , [Numeric](/developers/user-guide/product-guide/widget-properties-events/common/numeric)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

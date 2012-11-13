@@ -493,8 +493,6 @@ On Resize Stop
 ## See Also
 
  - [Label (Common)](/developers/user-guide/product-guide/widget-properties-events/common/label)
-
  - [Label (Mobile)](/developers/user-guide/product-guide/widget-properties-events/mobile/moblabel)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 

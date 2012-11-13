@@ -20,7 +20,7 @@ You can also read/write to external databases
 
 Please refer to [CRUD in Detail](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/) for an in depth description..
 
-## **See Also**
+## See Also
 
  - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
 

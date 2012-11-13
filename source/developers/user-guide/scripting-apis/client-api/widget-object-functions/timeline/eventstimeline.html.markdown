@@ -38,12 +38,8 @@ In addition, there is the On Scroll event. This event is called whenever the tim
 ## See Also
 
  - [fitData()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/fitdata)
-
  - [scroll()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/scroll)
-
  - [scrollTo()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
-
  - [Working with the Timeline Widget](/developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
 

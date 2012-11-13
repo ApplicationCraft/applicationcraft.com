@@ -629,10 +629,7 @@ On Resize Stop
 ## See Also
 
  - [Label (Common)](/developers/user-guide/product-guide/widget-properties-events/common/label)
-
  - [HTML](/developers/user-guide/product-guide/widget-properties-events/common/html2)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

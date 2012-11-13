@@ -35,10 +35,7 @@ This example shows how, when data is loaded into the Repeater, it checks to see 
 ## See Also
 
  - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
-
  - [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
-
  - [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage)
 

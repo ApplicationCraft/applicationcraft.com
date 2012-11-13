@@ -99,7 +99,7 @@ There are some advanced parameters that are passed through to the SOAP library. 
 
 ## Example
 
-## **See Also**
+## See Also
 
  - [Wizard](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard)
 

@@ -42,7 +42,7 @@ How you can get a map coordinate from a specified address.
 
 Note that the returned coordinates are presented via a callback function.
 
-## **Example** 
+## Example 
 
     function getCoordsCallback(result, data) {
         if (result) {
@@ -58,13 +58,10 @@ Note that the returned coordinates are presented via a callback function.
      
    
 
-## **See Also**
+## See Also
 
  - [whereAmI()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami)
-
  - [getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress)
-
  - [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
-
  - [addCurrentLocation()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation)
 

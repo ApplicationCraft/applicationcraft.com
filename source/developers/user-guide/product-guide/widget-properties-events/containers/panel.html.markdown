@@ -778,7 +778,6 @@ On Resize Stop
 ## See Also
 
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
 Related Videos:

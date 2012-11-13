@@ -363,13 +363,9 @@ On App Terminate
 ## See Also
 
  - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
-
  - [parentApp()](/developers/user-guide/scripting-apis/client-api/app-functions/parentapp)
-
  - [childApp()](/developers/user-guide/scripting-apis/client-api/app-functions/childapp)
-
  - [Embedding apps within Apps](/developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 
 Related Video:

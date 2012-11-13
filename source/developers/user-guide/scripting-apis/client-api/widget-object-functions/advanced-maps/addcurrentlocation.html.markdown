@@ -28,7 +28,7 @@ Handles the location array and adds marker to the map, returning the google.maps
 
 Adds the current location of the user to the map
 
-## **Example**
+## Example
 
     function onLocationUpdated(res, data) {
        app.setValue("googleMapsAdvanced", (data)); 
@@ -39,13 +39,10 @@ Adds the current location of the user to the map
     }
    
 
-## **See Also**
+## See Also
 
  - [whereAmI()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami)
-
  - [getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress)
-
  - [getCoord()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord)
-
  - [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
 

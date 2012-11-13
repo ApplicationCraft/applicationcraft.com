@@ -40,7 +40,6 @@ This enables you to remove the highlighting from any fields in your App, normall
 ## See Also
 
  - [checkMandatory()](/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory)
-
  - [highlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets)
 
 Related Videos:

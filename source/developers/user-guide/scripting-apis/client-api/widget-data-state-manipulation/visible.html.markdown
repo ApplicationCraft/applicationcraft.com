@@ -50,9 +50,7 @@ This is a utility function that enables you to set the 'visible' property of one
 ## See Also
 
  - [enabled()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/enabled)
-
  - [readOnly()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/readonly)
-
  - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
 
 Related Videos:

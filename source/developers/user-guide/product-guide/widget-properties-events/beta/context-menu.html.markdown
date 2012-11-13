@@ -194,11 +194,9 @@ On Pre Show
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Popup Dropdown](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown)
-
  - [Popup Listbox](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-listbox)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

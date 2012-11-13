@@ -73,7 +73,6 @@ or
 ## See Also
 
  - [checkMandatory()](/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory)
-
  - [unhighlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/unhighlightwidgets)
 
 Related Videos:

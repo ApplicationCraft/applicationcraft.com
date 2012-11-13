@@ -68,5 +68,5 @@ error callback function.
 
 This function runs the provided SQL. If it is a SELECT statement an object is returned in the format of
 
-## **Example**
+## Example
 

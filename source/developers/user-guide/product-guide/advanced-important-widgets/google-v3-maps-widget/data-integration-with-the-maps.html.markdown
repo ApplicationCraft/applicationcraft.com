@@ -266,7 +266,7 @@ If you have data in an AC Query but you need to do some pre-processing before pa
 
  - use [populateWidget()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/using-populatewidget) to write the array into the Map widget
 
-## **See Also**
+## See Also
 
  - [MySQL, Postgres, Oracle etc.](/developers/user-guide/scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc)
 

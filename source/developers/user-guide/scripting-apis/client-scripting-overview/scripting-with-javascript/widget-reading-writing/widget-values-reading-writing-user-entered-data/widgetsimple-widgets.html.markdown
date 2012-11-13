@@ -37,8 +37,6 @@ Use app.getValue(WidgetName) to read the contents of any of these widgets
 ## See Also
 
  - [assign()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/assign)
-
  - [setValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refsetvalue)
-
  - [getValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refgetvalue)
 

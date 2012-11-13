@@ -38,10 +38,7 @@ This displays a debug message to the Debug Console Window of your Chrome, Firebu
 ## See Also
 
  - [Debugging](/developers/user-guide/product-guide/advanced-features/testing-apps/debugging)
-
  - [debugValues()](/developers/user-guide/scripting-apis/client-api/app-functions/debugvalues)
-
  - [debugData()](/developers/user-guide/scripting-apis/client-api/app-functions/debugdata)
-
  - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 

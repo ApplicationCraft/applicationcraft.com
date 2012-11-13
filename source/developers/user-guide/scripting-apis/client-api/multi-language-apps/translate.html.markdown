@@ -54,6 +54,5 @@ Performs string translations within your App. This is typically used if your app
 ## See Also
 
  - [Multi Language Apps](/developers/user-guide/product-guide/advanced-features/multi-language-apps/)
-
  - [language()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/language)
 

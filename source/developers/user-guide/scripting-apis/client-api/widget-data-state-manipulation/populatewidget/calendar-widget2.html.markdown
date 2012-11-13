@@ -78,7 +78,7 @@ Below are 2 hard-coded examples of an array of 2 events being populated into a [
 
 Note that you can map from any key name in your data array with the map object. You can omit any fields you don't need to populate.
 
-## **See Also**
+## See Also
 
  - [Calendar Widget](/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/)
 

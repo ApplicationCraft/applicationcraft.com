@@ -40,7 +40,7 @@ The radius of your circle (meters)
 
 A Circle can be drawn on the Map with a radius as well as line and fill properties.
 
-## **Example**
+## Example
 
     function handler_actionBtn11_onClick(mouseev){
          var circle = [[41.878113, -87.629798], 200000, "Title Text"];
@@ -52,7 +52,7 @@ A Circle can be drawn on the Map with a radius as well as line and fill properti
 
 **addCircle**
 
-## **See Also**
+## See Also
 
  - [Circles](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/circles)
 

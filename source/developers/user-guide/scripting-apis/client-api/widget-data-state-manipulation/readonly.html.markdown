@@ -51,8 +51,6 @@ This is a utility function that enables you to set the 'Read Only' property of o
 ## See Also
 
  - [visible()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/visible)
-
  - [enabled()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/enabled)
-
  - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
 

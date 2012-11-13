@@ -465,6 +465,5 @@ On Resize Stop
 ## See Also
 
  - Common Widgets: [Action Button](/developers/user-guide/product-guide/widget-properties-events/common/action-button) , [Fancy Button](/developers/user-guide/product-guide/widget-properties-events/common/fancy-button)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 

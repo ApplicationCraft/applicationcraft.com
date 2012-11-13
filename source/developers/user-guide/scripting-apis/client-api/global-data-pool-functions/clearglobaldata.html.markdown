@@ -31,8 +31,6 @@ When you call this function, all trace of the variable will be removed from the 
 ## See Also
 
  - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
-
  - [setGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/setglobaldata)
-
  - [getGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/getglobaldata)
 

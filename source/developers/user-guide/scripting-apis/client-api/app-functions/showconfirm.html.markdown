@@ -71,11 +71,8 @@ The example below shows how the response to the question is handled by the callb
 ## See Also
 
  - [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
-
  - [showPrompt()](/developers/user-guide/scripting-apis/client-api/app-functions/showprompt)
-
  - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
-
  - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 
 Related Videos:

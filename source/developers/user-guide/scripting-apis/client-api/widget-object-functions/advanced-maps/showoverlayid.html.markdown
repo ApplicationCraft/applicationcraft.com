@@ -28,7 +28,7 @@ The object name of the overlay to show
 
 How you can show a defined overlay
 
-## **Example**
+## Example
 
     function handler_actionBtn23_onClick(mouseev){
         app.w('googleMapsAdvanced').showOverlay(polylineObj);
@@ -37,19 +37,13 @@ How you can show a defined overlay
      
    
 
-## **See Also**
+## See Also
 
  - [Removing Overlays](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
-
  - [getOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlays)
-
  - [clearOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/clearoverlays)
-
  - [removeOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/removeoverlay)
-
  - [hideOverlay()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/hideoverlay)
-
  - [fitToOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fittooverlays)
-
  - [getOverlayObjById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlayobjbyidid)
 

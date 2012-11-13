@@ -31,6 +31,5 @@ This retrieves all the Workflow Stage information as an object. You can also ret
 ## See Also
 
  - [setStage()](/developers/user-guide/scripting-apis/client-api/workflow-functions/setstage)
-
  - [getEnvValue()](/developers/user-guide/scripting-apis/client-api/app-functions/getenvvalue)
 

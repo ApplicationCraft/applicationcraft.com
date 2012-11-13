@@ -12,13 +12,13 @@ full_width: true
 
 Where you can clear all markers added by [addMarker()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker)
 
-## **Example**
+## Example
 
     app.w('googleMapsAdvanced').clearMarkers();
      
    
 
-## **See Also**
+## See Also
 
  - [Removing Overlays](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

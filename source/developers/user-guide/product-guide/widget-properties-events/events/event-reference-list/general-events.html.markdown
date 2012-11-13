@@ -1039,11 +1039,9 @@ Called when barcode was not successfully read or if scan was canceled by user.
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Google V3 Map Events](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/gmapevents)
-
  - [Video and Audio Widget Events](/developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/videvents)
-
  - [Circle Menu Events](/developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/events2-2)
 

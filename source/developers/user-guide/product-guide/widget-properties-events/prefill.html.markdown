@@ -47,10 +47,7 @@ If you do not see the Parsed Resource as intended, 'Cancel' back to the previous
 ## See Also
 
  - [Listbox](/developers/user-guide/product-guide/widget-properties-events/common/listbox)
-
  - [Dropdown List](/developers/user-guide/product-guide/widget-properties-events/common/dropdown-list)
-
  - [Grid](/developers/user-guide/product-guide/widget-properties-events/advanced/grid)
-
  - [List](/developers/user-guide/product-guide/widget-properties-events/mobile/list)
 

@@ -17,15 +17,10 @@ An App Instance is a record of data. Please refer to the [Data Storage](/develop
 AC allows you to manage your App Instances using Javascript. The following functions are available
 
  - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
-
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
-
  - [instanceSync()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesync)
 
      

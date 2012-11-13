@@ -61,12 +61,10 @@ Relationships between any two Instances can also be created at any time using th
 You are now ready to perform CRUD operations such as
 
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 
-## **See Also**
+## See Also
 
  - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
 

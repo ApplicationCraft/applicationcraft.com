@@ -41,14 +41,9 @@ This debug function instructs AC to collect all properties of the specified Widg
 ## See Also
 
  - [Debugging](/developers/user-guide/product-guide/advanced-features/testing-apps/debugging)
-
  - [debugOutput()](/developers/user-guide/scripting-apis/client-api/app-functions/debugoutput)
-
  - [debugValues()](/developers/user-guide/scripting-apis/client-api/app-functions/debugvalues)
-
  - [debugData()](/developers/user-guide/scripting-apis/client-api/app-functions/debugdata)
-
  - [getProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/getproperty)
-
  - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
 

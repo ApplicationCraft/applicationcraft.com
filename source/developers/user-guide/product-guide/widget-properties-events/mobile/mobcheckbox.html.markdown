@@ -574,11 +574,10 @@ On Change
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Mobile Widgets: [Checkbox Group](/developers/user-guide/product-guide/widget-properties-events/mobile/checkbox-group) , [Radio Buttons Group](/developers/user-guide/product-guide/widget-properties-events/mobile/radiobuttonsgroup)
 
  - Common Widgets: [Checkbox](/developers/user-guide/product-guide/widget-properties-events/common/checkbox) , [Radio Button](/developers/user-guide/product-guide/widget-properties-events/common/radio-button)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

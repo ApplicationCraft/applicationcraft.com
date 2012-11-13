@@ -145,12 +145,8 @@ The Free account is suitable for 10,000 notifications but for larger volumes see
 ## In This Section:
 
  - [Google Cloud Messaging](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging)
-
  - [Apple App Id](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apple-app-id)
-
  - [Adding New Application Keys](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/adding-new-application)
-
  - [Configuring your app](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app)
-
  - [Sending Push Notifications to your apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to)
 

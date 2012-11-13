@@ -115,7 +115,7 @@ Video Cued
 </tr>
 </table>
 
-## **Example**
+## Example
 
      
     app.w('YouTube').getYouTubePlayer().state();

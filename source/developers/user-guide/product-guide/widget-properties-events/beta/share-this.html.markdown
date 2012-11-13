@@ -378,9 +378,8 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Share This Widget](/developers/user-guide/product-guide/advanced-important-widgets/share-this-widget/)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 

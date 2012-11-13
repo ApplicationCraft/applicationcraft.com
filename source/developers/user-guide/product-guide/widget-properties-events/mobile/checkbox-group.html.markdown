@@ -720,15 +720,12 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Mobile Widgets: [Checkbox](/developers/user-guide/product-guide/widget-properties-events/mobile/mobcheckbox) , [Radio Buttons Group](/developers/user-guide/product-guide/widget-properties-events/mobile/radiobuttonsgroup)
 
  - Common Widgets: [Checkbox](/developers/user-guide/product-guide/widget-properties-events/common/checkbox) , [Radio Button](/developers/user-guide/product-guide/widget-properties-events/common/radio-button)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

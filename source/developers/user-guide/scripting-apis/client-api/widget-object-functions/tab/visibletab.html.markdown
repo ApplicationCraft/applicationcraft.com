@@ -21,7 +21,7 @@ Please note that you cannot make a selected tab invisible.
      
    
 
-## **See Also**
+## See Also
 
  - [visible()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/visible)
 

@@ -94,20 +94,12 @@ This example synchronizes the contents of a Repeater Container with the database
 ## See Also
 
  - [instanceXxxx Callback functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function)
-
  - [CRUD in Detail](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/)
-
  - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
-
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave "instance")
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
  - [instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
-
  - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
-
  - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 

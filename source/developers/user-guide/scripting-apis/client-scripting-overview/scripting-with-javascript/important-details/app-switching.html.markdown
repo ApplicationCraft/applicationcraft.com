@@ -17,9 +17,7 @@ The Global Data Pool allows you to do exactly this with very little effort.
 Saving individual values is done with the following functions
 
  - [setGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/setglobaldata)
-
  - [getGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/getglobaldata)
-
  - [clearGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/clearglobaldata)
 
 and saving/restoring entire App instances is done with these

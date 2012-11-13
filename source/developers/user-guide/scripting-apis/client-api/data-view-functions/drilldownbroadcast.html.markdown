@@ -75,10 +75,7 @@ Please refer to the explanation provided in the previous [getViewData()](/develo
 ## See Also
 
  - [Reporting & Dashboards](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/) (good introduction to Views)
-
  - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
-
  - [drillDownBroadcast()](/developers/user-guide/scripting-apis/client-api/data-view-functions/drilldownbroadcast)
-
  - [bindViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/setviewcallback)
 

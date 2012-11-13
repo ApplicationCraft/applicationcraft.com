@@ -20,7 +20,7 @@ Once the Instance has been successfully saved, the App will not change appearanc
 
 You can also redirect to another Page in the App or to another URL using scripting.
 
-## **See Also**
+## See Also
 
  - [Page Functions](/developers/user-guide/scripting-apis/client-api/page-functions/)
 

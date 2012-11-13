@@ -15,12 +15,8 @@ IMPORTANT
 In many cases, you will want to manage your Instances using Javascript. The following commands are available within the [Instance](/developers/user-guide/scripting-apis/client-api/instance-data-functions/) chapter of the Javascript API Reference.
 
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
  - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
-
  - [instanceLoad(instanceID, onInstanceLoaded)](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
 

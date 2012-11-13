@@ -676,7 +676,7 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 

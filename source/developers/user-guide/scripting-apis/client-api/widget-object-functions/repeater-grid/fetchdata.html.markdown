@@ -55,11 +55,8 @@ If you are using a Repeater Container then you should be aware of the [drawNextP
 ## See Also
 
  - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
-
  - [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
-
  - [isAllDataDrawn()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 
 Related Videos:

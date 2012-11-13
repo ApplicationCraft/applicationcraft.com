@@ -51,7 +51,6 @@ There are examples in the [Reading & Writing App Data](/developers/user-guide/sc
  - [getData() for Listbox and Drop Down](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists-dropdowns) Widgets
 
  - [getData() for Grids](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) for populating Grids and Repeater Containers with JSON data
 
 Related Video:

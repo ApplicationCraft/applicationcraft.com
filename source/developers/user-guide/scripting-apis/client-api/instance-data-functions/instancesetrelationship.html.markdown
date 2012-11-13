@@ -109,11 +109,8 @@ Please refer to the [instanceXxxx() callback functions](/developers/user-guide/s
 ## See Also
 
  - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
-
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 
 Related Video:

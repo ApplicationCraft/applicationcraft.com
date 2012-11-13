@@ -12,7 +12,7 @@ Please note that the Twirly Thing will have no visible effect if used on the On 
 
 The [Display Hourglass Over](/developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/display-hourglass-over) property allows you to control how the [Twirly Thing](/developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/twirly-thing) is shown within your app. You can have it show over a Page in one part of your form, and over specific Widgets in other parts of the form.
 
-## **Example**
+## Example
 
 We have set the App [Twirly Thing](/developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/twirly-thing) properties and you can see in the preview area how it will look.
 

@@ -34,7 +34,7 @@ To enable consistent performance, we would recommend you use the Mobile & Deskto
 
 On lower-powered phones, the effects may not be great so bear this in mind before choosing to use any effects.
 
-## **See Also**
+## See Also
 
  - [Mobile Transition Mode](/developers/user-guide/product-guide/mobile-apps-sites/mobile-transition-mode)
 

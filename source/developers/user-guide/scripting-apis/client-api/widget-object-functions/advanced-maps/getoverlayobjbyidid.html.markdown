@@ -28,7 +28,7 @@ Returns the Google Maps API Overlay object
 
 Returns the Google Maps API Overlay object
 
-## **Example**
+## Example
 
      
     var circle = [[41.878113, -87.629798], 200000];
@@ -37,11 +37,9 @@ Returns the Google Maps API Overlay object
      
    
 
-## **See Also**
+## See Also
 
  - [Using getOverlays()](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays)
-
  - [getOverlays()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlays)
-
  - [Removing Overlays](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays)
 

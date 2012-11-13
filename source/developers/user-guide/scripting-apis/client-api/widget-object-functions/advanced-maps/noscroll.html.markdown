@@ -28,7 +28,7 @@ the value to set: true to disable scrolling/false to enable
 
 How you can enable/disable map scrolling
 
-## **Example**
+## Example
 
      
     app.w('googleMapsAdvanced').noScroll(true);        //disable scrolling/dragging

@@ -119,7 +119,6 @@ Please note: The highlighting is handled with CSS shadow. This is set to render 
 ## See Also
 
  - [highlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets)
-
  - [unhighlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/unhighlightwidgets)
 
 Related Videos:

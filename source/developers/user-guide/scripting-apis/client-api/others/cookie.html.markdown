@@ -66,7 +66,7 @@ You may need to set and get cookies for your Apps for all sorts of reasons. If y
 
 Please note that if you do not set an 'expire' duration in setting, the cookie will expire as soon as the app is closed
 
-## **Example**
+## Example
 
      
     function handler_actionBtn1_onClick(mouseev){

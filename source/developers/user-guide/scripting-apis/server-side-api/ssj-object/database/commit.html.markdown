@@ -23,6 +23,5 @@ See the example in [beginTransaction()](/developers/user-guide/scripting-apis/se
 ## See Also
 
  - [beginTransaction()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/begintransaction)
-
  - [rollback()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/rollback)
 

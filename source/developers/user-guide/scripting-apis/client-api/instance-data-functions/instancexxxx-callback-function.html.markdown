@@ -15,13 +15,9 @@ IMPORTANT
 This topic relates to the following functions
 
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
  - [instanceSync()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesync)
-
  - [instanceSetRelationship()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesetrelationship)
 
 Each of these functions supports two distinct callback functions

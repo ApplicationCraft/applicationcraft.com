@@ -45,9 +45,8 @@ Allows you to enter an email address to test your settings
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Workflow](/developers/user-guide/product-guide/advanced-features/workflow/)
-
  - [Notifications](/developers/user-guide/product-guide/account-management/notifications)
 

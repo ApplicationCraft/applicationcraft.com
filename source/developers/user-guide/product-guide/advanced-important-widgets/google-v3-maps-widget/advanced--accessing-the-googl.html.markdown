@@ -10,7 +10,7 @@ Our goal is to simplify the functionality of Google Maps for Application Craft u
 
 However, advanced users may want to access the underlying Google Maps object that we hide away from view. Accessing this is simple, as shown in the code snippet below.
 
-## **Example**
+## Example
 
     console.dir({map: app.w('googleMapsAdvanced').googleMap()});
      
@@ -39,9 +39,9 @@ However, advanced users may want to access the underlying Google Maps object tha
 
 Google Map Libraries can also be accessed by defining the libraries to load in the widget Libraries property
 
-## **Example**
+## Example
 
-## **See Also**
+## See Also
 
  - [googleMap()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/googlemap)
 

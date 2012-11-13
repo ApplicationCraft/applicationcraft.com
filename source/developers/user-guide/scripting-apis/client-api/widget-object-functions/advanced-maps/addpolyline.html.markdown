@@ -28,7 +28,7 @@ An array of lat/long pairs defining your Polyline points
 
 Polylines are formed as a set of latitude/longitude pairs. You can also control the visual properties.
 
-## **Example**
+## Example
 
     function handler_actionBtn7_onClick(mouseev){
           var polylinePath = [
@@ -42,7 +42,7 @@ Polylines are formed as a set of latitude/longitude pairs. You can also control 
     }
    
 
-## **See Also**
+## See Also
 
  - [Polylines](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polylines)
 

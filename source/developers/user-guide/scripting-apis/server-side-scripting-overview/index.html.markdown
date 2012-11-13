@@ -15,19 +15,12 @@ The most common usage of SSJ is to write your database layer. Application Craft 
 **In this Section:**
 
  - [Where to Write SSJ Scripts](/developers/user-guide/scripting-apis/server-side-scripting-overview/where-to-write-ssj-scripts)
-
  - [Database Handling with SSJ](/developers/user-guide/scripting-apis/server-side-scripting-overview/database-handling-with-ssj)
-
  - [Writing Secure Code](/developers/user-guide/scripting-apis/server-side-scripting-overview/writing-secure-code)
-
  - [SSJ Events](/developers/user-guide/scripting-apis/server-side-scripting-overview/ssj-events/)
-
  - [Defining SSJ Methods](/developers/user-guide/scripting-apis/server-side-scripting-overview/ssj-user-defined-methods)
-
  - [Including Public Server Side Scripts](/developers/user-guide/scripting-apis/server-side-scripting-overview/including-public-server-side-s)
-
  - [Calling SSJ Methods](/developers/user-guide/scripting-apis/server-side-scripting-overview/calling-ssj-methods)
-
  - [Debugging](/developers/user-guide/scripting-apis/server-side-scripting-overview/debugging2)
 
 Related Video:

@@ -153,21 +153,14 @@ Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/pHaov7DW4kM?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview [4:30]
 
-## **See Also**
+## See Also
 
  - [Widget Alignment](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-alignment-distribution)
-
  - [Equal Spacing](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-spacing)
-
  - [Equal Sizing](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-sizing)
-
  - [Equal Distribution](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-distribution)
-
  - [Widget Layer / Z-Order](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/layer-z-order)
-
  - [Tab Order](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/tab-order)
-
  - [Populate Widget Map Wizard](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/populatewidget-wizard)
-
  - [Web Test Wizard](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard)
 

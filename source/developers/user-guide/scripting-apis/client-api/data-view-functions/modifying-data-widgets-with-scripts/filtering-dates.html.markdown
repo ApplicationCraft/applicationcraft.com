@@ -31,6 +31,5 @@ This example shows how a Date Pickers is used in Range mode (Range property is t
 ## See Also
 
  - [Modifying Filters with a Script](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filters)
-
  - [DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db)
 

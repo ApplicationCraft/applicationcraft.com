@@ -35,12 +35,8 @@ The page events On Page Show will be called after showPagePopup() to allow you t
 ## See Also
 
  - [pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump)
-
  - [pageNext()](/developers/user-guide/scripting-apis/client-api/page-functions/pagenext)
-
  - [pagePrevious()](/developers/user-guide/scripting-apis/client-api/page-functions/pageprevious)
-
  - [pageBack()](/developers/user-guide/scripting-apis/client-api/page-functions/pageback)
-
  - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 

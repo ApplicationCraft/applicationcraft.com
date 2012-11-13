@@ -20,9 +20,7 @@ Having modified the Order By Property, you need to call [app.refreshData()](/dev
 ## See Also
 
  - [Expressions](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/the-expression-editor)
-
  - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
-
  - [Data View Related Events](/developers/user-guide/scripting-apis/client-api/data-view-functions/data-view-related-events)
 
 Related Video:

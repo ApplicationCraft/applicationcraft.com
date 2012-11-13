@@ -22,7 +22,7 @@ The following Application Craft events can be triggered by your device
 
  - On Back Button Press - the Android 'Back' button is pressed
 
-## **See Also**
+## See Also
 
  - [Mobile Native App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 

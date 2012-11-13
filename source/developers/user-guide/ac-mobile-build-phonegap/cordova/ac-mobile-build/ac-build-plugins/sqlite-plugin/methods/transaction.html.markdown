@@ -72,5 +72,5 @@ error callback function
 
 This function executes SQL transactions
 
-## **Example**
+## Example
 

@@ -69,14 +69,9 @@ The following example populates two widgets. The third widget does not exist but
 ## See Also
 
  - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
-
  - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
-
  - [dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues)
-
  - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
-
  - [SSJ database functions](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
-
  - [Instance Data Functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/)
 

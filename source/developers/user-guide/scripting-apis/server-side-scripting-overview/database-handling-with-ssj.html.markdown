@@ -21,6 +21,5 @@ Application Craft provides a set of SSJ methods that make writing your own datab
 Please refer to the following sections for full details
 
  - [Overview and Tutorial](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
-
  - [SSJ API methods](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/)
 

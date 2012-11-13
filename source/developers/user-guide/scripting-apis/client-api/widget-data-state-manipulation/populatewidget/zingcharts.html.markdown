@@ -29,7 +29,7 @@ This example shows how you can have data in an array and populate it into line c
          app.populateWidget('ZingChart', data, map);
    
 
-## **See Also**
+## See Also
 
  - [Adding Data from Javascript](/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/adding-data-from-javascript2)
 

@@ -52,7 +52,7 @@ Specify the longitude of the address to return
 
 How you can get an address from either specific lat/lng coordinates or from your current location. Also by omitting the coordinate parameters, Application Craft returns the address of your current location
 
-## **Example** 
+## Example 
 
     function getAddressCallback(res, data) {
         alert("Address : " + data[0].formatted_address);
@@ -66,13 +66,10 @@ How you can get an address from either specific lat/lng coordinates or from your
     }
    
 
-## **See Also**
+## See Also
 
  - [whereAmI()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami)
-
  - [getCoord()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord)
-
  - [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
-
  - [addCurrentLocation()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation)
 

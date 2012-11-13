@@ -43,6 +43,5 @@ Gets the value of a User Parameter for the currently logged on user. You need to
 ## See A l so
 
  - [User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
-
  - [userParameterSet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterset)
 

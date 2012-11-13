@@ -41,8 +41,6 @@ Note: We are planning to add Percent Height as a new widget property shortly
 ## See Also
 
  - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
-
  - ['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog)
-
  - [Adaptive Layout Rule Definition](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-rule-definitio)
 

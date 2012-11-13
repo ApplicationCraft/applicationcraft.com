@@ -43,10 +43,7 @@ Note that you should use debugValues() for data entry or listbox, repeater or li
 ## See Also
 
  - [Debugging](/developers/user-guide/product-guide/advanced-features/testing-apps/debugging)
-
  - [debugOutput()](/developers/user-guide/scripting-apis/client-api/app-functions/debugoutput)
-
  - [debugValues()](/developers/user-guide/scripting-apis/client-api/app-functions/debugvalues)
-
  - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 

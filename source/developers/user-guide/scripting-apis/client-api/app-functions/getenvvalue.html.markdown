@@ -33,7 +33,6 @@ Environment information is sometimes useful if you want your App to be able to i
  - [Session.Id] - the ID of the browser session
 
  - [Instance.Id] = the ID of currently running Instance (must have been saved to have an Instance ID)
-
  - [User.Login] - the authenticated user's Login name, usually an email address
 
  - [User.Id] - this is a globally unique id of the authenticated user
@@ -43,7 +42,6 @@ Environment information is sometimes useful if you want your App to be able to i
  - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/) .
 
 **Workflow** See also: [Workflow Functions](/developers/user-guide/scripting-apis/client-api/workflow-functions/)
-
  - [Stage.Id] - this is the Id of the Stage of your App
 
  - [Stage.Name] - this is the Name of the Stage of your App
@@ -52,7 +50,7 @@ Environment information is sometimes useful if you want your App to be able to i
 
  - [Stage.Description] - this is the Description of the Stage of your App.
 
-## **Example**
+## Example
 
     app.getEnvValue("[User.Login]"); //get the authenticated users Login 
     var myUrl = app.getInstanceURL(app.getEnvValue("[Instance.Id]")); //get the Instance URL
@@ -61,6 +59,5 @@ Environment information is sometimes useful if you want your App to be able to i
 ## See Also
 
  - [userParameterGet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterget)
-
  - [Custom User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
 

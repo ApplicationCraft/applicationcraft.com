@@ -12,7 +12,7 @@ If you wish to change the default settings use the Twirly Thing Options app prop
 
 The 'twirly thing' can also be handed programmatically using [app.twirlyThing()](/developers/user-guide/scripting-apis/client-api/app-functions/twirlything) . If the optional text, optional textColor, optional bgColor or optional opacity settings are not used, the app Twirly Thing Options properties will be used.
 
-## **See Also**
+## See Also
 
  - [twirlyThing()](/developers/user-guide/scripting-apis/client-api/app-functions/twirlything)
 

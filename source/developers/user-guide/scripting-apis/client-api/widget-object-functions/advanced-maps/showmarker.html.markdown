@@ -28,7 +28,7 @@ True if Marker is shown, false if Marker is not shown
 
 Allows you to show/hide the map's base coordinate marker. The following example shows how you can toggle to show/hide the marker as a button is clicked
 
-## **Example**
+## Example
 
     function handler_actionBtn16_onClick(mouseev){
         var showMarker = app.w('googleMapsAdvanced').showMarker();

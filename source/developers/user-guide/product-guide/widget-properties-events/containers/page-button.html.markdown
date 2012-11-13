@@ -431,13 +431,10 @@ This refers to the [Theme entry](/developers/user-guide/product-guide/content-an
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
-
  - [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata)
-
  - [isAllDataDrawn()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn)
-
  - [select().limit()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-limit)
 

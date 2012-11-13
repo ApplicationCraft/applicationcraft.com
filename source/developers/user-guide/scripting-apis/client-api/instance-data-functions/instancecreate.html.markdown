@@ -134,22 +134,13 @@ The next example specifies the Container Widget as the first parameter, so AC wi
 ## See Also
 
  - [instanceXxxx Callback functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function)
-
  - [Using AC App Storage](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/)
-
  - [Using External Databases](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/)
-
  - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
  - [instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
-
  - [instanceSync()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesync)
-
  - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
-
  - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
 

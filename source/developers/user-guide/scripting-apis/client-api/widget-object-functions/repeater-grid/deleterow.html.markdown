@@ -51,12 +51,8 @@ And this shows a typical example of a Delete button being pressed in a Repeater 
 ## See Also
 
  - [deleteRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
-
  - [deleteRowById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterowbyid)
-
  - [deleteSelectedRows()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows)
-
  - [insertRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
-
  - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

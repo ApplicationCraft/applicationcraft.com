@@ -35,7 +35,6 @@ The Drill Down Filter is affected by all Widgets whose Broadcast property is set
 ## See Also
 
  - [Must Read Chart Reference](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/chart-reference)
-
  - [Drilling Down](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/drilling-down)
 
 Related Video:

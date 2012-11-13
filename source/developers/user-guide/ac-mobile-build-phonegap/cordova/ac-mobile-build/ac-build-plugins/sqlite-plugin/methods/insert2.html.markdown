@@ -72,7 +72,7 @@ error callback function.
 
 This function inserts a row into the database.
 
-## **Example**
+## Example
 
     db.insert("test", { id_user : 100, name : "Username" }, function(id){ 
         console.log("id="+id); 

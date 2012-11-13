@@ -19,6 +19,5 @@ Once signed it, the Authentication App knows to redirect back to the App that re
 ## See Also
 
  - [Sign In](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/sign-in)
-
  - [Sign Up](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/sign-up)
 

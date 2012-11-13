@@ -13,11 +13,8 @@ A Grid is essentially a spreadsheet type Widget, A Repeater, however, lets the u
 We recommend reading the sections on Grids and Repeater Containers to properly understand how to work with them. They do not work in the same way.
 
  - [Reading and Writing user selections and values in Grids](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
-
  - [Reading and Writing user selections and values in Repeater Containers](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/repeater-containers)
-
  - [Reading and Writing Grid content](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
-
  - [Reading and Writing Repeater Container content](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentrepeater-containers)
 
 The image below shows a Repeater Container being configured in the Designer.
@@ -31,6 +28,5 @@ And this image, below, shows the page running and populated with data,
 ## See Also
 
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
-
  - [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata)
 

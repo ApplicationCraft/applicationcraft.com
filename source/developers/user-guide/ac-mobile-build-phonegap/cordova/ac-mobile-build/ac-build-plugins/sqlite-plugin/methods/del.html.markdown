@@ -93,5 +93,5 @@ This function is used to delete rows from  the database
      
    
 
-## **Example**
+## Example
 

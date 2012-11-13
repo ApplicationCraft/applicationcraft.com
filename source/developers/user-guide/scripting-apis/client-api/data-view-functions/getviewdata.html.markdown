@@ -175,11 +175,8 @@ This example shows simple usage. It is getting two fields from a database and th
 ## See Also
 
  - [Reporting & Dashboards](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/) (good introduction to Views)
-
  - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
-
  - [drillDownBroadcast()](/developers/user-guide/scripting-apis/client-api/data-view-functions/drilldownbroadcast)
-
  - [bindViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/setviewcallback)
 
 Related Video:

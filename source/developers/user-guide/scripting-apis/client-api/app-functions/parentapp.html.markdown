@@ -24,11 +24,8 @@ A typical example would be to include an App as a cross-app menu bar. It can be 
 ## See Also
 
  - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
-
  - [childApp()](/developers/user-guide/scripting-apis/client-api/app-functions/childapp)
-
  - [Embedding Apps within Apps](/developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/)
-
  - [Embed App Widget](/developers/user-guide/product-guide/widget-properties-events/advanced/embed-app)
 
 Related Video:

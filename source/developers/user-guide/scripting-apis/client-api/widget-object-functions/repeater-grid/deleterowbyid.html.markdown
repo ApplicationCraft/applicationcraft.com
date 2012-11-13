@@ -33,10 +33,7 @@ Populating Grids with Id values is [described here](/developers/user-guide/scrip
 ## See Also
 
  - [deleteRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
-
  - [deleteSelectedRows()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows)
-
  - [insertRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
-
  - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

@@ -89,7 +89,7 @@ The events "On Mouse Leave" & "On Mouse Enter" are called when you hover above t
 
 If you want to access the internal events (very rare that you would want to) you can find details at [http://www.zingchart.com/learn/api/events.php](http://www.zingchart.com/learn/api/events.php) . In general, you are advised to stick with the Application Craft events.
 
-## **Example**
+## Example
 
 This event will be called for the all ZingChart widgets in the current app.
 

@@ -883,12 +883,8 @@ On Resize Stop
  - Advanced Widgets: [Mask Edit](/developers/user-guide/product-guide/widget-properties-events/advanced/mask-edit)
 
  - Mobile Widgets: [Text](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext) , [Text Area](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext-area)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

@@ -824,15 +824,12 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Mobile Widgets: [Text](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext)
 
  - Common Widgets: [Text Area](/developers/user-guide/product-guide/widget-properties-events/common/text-area) , [Text](/developers/user-guide/product-guide/widget-properties-events/common/text)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

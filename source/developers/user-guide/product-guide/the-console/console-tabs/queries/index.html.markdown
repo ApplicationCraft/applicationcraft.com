@@ -164,10 +164,9 @@ Generate a Data URL for your query. For use with Reporting - coming soon
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Data Lists Management](/developers/user-guide/product-guide/advanced-features/data-lists-management/)
-
  - [Database Handling with SSJ](/developers/user-guide/scripting-apis/server-side-scripting-overview/database-handling-with-ssj)
 
 ##Related Video

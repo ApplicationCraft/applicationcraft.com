@@ -182,10 +182,7 @@ for example 'DOW, Month D Y TZ'
 ## See Also
 
  - [dtNewDate()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtnewdate)
-
  - [dtadd()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadd)
-
  - [dtDifference()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdifference)
-
  - [dtAdjust()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadjust)
 

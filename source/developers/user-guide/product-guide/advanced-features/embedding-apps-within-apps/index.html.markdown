@@ -11,10 +11,7 @@ A useful feature is to be able to embed one App within another. This is very eas
 ## See Also
 
  - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
-
  - [parentApp()](/developers/user-guide/scripting-apis/client-api/app-functions/parentapp)
-
  - [childApp()](/developers/user-guide/scripting-apis/client-api/app-functions/childapp)
-
  - [Embed App Widget](/developers/user-guide/product-guide/widget-properties-events/advanced/embed-app)
 

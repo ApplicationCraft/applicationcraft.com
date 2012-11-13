@@ -901,10 +901,7 @@ On Area Mouse Leave
 ## See Also
 
  - [Image Maps and Emoticons](/developers/user-guide/product-guide/advanced-important-widgets/image-maps-and-emoticons/)
-
  - [Sliders](/developers/user-guide/product-guide/widget-properties-events/advanced/sliders#general)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

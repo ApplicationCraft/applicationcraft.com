@@ -40,16 +40,15 @@ Gets the video quality for the current video. Available parameters
 
 Gets the Playback Quality for a You Tube Video.
 
-## **Example**
+## Example
 
      
     app.w('YouTube').getYouTubePlayer().getPlaybackQuality();
      
    
 
-## **See Also**
+## See Also
 
  - [setPlaybackQuality()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/setplaybackquality)
-
  - [getAvailableQualityLevels()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getavailablequalitylevels)
 

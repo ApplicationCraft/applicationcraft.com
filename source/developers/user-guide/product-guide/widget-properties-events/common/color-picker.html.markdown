@@ -664,6 +664,5 @@ On Data Reset
 ## See Also
 
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

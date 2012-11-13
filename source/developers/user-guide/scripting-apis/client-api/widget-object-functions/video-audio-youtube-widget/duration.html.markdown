@@ -30,7 +30,7 @@ Returns the duration in seconds of the currently playing video. Note that durati
 
 If the currently playing video is a live event, the duration() function will return the elapsed time since the live video stream began. Specifically, this is the amount of time that the video has streamed without being reset or interrupted. In addition, this duration is commonly longer than the actual event time since streaming may begin before the event's start time.
 
-## **Example**
+## Example
 
      
     app.w('YouTube').getYouTubePlayer().duration();

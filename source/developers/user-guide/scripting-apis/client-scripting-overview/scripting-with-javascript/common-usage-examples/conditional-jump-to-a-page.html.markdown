@@ -26,10 +26,7 @@ You should also refer to [Interacting with Widgets](/developers/user-guide/scrip
 ## See also
 
  - [pageJump()](/developers/user-guide/scripting-apis/client-api/page-functions/pagejump)
-
  - [pageNext()](/developers/user-guide/scripting-apis/client-api/page-functions/pagenext)
-
  - [pagePrevious()](/developers/user-guide/scripting-apis/client-api/page-functions/pageprevious)
-
  - [PageCalling()](/developers/user-guide/scripting-apis/client-api/page-functions/pagecalling)
 

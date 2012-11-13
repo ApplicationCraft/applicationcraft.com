@@ -479,10 +479,7 @@ On Resize Stop
 ## See Also
 
  - [Photoswipe](/developers/user-guide/product-guide/advanced-important-widgets/photoswipe/)
-
  - [Image](/developers/user-guide/product-guide/widget-properties-events/common/image)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Photoswipe Object Functions](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/)
 

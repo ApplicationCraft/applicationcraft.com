@@ -628,13 +628,11 @@ On Data Loaded
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Mobile Widgets: [Popup Dropdown](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown)
 
  - Common Widgets: [Listbox](/developers/user-guide/product-guide/widget-properties-events/common/listbox) , [Dropdown List](/developers/user-guide/product-guide/widget-properties-events/common/dropdown-list)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

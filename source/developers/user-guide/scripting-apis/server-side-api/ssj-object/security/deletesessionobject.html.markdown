@@ -37,8 +37,6 @@ See the [setSessionObject()](/developers/user-guide/scripting-apis/server-side-a
 ## See Also
 
  - [Security and Server Side Javascript](/developers/user-guide/scripting-apis/server-side-scripting-overview/writing-secure-code)
-
  - [setSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/setsessionobject)
-
  - [getSessionObject()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/getsessionobject)
 

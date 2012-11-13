@@ -60,7 +60,7 @@ Google offers a very nice [style wizard](http://gmaps-samples-v3.googlecode.com/
 
 **mapStyles**
 
-## **See Also**
+## See Also
 
  - [Map Styles](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles)
 

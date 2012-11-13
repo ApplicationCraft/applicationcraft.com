@@ -808,13 +808,10 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Circular Menu Widget](/developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
