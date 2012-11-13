@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="148">
-**Data Events**
+  <strong>Data Events</strong>
 
 </td>
 <td width="15">
@@ -51,7 +51,7 @@ This is called when some action occurs, such as a drill-down, that causes a Widg
 </tr>
 <tr>
 <td width="148">
-**ZingChart**
+  <strong>ZingChart</strong>
 
 </td>
 <td width="15">
@@ -81,7 +81,7 @@ Called when the chart has completed loading its data
 </tr>
 <tr>
 <td width="148">
-**Circle Menu**
+  <strong>Circle Menu</strong>
 
 </td>
 <td width="15">

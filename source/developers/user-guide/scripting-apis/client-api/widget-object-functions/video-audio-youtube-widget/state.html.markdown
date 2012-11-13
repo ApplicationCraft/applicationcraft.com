@@ -31,13 +31,13 @@ When the player first loads a video, it will broadcast an unstarted (-1) event. 
 <table>
 <tr>
 <td width="226">
-**Value**
+  <strong>Value</strong>
 
 </td>
 <td width="10">
 </td>
 <td width="644">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>

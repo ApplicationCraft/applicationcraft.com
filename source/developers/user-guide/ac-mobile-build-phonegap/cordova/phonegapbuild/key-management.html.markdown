@@ -27,7 +27,7 @@ e.g.
 <table>
 <tr>
 <td width="148">
-**iOS**
+  <strong>iOS</strong>
 
 </td>
 <td width="15">
@@ -39,7 +39,7 @@ Application failed codesign verification
 </tr>
 <tr>
 <td width="148">
-**Android**
+  <strong>Android</strong>
 
 </td>
 <td width="15">

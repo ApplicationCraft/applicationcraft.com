@@ -17,7 +17,7 @@ All Queries are stored in the standard [Private/Shared/Public](/developers/user-
 <table>
 <tr>
 <td width="126">
-**General**
+  <strong>General</strong>
 
 </td>
 <td width="16">
@@ -51,7 +51,7 @@ This is the Unique Identifier of the Query.
 </tr>
 <tr>
 <td width="126">
-**Sharing**
+  <strong>Sharing</strong>
 
 </td>
 <td width="16">

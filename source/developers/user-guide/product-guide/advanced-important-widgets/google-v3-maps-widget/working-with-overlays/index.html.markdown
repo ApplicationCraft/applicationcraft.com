@@ -13,17 +13,17 @@ Below is the list of available types and their type values and the corresponding
 <table>
 <tr>
 <td width="182">
-**Overlay Object Type**
+  <strong>Overlay Object Type</strong>
 
 </td>
 <td width="8">
 </td>
 <td width="85">
-**Value**
+  <strong>Value</strong>
 
 </td>
 <td width="301">
-**Function Name**
+  <strong>Function Name</strong>
 
 </td>
 </tr>

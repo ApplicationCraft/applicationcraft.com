@@ -774,7 +774,7 @@ Repeater:
 <table>
 <tr>
 <td width="149">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="18">
@@ -823,7 +823,7 @@ Repeater Container:
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="17">

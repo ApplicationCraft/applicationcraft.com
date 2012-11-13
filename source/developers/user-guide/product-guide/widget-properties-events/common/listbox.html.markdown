@@ -690,7 +690,7 @@ Specify the color of selected item(s)
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

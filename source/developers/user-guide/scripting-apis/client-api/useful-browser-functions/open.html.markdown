@@ -33,13 +33,13 @@ Note: If you are running as native app be aware that older version of Android wi
 <table>
 <tr>
 <td width="142">
-**Parameter**
+  <strong>Parameter</strong>
 
 </td>
 <td width="15">
 </td>
 <td width="723">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>

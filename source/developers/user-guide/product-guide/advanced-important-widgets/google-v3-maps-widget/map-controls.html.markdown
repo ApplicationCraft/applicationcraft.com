@@ -35,13 +35,13 @@ Explore this object with the debugger to see available settings. The following t
 <table>
 <tr>
 <td width="202">
-**Object Name**
+  <strong>Object Name</strong>
 
 </td>
 <td width="15">
 </td>
 <td width="418">
-**Available Keys**
+  <strong>Available Keys</strong>
 
 </td>
 </tr>

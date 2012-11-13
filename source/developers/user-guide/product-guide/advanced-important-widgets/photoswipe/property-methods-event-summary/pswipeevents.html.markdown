@@ -11,7 +11,7 @@ This section list only Events specific to the Photoswipe Widget. For the common 
 <table>
 <tr>
 <td width="254">
-**General Events**
+  <strong>General Events</strong>
 
 </td>
 <td width="25">

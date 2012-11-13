@@ -324,7 +324,7 @@ Select the background color of the widget
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 </tr>

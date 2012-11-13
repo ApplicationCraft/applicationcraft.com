@@ -51,13 +51,13 @@ The list below shows the playback quality levels that correspond to different st
 <table>
 <tr>
 <td width="121">
-**Quality Level**
+  <strong>Quality Level</strong>
 
 </td>
 <td width="16">
 </td>
 <td width="1201">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>

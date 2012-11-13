@@ -39,7 +39,7 @@ Description
 </tr>
 <tr>
 <td width="151">
-**id**
+  <strong>id</strong>
 
 </td>
 <td width="14">
@@ -51,7 +51,7 @@ The text ID of the overlay object that will get created. Use this to identify th
 </tr>
 <tr>
 <td width="151">
-**type**
+  <strong>type</strong>
 
 </td>
 <td width="14">
@@ -63,7 +63,7 @@ This value indicates the type of overlay to be created (see table below this one
 </tr>
 <tr>
 <td width="151">
-**coords**
+  <strong>coords</strong>
 
 </td>
 <td width="14">
@@ -75,7 +75,7 @@ A string representing coordinates. A single coordinate is represented as "lat, l
 </tr>
 <tr>
 <td width="151">
-**radius**
+  <strong>radius</strong>
 
 </td>
 <td width="14">
@@ -87,7 +87,7 @@ The radius of a circle in meters
 </tr>
 <tr>
 <td width="151">
-**strokeColor**
+  <strong>strokeColor</strong>
 
 </td>
 <td width="14">
@@ -99,7 +99,7 @@ Color of the line defining the overlay in hex format
 </tr>
 <tr>
 <td width="151">
-**strokeWeight**
+  <strong>strokeWeight</strong>
 
 </td>
 <td width="14">
@@ -111,7 +111,7 @@ Thickness of the line defining the overlay in pixels
 </tr>
 <tr>
 <td width="151">
-**strokeOpacity**
+  <strong>strokeOpacity</strong>
 
 </td>
 <td width="14">
@@ -123,7 +123,7 @@ Thickness of the line defining the overlay in pixels
 </tr>
 <tr>
 <td width="151">
-**fillColor**
+  <strong>fillColor</strong>
 
 </td>
 <td width="14">
@@ -135,7 +135,7 @@ The color of the inside or fill area of the overlay in hex
 </tr>
 <tr>
 <td width="151">
-**fillOpacity**
+  <strong>fillOpacity</strong>
 
 </td>
 <td width="14">
@@ -147,7 +147,7 @@ The color of the inside or fill area of the overlay in hex
 </tr>
 <tr>
 <td width="151">
-**mouseOverHTML**
+  <strong>mouseOverHTML</strong>
 
 </td>
 <td width="14">
@@ -159,7 +159,7 @@ HTML displayed as a popup when the user moves the mouse over a marker
 </tr>
 <tr>
 <td width="151">
-**onClickHTML**
+  <strong>onClickHTML</strong>
 
 </td>
 <td width="14">
@@ -171,7 +171,7 @@ HTML displayed as a popup when the user clicks a marker
 </tr>
 <tr>
 <td width="151">
-**markerImageURL**
+  <strong>markerImageURL</strong>
 
 </td>
 <td width="14">
@@ -186,13 +186,13 @@ Alternative Image URL of the marker
 <table>
 <tr>
 <td width="182">
-**Overlay Object Type**
+  <strong>Overlay Object Type</strong>
 
 </td>
 <td width="8">
 </td>
 <td width="85">
-**Value**
+  <strong>Value</strong>
 
 </td>
 </tr>

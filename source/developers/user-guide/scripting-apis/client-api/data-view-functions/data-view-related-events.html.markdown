@@ -11,19 +11,19 @@ There are some handy events that are called when things happen with Data Views
 <table>
 <tr>
 <td width="129">
-**Widget Type**
+  <strong>Widget Type</strong>
 
 </td>
 <td width="10">
 </td>
 <td width="259">
-**Event Name**
+  <strong>Event Name</strong>
 
 </td>
 <td width="12">
 </td>
 <td width="1126">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>
@@ -35,7 +35,7 @@ There are some handy events that are called when things happen with Data Views
 <td width="10">
 </td>
 <td width="259">
-**onDrillDown** (viewName, widgetId, filters, resetFlag)
+  <strong>onDrillDown</strong> (viewName, widgetId, filters, resetFlag)
 
 </td>
 <td width="12">
@@ -53,7 +53,7 @@ Grid, Repeater
 <td width="10">
 </td>
 <td width="259">
-**onRowLoaded** (index, createdRow)
+  <strong>onRowLoaded</strong> (index, createdRow)
 
 </td>
 <td width="12">
@@ -71,7 +71,7 @@ All Data Enabled Widgets
 <td width="10">
 </td>
 <td width="259">
-**onDataLoaded** (error, data)
+  <strong>onDataLoaded</strong> (error, data)
 
 </td>
 <td width="12">
@@ -87,7 +87,7 @@ This is called once data has been fully loaded to  When a widget is in a contai
 <td width="10">
 </td>
 <td width="259">
-**onDataReset** ()
+  <strong>onDataReset</strong> ()
 
 </td>
 <td width="12">

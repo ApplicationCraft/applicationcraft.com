@@ -404,7 +404,7 @@ Enter the % width for each column in the thumbnail view
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 </tr>

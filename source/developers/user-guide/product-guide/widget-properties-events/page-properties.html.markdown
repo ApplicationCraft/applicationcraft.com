@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="191">
-**General**
+  <strong>General</strong>
 
 </td>
 <td width="19">
@@ -124,7 +124,7 @@ If you want your GA tracking to be javascript free, then you can set the 'Google
 </tr>
 <tr>
 <td width="191">
-**Layout**
+  <strong>Layout</strong>
 
 </td>
 <td width="19">
@@ -167,7 +167,7 @@ true/false. Select true for the page to expand (if necessary) to browser height
 </tr>
 <tr>
 <td width="191">
-**Behavior**
+  <strong>Behavior</strong>
 
 </td>
 <td width="19">
@@ -204,7 +204,7 @@ Post Rendering - The target page will be loaded and while the content is rendere
 </tr>
 <tr>
 <td width="191">
-**Style**
+  <strong>Style</strong>
 
 </td>
 <td width="19">
@@ -378,7 +378,7 @@ This indicates which Page Style should be used within the Theme. A Theme allows 
 </tr>
 <tr>
 <td width="191">
-**Grid**
+  <strong>Grid</strong>
 
 </td>
 <td width="19">
@@ -415,7 +415,7 @@ The size, in pixels, of the Grid as used by the Snap to grid feature and propert
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

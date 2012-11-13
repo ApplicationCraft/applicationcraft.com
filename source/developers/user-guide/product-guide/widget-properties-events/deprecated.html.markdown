@@ -11,7 +11,7 @@ Widgets in this section will be deprecated in the near future. They are retained
 <table>
 <tr>
 <td width="190">
-**Widget**
+  <strong>Widget</strong>
 
 </td>
 <td width="13">

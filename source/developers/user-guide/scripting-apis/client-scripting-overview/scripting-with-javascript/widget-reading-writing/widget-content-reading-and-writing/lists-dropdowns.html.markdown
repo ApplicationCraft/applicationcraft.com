@@ -15,13 +15,13 @@ You can read the actual contents or populate Listboxes or Dropdowns content by u
 <table>
 <tr>
 <td width="97">
-**Text Label**
+  <strong>Text Label</strong>
 
 </td>
 <td width="16">
 </td>
 <td width="767">
-**Value**
+  <strong>Value</strong>
 
 </td>
 </tr>

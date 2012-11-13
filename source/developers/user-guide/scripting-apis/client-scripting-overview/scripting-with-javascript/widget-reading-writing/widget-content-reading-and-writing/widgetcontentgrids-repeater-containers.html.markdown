@@ -15,19 +15,19 @@ The [getData()](/developers/user-guide/scripting-apis/client-api/widget-data-sta
 <table>
 <tr>
 <td width="75">
-**Code**
+  <strong>Code</strong>
 
 </td>
 <td width="22">
 </td>
 <td width="183">
-**Country**
+  <strong>Country</strong>
 
 </td>
 <td width="27">
 </td>
 <td width="394">
-**Population**
+  <strong>Population</strong>
 
 </td>
 </tr>

@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="227">
-**Internationalization App Events**
+  <strong>Internationalization App Events</strong>
 
 </td>
 <td width="44">

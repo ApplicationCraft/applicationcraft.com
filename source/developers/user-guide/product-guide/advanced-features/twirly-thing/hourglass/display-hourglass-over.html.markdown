@@ -13,7 +13,7 @@ The hourglass will present 'centered' to the widget you have selected.
 <table>
 <tr>
 <td width="138">
-**App Properties**
+  <strong>App Properties</strong>
 
 </td>
 <td width="11">
@@ -49,7 +49,7 @@ If selected the twirly thing hourglass will display over the whole app
 <table>
 <tr>
 <td width="138">
-**Page Properties**
+  <strong>Page Properties</strong>
 
 </td>
 <td width="11">
@@ -109,7 +109,7 @@ If selected the twirly thing hourglass will display over the whole app
 <table>
 <tr>
 <td width="138">
-**Widget Properties**
+  <strong>Widget Properties</strong>
 
 </td>
 <td width="11">

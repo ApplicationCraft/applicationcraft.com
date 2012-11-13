@@ -219,7 +219,7 @@ Where you can define other apps that are linked to this app using [switchApp()](
 </tr>
 <tr>
 <td width="182">
-**Internationalization**
+  <strong>Internationalization</strong>
 
 </td>
 <td width="20">
@@ -622,7 +622,7 @@ This is the [Theme](/developers/user-guide/product-guide/content-and-app-layout/
 <table>
 <tr>
 <td width="139">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="14">

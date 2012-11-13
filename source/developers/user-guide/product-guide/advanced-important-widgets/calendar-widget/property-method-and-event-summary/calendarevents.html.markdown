@@ -11,7 +11,7 @@ This section lists only Events specific to the Calendar Widget. For the common E
 <table>
 <tr>
 <td width="151">
-**Selection Events**
+  <strong>Selection Events</strong>
 
 </td>
 <td width="23">
@@ -89,7 +89,7 @@ Called when Multiple Selections are made
 </tr>
 <tr>
 <td width="151">
-**View Events**
+  <strong>View Events</strong>
 
 </td>
 <td width="23">

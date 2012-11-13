@@ -11,13 +11,13 @@ This object contains a lot of useful properties and methods. Visit [w3schools](h
 <table>
 <tr>
 <td width="142">
-**Method**
+  <strong>Method</strong>
 
 </td>
 <td width="15">
 </td>
 <td width="759">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>

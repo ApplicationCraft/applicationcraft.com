@@ -11,13 +11,13 @@ The screen object contains information about the visitor's screen : [http://www.
 <table>
 <tr>
 <td width="219">
-**Property**
+  <strong>Property</strong>
 
 </td>
 <td width="26">
 </td>
 <td width="635">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>

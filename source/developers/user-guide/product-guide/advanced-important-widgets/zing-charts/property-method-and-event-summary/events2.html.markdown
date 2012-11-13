@@ -11,7 +11,7 @@ This section lists only Events specific to the ZingChart Widget. For the common 
 <table>
 <tr>
 <td width="151">
-**Data Events**
+  <strong>Data Events</strong>
 
 </td>
 <td width="23">

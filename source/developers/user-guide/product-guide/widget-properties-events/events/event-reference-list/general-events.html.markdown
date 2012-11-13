@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="178">
-**Application Events**
+  <strong>Application Events</strong>
 
 </td>
 <td width="17">
@@ -147,7 +147,7 @@ Called whenever the browser resizes. See [Resize Events](/developers/user-guide/
 </tr>
 <tr>
 <td width="178">
-**Page Events**
+  <strong>Page Events</strong>
 
 </td>
 <td width="17">
@@ -213,7 +213,7 @@ Called when the App is about to switch to the page. This will enable you to writ
 </tr>
 <tr>
 <td width="178">
-**Other Events**
+  <strong>Other Events</strong>
 
 </td>
 <td width="17">
@@ -279,7 +279,7 @@ When a change is made to a Widget.
 </tr>
 <tr>
 <td width="178">
-**Date Picker**
+  <strong>Date Picker</strong>
 
 </td>
 <td width="17">
@@ -321,7 +321,7 @@ Called when a selection is made.
 </tr>
 <tr>
 <td width="178">
-**Timeline**
+  <strong>Timeline</strong>
 
 </td>
 <td width="17">
@@ -425,7 +425,7 @@ When a scroll operation occurs on a timeline item.
 </tr>
 <tr>
 <td width="178">
-**Grid/Repeater**
+  <strong>Grid/Repeater</strong>
 
 </td>
 <td width="17">
@@ -503,7 +503,7 @@ If you use set the Group By property for a Grid column, then this event is calle
 </tr>
 <tr>
 <td width="178">
-**Slider**
+  <strong>Slider</strong>
 
 </td>
 <td width="17">
@@ -557,7 +557,7 @@ Called each time the slider value changes.
 </tr>
 <tr>
 <td width="178">
-**File Upload**
+  <strong>File Upload</strong>
 
 </td>
 <td width="17">
@@ -587,7 +587,7 @@ Called when file has been uploaded.
 </tr>
 <tr>
 <td width="178">
-**Embed App**
+  <strong>Embed App</strong>
 
 </td>
 <td width="17">
@@ -629,7 +629,7 @@ Called when the Embedded app is terminated
 </tr>
 <tr>
 <td width="178">
-**iFrame**
+  <strong>iFrame</strong>
 
 </td>
 <td width="17">
@@ -659,7 +659,7 @@ When the iFrame loads.
 </tr>
 <tr>
 <td width="178">
-**Collapsible**
+  <strong>Collapsible</strong>
 
 </td>
 <td width="17">
@@ -689,7 +689,7 @@ Called when the state of the widget changes. true when expanded, false when not 
 </tr>
 <tr>
 <td width="178">
-**Upload Button**
+  <strong>Upload Button</strong>
 
 </td>
 <td width="17">
@@ -755,7 +755,7 @@ Called when the file has been uploaded.
 </tr>
 <tr>
 <td width="178">
-**Context Menu**
+  <strong>Context Menu</strong>
 
 </td>
 <td width="17">
@@ -785,7 +785,7 @@ Called as the Context Menu's 'Parent' widget is selected. This can be used to dy
 </tr>
 <tr>
 <td width="178">
-**You Tube**
+  <strong>You Tube</strong>
 
 </td>
 <td width="17">
@@ -853,7 +853,7 @@ Called when playback quality changes. See [setPlaybackQuality()](/developers/use
 </tr>
 <tr>
 <td width="178">
-**Tab Container**
+  <strong>Tab Container</strong>
 
 </td>
 <td width="17">
@@ -883,7 +883,7 @@ Called when a tab is selected.
 </tr>
 <tr>
 <td width="178">
-**Accordion Container**
+  <strong>Accordion Container</strong>
 
 </td>
 <td width="17">
@@ -913,7 +913,7 @@ Called when an accordion section is selected
 </tr>
 <tr>
 <td width="178">
-**Advertising**
+  <strong>Advertising</strong>
 
 </td>
 <td width="17">
@@ -951,7 +951,7 @@ Called when the widget is refreshed.
 </tr>
 <tr>
 <td width="178">
-**Circle Menu**
+  <strong>Circle Menu</strong>
 
 </td>
 <td width="17">
@@ -1005,7 +1005,7 @@ Trigged when the menu closes.
 </tr>
 <tr>
 <td width="178">
-**Scandit**
+  <strong>Scandit</strong>
 
 </td>
 <td width="17">

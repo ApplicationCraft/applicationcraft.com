@@ -13,7 +13,7 @@ On the right side, you will see the available Parameters. Initially, this list w
 <table>
 <tr>
 <td width="112">
-**Host**
+  <strong>Host</strong>
 
 </td>
 <td width="19">
@@ -25,7 +25,7 @@ Enter here the Outgoing SMTP server details (including any port requirements)
 </tr>
 <tr>
 <td width="112">
-**User**
+  <strong>User</strong>
 
 </td>
 <td width="19">
@@ -37,7 +37,7 @@ Enter here the SMTP User name authorised to send email from this server
 </tr>
 <tr>
 <td width="112">
-**Password**
+  <strong>Password</strong>
 
 </td>
 <td width="19">
@@ -49,7 +49,7 @@ Enter the SMTP password for the above server
 </tr>
 <tr>
 <td width="112">
-**Security**
+  <strong>Security</strong>
 
 </td>
 <td width="19">

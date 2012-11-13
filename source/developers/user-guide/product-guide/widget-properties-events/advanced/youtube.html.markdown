@@ -484,7 +484,7 @@ The background color of the Widget. If it is empty, the App's Theme Back Color w
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

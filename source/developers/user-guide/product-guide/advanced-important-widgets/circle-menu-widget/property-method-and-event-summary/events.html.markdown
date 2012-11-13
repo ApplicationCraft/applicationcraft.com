@@ -11,7 +11,7 @@ This section lists only Events specific to the Circle Menu Widget. For the commo
 <table>
 <tr>
 <td width="151">
-**General Events**
+  <strong>General Events</strong>
 
 </td>
 <td width="23">
@@ -65,7 +65,7 @@ Trigged when the menu closes.
 </tr>
 <tr>
 <td width="151">
-**Data Events**
+  <strong>Data Events</strong>
 
 </td>
 <td width="23">

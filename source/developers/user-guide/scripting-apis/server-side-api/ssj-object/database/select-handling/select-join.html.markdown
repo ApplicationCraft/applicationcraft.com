@@ -102,25 +102,25 @@ These methods may or may not work depending on the ability of the back end datab
 <table>
 <tr>
 <td width="119">
-**SSJ Method**
+  <strong>SSJ Method</strong>
 
 </td>
 <td width="22">
 </td>
 <td width="117">
-**SQL**
+  <strong>SQL</strong>
 
 </td>
 <td width="27">
 </td>
 <td width="943">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>
 <tr>
 <td width="119">
-**join()**
+  <strong>join()</strong>
 
 </td>
 <td width="22">
@@ -140,7 +140,7 @@ All RDBMS brands support this join type.
 </tr>
 <tr>
 <td width="119">
-**joinLeft()**
+  <strong>joinLeft()</strong>
 
 </td>
 <td width="22">
@@ -160,7 +160,7 @@ All RDBMS brands support this join type.
 </tr>
 <tr>
 <td width="119">
-**joinRight()**
+  <strong>joinRight()</strong>
 
 </td>
 <td width="22">
@@ -180,7 +180,7 @@ Some RDBMS brands don't support this join type, but in general any right join ca
 </tr>
 <tr>
 <td width="119">
-**joinFull()**
+  <strong>joinFull()</strong>
 
 </td>
 <td width="22">
@@ -200,7 +200,7 @@ Some RDBMS brands don't support this join type.
 </tr>
 <tr>
 <td width="119">
-**joinCross()**
+  <strong>joinCross()</strong>
 
 </td>
 <td width="22">

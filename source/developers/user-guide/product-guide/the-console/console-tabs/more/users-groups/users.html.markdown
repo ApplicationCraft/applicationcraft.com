@@ -52,7 +52,7 @@ Search is available to filter your users list.
 <table>
 <tr>
 <td width="149">
-**General**
+  <strong>General</strong>
 
 </td>
 <td width="19">
@@ -310,7 +310,7 @@ Can the user write logs. See [Logging Support](/developers/user-guide/product-gu
 </tr>
 <tr>
 <td width="149">
-**Member Of**
+  <strong>Member Of</strong>
 
 </td>
 <td width="19">
@@ -340,7 +340,7 @@ This list shows which Groups the user is a member of. You can add Users to or re
 </tr>
 <tr>
 <td width="149">
-**User Parameters**
+  <strong>User Parameters</strong>
 
 </td>
 <td width="19">

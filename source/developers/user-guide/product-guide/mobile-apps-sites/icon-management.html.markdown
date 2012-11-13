@@ -19,7 +19,7 @@ You can define the images (png format) you wish to use here. If any fields are l
 <table>
 <tr>
 <td width="200">
-**iOS Optional Icon Image**
+  <strong>iOS Optional Icon Image</strong>
 
 </td>
 <td width="15">
@@ -110,7 +110,7 @@ Prerendered Icon: If 'True', iOS will not apply its gloss to the app's icon on t
 <table>
 <tr>
 <td width="200">
-**Android Optional Icon Image**
+  <strong>Android Optional Icon Image</strong>
 
 </td>
 <td width="15">

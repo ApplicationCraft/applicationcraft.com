@@ -560,7 +560,7 @@ Specified the spacing between letters.
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

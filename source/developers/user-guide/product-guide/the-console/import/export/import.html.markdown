@@ -21,7 +21,7 @@ If any of these dependencies already exist in your account you will be given opt
 <table>
 <tr>
 <td width="182">
-**Apps**
+  <strong>Apps</strong>
 
 </td>
 <td width="8">
@@ -43,7 +43,7 @@ Rewrite to overwrite the existing app. New to create as a new app
 </tr>
 <tr>
 <td width="182">
-**Other Dependencies**
+  <strong>Other Dependencies</strong>
 
 </td>
 <td width="8">

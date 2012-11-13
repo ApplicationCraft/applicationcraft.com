@@ -436,7 +436,7 @@ Used to specify the padding around a widget.
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

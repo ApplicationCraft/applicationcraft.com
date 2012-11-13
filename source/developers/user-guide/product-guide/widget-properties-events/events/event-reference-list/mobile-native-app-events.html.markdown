@@ -13,7 +13,7 @@ For more information on building Native Apps, see the [Phonegap & Native Apps](/
 <table>
 <tr>
 <td width="199">
-**Mobile Native App Events**
+  <strong>Mobile Native App Events</strong>
 
 </td>
 <td width="8">

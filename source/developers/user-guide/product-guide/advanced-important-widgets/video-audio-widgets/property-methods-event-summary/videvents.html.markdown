@@ -11,7 +11,7 @@ This section list only Events specific to the Audio and Video Widget. For the co
 <table>
 <tr>
 <td width="202">
-**Audio/Video Events**
+  <strong>Audio/Video Events</strong>
 
 </td>
 <td width="12">
@@ -288,7 +288,7 @@ Called when either the volume attribute or the muted attribute has changed. Fire
 <table>
 <tr>
 <td width="204">
-**You Tube**
+  <strong>You Tube</strong>
 
 </td>
 <td width="11">

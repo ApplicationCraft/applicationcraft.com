@@ -840,7 +840,7 @@ Boolean field, set true to display labels, false to hide labels.
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

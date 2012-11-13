@@ -68,7 +68,7 @@ If container is in Vertical or Horizontal layout mode:
 <table>
 <tr>
 <td width="175">
-**Position**
+  <strong>Position</strong>
 
 </td>
 <td width="14">

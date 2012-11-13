@@ -15,7 +15,7 @@ Using the PhoneGap Options property located in the Phonegap section of the App p
 <table>
 <tr>
 <td width="181">
-**Essential Properties**
+  <strong>Essential Properties</strong>
 
 </td>
 <td width="46">
@@ -108,7 +108,7 @@ Enter your website
 <table>
 <tr>
 <td width="182">
-**Multi-Platform**
+  <strong>Multi-Platform</strong>
 
 </td>
 <td width="44">
@@ -213,7 +213,7 @@ true/false(default). Safari on iOS detects any string formatted like a phone num
 <table>
 <tr>
 <td width="199">
-**iOS Specific**
+  <strong>iOS Specific</strong>
 
 </td>
 <td width="18">
@@ -293,7 +293,7 @@ true/false(default). If set to true HTML5 videos will play inline. If set to fal
 <table>
 <tr>
 <td width="183">
-**Android Specific**
+  <strong>Android Specific</strong>
 
 </td>
 <td width="42">
@@ -381,7 +381,7 @@ Currently supported through this interface are the following feature names:
 <table>
 <tr>
 <td width="183">
-**API Features**
+  <strong>API Features</strong>
 
 </td>
 <td width="25">

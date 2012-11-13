@@ -37,13 +37,13 @@ To generate a self-signed key with Keytool, use the keytool command and pass any
 <table>
 <tr>
 <td width="244">
-**Keytool Option**
+  <strong>Keytool Option</strong>
 
 </td>
 <td width="17">
 </td>
 <td width="681">
-**Description**
+  <strong>Description</strong>
 
 </td>
 </tr>

@@ -13,7 +13,7 @@ The following table shows various ways of accessing the Widget Object.
 <table>
 <tr>
 <td width="219">
-**[\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget)**
+  <strong>[\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget)</strong>
 
 </td>
 <td width="19">
@@ -25,7 +25,7 @@ The \_widget variable is available within every Application Craft Event and is t
 </tr>
 <tr>
 <td width="219">
-**app.w('widgetName')**
+  <strong>app.w('widgetName')</strong>
 
 </td>
 <td width="19">
@@ -37,7 +37,7 @@ Finds any Widget in the entire App with the specified name.
 </tr>
 <tr>
 <td width="219">
-**pageObj.w('widgetName')**
+  <strong>pageObj.w('widgetName')</strong>
 
 </td>
 <td width="19">
@@ -49,7 +49,7 @@ Assuming that pageObj is a Page Widget, this locates the specified Widget and re
 </tr>
 <tr>
 <td width="219">
-**containerObj.w('widgetName')**
+  <strong>containerObj.w('widgetName')</strong>
 
 </td>
 <td width="19">

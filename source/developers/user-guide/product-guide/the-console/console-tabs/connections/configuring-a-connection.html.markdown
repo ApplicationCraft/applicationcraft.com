@@ -15,7 +15,7 @@ All Connections are stored in the standard [Private/Shared/Public folder structu
 <table>
 <tr>
 <td width="126">
-**General**
+  <strong>General</strong>
 
 </td>
 <td width="16">
@@ -61,7 +61,7 @@ This field is set at the same time as selecting the Data Agent. To change it, yo
 </tr>
 <tr>
 <td width="126">
-**Sharing**
+  <strong>Sharing</strong>
 
 </td>
 <td width="16">
@@ -78,7 +78,7 @@ See general [Sharing](/developers/user-guide/product-guide/the-console/sharing) 
 <table>
 <tr>
 <td width="126">
-**Properties**
+  <strong>Properties</strong>
 
 </td>
 <td width="16">

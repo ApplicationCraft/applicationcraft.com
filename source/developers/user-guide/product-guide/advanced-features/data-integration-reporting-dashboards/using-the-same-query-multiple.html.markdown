@@ -21,19 +21,19 @@ Let's assume you have entered the following data
 <table>
 <tr>
 <td width="97">
-**First Name**
+  <strong>First Name</strong>
 
 </td>
 <td width="17">
 </td>
 <td width="94">
-**Last Name**
+  <strong>Last Name</strong>
 
 </td>
 <td width="24">
 </td>
 <td width="928">
-**Beer**
+  <strong>Beer</strong>
 
 </td>
 </tr>

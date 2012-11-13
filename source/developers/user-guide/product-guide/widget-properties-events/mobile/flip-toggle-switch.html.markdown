@@ -568,7 +568,7 @@ This refers to the [Theme entry](/developers/user-guide/product-guide/content-an
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

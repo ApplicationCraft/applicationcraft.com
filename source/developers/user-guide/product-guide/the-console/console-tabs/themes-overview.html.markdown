@@ -33,7 +33,7 @@ You can also import/export themes between AC accounts. Be aware though that if y
 <table>
 <tr>
 <td width="126">
-**General**
+  <strong>General</strong>
 
 </td>
 <td width="16">
@@ -55,7 +55,7 @@ This is the name, given by the owner of the Object, that will be shown when sele
 </tr>
 <tr>
 <td width="126">
-**Sharing**
+  <strong>Sharing</strong>
 
 </td>
 <td width="16">

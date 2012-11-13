@@ -57,21 +57,21 @@ where formatBasic can be:
 <table>
 <tr>
 <td width="133">
-**Locale Based**
+  <strong>Locale Based</strong>
 
 </td>
 <td width="20">
 
 </td>
 <td width="127">
-**RTZ Based**
+  <strong>RTZ Based</strong>
 
 </td>
 <td width="14">
 
 </td>
 <td width="130">
-**UTC Based**
+  <strong>UTC Based</strong>
 
 </td>
 </tr>

@@ -11,19 +11,19 @@ The following parameters are available to be inserted into the params object for
 <table>
 <tr>
 <td width="215">
-**Parameter**
+  <strong>Parameter</strong>
 
 </td>
 <td width="13">
 </td>
 <td width="89">
-**Max Length**
+  <strong>Max Length</strong>
 
 </td>
 <td width="19">
 </td>
 <td width="174">
-**Comments**
+  <strong>Comments</strong>
 
 </td>
 </tr>

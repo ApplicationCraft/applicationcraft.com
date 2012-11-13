@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="148">
-**Auth Events**
+  <strong>Auth Events</strong>
 
 </td>
 <td width="15">

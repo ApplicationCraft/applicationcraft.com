@@ -448,7 +448,7 @@ Accordion:
 <table>
 <tr>
 <td width="182">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="3">
@@ -491,7 +491,7 @@ Accordion Container:
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

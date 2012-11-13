@@ -11,13 +11,13 @@ Your scripts can read and write selections to single and multi-response Listboxe
 <table>
 <tr>
 <td width="58">
-**Value**
+  <strong>Value</strong>
 
 </td>
 <td width="24">
 </td>
 <td width="798">
-**Label**
+  <strong>Label</strong>
 
 </td>
 </tr>

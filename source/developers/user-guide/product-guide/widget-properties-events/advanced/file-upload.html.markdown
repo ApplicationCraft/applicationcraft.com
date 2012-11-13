@@ -632,7 +632,7 @@ Where you can override the default hourglass image to an image of your Resources
 <table>
 <tr>
 <td width="148">
-**Supported Events:**
+  <strong>Supported Events:</strong>
 
 </td>
 <td width="15">

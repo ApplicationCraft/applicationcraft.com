@@ -49,7 +49,7 @@ When you add a new Resource by clicking on the New Object icon beneath the tree 
 <table>
 <tr>
 <td width="126">
-**General**
+  <strong>General</strong>
 
 </td>
 <td width="16">
@@ -119,7 +119,7 @@ This indicates the type of resource
 </tr>
 <tr>
 <td width="126">
-**Sharing**
+  <strong>Sharing</strong>
 
 </td>
 <td width="16">

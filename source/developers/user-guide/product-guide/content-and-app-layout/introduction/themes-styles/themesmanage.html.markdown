@@ -43,7 +43,7 @@ Set permissions for Use and Administration of the Theme.  See [Sharing](/develo
 </tr>
 <tr>
 <td width="147">
-**Action Buttons**
+  <strong>Action Buttons</strong>
 
 </td>
 <td width="21">

@@ -35,7 +35,7 @@ The following Widgets are the most commonly used and useful for typical Content 
 <table>
 <tr>
 <td width="133">
-**General**
+  <strong>General</strong>
 
 </td>
 <td width="17">
@@ -105,7 +105,7 @@ For mobile device work, you will be better off using the equivalent in the Mobil
 </tr>
 <tr>
 <td width="133">
-**Advanced**
+  <strong>Advanced</strong>
 
 </td>
 <td width="17">
@@ -127,7 +127,7 @@ This support a common way of managing multi-dimensional menus by entering all me
 </tr>
 <tr>
 <td width="133">
-**Mobile**
+  <strong>Mobile</strong>
 
 </td>
 <td width="17">

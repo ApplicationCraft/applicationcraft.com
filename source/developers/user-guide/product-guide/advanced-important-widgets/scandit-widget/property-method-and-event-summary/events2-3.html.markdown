@@ -11,7 +11,7 @@ This section lists only Events specific to the Scandit Widget. For the common Ev
 <table>
 <tr>
 <td width="151">
-**General Events**
+  <strong>General Events</strong>
 
 </td>
 <td width="23">

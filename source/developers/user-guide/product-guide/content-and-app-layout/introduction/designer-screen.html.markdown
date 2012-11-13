@@ -72,7 +72,7 @@ The central part of the Designer screen, this is where you will see your App. Us
 <table>
 <tr>
 <td width="132">
-**Shortcut Keys**
+  <strong>Shortcut Keys</strong>
 
 </td>
 <td width="28">

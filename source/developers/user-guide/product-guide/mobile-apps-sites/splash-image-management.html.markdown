@@ -19,7 +19,7 @@ You can define the images (png format) you wish to use here. If any fields are l
 <table>
 <tr>
 <td width="277">
-**Desktop App Splash Image**
+  <strong>Desktop App Splash Image</strong>
 
 </td>
 <td width="29">
@@ -108,7 +108,7 @@ Top/Center/Right
 <table>
 <tr>
 <td width="278">
-**Default Native App Splash Image**
+  <strong>Default Native App Splash Image</strong>
 
 </td>
 <td width="27">
@@ -159,7 +159,7 @@ Image
 <table>
 <tr>
 <td width="276">
-**iOS Optional Splash Screen Image**
+  <strong>iOS Optional Splash Screen Image</strong>
 
 </td>
 <td width="31">
@@ -268,7 +268,7 @@ iPad (Portrait)
 <table>
 <tr>
 <td width="274">
-**Android Optional Splash Screen Image**
+  <strong>Android Optional Splash Screen Image</strong>
 
 </td>
 <td width="34">

@@ -11,14 +11,14 @@ Some Widgets, such as Listboxes, Combo boxes and Grids, store their data as arra
 <table>
 <tr>
 <td width="115">
-**Label**
+  <strong>Label</strong>
 
 </td>
 <td width="17">
 
 </td>
 <td width="213">
-**Value**
+  <strong>Value</strong>
 
 </td>
 </tr>
