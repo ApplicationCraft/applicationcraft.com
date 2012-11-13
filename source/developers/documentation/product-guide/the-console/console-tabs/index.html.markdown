@@ -17,4 +17,4 @@ full_width: true
  - [Queries](/developers/documentation/product-guide/the-console/console-tabs/queries/)
  - [Notifiers](/developers/documentation/product-guide/the-console/console-tabs/notifiers)
  - [More](/developers/documentation/product-guide/the-console/console-tabs/more/)
- - [Import/Export](/developers/documentation/product-guide/the-console/import/export/)
+ - [Import/Export](/developers/documentation/product-guide/the-console/import-export/)
