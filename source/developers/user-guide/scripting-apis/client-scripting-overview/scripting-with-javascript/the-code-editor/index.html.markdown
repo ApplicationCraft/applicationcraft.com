@@ -17,7 +17,7 @@ There are some parts of the Application Craft system where we need to give credi
  - [Public Shared Scripts](/developers/user-guide/scripting-apis/client-scripting-overview/public-shared-scripts)
  - [Server Side Scripting](/developers/user-guide/scripting-apis/server-side-scripting-overview/)
 
-## Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/UYwR5Q2fgeI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) App & Widget Events [2:24]
 

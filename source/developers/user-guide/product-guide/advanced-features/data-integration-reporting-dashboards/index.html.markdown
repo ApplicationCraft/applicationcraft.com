@@ -12,7 +12,7 @@ For Application Craft, an App is just an App. AC does not have any one special a
 
 In general, though, Business Intelligence type Apps will involve common actions that a designer will take.
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/fPPlPcE69yE?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating a Repeater with Javascript [2:56]
 

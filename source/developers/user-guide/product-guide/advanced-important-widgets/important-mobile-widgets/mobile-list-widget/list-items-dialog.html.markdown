@@ -24,6 +24,6 @@ This dialog is used if you know your content at design time. You simply add your
 
  - Page Jump - jumps to the specified page when clicked on.
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/xGGfUAoCM78?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating List Widgets with the Item Dialog [3:09]

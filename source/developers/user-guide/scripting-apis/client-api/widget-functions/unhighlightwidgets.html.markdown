@@ -42,6 +42,6 @@ This enables you to remove the highlighting from any fields in your App, normall
  - [checkMandatory()](/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory)
  - [highlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/VTypeamWf5E?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting and Getting Widget Data  [3:08]

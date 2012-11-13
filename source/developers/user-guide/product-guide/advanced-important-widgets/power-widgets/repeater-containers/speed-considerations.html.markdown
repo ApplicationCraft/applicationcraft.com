@@ -14,6 +14,6 @@ If you throw 100 rows at it, then this is probably fine on a desktop browser but
 
 This specified the maximum number of records that the Repeater Container will load. You can then use Data Paging (next topic) to move through your data source. There are also API methods [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage) and [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) that support data page navigation.
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Bq6PinoEIA8?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Managing Large Lists, Repeater Contents & Data Paging [4:25]

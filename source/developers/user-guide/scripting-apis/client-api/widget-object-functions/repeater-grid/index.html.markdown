@@ -37,6 +37,6 @@ full_width: true
  - [sum()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/sum)
     Calculates the total of a Grid column or a Widget across all rows of a Repeater
 
-## Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3rAyD-f30ic?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeater Container Overview  [5:04]

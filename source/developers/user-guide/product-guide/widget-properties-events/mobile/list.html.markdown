@@ -16,7 +16,7 @@ The Listbox allows items to be populated in the following ways
 
 See: [Mobile List Widget](/developers/user-guide/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/q6VXeWOhAxA?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating List Widgets with Javascript  [5:15]
 

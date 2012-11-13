@@ -40,7 +40,7 @@ If you care about Responsive Design (and you should) then you will find yourself
 
 ![MixedContainers](/img/docs/mixedcontainers.zoom95.png)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/pHaov7DW4kM?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview [4:30]
 

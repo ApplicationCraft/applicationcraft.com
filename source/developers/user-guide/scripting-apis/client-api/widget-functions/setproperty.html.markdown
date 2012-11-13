@@ -77,7 +77,7 @@ You can also check the available properties for a specific widget using [debugPr
  - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
  - [Viewing Widget Properties](/developers/user-guide/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/VTypeamWf5E?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting and Getting Widget Data  [3:08]
 

@@ -75,7 +75,7 @@ The example below shows how the response to the question is handled by the callb
  - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
  - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/VTypeamWf5E?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting and Getting Widget Data  [3:08]
 

@@ -780,7 +780,7 @@ On Resize Stop
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/SW9LQrrosUI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The Importance of Containers [3:42]
 

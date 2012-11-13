@@ -19,6 +19,6 @@ full_width: true
  - [Circular Menu](/developers/user-guide/scripting-apis/client-api/widget-object-functions/circular-menu/)
  - [Accordion](/developers/user-guide/scripting-apis/client-api/widget-object-functions/accordion/)
 
-## Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3rAyD-f30ic?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeater Container Overview  [5:04]
