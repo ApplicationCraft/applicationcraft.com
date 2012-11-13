@@ -5,18 +5,9 @@ class_name: developers
 full_width: true
 ---
 
+### General
 
 <table>
-<tr>
-<th style="vertical-align:top; width:138px; background-color:#ffffff;">
-<a id="general"> </a> **General**
-
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:782px; background-color:#ffffff;">
-</th>
-</tr>
 <tr>
 <td width="138">
 Widget Class
@@ -196,17 +187,11 @@ How the menu is triggered to open and close, whether by hovering over the center
 </td>
 </tr>
 </table>
-<table>
-<tr>
-<td width="137">
-<a id="layout"> </a> **Layout**
 
-</td>
-<td width="23">
-</td>
-<td width="782">
-</td>
-</tr>
+
+### Layout
+
+<table>
 <tr>
 <td width="137">
 ## X
@@ -300,17 +285,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </td>
 </tr>
 </table>
-<table>
-<tr>
-<td width="135">
-<a id="behavior"> </a> **Behavior**
 
-</td>
-<td width="25">
-</td>
-<td width="782">
-</td>
-</tr>
+
+### Behavior
+
+<table>
 <tr>
 <td width="135">
 Drag and Drop
@@ -368,17 +347,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 </td>
 </tr>
 </table>
-<table>
-<tr>
-<td width="135">
-<a id="data"> </a> **Data**
 
-</td>
-<td width="25">
-</td>
-<td width="782">
-</td>
-</tr>
+
+### Data
+
+<table>
 <tr>
 <td width="135">
 View
@@ -500,17 +473,10 @@ Set to true to automatically fetch data from assigned view.
 </td>
 </tr>
 </table>
-<table>
-<tr>
-<td width="150">
-<a id="style"> </a> **Style**
 
-</td>
-<td width="10">
-</td>
-<td width="782">
-</td>
-</tr>
+
+### Style
+<table>
 <tr>
 <td width="150">
 Opacity

@@ -1,11 +1,11 @@
 .docs {
-
   header {
     margin: 20px 0 0 90px;
     overflow: hidden;
   }
 
   article {
+    font-size: .9em;
     margin: 0 10px 50px 335px;
 
     h1 {
@@ -30,6 +30,27 @@
       @include border-radius(3px);
       max-width: 200px;
       height: inherit;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      max-width: 100%;
+      background-color: transparent;
+      border-collapse: collapse;
+      border-spacing: 0;
+
+      tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+        background-color: #EFEDE7;
+      }
+
+      th, td {
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: 1px solid #dddddd;
+      }
     }
   }
 

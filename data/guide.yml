@@ -525,15 +525,15 @@ tree:
       title: Circle Menu Widget
       tree:
       - old_url: /revisions/current/docs/user-guide/index.html?property__method_and_event_sum_2.htm
-        title: Property, Method and Event Summary_2
+        title: Property, Method and Event Summary
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?properties3_2.htm',
-          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/properties3-2}
+          title: Properties, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary/properties}
         - {old_url: '/revisions/current/docs/user-guide/index.html?events2_2.htm',
-          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/events2-2}
+          title: Events, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary/events}
         - {old_url: '/revisions/current/docs/user-guide/index.html?methods2_2.htm',
-          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/methods2-2}
-        url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2
+          title: Methods, url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary/methods}
+        url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary
       url: /developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget
     - old_url: /revisions/current/docs/user-guide/index.html?scandit.htm
       title: Scandit Widget
