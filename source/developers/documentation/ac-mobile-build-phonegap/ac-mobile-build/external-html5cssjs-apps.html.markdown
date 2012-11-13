@@ -1,5 +1,5 @@
 ---
-title: "Non AC HTML5+CSS+JS Apps"
+title: "Apps developed outside Application Craft"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -18,11 +18,17 @@ Select the Mobile Build tab as circled in the image above. Then, click on the Ne
 
 ## Editing config.xml
 
-You can edit your project's config.xml file from within Application Craft, so you don't have to re-upload each time you make a change to it. Information about the config.xml can be found [here on the Phonegap site](https://build.phonegap.com/docs/config-xml) .
-
-You edit the file by selection the
+You can edit your project's config.xml file from within Application Craft, so you don't have to re-upload each time you make a change to it. Information about the config.xml can be found [here on the Phonegap site](https://build.phonegap.com/docs/config-xml).
 
 ![acmb-configxml](/img/docs/acmb-configxml.png)
+
+##Which platforms to build for
+Your condfig.xml needs to contain specific lines for each platform you want to build for. For example, to build for both iOS and Android (Windows Phone coming soon) you need to include
+
+    <gap:platforms>
+      <gap:platform name="ios" />
+      <gap:platform name="android" />    
+    </gap:platforms>     
 
 ## Certificates and Build
 
