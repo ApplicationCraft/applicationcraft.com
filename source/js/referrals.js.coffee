@@ -37,6 +37,7 @@ $ ->
       border: '1px solid #CCC'
 
   $('#referral-form').on 'submit', ->
+    form = $(this)
     email = $(this).find('#referral-email')
 
     unless email_regex.test(email.val())
@@ -44,22 +45,30 @@ $ ->
       email.css 'border', '5px solid #F36050'
       return false
 
-    txt = "Take a look at ApplicationCraft. It's very like Visual Basic in the Cloud."
+
     url = "http://www.applicationcraft.com/?utm_medium=affiliate&utm_source=#{encodeURIComponent(email.val())}"
+    options =
+      login: 'applicationcraft'
+      apiKey: 'R_25cb95f39d27477516ad78346d85a2bf'
+      longUrl: url
 
-    $(this).fadeOut ->
-      $(this).parent().append '<div id="sharethis-referral">'
-      $(this).parent().parent().find('h3').text 'Now simply click an icon to share...'
-      $(this).parent().after("<div id='referral-url'>Or copy and paste this URL anywhere you wish: <code>#{url}</code></div>")
+    $.get 'https://api-ssl.bitly.com/v3/shorten', options, (data)->
+      url = data.data.url if data.data.url
+      txt = "Take a look at ApplicationCraft. It's very like Visual Basic in the Cloud."
 
-      for serv in ["email", "facebook","twitter","linkedin"]
-        stWidget.addEntry
-          service: serv
-          element: document.getElementById('sharethis-referral')
-          url: url
-          title: if serv == 'twitter' then txt else txt
-          type: "large"
-          text: txt
-          summary: txt
+      form.fadeOut ->
+        $(this).parent().append '<div id="sharethis-referral">'
+        $(this).parent().parent().find('h3').text 'Now simply click an icon to share...'
+        $(this).parent().after("<div id='referral-url'>Or copy and paste this URL anywhere you wish: <code>#{url}</code></div>")
+
+        for serv in ["email", "facebook","twitter","linkedin"]
+          stWidget.addEntry
+            service: serv
+            element: document.getElementById('sharethis-referral')
+            url: url
+            title: if serv == 'twitter' then txt else txt
+            type: "large"
+            text: txt
+            summary: txt
 
     false
