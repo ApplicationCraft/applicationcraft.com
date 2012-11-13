@@ -117,5 +117,5 @@ Example usage to show twirly thing between page navigation
 
 ## See Also
 
- - [Twirly Thing/Hourglass](/developers/documentation/product-guide/advanced-features/twirly-thing/hourglass/)
+ - [Twirly Thing/Hourglass](/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/)
 

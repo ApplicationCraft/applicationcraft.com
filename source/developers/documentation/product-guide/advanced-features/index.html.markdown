@@ -25,7 +25,7 @@ full_width: true
  - [Data Lists Management](/developers/documentation/product-guide/advanced-features/data-lists-management/)
  - [Printing](/developers/documentation/product-guide/advanced-features/printing/)
  - [Custom CSS Classes](/developers/documentation/product-guide/advanced-features/custom-css-classes/)
- - [Twirly Thing/Hourglass](/developers/documentation/product-guide/advanced-features/twirly-thing/hourglass/)
+ - [Twirly Thing/Hourglass](/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/)
  - [oAuth](/developers/documentation/product-guide/advanced-features/oauth/)
 
 Video Tutorials can be found on our [Training Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) page

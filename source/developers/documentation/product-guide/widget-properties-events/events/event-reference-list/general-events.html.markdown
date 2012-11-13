@@ -199,7 +199,7 @@ On Page Prepare
 <td width="17">
 </td>
 <td width="747">
-  Called when the App is about to switch to the page. This will enable you to write widget modifying code so the widgets can be updated before the page is shown. Please note that <a href="/developers/documentation/product-guide/advanced-features/twirly-thing/hourglass/twirly-thing">Twirly Thing</a> won't have any use in this event as this event is called before the page content is drawn.
+  Called when the App is about to switch to the page. This will enable you to write widget modifying code so the widgets can be updated before the page is shown. Please note that <a href="/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/twirly-thing">Twirly Thing</a> won't have any use in this event as this event is called before the page content is drawn.
 
 </td>
 </tr>
