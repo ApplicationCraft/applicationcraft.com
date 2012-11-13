@@ -14,103 +14,21 @@ These functions are really useful for converting data between different data typ
 
  - Array - some AC functions expect objects and so the ARRAY2OBJ() function allows for a quick and easy conversion into object format.
 
-**In This Section:**
+## In This Section:
 
-<table>
-<tr>
-<td width="149">
-[filterArray()](/developers/user-guide/scripting-apis/client-api/conversion-functions/filterarray)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Filters an array
-
-</td>
-</tr>
-<tr>
-<td width="149">
-[OBJ2ARRAY()](/developers/user-guide/scripting-apis/client-api/conversion-functions/advancedtoarray)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Converts an object into an array
-
-</td>
-</tr>
-<tr>
-<td width="149">
-[ARRAY2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/arraytoadvanced)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Converts an array into an object
-
-</td>
-</tr>
-<tr>
-<td width="149">
-[OBJ2JSON()](/developers/user-guide/scripting-apis/client-api/conversion-functions/json2text)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Converts an object into a JSON string
-
-</td>
-</tr>
-<tr>
-<td width="149">
-[JSON2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/text2json)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Converts a JSON string into an object
-
-</td>
-</tr>
-<tr>
-<td width="149">
-[OBJ2XML()](/developers/user-guide/scripting-apis/client-api/conversion-functions/json2xml)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Converts an object into an XML string
-
-</td>
-</tr>
-<tr>
-<td width="149">
-[XML2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/xml2json)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Converts an XML string into an object
-
-</td>
-</tr>
-<tr>
-<td width="149">
-[DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db)
-
-</td>
-<td width="12">
-</td>
-<td width="719">
-Converts a Javascript date object into a string that is compatible with the AC database
-
-</td>
-</tr>
-</table>
+ - [[filterArray()](/developers/user-guide/scripting-apis/client-api/conversion-functions/filterarray)
+    Filters an array
+ - [[OBJ2ARRAY()](/developers/user-guide/scripting-apis/client-api/conversion-functions/advancedtoarray)
+    Converts an object into an array
+ - [[ARRAY2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/arraytoadvanced)
+    Converts an array into an object
+ - [[OBJ2JSON()](/developers/user-guide/scripting-apis/client-api/conversion-functions/json2text)
+    Converts an object into a JSON string
+ - [[JSON2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/text2json)
+    Converts a JSON string into an object
+ - [[OBJ2XML()](/developers/user-guide/scripting-apis/client-api/conversion-functions/json2xml)
+    Converts an object into an XML string
+ - [XML2OBJ()](/developers/user-guide/scripting-apis/client-api/conversion-functions/xml2json)
+    Converts an XML string into an object
+ - [DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db)
+    Converts a Javascript date object into a string that is compatible with the AC database

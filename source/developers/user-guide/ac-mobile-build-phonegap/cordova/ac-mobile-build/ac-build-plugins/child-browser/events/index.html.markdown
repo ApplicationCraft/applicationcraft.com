@@ -11,7 +11,7 @@ All events can be subscribed to by assigning a function to
     window.plugins.childBrowser['on' + eventName];
    
 
-**In This Section:**
+## In This Section:
 
 <table>
 <tr>

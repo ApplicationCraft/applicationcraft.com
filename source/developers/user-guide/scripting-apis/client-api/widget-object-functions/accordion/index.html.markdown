@@ -6,32 +6,9 @@ full_width: true
 ---
 
 
-**In This Section:**
+## In This Section:
 
-<table>
-<tr>
-<td width="182">
-[setSectionState()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/accordion/statesection)
-
-</td>
-<td width="8">
-</td>
-<td width="752">
-Allows you to set the section state (true - open, false - closed)
-
-</td>
-</tr>
-<tr>
-<td width="182">
-[getSectionState()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/accordion/getsectionstate)
-
-</td>
-<td width="8">
-</td>
-<td width="752">
-Allows you to get the state of an Accordion section (true - open, false - closed)
-
-</td>
-</tr>
-</table>
-
+ - [setSectionState()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/accordion/statesection)
+    Allows you to set the section state (true - open, false - closed)
+ - [getSectionState()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/accordion/getsectionstate)
+    Allows you to get the state of an Accordion section (true - open, false - closed)

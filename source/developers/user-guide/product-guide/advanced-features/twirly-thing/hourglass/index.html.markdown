@@ -66,9 +66,8 @@ and on the target page 'On Page Show' event, to hide the twirly thing:
 
 2: As we upload data to an external database we want to show the twirly thing over the with a different text message as the process commences and then hide it when the upload is successfully completed. Please note that this is being handled in the Client Side functions and not the Server Side functions
 
-**In This Section:**
+## In This Section:
 
  - [Twirly Thing](/developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/twirly-thing)
-
  - [Display Hourglass Over](/developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/display-hourglass-over)
 

@@ -6,14 +6,11 @@ full_width: true
 ---
 
 
-**In This Section:**
+## In This Section:
 
  - [getResources()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/getresources)
-
  - [loadResourceFolders()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/loadresourcefolders)
-
  - [getSharedResources()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/getsharedresources)
-
  - [getSharedResourceFolders()](/developers/user-guide/scripting-apis/server-side-api/sys-object/resources-management/getsharedresourcefolders)
 
 These functions are not currently documented. If you feel you require documentation for these, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) .

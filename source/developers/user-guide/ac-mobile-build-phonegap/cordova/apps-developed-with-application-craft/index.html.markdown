@@ -14,18 +14,14 @@ Using our [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cord
 
 This chapter describes the various ways you can generate and deploy these native Apps.
 
-**In This Section:**
+## In This Section:
 
-[Mobile Widgets and Layout](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/mobile-widgets-and-layout)
+ - [Mobile Widgets and Layout](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/mobile-widgets-and-layout)
+ - [Device Events](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-specific-events)
+ - [PhoneGap API Functions](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-functions)
+ - [PhoneGap Options](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
+ - [Splash Screen and Icon](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/splash-screen-and-icon)
 
-[Device Events](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-specific-events)
-
-[PhoneGap API Functions](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/phonegap-functions)
-
-[PhoneGap Options](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
-
-[Splash Screen and Icon](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/splash-screen-and-icon)
-
-Related Video:
+## Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/M9hLcnKOj04?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deploying a Native Mobile App [2:22]

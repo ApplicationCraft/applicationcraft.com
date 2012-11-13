@@ -8,78 +8,10 @@ full_width: true
 
 As we release new Widgets as Beta we will include them in this section if the toolbox.
 
-<table>
-<tr>
-<td width="148">
-**In This Section:**
+## In This Section:
 
-</td>
-<td width="15">
-</td>
-<td width="779">
-**Planned section of Toolbox**
-
-</td>
-</tr>
-<tr>
-<td width="148">
-[Scandit Button](/developers/user-guide/product-guide/widget-properties-events/beta/scandit-button)
-
-</td>
-<td width="15">
-</td>
-<td width="779">
-Common
-
-</td>
-</tr>
-<tr>
-<td width="148">
-[Zingchart](/developers/user-guide/product-guide/widget-properties-events/beta/zingchart)
-
-</td>
-<td width="15">
-</td>
-<td width="779">
-Pro
-
-</td>
-</tr>
-<tr>
-<td width="148">
-[Circle Menu](/developers/user-guide/product-guide/widget-properties-events/beta/circle-menu)
-
-</td>
-<td width="15">
-</td>
-<td width="779">
-Advanced
-
-</td>
-</tr>
-<tr>
-<td width="148">
-[Context Menu](/developers/user-guide/product-guide/widget-properties-events/beta/context-menu)
-
-</td>
-<td width="15">
-</td>
-<td width="779">
-Mobile
-
-</td>
-</tr>
-<tr>
-<td width="148">
-[Share This](/developers/user-guide/product-guide/widget-properties-events/beta/share-this)
-
-</td>
-<td width="15">
-</td>
-<td width="779">
-Common
-
-</td>
-</tr>
-</table>
-
+ - [Scandit Button](/developers/user-guide/product-guide/widget-properties-events/beta/scandit-button)
+ - [Zingchart](/developers/user-guide/product-guide/widget-properties-events/beta/zingchart)
+ - [Circle Menu](/developers/user-guide/product-guide/widget-properties-events/beta/circle-menu)
+ - [Context Menu](/developers/user-guide/product-guide/widget-properties-events/beta/context-menu)
+ - [Share This](/developers/user-guide/product-guide/widget-properties-events/beta/share-this)

@@ -10,28 +10,19 @@ Application Craft is equally good at building Apps for both Mobile and Desktop p
 
 This chapter looks at some of the things you might want to think about when building your Apps.
 
-**In This Section:**
+## In This Section:
 
-[Standard Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/other-mobile-widgets)
+ - [Standard Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/other-mobile-widgets)
+ - [Advanced Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/advanced-mobile-widgets)
+ - [Adaptive (Fluid) Layouts](/developers/user-guide/product-guide/mobile-apps-sites/adaptive-or-fluid-layouts)
+ - [Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/mappsmobile-widgets)
+ - [Mobile Themes](/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes)
+ - [Formatting Mobile Content](/developers/user-guide/product-guide/mobile-apps-sites/formatting-mobile-content)
+ - [Page Transition Effects](/developers/user-guide/product-guide/mobile-apps-sites/page-transition-effects)
+ - [Transition Mode](/developers/user-guide/product-guide/mobile-apps-sites/mobile-transition-mode)
+ - [Icon Management](/developers/user-guide/product-guide/mobile-apps-sites/icon-management)
+ - [Splash Image Management](/developers/user-guide/product-guide/mobile-apps-sites/splash-image-management)
 
-[Advanced Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/advanced-mobile-widgets)
-
-[Adaptive (Fluid) Layouts](/developers/user-guide/product-guide/mobile-apps-sites/adaptive-or-fluid-layouts)
-
-[Mobile Widgets](/developers/user-guide/product-guide/mobile-apps-sites/mappsmobile-widgets)
-
-[Mobile Themes](/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes)
-
-[Formatting Mobile Content](/developers/user-guide/product-guide/mobile-apps-sites/formatting-mobile-content)
-
-[Page Transition Effects](/developers/user-guide/product-guide/mobile-apps-sites/page-transition-effects)
-
-[Transition Mode](/developers/user-guide/product-guide/mobile-apps-sites/mobile-transition-mode)
-
-[Icon Management](/developers/user-guide/product-guide/mobile-apps-sites/icon-management)
-
-[Splash Image Management](/developers/user-guide/product-guide/mobile-apps-sites/splash-image-management)
-
-Related Video:
+## Related Video:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/BelIr0vzxlU?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Designing a Mobile UI [2:57]

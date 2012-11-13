@@ -6,58 +6,17 @@ full_width: true
 ---
 
 
-**In This Section:**
+## In This Section:
 
-<table>
-<tr>
-<td width="162">
-[parent()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/parent)
+ - [parent()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/parent)
+    Returns the Widget's parent Widget
+ - [prop()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/prop)
+    Gets or sets a property
+ - [traverseChildren()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/traversechildren)
+    Is used to traverse all child widgets of the widget.
+ - [value()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/value)
+    returns the same value as getValue()
 
-</td>
-<td width="21">
-</td>
-<td width="697">
-Returns the Widget's parent Widget
-
-</td>
-</tr>
-<tr>
-<td width="162">
-[prop()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/prop)
-
-</td>
-<td width="21">
-</td>
-<td width="697">
-Gets or sets a property
-
-</td>
-</tr>
-<tr>
-<td width="162">
-[traverseChildren()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/traversechildren)
-
-</td>
-<td width="21">
-</td>
-<td width="697">
-Is used to traverse all child widgets of the widget.
-
-</td>
-</tr>
-<tr>
-<td width="162">
-[value()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/value)
-
-</td>
-<td width="21">
-</td>
-<td width="697">
-returns the same value as getValue()
-
-</td>
-</tr>
-</table>
-Related Videos:
+## Related Videos:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3rAyD-f30ic?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeater Container Overview  [5:04]

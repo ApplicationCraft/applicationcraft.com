@@ -12,15 +12,11 @@ Account Variables allow you to configure system and user level parameters as wel
 
 This is accessible only to those Users who have been granted Account rights within the User or Group section.
 
-**In This Section:**
+## In This Section:
 
-[User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
-
-[SMTP Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/)
-
-[PhoneGap Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/phonegap-parameters)
-
-[Google Analytics Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/google-analytics-parameters)
-
-[Google Maps](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/google-maps)
+ - [User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
+ - [SMTP Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/)
+ - [PhoneGap Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/phonegap-parameters)
+ - [Google Analytics Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/google-analytics-parameters)
+ - [Google Maps](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/google-maps)
 

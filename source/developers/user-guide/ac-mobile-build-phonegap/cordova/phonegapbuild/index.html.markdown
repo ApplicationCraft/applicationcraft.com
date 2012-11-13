@@ -6,22 +6,18 @@ full_width: true
 ---
 
 
-**In This Section:**
+## In This Section:
 
-[Building your Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/building-the-native-apps)
+ - [Building your Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/building-the-native-apps)
+ - [Key Management](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/key-management)
+ - [Deploying your Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/deploying-your-native-apps)
+ - [Manual Building](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/manual-building)
 
-[Key Management](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/key-management)
-
-[Deploying your Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/deploying-your-native-apps)
-
-[Manual Building](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/manual-building)
-
-## **See Also**
+## See Also
 
  - [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
 
-Related Videos:
+## Related Videos:
 
-[![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/M9hLcnKOj04?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deploying a Native Mobile App [2:22]
-
-[![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/WpVMlSerJ-Q?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Phonegap:Build [2:47]
+ - [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/M9hLcnKOj04?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deploying a Native Mobile App [2:22]
+ - [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/WpVMlSerJ-Q?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Phonegap:Build [2:47]

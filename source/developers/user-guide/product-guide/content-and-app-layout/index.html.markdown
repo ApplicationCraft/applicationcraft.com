@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-**In This Section:**
+## In This Section:
 
  - [Introduction](/developers/user-guide/product-guide/content-and-app-layout/introduction/)
 

@@ -24,8 +24,7 @@ Thanks to our Certificate Assistant (coming in November 2012), you can actually 
 
 This will be available in December 2012.
 
-**In This Section:**
+## In This Section:
 
-[iOS Keys and Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/)
-
-[Android Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates/)
+ - [iOS Keys and Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/ios-keys-and-certificates/)
+ - [Android Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/android-certificates/)

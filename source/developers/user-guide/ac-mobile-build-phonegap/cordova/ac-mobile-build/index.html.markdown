@@ -20,19 +20,12 @@ If you built your App within the Application Craft platform [click here](/develo
 
 If you built your HTML5+CSS+JS App with another technology and just want AC Mobile Build for the compilation process, then [click here](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/external-html5cssjs-apps) .
 
-**In This Section:**
+## In This Section:
 
-[AC Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-apps)
-
-[Non AC HTML5+CSS+JS Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/external-html5cssjs-apps)
-
-[Building Your Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/automatic-building)
-
-[Build Errors](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/build-errors)
-
-[Build Error Messages](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/build-error-messages)
-
-[Deploy your Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/deploy-your-native-apps)
-
-[AC Build Plugins](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/)
-
+ - [AC Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-apps)
+ - [Non AC HTML5+CSS+JS Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/external-html5cssjs-apps)
+ - [Building Your Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/automatic-building)
+ - [Build Errors](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/build-errors)
+ - [Build Error Messages](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/build-error-messages)
+ - [Deploy your Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/deploy-your-native-apps)
+ - [AC Build Plugins](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/)

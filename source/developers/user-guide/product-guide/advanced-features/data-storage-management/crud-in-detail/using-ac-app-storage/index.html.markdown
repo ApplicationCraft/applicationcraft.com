@@ -30,21 +30,14 @@ These are the available CRUD operations
 
 To understand how this works, we will use a simple App that shows all of these features in action.
 
-**In This Section:**
+## In This Section:
 
  - [CRUD on Local Instances](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-on-local-instances)
-
  - [Synopsis of Foreign CRUD Operations](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/synopsis)
-
  - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
-
  - [Setting up Grids To Edit Foreign Data](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/setting-up-grids-to-edit-forei)
-
  - [Example CRUD Calls](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/example-crud-calls)
-
  - [How CRUD works](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/how-crud-works)
-
  - [JOINed App Queries](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/joined-app-queries)
-
  - [CRUD & Filtering](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-filtering)
 

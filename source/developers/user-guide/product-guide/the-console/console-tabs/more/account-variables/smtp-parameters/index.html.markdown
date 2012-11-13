@@ -12,7 +12,7 @@ You can also dynamically control the SMTP senders parameters using [sendEmail()]
 
 ![smtpparams](/img/docs/smtpparams.zoom65.png)
 
-**In This Section:**
+## In This Section:
 
  - [Adding your SMTP Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/adding-your-smtp-parameters)
 

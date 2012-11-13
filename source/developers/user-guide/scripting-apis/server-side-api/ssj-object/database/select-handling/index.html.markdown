@@ -26,23 +26,14 @@ The .where() function allows you to compose the entire string or to insert '?' t
 
 The exec() function returns the result set that can then be passed back to your callback function.
 
-**In This Section:**
+## In This Section:
 
  - [select()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select)
-
  - [select().from()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-from)
-
  - [select().where()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-where)
-
  - [select().orWhere()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/orwhere)
-
  - [select().group()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-group)
-
  - [select().order()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-order)
-
  - [select().join()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-join)
-
  - [select().limit()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/select-limit)
-
  - [getSql()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/database/select-handling/getsql)
-

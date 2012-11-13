@@ -12,131 +12,30 @@ IMPORTANT
 
 **WE STRONGLY RECOMMEND THAT YOU DO NOT USE THESE FUNCTIONS. FUNCTIONALITY IS BEING RETAINED FOR A WHILE IN ORDER NOT TO DISRUPT EXISTING APPLICATIONS.**
 
-**In This Section:**
+## In This Section:
 
-<table>
-<tr>
-<td width="232">
-[instanceXxxx() callback functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function)
+ - [instanceXxxx() callback functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function)
+    Describes how callbacks work for many of the instanceXxxxx() functions
+ - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
+    Save the current Instance as a new App Instance
+ - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
+    Saves the current Instance, if the current Instance does not exist in the system a new one is created
+ - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
+    Deletes the current App Instance
+ - [instanceSync()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesync)
+    Forces a Grid or Repeater Container to synchronize with multiple Instances that it is connected to via a Data View
+ - [instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
+    Loads a specific Instance for the current App
+ - [instanceSetRelationship()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesetrelationship)
+    Sets or breaks a relationship between Instances
+ - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
+    Creates a new Instance and resets Widgets
+ - [getInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/getinstancedata)
+    Gets the Instance data for the current App as an object so it can be stored externally
+ - [setInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/setinstancedata)
+    Restore an Instance previously created with getInstanceData()
 
-</td>
-<td width="17">
-</td>
-<td width="631">
-Describes how callbacks work for many of the instanceXxxxx() functions
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Save the current Instance as a new App Instance
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Saves the current Instance, if the current Instance does not exist in the system a new one is created
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Deletes the current App Instance
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[instanceSync()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesync)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Forces a Grid or Repeater Container to synchronize with multiple Instances that it is connected to via a Data View
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Loads a specific Instance for the current App
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[instanceSetRelationship()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesetrelationship)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Sets or breaks a relationship between Instances
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Creates a new Instance and resets Widgets
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[getInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/getinstancedata)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Gets the Instance data for the current App as an object so it can be stored externally
-
-</td>
-</tr>
-<tr>
-<td width="232">
-[setInstanceData()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/setinstancedata)
-
-</td>
-<td width="17">
-</td>
-<td width="631">
-Restore an Instance previously created with getInstanceData()
-
-</td>
-</tr>
-</table>
-Related Videos:
+## Related Videos:
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/TrfVkAavkOQ?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Data Containers Explained [4:25]
 

@@ -14,16 +14,11 @@ There are three ways of building your Apps
 
  - [Phonegap Direct](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegap-direct) assumes you want to build your Apps using tools like Apple's XCode or Eclipse for Android Apps. This is more involved than the other approaches but can give you more control should you need it.
 
-**In This Section:**
+## In This Section:
 
-[Apps Developed with Application Craft](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/)
-
-[Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/)
-
-[AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
-
-[Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/)
-
-[Phonegap Direct](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegap-direct)
-
-[Debugging Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/debugging-native-apps)
+ - [Apps Developed with Application Craft](/developers/user-guide/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/)
+ - [Certificates](/developers/user-guide/ac-mobile-build-phonegap/cordova/certificates/)
+ - [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
+ - [Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/)
+ - [Phonegap Direct](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegap-direct)
+ - [Debugging Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/debugging-native-apps)
