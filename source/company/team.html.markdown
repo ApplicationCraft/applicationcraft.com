@@ -4,7 +4,7 @@ active_submenu: company
 active_submenu_item: /company/team
 ---
 
-We will shortly be updating our team page to something a bit more exciting. In the meantime, here is a brief overview of who we are
+We will shortly be updating our team page to something a bit more exciting. In the meantime, here is a brief overview of who we are.
 
 ##Anna Glushkova
 Quality Assurance Manager
