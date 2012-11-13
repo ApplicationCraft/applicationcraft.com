@@ -686,19 +686,19 @@ This refers to the [Theme entry](/developers/user-guide/product-guide/content-an
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
 <td width="15">
 </td>
 <td width="151">
-[Selection Events](/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents)
+  <a href="/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents">Selection Events</a>
 
 </td>
 <td width="23">
 </td>
 <td width="279">
-[View Events](/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents)
+  <a href="/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents">View Events</a>
 
 </td>
 </tr>

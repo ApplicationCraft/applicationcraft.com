@@ -11,7 +11,7 @@ The following method table is a summary of the methods available for the Circula
 <table>
 <tr>
 <td width="182">
-[open()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/circular-menu/open2)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/circular-menu/open2">open()</a>
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ To open the Circular menu
 </tr>
 <tr>
 <td width="182">
-[close()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/circular-menu/close)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/circular-menu/close">close()</a>
 
 </td>
 <td width="8">

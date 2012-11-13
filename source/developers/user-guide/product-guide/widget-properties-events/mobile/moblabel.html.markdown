@@ -510,13 +510,13 @@ Where you can override the default hourglass image to an image of your Resources
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
 <td width="15">
 </td>
 <td width="124">
-[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
 
 </td>
 </tr>

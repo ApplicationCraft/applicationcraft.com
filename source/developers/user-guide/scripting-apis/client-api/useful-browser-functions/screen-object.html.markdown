@@ -23,7 +23,7 @@ The screen object contains information about the visitor's screen : [http://www.
 </tr>
 <tr>
 <td width="219">
-[availHeight](http://www.w3schools.com/jsref/prop_screen_availheight.asp)
+  <a href="http://www.w3schools.com/jsref/prop_screen_availheight.asp">availHeight</a>
 
 </td>
 <td width="26">
@@ -35,7 +35,7 @@ Returns the height of the screen (excluding the Windows Taskbar)
 </tr>
 <tr>
 <td width="219">
-[availWidth](http://www.w3schools.com/jsref/prop_screen_availwidth.asp)
+  <a href="http://www.w3schools.com/jsref/prop_screen_availwidth.asp">availWidth</a>
 
 </td>
 <td width="26">
@@ -47,7 +47,7 @@ Returns the width of the screen (excluding the Windows Taskbar)
 </tr>
 <tr>
 <td width="219">
-[colorDepth](http://www.w3schools.com/jsref/prop_screen_colordepth.asp)
+  <a href="http://www.w3schools.com/jsref/prop_screen_colordepth.asp">colorDepth</a>
 
 </td>
 <td width="26">
@@ -59,7 +59,7 @@ Returns the bit depth of the color palette for displaying images
 </tr>
 <tr>
 <td width="219">
-[height](http://www.w3schools.com/jsref/prop_screen_height.asp)
+  <a href="http://www.w3schools.com/jsref/prop_screen_height.asp">height</a>
 
 </td>
 <td width="26">
@@ -71,7 +71,7 @@ Returns the total height of the screen
 </tr>
 <tr>
 <td width="219">
-[pixelDepth](http://www.w3schools.com/jsref/prop_screen_pixeldepth.asp)
+  <a href="http://www.w3schools.com/jsref/prop_screen_pixeldepth.asp">pixelDepth</a>
 
 </td>
 <td width="26">
@@ -83,7 +83,7 @@ Returns the color resolution (in bits per pixel) of the screen
 </tr>
 <tr>
 <td width="219">
-[width](http://www.w3schools.com/jsref/prop_screen_width.asp)
+  <a href="http://www.w3schools.com/jsref/prop_screen_width.asp">width</a>
 
 </td>
 <td width="26">

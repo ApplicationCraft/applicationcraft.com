@@ -13,7 +13,7 @@ These functions allow you to assign data instances to Roles, Persons and Groups.
 <table>
 <tr>
 <td width="230">
-[assignToRole()](/developers/user-guide/scripting-apis/client-api/workflow-functions/assigntorole)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/assigntorole">assignToRole()</a>
 
 </td>
 <td width="13">
@@ -25,7 +25,7 @@ Assigns a Person or Group to a Role for a specified App (can also be [done manua
 </tr>
 <tr>
 <td width="230">
-[unassignFromRole()](/developers/user-guide/scripting-apis/client-api/workflow-functions/unassignfromrole)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/unassignfromrole">unassignFromRole()</a>
 
 </td>
 <td width="13">
@@ -37,7 +37,7 @@ Removes a Person or Group from a Role  for a specified App
 </tr>
 <tr>
 <td width="230">
-[currentUserRole()](/developers/user-guide/scripting-apis/client-api/workflow-functions/currentuserrole)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/currentuserrole">currentUserRole()</a>
 
 </td>
 <td width="13">
@@ -49,7 +49,7 @@ Returns the Role (if there is one) of the currently logged in User / Person
 </tr>
 <tr>
 <td width="230">
-[getAssignedRoles()](/developers/user-guide/scripting-apis/client-api/workflow-functions/getassignedroles)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/getassignedroles">getAssignedRoles()</a>
 
 </td>
 <td width="13">
@@ -61,7 +61,7 @@ Returns a list of all Roles that are currently assigned to a specified instance
 </tr>
 <tr>
 <td width="230">
-[setStage()](/developers/user-guide/scripting-apis/client-api/workflow-functions/setstage)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/setstage">setStage()</a>
 
 </td>
 <td width="13">
@@ -73,7 +73,7 @@ Changes the Stage for the currently loaded Instance
 </tr>
 <tr>
 <td width="230">
-[getStage()](/developers/user-guide/scripting-apis/client-api/workflow-functions/getstage)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/getstage">getStage()</a>
 
 </td>
 <td width="13">
@@ -85,7 +85,7 @@ Enables you to get the current stage of the currently loaded instance
 </tr>
 <tr>
 <td width="230">
-[assignInstance()](/developers/user-guide/scripting-apis/client-api/workflow-functions/assigninstance)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/assigninstance">assignInstance()</a>
 
 </td>
 <td width="13">
@@ -97,7 +97,7 @@ Assigns the specified instance id to a Role, Person or Group and assigns it an [
 </tr>
 <tr>
 <td width="230">
-[cancelAssignments()](/developers/user-guide/scripting-apis/client-api/workflow-functions/cancelassignments)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/cancelassignments">cancelAssignments()</a>
 
 </td>
 <td width="13">
@@ -109,7 +109,7 @@ Cancels an existing assignment for a specified instance for a Role, Group or Per
 </tr>
 <tr>
 <td width="230">
-[notify()](/developers/user-guide/scripting-apis/client-api/workflow-functions/notify)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/notify">notify()</a>
 
 </td>
 <td width="13">
@@ -121,7 +121,7 @@ Sends a notification (typically email) to one or more Role, Group or Person and 
 </tr>
 <tr>
 <td width="230">
-[cancelNotifications()](/developers/user-guide/scripting-apis/client-api/workflow-functions/cancelnotificationsforinstance)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/cancelnotificationsforinstance">cancelNotifications()</a>
 
 </td>
 <td width="13">

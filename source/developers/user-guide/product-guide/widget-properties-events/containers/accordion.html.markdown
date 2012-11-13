@@ -458,7 +458,7 @@ Accordion:
 </tr>
 <tr>
 <td width="182">
-[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a>
 
 </td>
 <td width="3">
@@ -501,13 +501,13 @@ Accordion Container:
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
 <td width="15">
 </td>
 <td width="128">
-[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
 
 </td>
 </tr>

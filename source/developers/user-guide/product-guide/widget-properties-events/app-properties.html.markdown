@@ -640,25 +640,25 @@ This is the [Theme](/developers/user-guide/product-guide/content-and-app-layout/
 </tr>
 <tr>
 <td width="139">
-[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a>
 
 </td>
 <td width="14">
 </td>
 <td width="101">
-[Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events">Key Events</a>
 
 </td>
 <td width="13">
 </td>
 <td width="219">
-[Internationalization App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event">Internationalization App Events</a>
 
 </td>
 <td width="14">
 </td>
 <td width="171">
-[Mobile Native App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events">Mobile Native App Events</a>
 
 </td>
 </tr>

@@ -11,7 +11,7 @@ The functions listed in the following sections are exposed as standard through t
 <table>
 <tr>
 <td width="194">
-[Objects & Titbits](/developers/user-guide/scripting-apis/client-api/objects-titbits/)
+  <a href="/developers/user-guide/scripting-apis/client-api/objects-titbits/">Objects & Titbits</a>
 
 </td>
 <td width="20">
@@ -23,7 +23,7 @@ Important information about objects and parameter types
 </tr>
 <tr>
 <td width="194">
-[Useful Browser Functions](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/">Useful Browser Functions</a>
 
 </td>
 <td width="20">
@@ -35,7 +35,7 @@ Summary of useful standard browser functions
 </tr>
 <tr>
 <td width="194">
-[Widget Data & State Manipulation](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/">Widget Data & State Manipulation</a>
 
 </td>
 <td width="20">
@@ -47,7 +47,7 @@ Dealing with widget values and states (visible, enabled, read-only)
 </tr>
 <tr>
 <td width="194">
-[App Functions](/developers/user-guide/scripting-apis/client-api/app-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/app-functions/">App Functions</a>
 
 </td>
 <td width="20">
@@ -59,7 +59,7 @@ Functions that operate at the App level
 </tr>
 <tr>
 <td width="194">
-[Page Functions](/developers/user-guide/scripting-apis/client-api/page-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/page-functions/">Page Functions</a>
 
 </td>
 <td width="20">
@@ -71,7 +71,7 @@ Page navigation functions
 </tr>
 <tr>
 <td width="194">
-[Widget Functions](/developers/user-guide/scripting-apis/client-api/widget-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/">Widget Functions</a>
 
 </td>
 <td width="20">
@@ -83,7 +83,7 @@ Functions that operate at the general Widget level
 </tr>
 <tr>
 <td width="194">
-[Widget Object Functions](/developers/user-guide/scripting-apis/client-api/widget-object-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/">Widget Object Functions</a>
 
 </td>
 <td width="20">
@@ -95,7 +95,7 @@ Functions available within certain widget objects
 </tr>
 <tr>
 <td width="194">
-[Instance Data Functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/instance-data-functions/">Instance Data Functions</a>
 
 </td>
 <td width="20">
@@ -107,7 +107,7 @@ These allow you to manage data Instances
 </tr>
 <tr>
 <td width="194">
-[Data View Functions](/developers/user-guide/scripting-apis/client-api/data-view-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/data-view-functions/">Data View Functions</a>
 
 </td>
 <td width="20">
@@ -119,7 +119,7 @@ Functions that allow you to interact with Data Views
 </tr>
 <tr>
 <td width="194">
-[SOAP & Restful Ajax Calls](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/)
+  <a href="/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/">SOAP & Restful Ajax Calls</a>
 
 </td>
 <td width="20">
@@ -131,7 +131,7 @@ These calls allow a very easy way of making Web Service calls. You can control a
 </tr>
 <tr>
 <td width="194">
-[oAuth](/developers/user-guide/scripting-apis/client-api/oauth/)
+  <a href="/developers/user-guide/scripting-apis/client-api/oauth/">oAuth</a>
 
 </td>
 <td width="20">
@@ -143,7 +143,7 @@ Client side functions to initiate oAuth
 </tr>
 <tr>
 <td width="194">
-[Multi Language Apps](/developers/user-guide/scripting-apis/client-api/multi-language-apps/)
+  <a href="/developers/user-guide/scripting-apis/client-api/multi-language-apps/">Multi Language Apps</a>
 
 </td>
 <td width="20">
@@ -155,7 +155,7 @@ Functions for Multi Language Apps
 </tr>
 <tr>
 <td width="194">
-[Conversion Functions](/developers/user-guide/scripting-apis/client-api/conversion-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/conversion-functions/">Conversion Functions</a>
 
 </td>
 <td width="20">
@@ -167,7 +167,7 @@ Useful functions to convert between Javascript Objects, JSON strings, XML string
 </tr>
 <tr>
 <td width="194">
-[Global Data Pool Functions](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/">Global Data Pool Functions</a>
 
 </td>
 <td width="20">
@@ -179,7 +179,7 @@ A very useful way of storing data or entire App snapshots so when you switch bet
 </tr>
 <tr>
 <td width="194">
-[Workflow Functions](/developers/user-guide/scripting-apis/client-api/workflow-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/workflow-functions/">Workflow Functions</a>
 
 </td>
 <td width="20">
@@ -191,7 +191,7 @@ Functions that allow you to assign data instances to Roles, Persons and Groups. 
 </tr>
 <tr>
 <td width="194">
-[Others](/developers/user-guide/scripting-apis/client-api/others/)
+  <a href="/developers/user-guide/scripting-apis/client-api/others/">Others</a>
 
 </td>
 <td width="20">
@@ -203,7 +203,7 @@ Email, oAuth and cookies
 </tr>
 <tr>
 <td width="194">
-[Date & Time Management Functions](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/)
+  <a href="/developers/user-guide/scripting-apis/client-api/date-time-management-functions/">Date & Time Management Functions</a>
 
 </td>
 <td width="20">

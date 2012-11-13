@@ -13,7 +13,7 @@ This guide offers some basic examples that show you how to access these effects 
 <table>
 <tr>
 <td width="196">
-[fadeIn()](http://api.jquery.com/category/effects/fading/)
+  <a href="http://api.jquery.com/category/effects/fading/">fadeIn()</a>
 
 </td>
 <td width="18">
@@ -25,7 +25,7 @@ Fades a Widget into sight. Use fadeOut(0) first.
 </tr>
 <tr>
 <td width="196">
-[fadeOut()](http://api.jquery.com/category/effects/fading/)
+  <a href="http://api.jquery.com/category/effects/fading/">fadeOut()</a>
 
 </td>
 <td width="18">
@@ -37,7 +37,7 @@ Fades a Widget out.
 </tr>
 <tr>
 <td width="196">
-[slideUp()](http://api.jquery.com/category/effects/sliding/)
+  <a href="http://api.jquery.com/category/effects/sliding/">slideUp()</a>
 
 </td>
 <td width="18">
@@ -49,7 +49,7 @@ Hides a Widget by sliding it into itself
 </tr>
 <tr>
 <td width="196">
-[slideDown()](http://api.jquery.com/category/effects/sliding/)
+  <a href="http://api.jquery.com/category/effects/sliding/">slideDown()</a>
 
 </td>
 <td width="18">
@@ -61,7 +61,7 @@ Reveals a Widget by sliding it out of itself into view
 </tr>
 <tr>
 <td width="196">
-[animate()](http://api.jquery.com/animate/)
+  <a href="http://api.jquery.com/animate/">animate()</a>
 
 </td>
 <td width="18">

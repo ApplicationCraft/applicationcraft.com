@@ -31,7 +31,7 @@ an object containing information about the user to be created
 <td width="15">
 </td>
 <td width="682">
-[click here](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/checkowneruserrights-parameter) to see the checkOwnerRights description
+  <a href="/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/checkowneruserrights-parameter">click here</a> to see the checkOwnerRights description
 
 </td>
 </tr>

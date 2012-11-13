@@ -23,7 +23,7 @@ This object contains a lot of useful properties and methods. Visit [w3schools](h
 </tr>
 <tr>
 <td width="142">
-[alert()](http://www.w3schools.com/jsref/met_win_alert.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_alert.asp">alert()</a>
 
 </td>
 <td width="15">
@@ -35,7 +35,7 @@ Displays an alert box with a message and an OK button. See [alert(), confirm()](
 </tr>
 <tr>
 <td width="142">
-[blur()](http://www.w3schools.com/jsref/met_win_blur.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_blur.asp">blur()</a>
 
 </td>
 <td width="15">
@@ -47,7 +47,7 @@ Removes focus from the current window
 </tr>
 <tr>
 <td width="142">
-[clearInterval()](http://www.w3schools.com/jsref/met_win_clearinterval.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_clearinterval.asp">clearInterval()</a>
 
 </td>
 <td width="15">
@@ -59,7 +59,7 @@ Clears a timer set with setInterval(). See [setInterval(), setTimeout()](/develo
 </tr>
 <tr>
 <td width="142">
-[clearTimeout()](http://www.w3schools.com/jsref/met_win_cleartimeout.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_cleartimeout.asp">clearTimeout()</a>
 
 </td>
 <td width="15">
@@ -71,7 +71,7 @@ Clears a timer set with setTimeout(). See [setInterval(), setTimeout()](/develop
 </tr>
 <tr>
 <td width="142">
-[close()](http://www.w3schools.com/jsref/met_win_close.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_close.asp">close()</a>
 
 </td>
 <td width="15">
@@ -83,7 +83,7 @@ Closes the current window
 </tr>
 <tr>
 <td width="142">
-[confirm()](http://www.w3schools.com/jsref/met_win_confirm.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_confirm.asp">confirm()</a>
 
 </td>
 <td width="15">
@@ -95,7 +95,7 @@ Displays a dialog box with a message and an OK and a Cancel button. See [alert()
 </tr>
 <tr>
 <td width="142">
-[createPopup()](http://www.w3schools.com/jsref/met_win_createpopup.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_createpopup.asp">createPopup()</a>
 
 </td>
 <td width="15">
@@ -107,7 +107,7 @@ Creates a pop-up window. See [showPagePopup()](/developers/user-guide/scripting-
 </tr>
 <tr>
 <td width="142">
-[focus()](http://www.w3schools.com/jsref/met_win_focus.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_focus.asp">focus()</a>
 
 </td>
 <td width="15">
@@ -119,7 +119,7 @@ Sets focus to the current window
 </tr>
 <tr>
 <td width="142">
-[moveBy()](http://www.w3schools.com/jsref/met_win_moveby.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_moveby.asp">moveBy()</a>
 
 </td>
 <td width="15">
@@ -131,7 +131,7 @@ Moves a window relative to its current position
 </tr>
 <tr>
 <td width="142">
-[moveTo()](http://www.w3schools.com/jsref/met_win_moveto.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_moveto.asp">moveTo()</a>
 
 </td>
 <td width="15">
@@ -143,7 +143,7 @@ Moves a window to the specified position
 </tr>
 <tr>
 <td width="142">
-[open()](http://www.w3schools.com/jsref/met_win_open.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_open.asp">open()</a>
 
 </td>
 <td width="15">
@@ -155,7 +155,7 @@ Opens a new browser window. See [open()](/developers/user-guide/scripting-apis/c
 </tr>
 <tr>
 <td width="142">
-[print()](http://www.w3schools.com/jsref/met_win_print.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_print.asp">print()</a>
 
 </td>
 <td width="15">
@@ -167,7 +167,7 @@ Prints the content of the current window
 </tr>
 <tr>
 <td width="142">
-[prompt()](http://www.w3schools.com/jsref/met_win_prompt.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_prompt.asp">prompt()</a>
 
 </td>
 <td width="15">
@@ -179,7 +179,7 @@ Displays a dialog box that prompts the visitor for input. See [showPrompt()](/de
 </tr>
 <tr>
 <td width="142">
-[resizeBy()](http://www.w3schools.com/jsref/met_win_resizeby.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_resizeby.asp">resizeBy()</a>
 
 </td>
 <td width="15">
@@ -191,7 +191,7 @@ Resizes the window by the specified pixels. See [Resize Events](/developers/user
 </tr>
 <tr>
 <td width="142">
-[resizeTo()](http://www.w3schools.com/jsref/met_win_resizeto.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_resizeto.asp">resizeTo()</a>
 
 </td>
 <td width="15">
@@ -203,7 +203,7 @@ Resizes the window to the specified width and height. See [Resize Events](/devel
 </tr>
 <tr>
 <td width="142">
-[scrollBy()](http://www.w3schools.com/jsref/met_win_scrollby.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_scrollby.asp">scrollBy()</a>
 
 </td>
 <td width="15">
@@ -215,7 +215,7 @@ Scrolls the content by the specified number of pixels. See [scrollTo(), scrollBy
 </tr>
 <tr>
 <td width="142">
-[scrollTo()](http://www.w3schools.com/jsref/met_win_scrollto.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_scrollto.asp">scrollTo()</a>
 
 </td>
 <td width="15">
@@ -227,7 +227,7 @@ Scrolls the content to the specified coordinates. See [scrollTo(), scrollBy()](/
 </tr>
 <tr>
 <td width="142">
-[setInterval()](http://www.w3schools.com/jsref/met_win_setinterval.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_setinterval.asp">setInterval()</a>
 
 </td>
 <td width="15">
@@ -239,7 +239,7 @@ Calls a function or evaluates an expression at specified intervals (in milliseco
 </tr>
 <tr>
 <td width="142">
-[setTimeout()](http://www.w3schools.com/jsref/met_win_settimeout.asp)
+  <a href="http://www.w3schools.com/jsref/met_win_settimeout.asp">setTimeout()</a>
 
 </td>
 <td width="15">

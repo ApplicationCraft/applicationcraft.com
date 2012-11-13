@@ -562,7 +562,7 @@ This refers to the [Theme entry](/developers/user-guide/product-guide/content-an
 </tr>
 <tr>
 <td width="148">
-[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a>
 
 </td>
 </tr>

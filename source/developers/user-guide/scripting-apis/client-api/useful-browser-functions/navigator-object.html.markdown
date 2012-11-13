@@ -23,7 +23,7 @@ The navigator object contains information about the browser : [http://www.w3scho
 </tr>
 <tr>
 <td width="219">
-[appCodeName](http://www.w3schools.com/jsref/prop_nav_appcodename.asp)
+  <a href="http://www.w3schools.com/jsref/prop_nav_appcodename.asp">appCodeName</a>
 
 </td>
 <td width="26">
@@ -35,7 +35,7 @@ Returns the code name of the browser
 </tr>
 <tr>
 <td width="219">
-[appName](http://www.w3schools.com/jsref/prop_nav_appname.asp)
+  <a href="http://www.w3schools.com/jsref/prop_nav_appname.asp">appName</a>
 
 </td>
 <td width="26">
@@ -47,7 +47,7 @@ Returns the name of the browser
 </tr>
 <tr>
 <td width="219">
-[appVersion](http://www.w3schools.com/jsref/prop_nav_appversion.asp)
+  <a href="http://www.w3schools.com/jsref/prop_nav_appversion.asp">appVersion</a>
 
 </td>
 <td width="26">
@@ -59,7 +59,7 @@ Returns the version information of the browser
 </tr>
 <tr>
 <td width="219">
-[cookieEnabled](http://www.w3schools.com/jsref/prop_nav_cookieenabled.asp)
+  <a href="http://www.w3schools.com/jsref/prop_nav_cookieenabled.asp">cookieEnabled</a>
 
 </td>
 <td width="26">
@@ -71,7 +71,7 @@ Determines whether cookies are enabled in the browser
 </tr>
 <tr>
 <td width="219">
-[platform](http://www.w3schools.com/jsref/prop_nav_platform.asp)
+  <a href="http://www.w3schools.com/jsref/prop_nav_platform.asp">platform</a>
 
 </td>
 <td width="26">
@@ -83,7 +83,7 @@ Returns for which platform the browser is compiled
 </tr>
 <tr>
 <td width="219">
-[userAgent](http://www.w3schools.com/jsref/prop_nav_useragent.asp)
+  <a href="http://www.w3schools.com/jsref/prop_nav_useragent.asp">userAgent</a>
 
 </td>
 <td width="26">

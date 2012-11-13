@@ -642,19 +642,19 @@ This refers to the [Theme entry](/developers/user-guide/product-guide/content-an
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
 <td width="15">
 </td>
 <td width="108">
-[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a>
 
 </td>
 <td width="11">
 </td>
 <td width="140">
-[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
 
 </td>
 </tr>

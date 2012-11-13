@@ -620,13 +620,13 @@ This refers to the [Theme entry](/developers/user-guide/product-guide/content-an
 </tr>
 <tr>
 <td width="142">
-[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a>
 
 </td>
 <td width="17">
 </td>
 <td width="135">
-[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
 
 </td>
 </tr>

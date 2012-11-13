@@ -410,7 +410,7 @@ Enter the % width for each column in the thumbnail view
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
 </tr>

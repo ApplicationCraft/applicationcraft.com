@@ -512,13 +512,13 @@ This refers to the [Theme entry](/developers/user-guide/product-guide/content-an
 </tr>
 <tr>
 <td width="148">
-[Auth Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/auth-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/auth-events">Auth Events</a>
 
 </td>
 <td width="15">
 </td>
 <td width="120">
-[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
 </tr>

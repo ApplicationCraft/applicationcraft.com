@@ -784,13 +784,13 @@ Repeater:
 </tr>
 <tr>
 <td width="149">
-[General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a>
 
 </td>
 <td width="18">
 </td>
 <td width="121">
-[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
 
 </td>
 </tr>
@@ -833,13 +833,13 @@ Repeater Container:
 </tr>
 <tr>
 <td width="148">
-[Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
 <td width="17">
 </td>
 <td width="128">
-[Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
+  <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
 
 </td>
 </tr>

@@ -11,7 +11,7 @@ The following method table is a summary of the methods available for the Widget 
 <table>
 <tr>
 <td width="182">
-[showGallery()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/showgallery)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/showgallery">showGallery()</a>
 
 </td>
 <td width="8">
@@ -23,7 +23,7 @@ Show the Gallery/Start the slide Show
 </tr>
 <tr>
 <td width="182">
-[columnWidth()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/columnwidth)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/columnwidth">columnWidth()</a>
 
 </td>
 <td width="8">
@@ -35,7 +35,7 @@ Set the column width in the widget
 </tr>
 <tr>
 <td width="182">
-[getCurrentImage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimage)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimage">getCurrentImage()</a>
 
 </td>
 <td width="8">
@@ -47,7 +47,7 @@ Allows you to get the currentImage
 </tr>
 <tr>
 <td width="182">
-[getCurrentImageIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimageindex)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimageindex">getCurrentImageIndex()</a>
 
 </td>
 <td width="8">
@@ -59,7 +59,7 @@ Allows you to get the currentImage index
 </tr>
 <tr>
 <td width="182">
-[getPhotoswipeObject()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getphotoswipeobject)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/getphotoswipeobject">getPhotoswipeObject()</a>
 
 </td>
 <td width="8">
@@ -71,7 +71,7 @@ Allows you to get the Photoswipe Object
 </tr>
 <tr>
 <td width="182">
-[populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/pswipepopulatewidget)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/photoswipe/pswipepopulatewidget">populateWidget()</a>
 
 </td>
 <td width="8">

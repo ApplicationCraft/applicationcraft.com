@@ -11,7 +11,7 @@ The following method table is a summary of the methods available for the ZingCha
 <table>
 <tr>
 <td width="182">
-[getZingChartId()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/zing-chart/getzingchartid)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/zing-chart/getzingchartid">getZingChartId()</a>
 
 </td>
 <td width="8">

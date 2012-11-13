@@ -13,7 +13,7 @@ Most of these functions accept individual or arrays of Widgets specified as eith
 <table>
 <tr>
 <td width="149">
-[w()](/developers/user-guide/scripting-apis/client-api/widget-functions/w)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/w">w()</a>
 
 </td>
 <td width="12">
@@ -25,7 +25,7 @@ You specify a Widget name, you get a Widget object back.
 </tr>
 <tr>
 <td width="149">
-[checkMandatory()](/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/checkmandatory">checkMandatory()</a>
 
 </td>
 <td width="12">
@@ -37,7 +37,7 @@ Checks that required Widgets have been completed
 </tr>
 <tr>
 <td width="149">
-[highlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/highlightwidgets">highlightWidgets()</a>
 
 </td>
 <td width="12">
@@ -49,7 +49,7 @@ Highlights one or more Widgets to draw the Respondent's attention
 </tr>
 <tr>
 <td width="149">
-[unhighlightWidgets()](/developers/user-guide/scripting-apis/client-api/widget-functions/unhighlightwidgets)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/unhighlightwidgets">unhighlightWidgets()</a>
 
 </td>
 <td width="12">
@@ -61,7 +61,7 @@ Remove highlighting
 </tr>
 <tr>
 <td width="149">
-[resetWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/resetwidget)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/resetwidget">resetWidget()</a>
 
 </td>
 <td width="12">
@@ -73,7 +73,7 @@ Resets the value of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/">populateWidget()</a>
 
 </td>
 <td width="12">
@@ -85,7 +85,7 @@ This is a powerful and easy way of populating many Widgets including Grid, Repea
 </tr>
 <tr>
 <td width="149">
-[emptyWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/emptywidget)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/emptywidget">emptyWidget()</a>
 
 </td>
 <td width="12">
@@ -97,7 +97,7 @@ Resets the contents of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty">setProperty()</a>
 
 </td>
 <td width="12">
@@ -109,7 +109,7 @@ Sets a property of one or more Widgets
 </tr>
 <tr>
 <td width="149">
-[getProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/getproperty)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/getproperty">getProperty()</a>
 
 </td>
 <td width="12">
@@ -121,7 +121,7 @@ Gets any property of a single Widget
 </tr>
 <tr>
 <td width="149">
-[refreshData()](/developers/user-guide/scripting-apis/client-api/widget-functions/refreshdata)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/refreshdata">refreshData()</a>
 
 </td>
 <td width="12">
@@ -133,7 +133,7 @@ Refresh the contents of a single Widget's data if bound to a Data View
 </tr>
 <tr>
 <td width="149">
-[getParent()](/developers/user-guide/scripting-apis/client-api/widget-functions/getparentwidget)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/getparentwidget">getParent()</a>
 
 </td>
 <td width="12">
@@ -145,7 +145,7 @@ Returns the parent object of a Widget
 </tr>
 <tr>
 <td width="149">
-[createWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/createwidget)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/createwidget">createWidget()</a>
 
 </td>
 <td width="12">
@@ -157,7 +157,7 @@ Allows you to dynamically create Widgets
 </tr>
 <tr>
 <td width="149">
-[deleteWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/deletewidget)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/deletewidget">deleteWidget()</a>
 
 </td>
 <td width="12">
@@ -169,7 +169,7 @@ Allows you to dynamically delete Widgets
 </tr>
 <tr>
 <td width="149">
-[setFocus()](/developers/user-guide/scripting-apis/client-api/widget-functions/setfocus)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-functions/setfocus">setFocus()</a>
 
 </td>
 <td width="12">

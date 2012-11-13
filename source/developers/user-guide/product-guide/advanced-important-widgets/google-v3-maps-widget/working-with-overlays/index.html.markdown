@@ -39,7 +39,7 @@ Marker
 
 </td>
 <td width="301">
-[addMarker()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker">addMarker()</a>
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Polyline
 
 </td>
 <td width="301">
-[addPolyline()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline">addPolyline()</a>
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ Polygon
 
 </td>
 <td width="301">
-[addPolygon()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon">addPolygon()</a>
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Circle
 
 </td>
 <td width="301">
-[addCircle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle">addCircle()</a>
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Rectangle
 
 </td>
 <td width="301">
-[addRectangle()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle)
+  <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle">addRectangle()</a>
 
 </td>
 </tr>
