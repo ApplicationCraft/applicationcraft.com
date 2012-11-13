@@ -23,10 +23,7 @@ Phonegap/Cordova technology is something that most developers are probably alrea
 
 As we make pretty heavy use of Phonegap/Cordova, we needed to be in a position where we have control over the build process. Being able to add plugins in line with our users's needs was on e pretty key motivator to build our own platform. The other was the simple need to be in control and not end up red-faced because of changes that Adobe might make. 
 
-We would, at this point, like to say thanks to the Phonegap crew - especially Brian "Spacelord" Leroux and Andrew "Sorry for the Snark" Lunny, for putting together such an excellent framework.
-
-##AC Mobile Build in our User Guide
-For those who want to dig into the documentation then click here.
+We would, at this point, like to say thanks to the Phonegap crew - especially Brian "Spacelord" Leroux and Andrew "Sorry for the Snark" Lunny, who have been especially helpful to us in the past.
 
 ##How does it differ from Phonegap:Build?
 In principle, it is very similar. The main differences are free private builds, 6 Phonegap/Cordova plugins, being able to edit your config.xml without re-uploading and keeping a a history of compiled Apps.
@@ -43,7 +40,7 @@ Application Craft curates plugins. This means that they are built and tested by 
   - **SQLite** : this gives you a relaltional database on your mobile device
   - **MailTo** : send emails from your device
 
-Want more? We build plugins based on demand. If plenty of people want'em, we'll add'em. If you have a very obscure plugin you want adding, our services guys can look at that too.
+Want more? We build plugins based on popular demand. If plenty of people want one, we'll add it. If you have a very obscure plugin you want adding, our services guys can look at that, too.
 
 
 
