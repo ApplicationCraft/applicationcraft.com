@@ -9,7 +9,7 @@ module DocsRedirect
     def registered(app)
       app.after_build do |builder|
         rules = []
-        YAML::load(File.read("data/guide.yml"))['tree'].each do |data|
+        YAML::load(File.read("data/documentation.yml"))['tree'].each do |data|
           old = data['old_url'].split('?').last
           rules << "if ($args = #{old}) {\n  rewrite ^ #{data['url']}? permanent;\n}"
         end
