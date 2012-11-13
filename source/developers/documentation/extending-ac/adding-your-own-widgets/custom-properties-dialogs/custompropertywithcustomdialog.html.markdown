@@ -20,5 +20,5 @@ For more complex properties, you may require a dialog. Within your main widget c
 
 The 'type' specifies the property type. We have specified dialogExample, which is a custom property type. As this is a new property type, Application Craft will try to load this. The code shown in the next section shows how we add this property type handler.
 
-Note that the get and set functions will need to be present in your main widget code. These are all explained in the [Defining Properties](/developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/defining-properties) section.
+Note that the get and set functions will need to be present in your main widget code. These are all explained in the [Defining Properties](/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/defining-properties) section.
 
