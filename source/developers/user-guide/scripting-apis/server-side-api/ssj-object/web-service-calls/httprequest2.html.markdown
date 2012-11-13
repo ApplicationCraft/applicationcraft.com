@@ -102,6 +102,5 @@ If you need to get access to returned Header data and response codes, then pleas
 ## See Also
 
  - [ssj.httpRequestAdv()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv)
-
  - [ssj.getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror)
 

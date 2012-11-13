@@ -28,7 +28,7 @@ Widget identifier - string, string array, object or object array
 
 This empties the entire contents of a widget. Ordinary Widgets are cleared and Listbox, Grid and other complex Widgets have all row data removed.
 
-## **Example**
+## Example
 
     app.emptyWidget('txtName');
     app.emptyWidget(['txtName','txtEmail','txtAddress']);

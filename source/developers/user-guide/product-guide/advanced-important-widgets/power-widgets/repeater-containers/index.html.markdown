@@ -12,7 +12,7 @@ Repeater Containers allow a completely unlimited way to lay out tabular data fro
 
  - [Detailed Widget Summary](/developers/user-guide/product-guide/widget-properties-events/containers/repeater) - describes the Widget properties
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3rAyD-f30ic?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeater Container Overview  [5:04]
 

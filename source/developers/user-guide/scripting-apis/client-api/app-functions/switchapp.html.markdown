@@ -153,16 +153,12 @@ If you are using switchApp() in Mobile Native apps, you must define the 'child' 
 ## See Also
 
  - [parentApp()](/developers/user-guide/scripting-apis/client-api/app-functions/parentapp)
-
  - [childApp()](/developers/user-guide/scripting-apis/client-api/app-functions/childapp)
-
  - [Embedding Apps within Apps](/developers/user-guide/product-guide/advanced-features/embedding-apps-within-apps/)
-
  - [Embed App Widget](/developers/user-guide/product-guide/widget-properties-events/advanced/embed-app)
-
  - [Global Data Pool](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/pUY3PXct_wk?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Switching between Apps seamlessly and the Global Data Store [2:17]
 

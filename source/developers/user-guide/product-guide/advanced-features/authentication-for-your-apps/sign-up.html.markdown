@@ -39,10 +39,7 @@ When the Signup button is pressed, AC will first of all perform all necessary va
 ## See Also
 
  - [Sign Up Properties](/developers/user-guide/product-guide/widget-properties-events/authentication/authsign-up)
-
  - [Storing User Account Details in the App](storing_user_account_details_i.htm)
-
  - [Signin](/developers/user-guide/product-guide/widget-properties-events/authentication/authsign-in)
-
  - [Password](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/password)
 

@@ -42,8 +42,6 @@ Returns the status of internet / network connectivity. If the App is not running
 ## See Also
 
  - [Network Availability Handling](/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling)
-
  - [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
-
  - [Error Handling](/developers/user-guide/scripting-apis/client-scripting-overview/error-handling/)
 

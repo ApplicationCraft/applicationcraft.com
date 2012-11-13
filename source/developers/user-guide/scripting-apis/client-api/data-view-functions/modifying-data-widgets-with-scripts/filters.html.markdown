@@ -45,15 +45,10 @@ Refer to the next section for information on how to filter dates.
 ## See Also
 
  - [Expressions](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/the-expression-editor)
-
  - [Filtering Dates](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filtering-dates)
-
  - [getViewData()](/developers/user-guide/scripting-apis/client-api/data-view-functions/getviewdata)
-
  - [Drill Filter](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/refdrill-filter)
-
  - [drillDownBroadcast()](/developers/user-guide/scripting-apis/client-api/data-view-functions/drilldownbroadcast)
-
  - [Data View Related Events](/developers/user-guide/scripting-apis/client-api/data-view-functions/data-view-related-events)
 
 Related Video:

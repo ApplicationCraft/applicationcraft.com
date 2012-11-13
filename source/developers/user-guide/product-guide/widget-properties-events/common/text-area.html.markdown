@@ -926,19 +926,15 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Common Widgets: [Text](/developers/user-guide/product-guide/widget-properties-events/common/text) , [Alpha Numeric](/developers/user-guide/product-guide/widget-properties-events/common/alpha-numeric) , [Numeric](/developers/user-guide/product-guide/widget-properties-events/common/numeric)
 
  - Advanced Widgets: [Mask Edit](/developers/user-guide/product-guide/widget-properties-events/advanced/mask-edit)
 
  - Mobile Widgets: [Text Area](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext-area) , [Text](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

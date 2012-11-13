@@ -863,10 +863,7 @@ On Resize Stop
 ## See Also
 
  - [Calendar Widget](/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Selection Events](/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents)
-
  - [View Events](/developers/user-guide/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents)
 

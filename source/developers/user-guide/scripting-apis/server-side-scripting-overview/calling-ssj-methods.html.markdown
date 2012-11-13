@@ -43,7 +43,7 @@ and here is the server side function that gets called
 
 The value that you return is passed to the client side callback function and appears as the res parameter. If any error is thrown, whether by your code or by the system, then the client side error parameter in the callback will be set to true.
 
-## **See Also**
+## See Also
 
  - [callSSJ()](/developers/user-guide/scripting-apis/client-api/app-functions/callservice)
 

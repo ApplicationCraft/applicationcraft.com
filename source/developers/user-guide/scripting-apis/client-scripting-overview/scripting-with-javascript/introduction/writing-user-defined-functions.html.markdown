@@ -35,6 +35,5 @@ Application Craft has a different API on the server side to the client API. Plea
 ## See Also
 
  - [Defining SSJ Methods](/developers/user-guide/scripting-apis/server-side-scripting-overview/ssj-user-defined-methods)
-
  - [Public Shared Scripts](/developers/user-guide/scripting-apis/client-scripting-overview/public-shared-scripts)
 

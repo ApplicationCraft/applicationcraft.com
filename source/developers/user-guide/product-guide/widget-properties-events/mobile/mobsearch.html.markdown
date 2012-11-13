@@ -643,10 +643,7 @@ On Resize Stop
 ## See Also
 
  - [Search](/developers/user-guide/product-guide/widget-properties-events/advanced/search) (Advanced)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

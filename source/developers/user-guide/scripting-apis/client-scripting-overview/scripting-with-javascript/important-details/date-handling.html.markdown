@@ -31,10 +31,7 @@ If you want to set a date filter on a data view, then you should build your filt
 ## See Also
 
  - [Getting and Setting Date Widget Values](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/dates)
-
  - [DATE2DB()](/developers/user-guide/scripting-apis/client-api/conversion-functions/date2db)
-
  - [Filtering (Dates)](/developers/user-guide/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filters)
-
  - [Date & Time Management Functions](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/)
 

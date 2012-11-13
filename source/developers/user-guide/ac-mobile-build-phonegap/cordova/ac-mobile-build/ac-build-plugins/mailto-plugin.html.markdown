@@ -185,7 +185,7 @@ chtitle
 </tr>
 </table>
 
-## **Example**
+## Example
 
     function handler_actionBtn_onClick(mouseev){
         
@@ -204,21 +204,16 @@ chtitle
      
    
 
-## **See Also**
+## See Also
 
  - [sendEmail()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2)
-
  - [mobileEmail()](/developers/user-guide/scripting-apis/client-api/app-functions/mobileemail)
 
 'Link' property available with:
 
  - [Action Button (Mobile)](/developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button)
-
  - [Action Button (Common)](/developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button)
-
  - [Image](/developers/user-guide/product-guide/widget-properties-events/common/image)
-
  - [Label (Common)](/developers/user-guide/product-guide/widget-properties-events/common/label)
-
  - [Label (Mobile)](/developers/user-guide/product-guide/widget-properties-events/mobile/moblabel)
 

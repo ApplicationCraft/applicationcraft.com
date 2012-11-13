@@ -917,10 +917,7 @@ On Resize Stop
 ## See Also
 
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Working with the Timeline Widget](/developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
-
  - [Timeline Object Functions](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/)
 

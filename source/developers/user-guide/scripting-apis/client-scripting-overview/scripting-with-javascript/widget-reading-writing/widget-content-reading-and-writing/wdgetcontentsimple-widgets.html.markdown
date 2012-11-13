@@ -11,6 +11,5 @@ Even though the getData() function returns the same as getValue(), we encourage 
 ## See Also
 
  - [setValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refsetvalue)
-
  - [getValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refgetvalue)
 

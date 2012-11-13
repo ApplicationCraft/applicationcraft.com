@@ -51,8 +51,6 @@ This is a utility function that enables you to set the 'enable' property of one 
 ## See Also
 
  - [visible()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/visible)
-
  - [readOnly()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/readonly)
-
  - [setProperty()](/developers/user-guide/scripting-apis/client-api/widget-functions/setproperty)
 

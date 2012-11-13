@@ -29,7 +29,7 @@ the value of a password field on your app
 
 This takes a string and produces an md5 hash from that string. The most common use case is for password handling, where you take a password entered in your app and pass it to the md5() function to get a value back that you then compare to the data returned from your database where the password is encrypted with md5
 
-## **Example**
+## Example
 
 Client Side Script:
 
@@ -51,9 +51,8 @@ Client Side Script:
 
 Server Side Script:
 
-## **See Also**
+## See Also
 
  - [hash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/cryptblowfish)
-
  - [checkHash()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/checkcryptblowfish)
 

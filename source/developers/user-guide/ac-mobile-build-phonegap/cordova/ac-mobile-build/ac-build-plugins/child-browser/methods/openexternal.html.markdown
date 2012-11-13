@@ -46,7 +46,7 @@ The browser will be a PhoneGap-enabled webview
 
 (Android only) Opens the URL in a regular browser
 
-## **Example**
+## Example
 
     window.plugins.childBrowser.openExternal('http://www.google.com');
    

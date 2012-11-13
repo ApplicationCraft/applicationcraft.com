@@ -15,10 +15,7 @@ Understanding the difference between these is important. Let's look at the gener
 Grids and Repeaters are worth looking at in more detail. These offer a lot of opportunity to manage complex data. They are slightly more involved to write to and read from. We recommend reading up on Grids and Repeaters in the following sections
 
  - [Reading and Writing user selections and values in Grids](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
-
  - [Reading and Writing user selections and values in Repeater Containers](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/repeater-containers)
-
  - [Reading and Writing Grid content](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers)
-
  - [Reading and Writing Repeater Container content](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentrepeater-containers)
 

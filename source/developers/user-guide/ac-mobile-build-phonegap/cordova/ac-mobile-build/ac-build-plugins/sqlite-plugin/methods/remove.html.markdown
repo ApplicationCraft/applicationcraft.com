@@ -71,5 +71,5 @@ obj.message - error message
 
 This function is used to remove a database.
 
-## **Example**
+## Example
 

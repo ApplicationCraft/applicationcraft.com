@@ -628,15 +628,13 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Sign In](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/sign-in) , [Sign Up](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/sign-up)
 
  - Mobile Widgets: [Text](/developers/user-guide/product-guide/widget-properties-events/mobile/mobtext)
 
  - Authentication Widgets: [Password](/developers/user-guide/product-guide/widget-properties-events/authentication/authpassword) , [Sign In](/developers/user-guide/product-guide/widget-properties-events/authentication/authsign-in) , [Sign Up](/developers/user-guide/product-guide/widget-properties-events/authentication/authsign-up) , [Captcha](/developers/user-guide/product-guide/widget-properties-events/authentication/authcaptcha)
-
  - [Auth Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/auth-events)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 

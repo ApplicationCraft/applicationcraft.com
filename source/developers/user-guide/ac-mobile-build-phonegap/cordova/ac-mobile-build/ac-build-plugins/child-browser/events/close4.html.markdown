@@ -10,7 +10,7 @@ full_width: true
 
 This event is called when the ChildBrowser has been closed
 
-## **Example**
+## Example
 
     window.plugins.childBrowser.onClose = function () {
         alert('childBrowser has closed');

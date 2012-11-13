@@ -24,9 +24,8 @@ The function [showConfirm()](/developers/user-guide/scripting-apis/client-api/ap
      
    
 
-## **See Also**
+## See Also
 
  - [showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm)
-
  - [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
 

@@ -9,11 +9,8 @@ full_width: true
 The following CRUD functions trigger CDB and RDB callback functions once data has been updated
 
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
  - [instanceSync()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesync)
 
 The CDB callback function returns the result object in the second parameter and has the format

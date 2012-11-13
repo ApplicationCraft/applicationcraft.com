@@ -107,6 +107,5 @@ For Mobiscroll List widget,
 ## See Also
 
  - [setValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refsetvalue)
-
  - [getValue()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/refgetvalue)
 

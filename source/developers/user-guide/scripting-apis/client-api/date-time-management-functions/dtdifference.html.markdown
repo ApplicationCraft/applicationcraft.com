@@ -50,10 +50,7 @@ Returns the difference between the specified date objects in the specified time 
 ## See Also
 
  - [dtNewDate()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtnewdate)
-
  - [dtadd()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadd)
-
  - [dtAdjust()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadjust)
-
  - [dtDateToString()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdatetostring)
 

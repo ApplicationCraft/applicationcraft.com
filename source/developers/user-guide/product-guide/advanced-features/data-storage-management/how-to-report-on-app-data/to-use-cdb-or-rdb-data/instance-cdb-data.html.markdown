@@ -22,7 +22,7 @@ Provided you have set the App’s Storage property to something other than ‘no
 
  - Time Created - this field contains the date and time that the Instance was created
 
-## **See Also**
+## See Also
 
  - [Reporting (RDB) Data](/developers/user-guide/product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/to-use-cdb-or-rdb-data/reporting-rdb-data)
 

@@ -89,8 +89,6 @@ For more on this, see [populateWidget()](/developers/user-guide/scripting-apis/c
 ## See Also
 
  - [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata)
-
  - [getData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/getdata)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 

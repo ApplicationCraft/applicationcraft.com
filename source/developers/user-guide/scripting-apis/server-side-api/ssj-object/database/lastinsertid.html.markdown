@@ -29,8 +29,6 @@ It is not safe to generate a SELECT query that does a MAX(id) to get the latest 
 ## See Also
 
  - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
-
  - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
-
  - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 

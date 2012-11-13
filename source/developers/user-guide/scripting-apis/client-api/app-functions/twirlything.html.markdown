@@ -115,7 +115,7 @@ You do not need to use twirlyThing() explicitly when data is being loaded from a
 
 Example usage to show twirly thing between page navigation
 
-## **See Also**
+## See Also
 
  - [Twirly Thing/Hourglass](/developers/user-guide/product-guide/advanced-features/twirly-thing/hourglass/)
 

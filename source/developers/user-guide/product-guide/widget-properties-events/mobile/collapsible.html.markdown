@@ -562,7 +562,7 @@ On State Changed
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

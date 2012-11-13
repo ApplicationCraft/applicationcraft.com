@@ -78,7 +78,7 @@ This function looks for a text string within a Grid or Repeater container and re
 
 In some cases you may want to search within a widget or column starting at a specific offsets within it. The 'start' parameter allows you to specify this. Case sensitivity and exact matches can also be specified.
 
-## **Example**
+## Example
 
     function handler_actionBtn_onClick(mouseev){
         var res = app.w("grdtable").search("text");

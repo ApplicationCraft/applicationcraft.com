@@ -31,9 +31,8 @@ You can also use the [checkMandatory()](/developers/user-guide/scripting-apis/cl
 
 You should also refer to [Interacting with Widgets](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/) for full details on how to read data from the various Widget types.
 
-## **See Also**
+## See Also
 
  - [showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm)
-
  - [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
 

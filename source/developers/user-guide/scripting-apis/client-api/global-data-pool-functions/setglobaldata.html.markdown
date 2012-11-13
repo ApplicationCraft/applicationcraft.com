@@ -45,12 +45,8 @@ Read up on [getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/a
 ## See Also
 
  - [switchApp()](/developers/user-guide/scripting-apis/client-api/app-functions/switchapp)
-
  - [getGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/getglobaldata)
-
  - [clearGlobalData()](/developers/user-guide/scripting-apis/client-api/global-data-pool-functions/clearglobaldata)
-
  - [getAppSnaphot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot)
-
  - [setAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/setappsnapshot)
 

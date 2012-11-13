@@ -96,7 +96,7 @@ You can also use the functions of the Scandit Free Plugin without using the Scan
 
 Link to the complete documentation for this plugin is available here [https://github.com/ApplicationCraft/ScanditUniversalJS](https://github.com/ApplicationCraft/ScanditUniversalJS)
 
-## **Example**
+## Example
 
 <table>
 <tr>
@@ -165,7 +165,7 @@ Available options: (description see - [https://github.com/ApplicationCraft/Scand
 </tr>
 </table>
 
-## **Example**
+## Example
 
     window.plugins.ScanditSDK.scan(
         function (value, type){
@@ -179,7 +179,7 @@ Available options: (description see - [https://github.com/ApplicationCraft/Scand
      
    
 
-## **See Also**
+## See Also
 
  - [ZXing Bar Code Scanner](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner)
 

@@ -692,11 +692,9 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Advanced Widgets: [Sliders](/developers/user-guide/product-guide/widget-properties-events/advanced/sliders)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

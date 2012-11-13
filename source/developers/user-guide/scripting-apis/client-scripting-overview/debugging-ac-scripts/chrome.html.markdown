@@ -19,10 +19,7 @@ In order to invoke the debugger, you should include the command 'debugger;' in y
 The following sections in this user guide explain more about debugging you can refer to the following API support functions
 
  - [debugOutput()](/developers/user-guide/scripting-apis/client-api/app-functions/debugoutput)
-
  - [debugValues()](/developers/user-guide/scripting-apis/client-api/app-functions/debugvalues)
-
  - [debugData()](/developers/user-guide/scripting-apis/client-api/app-functions/debugdata)
-
  - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 

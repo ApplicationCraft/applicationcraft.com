@@ -386,9 +386,8 @@ On Click
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Mobile Navigation Toolbar](/developers/user-guide/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-navigation-toolbar)
 

@@ -15,6 +15,5 @@ This debug function resets the App to the same state as if it had been newly loa
 ## See Also
 
  - [instanceNew()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancenew)
-
  - [resetWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/resetwidget)
 

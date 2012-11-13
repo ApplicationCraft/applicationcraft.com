@@ -20,7 +20,7 @@ Application Craft lets you join all of these Apps together or even to embed one 
 
 You can also use the so-called [CRUD functions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-create-read-update-dele) [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate) , [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave) and [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete) to manage data in a different App to the one you are working on.
 
-## **See Also**
+## See Also
 
  - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
 

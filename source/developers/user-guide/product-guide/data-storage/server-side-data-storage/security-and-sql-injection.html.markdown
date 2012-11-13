@@ -13,7 +13,6 @@ Novice developers may not be aware of the dangers and so this section should giv
 Please don't take this as a comprehensive guide to security. There are also other ways you can enhance security using enhanced user validation. Please refer to the following sections
 
  - [SSJ - Writing Secure Code](/developers/user-guide/scripting-apis/server-side-scripting-overview/writing-secure-code)
-
  - [SSJ API - Security](/developers/user-guide/scripting-apis/server-side-api/ssj-object/security/)
 
 ## Protecting your SSJ Functions with the '\_' prefix

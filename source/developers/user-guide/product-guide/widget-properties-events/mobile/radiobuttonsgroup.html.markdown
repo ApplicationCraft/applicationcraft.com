@@ -610,13 +610,11 @@ On Data Loaded
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Mobile Widgets: [Checkbox Group](/developers/user-guide/product-guide/widget-properties-events/mobile/checkbox-group) , [Flip Toggle Switch](/developers/user-guide/product-guide/widget-properties-events/mobile/flip-toggle-switch)
 
  - Common Widgets: [Radio Button](/developers/user-guide/product-guide/widget-properties-events/common/radio-button) , [Checkbox](/developers/user-guide/product-guide/widget-properties-events/common/checkbox)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

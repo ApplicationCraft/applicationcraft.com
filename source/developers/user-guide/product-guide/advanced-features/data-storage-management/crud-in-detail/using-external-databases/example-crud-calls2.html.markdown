@@ -16,11 +16,9 @@ If you are operating on external database, then this will usually be the name of
 
 Note: There are currently no Callback functions available for use with external databases.
 
-## **See Also**
+## See Also
 
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 

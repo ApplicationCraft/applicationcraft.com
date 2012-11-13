@@ -42,7 +42,6 @@ If you want to change the Timeout value for a single [httpRequest()](/developers
 ## See Also
 
  - [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
-
  - [Error Handling](/developers/user-guide/scripting-apis/client-scripting-overview/error-handling/)
 
 Related Video:

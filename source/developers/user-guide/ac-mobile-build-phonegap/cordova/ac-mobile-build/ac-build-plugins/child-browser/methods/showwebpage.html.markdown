@@ -80,7 +80,7 @@ show/hide the entire navigation bar. Important: since there is no "Done"-Button 
 
 Displays a new ChildBrowser with the specified URL. Defaults to true.
 
-## **Example**
+## Example
 
     window.plugins.childBrowser.showWebPage('http://www.google.com',
                                             { showLocationBar: true });

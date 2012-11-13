@@ -16,7 +16,7 @@ Application Craft lets you call SOAP and RESTful Web Services in a way that look
 
 This chapter shows all of these approaches being used. If you want to know how to build AC system extensions, then [Extending Application Craft](/developers/user-guide/adding-widgets-and-api-methods/) and [Widget Extensions](/developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/) are described within the Developer Guides.
 
-## **See Also**
+## See Also
 
 [Extending Application Craft](/developers/user-guide/adding-widgets-and-api-methods/)
 

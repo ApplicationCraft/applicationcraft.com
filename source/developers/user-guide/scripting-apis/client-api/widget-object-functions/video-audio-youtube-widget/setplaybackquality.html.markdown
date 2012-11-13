@@ -168,7 +168,7 @@ YouTube selects the appropriate playback quality. This setting effective
 </tr>
 </table>
 
-## **Example**
+## Example
 
      
     app.w('YouTube').getYouTubePlayer().setPlaybackQuality('small');
@@ -176,9 +176,8 @@ YouTube selects the appropriate playback quality. This setting effective
      
    
 
-## **See Also**
+## See Also
 
  - [getPlaybackQuality()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getplaybackquality)
-
  - [getAvailableQualityLevels()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getavailablequalitylevels)
 

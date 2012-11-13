@@ -14,7 +14,7 @@ However, in most cases an Administrator will create a Data Agent that should be 
 
 If you want to make a shared Agent Public, you can drag it into a Public folder. Note that being in the Public folder does not make it accessible to all users, it merely makes shared Agents visible within the context of a Public folder structure. If you want an Agent to be available to everyone, use Sharing to grant permissions to the Group 'Everyone' before dragging it into the Public folder.
 
-## **See Also**
+## See Also
 
  - [Sharing](/developers/user-guide/product-guide/the-console/sharing)
 

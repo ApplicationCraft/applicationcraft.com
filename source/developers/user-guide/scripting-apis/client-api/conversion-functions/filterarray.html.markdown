@@ -59,6 +59,5 @@ The following example shows how you would filter out any array elements where th
 ## See Also
 
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
-
  - [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata)
 

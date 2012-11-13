@@ -27,7 +27,7 @@ full_width: true
  - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
     Closes a page that was shown as a popup dialog
 
-## Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/EGKg4-MAwS0?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) App Pages - Page navigation, standard and popup pages [1:35]
 

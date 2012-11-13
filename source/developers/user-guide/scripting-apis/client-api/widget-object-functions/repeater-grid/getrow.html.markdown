@@ -64,10 +64,7 @@ This next example shows how a loop could perform the same operation rather than 
 ## See Also
 
  - [rowCount()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/length)
-
  - [rowIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
-
  - [parent()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/parent)
-
  - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

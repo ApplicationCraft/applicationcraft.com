@@ -93,13 +93,13 @@ All functions are called on the created PGSQLitePlugin object:
      
    
 
-## **Example**
+## Example
 
 ## **See**
 
  - [Methods](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/)
 
-## **See Also**
+## See Also
 
  - [Mobile & Client Side Data Storage](/developers/user-guide/product-guide/data-storage/mobile-client-side-data-storage/)
 

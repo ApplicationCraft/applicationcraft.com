@@ -103,36 +103,24 @@ You can speed things up, also valid for desktop apps
 The following Widgets are covered in subtopics
 
  - [ListBoxes, Dropdowns and Context Menu Examples](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/listbox-dropdown-example)
-
  - [Mobile List](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobile-list-example)
-
  - [Repeater Container Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/repeater-container-example)
-
  - [Advanced Google Maps](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/advanced-google-maps-example)
-
  - [Video Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/audio-video-example)
-
  - [Photoswipe Example](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/photoswipe-example)
-
  - [Timeline](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/timeline-example)
-
  - [Calendar Widget](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/calendar-widget2)
-
  - [Mobiscroll List](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobiscroll-list2)
-
  - [Zing Charts](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/zingcharts)
-
  - [Flot Charts](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/flot-charts2)
 
 ## See Also
 
  - [fetchDataPage()](/developers/user-guide/scripting-apis/client-api/data-view-functions/fetchdatapage)
-
  - [drawNextPage()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage)
-
  - [isAllDataDrawn()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/q6VXeWOhAxA?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating List Widgets with Javascript  [5:15]
 

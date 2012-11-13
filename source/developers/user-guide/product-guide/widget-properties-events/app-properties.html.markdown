@@ -882,13 +882,10 @@ On Resize
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [Internationalization App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
-
  - [Mobile Native App Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
 

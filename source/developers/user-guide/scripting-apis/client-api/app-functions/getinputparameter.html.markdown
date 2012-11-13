@@ -77,7 +77,6 @@ In all the above cases, you can read data as follows
 ## See Also
 
  - [Passing data to Apps in the query string](/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/passing-data-to-apps-in-the-qu)
-
  - [Passing in data with Embedded Apps and Javascript](/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded)
 
 Related Video:

@@ -71,10 +71,7 @@ Any user interaction is blocked by AC until the OK button has been pressed.
 ## See Also
 
  - [showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm)
-
  - [showPrompt()](/developers/user-guide/scripting-apis/client-api/app-functions/showprompt)
-
  - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
-
  - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 

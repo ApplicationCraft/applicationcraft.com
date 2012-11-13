@@ -102,7 +102,7 @@ For more information on rendererOptions see: [https://developers.google.com/maps
 
 Note that the returned directions are presented via a callback function.
 
-## **Example**
+## Example
 
     function getDirectionsCallback(result, data) {
         // Put all of the directions into a single HTML string
@@ -124,15 +124,11 @@ Note that the returned directions are presented via a callback function.
 
 **getDirections**
 
-## **See Also**
+## See Also
 
  - [whereAmI()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami)
-
  - [getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress)
-
  - [getCoord()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord)
-
  - [addCurrentLocation()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation)
-
  - [removeDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/removedirections)
 

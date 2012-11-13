@@ -95,16 +95,10 @@ and this one does the same to a Grid
 ## See Also
 
  - [deleteRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
-
  - [deleteRowById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterowbyid)
-
  - [deleteSelectedRows()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows)
-
  - [insertRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
-
  - [rowIndex()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
-
  - [getRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow)
-
  - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

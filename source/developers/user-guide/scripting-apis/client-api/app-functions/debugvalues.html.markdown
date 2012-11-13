@@ -41,10 +41,7 @@ This debug function instructs AC to collect the widget data values into an objec
 ## See Also
 
  - [Debugging](/developers/user-guide/product-guide/advanced-features/testing-apps/debugging)
-
  - [debugOutput()](/developers/user-guide/scripting-apis/client-api/app-functions/debugoutput)
-
  - [debugData()](/developers/user-guide/scripting-apis/client-api/app-functions/debugdata)
-
  - [debugProperties()](/developers/user-guide/scripting-apis/client-api/app-functions/debugproperties)
 

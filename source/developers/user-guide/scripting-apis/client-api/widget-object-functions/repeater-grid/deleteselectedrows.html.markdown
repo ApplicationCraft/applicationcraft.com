@@ -24,10 +24,7 @@ This is a function of the widget object. It removes all of the selected rows fro
 ## See Also
 
  - [deleteRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow)
-
  - [deleteRowById()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterowbyid)
-
  - [insertRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
-
  - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

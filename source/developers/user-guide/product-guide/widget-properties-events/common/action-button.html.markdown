@@ -571,8 +571,6 @@ On Resize Stop
  - Advanced Widgets: [Reset Filter](/developers/user-guide/product-guide/widget-properties-events/advanced/advreset-filter)
 
  - Mobile Widgets: [Action Button](/developers/user-guide/product-guide/widget-properties-events/mobile/mobaction-button)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

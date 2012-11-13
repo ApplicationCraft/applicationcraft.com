@@ -126,10 +126,7 @@ You can add or remove rows using object functions described in the [Widget Objec
 ## See Also
 
  - [Reading & Writing Cell Values](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers)
-
  - [setData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/setdata)
-
  - [getData()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/getdata)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 

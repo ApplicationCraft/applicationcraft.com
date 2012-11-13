@@ -80,5 +80,5 @@ Because SOAP provides more information that a RESTful call, AC is able to conver
 
 To assist debugging there are 2 functions available
 
-## **Example**
+## Example
 

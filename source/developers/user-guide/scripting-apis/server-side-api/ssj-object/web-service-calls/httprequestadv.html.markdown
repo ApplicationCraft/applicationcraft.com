@@ -186,6 +186,5 @@ Performs an AJAX call and returns more comprehensive content than [httpRequest()
 ## See Also
 
  - [ssj.httpRequest()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequest2)
-
  - [ssj.getLatestError()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror)
 

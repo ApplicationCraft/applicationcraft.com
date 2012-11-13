@@ -41,12 +41,10 @@ This means AC knows where the data came from so that the CRUD functions (shown b
 You are now ready to perform CRUD operations such as
 
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
 
-## **See Also**
+## See Also
 
  - [Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/permissions)
 

@@ -71,14 +71,9 @@ The following examples show different ways to get state information into an obje
 ## See Also
 
  - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
-
  - [dataSetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues)
-
  - [dataSetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datasetstates)
-
  - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
-
  - [SSJ database functions](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
-
  - [Instance Data Functions](/developers/user-guide/scripting-apis/client-api/instance-data-functions/)
 

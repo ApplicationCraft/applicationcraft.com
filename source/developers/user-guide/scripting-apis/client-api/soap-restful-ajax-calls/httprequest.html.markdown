@@ -230,10 +230,7 @@ This example shows how headers are used to provide authentication information an
 ## See Also
 
  - [Crossdomain Handling](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues)
-
  - [Data Conversion Functions](/developers/user-guide/scripting-apis/client-api/conversion-functions/)
-
  - [Extending Application Craft](/developers/user-guide/adding-widgets-and-api-methods/)
-
  - [Wizard](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard)
 

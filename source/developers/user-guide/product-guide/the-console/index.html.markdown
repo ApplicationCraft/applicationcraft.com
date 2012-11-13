@@ -12,14 +12,11 @@ Once you have logged into Application Craft, you will go to your 'Apps' tab as d
 
 All other screens can be reached directly from the Tab Bar across the top of the Console screens.
 
-## **See Also**
+## See Also
 
  - [General Screen Behavior](/developers/user-guide/product-guide/the-console/general-screen-behavior)
-
  - [Private, Shared and Public Folders](/developers/user-guide/product-guide/the-console/private-shared-and-public-fol)
-
  - [Sharing](/developers/user-guide/product-guide/the-console/sharing)
-
  - [Versions](/developers/user-guide/product-guide/the-console/versions)
 
 For detailed descriptions of the different Console windows see [Console Tabs](/developers/user-guide/product-guide/the-console/console-tabs/)

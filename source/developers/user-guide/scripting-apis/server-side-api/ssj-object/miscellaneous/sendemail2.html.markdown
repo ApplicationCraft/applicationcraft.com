@@ -130,6 +130,5 @@ Server Side Script:
 ## See Also
 
  - [SMTP Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/)
-
  - [callSSJ()](/developers/user-guide/scripting-apis/client-api/app-functions/callservice)
 

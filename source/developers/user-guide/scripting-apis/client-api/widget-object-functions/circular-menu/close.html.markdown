@@ -12,7 +12,7 @@ full_width: true
 
 Closes the Circle Menu widget
 
-## **Example**
+## Example
 
     app.w('CircleMenu').open();
      

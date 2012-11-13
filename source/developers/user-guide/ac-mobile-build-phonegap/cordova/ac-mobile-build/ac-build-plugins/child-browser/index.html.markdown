@@ -77,6 +77,5 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](/de
 ## See
 
  - [Methods](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/methods/)
-
  - [Events](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/events/)
 

@@ -29,7 +29,6 @@ app.w('timeline1').zoomOut() - zooms out one step
 There are a couple of ways to adjust the timeline display area. Firstly, there are some widget methods
 
  - [app.w('Timeline1').scroll](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/scroll) (numDaysToScroll)
-
  - [app.w('Timeline1').scrollTo](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto) (date)
 
 or you can set properties

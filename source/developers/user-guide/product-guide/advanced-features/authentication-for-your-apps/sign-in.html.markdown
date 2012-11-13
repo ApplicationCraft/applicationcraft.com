@@ -59,6 +59,5 @@ Here is an example of a typical function that would be called after a successful
 ## See Also
 
  - [Sign In Properties](/developers/user-guide/product-guide/widget-properties-events/authentication/authsign-in)
-
  - [Signup Widget](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/sign-up)
 

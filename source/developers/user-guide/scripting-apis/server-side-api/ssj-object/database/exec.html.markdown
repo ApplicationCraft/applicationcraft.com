@@ -65,9 +65,7 @@ The following code would call this stored procedure from an SSJ script
 ## See Also
 
  - [dataGetValues()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
-
  - [dataGetStates()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
-
  - [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
 
 Related Video:

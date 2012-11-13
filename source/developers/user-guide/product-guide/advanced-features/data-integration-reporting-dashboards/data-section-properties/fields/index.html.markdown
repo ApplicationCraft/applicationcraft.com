@@ -28,7 +28,7 @@ These have a multi-dimensional data structure and so there will be an item and a
 
 ![list\_expr](/img/docs/list_expr.zoom66.png)
 
-## **See Also**
+## See Also
 
  - [Using Automatic Property Settings](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/using-automatic-property-setti)
 

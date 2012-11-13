@@ -103,9 +103,8 @@ Triggered when an item is selected.
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Zing Chart Events](/developers/user-guide/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/events2)
-
  - [Circle Menu Events](/developers/user-guide/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary-2/events2-2)
 

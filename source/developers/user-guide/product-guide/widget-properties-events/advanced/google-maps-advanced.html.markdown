@@ -713,6 +713,5 @@ Control the shadow around the widget
 ## See Also
 
  - [Google V3 Maps Widget](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/)
-
  - [Advanced Map Object Functions](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/)
 

@@ -32,6 +32,6 @@ This forces the specified Widget(s) to request its data from the data source.
 
  - [enableView()](/developers/user-guide/scripting-apis/client-api/data-view-functions/enableview)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/TrfVkAavkOQ?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Data Containers Explained [4:25]

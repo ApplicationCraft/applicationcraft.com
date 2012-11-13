@@ -40,7 +40,7 @@ Set to the longitude co-ordinate
 
 Where you add a new Marker to the map, along with optional mouse-over and mouse-click HTML for popup windows.
 
-## **Example**
+## Example
 
     app.w('googleMapsAdvanced').addMarker(37.45, -122.14);
      

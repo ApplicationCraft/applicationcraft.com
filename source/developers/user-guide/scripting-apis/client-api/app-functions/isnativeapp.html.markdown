@@ -31,8 +31,6 @@ Indicates whether the App is running in Native or Web App mode.
 ## See Also
 
  - [Network Availability Handling](/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling)
-
  - [httpRequest()](/developers/user-guide/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
-
  - [Error Handling](/developers/user-guide/scripting-apis/client-scripting-overview/error-handling/)
 

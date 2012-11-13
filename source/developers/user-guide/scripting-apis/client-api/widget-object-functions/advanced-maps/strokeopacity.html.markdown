@@ -28,7 +28,7 @@ Set the Overlay line opacity
 
 How you can set the line opacity for overlays
 
-## **Example**
+## Example
 
      
     app.w('googleMapsAdvanced').strokeOpacity(0.3 + 0.7 * Math.random());  //Set Random Opacity
@@ -37,15 +37,11 @@ How you can set the line opacity for overlays
      
    
 
-## **See Also**
+## See Also
 
  - [strokeColor()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/strokecolor)
-
  - [strokeWeight()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/strokeweight)
-
  - [fillColor()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fillcolor)
-
  - [fillOpacity()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/fillopacity)
-
  - [Working with Overlays](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/)
 

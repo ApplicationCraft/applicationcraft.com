@@ -43,6 +43,5 @@ This example might run in a text OnChange event. A quantity  is multiplied by t
 ## See Also
 
  - [getRow()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow)
-
  - [rowCount()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/repeater-grid/length)
 

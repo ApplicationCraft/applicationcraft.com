@@ -25,12 +25,8 @@ Adjusts the date range of a Timeline widget to accommodate all events loaded int
 ## See Also
 
  - [scroll()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/scroll)
-
  - [scrollTo()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto)
-
  - [Timeline Events](/developers/user-guide/scripting-apis/client-api/widget-object-functions/timeline/eventstimeline)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
-
  - [Working with the Timeline Widget](/developers/user-guide/product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
 

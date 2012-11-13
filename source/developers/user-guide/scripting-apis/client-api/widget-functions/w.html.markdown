@@ -39,9 +39,8 @@ In this case, you can see how the w() function can be used to locate a Widget in
 ## See Also
 
  - [User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
-
  - [userParameterSet()](/developers/user-guide/scripting-apis/client-api/app-functions/userparameterset)
 
-Related Videos:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3rAyD-f30ic?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeater Container Overview  [5:04]

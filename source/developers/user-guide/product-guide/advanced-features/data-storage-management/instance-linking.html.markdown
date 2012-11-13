@@ -21,10 +21,7 @@ Application Craft handles this with App Instance linking, enabling you to set th
 ## See Also
 
  - [Relationships in Detail](/developers/user-guide/product-guide/advanced-features/data-storage-management/instance-relationships-in-detail/)
-
  - [Application Relationship Property](/developers/user-guide/product-guide/widget-properties-events/app-properties#advanced)
-
  - [setInstanceRelationship()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesetrelationship)
-
  - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
 

@@ -28,7 +28,7 @@ Handles the returned coordinates of location, returning the google.maps.LatLng o
 
 How you can get the current location.
 
-## **Example**
+## Example
 
     function onLocationUpdated(res, data) {
        app.setValue("googleMapsAdvanced", (data)); 
@@ -43,13 +43,10 @@ How you can get the current location.
 
 **whereAmI**
 
-## **See Also**
+## See Also
 
  - [getAddress()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress)
-
  - [getCoord()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord)
-
  - [getDirections()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections)
-
  - [addCurrentLocation()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation)
 

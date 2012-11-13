@@ -107,5 +107,5 @@ This function is used to update rows in the database
      
    
 
-## **Example**
+## Example
 

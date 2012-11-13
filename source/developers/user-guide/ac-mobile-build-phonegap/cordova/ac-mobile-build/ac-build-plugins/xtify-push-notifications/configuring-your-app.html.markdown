@@ -14,7 +14,7 @@ This is required for the push notifications sent by Xtify to register to your ap
 
 If your App is not running, it will be automatically started if the user requests it. At this point, you should handle things within the On App Started event as shown below. From there you can inspect the notification data and process it as you require.
 
-## **Example**
+## Example
 
     function handler_application_onAppStarted(){
         window.plugins.XtifySDK.start(

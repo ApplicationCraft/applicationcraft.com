@@ -15,14 +15,9 @@ To manage your Application Craft account, your AC user requires 'Account Admin' 
 ##In This Section
 
  - [Notifications](/developers/user-guide/product-guide/account-management/notifications)
-
  - [Quick Start Menu](/developers/user-guide/product-guide/account-management/quick-start-menu)
-
  - [Change Password](/developers/user-guide/product-guide/account-management/change-password)
-
  - [Upgrade Subscriptions](/developers/user-guide/product-guide/account-management/upgrade-subscription)
-
  - [Cancel Subscription](/developers/user-guide/product-guide/account-management/cancel-subscription)
-
  - [Close Account](/developers/user-guide/product-guide/account-management/close-account)
 

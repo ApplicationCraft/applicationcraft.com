@@ -14,7 +14,7 @@ IMPORTANT
 
 Instance Relationships define the relationships between the current App you are designing and any foreign Apps. To use our example Application the CRUD Customers App has a relationship with CRUD Contacts. We defined it as a one-to-many relationship so one Company can be associated with many Contacts.
 
-## **See Also**
+## See Also
 
  - [CRUD Permissions](/developers/user-guide/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions)
 

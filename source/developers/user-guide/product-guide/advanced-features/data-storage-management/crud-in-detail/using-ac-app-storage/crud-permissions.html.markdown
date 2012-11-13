@@ -22,7 +22,7 @@ In order to provide proper security control, AC restricts access based upon the 
 
  - Delete Instance - allows a foreign App to delete its Instances
 
-## **See Also**
+## See Also
 
  - [Sharing](/developers/user-guide/product-guide/the-console/sharing)
 

@@ -66,12 +66,8 @@ You can also specify page transitions using the optional parameters. This offers
 ## See Also
 
  - [pageBack()](/developers/user-guide/scripting-apis/client-api/page-functions/pageback)
-
  - [pageNext()](/developers/user-guide/scripting-apis/client-api/page-functions/pagenext)
-
  - [pagePrevious()](/developers/user-guide/scripting-apis/client-api/page-functions/pageprevious)
-
  - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
-
  - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 

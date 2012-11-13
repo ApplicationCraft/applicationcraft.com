@@ -645,12 +645,8 @@ On Volume Change
 ## See Also
 
  - [Video & Audio Widgets](/developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/)
-
  - [Video](/developers/user-guide/product-guide/widget-properties-events/advanced/video)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Audio/Video Events](/developers/user-guide/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/videvents)
-
  - [Video & Audio Object Functions](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/)
 

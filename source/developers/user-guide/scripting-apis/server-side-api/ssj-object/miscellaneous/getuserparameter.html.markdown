@@ -65,8 +65,6 @@ This function is used as a part of User and [Authentication support](/developers
 ## See Also
 
  - [setUserParameter()](/developers/user-guide/scripting-apis/server-side-api/ssj-object/miscellaneous/setuserparameter)
-
  - [Authentication for your Apps](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/)
-
  - [User Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/)
 

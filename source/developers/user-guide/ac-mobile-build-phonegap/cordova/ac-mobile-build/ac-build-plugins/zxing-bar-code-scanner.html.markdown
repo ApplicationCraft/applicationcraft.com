@@ -230,7 +230,7 @@ whether or not the user cancelled the scan
 </tr>
 </table>
 
-## **Example**
+## Example
 
     window.plugins.barcodeScanner.scan( function(result) {
             alert("We got a barcode\n" +
@@ -244,7 +244,7 @@ whether or not the user cancelled the scan
      
    
 
-## **See Also**
+## See Also
 
  - [Scandit Free](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free)
 

@@ -163,5 +163,5 @@ error callback function.
 
 This function is used to query a given table. The success callback function returns an object in the format of
 
-## **Example**
+## Example
 

@@ -530,10 +530,7 @@ On Resize Stop
 ## See Also
 
  - [Reports & Dashboards](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/)
-
  - [App Properties - Views](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/anatomy-of-a-view)
-
  - [Data Properties - View](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/view)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
 

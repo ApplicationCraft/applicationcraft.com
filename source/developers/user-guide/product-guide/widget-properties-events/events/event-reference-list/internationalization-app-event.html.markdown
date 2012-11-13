@@ -52,11 +52,9 @@ Called as the Language is detected
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - [Multi Language Apps](/developers/user-guide/product-guide/advanced-features/multi-language-apps/)
-
  - [translate()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/translate)
-
  - [language()](/developers/user-guide/scripting-apis/client-api/multi-language-apps/language)
 

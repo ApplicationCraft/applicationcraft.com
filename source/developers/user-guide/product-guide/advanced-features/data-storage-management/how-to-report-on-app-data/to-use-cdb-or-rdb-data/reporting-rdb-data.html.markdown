@@ -22,7 +22,7 @@ The main Full Data item contains all simple data fields within the entire App wi
 
 The reason for this is that Grids, ListBox and Image mapping (where multiple selections are allowed) are complex data types that result in a one-to-many relationship between the App and these fields. For this reason, these widgets are displayed as separate table items below the Full Data item.
 
-## **See Also**
+## See Also
 
  - [Instance (CDB) Data](/developers/user-guide/product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/to-use-cdb-or-rdb-data/instance-cdb-data)
 

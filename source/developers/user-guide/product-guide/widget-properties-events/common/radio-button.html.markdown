@@ -740,17 +740,14 @@ On Resize Stop
 </tr>
 </table>
 
-## **See Also**
+## See Also
 
  - Common Widgets: [Checkbox](/developers/user-guide/product-guide/widget-properties-events/common/checkbox) , [Dropdown List](/developers/user-guide/product-guide/widget-properties-events/common/dropdown-list) ,
 
  - Advanced Widgets: [Sliders](/developers/user-guide/product-guide/widget-properties-events/advanced/sliders)
 
  - Mobile Widgets: [Radio Buttons Group](/developers/user-guide/product-guide/widget-properties-events/mobile/radiobuttonsgroup) , [Checkbox](/developers/user-guide/product-guide/widget-properties-events/mobile/mobcheckbox) , [Checkbox Group](/developers/user-guide/product-guide/widget-properties-events/mobile/checkbox-group) , [Popup Listbox](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-listbox) , [Popup Dropdown](/developers/user-guide/product-guide/widget-properties-events/mobile/popup-dropdown) , [Flip Toggle Switch](/developers/user-guide/product-guide/widget-properties-events/mobile/flip-toggle-switch) , [Slider](/developers/user-guide/product-guide/widget-properties-events/mobile/slider)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
-
  - [Data Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/data-events)
 

@@ -75,10 +75,7 @@ Rich Text is supported.
 ## See Also
 
  - [showMessage()](/developers/user-guide/scripting-apis/client-api/app-functions/showmessage)
-
  - [showConfirm()](/developers/user-guide/scripting-apis/client-api/app-functions/showconfirm)
-
  - [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup)
-
  - [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
 

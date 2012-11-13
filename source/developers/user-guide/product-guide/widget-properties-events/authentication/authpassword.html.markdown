@@ -705,10 +705,7 @@ On Resize Stop
  - [Password](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/password)
 
  - Mobile Widgets: [Auth Button](/developers/user-guide/product-guide/widget-properties-events/mobile/auth-button)
-
  - [Mouse Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
-
  - [Key Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/key-events)
-
  - [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events)
 

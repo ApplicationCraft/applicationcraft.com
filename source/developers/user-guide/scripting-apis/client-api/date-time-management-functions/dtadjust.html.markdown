@@ -49,10 +49,7 @@ Adjusts a Date Object to the specified time zone. The absolute time remains the 
 ## See Also
 
  - [dtNewDate()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtnewdate)
-
  - [dtadd()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtadd)
-
  - [dtDifference()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdifference)
-
  - [dtDateToString()](/developers/user-guide/scripting-apis/client-api/date-time-management-functions/dtdatetostring)
 

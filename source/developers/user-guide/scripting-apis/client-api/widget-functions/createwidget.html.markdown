@@ -171,6 +171,5 @@ Please note that dynamically created widgets can't use the Repeat property
 ## See Also
 
  - [deleteWidget()](/developers/user-guide/scripting-apis/client-api/widget-functions/deletewidget)
-
  - [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
 

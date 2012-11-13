@@ -37,8 +37,6 @@ For a good example of this, refer to the [populateWidget()](/developers/user-gui
 ## See Also
 
  - [parent()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/general/parent)
-
  - [populateWidget()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
-
  - [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
 

@@ -19,7 +19,7 @@ Enable/Disable a tab
      
    
 
-## **See Also**
+## See Also
 
  - [enabled()](/developers/user-guide/scripting-apis/client-api/widget-data-state-manipulation/enabled)
 

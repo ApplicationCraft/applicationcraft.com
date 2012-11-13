@@ -66,6 +66,5 @@ This should be pretty obvious to anyone who has written some SQL before
 The web is full of references to WebSQL. Just Google it. Here are a couple for you
 
  - [http://www.html5rocks.com/en/tutorials/webdatabase/todo/](http://www.html5rocks.com/en/tutorials/webdatabase/todo/)
-
  - [http://marakana.com/s/tutorial\_web\_sql\_database,208/index.html](http://marakana.com/s/tutorial_web_sql_database,208/index.html)
 

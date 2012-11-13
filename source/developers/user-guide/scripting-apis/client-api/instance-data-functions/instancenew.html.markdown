@@ -23,12 +23,8 @@ If you want to reset all fields in the App, then use app.reset().
 ## See Also
 
  - [instanceCreate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancecreate)
-
  - [instanceUpdate()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancesave)
-
  - [instanceDelete()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instancedelete)
-
  - [instanceLoad()](/developers/user-guide/scripting-apis/client-api/instance-data-functions/instanceload)
-
  - [reset()](/developers/user-guide/scripting-apis/client-api/app-functions/refreset)
 

@@ -28,7 +28,7 @@ An array of lat/long pairs defining your Polyline points
 
 A Polygon can be drawn on the Map by specifying an array of coordinates. You can also specify line and fill properties.
 
-## **Example**
+## Example
 
     function handler_actionBtn10_onClick(mouseev){
           var polygonPath = [
@@ -45,7 +45,7 @@ A Polygon can be drawn on the Map by specifying an array of coordinates. You can
 
 **addPolygon**
 
-## **See Also**
+## See Also
 
  - [Polygons](/developers/user-guide/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polygons)
 
