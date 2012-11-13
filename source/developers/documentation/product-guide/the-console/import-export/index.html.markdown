@@ -10,5 +10,5 @@ You can import and export your [Apps](/developers/documentation/product-guide/th
 
 ## In This Section
 
- - [Export](/developers/documentation/product-guide/the-console/import/export/export)
- - [Import](/developers/documentation/product-guide/the-console/import/export/import)
+ - [Export](/developers/documentation/product-guide/the-console/import-export/export)
+ - [Import](/developers/documentation/product-guide/the-console/import-export/import)

@@ -133,5 +133,5 @@ If you change the Theme, you will be asked whether you want to import Widget Sty
 
 ## See Also
 
- - [Import/Export](/developers/documentation/product-guide/the-console/import/export/)
+ - [Import/Export](/developers/documentation/product-guide/the-console/import-export/)
 

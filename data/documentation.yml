@@ -171,10 +171,10 @@ tree:
       title: Import/Export
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?export.htm', title: Export,
-        url: /developers/documentation/product-guide/the-console/import/export/export}
+        url: /developers/documentation/product-guide/the-console/import-export/export}
       - {old_url: '/revisions/current/docs/user-guide/index.html?import.htm', title: Import,
-        url: /developers/documentation/product-guide/the-console/import/export/import}
-      url: /developers/documentation/product-guide/the-console/import/export
+        url: /developers/documentation/product-guide/the-console/import-export/import}
+      url: /developers/documentation/product-guide/the-console/import-export
     url: /developers/documentation/product-guide/the-console
   - old_url: /revisions/current/docs/user-guide/index.html?ui__content_layout.htm
     title: Content and App Layout
@@ -1011,10 +1011,10 @@ tree:
       title: Twirly Thing/Hourglass
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?twirly_thing.htm',
-        title: Twirly Thing, url: /developers/documentation/product-guide/advanced-features/twirly-thing/hourglass/twirly-thing}
+        title: Twirly Thing, url: /developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/twirly-thing}
       - {old_url: '/revisions/current/docs/user-guide/index.html?display_hourglass_over.htm',
-        title: Display Hourglass Over, url: /developers/documentation/product-guide/advanced-features/twirly-thing/hourglass/display-hourglass-over}
-      url: /developers/documentation/product-guide/advanced-features/twirly-thing/hourglass
+        title: Display Hourglass Over, url: /developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/display-hourglass-over}
+      url: /developers/documentation/product-guide/advanced-features/twirly-thing-hourglass
     url: /developers/documentation/product-guide/advanced-features
   - old_url: /revisions/current/docs/user-guide/index.html?data_storage3.htm
     title: Data Storage
