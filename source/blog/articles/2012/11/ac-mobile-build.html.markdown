@@ -6,7 +6,11 @@ class_name: blog
 full_width: true
 ---
 
-We're really excited to announce the availability of a full-featured alternative to Phonegap Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins. 
+We're really excited to announce the availability of a full-featured alternative to Phonegap Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins.
+
+Feel free to take a look at the [User Guide section](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/external-html5cssjs-apps)
+
+![AC Mobile Build](/img/blog/acmb-1.png "Application Craft Mobile Build") 
 
 For those who don't know Phonegap/Cordova, it lets you take any HTML5+CSS+JS App or Site and compile it into a binary that can be deployed to App Stores. It also lets you access all the hardware goodies on your device (GPS, Accelerometer, Compass, Camera etc.).
 
@@ -14,6 +18,7 @@ We've also made it incredibly easy to use by offering Certificate management **a
 
 It doesn't matter what tools you used to build your App, any HTML5+CSS+JS App should work just fine. And for you Application Craft developers, all you need to know is that it is very easy to use.
 
+![AC Mobile Build](/img/blog/acmb-2.png "Application Craft Mobile Build") 
 ##Why we built it
 Phonegap/Cordova technology is something that most developers are probably already familiar with. However, using it is not for the faint hearted. You need to install and configure XCode (for iOS), Java (for Android and Blackberry) and other compilers. This is a pain in the arse and it is why Phonegap:Build was built. 
 
