@@ -24,7 +24,7 @@ This example shows how we want to set a general filter that covers the age range
     app.refreshData('chartName');
    
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/4FXN_AsiiMs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating Chart Widgets [5:04]
 

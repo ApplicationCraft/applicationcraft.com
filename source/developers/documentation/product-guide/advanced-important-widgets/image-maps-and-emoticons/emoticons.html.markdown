@@ -64,7 +64,7 @@ Col 2 = The URL of your Images to associate to the Slider Value selected
 
  - [Image](/developers/documentation/product-guide/widget-properties-events/common/image#imagemap)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/watch?v=Mn-UufyxA2A?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up Emoticon [2:01]
 

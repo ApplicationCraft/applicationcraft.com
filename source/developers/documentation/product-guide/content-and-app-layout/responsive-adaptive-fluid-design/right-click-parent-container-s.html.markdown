@@ -24,7 +24,7 @@ In the above image, you can see a selected image widget. Having right-clicked it
 
 Just select one of these and that object will be selected.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/UZr8PcKxE_c?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Time Saving Tips & Tricks [3:48]
 

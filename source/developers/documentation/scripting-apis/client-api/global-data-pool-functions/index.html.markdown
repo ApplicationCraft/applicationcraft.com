@@ -21,7 +21,7 @@ These functions allow values and entire instances to be saved outside the scope 
 
  - [App Switching](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/app-switching)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/pUY3PXct_wk?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Switching between Apps seamlessly and the Global Data Store [2:17]
 

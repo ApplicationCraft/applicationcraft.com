@@ -26,6 +26,6 @@ There are also functions for getting and setting widget states (visible, enabled
 
  - [app.dataSetStates()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datasetstates) - takes an object structure representing widget states and applies it to matching widget names.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/qY9M8bP9b70?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Coding up client/server side javascript calls [7:24]

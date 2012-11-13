@@ -368,7 +368,7 @@ On App Terminate
  - [Embedding apps within Apps](/developers/documentation/product-guide/advanced-features/embedding-apps-within-apps/)
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/kaCk6QuBdHg?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Embedding one App inside another [3:02]
 

@@ -44,7 +44,7 @@ If you want to change the Timeout value for a single [httpRequest()](/developers
  - [httpRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/httprequest)
  - [Error Handling](/developers/documentation/scripting-apis/client-scripting-overview/error-handling/)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Ly5KbmvHk7E?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) AJAX functions, timeouts and data population [3:13]
 

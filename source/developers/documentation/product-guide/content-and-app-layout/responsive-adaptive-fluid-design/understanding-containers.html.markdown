@@ -28,6 +28,6 @@ If you use nested containers, you may find it useful to show the container outli
 
 ![Outline](/img/docs/outline.zoom92.png)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/SW9LQrrosUI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The Importance of Containers [3:42]

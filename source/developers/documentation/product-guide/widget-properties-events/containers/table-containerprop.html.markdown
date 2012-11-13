@@ -764,7 +764,7 @@ On Resize Stop
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/8Aea0YOOGO8?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Using Tables in Adaptive Layout [3:10]
 

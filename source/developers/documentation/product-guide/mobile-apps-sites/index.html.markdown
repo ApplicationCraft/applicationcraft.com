@@ -23,6 +23,6 @@ This chapter looks at some of the things you might want to think about when buil
  - [Icon Management](/developers/documentation/product-guide/mobile-apps-sites/icon-management)
  - [Splash Image Management](/developers/documentation/product-guide/mobile-apps-sites/splash-image-management)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/BelIr0vzxlU?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Designing a Mobile UI [2:57]

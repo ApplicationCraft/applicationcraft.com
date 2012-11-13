@@ -46,7 +46,7 @@ Expressions can vary in complexity.
 
  - Sum({Orders.Total} + {Orders.TaxAmount}) - the total of all orders plus tax
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Jy5HgPdtvMY?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Integration Overview [4:51]
 

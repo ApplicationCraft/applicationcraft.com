@@ -10,7 +10,7 @@ This is a small point but when you are working with complex layouts, it often he
 
 ![lyt-outlines](/img/docs/lyt-outlines.jpg)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/SW9LQrrosUI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The Importance of Containers [3:42]
 

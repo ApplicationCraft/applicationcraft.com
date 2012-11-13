@@ -18,6 +18,6 @@ This can also be set [Using Automatic Property Settings](/developers/documentati
 
 ![txt\_expr](/img/docs/txt_expr.zoom66.png)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/t-MozAiRF0Q?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Automated & Javascript Drill Down [4:59]

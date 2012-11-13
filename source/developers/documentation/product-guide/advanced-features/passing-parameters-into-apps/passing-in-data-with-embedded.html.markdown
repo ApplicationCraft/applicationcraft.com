@@ -49,6 +49,6 @@ Additionally, you can pass in data in a JSON format
  - [Reading query string parameters in your App](/developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/reading-querystring-parameters)
  - [getInputParameters()](/developers/documentation/scripting-apis/client-api/app-functions/getinputparameter)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Riyw8suv0hc?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Embedding in a Web Page [2:16]

@@ -32,6 +32,6 @@ These have a multi-dimensional data structure and so there will be an item and a
 
  - [Using Automatic Property Settings](/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/using-automatic-property-setti)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/GzJiwBDXlX8?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Configuring Data Section Properties [5:47]

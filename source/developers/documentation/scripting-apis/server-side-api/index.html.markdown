@@ -12,6 +12,6 @@ full_width: true
  - [ssj object](/developers/documentation/scripting-apis/server-side-api/ssj-object/)
  - [sys object](/developers/documentation/scripting-apis/server-side-api/sys-object/)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/vOOSCRbH6_Y?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up Databases for Server Side Javascripting [3:08]

@@ -85,7 +85,7 @@ A very important set of SSJ functions that can help you with general security ma
 
 [setSessionObject()](/developers/documentation/scripting-apis/server-side-api/ssj-object/security/setsessionobject) allows you to store a value or object on the server in association with the current browser sessions. So, assuming that you have some sort of authentication procedure for the logged on user, you can store information about that user in a session variable. Other functions can then reference that variable using [getSessionObject()](/developers/documentation/scripting-apis/server-side-api/ssj-object/security/getsessionobject) in order to decide whether to accept or reject the request.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/LGzP1Uxk5c4?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview of Server Side Javascript [3:55]
 

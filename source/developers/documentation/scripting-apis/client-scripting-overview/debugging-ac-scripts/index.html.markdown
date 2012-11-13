@@ -23,7 +23,7 @@ Application Craft includes some very simple debug support functions that make de
  - [Viewing Complex Widget Content](/developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-complex-widget-content)
  - [Viewing Widget Properties](/developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-properties)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/IMthfeUwnC4?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Debugging your Apps [1:35]
 

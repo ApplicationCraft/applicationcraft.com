@@ -215,7 +215,7 @@ Useful functions for working with Dates/Times
 </tr>
 </table>
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/1UIHv__i3uI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The Application Craft Client API [2:01]
 

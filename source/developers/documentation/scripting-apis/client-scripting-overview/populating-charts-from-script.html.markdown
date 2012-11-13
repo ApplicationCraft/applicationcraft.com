@@ -77,7 +77,7 @@ You can also use code to set the colors in the charts. For example, a multi or s
 
 and therefore to populate a chart and set the line colors:
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/4FXN_AsiiMs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating Chart Widgets [5:04]
 

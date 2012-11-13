@@ -53,7 +53,7 @@ Before you can use any database methods, you first need to get a valid Connectio
      
    
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/vOOSCRbH6_Y?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up Databases for Server Side Javascripting [3:08]
 

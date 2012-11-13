@@ -28,7 +28,7 @@ Refer to the [Client API](/developers/documentation/scripting-apis/client-api/) 
 
  - [oAuth](/developers/documentation/product-guide/advanced-features/oauth/)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/pHaov7DW4kM?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview [4:30]
 

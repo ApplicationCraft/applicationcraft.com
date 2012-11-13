@@ -22,7 +22,7 @@ The one important thing that you will notice in the above image is that the 2 ch
 
 In our example, BOTH child containers need to have an adaptive rule define, as described in the next topic.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/1gkznrSEUBs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) An overview of Responsive Design [1:20]
 

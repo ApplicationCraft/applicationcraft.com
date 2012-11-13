@@ -13,6 +13,6 @@ full_width: true
  - [soapRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest)
     Makes a SOAP call
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Ly5KbmvHk7E?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) AJAX functions, timeouts and data population [3:13]

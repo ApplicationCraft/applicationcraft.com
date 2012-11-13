@@ -24,7 +24,7 @@ Pro subscription users can debug SSJ scripts while previewing the app, selecting
 
 This should be considered to be in a Beta state until mention of it is removed from the documentation.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/2Ok6kj9S_Xs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Debugging Server Side Javascript [2:18]
 

@@ -79,7 +79,7 @@ In all the above cases, you can read data as follows
  - [Passing data to Apps in the query string](/developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/passing-data-to-apps-in-the-qu)
  - [Passing in data with Embedded Apps and Javascript](/developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Riyw8suv0hc?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Embedding in a Web Page [2:16]
 

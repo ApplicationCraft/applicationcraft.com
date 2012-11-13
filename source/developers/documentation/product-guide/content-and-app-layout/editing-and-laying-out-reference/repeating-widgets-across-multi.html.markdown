@@ -26,6 +26,6 @@ Change the Repeat State drop-down to Repeat. Underneath, you will now see anothe
 
 Note: Widgets that are contained within other container widgets on a page cannot be repeated. Select the container widget that is on the 'page' to repeat. To identify the appropriate container see [Right Click Parent Container Selection](/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/right-click-parent-container-s)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/3vpuYfz_Da8?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Repeating Widgets across multiple pages [1:00]

@@ -38,6 +38,6 @@ You can drill down using Grids very easily but you need to decide which column s
 
 You can write scripts that dynamically modify the drill-down filter. Please refer to the [Data Views chapter](/developers/documentation/scripting-apis/client-api/data-view-functions/) of the [Client API](/developers/documentation/scripting-apis/client-api/) section for more information.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/t-MozAiRF0Q?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Automated & Javascript Drill Down [4:59]

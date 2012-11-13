@@ -18,6 +18,6 @@ You have full script control by modifying the required property of any Widget. T
 
 Each of these is described in more detail in the following sections
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/rKbMmF7kcXs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Javascript, Filtering, and other tips and tricks [6:11]

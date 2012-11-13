@@ -10,6 +10,6 @@ You may want to use getViewData() to get data from Application Craft Data Views 
 
 You will find some good example in the [Populating Charts from Script](/developers/documentation/scripting-apis/client-scripting-overview/populating-charts-from-script) section.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/4FXN_AsiiMs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating Chart Widgets [5:04]

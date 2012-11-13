@@ -28,6 +28,6 @@ A typical example would be to include an App as a cross-app menu bar. It can be 
  - [Embedding Apps within Apps](/developers/documentation/product-guide/advanced-features/embedding-apps-within-apps/)
  - [Embed App Widget](/developers/documentation/product-guide/widget-properties-events/advanced/embed-app)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/pUY3PXct_wk?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Switching between Apps seamlessly and the Global Data Store [2:17]

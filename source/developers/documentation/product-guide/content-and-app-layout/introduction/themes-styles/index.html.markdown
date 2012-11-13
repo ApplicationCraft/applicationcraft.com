@@ -18,7 +18,7 @@ For detailed information on editing Themes and Styles, see the following section
 
 [Style Management](/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/style-management)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/hKftVYFAL8M?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Creating a new App [1:08]
 

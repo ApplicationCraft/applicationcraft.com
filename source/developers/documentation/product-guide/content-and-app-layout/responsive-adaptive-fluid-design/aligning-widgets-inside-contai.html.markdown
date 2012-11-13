@@ -12,7 +12,7 @@ The 'Align in Container' property (Layout section) is responsible for this.
 
 Note that if you have a text widget, the Text Align property (centers the text within the text widget itself) is different to Align in Container (centers the widget within its parent) and you may want to set both the be centered.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/98TbMBiOSGc?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Widget Alignment [2:36]
 

@@ -14,7 +14,7 @@ You will see the above dialog which allows you to select any number of Queries a
 
 If you need friendlier or more appropriate names in your App, you can rename the Views in the Queries Used list by selecting it and then renaming in the 'Select Query Used' panel.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Jy5HgPdtvMY?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Integration Overview [4:51]
 

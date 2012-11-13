@@ -40,7 +40,7 @@ With most Application Craft Apps, you can now simply run your App directly from 
 
 Enable the [Scandit Free](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free) plugin from the App Property: [AC Build Plugins](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/) and build your Native app using [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/cordova/ac-mobile-build/) .
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Qjt3pkZXJn8?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Scandit [4:25]
 

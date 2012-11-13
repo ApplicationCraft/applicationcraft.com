@@ -28,7 +28,7 @@ If a widget is within a Container in Vertical or Horizontal mode, then the widge
 
 ![lyt-sizes](/img/docs/lyt-sizes.zoom84.png)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Pbe0umQVyCE?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The 'Sizes' property explained [2:27]
 

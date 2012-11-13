@@ -12,7 +12,7 @@ Generally speaking, [setData()](/developers/documentation/scripting-apis/client-
 
 If you are working with server side databases, then extracting your data using [dataGetValues()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues) and state information using [dataGetStates()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetstates) is often the best and quickest way to go.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/1UIHv__i3uI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The Application Craft Client API [2:01]
 

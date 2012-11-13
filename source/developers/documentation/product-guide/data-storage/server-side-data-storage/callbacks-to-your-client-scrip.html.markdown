@@ -39,7 +39,7 @@ However, when your SSJ script returns, whatever you return gets passed back to t
 
 To call back with simple information, return a simple variable. If you want to pass back more complex information, then pack it into an object.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/88rEQc8Itvk?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview on coding up your server side javascript calls [2:53]
 

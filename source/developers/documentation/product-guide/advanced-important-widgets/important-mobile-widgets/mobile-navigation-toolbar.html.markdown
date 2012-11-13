@@ -36,7 +36,7 @@ You add items to the Navbar using the Items property in the toolbar. When you cl
 
 This can also be populated dynamically from code using either [app.setData()](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/mobile-list) or [app.populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) .
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/BelIr0vzxlU?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Designing a Mobile UI [2:57]
 

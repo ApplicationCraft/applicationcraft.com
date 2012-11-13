@@ -46,7 +46,7 @@ Notice that this uses a Month function to extract the Month number from the Date
 
 You can also modify the Group By property dynamically from a script using [app.setProperty](/developers/documentation/scripting-apis/client-api/widget-functions/setproperty) ('widgetName', 'groupBy', 'expression')
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/GzJiwBDXlX8?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Configuring Data Section Properties [5:47]
 

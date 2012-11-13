@@ -10,7 +10,7 @@ In many cases, you will want to populate your charts from Javascript. If you hav
 
 Please refer to [Populating Charts from Script](/developers/documentation/scripting-apis/client-scripting-overview/populating-charts-from-script) section.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/4FXN_AsiiMs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating Chart Widgets [5:04]
 

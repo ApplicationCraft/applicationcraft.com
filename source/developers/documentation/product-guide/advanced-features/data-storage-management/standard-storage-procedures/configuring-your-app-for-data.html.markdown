@@ -34,7 +34,7 @@ By default, Widgets will not store data, so if you want them to, you need to ena
 
 To enable data storage for a Widget, you set the Store in Database property in the Database section of the Widget to true.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/wEHzzhCmE04?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Enabling Data Storage for an App [4:11]
 

@@ -34,7 +34,7 @@ What happens in the background is the following
 
 Please refer to the images in the previous section when thinking about all this.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/cHbncpuUwo8?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Adaptive Rules [5:50]
 

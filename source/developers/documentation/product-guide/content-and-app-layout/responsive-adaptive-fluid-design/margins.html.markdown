@@ -20,6 +20,6 @@ You should note that if you add a left margin, this can potentially push the wid
 
 An alternative approach to using margins sometimes is to set a Percentage Width (in the Sizes property) and then set Align in Container to Centered.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/98TbMBiOSGc?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Widget Alignment [2:36]

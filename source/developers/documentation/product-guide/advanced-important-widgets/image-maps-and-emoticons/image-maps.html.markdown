@@ -82,7 +82,7 @@ Download [HumanBody.csv](http://www.applicationcraft.com/sites/applicationcraft/
 
  - [Image](/developers/documentation/product-guide/widget-properties-events/common/image#imagemap)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/watch?v=BMuc8a-ROjQ?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up Image Mapping [8:01]
 

@@ -80,6 +80,6 @@ full_width: true
  - [getRunMode()](/developers/documentation/scripting-apis/client-api/app-functions/getrunmode)
     Allows you to identify the mode your app is running (Live, Live IDE, Preview)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/jgBOqAV--rU?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Client API Functions and the Phonegap API [2:44]

@@ -31,7 +31,7 @@ The following topics should be understood in order to build these solutions
  - [Error Handling](/developers/documentation/product-guide/data-storage/server-side-data-storage/error-handling)
  - [Exposing your SSJ DB handlers to other systems](/developers/documentation/product-guide/data-storage/server-side-data-storage/exposing-your-ssj-db-handlers)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/LGzP1Uxk5c4?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview of Server Side Javascript [3:55]
 

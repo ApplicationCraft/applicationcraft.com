@@ -23,7 +23,7 @@ full_width: true
  - [quoteInto()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto)
  - [Select Handling](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/LGzP1Uxk5c4?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview of Server Side Javascript [3:55]
 

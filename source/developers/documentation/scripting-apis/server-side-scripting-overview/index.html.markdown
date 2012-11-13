@@ -23,7 +23,7 @@ The most common usage of SSJ is to write your database layer. Application Craft 
  - [Calling SSJ Methods](/developers/documentation/scripting-apis/server-side-scripting-overview/calling-ssj-methods)
  - [Debugging](/developers/documentation/scripting-apis/server-side-scripting-overview/debugging2)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/LGzP1Uxk5c4?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Overview of Server Side Javascript [3:55]
 

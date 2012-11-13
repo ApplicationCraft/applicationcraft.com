@@ -22,6 +22,6 @@ This chapter describes the various ways you can generate and deploy these native
  - [PhoneGap Options](/developers/documentation/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/enabling-device-features)
  - [Splash Screen and Icon](/developers/documentation/ac-mobile-build-phonegap/cordova/apps-developed-with-application-craft/splash-screen-and-icon)
 
-## Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/M9hLcnKOj04?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deploying a Native Mobile App [2:22]

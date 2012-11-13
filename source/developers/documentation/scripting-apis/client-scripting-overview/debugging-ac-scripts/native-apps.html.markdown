@@ -26,7 +26,7 @@ Once the Emulator is running, simply Copy/Paste your App URL into the address ba
 
 You should also make sure that the Emulator is really running in PhoneGap mode or you will get errors when you try to access Device specific PhoneGap functions.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/xMaLI9Fa93Q?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Ripple Emulator [3:03]
 
@@ -34,7 +34,7 @@ Related Video:
 
 A very neat way to test your Apps is to make use of the [app.switchApp()](/developers/documentation/scripting-apis/client-api/app-functions/switchapp) function. By specifying the same App ID as the App itself, you can reload the App while it is still running. You simply create a script behind a button, label or other widget and when it is pressed the App will reload itself. So, if you want to make some quick changes to your App, do so then press save and then, on your device, press the button to reload the changes from the Application Craft server. Obviously this approach requires an Internet connection to work and also you need to do a regular deploy to the device first.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/ITkE2fsTOiI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The switchApp() debugging trick [2:22]
 

@@ -14,7 +14,7 @@ The View Property will present you with the Queries that were selected within th
 
 If you need to access data that spans several data tables, then you set this up as a part of the [Data Query](/developers/documentation/product-guide/the-console/console-tabs/queries/) in the Console. This keeps the data management within the App clean and simple and ensure re-usability of data configurations.
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Jy5HgPdtvMY?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Integration Overview [4:51]
 

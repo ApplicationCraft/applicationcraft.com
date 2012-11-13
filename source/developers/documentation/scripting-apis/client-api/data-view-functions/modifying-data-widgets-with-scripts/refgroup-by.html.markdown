@@ -23,6 +23,6 @@ Having modified the Group By property, you need to call [app.refreshData()](/dev
  - [getViewData()](/developers/documentation/scripting-apis/client-api/data-view-functions/getviewdata)
  - [Data View Related Events](/developers/documentation/scripting-apis/client-api/data-view-functions/data-view-related-events)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/4FXN_AsiiMs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating Chart Widgets [5:04]

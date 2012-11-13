@@ -10,7 +10,7 @@ You first need to create and App. Make sure you are logged into the Console, sel
 
 ![newapp](/img/docs/newapp.zoom84.png)
 
-Related Video:
+## Related Videos
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/hKftVYFAL8M?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Creating a new App [1:08]
 
