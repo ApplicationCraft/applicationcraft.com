@@ -2536,116 +2536,116 @@ tree:
     title: Debugging Native Apps, url: /developers/documentation/ac-mobile-build-phonegap/cordova/debugging-native-apps}
   url: /developers/documentation/ac-mobile-build-phonegap/cordova
 - old_url: /revisions/current/docs/user-guide/index.html?developer_guide.htm
-  title: Adding Widgets and API Methods
+  title: Extending AC
   tree:
   - old_url: /revisions/current/docs/user-guide/index.html?ways_to_develop_new_widgets_in.htm
     title: Overview
     tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?creating_a_new_widget.htm',
-      title: Creating a New Widget, url: /developers/documentation/adding-widgets-and-api-methods/overview/creating-a-new-widget}
+      title: Creating a New Widget, url: /developers/documentation/extending-ac/overview/creating-a-new-widget}
     - {old_url: '/revisions/current/docs/user-guide/index.html?who_has_access_to_my_widget_.htm',
-      title: 'Who Has Access To My Widget?', url: /developers/documentation/adding-widgets-and-api-methods/overview/who-has-access-to-my-widget}
+      title: 'Who Has Access To My Widget?', url: /developers/documentation/extending-ac/overview/who-has-access-to-my-widget}
     - {old_url: '/revisions/current/docs/user-guide/index.html?phase_i_of_development.htm',
-      title: Phase I - Development, url: /developers/documentation/adding-widgets-and-api-methods/overview/phase-i-of-development}
+      title: Phase I - Development, url: /developers/documentation/extending-ac/overview/phase-i-of-development}
     - {old_url: '/revisions/current/docs/user-guide/index.html?refresh_ac_after_changes.htm',
-      title: Refresh AC after Changes, url: /developers/documentation/adding-widgets-and-api-methods/overview/refresh-ac-after-changes}
+      title: Refresh AC after Changes, url: /developers/documentation/extending-ac/overview/refresh-ac-after-changes}
     - {old_url: '/revisions/current/docs/user-guide/index.html?phase_ii___production_ready.htm',
-      title: Phase II - Production Ready, url: /developers/documentation/adding-widgets-and-api-methods/overview/phase-ii--production-ready}
+      title: Phase II - Production Ready, url: /developers/documentation/extending-ac/overview/phase-ii--production-ready}
     - {old_url: '/revisions/current/docs/user-guide/index.html?starting_ac_in_safe_mode.htm',
-      title: Starting AC in Safe Mode, url: /developers/documentation/adding-widgets-and-api-methods/overview/starting-ac-in-safe-mode}
+      title: Starting AC in Safe Mode, url: /developers/documentation/extending-ac/overview/starting-ac-in-safe-mode}
     - {old_url: '/revisions/current/docs/user-guide/index.html?css.htm', title: CSS,
-      url: /developers/documentation/adding-widgets-and-api-methods/overview/css}
-    url: /developers/documentation/adding-widgets-and-api-methods/overview
+      url: /developers/documentation/extending-ac/overview/css}
+    url: /developers/documentation/extending-ac/overview
   - old_url: /revisions/current/docs/user-guide/index.html?adding_your_own_widget_to_ac.htm
     title: Adding your own Widgets to Application Craft
     tree:
     - {old_url: '/revisions/current/docs/user-guide/index.html?prerequisite_skills.htm',
-      title: Prerequisite Skills, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/prerequisite-skills}
+      title: Prerequisite Skills, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/prerequisite-skills}
     - {old_url: '/revisions/current/docs/user-guide/index.html?registering_your_widget_within.htm',
-      title: Registering your Widget within your Account, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/registering-your-widget-within}
+      title: Registering your Widget within your Account, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/registering-your-widget-within}
     - old_url: /revisions/current/docs/user-guide/index.html?anatomy_of_a_widget.htm
       title: Anatomy of a Basic Widget
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?hellow_world.htm',
-        title: Hello World, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/hellow-world}
+        title: Hello World, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/hellow-world}
       - {old_url: '/revisions/current/docs/user-guide/index.html?constructor.htm',
-        title: Constructor / Destructor, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/constructor}
+        title: Constructor / Destructor, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/constructor}
       - {old_url: '/revisions/current/docs/user-guide/index.html?widget_drawing.htm',
-        title: Widget Drawing, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/widget-drawing}
+        title: Widget Drawing, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/widget-drawing}
       - {old_url: '/revisions/current/docs/user-guide/index.html?defining_properties.htm',
-        title: Defining Properties, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/defining-properties}
+        title: Defining Properties, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/defining-properties}
       - {old_url: '/revisions/current/docs/user-guide/index.html?size_properties.htm',
-        title: Size Properties, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/size-properties}
+        title: Size Properties, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/size-properties}
       - {old_url: '/revisions/current/docs/user-guide/index.html?reacting_to_size_changes.htm',
-        title: Reacting to Size Changes, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/reacting-to-size-changes}
+        title: Reacting to Size Changes, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/reacting-to-size-changes}
       - {old_url: '/revisions/current/docs/user-guide/index.html?modifying_properties.htm',
-        title: Modifying Properties, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/modifying-properties}
+        title: Modifying Properties, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/modifying-properties}
       - {old_url: '/revisions/current/docs/user-guide/index.html?default_values.htm',
-        title: Default Property Values, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/default-values}
+        title: Default Property Values, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/default-values}
       - {old_url: '/revisions/current/docs/user-guide/index.html?extendevents.htm',
-        title: Events, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/extendevents}
+        title: Events, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/extendevents}
       - {old_url: '/revisions/current/docs/user-guide/index.html?language_constants.htm',
-        title: Language Constants, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/language-constants}
-      url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget
+        title: Language Constants, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/language-constants}
+      url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget
     - {old_url: '/revisions/current/docs/user-guide/index.html?standard_property_types.htm',
-      title: Standard Property Types, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/standard-property-types}
+      title: Standard Property Types, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/standard-property-types}
     - {old_url: '/revisions/current/docs/user-guide/index.html?widgets_on_github.htm',
-      title: Widgets on GitHub, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/widgets-on-github}
+      title: Widgets on GitHub, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/widgets-on-github}
     - old_url: /revisions/current/docs/user-guide/index.html?custom_property_dialogs.htm
       title: Custom Properties & Dialogs
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?custom_property_without_dialog.htm',
-        title: Custom Property Without Dialog, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/custom-property-without-dialog}
+        title: Custom Property Without Dialog, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/custom-property-without-dialog}
       - {old_url: '/revisions/current/docs/user-guide/index.html?custompropertywithcustomdialog.htm',
-        title: Custom Property With Custom Dialog, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/custompropertywithcustomdialog}
+        title: Custom Property With Custom Dialog, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/custompropertywithcustomdialog}
       - {old_url: '/revisions/current/docs/user-guide/index.html?the_full_dialog_code_example.htm',
-        title: Custom Dialog Code Example, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/the-full-dialog-code-example}
+        title: Custom Dialog Code Example, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/the-full-dialog-code-example}
       - {old_url: '/revisions/current/docs/user-guide/index.html?where_to_put_the_custom_proper.htm',
-        title: Where to put the Custom Property code, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/where-to-put-the-custom-proper}
+        title: Where to put the Custom Property code, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/where-to-put-the-custom-proper}
       - {old_url: '/revisions/current/docs/user-guide/index.html?the_skeleton.htm',
-        title: The Skeleton, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/the-skeleton}
+        title: The Skeleton, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/the-skeleton}
       - {old_url: '/revisions/current/docs/user-guide/index.html?the_html_template.htm',
-        title: The HTML Template, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/the-html-template}
+        title: The HTML Template, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/the-html-template}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_1__setvalue.htm',
-        title: 'EXP 1 : this.setValue', url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-1-setvalue}
+        title: 'EXP 1 : this.setValue', url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-1-setvalue}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_2__this_edit.htm',
-        title: 'EXP 2 : this.edit', url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-2-this-edit}
+        title: 'EXP 2 : this.edit', url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-2-this-edit}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_3__binding_dialog_buttons.htm',
-        title: 'EXP 3 : binding dialog buttons', url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-3-binding-dialog-buttons}
+        title: 'EXP 3 : binding dialog buttons', url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-3-binding-dialog-buttons}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_4__the_dialog_code.htm',
-        title: 'EXP 4 : the dialog code', url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-4-the-dialog-code}
+        title: 'EXP 4 : the dialog code', url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-4-the-dialog-code}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_5__this_validatevalue.htm',
-        title: 'EXP 5 : this.validateValue', url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-5-this-validatevalue}
+        title: 'EXP 5 : this.validateValue', url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-5-this-validatevalue}
       - {old_url: '/revisions/current/docs/user-guide/index.html?exp_6__this_collectvalue.htm',
-        title: 'EXP 6 : this.collectValue', url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-6-this-collectvalue}
+        title: 'EXP 6 : this.collectValue', url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/exp-6-this-collectvalue}
       - old_url: /revisions/current/docs/user-guide/index.html?using_ac_dialogs_in_your_dialo.htm
         title: Using AC Dialogs in Your Dialogs
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?file_and_ac_resource_dialog.htm',
-          title: File and AC Resource Dialog, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs/file-and-ac-resource-dialog}
+          title: File and AC Resource Dialog, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs/file-and-ac-resource-dialog}
         - {old_url: '/revisions/current/docs/user-guide/index.html?color_picker2.htm',
-          title: Color Picker, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs/color-picker2}
-        url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs
-      url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/custom-properties-dialogs
+          title: Color Picker, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs/color-picker2}
+        url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs
+      url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/custom-properties-dialogs
     - old_url: /revisions/current/docs/user-guide/index.html?layout_framework.htm
       title: Layout Framework
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?layout_types_overview.htm',
-        title: Layout Types Overview, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/layout-framework/layout-types-overview}
+        title: Layout Types Overview, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/layout-framework/layout-types-overview}
       - {old_url: '/revisions/current/docs/user-guide/index.html?important_callbacks__hooks.htm',
-        title: Important Callbacks & Hooks, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/layout-framework/important-callbacks-hooks}
-      url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/layout-framework
+        title: Important Callbacks & Hooks, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/layout-framework/important-callbacks-hooks}
+      url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/layout-framework
     - old_url: /revisions/current/docs/user-guide/index.html?extendcontainers.htm
       title: Containers
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?drawing_children.htm',
-        title: Drawing Children, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/containers/drawing-children}
+        title: Drawing Children, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/containers/drawing-children}
       - {old_url: '/revisions/current/docs/user-guide/index.html?how_children_inherit_container.htm',
-        title: How Children Inherit Container States, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/containers/how-children-inherit-container}
+        title: How Children Inherit Container States, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/containers/how-children-inherit-container}
       - {old_url: '/revisions/current/docs/user-guide/index.html?adding_new_widget_to_container.htm',
-        title: Adding New Widget to Container, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/containers/adding-new-widget-to-container}
-      url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/containers
+        title: Adding New Widget to Container, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/containers/adding-new-widget-to-container}
+      url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/containers
     - {old_url: '/revisions/current/docs/user-guide/index.html?data_view_binding.htm',
-      title: Data View Binding, url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/data-view-binding}
-    url: /developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft
-  url: /developers/documentation/adding-widgets-and-api-methods
+      title: Data View Binding, url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/data-view-binding}
+    url: /developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft
+  url: /developers/documentation/extending-ac

@@ -69,7 +69,7 @@ However, it is important to note that while you do inherit any custom dialog off
 
 ## Our Widgets on GitHub
 
-We feel that the easiest way to learn about this is by example. Please refer to [Widgets on GitHub](/developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/widgets-on-github) to see how you can download and examine many of our own widgets.
+We feel that the easiest way to learn about this is by example. Please refer to [Widgets on GitHub](/developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/widgets-on-github) to see how you can download and examine many of our own widgets.
 
 ## Additional Properties
 
@@ -85,7 +85,7 @@ The key meanings are as follows
 
  - get : function name that is called when the widget's property is read from
 
- - alias : a [language constant](/developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/language-constants) that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant defined. Read the note below on property naming.
+ - alias : a [language constant](/developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/language-constants) that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant defined. Read the note below on property naming.
 
 ## Property Naming
 
@@ -111,5 +111,5 @@ As you can see, the AC API will take a Property name (or Widget name as it happe
 
 ## Application Craft String Constants
 
-Application Craft has a constants file that contains all strings used throughout the system, including the property name constants. If you want to use these, you can. In our example, we reference widget\_font instead of creating our own. You will notice in the [language constants](/developers/documentation/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/language-constants) code that widget\_font is not defined, as this gets taken from the AC constants.
+Application Craft has a constants file that contains all strings used throughout the system, including the property name constants. If you want to use these, you can. In our example, we reference widget\_font instead of creating our own. You will notice in the [language constants](/developers/documentation/extending-ac/adding-your-own-widgets-to-application-craft/anatomy-of-a-basic-widget/language-constants) code that widget\_font is not defined, as this gets taken from the AC constants.
 

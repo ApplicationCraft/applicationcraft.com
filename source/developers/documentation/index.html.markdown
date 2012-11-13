@@ -14,5 +14,5 @@ Client and Server Side Javascript API references and how-to's.
 ## [AC MOBILE BUILD & PHONEGAP](/developers/documentation/ac-mobile-build-phonegap/cordova)
 Everything you need to know about turning your AC and any other HTML5+CSS+JS app into a mobile app store ready binary.
 
-## [EXTENDING AC](/developers/documentation/adding-widgets-and-api-methods)
+## [EXTENDING AC](/developers/documentation/extending-ac)
 Intended for intermediate to advanced developers wanting to create their own Application Craft widgets.

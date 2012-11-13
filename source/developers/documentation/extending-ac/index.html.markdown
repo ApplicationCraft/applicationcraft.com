@@ -1,5 +1,5 @@
 ---
-title: "Adding Widgets and API Methods"
+title: "Extending AC"
 active_menu_item: developers
 class_name: developers
 full_width: true
