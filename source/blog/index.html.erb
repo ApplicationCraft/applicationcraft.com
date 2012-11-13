@@ -1,9 +1,9 @@
 ---
 title: "Gettin' Crafty: A Blog written by Application Craft - the Visual IDE people"
-pageable: true
 per_page: 4
 class_name: blog
 full_width: true
+pageable: true
 ---
 
 <header>
@@ -41,6 +41,17 @@ full_width: true
       </article>
 
     <% end %>
+
+    <% if paginate %>
+      <section class="pagination clearfix">
+        <% if next_page %>
+          <p><%= link_to "&laquo; older posts", next_page %></p>
+        <% end %>
+        <% if prev_page %>
+          <p><%= link_to "newer posts &raquo;", prev_page %></p>
+        <% end %>
+      </section>
+    <% end %>
   </section>
 
 
@@ -54,20 +65,6 @@ full_width: true
       </ul>
     </section>
   </aside>
-
-  <% if paginate %>
-    <section class="pagination">
-      <p>Page <%= page_number %> of <%= num_pages %></p>
-
-      <% if prev_page %>
-        <p><%= link_to 'Previous page', prev_page %></p>
-      <% end %>
-
-      <% if next_page %>
-        <p><%= link_to 'Next page', next_page %></p>
-      <% end %>
-    </section>
-  <% end %>
 
 </div>
 

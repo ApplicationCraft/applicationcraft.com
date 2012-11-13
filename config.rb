@@ -91,6 +91,7 @@ activate :blog do |blog|
   blog.prefix     = "blog"
   blog.permalink  = ":year/:month/:title.html"
   blog.sources    = "articles/:year/:month/:title.html"
+  blog.paginate   = true
 end
 
 activate :directory_indexes
