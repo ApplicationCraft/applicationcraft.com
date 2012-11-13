@@ -286,7 +286,7 @@ tree:
         title: Adding Audio & Video, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/adding-audio-video}
       - {old_url: '/revisions/current/docs/user-guide/index.html?working_with_images.htm',
         title: Working with Images, url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/working-with-images}
-      url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out--reference
+      url: /developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference
     url: /developers/user-guide/product-guide/content-and-app-layout
   - old_url: /revisions/current/docs/user-guide/index.html?desktop_vs__mobile.htm
     title: Mobile Apps & Sites
