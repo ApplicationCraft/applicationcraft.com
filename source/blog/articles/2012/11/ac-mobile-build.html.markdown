@@ -1,7 +1,7 @@
 ---
 title: AC Mobile Build, a Phonegap Build alternative with Plugins
-data: 2012-11-15
 tags: phonegap, cordova, html5, native apps, mobile build
+date: 2012-11-13
 class_name: blog
 full_width: true
 image: blog/acmb-1.png

@@ -95,6 +95,7 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
+page "/google90eb33aa6efde5d7.html", :directory_index => false
 
 activate :deploy do |deploy|
   deploy.method = :rsync
