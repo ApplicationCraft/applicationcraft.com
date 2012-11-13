@@ -149,7 +149,7 @@ Automatic Relationships
 <td width="21">
 </td>
 <td width="754">
-Where you can set the relationships to other apps (see [Relational Apps & Instance Linking)](/developers/user-guide/product-guide/advanced-features/data-storage-management/instance-linking)
+  Where you can set the relationships to other apps (see <a href="/developers/user-guide/product-guide/advanced-features/data-storage-management/instance-linking">Relational Apps & Instance Linking)</a>
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Sizes
 <td width="21">
 </td>
 <td width="754">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog)
+  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
 
 </td>
 </tr>
@@ -419,7 +419,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <td width="18">
 </td>
 <td width="750">
-See [Repeater Data](repeater_data.htm)
+  See <a href="repeater_data.htm">Repeater Data</a>
 
 </td>
 </tr>
@@ -443,7 +443,7 @@ Fields
 <td width="18">
 </td>
 <td width="750">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/) section for more details.
+  This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.
 
 </td>
 </tr>
@@ -455,7 +455,7 @@ Group By
 <td width="18">
 </td>
 <td width="750">
-This allows you to Group data within a View in the same way you would with a SQL statement. Read the [Group By](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by) section for more details.
+  This allows you to Group data within a View in the same way you would with a SQL statement. Read the <a href="/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by">Group By</a> section for more details.
 
 </td>
 </tr>
@@ -467,7 +467,7 @@ Order By
 <td width="18">
 </td>
 <td width="750">
-Specifies the order in which data is presented to the Widget.  Read the [Order By](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by) section for more details.
+  Specifies the order in which data is presented to the Widget.  Read the <a href="/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by">Order By</a> section for more details.
 
 </td>
 </tr>
@@ -491,7 +491,7 @@ Listen
 <td width="18">
 </td>
 <td width="750">
-This indicates whether the Widget should react to a Drill Down action on a common View. Read the [Listen](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen) section for more details.
+  This indicates whether the Widget should react to a Drill Down action on a common View. Read the <a href="/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen">Listen</a> section for more details.
 
 </td>
 </tr>
@@ -571,7 +571,7 @@ Margin
 <td width="16">
 </td>
 <td width="750">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin)
+  Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
 
 </td>
 </tr>
@@ -751,7 +751,7 @@ Custom CSS Classes
 <td width="16">
 </td>
 <td width="750">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
+  Where you define your CSS Style to customise your widgets  See also <a href="/developers/user-guide/product-guide/advanced-features/custom-css-classes/">Custom CSS Classes</a>
 
 </td>
 </tr>
@@ -763,7 +763,7 @@ Widget Style
 <td width="16">
 </td>
 <td width="750">
-This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+  This refers to the <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>

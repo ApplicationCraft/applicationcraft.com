@@ -163,7 +163,7 @@ On Area Click
 <td width="8">
 </td>
 <td width="752">
-When a defined area in an Image is clicked (see [Image Maps](/developers/user-guide/product-guide/advanced-important-widgets/image-maps-and-emoticons/image-maps) )
+  When a defined area in an Image is clicked (see <a href="/developers/user-guide/product-guide/advanced-important-widgets/image-maps-and-emoticons/image-maps) ">Image Maps</a>
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ On Area Mouse Enter
 <td width="8">
 </td>
 <td width="752">
-Called when mouse moves into or over a defined Area in an Image widget. (see [Image Maps](/developers/user-guide/product-guide/advanced-important-widgets/image-maps-and-emoticons/image-maps) )
+  Called when mouse moves into or over a defined Area in an Image widget. (see <a href="/developers/user-guide/product-guide/advanced-important-widgets/image-maps-and-emoticons/image-maps) ">Image Maps</a>
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ On Area Mouse Leave
 <td width="8">
 </td>
 <td width="752">
-Called when mouse moves away from or leaves a defined Area in an Image widget. (see [Image Maps](/developers/user-guide/product-guide/advanced-important-widgets/image-maps-and-emoticons/image-maps) )
+  Called when mouse moves away from or leaves a defined Area in an Image widget. (see <a href="/developers/user-guide/product-guide/advanced-important-widgets/image-maps-and-emoticons/image-maps) ">Image Maps</a>
 
 </td>
 </tr>

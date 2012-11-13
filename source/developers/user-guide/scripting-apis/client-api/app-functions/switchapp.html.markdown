@@ -65,7 +65,7 @@ Twirly Thing (hourglass) object (see below)
 <td width="1">
 </td>
 <td width="710">
-You can pass any number of parameters into your App this way. These can be read using [getInputParameters()](/developers/user-guide/scripting-apis/client-api/app-functions/getinputparameter) . Object described below.
+  You can pass any number of parameters into your App this way. These can be read using <a href="/developers/user-guide/scripting-apis/client-api/app-functions/getinputparameter">getInputParameters()</a> . Object described below.
 
 </td>
 </tr>

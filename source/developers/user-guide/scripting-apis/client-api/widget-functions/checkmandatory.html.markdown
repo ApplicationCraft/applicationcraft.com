@@ -55,7 +55,7 @@ Use 3 if you wish to perform a combination of 1 and 2 simultaneously.
 </tr>
 <tr>
 <td width="178">
-{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widgets
+  { <a href="/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters">wlist</a> } widgets
 
 </td>
 <td width="16">

@@ -25,7 +25,7 @@ On Data Loaded
 <td width="15">
 </td>
 <td width="779">
-This is called once data has been fully loaded to the appropriate Data View. N.B. When a widget is in a container, it is the container which is loading data, so this event listens to the container. See also On Row Loaded in [General Events](/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events) .
+  This is called once data has been fully loaded to the appropriate Data View. N.B. When a widget is in a container, it is the container which is loading data, so this event listens to the container. See also On Row Loaded in <a href="/developers/user-guide/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a> .
 
 </td>
 </tr>

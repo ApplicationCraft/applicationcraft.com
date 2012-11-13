@@ -37,7 +37,7 @@ The Instance ID of the App in which the relationName parameter is defined
 <td width="10">
 </td>
 <td width="700">
-Enter Relation Name as defined in App Properties - Application Relationship. See [App Instances](/developers/user-guide/product-guide/advanced-features/data-storage-management/dataapp-instances)
+  Enter Relation Name as defined in App Properties - Application Relationship. See <a href="/developers/user-guide/product-guide/advanced-features/data-storage-management/dataapp-instances">App Instances</a>
 
 </td>
 </tr>

@@ -13,7 +13,7 @@ full_width: true
 <table>
 <tr>
 <td width="173">
-{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) } widgetName
+  { <a href="/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters">wlist</a> } widgetName
 
 </td>
 <td width="19">

@@ -75,7 +75,7 @@ Image
 <td width="17">
 </td>
 <td width="685">
-Also very commonly used, this allows you to load an image from the [Resources](/developers/user-guide/product-guide/the-console/console-tabs/resources) or a specific URL.
+  Also very commonly used, this allows you to load an image from the <a href="/developers/user-guide/product-guide/the-console/console-tabs/resources">Resources</a> or a specific URL.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Advanced Menu
 <td width="17">
 </td>
 <td width="685">
-This support a common way of managing multi-dimensional menus by entering all menu elements in a dialog. You can then choose the type of menu as a widget property. Currently, we only support one menu style but will be adding many more soon. Please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) if there is a specific menu type you would like to see implemented soon.
+  This support a common way of managing multi-dimensional menus by entering all menu elements in a dialog. You can then choose the type of menu as a widget property. Currently, we only support one menu style but will be adding many more soon. Please contact <a href="mailto:support@applicationcraft.com">support@applicationcraft.com</a> if there is a specific menu type you would like to see implemented soon.
 
 </td>
 </tr>

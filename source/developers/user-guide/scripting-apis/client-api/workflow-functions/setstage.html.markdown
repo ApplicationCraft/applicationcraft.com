@@ -19,7 +19,7 @@ setStage (stageName)
 <td width="9">
 </td>
 <td width="643">
-The name of the Stage to change to; must be a Stage defined within the [Workflow diagram](/developers/user-guide/product-guide/advanced-features/workflow/workflow-diagram) .
+  The name of the Stage to change to; must be a Stage defined within the <a href="/developers/user-guide/product-guide/advanced-features/workflow/workflow-diagram">Workflow diagram</a> .
 
 </td>
 </tr>

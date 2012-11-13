@@ -19,7 +19,7 @@ These functions allow you to assign data instances to Roles, Persons and Groups.
 <td width="13">
 </td>
 <td width="637">
-Assigns a Person or Group to a Role for a specified App (can also be [done manually in the Console](/developers/user-guide/product-guide/advanced-features/workflow/roles-stages) )
+  Assigns a Person or Group to a Role for a specified App (can also be <a href="/developers/user-guide/product-guide/advanced-features/workflow/roles-stages) ">done manually in the Console</a>
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ Enables you to get the current stage of the currently loaded instance
 <td width="13">
 </td>
 <td width="637">
-Assigns the specified instance id to a Role, Person or Group and assigns it an [Attention Level](/developers/user-guide/product-guide/advanced-features/workflow/attention-levels) value.
+  Assigns the specified instance id to a Role, Person or Group and assigns it an <a href="/developers/user-guide/product-guide/advanced-features/workflow/attention-levels">Attention Level</a> value.
 
 </td>
 </tr>

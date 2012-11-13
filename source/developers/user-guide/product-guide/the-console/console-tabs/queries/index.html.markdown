@@ -57,7 +57,7 @@ This is the Unique Identifier of the Query.
 <td width="16">
 </td>
 <td>
-Please refer to the [Sharing](/developers/user-guide/product-guide/the-console/sharing) section for details
+  Please refer to the <a href="/developers/user-guide/product-guide/the-console/sharing">Sharing</a> section for details
 
 </td>
 </tr>
@@ -74,7 +74,7 @@ Edit
 <td width="16">
 </td>
 <td>
-This takes you into the [Query Wizard](/developers/user-guide/product-guide/the-console/console-tabs/queries/query-wizard/) .
+  This takes you into the <a href="/developers/user-guide/product-guide/the-console/console-tabs/queries/query-wizard/">Query Wizard</a> .
 
 </td>
 </tr>

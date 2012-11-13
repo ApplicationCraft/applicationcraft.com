@@ -88,7 +88,7 @@ application\_key
 <td width="20">
 </td>
 <td width="740">
-Your Scandit App Key. Get your key here: [http://www.scandit.com/product-api](http://www.scandit.com/product-api)
+  Your Scandit App Key. Get your key here: <a href="http://www.scandit.com/product-api">http://www.scandit.com/product-api</a>
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ options
 <td width="20">
 </td>
 <td width="740">
-Available options: (description see - [https://github.com/ApplicationCraft/ScanditUniversalJS)](https://github.com/ApplicationCraft/ScanditUniversalJS))
+  Available options: (description see - <a href="https://github.com/ApplicationCraft/ScanditUniversalJS)">https://github.com/ApplicationCraft/ScanditUniversalJS)</a>
 
  - 1DScanning true/false
  - 2DScanning true/false

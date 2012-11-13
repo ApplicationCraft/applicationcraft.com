@@ -53,7 +53,7 @@ Items
 <td width="15">
 </td>
 <td width="779">
-This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See [Prefill](/developers/user-guide/product-guide/widget-properties-events/prefill) or by code, see [Context Menu](/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/context-menu2)
+    This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See <a href="/developers/user-guide/product-guide/widget-properties-events/prefill">Prefill</a> or by code, see <a href="/developers/user-guide/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/context-menu2">Context Menu</a>
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Mobile Theme
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Theme colors for the widget. See [Mobile Themes](/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes)
+  Where you can set the Theme colors for the widget. See <a href="/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes">Mobile Themes</a>
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
+  Where you define your CSS Style to customise your widgets  See also <a href="/developers/user-guide/product-guide/advanced-features/custom-css-classes/">Custom CSS Classes</a>
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+  This refers to the <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>

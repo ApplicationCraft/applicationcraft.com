@@ -45,13 +45,13 @@ Here are several interesting style properties
 <table>
 <tr>
 <td width="301">
-![moblist-basic](/img/docs/moblist-basic.zoom71.png)
+  !<a href="/img/docs/moblist-basic.zoom71.png">moblist-basic</a>
 
 A basic Mobile List
 
 </td>
 <td width="314">
-![moblist-inset](/img/docs/moblist-inset.zoom87.png)
+  !<a href="/img/docs/moblist-inset.zoom87.png">moblist-inset</a>
 
 Inset property set to true
 
@@ -67,13 +67,13 @@ Inset property set to true
 </tr>
 <tr>
 <td width="301">
-![moblist-inset-count](/img/docs/moblist-inset-count.zoom90.png)
+  !<a href="/img/docs/moblist-inset-count.zoom90.png">moblist-inset-count</a>
 
 Show Count Field property true (and inset)
 
 </td>
 <td width="314">
-![moblist-dividers](/img/docs/moblist-dividers.zoom89.png)
+  !<a href="/img/docs/moblist-dividers.zoom89.png">moblist-dividers</a>
 
 Dividers can be set in the Item dialog (and created in code)
 
@@ -89,13 +89,13 @@ Dividers can be set in the Item dialog (and created in code)
 </tr>
 <tr>
 <td width="301">
-![moblist-formatted](/img/docs/moblist-formatted.zoom90.png)
+  !<a href="/img/docs/moblist-formatted.zoom90.png">moblist-formatted</a>
 
 Formatted content and the Show Aside property (where the time is displayed)
 
 </td>
 <td width="314">
-![moblist-icons](/img/docs/moblist-icons.zoom90.png)
+  !<a href="/img/docs/moblist-icons.zoom90.png">moblist-icons</a>
 
 Show Image property is true and Image as Thumbnail, too, which then renders image as small size
 
@@ -111,7 +111,7 @@ Show Image property is true and Image as Thumbnail, too, which then renders imag
 </tr>
 <tr>
 <td width="301">
-![moblist-thumbs](/img/docs/moblist-thumbs.zoom87.png)
+  !<a href="/img/docs/moblist-thumbs.zoom87.png">moblist-thumbs</a>
 
 Show Image property is true
 

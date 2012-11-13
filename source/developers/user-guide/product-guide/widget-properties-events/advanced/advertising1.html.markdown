@@ -103,7 +103,7 @@ Repeat
 <td width="15">
 </td>
 <td width="784">
-Find out more about this in [Repeating Widgets Across Multiple Pages](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
+  Find out more about this in <a href="/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ Anchors
 <td width="15">
 </td>
 <td width="784">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
+  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
 
 </td>
 </tr>
@@ -259,7 +259,7 @@ Advertising
 <td width="15">
 </td>
 <td width="779">
-.Enter your Campaign ID and other parameters.  Registration to [http://www.adfonic.com](http://www.adfonic.com) required
+  .Enter your Campaign ID and other parameters.  Registration to <a href="http://www.adfonic.com">http://www.adfonic.com</a> required
 
 </td>
 </tr>
@@ -295,7 +295,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+  This refers to the <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>

@@ -13,7 +13,7 @@ int **setProperty** (widget, propertyName, value)
 <table>
 <tr>
 <td width="175">
-{ [wlist](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters) }
+  { <a href="/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-list-parameters">wlist</a> }
 
 </td>
 <td width="14">

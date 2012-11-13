@@ -19,7 +19,7 @@ full_width: true
 <td width="9">
 </td>
 <td width="643">
-ID of the [Notifier](/developers/user-guide/product-guide/advanced-features/workflow/notification-server) as defined in the Console
+  ID of the <a href="/developers/user-guide/product-guide/advanced-features/workflow/notification-server">Notifier</a> as defined in the Console
 
 </td>
 </tr>

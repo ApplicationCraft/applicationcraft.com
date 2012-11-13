@@ -113,7 +113,7 @@ Sizes
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See ['Sizes' Property Dialog](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog)
+  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
+  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
 
 </td>
 </tr>
@@ -333,7 +333,7 @@ Reset Filter
 <td width="15">
 </td>
 <td width="779">
-Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the [Reset Filter](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter) section for more details.
+  Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the <a href="/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter">Reset Filter</a> section for more details.
 
 </td>
 </tr>
@@ -345,7 +345,7 @@ Field
 <td width="15">
 </td>
 <td width="779">
-This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the [Fields](/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/) section for more details.
+  This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/user-guide/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.
 
 </td>
 </tr>
@@ -413,7 +413,7 @@ Margin
 <td width="15">
 </td>
 <td width="779">
-Used to specify the margin around a widget when the parent container is in Relative Mode. See [Setting a Margin](/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin)
+  Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
 
 </td>
 </tr>
@@ -425,7 +425,7 @@ Mobile Theme
 <td width="15">
 </td>
 <td width="779">
-Where you can set the Theme colors for the widget. See [Mobile Themes](/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes)
+  Where you can set the Theme colors for the widget. See <a href="/developers/user-guide/product-guide/mobile-apps-sites/mobile-themes">Mobile Themes</a>
 
 </td>
 </tr>
@@ -437,7 +437,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
+  Where you define your CSS Style to customise your widgets  See also <a href="/developers/user-guide/product-guide/advanced-features/custom-css-classes/">Custom CSS Classes</a>
 
 </td>
 </tr>
@@ -449,7 +449,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-This refers to the [Theme entry](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+  This refers to the <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>

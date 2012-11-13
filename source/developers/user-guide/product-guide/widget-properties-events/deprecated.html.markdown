@@ -41,7 +41,7 @@ Submit Buttons
 <td width="13">
 </td>
 <td width="739">
-AC Native Data storage is deprecated. Instead we have introduced far superior data storage using any connection  database. See: [Server Side Data Storage](/developers/user-guide/product-guide/data-storage/server-side-data-storage/)
+  AC Native Data storage is deprecated. Instead we have introduced far superior data storage using any connection  database. See: <a href="/developers/user-guide/product-guide/data-storage/server-side-data-storage/">Server Side Data Storage</a>
 
 </td>
 </tr>

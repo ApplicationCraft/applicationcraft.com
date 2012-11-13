@@ -19,7 +19,7 @@ full_width: true
 <td width="20">
 </td>
 <td width="750">
-The Instance Data object to be restored that was previously acquired with [getAppSnapshot()](/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot)
+  The Instance Data object to be restored that was previously acquired with <a href="/developers/user-guide/scripting-apis/client-api/app-functions/getappsnapshot">getAppSnapshot()</a>
 
 </td>
 </tr>

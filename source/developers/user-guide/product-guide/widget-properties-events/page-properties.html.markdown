@@ -97,7 +97,7 @@ Layout
 <td width="19">
 </td>
 <td width="765">
-Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
+  Absolute/Relative. Select Relative to enable your container to resize to the available browser size. See: <a href="/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout">Absolute and Relative Layout</a>
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Google Analytics Track Code
 <td width="19">
 </td>
 <td width="765">
-If you want your GA tracking to be javascript free, then you can set the 'Google Analytics Track Code' property for any page you like within your App. See [Page Based Tracking Code](/developers/user-guide/product-guide/advanced-features/google-analytics/page-based-tracking-code)
+  If you want your GA tracking to be javascript free, then you can set the 'Google Analytics Track Code' property for any page you like within your App. See <a href="/developers/user-guide/product-guide/advanced-features/google-analytics/page-based-tracking-code">Page Based Tracking Code</a>
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Percent Width
 <td width="19">
 </td>
 <td width="765">
-Where you can change the width of the page relative to the size of the browser. Used in 'Relative Mode'. See [Absolute and Relative Layout](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout)
+  Where you can change the width of the page relative to the size of the browser. Used in 'Relative Mode'. See <a href="/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout">Absolute and Relative Layout</a>
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ Transition Mode
 <td width="19">
 </td>
 <td width="765">
-Auto/Pre Rendering/Post Rendering. Properties to help manage [Page Transitions](/developers/user-guide/product-guide/mobile-apps-sites/page-transition-effects) and show an hourglass.
+  Auto/Pre Rendering/Post Rendering. Properties to help manage <a href="/developers/user-guide/product-guide/mobile-apps-sites/page-transition-effects">Page Transitions</a> and show an hourglass.
 
 Auto -Pages will be automatically rendered. If the time to transition to this page is more them 1500 ms future transitions will automatically show an hourglass
 
@@ -220,7 +220,7 @@ BG Color
 <td width="19">
 </td>
 <td width="765">
-This is empty by default, which indicates that the Page's back color is taken from the App's [Theme](/developers/user-guide/product-guide/the-console/console-tabs/themes-overview) . It can be reset the to Theme's Page Back Color by pressing "Use Theme" in the property's pop-up dialog.
+  This is empty by default, which indicates that the Page's back color is taken from the App's <a href="/developers/user-guide/product-guide/the-console/console-tabs/themes-overview">Theme</a> . It can be reset the to Theme's Page Back Color by pressing "Use Theme" in the property's pop-up dialog.
 
 </td>
 </tr>
@@ -316,7 +316,7 @@ Padding
 <td width="19">
 </td>
 <td width="765">
-Used to specify the margin/padding around a widget when the parent container is in Relative Mode. See [Setting a Margin](/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin)
+  Used to specify the margin/padding around a widget when the parent container is in Relative Mode. See <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ Custom CSS Classes
 <td width="19">
 </td>
 <td width="765">
-Where you define your CSS Style to customise your widgets  See also [Custom CSS Classes](/developers/user-guide/product-guide/advanced-features/custom-css-classes/)
+  Where you define your CSS Style to customise your widgets  See also <a href="/developers/user-guide/product-guide/advanced-features/custom-css-classes/">Custom CSS Classes</a>
 
 </td>
 </tr>
@@ -394,7 +394,7 @@ Snap to grid
 <td width="19">
 </td>
 <td width="765">
-This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice [Drag Alignment](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-alignment-distribution) feature.
+  This indicates whether you wish to see and use a snap to grid mechanism that allows Widgets to snap precisely into place. You may not need to use the Snap to Grid as AC supports a very nice <a href="/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-alignment-distribution">Drag Alignment</a> feature.
 
 </td>
 </tr>

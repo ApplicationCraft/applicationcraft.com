@@ -67,7 +67,7 @@ This field is set at the same time as selecting the Data Agent. To change it, yo
 <td width="16">
 </td>
 <td>
-See general [Sharing](/developers/user-guide/product-guide/the-console/sharing) explanation.
+  See general <a href="/developers/user-guide/product-guide/the-console/sharing">Sharing</a> explanation.
 
 </td>
 </tr>

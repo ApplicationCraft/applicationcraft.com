@@ -78,7 +78,7 @@ Documentation
 
 </td>
 <td width="740">
-Link to documentation for this plugin: [https://github.com/phonegap/phonegap-plugins/tree/master/Android/BarcodeScanner\#using-the-plugin](https://github.com/phonegap/phonegap-plugins/tree/master/Android/BarcodeScanner#using-the-plugin)
+  Link to documentation for this plugin: <a href="https://github.com/phonegap/phonegap-plugins/tree/master/Android/BarcodeScanner#using-the-plugin">https://github.com/phonegap/phonegap-plugins/tree/master/Android/BarcodeScanner\#using-the-plugin</a>
 
 </td>
 </tr>

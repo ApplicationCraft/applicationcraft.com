@@ -23,7 +23,7 @@ Action
 </tr>
 <tr>
 <td width="126">
-![Left\_align](/img/docs/left_align.png)
+  !<a href="/img/docs/left_align.png">Left\_align</a>
 
 </td>
 <td width="16">
@@ -35,7 +35,7 @@ Aligns the left edges of all selected Widgets without adjusting the vertical pos
 </tr>
 <tr>
 <td width="126">
-![Right\_align](/img/docs/right_align.png)
+  !<a href="/img/docs/right_align.png">Right\_align</a>
 
 </td>
 <td width="16">
@@ -47,7 +47,7 @@ Aligns the right edges of all selected Widgets without adjusting the vertical po
 </tr>
 <tr>
 <td width="126">
-![Centre\_align](/img/docs/centre_align.png)
+  !<a href="/img/docs/centre_align.png">Centre\_align</a>
 
 </td>
 <td width="16">
@@ -59,7 +59,7 @@ Aligns the selected Widgets above one another on their centers
 </tr>
 <tr>
 <td width="126">
-![Top\_align](/img/docs/top_align.png)
+  !<a href="/img/docs/top_align.png">Top\_align</a>
 
 </td>
 <td width="16">
@@ -71,7 +71,7 @@ Aligns the top edges of selected Widgets without adjusting the horizontal positi
 </tr>
 <tr>
 <td width="126">
-![Bottom\_align](/img/docs/bottom_align.png)
+  !<a href="/img/docs/bottom_align.png">Bottom\_align</a>
 
 </td>
 <td width="16">
@@ -83,7 +83,7 @@ Aligns the bottom edges of all selected Widgets without adjusting the vertical p
 </tr>
 <tr>
 <td width="126">
-![Horizontal\_align](/img/docs/horizontal_align.png)
+  !<a href="/img/docs/horizontal_align.png">Horizontal\_align</a>
 
 </td>
 <td width="16">

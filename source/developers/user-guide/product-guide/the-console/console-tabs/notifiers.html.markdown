@@ -33,7 +33,7 @@ Notifiers are used from client API functions. Currently, the [notify()](/develop
 <table>
 <tr>
 <td width="96">
-![sendmail](/img/docs/sendmail.png)
+  !<a href="/img/docs/sendmail.png">sendmail</a>
 
 </td>
 <td width="20">

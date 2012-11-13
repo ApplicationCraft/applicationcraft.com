@@ -31,7 +31,7 @@ the Page Name, Page Number or  Page GUID of the page to display.
 <td width="12">
 </td>
 <td width="717">
-A string indicating the type of transition effect. You can find the [available transition values here](/developers/user-guide/scripting-apis/client-api/page-functions/page-transitions) .
+  A string indicating the type of transition effect. You can find the <a href="/developers/user-guide/scripting-apis/client-api/page-functions/page-transitions">available transition values here</a> .
 
 </td>
 </tr>

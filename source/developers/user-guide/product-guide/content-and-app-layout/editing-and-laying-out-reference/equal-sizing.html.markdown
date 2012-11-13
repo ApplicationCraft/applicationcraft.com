@@ -23,7 +23,7 @@ Action
 </tr>
 <tr>
 <td width="126">
-![size\_horizontal](/img/docs/size_horizontal.png)
+  !<a href="/img/docs/size_horizontal.png">size\_horizontal</a>
 
 </td>
 <td width="16">
@@ -35,7 +35,7 @@ Selected Widgets will have the same width
 </tr>
 <tr>
 <td width="126">
-![Size\_height](/img/docs/size_height.png)
+  !<a href="/img/docs/size_height.png">Size\_height</a>
 
 </td>
 <td width="16">
@@ -47,7 +47,7 @@ Selected Widgets will have the same height
 </tr>
 <tr>
 <td width="126">
-![Size\_equal](/img/docs/size_equal.png)
+  !<a href="/img/docs/size_equal.png">Size\_equal</a>
 
 </td>
 <td width="16">

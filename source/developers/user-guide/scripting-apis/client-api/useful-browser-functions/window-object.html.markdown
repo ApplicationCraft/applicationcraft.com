@@ -29,7 +29,7 @@ This object contains a lot of useful properties and methods. Visit [w3schools](h
 <td width="15">
 </td>
 <td width="759">
-Displays an alert box with a message and an OK button. See [alert(), confirm()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/alert)
+  Displays an alert box with a message and an OK button. See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/alert">alert(), confirm()</a>
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Removes focus from the current window
 <td width="15">
 </td>
 <td width="759">
-Clears a timer set with setInterval(). See [setInterval(), setTimeout()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al)
+  Clears a timer set with setInterval(). See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al">setInterval(), setTimeout()</a>
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Clears a timer set with setInterval(). See [setInterval(), setTimeout()](/develo
 <td width="15">
 </td>
 <td width="759">
-Clears a timer set with setTimeout(). See [setInterval(), setTimeout()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al)
+  Clears a timer set with setTimeout(). See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al">setInterval(), setTimeout()</a>
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Closes the current window
 <td width="15">
 </td>
 <td width="759">
-Displays a dialog box with a message and an OK and a Cancel button. See [alert()](/developers/user-guide/scripting-apis/client-api/app-functions/refalert) , [confirm()](/developers/user-guide/scripting-apis/client-api/app-functions/confirm)
+    Displays a dialog box with a message and an OK and a Cancel button. See <a href="/developers/user-guide/scripting-apis/client-api/app-functions/refalert) , <a href="/developers/user-guide/scripting-apis/client-api/app-functions/confirm">confirm(">alert()</a></a>
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Displays a dialog box with a message and an OK and a Cancel button. See [alert()
 <td width="15">
 </td>
 <td width="759">
-Creates a pop-up window. See [showPagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup) , [closePagePopup()](/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup)
+    Creates a pop-up window. See <a href="/developers/user-guide/scripting-apis/client-api/page-functions/showpagepopup) , <a href="/developers/user-guide/scripting-apis/client-api/page-functions/closepagepopup">closePagePopup(">showPagePopup()</a></a>
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Moves a window to the specified position
 <td width="15">
 </td>
 <td width="759">
-Opens a new browser window. See [open()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/open)
+  Opens a new browser window. See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/open">open()</a>
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ Prints the content of the current window
 <td width="15">
 </td>
 <td width="759">
-Displays a dialog box that prompts the visitor for input. See [showPrompt()](/developers/user-guide/scripting-apis/client-api/app-functions/showprompt)
+  Displays a dialog box that prompts the visitor for input. See <a href="/developers/user-guide/scripting-apis/client-api/app-functions/showprompt">showPrompt()</a>
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ Displays a dialog box that prompts the visitor for input. See [showPrompt()](/de
 <td width="15">
 </td>
 <td width="759">
-Resizes the window by the specified pixels. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events)
+  Resizes the window by the specified pixels. See <a href="/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events">Resize Events</a>
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ Resizes the window by the specified pixels. See [Resize Events](/developers/user
 <td width="15">
 </td>
 <td width="759">
-Resizes the window to the specified width and height. See [Resize Events](/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events)
+  Resizes the window to the specified width and height. See <a href="/developers/user-guide/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events">Resize Events</a>
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ Resizes the window to the specified width and height. See [Resize Events](/devel
 <td width="15">
 </td>
 <td width="759">
-Scrolls the content by the specified number of pixels. See [scrollTo(), scrollBy()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto)
+  Scrolls the content by the specified number of pixels. See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto">scrollTo(), scrollBy()</a>
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ Scrolls the content by the specified number of pixels. See [scrollTo(), scrollBy
 <td width="15">
 </td>
 <td width="759">
-Scrolls the content to the specified coordinates. See [scrollTo(), scrollBy()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto)
+  Scrolls the content to the specified coordinates. See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/scrollto">scrollTo(), scrollBy()</a>
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Scrolls the content to the specified coordinates. See [scrollTo(), scrollBy()](/
 <td width="15">
 </td>
 <td width="759">
-Calls a function or evaluates an expression at specified intervals (in milliseconds). See [setInterval(), setTimeout()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al)
+  Calls a function or evaluates an expression at specified intervals (in milliseconds). See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al">setInterval(), setTimeout()</a>
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ Calls a function or evaluates an expression at specified intervals (in milliseco
 <td width="15">
 </td>
 <td width="759">
-Calls a function or evaluates an expression after a specified number of milliseconds. See [setInterval(), setTimeout()](/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al)
+  Calls a function or evaluates an expression after a specified number of milliseconds. See <a href="/developers/user-guide/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al">setInterval(), setTimeout()</a>
 
 </td>
 </tr>

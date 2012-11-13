@@ -179,7 +179,7 @@ Auto Hide Splash Screen
 
 </td>
 <td width="615">
-true(default)/false. If set to true the splash screen is hidden. To show your own Splash Screen images (Pro subscription required) set to false. Supported in [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
+  true(default)/false. If set to true the splash screen is hidden. To show your own Splash Screen images (Pro subscription required) set to false. Supported in <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/">AC Mobile Build</a>
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ Open all links in WebView
 
 </td>
 <td width="624">
-true/false. If set to true, all links (even with target set to blank) will open in the app's webview. If your app is utilizing the [YouTube](/developers/user-guide/product-guide/widget-properties-events/advanced/youtube) widget for iOS, set this property to true
+  true/false. If set to true, all links (even with target set to blank) will open in the app's webview. If your app is utilizing the <a href="/developers/user-guide/product-guide/widget-properties-events/advanced/youtube">YouTube</a> widget for iOS, set this property to true
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ Show Splash Screen Spinner
 
 </td>
 <td width="624">
-true(default)/false. if set to false, the spinner won't appear on the splash screen during app loading. Supported in [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
+  true(default)/false. if set to false, the spinner won't appear on the splash screen during app loading. Supported in <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/">AC Mobile Build</a>
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ Allow Inline Media Playback
 
 </td>
 <td width="624">
-true/false(default). If set to true HTML5 videos will play inline. If set to false HTML5 videos will use the native full-screen controller. To play [YouTube](/developers/user-guide/product-guide/widget-properties-events/advanced/youtube) videos inline, also set Open all links in WebView to true
+  true/false(default). If set to true HTML5 videos will play inline. If set to false HTML5 videos will use the native full-screen controller. To play <a href="/developers/user-guide/product-guide/widget-properties-events/advanced/youtube">YouTube</a> videos inline, also set Open all links in WebView to true
 
 </td>
 </tr>
@@ -312,7 +312,7 @@ Minimum SDK Version
 
 </td>
 <td width="617">
-corresponds to the usesSdk attributes in the AndroidManifest.xml file - for more information see [http://developer.android.com/guide/topics/manifest/uses-sdk-element.html](http://developer.android.com/guide/topics/manifest/uses-sdk-element.html)
+  corresponds to the usesSdk attributes in the AndroidManifest.xml file - for more information see <a href="http://developer.android.com/guide/topics/manifest/uses-sdk-element.html">http://developer.android.com/guide/topics/manifest/uses-sdk-element.html</a>
 
 </td>
 </tr>
@@ -325,7 +325,7 @@ Install Location
 
 </td>
 <td width="617">
-internalOnly/auto/preferExternal. Where an app can be installed - defaults to internalOnly (as the Android SDK). auto or preferExternal allow the app to be installed on an SD card - this can lead to unexpected behavior, more details available [here](http://developer.android.com/guide/appendix/install-location.html)
+  internalOnly/auto/preferExternal. Where an app can be installed - defaults to internalOnly (as the Android SDK). auto or preferExternal allow the app to be installed on an SD card - this can lead to unexpected behavior, more details available <a href="http://developer.android.com/guide/appendix/install-location.html">here</a>
 
 </td>
 </tr>
@@ -351,7 +351,7 @@ Launch Mode
 
 </td>
 <td width="617">
-Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see [http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode](http://developer.android.com/guide/topics/manifest/activity-element.html#lmode) . Supported in [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
+    Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see <a href="http://developer.android.com/guide/topics/manifest/activity-element.html#lmode">http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode</a> . Supported in <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/">AC Mobile Build</a>
 
 </td>
 </tr>
@@ -364,7 +364,7 @@ Version Code
 
 </td>
 <td width="617">
-when building for Android, you can set the version Code. For more information on Android's versionCode attribute, see [http://developer.android.com/tools/publishing/versioning.html](http://developer.android.com/tools/publishing/versioning.html) . Supported in [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/)
+    when building for Android, you can set the version Code. For more information on Android's versionCode attribute, see <a href="http://developer.android.com/tools/publishing/versioning.html">http://developer.android.com/tools/publishing/versioning.html</a> . Supported in <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/">AC Mobile Build</a>
 
 </td>
 </tr>

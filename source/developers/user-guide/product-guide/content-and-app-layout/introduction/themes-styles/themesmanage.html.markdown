@@ -37,7 +37,7 @@ Sharing
 <td width="21">
 </td>
 <td width="574">
-Set permissions for Use and Administration of the Theme.  See [Sharing](/developers/user-guide/product-guide/the-console/sharing) for more information.
+  Set permissions for Use and Administration of the Theme.  See <a href="/developers/user-guide/product-guide/the-console/sharing">Sharing</a> for more information.
 
 </td>
 </tr>

@@ -29,7 +29,7 @@ On Online
 <td width="8">
 </td>
 <td width="735">
-When the network connection goes online, having previously been offline. See also [Network Availability Handling](/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling) chapter.
+  When the network connection goes online, having previously been offline. See also <a href="/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling">Network Availability Handling</a> chapter.
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ On Offline
 <td width="8">
 </td>
 <td width="735">
-When the network connection goes offline, having previously been online. See also [Network Availability Handling](/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling) chapter.
+  When the network connection goes offline, having previously been online. See also <a href="/developers/user-guide/scripting-apis/client-scripting-overview/network-availability-handling">Network Availability Handling</a> chapter.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ On Back Button Press
 <td width="8">
 </td>
 <td width="735">
-When the 'Back' button is pressed. You should note that if this event returns false, then Application Craft will not handle the back action, otherwise it will automatically jump to the previous page as with [app.pageBack()](/developers/user-guide/scripting-apis/client-api/page-functions/pageback) .
+  When the 'Back' button is pressed. You should note that if this event returns false, then Application Craft will not handle the back action, otherwise it will automatically jump to the previous page as with <a href="/developers/user-guide/scripting-apis/client-api/page-functions/pageback">app.pageBack()</a> .
 
 </td>
 </tr>

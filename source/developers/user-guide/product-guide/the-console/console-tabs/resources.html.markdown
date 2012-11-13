@@ -154,7 +154,7 @@ Edit Content
 <td width="16">
 </td>
 <td>
-This allows you to edit the content of a Data List. See [Editing a Data List](/developers/user-guide/product-guide/advanced-features/data-lists-management/editing-a-data-list)
+  This allows you to edit the content of a Data List. See <a href="/developers/user-guide/product-guide/advanced-features/data-lists-management/editing-a-data-list">Editing a Data List</a>
 
 </td>
 </tr>

@@ -251,7 +251,7 @@ Mobile Build
 <td width="16">
 </td>
 <td>
-Choose to build your apps using [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) or [Phonegap:Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/) . If you wish to compile as a Native App for mobile devices you can do so here.
+  Choose to build your apps using [AC Mobile Build](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/) or <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/phonegapbuild/">Phonegap:Build</a> . If you wish to compile as a Native App for mobile devices you can do so here.
 
 If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](/developers/user-guide/ac-mobile-build-phonegap/cordova/) chapter, which describes how this can be achieved.
 
@@ -301,7 +301,7 @@ Embed
 <td width="16">
 </td>
 <td>
-If you want to embed an App into your own HTML page, then pressing the Embed button will provide you with the necessary HTML code that you can copy and paste into your page. You can also pass parameters into your app by editing this code. See [Passing in data with Embedded Apps and Javascript](/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded)
+  If you want to embed an App into your own HTML page, then pressing the Embed button will provide you with the necessary HTML code that you can copy and paste into your page. You can also pass parameters into your app by editing this code. See <a href="/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded">Passing in data with Embedded Apps and Javascript</a>
 
 </td>
 </tr>

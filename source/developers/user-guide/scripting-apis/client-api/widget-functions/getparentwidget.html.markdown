@@ -19,7 +19,7 @@ full_width: true
 <td width="22">
 </td>
 <td width="722">
-the Name or GUID of the Widget or a [Widget Object](/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object)
+  the Name or GUID of the Widget or a <a href="/developers/user-guide/scripting-apis/client-api/objects-titbits/widget-object">Widget Object</a>
 
 </td>
 </tr>

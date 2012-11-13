@@ -243,7 +243,7 @@ On Play
 <td width="12">
 </td>
 <td width="728">
-Called when the element is no longer paused. Fired after the [play()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/play) method has returned, or when the autoplay attribute has caused playback to begin.
+  Called when the element is no longer paused. Fired after the <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/play">play()</a> method has returned, or when the autoplay attribute has caused playback to begin.
 
 </td>
 </tr>
@@ -255,7 +255,7 @@ On Pause
 <td width="12">
 </td>
 <td width="728">
-Called when the element has been paused. Fired after the [pause()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/pause) method has returned.
+  Called when the element has been paused. Fired after the <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/pause">pause()</a> method has returned.
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ Called when either the volume attribute or the muted attribute has changed. Fire
 <td width="11">
 </td>
 <td width="727">
-for more information on YouTube Events see: [https://developers.google.com/youtube/iframe\_api\_reference\#Events](https://developers.google.com/youtube/iframe_api_reference#Events)
+  for more information on YouTube Events see: <a href="https://developers.google.com/youtube/iframe_api_reference#Events">https://developers.google.com/youtube/iframe\_api\_reference\#Events</a>
 
 </td>
 </tr>
@@ -318,7 +318,7 @@ On State Change
 <td width="11">
 </td>
 <td width="727">
-Called when the state of the widget changes. See [state()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/state)
+  Called when the state of the widget changes. See <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/state">state()</a>
 
 </td>
 </tr>
@@ -342,7 +342,7 @@ On Playback Quality Change
 <td width="11">
 </td>
 <td width="727">
-Called when playback quality changes. See [setPlaybackQuality()](/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/setplaybackquality)
+  Called when playback quality changes. See <a href="/developers/user-guide/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/setplaybackquality">setPlaybackQuality()</a>
 
 </td>
 </tr>

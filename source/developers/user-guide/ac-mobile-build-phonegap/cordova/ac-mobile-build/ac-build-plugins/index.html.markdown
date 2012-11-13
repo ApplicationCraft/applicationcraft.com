@@ -31,7 +31,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](/de
 <table>
 <tr>
 <td width="211">
- - [Child Browser](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/)
+   - <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/child-browser/">Child Browser</a>
 
 </td>
 <td width="27">
@@ -41,7 +41,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](/de
 </tr>
 <tr>
 <td width="211">
- - [SQLite Plugin](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/)
+   - <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/sqlite-plugin/">SQLite Plugin</a>
 
 </td>
 <td width="27">
@@ -51,7 +51,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](/de
 </tr>
 <tr>
 <td width="211">
- - [MailTo Plugin](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/mailto-plugin)
+   - <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/mailto-plugin">MailTo Plugin</a>
 
 </td>
 <td width="27">
@@ -61,7 +61,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](/de
 </tr>
 <tr>
 <td width="211">
- - [Scandit Free](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free)
+   - <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/scandit-free">Scandit Free</a>
 
 </td>
 <td width="27">
@@ -71,7 +71,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](/de
 </tr>
 <tr>
 <td width="211">
- - [ZXing Bar Code Scanner](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner)
+   - <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner">ZXing Bar Code Scanner</a>
 
 </td>
 <td width="27">
@@ -81,7 +81,7 @@ The Child Browser plugin can also be used if building using [Phonegap:Build](/de
 </tr>
 <tr>
 <td width="211">
- - [Xtify Push Notifications](/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/)
+   - <a href="/developers/user-guide/ac-mobile-build-phonegap/cordova/ac-mobile-build/ac-build-plugins/xtify-push-notifications/">Xtify Push Notifications</a>
 
 </td>
 <td width="27">

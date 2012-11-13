@@ -13,7 +13,7 @@ The following table shows various ways of accessing the Widget Object.
 <table>
 <tr>
 <td width="219">
-  <strong>[\_widget](/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget)</strong>
+    <strong><a href="/developers/user-guide/scripting-apis/client-api/objects-titbits/ref-widget">\_widget</a></strong>
 
 </td>
 <td width="19">

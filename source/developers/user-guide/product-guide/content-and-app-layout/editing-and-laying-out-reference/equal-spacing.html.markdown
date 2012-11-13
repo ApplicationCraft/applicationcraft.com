@@ -23,7 +23,7 @@ Action
 </tr>
 <tr>
 <td width="126">
-![Spacing\_horizontal](/img/docs/spacing_horizontal.png)
+  !<a href="/img/docs/spacing_horizontal.png">Spacing\_horizontal</a>
 
 </td>
 <td width="16">
@@ -35,7 +35,7 @@ Selected Widgets will have the same horizontal spacing
 </tr>
 <tr>
 <td width="126">
-![Spacing\_vertical](/img/docs/spacing_vertical.png)
+  !<a href="/img/docs/spacing_vertical.png">Spacing\_vertical</a>
 
 </td>
 <td width="16">

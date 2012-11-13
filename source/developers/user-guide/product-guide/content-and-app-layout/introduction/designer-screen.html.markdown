@@ -47,7 +47,7 @@ Styles
 <td width="28">
 </td>
 <td width="720">
-displays the preset Styles contained in the App Theme (see [Theme Management](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) for more information on Styles)
+  displays the preset Styles contained in the App Theme (see <a href="/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) for more information on Styles">Theme Management</a>
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Toolbox
 <td width="28">
 </td>
 <td width="720">
-contains all the available [Widgets](/developers/user-guide/product-guide/widget-properties-events/) that can be used in a AC App.
+  contains all the available <a href="/developers/user-guide/product-guide/widget-properties-events/">Widgets</a> that can be used in a AC App.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Properties
 <td width="32">
 </td>
 <td width="712">
-Displays all available Properties for the selected Widget. See [Widget Properties](/developers/user-guide/product-guide/widget-properties-events/) for more information.
+  Displays all available Properties for the selected Widget. See <a href="/developers/user-guide/product-guide/widget-properties-events/">Widget Properties</a> for more information.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Events
 <td width="32">
 </td>
 <td width="712">
-Displays all available Event actions for the selected Widget. See [Event Handling](/developers/user-guide/product-guide/widget-properties-events/events/) for more information.
+  Displays all available Event actions for the selected Widget. See <a href="/developers/user-guide/product-guide/widget-properties-events/events/">Event Handling</a> for more information.
 
 </td>
 </tr>

@@ -53,7 +53,7 @@ App Key
 <td width="15">
 </td>
 <td width="779">
-Enter your Scandit App Key. See [http://www.scandit.com/product-api/](http://www.scandit.com/product-api/)
+  Enter your Scandit App Key. See <a href="http://www.scandit.com/product-api/">http://www.scandit.com/product-api/</a>
 
 </td>
 </tr>
@@ -315,7 +315,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in [Repeating Widgets Across Multiple Pages](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi) .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
 
 </td>
 </tr>
@@ -339,7 +339,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See [Docking & Anchoring](/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring) .
+  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/user-guide/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
 
 </td>
 </tr>

@@ -21,7 +21,7 @@ Application Craft has three types of SSJ functions. Below is a screenshot showin
 <table>
 <tr>
 <td width="265">
-![code-explorer](/img/docs/code-explorer.png)
+  !<a href="/img/docs/code-explorer.png">code-explorer</a>
 
 </td>
 <td width="511">

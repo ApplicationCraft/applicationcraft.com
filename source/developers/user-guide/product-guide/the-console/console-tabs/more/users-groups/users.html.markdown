@@ -19,7 +19,7 @@ There are 2 types of users:
 <td width="19">
 </td>
 <td width="667">
-This refers to the number of developer users in your account and can be granted [rights](/developers/user-guide/product-guide/the-console/console-tabs/more/users-groups/users#rights) to be able to access specific areas in your account.
+  This refers to the number of developer users in your account and can be granted <a href="/developers/user-guide/product-guide/the-console/console-tabs/more/users-groups/users#rights">rights</a> to be able to access specific areas in your account.
 
 Additional developer users can also be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](/developers/user-guide/product-guide/account-management/upgrade-subscription)
 
@@ -35,7 +35,7 @@ If you wish to reduce (temporarily) the number of developers in your account, bu
 <td width="19">
 </td>
 <td width="667">
-This refers to any user accounts created in your account where you require [Authentication for Your Apps](/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/) or if using Server Side scripting [User Management](/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/) . This user does not require any 'rights'. You can disable users to restrict access to your apps.  There are no limits to the number of app users you can have in your account
+    This refers to any user accounts created in your account where you require <a href="/developers/user-guide/product-guide/advanced-features/authentication-for-your-apps/">Authentication for Your Apps</a> or if using Server Side scripting <a href="/developers/user-guide/scripting-apis/server-side-api/sys-object/user-management/">User Management</a> . This user does not require any 'rights'. You can disable users to restrict access to your apps.  There are no limits to the number of app users you can have in your account
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ Manage Widgets
 <td width="19">
 </td>
 <td width="667">
-Can create, administer and use Custom Widgets. See [Adding your own Widgets to Application Craft](/developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/)
+  Can create, administer and use Custom Widgets. See <a href="/developers/user-guide/adding-widgets-and-api-methods/adding-your-own-widgets-to-application-craft/">Adding your own Widgets to Application Craft</a>
 
 </td>
 </tr>
@@ -260,7 +260,7 @@ Account Admin
 <td width="19">
 </td>
 <td width="667">
-Allow the user access to the general Account settings (including ability to pull Updates and change subscription package). See [Upgrade Subscriptions](/developers/user-guide/product-guide/account-management/upgrade-subscription)
+  Allow the user access to the general Account settings (including ability to pull Updates and change subscription package). See <a href="/developers/user-guide/product-guide/account-management/upgrade-subscription">Upgrade Subscriptions</a>
 
 </td>
 </tr>
@@ -272,7 +272,7 @@ Manage Notifiers
 <td width="19">
 </td>
 <td width="667">
-Can create and administer Notifiers. See [Notifiers](/developers/user-guide/product-guide/the-console/console-tabs/notifiers)
+  Can create and administer Notifiers. See <a href="/developers/user-guide/product-guide/the-console/console-tabs/notifiers">Notifiers</a>
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ Access all logs
 <td width="19">
 </td>
 <td width="667">
-Can the user access logs. See [Logging Support](/developers/user-guide/product-guide/advanced-features/logging-support/)
+  Can the user access logs. See <a href="/developers/user-guide/product-guide/advanced-features/logging-support/">Logging Support</a>
 
 </td>
 </tr>
@@ -296,7 +296,7 @@ Write Logs
 <td width="19">
 </td>
 <td width="667">
-Can the user write logs. See [Logging Support](/developers/user-guide/product-guide/advanced-features/logging-support/)
+  Can the user write logs. See <a href="/developers/user-guide/product-guide/advanced-features/logging-support/">Logging Support</a>
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ This list shows which Groups the user is a member of. You can add Users to or re
 <td width="19">
 </td>
 <td width="667">
-Where users individual parameters can be set. See [User Parameters](/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/)
+  Where users individual parameters can be set. See <a href="/developers/user-guide/product-guide/the-console/console-tabs/more/account-variables/user-parameters/">User Parameters</a>
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ Change Password
 <td width="19">
 </td>
 <td width="685">
-This is where another users password can be changed. To change your own password see [My Details](/developers/user-guide/product-guide/the-console/console-tabs/more/my-details)
+  This is where another users password can be changed. To change your own password see <a href="/developers/user-guide/product-guide/the-console/console-tabs/more/my-details">My Details</a>
 
 </td>
 </tr>
