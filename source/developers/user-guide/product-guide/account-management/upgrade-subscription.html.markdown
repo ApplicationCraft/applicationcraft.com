@@ -14,7 +14,6 @@ A check will be made to confirm the user account has the necessary privileges be
 
 If you are already a subscribed user and are adding/removing a user you will be shown the new total cost and this will then be reflected in your future payments.
 
-For more information on changing your subscription, see our Pricing FAQ's [here](http://www.applicationcraft.com/legal-faqs#ProToAnnual)
+For more information on changing your subscription, see our Pricing FAQ's [here](/product/pricing)
 
-[Click here](http://www.applicationcraft.com/pricing-main) to see a comparison list of features and pricing for all platforms.
 

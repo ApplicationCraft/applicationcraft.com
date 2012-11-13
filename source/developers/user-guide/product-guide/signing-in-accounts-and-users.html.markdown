@@ -10,7 +10,7 @@ When you sign up for an Application Craft Account, this Account is good not just
 
 ## Signing In
 
-When you created your Account, you specified a Subdomain name. You can then sign in at [http://yourdomain.applicationcraft.com](http://yourdomain.applicationcraft.com)
+When you created your Account, you specified a Subdomain name. You can then sign in at http://yourdomain.applicationcraft.com
 
 ## The Account Administrator
 

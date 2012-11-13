@@ -13,7 +13,7 @@ There are 2 types of users:
 <table>
 <tr>
 <td width="149">
- - developer
+ Developer
 
 </td>
 <td width="19">
@@ -29,7 +29,7 @@ If you wish to reduce (temporarily) the number of developers in your account, bu
 </tr>
 <tr>
 <td width="149">
- - app
+ App
 
 </td>
 <td width="19">

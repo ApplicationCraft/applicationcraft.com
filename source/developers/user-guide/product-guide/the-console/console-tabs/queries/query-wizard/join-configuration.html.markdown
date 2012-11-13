@@ -30,7 +30,7 @@ For all Joins, click in the relevant cell and select from the list of available 
 
 The screenshot above shows a 3 way join.
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/N-sBju6KMFE?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Querying Apps [4:57]
 

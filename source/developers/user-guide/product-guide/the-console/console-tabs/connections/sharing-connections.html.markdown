@@ -18,6 +18,6 @@ If you want to make a shared Connection Public, you can drag it into a Public fo
 
  - [Sharing](/developers/user-guide/product-guide/the-console/sharing)
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/tQpe5tx6qcc?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up a Connection [2:20]

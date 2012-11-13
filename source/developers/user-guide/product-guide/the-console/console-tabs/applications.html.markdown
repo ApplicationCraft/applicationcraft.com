@@ -86,7 +86,7 @@ Click to refresh the Tree view.
 <table>
 <tr>
 <td width="126">
-**General**
+<b>General</b>
 
 </td>
 <td width="16">
@@ -154,7 +154,7 @@ Short URL
 <td width="16">
 </td>
 <td>
-A short URL that can be used if you require. You can also pass parameters to your app using a shortended Url. See [Passing Parameters into Apps](/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/)
+A short URL that can be used if you require. You can also pass parameters to your app using a shortended Url. See <a href="/developers/user-guide/product-guide/advanced-features/passing-parameters-into-apps/">Passing Parameters into Apps</a>.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ The QR Code for your app is shown here
 </tr>
 </table>
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/lZ-AAMuPVNA?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deploying Mobile Apps [1:18]
 
@@ -367,7 +367,7 @@ View any Workflow Assignments you have
 </tr>
 </table>
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/wrXV9Db7yhs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deleting App Data Instance [1:01]
 

@@ -6,16 +6,12 @@ full_width: true
 ---
 
 
-Application Craft provides sharing permissions for the following Objects:
+Application Craft provides sharing permissions for the following Objects
 
  - Apps
-
  - Resources
-
  - Themes
-
  - Connections
-
  - Queries
 
 To share an Object, select it from the tree view and then select the Sharing section on the right hand side. By default, most objects are not shared and so are only accessible by the Object's owner.
@@ -48,116 +44,116 @@ The following permissions types are standard but different AC objects have varyi
 
 <table>
 <tr>
-<td width="143">
-**Full**
+<td width="200">
+Full
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group is given the full set of permissions
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Use**
+<td width="200">
+Use
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group may use or access the Object
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Edit**
+<td width="200">
+Edit
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group may edit the Object (only used in the Apps Console)
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Administer**
+<td width="200">
+Administer
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group may make changes to the Object's properties and settings in the Console
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Clone**
+<td width="200">
+Clone
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group may Clone the app
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Create Instances**
+<td width="200">
+Create Instances
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group may submit data into the App
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Read Instances**
+<td width="200">
+Read Instances
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group can access App data and use the data for Reporting
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Update Instances**
+<td width="200">
+Update Instances
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group can update instances
 
 </td>
 </tr>
 <tr>
-<td width="143">
-**Delete Instances**
+<td width="200">
+Delete Instances
 
 </td>
 <td width="7">
 </td>
-<td width="685">
+<td>
 The User/Group can delete instances
 
 </td>
 </tr>
 </table>
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/hKftVYFAL8M?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Creating a new App [1:08]
 

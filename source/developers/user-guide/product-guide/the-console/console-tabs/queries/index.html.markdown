@@ -170,7 +170,7 @@ Generate a Data URL for your query. For use with Reporting - coming soon
 
  - [Database Handling with SSJ](/developers/user-guide/scripting-apis/server-side-scripting-overview/database-handling-with-ssj)
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Jy5HgPdtvMY?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Integration Overview [4:51]
 

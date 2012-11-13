@@ -22,11 +22,9 @@ All other screens can be reached directly from the Tab Bar across the top of the
 
  - [Versions](/developers/user-guide/product-guide/the-console/versions)
 
-For detailed descriptions of the different Console windows see:
+For detailed descriptions of the different Console windows see [Console Tabs](/developers/user-guide/product-guide/the-console/console-tabs/)
 
-[Console Tabs](/developers/user-guide/product-guide/the-console/console-tabs/)
-
-Related Video:
+####Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/56jct5SJLIo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Logging into the Console [1:28]
 

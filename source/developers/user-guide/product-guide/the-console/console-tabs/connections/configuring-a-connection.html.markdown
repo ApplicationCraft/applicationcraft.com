@@ -225,6 +225,6 @@ Calls the Data Agent with the Connection Properties entered and informs you if s
 </tr>
 </table>
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/tQpe5tx6qcc?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up a Connection [2:20]

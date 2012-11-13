@@ -30,7 +30,7 @@ Objects can be deleted from the Public folder using the Delete button at the bot
 
 An object, once in the Public folder, can still only be accessed by a User if rights have been granted to that User or to a Group that the User is a member of.
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/56jct5SJLIo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Logging into the Console [1:28]
 

@@ -24,7 +24,7 @@ All new Themes will initially have the default Theme settings.
 
 Themes are edited within the App Designer.  See [Theme Management](/developers/user-guide/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage) for a detailed description of how Themes are edited and managed within AC.
 
-**Importing/Exporting Themes**
+##Importing/Exporting Themes
 
 You can also import/export themes between AC accounts. Be aware though that if you import a theme that already exists and you select the 'rewrite' option this can effect all other apps in your account that are using this Theme.
 

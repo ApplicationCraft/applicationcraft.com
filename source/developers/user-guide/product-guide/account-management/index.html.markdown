@@ -12,7 +12,7 @@ To manage your Application Craft account, your AC user requires 'Account Admin' 
 
 ![Acmanage](/img/docs/acmanage.png)
 
-**In This Section:**
+##In This Section
 
  - [Notifications](/developers/user-guide/product-guide/account-management/notifications)
 

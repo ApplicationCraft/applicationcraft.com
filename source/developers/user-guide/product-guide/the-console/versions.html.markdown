@@ -13,7 +13,7 @@ Application Craft allows you to manage versions of your apps.
 <table>
 <tr>
 <td width="71">
-**Open**
+<b>Open</b>
 
 </td>
 <td width="19">
@@ -25,7 +25,7 @@ will open that version of your app in the Designer
 </tr>
 <tr>
 <td width="71">
-**Revert**
+<b>Revert</b>
 
 </td>
 <td width="19">
@@ -37,7 +37,7 @@ will make the selected version your 'live' app
 </tr>
 </table>
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/UZr8PcKxE_c?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Time Saving Tips & Tricks [3:48]
 

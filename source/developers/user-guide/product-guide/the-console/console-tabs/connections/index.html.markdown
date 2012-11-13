@@ -14,7 +14,7 @@ Connections can also have permissions applied to restrict access. As you will se
 
 ![Connections\_screen](/img/docs/connections_screen.zoom48.png)
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/Jy5HgPdtvMY?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Integration Overview [4:51]
 

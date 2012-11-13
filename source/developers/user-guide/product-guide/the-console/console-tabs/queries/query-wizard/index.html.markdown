@@ -8,7 +8,7 @@ full_width: true
 
 The Query Wizard is the way a User defines a Query that is then available to use in Apps. What you are effectively doing is to build a SELECT statement with a JOIN option if more than one Connection is specified
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/N-sBju6KMFE?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Querying Apps [4:57]
 

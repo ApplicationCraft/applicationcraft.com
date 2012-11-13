@@ -28,7 +28,7 @@ Any fields that should be passed from the Data Source back to the App are know a
 
 There are several cases where you would use both in an App at the same time. The most obvious example is where you want to retrieve a set of fields (Output fields in our parlance) but only WHERE a specific condition applies, in which case the filter fields are used to filter the Output records.
 
-Related Video:
+##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/N-sBju6KMFE?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Querying Apps [4:57]
 
