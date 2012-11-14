@@ -64,10 +64,14 @@
     </section>
 
     <aside>
+      <section class="all-posts">
+        <h4><a href="/blog/all">all posts &raquo;</a></h4>
+      </section>
+
       <section class="latest-posts">
-        <h4>Latest posts</h4>
+        <h4>Latest posts...</h4>
         <ul>
-          <% blog.articles[0...5].each do |post| %>
+          <% blog.articles[0...8].each do |post| %>
             <li><%= link_to post.title, post %></li>
           <% end %>
         </ul>
