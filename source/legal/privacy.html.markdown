@@ -2,6 +2,7 @@
 title: Privacy Policy
 active_submenu: legal
 active_submenu_item: /legal/privacy
+meta_keywords: mobile application software, mobile application development tools, mobile development platform, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, windows, blackberry, smartphone, symbian, desktop
 ---
 
 This Privacy Policy is effective August 14, 2012.

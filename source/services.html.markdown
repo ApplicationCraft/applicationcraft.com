@@ -2,6 +2,7 @@
 title: Application Craft Services
 active_submenu: services
 active_submenu_item: /services#toc_0
+meta_keywords: services, mobile application development tools, android, html5, iphone, ios, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, html 5, ipad, windows, blackberry, smartphone, symbian, desktop
 ---
 
 ## App Development
