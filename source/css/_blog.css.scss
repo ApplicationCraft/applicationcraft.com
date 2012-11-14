@@ -42,7 +42,7 @@ body.blog {
     margin: 10px 0 0 25px;
     width: 210px;
 
-    @include apply-to(less-than, ipad-landscape) {
+    @include apply-to(less-than, ipad-portrait) {
       display: none;
     }
 

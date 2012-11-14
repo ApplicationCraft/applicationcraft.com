@@ -114,11 +114,24 @@ body.home #price-banner {
       }
 
       &.clearfix {
-        padding-top: 15px;
+        @include apply-to(more-than, ipad-portrait) {
+          padding-top: 15px;
+        }
 
         .video-thumb {
           float: left;
           margin-left: 25px;
+
+          @include apply-to(more-than, iphone-landscape) {
+            margin-left: 98px;
+          }
+          @include apply-to(more-than, ipad-portrait) {
+            display: none;
+          }
+          @include apply-to(more-than, ipad-landscape) {
+            display: block;
+            margin-left: 25px;
+          }
 
           + a {
             text-align: left;
@@ -126,6 +139,13 @@ body.home #price-banner {
             display: block;
             padding: 20px 0 0 20px;
             width: 145px;
+
+            @include apply-to(more-than, ipad-portrait) {
+              padding: 1px 0 0 20px;
+            }
+            @include apply-to(more-than, ipad-landscape) {
+              padding: 20px 0 0 20px;
+            }
           }
         }
       }
