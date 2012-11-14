@@ -6,5 +6,5 @@ title: Application Craft in the Chrome Web Store
 
 ### [Click here](/) to find out more about Application Craft ...
 
-### Once you have signed up for your Application Craft account, you will not see this page again and you'll be logged straight into your account.
+### Once you've signed up for your Application Craft account, you will not see this page again and you'll be logged straight into your account.
 
