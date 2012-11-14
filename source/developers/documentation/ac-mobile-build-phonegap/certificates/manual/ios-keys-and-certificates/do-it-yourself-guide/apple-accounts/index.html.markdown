@@ -10,3 +10,4 @@ Whether you do it yourself or use our iOS Assist service, you will need to creat
 
 You can choose from 3 main Developer Programs. The one you are most likely to need is the iOS Developer Program.
 
+Now read how to create and [Apple Developer Account](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-developer-ac).

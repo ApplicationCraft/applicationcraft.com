@@ -1,5 +1,5 @@
 ---
-title: Manual Certificates Generation
+title: Manual Certificate Generation
 active_menu_item: developers
 class_name: developers
 full_width: true
