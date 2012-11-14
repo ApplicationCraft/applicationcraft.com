@@ -46,6 +46,12 @@ body.blog {
       display: none;
     }
 
+    .all-posts {
+      margin: 50px 0 62px 38px;
+      text-transform: uppercase;
+      font: 14px gotham_bookregular;
+    }
+
     .latest-posts {
       &:first-child h4 {
         margin-top: 100px;
@@ -69,6 +75,53 @@ body.blog {
 
     @include apply-to(more-than, ipad-portrait) {
       width: 740px;
+    }
+
+    &.all {
+      margin: 30px 0 50px;
+
+      h2 {
+        border-bottom: 1px solid #CCC;
+        margin: 0.83em 20px 30px;
+
+        @include apply-to(more-than, ipad-portrait) {
+          padding-left: 169px;
+          margin: 0.83em 0 30px;
+        }
+
+        a {
+          color: #3e3e3e;
+        }
+      }
+
+      article {
+        margin-bottom: 20px;
+        padding-bottom: 1px;
+        border: none;
+
+        h3 {
+          margin: 0;
+          font-size: 16px;
+        }
+
+        .meta {
+          @include apply-to(more-than, ipad-portrait) {
+            top: 2px;
+            width: 120px;
+          }
+
+          p.date {
+            text-align: left;
+            border-bottom: none;
+            font-size: inherit;
+            margin: 0;
+
+            @include apply-to(more-than, ipad-portrait) {
+              text-align: right;
+            }
+          }
+        }
+      }
     }
 
     > .pagination {

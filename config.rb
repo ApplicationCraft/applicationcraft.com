@@ -87,11 +87,13 @@ set :markdown, :autolink => true,
                :hard_wrap => true
 
 activate :blog do |blog|
-  blog.layout     = "blog"
-  blog.prefix     = "blog"
-  blog.permalink  = ":year/:month/:title.html"
-  blog.sources    = "articles/:year/:month/:title.html"
-  blog.paginate   = true
+  blog.layout             = "blog"
+  blog.prefix             = "blog"
+  blog.permalink          = ":year/:month/:title.html"
+  blog.sources            = "articles/:year/:month/:title.html"
+  blog.paginate           = true
+  blog.year_template      = "blog/year.html"
+  blog.month_template     = "blog/month.html"
 end
 
 activate :directory_indexes

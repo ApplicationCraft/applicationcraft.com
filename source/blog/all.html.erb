@@ -1,0 +1,59 @@
+---
+title: "Gettin' Crafty: A Blog written by Application Craft - the Visual IDE people"
+per_page: 4
+class_name: blog
+full_width: true
+---
+
+<header>
+  <div class="container">
+    <div>
+      <h1>Gettin' Crafty</h1>
+      <h2>A Blog written by Application Craft - the Visual IDE people</h2>
+    </div>
+  </div>
+</header>
+
+<div class="container clearfix">
+
+  <section class="posts all">
+
+    <% year, month = nil, nil %>
+    <% blog.articles.each do |article| %>
+
+      <% if year != article.date.year %>
+        <h2><%= link_to article.date.year, "/blog/#{article.date.year}" %></h2>
+      <% end %>
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <% if month != article.date.month %>
+              <%= link_to article.date.strftime('%B'), article %>
+            <% end %>
+          </p>
+        </section>
+
+        <h3><%= link_to article.title, article %></h3>
+      </article>
+
+      <% year, month = article.date.year, article.date.month %>
+    <% end %>
+  </section>
+
+  <aside>
+    <section class="all-posts">
+      <h4><a href="/blog/all">all posts &raquo;</a></h4>
+    </section>
+
+    <section class="latest-posts">
+      <h4>Latest posts...</h4>
+      <ul>
+        <% blog.articles[0...5].each do |post| %>
+          <li><%= link_to post.title, post %></li>
+        <% end %>
+      </ul>
+    </section>
+  </aside>
+
+</div>
