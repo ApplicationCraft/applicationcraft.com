@@ -12,8 +12,8 @@ StackOverflow is the best developer Q&A resource there is. Application Craft dev
 Please follow these rules when asking questions
 
  - only ask Javascript questions. Any AC usage questions are for [the Forum](https://getsatisfaction.com/application_craft).
- - **important**: use the **'ac'** tag at the bottom of your question so we can track it
+ - **important**: use the **ApplicationCraft** tag at the bottom of your question so we can track it
  - please follow [their guidelines when asking your question](http://stackoverflow.com/questions/ask/advice?).
  - be sure to vote on answers to questions so community members can earn badges and points
 
-<h2><a target="_blank" href="http://stackoverflow.com/">Go to StackOverflow &#9658;</a></h2>
+<h2><a target="_blank" href="http://stackoverflow.com/search?q=%22application+craft%22%2C+applicationcraft&submit=search">Go to StackOverflow &#9658;</a></h2>
