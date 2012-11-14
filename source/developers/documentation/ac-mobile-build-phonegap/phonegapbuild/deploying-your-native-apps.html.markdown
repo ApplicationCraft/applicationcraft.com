@@ -26,7 +26,7 @@ You can also double click the downloaded ipa file and that can also add it into 
 
 When you sync, the App will be transferred to your iOS device.
 
-Important: this will not work unless your device has been added to the iOS Provisioning Portal. Please refer to [Add Devices](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices) for more information.
+Important: this will not work unless your device has been added to the iOS Provisioning Portal. Please refer to [Add Devices](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices) for more information.
 
 **Android**
 

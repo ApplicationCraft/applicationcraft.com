@@ -8,7 +8,7 @@ full_width: true
 
 The final step before submitting the App is to upload the actual .ipa file to iTunesConnect. This cannot be done via the browser and requires a Mac running the Application Loader application.
 
-If you don't have a Mac, then don't worry, we can do this for you as a part of our [iOS Assist service](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/i-havent-got-a-mac) .
+If you don't have a Mac, then don't worry, we can do this for you as a part of our [iOS Assist service](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/i-havent-got-a-mac) .
 
 If you do have a Mac, then you can download the Application Loader application from the Manage your Apps section of iTunesConnect : [https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wa/jumpTo?page=manageApps](https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wa/jumpTo?page=manageApps)
 

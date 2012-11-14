@@ -6,11 +6,11 @@ full_width: true
 ---
 
 
-If you have been through the [Do It Yourself Guide](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/) or you have used Application Craft's [iOS Assist Service](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/i-havent-got-a-mac) , you will now end up with 2 key files
+If you have been through the [Do It Yourself Guide](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/) or you have used Application Craft's [iOS Assist Service](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/i-havent-got-a-mac) , you will now end up with 2 key files
 
- - a [P12 Certificate](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate) (.p12).
+ - a [P12 Certificate](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate) (.p12).
 
- - a [Mobile Provisioning Profile](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile) (.mobileprovision).
+ - a [Mobile Provisioning Profile](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile) (.mobileprovision).
 
 Be careful to use the correct files for development builds as opposed to distribution builds. Each type requires a different pair of files.
 

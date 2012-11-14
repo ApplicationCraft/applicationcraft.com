@@ -18,8 +18,8 @@ This chapter describes how all this is done.
 
 ## In This Section
 
- - [Debug Development Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/debug-development-certificates)
- - [Generating Codesigning Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/generating-codesigning-certici)
- - [Google Play Signup](/developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/google-play)
- - [Selling Android Apps](/developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/selling-android-apps)
- - [Publishing Android Apps on Play](/developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/publishing-android-apps-on-pla)
+ - [Debug Development Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/debug-development-certificates)
+ - [Generating Codesigning Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/generating-codesigning-certici)
+ - [Google Play Signup](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/google-play)
+ - [Selling Android Apps](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/selling-android-apps)
+ - [Publishing Android Apps on Play](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/publishing-android-apps-on-pla)

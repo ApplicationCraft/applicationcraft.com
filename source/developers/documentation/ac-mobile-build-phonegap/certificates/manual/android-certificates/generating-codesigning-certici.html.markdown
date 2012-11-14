@@ -8,7 +8,7 @@ full_width: true
 
 You should codesign your APK files if you want to distribute them properly via App Stores such as Google Play. To do this, you first need to generate a Private Key.
 
-If you would like assistance generating your keys, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) . We offer a service - [iOS Assist](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/i-havent-got-a-mac) - that is designed to take away the pain from this process. Luckily, compared to iOS, Android is somewhat less of a challenge and so you will need a lot less assistance, if any. The only part of the process which is a little painful is the key generation described in this section.
+If you would like assistance generating your keys, please contact [support@applicationcraft.com](mailto:support@applicationcraft.com) . We offer a service - [iOS Assist](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/i-havent-got-a-mac) - that is designed to take away the pain from this process. Luckily, compared to iOS, Android is somewhat less of a challenge and so you will need a lot less assistance, if any. The only part of the process which is a little painful is the key generation described in this section.
 
 ## Obtain a suitable private key
 

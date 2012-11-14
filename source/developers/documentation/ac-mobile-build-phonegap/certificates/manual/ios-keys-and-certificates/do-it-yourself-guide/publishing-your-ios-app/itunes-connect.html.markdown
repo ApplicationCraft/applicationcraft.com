@@ -54,5 +54,5 @@ This is where the guide stops as there are a lot of things you can enter within 
 
 ## Uploading the App Itself
 
-It is the very final stage but (annoyingly) it is not done from iTunes Connect. Please read the next [App Uploader](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/app-uploader) section for details.
+It is the very final stage but (annoyingly) it is not done from iTunes Connect. Please read the next [App Uploader](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/app-uploader) section for details.
 

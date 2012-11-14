@@ -10,5 +10,5 @@ If you are using [AC Mobile Build](/developers/documentation/ac-mobile-build-pho
 
 ## In This Section
 
- - [iOS Assist Service](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/i-havent-got-a-mac)
- - [Do It Yourself Guide](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/)
+ - [iOS Assist Service](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/i-havent-got-a-mac)
+ - [Do It Yourself Guide](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/)

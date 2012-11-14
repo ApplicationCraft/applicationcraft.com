@@ -61,5 +61,5 @@ For more details
 
 ## See Also
 
- - [iOS Keys and Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/)
+ - [iOS Keys and Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/)
 

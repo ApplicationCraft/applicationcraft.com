@@ -6,13 +6,13 @@ full_width: true
 ---
 
 
-If you have not yet created any Certificates or Provisioning Profiles, you will need to do so first. This is described in all its gory detail in the [iOS Keys and Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/) section. For those of you who don't want to deal with this, please contact AC Support and ask about our [iOS Assist Service](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/i-havent-got-a-mac) .
+If you have not yet created any Certificates or Provisioning Profiles, you will need to do so first. This is described in all its gory detail in the [iOS Keys and Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/) section. For those of you who don't want to deal with this, please contact AC Support and ask about our [iOS Assist Service](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/i-havent-got-a-mac) .
 
 You will need to have the following file(s) available
 
- - a [P12 Certificate](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate) (.p12) which is used for signing the App
+ - a [P12 Certificate](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate) (.p12) which is used for signing the App
 
- - a [Mobile Provisioning Profile](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile) (.mobileprovision) which is only needed for iOS builds
+ - a [Mobile Provisioning Profile](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile) (.mobileprovision) which is only needed for iOS builds
 
 Once you have your files ready, you should locate your App in the AC Console, the 'Mobile Build' button on the bottom pane and select [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) . You will see the following screen.
 
@@ -26,15 +26,15 @@ To build your app for testing purposes the default Debug Certificate should be u
 
 To build your app to deploy to the Google Play Store you need to sign your apps by adding your full certificate.
 
-See [Android Certificate](/developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/)
+See [Android Certificate](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/)
 
 **iOS  Certificate Signing**
 
-You need to upload both the P12 certificate file and then the Mobile Provisioning Profile by selecting Add Profile. When you upload the P12 Certificate, you will be asked to enter a password. This password must match the password you used when you exported the [P12 certificate as explained here](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate) .
+You need to upload both the P12 certificate file and then the Mobile Provisioning Profile by selecting Add Profile. When you upload the P12 Certificate, you will be asked to enter a password. This password must match the password you used when you exported the [P12 certificate as explained here](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate) .
 
 If you have already uploaded a Certificate then you may find it in the drop-down list.
 
-Click here for full details on [iOS Certificate and Provisioning Profiles](/developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/) .
+Click here for full details on [iOS Certificate and Provisioning Profiles](/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/) .
 
 ## Ready to Build
 

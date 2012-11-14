@@ -2360,17 +2360,19 @@ tree:
     - title: AC Certificate Generator
       url: /developers/documentation/ac-mobile-build-phonegap/certificates/wizard
       tree:
-        - title: iOS Certificate
-          url: /developers/documentation/ac-mobile-build-phonegap/certificates/wizard/certgen-ios
-        - title: Android Certificate
-          url: /developers/documentation/ac-mobile-build-phonegap/certificates/wizard/certgen-android          
-    - title: Manual Certificate Handliong
-      url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual     
-      - title: iOS Keys and Certificates
-        url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates
+      - title: iOS Certificate
+        url: /developers/documentation/ac-mobile-build-phonegap/certificates/wizard/certgen-ios
+      - title: Android Certificate
+        url: /developers/documentation/ac-mobile-build-phonegap/certificates/wizard/certgen-android
+
+    - title: Manual Certificates Generation
+      url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual
+      tree:
+      - old_url: /revisions/current/docs/user-guide/index.html?ios_keys_and_certificates.htm
+        title: iOS Keys and Certificates
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?i_havent_got_a_mac.htm',
-          title: iOS Assist Service, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/i-havent-got-a-mac}
+          title: iOS Assist Service, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/i-havent-got-a-mac}
         - old_url: /revisions/current/docs/user-guide/index.html?do_it_yourself_guide.htm
           title: Do It Yourself Guide
           tree:
@@ -2378,67 +2380,67 @@ tree:
             title: Apple Accounts
             tree:
             - {old_url: '/revisions/current/docs/user-guide/index.html?creating_an_apple_developer_ac.htm',
-              title: Creating an Apple Developer Account, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-developer-ac}
+              title: Creating an Apple Developer Account, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-developer-ac}
             - {old_url: '/revisions/current/docs/user-guide/index.html?creating_an_apple_enterprise_a.htm',
-              title: iOS Enterprise Program, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-enterprise-a}
+              title: iOS Enterprise Program, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-enterprise-a}
             - {old_url: '/revisions/current/docs/user-guide/index.html?ios_university_program.htm',
-              title: iOS University Program, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/ios-university-program}
-            url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts
+              title: iOS University Program, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/ios-university-program}
+            url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts
           - old_url: /revisions/current/docs/user-guide/index.html?setting_up_for_development.htm
             title: Setting up for development
             tree:
             - {old_url: '/revisions/current/docs/user-guide/index.html?sign_in2.htm',
-              title: Sign in, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/sign-in2}
+              title: Sign in, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/sign-in2}
             - {old_url: '/revisions/current/docs/user-guide/index.html?certificates.htm',
-              title: Create Development Certificate, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/certificates}
+              title: Create Development Certificate, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/certificates}
             - {old_url: '/revisions/current/docs/user-guide/index.html?generating_a_p12_certificate.htm',
-              title: Generating a P12 Certificate, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate}
+              title: Generating a P12 Certificate, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate}
             - {old_url: '/revisions/current/docs/user-guide/index.html?add_devices.htm',
-              title: Add Devices, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices}
+              title: Add Devices, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices}
             - {old_url: '/revisions/current/docs/user-guide/index.html?create_an_app_id.htm',
-              title: Create an App ID, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-an-app-id}
+              title: Create an App ID, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-an-app-id}
             - {old_url: '/revisions/current/docs/user-guide/index.html?create_a_provisioning_profile.htm',
-              title: Create a Provisioning Profile, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile}
-            url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development
+              title: Create a Provisioning Profile, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile}
+            url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development
           - old_url: /revisions/current/docs/user-guide/index.html?setting_up_for_distribution.htm
             title: Setting up for Distribution
             tree:
             - {old_url: '/revisions/current/docs/user-guide/index.html?distrbution_certificate_and_p1.htm',
-              title: Distribution Certificate and P12, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distrbution-certificate-and-p1}
+              title: Distribution Certificate and P12, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distrbution-certificate-and-p1}
             - {old_url: '/revisions/current/docs/user-guide/index.html?distribution_profile.htm',
-              title: Distribution Profile, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distribution-profile}
-            url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution
+              title: Distribution Profile, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distribution-profile}
+            url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution
           - {old_url: '/revisions/current/docs/user-guide/index.html?building_your_apps.htm',
-            title: Building your Apps, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/building-your-apps}
+            title: Building your Apps, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/building-your-apps}
           - old_url: /revisions/current/docs/user-guide/index.html?publishing_your_ios_app.htm
             title: Publishing your iOS App
             tree:
             - {old_url: '/revisions/current/docs/user-guide/index.html?itunes_connect.htm',
-              title: iTunes Connect, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/itunes-connect}
+              title: iTunes Connect, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/itunes-connect}
             - {old_url: '/revisions/current/docs/user-guide/index.html?app_uploader.htm',
-              title: Application Loader, url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/app-uploader}
-            url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app
-          url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates/do-it-yourself-guide
-        url: /developers/documentation/ac-mobile-build-phonegap/certificates/ios-keys-and-certificates
+              title: Application Loader, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/app-uploader}
+            url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app
+          url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide
+        url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates
       - old_url: /revisions/current/docs/user-guide/index.html?andriod_certificate.htm
         title: Android Certificates
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?debug_development_certificates.htm',
-          title: Debug Development Certificates, url: /developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/debug-development-certificates}
+          title: Debug Development Certificates, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/debug-development-certificates}
         - {old_url: '/revisions/current/docs/user-guide/index.html?generating_codesigning_certici.htm',
-          title: Generating Codesigning Certificates, url: /developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/generating-codesigning-certici}
+          title: Generating Codesigning Certificates, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/generating-codesigning-certici}
         - {old_url: '/revisions/current/docs/user-guide/index.html?google_play.htm',
-          title: Google Play Signup, url: /developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/google-play}
+          title: Google Play Signup, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/google-play}
         - {old_url: '/revisions/current/docs/user-guide/index.html?selling_android_apps.htm',
-          title: Selling Android Apps, url: /developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/selling-android-apps}
+          title: Selling Android Apps, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/selling-android-apps}
         - {old_url: '/revisions/current/docs/user-guide/index.html?publishing_android_apps_on_pla.htm',
-          title: Publishing Android Apps on Play, url: /developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates/publishing-android-apps-on-pla}
-        url: /developers/documentation/ac-mobile-build-phonegap/certificates/android-certificates
-      url: /developers/documentation/ac-mobile-build-phonegap/certificates
+          title: Publishing Android Apps on Play, url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/publishing-android-apps-on-pla}
+        url: /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates
+    url: /developers/documentation/ac-mobile-build-phonegap/certificates
   - old_url: /revisions/current/docs/user-guide/index.html?application_craft_build.htm
     title: AC Mobile Build
     tree:
-    - {old_url: '/revisions/current/docs/user-guide/index.html?ac_apps.htm', 
+    - {old_url: '/revisions/current/docs/user-guide/index.html?ac_apps.htm',
       title: Apps developed in Application Craft, url: /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-apps}
     - {old_url: '/revisions/current/docs/user-guide/index.html?external_html5cssjs_apps.htm',
       title: Apps developed outside Application Craft, url: /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps}
