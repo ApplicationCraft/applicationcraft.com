@@ -9,7 +9,7 @@ full_width: true
 <table>
 <tr>
 <td width="182">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="20">
@@ -253,6 +253,16 @@ String Table
 </tr>
 <tr>
 <td width="182">
+oAuth
+</td>
+<td width="20">
+</td>
+<td width="740">
+  oAuth Providers - Where you register your App Key and App Secret keys for your chosen service. See <a href="/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret">App Key and App Secret</a>
+</td>
+</tr>
+<tr>
+<td width="182">
 </td>
 <td width="20">
 </td>
@@ -261,7 +271,7 @@ String Table
 </tr>
 <tr>
 <td width="182">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="20">
@@ -291,7 +301,7 @@ This indicates the number of Views used within the App. To add or remove Views, 
 </tr>
 <tr>
 <td width="182">
-<a id="advanced"> </a> **Advanced**
+<a id="advanced"> </a> <b>Advanced</b>
 
 </td>
 <td width="20">
@@ -417,7 +427,7 @@ Allows you to add code between the head tags of the app's index.html page.
 </tr>
 <tr>
 <td width="182">
-<a id="phonegap"> </a> **Phonegap**
+<a id="phonegap"> </a> <b>Phonegap</b>
 
 </td>
 <td width="20">
@@ -459,7 +469,7 @@ Available plugins can be enabled and used within apps built using
 </tr>
 <tr>
 <td width="182">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
 </td>
 <td width="20">
@@ -575,7 +585,7 @@ Set the color to highlight any mandatory fields that are not completed on submis
 </tr>
 <tr>
 <td width="182">
-<a id="custom"> </a> **Custom**
+<a id="custom"> </a> <b>Custom</b>
 
 </td>
 <td width="20">
@@ -597,7 +607,7 @@ Select to render any charts using Flash or Javascript
 </tr>
 <tr>
 <td width="182">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="20">

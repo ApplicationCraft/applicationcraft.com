@@ -42,7 +42,7 @@ When you add a new Resource by clicking on the New Object icon beneath the tree 
 
  - Empty - Create an empty Data List file. See: [Creating a Data List](/developers/documentation/product-guide/advanced-features/data-lists-management/creating-a-data-list)
 
-![lists-upload](/img/docs/lists-upload.jpeg)
+![lists-upload](/img/docs/lists-upload.zoom90.png)
 
 ## Properties & Settings
 

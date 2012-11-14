@@ -12,15 +12,17 @@ Zingchart can be configured to show different chart types and optimised for Mobi
 
 <table>
 <tr>
-<th style="vertical-align:top; width:138px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="137">
+<a id="layout"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:782px; background-color:#ffffff;">
-</th>
+</td>
+<td width="23">
+</td>
+<td width="782">
+</td>
 </tr>
+
+
 <tr>
 <td width="138">
 Widget Class
@@ -83,17 +85,20 @@ Full Settings
 </tr>
 <tr>
 <td width="138">
+Hide Context Menu
 </td>
 <td width="21">
 </td>
 <td width="782">
+  True/False(default). Set to True to hide the context menu for Native Apps.
+
 </td>
 </tr>
 </table>
 <table>
 <tr>
 <td width="137">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="23">
@@ -103,7 +108,7 @@ Full Settings
 </tr>
 <tr>
 <td width="137">
-## X
+X
 
 </td>
 <td width="23">
@@ -185,19 +190,12 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="137">
-</td>
-<td width="23">
-</td>
-<td width="782">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
 <td width="135">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="25">
@@ -265,7 +263,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="135">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="25">
@@ -383,6 +381,18 @@ Reset Filter
 </tr>
 <tr>
 <td width="135">
+Drill Type
+
+</td>
+<td width="25">
+</td>
+<td width="782">
+  This indicates how a Widget should behave when it is clicked on and results in a Drill Down operation. See <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-type">Drill Type</a>.
+
+</td>
+</tr>
+<tr>
+<td width="135">
 Auto Load
 
 </td>
@@ -397,7 +407,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="150">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="10">

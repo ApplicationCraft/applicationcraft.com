@@ -21,29 +21,12 @@ Notifiers are used from client API functions. Currently, the [notify()](/develop
 ## Email Notifier
 
  - Notifier ID - this is the internal unique ID of the notifier. You will need this when referring to it from the [notify()](/developers/documentation/scripting-apis/client-api/workflow-functions/notify) workflow function.
-
  - Notifier Name - this is the friendly name you assign to the Notifier
-
  - Host - the URL of the SMTP server. To specify a port, add it after the url, for example smtp.gmail.com:465
-
  - Security - TLS or SSL security as specified by your SMTP server
-
  - Login / Password - authentication details on the SMTP server
+ - Send Email - Allows you to enter an email address to test your settings
 
-<table>
-<tr>
-<td width="96">
-  !<a href="/img/docs/sendmail.png">sendmail</a>
-
-</td>
-<td width="20">
-</td>
-<td width="550">
-Allows you to enter an email address to test your settings
-
-</td>
-</tr>
-</table>
 
 ## See Also
 

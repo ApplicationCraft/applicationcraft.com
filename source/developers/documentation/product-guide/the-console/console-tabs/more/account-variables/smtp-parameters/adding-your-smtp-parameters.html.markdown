@@ -64,7 +64,7 @@ Select here for SSL/TLS encrypted or leave blank for non-encrypted connection
 <table>
 <tr>
 <td width="96">
-  !<a href="/img/docs/sendmail.png">sendmail</a>
+  <strong>Send Email</strong>
 
 </td>
 <td width="20">

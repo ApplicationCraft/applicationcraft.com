@@ -21,7 +21,7 @@ There are 2 types of users:
 <td width="667">
   This refers to the number of developer users in your account and can be granted <a href="/developers/documentation/product-guide/the-console/console-tabs/more/users-groups/users#rights">rights</a> to be able to access specific areas in your account.
 
-Additional developer users can also be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](/developers/documentation/product-guide/account-management/upgrade-subscription)
+Additional developer users can also be added to your account at any time by Upgrading your account. See <a href="/developers/documentation/product-guide/account-management/upgrade-subscription">Upgrade Subscriptions</a>
 
 If you wish to reduce (temporarily) the number of developers in your account, but may want to upgrade again in future (or allow a developer to return to work in your account), you can disable developer users so their work/apps are not deleted but just not available.
 
@@ -134,7 +134,7 @@ Check to disable a developer user. Disabling a user will remove their Access rig
 </tr>
 <tr>
 <td width="149">
-<a id="rights"> </a> **Rights**
+<a id="rights"> </a><b>Rights</b>
 
 </td>
 <td width="19">
