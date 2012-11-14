@@ -54,21 +54,23 @@ $ ->
 
     $.get 'https://api-ssl.bitly.com/v3/shorten', options, (data)->
       url = data.data.url if data.data.url
-      txt = "Take a look at ApplicationCraft. It's very like Visual Basic in the Cloud."
+
+      title = "Take a look at ApplicationCraft. It's visual development in the cloud - for everyone."
+      summary = "Build amazing mobile and desktop applications with our web based, drag-and-drop IDE."
 
       form.fadeOut ->
         $(this).parent().append '<div id="sharethis-referral">'
         $(this).parent().parent().find('h3').text 'Now simply click an icon to share...'
         $(this).parent().after("<div id='referral-url'>Or copy and paste this URL anywhere you wish: <code>#{url}</code></div>")
 
-        for serv in ["email", "facebook","twitter","linkedin"]
+        for serv in ["email", "facebook", "twitter", "linkedin"]
           stWidget.addEntry
             service: serv
             element: document.getElementById('sharethis-referral')
             url: url
-            title: if serv == 'twitter' then txt else txt
+            title: title
             type: "large"
-            text: txt
-            summary: txt
+            summary: summary
+            image: 'http://localhost:4567/img/logo.gif'
 
     false

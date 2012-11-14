@@ -52,7 +52,7 @@ full_width: true
       <p>We use your email address to track anyone that signs up or buys. You can then see how your referrals are doing from your Application Craft account. </p>
 
       <h2 id="toc_1">How you can track your referrals</h2>
-      <p>We will shortly be adding a simple feature to your AC Console so you can see your referral activity and who has signed up. Even though we have not added this reporting feature yet (coming in January, 2013) we are already tracking all your referrals properly.</p>      
+      <p>We will shortly be adding a simple feature to your AC Console so you can see your referral activity and who has signed up. Even though we have not added this reporting feature yet (coming in January, 2013) we are already tracking all your referrals properly.</p>
     </div>
     <div>
 
@@ -83,11 +83,13 @@ full_width: true
 </div>
 
 <% content_for :head do %>
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({
-      publisher: "de0267ba-7463-4214-8776-a3c6551e61e2", 
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">
+    stLight.options({
+      publisher: "de0267ba-7463-4214-8776-a3c6551e61e2",
       onhover:true,
       headerTitle:'AC Referral Program',
-    });</script>
+    });
+  </script>
 <% end %>
