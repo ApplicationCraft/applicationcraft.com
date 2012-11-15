@@ -22,7 +22,7 @@ $ ->
     $.cookie 'ac_referral', value,
       expires: 365
       path: '/'
-      # domain: '.applicationcraft.com'
+      domain: '.applicationcraft.com'
 
 
 
