@@ -159,7 +159,7 @@ An Administrator in the Apple Developer Portal (developer.apple.com) can revoke 
 <td width="20">
 </td>
 <td width="595">
-  When you configure your Provisioning Profile in the Apple Developer Portal, you need to specify an App ID. This must match the App ID specified within your Application Craft App (if it is an AC App) or the App ID specified within your config.xml (if it is developed outside AC). Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile">this section</a> for more information.
+  When you configure your Provisioning Profile in the Apple Developer Portal, you need to specify an <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-an-app-id">App ID</a>. This must match the Application ID <a href="/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features">specified within your Application Craft App</a> (if it is an AC App) or the App ID <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps">specified within your config.xml</a> (if it is developed outside AC). Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile">this section</a> for more information.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ An Administrator in the Apple Developer Portal (developer.apple.com) can revoke 
 <td width="20">
 </td>
 <td width="595">
-  iOS requires a Mobile Provisioning Profile. This is tied to a certificate and so if the certificate you used is not the one referred to by the Provisioning Profile you will get an error. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile">this section</a> on how to generate your Certificates correctly.
+  iOS requires a <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile">Mobile Provisioning Profile</a>. This is tied to a certificate and so if the certificate you used is not the one referred to by the Provisioning Profile you will get an error. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile">this section</a> on how to generate your Certificates correctly.
 
 </td>
 </tr>
