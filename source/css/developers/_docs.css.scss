@@ -1,7 +1,52 @@
+&.full-screen {
+  > .main, > .sub, > #price-banner, > footer {
+    display: none;
+  }
+
+  > .container {
+    width: 100%;
+
+    header {
+      margin-left: 365px;
+
+      #breadcrumbs {
+        margin-bottom: 30px;
+      }
+    }
+
+    aside {
+      margin: 60px 20px 50px 25px;
+      position: absolute;
+      top: 26px;
+    }
+
+    article {
+      margin-left: 340px;
+      border-left: 3px solid #CCC;
+      padding-left: 30px;
+    }
+  }
+}
+
 .docs {
+
   header {
     margin: 20px 0 0 90px;
     overflow: hidden;
+
+    #breadcrumbs {
+      float: left;
+      width: 835px;
+    }
+
+    #full-screen {
+      float: left;
+      background: image-url('fullscreen.png') no-repeat;
+      width: 37px;
+      height: 35px;
+      text-indent: -9999px;
+      cursor: pointer;
+    }
   }
 
   article {
