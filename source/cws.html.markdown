@@ -1,5 +1,5 @@
 ---
-title: Application Craft in the Chrome Web Store
+title: Application Craft on the Chrome Web Store
 ---
 
 ![Chrome Web Store](/img/ac-site-cws-logo.png)

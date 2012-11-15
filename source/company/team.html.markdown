@@ -1,5 +1,5 @@
 ---
-title: The Application Craft Team
+title: Our Team
 active_submenu: company
 active_submenu_item: /company/team
 ---

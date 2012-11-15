@@ -1,5 +1,5 @@
 ---
-title: "Gettin' Crafty: A Blog written by Application Craft - the Visual IDE people"
+title: "Gettin' Crafty: Application Development articles and news"
 class_name: blog
 full_width: true
 ---
@@ -18,7 +18,7 @@ full_width: true
   <section class="posts all">
 
     <% year, month = nil, nil %>
-    <% blog.articles.each do |article| %>
+    <% articles.each do |article| %>
 
       <% if year != article.date.year %>
         <h2><%= article.date.year %></h2>
