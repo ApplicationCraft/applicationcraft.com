@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-This section list only Events specific to the Advanced Map Widget. For the common Events, please refer to the [Events](/general-events) section.
+This section list only Events specific to the Advanced Map Widget. For the common Events, please refer to the [Events](/developers/documentation/product-guide/widget-properties-events/events/) section.
 
 ##Advanced Map Events
 

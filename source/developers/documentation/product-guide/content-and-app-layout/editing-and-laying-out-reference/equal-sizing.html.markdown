@@ -10,7 +10,7 @@ The Layout Menu Bar contains three buttons to help you make the dimensions of se
 
 <table>
 <tr>
-<td width="126">
+<td width="160">
 Button
 
 </td>
@@ -22,8 +22,8 @@ Action
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/size_horizontal.png">size\_horizontal</a>
+<td width="160">
+  <img src="/img/docs/size_horizontal.png">size horizontal</img>
 
 </td>
 <td width="16">
@@ -34,8 +34,8 @@ Selected Widgets will have the same width
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/size_height.png">Size\_height</a>
+<td width="160">
+  <img src="/img/docs/size_height.png">Size height</img>
 
 </td>
 <td width="16">
@@ -46,8 +46,8 @@ Selected Widgets will have the same height
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/size_equal.png">Size\_equal</a>
+<td width="160">
+  <img src="/img/docs/size_equal.png">Size equal</img>
 
 </td>
 <td width="16">

@@ -8,7 +8,7 @@ full_width: true
 
 This is a small point but when you are working with complex layouts, it often helps to be able to see all container outlines properly. You can toggle the outlines on and off in the App button bar section at the top of the window.
 
-![lyt-outlines](/img/docs/lyt-outlines.jpg)
+![lyt-outlines](/img/docs/lyt-outlines.png)
 
 ## Related Videos
 
