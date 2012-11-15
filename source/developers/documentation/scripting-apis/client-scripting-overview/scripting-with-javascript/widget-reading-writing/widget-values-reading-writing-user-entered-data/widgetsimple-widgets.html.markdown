@@ -27,12 +27,11 @@ These are Widgets that capture a single field of data.
 Use app.getValue(WidgetName) to read the contents of any of these widgets
 
     var firstName = app.getValue("txtFirstName");
+    
+**Writing Values** - use app.setValue(WidgetName, Value) to write data to a widget    
+    
     var firstName = app.setValue("txtFirstName", 'Michael Caine');
      
-     
-   
-
-**Writing Values** - use app.setValue(WidgetName, Value) to write data to a widget
 
 ## See Also
 

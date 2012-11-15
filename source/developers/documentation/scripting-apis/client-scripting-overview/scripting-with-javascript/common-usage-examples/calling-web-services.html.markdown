@@ -18,7 +18,6 @@ This chapter shows all of these approaches being used. If you want to know how t
 
 ## See Also
 
-[Extending Application Craft](/developers/documentation/extending-ac/)
-
-[Widget Extensions](/developers/documentation/extending-ac/adding-your-own-widgets/)
+- [Extending Application Craft](/developers/documentation/extending-ac/)
+- [Widget Extensions](/developers/documentation/extending-ac/adding-your-own-widgets/)
 

@@ -79,8 +79,11 @@ You can write Javascript that builds or stores this data in an array variable an
         // Finally, repopulate the Listbox Widget with new data
         app.setData("listBox1", data);
     }
+    
+To empty a Listbox of all items and values, you would use the following code    
+    
     app.setData("listBox1", { rows : [] });
    
 
-To empty a Listbox of all items and values, you would use the following code
+
 

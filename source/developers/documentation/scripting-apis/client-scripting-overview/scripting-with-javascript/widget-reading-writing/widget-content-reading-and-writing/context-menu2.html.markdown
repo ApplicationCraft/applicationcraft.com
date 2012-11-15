@@ -15,7 +15,8 @@ The following object is used
             ['Green', 'value2'],
             ['Blue', 'value3']
            ] );
-     
+## Example  
+
     function handler_contextMenu_onPreShow(){
         app.setData('contextMenu',  [
             ['Red', 'value'],
@@ -24,5 +25,5 @@ The following object is used
            ] );
    
 
-## Example
+
 

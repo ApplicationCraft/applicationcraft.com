@@ -23,6 +23,5 @@ Saving individual values is done with the following functions
 and saving/restoring entire App instances is done with these
 
  - saveGlobalState()
-
  - restoreGlobalState()
 

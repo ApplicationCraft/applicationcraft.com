@@ -57,6 +57,10 @@ $ ->
       images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
 
 
+    # Set syntax highlighting language to javascript by default.
+    $('body.developers .docs article pre > code').addClass 'lang-javascript'
+
+
     # Handle full screen button
     if $.cookie('full-screen-docs')
       $('body').addClass 'full-screen'
