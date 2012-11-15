@@ -48,7 +48,7 @@ This should be self-explanatory.
 <td width="20">
 </td>
 <td width="595">
-  Certificates are fiddly little things and you will need to be absolutely sure you have gone through the correct process to generate them. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/">this section</a> on how to generate your Certificates correctly.
+  Certificates are fiddly little things and you will need to be absolutely sure you have gone through the correct process to generate them. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/">this section</a> on how to generate your Certificates correctly.
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ This should be self-explanatory.
 <td width="20">
 </td>
 <td width="595">
-Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the FILE password, not the keychain password. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/">this section</a> on how to generate your Certificates correctly.
+Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the FILE password, not the keychain password. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/">this section</a> on how to generate your Certificates correctly.
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Certificates are generated with a password. When you do this, it is important th
 <td width="20">
 </td>
 <td width="595">
-  Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the KEYCHAIN password, not the File password. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/">this section</a> on how to generate your Certificates correctly..
+  Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Note that the password referred to is the KEYCHAIN password, not the File password. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/">this section</a> on how to generate your Certificates correctly..
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Should be self-explanatory.
 <td width="20">
 </td>
 <td width="595">
-  Certificates are fiddly little things and you will need to be absolutely sure you have gone through the correct process to generate them. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distribution-profile">this section</a> on how to generate your Certificates correctly.
+  Certificates are fiddly little things and you will need to be absolutely sure you have gone through the correct process to generate them. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/">this section</a> on how to generate your Certificates correctly.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Should be self-explanatory.
 <td width="20">
 </td>
 <td width="595">
-  Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/">this section</a> on how to generate your Certificates correctly.
+  Certificates are generated with a password. When you do this, it is important that you note the exact password used at the time. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/">this section</a> on how to generate your Certificates correctly.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ An Administrator in the Apple Developer Portal (developer.apple.com) can revoke 
 <td width="20">
 </td>
 <td width="595">
-  It looks like you have uploaded the wrong type of file. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/">this section</a> for help on Provisioning Profiles and upload again.
+  It looks like you have uploaded the wrong type of file. Please refer to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile">this section</a> for help on Provisioning Profiles and upload again.
 
 </td>
 </tr>
