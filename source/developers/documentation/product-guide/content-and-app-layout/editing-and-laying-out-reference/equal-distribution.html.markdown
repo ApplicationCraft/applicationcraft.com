@@ -10,7 +10,7 @@ The Layout Menu Bar contains six buttons to help you distribute the space betwee
 
 <table>
 <tr>
-<td width="126">
+<td width="160">
 Button
 
 </td>
@@ -22,8 +22,8 @@ Action
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/distribution_vertical.png">Distribution\_vertical</a>
+<td width="160">
+  <img src="/img/docs/distribution_vertical.png">Distribution\_vertical</img>
 
 </td>
 <td width="16">
@@ -34,8 +34,8 @@ The top edges of the selected objects will be repositioned such that they are an
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/distribution_vertical2.png">Distribution\_vertical2</a>
+<td width="160">
+  <img src="/img/docs/distribution_vertical2.png">Distribution\_vertical2</img>
 
 </td>
 <td width="16">
@@ -46,8 +46,8 @@ The centers of the selected objects will be repositioned such that they are an e
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/distribution_vertical3.png">Distribution\_vertical3</a>
+<td width="160">
+  <img src="/img/docs/distribution_vertical3.png">Distribution\_vertical3</img>
 
 </td>
 <td width="16">
@@ -58,8 +58,8 @@ The bottom edges of the selected objects will be repositioned such that they are
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/distribution_horizontal.png">Distribution\_horizontal</a>
+<td width="160">
+  <img src="/img/docs/distribution_horizontal.png">Distribution\_horizontal</img>
 
 </td>
 <td width="16">
@@ -70,8 +70,8 @@ The left edges of the selected objects will be repositioned such that they are a
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/distribution_horizontal2.png">Distribution\_horizontal2</a>
+<td width="160">
+  <img src="/img/docs/distribution_horizontal2.png">Distribution\_horizontal2</img>
 
 </td>
 <td width="16">
@@ -82,8 +82,8 @@ The centers of the selected objects will be repositioned such that they are an e
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/distribution_horizontal3.png">Distribution\_horizontal3</a>
+<td width="160">
+  <img src="/img/docs/distribution_horizontal3.png">Distribution\_horizontal3</img>
 
 </td>
 <td width="16">

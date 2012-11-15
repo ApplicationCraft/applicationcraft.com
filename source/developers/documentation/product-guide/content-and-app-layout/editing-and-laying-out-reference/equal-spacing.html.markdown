@@ -10,7 +10,7 @@ The Layout Menu Bar contains two buttons that place an equal amount of empty spa
 
 <table>
 <tr>
-<td width="126">
+<td width="150">
 Button
 
 </td>
@@ -22,8 +22,8 @@ Action
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/spacing_horizontal.png">Spacing\_horizontal</a>
+<td width="150">
+  <img src="/img/docs/spacing_horizontal.png">Spacing horizontal</img>
 
 </td>
 <td width="16">
@@ -34,8 +34,8 @@ Selected Widgets will have the same horizontal spacing
 </td>
 </tr>
 <tr>
-<td width="126">
-  !<a href="/img/docs/spacing_vertical.png">Spacing\_vertical</a>
+<td width="150">
+ <img src="/img/docs/spacing_vertical.png">Spacing vertical</img>
 
 </td>
 <td width="16">
