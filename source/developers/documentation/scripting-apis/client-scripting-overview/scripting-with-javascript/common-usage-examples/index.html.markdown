@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Here are some common uses for scripting. Please be sure to our [Learning Center](http://www.applicationcraft.com/learning-center#Coding) on the web site.
+Here are some common uses for scripting. Please be sure to check out our [Training Videos](http://www.applicationcraft.com/developers/training-videos/client-js/) on the web site.
 
 ## In This Section
 
