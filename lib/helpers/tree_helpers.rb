@@ -1,12 +1,39 @@
 module TreeHelpers
 
-  def tree_for(id, options = {})
-    data = YAML::load(File.read("data/#{id}.yml"))
-    raise "Top level 'tree' element missing from data/#{id}.yml" unless data['tree']
+  def documentation_tree
+    dir = 'source/developers/documentation'
+    tree_file = "#{root}/tree.yml"
 
-    content_tag :aside, :class => "tree" do
-      generate_tree_for data['tree']
+    # Load the tree from the tree.yml file if it exists.
+    if File.exists?(tree_file)
+      tree = YAML::load(File.read(tree_file))
+
+    # else we scan the directory contents
+    else
+      content_tag :ol do
+        Dir.new(dir).each do |x|
+          next if x == '.' || x == '..'
+
+          file = "#{dir}/#{x}"
+          if Dir.exists?(file)
+
+          else
+            p path = sitemap.file_to_path(file)
+            p resource = sitemap.find_resource_by_path(path).class
+
+            content_tag :li, :class => "nofade" do
+              content_tag :a, :href => resource.url, :class => current_page?(resource.url) ? 'active' : '' do
+                resource.data.title
+              end
+            end
+          end
+        end
+      end
     end
+
+    # content_tag :aside, :class => "tree" do
+    #   generate_tree_for data['tree']
+    # end
   end
 
   def breadcrumbs
@@ -27,6 +54,12 @@ module TreeHelpers
 
 
   private
+
+    def tree_for(file)
+      content_tag :ol do
+
+      end
+    end
 
     def generate_tree_for(data)
       content_tag :ol do

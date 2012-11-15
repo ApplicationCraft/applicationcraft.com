@@ -1,0 +1,15 @@
+- old_url: product_guide.htm
+  url: product-guide
+  title: Product Guide
+
+- old_url: scripting__apis.htm
+  url: scripting-apis
+  title: 'Scripting & APIs'
+
+- old_url: phonegap__native_apps.htm
+  url: ac-mobile-build-phonegap
+  title: 'AC Mobile Build & Phonegap'
+
+- old_url: developer_guide.htm
+  url: extending-ac
+  title: Extending AC
