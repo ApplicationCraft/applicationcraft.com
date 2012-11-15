@@ -23,7 +23,7 @@ Auto
 <td width="19">
 </td>
 <td width="765">
-Pages will be automatically rendered and if the time to transition was \>1500ms, future transitions will use 'Pre Rendering' and an hourglass will be displayed. If time to transition was \<1500ms, future transitions will use 'Post Rendering'
+Pages will be automatically rendered and if the time to transition was >1500ms, future transitions will use 'Pre Rendering' and an hourglass will be displayed. If time to transition was <1500ms, future transitions will use 'Post Rendering'
 
 </td>
 </tr>

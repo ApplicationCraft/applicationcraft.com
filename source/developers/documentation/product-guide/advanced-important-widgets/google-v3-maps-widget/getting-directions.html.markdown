@@ -25,9 +25,6 @@ Note that the returned directions are presented via a callback function.
     }
    
 
-**getDirections**
-
-**getDirections**
 
 The second [getDirections()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections) call above, results in the callback function being passed a data object containing the directions. You can explore this using the debugger or in the [Google documentation](http://code.google.com/apis/maps/documentation/directions/) (look for Directions Responses section).
 
