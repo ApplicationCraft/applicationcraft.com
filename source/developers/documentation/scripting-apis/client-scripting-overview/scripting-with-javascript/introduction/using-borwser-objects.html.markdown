@@ -15,10 +15,7 @@ The following example uses the window object to open a new browser window of a s
 The following example uses the math object to generate a random integer between 0 and 10)
 
     Math.floor(Math.random()*10)
-   
-
-
-
+ 
 Take a look at the Javascript Kit site to find out more about available objects.
 
 [http://www.javascriptkit.com/jsref/](http://www.javascriptkit.com/jsref/)
