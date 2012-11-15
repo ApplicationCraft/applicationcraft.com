@@ -33,15 +33,17 @@ In this case, your App gets a default App ID, unless you override this in the Ph
 The default App ID will be
 
     com.applicationcraft.app<xxxxxxxxxxxxxxxxx>
-    com.applicationcraft.app<xxxxxxxxxxxxxxxxx>
-    com.applicationcraft.*
-    com.yourdomain.yoursuffix
-    id = "com.yourdomain.yoursuffix"
-   
 
 where \<xxxxxxxxxxxxxxx\> is the ID of your App as can be seen in the AC Console with your App selected. The Bundle Identifier you specify in the Apple Developer Portal can then be one of the following
 
+    com.applicationcraft.app<xxxxxxxxxxxxxxxxx>
+    com.applicationcraft.*
+
+
 If you override this, typical with something along the lines of
+
+    com.yourdomain.yoursuffix
+   
 
 then you should specify the same App ID in your Bundle Identifier.
 
@@ -49,5 +51,8 @@ then you should specify the same App ID in your Bundle Identifier.
 
 In this case, you specify the App ID in your config.xml file
 
+    id = "com.yourdomain.yoursuffix"
+    
 and you should specify the same App ID in your Bundle Identifier.
+
 
