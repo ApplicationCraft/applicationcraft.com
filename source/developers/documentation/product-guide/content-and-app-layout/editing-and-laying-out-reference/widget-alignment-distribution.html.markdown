@@ -23,7 +23,7 @@ Action
 </tr>
 <tr>
 <td width="126">
-  !<a href="/img/docs/left_align.png">Left\_align</a>
+  <img src="/img/docs/left_align.png">Left align</img>
 
 </td>
 <td width="16">
@@ -35,7 +35,7 @@ Aligns the left edges of all selected Widgets without adjusting the vertical pos
 </tr>
 <tr>
 <td width="126">
-  !<a href="/img/docs/right_align.png">Right\_align</a>
+  <img src="/img/docs/right_align.png">Right align</img>
 
 </td>
 <td width="16">
@@ -47,7 +47,7 @@ Aligns the right edges of all selected Widgets without adjusting the vertical po
 </tr>
 <tr>
 <td width="126">
-  !<a href="/img/docs/centre_align.png">Centre\_align</a>
+  <img src="/img/docs/centre_align.png">Centre align</img>
 
 </td>
 <td width="16">
@@ -59,7 +59,7 @@ Aligns the selected Widgets above one another on their centers
 </tr>
 <tr>
 <td width="126">
-  !<a href="/img/docs/top_align.png">Top\_align</a>
+  <img src="/img/docs/top_align.png">Top align</img>
 
 </td>
 <td width="16">
@@ -71,7 +71,7 @@ Aligns the top edges of selected Widgets without adjusting the horizontal positi
 </tr>
 <tr>
 <td width="126">
-  !<a href="/img/docs/bottom_align.png">Bottom\_align</a>
+  <img src="/img/docs/bottom_align.png">Bottom align</img>
 
 </td>
 <td width="16">
@@ -83,7 +83,7 @@ Aligns the bottom edges of all selected Widgets without adjusting the vertical p
 </tr>
 <tr>
 <td width="126">
-  !<a href="/img/docs/horizontal_align.png">Horizontal\_align</a>
+  <img src="/img/docs/horizontal_align.png">Horizontal align</img>
 
 </td>
 <td width="16">
