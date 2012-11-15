@@ -6,8 +6,6 @@ active_submenu_item: /legal/faqs
 
 If you feel that this does not explain anything well enough then please contact us and we will clarify in person as well as using it as an opportunity to improve this FAQ page.
 
-Click here to read the FAQs for users who signed up with an AC account before we launched our first commercial release on August 15th, 2012.
- 
 ##General FAQs
 
    - [How many apps can I build using the Application Craft platform?](#HowManyApps)
