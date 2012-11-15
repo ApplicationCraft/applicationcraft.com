@@ -10,18 +10,33 @@ module DocsRedirect
       app.after_build do |builder|
         rules = []
         YAML::load(File.read("data/documentation.yml"))['tree'].each do |data|
-          old = data['old_url'].split('?').last
-          rules << "if ($args = #{old}) {\n  rewrite ^ #{data['url']}? permanent;\n}"
+          rules << DocsRedirect.build_rule(data)
         end
 
         builder.create_file 'build/docs_redirect.map', rules.join("\n")
       end
     end
     alias :included :registered
+
+    def build_rule(data)
+      rules = []
+
+      if data['old_url']
+        old = data['old_url'].split('?').last
+        rules << "if ($args = #{old}) {\n  rewrite ^ #{data['url']}? permanent;\n}"
+
+        if data['tree']
+          data['tree'].each do |dat|
+            rules << DocsRedirect.build_rule(dat)
+          end
+        end
+      end
+
+      rules
+    end
   end
 end
 ::Middleman::Extensions.register(:docs_redirect, DocsRedirect)
-activate :docs_redirect
 
 
 ###
@@ -108,6 +123,8 @@ end
 
 # Build-specific configuration
 configure :build do
+  activate :docs_redirect
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
