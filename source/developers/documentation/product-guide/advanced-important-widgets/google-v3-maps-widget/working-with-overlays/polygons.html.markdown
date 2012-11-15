@@ -26,7 +26,5 @@ Below is some code that shows how to create a new line using [addPolygon()](/dev
     }
    
 
-**addPolygon**
-
-Please refer to [addPolygon()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.
+Refer to [addPolygon()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.
 
