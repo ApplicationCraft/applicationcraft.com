@@ -11,7 +11,7 @@ You need to do this first before you go any further. Please refer to the [Apple 
 ##Ready to go ...
 With your uploaded App selected, as shown below, you will see a button labelled 'Create P12'. You should press this to get going.
 
-![acmb ac console](http://localhost:4567/img/docs/certgen-ios-0.png)
+![acmb ac console](/img/docs/certgen-ios-0.png)
 
 ##Step 1
 ![acmb ios certificate generator](/img/docs/certgen-ios-1.png)
