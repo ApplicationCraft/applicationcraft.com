@@ -1,7 +1,7 @@
 ---
-title: Welcome to the all New ApplicationCraft.com
+title: Welcome to the all New ApplicationCraft
 tags: resources, documentation, website
-date: 2012-11-15
+date: 2012-11-16
 class_name: blog
 full_width: true
 ---
@@ -20,4 +20,4 @@ The [homepage](/) gets straight to the point, and our [product pages](/product) 
 
 We also found the time to integrate the [User Guide and documentation](/developers/documentation) into the new site, as well as make some considerable improvements to the structure and useability.
 
-We are very excited to release the new ApplicationCraft.com
+We are very excited to release the new ApplicationCraft.com, and hope you will love it as much as we do. Tell us what you think in the comments below.
