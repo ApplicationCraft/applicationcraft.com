@@ -6,9 +6,7 @@ full_width: true
 ---
 
 
-**query**
-
-    (table, columns, where, whereArgs, groupBy, having, orderBy, limit, success, error)
+**query**(table, columns, where, whereArgs, groupBy, having, orderBy, limit, success, error)
    
 
 ## Parameters
@@ -75,7 +73,7 @@ groupBy
 
 </td>
 <td width="670">
-A filter declaring how to group rows, formatted as an SQL GROUP BY clause (excluding the GROUP BY it\_\_self\_\_). Passing null will cause the rows to not be grouped.
+A filter declaring how to group rows, formatted as an SQL GROUP BY clause (excluding the GROUP BY it__self__). Passing null will cause the rows to not be grouped.
 
 </td>
 </tr>
@@ -88,7 +86,7 @@ having
 
 </td>
 <td width="670">
-A filter to declare which row groups to include in the cursor, if row grouping is being used, formatted as an SQL HAVING clause (excluding the HAVING it\_\_self\_\_).
+A filter to declare which row groups to include in the cursor, if row grouping is being used, formatted as an SQL HAVING clause (excluding the HAVING it__self__).
 
 </td>
 </tr>
@@ -101,7 +99,7 @@ orderBy
 
 </td>
 <td width="670">
-How to order the rows, formatted as an SQL ORDER BY clause (excluding the ORDER BY it\_\_self\_\_). Passing null will use the default sort order, which may be unordered
+How to order the rows, formatted as an SQL ORDER BY clause (excluding the ORDER BY it__self__). Passing null will use the default sort order, which may be unordered
 
 </td>
 </tr>
@@ -146,10 +144,10 @@ error callback function.
 </tr>
 </table>
 ## Description
-
+This function is used to query a given table. The success callback function returns an object in the format of
      
     res = { rows : [ {key: value}, {key: value1}, {key: value1} ] }, // where key is field name
-     
+ ## Example    
     db.query("test", ["id", "name"], "count > ?", [100], null, null, "name", null, function(res){ 
         for (var i in res.rows){ 
             for (var key in res.rows[i]){ 
@@ -161,7 +159,7 @@ error callback function.
     });
    
 
-This function is used to query a given table. The success callback function returns an object in the format of
 
-## Example
+
+
 
