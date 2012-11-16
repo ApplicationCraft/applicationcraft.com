@@ -16,11 +16,11 @@ The various SELECT clauses can be represented using javascript object functions.
     selectObj = cObj.select().from("customers").where("id=?", p.id).order('companyName');
     result = cObj.exec(selectObj);
     return(result);
-    selectObj = cObj.select().order('companyName').where("id=?", p.id).order('companyName').from("customers");
-     
-   
 
 You can order the call in any way you like, for example the following code does the same
+
+    selectObj = cObj.select().order('companyName').where("id=?", p.id).order('companyName').from("customers");
+  
 
 The .where() function allows you to compose the entire string or to insert '?' tokens that are then substituted with the values supplied.
 
