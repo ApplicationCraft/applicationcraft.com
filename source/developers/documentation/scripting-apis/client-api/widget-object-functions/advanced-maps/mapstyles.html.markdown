@@ -52,13 +52,11 @@ Google offers a very nice [style wizard](http://gmaps-samples-v3.googlecode.com/
             ]
           }
         ];
-        app.w('googleMapsAdvanced').
+        app.w('googleMapsAdvanced').mapStyles
     (pinkParksStyles);
     }
      
    
-
-**mapStyles**
 
 ## See Also
 

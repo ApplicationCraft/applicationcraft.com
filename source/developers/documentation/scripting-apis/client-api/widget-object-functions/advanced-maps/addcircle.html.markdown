@@ -44,13 +44,12 @@ A Circle can be drawn on the Map with a radius as well as line and fill properti
 
     function handler_actionBtn11_onClick(mouseev){
          var circle = [[41.878113, -87.629798], 200000, "Title Text"];
-                circleObj = app.w('googleMapsAdvanced').
+                circleObj = app.w('googleMapsAdvanced').addCircle
     (circle);
     }
      
    
 
-**addCircle**
 
 ## See Also
 

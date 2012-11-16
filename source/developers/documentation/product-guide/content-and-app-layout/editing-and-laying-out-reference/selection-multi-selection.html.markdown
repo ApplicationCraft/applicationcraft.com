@@ -9,12 +9,10 @@ full_width: true
 Widgets are selected in the following usual ways
 
  - by clicking
-
  - holding down the Control key on a PC or Command key on a Mac, click on further objects to multi-select
-
  - rubber band selecting multiple widgets
 
-## Tip: By holding the shift key down and rubber band selecting multiple objects, you will see that if you start the drag over a Widget, that Widget is not selected. This makes it very useful for drag selecting when there is a background image that you do not want to include in a multi select or if there are many objects in close proximity.
+**Tip**: By holding the shift key down and rubber band selecting multiple objects, you will see that if you start the drag over a Widget, that Widget is not selected. This makes it very useful for drag selecting when there is a background image that you do not want to include in a multi select or if there are many objects in close proximity.
 
 ## Related Videos
 

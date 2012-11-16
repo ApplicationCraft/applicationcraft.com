@@ -68,6 +68,9 @@ Here is an example of a mapObject used to map two fields of data from an array i
             'lblItem' :  'item',   // Widget Name : object key name within the row array
             'lblPrice' : 'price'
         };
+
+and here is one used for mapping data into a Mobile List, where it is possible to populate its various elements.
+
         var map = {
                         'label': 'lbl',
             'value': 'value',
@@ -78,7 +81,7 @@ Here is an example of a mapObject used to map two fields of data from an array i
         }   
    
 
-and here is one used for mapping data into a Mobile List, where it is possible to populate its various elements.
+
 
 Below you will find links to more detailed examples for each Widget that can have data populated with populateWidget().
 
@@ -127,4 +130,3 @@ The following Widgets are covered in subtopics
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/fPPlPcE69yE?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating a Repeater with Javascript [2:56]
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/rKbMmF7kcXs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Javascript, Filtering, and other tips and tricks [6:11]
-

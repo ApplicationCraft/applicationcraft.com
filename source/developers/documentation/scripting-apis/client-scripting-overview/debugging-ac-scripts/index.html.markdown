@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-Apps will run in any modernish browser but for App development, we strongly recommend you use either Google Chrome (fastest) or Firefox. Not only are these browsers fast but they come with really good debugging tools built in.
+Your apps will run in any modernish browser but for App development, we strongly recommend you use either Google Chrome (fastest) or Firefox. Not only are these browsers fast but they come with really good debugging tools built in.
 
 Application Craft includes some very simple debug support functions that make debugging your Apps a real pleasure.
 

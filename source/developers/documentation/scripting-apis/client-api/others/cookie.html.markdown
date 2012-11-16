@@ -45,21 +45,17 @@ The value to store in the cookie
 <td width="27">
 </td>
 <td width="668">
-Optional parameter allows you to set additional parameters using an options object
-
-options = {
-
-expire: // date object or number of days to live
-
-path: // a full url in association with which the cookie is saved
-
-secure: // if you are using https you should set this flag to true
-
-}
+Optional parameter allows you to set additional parameters using an options object.
 
 </td>
 </tr>
 </table>
+	options = {
+	expire: // date object or number of days to live
+	path: // a full url in association with which the cookie is saved
+	secure: // if you are using https you should set this flag to true
+}
+
 ## Description
 
 You may need to set and get cookies for your Apps for all sorts of reasons. If you are using [oAuth](/developers/documentation/product-guide/advanced-features/oauth/) to handle user authentication to 3rd party systems, cookies can be a useful way to ensure that users do not have to login each time they access your App.
@@ -90,4 +86,3 @@ Please note that if you do not set an 'expire' duration in setting, the cookie w
 ## See Also
 
  - [oAuth Overview](/developers/documentation/product-guide/advanced-features/oauth/)
-

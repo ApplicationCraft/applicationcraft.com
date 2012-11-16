@@ -44,9 +44,5 @@ Note that you can modify the Marker image either by setting the widget property 
     }
    
 
-**addMarker**
-
-**addMarker**
-
-Please refer to [addMarker()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.
+Refer to [addMarker()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.
 

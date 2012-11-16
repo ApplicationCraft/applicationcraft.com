@@ -13,13 +13,13 @@ The following table shows various ways of accessing the Widget Object.
 <table>
 <tr>
 <td width="219">
-    <strong><a href="/developers/documentation/scripting-apis/client-api/objects-titbits/ref-widget">\_widget</a></strong>
+    <strong><a href="/developers/documentation/scripting-apis/client-api/objects-titbits/ref-widget">_widget</a></strong>
 
 </td>
 <td width="19">
 </td>
 <td width="642">
-The \_widget variable is available within every Application Craft Event and is the object of the Widget, Page or App that triggered the event.
+The _widget variable is available within every Application Craft Event and is the object of the Widget, Page or App that triggered the event.
 
 </td>
 </tr>

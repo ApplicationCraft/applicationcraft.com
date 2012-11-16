@@ -20,9 +20,7 @@ Working with Dates is rarely pain-free in any development environment. We have t
 
 In most cases, you will want to select a single date. However, you can also set the 'Range' property of the Date Picker Widget to allow 2 clicks to be made in the Date Picker, which set the start and end of the range respectively.
 
-Regular dates represent their data internally as a single date object. The app.getValue() or widgetObject.value() functions return either a
-
-single date object or an array of two date objects if 'Range' is true.
+Regular dates represent their data internally as a single date object. The app.getValue() or widgetObject.value() functions return either a single date object or an array of two date objects if 'Range' is true.
 
 ## Date Filtering
 

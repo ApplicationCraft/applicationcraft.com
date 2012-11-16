@@ -20,21 +20,17 @@ In the following scenario, you have a GoogleMap widget on a page that is set to 
                 } else {
             app.setProperty('googlemaps','height',250);
                 }
-    }
+    }  
+
+In the following example this shows how you can use so that a Mobile Toolbar footer will consume 10% of the height of the browser.
      
-    window.innerHeight
      
     function handler_application_onResize(ev, width, height){
         app.setProperty("mToolbar", "height", window.innerHeight*0.1);        
     }
      
-    window.innerWidth
-     
-   
 
-In the following example this shows how you can use so that a Mobile Toolbar footer will consume 10% of the height of the browser.
-
-can be similarly used if required, but in most cases the Percent Width property (see ['Sizes' Property Dialog)](/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog) can be used
+window.innerWidth can be similarly used if required, but in most cases the Percent Width property (see ['Sizes' Property Dialog)](/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog) can be used
 
 Note: We are planning to add Percent Height as a new widget property shortly
 

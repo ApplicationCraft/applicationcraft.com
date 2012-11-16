@@ -26,12 +26,7 @@ a string expression to process
 </table>
 ## Return Value
 
-Returns a string that is correctly escaped for the target database referenced by
-
-    connectionObject
-   
-
-.
+Returns a string that is correctly escaped for the target database referenced by `connectionObject`.
 
 ## Description
 
@@ -42,6 +37,9 @@ Often, you will have variables that may contain such characters, so by using the
 For example the following statement would be invalid due to the ' appearing mid word.
 
     SELECT * FROM bugs WHERE reported_by = 'O'Reilly'
+
+You would write the following code to correctly escape any special characters
+
     cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
     sqlString = "SELECT * FROM bugs WHERE reported_by =" + cObj.quote("O'Reilly");
      
@@ -49,20 +47,19 @@ For example the following statement would be invalid due to the ' appearing mid 
      
     strName = "O'Reilly";
     sqlString = "SELECT * FROM bugs WHERE reported_by =" + cObj.quote(strName);
-    SELECT * FROM bugs WHERE reported_by = 'O\'Reilly'
-    nId = 12345;
-    cObj = cObj.update("customers", p.data, 'companyName=' + nId);
-   
-
-You would write the following code to correctly escape any special characters
 
 Both of the above examples would result in the following SQL for most RDBMS.
 
+    SELECT * FROM bugs WHERE reported_by = 'O\'Reilly'
+
 However, if you are inserting a numeric parameter value, then there is no need for escaping, so while you can still use quote() if you want, the following is also safe
+
+    nId = 12345;
+    cObj = cObj.update("customers", p.data, 'companyName=' + nId);
+   
 
 By the way, when you use . [insert()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/insert) and . [update()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/update) , the second parameter is an object with key:value contents to be inserted into the fields. Each of the field values will automatically be escaped for you, so you don't need to prepare the contents of this object by using quote() manually in advance.
 
 ## See Also
 
  - [quoteInto()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto)
-

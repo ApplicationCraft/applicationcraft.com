@@ -42,6 +42,7 @@ Environment information is sometimes useful if you want your App to be able to i
  - [User.Parameters.\<Parameter Group\>.\<Parameter Name\>] - this allows you to retrieve custom Parameter data from the authenticated user. Customer User Parameters are [explained in this section](/developers/documentation/product-guide/the-console/console-tabs/more/account-variables/user-parameters/) .
 
 **Workflow** See also: [Workflow Functions](/developers/documentation/scripting-apis/client-api/workflow-functions/)
+
  - [Stage.Id] - this is the Id of the Stage of your App
 
  - [Stage.Name] - this is the Name of the Stage of your App

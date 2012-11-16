@@ -29,7 +29,7 @@ There are some handy events that are called when things happen with Data Views
 </tr>
 <tr>
 <td width="129">
-## App
+App
 
 </td>
 <td width="10">
@@ -59,7 +59,7 @@ Grid, Repeater
 <td width="12">
 </td>
 <td width="1126">
-    Called whenever a Grid or Repeater Widget has a row of data added (either from a Data View or the <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/setdata) or <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/">populateWidget(">setData()</a></a> functions
+    Called whenever a Grid or Repeater Widget has a row of data added (either from a Data View or the setData() or populateWidget() functions).
 
 </td>
 </tr>
@@ -104,8 +104,7 @@ Called if a Data View has its Drill Down filter reset.
         calc = createdRow.w('lblA').value().toUpperCase();
         app.setValue(createdRow.w('lblCalc'), calc);
     }
-    calc = createdRow.w('lblA').value().toUpperCase();
+    
    
 
-The above example shows a row of a repeater being loaded and the event being called. createdRow is the object of the row added. is looking for the Widget called ' lblA' and converting it to an upper case string. The next function sets the widget called 'lblCalc' to be that new string.
-
+The above example shows a row of a repeater being loaded and the event being called. `createdRow` is the object of the row added. `calc = createdRow.w('lblA').value().toUpperCase();` is looking for the Widget called '` lblA`' and converting it to an upper case string. The next function sets the widget called '`lblCalc`' to be that new string.

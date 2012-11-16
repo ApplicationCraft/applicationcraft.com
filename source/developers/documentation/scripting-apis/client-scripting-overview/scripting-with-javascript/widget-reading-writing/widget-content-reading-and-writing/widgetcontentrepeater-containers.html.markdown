@@ -14,13 +14,25 @@ If you want to extract the contents of a Repeater, you use the app.getData('Repe
 
     objRepeater = app.getData('myRepeater');
     alert(app.OBJ2JSON(objRepeater));
-     
+    
+ Would display the following    
      
     [ {"lblItem":"Tenon Saw","lblPrice":"19.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Dovetail Saw","lblPrice":"39.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Jack Plane No.4","lblPrice":"69.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Jointer Plane No.7","lblPrice":"29.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"},
       {"lblItem":"Firmer Chisel 1\"","lblPrice":"29.95","numQuantity":"0","numTotal":"0","btnRemove":"Remove"}]
+      
+## Populating a Repeater Container
+
+Repeaters can be quite slow to draw as new browser objects need to be created dynamically. If you try to load hundred of records into the Repeater (or less for mobile devices) then things can slow down. There are two things you can do to speed things up
+
+ - Set any labels 'Fast Draw' property to true (which should not effect rendering behavior)
+
+ - Set the Elements per Page property of the Repeater Container to a low value first but then use the [drawNextPage()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) function to load more pages as the user requires them (typically when a button or label widget is pressed).
+
+The following example shows how we load some simple, dummy data into a Repeater. We can load data directly from any array within any object directly into the Repeater without having to write any messy mapping code. Please refer to the [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) function reference for a detailed explanation. The populateWidget() function works just as well with Grids, Lists and Dropdowns.   
+
     function handler_application_onAppStart(){
         
         // Generate some dummy data for the Repeater
@@ -45,20 +57,7 @@ If you want to extract the contents of a Repeater, you use the app.getData('Repe
         app.populateWidget("rptOrder", data['rowitems']['menuitem'], mapObject);
         
     }
-   
-
-Would display the following
-
-## Populating a Repeater Container
-
-Repeaters can be quite slow to draw as new browser objects need to be created dynamically. If you try to load hundred of records into the Repeater (or less for mobile devices) then things can slow down. There are two things you can do to speed things up
-
- - Set any labels 'Fast Draw' property to true (which should not effect rendering behavior)
-
- - Set the Elements per Page property of the Repeater Container to a low value first but then use the [drawNextPage()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) function to load more pages as the user requires them (typically when a button or label widget is pressed).
-
-The following example shows how we load some simple, dummy data into a Repeater. We can load data directly from any array within any object directly into the Repeater without having to write any messy mapping code. Please refer to the [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) function reference for a detailed explanation. The populateWidget() function works just as well with Grids, Lists and Dropdowns.
-
+  
 ## Deleting and Inserting Individual Rows with Scripts
 
 You can add or remove rows using object functions described in the [Widget Object](/developers/documentation/scripting-apis/client-api/objects-titbits/widget-object) topic.

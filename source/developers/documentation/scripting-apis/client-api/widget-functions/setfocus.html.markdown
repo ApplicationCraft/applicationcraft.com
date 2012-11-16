@@ -32,7 +32,8 @@ Use this property to set the focus to a specified widget on the page
 
     app.setFocus('myTextBox');
      
-     
+If you want to focus on a text/text area widget and also scroll to the end of existing content in that widget:  
+   
     app.setFocus('TxtTicketNotes'); 
     setCursorEnd(app.w('TxtTicketNotes').base().find('textarea')[0]);
     }
@@ -51,5 +52,4 @@ Use this property to set the focus to a specified widget on the page
      
    
 
-If you want to focus on a text/text area widget and also scroll to the end of existing content in that widget:
 

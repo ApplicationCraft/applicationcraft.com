@@ -43,7 +43,7 @@ a key:value object where key is the field name in the database and value is the 
 <td width="18">
 </td>
 <td width="681">
-    a regular WHERE string. Please see below for recommendations on how to best construct this string. It can be the complete WHERE clause, but you should make use of <a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quote) and <a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto">quoteInto(">quote()</a></a> .
+    a regular WHERE string. Please see below for recommendations on how to best construct this string. It can be the complete WHERE clause, but you should make use of [quote()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quote) and [quoteInto()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto) .
 
 </td>
 </tr>

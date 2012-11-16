@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-For sites and content oriented applications, you will need to work with text in two main ways. We recommend watching the [very short videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) on Layout and Design that show exactly how many key concepts work.
+For sites and content oriented applications, you will need to work with text in two main ways. We recommend watching the [very short videos](/developers/training-videos) on Layout and Design that show exactly how many key concepts work.
 
 ## Simple Text Titles and Labels
 

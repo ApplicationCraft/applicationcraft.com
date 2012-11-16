@@ -87,6 +87,9 @@ There are some advanced parameters that are passed through to the SOAP library. 
     {crossdomain:true} // true - request to another domain will be sent directly; false (default) - request to another domain will be sent to acgo proxy.
     None
     {tagNamespace: true/false} //  false by default. true to put namespace to request tag instead of soap:Envelope. 
+
+## Example
+
     function processForecast(data, error, httpResponse) {
                      console.log(data);
     }
@@ -97,9 +100,8 @@ There are some advanced parameters that are passed through to the SOAP library. 
     }
    
 
-## Example
+
 
 ## See Also
 
  - [Wizard](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard)
-

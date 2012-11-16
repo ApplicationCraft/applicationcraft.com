@@ -35,18 +35,7 @@ height(px)
 
 </td>
 </tr>
-<tr>
-<td width="277">
-</td>
-<td width="29">
-</td>
-<td width="81">
-</td>
-<td width="24">
-</td>
-<td width="90">
-</td>
-</tr>
+
 <tr>
 <td width="277">
 Image
@@ -124,18 +113,7 @@ height(px)
 
 </td>
 </tr>
-<tr>
-<td width="278">
-</td>
-<td width="27">
-</td>
-<td width="82">
-</td>
-<td width="27">
-</td>
-<td width="90">
-</td>
-</tr>
+
 <tr>
 <td width="278">
 Image
@@ -175,18 +153,7 @@ height(px)
 
 </td>
 </tr>
-<tr>
-<td width="276">
-</td>
-<td width="31">
-</td>
-<td width="80">
-</td>
-<td width="27">
-</td>
-<td width="91">
-</td>
-</tr>
+
 <tr>
 <td width="276">
 iPhone
@@ -284,18 +251,7 @@ height(px)
 
 </td>
 </tr>
-<tr>
-<td width="274">
-</td>
-<td width="34">
-</td>
-<td width="78">
-</td>
-<td width="28">
-</td>
-<td width="91">
-</td>
-</tr>
+
 <tr>
 <td width="274">
 Low Density Screens

@@ -93,24 +93,24 @@ If I use the basic getData like this app.getData('myACGrid'), it will return a r
         {"id":"wwrt5jflhlqyp4mxk37borj178d88yds12rwv4","data":["UK","United Kingdom","61 million"]},
         {"id":"wzs4rashjhp3gmpf-ji8fk8pdhhx82l0x8zd6t","data":["US","United States of America","250 million"]},
         {"id":"w3hkr9l-f6yq-vhit490846titrw6-bj2o58ac","data":["RU","Russia","96 million"]}]
-     
+        
+I can use Javascript to access various bits of data as follows: 
+
         var grid = app.getData("myACGrid");
         var population = grid.rows[1].data[2]; // returns '250 million'
+        
+Or I could get:        
+        
         var gridRow = app.getData("myACGrid").rows[2];
         var myCountry = gridRow.data[1]; // returns 'Russia'
-    var gridAdvData = app.getData('myGrid');
-    var dData = app.OBJ2ARRAY(gridAdvData);
-     
-   
-
-I can use Javascript to access various bits of data as follows:
-
-Or I could get:
-
+        
 **Converting to a simple Array**
 
-If you want to operate on a simple array, you can call the app. [OBJ2ARRAY()](/developers/documentation/scripting-apis/client-api/conversion-functions/advancedtoarray) function, which will return a Javascript array.
-
+If you want to operate on a simple array, you can call the app. [OBJ2ARRAY()](/developers/documentation/scripting-apis/client-api/conversion-functions/advancedtoarray) function, which will return a Javascript array.        
+        
+    var gridAdvData = app.getData('myGrid');
+    var dData = app.OBJ2ARRAY(gridAdvData);
+  
 ## Populating a Grid
 
 There are two ways to populate a Grid

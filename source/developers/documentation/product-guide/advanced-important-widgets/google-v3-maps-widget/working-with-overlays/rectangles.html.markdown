@@ -22,7 +22,5 @@ Below is some code that shows how to create a new line using [addRectangle()](/d
     }
    
 
-**addRectangle**
-
-Please refer to [addRectangle()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.
+Refer to [addRectangle()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.
 

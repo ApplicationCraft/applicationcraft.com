@@ -15,7 +15,7 @@
 
   <div class="container clearfix docs">
 
-    <header>
+    <header class="clearfix">
       <div id="breadcrumbs">
         <ul>
           <li><%= link_to 'Docs', '/developers/documentation' %></li>
@@ -25,6 +25,7 @@
           <li><%= current_page.data.title %></li>
         </ul>
       </div>
+      <div id="full-screen">open in full screen...</div>
     </header>
 
     <%= documentation_tree %>
@@ -35,5 +36,9 @@
     </article>
 
   </div>
+
+
+  <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+  <%= stylesheet_link_tag 'lib/rainbow/github' %>
 
 <% end %>

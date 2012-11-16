@@ -6,7 +6,9 @@ full_width: true
 ---
 
 
-The My User Variables  section allows Users to submit their personal information, which populates the User Parameter Groups and can then be used in Apps that they access, for example, an App that accesses Twitter accounts to get latest tweets can automatically obtain the Users log in details from the Parameter Groups.
+The My User Variables section allows Users to submit their personal information, which populates the User Parameter Groups and can then be referenced withinin Apps.
+
+The API functions you can use to access these is [userParameterGet()](/developers/documentation/scripting-apis/client-api/app-functions/userparameterget) and [userParameterSet()](/developers/documentation/scripting-apis/client-api/app-functions/userparameterset)
 
 Also where you can change your logon password to your account.
 

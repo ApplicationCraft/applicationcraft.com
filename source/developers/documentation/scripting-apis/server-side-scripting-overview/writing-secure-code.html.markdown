@@ -21,16 +21,14 @@ Application Craft has three types of SSJ functions. Below is a screenshot showin
 <table>
 <tr>
 <td width="265">
-  !<a href="/img/docs/code-explorer.png">code-explorer</a>
+  <img src="/img/docs/code-explorer.png"></img>
 
 </td>
 <td width="511">
 
- - Scripts within App Scripts are client side scripts. They can only be called from an app running in a browser that is currently authenticated as a specific Application Craft App. The App must be loaded and connected to the server properly for the SSJ Private Script to execute. However, these should are not absolutely secure. More below on how to secure them.
-
- - Scripts within Server are private to the App and can only be edited from the IDE with the selected App loaded
-
- - Scripts within the Server Public are available to all Apps and are not tied to any App. They can be called from a browser or client whether an AC App or not.
+Scripts within **App Scripts** are client side scripts. They can only be called from an app running in a browser that is currently authenticated as a specific Application Craft App. The App must be loaded and connected to the server properly for the SSJ Private Script to execute. However, these should are not absolutely secure. More below on how to secure them.
+Scripts within **Server** are private to the App and can only be edited from the IDE with the selected App loaded.
+Scripts within the **Server Public** are available to all Apps and are not tied to any App. They can be called from a browser or client whether an AC App or not.
 
 </td>
 </tr>

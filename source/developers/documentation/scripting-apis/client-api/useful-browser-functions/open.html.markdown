@@ -73,7 +73,7 @@ Optional. Specifies the target attribute or the name of the window. The followin
 <td width="15">
 </td>
 <td width="723">
-\_blank - URL is loaded into a new window. This is default
+_blank - URL is loaded into a new window. This is default
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Optional. Specifies the target attribute or the name of the window. The followin
 <td width="15">
 </td>
 <td width="723">
-\_parent - URL is loaded into the parent frame
+_parent - URL is loaded into the parent frame
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Optional. Specifies the target attribute or the name of the window. The followin
 <td width="15">
 </td>
 <td width="723">
-\_self - URL replaces the current page
+_self - URL replaces the current page
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Optional. Specifies the target attribute or the name of the window. The followin
 <td width="15">
 </td>
 <td width="723">
-\_top - URL replaces any framesets that may be loaded
+_top - URL replaces any framesets that may be loaded
 
 </td>
 </tr>

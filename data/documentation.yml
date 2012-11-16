@@ -71,48 +71,6 @@ tree:
       - old_url: /revisions/current/docs/user-guide/index.html?more.htm
         title: More
         tree:
-        - old_url: /revisions/current/docs/user-guide/index.html?integration.htm
-          title: Integration
-          tree:
-          - old_url: /revisions/current/docs/user-guide/index.html?data_agents.htm
-            title: Integration Agents
-            tree:
-            - old_url: /revisions/current/docs/user-guide/index.html?ac_database_agent.htm
-              title: Application Craft Database Agent
-              tree:
-              - {old_url: '/revisions/current/docs/user-guide/index.html?typical_uses.htm',
-                title: Typical uses, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-database-agent/typical-uses}
-              - {old_url: '/revisions/current/docs/user-guide/index.html?supporting_other_databases.htm',
-                title: Supporting Other Databases, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-database-agent/supporting-other-databases}
-              - {old_url: '/revisions/current/docs/user-guide/index.html?installing_the_ac_database_agent.htm',
-                title: Installing the Application Craft Database Agent, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-database-agent/installing-the-ac-database-agent}
-              url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-database-agent
-            - old_url: /revisions/current/docs/user-guide/index.html?ac_data_agent.htm
-              title: Application Craft Advanced Data Agent
-              tree:
-              - {old_url: '/revisions/current/docs/user-guide/index.html?i_cant_run_java.htm',
-                title: I can't run Java, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-advanced-data-agent/i-cant-run-java}
-              - {old_url: '/revisions/current/docs/user-guide/index.html?supported_data_sources.htm',
-                title: Supported Data Sources, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-advanced-data-agent/supported-data-sources}
-              - {old_url: '/revisions/current/docs/user-guide/index.html?additional_integration_connect.htm',
-                title: Additional Integration Connectors, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-advanced-data-agent/additional-integration-connect}
-              - {old_url: '/revisions/current/docs/user-guide/index.html?installing_the_advanced_data_a.htm',
-                title: Installing the Application Craft Advanced Data Agent, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-advanced-data-agent/installing-the-advanced-data-a}
-              url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/application-craft-advanced-data-agent
-            - {old_url: '/revisions/current/docs/user-guide/index.html?facebook_agent.htm',
-              title: Facebook Agent, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/facebook-agent}
-            - old_url: /revisions/current/docs/user-guide/index.html?confguring_data_agents_within_.htm
-              title: Configuring Integration Agents within AC
-              tree:
-              - {old_url: '/revisions/current/docs/user-guide/index.html?adding_a_new_data_agent.htm',
-                title: Adding a New Integration Agent, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/configuring-integration-agents-within-ac/adding-a-new-data-agent}
-              - {old_url: '/revisions/current/docs/user-guide/index.html?sharing_a_data_agent_with_users.htm',
-                title: Sharing an Integration Agent with other Users, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/configuring-integration-agents-within-ac/sharing-a-data-agent-with-users}
-              url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/configuring-integration-agents-within-ac
-            - {old_url: '/revisions/current/docs/user-guide/index.html?full_etl.htm',
-              title: ETL & Data Transformations, url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents/full-etl}
-            url: /developers/documentation/product-guide/the-console/console-tabs/more/integration/integration-agents
-          url: /developers/documentation/product-guide/the-console/console-tabs/more/integration
         - old_url: /revisions/current/docs/user-guide/index.html?managewidgets.htm
           title: Widgets
           tree:
@@ -1716,7 +1674,7 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?length.htm', title: rowCount(),
           url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/length}
         - {old_url: '/revisions/current/docs/user-guide/index.html?rowindex.htm',
-          title: rowIndex(), url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid}
+          title: rowIndex(), url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex}
         - {old_url: '/revisions/current/docs/user-guide/index.html?children.htm',
           title: search(), url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/children}
         - {old_url: '/revisions/current/docs/user-guide/index.html?setselectedrow.htm',

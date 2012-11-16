@@ -22,10 +22,6 @@ There are events for On Click, On Dbl Click, On Mouse Enter and On Mouse Leave. 
         console.log("timeline");
         console.dir(data);
     }
-    function handler_timeline1_onScroll(startDate, endDate){
-        console.dir({arg: arguments});
-    }
-   
 
  - The data parameter is an object containing all metadata associated with the item.
 
@@ -35,6 +31,13 @@ There are events for On Click, On Dbl Click, On Mouse Enter and On Mouse Leave. 
 
 In addition, there is the On Scroll event. This event is called whenever the timeline display area changes.
 
+    function handler_timeline1_onScroll(startDate, endDate){
+        console.dir({arg: arguments});
+    }
+   
+
+
+
 ## See Also
 
  - [fitData()](/developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/fitdata)
@@ -42,4 +45,3 @@ In addition, there is the On Scroll event. This event is called whenever the tim
  - [scrollTo()](/developers/documentation/scripting-apis/client-api/useful-browser-functions/scrollto)
  - [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
  - [Working with the Timeline Widget](/developers/documentation/product-guide/advanced-important-widgets/working-with-the-timeline-widget/)
-

@@ -57,6 +57,23 @@ $ ->
       images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
 
 
+    # Set syntax highlighting language to javascript by default.
+    $('body.developers .docs article pre > code').addClass 'lang-javascript'
+
+
+    # Handle full screen button
+    if $.cookie('full-screen-docs')
+      $('body').addClass 'full-screen'
+
+    $('#full-screen').on 'click', ->
+      if $('body').hasClass('full-screen')
+        $('body').removeClass 'full-screen'
+        $.cookie 'full-screen-docs', false
+      else
+        $('body').addClass 'full-screen'
+        $.cookie 'full-screen-docs', true
+
+
     # Handle video links so they open in fancybox
     if (videos = $("body.developers .docs article a[href*='youtube']")).length > 0
       videos.addClass 'fancybox fancybox.iframe'

@@ -126,7 +126,7 @@ The full user name of the User accessing the running App instance
 </tr>
 <tr>
 <td width="136">
-[User.Parameters.\<parameter group\>.\<parameter name\>]
+[User.Parameters.parameter group.parameter name]
 
 </td>
 <td width="22">

@@ -54,6 +54,9 @@ The first code snippet shows how coordinates are read from the Repeater Containe
         }
     });
     var output = JSON.stringify(map); // This object can now be stored somewhere (see next example)
+
+And this would shows those coordinates being restored at some arbitrary point later
+
     var rep = app.w('repeatContainer');  // Get a Repeater Container widget object
     // Next line recreates some sample data, as might have been created in the above snippet and saved in var output
     var input = '{"text":{"left":12,"top":86},"label3":{"left":13,"top":43},"label2":{"left":56,"top":17}}'; // for example
@@ -67,5 +70,4 @@ The first code snippet shows how coordinates are read from the Repeater Containe
     });
    
 
-And this would shows those coordinates being restored at some arbitrary point later
 

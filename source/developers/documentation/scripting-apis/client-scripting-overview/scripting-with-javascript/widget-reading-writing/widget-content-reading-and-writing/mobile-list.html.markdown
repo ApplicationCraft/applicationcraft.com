@@ -24,16 +24,20 @@ All item data for the Mobile List widget is described in the following Javascrip
       "aside": "Short Text",  // appears on the right of thee content in smaller font
       "action": id    // page jump action id (generally for internal use only)
      }
+     
+If populating a Navbar widget then the following object is used  
+
     { "label":"Go", // appears as list content
       "icon": "none",   // an icon name
       "action": id    // page jump action id (generally for internal use only)
     }
+    
+## Example    
+    
     lstItems = app.w('myMobileList').getData();  // get all list items from the list
     lstItems[0].count = 12;   // modify the count field in the first row to 11
     app.setData('myMobileList', lstItems); // write the whole array back
    
+   
 
-If populating a Navbar widget then the following object is used
-
-## Example
 

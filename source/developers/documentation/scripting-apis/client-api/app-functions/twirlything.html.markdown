@@ -96,6 +96,8 @@ You do not need to use twirlyThing() explicitly when data is being loaded from a
     app.twirlyThing(app, false);  // unlocks down the entire App and removes the twirly thing hourglass.
     app.twirlyThing('ListboxName', true);  // Locks down just the listbox Widget named 'ListboxName'
     app.twirlyThing(myListboxObj', true);  // Locks down just the listbox widget object
+
+Example usage to show twirly thing between page navigation
      
     function handler_actionBtn_onClick(mouseev){
      app.twirlyThing(app, true);
@@ -113,9 +115,6 @@ You do not need to use twirlyThing() explicitly when data is being loaded from a
      
    
 
-Example usage to show twirly thing between page navigation
-
 ## See Also
 
  - [Twirly Thing/Hourglass](/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/)
-

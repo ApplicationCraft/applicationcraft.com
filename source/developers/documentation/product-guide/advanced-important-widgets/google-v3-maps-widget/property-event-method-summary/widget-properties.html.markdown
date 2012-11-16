@@ -7,15 +7,16 @@ full_width: true
 
 
 <table>
-<tr>
-<th style="vertical-align:top; width:172px; background-color:#ffffff;">
-<a id="general"> </a> **General**
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:754px; background-color:#ffffff;">
-</th>
+<tr>
+<td width="172">
+<b>General</b>
+
+</td>
+<td width="21">
+</td>
+<td width="754">
+</td>
 </tr>
 <tr>
 <td width="172">
@@ -123,7 +124,7 @@ A dialog that allows you to specify which Map controls are visible (Map Type, Pa
 </tr>
 <tr>
 <td width="172">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="21">
@@ -145,7 +146,7 @@ Indicates whether the Map should maintain its aspect ratio should it be within a
 </tr>
 <tr>
 <td width="172">
-## X
+X
 
 </td>
 <td width="21">
@@ -239,7 +240,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="174">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="20">
@@ -307,7 +308,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="174">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="18">
@@ -447,15 +448,16 @@ Set to true to automatically fetch data from assigned view.
 </tr>
 </table>
 <table>
-<tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:728px; background-color:#ffffff;">
-</th>
+<td width="174"><b>Style</b>
+
+</td>
+<td width="18">
+</td>
+<td width="750">
+</td>
+</tr>
+
 </tr>
 <tr>
 <td width="176">
@@ -534,7 +536,7 @@ Widget Style
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Marker Style**
+<a id="style"> </a> <b>Marker Style</b>
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
@@ -561,7 +563,7 @@ The default image to be used for markers. Using javascript, you can create indiv
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Default Overlay**
+<a id="style"> </a> <b>Default Overlay</b>
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
@@ -636,7 +638,7 @@ For rectangles, circles and areas, indicates the opacity level of the color with
 <table>
 <tr>
 <th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Adsense**
+<a id="style"> </a> <b>Adsense</b>
 
 </th>
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">

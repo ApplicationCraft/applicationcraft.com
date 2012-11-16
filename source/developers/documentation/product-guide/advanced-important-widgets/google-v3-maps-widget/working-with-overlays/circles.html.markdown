@@ -22,6 +22,4 @@ Below is some code that shows how to create a new line using [addCircle()](/deve
     }
    
 
-**addCircle**
-
-Please refer to [addCircle()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.
+Refer to [addCircle()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle) in the [Client API](/developers/documentation/scripting-apis/client-api/) section for full details on the function.

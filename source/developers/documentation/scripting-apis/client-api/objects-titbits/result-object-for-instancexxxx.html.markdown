@@ -16,7 +16,16 @@ The following CRUD functions trigger CDB and RDB callback functions once data ha
 The CDB callback function returns the result object in the second parameter and has the format
 
     cdbCallback(error, result)
-    for(obj in result.created)
+
+In many cases, you do not need to inspect the contents of the result object and inspecting the error object  will be enough. However, if you need to know more about the result of the data operation, then the result object contains all relevant information.
+
+You can see that there are created, updated and deleted keys within the result object. In all cases, except for instanceSync(), you only need inspect the equivalent key to the function name you are calling
+
+Note that for instanceCreate(), the created key contains a set of rowIndex objects. In all cases, except instanceSync() there will only be one rowIndex object. Grids and Repeater Containers when updated using instanceSync() will have one for each row of data updated.
+
+We decided to implement the inner contents of the result object as a set of straightforward object rather than an array. As a result, if you want to enumerate through the objects, you would use for(obj in result.created) and not a standard for loop.
+
+    
     {
         created: 
         { 
@@ -67,11 +76,4 @@ The CDB callback function returns the result object in the second parameter and 
     }
    
 
-In many cases, you do not need to inspect the contents of the result object and inspecting the error object  will be enough. However, if you need to know more about the result of the data operation, then the result object contains all relevant information.
-
-You can see that there are created, updated and deleted keys within the result object. In all cases, except for instanceSync(), you only need inspect the equivalent key to the function name you are calling
-
-Note that for instanceCreate(), the created key contains a set of rowIndex objects. In all cases, except instanceSync() there will only be one rowIndex object. Grids and Repeater Containers when updated using instanceSync() will have one for each row of data updated.
-
-We decided to implement the inner contents of the result object as a set of straightforward object rather than an array. As a result, if you want to enumerate through the objects, you would use and not a standard for loop.
 

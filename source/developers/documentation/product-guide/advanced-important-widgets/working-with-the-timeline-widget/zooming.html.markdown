@@ -20,16 +20,15 @@ There are several reasons you might want to control the viewing behavior of the 
 
 ## Zooming
 
-app.w('timeline1').zoomIn() - zooms in one step
-
-app.w('timeline1').zoomOut() - zooms out one step
+    app.w('timeline1').zoomIn() - zooms in one step 
+    app.w('timeline1').zoomOut() - zooms out one step
 
 ## Panning
 
 There are a couple of ways to adjust the timeline display area. Firstly, there are some widget methods
 
- - [app.w('Timeline1').scroll](/developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/scroll) (numDaysToScroll)
- - [app.w('Timeline1').scrollTo](/developers/documentation/scripting-apis/client-api/useful-browser-functions/scrollto) (date)
+    [app.w('Timeline1').scroll](/developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/scroll) (numDaysToScroll)
+    [app.w('Timeline1').scrollTo](/developers/documentation/scripting-apis/client-api/useful-browser-functions/scrollto) (date)
 
 or you can set properties
 
@@ -54,4 +53,18 @@ or you can set properties
 ## Scaling
 
 Here, we adjust some properties to achieve the scaling effect. You can see we adjust the icon sizes in the Timeline and Tree Item display areas. Then, we also adjust the font size as well.
+
+    function handler_sliderH_onSlide(value){
+      var fSize;
+      app.setProperty("timeline1", "timelineIconSize", value);
+      app.setProperty("timeline1", "treeIconSize", value);
+      if(value<32) {
+        fSize = 10;
+      }
+      else {
+        fSize = 10 + (value-32)*0.7;
+      }
+      app.setProperty('timeline1', 'timelineitemfont', "normal " + fSize + "px Arial");
+    }
+
 

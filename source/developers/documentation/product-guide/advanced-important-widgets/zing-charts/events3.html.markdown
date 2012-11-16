@@ -11,13 +11,13 @@ The following Application Craft events are available for the Zingchart
 <table>
 <tr>
 <th style="vertical-align:top; width:147px; height:19px; background-color:#ffffff;">
-**AC Event Name**
+<b>AC Event Name</b>
 
 </th>
 <th style="vertical-align:top; width:47px; height:19px; background-color:#ffffff;">
 </th>
 <th style="vertical-align:top; width:753px; height:19px; background-color:#ffffff;">
-**Zing Chart Event Name**
+<b>Zing Chart Event Name</b>
 
 </th>
 </tr>
@@ -29,7 +29,7 @@ On Click
 <td width="47">
 </td>
 <td width="753">
-zingchart.node\_click
+zingchart.node_click
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ On Double Click
 <td width="47">
 </td>
 <td width="753">
-zingchart.node\_doubleclick
+zingchart.node_doubleclick
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ On Mouse Enter
 <td width="47">
 </td>
 <td width="753">
-zingchart.node\_mouseover
+zingchart.node_mouseover
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ On Mouse Leave
 <td width="47">
 </td>
 <td width="753">
-zingchart.node\_mouseout
+zingchart.node_mouseout
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ onComplete
 <td width="47">
 </td>
 <td width="753">
-zingchart.node\_complete
+zingchart.node_complete
 
 </td>
 </tr>
@@ -94,16 +94,17 @@ If you want to access the internal events (very rare that you would want to) you
 This event will be called for the all ZingChart widgets in the current app.
 
     zingchart.load = function(jsonObj){
-        alert("ZingChart has completed loading the Chart " + jsonObj["id"]);
+      alert("ZingChart has completed loading the Chart " + jsonObj["id"]);
     }
      
-     
+To specify a widget (zing1 is the AC widget name)
+
     zingchart.load = function(data) {
-            if (data.id == app.w('zing').getZingChartId()) {
-                alert("ZingChart with the name = zing has completed loading the Chart");
-            }
-        } 
+      if (data.id == app.w('zing').getZingChartId()) {
+        alert("ZingChart with the name = zing has completed loading the Chart");
+      }
+    } 
    
 
-To specify a widget (zing1 is the AC widget name)
+
 

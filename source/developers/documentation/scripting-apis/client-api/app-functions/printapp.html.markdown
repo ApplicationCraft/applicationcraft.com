@@ -62,9 +62,17 @@ The params object looks like this (you can leave out any fields you do not want 
         printBackground: true, false (default false)
         fitToPage: true, false (default false)
     }
-    callbackFunction(error, url) {
-     
-    }
+
+**Important Beta Notice:** currently, you cannot leave parameter 2 undefined and must pass in some sort of object. It can be a dummy object. We will be removing this requirement shortly. Once removed, you will not need to pass in the entire object if not required.
+
+Not passing in the pages key will result in all pages being printed. Not passing in an orientation will result in portrait. Not passing in an instance id will result in empty data fields if there are any.
+
+As soon as the printing process has completed, the callback function will be called. You should check for an error and, if there is none, you can access the newly created pdf at the url passed in.
+
+    callbackFunction(error, url) {}
+
+## Examples
+
     function handler_actionBtn_onClick(mouseev){
         params = {
         pages: ['page1'], //Print just page1 of the app
@@ -83,17 +91,8 @@ The params object looks like this (you can leave out any fields you do not want 
     }
    
 
-**Important Beta Notice:** currently, you cannot leave parameter 2 undefined and must pass in some sort of object. It can be a dummy object. We will be removing this requirement shortly. Once removed, you will not need to pass in the entire object if not required.
-
-Not passing in the pages key will result in all pages being printed. Not passing in an orientation will result in portrait. Not passing in an instance id will result in empty data fields if there are any.
-
-As soon as the printing process has completed, the callback function will be called. You should check for an error and, if there is none, you can access the newly created pdf at the url passed in.
-
-## Examples
-
 For more code examples, please go to the [Printing Examples](/developers/documentation/product-guide/advanced-features/printing/printing-examples) topic.
 
 ## See Also
 
  - [isPrinting()](/developers/documentation/scripting-apis/client-api/app-functions/isprinting)
-
