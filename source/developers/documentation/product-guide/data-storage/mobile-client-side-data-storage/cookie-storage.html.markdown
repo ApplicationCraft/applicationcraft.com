@@ -12,9 +12,11 @@ You need to first convert your data into text before writing the cookie data. As
 
     jsonText = JSON.stringify(mySmallList);
     app.cookie("List", "jsonText");
+
+You can then call [app.cookie()](/developers/documentation/scripting-apis/client-api/others/cookie) to read data from your cookie and load it into your array, object or variable.
+
     jsonText = app.cookie("List");
     mySmallList = JSON.parse(jsonText);
    
 
-You can then call [app.cookie()](/developers/documentation/scripting-apis/client-api/others/cookie) to read data from your cookie and load it into your array, object or variable.
 
