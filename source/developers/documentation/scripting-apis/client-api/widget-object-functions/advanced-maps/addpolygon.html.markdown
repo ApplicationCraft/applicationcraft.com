@@ -36,14 +36,11 @@ A Polygon can be drawn on the Map by specifying an array of coordinates. You can
                     [18.466465, -66.118292],
                     [32.321384, -64.75737]
                 ];
-                polygonObj = app.w('googleMapsAdvanced').
+                polygonObj = app.w('googleMapsAdvanced').addPolygon
     (polygonPath,  {fillColor: "#00ffff", strokeWeight:2});
     }
      
-     
-   
 
-**addPolygon**
 
 ## See Also
 

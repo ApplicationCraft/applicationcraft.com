@@ -40,7 +40,7 @@ Callback function to execute once authentication is completed
 </table>
 ## Description
 
-This calls the Application Craft server to handle oAuth authentication to the requested service. The actual authentication is handled on the server to ensure security and that
+This calls the Application Craft server to handle oAuth authentication to the requested service. The actual authentication is handled on the server to ensure security.
 
 Please refer to the User Guide [oAuth chapter](/developers/documentation/product-guide/advanced-features/oauth/) for a general overview and examples.
 
