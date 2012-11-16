@@ -6,9 +6,7 @@ full_width: true
 ---
 
 
-**del**
-
-    (table, where, whereArgs, success, error)
+**del**(table, where, whereArgs, success, error)
    
 
 ## Parameters
@@ -84,7 +82,7 @@ error callback function.
 
 This function is used to delete rows from  the database
 
-     
+## Example    
     db.del("test", "id = ?", ["1"], function(count){ 
         console.log("count="+count); 
     }, function(er){
@@ -93,5 +91,5 @@ This function is used to delete rows from  the database
      
    
 
-## Example
+
 
