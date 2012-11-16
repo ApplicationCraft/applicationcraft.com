@@ -65,10 +65,16 @@ Because SOAP provides more information that a RESTful call, AC is able to conver
         ws = "http://wsf.cdyne.com/WeatherWS/Weather.asmx?wsdl";
         var data = ssj.soapRequest(ws, "GetCityForecastByZIP", {ZIP : "94102"}); 
     }
+
+##Debugging
+
+To assist debugging there are 2 functions available
      
     ssj.__lastSoapRequest() // Allows you to get the generated XML for the request
     ssj.__lastSoapResponse()// Allows you to get the raw XML output from the server response
-     
+
+## Example 
+    
     function mySoapRequest(){
         ws = "http://wsf.cdyne.com/WeatherWS/Weather.asmx?wsdl"; // url to wsdl MUST be here
         var data = ssj.soapRequest(ws, "GetCityForecastByZIP", {ZIP : "94102"}); 
@@ -76,9 +82,6 @@ Because SOAP provides more information that a RESTful call, AC is able to conver
     }
    
 
-**Debugging**
 
-To assist debugging there are 2 functions available
 
-## Example
 
