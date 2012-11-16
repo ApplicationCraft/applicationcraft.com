@@ -32,14 +32,11 @@ A Rectangle can be drawn on the Map by specifying the top left and bottom right 
 
     function handler_actionBtn12_onClick(mouseev){
             var rect = [[31.772323, -102.214897], [21.291982, -77.821856]];
-            rectObj = app.w('googleMapsAdvanced').
+            rectObj = app.w('googleMapsAdvanced').addRectangle
     (rect, {fillColor: "#00ffff"});
      }
      
-     
-   
 
-**addRectangle**
 
 ## See Also
 
