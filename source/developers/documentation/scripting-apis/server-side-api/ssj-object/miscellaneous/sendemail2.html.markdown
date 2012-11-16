@@ -66,6 +66,8 @@ The message object has the following structure.
       attachments : [upload]  // URL of the uploaded file referenced in Client side script
     };
      
+The smtpPar object has the following structure.
+
     smtpPar = {
     "host": 'smtp.mail.yahoo.com:465',
     "user": 'your_email',
@@ -73,10 +75,7 @@ The message object has the following structure.
     "security": 'ssl'
     };
      
-   
-
-The smtpPar object has the following structure.
-
+  
 ## Example
 
 Client Side Script:
@@ -103,6 +102,8 @@ Client Side Script:
         }
     }
      
+Server Side Script:
+
     function send(upload){
         var message = {
           from: { address: 'john@johnson.com', name: 'John Johnson'},
@@ -125,10 +126,9 @@ Client Side Script:
     }
    
 
-Server Side Script:
+
 
 ## See Also
 
  - [SMTP Parameters](/developers/documentation/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/)
  - [callSSJ()](/developers/documentation/scripting-apis/client-api/app-functions/callservice)
-
