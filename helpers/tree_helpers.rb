@@ -11,15 +11,27 @@ module TreeHelpers
     # else we scan the directory contents
     else
       content_tag :ol do
+
         Dir.new(dir).each do |x|
-          next if x == '.' || x == '..'
+          next if x == '.' || x == '..' || x.start_with?('index.')
 
           file = "#{dir}/#{x}"
           if Dir.exists?(file)
+            resource = resource_for("#{file}/index.html.markdown")
+
+            content_tag :li do
+              content_tag :div, :class => "nofade" do
+                content_tag :span do
+                  "expand"
+                end
+                content_tag :a, :href => resource.url do
+                  resource.data.title
+                end
+              end
+            end
 
           else
-            p path = sitemap.file_to_path(file)
-            p resource = sitemap.find_resource_by_path(path).class
+            resource = resource_for(file)
 
             content_tag :li, :class => "nofade" do
               content_tag :a, :href => resource.url, :class => current_page?(resource.url) ? 'active' : '' do
@@ -28,28 +40,13 @@ module TreeHelpers
             end
           end
         end
+
       end
     end
 
     # content_tag :aside, :class => "tree" do
     #   generate_tree_for data['tree']
     # end
-  end
-
-  def breadcrumbs
-    excluded = ['/', '/developers/', '/developers/documentation/']
-    page, crumbs = current_page, []
-
-    while page = page.parent
-      next if excluded.include? page.url
-
-      crumbs << {
-        :url => page.url,
-        :title => page.data.title
-      }
-    end
-
-    crumbs.reverse
   end
 
 
@@ -61,13 +58,16 @@ module TreeHelpers
       end
     end
 
+    def resource_for(file)
+      path = sitemap.file_to_path(file)
+      resource = sitemap.find_resource_by_path(path)
+    end
+
     def generate_tree_for(data)
       content_tag :ol do
         data.each do |ele|
           if ele['tree']
             content_tag :li do
-              id = random_string
-
               content_tag :div, :class => "nofade" do
                 content_tag :span do
                   "expand"

@@ -1,9 +1,3 @@
-require "lib/helpers/video_helpers"
-require "lib/helpers/tree_helpers"
-helpers VideoHelpers
-helpers TreeHelpers
-
-
 module DocsRedirect
   class << self
     def registered(app)
