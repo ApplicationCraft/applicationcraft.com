@@ -12,25 +12,18 @@ The Xtify Push Notifications Plugins enables send notifications to your native a
 
 If you have developed your App outside Application Craft then please do the following
 
-<table>
-<tr>
-<td width="13">
- - 
-
-</td>
-In your index.html include
-
-      XtifyCordovaPlugin.js
-      <gap:plugin name="Xtify" version="1.0.0" >
-        <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_ANDROID" platform="android"/>
-        <parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_IOS" platform="ios"/>
-        <parameter name="XTIFY_SENDER_ID" value="XTIFY_SENDER_ID_VALUE" />
-      </gap:plugin><gap:plugin name="ChildBrowser" version="1.0.0" />
-     
-
-</tr>
-</table>
+ - In your index.html include `XtifyCordovaPlugin.js`
  - In your config.xml add
+      
+`<gap:plugin name="Xtify" version="1.0.0" >
+<parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_ANDROID" platform="android"/>
+<parameter name="XTIFY_APPLICATION_KEY" value="XTIFY_APPLICATION_KEY_VALUE_IOS" platform="ios"/>
+<parameter name="XTIFY_SENDER_ID" value="XTIFY_SENDER_ID_VALUE" />
+</gap:plugin><gap:plugin name="ChildBrowser" version="1.0.0" />
+     `
+
+
+
 
 You should replace x.y.z in version='x.y.z' depending on which version of Cordova you are using for your App. Please refer to the list below
 
@@ -149,4 +142,3 @@ The Free account is suitable for 10,000 notifications but for larger volumes see
  - [Adding New Application Keys](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/adding-new-application)
  - [Configuring your app](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app)
  - [Sending Push Notifications to your apps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to)
-
