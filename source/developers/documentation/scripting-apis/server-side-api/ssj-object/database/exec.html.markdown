@@ -46,21 +46,22 @@ This is used in the following common scenarios
      
     selectObj = cObj.select().from("customers").order("companyName");
     cObj.exec(selectObj);
-    CREATE PROCEDURE sp_numCustomers()
-    BEGIN
-      SELECT count(*) from customers;
-    END
-    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
-    return(cObj.exec("CALL sp_numCustomers()"));
-     
-     
-   
 
 ## Example Stored Procedure Call
 
 Below is a very simple MySQL stored procedure definition that returns the total number of customers.
 
+    CREATE PROCEDURE sp_numCustomers()
+    BEGIN
+      SELECT count(*) from customers;
+    END
+
 The following code would call this stored procedure from an SSJ script
+
+    cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+    return(cObj.exec("CALL sp_numCustomers()"));
+     
+  
 
 ## See Also
 

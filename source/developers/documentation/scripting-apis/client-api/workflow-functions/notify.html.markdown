@@ -103,7 +103,7 @@ The number of times to repeat this notification (enables you to schedule reminde
 <td width="9">
 </td>
 <td width="643">
-If numRepeats\>0., then this is the delay, in seconds, between notification repeats.
+If numRepeats>0., then this is the delay, in seconds, between notification repeats.
 
 </td>
 </tr>

@@ -16,17 +16,17 @@ These functions are really useful for converting data between different data typ
 
 ## In This Section
 
- - [[filterArray()](/developers/documentation/scripting-apis/client-api/conversion-functions/filterarray)
+ - [filterArray()](/developers/documentation/scripting-apis/client-api/conversion-functions/filterarray)
     Filters an array
- - [[OBJ2ARRAY()](/developers/documentation/scripting-apis/client-api/conversion-functions/advancedtoarray)
+ - [OBJ2ARRAY()](/developers/documentation/scripting-apis/client-api/conversion-functions/advancedtoarray)
     Converts an object into an array
- - [[ARRAY2OBJ()](/developers/documentation/scripting-apis/client-api/conversion-functions/arraytoadvanced)
+ - [ARRAY2OBJ()](/developers/documentation/scripting-apis/client-api/conversion-functions/arraytoadvanced)
     Converts an array into an object
- - [[OBJ2JSON()](/developers/documentation/scripting-apis/client-api/conversion-functions/json2text)
+ - [OBJ2JSON()](/developers/documentation/scripting-apis/client-api/conversion-functions/json2text)
     Converts an object into a JSON string
- - [[JSON2OBJ()](/developers/documentation/scripting-apis/client-api/conversion-functions/text2json)
+ - [JSON2OBJ()](/developers/documentation/scripting-apis/client-api/conversion-functions/text2json)
     Converts a JSON string into an object
- - [[OBJ2XML()](/developers/documentation/scripting-apis/client-api/conversion-functions/json2xml)
+ - [OBJ2XML()](/developers/documentation/scripting-apis/client-api/conversion-functions/json2xml)
     Converts an object into an XML string
  - [XML2OBJ()](/developers/documentation/scripting-apis/client-api/conversion-functions/xml2json)
     Converts an XML string into an object
