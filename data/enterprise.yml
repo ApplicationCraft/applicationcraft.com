@@ -8,3 +8,6 @@ submenu:
   -
     text: FAQs
     url: '/product/enterprise#toc_2'
+  -
+    text: Educational Pricing
+    url: '/product/aceducation'
