@@ -27,7 +27,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_TextWidget
+Internal class name of the widget.- WiziCore_UI_TextWidget
 
 </td>
 </tr>
