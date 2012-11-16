@@ -30,11 +30,12 @@ This function is useful for finding out the parent Widget of another Widget. Thi
 
     rowObj = _widget.parent();    // the row within the Repeater Container
     rptObj = rowObj.parent();     // And the parent of that row is the actual Repeater Container
-    quantityOrder = _widget.parent().w('numQuantity');
-    rowObj = _widget.parent().parent().parent()
-   
 
 The following command would be used to get the value of a Widget contained within the same Repeater row as the Widget that is clicked on.
+
+    quantityOrder = _widget.parent().w('numQuantity');
+    
+   
 
 ## Important - Repeater Containers
 
@@ -48,3 +49,4 @@ In this case, we have a button called 'removeImage'. It has been placed within a
 
 So, if you had a event handler for the removeImage widget, you would use the following code to reference the repeater row
 
+	rowObj = _widget.parent().parent().parent()
