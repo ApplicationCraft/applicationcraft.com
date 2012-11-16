@@ -10,8 +10,8 @@ The Label Widget is one of the fundamental objects within Application Craft and 
 
 <table>
 <tr>
-<th style="vertical-align:top; width:161px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width:"161">
+<a id="general"> </a> <b>General</b>
 
 </th>
 <th style="vertical-align:top; width:22px; background-color:#ffffff;">
@@ -27,7 +27,7 @@ Widget Class
 <td width="22">
 </td>
 <td width="759">
-Internal class name of the widget.- WiziCore\_UI\_LabelWidget
+Internal class name of the widget.- WiziCore_UI_LabelWidget
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Select to set the page to jump to if clicked.('Forward' and 'Back' behave in sam
 <table>
 <tr>
 <td width="159">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="25">
@@ -125,7 +125,7 @@ Select to set the page to jump to if clicked.('Forward' and 'Back' behave in sam
 </tr>
 <tr>
 <td width="159">
-## X
+X
 
 </td>
 <td width="25">
@@ -219,7 +219,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="159">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="26">
@@ -275,7 +275,7 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="38">
@@ -379,7 +379,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="165">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="20">
@@ -692,4 +692,3 @@ On Resize Stop
  - [Label (Mobile)](/developers/documentation/product-guide/widget-properties-events/mobile/moblabel)
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
-
