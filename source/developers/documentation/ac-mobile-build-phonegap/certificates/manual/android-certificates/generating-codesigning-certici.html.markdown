@@ -73,7 +73,7 @@ Enable verbose output.
 </tr>
 <tr>
 <td width="244">
--alias \<alias\_name\>
+-alias (alias_name)
 
 </td>
 <td width="17">
@@ -85,7 +85,7 @@ An alias for the key. Only the first 8 characters of the alias are used.
 </tr>
 <tr>
 <td width="244">
--keyalg \<alg\>
+-keyalg (alg)
 
 </td>
 <td width="17">
@@ -97,7 +97,7 @@ The encryption algorithm to use when generating the key. Both DSA and RSA are su
 </tr>
 <tr>
 <td width="244">
--keysize \<size\>
+-keysize (size)
 
 </td>
 <td width="17">
@@ -109,7 +109,7 @@ The size of each generated key (bits). If not supplied, Keytool uses a default k
 </tr>
 <tr>
 <td width="244">
--dname \<name\>
+-dname (name)
 
 </td>
 <td width="17">
@@ -123,7 +123,7 @@ Note that you do not need to specify this option in the command line. If not sup
 </tr>
 <tr>
 <td width="244">
--keypass \<password\>
+-keypass (password)
 
 </td>
 <td width="17">
@@ -135,7 +135,7 @@ The password for the key.  As a security precaution, do not include this option
 </tr>
 <tr>
 <td width="244">
--validity \<valdays\>
+-validity (valdays)
 
 </td>
 <td width="17">
@@ -147,7 +147,7 @@ The validity period for the key, in days.  Note: A value of 10000 or greater is
 </tr>
 <tr>
 <td width="244">
--keystore \<keystore-name\>.keystore
+-keystore (keystore-name).keystore
 
 </td>
 <td width="17">
@@ -159,7 +159,7 @@ A name for the keystore containing the private key.
 </tr>
 <tr>
 <td width="244">
--storepass \<password\>
+-storepass (password)
 
 </td>
 <td width="17">
