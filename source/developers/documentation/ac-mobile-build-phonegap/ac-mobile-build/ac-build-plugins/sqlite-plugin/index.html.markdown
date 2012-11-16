@@ -81,7 +81,7 @@ All functions are called on the created PGSQLitePlugin object:
         obj.status - number, 0 - database opened, 1 - database created, 2 - database created from resources
     second argument - db - database object
     errorOpenDatabaseFunction - error callback function
-     
+## Example     
     var db = new PGSQLitePlugin("testdb.sqlite3", function(dbResult, dbObject){
         console.log("Database status=" + dbResult.status);
         console.log("Database version=" + dbResult.version);
@@ -91,9 +91,6 @@ All functions are called on the created PGSQLitePlugin object:
     });
      
      
-   
-
-## Example
 
 ## **See**
 
@@ -102,4 +99,3 @@ All functions are called on the created PGSQLitePlugin object:
 ## See Also
 
  - [Mobile & Client Side Data Storage](/developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/)
-
