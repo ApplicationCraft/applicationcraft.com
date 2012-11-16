@@ -36,12 +36,9 @@ How you can get the current location.
     }
     function handler_actionBtn_onClick(mouseev){
         //Detect where I am
-        app.w('googleMapsAdvanced').
+        app.w('googleMapsAdvanced').whereAmI
     (onLocationUpdated);
      }
-   
-
-**whereAmI**
 
 ## See Also
 
