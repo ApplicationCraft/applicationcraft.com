@@ -6,9 +6,7 @@ full_width: true
 ---
 
 
-**close**
-
-    (success, error)
+**close**(success, error)
    
 
 ## Parameters
