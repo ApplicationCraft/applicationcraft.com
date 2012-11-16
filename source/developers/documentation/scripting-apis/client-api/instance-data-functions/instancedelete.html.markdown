@@ -108,6 +108,10 @@ This example shows instanceDelete() operating on a local instance and calls the 
             }
         });
     }
+
+
+The next example specifies the Container Widget as the first parameter, so AC will delete the foreign Instance that currently is loaded into that Container.  Please read the [Using AC App Storage](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/) chapter for details on working with local and foreign Instances.
+
     function handler_btnContDelete_onClick(mouseev){
         app.instanceDelete('dcContacts', undefined, undefined, function(error, status){
             if(error===null) {
@@ -119,14 +123,14 @@ This example shows instanceDelete() operating on a local instance and calls the 
             }
            });
     }
+
+The next example specifies the Container Widget as the first parameter, so AC will delete from the external database the content that currently is loaded into that Container. Please read the [Using External Databases](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for details on working with external databases.
+
     function handler_btnContDelete_onClick(mouseev){
           app.instanceDelete('dcContacts', undefined, undefined);
        }
    
 
-The next example specifies the Container Widget as the first parameter, so AC will delete the foreign Instance that currently is loaded into that Container.  Please read the [Using AC App Storage](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/) chapter for details on working with local and foreign Instances.
-
-The next example specifies the Container Widget as the first parameter, so AC will delete from the external database the content that currently is loaded into that Container. Please read the [Using External Databases](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for details on working with external databases.
 
 ## See Also
 
@@ -140,4 +144,3 @@ The next example specifies the Container Widget as the first parameter, so AC wi
  - [instanceLoad()](/developers/documentation/scripting-apis/client-api/instance-data-functions/instanceload)
  - [dataGetValues()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
  - [dataGetStates()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
-
