@@ -117,12 +117,10 @@ Note that the returned directions are presented via a callback function.
         };
           
         app.w('googleMapsAdvanced').getDirections(getDirectionsCallback, "Moscow", "Minsk", true, {}, rendererOptions);
-        app.w('googleMapsAdvanced').
+        app.w('googleMapsAdvanced').getDirections
     (getDirectionsCallback, [37.7, -97.2], "Oklahoma City");
     }
-   
 
-**getDirections**
 
 ## See Also
 
