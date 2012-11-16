@@ -34,11 +34,14 @@ You are able to supply the GROUP BY clause by specifying one of more fields (use
     selectObj = cObj.select().from("customers").group('country');
     result = cObj.exec(selectObj);
     return(result);
+
+## 2 Fields Example
     selectObj = cObj.select().from("customers").group(['country', 'state']);
+
+## Alternative 2 Fields Example
     selectObj = cObj.select().from("customers").group('country').group('state');
    
 
-## 2 Fields Example
 
-## Alternative 2 Fields Example
+
 
