@@ -25,10 +25,13 @@ To download your App from Application Craft, you will need to go to the Console,
 In the downloaded App, you will need to make a modification to your index.html file. Locate the script tag and you will see the phonegap.js file is referenced. This is the correct file for Phonegap:Build but not for using Phonegap directly.
 
     <script src="phonegap.js">
+
+You should modify this to point to the version on Phonegap you are using, for example
+
     <script src="phonegap-1.2.0.js">
    
 
-You should modify this to point to the version on Phonegap you are using, for example
+
 
 ## Modifying your XCode Project
 
@@ -39,4 +42,3 @@ If you are building an App for iOS and you are using the httpRequest() or soapRe
 As shown in the screenshot above, locate your project folder. Within it you will see a folder called 'Supporting Files' where you will find PhoneGap.plist. In the right hand pane will be an entry External Hosts. You should add any domains that should allow crossdomain access. You can add multiple entries and use wildcards where appropriate.
 
 To allow access to all and any domains, simply add a single entry with \*.
-
