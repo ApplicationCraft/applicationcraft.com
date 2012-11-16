@@ -21,22 +21,36 @@ If you have any array of the following object
         maxtempF, 
         hourly[10].pressure
     }
+
+In this case, there are 10 hourly pressure readings per day. We want to take just the first reading and populate that into a Repeater, in other words access hourly[0].pressure. You would use the following mapping object.
+
     var mapObject = {
         'lblOne' : 'maxtempC',
         'lblTwo' : 'maxtempF',
         'lblThree' : ['hourly', 0 ,'pressure']
     }; 
-    media:group.media:thumbnail.url
+
+## Example 2
+
+Here is another mapping object example from an App that grabs Flickr data and writes it to a Repeater. Notice that the 'imgURL' field maps to something that looks rather nasty. In fact, this is telling AC to look at `media:group.media:thumbnail.url`.
+    
     var mapObject = {
         'imgURL' : ['media:group','media:thumbnail','url'], // look for the corresponding location in the JSON data below
         'lblLink' : 'link',
         'lblTitle' : 'title'
     };
+
+If you were populating a Grid, you would use column indexes within your Grid, so
+
     var mapObject = {
         0 : ['media:group','media:thumbnail','url'], // look for the corresponding location in the JSON data below
         1 : 'link',
         2 : 'title'
     };
+
+
+and here is a bit of the JSON object that the Flickr Web Service returns and is going to be mapped into a Grid or Repeater.
+
     {
        "length":"0",
        "url":"http://farm6.static.flickr.com/5245/5254676655_78ba530110.jpg",
@@ -55,14 +69,3 @@ If you have any array of the following object
        "y:published":{"utime":"1292182256"}
     }
    
-
-In this case, there are 10 hourly pressure readings per day. We want to take just the first reading and populate that into a Repeater, in other words access hourly[0].pressure. You would use the following mapping object.
-
-## Example 2
-
-Here is another mapping object example from an App that grabs Flickr data and writes it to a Repeater. Notice that the 'imgURL' field maps to something that looks rather nasty. In fact, this is telling AC to look at .
-
-If you were populating a Grid, you would use column indexes within your Grid, so
-
-and here is a bit of the JSON object that the Flickr Web Service returns and is going to be mapped into a Grid or Repeater.
-

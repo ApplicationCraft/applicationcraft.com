@@ -57,19 +57,17 @@ The following examples show different ways to get data into an object.
 This one gets all widget values, and also any labels (there is only one label in the App lblTitle)..
 
         var o = app.dataGetValues(true);
-    page1
-    txtLast
-        var p = app.dataGetValues(["page1", "txtLast"]);
-    txtFirst
-    txtSummary
-        var q = app.dataGetValues(["txtFirst", "txtSummary"]);
    
 
 ![getData-object](/img/docs/getdata-object.png)
 
-This example extracts all widgets from and the single widget . Label values are not returned as the optional parameter has been omitted.
+This example extracts all widgets from  and the single widget txtLast. Label values are not returned as the optional parameter has been omitted.
 
-This example extracts the widgets and .
+		var p = app.dataGetValues(["page1", "txtLast"]);
+
+This example extracts the widgets txtFirst and txtSummary. 
+
+        var q = app.dataGetValues(["txtFirst", "txtSummary"]);
 
 ## See Also
 
@@ -79,4 +77,3 @@ This example extracts the widgets and .
  - [Server Side Data Storage](/developers/documentation/product-guide/data-storage/server-side-data-storage/)
  - [SSJ database functions](/developers/documentation/product-guide/data-storage/server-side-data-storage/)
  - [Instance Data Functions](/developers/documentation/scripting-apis/client-api/instance-data-functions/)
-

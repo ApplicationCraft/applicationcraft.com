@@ -62,13 +62,10 @@ Please note: The highlighting is handled with CSS shadow. This is set to render 
 ## Example
 
     app.highlightWidgets(["timeColor", "shapeColor"], "#22ff22", 40);
-     
+or   
+
     app.highlightWidgets(["timeColor"]);
    
-
-or
-
-.
 
 ## See Also
 

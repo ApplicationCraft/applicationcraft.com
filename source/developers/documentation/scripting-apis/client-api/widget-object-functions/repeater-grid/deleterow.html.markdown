@@ -36,15 +36,12 @@ These two show a specific row being deleted from a Grid or a Container
 
     app.w('repeatContainer1').deleteRow(rowIndex);  // deletes a specific row
     app.w('grid2').deleteRow(rowIndex);
-     
-    _widget.parent().rowIndex()
+
+And this shows a typical example of a Delete button being pressed in a Repeater row. The function `_widget.parent().rowIndex()` returns the row index of the parent (which is a row) of the delete button.     
+    
     rowObj = app.w('myRepeater').deleteRow(_widget.parent().rowIndex());
      
      
-     
-   
-
-And this shows a typical example of a Delete button being pressed in a Repeater row. The function returns the row index of the parent (which is a row) of the delete button.
 
 **Important** : Repeater containers can have complex, nested container structures, so if you are having problems refer to the [parent()](/developers/documentation/scripting-apis/client-api/widget-object-functions/general/parent) topic.
 
@@ -55,4 +52,3 @@ And this shows a typical example of a Delete button being pressed in a Repeater 
  - [deleteSelectedRows()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows)
  - [insertRow()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow)
  - [Widget Object](/developers/documentation/scripting-apis/client-api/objects-titbits/widget-object)
-

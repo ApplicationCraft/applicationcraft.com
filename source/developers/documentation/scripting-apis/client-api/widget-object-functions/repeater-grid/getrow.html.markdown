@@ -51,6 +51,9 @@ The following example shows the onRowLoaded event that is called as each individ
         netOilBbls=rowObj.w("numTotOilBbls").value()-rowObj.w("numH2OBbls").value();
         rowObj.w("numNetOilBbls").value(netOilBbls);
     }
+
+This next example shows how a loop could perform the same operation rather than using the onRowLoaded event
+
     function handler_abCalcNet_onClick(mouseev){
         for(i=0; i<app.w('rcReadings').rowCount(); i++) {
             rowObj=app.w("rcReadings").getRow(i);
@@ -59,7 +62,7 @@ The following example shows the onRowLoaded event that is called as each individ
     }
    
 
-This next example shows how a loop could perform the same operation rather than using the onRowLoaded event
+
 
 ## See Also
 
@@ -67,4 +70,3 @@ This next example shows how a loop could perform the same operation rather than 
  - [rowIndex()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
  - [parent()](/developers/documentation/scripting-apis/client-api/widget-object-functions/general/parent)
  - [Widget Object](/developers/documentation/scripting-apis/client-api/objects-titbits/widget-object)
-

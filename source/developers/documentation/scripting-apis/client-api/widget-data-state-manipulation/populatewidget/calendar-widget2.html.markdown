@@ -27,6 +27,9 @@ In the mapping object should use precise key names as shown below
         text : "text",
         description : "description"
     };
+
+Below are 2 hard-coded examples of an array of 2 events being populated into a [Calendar](/developers/documentation/product-guide/widget-properties-events/advanced/calendar) Widget
+
         var data = [{
             end  : 1329442214983,
             startTime: 1329355814983,
@@ -74,11 +77,8 @@ In the mapping object should use precise key names as shown below
         app.populateWidget("Calendar1", data, map);
    
 
-Below are 2 hard-coded examples of an array of 2 events being populated into a [Calendar](/developers/documentation/product-guide/widget-properties-events/advanced/calendar) Widget
-
 Note that you can map from any key name in your data array with the map object. You can omit any fields you don't need to populate.
 
 ## See Also
 
  - [Calendar Widget](/developers/documentation/product-guide/advanced-important-widgets/calendar-widget/)
-

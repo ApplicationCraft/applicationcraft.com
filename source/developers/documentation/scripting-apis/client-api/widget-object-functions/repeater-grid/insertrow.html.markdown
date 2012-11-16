@@ -86,11 +86,12 @@ The following examples inserts a new row at the top of a Repeater Container and 
 
     app.w('repeater').insertRow('top', {'lblItem':'Hammer', 'lblPrice':9.55});
      
-     
+and this one does the same to a Grid  
+   
     app.w('grid').insertRow('top', ['Hammer', 9.55]);
    
 
-and this one does the same to a Grid
+
 
 ## See Also
 
@@ -101,4 +102,3 @@ and this one does the same to a Grid
  - [rowIndex()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex)
  - [getRow()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow)
  - [Widget Object](/developers/documentation/scripting-apis/client-api/objects-titbits/widget-object)
-

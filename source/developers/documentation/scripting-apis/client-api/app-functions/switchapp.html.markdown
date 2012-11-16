@@ -82,9 +82,11 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 </td>
 </tr>
 </table>
+
 Or
 
 **switchApp** (objParameters);
+
 
 <table>
 <tr>
@@ -100,20 +102,6 @@ Or
         formInstanceId: "1234-12354-1234", 
         twirlyThing:{bgColor: "silver"}, // full twirlyThing object described below
         inputParams: inputParams}  // inputParams object described below
-       {state:true,
-        text:"text",
-        textColor:"000000",
-        bgColor:"ffffff,
-        opacity:100
-       }
-       someParam1: "someValue", 
-        someParam2: 123
-        someParamN: paramN
-       }
-       app.switchApp('7eb99414-8584-4fbe-a9ba-3fa8d3f50df6');
-       app.switchApp({appId: "6ec70b3b-4cdb-468d-b0bc-0e6230aa771c", pageName: "my page", formInstance:'7eb99414-8584-4fbe-a9ba-3fa8d3f50df6'});
-      
-
 </td>
 </tr>
 </table>
@@ -122,19 +110,33 @@ Or
 
 You can control the hourglass appearance using the following object
 
+	{state:true,
+	 text:"text",
+	 textColor:"000000",
+	 bgColor:"ffffff,
+	 opacity:100
+	}
+
 ## inputParams Object
 
 This object is used to pass parameters in the same way as you would pass them in the querystring.
 
-{
+	{someParam1: "someValue", 
+     someParam2: 123
+     someParamN: paramN
+    }
 
 ## Description - Simple Switch
 
 This function is used to switch from the current App to the APP specified by the appID string. You only supply a single parameter.
 
+ `app.switchApp('7eb99414-8584-4fbe-a9ba-3fa8d3f50df6');`
+
 ## Description - Detailed Switch
 
 If you want to specify not just the App to switch to but also the Page within that App that should be displayed and/or the App Instance that should be loaded, then you should supply the following object.
+
+ `app.switchApp({appId: "6ec70b3b-4cdb-468d-b0bc-0e6230aa771c", pageName: "my page", formInstance:'7eb99414-8584-4fbe-a9ba-3fa8d3f50df6'});`
 
 You must always specify the appId but can then specify either the pageName or the formInstance or both.
 

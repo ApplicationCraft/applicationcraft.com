@@ -58,13 +58,15 @@ Each object can contain any number of widgets but must be formatted as follows. 
      "enabled":true|false
      }
     };
-        var rObj = {"txtFirst":{"visible":false}, "txtLast":{"visible":false}};
-        app.dataSetStates(rObj);
+        
    
 
 ## Examples
 
 The following example populates two widgets. The third widget does not exist but the system will simply ignore it, so it is safe to mix in other key fields.
+
+		var rObj = {"txtFirst":{"visible":false}, "txtLast":{"visible":false}};
+        app.dataSetStates(rObj);
 
 ## See Also
 
@@ -74,4 +76,3 @@ The following example populates two widgets. The third widget does not exist but
  - [Server Side Data Storage](/developers/documentation/product-guide/data-storage/server-side-data-storage/)
  - [SSJ database functions](/developers/documentation/product-guide/data-storage/server-side-data-storage/)
  - [Instance Data Functions](/developers/documentation/scripting-apis/client-api/instance-data-functions/)
-
