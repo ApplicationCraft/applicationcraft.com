@@ -94,6 +94,9 @@ This example shows instanceCreate() being used on a 'local' instance (if the fir
              app.instanceUpdate(undefined, undefined, cbCompSave);
          }
     }
+
+The next example specifies the Container Widget as the first parameter, so AC will update the foreign Instance that currently is loaded into that Container. Please read the [Using AC App Storage](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/) chapter for details on working with local and foreign Instances.
+
     function handler_btnContSave_onClick(mouseev){
         if(g_ContactNew) {
             app.instanceCreate('dcContacts', undefined, function(error, status){ 
@@ -116,6 +119,9 @@ This example shows instanceCreate() being used on a 'local' instance (if the fir
             });    
         }
     }
+
+The next example specifies the Container Widget as the first parameter, so AC will update the external database with  the content that currently is loaded into that Container. Please read the [Using External Databases](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for details on working with external databases.
+
     function handler_btnContSave_onClick(mouseev){
         if(g_ContactNew) {
             app.instanceCreate('dcContacts', undefined, undefined)
@@ -127,9 +133,6 @@ This example shows instanceCreate() being used on a 'local' instance (if the fir
        }
    
 
-The next example specifies the Container Widget as the first parameter, so AC will update the foreign Instance that currently is loaded into that Container. Please read the [Using AC App Storage](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/) chapter for details on working with local and foreign Instances.
-
-The next example specifies the Container Widget as the first parameter, so AC will update the external database with  the content that currently is loaded into that Container. Please read the [Using External Databases](/developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/) chapter for details on working with external databases.
 
 ## See Also
 
@@ -143,4 +146,3 @@ The next example specifies the Container Widget as the first parameter, so AC wi
  - [instanceSync()](/developers/documentation/scripting-apis/client-api/instance-data-functions/instancesync)
  - [dataGetValues()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues)
  - [dataGetStates()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetstates)
-
