@@ -131,20 +131,6 @@ Cancels any outstanding repeat notifications queued (reminders, typically)
 
 </td>
 </tr>
-<tr>
-<td width="230">
-</td>
-<td width="13">
-</td>
-<td width="637">
-</td>
-</tr>
-<tr>
-<td width="230">
-</td>
-<td width="13">
-</td>
-<td width="637">
-</td>
-</tr>
+
+
 </table>
