@@ -8,7 +8,7 @@ full_width: true
 
 iOS Assist is a Application Craft service, so whether you have a Mac or not, you simply get in touch with Application Craft Support (support@applicationcraft.com) and we will take care of all the tricky steps for you.
 
-Whether you use iOS Assist or you do everything yourself, you will need to sign up for an [Apple Developer Account](https://developer.apple.com) . At the time of writing, this costs \$99 per year for an account.
+Whether you use iOS Assist or you do everything yourself, you will need to sign up for an [Apple Developer Account](https://developer.apple.com) . At the time of writing, this costs $99 per year for an account.
 
 Our **iOS Assist** service offers the following
 
