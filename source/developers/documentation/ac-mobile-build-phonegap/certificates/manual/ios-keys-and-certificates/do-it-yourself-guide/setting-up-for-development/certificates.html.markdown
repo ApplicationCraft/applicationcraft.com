@@ -34,19 +34,9 @@ Back in the iOS Provisioning Portal in your browser, click on the Request Certif
 
  - Click Continue.
 
-<table>
-<tr>
-<td width="13">
- - 
 
-</td>
-The Certificate Assistant saves a Certificate Signing Request (CSR) file to your Desktop. The file is called
-
-      CertificateSigningRequest.certSigningRequest
+ - The Certificate Assistant saves a Certificate Signing Request (CSR) file to your Desktop. The file is called CertificateSigningRequest.certSigningRequest
      
-
-</tr>
-</table>
 
 Now go back to the Portal in the browser and upload the CSR file as follows
 
