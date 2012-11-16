@@ -25,6 +25,9 @@ $ ->
     div.find('a').attr 'href', "http://#{domains[0]}"
     div.show()
 
+    redirect_to = -> document.location = "http://#{domains[0]}"
+    setTimeout redirect_to, 5000
+
   else if domains.length > 1
     div = $('#chrome-signin-list')
     list = div.find('ul')
