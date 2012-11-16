@@ -1,0 +1,97 @@
+body.cws {
+
+  header {
+    background: #666 image-url('bgcloth.png') repeat;
+    font-size: 0.8em;
+    padding: 20px 0;
+
+    .container {
+      margin: 0 auto;
+      display: table;
+
+      @include apply-to(less-than, iphone-landscape) {
+        margin: 0 20px;
+      }
+
+      > div {
+        @include apply-to(more-than, ipad-landscape) {
+          margin-left: 170px;
+        }
+
+        h1 {
+          color: $cream;
+          font: 30px gotham_thinregular;
+          text-transform: uppercase;
+          padding: 0;
+          margin: 0;
+        }
+
+        h2 {
+          color: $cream;
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  #chrome-signup {
+    display: none;
+
+    section {
+      float: left;
+    }
+
+    section:first-child {
+      width: 44%;
+      margin: 30px 50px 0 100px;
+    }
+
+    section:last-child {
+      width: 35%;
+
+      img {
+        position: relative;
+        top: -32px;
+        margin: 0 0 0 90px;
+      }
+    }
+  }
+
+  #chrome-signin {
+    display: none;
+
+    img {
+      float: right;
+      position: relative;
+      top: -32px;
+      margin: 0 150px 0 0;
+    }
+
+    div {
+      width: 40%;
+      margin: 65px 0 80px 172px;
+
+      p:last-child {
+        font-size: 12px;
+        color: #666;
+      }
+    }
+  }
+
+  #chrome-signin-list {
+    display: none;
+
+    img {
+      float: right;
+      position: relative;
+      top: -32px;
+      margin: 0 150px 0 0;
+    }
+
+    div {
+      width: 40%;
+      margin: 65px 0 80px 172px;
+    }
+  }
+}

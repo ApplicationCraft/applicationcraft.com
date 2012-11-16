@@ -1674,7 +1674,7 @@ tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?length.htm', title: rowCount(),
           url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/length}
         - {old_url: '/revisions/current/docs/user-guide/index.html?rowindex.htm',
-          title: rowIndex(), url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid}
+          title: rowIndex(), url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex}
         - {old_url: '/revisions/current/docs/user-guide/index.html?children.htm',
           title: search(), url: /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/children}
         - {old_url: '/revisions/current/docs/user-guide/index.html?setselectedrow.htm',
