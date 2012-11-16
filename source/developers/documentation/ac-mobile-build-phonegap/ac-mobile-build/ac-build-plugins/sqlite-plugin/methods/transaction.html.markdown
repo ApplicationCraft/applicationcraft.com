@@ -6,9 +6,7 @@ full_width: true
 ---
 
 
-**transaction**
-
-    (fn, success, error)
+**transaction**(fn, success, error)
    
 
 ## Parameters
@@ -55,7 +53,9 @@ error callback function
 </tr>
 </table>
 ## Description
+This function executes SQL transactions
 
+## Example
      
      
     db.transaction(function(tr){
@@ -70,7 +70,5 @@ error callback function
     });
    
 
-This function executes SQL transactions
 
-## Example
 
