@@ -14,7 +14,7 @@ The first step is to visit the Google Play Android Developer Console and registe
 
  - Read and accept the Developer Distribution Agreement that applies to your country or region. Note that apps and store listings that you publish on Google Play must comply with the Developer Program Policies and US export law.
 
- - Pay a \$25 USD registration fee using Google Checkout. If you don't have a Google Checkout account, you can quickly set one up during the process.
+ - Pay a $25 USD registration fee using Google Checkout. If you don't have a Google Checkout account, you can quickly set one up during the process.
 
  - When your registration is verified, you’ll be notified at the email address you specified during registration.
 
