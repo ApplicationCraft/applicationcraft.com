@@ -71,9 +71,8 @@ This calls the Application Craft server to handle oAuth authentication to the re
 Please refer to the User Guide [oAuth chapter](/developers/documentation/product-guide/advanced-features/oauth/) for a general overview and examples.
 
     function mySSJFunction(userAuthKey, myTwitterId) {
-        return ssj.oAuthRequest(userAuthKey, 
-    None
-            'GET',{user_id: myTwitterId, count: 1});
+        return ssj.oAuthRequest(userAuthKey, 'https://api.twitter.com/1.1/statuses/user_timeline.json', 
+			'GET',{user_id: myTwitterId, count: 1});
     }
    
 
