@@ -39,6 +39,43 @@ end
 ::Middleman::Extensions.register(:docs_redirect, DocsRedirect)
 
 
+module DocSearch
+  class << self
+    def registered(app)
+      app.after_build do |builder|
+        rules = []
+        YAML::load(File.read("data/documentation.yml"))['tree'].each do |data|
+          rules << DocSearch.build_rule(data)
+        end
+
+        data = '{"pages":[{' + rules.join("},{") + '}]}'
+        builder.create_file 'build/js/doc_search_pages.json', data
+        builder.create_file 'source/js/doc_search_pages.json', data
+      end
+    end
+    alias :included :registered
+
+    def build_rule(data)
+      rules = []
+
+      if data['old_url']
+        old = data['old_url'].split('?').last
+        rules << '"title":"' + data['title'] + '","text":"' + data['title'] + '","loc":"' + data['url'] + '"'
+
+        if data['tree']
+          data['tree'].each do |dat|
+            rules << DocSearch.build_rule(dat)
+          end
+        end
+      end
+
+      rules
+    end
+  end
+end
+::Middleman::Extensions.register(:doc_search, DocSearch)
+
+
 ###
 # Compass
 ###
@@ -71,6 +108,8 @@ end
 
 page "/blog/feed.xml", :layout => false
 page "/developers/documentation/*", :layout => :docs
+
+# ignore "/developers/documentation/*"
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
@@ -124,6 +163,7 @@ end
 # Build-specific configuration
 configure :build do
   activate :docs_redirect
+  activate :doc_search
 
   # For example, change the Compass output style for deployment
   activate :minify_css

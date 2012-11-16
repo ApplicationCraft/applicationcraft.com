@@ -31,14 +31,24 @@
     <%= tree_for :documentation %>
 
     <article>
+
+<div><input type="text" id="tipue_search_input"></div>
+<div><input type="button" id="tipue_search_button" value="Search" class="btn"></div>
+<div id="tipue_search_content"></div>
+
       <h1><%= current_page.data.title %></h1>
       <%= yield %>
     </article>
 
   </div>
 
+  <% content_for :head do %>
+    <%= stylesheet_link_tag 'lib/rainbow/github' %>
+  <% end %>
 
-  <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
-  <%= stylesheet_link_tag 'lib/rainbow/github' %>
+  <% content_for :foot do %>
+    <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+    <%= javascript_include_tag 'vendor/tipuesearch', 'vendor/tipuesearch_set' %>
+  <% end %>
 
 <% end %>
