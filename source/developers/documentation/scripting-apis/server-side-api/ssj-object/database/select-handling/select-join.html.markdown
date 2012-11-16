@@ -231,27 +231,30 @@ The following examples cover a few typical scenarios joining tables. Note the la
     result = cObj.exec(selectObj);
     return result; 
      
+## SELECT c.\*, o.\* FROM customers AS C INNER JOIN orders AS o ON o.customerNumber=c.customerNumber
      
     cObj = ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
     selectObj = cObj.select().from({c:"customers"}).join({o:"orders"}, "o.customerNumber=c.customerNumber");   
     result = cObj.exec(selectObj);
     return result; 
      
-     
+## SELECT c.customerName as cCust, c.contactLastName as cName, c.customerNumber as cNum, o.\* FROM customers AS c INNER JOIN orders AS o ON o.customerNumber=c.customerNumber    
      
     cObj = ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
     selectObj = cObj.select().from({c:"customers"}, {cCust:"customerName", cName:"contactlastName", cNum:"customerNumber"}).join({o:"orders"}, "c.customerNumber=o.customerNumber");   
     result = cObj.exec(selectObj);
     return result; 
+
+## SELECT orderdetails.\*, orders.\*, customers.\* FROM orderdetails INNER JOIN orders ON orderdetails.orderNumber=orders.orderNumber INNER JOIN customers ON orders.customerNumber=customers.customerNumber
+
     cObj = ssj.getConnection("abcdef12-aacb-47da-b35d-0c88dbdcb228");
     selectObj = cObj.select().from("orderdetails").join("orders", "orderdetails.orderNumber=orders.orderNumber").join("customers", "orders.customerNumber=customers.customerNumber");
     result = cObj.exec(selectObj);
     return result; 
    
 
-## SELECT c.\*, o.\* FROM customers AS C INNER JOIN orders AS o ON o.customerNumber=c.customerNumber
 
-## SELECT c.customerName as cCust, c.contactLastName as cName, c.customerNumber as cNum, o.\* FROM customers AS c INNER JOIN orders AS o ON o.customerNumber=c.customerNumber
 
-## SELECT orderdetails.\*, orders.\*, customers.\* FROM orderdetails INNER JOIN orders ON orderdetails.orderNumber=orders.orderNumber INNER JOIN customers ON orders.customerNumber=customers.customerNumber
+
+
 
