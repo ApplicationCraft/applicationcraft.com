@@ -401,7 +401,7 @@ Battery
 
 </td>
 <td width="635">
-maps to android:BROADCAST\_STICKY permission
+maps to android:BROADCAST_STICKY permission
 
 </td>
 </tr>
@@ -414,7 +414,7 @@ Camera
 
 </td>
 <td width="635">
-maps to android:CAMERA, winphone:ID\_CAP\_ISV\_CAMERA, and winphone:ID\_HW\_FRONTCAMERA permissions
+maps to android:CAMERA, winphone:ID_CAP_ISV_CAMERA, and winphone:ID_HW_FRONTCAMERA permissions
 
 </td>
 </tr>
@@ -427,7 +427,7 @@ Contacts
 
 </td>
 <td width="635">
-maps to android:READ\_CONTACTS, android:WRITE\_CONTACTS, android:GET\_ACCOUNTS, and winphone:ID\_CAP\_CONTACTS permissions
+maps to android:READ_CONTACTS, android:WRITE_CONTACTS, android:GET_ACCOUNTS, and winphone:ID_CAP_CONTACTS permissions
 
 </td>
 </tr>
@@ -440,7 +440,7 @@ File
 
 </td>
 <td width="635">
-maps to WRITE\_EXTERNAL\_STORAGE permission
+maps to WRITE_EXTERNAL_STORAGE permission
 
 </td>
 </tr>
@@ -453,7 +453,7 @@ Geolocation
 
 </td>
 <td width="635">
-maps to android:ACCESS\_COARSE\_LOCATION, android:ACCESS\_FINE\_LOCATION, android:ACCESS\_LOCATION\_EXTRA\_COMMANDS, and winphone:ID\_CAP\_LOCATION permissions
+maps to android:ACCESS_COARSE_LOCATION, android:ACCESS_FINE_LOCATION, android:ACCESS_LOCATION_EXTRA_COMMANDS, and winphone:ID_CAP_LOCATION permissions
 
 </td>
 </tr>
@@ -466,7 +466,7 @@ Media
 
 </td>
 <td width="635">
-maps to android:RECORD\_AUDIO, android:RECORD\_VIDEO, android:MODIFY\_AUDIO\_SETTINGS, and winphone:ID\_CAP\_MICROPHONE permissions
+maps to android:RECORD_AUDIO, android:RECORD_VIDEO, android:MODIFY_AUDIO_SETTINGS, and winphone:ID_CAP_MICROPHONE permissions
 
 </td>
 </tr>
@@ -479,7 +479,7 @@ Network
 
 </td>
 <td width="635">
-maps to android:ACCESS\_NETWORK\_STATE, and winphone:ID\_CAP\_NETWORKING permissions
+maps to android:ACCESS_NETWORK_STATE, and winphone:ID_CAP_NETWORKING permissions
 
 </td>
 </tr>
@@ -505,9 +505,8 @@ Device
 
 </td>
 <td width="635">
-maps to winphone:ID\_CAP\_IDENTITY\_DEVICE permission
+maps to winphone:ID_CAP_IDENTITY_DEVICE permission
 
 </td>
 </tr>
 </table>
-
