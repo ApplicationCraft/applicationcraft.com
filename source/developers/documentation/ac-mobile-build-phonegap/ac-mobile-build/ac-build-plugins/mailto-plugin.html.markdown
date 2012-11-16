@@ -62,7 +62,7 @@ True(default)/False. If True will present a message to users if the app is not b
 </td>
 </tr>
 </table>
-.
+
 
 ## Parameters
 
