@@ -19,7 +19,7 @@ full_width: true
 <td width="20">
 </td>
 <td width="702">
-    the Name or GUID of the Widget. This can be either a string or a widget object as available from <a href="/developers/documentation/scripting-apis/client-api/objects-titbits/ref-widget">\_widget</a> or other <a href="/developers/documentation/scripting-apis/client-api/objects-titbits/widget-object">widget object</a> functions.
+    the Name or GUID of the Widget. This can be either a string or a widget object as available from <a href="/developers/documentation/scripting-apis/client-api/objects-titbits/ref-widget">_widget</a> or other <a href="/developers/documentation/scripting-apis/client-api/objects-titbits/widget-object">widget object</a> functions.
 
 </td>
 </tr>
