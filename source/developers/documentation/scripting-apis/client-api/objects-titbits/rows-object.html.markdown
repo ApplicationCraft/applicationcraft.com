@@ -15,7 +15,11 @@ The rows object is used to populate Grid, Listbox and Dropdown Widgets and is al
             {"data":["RU","Russia","96 million"], "id":3}
            ]};
         app.setData('myGrid', griddata);
-     
+
+The data property contains an array of strings corresponding to each grid column.
+
+For List and Dropdown Widgets, the data property should have two elements inside the array. The first is the text to be displayed and the second contains the select value. Any other properties will be ignored.
+
         var colorObject = { "rows" : [
              {"junk":1, "data":["Red", "#ff0000"],"ind":1},
              {"junk":1, "data":["Green","#00ff00"],"ind":2},
@@ -26,7 +30,5 @@ The rows object is used to populate Grid, Listbox and Dropdown Widgets and is al
      
    
 
-The data property contains an array of strings corresponding to each grid column.
 
-For List and Dropdown Widgets, the data property should have two elements inside the array. The first is the text to be displayed and the second contains the select value. Any other properties will be ignored.
 
