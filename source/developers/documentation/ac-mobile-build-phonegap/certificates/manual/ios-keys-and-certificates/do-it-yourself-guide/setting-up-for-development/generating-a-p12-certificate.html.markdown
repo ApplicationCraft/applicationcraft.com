@@ -12,12 +12,7 @@ You will need to generate a P12 Certificate which needs to be provided to the [A
 
 ![iosa-p12-2](/img/docs/iosa-p12-2.zoom67.png)
 
-Click on the Download button within the iOS Portal as shown above. You should end up with a file called
-
-    ios_development.cer
-   
-
-on your PC.
+Click on the Download button within the iOS Portal as shown above. You should end up with a file called ios_development.cer on your PC.
 
 ![iosa-p12-3](/img/docs/iosa-p12-3.zoom68.png)
 
