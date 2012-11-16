@@ -13,7 +13,7 @@ full_width: true
 ## Example
 
      
-    app.w('YouTube').getYouTubePlayer().clearVideo();
+    app.w('YouTube').getYouTubePlayer().volume();
      
    
 
