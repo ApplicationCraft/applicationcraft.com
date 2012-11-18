@@ -13,6 +13,32 @@ Server Side Javascript can be found in the AC IDE in the usual; place. In the co
 If you write your handlers as public, then you will need to explicitly include these within your App's private Server Scripts by adding the following line of code (in our example, you would add it to the DB Demo virtual file).
 
     include('Virtual Folder 1|Virtual Folder 2|Virtual File');
+
+If your Server Public area does not have any folders created within it, then just specify the Virtual File
+
+## Explanation of Server Folder Structure
+
+You can see the folder structure we have created in the above screenshot. You can manage this folder structure by right-clicking in the list. The structure we have created is entirely arbitrary and you are free to organize your code as you wish.
+
+ - DB Demo is automatically created by AC and is the main SSJ Private Folder. We have created a single function 'acDemoWS' to handle all requests from the Client.
+
+ - We then created a folder 'DB Selects' which handles all Select type functions (getCustomers(), getCustomer)
+
+ - ... and another folder 'DB Updates' which handles the rest (addNewCustomer(), updateCustomers(), deleteCustiomer())
+
+## Database Methods Documentation
+
+All of the SSJ Database methods are fully documented in the [SSJ Database](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/) section.
+
+## Error Handling
+
+Application Craft handles the errors automatically. If an error is thrown then the client side callback is invoked, the error value is set to true and the data parameter will contain the error message. If your SSJ code includes validations or other logic then you can also throw an error explicitly using the javascript throw(exception) statement where exception can be a string, value or object. This is then passed back to your callback.
+
+## DB Demo Folder
+
+This contains only the acDemoWS() function, which handles all requests and uses a switch statement to route the request onwards.
+
+
     // This SSJ function handles all DB methods for the AC Demo App
     function acDemoWS(p) {
      
@@ -45,6 +71,10 @@ If you write your handlers as public, then you will need to explicitly include t
        }
         
     }
+
+## DB Selects Folder Functions
+
+These functions handle the two Select operations.
      
     // Handles all SELECT type DB fetches
      
@@ -68,6 +98,10 @@ If you write your handlers as public, then you will need to explicitly include t
         result = cObj.exec(selectObj);
         return result;
     }
+
+## DB Updates
+
+These functions handle the Insert, Update and Delete operations.
      
     // Add a new customer to the customers table
     function _addNewCustomer(cObj, p) {
@@ -92,35 +126,7 @@ If you write your handlers as public, then you will need to explicitly include t
      
    
 
-If your Server Public area does not have any folders created within it, then just specify the Virtual File
 
-## Explanation of Server Folder Structure
 
-You can see the folder structure we have created in the above screenshot. You can manage this folder structure by right-clicking in the list. The structure we have created is entirely arbitrary and you are free to organize your code as you wish.
 
- - DB Demo is automatically created by AC and is the main SSJ Private Folder. We have created a single function 'acDemoWS' to handle all requests from the Client.
-
- - We then created a folder 'DB Selects' which handles all Select type functions (getCustomers(), getCustomer)
-
- - ... and another folder 'DB Updates' which handles the rest (addNewCustomer(), updateCustomers(), deleteCustiomer())
-
-## Database Methods Documentation
-
-All of the SSJ Database methods are fully documented in the [SSJ Database](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/) section.
-
-## Error Handling
-
-Application Craft handles the errors automatically. If an error is thrown then the client side callback is invoked, the error value is set to true and the data parameter will contain the error message. If your SSJ code includes validations or other logic then you can also throw an error explicitly using the javascript throw(exception) statement where exception can be a string, value or object. This is then passed back to your callback.
-
-## DB Demo Folder
-
-This contains only the acDemoWS() function, which handles all requests and uses a switch statement to route the request onwards.
-
-## DB Selects Folder Functions
-
-These functions handle the two Select operations.
-
-## DB Updates
-
-These functions handle the Insert, Update and Delete operations.
 

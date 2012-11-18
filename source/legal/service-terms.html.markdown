@@ -117,7 +117,7 @@ Effective August 14th, 2012
 
 ###15. Copyright Policy
 
-**15.1** You agree to set up a process to respond to notices of alleged copyright infringement. It is AC policy to respond to copyright infringement notices, to adhere to applicable copyright laws and to terminate the accounts of repeat infringers. We reserve the right to take down content in your Application or, if necessary, the Application itself upon receipt of a valid copyright infringement notice. For more information, please go to http://www.applicationcraft.com/legal-dmca.
+**15.1** You agree to set up a process to respond to notices of alleged copyright infringement. It is AC policy to respond to copyright infringement notices, to adhere to applicable copyright laws and to terminate the accounts of repeat infringers. We reserve the right to take down content in your Application or, if necessary, the Application itself upon receipt of a valid copyright infringement notice. For more information, please go to http://www.applicationcraft.com/legal/copyright/
 
 ###16. Other Content
 

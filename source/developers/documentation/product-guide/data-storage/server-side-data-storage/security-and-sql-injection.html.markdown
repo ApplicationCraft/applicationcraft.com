@@ -24,23 +24,12 @@ When building SSJ functions, if there are functions that should not be callable 
 Handling Parameters correctly is one of the best ways of protecting your queries against manipulation. Your queries will often require you to pass data from the client for your queries. The [quoteInto()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto) function is very useful. Take the following SQL statement
 
     SELECT * FROM customers WHERE ID=x
+
+##We advise against the following approach
+
         selectObj = cObj.select().from("customers").where('id=' + p.id);
         result = cObj.exec(selectObj);
         return(result);
-        selectObj = cObj.select().from("customers").where('customer=?', p.id);
-        result = cObj.exec(selectObj);
-        return(result);
-    SELECT * FROM customers WHERE region=x AND (type=y or type=z)
-        var strWhere = cObj.quoteInto(region=?', p.region) + ' AND (';
-        strWhere =+ cObj.quoteInto('type=?', p.type1) + ' OR ';
-        strWhere += cObj.quotInto('type=?', p.type2) + ')';
-        selectObj = cObj.select().from("customers").where(strWhere);
-        result = cObj.exec(selectObj);
-        return(result);
-    whereString
-   
-
-## We advise against the following approach
 
 The problem with this is that under certain circumstances a hacker could send across not a single parameter value as required '12345' but an extended expression like '12345 OR id\>0' and thereby get access to all customers.
 
@@ -48,11 +37,23 @@ Of course, you could protect against this by performing validations in your SSJ 
 
 ## The better way of handling it
 
+
+        selectObj = cObj.select().from("customers").where('customer=?', p.id);
+        result = cObj.exec(selectObj);
+        return(result);
+
 ## Boolean Expressions and Multiple Parameters
 
-Let's say you had this SQL expression you wanted to create: . In the following example, we construct the individual parts of the WHERE as a string but still use quoteInto() for the parameter inserts.
+Let's say you had this SQL expression you wanted to create: `SELECT * FROM customers WHERE region=x AND (type=y or type=z)`. In the following example, we construct the individual parts of the WHERE as a string but still use quoteInto() for the parameter inserts.
+
+        var strWhere = cObj.quoteInto(region=?', p.region) + ' AND (';
+        strWhere =+ cObj.quoteInto('type=?', p.type1) + ' OR ';
+        strWhere += cObj.quotInto('type=?', p.type2) + ')';
+        selectObj = cObj.select().from("customers").where(strWhere);
+        result = cObj.exec(selectObj);
+        return(result);
+
 
 ## cObj.update() and cObj.delete()
 
-The same principle applies to cObj.delete() and cObj.update() where you can supply a WHERE clause in the parameter.
-
+The same principle applies to cObj.delete() and cObj.update() where you can supply a WHERE clause in the `whereString` parameter.

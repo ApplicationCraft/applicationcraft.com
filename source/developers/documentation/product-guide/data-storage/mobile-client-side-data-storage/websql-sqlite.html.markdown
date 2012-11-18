@@ -37,13 +37,23 @@ What is somewhat different is that WebSQL is asynchronous. For novice javascript
 This is the first step and is done like this
 
     var db = openDatabase('mydb', '1.0', 'my first database', 2 * 1024 * 1024);
+
+## Create a Table, Add Record
+
+This should be pretty obvious to anyone who has written some SQL before
+
     db.transaction(function (tx) {
         tx.executeSql('CREATE TABLE IF NOT EXISTS foo (id unique, text)');
         tx.executeSql('INSERT INTO foo (id, text) VALUES (1, "synergies")');
     });
+
+... or like this
+
     db.transaction(function (tx) {
         tx.executeSql('INSERT INTO foo (id, text) VALUES (?, ?)', [id, userValue]);
     }
+
+## How about reading data?
     db.transaction(function (tx) {
         tx.executeSql('SELECT * FROM foo', [], function (tx, results) {
         var len = results.rows.length, i;
@@ -53,13 +63,6 @@ This is the first step and is done like this
     });
    
 
-## Create a Table, Add Record
-
-This should be pretty obvious to anyone who has written some SQL before
-
-... or like this
-
-## How about reading data?
 
 ## Full WebSQL Documentation
 
@@ -67,4 +70,3 @@ The web is full of references to WebSQL. Just Google it. Here are a couple for y
 
  - [http://www.html5rocks.com/en/tutorials/webdatabase/todo/](http://www.html5rocks.com/en/tutorials/webdatabase/todo/)
  - [http://marakana.com/s/tutorial\_web\_sql\_database,208/index.html](http://marakana.com/s/tutorial_web_sql_database,208/index.html)
-

@@ -12,34 +12,9 @@ Local Storage is an HTML5 standard that offers persistent offline storage. It is
 
 The following methods are all you need in order to work with it effectively.
 
-<table>
-<tr>
-<td width="13">
- - 
-
-</td>
-      localStorage.setItem()
-      localStorage.getItem()
-      localStorage.removeItem()
-      jsonText = JSON.stringify(myCustomerArray);
-      localStorage.setItem("AppCustomers", jsonText);
-      jsonText = localStorage.getItem("AppCustomers");
-      myCustomerArray = JSON.parse(jsonText);
-      localStorage.removeItem("AppCustomers");
-      function listAllItems(){  
-          for (i=0; i<=localStorage.length-1; i++) {  
-              key = localStorage.key(i);  
-              val = localStorage.getItem(key);  
-          }  
-      }  
-      localStorage.clear();
-     
-
-</tr>
-</table>
- - 
-
- - 
+- localStorage.setItem()
+- localStorage.getItem()
+- localStorage.removeItem()
 
 ## Typical Architecture
 
@@ -53,25 +28,39 @@ This is not the only approach by any means but it works. If your data storage ne
 
 Assuming your application has some array of customer object that you want to store, this is all you do
 
-... and with that, your data is stored persistently. It is very crude but it works pretty nicely.
+      jsonText = JSON.stringify(myCustomerArray);
+      localStorage.setItem("AppCustomers", jsonText);
 
+... and with that, your data is stored persistently. It is very crude but it works pretty nicely.
 ## Retrieving Data
 
 Now you need to get your data back. It is even easier
 
-... and now you can load your Application Craft widgets using [setData()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/setdata) or [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) .
+      jsonText = localStorage.getItem("AppCustomers");
+      myCustomerArray = JSON.parse(jsonText);
 
+... and now you can load your Application Craft widgets using [setData()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/setdata) or [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/).
 ## Removing Data
 
 Also simple
 
+      localStorage.removeItem("AppCustomers");
 ## localStorage Object
 
 The object itself can be accessed easily and allows your application to explore all keys available for its domain as follows
 
+      function listAllItems(){  
+          for (i=0; i<=localStorage.length-1; i++) {  
+              key = localStorage.key(i);  
+              val = localStorage.getItem(key);  
+          }  
+      }  
+
 ## Clearing Everything Out
 
-Use
+Use `localStorage.clear();`
+     
+
 
 ## Other Resources
 
@@ -80,4 +69,3 @@ There are plenty of web sites on the web that explain localStorage in detail and
 [http://diveintohtml5.info/storage.html](http://diveintohtml5.info/storage.html)
 
 [http://php-html.net/tutorials/html5-local-storage-guide/](http://php-html.net/tutorials/html5-local-storage-guide/)
-

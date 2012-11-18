@@ -12,7 +12,7 @@ There are some parts of the Application Craft system where we need to give credi
 
 Code Editing is often an integral part of building an App and so having a really superb code editor is essential. We have successfully incorporated the ACE Editor into our IDE and we are extremely pleased with the result.
 
-<a href="/learning-center#Coding" target="_blank">Click here</a> to see a video in our Learning Center. Look at the first video (from 1:15) or the second one.
+<a href="/developers/training-videos/client-js/" target="_blank">Click here</a> to see a video in our Learning Center. Look at the first video (from 1:15) or the second one.
 
 ##Where we use it
 The most important part of our system is the Application Craft IDE. This does 2 main things

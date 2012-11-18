@@ -25,7 +25,7 @@ Widget Class
 <td width="20">
 </td>
 <td width="740">
-The internal class of the App Widget.- WiziCore\_Api\_Form
+The internal class of the App Widget.- WiziCore_Api_Form
 
 </td>
 </tr>
@@ -249,6 +249,16 @@ String Table
 <td width="740">
   Where you can set your Language Tokens and also import/export a CSV file to work with externally. See <a href="/developers/documentation/product-guide/advanced-features/multi-language-apps/tokens">Language Tokens</a>
 
+</td>
+</tr>
+<tr>
+<td width="182">
+<a id="data"> </a> <b>oAuth</b>
+
+</td>
+<td width="20">
+</td>
+<td width="740">
 </td>
 </tr>
 <tr>
@@ -898,4 +908,3 @@ On Resize
  - [Key Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/key-events)
  - [Internationalization App Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event)
  - [Mobile Native App Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events)
-
