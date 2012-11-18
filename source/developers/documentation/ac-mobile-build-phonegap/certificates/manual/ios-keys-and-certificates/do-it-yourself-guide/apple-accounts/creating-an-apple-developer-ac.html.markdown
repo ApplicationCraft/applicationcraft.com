@@ -32,7 +32,7 @@ Follow the process through and answer the questions as you go. They are all fair
 
 ![iosa-select-program](/img/docs/iosa-select-program.zoom64.png)
 
-You will then be asked to select a program .Select the iOS Developer Program.
+You will then be asked to select a program. Select the iOS Developer Program.
 
 Continue through the remaining screens. Once you have paid, you will receive an email from which you can activate your account.
 

@@ -6,9 +6,7 @@ full_width: true
 ---
 
 
-**remove**
-
-    (dbName, success, error)
+**remove**(dbName, success, error)
    
 
 ## Parameters
@@ -60,7 +58,9 @@ obj.message - error message
 </table>
 ## Description
 
-     
+This function is used to remove a database.
+
+## Example   
      
     PGSQLitePlugin.remove("testdb.sqlite3", function(){
         console.log("database was removed");
@@ -69,7 +69,4 @@ obj.message - error message
     });
    
 
-This function is used to remove a database.
-
-## Example
 

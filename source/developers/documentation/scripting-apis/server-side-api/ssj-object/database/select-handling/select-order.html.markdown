@@ -36,11 +36,13 @@ Note you can include ASC or DESC directives by appending ASC or DESC to the fiel
     selectObj = cObj.select().from("customers").order('country');
     result = cObj.exec(selectObj);
     return(result);
+
+
+## 2 Fields Example
     selectObj = cObj.select().from("customers").order(['country', 'state DESC']);
+## Alternative 2 Fields Example
     selectObj = cObj.select().from("customers").order('country').order('state DESC');
    
 
-## 2 Fields Example
 
-## Alternative 2 Fields Example
 

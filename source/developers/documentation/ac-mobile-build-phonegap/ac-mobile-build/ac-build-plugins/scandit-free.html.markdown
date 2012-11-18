@@ -16,9 +16,9 @@ See [Scandit Widget](/developers/documentation/product-guide/advanced-important-
 
 If you have developed your App outside Application Craft then please do the following
 
- - In your index.html include ScanditSDK.js
+ - In your index.html include `ScanditSDK.js`
 
- - In your config.xml add \<gap:plugin name="ScanditSDKFree" version="1.0.0" /\>
+ - In your config.xml add `<gap:plugin name="ScanditSDKFree" version="1.0.0" /\>`
 
 You should replace x.y.z in version='x.y.z' depending on which version of Cordova you are using for your App. Please refer to the list below
 
@@ -82,26 +82,26 @@ Scandit Button Configurations
     function handler_Scandit_onFail(error){
         alert(error);        
     }
-     
+You can also use the functions of the Scandit Free Plugin without using the Scandit Button widget.
+
+Link to the complete documentation for this plugin is available here [https://github.com/ApplicationCraft/ScanditUniversalJS](https://github.com/ApplicationCraft/ScanditUniversalJS)
+
+## Example     
     window.plugins.ScanditSDK.scan(
-    onSuccessfucntion(),
-    onFailFucntion(),
+    onSuccessfunction(),
+    onFailFunction(),
     application_key,
     [options]
     );
      
    
 
-You can also use the functions of the Scandit Free Plugin without using the Scandit Button widget.
 
-Link to the complete documentation for this plugin is available here [https://github.com/ApplicationCraft/ScanditUniversalJS](https://github.com/ApplicationCraft/ScanditUniversalJS)
-
-## Example
 
 <table>
 <tr>
 <td width="182">
-application\_key
+application_key
 
 </td>
 <td width="20">
@@ -182,4 +182,3 @@ options
 ## See Also
 
  - [ZXing Bar Code Scanner](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner)
-

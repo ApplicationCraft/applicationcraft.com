@@ -11,7 +11,7 @@ Used for single row entry of text. If you need to enter data in a specific way, 
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -27,7 +27,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_TextWidget
+Internal class name of the widget.- WiziCore_UI_TextWidget
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Where you can enter text that will show to the user. As they focus/click into th
 </tr>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
 </td>
 <td width="15">
@@ -171,7 +171,7 @@ See [App Properties](/developers/documentation/product-guide/widget-properties-e
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -193,7 +193,7 @@ Sizes
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -299,7 +299,7 @@ Repeat
 </tr>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -379,7 +379,7 @@ If set to True, the object can be interacted with by a user but data cannot be a
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -519,7 +519,7 @@ Set to true to automatically fetch data from assigned view.
 </tr>
 <tr>
 <td width="146">
-<a id="appearance"> </a> **Appearance**
+<a id="appearance"> </a> <b>Appearance</b>
 
 </td>
 <td width="17">
@@ -551,7 +551,7 @@ Align your text Left/Right or Center
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
@@ -955,4 +955,3 @@ On Resize Stop
  - [Key Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/key-events)
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
-

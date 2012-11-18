@@ -12,21 +12,9 @@ The MailTo plugin allows you to send email from a native app using the settings 
 
 If you have developed your App outside Application Craft then please do the following
 
-<table>
-<tr>
-<td width="13">
- - 
-
-</td>
-In your index.html include
-
-      mailto.js
-      <gap:plugin name="MailToPlugin" version="1.0.0" />
-     
-
-</tr>
-</table>
- - In your config.xml add
+ - In your index.html include `mailto.js`
+           
+ - In your config.xml add `<gap:plugin name="MailToPlugin" version="1.0.0" />`
 
 You should replace x.y.z in version='x.y.z' depending on which version of Cordova you are using for your App. Please refer to the list below
 
@@ -74,7 +62,7 @@ True(default)/False. If True will present a message to users if the app is not b
 </td>
 </tr>
 </table>
-.
+
 
 ## Parameters
 
@@ -216,4 +204,3 @@ chtitle
  - [Image](/developers/documentation/product-guide/widget-properties-events/common/image)
  - [Label (Common)](/developers/documentation/product-guide/widget-properties-events/common/label)
  - [Label (Mobile)](/developers/documentation/product-guide/widget-properties-events/mobile/moblabel)
-

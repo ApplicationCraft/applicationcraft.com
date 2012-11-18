@@ -68,9 +68,7 @@ True(default)/False. If True will present a message to users if the app is not b
 All functions are called on the singleton ChildBrowser instance - accessible as
 
     window.plugins.childBrowser
-   
 
-.
 
 The Child Browser plugin can also be used if building using [Phonegap:Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/)
 

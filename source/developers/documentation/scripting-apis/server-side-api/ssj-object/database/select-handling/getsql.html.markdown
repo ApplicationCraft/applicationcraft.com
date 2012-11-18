@@ -20,12 +20,13 @@ This returns the SQL statement that will be executed. This is a function of the 
     selectObj = cObj.select().from('customers').where('country=?', strCountry);
     sqlString = selectObj.getSql();
      
-    sqlString
-     
+    
+So sqlString would contain the following 
+
     "SELECT * FROM customers WHERE country='usa'"
      
      
    
 
-So would contain the following
+
 

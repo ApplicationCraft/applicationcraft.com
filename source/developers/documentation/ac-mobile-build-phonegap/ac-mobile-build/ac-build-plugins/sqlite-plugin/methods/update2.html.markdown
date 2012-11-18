@@ -6,9 +6,7 @@ full_width: true
 ---
 
 
-**update**
-
-    (table, values, where, whereArgs, success, error)
+**update**(table, values, where, whereArgs, success, error)
      
    
 
@@ -98,7 +96,7 @@ error callback function.
 
 This function is used to update rows in the database
 
-     
+## Example     
     db.update("test", {name : "New Username" }, "id = ?", [1], function(count){ 
         console.log("count="+count); 
     }, function(er){
@@ -107,5 +105,5 @@ This function is used to update rows in the database
      
    
 
-## Example
+
 

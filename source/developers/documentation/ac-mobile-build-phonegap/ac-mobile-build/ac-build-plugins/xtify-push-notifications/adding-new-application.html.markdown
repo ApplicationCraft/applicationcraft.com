@@ -12,7 +12,6 @@ Please note that for each AC app you wish to use the [Xtify Push Notifications](
 
 ![XtifyAdd](/img/docs/xtifyadd.zoom49.png) ![XtifyAdd\_android](/img/docs/xtifyadd_android.zoom48.png)
 
-Creating iOS Application Key                                                                          Creating Android Application Key (GCM)
 
  - For iOS upload your certificate file you have and the required password.
 

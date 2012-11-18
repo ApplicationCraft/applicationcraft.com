@@ -42,15 +42,13 @@ Client Side Script:
             }
         }, [app.getValue("text")]);  // Text field on app where users are entering their password
     }
-     
+
+Server Side Script:
+
     function getMd5(text){
         var md5 = ssj.md5(text)
     }
      
-   
-
-Server Side Script:
-
 ## See Also
 
  - [hash()](/developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/cryptblowfish)

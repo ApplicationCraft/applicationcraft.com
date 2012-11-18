@@ -43,18 +43,6 @@ Make sure you handle your errors on the client side. The SSJ functions will trig
             }
         }, [p]);    
     }
-    strName = "O'Reilly";
-    cObj = cObj.update("customers", p.data,  "companyName=' + strName);
-     
-    strName = "O'Reilly";
-    cObj = cObj.update("customers", p.data,  cObj.quoteInto('companyName=?', strName));
-     
-     
-    strName = "O'Reilly";
-    cObj = cObj.update("customers", p.data, "companyName=" + cObj.quote(strName));
-    nId = 12345;
-    cObj = cObj.update("customers", p.data,  companyName=?', nId);
-   
 
 ## Escaping with [quote()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quote) and [quoteInto()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto)
 
@@ -62,11 +50,23 @@ One of the great things about SSJ database functions is that they abstract you f
 
 For example, don't do the following (shows an update operation, but the same applies to cObj.delete(), select() statements.
 
+    strName = "O'Reilly";
+    cObj = cObj.update("customers", p.data,  "companyName=' + strName);
+ 
 The 'O'Reilly' will confuse the SQL parser as there are three ' characters. Instead, do do the following, which not only escapes but also handles parameter insertions.
-
+    
+    strName = "O'Reilly";
+    cObj = cObj.update("customers", p.data,  cObj.quoteInto('companyName=?', strName));
+     
 or the equivalent statement
+    
+    strName = "O'Reilly";
+    cObj = cObj.update("customers", p.data, "companyName=" + cObj.quote(strName));
 
 However, if you are inserting a numeric parameter value, then there is no need for escaping, so while you can still use quoteInto() if you want, the following is also safe
 
-By the way, when you use . [insert()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/insert) and . [update()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/update) , the second parameter is an object with key:value contents to be inserted into the database fields. Each of the field values will automatically be escaped for you, so you don't need to prepare the contents of this object by using quote() manually in advance.
+    nId = 12345;
+    cObj = cObj.update("customers", p.data,  companyName=?', nId);
+   
 
+By the way, when you use . [insert()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/insert) and . [update()](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/update) , the second parameter is an object with key:value contents to be inserted into the database fields. Each of the field values will automatically be escaped for you, so you don't need to prepare the contents of this object by using quote() manually in advance.

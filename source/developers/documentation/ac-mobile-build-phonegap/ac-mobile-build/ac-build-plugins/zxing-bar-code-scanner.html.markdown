@@ -12,9 +12,9 @@ ZXing Bar Code Scanner allows you to scan barcodes and can be used as the altern
 
 If you have developed your App outside Application Craft then please do the following
 
- - In your index.html include barcodescanner.js
+ - In your index.html include` barcodescanner.js`
 
- - In your config.xml add \<gap:plugin name="ChildBrowser" version="1.0.0" /\>
+ - In your config.xml add` <gap:plugin name="ChildBrowser" version="1.0.0" />`
 
 You should replace x.y.z in version='x.y.z' depending on which version of Cordova you are using for your App. Please refer to the list below
 
@@ -91,55 +91,55 @@ The following barcode types are currently supported
 <table>
 <tr>
 <td width="182">
-QR\_CODE
+QR_CODE
 
 </td>
 </tr>
 <tr>
 <td width="182">
-DATA\_MATRIX
+DATA_MATRIX
 
 </td>
 </tr>
 <tr>
 <td width="182">
-UPC\_E
+UPC_E
 
 </td>
 </tr>
 <tr>
 <td width="182">
-UPC\_A
+UPC_A
 
 </td>
 </tr>
 <tr>
 <td width="182">
-EAN\_8
+EAN_8
 
 </td>
 </tr>
 <tr>
 <td width="182">
-EAN\_13
+EAN_13
 
 </td>
 </tr>
 <tr>
 <td width="182">
-CODE\_128
+CODE_128
 
 </td>
 </tr>
 <tr>
 <td width="182">
-CODE\_39
+CODE_39
 
 </td>
 </tr>
 <tr>
 <td width="182">
-CODE\_93
+CODE_93
 
 </td>
 </tr>
@@ -169,19 +169,13 @@ PDF417
 </tr>
 <tr>
 <td width="182">
-RSS\_EXPANDED
+RSS_EXPANDED
 
 </td>
 </tr>
 </table>
 
-This plugin creates the object
-
-    window.plugins.barcodeScanner
-    scan(result, error)
-   
-
-with the method .
+This plugin creates the object `window.plugins.barcodeScanner` with the method    `scan(result, error)`.
 
 When a successful scan has completed, the result is passed as an object with text, format and cancelled properties.
 
@@ -247,4 +241,3 @@ whether or not the user cancelled the scan
 ## See Also
 
  - [Scandit Free](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/scandit-free)
-

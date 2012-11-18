@@ -8,7 +8,7 @@ full_width: true
 
 **IMPORTANT** : this is a client side method and NOT an SSJ API method but is included here as it is an integral part of the payment process.
 
-## void zoozStartCheckout (objTransaction)
+void **zoozStartCheckout** (objTransaction)
 
 ## Parameters
 
@@ -35,6 +35,17 @@ The object passed to zoozStartsCheckout() should look like this
         isSandbox : true,                // true = Sandbox environment                                                
         completeCallBackFunc : transactionComplete  // callback function from Zooz after payment attempt
     }
+
+## Description
+
+This is called from your **client code** and initiates the payment process. The user can then enter card details and complete the payment. Once it is complete, a callback function is called where you can validate the payment and begin the fulfillment process.
+
+Please refer to the [sample application](/developers/documentation/product-guide/advanced-features/credit-card-payment-processing/) to see a comprehensive payment example.
+
+## Example
+
+This function should be called when you have populated your server
+
     zoozStartCheckout({
         token : result,                // Session token recieved from server
         uniqueId : AppId,                // unique ID as registered in the developer portal
@@ -71,13 +82,4 @@ The object passed to zoozStartsCheckout() should look like this
     }
    
 
-## Description
-
-This is called from your **client code** and initiates the payment process. The user can then enter card details and complete the payment. Once it is complete, a callback function is called where you can validate the payment and begin the fulfillment process.
-
-Please refer to the [sample application](/developers/documentation/product-guide/advanced-features/credit-card-payment-processing/) to see a comprehensive payment example.
-
-## Example
-
-This function should be called when you have populated your server a
 

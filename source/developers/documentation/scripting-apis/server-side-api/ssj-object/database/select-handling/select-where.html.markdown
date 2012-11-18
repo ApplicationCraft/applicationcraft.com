@@ -58,6 +58,7 @@ If you want to build a more complex expression using boolean operators and paren
     selectObj = cObj.select().from('customers').where("country='USA'");
     result = cObj.exec(selectObj);
     return(result);
+
     cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
     selectObj = cObj.select().from('customers').where("country="+cObj.quote('USA')+"");
     result = cObj.exec(selectObj);
@@ -67,26 +68,37 @@ If you want to build a more complex expression using boolean operators and paren
     selectObj = cObj.select().from('customers').where(cObj.quoteInto("country=?", 'USA'));
     result = cObj.exec(selectObj);
     return(result);
+
+## Example with a Token
+
     cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
     selectObj = cObj.select().from('customers').where('country=?', strCountry);
     result = cObj.exec(selectObj);
     return(result);
-    selectObj = cObj.select().from('customers').where('age>?', minAge).where('age<?', maxAge);
-    selectObj = cObj.select().from('customers').where('color="blue"').orWhere('color="green"');
-    selectObj = cObj.select().from('customers').where('age>'+minAge+' AND age<'+maxAge+' AND (color="blue" or color="green")');
-   
-
-## Example with a Token
 
 ## Compound Example 1
 
 This example shows two where() functions which will be ANDed together
 
+    selectObj = cObj.select().from('customers').where('age>?', minAge).where('age<?', maxAge);
+
 ## Compound Example 2
 
 This example shows two where() functions which will be ORed together
 
+    selectObj = cObj.select().from('customers').where('color="blue"').orWhere('color="green"');
+
+
 ## Compound Example 3
 
 You can also create a compound expression in a single where()
+
+    selectObj = cObj.select().from('customers').where('age>'+minAge+' AND age<'+maxAge+' AND (color="blue" or color="green")');
+   
+
+
+
+
+
+
 
