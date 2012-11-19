@@ -54,7 +54,7 @@ If you are building for iOS
 
 ## 3: Set the Application ID of your app to the same as the Application Name used in creating the Application Keys in Xtify.
 
-Go to App Properties: Phonegap Options.
+Go to App Properties: PhoneGap Options.
 
 ![XtifyAppProps](/img/docs/xtifyappprops.zoom75.png)
 

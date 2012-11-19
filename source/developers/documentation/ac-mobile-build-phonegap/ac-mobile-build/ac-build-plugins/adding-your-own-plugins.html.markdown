@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-We are currently preparing documentation that tells you how to prepare any Phonegap/Cordova plugin for inclusion within Application Craft. This should be available by January 2013.
+We are currently preparing documentation that tells you how to prepare any PhoneGap/Cordova plugin for inclusion within Application Craft. This should be available by January 2013.
 
 We will not allow any plugin to be added to the build system without it being vetted first. Once added, it will be available to all users of the system.
 

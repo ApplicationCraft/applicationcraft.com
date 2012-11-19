@@ -22,11 +22,11 @@ Click on the New App ID button to get going.
 
 ![iosa-appid-1](/img/docs/iosa-appid-1.zoom67.png)
 
-Next, specify a description for the App ID. Below that, you specify the 'Bundle Identifier'. The naming of this Identifier is important. It MUST match the App ID as specified in the Phonegap App property dialog (if you App was built with AC) or as specified in the config.xml (if your App was built outside AC).
+Next, specify a description for the App ID. Below that, you specify the 'Bundle Identifier'. The naming of this Identifier is important. It MUST match the App ID as specified in the PhoneGap App property dialog (if you App was built with AC) or as specified in the config.xml (if your App was built outside AC).
 
 ## Your App was built with Application Craft
 
-In this case, your App gets a default App ID, unless you override this in the Phonegap App property dialog (see image below).
+In this case, your App gets a default App ID, unless you override this in the PhoneGap App property dialog (see image below).
 
 ![acmb-appid](/img/docs/acmb-appid.png)
 
