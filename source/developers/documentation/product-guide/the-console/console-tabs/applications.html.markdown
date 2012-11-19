@@ -251,9 +251,9 @@ Mobile Build
 <td width="16">
 </td>
 <td>
-  Choose to build your apps using [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) or <a href="/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/">Phonegap:Build</a> . If you wish to compile as a Native App for mobile devices you can do so here.
+  Choose to build your apps using [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) or <a href="/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/">PhoneGap:Build</a> . If you wish to compile as a Native App for mobile devices you can do so here.
 
-If you are planning to build Native Apps, then you must read the [Phonegap & Native Apps](/developers/documentation/ac-mobile-build-phonegap/) chapter, which describes how this can be achieved.
+If you are planning to build Native Apps, then you must read the [PhoneGap & Native Apps](/developers/documentation/ac-mobile-build-phonegap/) chapter, which describes how this can be achieved.
 
 </td>
 </tr>

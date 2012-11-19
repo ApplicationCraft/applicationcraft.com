@@ -9,10 +9,10 @@ If you feel that this does not explain anything well enough then please contact 
 ##General FAQs
 
    - [How many apps can I build using the Application Craft platform?](#HowManyApps)
-   - [What can I do / not do with the Free Trial?](#TrialLimitations)
-   - [Can I extend the Free Trial?](#ExtendTrial) 
+   - [What can I do / not do with the free trial?](#TrialLimitations)
+   - [Can I extend the free trial?](#ExtendTrial) 
    - [Can I run my apps on my own web server?](#RunOnOwnServer)
-   - [Can I develop an app in the Free Trial and then load it into an AC Cloud account?](#TransferTrialFiles)
+   - [Can I develop an app in the free trial and then load it into an AC Cloud account?](#TransferTrialFiles)
    - [If I purchase the AC Cloud Platform on a month-to-month basis, can I change my mind and buy an annual subscription to get the discount?](#MonthlyToAnnual)  
    - [What if I want to add developers to my account?](#AddDevs)
    - [How do I upgrade my account?](#Upgrade)
@@ -22,21 +22,21 @@ If you feel that this does not explain anything well enough then please contact 
 
 
 ### <a id="HowManyApps"></a>How many apps can I build using the Application Craft platforms?
-You may build as many as you like with both Free Trial and AC Cloud.
+You may build as many as you like with both free trial and AC Cloud.
 
-### <a id="TrialLimitations"></a>What can I do / not do with the Free Trial?
+### <a id="TrialLimitations"></a>What can I do / not do with the free trial?
 You get all the features that we offer with the following exceptions
 - You cannot export your app from the platform.
 - You can use the download feature and deploy your app to your own web server.
 - You are restricted to a single developer per account.
 
-### <a id="ExtendTrial"></a>Can I extend the Free Trial?
+### <a id="ExtendTrial"></a>Can I extend the free trial?
 You will need to contact support@applicationcraft to do this.
  
 ### <a id="RunOnOwnServer"></a>Can I run my apps on my own web server?
-Yes, you can with AC Cloud but not the Free Trial. You use the download option to package up the App and deploy it to any web server you like.
+Yes, you can with AC Cloud but not the free trial. You use the download option to package up the App and deploy it to any web server you like.
 
-### <a id="TransferTrialFiles"></a>Can I develop an app in the Free Trial and then load it into an AC Cloud account?
+### <a id="TransferTrialFiles"></a>Can I develop an app in the free trial and then load it into an AC Cloud account?
 No. You can only export from an AC Cloud Account. You can then cancel your subscription and then import it into someone else's AC Cloud account. Exporting (as opposed to downloading) is for moving an entire app between accounts. If you want to deploy your app on any web server then you download rather than export.
  
 ## Purchasing & Subscriptions

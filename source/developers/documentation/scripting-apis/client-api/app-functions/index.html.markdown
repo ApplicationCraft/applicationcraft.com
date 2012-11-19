@@ -82,4 +82,4 @@ full_width: true
 
 ## Related Videos
 
-[![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/jgBOqAV--rU?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Client API Functions and the Phonegap API [2:44]
+[![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/jgBOqAV--rU?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Client API Functions and the PhoneGap API [2:44]

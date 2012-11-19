@@ -30,5 +30,5 @@ Important: this will not work unless your device has been added to the iOS Provi
 
 **Android**
 
-When building to deploy to Google Play store, you first need to have registered a keystore file to your Phonegap:Build account. See [https://build.phonegap.com/docs/android-signing](https://build.phonegap.com/docs/android-signing) for more information.
+When building to deploy to Google Play store, you first need to have registered a keystore file to your PhoneGap:Build account. See [https://build.phonegap.com/docs/android-signing](https://build.phonegap.com/docs/android-signing) for more information.
 

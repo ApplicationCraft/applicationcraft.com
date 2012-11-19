@@ -36,7 +36,7 @@ The Scandit barcode scanner offers the most accurate recognition when faced with
 
 **Build your app:**
 
-With most Application Craft Apps, you can now simply run your App directly from the IDE. However, because the Scandit component is a binary component that is not part of HTML5, we need to build a Phonegap/Cordova App.
+With most Application Craft Apps, you can now simply run your App directly from the IDE. However, because the Scandit component is a binary component that is not part of HTML5, we need to build a PhoneGap/Cordova App.
 
 Enable the [Scandit Free](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/scandit-free) plugin from the App Property: [AC Build Plugins](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/) and build your Native app using [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) .
 

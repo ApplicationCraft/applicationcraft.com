@@ -19,7 +19,7 @@ The ZIP File you uploaded doesn’t seem to be a proper Cordova application. Ple
 <td width="20">
 </td>
 <td width="595">
-  A Phonegap/Cordova application needs to be prepared in the correct way as described on the Phonegap Build site. Please refer to the Phonegap documentation on <a href="http://build.phonegap.com/docs/preparing-your-app">preparing your App</a> for full details.
+  A PhoneGap/Cordova application needs to be prepared in the correct way as described on the PhoneGap Build site. Please refer to the PhoneGap documentation on <a href="http://build.phonegap.com/docs/preparing-your-app">preparing your App</a> for full details.
 
 </td>
 </tr>
