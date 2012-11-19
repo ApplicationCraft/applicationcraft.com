@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+    <title><%= current_page.data.title %> - App development for Mobile and Desktop with Application Craft</title>
+
+    <% if content_for?(:meta_description) %>
+      <meta name="description" content="<%= yield_content :meta_description %>">
+    <% elsif current_page.data.meta_description %>
+      <meta name="description" content="<%= current_page.data.meta_description %>">
+    <% else %>
+      <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
+    <% end %>
+
+    <% if content_for?(:meta_keywords) %>
+      <meta name="keywords" content="<%= yield_content :meta_keywords %>" />
+    <% elsif current_page.data.meta_keywords %>
+      <meta name="description" content="<%= current_page.data.meta_keywords %>">
+    <% else %>
+      <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
+    <% end %>
+
+    <%= stylesheet_link_tag 'normalize', 'boilerplate' %>
+    <%= yield_content :head %>
+  </head>
+  <body class="<%= current_page.data.class_name || 'standard' %>">
+    <a id="top"></a>
+
+    <nav class="main">
+      <div class="container">
+
+        <div id="blog-ribbon" class="nofade">
+          <a href="/blog" title="Check out our blog">Blog</a>
+        </div>
+
+        <ul class="clearfix">
+          <li><a href="/"><%= image_tag 'logo.gif', :width => 321, :height => 32 %></a></li>
+          <li class="clearfix">
+            <ul class="clearfix">
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'home' %>"><a href="/" class="active">Home</a></li>
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>"><a href="/product/pricing">Pricing</a></li>
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>"><a href="/developers">Developers</a></li>
+              <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
+              <li class="nofade <%= 'active' if current_page.data.active_menu_item == 'sign-up' %>"><a href="/get-started">Sign Up Today</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <%= yield_content :submenu %>
+
+    <% unless current_page.data.full_width %>
+
+      <div id="content-body" class="container">
+        <h1 class="<%= 'no-border' if current_page.data.hide_title %>">
+          <button type="button" class="btn btn-navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= current_page.data.title unless current_page.data.hide_title %>
+        </h1>
+
+        <div class="clearfix">
+          <aside>
+            <%= yield_content :above_aside %>
+
+            <% if current_page.data.active_submenu %>
+              <ul>
+                <% data.send(current_page.data.active_submenu).submenu.each do |f| %>
+                  <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
+                    <a href="<%= f.url %>"><%= f.text %></a>
+                  </li>
+                <% end %>
+              </ul>
+            <% end %>
+
+            <%= yield_content :below_aside %>
+            &nbsp;
+          </aside>
+
+          <article>
+            <%= yield %>
+          </article>
+        </div>
+      </div>
+
+    <% else %>
+      <%= yield %>
+    <% end %>
+
+    <%= partial :price_banner unless current_page.data.hide_price_banner %>
+
+    <footer>
+      <section>
+        <div class="container">
+          <ul class="clearfix">
+            <li>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/product/phonegap-mobile-build">Mobile Build</a></li>
+                <li><a href="/product/enterprise">Enterprise</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/developers">Developers</a></li>
+                <li><a href="/developers">Support</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/company/contact-us">Contact us</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/company">About</a></li>
+                <li><a href="/legal">Legal</a></li>
+                <li><a href="/referral-program">Referral Program</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul id="social-icons">
+                <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
+                <li><a href="https://www.facebook.com/ApplicationCraft"><span></span>Facebook</a></li>
+                <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
+                <li><a href="http://www.youtube.com/user/appcrafty"><span></span>Youtube</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          Copyright &copy; <%= Date.today.year %> Application Craft Ltd. All rights reserved.
+          Read our <a href="/legal/privacy">Privacy policy</a>.
+        </div>
+      </section>
+    </footer>
+
+
+    <div id="sign-in" class="modal">
+      <h2>Sign In</h2>
+      <p>To sign in to your account, you need to go to your custom sub-domain, where you will be prompted to enter your username and password. Choose from the list below, or enter your subdomain in the field provided.</p>
+      <hr />
+      <div class="waLoginList">
+        <div class="waLoginListDiv">
+          <span style="position: relative;">&nbsp;</span>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <!-- <script src="/js/vendor/protofluid.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <%= javascript_include_tag 'main' %>
+    <%= yield_content :foot %>
+
+    <% unless current_page.path.start_with? 'developers/documentation' %>
+      <script>
+        var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+    <% end %>
+  </body>
+</html>
