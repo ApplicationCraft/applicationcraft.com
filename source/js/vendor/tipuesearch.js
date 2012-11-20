@@ -82,7 +82,6 @@ http://www.tipue.com/search
           function(json)
           {
             tipuesearch_in = $.extend({}, json);
-            console.log(tipuesearch_in)
           }
         );
       }
@@ -104,20 +103,14 @@ http://www.tipue.com/search
       }
       if (getURLP('q'))
       {
-        $('#tipue_search_input').val(getURLP('q'));
+        $('.docs aside form input').val(getURLP('q'));
         getTipueSearch(0, true);
       }
 
-      $('#tipue_search_button').click(function()
+      $('.docs aside form').submit(function()
       {
         getTipueSearch(0, true);
-      });
-      $(this).keyup(function(event)
-      {
-        if(event.keyCode == '13')
-        {
-          getTipueSearch(0, true);
-        }
+        return false;
       });
 
       function getTipueSearch(start, replace)
@@ -128,7 +121,7 @@ http://www.tipue.com/search
         var show_replace = false;
         var show_stop = false;
 
-        var d = $('#tipue_search_input').val().toLowerCase();
+        var d = $('.docs aside form input').val().toLowerCase();
         d = $.trim(d);
         var d_w = d.split(' ');
 
@@ -217,12 +210,12 @@ http://www.tipue.com/search
             }
             if (c == 1)
             {
-              out += '<div id="tipue_search_results_count">1 result</div>';
+              out += '<div id="tipue_search_results_count">1 result for ' + d + '...</div>';
             }
             else
             {
               c_c = c.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-              out += '<div id="tipue_search_results_count">' + c_c + ' results</div>';
+              out += '<div id="tipue_search_results_count">' + c_c + ' results for ' + d + '...</div>';
             }
 
             found.sort();
@@ -346,8 +339,9 @@ http://www.tipue.com/search
           }
         }
 
-        $('#tipue_search_content').html(out);
-        $('#tipue_search_content').slideDown(200);
+        $('.docs article').fadeOut(function(){
+          $('#tipue_search_content').html(out).fadeIn();
+        });
 
         $('#tipue_search_replaced').click(function()
         {

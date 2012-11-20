@@ -4,14 +4,14 @@ module TreeHelpers
     data = YAML::load(File.read("data/#{id}.yml"))
     raise "Top level 'tree' element missing from data/#{id}.yml" unless data['tree']
 
-    content_tag :aside, :class => "tree" do
+    content_tag :section, :id => "tree" do
       generate_tree_for data['tree']
     end
   end
 
-  def breadcrumbs
+  def breadcrumbs(page = nil)
     excluded = ['/', '/developers/', '/developers/documentation/']
-    page, crumbs = current_page, []
+    page, crumbs = (page || current_page), []
 
     while page = page.parent
       next if excluded.include? page.url
