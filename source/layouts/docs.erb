@@ -28,7 +28,9 @@
       <div id="full-screen">open in full screen...</div>
     </header>
 
-    <%= documentation_tree %>
+    <aside class="tree">
+      <%= tree_for 'source/developers/documentation' %>
+    </aside>
 
     <article>
       <h1><%= current_page.data.title %></h1>
