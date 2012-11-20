@@ -45,3 +45,9 @@ hide_price_banner: true
     </section>
   </div>
 </div>
+
+<% content_for :foot do %>
+  <%= javascript_include_tag :cws_signup_dialog %>
+  <%= stylesheet_link_tag :cws_signup_dialog %>
+  <%= partial 'cws_signup_dialog' %>
+<% end %>
