@@ -10,5 +10,5 @@ Application Craft offers access to Mobile Device Hardware and Features using the
 
 Application Craft Apps will automatically wait until PhoneGap is properly loaded so you do not need to manually add your own Event Listener in your code.
 
-For further information about building Native Apps that access features and hardware, please refer to the [AC Mobile Build & Phonegap/Cordova](/developers/documentation/ac-mobile-build-phonegap/) chapter.
+For further information about building Native Apps that access features and hardware, please refer to the [AC Mobile Build & PhoneGap/Cordova](/developers/documentation/ac-mobile-build-phonegap/) chapter.
 

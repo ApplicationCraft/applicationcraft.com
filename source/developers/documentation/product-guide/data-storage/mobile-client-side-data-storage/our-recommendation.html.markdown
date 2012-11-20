@@ -12,7 +12,7 @@ Before we start, we should differentiate between the two types of applications a
 
  - **Web Application** - this is an Application Craft application that starts up in the regular browser on your mobile device or desktop.
 
- - **Compiled Application** - this is an Application Craft application that is deployed using the Phonegap/Cordova compilation process. This means it is deployed and installed as a binary application, typically via an App Store. It can be started offline and access device hardware as well as being able to work with Phonegap/Cordova plugins for advanced features like barcode scanning, push notifications, SQLite database storage and more.
+ - **Compiled Application** - this is an Application Craft application that is deployed using the PhoneGap/Cordova compilation process. This means it is deployed and installed as a binary application, typically via an App Store. It can be started offline and access device hardware as well as being able to work with PhoneGap/Cordova plugins for advanced features like barcode scanning, push notifications, SQLite database storage and more.
 
 The general thought process should be
 

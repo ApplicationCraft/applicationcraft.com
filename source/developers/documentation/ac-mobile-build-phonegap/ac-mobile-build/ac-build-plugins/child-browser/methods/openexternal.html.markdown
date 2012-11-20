@@ -28,7 +28,7 @@ the URL to show
 </tr>
 <tr>
 <td width="172">
-usePhonegap
+usePhoneGap
 
 </td>
 <td width="29">

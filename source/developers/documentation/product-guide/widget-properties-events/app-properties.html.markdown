@@ -437,7 +437,7 @@ Allows you to add code between the head tags of the app's index.html page.
 </tr>
 <tr>
 <td width="182">
-<a id="phonegap"> </a> <b>Phonegap</b>
+<a id="phonegap"> </a> <b>PhoneGap</b>
 
 </td>
 <td width="20">

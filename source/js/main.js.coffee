@@ -11,6 +11,12 @@ $ ->
   )
 
 
+# If the user is using Chrome, show the CWS sign up link within the nav.
+$ ->
+  if $.browser.chrome
+    do $('#cws-sign-up').show
+
+
 # Handles the hidden submenu.
 $ ->
   $('#content-body h1 button').click ->

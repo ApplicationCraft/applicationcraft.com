@@ -108,6 +108,7 @@ end
 
 page "/blog/feed.xml", :layout => false
 page "/developers/documentation/*", :layout => :docs
+page "/developers/tutorials/*", :layout => :tutorials
 
 # ignore "/developers/documentation/*"
 

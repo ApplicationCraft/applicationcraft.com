@@ -42,7 +42,7 @@ The last step in the setup process is to customize the 2 Application Craft Event
 
 ###4. Build your App
 
-With most Application Craft Apps, you can now simply run your App directly from the IDE. However, because the Scandit component is a binary component that is not part of HTML5, we need to build a Phonegap/Cordova App. Application Craft supports Phonegap/Cordova fully, allowing all Phonegap properties to be customized if you want.
+With most Application Craft Apps, you can now simply run your App directly from the IDE. However, because the Scandit component is a binary component that is not part of HTML5, we need to build a PhoneGap/Cordova App. Application Craft supports PhoneGap/Cordova fully, allowing all PhoneGap properties to be customized if you want.
 
 
 ## Finally

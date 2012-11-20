@@ -25,7 +25,7 @@ At some point, a user will press a button within your app when s/he is ready to 
 ## What the developer does ...
 If you want full details on coding your payments app, please click to see the relevant section in the User Guide. For those not familiar with Application Craft yet, all code (client and server) is written in the browser based IDE and is regular javascript.
 
-This is a brief summary of how it works. [SSJ] means it is being executed as a server-side JavaScript.
+This is a brief summary of how it works. [SSJ] means it is being executed as a server-side Javascript.
 
   - [Client] A 'Pay' button is pressed
     Pass control to your SSJ script.
