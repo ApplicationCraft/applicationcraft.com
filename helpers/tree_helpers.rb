@@ -1,11 +1,14 @@
 module TreeHelpers
 
   def tree_for(dir)
+    p dir
     content_tag :ol do
 
-      # Load the tree from the tree.yml file if it exists.
-      if File.exists?(tree_file = "#{dir}/tree.yml")
-        YAML::load(File.read(tree_file)).each do |item|
+      # Load the order of the directory listing from the dir.ordered file if it exists.
+      if File.exists?(order_file = "#{dir}/dir.ordered")
+        p order_file
+        file = File.read(order_file)
+        file.split("\n").each do |item|
           build_tree "#{dir}/#{item['url']}"
         end
 
