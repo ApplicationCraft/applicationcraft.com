@@ -1,14 +1,14 @@
 ---
-title: "Phonegap Direct"
+title: "PhoneGap Direct"
 active_menu_item: developers
 class_name: developers
 full_width: true
 ---
 
 
-If you find that you cannot get [Phonegap:Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) or [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) to behave exactly the way you need it to, then you may want to use PhoneGap itself. This provides you with direct access to the platform compilers so you can fine tune everything.
+If you find that you cannot get [PhoneGap:Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) or [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) to behave exactly the way you need it to, then you may want to use PhoneGap itself. This provides you with direct access to the platform compilers so you can fine tune everything.
 
-It also has the advantage of letting you integrate Phonegap Plugins that may not be available in Application Craft Build.
+It also has the advantage of letting you integrate PhoneGap Plugins that may not be available in Application Craft Build.
 
 Although the setup is more complex and you need to setup development environments for each individual platform, it can be desirable if total control is required.
 
@@ -22,11 +22,11 @@ To download your App from Application Craft, you will need to go to the Console,
 
 ## Modifying index.html
 
-In the downloaded App, you will need to make a modification to your index.html file. Locate the script tag and you will see the phonegap.js file is referenced. This is the correct file for Phonegap:Build but not for using Phonegap directly.
+In the downloaded App, you will need to make a modification to your index.html file. Locate the script tag and you will see the phonegap.js file is referenced. This is the correct file for PhoneGap:Build but not for using PhoneGap directly.
 
     <script src="phonegap.js">
 
-You should modify this to point to the version on Phonegap you are using, for example
+You should modify this to point to the version on PhoneGap you are using, for example
 
     <script src="phonegap-1.2.0.js">
    

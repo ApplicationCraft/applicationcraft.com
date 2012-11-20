@@ -65,6 +65,7 @@ end
 
 page "/blog/feed.xml", :layout => false
 page "/developers/documentation/*", :layout => :docs
+page "/developers/tutorials/*", :layout => :tutorials
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do

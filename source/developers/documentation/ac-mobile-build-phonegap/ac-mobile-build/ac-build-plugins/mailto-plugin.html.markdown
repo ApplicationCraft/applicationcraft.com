@@ -182,7 +182,7 @@ chtitle
         message: '<b>message</b>', // You can also directly compose your message/subject (HTML allowed)
         isHtml : true,
         emails : ["mail@gmail.com"],  // recipient of the email
-        ccemails : [{"frankx@jones.com"},{"joe@jones.com"}], // multiple cc recipients
+        ccemails : ["frankx@jones.com","joe@jones.com"], // multiple cc recipients
         chtitle : "Mail To:" //Android spec
         },
         function() {alert('Mailto success');}, // Success function

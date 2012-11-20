@@ -1,0 +1,44 @@
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/developers/training-videos">Videos</a></li>
+        <li class="active"><a href="/developers/documentation">Documentation</a></li>
+        <li><a href="https://getsatisfaction.com/application_craft" target="_blank">Forum</a></li>
+        <li><a href="http://portal.applicationcraft.com" target="_blank">Bug Tracker</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
+<% wrap_layout :layout do %>
+
+  <div class="container clearfix docs">
+
+    <header class="clearfix">
+      <div id="breadcrumbs">
+        <ul>
+          <li><%= link_to 'Docs', '/developers/tutorials' %></li>
+          <% breadcrumbs.each do |crumb| %>
+            <li><%= link_to crumb[:title], crumb[:url] %></li>
+          <% end %>
+          <li><%= current_page.data.title %></li>
+        </ul>
+      </div>
+      <div id="full-screen">open in full screen...</div>
+    </header>
+
+    <%= tree_for :tutorials %>
+
+    <article>
+      <h1><%= current_page.data.title %></h1>
+      <%= yield %>
+    </article>
+
+  </div>
+
+
+  <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+  <%= stylesheet_link_tag 'lib/rainbow/github' %>
+
+<% end %>

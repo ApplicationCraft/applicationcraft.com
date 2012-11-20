@@ -80,7 +80,7 @@ If your App is running in desktop mode, it will ignore the extra parameters and 
 
 Please be aware that iOS handles confirm() in a different manner and it can cause it to trigger twice.
 
-If running as a Native App, then this is passed through to [this Phonegap function](http://docs.phonegap.com/phonegap_notification_notification.md.html#notification.confirm) .
+If running as a Native App, then this is passed through to [this PhoneGap function](http://docs.phonegap.com/phonegap_notification_notification.md.html#notification.confirm) .
 
      
    

@@ -1,5 +1,5 @@
 ---
-title: AC Mobile Build, a Phonegap Build alternative with Plugins
+title: AC Mobile Build, a PhoneGap Build alternative with Plugins
 tags: phonegap, cordova, html5, native apps, mobile build
 date: 2012-11-13
 class_name: blog
@@ -7,11 +7,11 @@ full_width: true
 image: blog/acmb-1.png
 ---
 
-We're really excited to announce the availability of a full-featured alternative to Phonegap Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins.
+We're really excited to announce the availability of a full-featured alternative to PhoneGap Build that incorporates everything that Adobe's platform offers as well as a healthy number of plugins.
 
 Feel free to take a look at the [User Guide section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps)
 
-For those who don't know Phonegap/Cordova, it lets you take any HTML5+CSS+JS App or Site and compile it into a binary that can be deployed to App Stores. It also lets you access all the hardware goodies on your device (GPS, Accelerometer, Compass, Camera etc.).
+For those who don't know PhoneGap/Cordova, it lets you take any HTML5+CSS+JS App or Site and compile it into a binary that can be deployed to App Stores. It also lets you access all the hardware goodies on your device (GPS, Accelerometer, Compass, Camera etc.).
 
 We've also made it incredibly easy to use by offering Certificate management **and** Certificate generation, as well as config.xml editing - all through the Application Craft platform. So, no problem even if you don't have a Mac.
 
@@ -19,16 +19,16 @@ It doesn't matter what tools you used to build your App, any HTML5+CSS+JS App sh
 
 ![AC Mobile Build](/img/blog/acmb-2.png "Application Craft Mobile Build") 
 ##Why we built it
-Phonegap/Cordova technology is something that most developers are probably already familiar with. However, using it is not for the faint hearted. You need to install and configure XCode (for iOS), Java (for Android and Blackberry) and other compilers. This is a pain in the arse and it is why Phonegap:Build was built. 
+PhoneGap/Cordova technology is something that most developers are probably already familiar with. However, using it is not for the faint hearted. You need to install and configure XCode (for iOS), Java (for Android and Blackberry) and other compilers. This is a pain in the arse and it is why PhoneGap:Build was built. 
 
-As we make pretty heavy use of Phonegap/Cordova, we needed to be in a position where we have control over the build process. Being able to add plugins in line with our users's needs was on e pretty key motivator to build our own platform. The other was the simple need to be in control and not end up red-faced because of changes that Adobe might make. 
+As we make pretty heavy use of PhoneGap/Cordova, we needed to be in a position where we have control over the build process. Being able to add plugins in line with our users's needs was on e pretty key motivator to build our own platform. The other was the simple need to be in control and not end up red-faced because of changes that Adobe might make. 
 
-We would, at this point, like to say thanks to the Phonegap crew - especially Brian "Spacelord" Leroux and Andrew "Sorry for the Snark" Lunny, who have been especially helpful to us in the past.
+We would, at this point, like to say thanks to the PhoneGap crew - especially Brian "Spacelord" Leroux and Andrew "Sorry for the Snark" Lunny, who have been especially helpful to us in the past.
 
-##How does it differ from Phonegap:Build?
-In principle, it is very similar. The main differences are free private builds, 6 Phonegap/Cordova plugins, being able to edit your config.xml without re-uploading and keeping a a history of compiled Apps.
+##How does it differ from PhoneGap:Build?
+In principle, it is very similar. The main differences are free private builds, 6 PhoneGap/Cordova plugins, being able to edit your config.xml without re-uploading and keeping a a history of compiled Apps.
 
-Application Craft will only support iOS, Android (both available now) and Windows Phone (available from December 1st, 2012). We simply don't see the need for Blackberry, Symbian and WebOS I'm afraid. You can still use Phonegap:Build for those.
+Application Craft will only support iOS, Android (both available now) and Windows Phone (available from December 1st, 2012). We simply don't see the need for Blackberry, Symbian and WebOS I'm afraid. You can still use PhoneGap:Build for those.
 
 ##Plugins?
 Application Craft curates plugins. This means that they are built and tested by us to reduce complexity for the user. We have added the most commonly requested ones but will aggressively add more in line with demand.
