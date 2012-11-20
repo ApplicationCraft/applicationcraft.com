@@ -112,17 +112,29 @@ nav.main {
           // Navigation - Sign up
           // ---------------------------------------------------------------------------------------
           &:last-child {
+            height: 100px;
+            text-align: center;
+
             a {
               color: $red;
             }
 
+            #cws-sign-up {
+              display: none;
+              font: 12px 'museo_sans_rounded_300regular';
+              margin: 0;
+              padding: 0 0 22px;
+              text-align: center;
+            }
+
             @include apply-to(more-than, ipad-portrait) {
               margin: 0 0 0 10px;
+              background-color: $red;
+              height: 68px;
 
               a {
                 color: #FFF;
                 padding: 24px 12px 28px;
-                background-color: $red;
                 font-family: 'gotham_mediumregular';
 
                 &:hover {
@@ -133,15 +145,12 @@ nav.main {
 
             @include apply-to(more-than, ipad-landscape) {
               margin: 0 0 0 20px;
+              height: 100px;
 
               a {
                 background-color: $red;
-                color: #FFF;
-                padding: 33px 18px 42px;
-                font: {
-                  size: 23px;
-                  family: 'gotham_mediumregular';
-                }
+                padding: 33px 18px 4px;
+                font-size: 23px;
               }
             }
           }

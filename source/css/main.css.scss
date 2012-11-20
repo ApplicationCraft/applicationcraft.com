@@ -172,11 +172,6 @@ input[type=text] {
   }
 }
 
-.rounded {
-  @include border-radius(4px);
-}
-
-
 
 @import 'nav';
 @import 'video';
