@@ -1,8 +1,8 @@
 ---
 title: "Basic Concepts"
 active_menu_item: developers
-class_name: developers
-full_width: false
+class_name: tutorials
+full_width: true
 ---
 
 ## Basic Concepts ##
@@ -27,11 +27,11 @@ Now let us take a look at what the second Button on this page (labelled **Greeti
 
 This code snippet introduces a number of **basic concepts** …
 
-**a) Comment Lines**
+##a) Comment Lines
 
 Notice that a number of lines start with // … these are comment lines … which means that the computer will ignore anything following the two slashes … you insert comments in your code snippets purely for human consumption … either to remind you later about what the instructions are supposed to do … or another person who might have to maintain this Application.
 
-**b) Variables**
+##b) Variables
 
 Variables are "containers" for storing information.
 
@@ -48,7 +48,7 @@ In this section, we you will learn about ‘assigning a value to a Variable’ �
 In later sections you will learn about the different types of Variables (String, Number, Date, Boolean, Array, Object) … as well as how you can manipulate the values stored within these variables.
 
 
-**c) Getting the contents of widgets**
+##c) Getting the contents of widgets
 
 This command ...
 
@@ -56,7 +56,7 @@ This command ...
 
 … will place the current content of the widget called **txtFirstName** into a variable called **firstName** … app.getValue(...) is another one of the extensible commands provided by Application Craft to make it easy for you do things with widgets.
 
-**d) Concatenating content of two Strings**
+##d) Concatenating content of two Strings
 
 This command ...
 
