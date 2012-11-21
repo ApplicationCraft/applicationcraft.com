@@ -1,4 +1,5 @@
 ---
+old_url: controls.htm
 title: "controls()"
 active_menu_item: developers
 class_name: developers

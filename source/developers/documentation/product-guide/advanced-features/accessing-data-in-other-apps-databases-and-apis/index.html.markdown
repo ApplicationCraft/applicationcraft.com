@@ -1,4 +1,5 @@
 ---
+old_url: accessing_data_in_other_apps__.htm
 title: "Accessing Data in other Apps, Databases and APIs"
 active_menu_item: developers
 class_name: developers

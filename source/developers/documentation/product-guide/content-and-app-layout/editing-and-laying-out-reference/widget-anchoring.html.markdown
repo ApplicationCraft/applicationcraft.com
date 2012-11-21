@@ -1,4 +1,5 @@
 ---
+old_url: widget_anchoring.htm
 title: "Anchoring"
 active_menu_item: developers
 class_name: developers

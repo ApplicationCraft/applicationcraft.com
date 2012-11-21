@@ -1,4 +1,5 @@
 ---
+old_url: list_items_dialog.htm
 title: "List Items Dialog"
 active_menu_item: developers
 class_name: developers

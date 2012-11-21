@@ -1,4 +1,5 @@
 ---
+old_url: connections.htm
 title: "Connections"
 active_menu_item: developers
 class_name: developers

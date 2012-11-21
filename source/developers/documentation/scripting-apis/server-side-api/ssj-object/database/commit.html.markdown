@@ -1,4 +1,5 @@
 ---
+old_url: commit.htm
 title: "commit()"
 active_menu_item: developers
 class_name: developers

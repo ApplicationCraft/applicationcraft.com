@@ -1,4 +1,5 @@
 ---
+old_url: responsive___adaptive___fluid_.htm
 title: "Responsive / Adaptive / Fluid Design"
 active_menu_item: developers
 class_name: developers

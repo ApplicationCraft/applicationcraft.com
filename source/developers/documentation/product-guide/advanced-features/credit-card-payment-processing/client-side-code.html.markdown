@@ -1,4 +1,5 @@
 ---
+old_url: client_side_code.htm
 title: "Client Side Code"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: video__audio_widget.htm
 title: "Video, Audio & YouTube Widget"
 active_menu_item: developers
 class_name: developers

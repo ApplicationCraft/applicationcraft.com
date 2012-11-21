@@ -1,4 +1,5 @@
 ---
+old_url: currentuserrole.htm
 title: "currentUserRole()"
 active_menu_item: developers
 class_name: developers

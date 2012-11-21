@@ -1,4 +1,5 @@
 ---
+old_url: andriod_certificate.htm
 title: "Android Certificates"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: close3.htm
 title: "close()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: certificates.htm
 title: "Create Development Certificate"
 active_menu_item: developers
 class_name: developers

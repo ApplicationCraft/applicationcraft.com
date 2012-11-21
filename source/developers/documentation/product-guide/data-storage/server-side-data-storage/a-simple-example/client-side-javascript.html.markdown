@@ -1,4 +1,5 @@
 ---
+old_url: client_side_javascript.htm
 title: "Client Side Javascript"
 active_menu_item: developers
 class_name: developers

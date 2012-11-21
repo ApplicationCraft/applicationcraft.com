@@ -1,4 +1,5 @@
 ---
+old_url: instanceload.htm
 title: "instanceLoad()"
 active_menu_item: developers
 class_name: developers

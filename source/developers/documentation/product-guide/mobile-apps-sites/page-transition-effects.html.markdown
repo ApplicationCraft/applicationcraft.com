@@ -1,4 +1,5 @@
 ---
+old_url: page_transition_effects.htm
 title: "Page Transition Effects"
 active_menu_item: developers
 class_name: developers

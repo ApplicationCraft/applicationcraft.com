@@ -1,4 +1,5 @@
 ---
+old_url: tokens.htm
 title: "Language Tokens"
 active_menu_item: developers
 class_name: developers

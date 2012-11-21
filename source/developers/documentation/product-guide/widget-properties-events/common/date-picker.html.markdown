@@ -1,4 +1,5 @@
 ---
+old_url: date_picker.htm
 title: "Date Picker"
 active_menu_item: developers
 class_name: developers

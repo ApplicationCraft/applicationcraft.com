@@ -1,4 +1,5 @@
 ---
+old_url: addmarker.htm
 title: "addMarker()"
 active_menu_item: developers
 class_name: developers

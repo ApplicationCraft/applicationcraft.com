@@ -1,4 +1,5 @@
 ---
+old_url: writing_to_the_log.htm
 title: "Writing to the Log"
 active_menu_item: developers
 class_name: developers

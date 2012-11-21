@@ -1,4 +1,5 @@
 ---
+old_url: pro_account_advertising.htm
 title: "Advertising"
 active_menu_item: developers
 class_name: developers

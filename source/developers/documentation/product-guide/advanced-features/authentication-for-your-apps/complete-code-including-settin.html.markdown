@@ -1,4 +1,5 @@
 ---
+old_url: complete_code_including_settin.htm
 title: "Complete Code Including Settings"
 active_menu_item: developers
 class_name: developers

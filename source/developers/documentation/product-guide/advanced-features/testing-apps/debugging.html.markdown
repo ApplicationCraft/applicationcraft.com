@@ -1,4 +1,5 @@
 ---
+old_url: debugging.htm
 title: "Debugging"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: json2text.htm
 title: "OBJ2JSON()"
 active_menu_item: developers
 class_name: developers

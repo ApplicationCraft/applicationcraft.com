@@ -1,4 +1,5 @@
 ---
+old_url: userparameterget.htm
 title: "userParameterGet()"
 active_menu_item: developers
 class_name: developers

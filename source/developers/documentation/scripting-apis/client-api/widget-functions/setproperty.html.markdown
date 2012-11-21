@@ -1,4 +1,5 @@
 ---
+old_url: setproperty.htm
 title: "setProperty()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: chrome.htm
 title: "Chrome"
 active_menu_item: developers
 class_name: developers

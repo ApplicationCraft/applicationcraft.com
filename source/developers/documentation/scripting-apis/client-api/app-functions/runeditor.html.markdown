@@ -1,4 +1,5 @@
 ---
+old_url: runeditor.htm
 title: "runEditor()"
 active_menu_item: developers
 class_name: developers

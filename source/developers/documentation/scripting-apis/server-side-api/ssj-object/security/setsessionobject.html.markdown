@@ -1,4 +1,5 @@
 ---
+old_url: setsessionobject.htm
 title: "setSessionObject()"
 active_menu_item: developers
 class_name: developers

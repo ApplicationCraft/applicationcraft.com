@@ -1,4 +1,5 @@
 ---
+old_url: supported_browsers.htm
 title: "Supported Browsers"
 active_menu_item: developers
 class_name: developers

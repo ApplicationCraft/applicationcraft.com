@@ -1,4 +1,5 @@
 ---
+old_url: refreset.htm
 title: "reset()"
 active_menu_item: developers
 class_name: developers

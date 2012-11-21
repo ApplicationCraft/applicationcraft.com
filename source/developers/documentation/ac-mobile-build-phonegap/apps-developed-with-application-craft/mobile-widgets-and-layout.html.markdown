@@ -1,4 +1,5 @@
 ---
+old_url: mobile_widgets_and_layout.htm
 title: "Mobile Widgets and Layout"
 active_menu_item: developers
 class_name: developers

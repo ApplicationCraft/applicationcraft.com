@@ -1,4 +1,5 @@
 ---
+old_url: fullsettings_javascript_method.htm
 title: "fullSettings() javascript method"
 active_menu_item: developers
 class_name: developers

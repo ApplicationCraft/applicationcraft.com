@@ -1,4 +1,5 @@
 ---
+old_url: versions.htm
 title: "Versions"
 active_menu_item: developers
 class_name: developers

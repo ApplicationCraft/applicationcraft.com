@@ -1,4 +1,5 @@
 ---
+old_url: strokecolor.htm
 title: "strokeColor()"
 active_menu_item: developers
 class_name: developers

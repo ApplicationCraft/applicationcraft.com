@@ -1,4 +1,5 @@
 ---
+old_url: relational_apps.htm
 title: "Relational Apps"
 active_menu_item: developers
 class_name: developers

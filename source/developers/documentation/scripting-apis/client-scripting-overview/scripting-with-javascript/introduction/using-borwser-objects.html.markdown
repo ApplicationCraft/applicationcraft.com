@@ -1,4 +1,5 @@
 ---
+old_url: using_borwser_objects.htm
 title: "Using Browser Objects"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: openexternal.htm
 title: "openExternal()"
 active_menu_item: developers
 class_name: developers
@@ -28,7 +29,7 @@ the URL to show
 </tr>
 <tr>
 <td width="172">
-usePhonegap
+usePhoneGap
 
 </td>
 <td width="29">

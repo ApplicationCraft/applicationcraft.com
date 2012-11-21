@@ -1,4 +1,5 @@
 ---
+old_url: joined_app_queries.htm
 title: "JOINed App Queries"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: addpolyline.htm
 title: "addPolyline()"
 active_menu_item: developers
 class_name: developers

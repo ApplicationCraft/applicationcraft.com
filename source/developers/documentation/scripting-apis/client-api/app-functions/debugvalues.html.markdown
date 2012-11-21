@@ -1,4 +1,5 @@
 ---
+old_url: debugvalues.htm
 title: "debugValues()"
 active_menu_item: developers
 class_name: developers

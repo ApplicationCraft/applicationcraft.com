@@ -1,4 +1,5 @@
 ---
+old_url: google_maps.htm
 title: "Google Maps"
 active_menu_item: developers
 class_name: developers

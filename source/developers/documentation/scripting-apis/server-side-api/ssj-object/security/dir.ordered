@@ -1,0 +1,5 @@
+getloggeduser
+getowneruser
+setsessionobject
+getsessionobject
+deletesessionobject

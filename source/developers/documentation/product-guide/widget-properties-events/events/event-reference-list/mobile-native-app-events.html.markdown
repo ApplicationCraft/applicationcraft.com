@@ -1,4 +1,5 @@
 ---
+old_url: mobile_native_app_events.htm
 title: "Mobile Native App Events"
 active_menu_item: developers
 class_name: developers
@@ -8,7 +9,7 @@ full_width: true
 
 These events are only available for Apps running in Native mode. If you are running an App in a regular browser on your mobile device then these events will not be available.
 
-For more information on building Native Apps, see the [Phonegap & Native Apps](/developers/documentation/ac-mobile-build-phonegap/) chapter.
+For more information on building Native Apps, see the [PhoneGap & Native Apps](/developers/documentation/ac-mobile-build-phonegap/) chapter.
 
 <table>
 <tr>

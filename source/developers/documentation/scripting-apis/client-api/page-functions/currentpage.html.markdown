@@ -1,4 +1,5 @@
 ---
+old_url: currentpage.htm
 title: "currentPage()"
 active_menu_item: developers
 class_name: developers

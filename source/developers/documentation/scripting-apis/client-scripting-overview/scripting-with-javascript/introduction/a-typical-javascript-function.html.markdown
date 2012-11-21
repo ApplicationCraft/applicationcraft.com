@@ -1,4 +1,5 @@
 ---
+old_url: a_typical_javascript_function.htm
 title: "A typical Javascript function"
 active_menu_item: developers
 class_name: developers

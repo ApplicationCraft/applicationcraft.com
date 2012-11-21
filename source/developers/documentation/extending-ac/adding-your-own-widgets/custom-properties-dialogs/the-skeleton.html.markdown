@@ -1,4 +1,5 @@
 ---
+old_url: the_skeleton.htm
 title: "The Skeleton"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: instancegetrtz.htm
 title: "instanceGetRTZ()"
 active_menu_item: developers
 class_name: developers

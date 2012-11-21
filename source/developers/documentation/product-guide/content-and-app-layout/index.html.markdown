@@ -1,4 +1,5 @@
 ---
+old_url: ui__content_layout.htm
 title: "Content and App Layout"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: share_this_widget.htm
 title: "Share This Widget"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: mapstyles.htm
 title: "mapStyles()"
 active_menu_item: developers
 class_name: developers

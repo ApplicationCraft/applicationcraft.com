@@ -1,4 +1,5 @@
 ---
+old_url: google_cloud_messaging.htm
 title: "Google Cloud Messaging"
 active_menu_item: developers
 class_name: developers

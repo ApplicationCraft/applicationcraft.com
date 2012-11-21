@@ -1,4 +1,5 @@
 ---
+old_url: reacting_to_size_changes.htm
 title: "Reacting to Size Changes"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: deletegroup.htm
 title: "deleteGroup()"
 active_menu_item: developers
 class_name: developers

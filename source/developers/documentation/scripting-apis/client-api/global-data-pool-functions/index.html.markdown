@@ -1,4 +1,5 @@
 ---
+old_url: global_data_pool.htm
 title: "Global Data Pool Functions"
 active_menu_item: developers
 class_name: developers

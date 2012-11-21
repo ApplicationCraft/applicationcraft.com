@@ -1,4 +1,5 @@
 ---
+old_url: getting_data_for_charts.htm
 title: "Getting data for Charts"
 active_menu_item: developers
 class_name: developers

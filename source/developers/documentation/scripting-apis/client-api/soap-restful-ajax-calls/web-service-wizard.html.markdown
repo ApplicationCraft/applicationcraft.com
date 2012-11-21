@@ -1,4 +1,5 @@
 ---
+old_url: web_service_wizard.htm
 title: "Wizard"
 active_menu_item: developers
 class_name: developers

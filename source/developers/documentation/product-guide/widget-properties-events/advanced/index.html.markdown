@@ -1,4 +1,5 @@
 ---
+old_url: advanced.htm
 title: "Advanced"
 active_menu_item: developers
 class_name: developers

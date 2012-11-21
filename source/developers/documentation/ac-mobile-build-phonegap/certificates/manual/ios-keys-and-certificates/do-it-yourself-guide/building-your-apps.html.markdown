@@ -1,4 +1,5 @@
 ---
+old_url: building_your_apps.htm
 title: "Building your Apps"
 active_menu_item: developers
 class_name: developers
@@ -16,7 +17,7 @@ Be careful to use the correct files for development builds as opposed to distrib
 
 These are now used by
 
- - [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) - builds your App using Phonegap Technology integrated into the AC Platform; this has 5 [plugins](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/) .
+ - [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) - builds your App using PhoneGap Technology integrated into the AC Platform; this has 5 [plugins](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/) .
 
- - [Phonegap Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) - builds your App in the same way but on Adobe's platform; at the time of writing, this has no [plugin](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/) capabilities
+ - [PhoneGap Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) - builds your App in the same way but on Adobe's platform; at the time of writing, this has no [plugin](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/) capabilities
 

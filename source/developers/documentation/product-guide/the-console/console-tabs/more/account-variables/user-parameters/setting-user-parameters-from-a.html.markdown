@@ -1,4 +1,5 @@
 ---
+old_url: setting_user_parameters_from_a.htm
 title: "Setting User Parameters from an App"
 active_menu_item: developers
 class_name: developers

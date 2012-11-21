@@ -1,4 +1,5 @@
 ---
+old_url: equal_distribution.htm
 title: "Equal Distribution"
 active_menu_item: developers
 class_name: developers

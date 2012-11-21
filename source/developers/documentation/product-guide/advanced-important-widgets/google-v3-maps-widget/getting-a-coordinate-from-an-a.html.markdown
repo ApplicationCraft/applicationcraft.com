@@ -1,4 +1,5 @@
 ---
+old_url: getting_a_coordinate_from_an_a.htm
 title: "Getting a Coordinate from an Address"
 active_menu_item: developers
 class_name: developers

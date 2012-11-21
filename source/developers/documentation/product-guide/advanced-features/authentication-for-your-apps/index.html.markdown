@@ -1,4 +1,5 @@
 ---
+old_url: authentication_for_your_apps.htm
 title: "Authentication for Your Apps"
 active_menu_item: developers
 class_name: developers

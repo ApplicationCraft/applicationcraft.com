@@ -1,4 +1,5 @@
 ---
+old_url: mobile_transition_mode.htm
 title: "Transition Mode"
 active_menu_item: developers
 class_name: developers

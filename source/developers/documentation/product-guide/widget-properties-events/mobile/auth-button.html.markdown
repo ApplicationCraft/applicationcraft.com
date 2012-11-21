@@ -1,4 +1,5 @@
 ---
+old_url: auth_button.htm
 title: "Auth Button"
 active_menu_item: developers
 class_name: developers

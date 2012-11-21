@@ -1,4 +1,5 @@
 ---
+old_url: notify.htm
 title: "notify()"
 active_menu_item: developers
 class_name: developers

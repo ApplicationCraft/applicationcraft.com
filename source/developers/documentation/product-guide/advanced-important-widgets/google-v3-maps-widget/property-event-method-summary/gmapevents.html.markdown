@@ -1,4 +1,5 @@
 ---
+old_url: gmapevents.htm
 title: "Events"
 active_menu_item: developers
 class_name: developers

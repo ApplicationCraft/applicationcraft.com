@@ -1,4 +1,5 @@
 ---
+old_url: layout_types_overview.htm
 title: "Layout Types Overview"
 active_menu_item: developers
 class_name: developers

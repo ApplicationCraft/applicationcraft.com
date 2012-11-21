@@ -1,4 +1,5 @@
 ---
+old_url: creating_an_apple_developer_ac.htm
 title: "Creating an Apple Developer Account"
 active_menu_item: developers
 class_name: developers

@@ -1,5 +1,6 @@
 ---
-title: "Phonegap:Build"
+old_url: phonegapbuild.htm
+title: "PhoneGap:Build"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -20,4 +21,4 @@ full_width: true
 ## Related Videos
 
  - [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/M9hLcnKOj04?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Deploying a Native Mobile App [2:22]
- - [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/WpVMlSerJ-Q?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Phonegap:Build [2:47]
+ - [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/WpVMlSerJ-Q?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) PhoneGap:Build [2:47]

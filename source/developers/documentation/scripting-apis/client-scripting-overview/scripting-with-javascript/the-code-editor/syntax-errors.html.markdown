@@ -1,4 +1,5 @@
 ---
+old_url: syntax_errors.htm
 title: "Syntax Errors"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: mouse_events.htm
 title: "Mouse Events"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: your_own_error_handler.htm
 title: "Your Own Error Handler"
 active_menu_item: developers
 class_name: developers

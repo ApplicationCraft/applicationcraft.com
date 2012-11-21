@@ -1,4 +1,5 @@
 ---
+old_url: how_to_report_on_app_data.htm
 title: "How to Report on App Data"
 active_menu_item: developers
 class_name: developers

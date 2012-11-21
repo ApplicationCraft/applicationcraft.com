@@ -1,4 +1,5 @@
 ---
+old_url: stop.htm
 title: "stop()"
 active_menu_item: developers
 class_name: developers

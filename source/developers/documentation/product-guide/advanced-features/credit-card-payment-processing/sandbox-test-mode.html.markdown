@@ -1,4 +1,5 @@
 ---
+old_url: sandbox_test_mode.htm
 title: "Sandbox (test) Mode"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: automatic_building.htm
 title: "Building Your Apps"
 active_menu_item: developers
 class_name: developers

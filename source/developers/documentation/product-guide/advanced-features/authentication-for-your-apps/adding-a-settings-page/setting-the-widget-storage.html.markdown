@@ -1,4 +1,5 @@
 ---
+old_url: setting_the_widget_storage.htm
 title: "Setting the Widget Storage"
 active_menu_item: developers
 class_name: developers

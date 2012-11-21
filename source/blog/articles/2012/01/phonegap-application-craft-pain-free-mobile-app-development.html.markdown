@@ -8,11 +8,11 @@ full_width: true
 image: blog/phonegap.gif
 ---
 
-Application Craft is very tightly integrated with Phonegap:Build and today Phonegap released their Case Study highlighting this integration.
+Application Craft is very tightly integrated with PhoneGap:Build and today PhoneGap released their Case Study highlighting this integration.
 
-<a href="http://phonegap.com/case/2011/11/07/phonegap-application-craft-pain-free-mobile-app-development/" target="_blank">Click here</a> to go to see it on the Phonegap Site.
+<a href="http://phonegap.com/case/2011/11/07/phonegap-application-craft-pain-free-mobile-app-development/" target="_blank">Click here</a> to go to see it on the PhoneGap Site.
 
-##Reproduced Content from Phonegap Site
+##Reproduced Content from PhoneGap Site
 Just as the PhoneGap mantra is fast and easy cross-platform mobile app deployment, Application Craft creators are committed to making the mobile app and content development process pain-free. No wonder these two technologies get on so well!
  
 Application Craft is a cloud-based, desktop and mobile app development environment for building enterprise apps and mobile and tablet content. On top of its advanced browser-based IDE, Application Craft offers a sophisticated back end that supports database integration, data storage and more. Examples of apps built with Application Craft include the Tate Modern Museum mobile app and the JamieOliver.com app.
@@ -21,7 +21,7 @@ Application Craft is a cloud-based, desktop and mobile app development environme
  
 ###So, why is Application Craft and PhoneGap a match made in heaven?
 
-Application Craft generates 100% JavaScript apps. When combined with PhoneGap and PhoneGap Build, apps built using Application Craft can access native device features and can be automatically deployed to app stores.
+Application Craft generates 100% Javascript apps. When combined with PhoneGap and PhoneGap Build, apps built using Application Craft can access native device features and can be automatically deployed to app stores.
 
 PhoneGap Build--a cloud-based services that compiles PhoneGap apps for various platforms--provides a "huge bonus" because it seamlessly manages the complexities of native compilers, says Freddy May, Founder and CEO of Application Craft. "The PhoneGap Build API is icing on the cake because it meant we were able to achieve the tightest possible integration with Application Craft."
 

@@ -1,4 +1,5 @@
 ---
+old_url: getsharedresources.htm
 title: "getSharedResources()"
 active_menu_item: developers
 class_name: developers

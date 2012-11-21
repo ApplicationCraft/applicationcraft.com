@@ -1,4 +1,5 @@
 ---
+old_url: standard_storage_procedures.htm
 title: "Standard Storage Procedures"
 active_menu_item: developers
 class_name: developers

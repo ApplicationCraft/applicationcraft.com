@@ -1,4 +1,5 @@
 ---
+old_url: shape.htm
 title: "Shape"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: parent.htm
 title: "parent()"
 active_menu_item: developers
 class_name: developers

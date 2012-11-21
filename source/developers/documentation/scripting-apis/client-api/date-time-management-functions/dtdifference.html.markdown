@@ -1,4 +1,5 @@
 ---
+old_url: dtdifference.htm
 title: "dtDifference()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: setting_for_auto_language_dete.htm
 title: "Setting for Auto Language Detection at Run Time"
 active_menu_item: developers
 class_name: developers

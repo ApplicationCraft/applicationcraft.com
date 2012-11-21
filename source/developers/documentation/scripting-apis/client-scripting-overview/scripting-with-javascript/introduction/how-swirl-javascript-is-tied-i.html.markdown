@@ -1,4 +1,5 @@
 ---
+old_url: how_swirl_javascript_is_tied_i.htm
 title: "How Application Craft Javascript is tied into AC"
 active_menu_item: developers
 class_name: developers

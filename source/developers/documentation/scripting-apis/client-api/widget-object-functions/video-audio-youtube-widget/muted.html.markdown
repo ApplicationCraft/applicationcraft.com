@@ -1,4 +1,5 @@
 ---
+old_url: muted.htm
 title: "muted()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: adding_a_3rd_party_widget.htm
 title: "Adding a 3rd Party Widget"
 active_menu_item: developers
 class_name: developers

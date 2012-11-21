@@ -1,4 +1,5 @@
 ---
+old_url: creating_a_new_widget.htm
 title: "Creating a New Widget"
 active_menu_item: developers
 class_name: developers

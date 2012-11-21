@@ -1,4 +1,5 @@
 ---
+old_url: itunes_connect.htm
 title: "iTunes Connect"
 active_menu_item: developers
 class_name: developers

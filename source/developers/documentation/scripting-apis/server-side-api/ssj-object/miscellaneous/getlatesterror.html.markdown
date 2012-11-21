@@ -1,4 +1,5 @@
 ---
+old_url: getlatesterror.htm
 title: "getLatestError()"
 active_menu_item: developers
 class_name: developers

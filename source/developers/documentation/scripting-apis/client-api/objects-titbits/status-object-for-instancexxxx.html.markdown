@@ -1,4 +1,5 @@
 ---
+old_url: status_object_for_instancexxxx.htm
 title: "status object for instanceXxxx() functions"
 active_menu_item: developers
 class_name: developers

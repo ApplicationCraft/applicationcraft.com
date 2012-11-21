@@ -1,4 +1,5 @@
 ---
+old_url: adding_a_native_ac_widget.htm
 title: "Adding a Native AC Widget"
 active_menu_item: developers
 class_name: developers

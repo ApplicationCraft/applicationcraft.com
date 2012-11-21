@@ -1,4 +1,5 @@
 ---
+old_url: change_password.htm
 title: "Change Password"
 active_menu_item: developers
 class_name: developers

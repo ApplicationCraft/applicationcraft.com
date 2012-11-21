@@ -6,7 +6,7 @@ meta_keywords: services, mobile application development tools, android, html5, i
 ---
 
 ## App Development
-Need help building your app? The expert developers at Application Craft use our own platform to create your cross-platform applications. These can be delivered as web apps or Phonegap/Cordova-compiled native apps that can access all device hardware and be deployed through app stores.
+Need help building your app? The expert developers at Application Craft use our own platform to create your cross-platform applications. These can be delivered as web apps or PhoneGap/Cordova-compiled native apps that can access all device hardware and be deployed through app stores.
 
   - **Front Ends**
     We can build a mobile front-end to any database or web service.

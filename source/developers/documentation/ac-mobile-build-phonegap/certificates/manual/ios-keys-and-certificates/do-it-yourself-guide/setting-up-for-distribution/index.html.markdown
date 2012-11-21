@@ -1,4 +1,5 @@
 ---
+old_url: setting_up_for_distribution.htm
 title: "Setting up for Distribution"
 active_menu_item: developers
 class_name: developers

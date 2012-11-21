@@ -1,4 +1,5 @@
 ---
+old_url: data_integration_with_the_maps.htm
 title: "Data Integration with the Maps Widget"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: configuring_group_parameters.htm
 title: "Configuring Group parameters"
 active_menu_item: developers
 class_name: developers

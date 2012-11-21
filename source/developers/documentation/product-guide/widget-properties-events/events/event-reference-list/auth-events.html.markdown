@@ -1,4 +1,5 @@
 ---
+old_url: auth_events.htm
 title: "Auth Events"
 active_menu_item: developers
 class_name: developers

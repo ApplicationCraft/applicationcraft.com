@@ -1,4 +1,5 @@
 ---
+old_url: auto_translation.htm
 title: "Auto Translation"
 active_menu_item: developers
 class_name: developers

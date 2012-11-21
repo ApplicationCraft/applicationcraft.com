@@ -1,4 +1,5 @@
 ---
+old_url: date_handling.htm
 title: "Date Handling"
 active_menu_item: developers
 class_name: developers

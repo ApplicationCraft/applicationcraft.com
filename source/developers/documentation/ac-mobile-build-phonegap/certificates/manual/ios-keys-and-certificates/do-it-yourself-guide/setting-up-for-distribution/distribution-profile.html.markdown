@@ -1,4 +1,5 @@
 ---
+old_url: distribution_profile.htm
 title: "Distribution Profile"
 active_menu_item: developers
 class_name: developers
@@ -12,5 +13,5 @@ You will also need to select the specific App ID from the drop down.
 
 ![iosa-dist-1](/img/docs/iosa-dist-1.zoom68.png)
 
-Once you save this, you can download the .mobileprovision file from the portal and load it into AC Mobile Build or Phonegap Build.
+Once you save this, you can download the .mobileprovision file from the portal and load it into AC Mobile Build or PhoneGap Build.
 

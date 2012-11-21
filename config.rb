@@ -1,35 +1,41 @@
-require "lib/helpers/video_helpers"
-require "lib/helpers/tree_helpers"
-helpers VideoHelpers
-helpers TreeHelpers
-
-
 module DocsRedirect
   class << self
     def registered(app)
-      app.after_build do |builder|
-        rules = []
-        YAML::load(File.read("data/documentation.yml"))['tree'].each do |data|
-          rules << DocsRedirect.build_rule(data)
-        end
+      app.after_configuration do
+        app.after_build do |builder|
+          path, rules = "source/developers/documentation", []
+          Dir.new(path).each do |x|
+            next if x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')
 
-        builder.create_file 'build/docs_redirect.map', rules.join("\n")
+            rules << DocsRedirect.build_rule("#{path}/#{x}", sitemap)
+          end
+
+          builder.create_file 'build/docs_redirect.map', rules.join("\n")
+        end
       end
     end
     alias :included :registered
 
-    def build_rule(data)
+    def build_rule(item, sitemap)
       rules = []
 
-      if data['old_url']
-        old = data['old_url'].split('?').last
-        rules << "if ($args = #{old}) {\n  rewrite ^ #{data['url']}? permanent;\n}"
+      if Dir.exists?(item)
+        Dir.new(item).each do |x|
+          next if x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')
 
-        if data['tree']
-          data['tree'].each do |dat|
-            rules << DocsRedirect.build_rule(dat)
-          end
+          rules << DocsRedirect.build_rule("#{item}/#{x}", sitemap)
         end
+
+        path = sitemap.file_to_path("#{item}/index.html.markdown")
+      else
+        path = sitemap.file_to_path(item)
+      end
+
+      resource = sitemap.find_resource_by_path(path)
+
+      if resource.data.old_url
+        old = resource.data.old_url.split('?').last
+        rules << "if ($args = #{old}) {\n  rewrite ^ #{resource.url}? permanent;\n}"
       end
 
       rules
@@ -108,6 +114,9 @@ end
 
 page "/blog/feed.xml", :layout => false
 page "/developers/documentation/*", :layout => :docs
+page "/developers/tutorials/*", :layout => :tutorials
+
+ignore "dir.ordered"
 
 # ignore "/developers/documentation/*"
 

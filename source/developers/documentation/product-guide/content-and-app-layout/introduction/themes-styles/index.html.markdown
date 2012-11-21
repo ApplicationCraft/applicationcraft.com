@@ -1,4 +1,5 @@
 ---
+old_url: themes_styles.htm
 title: "Themes & Styles"
 active_menu_item: developers
 class_name: developers

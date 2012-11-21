@@ -1,4 +1,5 @@
 ---
+old_url: enableview.htm
 title: "enableView()"
 active_menu_item: developers
 class_name: developers

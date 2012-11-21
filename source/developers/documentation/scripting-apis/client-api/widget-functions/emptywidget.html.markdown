@@ -1,4 +1,5 @@
 ---
+old_url: emptywidget.htm
 title: "emptyWidget()"
 active_menu_item: developers
 class_name: developers

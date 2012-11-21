@@ -1,4 +1,5 @@
 ---
+old_url: md5.htm
 title: "md5()"
 active_menu_item: developers
 class_name: developers

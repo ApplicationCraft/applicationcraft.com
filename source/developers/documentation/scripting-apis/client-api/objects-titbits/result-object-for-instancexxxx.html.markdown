@@ -1,4 +1,5 @@
 ---
+old_url: result_object_for_instancexxxx.htm
 title: "result object for instanceXxxx() callbacks"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: quick_start_menu.htm
 title: "Quick Start Menu"
 active_menu_item: developers
 class_name: developers

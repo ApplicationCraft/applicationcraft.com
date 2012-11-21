@@ -1,4 +1,5 @@
 ---
+old_url: cancel_subscription.htm
 title: "Cancel Subscription"
 active_menu_item: developers
 class_name: developers

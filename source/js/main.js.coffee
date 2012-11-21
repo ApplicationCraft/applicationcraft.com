@@ -11,6 +11,12 @@ $ ->
   )
 
 
+# If the user is using Chrome, show the CWS sign up link within the nav.
+$ ->
+  if $.browser.chrome
+    do $('#cws-sign-up').show
+
+
 # Handles the hidden submenu.
 $ ->
   $('#content-body h1 button').click ->
@@ -123,9 +129,8 @@ $ ->
 
     # Expands the tree to the current URL
     path = document.location.pathname
-    if path.substr(-1) == '/' then path = path.slice(0, path.length-1)
     if (selected = $(".tree a[href='#{path}']")).length > 0
-      if selected.parent().find('>span')
+      if selected.parent().find('>span').length > 0
         li = selected.parent().parent()
       else
         li = selected.parent()

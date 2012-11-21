@@ -1,4 +1,5 @@
 ---
+old_url: dedicated_authentication_app_s.htm
 title: "Dedicated Authentication App Strategy"
 active_menu_item: developers
 class_name: developers

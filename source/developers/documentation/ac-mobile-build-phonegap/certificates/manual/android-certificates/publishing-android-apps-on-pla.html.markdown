@@ -1,4 +1,5 @@
 ---
+old_url: publishing_android_apps_on_pla.htm
 title: "Publishing Android Apps on Play"
 active_menu_item: developers
 class_name: developers

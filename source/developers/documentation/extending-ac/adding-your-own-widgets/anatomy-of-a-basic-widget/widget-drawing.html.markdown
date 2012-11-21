@@ -1,4 +1,5 @@
 ---
+old_url: widget_drawing.htm
 title: "Widget Drawing"
 active_menu_item: developers
 class_name: developers

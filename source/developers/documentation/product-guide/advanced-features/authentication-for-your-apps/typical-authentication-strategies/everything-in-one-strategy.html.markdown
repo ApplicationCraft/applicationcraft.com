@@ -1,4 +1,5 @@
 ---
+old_url: everything_in_one_strategy.htm
 title: "Everything in One Strategy"
 active_menu_item: developers
 class_name: developers

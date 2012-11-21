@@ -1,4 +1,5 @@
 ---
+old_url: adaptive_layout_rules.htm
 title: "Adaptive Layout Overview"
 active_menu_item: developers
 class_name: developers

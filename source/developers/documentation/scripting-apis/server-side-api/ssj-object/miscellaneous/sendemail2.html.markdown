@@ -1,4 +1,5 @@
 ---
+old_url: sendemail2.htm
 title: "sendEmail()"
 active_menu_item: developers
 class_name: developers

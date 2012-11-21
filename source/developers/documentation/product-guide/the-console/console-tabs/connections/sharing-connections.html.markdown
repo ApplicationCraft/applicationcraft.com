@@ -1,4 +1,5 @@
 ---
+old_url: sharing_connections.htm
 title: "Sharing Connections"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: reporting_database_rdb.htm
 title: "Reporting Database (RDB)"
 active_menu_item: developers
 class_name: developers

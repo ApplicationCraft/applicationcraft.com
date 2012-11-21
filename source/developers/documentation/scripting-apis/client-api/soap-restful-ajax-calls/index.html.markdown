@@ -1,4 +1,5 @@
 ---
+old_url: soap__restful_ajax_calls.htm
 title: "SOAP & RESTful AJAX Calls"
 active_menu_item: developers
 class_name: developers

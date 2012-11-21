@@ -15,6 +15,10 @@ aside.tree {
   li {
     padding: 2px 0;
 
+    &.checked > a {
+      color: $red;
+    }
+
     a {
       color: #000;
 

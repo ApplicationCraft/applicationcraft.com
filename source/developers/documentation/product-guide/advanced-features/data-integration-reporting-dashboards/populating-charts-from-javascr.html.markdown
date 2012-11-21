@@ -1,4 +1,5 @@
 ---
+old_url: populating_charts_from_javascr.htm
 title: "Populating Charts from Javascript"
 active_menu_item: developers
 class_name: developers

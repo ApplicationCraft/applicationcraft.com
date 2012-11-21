@@ -1,4 +1,5 @@
 ---
+old_url: menus_and_navigation.htm
 title: "Menus and Navigation"
 active_menu_item: developers
 class_name: developers

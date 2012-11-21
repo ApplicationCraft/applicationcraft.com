@@ -1,4 +1,5 @@
 ---
+old_url: console_object.htm
 title: "console object"
 active_menu_item: developers
 class_name: developers

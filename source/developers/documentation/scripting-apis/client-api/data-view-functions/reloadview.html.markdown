@@ -1,4 +1,5 @@
 ---
+old_url: reloadview.htm
 title: "reloadView()"
 active_menu_item: developers
 class_name: developers

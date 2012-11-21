@@ -1,4 +1,5 @@
 ---
+old_url: writing_user_defined_functions.htm
 title: "Writing User Defined Functions"
 active_menu_item: developers
 class_name: developers

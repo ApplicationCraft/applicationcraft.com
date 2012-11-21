@@ -1,4 +1,5 @@
 ---
+old_url: insert.htm
 title: "insert()"
 active_menu_item: developers
 class_name: developers

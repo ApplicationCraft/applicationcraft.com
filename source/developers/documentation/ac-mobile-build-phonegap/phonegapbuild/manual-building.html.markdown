@@ -1,4 +1,5 @@
 ---
+old_url: manual_building.htm
 title: "Manual Building"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: building_the_native_apps.htm
 title: "Building your Apps"
 active_menu_item: developers
 class_name: developers
@@ -6,7 +7,7 @@ full_width: true
 ---
 
 
-In order to use PhoneGap:Build, you will need to create a Phonegap account. [Click here](https://build.phonegap.com/) to access the site and set up your account. Register using the Adobe ID option.
+In order to use PhoneGap:Build, you will need to create a PhoneGap account. [Click here](https://build.phonegap.com/) to access the site and set up your account. Register using the Adobe ID option.
 
 Once you have successfully created your PhoneGap:Build account, follow these steps
 
@@ -18,7 +19,7 @@ Once you have successfully created your PhoneGap:Build account, follow these ste
 
 You are now ready to create your Native Apps.
 
- - Select an App and click the 'Phonegap' button on the bottom pane.
+ - Select an App and click the 'PhoneGap' button on the bottom pane.
 
  - You will see a screen like the one below
 
@@ -30,9 +31,9 @@ If you have not created done this before, then only the one marked 'Web' will be
 
  - You can close the window now and open it later. The build process can take anywhere between 2 and 5 minutes depending on the server load. As soon as each platform native App is built, you will see it appear in the window.
 
- - The build is then deleted from your Phonegap:Build account.
+ - The build is then deleted from your PhoneGap:Build account.
 
- - Any errors will be reported. In the event of errors you can Download your app and then log into your Phonegap:Build account to build from the index.html file of your downloaded app. The app will not then be deleted on completion and any errors detected can be investigated.
+ - Any errors will be reported. In the event of errors you can Download your app and then log into your PhoneGap:Build account to build from the index.html file of your downloaded app. The app will not then be deleted on completion and any errors detected can be investigated.
 
- - iOS will not be available until you have registered an appropriate certificate and profile in your Phonegap:Build account. See [https://build.phonegap.com/docs/ios-builds](https://build.phonegap.com/docs/ios-builds) for more information.
+ - iOS will not be available until you have registered an appropriate certificate and profile in your PhoneGap:Build account. See [https://build.phonegap.com/docs/ios-builds](https://build.phonegap.com/docs/ios-builds) for more information.
 

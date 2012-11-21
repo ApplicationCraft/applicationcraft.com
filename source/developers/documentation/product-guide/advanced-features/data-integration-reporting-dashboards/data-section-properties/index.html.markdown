@@ -1,4 +1,5 @@
 ---
+old_url: data_section_properties.htm
 title: "Data Section Properties"
 active_menu_item: developers
 class_name: developers

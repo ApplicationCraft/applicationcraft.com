@@ -1,4 +1,5 @@
 ---
+old_url: automatically_created_relation.htm
 title: "Automatically Created Relationships"
 active_menu_item: developers
 class_name: developers

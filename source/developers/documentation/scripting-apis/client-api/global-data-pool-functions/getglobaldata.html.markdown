@@ -1,4 +1,5 @@
 ---
+old_url: getglobaldata.htm
 title: "getGlobalData()"
 active_menu_item: developers
 class_name: developers

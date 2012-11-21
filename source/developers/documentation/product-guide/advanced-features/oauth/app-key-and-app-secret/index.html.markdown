@@ -1,4 +1,5 @@
 ---
+old_url: app_key_and_app_secret.htm
 title: "App Key and App Secret"
 active_menu_item: developers
 class_name: developers

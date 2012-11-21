@@ -1,4 +1,5 @@
 ---
+old_url: must_read_layout_tips_and_tric.htm
 title: "Must Read Layout Tips and Tricks"
 active_menu_item: developers
 class_name: developers

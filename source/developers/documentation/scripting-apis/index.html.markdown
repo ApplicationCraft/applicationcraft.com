@@ -1,4 +1,5 @@
 ---
+old_url: scripting__apis.htm
 title: "Scripting & APIs"
 active_menu_item: developers
 class_name: developers

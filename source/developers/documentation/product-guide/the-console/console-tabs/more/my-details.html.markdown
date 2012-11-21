@@ -1,4 +1,5 @@
 ---
+old_url: my_details.htm
 title: "My User Variables"
 active_menu_item: developers
 class_name: developers

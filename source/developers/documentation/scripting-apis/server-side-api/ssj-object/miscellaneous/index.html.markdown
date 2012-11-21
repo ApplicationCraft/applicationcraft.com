@@ -1,4 +1,5 @@
 ---
+old_url: miscellaneous.htm
 title: "Miscellaneous"
 active_menu_item: developers
 class_name: developers

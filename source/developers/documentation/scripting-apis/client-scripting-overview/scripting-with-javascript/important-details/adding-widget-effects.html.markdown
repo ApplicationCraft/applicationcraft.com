@@ -1,4 +1,5 @@
 ---
+old_url: adding_widget_effects.htm
 title: "Adding Widget Effects"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: configuring_your_chart.htm
 title: "Configuring your Chart"
 active_menu_item: developers
 class_name: developers

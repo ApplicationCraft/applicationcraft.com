@@ -1,4 +1,5 @@
 ---
+old_url: general_screen_behavior.htm
 title: "General Screen Behavior"
 active_menu_item: developers
 class_name: developers

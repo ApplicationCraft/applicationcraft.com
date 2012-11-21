@@ -1,4 +1,5 @@
 ---
+old_url: unassignfromrole.htm
 title: "unassignFromRole()"
 active_menu_item: developers
 class_name: developers

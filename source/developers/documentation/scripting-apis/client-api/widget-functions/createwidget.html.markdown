@@ -1,4 +1,5 @@
 ---
+old_url: createwidget.htm
 title: "createWidget()"
 active_menu_item: developers
 class_name: developers
@@ -29,7 +30,7 @@ The container into which the widget will be created
 <td width="20">
 </td>
 <td width="692">
-The class name available in property bar for example TextMobile, WiziCore\_UI\_TextWidget
+The class name available in property bar for example TextMobile, WiziCore_UI_TextWidget
 
 </td>
 </tr>
@@ -53,7 +54,7 @@ The position the widget will be created in the container (Vertical or Horizontal
 <td width="20">
 </td>
 <td width="692">
-Create the object with defined properties: {name: 'my\_cool\_name', width: 200, height: 500}, Note: the name will be changed dynamically if widget with this name exists
+Create the object with defined properties: {name: 'my_cool_name', width: 200, height: 500}, Note: the name will be changed dynamically if widget with this name exists
 
 </td>
 </tr>

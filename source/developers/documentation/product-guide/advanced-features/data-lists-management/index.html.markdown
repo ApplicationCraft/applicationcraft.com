@@ -1,4 +1,5 @@
 ---
+old_url: data_lists_management.htm
 title: "Data Lists Management"
 active_menu_item: developers
 class_name: developers

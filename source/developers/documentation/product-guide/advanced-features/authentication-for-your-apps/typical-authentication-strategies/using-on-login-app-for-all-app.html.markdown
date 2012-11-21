@@ -1,4 +1,5 @@
 ---
+old_url: using_on_login_app_for_all_app.htm
 title: "Using one Login App for all Apps"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: sqlplugin_methods.htm
 title: "Methods"
 active_menu_item: developers
 class_name: developers

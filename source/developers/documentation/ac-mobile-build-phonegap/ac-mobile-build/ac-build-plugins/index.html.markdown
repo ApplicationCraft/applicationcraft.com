@@ -1,4 +1,5 @@
 ---
+old_url: ac_plugins.htm
 title: "AC Build Plugins"
 active_menu_item: developers
 class_name: developers
@@ -22,7 +23,7 @@ AC Apps provide dialogs that let you choose which plugins you wish to include.
 
 The AC Build Plugins [App Property](/developers/documentation/product-guide/widget-properties-events/app-properties) allows you include the plugins within your Native App built using [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) .
 
-The Child Browser plugin can also be used if building using [Phonegap:Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) .
+The Child Browser plugin can also be used if building using [PhoneGap:Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) .
 
 ![acPllugins](/img/docs/acpllugins.zoom83.png)
 

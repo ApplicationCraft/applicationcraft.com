@@ -1,4 +1,5 @@
 ---
+old_url: example_crud_calls.htm
 title: "Example CRUD Calls"
 active_menu_item: developers
 class_name: developers

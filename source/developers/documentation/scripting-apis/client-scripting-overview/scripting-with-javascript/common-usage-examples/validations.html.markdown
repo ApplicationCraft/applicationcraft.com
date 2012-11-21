@@ -1,4 +1,5 @@
 ---
+old_url: validations.htm
 title: "Validations"
 active_menu_item: developers
 class_name: developers

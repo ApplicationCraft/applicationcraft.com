@@ -1,4 +1,5 @@
 ---
+old_url: image_maps_and_emoticons.htm
 title: "Image Maps and Emoticons"
 active_menu_item: developers
 class_name: developers

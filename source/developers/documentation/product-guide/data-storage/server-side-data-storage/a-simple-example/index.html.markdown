@@ -1,4 +1,5 @@
 ---
+old_url: a_simple_example.htm
 title: "A Simple Example"
 active_menu_item: developers
 class_name: developers

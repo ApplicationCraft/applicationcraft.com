@@ -1,4 +1,5 @@
 ---
+old_url: icon_management.htm
 title: "Icon Management"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: server_side_rules.htm
 title: "Server Side Rules"
 active_menu_item: developers
 class_name: developers

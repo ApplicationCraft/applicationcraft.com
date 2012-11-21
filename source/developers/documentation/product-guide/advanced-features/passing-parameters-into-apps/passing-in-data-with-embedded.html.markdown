@@ -1,4 +1,5 @@
 ---
+old_url: passing_in_data_with_embedded_.htm
 title: "Passing in data with Embedded Apps and Javascript"
 active_menu_item: developers
 class_name: developers

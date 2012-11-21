@@ -1,4 +1,5 @@
 ---
+old_url: showgallery.htm
 title: "showGallery()"
 active_menu_item: developers
 class_name: developers

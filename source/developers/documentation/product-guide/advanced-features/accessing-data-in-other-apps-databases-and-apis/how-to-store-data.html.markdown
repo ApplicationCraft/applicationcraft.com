@@ -1,4 +1,5 @@
 ---
+old_url: how_to_store_data.htm
 title: "How to Store Data"
 active_menu_item: developers
 class_name: developers

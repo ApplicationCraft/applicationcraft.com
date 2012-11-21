@@ -1,4 +1,5 @@
 ---
+old_url: anatomy_of_a_view.htm
 title: "Anatomy of a View"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: using_automatic_property_setti.htm
 title: "Using Automatic Property Settings"
 active_menu_item: developers
 class_name: developers

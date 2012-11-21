@@ -1,4 +1,5 @@
 ---
+old_url: xtify_push_notifications.htm
 title: "Xtify Push Notifications"
 active_menu_item: developers
 class_name: developers

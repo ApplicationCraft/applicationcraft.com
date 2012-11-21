@@ -1,4 +1,5 @@
 ---
+old_url: enabling_device_features.htm
 title: "PhoneGap Options"
 active_menu_item: developers
 class_name: developers
@@ -6,9 +7,9 @@ full_width: true
 ---
 
 
-Apps built using [Phonegap:Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) or [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) use a config.xml. The config.xml file allows developers to easily specify metadata about their applications.  More details available here: [https://build.phonegap.com/docs/config-xml](https://build.phonegap.com/docs/config-xml)
+Apps built using [PhoneGap:Build](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/) or [AC Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/) use a config.xml. The config.xml file allows developers to easily specify metadata about their applications.  More details available here: [https://build.phonegap.com/docs/config-xml](https://build.phonegap.com/docs/config-xml)
 
-Using the PhoneGap Options property located in the Phonegap section of the App properties you can manage many of these properties to include within your Build.
+Using the PhoneGap Options property located in the PhoneGap section of the App properties you can manage many of these properties to include within your Build.
 
 ![pg-options](/img/docs/pg-options.zoom79.png)
 
@@ -374,7 +375,7 @@ Some platforms, such as Android, will warn you if an App you are about to instal
 
 To avoid unnecessary warnings, you can use the API Features property to specify which features your App will try to access.
 
-If you specify features of the PhoneGap API, those will be expanded to the appropriate Android and Windows Phone permissions for you application. Phonegap API Documentation is available here: [http://docs.phonegap.com](http://docs.phonegap.com)
+If you specify features of the PhoneGap API, those will be expanded to the appropriate Android and Windows Phone permissions for you application. PhoneGap API Documentation is available here: [http://docs.phonegap.com](http://docs.phonegap.com)
 
 Currently supported through this interface are the following feature names:
 

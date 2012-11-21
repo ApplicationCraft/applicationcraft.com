@@ -1,4 +1,5 @@
 ---
+old_url: multi_language_apps.htm
 title: "Multi Language Apps"
 active_menu_item: developers
 class_name: developers

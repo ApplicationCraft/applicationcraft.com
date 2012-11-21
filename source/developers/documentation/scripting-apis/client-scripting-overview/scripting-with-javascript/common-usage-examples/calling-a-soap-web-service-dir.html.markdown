@@ -1,4 +1,5 @@
 ---
+old_url: calling_a_soap_web_service_dir.htm
 title: "Calling a SOAP & RESTful Web Services"
 active_menu_item: developers
 class_name: developers

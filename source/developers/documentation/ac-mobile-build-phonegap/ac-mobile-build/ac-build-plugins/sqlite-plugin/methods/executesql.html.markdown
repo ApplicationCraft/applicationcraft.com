@@ -1,4 +1,5 @@
 ---
+old_url: executesql.htm
 title: "executeSQL"
 active_menu_item: developers
 class_name: developers

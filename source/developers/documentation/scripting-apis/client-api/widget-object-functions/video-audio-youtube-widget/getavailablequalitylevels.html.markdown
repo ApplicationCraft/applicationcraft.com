@@ -1,4 +1,5 @@
 ---
+old_url: getavailablequalitylevels.htm
 title: "getAvailableQualityLevels()"
 active_menu_item: developers
 class_name: developers

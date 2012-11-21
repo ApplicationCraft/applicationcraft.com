@@ -1,4 +1,5 @@
 ---
+old_url: sizes_property_dialog.htm
 title: "'Sizes' Property Dialog"
 active_menu_item: developers
 class_name: developers

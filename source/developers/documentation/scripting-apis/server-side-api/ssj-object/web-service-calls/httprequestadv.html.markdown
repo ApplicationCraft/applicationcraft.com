@@ -1,4 +1,5 @@
 ---
+old_url: httprequestadv.htm
 title: "httpRequestAdv()"
 active_menu_item: developers
 class_name: developers

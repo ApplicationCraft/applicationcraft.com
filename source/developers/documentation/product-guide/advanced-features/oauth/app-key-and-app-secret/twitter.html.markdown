@@ -1,4 +1,5 @@
 ---
+old_url: twitter.htm
 title: "Twitter"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,6 @@
 ---
+old_url: product_guide.htm
+old_url: quick_start_guide_for_content_.htm
 title: "Product Guide"
 active_menu_item: developers
 class_name: developers

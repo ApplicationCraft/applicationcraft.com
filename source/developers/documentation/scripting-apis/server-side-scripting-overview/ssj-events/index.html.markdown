@@ -1,4 +1,5 @@
 ---
+old_url: ssj_events.htm
 title: "SSJ Events"
 active_menu_item: developers
 class_name: developers

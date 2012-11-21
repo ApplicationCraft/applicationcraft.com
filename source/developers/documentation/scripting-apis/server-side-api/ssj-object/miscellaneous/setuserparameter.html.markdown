@@ -1,4 +1,5 @@
 ---
+old_url: setuserparameter.htm
 title: "setUserParameter()"
 active_menu_item: developers
 class_name: developers

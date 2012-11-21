@@ -1,4 +1,5 @@
 ---
+old_url: log.htm
 title: "log()"
 active_menu_item: developers
 class_name: developers
