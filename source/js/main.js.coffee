@@ -56,11 +56,11 @@ $ ->
 
 # Tree
 $ ->
-  if $('.tree').length > 0
+  if $('#tree').length > 0
 
 
     # Search
-    $('#tipue_search_input').tipuesearch
+    $('.docs form input').tipuesearch
       mode: 'json'
       contentLocation: '/js/doc_search_pages.json'
 

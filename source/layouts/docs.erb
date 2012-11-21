@@ -29,15 +29,17 @@
     </header>
 
     <aside class="tree">
+      <form>
+        <input type="text" placeholder="search...">
+        <button type="submit" class="btn">Search</button>
+      </form>
+
       <%= tree_for 'source/developers/documentation' %>
     </aside>
 
+    <div id="tipue_search_content"></div>
+
     <article>
-
-<div><input type="text" id="tipue_search_input"></div>
-<div><input type="button" id="tipue_search_button" value="Search" class="btn"></div>
-<div id="tipue_search_content"></div>
-
       <h1><%= current_page.data.title %></h1>
       <%= yield %>
     </article>

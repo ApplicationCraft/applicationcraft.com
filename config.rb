@@ -66,7 +66,9 @@ module DocSearch
 
       if data['old_url']
         old = data['old_url'].split('?').last
-        rules << '"title":"' + data['title'] + '","text":"' + data['title'] + '","loc":"' + data['url'] + '"'
+
+        TreeHelpers.breadcrumbs()
+        rules << '"t":"' + data['title'] + '","c":"' + data['title'] + '","u":"' + data['url'] + '","b":"' + data['url'] + '"'
 
         if data['tree']
           data['tree'].each do |dat|
@@ -80,6 +82,18 @@ module DocSearch
   end
 end
 ::Middleman::Extensions.register(:doc_search, DocSearch)
+
+
+ready do
+  rules = []
+  YAML::load(File.read("data/documentation.yml"))['tree'].each do |data|
+    rules << DocSearch.build_rule(data)
+  end
+
+  # data = '{"pages":[{' + rules.join("},{") + '}]}'
+  # builder.create_file 'source/js/doc_search_pages.json', data
+end
+
 
 
 ###
