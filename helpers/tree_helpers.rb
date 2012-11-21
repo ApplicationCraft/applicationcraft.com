@@ -1,21 +1,19 @@
 module TreeHelpers
 
   def tree_for(dir)
-    p dir
     content_tag :ol do
 
       # Load the order of the directory listing from the dir.ordered file if it exists.
       if File.exists?(order_file = "#{dir}/dir.ordered")
-        p order_file
         file = File.read(order_file)
         file.split("\n").each do |item|
-          build_tree "#{dir}/#{item['url']}"
+          build_tree "#{dir}/#{item}"
         end
 
       # else we scan the directory contents
       else
         Dir.new(dir).each do |x|
-          next if x == '.' || x == '..' || x.start_with?('index.')
+          next if x == '.' || x == '..' || x.start_with?('index.') || x.start_with?('.')
           build_tree "#{dir}/#{x}"
         end
       end
