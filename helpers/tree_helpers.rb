@@ -13,7 +13,7 @@ module TreeHelpers
       # else we scan the directory contents
       else
         Dir.new(dir).each do |x|
-          next if x == '.' || x == '..' || x.start_with?('index.') || x.start_with?('.')
+          next if x == '.' || x == '..'  || x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')
           build_tree "#{dir}/#{x}"
         end
       end
