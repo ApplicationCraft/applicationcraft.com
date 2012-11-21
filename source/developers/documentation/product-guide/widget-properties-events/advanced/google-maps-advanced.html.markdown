@@ -10,14 +10,10 @@ The purpose of this widget is to make working with maps as easy as it possibly c
 
 <table>
 <tr>
-<th style="vertical-align:top; width:172px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="172">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:754px; background-color:#ffffff;">
-</th>
+</td>
 </tr>
 <tr>
 <td width="172">
@@ -123,7 +119,7 @@ Libraries
 <td width="21">
 </td>
 <td width="754">
-  A dialog that allows you to specify Google Map Libraries to use. See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/advanced-accessing-the-googl">Accessing the Google Object</a>
+  A dialog that allows you to specify Google Map Libraries to use. See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/advanced--accessing-the-googl">Accessing the Google Object</a>
 
 </td>
 </tr>
@@ -137,7 +133,7 @@ Libraries
 </tr>
 <tr>
 <td width="172">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="21">
@@ -159,7 +155,7 @@ Indicates whether the Map should maintain its aspect ratio should it be within a
 </tr>
 <tr>
 <td width="172">
-## X
+X
 
 </td>
 <td width="21">
@@ -253,7 +249,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="174">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="20">
@@ -321,13 +317,13 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="174">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="18">
 </td>
 <td width="750">
-See [todo] for explanation on how Integration works with the Advanced Maps Widget.
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/data-integration-with-the-maps">here</a> for explanation on how Integration works with the Advanced Maps Widget.
 
 </td>
 </tr>
@@ -462,14 +458,10 @@ Set to true to automatically fetch data from assigned view.
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
+<td width="174">
+<a id="style"> </a> <b>Style</b>
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:728px; background-color:#ffffff;">
-</th>
+</td>
 </tr>
 <tr>
 <td width="176">
@@ -547,14 +539,12 @@ Widget Style
 
 <table>
 <tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Marker Style**
+<td width="174">
+<a id="style"> </a> <b>Marker Style</b>
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:728px; background-color:#ffffff;">
-See [Markers and Popup Windows](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows) for information and examples.
+</td>
+
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows">Markers and Popup Windows</a> for information and examples.
 
 </th>
 </tr>
@@ -574,14 +564,12 @@ The default image to be used for markers. Using javascript, you can create indiv
 
 <table>
 <tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Default Overlay**
+<td width="174">
+<a id="style"> </a> <b>Default Overlay</b>
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:728px; background-color:#ffffff;">
-See [Working with Overlays](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/) for information and examples.
+</td>
+
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays">Working with Overlays</a> for information and examples.
 
 </th>
 </tr>
@@ -649,14 +637,11 @@ For rectangles, circles and areas, indicates the opacity level of the color with
 
 <table>
 <tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Adsense**
+<td width="174">
+<a id="style"> </a> <b>Adsense</b>
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:728px; background-color:#ffffff;">
-See [Adsense](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/googleadsense) for information and examples.
+</td>
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/googleadsense">Adsense</a> for information and examples.
 
 </th>
 </tr>
@@ -714,4 +699,3 @@ Control the shadow around the widget
 
  - [Google V3 Maps Widget](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/)
  - [Advanced Map Object Functions](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/)
-
