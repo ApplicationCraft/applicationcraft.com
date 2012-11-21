@@ -1,4 +1,5 @@
 ---
+old_url: getsql.htm
 title: "getSql()"
 active_menu_item: developers
 class_name: developers

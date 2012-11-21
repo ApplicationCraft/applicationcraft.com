@@ -1,4 +1,5 @@
 ---
+old_url: fitting_all_data_in_available_.htm
 title: "Fitting All Data In Available Display"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: scrollto.htm
 title: "scrollTo(), scrollBy()"
 active_menu_item: developers
 class_name: developers

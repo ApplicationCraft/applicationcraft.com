@@ -1,4 +1,5 @@
 ---
+old_url: input__output_field_configurat.htm
 title: "Input & Output Field Configuration"
 active_menu_item: developers
 class_name: developers

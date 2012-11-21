@@ -1,4 +1,5 @@
 ---
+old_url: api_methods.htm
 title: "API Methods"
 active_menu_item: developers
 class_name: developers

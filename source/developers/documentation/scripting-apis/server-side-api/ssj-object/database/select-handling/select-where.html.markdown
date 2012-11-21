@@ -1,4 +1,5 @@
 ---
+old_url: select_where.htm
 title: "select().where()"
 active_menu_item: developers
 class_name: developers

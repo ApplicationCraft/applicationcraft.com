@@ -1,4 +1,5 @@
 ---
+old_url: sqlite_plugin.htm
 title: "SQLite Plugin"
 active_menu_item: developers
 class_name: developers

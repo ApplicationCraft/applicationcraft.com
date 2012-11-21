@@ -1,4 +1,5 @@
 ---
+old_url: scandit_free.htm
 title: "Scandit Free"
 active_menu_item: developers
 class_name: developers

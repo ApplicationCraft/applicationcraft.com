@@ -1,4 +1,5 @@
 ---
+old_url: begintransaction.htm
 title: "beginTransaction()"
 active_menu_item: developers
 class_name: developers

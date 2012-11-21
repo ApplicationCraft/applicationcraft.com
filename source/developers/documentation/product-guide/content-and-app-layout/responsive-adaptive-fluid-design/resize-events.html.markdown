@@ -1,4 +1,5 @@
 ---
+old_url: resize_events.htm
 title: "Resize Events"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: circular_menu2.htm
 title: "Circular Menu"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: dtdatetostring.htm
 title: "dtDateToString()"
 active_menu_item: developers
 class_name: developers

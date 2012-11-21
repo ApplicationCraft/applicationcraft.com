@@ -1,4 +1,5 @@
 ---
+old_url: deploying_appps.htm
 title: "Deploying & Embedding Apps"
 active_menu_item: developers
 class_name: developers

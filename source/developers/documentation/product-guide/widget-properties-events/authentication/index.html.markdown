@@ -1,4 +1,5 @@
 ---
+old_url: authentication.htm
 title: "Authentication"
 active_menu_item: developers
 class_name: developers

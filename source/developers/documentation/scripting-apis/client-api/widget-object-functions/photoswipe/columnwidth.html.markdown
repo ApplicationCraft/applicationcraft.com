@@ -1,4 +1,5 @@
 ---
+old_url: columnwidth.htm
 title: "columnWidth()"
 active_menu_item: developers
 class_name: developers

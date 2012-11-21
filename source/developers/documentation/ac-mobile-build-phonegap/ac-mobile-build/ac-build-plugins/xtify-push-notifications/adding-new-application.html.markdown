@@ -1,4 +1,5 @@
 ---
+old_url: adding_new_application.htm
 title: "Adding New Application Keys"
 active_menu_item: developers
 class_name: developers

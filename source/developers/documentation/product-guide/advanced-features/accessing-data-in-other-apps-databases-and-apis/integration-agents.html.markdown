@@ -1,4 +1,5 @@
 ---
+old_url: integration_agents.htm
 title: "Integration Agents"
 active_menu_item: developers
 class_name: developers

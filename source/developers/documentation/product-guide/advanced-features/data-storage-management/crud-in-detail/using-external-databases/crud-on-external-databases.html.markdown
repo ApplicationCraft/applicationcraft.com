@@ -1,4 +1,5 @@
 ---
+old_url: crud_on_external_databases.htm
 title: "CRUD on External Databases"
 active_menu_item: developers
 class_name: developers

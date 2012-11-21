@@ -1,4 +1,5 @@
 ---
+old_url: the_console.htm
 title: "The Console"
 active_menu_item: developers
 class_name: developers

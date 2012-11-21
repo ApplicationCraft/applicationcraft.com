@@ -1,4 +1,5 @@
 ---
+old_url: auto_vs__manual_language_switc.htm
 title: "Auto vs. Manual Language Switching"
 active_menu_item: developers
 class_name: developers

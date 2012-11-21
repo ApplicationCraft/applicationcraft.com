@@ -1,4 +1,5 @@
 ---
+old_url: instance_linking.htm
 title: "Relational Apps & Instance Linking"
 active_menu_item: developers
 class_name: developers

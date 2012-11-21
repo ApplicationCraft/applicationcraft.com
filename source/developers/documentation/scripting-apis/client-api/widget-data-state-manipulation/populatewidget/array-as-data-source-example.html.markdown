@@ -1,4 +1,5 @@
 ---
+old_url: array_as_data_source_example.htm
 title: "Array as Data Source Example"
 active_menu_item: developers
 class_name: developers

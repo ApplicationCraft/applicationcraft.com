@@ -1,4 +1,5 @@
 ---
+old_url: on_app_load.htm
 title: "On App Load"
 active_menu_item: developers
 class_name: developers

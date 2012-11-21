@@ -1,4 +1,5 @@
 ---
+old_url: load.htm
 title: "load()"
 active_menu_item: developers
 class_name: developers

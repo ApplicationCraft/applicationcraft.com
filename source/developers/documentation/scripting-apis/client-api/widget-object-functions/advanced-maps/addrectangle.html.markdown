@@ -1,4 +1,5 @@
 ---
+old_url: addrectangle.htm
 title: "addRectangle()"
 active_menu_item: developers
 class_name: developers

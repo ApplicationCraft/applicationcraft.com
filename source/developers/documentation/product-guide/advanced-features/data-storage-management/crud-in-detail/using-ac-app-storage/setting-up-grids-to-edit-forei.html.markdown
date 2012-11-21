@@ -1,4 +1,5 @@
 ---
+old_url: setting_up_grids_to_edit_forei.htm
 title: "Setting up Grids To Edit Foreign Data"
 active_menu_item: developers
 class_name: developers

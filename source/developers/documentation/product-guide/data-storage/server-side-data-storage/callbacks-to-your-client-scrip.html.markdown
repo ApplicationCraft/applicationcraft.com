@@ -1,4 +1,5 @@
 ---
+old_url: callbacks_to_your_client_scrip.htm
 title: "Callbacks to your Client Scripts"
 active_menu_item: developers
 class_name: developers

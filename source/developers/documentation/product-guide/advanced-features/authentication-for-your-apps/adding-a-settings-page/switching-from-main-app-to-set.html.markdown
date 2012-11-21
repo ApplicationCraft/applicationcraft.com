@@ -1,4 +1,5 @@
 ---
+old_url: switching_from_main_app_to_set.htm
 title: "Switching from Main App to Settings and back"
 active_menu_item: developers
 class_name: developers

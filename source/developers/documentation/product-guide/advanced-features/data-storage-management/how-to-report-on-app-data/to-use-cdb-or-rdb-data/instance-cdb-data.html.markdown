@@ -1,4 +1,5 @@
 ---
+old_url: instance_cdb_data.htm
 title: "Instance (CDB) Data"
 active_menu_item: developers
 class_name: developers

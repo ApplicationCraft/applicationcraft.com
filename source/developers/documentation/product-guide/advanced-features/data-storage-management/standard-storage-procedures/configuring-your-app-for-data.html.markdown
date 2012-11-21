@@ -1,4 +1,5 @@
 ---
+old_url: configuring_your_app_for_data_.htm
 title: "Configuring your App for Data Storage"
 active_menu_item: developers
 class_name: developers

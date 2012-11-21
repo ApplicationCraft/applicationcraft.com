@@ -1,4 +1,5 @@
 ---
+old_url: splash_screen_and_icon.htm
 title: "Splash Screen and Icon"
 active_menu_item: developers
 class_name: developers

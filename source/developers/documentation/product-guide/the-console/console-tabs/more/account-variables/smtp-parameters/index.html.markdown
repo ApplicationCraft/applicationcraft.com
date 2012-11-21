@@ -1,4 +1,5 @@
 ---
+old_url: smtp_parameters.htm
 title: "SMTP Parameters"
 active_menu_item: developers
 class_name: developers

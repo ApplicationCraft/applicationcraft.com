@@ -1,4 +1,5 @@
 ---
+old_url: widget_object.htm
 title: "Widget Object"
 active_menu_item: developers
 class_name: developers

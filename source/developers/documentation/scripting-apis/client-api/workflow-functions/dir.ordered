@@ -1,0 +1,10 @@
+assigntorole
+unassignfromrole
+currentuserrole
+getassignedroles
+setstage
+getstage
+assigninstance
+cancelassignments
+notify
+cancelnotificationsforinstance

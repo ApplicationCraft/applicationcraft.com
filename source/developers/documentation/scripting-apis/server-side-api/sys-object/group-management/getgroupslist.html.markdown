@@ -1,4 +1,5 @@
 ---
+old_url: getgroupslist.htm
 title: "getGroupsList()"
 active_menu_item: developers
 class_name: developers

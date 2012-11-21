@@ -1,4 +1,5 @@
 ---
+old_url: distrbution_certificate_and_p1.htm
 title: "Distribution Certificate and P12"
 active_menu_item: developers
 class_name: developers

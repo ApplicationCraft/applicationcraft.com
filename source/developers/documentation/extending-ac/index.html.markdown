@@ -1,4 +1,5 @@
 ---
+old_url: developer_guide.htm
 title: "Extending AC"
 active_menu_item: developers
 class_name: developers

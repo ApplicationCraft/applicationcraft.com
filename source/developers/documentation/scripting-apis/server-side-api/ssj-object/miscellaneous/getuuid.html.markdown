@@ -1,4 +1,5 @@
 ---
+old_url: getuuid.htm
 title: "getUUID()"
 active_menu_item: developers
 class_name: developers

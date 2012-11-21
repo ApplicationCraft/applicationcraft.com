@@ -1,4 +1,5 @@
 ---
+old_url: widget_alignment__distribution.htm
 title: "Widget Alignment"
 active_menu_item: developers
 class_name: developers

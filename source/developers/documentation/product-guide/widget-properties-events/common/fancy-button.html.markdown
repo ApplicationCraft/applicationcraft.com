@@ -1,4 +1,5 @@
 ---
+old_url: fancy_button.htm
 title: "Fancy Button"
 active_menu_item: developers
 class_name: developers

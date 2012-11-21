@@ -1,4 +1,5 @@
 ---
+old_url: session_management.htm
 title: "Session Management & Authentication"
 active_menu_item: developers
 class_name: developers

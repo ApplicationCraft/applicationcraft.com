@@ -1,4 +1,5 @@
 ---
+old_url: getcoord.htm
 title: "getCoord()"
 active_menu_item: developers
 class_name: developers

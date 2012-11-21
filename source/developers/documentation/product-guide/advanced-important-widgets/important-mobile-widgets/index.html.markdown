@@ -1,4 +1,5 @@
 ---
+old_url: important_mobile_widgets.htm
 title: "Important Mobile Widgets"
 active_menu_item: developers
 class_name: developers

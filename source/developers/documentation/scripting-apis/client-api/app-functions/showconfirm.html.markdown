@@ -1,4 +1,5 @@
 ---
+old_url: showconfirm.htm
 title: "showConfirm()"
 active_menu_item: developers
 class_name: developers

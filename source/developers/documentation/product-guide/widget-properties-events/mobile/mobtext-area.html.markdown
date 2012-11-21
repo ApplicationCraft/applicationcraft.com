@@ -1,4 +1,5 @@
 ---
+old_url: mobtext_area.htm
 title: "Text Area"
 active_menu_item: developers
 class_name: developers

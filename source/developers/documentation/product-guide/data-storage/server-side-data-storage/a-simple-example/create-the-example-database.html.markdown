@@ -1,4 +1,5 @@
 ---
+old_url: create_the_example_database.htm
 title: "Create the Example Database"
 active_menu_item: developers
 class_name: developers

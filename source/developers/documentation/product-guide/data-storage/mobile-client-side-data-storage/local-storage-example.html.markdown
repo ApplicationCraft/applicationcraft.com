@@ -1,4 +1,5 @@
 ---
+old_url: local_storage_example.htm
 title: "Local Storage"
 active_menu_item: developers
 class_name: developers

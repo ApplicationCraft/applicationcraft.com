@@ -1,4 +1,5 @@
 ---
+old_url: setappsnapshot.htm
 title: "setAppSnapshot()"
 active_menu_item: developers
 class_name: developers

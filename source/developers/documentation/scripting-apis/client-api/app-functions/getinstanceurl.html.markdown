@@ -1,4 +1,5 @@
 ---
+old_url: getinstanceurl.htm
 title: "getInstanceURL()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: isprinting.htm
 title: "isPrinting()"
 active_menu_item: developers
 class_name: developers

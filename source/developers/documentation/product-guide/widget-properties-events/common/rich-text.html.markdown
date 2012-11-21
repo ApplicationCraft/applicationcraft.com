@@ -1,4 +1,5 @@
 ---
+old_url: rich_text.htm
 title: "Rich Text"
 active_menu_item: developers
 class_name: developers

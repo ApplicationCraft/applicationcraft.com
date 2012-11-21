@@ -1,4 +1,5 @@
 ---
+old_url: setting_a_view_filter.htm
 title: "Setting a View Filter"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: googleadsense.htm
 title: "Google Adsense"
 active_menu_item: developers
 class_name: developers

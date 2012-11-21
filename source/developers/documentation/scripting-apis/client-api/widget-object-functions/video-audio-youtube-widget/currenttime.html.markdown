@@ -1,4 +1,5 @@
 ---
+old_url: currenttime.htm
 title: "currentTime()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: extending_the_ac_dom_to_sim.htm
 title: "Extending the AC Client API"
 active_menu_item: developers
 class_name: developers

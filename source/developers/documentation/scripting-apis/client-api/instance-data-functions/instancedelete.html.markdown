@@ -1,4 +1,5 @@
 ---
+old_url: instancedelete.htm
 title: "instanceDelete()"
 active_menu_item: developers
 class_name: developers

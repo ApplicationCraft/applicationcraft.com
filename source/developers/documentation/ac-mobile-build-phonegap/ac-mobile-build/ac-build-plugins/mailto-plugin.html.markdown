@@ -1,4 +1,5 @@
 ---
+old_url: mailto_plugin.htm
 title: "MailTo Plugin"
 active_menu_item: developers
 class_name: developers

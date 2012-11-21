@@ -1,4 +1,5 @@
 ---
+old_url: widget_object_functions.htm
 title: "Widget Object Functions"
 active_menu_item: developers
 class_name: developers

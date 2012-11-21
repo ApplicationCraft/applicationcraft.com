@@ -1,4 +1,5 @@
 ---
+old_url: creating_a_new_content_app.htm
 title: "Creating a New Content App"
 active_menu_item: developers
 class_name: developers

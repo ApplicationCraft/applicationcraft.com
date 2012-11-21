@@ -1,4 +1,5 @@
 ---
+old_url: using_ac_dialogs_in_your_dialo.htm
 title: "Using AC Dialogs in Your Dialogs"
 active_menu_item: developers
 class_name: developers

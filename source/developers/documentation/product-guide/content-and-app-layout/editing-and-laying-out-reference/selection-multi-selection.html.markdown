@@ -1,4 +1,5 @@
 ---
+old_url: selection__multi_selection.htm
 title: "Selection & Multi Selection"
 active_menu_item: developers
 class_name: developers

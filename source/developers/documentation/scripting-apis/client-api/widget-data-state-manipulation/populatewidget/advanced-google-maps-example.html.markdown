@@ -1,4 +1,5 @@
 ---
+old_url: advanced_google_maps_example.htm
 title: "Advanced Google Maps Example"
 active_menu_item: developers
 class_name: developers

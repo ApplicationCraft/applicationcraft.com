@@ -1,4 +1,5 @@
 ---
+old_url: using_external_databases.htm
 title: "Using External Databases"
 active_menu_item: developers
 class_name: developers

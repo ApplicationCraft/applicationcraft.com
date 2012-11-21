@@ -1,4 +1,5 @@
 ---
+old_url: date2db.htm
 title: "DATE2DB()"
 active_menu_item: developers
 class_name: developers

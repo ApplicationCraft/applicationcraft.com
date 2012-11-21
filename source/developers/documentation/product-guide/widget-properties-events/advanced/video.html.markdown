@@ -1,4 +1,5 @@
 ---
+old_url: video.htm
 title: "Video"
 active_menu_item: developers
 class_name: developers

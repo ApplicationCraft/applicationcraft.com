@@ -1,4 +1,5 @@
 ---
+old_url: using_the_same_query_multiple_.htm
 title: "Using the same Query Multiple Times in an App"
 active_menu_item: developers
 class_name: developers

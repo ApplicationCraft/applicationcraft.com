@@ -1,4 +1,5 @@
 ---
+old_url: getowneruser.htm
 title: "getOwnerUser()"
 active_menu_item: developers
 class_name: developers

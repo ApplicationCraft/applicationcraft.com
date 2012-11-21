@@ -1,4 +1,5 @@
 ---
+old_url: resources_management.htm
 title: "Resources Management"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: getproperty.htm
 title: "getProperty()"
 active_menu_item: developers
 class_name: developers

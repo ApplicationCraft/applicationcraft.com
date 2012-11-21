@@ -1,4 +1,5 @@
 ---
+old_url: search___replace.htm
 title: "Search / Replace"
 active_menu_item: developers
 class_name: developers

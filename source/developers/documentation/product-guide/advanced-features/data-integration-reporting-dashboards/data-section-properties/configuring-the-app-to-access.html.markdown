@@ -1,4 +1,5 @@
 ---
+old_url: configuring_the_app_to_access_.htm
 title: "Configuring the App to Access Queries"
 active_menu_item: developers
 class_name: developers

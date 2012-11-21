@@ -1,4 +1,5 @@
 ---
+old_url: beta_limitations.htm
 title: "Beta Limitations & Considerations"
 active_menu_item: developers
 class_name: developers

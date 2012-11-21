@@ -1,4 +1,5 @@
 ---
+old_url: server_side_javascript.htm
 title: "Server Side Javascript"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: mobile_list.htm
 title: "Mobile List & Navbar"
 active_menu_item: developers
 class_name: developers

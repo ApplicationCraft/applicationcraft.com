@@ -1,4 +1,5 @@
 ---
+old_url: getparentwidget.htm
 title: "getParent()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: select_join.htm
 title: "select().join()"
 active_menu_item: developers
 class_name: developers

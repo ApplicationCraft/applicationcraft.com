@@ -1,4 +1,5 @@
 ---
+old_url: communication_between_parent__.htm
 title: "Communication between Parent / Child Apps"
 active_menu_item: developers
 class_name: developers

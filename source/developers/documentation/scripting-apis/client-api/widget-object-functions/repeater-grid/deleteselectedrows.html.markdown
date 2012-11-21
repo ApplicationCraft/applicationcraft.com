@@ -1,4 +1,5 @@
 ---
+old_url: deleteselectedrows.htm
 title: "deleteSelectedRows()"
 active_menu_item: developers
 class_name: developers

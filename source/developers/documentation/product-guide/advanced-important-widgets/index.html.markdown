@@ -1,4 +1,5 @@
 ---
+old_url: advanced_widgets.htm
 title: "Advanced & Important Widgets"
 active_menu_item: developers
 class_name: developers

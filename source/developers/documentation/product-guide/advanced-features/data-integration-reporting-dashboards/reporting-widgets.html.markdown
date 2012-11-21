@@ -1,4 +1,5 @@
 ---
+old_url: reporting_widgets.htm
 title: "Reporting Widgets"
 active_menu_item: developers
 class_name: developers

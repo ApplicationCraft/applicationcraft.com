@@ -1,4 +1,5 @@
 ---
+old_url: datagetvalues.htm
 title: "dataGetValues()"
 active_menu_item: developers
 class_name: developers

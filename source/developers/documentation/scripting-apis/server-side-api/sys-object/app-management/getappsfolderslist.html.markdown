@@ -1,4 +1,5 @@
 ---
+old_url: getappsfolderslist.htm
 title: "getAppsFoldersList()"
 active_menu_item: developers
 class_name: developers

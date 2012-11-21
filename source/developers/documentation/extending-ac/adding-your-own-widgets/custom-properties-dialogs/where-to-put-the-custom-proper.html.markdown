@@ -1,4 +1,5 @@
 ---
+old_url: where_to_put_the_custom_proper.htm
 title: "Where to put the Custom Property code"
 active_menu_item: developers
 class_name: developers

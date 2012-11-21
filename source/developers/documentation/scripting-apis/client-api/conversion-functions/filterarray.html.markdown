@@ -1,4 +1,5 @@
 ---
+old_url: filterarray.htm
 title: "filterArray()"
 active_menu_item: developers
 class_name: developers

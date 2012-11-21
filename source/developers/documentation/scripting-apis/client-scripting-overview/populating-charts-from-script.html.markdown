@@ -1,4 +1,5 @@
 ---
+old_url: populating_charts_from_script.htm
 title: "Populating Charts from Script"
 active_menu_item: developers
 class_name: developers

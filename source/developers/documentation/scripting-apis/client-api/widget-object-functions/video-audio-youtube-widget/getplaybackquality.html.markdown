@@ -1,4 +1,5 @@
 ---
+old_url: getplaybackquality.htm
 title: "getPlaybackQuality()"
 active_menu_item: developers
 class_name: developers

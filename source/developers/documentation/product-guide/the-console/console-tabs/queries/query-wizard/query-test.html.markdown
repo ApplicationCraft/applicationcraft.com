@@ -1,4 +1,5 @@
 ---
+old_url: query_test.htm
 title: "Query Test"
 active_menu_item: developers
 class_name: developers

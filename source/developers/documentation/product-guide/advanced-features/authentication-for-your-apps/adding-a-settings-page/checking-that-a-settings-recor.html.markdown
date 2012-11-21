@@ -1,4 +1,5 @@
 ---
+old_url: checking_that_a_settings_recor.htm
 title: "Checking that a Settings Record Exists"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: mobile_toolbar.htm
 title: "Mobile Toolbar"
 active_menu_item: developers
 class_name: developers

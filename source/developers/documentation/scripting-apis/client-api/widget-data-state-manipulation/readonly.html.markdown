@@ -1,4 +1,5 @@
 ---
+old_url: readonly.htm
 title: "readOnly()"
 active_menu_item: developers
 class_name: developers

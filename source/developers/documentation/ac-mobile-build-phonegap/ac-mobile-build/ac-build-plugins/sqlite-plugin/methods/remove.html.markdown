@@ -1,4 +1,5 @@
 ---
+old_url: remove.htm
 title: "remove"
 active_menu_item: developers
 class_name: developers

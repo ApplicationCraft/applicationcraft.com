@@ -1,4 +1,5 @@
 ---
+old_url: apple_accounts.htm
 title: "Apple Accounts"
 active_menu_item: developers
 class_name: developers

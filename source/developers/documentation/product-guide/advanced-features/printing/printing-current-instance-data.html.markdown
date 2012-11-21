@@ -1,4 +1,5 @@
 ---
+old_url: printing_current_instance_data.htm
 title: "Printing Current Instance Data"
 active_menu_item: developers
 class_name: developers

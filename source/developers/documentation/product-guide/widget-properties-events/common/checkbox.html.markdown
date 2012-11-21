@@ -1,4 +1,5 @@
 ---
+old_url: checkbox.htm
 title: "Checkbox"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: working_with_images.htm
 title: "Working with Images"
 active_menu_item: developers
 class_name: developers

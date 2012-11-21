@@ -1,4 +1,5 @@
 ---
+old_url: accessing_queries_from_apps.htm
 title: "Accessing Queries from Apps"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: the_full_dialog_code_example.htm
 title: "Custom Dialog Code Example"
 active_menu_item: developers
 class_name: developers

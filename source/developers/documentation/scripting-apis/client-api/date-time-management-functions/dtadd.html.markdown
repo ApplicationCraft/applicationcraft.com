@@ -1,4 +1,5 @@
 ---
+old_url: dtadd.htm
 title: "dtAdd()"
 active_menu_item: developers
 class_name: developers

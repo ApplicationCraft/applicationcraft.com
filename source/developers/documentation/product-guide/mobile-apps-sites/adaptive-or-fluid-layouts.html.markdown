@@ -1,4 +1,5 @@
 ---
+old_url: adaptive_or_fluid_layouts.htm
 title: "Adaptive (Fluid) Layouts"
 active_menu_item: developers
 class_name: developers

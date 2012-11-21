@@ -1,4 +1,5 @@
 ---
+old_url: custom_class.htm
 title: "Custom Class Property"
 active_menu_item: developers
 class_name: developers

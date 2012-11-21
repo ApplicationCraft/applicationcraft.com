@@ -1,4 +1,5 @@
 ---
+old_url: working_with_blocks_of_text.htm
 title: "Working with Blocks of Text"
 active_menu_item: developers
 class_name: developers

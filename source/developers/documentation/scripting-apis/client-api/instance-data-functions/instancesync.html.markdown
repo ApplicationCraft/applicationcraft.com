@@ -1,4 +1,5 @@
 ---
+old_url: instancesync.htm
 title: "instanceSync()"
 active_menu_item: developers
 class_name: developers

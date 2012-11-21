@@ -1,4 +1,5 @@
 ---
+old_url: authcaptcha.htm
 title: "Captcha"
 active_menu_item: developers
 class_name: developers

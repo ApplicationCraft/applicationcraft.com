@@ -1,4 +1,5 @@
 ---
+old_url: mobile_navigation_toolbar.htm
 title: "Mobile Navigation Bar"
 active_menu_item: developers
 class_name: developers

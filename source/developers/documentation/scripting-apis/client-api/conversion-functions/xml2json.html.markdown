@@ -1,4 +1,5 @@
 ---
+old_url: xml2json.htm
 title: "XML2OBJ()"
 active_menu_item: developers
 class_name: developers

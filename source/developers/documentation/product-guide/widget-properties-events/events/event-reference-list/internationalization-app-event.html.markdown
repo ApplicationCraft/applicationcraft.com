@@ -1,4 +1,5 @@
 ---
+old_url: internationalization_app_event.htm
 title: "Internationalization App Events"
 active_menu_item: developers
 class_name: developers

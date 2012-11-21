@@ -1,4 +1,5 @@
 ---
+old_url: deletesessionobject.htm
 title: "deleteSessionObject()"
 active_menu_item: developers
 class_name: developers

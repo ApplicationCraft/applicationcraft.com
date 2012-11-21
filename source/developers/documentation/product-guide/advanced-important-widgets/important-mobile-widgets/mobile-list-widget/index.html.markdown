@@ -1,4 +1,5 @@
 ---
+old_url: mobile_list_widgets.htm
 title: "Mobile List Widget"
 active_menu_item: developers
 class_name: developers

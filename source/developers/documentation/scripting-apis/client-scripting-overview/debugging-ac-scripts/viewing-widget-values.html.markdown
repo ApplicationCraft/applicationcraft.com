@@ -1,4 +1,5 @@
 ---
+old_url: viewing_widget_values.htm
 title: "Viewing Widget Values"
 active_menu_item: developers
 class_name: developers

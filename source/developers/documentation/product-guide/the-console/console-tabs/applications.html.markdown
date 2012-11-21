@@ -1,4 +1,5 @@
 ---
+old_url: applications.htm
 title: "Apps"
 active_menu_item: developers
 class_name: developers

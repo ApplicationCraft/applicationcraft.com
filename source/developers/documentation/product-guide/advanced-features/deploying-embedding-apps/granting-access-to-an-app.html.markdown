@@ -1,4 +1,5 @@
 ---
+old_url: granting_access_to_an_app.htm
 title: "Granting Access to an App"
 active_menu_item: developers
 class_name: developers

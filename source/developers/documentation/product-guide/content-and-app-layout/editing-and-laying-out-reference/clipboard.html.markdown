@@ -1,4 +1,5 @@
 ---
+old_url: clipboard.htm
 title: "Clipboard"
 active_menu_item: developers
 class_name: developers

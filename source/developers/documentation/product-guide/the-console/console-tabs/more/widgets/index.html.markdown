@@ -1,4 +1,5 @@
 ---
+old_url: managewidgets.htm
 title: "Widgets"
 active_menu_item: developers
 class_name: developers

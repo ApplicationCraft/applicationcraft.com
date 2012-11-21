@@ -1,4 +1,5 @@
 ---
+old_url: clearvideo.htm
 title: "clearVideo()"
 active_menu_item: developers
 class_name: developers

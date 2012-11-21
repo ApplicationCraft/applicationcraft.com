@@ -1,4 +1,5 @@
 ---
+old_url: hideoverlay.htm
 title: "hideOverlay()"
 active_menu_item: developers
 class_name: developers

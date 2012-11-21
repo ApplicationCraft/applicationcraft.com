@@ -1,4 +1,5 @@
 ---
+old_url: instance_relationships_in_deta.htm
 title: "Instance Relationships in Detail"
 active_menu_item: developers
 class_name: developers

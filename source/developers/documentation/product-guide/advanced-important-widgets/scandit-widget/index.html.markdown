@@ -1,4 +1,5 @@
 ---
+old_url: scandit.htm
 title: "Scandit Widget"
 active_menu_item: developers
 class_name: developers

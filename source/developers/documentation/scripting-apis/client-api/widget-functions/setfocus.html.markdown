@@ -1,4 +1,5 @@
 ---
+old_url: setfocus.htm
 title: "setFocus()"
 active_menu_item: developers
 class_name: developers

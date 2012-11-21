@@ -1,4 +1,5 @@
 ---
+old_url: populatewidget_wizard.htm
 title: "Populate Widget Map Wizard"
 active_menu_item: developers
 class_name: developers

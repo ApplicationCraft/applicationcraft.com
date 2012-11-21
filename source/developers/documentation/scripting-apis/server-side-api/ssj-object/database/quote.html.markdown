@@ -1,4 +1,5 @@
 ---
+old_url: quote.htm
 title: "quote()"
 active_menu_item: developers
 class_name: developers

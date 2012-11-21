@@ -1,4 +1,5 @@
 ---
+old_url: configuring_your_app.htm
 title: "Configuring your app"
 active_menu_item: developers
 class_name: developers

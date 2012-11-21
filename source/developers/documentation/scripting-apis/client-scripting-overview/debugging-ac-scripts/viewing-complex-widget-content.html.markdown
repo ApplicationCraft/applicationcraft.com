@@ -1,4 +1,5 @@
 ---
+old_url: viewing_complex_widget_content.htm
 title: "Viewing Complex Widget Content"
 active_menu_item: developers
 class_name: developers

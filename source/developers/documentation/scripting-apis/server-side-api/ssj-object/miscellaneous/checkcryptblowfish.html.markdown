@@ -1,4 +1,5 @@
 ---
+old_url: checkcryptblowfish.htm
 title: "checkHash()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: the_html_template.htm
 title: "The HTML Template"
 active_menu_item: developers
 class_name: developers

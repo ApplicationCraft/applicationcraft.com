@@ -1,4 +1,5 @@
 ---
+old_url: page_properties.htm
 title: "Page Properties"
 active_menu_item: developers
 class_name: developers

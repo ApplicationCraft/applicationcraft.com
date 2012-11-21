@@ -1,4 +1,5 @@
 ---
+old_url: adding_images_by_data_view.htm
 title: "Adding Images by Data View"
 active_menu_item: developers
 class_name: developers

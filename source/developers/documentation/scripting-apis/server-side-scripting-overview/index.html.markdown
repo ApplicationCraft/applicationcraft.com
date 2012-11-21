@@ -1,4 +1,5 @@
 ---
+old_url: server_side_scripting.htm
 title: "Server Side Scripting Overview"
 active_menu_item: developers
 class_name: developers

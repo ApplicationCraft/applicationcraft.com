@@ -1,4 +1,5 @@
 ---
+old_url: adding_your_own_widget_to_ac.htm
 title: "Adding your own Widgets"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: getviewdata2.htm
 title: "getViewData()"
 active_menu_item: developers
 class_name: developers

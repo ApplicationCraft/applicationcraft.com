@@ -1,4 +1,5 @@
 ---
+old_url: group_management.htm
 title: "Group Management"
 active_menu_item: developers
 class_name: developers

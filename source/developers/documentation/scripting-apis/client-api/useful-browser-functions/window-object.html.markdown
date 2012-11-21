@@ -1,4 +1,5 @@
 ---
+old_url: window_object.htm
 title: "window object"
 active_menu_item: developers
 class_name: developers

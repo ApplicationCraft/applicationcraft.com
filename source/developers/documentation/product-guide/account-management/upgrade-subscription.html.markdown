@@ -1,4 +1,5 @@
 ---
+old_url: upgrade_subscription.htm
 title: "Upgrade Subscriptions"
 active_menu_item: developers
 class_name: developers

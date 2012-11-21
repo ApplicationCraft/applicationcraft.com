@@ -1,4 +1,5 @@
 ---
+old_url: sum.htm
 title: "sum()"
 active_menu_item: developers
 class_name: developers

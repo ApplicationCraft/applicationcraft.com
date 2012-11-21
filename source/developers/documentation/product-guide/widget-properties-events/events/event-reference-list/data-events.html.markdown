@@ -1,4 +1,5 @@
 ---
+old_url: data_events.htm
 title: "Data Events"
 active_menu_item: developers
 class_name: developers

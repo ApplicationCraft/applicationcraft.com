@@ -1,4 +1,6 @@
 ---
+old_url: tab2.htm
+old_url: getcurrenttabindex.htm
 title: "Tab"
 active_menu_item: developers
 class_name: developers

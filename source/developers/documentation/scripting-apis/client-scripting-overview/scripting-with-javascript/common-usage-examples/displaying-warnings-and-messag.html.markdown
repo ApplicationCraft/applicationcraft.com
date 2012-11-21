@@ -1,4 +1,5 @@
 ---
+old_url: displaying_warnings_and_messag.htm
 title: "Displaying warnings and messages"
 active_menu_item: developers
 class_name: developers

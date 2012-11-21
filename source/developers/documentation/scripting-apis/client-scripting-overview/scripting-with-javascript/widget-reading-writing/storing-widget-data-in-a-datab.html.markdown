@@ -1,4 +1,5 @@
 ---
+old_url: storing_widget_data_in_a_datab.htm
 title: "Storing Widget Data in a Database"
 active_menu_item: developers
 class_name: developers

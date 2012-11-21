@@ -1,4 +1,5 @@
 ---
+old_url: google_play.htm
 title: "Google Play Signup"
 active_menu_item: developers
 class_name: developers

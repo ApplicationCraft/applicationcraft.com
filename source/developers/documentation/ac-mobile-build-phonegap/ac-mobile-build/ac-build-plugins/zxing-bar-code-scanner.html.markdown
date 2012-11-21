@@ -1,4 +1,5 @@
 ---
+old_url: zxing_bar_code_scanner.htm
 title: "ZXing Bar Code Scanner"
 active_menu_item: developers
 class_name: developers

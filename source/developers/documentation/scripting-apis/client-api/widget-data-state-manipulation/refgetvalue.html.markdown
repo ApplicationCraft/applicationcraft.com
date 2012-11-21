@@ -1,4 +1,5 @@
 ---
+old_url: refgetvalue.htm
 title: "getValue()"
 active_menu_item: developers
 class_name: developers

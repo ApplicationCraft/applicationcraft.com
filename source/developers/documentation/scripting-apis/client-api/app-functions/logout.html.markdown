@@ -1,4 +1,5 @@
 ---
+old_url: logout.htm
 title: "logout()"
 active_menu_item: developers
 class_name: developers

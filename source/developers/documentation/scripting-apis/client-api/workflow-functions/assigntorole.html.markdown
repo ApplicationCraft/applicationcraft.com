@@ -1,4 +1,5 @@
 ---
+old_url: assigntorole.htm
 title: "assignToRole()"
 active_menu_item: developers
 class_name: developers

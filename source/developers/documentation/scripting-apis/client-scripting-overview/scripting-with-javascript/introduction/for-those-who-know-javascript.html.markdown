@@ -1,4 +1,5 @@
 ---
+old_url: for_those_who_know_javascript_.htm
 title: "For those who know Javascript already"
 active_menu_item: developers
 class_name: developers
