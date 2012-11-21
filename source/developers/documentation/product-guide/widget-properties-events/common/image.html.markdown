@@ -12,7 +12,7 @@ The Image displays an Image that is stored within the [Resources](/developers/do
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="30">
@@ -28,7 +28,7 @@ Widget Class
 <td width="30">
 </td>
 <td width="764">
-Internal class name of the widget.- WiziCore\_UI\_ImgWidget
+Internal class name of the widget.- WiziCore_UI_ImgWidget
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Link
 <td width="30">
 </td>
 <td width="764">
-    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail) , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS(">mobileEmail()</a></a>
+    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail">mobileEmail()</a>) , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS()</a>
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Select to set the page to jump to when Image is clicked
 </tr>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
 </td>
 <td width="30">
@@ -143,8 +143,7 @@ Mandatory
 </td>
 <td width="764">
 true/false. Set to true to ensure the field is completed before submission is allowed.
-
-See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
 </td>
 </tr>
@@ -160,7 +159,7 @@ See [App Properties](/developers/documentation/product-guide/widget-properties-e
 <table>
 <tr>
 <td width="160">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="19">
@@ -182,7 +181,7 @@ true/false. Where you can retain the image aspect ratio on resize
 </tr>
 <tr>
 <td width="160">
-## X
+X
 
 </td>
 <td width="19">
@@ -276,7 +275,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="31">
@@ -344,7 +343,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="31">
@@ -470,7 +469,7 @@ Set to true to automatically fetch data from assigned view.
 </tr>
 <tr>
 <td width="148">
-<a id="imagemap"> </a> **Image Map**
+<a id="imagemap"> </a> <b>Image Map</b>
 
 </td>
 <td width="31">
@@ -622,7 +621,7 @@ true/false.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="31">
