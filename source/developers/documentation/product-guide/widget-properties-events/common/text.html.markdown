@@ -45,14 +45,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Text
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -129,14 +123,9 @@ This is where you can select the data type appropriate for your field
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
+
 Unique
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -154,8 +143,7 @@ Mandatory
 </td>
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
-
-See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
 </td>
 </tr>
