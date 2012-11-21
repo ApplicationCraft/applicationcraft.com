@@ -13,11 +13,7 @@ The Label Widget is one of the fundamental objects within Application Craft and 
 <td width:"161">
 <a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:22px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:759px; background-color:#ffffff;">
-</th>
+
 </tr>
 <tr>
 <td width="161">
@@ -87,7 +83,7 @@ Link
 <td width="22">
 </td>
 <td width="759">
-    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail) , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS(">mobileEmail()</a></a>
+    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail">mobileEmail()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS()</a>
 
 </td>
 </tr>
