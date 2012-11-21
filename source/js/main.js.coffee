@@ -123,7 +123,7 @@ $ ->
     # Expands the tree to the current URL
     path = document.location.pathname
     if (selected = $(".tree a[href='#{path}']")).length > 0
-      if selected.parent().find('>span')
+      if selected.parent().find('>span').length > 0
         li = selected.parent().parent()
       else
         li = selected.parent()
