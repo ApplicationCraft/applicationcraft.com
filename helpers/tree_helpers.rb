@@ -13,7 +13,7 @@ module TreeHelpers
       # else we scan the directory contents
       else
         Dir.new(dir).each do |x|
-          next if x == '.' || x == '..'  || x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')
+          next if x == '.' || x == '..' || x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')
           build_tree "#{dir}/#{x}"
         end
       end
@@ -28,11 +28,11 @@ module TreeHelpers
       if Dir.exists?(file)
         build_directory file
       else
-        resource = resource_for(file)
-
-        content_tag :li, :class => "nofade" do
-          content_tag :a, :href => resource.url, :class => current_page?(resource.url) ? 'active' : '' do
-            resource.data.title
+        if resource = resource_for("#{file}.html.markdown")
+          content_tag :li, :class => "nofade" do
+            content_tag :a, :href => resource.url, :class => current_page?(resource.url) ? 'active' : '' do
+              resource.data.title
+            end
           end
         end
       end
