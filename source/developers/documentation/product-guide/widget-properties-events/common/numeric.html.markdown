@@ -12,7 +12,7 @@ This allows entry of numeric data with basic format control. If you need to ente
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_NumericWidget
+Internal class name of the widget.- WiziCore_UI_NumericWidget
 
 </td>
 </tr>
@@ -46,14 +46,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
-Text
 
-</td>
-</tr>
-</table>
+Text
 </td>
 <td width="15">
 </td>
@@ -166,7 +160,7 @@ See [App Properties](/developers/documentation/product-guide/widget-properties-e
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -188,7 +182,7 @@ Sizes
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -512,7 +506,7 @@ Set to true to automatically fetch data from assigned view.
 </tr>
 <tr>
 <td width="148">
-<a id="appearance"> </a> **Appearance**
+<a id="appearance"> </a> <b>Appearance</b>
 
 </td>
 <td width="15">
@@ -538,7 +532,7 @@ Align your number Left/Right or Center
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
