@@ -1,4 +1,5 @@
 ---
+old_url: accordion.htm
 title: "Accordion"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: search.htm
 title: "Search"
 active_menu_item: developers
 class_name: developers

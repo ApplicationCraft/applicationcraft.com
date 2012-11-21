@@ -1,4 +1,5 @@
 ---
+old_url: do_it_yourself_guide.htm
 title: "Do It Yourself Guide"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: general_events.htm
 title: "General Events"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: setting_up_for_development.htm
 title: "Setting up for development"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: soaprequest.htm
 title: "soapRequest()"
 active_menu_item: developers
 class_name: developers

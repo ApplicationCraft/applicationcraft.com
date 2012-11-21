@@ -1,4 +1,5 @@
 ---
+old_url: language_constants.htm
 title: "Language Constants"
 active_menu_item: developers
 class_name: developers

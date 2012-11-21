@@ -1,4 +1,5 @@
 ---
+old_url: embed_app.htm
 title: "Embed App"
 active_menu_item: developers
 class_name: developers

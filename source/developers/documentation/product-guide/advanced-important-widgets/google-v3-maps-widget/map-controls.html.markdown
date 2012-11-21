@@ -1,4 +1,5 @@
 ---
+old_url: map_controls.htm
 title: "Map Controls"
 active_menu_item: developers
 class_name: developers

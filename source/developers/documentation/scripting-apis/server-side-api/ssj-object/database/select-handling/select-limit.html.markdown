@@ -1,4 +1,5 @@
 ---
+old_url: select_limit.htm
 title: "select().limit()"
 active_menu_item: developers
 class_name: developers

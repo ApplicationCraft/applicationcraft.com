@@ -1,4 +1,5 @@
 ---
+old_url: setstage.htm
 title: "setStage()"
 active_menu_item: developers
 class_name: developers

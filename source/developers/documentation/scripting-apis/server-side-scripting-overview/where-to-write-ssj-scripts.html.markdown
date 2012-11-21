@@ -1,4 +1,5 @@
 ---
+old_url: where_to_write_ssj_scripts.htm
 title: "Where to Write SSJ Scripts"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: setlanguage.htm
 title: "setLanguage()"
 active_menu_item: developers
 class_name: developers

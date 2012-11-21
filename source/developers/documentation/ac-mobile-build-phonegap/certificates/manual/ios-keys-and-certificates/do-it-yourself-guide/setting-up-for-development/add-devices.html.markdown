@@ -1,4 +1,5 @@
 ---
+old_url: add_devices.htm
 title: "Add Devices"
 active_menu_item: developers
 class_name: developers

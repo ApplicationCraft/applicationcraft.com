@@ -1,4 +1,5 @@
 ---
+old_url: useful_browser_functions.htm
 title: "Useful Browser Functions"
 active_menu_item: developers
 class_name: developers

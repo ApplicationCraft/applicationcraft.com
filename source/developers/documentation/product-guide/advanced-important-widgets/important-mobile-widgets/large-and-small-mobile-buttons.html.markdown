@@ -1,4 +1,5 @@
 ---
+old_url: large_and_small_mobile_buttons.htm
 title: "Large and Small Mobile Buttons"
 active_menu_item: developers
 class_name: developers

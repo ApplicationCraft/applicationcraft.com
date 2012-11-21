@@ -1,4 +1,5 @@
 ---
+old_url: anatomy_of_a_widget.htm
 title: "Anatomy of a Basic Widget"
 active_menu_item: developers
 class_name: developers

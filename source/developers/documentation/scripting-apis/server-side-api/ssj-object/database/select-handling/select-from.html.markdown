@@ -1,4 +1,5 @@
 ---
+old_url: select_from.htm
 title: "select().from()"
 active_menu_item: developers
 class_name: developers

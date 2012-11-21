@@ -1,4 +1,5 @@
 ---
+old_url: orwhere.htm
 title: "select().orWhere()"
 active_menu_item: developers
 class_name: developers

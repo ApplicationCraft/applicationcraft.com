@@ -1,4 +1,5 @@
 ---
+old_url: how_crud_works_for_external_da.htm
 title: "How CRUD works for External Databases"
 active_menu_item: developers
 class_name: developers

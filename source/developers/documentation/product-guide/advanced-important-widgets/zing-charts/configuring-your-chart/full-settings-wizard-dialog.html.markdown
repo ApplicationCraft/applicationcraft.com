@@ -1,4 +1,5 @@
 ---
+old_url: full_settings_wizard_dialog.htm
 title: "Full Settings wizard dialog"
 active_menu_item: developers
 class_name: developers

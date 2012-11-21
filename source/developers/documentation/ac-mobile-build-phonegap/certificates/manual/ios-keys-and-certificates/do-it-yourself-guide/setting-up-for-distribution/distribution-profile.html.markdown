@@ -1,4 +1,5 @@
 ---
+old_url: distribution_profile.htm
 title: "Distribution Profile"
 active_menu_item: developers
 class_name: developers

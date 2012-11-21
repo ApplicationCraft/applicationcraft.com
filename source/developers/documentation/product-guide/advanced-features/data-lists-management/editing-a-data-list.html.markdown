@@ -1,4 +1,5 @@
 ---
+old_url: editing_a_data_list.htm
 title: "Editing a Data List"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: getaddress.htm
 title: "getAddress()"
 active_menu_item: developers
 class_name: developers

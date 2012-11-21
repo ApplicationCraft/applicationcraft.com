@@ -1,4 +1,5 @@
 ---
+old_url: addcircle.htm
 title: "addCircle()"
 active_menu_item: developers
 class_name: developers

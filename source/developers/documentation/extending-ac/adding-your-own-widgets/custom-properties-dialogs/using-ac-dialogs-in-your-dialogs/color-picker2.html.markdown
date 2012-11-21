@@ -1,4 +1,5 @@
 ---
+old_url: color_picker2.htm
 title: "Color Picker"
 active_menu_item: developers
 class_name: developers

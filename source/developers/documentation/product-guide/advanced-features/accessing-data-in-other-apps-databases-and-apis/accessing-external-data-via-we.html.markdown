@@ -1,4 +1,5 @@
 ---
+old_url: accessing_external_data_via_we.htm
 title: "Accessing External Data via Web Services"
 active_menu_item: developers
 class_name: developers

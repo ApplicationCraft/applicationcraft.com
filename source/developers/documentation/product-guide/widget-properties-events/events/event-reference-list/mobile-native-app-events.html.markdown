@@ -1,4 +1,5 @@
 ---
+old_url: mobile_native_app_events.htm
 title: "Mobile Native App Events"
 active_menu_item: developers
 class_name: developers

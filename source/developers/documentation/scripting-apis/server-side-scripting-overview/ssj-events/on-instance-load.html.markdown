@@ -1,4 +1,5 @@
 ---
+old_url: on_instance_load.htm
 title: "On Instance Load"
 active_menu_item: developers
 class_name: developers

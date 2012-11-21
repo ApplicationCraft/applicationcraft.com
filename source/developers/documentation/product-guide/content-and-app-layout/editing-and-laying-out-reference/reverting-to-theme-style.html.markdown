@@ -1,4 +1,5 @@
 ---
+old_url: reverting_to_theme_style.htm
 title: "Reverting to Theme Style"
 active_menu_item: developers
 class_name: developers

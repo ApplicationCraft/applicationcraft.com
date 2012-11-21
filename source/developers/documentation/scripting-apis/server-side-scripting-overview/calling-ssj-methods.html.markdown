@@ -1,4 +1,5 @@
 ---
+old_url: calling_ssj_methods.htm
 title: "Calling SSJ Methods"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: phonegap_specific_events.htm
 title: "Device Events"
 active_menu_item: developers
 class_name: developers

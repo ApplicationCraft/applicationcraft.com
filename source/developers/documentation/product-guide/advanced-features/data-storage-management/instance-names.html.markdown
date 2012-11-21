@@ -1,4 +1,5 @@
 ---
+old_url: instance_names.htm
 title: "Instance Names"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: switching_languages_in_the_ide.htm
 title: "Switching Languages in the IDE"
 active_menu_item: developers
 class_name: developers

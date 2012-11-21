@@ -1,4 +1,5 @@
 ---
+old_url: visible.htm
 title: "visible()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: qr_code.htm
 title: "QR Code"
 active_menu_item: developers
 class_name: developers

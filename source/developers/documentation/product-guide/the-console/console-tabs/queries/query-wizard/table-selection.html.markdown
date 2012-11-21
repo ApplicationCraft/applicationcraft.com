@@ -1,4 +1,5 @@
 ---
+old_url: table_selection.htm
 title: "Table Selection"
 active_menu_item: developers
 class_name: developers

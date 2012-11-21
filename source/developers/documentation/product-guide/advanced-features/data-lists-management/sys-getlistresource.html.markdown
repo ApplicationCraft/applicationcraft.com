@@ -1,4 +1,5 @@
 ---
+old_url: sys_getlistresource.htm
 title: "sys.getListResource()"
 active_menu_item: developers
 class_name: developers

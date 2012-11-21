@@ -1,4 +1,5 @@
 ---
+old_url: error_object.htm
 title: "error object"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: the_debugger_command.htm
 title: "The 'debugger' Command"
 active_menu_item: developers
 class_name: developers

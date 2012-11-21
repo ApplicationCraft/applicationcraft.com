@@ -1,4 +1,5 @@
 ---
+old_url: starting_ac_in_safe_mode.htm
 title: "Starting AC in Safe Mode"
 active_menu_item: developers
 class_name: developers

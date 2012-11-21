@@ -1,4 +1,5 @@
 ---
+old_url: widget_properties.htm
 title: "Widget Properties"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: handling_sql_expressions.htm
 title: "Functions and Complex Expressions"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: how_to_embed.htm
 title: "How to Embed"
 active_menu_item: developers
 class_name: developers

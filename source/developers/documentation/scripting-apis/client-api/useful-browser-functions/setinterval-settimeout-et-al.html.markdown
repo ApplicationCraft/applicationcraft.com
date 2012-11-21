@@ -1,4 +1,5 @@
 ---
+old_url: setinterval__settimeout_et_al.htm
 title: "setInterval(), setTimeout()"
 active_menu_item: developers
 class_name: developers

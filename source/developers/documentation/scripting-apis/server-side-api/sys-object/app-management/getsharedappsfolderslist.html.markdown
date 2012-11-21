@@ -1,4 +1,5 @@
 ---
+old_url: getsharedappsfolderslist.htm
 title: "getSharedAppsFoldersList()"
 active_menu_item: developers
 class_name: developers

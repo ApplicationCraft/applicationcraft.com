@@ -1,4 +1,5 @@
 ---
+old_url: custom_property_without_dialog.htm
 title: "Custom Property Without Dialog"
 active_menu_item: developers
 class_name: developers

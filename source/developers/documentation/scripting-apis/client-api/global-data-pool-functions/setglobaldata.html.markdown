@@ -1,4 +1,5 @@
 ---
+old_url: setglobaldata.htm
 title: "setGlobalData()"
 active_menu_item: developers
 class_name: developers

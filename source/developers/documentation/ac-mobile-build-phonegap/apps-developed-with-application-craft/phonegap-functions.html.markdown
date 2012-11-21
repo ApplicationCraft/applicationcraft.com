@@ -1,4 +1,5 @@
 ---
+old_url: phonegap_functions.htm
 title: "PhoneGap API Functions"
 active_menu_item: developers
 class_name: developers

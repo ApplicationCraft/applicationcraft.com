@@ -1,0 +1,14 @@
+deleterow
+deleteselectedrows
+deleterowbyid
+drawnextpage
+fetchdata
+getrow
+getselectedrow
+insertrow
+isalldatadrawn
+length
+rowindex
+children
+setselectedrow
+sum

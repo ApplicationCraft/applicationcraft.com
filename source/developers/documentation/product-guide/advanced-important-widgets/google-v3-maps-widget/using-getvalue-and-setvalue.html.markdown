@@ -1,4 +1,5 @@
 ---
+old_url: using_getvalue_and_setvalue.htm
 title: "Using getValue() and setValue()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: getresources.htm
 title: "getResources()"
 active_menu_item: developers
 class_name: developers

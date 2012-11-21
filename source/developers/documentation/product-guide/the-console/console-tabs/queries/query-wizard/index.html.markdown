@@ -1,4 +1,5 @@
 ---
+old_url: query_wizard.htm
 title: "Query Wizard"
 active_menu_item: developers
 class_name: developers

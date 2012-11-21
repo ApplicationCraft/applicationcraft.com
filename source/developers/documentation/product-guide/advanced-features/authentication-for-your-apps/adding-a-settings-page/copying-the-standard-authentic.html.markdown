@@ -1,4 +1,5 @@
 ---
+old_url: copying_the_standard_authentic.htm
 title: "Copying the Standard Authentication Fields"
 active_menu_item: developers
 class_name: developers

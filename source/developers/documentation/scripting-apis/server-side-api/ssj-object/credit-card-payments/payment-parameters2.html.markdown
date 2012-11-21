@@ -1,4 +1,5 @@
 ---
+old_url: payment_parameters2.htm
 title: "Payment Parameters"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: calling_web_services.htm
 title: "Calling Web Service APIs"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: including_public_server_side_s.htm
 title: "Including Public Server Side Scripts"
 active_menu_item: developers
 class_name: developers

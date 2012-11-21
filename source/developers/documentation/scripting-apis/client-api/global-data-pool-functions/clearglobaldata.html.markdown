@@ -1,4 +1,5 @@
 ---
+old_url: clearglobaldata.htm
 title: "clearGlobalData()"
 active_menu_item: developers
 class_name: developers

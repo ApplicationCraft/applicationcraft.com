@@ -1,4 +1,5 @@
 ---
+old_url: sign_up.htm
 title: "Sign Up"
 active_menu_item: developers
 class_name: developers

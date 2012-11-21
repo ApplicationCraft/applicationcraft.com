@@ -1,4 +1,5 @@
 ---
+old_url: important_points_before_you_st.htm
 title: "Important Points Before you Start"
 active_menu_item: developers
 class_name: developers

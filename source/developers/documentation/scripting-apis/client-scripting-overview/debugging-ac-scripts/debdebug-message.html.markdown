@@ -1,4 +1,5 @@
 ---
+old_url: debdebug_message.htm
 title: "Debug Message"
 active_menu_item: developers
 class_name: developers

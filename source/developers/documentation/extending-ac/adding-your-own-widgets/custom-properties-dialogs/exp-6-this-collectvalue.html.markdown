@@ -1,4 +1,5 @@
 ---
+old_url: exp_6__this_collectvalue.htm
 title: "EXP 6 : this.collectValue"
 active_menu_item: developers
 class_name: developers

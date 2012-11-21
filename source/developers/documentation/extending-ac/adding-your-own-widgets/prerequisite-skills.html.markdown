@@ -1,4 +1,5 @@
 ---
+old_url: prerequisite_skills.htm
 title: "Prerequisite Skills"
 active_menu_item: developers
 class_name: developers

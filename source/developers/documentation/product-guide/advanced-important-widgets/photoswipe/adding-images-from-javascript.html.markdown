@@ -1,4 +1,5 @@
 ---
+old_url: adding_images_from_javascript.htm
 title: "Adding Images from Javascript"
 active_menu_item: developers
 class_name: developers

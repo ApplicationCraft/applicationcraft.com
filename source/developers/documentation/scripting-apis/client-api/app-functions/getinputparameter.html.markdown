@@ -1,4 +1,5 @@
 ---
+old_url: getinputparameter.htm
 title: "getInputParameters()"
 active_menu_item: developers
 class_name: developers

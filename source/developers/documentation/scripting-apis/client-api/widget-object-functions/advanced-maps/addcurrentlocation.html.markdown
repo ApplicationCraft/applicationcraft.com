@@ -1,4 +1,5 @@
 ---
+old_url: addcurrentlocation.htm
 title: "addCurrentLocation()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: getting_widget_data_into_an_ob.htm
 title: "Getting Widget Data into an Object"
 active_menu_item: developers
 class_name: developers

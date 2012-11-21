@@ -1,4 +1,5 @@
 ---
+old_url: child_browser.htm
 title: "Child Browser"
 active_menu_item: developers
 class_name: developers

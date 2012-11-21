@@ -1,4 +1,5 @@
 ---
+old_url: reading_from_a_log.htm
 title: "Reading from a Log"
 active_menu_item: developers
 class_name: developers

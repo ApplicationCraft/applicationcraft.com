@@ -1,4 +1,5 @@
 ---
+old_url: assign.htm
 title: "assign()"
 active_menu_item: developers
 class_name: developers

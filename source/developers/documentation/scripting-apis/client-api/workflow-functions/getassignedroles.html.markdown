@@ -1,4 +1,5 @@
 ---
+old_url: getassignedroles.htm
 title: "getAssignedRoles()"
 active_menu_item: developers
 class_name: developers

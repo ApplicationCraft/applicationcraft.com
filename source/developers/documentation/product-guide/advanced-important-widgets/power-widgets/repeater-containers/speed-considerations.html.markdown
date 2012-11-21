@@ -1,4 +1,5 @@
 ---
+old_url: speed_considerations.htm
 title: "Speed Considerations"
 active_menu_item: developers
 class_name: developers

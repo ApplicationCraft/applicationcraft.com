@@ -1,4 +1,5 @@
 ---
+old_url: reports__dashboards.htm
 title: "Data Integration, Reporting & Dashboards"
 active_menu_item: developers
 class_name: developers

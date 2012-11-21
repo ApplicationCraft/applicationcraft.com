@@ -1,4 +1,5 @@
 ---
+old_url: typical_scenarios.htm
 title: "Single Field Widgets"
 active_menu_item: developers
 class_name: developers

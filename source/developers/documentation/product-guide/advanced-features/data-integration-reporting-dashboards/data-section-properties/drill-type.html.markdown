@@ -1,4 +1,5 @@
 ---
+old_url: drill_type.htm
 title: "Drill Type"
 active_menu_item: developers
 class_name: developers

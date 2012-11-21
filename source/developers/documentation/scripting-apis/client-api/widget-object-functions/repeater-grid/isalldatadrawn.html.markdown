@@ -1,4 +1,5 @@
 ---
+old_url: isalldatadrawn.htm
 title: "isAllDataDrawn()"
 active_menu_item: developers
 class_name: developers

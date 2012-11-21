@@ -1,4 +1,5 @@
 ---
+old_url: size_properties.htm
 title: "Size Properties"
 active_menu_item: developers
 class_name: developers

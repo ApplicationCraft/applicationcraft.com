@@ -1,4 +1,5 @@
 ---
+old_url: authsign_in.htm
 title: "Sign In"
 active_menu_item: developers
 class_name: developers

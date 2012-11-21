@@ -1,4 +1,5 @@
 ---
+old_url: deleterowbyid.htm
 title: "deleteRowById()"
 active_menu_item: developers
 class_name: developers

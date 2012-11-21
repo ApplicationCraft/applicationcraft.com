@@ -1,4 +1,6 @@
 ---
+old_url: photoswiperef.htm
+old_url: getcurrentimageindex.htm
 title: "Photoswipe"
 active_menu_item: developers
 class_name: developers

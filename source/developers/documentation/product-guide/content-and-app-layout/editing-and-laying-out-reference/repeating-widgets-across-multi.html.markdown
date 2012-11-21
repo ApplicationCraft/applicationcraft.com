@@ -1,4 +1,5 @@
 ---
+old_url: repeating_widgets_across_multi.htm
 title: "Repeating Widgets Across Multiple Pages"
 active_menu_item: developers
 class_name: developers

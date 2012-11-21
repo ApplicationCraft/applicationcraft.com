@@ -1,4 +1,5 @@
 ---
+old_url: dtadjust.htm
 title: "dtAdjust()"
 active_menu_item: developers
 class_name: developers

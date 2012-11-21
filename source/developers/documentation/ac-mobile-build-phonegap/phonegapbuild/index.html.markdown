@@ -1,4 +1,5 @@
 ---
+old_url: phonegapbuild.htm
 title: "PhoneGap:Build"
 active_menu_item: developers
 class_name: developers

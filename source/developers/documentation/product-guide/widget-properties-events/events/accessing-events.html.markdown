@@ -1,4 +1,5 @@
 ---
+old_url: accessing_events.htm
 title: "Accessing Events"
 active_menu_item: developers
 class_name: developers

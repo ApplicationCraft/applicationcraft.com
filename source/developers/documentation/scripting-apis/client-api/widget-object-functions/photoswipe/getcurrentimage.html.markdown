@@ -1,4 +1,5 @@
 ---
+old_url: getcurrentimage.htm
 title: "getCurrentImage()"
 active_menu_item: developers
 class_name: developers

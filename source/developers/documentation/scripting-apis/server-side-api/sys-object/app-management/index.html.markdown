@@ -1,4 +1,5 @@
 ---
+old_url: app_management.htm
 title: "App Management"
 active_menu_item: developers
 class_name: developers

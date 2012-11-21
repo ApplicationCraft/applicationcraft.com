@@ -1,4 +1,5 @@
 ---
+old_url: enable.htm
 title: "enable()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: advqueries.htm
 title: "Queries"
 active_menu_item: developers
 class_name: developers

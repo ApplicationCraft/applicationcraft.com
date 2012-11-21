@@ -1,4 +1,5 @@
 ---
+old_url: mobilesms.htm
 title: "mobileSMS()"
 active_menu_item: developers
 class_name: developers

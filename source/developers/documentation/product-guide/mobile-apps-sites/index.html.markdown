@@ -1,4 +1,5 @@
 ---
+old_url: desktop_vs__mobile.htm
 title: "Mobile Apps & Sites"
 active_menu_item: developers
 class_name: developers

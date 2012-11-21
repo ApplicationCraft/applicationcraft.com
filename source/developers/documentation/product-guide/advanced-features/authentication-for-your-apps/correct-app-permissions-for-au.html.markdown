@@ -1,4 +1,5 @@
 ---
+old_url: correct_app_permissions_for_au.htm
 title: "Correct App Permissions for Authentication"
 active_menu_item: developers
 class_name: developers

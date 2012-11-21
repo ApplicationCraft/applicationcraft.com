@@ -1,4 +1,5 @@
 ---
+old_url: security.htm
 title: "Security"
 active_menu_item: developers
 class_name: developers

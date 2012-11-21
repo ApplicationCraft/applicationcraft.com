@@ -1,4 +1,5 @@
 ---
+old_url: pswipeproperty__methods__event.htm
 title: "Property, Methods, Event Summary"
 active_menu_item: developers
 class_name: developers

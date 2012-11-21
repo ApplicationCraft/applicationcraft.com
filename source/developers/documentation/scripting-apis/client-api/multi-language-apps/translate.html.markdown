@@ -1,4 +1,5 @@
 ---
+old_url: translate.htm
 title: "translate()"
 active_menu_item: developers
 class_name: developers

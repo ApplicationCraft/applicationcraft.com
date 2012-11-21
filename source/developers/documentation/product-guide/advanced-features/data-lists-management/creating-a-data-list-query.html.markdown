@@ -1,4 +1,5 @@
 ---
+old_url: creating_a_data_list_query.htm
 title: "Creating a Data List Query"
 active_menu_item: developers
 class_name: developers

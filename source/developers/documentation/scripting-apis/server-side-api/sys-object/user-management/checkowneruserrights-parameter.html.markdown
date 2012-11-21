@@ -1,4 +1,5 @@
 ---
+old_url: checkowneruserrights_parameter.htm
 title: "checkOwnerUserRights parameter"
 active_menu_item: developers
 class_name: developers

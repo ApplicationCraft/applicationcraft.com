@@ -1,4 +1,5 @@
 ---
+old_url: callservice.htm
 title: "callSSJ()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: reading_querystring_parameters.htm
 title: "Reading querystring parameters in your App"
 active_menu_item: developers
 class_name: developers

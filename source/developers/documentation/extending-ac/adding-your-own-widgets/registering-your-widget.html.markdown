@@ -1,4 +1,5 @@
 ---
+old_url: registering_your_widget_within.htm
 title: "Registering your Widget"
 active_menu_item: developers
 class_name: developers

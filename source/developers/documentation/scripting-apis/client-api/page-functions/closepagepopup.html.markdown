@@ -1,4 +1,5 @@
 ---
+old_url: closepagepopup.htm
 title: "closePagePopup()"
 active_menu_item: developers
 class_name: developers

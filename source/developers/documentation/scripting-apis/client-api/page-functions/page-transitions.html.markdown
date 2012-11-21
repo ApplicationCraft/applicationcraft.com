@@ -1,4 +1,5 @@
 ---
+old_url: page_transitions.htm
 title: "Page Transitions"
 active_menu_item: developers
 class_name: developers

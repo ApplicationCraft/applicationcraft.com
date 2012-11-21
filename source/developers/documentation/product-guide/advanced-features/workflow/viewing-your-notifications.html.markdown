@@ -1,4 +1,5 @@
 ---
+old_url: viewing_your_notifications.htm
 title: "Viewing Notifications in the Console"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: reading_and_writing_complex_wi.htm
 title: "Widget Content : Reading and Writing"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: advertising1.htm
 title: "Advertising"
 active_menu_item: developers
 class_name: developers

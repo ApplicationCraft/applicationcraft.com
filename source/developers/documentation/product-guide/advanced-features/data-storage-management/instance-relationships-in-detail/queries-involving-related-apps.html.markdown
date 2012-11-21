@@ -1,4 +1,5 @@
 ---
+old_url: queries_involving_related_apps.htm
 title: "Queries Involving Related Apps"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: synopsis_of_crud_operations_on.htm
 title: "Synopsis of CRUD Operations on External Databases"
 active_menu_item: developers
 class_name: developers

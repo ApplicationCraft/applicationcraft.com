@@ -1,4 +1,5 @@
 ---
+old_url: permissioning.htm
 title: "Permissioning"
 active_menu_item: developers
 class_name: developers

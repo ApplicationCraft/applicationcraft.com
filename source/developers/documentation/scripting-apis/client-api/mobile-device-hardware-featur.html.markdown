@@ -1,4 +1,5 @@
 ---
+old_url: mobile_device_hardware__featur.htm
 title: "Mobile Device Hardware & Features"
 active_menu_item: developers
 class_name: developers

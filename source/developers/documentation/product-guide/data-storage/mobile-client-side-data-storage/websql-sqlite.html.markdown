@@ -1,4 +1,5 @@
 ---
+old_url: websql__sqlite.htm
 title: "WebSQL"
 active_menu_item: developers
 class_name: developers

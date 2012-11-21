@@ -1,4 +1,5 @@
 ---
+old_url: how_to_display_in_new_window.htm
 title: "How to display in new window"
 active_menu_item: developers
 class_name: developers

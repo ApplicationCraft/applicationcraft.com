@@ -1,4 +1,5 @@
 ---
+old_url: private__shared_and_public_fol.htm
 title: "Private, Shared and Public Folders"
 active_menu_item: developers
 class_name: developers

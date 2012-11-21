@@ -1,4 +1,5 @@
 ---
+old_url: switching_between_code_and_lay.htm
 title: "Switching between Code and Layout modes"
 active_menu_item: developers
 class_name: developers

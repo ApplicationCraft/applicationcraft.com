@@ -1,4 +1,5 @@
 ---
+old_url: advanced___accessing_the_googl.htm
 title: "Advanced - Accessing the Google Object"
 active_menu_item: developers
 class_name: developers

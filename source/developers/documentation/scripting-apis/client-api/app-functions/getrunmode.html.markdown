@@ -1,4 +1,5 @@
 ---
+old_url: getrunmode.htm
 title: "getRunMode()"
 active_menu_item: developers
 class_name: developers

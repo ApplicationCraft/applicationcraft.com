@@ -1,4 +1,5 @@
 ---
+old_url: power_widgets.htm
 title: "Power Widgets"
 active_menu_item: developers
 class_name: developers

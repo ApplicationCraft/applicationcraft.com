@@ -1,4 +1,5 @@
 ---
+old_url: getdata_versus_getvalue_and_se.htm
 title: "getData() versus getValue() and setDate() versus setValue()"
 active_menu_item: developers
 class_name: developers

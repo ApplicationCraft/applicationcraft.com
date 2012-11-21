@@ -1,4 +1,5 @@
 ---
+old_url: instance2.htm
 title: "Instance Data Functions"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: sliders.htm
 title: "Sliders"
 active_menu_item: developers
 class_name: developers

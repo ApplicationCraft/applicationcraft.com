@@ -1,4 +1,5 @@
 ---
+old_url: aligning_widgets_inside_contai.htm
 title: "Aligning Widgets Inside Containers"
 active_menu_item: developers
 class_name: developers

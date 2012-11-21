@@ -1,4 +1,5 @@
 ---
+old_url: label.htm
 title: "Label"
 active_menu_item: developers
 class_name: developers

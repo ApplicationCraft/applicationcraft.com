@@ -1,4 +1,5 @@
 ---
+old_url: showprompt.htm
 title: "showPrompt()"
 active_menu_item: developers
 class_name: developers

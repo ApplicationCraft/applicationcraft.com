@@ -1,4 +1,5 @@
 ---
+old_url: the_data_properties.htm
 title: "The Data Properties"
 active_menu_item: developers
 class_name: developers

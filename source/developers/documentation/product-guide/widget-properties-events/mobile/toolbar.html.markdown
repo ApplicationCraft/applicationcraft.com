@@ -1,4 +1,5 @@
 ---
+old_url: toolbar.htm
 title: "Toolbar"
 active_menu_item: developers
 class_name: developers

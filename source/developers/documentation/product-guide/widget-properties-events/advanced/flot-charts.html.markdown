@@ -1,4 +1,5 @@
 ---
+old_url: flot_charts.htm
 title: "Flot Charts"
 active_menu_item: developers
 class_name: developers

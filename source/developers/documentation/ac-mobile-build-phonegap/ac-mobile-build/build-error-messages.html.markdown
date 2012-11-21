@@ -1,4 +1,5 @@
 ---
+old_url: build_error_messages.htm
 title: "Build Error Messages"
 active_menu_item: developers
 class_name: developers

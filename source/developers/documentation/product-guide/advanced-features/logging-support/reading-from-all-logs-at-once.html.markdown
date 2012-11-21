@@ -1,4 +1,5 @@
 ---
+old_url: reading_from_all_logs_at_once.htm
 title: "Reading from All Logs at Once"
 active_menu_item: developers
 class_name: developers

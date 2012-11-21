@@ -1,4 +1,5 @@
 ---
+old_url: oauth3.htm
 title: "oAuth"
 active_menu_item: developers
 class_name: developers

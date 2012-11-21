@@ -1,4 +1,5 @@
 ---
+old_url: adaptive_layout_event.htm
 title: "Adaptive Layout Event"
 active_menu_item: developers
 class_name: developers

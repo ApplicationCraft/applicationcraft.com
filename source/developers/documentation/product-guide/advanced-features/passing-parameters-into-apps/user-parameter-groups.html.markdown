@@ -1,4 +1,5 @@
 ---
+old_url: user_parameter_groups.htm
 title: "User Parameter Groups"
 active_menu_item: developers
 class_name: developers

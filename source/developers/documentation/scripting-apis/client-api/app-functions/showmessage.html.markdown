@@ -1,4 +1,5 @@
 ---
+old_url: showmessage.htm
 title: "showMessage()"
 active_menu_item: developers
 class_name: developers

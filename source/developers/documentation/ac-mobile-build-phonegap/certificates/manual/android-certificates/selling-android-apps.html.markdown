@@ -1,4 +1,5 @@
 ---
+old_url: selling_android_apps.htm
 title: "Selling Android Apps"
 active_menu_item: developers
 class_name: developers

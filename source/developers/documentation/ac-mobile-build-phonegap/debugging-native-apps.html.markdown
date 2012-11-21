@@ -1,4 +1,5 @@
 ---
+old_url: debugging_native_apps.htm
 title: "Debugging Native Apps"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: flip_toggle_switch.htm
 title: "Flip Toggle Switch"
 active_menu_item: developers
 class_name: developers

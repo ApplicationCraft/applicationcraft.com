@@ -1,4 +1,5 @@
 ---
+old_url: functions_you_need_a_lot.htm
 title: "Client API"
 active_menu_item: developers
 class_name: developers

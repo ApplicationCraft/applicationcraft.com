@@ -1,4 +1,5 @@
 ---
+old_url: key_management.htm
 title: "Key Management"
 active_menu_item: developers
 class_name: developers

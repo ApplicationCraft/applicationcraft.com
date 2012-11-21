@@ -1,4 +1,5 @@
 ---
+old_url: tutorials__examples.htm
 title: "Training Videos"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: how_to_deploy_apps_to_your_own.htm
 title: "How to deploy Apps to your own server"
 active_menu_item: developers
 class_name: developers

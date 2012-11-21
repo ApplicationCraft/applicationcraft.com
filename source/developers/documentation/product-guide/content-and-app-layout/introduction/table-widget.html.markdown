@@ -1,4 +1,5 @@
 ---
+old_url: table_widget.htm
 title: "Table Widget"
 active_menu_item: developers
 class_name: developers

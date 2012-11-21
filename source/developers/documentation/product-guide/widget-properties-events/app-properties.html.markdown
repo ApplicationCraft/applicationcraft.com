@@ -1,4 +1,5 @@
 ---
+old_url: app_properties.htm
 title: "App Properties"
 active_menu_item: developers
 class_name: developers

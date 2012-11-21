@@ -1,4 +1,5 @@
 ---
+old_url: ac_plugins.htm
 title: "AC Build Plugins"
 active_menu_item: developers
 class_name: developers

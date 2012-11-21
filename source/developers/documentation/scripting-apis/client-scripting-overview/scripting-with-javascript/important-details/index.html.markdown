@@ -1,4 +1,5 @@
 ---
+old_url: important_little_details.htm
 title: "Important Details"
 active_menu_item: developers
 class_name: developers

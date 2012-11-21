@@ -1,4 +1,5 @@
 ---
+old_url: crud_in_detail.htm
 title: "CRUD in Detail"
 active_menu_item: developers
 class_name: developers

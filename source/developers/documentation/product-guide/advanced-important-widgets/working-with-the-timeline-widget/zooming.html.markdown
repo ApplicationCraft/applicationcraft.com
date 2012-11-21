@@ -1,4 +1,5 @@
 ---
+old_url: zooming.htm
 title: "Zooming, Panning & Scaling"
 active_menu_item: developers
 class_name: developers

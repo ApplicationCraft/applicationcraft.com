@@ -1,4 +1,5 @@
 ---
+old_url: openexternal.htm
 title: "openExternal()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: crud_on_local_instances.htm
 title: "CRUD on Local Instances"
 active_menu_item: developers
 class_name: developers

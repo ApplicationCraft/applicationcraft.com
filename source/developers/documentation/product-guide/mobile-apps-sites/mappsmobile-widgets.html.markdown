@@ -1,4 +1,5 @@
 ---
+old_url: mappsmobile_widgets.htm
 title: "Mobile Widgets"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: payment.htm
 title: "zooz.payment()"
 active_menu_item: developers
 class_name: developers

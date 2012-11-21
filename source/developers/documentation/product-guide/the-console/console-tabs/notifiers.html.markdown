@@ -1,4 +1,5 @@
 ---
+old_url: notifiers.htm
 title: "Notifiers"
 active_menu_item: developers
 class_name: developers

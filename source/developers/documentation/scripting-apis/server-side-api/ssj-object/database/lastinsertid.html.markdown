@@ -1,4 +1,5 @@
 ---
+old_url: lastinsertid.htm
 title: "lastInsertId()"
 active_menu_item: developers
 class_name: developers
