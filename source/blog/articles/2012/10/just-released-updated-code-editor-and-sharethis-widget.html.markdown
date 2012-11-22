@@ -1,5 +1,6 @@
 ---
 title: Updated code editor and ShareThis widget
+author: Joel Moss
 old_url: "/blog/826-just-released-updated-code-editor-and-sharethis-widget"
 date: 2012-10-11
 tags: code editor, sharethis, widgets

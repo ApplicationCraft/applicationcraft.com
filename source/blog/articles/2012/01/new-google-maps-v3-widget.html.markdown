@@ -1,5 +1,6 @@
 ---
 title: New Google Maps V3 Widget
+author: Freddy May
 old_url: "/blog/721-new-google-maps-v3-widget"
 date: 2012-01-09
 tags: mobile, ide, google maps

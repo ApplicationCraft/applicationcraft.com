@@ -31,7 +31,12 @@ pageable: true
 
       <article>
         <section class="meta">
-          <p class="date"><%= link_to article.date.strftime('%B %e, %Y'), article %></p>
+          <p class="date">
+            <%= link_to article.date.strftime('%B %e, %Y'), article %>
+            <% if article.data.author %>
+              <span class="author">by <%= link_to_author article.data.author %></span>
+            <% end %>
+          </p>
 
           <p class="tagged">Tagged:</p>
           <ul class="tags">
@@ -47,7 +52,7 @@ pageable: true
 
         <h1><%= link_to article.title, article %></h1>
         <% if article.data.image %>
-          <%= image_tag article.data.image, :alt => article.title, :align => "left" %>
+          <%= image_tag article.data.image, :alt => article.title, :align => "left", :class => "blog-img" %>
         <% end %>
         <%= article.body %>
 

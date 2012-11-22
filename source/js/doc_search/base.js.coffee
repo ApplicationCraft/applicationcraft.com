@@ -20,6 +20,7 @@ class DocSearch
       dataType: 'json'
       async: false
       success: (json) =>
+        console.log 'json loaded!'
         @pages = json.pages
 
     do @init_events

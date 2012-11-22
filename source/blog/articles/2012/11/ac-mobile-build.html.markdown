@@ -1,5 +1,6 @@
 ---
 title: AC Mobile Build, a PhoneGap Build alternative with Plugins
+author: Freddy May
 tags: phonegap, cordova, html5, native apps, mobile build
 date: 2012-11-13
 class_name: blog

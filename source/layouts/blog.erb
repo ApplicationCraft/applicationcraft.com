@@ -13,7 +13,7 @@
     <div class="container">
       <div>
         <h1>Gettin' Crafty</h1>
-        <h2>A Blog written by Application Craft - the Visual IDE people</h2>
+        <h2>A Blog written by the team at Application Craft - the Visual IDE people</h2>
       </div>
     </div>
   </header>
@@ -29,8 +29,12 @@
 
         <article>
           <section class="meta">
-            <p class="date"><%= link_to current_article.date.strftime('%B %e, %Y'), current_article %></p>
-
+            <p class="date">
+              <%= link_to current_article.date.strftime('%B %e, %Y'), current_article %>
+              <% if current_article.data.author %>
+                <span class="author">by <%= link_to_author current_article.data.author %></span>
+              <% end %>
+            </p>
             <p class="tagged">Tagged:</p>
             <ul class="tags">
               <% current_article.tags.each do |tag| %>
@@ -45,7 +49,7 @@
 
           <h1><%= link_to current_article.title, current_article %></h1>
           <% if current_article.data.image %>
-            <%= image_tag current_article.data.image, :alt => current_article.title, :align => "left" %>
+            <%= image_tag current_article.data.image, :alt => current_article.title, :align => "left", :class => "blog-img" %>
           <% end %>
 
           <%= yield %>
