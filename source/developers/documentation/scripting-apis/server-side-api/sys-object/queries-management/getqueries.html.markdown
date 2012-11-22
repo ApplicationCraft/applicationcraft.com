@@ -1,4 +1,5 @@
 ---
+old_url: getqueries.htm
 title: "getQueries()"
 active_menu_item: developers
 class_name: developers

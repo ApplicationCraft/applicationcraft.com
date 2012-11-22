@@ -1,4 +1,5 @@
 ---
+old_url: the_code_editor.htm
 title: "The Code Editor"
 active_menu_item: developers
 class_name: developers

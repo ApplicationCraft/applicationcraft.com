@@ -1,4 +1,5 @@
 ---
+old_url: data__state_extraction.htm
 title: "Widget Data & State Manipulation"
 active_menu_item: developers
 class_name: developers

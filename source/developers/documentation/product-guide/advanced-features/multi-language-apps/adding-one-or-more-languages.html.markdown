@@ -1,4 +1,5 @@
 ---
+old_url: adding_one_or_more_languages.htm
 title: "Adding One or More Languages"
 active_menu_item: developers
 class_name: developers

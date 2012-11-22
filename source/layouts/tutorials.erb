@@ -4,6 +4,7 @@
       <ul class="clearfix">
         <li><a href="/developers/training-videos">Videos</a></li>
         <li class="active"><a href="/developers/documentation">Documentation</a></li>
+        <li><a href="/services">Services</a></li>
         <li><a href="https://getsatisfaction.com/application_craft" target="_blank">Forum</a></li>
         <li><a href="http://portal.applicationcraft.com" target="_blank">Bug Tracker</a></li>
       </ul>
@@ -28,7 +29,9 @@
       <div id="full-screen">open in full screen...</div>
     </header>
 
-    <%= tree_for :tutorials %>
+    <aside class="tree">
+      <%= tree_for 'source/developers/tutorials' %>
+    </aside>
 
     <article>
       <h1><%= current_page.data.title %></h1>

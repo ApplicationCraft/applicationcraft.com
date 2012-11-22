@@ -1,4 +1,5 @@
 ---
+old_url: oauthsignin.htm
 title: "oAuthSignin()"
 active_menu_item: developers
 class_name: developers

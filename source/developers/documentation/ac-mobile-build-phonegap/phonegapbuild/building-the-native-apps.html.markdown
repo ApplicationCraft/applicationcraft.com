@@ -1,4 +1,5 @@
 ---
+old_url: building_the_native_apps.htm
 title: "Building your Apps"
 active_menu_item: developers
 class_name: developers

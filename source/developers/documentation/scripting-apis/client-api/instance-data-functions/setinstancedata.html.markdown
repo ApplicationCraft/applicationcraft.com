@@ -1,4 +1,5 @@
 ---
+old_url: setinstancedata.htm
 title: "setInstanceData()"
 active_menu_item: developers
 class_name: developers

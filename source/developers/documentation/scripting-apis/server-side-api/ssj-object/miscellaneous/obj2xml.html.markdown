@@ -1,4 +1,5 @@
 ---
+old_url: obj2xml.htm
 title: "OBJ2XML"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: mobile_list_example.htm
 title: "Mobile List Example"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: to_use_cdb_or_rdb_data.htm
 title: "To Use CDB or RDB Data"
 active_menu_item: developers
 class_name: developers

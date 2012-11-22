@@ -1,4 +1,5 @@
 ---
+old_url: formatting_mobile_content.htm
 title: "Formatting Mobile Content"
 active_menu_item: developers
 class_name: developers

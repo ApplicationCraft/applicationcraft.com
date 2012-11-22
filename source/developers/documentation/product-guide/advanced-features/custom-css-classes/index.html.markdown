@@ -1,4 +1,5 @@
 ---
+old_url: custom_css_classes.htm
 title: "Custom CSS Classes"
 active_menu_item: developers
 class_name: developers

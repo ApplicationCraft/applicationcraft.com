@@ -1,4 +1,5 @@
 ---
+old_url: splash_image_management.htm
 title: "Splash Image Management"
 active_menu_item: developers
 class_name: developers

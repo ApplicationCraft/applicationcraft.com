@@ -1,4 +1,5 @@
 ---
+old_url: beta.htm
 title: "Beta"
 active_menu_item: developers
 class_name: developers

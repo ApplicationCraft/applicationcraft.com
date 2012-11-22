@@ -1,5 +1,6 @@
 ---
 title: Welcome to the all New ApplicationCraft
+author: Joel Moss
 tags: resources, documentation, website
 date: 2012-11-16
 class_name: blog

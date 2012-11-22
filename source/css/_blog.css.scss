@@ -135,6 +135,11 @@ body.blog {
             @include apply-to(more-than, ipad-portrait) {
               text-align: right;
             }
+
+            span.author {
+              display: block;
+              color: #AAA;
+            }
           }
         }
       }
@@ -175,8 +180,16 @@ body.blog {
         border: 1px solid #ccc;
         @include box-shadow(0 1px 3px rgba(0,0,0,0.1));
         @include border-radius(3px);
-        max-width: 200px;
+        max-width: 90%;
         height: inherit;
+
+        &.blog-img {
+          max-width: 250px;
+        }
+      }
+
+      p {
+        line-height: 1.5em;
       }
 
       .meta {
@@ -248,6 +261,11 @@ body.blog {
             color: #aaa;
             font-weight: 400;
           }
+
+          span.author {
+            display: block;
+            color: #AAA;
+          }
         }
 
         p.comments {
@@ -261,7 +279,7 @@ body.blog {
 
       h1 {
         font: 28px gotham_bookregular;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
 
         @include apply-to(less-than, ipad-portrait) {
           text-align: center;
@@ -285,19 +303,19 @@ body.blog {
           color: #000;
         }
 
-        &:before{
-          content: '\201C';
-          font-family: serif;
-          font-style: normal;
-          font-weight: 700;
-          position: absolute;
-          font-size: 175px;
-          top: 40px;
-          left: 175px;
-          color: #f36050;
-          opacity: 0.3;
-          text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
-        }
+        // &:before{
+        //   content: '\201C';
+        //   font-family: serif;
+        //   font-style: normal;
+        //   font-weight: 700;
+        //   position: absolute;
+        //   font-size: 175px;
+        //   top: 40px;
+        //   left: 175px;
+        //   color: #f36050;
+        //   opacity: 0.3;
+        //   text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
+        // }
       }
     }
   }

@@ -1,4 +1,5 @@
 ---
+old_url: html5_video.htm
 title: "HTML5 Video"
 active_menu_item: developers
 class_name: developers

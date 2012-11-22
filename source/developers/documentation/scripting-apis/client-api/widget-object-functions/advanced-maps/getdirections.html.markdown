@@ -1,4 +1,5 @@
 ---
+old_url: getdirections.htm
 title: "getDirections()"
 active_menu_item: developers
 class_name: developers

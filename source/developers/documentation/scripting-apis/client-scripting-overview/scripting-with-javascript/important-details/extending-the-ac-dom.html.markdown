@@ -1,4 +1,5 @@
 ---
+old_url: extending_the_ac_dom.htm
 title: "Extending the Client API"
 active_menu_item: developers
 class_name: developers

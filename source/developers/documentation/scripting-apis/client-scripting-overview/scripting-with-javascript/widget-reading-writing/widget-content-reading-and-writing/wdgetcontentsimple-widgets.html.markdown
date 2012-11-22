@@ -1,4 +1,5 @@
 ---
+old_url: wdgetcontentsimple_widgets.htm
 title: "Simple Widgets"
 active_menu_item: developers
 class_name: developers

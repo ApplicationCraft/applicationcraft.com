@@ -1,4 +1,5 @@
 ---
+old_url: app_properties.htm
 title: "App Properties"
 active_menu_item: developers
 class_name: developers
@@ -495,7 +496,7 @@ Storage
 <td width="20">
 </td>
 <td width="740">
-  This property controls whether any Instance data is stored, by default, none is stored, but you can either Save Instances, which allows you to access basic data, or Save Instances and Add to Reporting, which allows you to access all the data stored. Read more in the <a href="app_data_management.htm">App Data Management</a> section.
+  This property controls whether any Instance data is stored, by default, none is stored, but you can either Save Instances, which allows you to access basic data, or Save Instances and Add to Reporting, which allows you to access all the data stored. 
 
 </td>
 </tr>
@@ -589,7 +590,7 @@ Set the color to highlight any mandatory fields that are not completed on submis
 <td width="20">
 </td>
 <td width="740">
-    See Also: <a href="/developers/documentation/scripting-apis/client-api/widget-functions/checkmandatory">checkMandatory()</a> , <a href="/developers/documentation/scripting-apis/client-api/widget-functions/highlightwidgets) , <a href="/developers/documentation/scripting-apis/client-api/widget-functions/unhighlightwidgets">unhighlightWidgets(">highlightWidgets()</a></a>
+    See Also: <a href="/developers/documentation/scripting-apis/client-api/widget-functions/checkmandatory">checkMandatory()</a> , <a href="/developers/documentation/scripting-apis/client-api/widget-functions/highlightwidgets">highlightWidgets()</a> , <a href="/developers/documentation/scripting-apis/client-api/widget-functions/unhighlightwidgets">unhighlightWidgets()</a>
 
 </td>
 </tr>

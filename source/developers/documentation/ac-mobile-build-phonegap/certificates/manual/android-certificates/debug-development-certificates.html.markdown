@@ -1,4 +1,5 @@
 ---
+old_url: debug_development_certificates.htm
 title: "Debug Development Certificates"
 active_menu_item: developers
 class_name: developers

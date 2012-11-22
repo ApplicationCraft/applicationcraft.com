@@ -1,4 +1,5 @@
 ---
+old_url: deploying_your_native_apps.htm
 title: "Deploying your Native Apps"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: cookie.htm
 title: "cookie()"
 active_menu_item: developers
 class_name: developers

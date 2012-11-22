@@ -1,4 +1,5 @@
 ---
+old_url: standard_property_types.htm
 title: "Standard Property Types"
 active_menu_item: developers
 class_name: developers

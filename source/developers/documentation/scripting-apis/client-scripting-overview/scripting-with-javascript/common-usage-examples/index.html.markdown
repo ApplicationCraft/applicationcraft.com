@@ -1,4 +1,5 @@
 ---
+old_url: example_scripts.htm
 title: "Common Usage Examples"
 active_menu_item: developers
 class_name: developers

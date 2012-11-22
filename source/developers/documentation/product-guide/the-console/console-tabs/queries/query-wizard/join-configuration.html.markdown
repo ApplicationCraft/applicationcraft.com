@@ -1,4 +1,5 @@
 ---
+old_url: join_configuration.htm
 title: "Join Configuration"
 active_menu_item: developers
 class_name: developers

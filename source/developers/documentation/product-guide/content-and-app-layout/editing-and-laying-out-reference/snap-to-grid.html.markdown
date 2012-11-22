@@ -1,4 +1,5 @@
 ---
+old_url: snap_to_grid.htm
 title: "Snap to Grid"
 active_menu_item: developers
 class_name: developers

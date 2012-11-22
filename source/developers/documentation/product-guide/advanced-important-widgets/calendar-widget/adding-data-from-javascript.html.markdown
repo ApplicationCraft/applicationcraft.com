@@ -1,4 +1,5 @@
 ---
+old_url: adding_data_from_javascript.htm
 title: "Adding Data from Javascript"
 active_menu_item: developers
 class_name: developers

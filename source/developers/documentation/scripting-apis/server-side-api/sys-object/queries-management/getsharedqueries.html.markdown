@@ -1,4 +1,5 @@
 ---
+old_url: getsharedqueries.htm
 title: "getSharedQueries()"
 active_menu_item: developers
 class_name: developers

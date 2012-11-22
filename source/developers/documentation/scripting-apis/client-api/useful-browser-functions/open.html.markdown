@@ -1,4 +1,5 @@
 ---
+old_url: open.htm
 title: "open()"
 active_menu_item: developers
 class_name: developers

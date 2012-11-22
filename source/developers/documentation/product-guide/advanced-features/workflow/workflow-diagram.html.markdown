@@ -1,4 +1,5 @@
 ---
+old_url: workflow_diagram.htm
 title: "Workflow Diagram"
 active_menu_item: developers
 class_name: developers

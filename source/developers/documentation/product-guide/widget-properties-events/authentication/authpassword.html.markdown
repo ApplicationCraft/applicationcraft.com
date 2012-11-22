@@ -1,4 +1,5 @@
 ---
+old_url: authpassword.htm
 title: "Password"
 active_menu_item: developers
 class_name: developers

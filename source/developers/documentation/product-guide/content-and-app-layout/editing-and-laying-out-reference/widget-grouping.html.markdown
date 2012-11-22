@@ -1,4 +1,5 @@
 ---
+old_url: widget_grouping.htm
 title: "Widget Grouping"
 active_menu_item: developers
 class_name: developers

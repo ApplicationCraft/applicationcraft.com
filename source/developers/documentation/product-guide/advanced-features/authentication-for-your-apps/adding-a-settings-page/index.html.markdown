@@ -1,4 +1,5 @@
 ---
+old_url: adding_a_settings_page.htm
 title: "Adding a Settings Page"
 active_menu_item: developers
 class_name: developers

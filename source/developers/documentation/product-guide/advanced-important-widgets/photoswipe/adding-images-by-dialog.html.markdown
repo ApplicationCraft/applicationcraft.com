@@ -1,4 +1,5 @@
 ---
+old_url: adding_images_by_dialog.htm
 title: "Adding Images by Dialog"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: checkmandatory.htm
 title: "checkMandatory()"
 active_menu_item: developers
 class_name: developers

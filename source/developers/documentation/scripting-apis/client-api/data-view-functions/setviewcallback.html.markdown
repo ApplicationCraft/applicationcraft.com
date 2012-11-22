@@ -1,4 +1,5 @@
 ---
+old_url: setviewcallback.htm
 title: "bindViewData()"
 active_menu_item: developers
 class_name: developers

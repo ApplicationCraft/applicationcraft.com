@@ -1,4 +1,5 @@
 ---
+old_url: advanced_maps.htm
 title: "Advanced Maps"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: loadresourcefolders.htm
 title: "loadResourceFolders()"
 active_menu_item: developers
 class_name: developers

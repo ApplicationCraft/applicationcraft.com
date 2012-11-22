@@ -1,4 +1,5 @@
 ---
+old_url: cancelassignments.htm
 title: "cancelAssignments()"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: ssj_user_defined_methods.htm
 title: "Defining SSJ Methods"
 active_menu_item: developers
 class_name: developers

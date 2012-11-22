@@ -1,4 +1,5 @@
 ---
+old_url: adding_data_from_data_views.htm
 title: "Adding Data from Data Views"
 active_menu_item: developers
 class_name: developers

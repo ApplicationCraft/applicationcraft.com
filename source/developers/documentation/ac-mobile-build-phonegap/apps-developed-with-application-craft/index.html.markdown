@@ -1,4 +1,5 @@
 ---
+old_url: apps_developed_with_applicatio.htm
 title: "Apps Developed with Application Craft"
 active_menu_item: developers
 class_name: developers

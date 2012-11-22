@@ -1,4 +1,5 @@
 ---
+old_url: dtnewdate.htm
 title: "dtNewDate()"
 active_menu_item: developers
 class_name: developers

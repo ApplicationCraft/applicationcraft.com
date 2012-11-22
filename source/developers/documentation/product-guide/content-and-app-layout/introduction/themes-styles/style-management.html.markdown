@@ -1,4 +1,5 @@
 ---
+old_url: style_management.htm
 title: "Style Management"
 active_menu_item: developers
 class_name: developers

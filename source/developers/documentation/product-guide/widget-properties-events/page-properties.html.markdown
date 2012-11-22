@@ -1,4 +1,5 @@
 ---
+old_url: page_properties.htm
 title: "Page Properties"
 active_menu_item: developers
 class_name: developers
@@ -25,7 +26,7 @@ Widget Class
 <td width="19">
 </td>
 <td width="765">
-The internal class name of the Page Widget.- - WiziCore\_Api\_Page
+The internal class name of the Page Widget.- - WiziCore_Api_Page
 
 </td>
 </tr>

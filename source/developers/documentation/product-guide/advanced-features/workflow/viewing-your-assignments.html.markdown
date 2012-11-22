@@ -1,4 +1,5 @@
 ---
+old_url: viewing_your_assignments.htm
 title: "Viewing Assignments in the Console"
 active_menu_item: developers
 class_name: developers

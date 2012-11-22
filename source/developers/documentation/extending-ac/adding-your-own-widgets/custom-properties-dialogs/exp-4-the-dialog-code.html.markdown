@@ -1,4 +1,5 @@
 ---
+old_url: exp_4__the_dialog_code.htm
 title: "EXP 4 : the dialog code"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: adding_your_own_plugins.htm
 title: "Adding your own Plugins"
 active_menu_item: developers
 class_name: developers

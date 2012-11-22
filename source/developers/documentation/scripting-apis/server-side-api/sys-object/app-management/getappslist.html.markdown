@@ -1,4 +1,5 @@
 ---
+old_url: getappslist.htm
 title: "getAppsList()"
 active_menu_item: developers
 class_name: developers

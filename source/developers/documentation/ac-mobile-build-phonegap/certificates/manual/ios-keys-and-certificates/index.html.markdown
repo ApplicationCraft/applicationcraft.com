@@ -1,4 +1,5 @@
 ---
+old_url: ios_keys_and_certificates.htm
 title: "iOS Keys and Certificates"
 active_menu_item: developers
 class_name: developers

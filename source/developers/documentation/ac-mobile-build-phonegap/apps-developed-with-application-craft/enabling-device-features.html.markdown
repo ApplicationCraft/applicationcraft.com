@@ -1,4 +1,5 @@
 ---
+old_url: enabling_device_features.htm
 title: "PhoneGap Options"
 active_menu_item: developers
 class_name: developers

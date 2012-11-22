@@ -1,4 +1,5 @@
 ---
+old_url: image_maps.htm
 title: "Image Maps"
 active_menu_item: developers
 class_name: developers

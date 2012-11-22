@@ -1,4 +1,5 @@
 ---
+old_url: users.htm
 title: "Users"
 active_menu_item: developers
 class_name: developers

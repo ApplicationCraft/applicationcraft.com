@@ -1,4 +1,5 @@
 ---
+old_url: modifying_data_widgets_with_sc.htm
 title: "Modifying Data Widgets with Scripts"
 active_menu_item: developers
 class_name: developers

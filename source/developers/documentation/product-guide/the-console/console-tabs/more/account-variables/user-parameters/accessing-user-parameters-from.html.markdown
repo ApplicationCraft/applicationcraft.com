@@ -1,4 +1,5 @@
 ---
+old_url: accessing_user_parameters_from.htm
 title: "Reading User Parameters from an App"
 active_menu_item: developers
 class_name: developers

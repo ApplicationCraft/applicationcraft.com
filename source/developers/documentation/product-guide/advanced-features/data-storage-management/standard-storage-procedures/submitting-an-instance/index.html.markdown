@@ -1,4 +1,5 @@
 ---
+old_url: submitting_an_instance.htm
 title: "Submitting an Instance"
 active_menu_item: developers
 class_name: developers

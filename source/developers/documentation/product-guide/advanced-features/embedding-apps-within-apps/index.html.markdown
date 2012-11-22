@@ -1,4 +1,5 @@
 ---
+old_url: embedding_apps_within_apps.htm
 title: "Embedding Apps within Apps"
 active_menu_item: developers
 class_name: developers

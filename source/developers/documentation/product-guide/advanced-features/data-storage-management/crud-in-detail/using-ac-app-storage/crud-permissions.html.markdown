@@ -1,4 +1,5 @@
 ---
+old_url: crud_permissions.htm
 title: "CRUD Permissions"
 active_menu_item: developers
 class_name: developers

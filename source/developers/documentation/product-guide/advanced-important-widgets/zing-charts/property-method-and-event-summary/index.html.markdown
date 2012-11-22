@@ -1,4 +1,5 @@
 ---
+old_url: property__method_and_event_sum.htm
 title: "Property, Method and Event Summary"
 active_menu_item: developers
 class_name: developers

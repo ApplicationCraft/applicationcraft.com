@@ -1,4 +1,5 @@
 ---
+old_url: checkbox_group.htm
 title: "Checkbox Group"
 active_menu_item: developers
 class_name: developers

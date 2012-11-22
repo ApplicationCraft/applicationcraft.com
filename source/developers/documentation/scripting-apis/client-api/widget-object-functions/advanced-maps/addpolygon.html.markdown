@@ -1,4 +1,5 @@
 ---
+old_url: addpolygon.htm
 title: "addPolygon()"
 active_menu_item: developers
 class_name: developers

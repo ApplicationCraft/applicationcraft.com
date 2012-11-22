@@ -1,4 +1,5 @@
 ---
+old_url: instance_handling_with_javascr.htm
 title: "Instance Handling with Javascript"
 active_menu_item: developers
 class_name: developers

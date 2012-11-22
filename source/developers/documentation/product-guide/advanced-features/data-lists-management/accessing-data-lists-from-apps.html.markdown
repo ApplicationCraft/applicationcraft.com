@@ -1,4 +1,5 @@
 ---
+old_url: accessing_data_lists_from_apps.htm
 title: "Accessing Data Lists from Apps"
 active_menu_item: developers
 class_name: developers

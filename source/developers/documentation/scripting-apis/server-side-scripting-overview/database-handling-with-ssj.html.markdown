@@ -1,4 +1,5 @@
 ---
+old_url: database_handling_with_ssj.htm
 title: "Database Handling with SSJ"
 active_menu_item: developers
 class_name: developers

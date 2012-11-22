@@ -1,0 +1,8 @@
+getmemberof
+loaduserslist
+createuser
+deleteuser
+saveuser
+setuserpassword
+getuserbyid
+checkowneruserrights-parameter

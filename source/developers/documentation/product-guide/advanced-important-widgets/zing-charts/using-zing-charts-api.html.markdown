@@ -1,4 +1,5 @@
 ---
+old_url: using_zing_charts_api.htm
 title: "Using the Zingchart API"
 active_menu_item: developers
 class_name: developers

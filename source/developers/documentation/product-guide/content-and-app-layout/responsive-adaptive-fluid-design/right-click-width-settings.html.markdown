@@ -1,4 +1,5 @@
 ---
+old_url: right_click_width_settings.htm
 title: "Right Click Width Settings"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: radio_button.htm
 title: "Radio Button"
 active_menu_item: developers
 class_name: developers
@@ -13,7 +14,7 @@ When a Radio Button is part of a group, the group setting can be set to check fo
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a><b>General</b>
 
 </td>
 <td width="15">
@@ -29,7 +30,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_RadioWidget
+Internal class name of the widget.- WiziCore_UI_RadioWidget
 
 </td>
 </tr>
@@ -47,14 +48,9 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Label
 
-</td>
-</tr>
-</table>
+
 </td>
 <td width="15">
 </td>
@@ -99,7 +95,7 @@ Specifies that the widget should be checked by default.
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -109,7 +105,7 @@ Specifies that the widget should be checked by default.
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -227,7 +223,7 @@ Repeat
 </tr>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -295,7 +291,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -429,7 +425,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
@@ -562,7 +558,7 @@ Widget Style
 <table>
 <tr>
 <td width="148">
-  <strong>Supported Events:</strong>
+  <b>Supported Events:</b>
 
 </td>
 <td width="15">
@@ -750,4 +746,3 @@ On Resize Stop
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
-

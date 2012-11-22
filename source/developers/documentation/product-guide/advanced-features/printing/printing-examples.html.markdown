@@ -1,4 +1,5 @@
 ---
+old_url: printing_examples.htm
 title: "Printing Examples"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: alpha_numeric.htm
 title: "Alpha Numeric"
 active_menu_item: developers
 class_name: developers
@@ -45,14 +46,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Text
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>

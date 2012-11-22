@@ -1,4 +1,5 @@
 ---
+old_url: accessing_live_widget_data_fro.htm
 title: "Accessing Live Widget Data from Scripts"
 active_menu_item: developers
 class_name: developers

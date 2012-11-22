@@ -1,4 +1,5 @@
 ---
+old_url: credit_card_payments.htm
 title: "Credit Card Payments"
 active_menu_item: developers
 class_name: developers

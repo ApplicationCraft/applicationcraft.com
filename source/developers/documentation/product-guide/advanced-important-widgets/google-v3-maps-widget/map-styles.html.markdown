@@ -1,4 +1,5 @@
 ---
+old_url: map_styles.htm
 title: "Map Styles"
 active_menu_item: developers
 class_name: developers

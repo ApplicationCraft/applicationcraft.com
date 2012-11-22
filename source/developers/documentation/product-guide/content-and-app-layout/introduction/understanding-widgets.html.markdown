@@ -1,4 +1,5 @@
 ---
+old_url: understanding_widgets.htm
 title: "Understanding Widgets"
 active_menu_item: developers
 class_name: developers

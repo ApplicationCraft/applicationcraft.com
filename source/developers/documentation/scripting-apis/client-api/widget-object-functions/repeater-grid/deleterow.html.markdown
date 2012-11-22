@@ -1,4 +1,5 @@
 ---
+old_url: deleterow.htm
 title: "deleteRow()"
 active_menu_item: developers
 class_name: developers

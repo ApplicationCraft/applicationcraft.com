@@ -1,4 +1,5 @@
 ---
+old_url: charting.htm
 title: "Charting"
 active_menu_item: developers
 class_name: developers

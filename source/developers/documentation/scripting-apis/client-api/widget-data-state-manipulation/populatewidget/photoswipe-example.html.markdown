@@ -1,4 +1,5 @@
 ---
+old_url: photoswipe_example.htm
 title: "Photoswipe Example"
 active_menu_item: developers
 class_name: developers

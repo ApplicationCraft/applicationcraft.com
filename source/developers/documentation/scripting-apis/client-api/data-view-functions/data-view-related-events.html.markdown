@@ -1,4 +1,5 @@
 ---
+old_url: data_view_related_events.htm
 title: "Data View Related Events"
 active_menu_item: developers
 class_name: developers

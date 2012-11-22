@@ -1,4 +1,5 @@
 ---
+old_url: strokeweight.htm
 title: "strokeWeight()"
 active_menu_item: developers
 class_name: developers

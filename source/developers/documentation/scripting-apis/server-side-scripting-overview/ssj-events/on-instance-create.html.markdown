@@ -1,4 +1,5 @@
 ---
+old_url: on_instance_create.htm
 title: "On Instance Create"
 active_menu_item: developers
 class_name: developers

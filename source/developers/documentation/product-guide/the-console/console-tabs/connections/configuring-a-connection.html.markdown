@@ -1,4 +1,5 @@
 ---
+old_url: configuring_a_connection.htm
 title: "Configuring a Connection"
 active_menu_item: developers
 class_name: developers

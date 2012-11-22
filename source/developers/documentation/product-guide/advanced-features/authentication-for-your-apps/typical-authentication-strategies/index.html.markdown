@@ -1,4 +1,5 @@
 ---
+old_url: typical_authentication_strateg.htm
 title: "Typical Authentication Strategies"
 active_menu_item: developers
 class_name: developers

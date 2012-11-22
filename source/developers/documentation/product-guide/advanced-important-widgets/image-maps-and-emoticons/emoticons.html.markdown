@@ -1,4 +1,5 @@
 ---
+old_url: emoticons.htm
 title: "Emoticons"
 active_menu_item: developers
 class_name: developers

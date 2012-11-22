@@ -1,4 +1,5 @@
 ---
+old_url: accessing_assignments_in_queri.htm
 title: "Viewing Assignments in Apps"
 active_menu_item: developers
 class_name: developers

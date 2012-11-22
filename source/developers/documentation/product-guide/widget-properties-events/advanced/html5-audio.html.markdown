@@ -1,4 +1,5 @@
 ---
+old_url: html5_audio.htm
 title: "HTML5 Audio"
 active_menu_item: developers
 class_name: developers

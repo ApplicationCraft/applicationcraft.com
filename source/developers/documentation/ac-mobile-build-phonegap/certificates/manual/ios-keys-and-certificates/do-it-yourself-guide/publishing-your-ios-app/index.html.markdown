@@ -1,4 +1,5 @@
 ---
+old_url: publishing_your_ios_app.htm
 title: "Publishing your iOS App"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: unhighlightwidgets.htm
 title: "unhighlightWidgets()"
 active_menu_item: developers
 class_name: developers

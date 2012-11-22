@@ -1,4 +1,5 @@
 ---
+old_url: duration.htm
 title: "duration()"
 active_menu_item: developers
 class_name: developers

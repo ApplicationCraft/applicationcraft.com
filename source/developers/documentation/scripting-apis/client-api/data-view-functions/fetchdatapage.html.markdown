@@ -1,4 +1,5 @@
 ---
+old_url: fetchdatapage.htm
 title: "fetchDataPage()"
 active_menu_item: developers
 class_name: developers

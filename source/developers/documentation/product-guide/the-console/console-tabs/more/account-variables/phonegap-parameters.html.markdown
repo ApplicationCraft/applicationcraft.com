@@ -1,4 +1,5 @@
 ---
+old_url: phonegap_parameters.htm
 title: "PhoneGap Parameters"
 active_menu_item: developers
 class_name: developers

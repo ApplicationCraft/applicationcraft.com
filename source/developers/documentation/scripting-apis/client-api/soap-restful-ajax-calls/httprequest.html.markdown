@@ -1,4 +1,5 @@
 ---
+old_url: httprequest.htm
 title: "httpRequest()"
 active_menu_item: developers
 class_name: developers

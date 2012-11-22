@@ -1,4 +1,5 @@
 ---
+old_url: constructor.htm
 title: "Constructor / Destructor"
 active_menu_item: developers
 class_name: developers

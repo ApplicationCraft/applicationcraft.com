@@ -1,4 +1,5 @@
 ---
+old_url: adding_a_new_user_parameter_gr.htm
 title: "Adding a new User Parameter Group"
 active_menu_item: developers
 class_name: developers

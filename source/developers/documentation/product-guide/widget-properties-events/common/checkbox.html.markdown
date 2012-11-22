@@ -1,4 +1,5 @@
 ---
+old_url: checkbox.htm
 title: "Checkbox"
 active_menu_item: developers
 class_name: developers
@@ -11,7 +12,7 @@ Checkboxes can be used as a standalone object anywhere within a Page or as a par
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -27,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_CheckBoxWidget
+Internal class name of the widget.- WiziCore_UI_CheckBoxWidget
 
 </td>
 </tr>
@@ -45,14 +46,9 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
+
 Label
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -95,14 +91,13 @@ Specifies that the widget should be checked by default.
 </tr>
 <tr>
 <td width="148">
+</table>
 <table>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
-</td>
-</tr>
-</table>
+
 </td>
 <td width="15">
 </td>
@@ -159,7 +154,7 @@ See [App Properties](/developers/documentation/product-guide/widget-properties-e
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -169,7 +164,7 @@ See [App Properties](/developers/documentation/product-guide/widget-properties-e
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -287,7 +282,7 @@ true/false.  If set to false users will not tab into this field
 </tr>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -355,7 +350,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -495,7 +490,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

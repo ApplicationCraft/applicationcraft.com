@@ -4,6 +4,7 @@
       <ul class="clearfix">
         <li><a href="/developers/training-videos">Videos</a></li>
         <li class="active"><a href="/developers/documentation">Documentation</a></li>
+        <li><a href="/services">Services</a></li>
         <li><a href="https://getsatisfaction.com/application_craft" target="_blank">Forum</a></li>
         <li><a href="http://portal.applicationcraft.com" target="_blank">Bug Tracker</a></li>
       </ul>
@@ -28,17 +29,32 @@
       <div id="full-screen">open in full screen...</div>
     </header>
 
-    <%= tree_for :documentation %>
+    <aside>
+      <form>
+        <input type="text" placeholder="search...">
+        <button type="submit" class="btn">Search</button>
+        <ul id="search-content"></ul>
+      </form>
 
-    <article>
+      <div id="tree">
+        <%= tree_for 'source/developers/documentation' %>
+      </div>
+    </aside>
+
+    <article id="doc-body">
       <h1><%= current_page.data.title %></h1>
       <%= yield %>
     </article>
 
   </div>
 
+  <% content_for :head do %>
+    <%= stylesheet_link_tag 'lib/rainbow/github' %>
+  <% end %>
 
-  <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
-  <%= stylesheet_link_tag 'lib/rainbow/github' %>
+  <% content_for :foot do %>
+    <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+    <%= javascript_include_tag 'doc_search/base', 'vendor/turbolinks' %>
+  <% end %>
 
 <% end %>

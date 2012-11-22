@@ -1,4 +1,5 @@
 ---
+old_url: logging_support.htm
 title: "Logging Support"
 active_menu_item: developers
 class_name: developers

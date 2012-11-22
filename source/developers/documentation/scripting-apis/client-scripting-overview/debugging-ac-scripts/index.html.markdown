@@ -1,4 +1,5 @@
 ---
+old_url: debugging_overview.htm
 title: "Debugging AC Scripts"
 active_menu_item: developers
 class_name: developers

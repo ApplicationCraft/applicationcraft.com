@@ -1,4 +1,5 @@
 ---
+old_url: accessing_device_hardware__fea.htm
 title: "Accessing Device Hardware & Features"
 active_menu_item: developers
 class_name: developers

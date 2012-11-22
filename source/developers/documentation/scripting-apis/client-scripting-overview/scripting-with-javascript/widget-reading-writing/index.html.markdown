@@ -1,4 +1,5 @@
 ---
+old_url: reading_and_writing_app_data.htm
 title: "Widget Reading & Writing"
 active_menu_item: developers
 class_name: developers

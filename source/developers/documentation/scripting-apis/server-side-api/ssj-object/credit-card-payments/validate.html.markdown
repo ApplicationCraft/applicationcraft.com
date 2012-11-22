@@ -1,4 +1,5 @@
 ---
+old_url: validate.htm
 title: "zooz.validate()"
 active_menu_item: developers
 class_name: developers

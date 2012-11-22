@@ -1,4 +1,5 @@
 ---
+old_url: google_v3_maps_widget.htm
 title: "Google V3 Maps Widget"
 active_menu_item: developers
 class_name: developers

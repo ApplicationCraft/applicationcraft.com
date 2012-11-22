@@ -1,4 +1,5 @@
 ---
+old_url: defining_properties.htm
 title: "Defining Properties"
 active_menu_item: developers
 class_name: developers

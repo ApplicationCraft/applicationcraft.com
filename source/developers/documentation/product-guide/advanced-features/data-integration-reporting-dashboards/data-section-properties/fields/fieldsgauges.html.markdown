@@ -1,4 +1,5 @@
 ---
+old_url: fieldsgauges.htm
 title: "Gauges"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: fancy_button.htm
 title: "Fancy Button"
 active_menu_item: developers
 class_name: developers
@@ -15,7 +16,7 @@ A range of options are available to be set:
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -55,7 +56,7 @@ Link
 <td width="15">
 </td>
 <td width="779">
-    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail) , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS(">mobileEmail()</a></a>
+    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail">mobileEmail()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS()</a>
 
 </td>
 </tr>
@@ -95,7 +96,7 @@ Where you can set the button properties - Shape/Image/Text/pushEffect/Sticky/Fil
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -235,7 +236,7 @@ true/false.  If set to false users will not tab into this field
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -279,7 +280,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

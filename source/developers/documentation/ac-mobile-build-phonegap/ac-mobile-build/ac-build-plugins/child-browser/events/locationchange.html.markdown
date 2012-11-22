@@ -1,4 +1,5 @@
 ---
+old_url: locationchange.htm
 title: "locationChange"
 active_menu_item: developers
 class_name: developers

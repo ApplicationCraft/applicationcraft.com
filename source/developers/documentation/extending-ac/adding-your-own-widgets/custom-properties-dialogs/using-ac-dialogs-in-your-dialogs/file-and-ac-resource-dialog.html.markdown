@@ -1,4 +1,5 @@
 ---
+old_url: file_and_ac_resource_dialog.htm
 title: "File and AC Resource Dialog"
 active_menu_item: developers
 class_name: developers

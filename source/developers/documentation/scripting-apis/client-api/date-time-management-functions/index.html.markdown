@@ -1,4 +1,5 @@
 ---
+old_url: date__time_management_function.htm
 title: "Date & Time Management Functions"
 active_menu_item: developers
 class_name: developers

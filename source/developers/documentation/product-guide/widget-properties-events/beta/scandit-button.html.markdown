@@ -1,4 +1,5 @@
 ---
+old_url: scandit_button.htm
 title: "Scandit Button"
 active_menu_item: developers
 class_name: developers

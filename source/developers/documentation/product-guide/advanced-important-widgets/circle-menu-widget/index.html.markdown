@@ -1,4 +1,5 @@
 ---
+old_url: circular_menu.htm
 title: "Circle Menu Widget"
 active_menu_item: developers
 class_name: developers

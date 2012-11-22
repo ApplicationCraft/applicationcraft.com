@@ -1,4 +1,5 @@
 ---
+old_url: exposing_your_ssj_db_handlers_.htm
 title: "Exposing your SSJ DB handlers to other systems"
 active_menu_item: developers
 class_name: developers

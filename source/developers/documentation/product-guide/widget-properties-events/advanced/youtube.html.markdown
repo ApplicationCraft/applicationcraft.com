@@ -1,4 +1,5 @@
 ---
+old_url: youtube.htm
 title: "YouTube"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: absolute_and_relative_layout.htm
 title: "Absolute and Relative Layout"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: app_uploader.htm
 title: "Application Loader"
 active_menu_item: developers
 class_name: developers

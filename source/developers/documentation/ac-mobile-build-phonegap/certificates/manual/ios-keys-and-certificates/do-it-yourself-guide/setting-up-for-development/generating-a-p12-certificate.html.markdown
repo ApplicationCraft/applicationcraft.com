@@ -1,4 +1,5 @@
 ---
+old_url: generating_a_p12_certificate.htm
 title: "Generating a P12 Certificate"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: network_availability_handling.htm
 title: "Network Availability Handling"
 active_menu_item: developers
 class_name: developers

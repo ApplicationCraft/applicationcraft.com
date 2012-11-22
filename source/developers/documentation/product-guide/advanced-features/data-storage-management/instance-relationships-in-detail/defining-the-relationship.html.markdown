@@ -1,4 +1,5 @@
 ---
+old_url: defining_the_relationship.htm
 title: "Defining the Relationship"
 active_menu_item: developers
 class_name: developers

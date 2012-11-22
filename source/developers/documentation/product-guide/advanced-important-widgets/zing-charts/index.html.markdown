@@ -1,4 +1,5 @@
 ---
+old_url: zing_charts.htm
 title: "Zing Charts"
 active_menu_item: developers
 class_name: developers

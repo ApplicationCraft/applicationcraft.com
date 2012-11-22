@@ -1,4 +1,5 @@
 ---
+old_url: del.htm
 title: "del"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: view.htm
 title: "View"
 active_menu_item: developers
 class_name: developers

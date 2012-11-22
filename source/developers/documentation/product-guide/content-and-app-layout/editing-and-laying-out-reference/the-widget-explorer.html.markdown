@@ -1,4 +1,5 @@
 ---
+old_url: the_widget_explorer.htm
 title: "The Widget Explorer"
 active_menu_item: developers
 class_name: developers

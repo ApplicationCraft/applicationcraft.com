@@ -1,4 +1,5 @@
 ---
+old_url: mysql__postegres__oracle_etc.htm
 title: "MySQL, Postegres, Oracle etc."
 active_menu_item: developers
 class_name: developers

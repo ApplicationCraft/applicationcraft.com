@@ -1,4 +1,5 @@
 ---
+old_url: scripting_with_javascript.htm
 title: "Scripting with Javascript"
 active_menu_item: developers
 class_name: developers

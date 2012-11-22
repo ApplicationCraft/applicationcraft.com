@@ -1,4 +1,5 @@
 ---
+old_url: quoteinto.htm
 title: "quoteInto()"
 active_menu_item: developers
 class_name: developers

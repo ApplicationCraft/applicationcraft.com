@@ -1,4 +1,5 @@
 ---
+old_url: equal_sizing.htm
 title: "Equal Sizing"
 active_menu_item: developers
 class_name: developers

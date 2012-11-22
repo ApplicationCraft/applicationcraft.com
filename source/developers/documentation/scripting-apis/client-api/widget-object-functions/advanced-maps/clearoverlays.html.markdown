@@ -1,4 +1,5 @@
 ---
+old_url: clearoverlays.htm
 title: "clearOverlays()"
 active_menu_item: developers
 class_name: developers

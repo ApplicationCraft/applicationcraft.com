@@ -1,4 +1,5 @@
 ---
+old_url: date_picker.htm
 title: "Date Picker"
 active_menu_item: developers
 class_name: developers
@@ -11,7 +12,7 @@ This is used to make date selections using a pop-up calendar or using direct dat
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -59,7 +60,7 @@ This is the Widget name that is displayed when references are made to the Widget
 <table>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
 </td>
 </tr>
@@ -107,7 +108,7 @@ Mandatory
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
 
-See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
 </td>
 </tr>
@@ -135,7 +136,7 @@ Date/DateTime/DateTimeUTC. Select how to Date in the database
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -145,7 +146,7 @@ Date/DateTime/DateTimeUTC. Select how to Date in the database
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -263,7 +264,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -427,7 +428,7 @@ Locale/UTC/RTZ.
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -549,7 +550,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

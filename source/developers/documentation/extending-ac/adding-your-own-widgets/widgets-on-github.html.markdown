@@ -1,4 +1,5 @@
 ---
+old_url: widgets_on_github.htm
 title: "Widgets on GitHub"
 active_menu_item: developers
 class_name: developers

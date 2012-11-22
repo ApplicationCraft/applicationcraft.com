@@ -1,4 +1,5 @@
 ---
+old_url: queries_management.htm
 title: "Queries Management"
 active_menu_item: developers
 class_name: developers

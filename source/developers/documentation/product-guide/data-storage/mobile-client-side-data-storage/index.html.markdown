@@ -1,4 +1,5 @@
 ---
+old_url: mobile__client_side_data_stora.htm
 title: "Mobile & Client Side Data Storage"
 active_menu_item: developers
 class_name: developers

@@ -1,4 +1,5 @@
 ---
+old_url: instancenew.htm
 title: "instanceNew()"
 active_menu_item: developers
 class_name: developers

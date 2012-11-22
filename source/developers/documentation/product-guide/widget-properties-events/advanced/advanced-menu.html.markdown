@@ -1,4 +1,5 @@
 ---
+old_url: advanced_menu.htm
 title: "Advanced Menu"
 active_menu_item: developers
 class_name: developers

@@ -56,7 +56,7 @@ $ ->
 
 # Tree
 $ ->
-  if $('.tree').length > 0
+  if $('#tree').length > 0
 
     # Handle images
     if (images = $('body.developers .docs article :not(a)>img')).length > 0
@@ -68,16 +68,11 @@ $ ->
 
 
     # Handle full screen button
-    if $.cookie('full-screen-docs')
-      $('body').addClass 'full-screen'
-
     $('#full-screen').on 'click', ->
       if $('body').hasClass('full-screen')
         $('body').removeClass 'full-screen'
-        $.cookie 'full-screen-docs', false
       else
         $('body').addClass 'full-screen'
-        $.cookie 'full-screen-docs', true
 
 
     # Handle video links so they open in fancybox
@@ -86,7 +81,7 @@ $ ->
 
 
     # Add/remove classes depending upon the collapsed state.
-    $('.tree div>span').on 'click', ->
+    $('#tree div>span').on 'click', ->
       li = $(this).parent().parent()
 
       if li.hasClass('checked')
@@ -98,10 +93,11 @@ $ ->
 
 
     # Clicking a directory link should open up the directory index.
-    $('.tree div>a').on 'click', ->
-      li = $(this).parent().parent()
-
-      $(".tree li>a").removeClass 'active'
+    $('#tree a').on 'click', ->
+      if $(this).parent().find('>span').length > 0
+        li = $(this).parent().parent()
+      else
+        li = $(this).parent()
 
       if li.hasClass('checked')
         li.find('li').each ->
@@ -114,17 +110,10 @@ $ ->
         li.siblings().each -> $(this).removeClass('checked')
 
 
-    # Clicking a file link will make it active.
-    $(".tree a").on 'click', ->
-      $(".tree a").removeClass 'active'
-      $(this).addClass 'active'
-
-
     # Expands the tree to the current URL
     path = document.location.pathname
-    if path.substr(-1) == '/' then path = path.slice(0, path.length-1)
-    if (selected = $(".tree a[href='#{path}']")).length > 0
-      if selected.parent().find('>span')
+    if (selected = $("#tree a[href='#{path}']")).length > 0
+      if selected.parent().find('>span').length > 0
         li = selected.parent().parent()
       else
         li = selected.parent()

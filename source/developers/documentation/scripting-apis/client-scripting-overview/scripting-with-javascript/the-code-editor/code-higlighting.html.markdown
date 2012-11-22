@@ -1,4 +1,5 @@
 ---
+old_url: code_higlighting.htm
 title: "Code Editor Color Schemes"
 active_menu_item: developers
 class_name: developers

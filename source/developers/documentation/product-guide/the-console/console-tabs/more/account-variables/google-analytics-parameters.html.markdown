@@ -1,4 +1,5 @@
 ---
+old_url: google_analytics_parameters.htm
 title: "Google Analytics Parameters"
 active_menu_item: developers
 class_name: developers

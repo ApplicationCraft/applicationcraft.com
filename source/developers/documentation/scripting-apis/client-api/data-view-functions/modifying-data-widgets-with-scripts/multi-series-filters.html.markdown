@@ -1,4 +1,5 @@
 ---
+old_url: multi_series_filters.htm
 title: "Multi Series Filters"
 active_menu_item: developers
 class_name: developers

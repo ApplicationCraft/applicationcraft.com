@@ -1,4 +1,5 @@
 ---
+old_url: printing_strategies.htm
 title: "Printing Strategies"
 active_menu_item: developers
 class_name: developers

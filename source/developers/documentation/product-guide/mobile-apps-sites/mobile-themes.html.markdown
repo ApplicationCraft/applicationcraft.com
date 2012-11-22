@@ -1,4 +1,5 @@
 ---
+old_url: mobile_themes.htm
 title: "Mobile Themes"
 active_menu_item: developers
 class_name: developers

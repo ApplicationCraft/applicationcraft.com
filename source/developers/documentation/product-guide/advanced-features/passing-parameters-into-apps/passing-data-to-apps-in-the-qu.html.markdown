@@ -1,4 +1,5 @@
 ---
+old_url: passing_data_to_apps_in_the_qu.htm
 title: "Passing data to Apps in the querystring"
 active_menu_item: developers
 class_name: developers

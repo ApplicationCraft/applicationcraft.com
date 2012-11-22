@@ -1,4 +1,5 @@
 ---
+old_url: exp_3__binding_dialog_buttons.htm
 title: "EXP 3 : binding dialog buttons"
 active_menu_item: developers
 class_name: developers

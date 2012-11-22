@@ -1,4 +1,5 @@
 ---
+old_url: assigninstance.htm
 title: "assignInstance()"
 active_menu_item: developers
 class_name: developers

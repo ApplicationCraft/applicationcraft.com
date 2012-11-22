@@ -1,4 +1,5 @@
 ---
+old_url: groups.htm
 title: "Groups"
 active_menu_item: developers
 class_name: developers

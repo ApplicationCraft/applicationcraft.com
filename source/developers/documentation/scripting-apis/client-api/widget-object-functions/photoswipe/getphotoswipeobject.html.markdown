@@ -1,4 +1,5 @@
 ---
+old_url: getphotoswipeobject.htm
 title: "getPhotoswipeObject()"
 active_menu_item: developers
 class_name: developers
