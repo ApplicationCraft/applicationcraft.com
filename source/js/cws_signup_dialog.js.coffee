@@ -1,2 +1,3 @@
 $ ->
-  $.fancybox.open $('#cws-signup-dialog').html()
+  if $.browser.chrome
+    $.fancybox.open $('#cws-signup-dialog').html()
