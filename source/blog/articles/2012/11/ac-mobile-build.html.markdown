@@ -37,7 +37,7 @@ Application Craft curates plugins. This means that they are built and tested by 
   - **Push Notifications** : we have integrated the Xtify system and may support others on request.
   - **Scandit Barcode Reader** : a very high quality barcode reader; it is requires a commcercial license but for mission critical barcode reading it is worth it
   - **Google ZXing** : this is a free barcode reader
-  - **SQLite** : this gives you a relaltional database on your mobile device
+  - **SQLite** : this gives you a relational database on your mobile device
   - **MailTo** : send emails from your device
 
 Want more? We build plugins based on popular demand. If plenty of people want one, we'll add it. If you have a very obscure plugin you want adding, our services guys can look at that, too.
