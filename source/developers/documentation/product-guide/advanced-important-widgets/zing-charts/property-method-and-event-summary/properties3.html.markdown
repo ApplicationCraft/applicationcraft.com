@@ -10,7 +10,7 @@ full_width: true
 <table>
 <tr>
 <th style="vertical-align:top; width:138px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </th>
 <th style="vertical-align:top; width:21px; background-color:#ffffff;">
@@ -90,7 +90,7 @@ Full Settings
 <table>
 <tr>
 <td width="137">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="23">
@@ -100,7 +100,7 @@ Full Settings
 </tr>
 <tr>
 <td width="137">
-## X
+X
 
 </td>
 <td width="23">
@@ -194,7 +194,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="135">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="25">
@@ -262,7 +262,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <table>
 <tr>
 <td width="135">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="25">
@@ -394,7 +394,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="150">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="10">
