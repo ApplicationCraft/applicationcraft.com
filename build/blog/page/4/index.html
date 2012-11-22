@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+    <title>Gettin' Crafty: Application Development articles and news - App development for Mobile and Desktop with Application Craft</title>
+
+    
+      <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
+    
+
+    
+      <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
+    
+
+    <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-3421dee7.css" media="screen" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body class="blog">
+    <a id="top"></a>
+
+    <nav class="main">
+      <div class="container">
+
+        <div id="blog-ribbon" class="nofade">
+          <a href="/blog" title="Check out our blog">Blog</a>
+        </div>
+
+        <ul class="clearfix">
+          <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
+          <li class="clearfix">
+            <ul class="clearfix">
+              <li class=""><a href="/" class="active">Home</a></li>
+              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/developers">Developers</a></li>
+              <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
+              <li class="nofade ">
+                <a href="/get-started">Sign Up Today</a>
+                <a id="cws-sign-up" href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc" target="_blank">or via the Chrome Web Store</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    
+
+    
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<header>
+  <div class="container">
+    <div>
+      <h1>Gettin' Crafty</h1>
+      <h2>A Blog written by Application Craft - the Visual IDE people</h2>
+    </div>
+  </div>
+</header>
+
+<div class="container clearfix">
+
+  <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/blog/2012/01/new-google-maps-v3-widget/">January  9, 2012</a>
+            
+              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>mobile</li>
+            
+              <li>ide</li>
+            
+              <li>google maps</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2012/01/new-google-maps-v3-widget/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2012/01/new-google-maps-v3-widget/">New Google Maps V3 Widget</a></h1>
+        
+          <img alt="New Google Maps V3 Widget" align="left" class="blog-img" src="/img/blog/maps0-1180a69a.png" />
+        
+        <p>In the next few weeks, we will be releasing some exciting new Widgets and features (Reporting, Mail Merge &amp; Document Processing, List Management, Mobile Image Viewer to name a few). I will be describing these in our blog as they start to appear. Our first one is a very cool Google V3 Maps Widget that gives you full map control (display, markers, areas, polygons, polylines, event handling, data binding and more) with the Application Craft ease-of-use.</p>
+
+<h3 id="toc_0">The Advanced Maps Widget</h3>
+
+<p>At the time of writing, this feature is in testing and will be released in a beta format in mid January 2012. It is already pretty well documented and if anyone wants to take a look at the User Guide, here is the link : <a href="http://www.applicationcraft.com/revisions/current/docs/user-guide/index.html?google_v3_maps_widget.htm" target="_blank">User Guide - Maps</a></p>
+
+<h3 id="toc_1">Quick Overview Video</h3>
+
+<p>The best way to get a quick idea of the Maps capabilities is to watch the video below.</p>
+
+<p><a target="_blank"  href="http://www.youtube.com/v/itxUNWlFuuk?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;" title="AC Maps Widget"><img alt="" src="/img/blog/maps1-e65fc575.png" /></a></p>
+
+<h3 id="toc_2">Some Sample Code</h3>
+
+<p>The purpose of our implentation is to allow easy access to Maps without having to write down and dirty code requiring a detailed knowledge of the Google API. Advanced users can easily hack into the underlying map component if they want.</p>
+
+<p>This code shows how easy it is to add a marker to to map including controlling the &#39; on mouse over&#39; and &#39;on click&#39; content.</p>
+
+<pre><code>// Add a marker and OnMouseOver and OnClick content. Will use 
+// the default Marker icon
+obj = app.w(&#39;mapWidget&#39;).addMarker(37.44, -122.1, overContentString, clickContentString);
+// Add another marker without any content but with a custom icon
+app.w(&#39;mapWidget&#39;).addMarker(37.55, -122.15, &quot;&quot;, &quot;&quot;, customImageURL);
+</code></pre>
+
+<p>Setting a Line overlay is just an array or coordinate pairs. You can control style property easily too, with an optional parameter.</p>
+
+<pre><code>var polylinePath = [
+  [37.772323, -122.214897],
+  [21.291982, -157.821856],
+  [-18.142599, 178.431],
+  [-27.46758, 153.027892]
+];
+polylineObj = app.w(&#39;mapWidget&#39;).addPolyline(polylinePath);
+</code></pre>
+
+<p>This next example shows how you can take a large array of data, that may have been retrieved from an API call for example, and populate it quickly into a map. This also allows you to create different overlay types from the same call. The populateWidget() function also allows you to use complex object arrays and map data from anywhere within your object structure. Go to the User Guide for good explanations of this.</p>
+
+<pre><code>function handler_actionBtn17_onClick(mouseev) {
+  polylineObj = null;
+  polygonObj = null;
+  circleObj = null;
+  rectObj = null;
+
+  // Hard coded array for demo purposes. Your array would 
+  // probably created with something like app.httpRequest()
+  var overlaysArr = [
+    {
+      type: 0,
+      coords: &quot;41.878113,-87.629798&quot;,
+      mouseOverHTML: &quot;&lt;div&gt;On Over HTML&lt;/div&gt;&quot;,
+      onClickHTML: &quot;&lt;p&gt;Mouse click!!!&lt;/p&gt;&quot;,
+      markerImageURL: &quot;http://www.ixbt.com/images/chart_bar.png&quot;
+    }, {
+      overlayId: &#39;polylineId&#39;,
+      type: 1, coords: &quot;41.878113,-87.629798;47.878113,-87.629798;61.878113,-67.629798&quot;,
+      strokeColor: &quot;#ff0000&quot;,
+      strokeOpacity: 0.7
+    }, {
+      type: AC.Widgets.GoogleMapsAdvanced.OVERLAY_TYPE_POLYGON,
+      coords: &quot;21.878113,-77.629798;37.878113,-77.629798;41.878113,-67.629798&quot;,
+      strokeColor: &quot;#000000&quot;,
+      strokeOpacity: 0.7,
+      strokeWeight: 2,
+      fillColor: &quot;#00ff00&quot;,
+      fillOpacity: 0.5
+    }, {
+      type: AC.Widgets.GoogleMapsAdvanced.OVERLAY_TYPE_CIRCLE,
+      coords: &quot;61.878113,-57.629798&quot;,
+      radius: 380000,
+      strokeColor: &quot;#000000&quot;,
+      strokeOpacity: 0.7,
+      strokeWeight: 2,
+      fillOpacity: 0.5
+    }, {
+      type: 4,
+      coords: &quot;31.878113,-57.629798;11.878113,-37.629798&quot;,
+      strokeColor: &quot;#00ff00&quot;,
+      strokeOpacity: 0.7,
+      strokeWeight: 1,
+      fillColor: &quot;#00ffff&quot;,
+      fillOpacity: 0.7
+    }
+  ];
+
+  // This object is used to map from the array into the Map 
+  // Widget. See populateWidget() in the User Guide
+  var overlaysMap = {
+    id: &#39;overlayId&#39;, 
+    type:&#39;type&#39;,
+    coords: &quot;coords&quot;,
+    radius:&quot;radius&quot;,
+    strokeColor: &quot;strokeColor&quot;,
+    strokeOpacity: &quot;strokeOpacity&quot;,
+    strokeWeight: &quot;strokeWeight&quot;,
+    fillColor: &quot;fillColor&quot;,
+    fillOpacity: &quot;fillOpacity&quot;,
+    mouseOverHTML:&quot;mouseOverHTML&quot;,
+    onClickHTML: &quot;onClickHTML&quot;,
+    markerImageURL: &quot;markerImageURL&quot;
+  };
+
+  app.populateWidget(&quot;mapWidget&quot;, overlaysArr, overlaysMap);
+}
+</code></pre>
+
+<p><img title="Google maps" alt="Maps" src="/img/blog/maps2-c69f1a69.png" /> </p>
+
+<p>And the result looks like this (Marker with custom icon, line, circle, polygon, rectangle)</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/01/new-google-maps-v3-widget/" data-via="appcrafty" data-size="small" data-count="none" data-text="New Google Maps V3 Widget">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/01/new-google-maps-v3-widget/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/blog/2012/01/why-we-love-ace-cloud-9-editor-and-how-weve-integrated-it/">January  7, 2012</a>
+            
+              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>code editor</li>
+            
+              <li>ide</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2012/01/why-we-love-ace-cloud-9-editor-and-how-weve-integrated-it/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2012/01/why-we-love-ace-cloud-9-editor-and-how-weve-integrated-it/">Why we love the ACE Cloud 9 Editor (and how we've integrated it)</a></h1>
+        
+          <img alt="Why we love the ACE Cloud 9 Editor (and how we've integrated it)" align="left" class="blog-img" src="/img/blog/ace-editor-bc21a8c5.gif" />
+        
+        <p>There are some parts of the Application Craft system where we need to give credit to other people or products where it is due. One of these is the ACE Cloud 9 Editor from <a href="http://ace.ajax.org/" target="_blank">ACE Cloud 9 Editor</a>.</p>
+
+<p>Code Editing is often an integral part of building an App and so having a really superb code editor is essential. We have successfully incorporated the ACE Editor into our IDE and we are extremely pleased with the result.</p>
+
+<p><a href="/developers/training-videos/client-js/" target="_blank">Click here</a> to see a video in our Learning Center. Look at the first video (from 1:15) or the second one.</p>
+
+<h2 id="toc_0">Where we use it</h2>
+
+<p>The most important part of our system is the Application Craft IDE. This does 2 main things</p>
+
+<ul>
+<li>build UI screens with the WYSIWYG, drag-and-drop UI Layout Editor</li>
+<li>edit javascript code (currently client-side code and, very soon, also server-side)</li>
+</ul>
+
+<p><img title="ACE Code Editor in the AC IDE" alt="ACE Editor in AC IDE" src="/img/blog/code-explorer-8b27697e.jpeg" /></p>
+
+<h2 id="toc_1">What we love about it</h2>
+
+<p>Here are just a few of the things we should mention</p>
+
+<ul>
+<li>it saved us from having to compromise and use a component that was below the standards we try to adhere to</li>
+<li>it saved us one hell of a lot of coding (given we don&#39;t like to compromise on those standards)</li>
+<li>very easily tied into things like JSLint for error highlighting</li>
+<li>excellent syntax highlighting</li>
+<li>it has some really lovely styles</li>
+<li>there are some very juicy things right round the corner such as Code Completion that we are itching to add in</li>
+<li>quality</li>
+</ul>
+
+<p>So thanks to the guys and gals behind this Editor. We appreciate it!</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/01/why-we-love-ace-cloud-9-editor-and-how-weve-integrated-it/" data-via="appcrafty" data-size="small" data-count="none" data-text="Why we love the ACE Cloud 9 Editor (and how we've integrated it)">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/01/why-we-love-ace-cloud-9-editor-and-how-weve-integrated-it/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+    
+      <section class="pagination clearfix">
+        
+        
+          <p><a href="/blog/page/3/">newer posts &raquo;</a></p>
+        
+      </section>
+    
+  </section>
+
+
+  <aside>
+    <section class="all-posts">
+      <h4><a href="/blog/all">all posts &raquo;</a></h4>
+    </section>
+
+    
+      <section class="latest-posts">
+        <h4>Latest posts...</h4>
+        <ul>
+          
+            <li><a href="/blog/2012/11/documentation-search-and-full-screen/">Documentation Improvements: Search and Full Screen</a></li>
+          
+            <li><a href="/blog/2012/11/welcome-to-the-all-new-application-craft/">Welcome to the all New ApplicationCraft</a></li>
+          
+            <li><a href="/blog/2012/11/ac-mobile-build/">AC Mobile Build, a PhoneGap Build alternative with Plugins</a></li>
+          
+            <li><a href="/blog/2012/10/worlds-first-full-featured-ide/">The world's first full-featured visual IDE</a></li>
+          
+            <li><a href="/blog/2012/10/just-released-updated-code-editor-and-sharethis-widget/">Updated code editor and ShareThis widget</a></li>
+          
+            <li><a href="/blog/2012/10/accepting-credit-card-payments-ac-apps/">Accepting Credit Card Payments in AC Apps</a></li>
+          
+            <li><a href="/blog/2012/10/introducing-developer-portal/">Introducing the Developer Portal</a></li>
+          
+            <li><a href="/blog/2012/09/power-server-side-javascript/">The Power of Server Side Javascript</a></li>
+          
+        </ul>
+      </section>
+    
+
+    <section class="latest-posts">
+      <h4>on this page...</h4>
+      <ul>
+        
+          <li><a href="/blog/2012/01/new-google-maps-v3-widget/">New Google Maps V3 Widget</a></li>
+        
+          <li><a href="/blog/2012/01/why-we-love-ace-cloud-9-editor-and-how-weve-integrated-it/">Why we love the ACE Cloud 9 Editor (and how we've integrated it)</a></li>
+        
+      </ul>
+    </section>
+  </aside>
+
+</div>
+
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'applicationcraftwebsite'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+<script src="/js/vendor/rainbow-2b7edd35.js" type="text/javascript"></script>
+<script src="/js/vendor/rainbow/generic-6a91084e.js" type="text/javascript"></script>
+<script src="/js/vendor/rainbow/javascript-5e0c6c6e.js" type="text/javascript"></script><link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    <section id="price-banner" class="clearfix">
+  <div class="container">
+    <div>only <span>$14</span> per month</div>
+    <div class="nofade"><a href="/get-started">
+      <p>Try it for Free!</p>
+      <p><span>&#x2605;</span> 14 day free trial <span>&#x2605;</span></p>
+    </a></div>
+
+    <div class="clearfix">
+
+      <div class="video-thumb">
+        <span>
+          <a class="fancybox fancybox.iframe" href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;">
+            <img src="//i1.ytimg.com/vi/XcGx6F7Wql0/default.jpg">
+          </a>
+        </span>
+        <span>1:28</span>
+      </div>
+
+      <a href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe">
+        Watch the intro video...
+      </a>
+
+    </div>
+  </div>
+</section>
+
+    <footer>
+      <section>
+        <div class="container">
+          <ul class="clearfix">
+            <li>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/product/phonegap-mobile-build">Mobile Build</a></li>
+                <li><a href="/product/enterprise">Enterprise</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/developers">Developers</a></li>
+                <li><a href="/developers">Support</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/company/contact-us">Contact us</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/company">About</a></li>
+                <li><a href="/legal">Legal</a></li>
+                <li><a href="/referral-program">Referral Program</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul id="social-icons">
+                <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
+                <li><a href="https://www.facebook.com/ApplicationCraft"><span></span>Facebook</a></li>
+                <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
+                <li><a href="http://www.youtube.com/user/appcrafty"><span></span>Youtube</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          Copyright &copy; 2012 Application Craft Ltd. All rights reserved.
+          Read our <a href="/legal/privacy">Privacy policy</a>.
+        </div>
+      </section>
+    </footer>
+
+
+    <div id="sign-in" class="modal">
+      <h2>Sign In</h2>
+      <p>To sign in to your account, you need to go to your custom sub-domain, where you will be prompted to enter your username and password. Choose from the list below, or enter your subdomain in the field provided.</p>
+      <hr />
+      <div class="waLoginList">
+        <div class="waLoginListDiv">
+          <span style="position: relative;">&nbsp;</span>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
+    <script src="/js/main-2ed931f9.js" type="text/javascript"></script>
+    
+
+    
+      <script>
+        var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+    
+
+    <div id="getsat-widget-2621"></div>
+    <script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
+    <script type="text/javascript">
+    if (typeof GSFN !== "undefined") { GSFN.loadWidget(2621,{"containerId":"getsat-widget-2621"}); }
+    </script>
+  </body>
+</html>

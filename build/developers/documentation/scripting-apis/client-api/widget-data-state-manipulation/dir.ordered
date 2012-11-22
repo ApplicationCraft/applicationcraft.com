@@ -1,0 +1,13 @@
+assign
+refgetvalue
+refsetvalue
+getdata
+setdata
+visible
+readonly
+enabled
+datagetvalues
+datagetstates
+datasetvalues
+datasetstates
+populatewidget

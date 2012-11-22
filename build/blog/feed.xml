@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Application Craft</title>
+  <subtitle>A Blog written by Application Craft - the Visual IDE people</subtitle>
+  <id>http://www.applicationcraft.com/blog</id>
+  <link href="http://www.applicationcraft.com/blog"/>
+  <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
+  <updated>2012-11-22T00:00:00Z</updated>
+  <author>
+    <name>Application Craft</name>
+  </author>
+  <entry>
+    <title>Documentation Improvements: Search and Full Screen</title>
+    <link rel="alternate" href="/blog/2012/11/documentation-search-and-full-screen/"/>
+    <id>/blog/2012/11/documentation-search-and-full-screen/</id>
+    <published>2012-11-22T00:00:00Z</published>
+    <updated>2012-11-22T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Every since we unleashed our &lt;a href="/blog/2012/11/welcome-to-the-all-new-application-craft/"&gt;new site and branding&lt;/a&gt; to the world just a week ago, we&amp;#39;ve been hard at work making further improvements, especially to the &lt;a href="/developers/documentation"&gt;Documentation&lt;/a&gt;. Today, we added a couple of major improvements to the docs that we hope will make your life easier.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Every since we unleashed our &lt;a href="/blog/2012/11/welcome-to-the-all-new-application-craft/"&gt;new site and branding&lt;/a&gt; to the world just a week ago, we&amp;#39;ve been hard at work making further improvements, especially to the &lt;a href="/developers/documentation"&gt;Documentation&lt;/a&gt;. Today, we added a couple of major improvements to the docs that we hope will make your life easier.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Docs Search&lt;/h2&gt;
+
+&lt;p&gt;The old docs had a search feature, which it seems that some of you have been pining for. So we&amp;#39;ve brought search back, but in a much sexier way.&lt;/p&gt;
+
+&lt;p&gt;Above the documentation tree, you will now see a search box. Simply use this to search for what you are looking for and you&amp;#39;ll be shown a list of results from the documentation. Nice and fast!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Documentation search results" src="/img/blog/doc-search-f202a141.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Full Screen Docs&lt;/h2&gt;
+
+&lt;p&gt;You may also have noticed a little icon towards the top right of the docs. If you click that, you will be taken into full-screen mode, which will allow you to concentrate only on the docs without any distractions, and also be able to see more of the docs and code samples with much less scrolling.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Full-Screen Documentation" src="/img/blog/full-screen-docs-f803200a.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Open Source&lt;/h2&gt;
+
+&lt;p&gt;A few days ago, I sent a tweet from the &lt;a href="https://twitter.com/appcrafty"&gt;@appcrafty&lt;/a&gt; Twitter account:&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;We think our new site and docs are so good, we open sourced them &lt;a href="https://t.co/ONYMrozB" title="https://github.com/ApplicationCraft/applicationcraft.com"&gt;github.com/ApplicationCra…&lt;/a&gt;, and we would love to see pull requests.&lt;/p&gt;&amp;mdash; Application Craft (@appcrafty) &lt;a href="https://twitter.com/appcrafty/status/271365264317235200" data-datetime="2012-11-21T21:31:35+00:00"&gt;November 21, 2012&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;Everything that you see here and anywhere else on our site is now open source on &lt;a href="https://github.com/ApplicationCraft/applicationcraft.com"&gt;Github&lt;/a&gt;. Which means the code behind the site and documentation is open and available for anyone to view... yes even you!&lt;/p&gt;
+
+&lt;p&gt;So if you see a typo, or broken link; or if a page in the docs is not looking quite right; or maybe there is a page in that you think you can improve upon, then just go ahead and &lt;a href="https://github.com/ApplicationCraft/applicationcraft.com"&gt;fork the site&lt;/a&gt;, make your changes and send us a &lt;a href="https://help.github.com/articles/using-pull-requests"&gt;pull request&lt;/a&gt;. If all looks good, we&amp;#39;ll have no problem with accepting your pull requests, and you will see your changes on our site the next time we deploy.&lt;/p&gt;
+
+&lt;p&gt;Plenty more to come, so what this space.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Welcome to the all New ApplicationCraft</title>
+    <link rel="alternate" href="/blog/2012/11/welcome-to-the-all-new-application-craft/"/>
+    <id>/blog/2012/11/welcome-to-the-all-new-application-craft/</id>
+    <published>2012-11-16T00:00:00Z</published>
+    <updated>2012-11-16T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Unless you are reading this via the &lt;a href="/blog/feed.xml"&gt;blog feed&lt;/a&gt;, you are currently witnessing the beauty and majesty that is the all new &lt;a href="/"&gt;ApplicationCraft.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve been hard at work for the last month thinking and brainstorming about ways we can create an even better product and improve the service to you; our valued customers and developers. The site is the very first thing that people see, and is also the go-to place for existing users when they need assistance of any kind.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Unless you are reading this via the &lt;a href="/blog/feed.xml"&gt;blog feed&lt;/a&gt;, you are currently witnessing the beauty and majesty that is the all new &lt;a href="/"&gt;ApplicationCraft.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve been hard at work for the last month thinking and brainstorming about ways we can create an even better product and improve the service to you; our valued customers and developers. The site is the very first thing that people see, and is also the go-to place for existing users when they need assistance of any kind.&lt;/p&gt;
+
+&lt;p&gt;So what we have done is completely redefined the Application Craft brand and design. We enlisted the help of &lt;a href="http://mikekus.com/"&gt;Mike Kus&lt;/a&gt;, who is one of the worlds best web and graphic designers - and also happens to be a great guy - and we built a beautiful new brand.&lt;/p&gt;
+
+&lt;p&gt;The brief was simple; great looking site that was far simpler and less text heavy than the old one, and we wanted it to be instantly noticable and funky!&lt;/p&gt;
+
+&lt;p&gt;What Mike came up with blew us away. It includes an all new logo that we feel is much simpler, yet more effective, and the site does a far better job of explaining very quickly what AC is all about. We even invented a new colour: AC Red ;)&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="/"&gt;homepage&lt;/a&gt; gets straight to the point, and our &lt;a href="/product"&gt;product pages&lt;/a&gt; are much simpler. Heck, even the &lt;a href="/get-started"&gt;signup form&lt;/a&gt; is simpler.&lt;/p&gt;
+
+&lt;p&gt;We also found the time to integrate the &lt;a href="/developers/documentation"&gt;User Guide and documentation&lt;/a&gt; into the new site, as well as make some considerable improvements to the structure and useability.&lt;/p&gt;
+
+&lt;p&gt;We are very excited to release the new ApplicationCraft.com, and hope you will love it as much as we do. Tell us what you think in the comments below.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>AC Mobile Build, a PhoneGap Build alternative with Plugins</title>
+    <link rel="alternate" href="/blog/2012/11/ac-mobile-build/"/>
+    <id>/blog/2012/11/ac-mobile-build/</id>
+    <published>2012-11-13T00:00:00Z</published>
+    <updated>2012-11-13T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We&amp;#39;re really excited to announce the availability of a full-featured alternative to PhoneGap Build that incorporates everything that Adobe&amp;#39;s platform offers as well as a healthy number of plugins.&lt;/p&gt;
+
+&lt;p&gt;Feel free to take a look at the &lt;a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps"&gt;User Guide section&lt;/a&gt;&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;re really excited to announce the availability of a full-featured alternative to PhoneGap Build that incorporates everything that Adobe&amp;#39;s platform offers as well as a healthy number of plugins.&lt;/p&gt;
+
+&lt;p&gt;Feel free to take a look at the &lt;a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps"&gt;User Guide section&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For those who don&amp;#39;t know PhoneGap/Cordova, it lets you take any HTML5+CSS+JS App or Site and compile it into a binary that can be deployed to App Stores. It also lets you access all the hardware goodies on your device (GPS, Accelerometer, Compass, Camera etc.).&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve also made it incredibly easy to use by offering Certificate management &lt;strong&gt;and&lt;/strong&gt; Certificate generation, as well as config.xml editing - all through the Application Craft platform. So, no problem even if you don&amp;#39;t have a Mac.&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;#39;t matter what tools you used to build your App, any HTML5+CSS+JS App should work just fine. And for you Application Craft developers, all you need to know is that it is very easy to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="Application Craft Mobile Build" alt="AC Mobile Build" src="/img/blog/acmb-2-dcb1aaf7.png" /&gt; &lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Why we built it&lt;/h2&gt;
+
+&lt;p&gt;PhoneGap/Cordova technology is something that most developers are probably already familiar with. However, using it is not for the faint hearted. You need to install and configure XCode (for iOS), Java (for Android and Blackberry) and other compilers. This is a pain in the arse and it is why PhoneGap:Build was built. &lt;/p&gt;
+
+&lt;p&gt;As we make pretty heavy use of PhoneGap/Cordova, we needed to be in a position where we have control over the build process. Being able to add plugins in line with our users&amp;#39;s needs was on e pretty key motivator to build our own platform. The other was the simple need to be in control and not end up red-faced because of changes that Adobe might make. &lt;/p&gt;
+
+&lt;p&gt;We would, at this point, like to say thanks to the PhoneGap crew - especially Brian &amp;quot;Spacelord&amp;quot; Leroux and Andrew &amp;quot;Sorry for the Snark&amp;quot; Lunny, who have been especially helpful to us in the past.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;How does it differ from PhoneGap:Build?&lt;/h2&gt;
+
+&lt;p&gt;In principle, it is very similar. The main differences are free private builds, 6 PhoneGap/Cordova plugins, being able to edit your config.xml without re-uploading and keeping a a history of compiled Apps.&lt;/p&gt;
+
+&lt;p&gt;Application Craft will only support iOS, Android (both available now) and Windows Phone (available from December 1st, 2012). We simply don&amp;#39;t see the need for Blackberry, Symbian and WebOS I&amp;#39;m afraid. You can still use PhoneGap:Build for those.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Plugins?&lt;/h2&gt;
+
+&lt;p&gt;Application Craft curates plugins. This means that they are built and tested by us to reduce complexity for the user. We have added the most commonly requested ones but will aggressively add more in line with demand.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Child Browser Window&lt;/strong&gt; : this allows a user to display a URL within the app rather than it appearing in the system browser.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Push Notifications&lt;/strong&gt; : we have integrated the Xtify system and may support others on request.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scandit Barcode Reader&lt;/strong&gt; : a very high quality barcode reader; it is requires a commcercial license but for mission critical barcode reading it is worth it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google ZXing&lt;/strong&gt; : this is a free barcode reader&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; : this gives you a relaltional database on your mobile device&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MailTo&lt;/strong&gt; : send emails from your device&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Want more? We build plugins based on popular demand. If plenty of people want one, we&amp;#39;ll add it. If you have a very obscure plugin you want adding, our services guys can look at that, too.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The world's first full-featured visual IDE</title>
+    <link rel="alternate" href="/blog/2012/10/worlds-first-full-featured-ide/"/>
+    <id>/blog/2012/10/worlds-first-full-featured-ide/</id>
+    <published>2012-10-22T00:00:00Z</published>
+    <updated>2012-10-22T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;This morning I came across a question on Quora, that asked the question:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Are there any powerful software IDE&amp;#39;s [...], based in the cloud/hosted online?&lt;br&gt;
+The answers received were kind of obvious, mentioning services such as Cloud9 and ShiftEdit, but unfortunately these services are not actually IDE&amp;#39;s. They are just code editors. Sometimes they may have additional functionality that complements the code writing experience, but very little else.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+    <content type="html">&lt;p&gt;This morning I came across a question on Quora, that asked the question:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Are there any powerful software IDE&amp;#39;s [...], based in the cloud/hosted online?&lt;br&gt;
+The answers received were kind of obvious, mentioning services such as Cloud9 and ShiftEdit, but unfortunately these services are not actually IDE&amp;#39;s. They are just code editors. Sometimes they may have additional functionality that complements the code writing experience, but very little else.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="toc_0"&gt;What is an IDE?&lt;/h2&gt;
+
+&lt;p&gt;An IDE or Integrated Development Environment &amp;quot;is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger&amp;quot;. The important part here is that an IDE is a lot&lt;br&gt;
+more than just a source code editor, and that building applications involves a lot more than just writing code.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;What is a Cloud Based IDE?&lt;/h2&gt;
+
+&lt;p&gt;A cloud based IDE is actually almost the same as a traditional IDE, except for one major thing; the entire enviroment is hosted and run in the Cloud. There is nothing to download or install, and no heavy desktop software to use.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;So what then, is a Visual IDE?&lt;/h2&gt;
+
+&lt;p&gt;Ah, I&amp;#39;m glad you asked ;)&lt;/p&gt;
+
+&lt;p&gt;Traditional IDE&amp;#39;s are all about the code, and require you to do all the work by typing endless amounts of code. A Visual IDE is all about making that experience as visual as possible, and lets users create applications by manipulating program elements graphically rather than by specifying&lt;br&gt;
+them textually.&lt;/p&gt;
+
+&lt;p&gt;Application Craft is the worlds only Visual IDE in the cloud, and features a completely visual development environment, while at the same time allowing you to write code if you wish to.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;So why is this a good thing?&lt;/h2&gt;
+
+&lt;p&gt;Application Craft allows you to build once and run anywhere, and it achieves that through standard web technologies like HTML5, Javascript and CSS. So what better place can there be to develop these apps, than within the browser - the very place that the app is consumed. The engine behind the browser is also what will run your app on mobile devices.&lt;/p&gt;
+
+&lt;p&gt;So a real Visual IDE for building web and mobile apps is right here, and is so much more than you think!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Updated code editor and ShareThis widget</title>
+    <link rel="alternate" href="/blog/2012/10/just-released-updated-code-editor-and-sharethis-widget/"/>
+    <id>/blog/2012/10/just-released-updated-code-editor-and-sharethis-widget/</id>
+    <published>2012-10-11T00:00:00Z</published>
+    <updated>2012-10-11T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We just rolled out a couple of small, but newsworthy new features to the Application Craft platform.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Updated ACE Code Editor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="ACE Code editor in the AC IDE" alt="ACE Code Editor" src="/img/blog/ace-editor-e8f36443.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;First is a major update to the integrated code editor within the IDE, which introduces some really nice improvements and a few little helpers to make your life easier. Our code editor is powered by the open source ACE Editor, which means we get to use the power of open source and bring you some awesome features. This release includes&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;We just rolled out a couple of small, but newsworthy new features to the Application Craft platform.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Updated ACE Code Editor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="ACE Code editor in the AC IDE" alt="ACE Code Editor" src="/img/blog/ace-editor-e8f36443.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;First is a major update to the integrated code editor within the IDE, which introduces some really nice improvements and a few little helpers to make your life easier. Our code editor is powered by the open source ACE Editor, which means we get to use the power of open source and bring you some awesome features. This release includes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Multiple cursors and selections&lt;/li&gt;
+&lt;li&gt;Code folding&lt;/li&gt;
+&lt;li&gt;Autoclosing of html tags&lt;/li&gt;
+&lt;li&gt;Indent guides&lt;/li&gt;
+&lt;li&gt;New themes&lt;/li&gt;
+&lt;li&gt;Many small tweaks and fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sign up or sign in to your account and give it a whirl today.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;ShareThis Widget&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="ShareThis widget in the AC IDE" alt="ShareThis Widget" src="/img/blog/share-this-6269f524.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also added a new widget to your toolbox, which wraps up the free ShareThis service into one tiny package, and lets you share your apps across almost any social network. Just drag and drop the widget onto your app, and you&amp;#39;re done. It just works!&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Frequent Releases&lt;/h2&gt;
+
+&lt;p&gt;This release also marks the beginning of an all new internal development process for our engineering team, which will mean much more frequent releases, as well as a far greater ability - and flexibility - to respond to bugs and requests from you guys. It&amp;#39;s a very new process, so we are still refining it as we go along, but already we deployed two minor releases just today that fix a few bugs that you guys reported within the last 24 hours.&lt;/p&gt;
+
+&lt;p&gt;Plenty more to come, so watch this space.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Accepting Credit Card Payments in AC Apps</title>
+    <link rel="alternate" href="/blog/2012/10/accepting-credit-card-payments-ac-apps/"/>
+    <id>/blog/2012/10/accepting-credit-card-payments-ac-apps/</id>
+    <published>2012-10-09T00:00:00Z</published>
+    <updated>2012-10-09T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.&lt;/p&gt;
+
+&lt;p&gt;It handles not just the payment but can also send detailed invoices. The money from the transaction is managed by Zooz and can be paid directly to your bank (most countries are supported) or to a Payoneer account.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.&lt;/p&gt;
+
+&lt;p&gt;It handles not just the payment but can also send detailed invoices. The money from the transaction is managed by Zooz and can be paid directly to your bank (most countries are supported) or to a Payoneer account.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Zooz&lt;/h2&gt;
+
+&lt;p&gt;We have integrated Zooz into the Application Craft backend, so as a developer you can just get on with building an app and you don&amp;#39;t have to worry about the deeper technical details. All you need to do is to sign up with Zooz, register your app within Zooz and you&amp;#39;re ready to get started.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;What the user sees ...&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="Payments in your mobile or desktop app and invoice generated" src="/img/blog/zooz-blog-2-258ed23f.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;At some point, a user will press a button within your app when s/he is ready to pay. At this point, a very nice &amp;#39;n&amp;#39; easy screen will appear (see below) and credit card details are entered.  The user is then shown a confirmation screen (an app screen) and and invoice is sent.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;What the developer does ...&lt;/h2&gt;
+
+&lt;p&gt;If you want full details on coding your payments app, please click to see the relevant section in the User Guide. For those not familiar with Application Craft yet, all code (client and server) is written in the browser based IDE and is regular javascript.&lt;/p&gt;
+
+&lt;p&gt;This is a brief summary of how it works. [SSJ] means it is being executed as a server-side Javascript.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[Client] A &amp;#39;Pay&amp;#39; button is pressed&lt;br&gt;
+Pass control to your SSJ script.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[SSJ] Prepare the payment details&lt;br&gt;
+You can prepare invoice details on the client but to be secure, it should be done on the server.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[SSJ] Call &lt;code&gt;ssj.zooz.payment()&lt;/code&gt;&lt;br&gt;
+This is where you initiate the payment process. Your code gets a token back which is passed back to the client.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[Client] Call &lt;code&gt;zoozStartCheckout()&lt;/code&gt;&lt;br&gt;
+This initiates the actual payment process where the user will be asked to enter credit card details etc. You specify a callback function is called once it completes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[Client] Call SSJ function to validate the transaction&lt;br&gt;
+Your callback function should transfer control to an SSJ script where you validate the payment. You pass in the Zooz transaction id so it can be correctly validated.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[SSJ] Call &lt;code&gt;ssj.zooz.validate()&lt;/code&gt;&lt;br&gt;
+This is a final security measure to safeguard against hacking. If it returns true, then you know it is good to proceed with the order fulfillment. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[Client] Tell user of success or failure&lt;br&gt;
+Inform the user of success or of errors.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The code samples below show how payments are handled. Click to see the relevant section in the User Guide if you want to copy and paste code.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Client-side code&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;// This value was specified by you in your Zooz portal
+var AppId = &amp;#39;com.yourdomain.yourpayment&amp;#39;;
+
+function handler_actionBtn1_onClick(mouseev){
+  // You may want to pass shopping cart items and order
+  // details from the client. Or you may have stored this on
+  // the server
+  orderDetails = getOrderDetails();    
+  cartItems = getCartItems();
+
+  // Now call the SSJ function passing in Order details and
+  // (if applicable) shopping cart contents
+  app.callSSJ(&amp;quot;zooz_payment&amp;quot;, function(error, result){
+    // The SSJ function should return a token that you now
+    // pass to the Zooz on the client. This is where the
+    // actual payment screen will appear to the user
+    zoozStartCheckout({
+      // Session token received from server
+      token: result,
+      // unique ID as registered in the developer portal
+      uniqueId: AppId,
+      // true = Sandbox environment
+      isSandbox : true,
+      // callback function from Zooz after payment attempt
+      completeCallBackFunc: transactionComplete
+    });
+  }, [orderDetails, cartItems]);       
+}
+
+function transactionComplete(response) {
+  // Zooz returns a JSON string, so we will convert it into an 
+  // object
+  response = JSON.parse(response);
+
+  if (response.statusCode === 0) {
+    // If you want to avoid any risk of price manipulation, you
+    // MUST call an SSJ function to validate. You should handle
+    // the release of your product on the server and not the
+    // client.
+    app.callSSJ(&amp;#39;zooz_validate&amp;#39;, function(error, result){
+      // Now you can report any errors to the end-user
+      if (!error)
+        if (result) {
+          app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Transaction successful&amp;#39;);
+        } else {
+          app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Fake transaction attempted&amp;#39;);
+        }
+      else {
+        app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Error approving payment&amp;#39;);
+      }
+    }, [response.transactionID]);
+  }
+  else {
+    app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Communication error&amp;#39;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="toc_4"&gt;Server-side code&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;// If true, then you can test your payments. Use the following
+// card details for testing:
+//   Card : 4580-4580-4580-4580
+//   Expiry : any date (01/15) in the future
+//   CV Code : any 3 digit number
+var isSandbox = true;
+var zoozID = &amp;#39;com.yourdomain.yourpayment&amp;#39;;
+var zoozKey = &amp;#39;e1424295-4d26-4e78-a884-0da424299f9c&amp;#39;;
+
+// Your SSJ function that initiates the payment process
+function zooz_payment(objDetails, cartItems) {
+  // the params object will contain all the order details you
+  // pass to Zoom
+  params = calcPayment(objDetails, cartItems);
+  return ssj.zooz.payment(params, isSandbox);
+}
+
+// This function is where you complete your processing
+// It is important to inspect the result and only release your
+// order/product if it is confirmed as valid.
+function zooz_validate(transactionId) {
+  var obj = {
+    ZooZUniqueID : zoozID,
+    ZooZAppKey : zoozKey
+  };
+  var isValid = ssj.zooz.validate(transactionId, obj, isSandbox);
+  if (isValid) {
+    // At this point you know everything is cleared and
+    // validated as safe. So you can ship your product etc.
+  }
+  return isValid;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+</feed>

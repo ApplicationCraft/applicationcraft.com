@@ -1,0 +1,3361 @@
+if ($args = ac_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-apps/? permanent;
+}
+if ($args = adding_your_own_plugins.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/adding-your-own-plugins/? permanent;
+}
+if ($args = close4.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/events/close4/? permanent;
+}
+if ($args = locationchange.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/events/locationchange/? permanent;
+}
+if ($args = openexternal2.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/events/openexternal2/? permanent;
+}
+if ($args = events4.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/events/? permanent;
+}
+if ($args = close3.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/methods/close3/? permanent;
+}
+if ($args = openexternal.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/methods/openexternal/? permanent;
+}
+if ($args = showwebpage.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/methods/showwebpage/? permanent;
+}
+if ($args = methods4.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/methods/? permanent;
+}
+if ($args = child_browser.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/? permanent;
+}
+if ($args = mailto_plugin.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/mailto-plugin/? permanent;
+}
+if ($args = scandit_free.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/scandit-free/? permanent;
+}
+if ($args = close2.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/close2/? permanent;
+}
+if ($args = del.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/del/? permanent;
+}
+if ($args = executesql.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/executesql/? permanent;
+}
+if ($args = insert2.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/insert2/? permanent;
+}
+if ($args = open3.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/open3/? permanent;
+}
+if ($args = query.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/query/? permanent;
+}
+if ($args = remove.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/remove/? permanent;
+}
+if ($args = transaction.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/transaction/? permanent;
+}
+if ($args = update2.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/update2/? permanent;
+}
+if ($args = sqlplugin_methods.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/methods/? permanent;
+}
+if ($args = sqlite_plugin.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/? permanent;
+}
+if ($args = adding_new_application.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/adding-new-application/? permanent;
+}
+if ($args = apple_app_id.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apple-app-id/? permanent;
+}
+if ($args = configuring_your_app.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app/? permanent;
+}
+if ($args = google_cloud_messaging.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging/? permanent;
+}
+if ($args = sending_push_notifications_to_.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to/? permanent;
+}
+if ($args = xtify_push_notifications.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/? permanent;
+}
+if ($args = zxing_bar_code_scanner.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner/? permanent;
+}
+if ($args = ac_plugins.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/? permanent;
+}
+if ($args = automatic_building.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/automatic-building/? permanent;
+}
+if ($args = build_error_messages.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/build-error-messages/? permanent;
+}
+if ($args = build_errors.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/build-errors/? permanent;
+}
+if ($args = deploy_your_native_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/deploy-your-native-apps/? permanent;
+}
+if ($args = external_html5cssjs_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps/? permanent;
+}
+if ($args = application_craft_build.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/? permanent;
+}
+if ($args = enabling_device_features.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/? permanent;
+}
+if ($args = mobile_widgets_and_layout.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/mobile-widgets-and-layout/? permanent;
+}
+if ($args = phonegap_functions.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/phonegap-functions/? permanent;
+}
+if ($args = phonegap_specific_events.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/phonegap-specific-events/? permanent;
+}
+if ($args = splash_screen_and_icon.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/splash-screen-and-icon/? permanent;
+}
+if ($args = apps_developed_with_applicatio.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/? permanent;
+}
+if ($args = debug_development_certificates.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/debug-development-certificates/? permanent;
+}
+if ($args = generating_codesigning_certici.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/generating-codesigning-certici/? permanent;
+}
+if ($args = google_play.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/google-play/? permanent;
+}
+if ($args = publishing_android_apps_on_pla.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/publishing-android-apps-on-pla/? permanent;
+}
+if ($args = selling_android_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/selling-android-apps/? permanent;
+}
+if ($args = andriod_certificate.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/android-certificates/? permanent;
+}
+if ($args = creating_an_apple_developer_ac.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-developer-ac/? permanent;
+}
+if ($args = creating_an_apple_enterprise_a.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/creating-an-apple-enterprise-a/? permanent;
+}
+if ($args = ios_university_program.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/ios-university-program/? permanent;
+}
+if ($args = apple_accounts.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/apple-accounts/? permanent;
+}
+if ($args = building_your_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/building-your-apps/? permanent;
+}
+if ($args = app_uploader.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/app-uploader/? permanent;
+}
+if ($args = itunes_connect.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/itunes-connect/? permanent;
+}
+if ($args = publishing_your_ios_app.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/publishing-your-ios-app/? permanent;
+}
+if ($args = add_devices.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/add-devices/? permanent;
+}
+if ($args = certificates.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/certificates/? permanent;
+}
+if ($args = create_a_provisioning_profile.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-a-provisioning-profile/? permanent;
+}
+if ($args = create_an_app_id.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/create-an-app-id/? permanent;
+}
+if ($args = generating_a_p12_certificate.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/generating-a-p12-certificate/? permanent;
+}
+if ($args = sign_in2.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/sign-in2/? permanent;
+}
+if ($args = setting_up_for_development.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-development/? permanent;
+}
+if ($args = distrbution_certificate_and_p1.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distrbution-certificate-and-p1/? permanent;
+}
+if ($args = distribution_profile.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/distribution-profile/? permanent;
+}
+if ($args = setting_up_for_distribution.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/setting-up-for-distribution/? permanent;
+}
+if ($args = do_it_yourself_guide.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/do-it-yourself-guide/? permanent;
+}
+if ($args = i_havent_got_a_mac.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/i-havent-got-a-mac/? permanent;
+}
+if ($args = ios_keys_and_certificates.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/manual/ios-keys-and-certificates/? permanent;
+}
+
+
+if ($args = certificates2.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/certificates/? permanent;
+}
+if ($args = debugging_native_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/debugging-native-apps/? permanent;
+}
+if ($args = phonegap_direct.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/phonegap-direct/? permanent;
+}
+if ($args = building_the_native_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/phonegapbuild/building-the-native-apps/? permanent;
+}
+if ($args = deploying_your_native_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/phonegapbuild/deploying-your-native-apps/? permanent;
+}
+if ($args = key_management.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/phonegapbuild/key-management/? permanent;
+}
+if ($args = manual_building.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/phonegapbuild/manual-building/? permanent;
+}
+if ($args = phonegapbuild.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/phonegapbuild/? permanent;
+}
+if ($args = phonegap__native_apps.htm) {
+  rewrite ^ /developers/documentation/ac-mobile-build-phonegap/? permanent;
+}
+if ($args = constructor.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/constructor/? permanent;
+}
+if ($args = default_values.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/default-values/? permanent;
+}
+if ($args = defining_properties.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/defining-properties/? permanent;
+}
+if ($args = extendevents.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/extendevents/? permanent;
+}
+if ($args = hellow_world.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/hellow-world/? permanent;
+}
+if ($args = language_constants.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/language-constants/? permanent;
+}
+if ($args = modifying_properties.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/modifying-properties/? permanent;
+}
+if ($args = reacting_to_size_changes.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/reacting-to-size-changes/? permanent;
+}
+if ($args = size_properties.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/size-properties/? permanent;
+}
+if ($args = widget_drawing.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/widget-drawing/? permanent;
+}
+if ($args = anatomy_of_a_widget.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/? permanent;
+}
+if ($args = adding_new_widget_to_container.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/containers/adding-new-widget-to-container/? permanent;
+}
+if ($args = drawing_children.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/containers/drawing-children/? permanent;
+}
+if ($args = how_children_inherit_container.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/containers/how-children-inherit-container/? permanent;
+}
+if ($args = extendcontainers.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/containers/? permanent;
+}
+if ($args = custom_property_without_dialog.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/custom-property-without-dialog/? permanent;
+}
+if ($args = custompropertywithcustomdialog.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/custompropertywithcustomdialog/? permanent;
+}
+if ($args = exp_1__setvalue.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/exp-1-setvalue/? permanent;
+}
+if ($args = exp_2__this_edit.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/exp-2-this-edit/? permanent;
+}
+if ($args = exp_3__binding_dialog_buttons.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/exp-3-binding-dialog-buttons/? permanent;
+}
+if ($args = exp_4__the_dialog_code.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/exp-4-the-dialog-code/? permanent;
+}
+if ($args = exp_5__this_validatevalue.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/exp-5-this-validatevalue/? permanent;
+}
+if ($args = exp_6__this_collectvalue.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/exp-6-this-collectvalue/? permanent;
+}
+if ($args = the_full_dialog_code_example.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-full-dialog-code-example/? permanent;
+}
+if ($args = the_html_template.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-html-template/? permanent;
+}
+if ($args = the_skeleton.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-skeleton/? permanent;
+}
+if ($args = color_picker2.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs/color-picker2/? permanent;
+}
+if ($args = file_and_ac_resource_dialog.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs/file-and-ac-resource-dialog/? permanent;
+}
+if ($args = using_ac_dialogs_in_your_dialo.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/using-ac-dialogs-in-your-dialogs/? permanent;
+}
+if ($args = where_to_put_the_custom_proper.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/where-to-put-the-custom-proper/? permanent;
+}
+if ($args = custom_property_dialogs.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/? permanent;
+}
+if ($args = data_view_binding.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/data-view-binding/? permanent;
+}
+if ($args = important_callbacks__hooks.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/layout-framework/important-callbacks-hooks/? permanent;
+}
+if ($args = layout_types_overview.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/layout-framework/layout-types-overview/? permanent;
+}
+if ($args = layout_framework.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/layout-framework/? permanent;
+}
+if ($args = prerequisite_skills.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/prerequisite-skills/? permanent;
+}
+if ($args = registering_your_widget_within.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/registering-your-widget/? permanent;
+}
+if ($args = standard_property_types.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/standard-property-types/? permanent;
+}
+if ($args = widgets_on_github.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/widgets-on-github/? permanent;
+}
+if ($args = adding_your_own_widget_to_ac.htm) {
+  rewrite ^ /developers/documentation/extending-ac/adding-your-own-widgets/? permanent;
+}
+if ($args = creating_a_new_widget.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/creating-a-new-widget/? permanent;
+}
+if ($args = css.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/css/? permanent;
+}
+if ($args = phase_i_of_development.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/phase-i-of-development/? permanent;
+}
+if ($args = phase_ii___production_ready.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/phase-ii--production-ready/? permanent;
+}
+if ($args = refresh_ac_after_changes.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/refresh-ac-after-changes/? permanent;
+}
+if ($args = starting_ac_in_safe_mode.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/starting-ac-in-safe-mode/? permanent;
+}
+if ($args = who_has_access_to_my_widget_.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/who-has-access-to-my-widget/? permanent;
+}
+if ($args = ways_to_develop_new_widgets_in.htm) {
+  rewrite ^ /developers/documentation/extending-ac/overview/? permanent;
+}
+if ($args = developer_guide.htm) {
+  rewrite ^ /developers/documentation/extending-ac/? permanent;
+}
+if ($args = cancel_subscription.htm) {
+  rewrite ^ /developers/documentation/product-guide/account-management/cancel-subscription/? permanent;
+}
+if ($args = change_password.htm) {
+  rewrite ^ /developers/documentation/product-guide/account-management/change-password/? permanent;
+}
+if ($args = close_account.htm) {
+  rewrite ^ /developers/documentation/product-guide/account-management/close-account/? permanent;
+}
+if ($args = notifications.htm) {
+  rewrite ^ /developers/documentation/product-guide/account-management/notifications/? permanent;
+}
+if ($args = quick_start_menu.htm) {
+  rewrite ^ /developers/documentation/product-guide/account-management/quick-start-menu/? permanent;
+}
+if ($args = upgrade_subscription.htm) {
+  rewrite ^ /developers/documentation/product-guide/account-management/upgrade-subscription/? permanent;
+}
+if ($args = account_management.htm) {
+  rewrite ^ /developers/documentation/product-guide/account-management/? permanent;
+}
+if ($args = accessing_external_data_via_we.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/accessing-external-data-via-we/? permanent;
+}
+if ($args = accessing_queries_from_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/accessing-queries-from-apps/? permanent;
+}
+if ($args = advconnections.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/advconnections/? permanent;
+}
+if ($args = advqueries.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/advqueries/? permanent;
+}
+if ($args = charting.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/charting/? permanent;
+}
+if ($args = drill_down.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/drill-down/? permanent;
+}
+if ($args = grids_and_repeater_containers.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/grids-and-repeater-containers/? permanent;
+}
+if ($args = how_to_store_data.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/how-to-store-data/? permanent;
+}
+if ($args = integration_agents.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/integration-agents/? permanent;
+}
+if ($args = relational_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/relational-apps/? permanent;
+}
+if ($args = the_data_properties.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/the-data-properties/? permanent;
+}
+if ($args = writing_to_other_apps_crud.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/writing-to-other-apps-crud/? permanent;
+}
+if ($args = accessing_data_in_other_apps__.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/? permanent;
+}
+if ($args = accessing_user_data_in_other_a.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/accessing-user-data-in-other-a/? permanent;
+}
+if ($args = checking_that_a_settings_recor.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/adding-a-settings-page/checking-that-a-settings-recor/? permanent;
+}
+if ($args = copying_the_standard_authentic.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/adding-a-settings-page/copying-the-standard-authentic/? permanent;
+}
+if ($args = creating_a_user_parameter_grou.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/adding-a-settings-page/creating-a-user-parameter-grou/? permanent;
+}
+if ($args = setting_the_widget_storage.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/adding-a-settings-page/setting-the-widget-storage/? permanent;
+}
+if ($args = switching_from_main_app_to_set.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/adding-a-settings-page/switching-from-main-app-to-set/? permanent;
+}
+if ($args = adding_a_settings_page.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/adding-a-settings-page/? permanent;
+}
+if ($args = captcha.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/captcha/? permanent;
+}
+if ($args = complete_code_including_settin.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/complete-code-including-settin/? permanent;
+}
+if ($args = correct_app_permissions_for_au.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/correct-app-permissions-for-au/? permanent;
+}
+if ($args = no_code_so_far.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/no-code-so-far/? permanent;
+}
+if ($args = password.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/password/? permanent;
+}
+if ($args = sign_in.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/sign-in/? permanent;
+}
+if ($args = sign_up.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/sign-up/? permanent;
+}
+if ($args = the_main_app.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/the-main-app/? permanent;
+}
+if ($args = dedicated_authentication_app_s.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/typical-authentication-strategies/dedicated-authentication-app-s/? permanent;
+}
+if ($args = everything_in_one_strategy.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/typical-authentication-strategies/everything-in-one-strategy/? permanent;
+}
+if ($args = using_on_login_app_for_all_app.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/typical-authentication-strategies/using-on-login-app-for-all-app/? permanent;
+}
+if ($args = typical_authentication_strateg.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/typical-authentication-strategies/? permanent;
+}
+if ($args = authentication_for_your_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/authentication-for-your-apps/? permanent;
+}
+if ($args = be_secure.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/credit-card-payment-processing/be-secure/? permanent;
+}
+if ($args = client_side_code.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/credit-card-payment-processing/client-side-code/? permanent;
+}
+if ($args = payment_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/credit-card-payment-processing/payment-parameters/? permanent;
+}
+if ($args = process_overview.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/credit-card-payment-processing/process-overview/? permanent;
+}
+if ($args = sandbox_test_mode.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/credit-card-payment-processing/sandbox-test-mode/? permanent;
+}
+if ($args = server_side_code.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/credit-card-payment-processing/server-side-code/? permanent;
+}
+if ($args = credit_card_payment_processing.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/credit-card-payment-processing/? permanent;
+}
+if ($args = css_files.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/custom-css-classes/css-files/? permanent;
+}
+if ($args = custom_class.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/custom-css-classes/custom-class/? permanent;
+}
+if ($args = custom_css_classes.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/custom-css-classes/? permanent;
+}
+if ($args = chart_reference.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/chart-reference/? permanent;
+}
+if ($args = anatomy_of_a_view.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/anatomy-of-a-view/? permanent;
+}
+if ($args = auto_load.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/auto-load/? permanent;
+}
+if ($args = broadcast.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/broadcast/? permanent;
+}
+if ($args = configuring_the_app_to_access_.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/configuring-the-app-to-access/? permanent;
+}
+if ($args = drill_filter.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-filter/? permanent;
+}
+if ($args = drill_type.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-type/? permanent;
+}
+if ($args = fieldscharts.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/fieldscharts/? permanent;
+}
+if ($args = fieldsgauges.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/fieldsgauges/? permanent;
+}
+if ($args = grids.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/grids/? permanent;
+}
+if ($args = list__dropdowns.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/list-dropdowns/? permanent;
+}
+if ($args = radio_buttons__checkboxes_and_.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/radio-buttons-checkboxes-and/? permanent;
+}
+if ($args = repeater__data_containers.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/repeater-data-containers/? permanent;
+}
+if ($args = typical_scenarios.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/typical-scenarios/? permanent;
+}
+if ($args = fields.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/? permanent;
+}
+if ($args = fiieldsgroup_by.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by/? permanent;
+}
+if ($args = filter.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/filter/? permanent;
+}
+if ($args = listen.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen/? permanent;
+}
+if ($args = order_by.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by/? permanent;
+}
+if ($args = reset_filter.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter/? permanent;
+}
+if ($args = the_expression_editor.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/the-expression-editor/? permanent;
+}
+if ($args = using_automatic_property_setti.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/using-automatic-property-setti/? permanent;
+}
+if ($args = view.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/view/? permanent;
+}
+if ($args = data_section_properties.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/? permanent;
+}
+if ($args = drilling_down.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/drilling-down/? permanent;
+}
+if ($args = importing_and_exporting_data.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/importing-and-exporting-data/? permanent;
+}
+if ($args = key_concepts.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/key-concepts/? permanent;
+}
+if ($args = populating_charts_from_javascr.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/populating-charts-from-javascr/? permanent;
+}
+if ($args = reporting_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/reporting-widgets/? permanent;
+}
+if ($args = using_the_same_query_multiple_.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/using-the-same-query-multiple/? permanent;
+}
+if ($args = view_filtering.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/view-filtering/? permanent;
+}
+if ($args = reports__dashboards.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/? permanent;
+}
+if ($args = accessing_data_lists_from_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-lists-management/accessing-data-lists-from-apps/? permanent;
+}
+if ($args = creating_a_data_list_query.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-lists-management/creating-a-data-list-query/? permanent;
+}
+if ($args = creating_a_data_list.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-lists-management/creating-a-data-list/? permanent;
+}
+if ($args = editing_a_data_list.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-lists-management/editing-a-data-list/? permanent;
+}
+if ($args = sys_getlistresource.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-lists-management/sys-getlistresource/? permanent;
+}
+if ($args = data_lists_management.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-lists-management/? permanent;
+}
+if ($args = ac_storage_or_your_own_backend.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/ac-storage-or-your-own-backend/? permanent;
+}
+if ($args = crud___create_read_update_dele.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud--create-read-update-dele/? permanent;
+}
+if ($args = crud__filtering.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-filtering/? permanent;
+}
+if ($args = crud_on_local_instances.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-on-local-instances/? permanent;
+}
+if ($args = crud_permissions.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/crud-permissions/? permanent;
+}
+if ($args = example_crud_calls.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/example-crud-calls/? permanent;
+}
+if ($args = how_crud_works.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/how-crud-works/? permanent;
+}
+if ($args = joined_app_queries.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/joined-app-queries/? permanent;
+}
+if ($args = setting_up_grids_to_edit_forei.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/setting-up-grids-to-edit-forei/? permanent;
+}
+if ($args = synopsis.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/synopsis/? permanent;
+}
+if ($args = using_ac_app_storage.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-ac-app-storage/? permanent;
+}
+if ($args = crud_on_external_databases.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/crud-on-external-databases/? permanent;
+}
+if ($args = example_crud_calls2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/example-crud-calls2/? permanent;
+}
+if ($args = how_crud_works_for_external_da.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/how-crud-works-for-external-da/? permanent;
+}
+if ($args = permissions.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/permissions/? permanent;
+}
+if ($args = synopsis_of_crud_operations_on.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/synopsis-of-crud-operations-on/? permanent;
+}
+if ($args = using_external_databases.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/using-external-databases/? permanent;
+}
+if ($args = crud_in_detail.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/crud-in-detail/? permanent;
+}
+if ($args = dataapp_instances.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/dataapp-instances/? permanent;
+}
+if ($args = core_database.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/how-is-data-stored/core-database/? permanent;
+}
+if ($args = reporting_database_rdb.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/how-is-data-stored/reporting-database-rdb/? permanent;
+}
+if ($args = how_is_data_stored.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/how-is-data-stored/? permanent;
+}
+if ($args = instance_cdb_data.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/to-use-cdb-or-rdb-data/instance-cdb-data/? permanent;
+}
+if ($args = reporting_rdb_data.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/to-use-cdb-or-rdb-data/reporting-rdb-data/? permanent;
+}
+if ($args = to_use_cdb_or_rdb_data.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/to-use-cdb-or-rdb-data/? permanent;
+}
+if ($args = how_to_report_on_app_data.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/how-to-report-on-app-data/? permanent;
+}
+if ($args = instance_linking.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/instance-linking/? permanent;
+}
+if ($args = instance_names.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/instance-names/? permanent;
+}
+if ($args = automatically_created_relation.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/instance-relationships-in-detail/automatically-created-relation/? permanent;
+}
+if ($args = defining_the_relationship.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/instance-relationships-in-detail/defining-the-relationship/? permanent;
+}
+if ($args = manually_created_relationships.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/instance-relationships-in-detail/manually-created-relationships/? permanent;
+}
+if ($args = queries_involving_related_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/instance-relationships-in-detail/queries-involving-related-apps/? permanent;
+}
+if ($args = instance_relationships_in_deta.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/instance-relationships-in-detail/? permanent;
+}
+if ($args = look_before_you_leap.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/look-before-you-leap/? permanent;
+}
+if ($args = configuring_your_app_for_data_.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/configuring-your-app-for-data/? permanent;
+}
+if ($args = instance_handling_with_javascr.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-javascr/? permanent;
+}
+if ($args = on_pre_submit.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/using-application-craft-events/on-pre-submit/? permanent;
+}
+if ($args = on_submitted.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/using-application-craft-events/on-submitted/? permanent;
+}
+if ($args = using_ac_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/using-application-craft-events/? permanent;
+}
+if ($args = what_happens_after_the_instanc.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/what-happens-after-the-instance-is-saved/? permanent;
+}
+if ($args = instance_handling_with_submit_.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/instance-handling-with-submit-button/? permanent;
+}
+if ($args = submitting_an_instance.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/submitting-an-instance/? permanent;
+}
+if ($args = standard_storage_procedures.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/standard-storage-procedures/? permanent;
+}
+if ($args = violation_callbacks.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/uniqueness-and-integrity/violation-callbacks/? permanent;
+}
+if ($args = violation_highlighting.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/uniqueness-and-integrity/violation-highlighting/? permanent;
+}
+if ($args = violation_messages.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/uniqueness-and-integrity/violation-messages/? permanent;
+}
+if ($args = violation_of_integrity_handlin.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/uniqueness-and-integrity/violation-of-integrity-handlin/? permanent;
+}
+if ($args = uniqueness_and_integrity.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/uniqueness-and-integrity/? permanent;
+}
+if ($args = data_storage.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/data-storage-management/? permanent;
+}
+if ($args = granting_access_to_an_app.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/deploying-embedding-apps/granting-access-to-an-app/? permanent;
+}
+if ($args = how_to_deploy_apps_to_your_own.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/deploying-embedding-apps/how-to-deploy-apps-to-your-own/? permanent;
+}
+if ($args = how_to_display_in_new_window.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/deploying-embedding-apps/how-to-display-in-new-window/? permanent;
+}
+if ($args = how_to_embed.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/deploying-embedding-apps/how-to-embed/? permanent;
+}
+if ($args = deploying_appps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/deploying-embedding-apps/? permanent;
+}
+if ($args = communication_between_parent__.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/embedding-apps-within-apps/communication-between-parent/? permanent;
+}
+if ($args = session_management.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/embedding-apps-within-apps/session-management/? permanent;
+}
+if ($args = embedding_apps_within_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/embedding-apps-within-apps/? permanent;
+}
+if ($args = app_gatrack.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/google-analytics/app-gatrack/? permanent;
+}
+if ($args = google_analytics_id_override_p.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/google-analytics/google-analytics-id-override-p/? permanent;
+}
+if ($args = page_based_tracking_code.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/google-analytics/page-based-tracking-code/? permanent;
+}
+if ($args = system_wide_google_analytics_i.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/google-analytics/system-wide-google-analytics-i/? permanent;
+}
+if ($args = google_analytics.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/google-analytics/? permanent;
+}
+if ($args = permissioning.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/logging-support/permissioning/? permanent;
+}
+if ($args = reading_from_a_log.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/logging-support/reading-from-a-log/? permanent;
+}
+if ($args = reading_from_all_logs_at_once.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/logging-support/reading-from-all-logs-at-once/? permanent;
+}
+if ($args = writing_to_the_log.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/logging-support/writing-to-the-log/? permanent;
+}
+if ($args = logging_support.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/logging-support/? permanent;
+}
+if ($args = adding_one_or_more_languages.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/adding-one-or-more-languages/? permanent;
+}
+if ($args = auto_translation.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/auto-translation/? permanent;
+}
+if ($args = auto_vs__manual_language_switc.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/auto-vs-manual-language-switc/? permanent;
+}
+if ($args = relevant_api_methods.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/relevant-api-methods/? permanent;
+}
+if ($args = setting_for_auto_language_dete.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/setting-for-auto-language-dete/? permanent;
+}
+if ($args = switching_languages_in_the_ide.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/switching-languages-in-the-ide/? permanent;
+}
+if ($args = tokens.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/tokens/? permanent;
+}
+if ($args = multi_language_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/multi-language-apps/? permanent;
+}
+if ($args = dropbox.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/dropbox/? permanent;
+}
+if ($args = facebook.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/facebook/? permanent;
+}
+if ($args = twitter.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/twitter/? permanent;
+}
+if ($args = app_key_and_app_secret.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/? permanent;
+}
+if ($args = authentication2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/authentication2/? permanent;
+}
+if ($args = calling_api_functions.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/calling-api-functions/? permanent;
+}
+if ($args = oauth2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/? permanent;
+}
+if ($args = passing_data_to_apps_in_the_qu.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/passing-data-to-apps-in-the-qu/? permanent;
+}
+if ($args = passing_in_data_with_embedded_.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded/? permanent;
+}
+if ($args = reading_querystring_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/reading-querystring-parameters/? permanent;
+}
+if ($args = user_parameter_groups.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/user-parameter-groups/? permanent;
+}
+if ($args = passing_parameters_into_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/? permanent;
+}
+if ($args = beta_limitations.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/printing/beta-limitations/? permanent;
+}
+if ($args = printing_current_instance_data.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/printing/printing-current-instance-data/? permanent;
+}
+if ($args = printing_examples.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/printing/printing-examples/? permanent;
+}
+if ($args = printing_strategies.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/printing/printing-strategies/? permanent;
+}
+if ($args = printing.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/printing/? permanent;
+}
+if ($args = pro_account_advertising.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/pro-account-advertising/? permanent;
+}
+if ($args = debugging.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/testing-apps/debugging/? permanent;
+}
+if ($args = preview_app.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/testing-apps/preview-app/? permanent;
+}
+if ($args = run_in_live_mode.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/testing-apps/run-in-live-mode/? permanent;
+}
+if ($args = testing_apps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/testing-apps/? permanent;
+}
+if ($args = display_hourglass_over.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/display-hourglass-over/? permanent;
+}
+if ($args = twirly_thing.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/twirly-thing/? permanent;
+}
+if ($args = twirly_thing_hourglass.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/? permanent;
+}
+if ($args = accessing_assignments_in_queri.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/accessing-assignments-in-queri/? permanent;
+}
+if ($args = attention_levels.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/attention-levels/? permanent;
+}
+if ($args = coding_it_all_up.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/coding-it-all-up/? permanent;
+}
+if ($args = notification_server.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/notification-server/? permanent;
+}
+if ($args = roles__stages.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/roles-stages/? permanent;
+}
+if ($args = server_side_rules.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/server-side-rules/? permanent;
+}
+if ($args = viewing_your_assignments.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/viewing-your-assignments/? permanent;
+}
+if ($args = viewing_your_notifications.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/viewing-your-notifications/? permanent;
+}
+if ($args = workflow_diagram.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/workflow-diagram/? permanent;
+}
+if ($args = workflow.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/workflow/? permanent;
+}
+if ($args = advfeatures.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-features/? permanent;
+}
+if ($args = adding_data_from_data_views.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/calendar-widget/adding-data-from-data-views/? permanent;
+}
+if ($args = adding_data_from_javascript.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/calendar-widget/adding-data-from-javascript/? permanent;
+}
+if ($args = calendarevents.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarevents/? permanent;
+}
+if ($args = calendarmethods.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarmethods/? permanent;
+}
+if ($args = calendarproperties.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/calendarproperties/? permanent;
+}
+if ($args = cal_property__methods__event.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/calendar-widget/property-method-and-event-summary/? permanent;
+}
+if ($args = calendar_widget.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/calendar-widget/? permanent;
+}
+if ($args = events2_2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary/events/? permanent;
+}
+if ($args = methods2_2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary/methods/? permanent;
+}
+if ($args = properties3_2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary/properties/? permanent;
+}
+if ($args = property__method_and_event_sum_2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/circle-menu-widget/property-method-and-event-summary/? permanent;
+}
+if ($args = circular_menu.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/circle-menu-widget/? permanent;
+}
+if ($args = credit_card_payments.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/credit-card-payments/? permanent;
+}
+if ($args = advanced___accessing_the_googl.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/advanced--accessing-the-googl/? permanent;
+}
+if ($args = data_integration_with_the_maps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/data-integration-with-the-maps/? permanent;
+}
+if ($args = getting_a_coordinate_from_an_a.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/getting-a-coordinate-from-an-a/? permanent;
+}
+if ($args = getting_an_address_from_a_coor.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/getting-an-address-from-a-coor/? permanent;
+}
+if ($args = getting_directions.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/getting-directions/? permanent;
+}
+if ($args = googleadsense.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/googleadsense/? permanent;
+}
+if ($args = map_controls.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/map-controls/? permanent;
+}
+if ($args = map_styles.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/map-styles/? permanent;
+}
+if ($args = gmapevents.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/gmapevents/? permanent;
+}
+if ($args = methods.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/methods/? permanent;
+}
+if ($args = widget_properties.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/widget-properties/? permanent;
+}
+if ($args = property__event__method_summar.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/property-event-method-summary/? permanent;
+}
+if ($args = using_getdata_and_setdata.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/using-getdata-and-setdata/? permanent;
+}
+if ($args = using_getvalue_and_setvalue.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/using-getvalue-and-setvalue/? permanent;
+}
+if ($args = using_populatewidget.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/using-populatewidget/? permanent;
+}
+if ($args = circles.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/circles/? permanent;
+}
+if ($args = identifying_overlays_for_oncli.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/identifying-overlays-for-oncli/? permanent;
+}
+if ($args = markers_and_popup_windows.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows/? permanent;
+}
+if ($args = polygons.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polygons/? permanent;
+}
+if ($args = polylines.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/polylines/? permanent;
+}
+if ($args = rectangles.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/rectangles/? permanent;
+}
+if ($args = removing_overlays.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/removing-overlays/? permanent;
+}
+if ($args = using_getoverlays.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/using-getoverlays/? permanent;
+}
+if ($args = working_with_overlays.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/? permanent;
+}
+if ($args = google_v3_maps_widget.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/? permanent;
+}
+if ($args = emoticons.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/image-maps-and-emoticons/emoticons/? permanent;
+}
+if ($args = image_maps.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/image-maps-and-emoticons/image-maps/? permanent;
+}
+if ($args = image_maps_and_emoticons.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/image-maps-and-emoticons/? permanent;
+}
+if ($args = large_and_small_mobile_buttons.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/large-and-small-mobile-buttons/? permanent;
+}
+if ($args = changing_color_of_selected_ite.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/changing-color-of-selected-ite/? permanent;
+}
+if ($args = font_formatting_of_list_conten.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/font-formatting-of-list-conten/? permanent;
+}
+if ($args = list_items_dialog.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/list-items-dialog/? permanent;
+}
+if ($args = populating_from_code.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/populating-from-code/? permanent;
+}
+if ($args = mobile_list_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/? permanent;
+}
+if ($args = mobile_navigation_toolbar.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-navigation-toolbar/? permanent;
+}
+if ($args = mobile_toolbar.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-toolbar/? permanent;
+}
+if ($args = important_mobile_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/? permanent;
+}
+if ($args = adding_images_by_data_view.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/adding-images-by-data-view/? permanent;
+}
+if ($args = adding_images_by_dialog.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/adding-images-by-dialog/? permanent;
+}
+if ($args = adding_images_from_javascript.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/adding-images-from-javascript/? permanent;
+}
+if ($args = pswipeevents.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipeevents/? permanent;
+}
+if ($args = pswipemethods.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipemethods/? permanent;
+}
+if ($args = pswipeproperties.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/pswipeproperties/? permanent;
+}
+if ($args = pswipeproperty__methods__event.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/property-methods-event-summary/? permanent;
+}
+if ($args = advancedphotoswipe.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/photoswipe/? permanent;
+}
+if ($args = data_containers.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/data-containers/? permanent;
+}
+if ($args = powergrids.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/powergrids/? permanent;
+}
+if ($args = accessing_live_widget_data_fro.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/repeater-containers/accessing-live-widget-data-fro/? permanent;
+}
+if ($args = api_methods.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/repeater-containers/api-methods/? permanent;
+}
+if ($args = creating_the_repeater.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/repeater-containers/creating-the-repeater/? permanent;
+}
+if ($args = data_paging.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/repeater-containers/data-paging/? permanent;
+}
+if ($args = speed_considerations.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/repeater-containers/speed-considerations/? permanent;
+}
+if ($args = powerrepeater_containers.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/repeater-containers/? permanent;
+}
+if ($args = power_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/power-widgets/? permanent;
+}
+if ($args = events2_3.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary/events2-3/? permanent;
+}
+if ($args = methods2_3.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary/methods2-3/? permanent;
+}
+if ($args = properties3_3.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary/properties3-3/? permanent;
+}
+if ($args = property__method_and_event_sum_3.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/scandit-widget/property-method-and-event-summary/? permanent;
+}
+if ($args = scandit.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/scandit-widget/? permanent;
+}
+if ($args = properties2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/share-this-widget/properties2/? permanent;
+}
+if ($args = share_this_widget.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/share-this-widget/? permanent;
+}
+if ($args = properties.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/properties/? permanent;
+}
+if ($args = videvents.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/videvents/? permanent;
+}
+if ($args = vidmethods.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/vidmethods/? permanent;
+}
+if ($args = property__methods__event_summa.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/? permanent;
+}
+if ($args = sources.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/sources/? permanent;
+}
+if ($args = supported_browsers.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/supported-browsers/? permanent;
+}
+if ($args = video_controls.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/video-controls/? permanent;
+}
+if ($args = video_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/? permanent;
+}
+if ($args = fitting_all_data_in_available_.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/working-with-the-timeline-widget/fitting-all-data-in-available/? permanent;
+}
+if ($args = populating_the_widget.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/working-with-the-timeline-widget/populating-the-widget/? permanent;
+}
+if ($args = zooming.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/working-with-the-timeline-widget/zooming/? permanent;
+}
+if ($args = working_with_the_timeline_widg.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/working-with-the-timeline-widget/? permanent;
+}
+if ($args = adding_data_from_data_views2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/adding-data-from-data-views2/? permanent;
+}
+if ($args = adding_data_from_javascript2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/adding-data-from-javascript2/? permanent;
+}
+if ($args = full_settings_wizard_dialog.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/configuring-your-chart/full-settings-wizard-dialog/? permanent;
+}
+if ($args = fullsettings_javascript_method.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/configuring-your-chart/fullsettings-javascript-method/? permanent;
+}
+if ($args = configuring_your_chart.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/configuring-your-chart/? permanent;
+}
+if ($args = events3.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/events3/? permanent;
+}
+if ($args = events2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/events2/? permanent;
+}
+if ($args = methods2.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/methods2/? permanent;
+}
+if ($args = properties3.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/properties3/? permanent;
+}
+if ($args = property__method_and_event_sum.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/property-method-and-event-summary/? permanent;
+}
+if ($args = using_zing_charts_api.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/using-zing-charts-api/? permanent;
+}
+if ($args = zing_charts.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/zing-charts/? permanent;
+}
+if ($args = advanced_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/advanced-important-widgets/? permanent;
+}
+if ($args = adding_audio__video.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/adding-audio-video/? permanent;
+}
+if ($args = clipboard.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/clipboard/? permanent;
+}
+if ($args = drag_alignment.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/drag-alignment/? permanent;
+}
+if ($args = equal_distribution.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-distribution/? permanent;
+}
+if ($args = equal_sizing.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-sizing/? permanent;
+}
+if ($args = equal_spacing.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/equal-spacing/? permanent;
+}
+if ($args = layer___z_order.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/layer--z-order/? permanent;
+}
+if ($args = menus_and_navigation.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/menus-and-navigation/? permanent;
+}
+if ($args = must_read_layout_tips_and_tric.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/must-read-layout-tips-and-tric/? permanent;
+}
+if ($args = page_order.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/page-order/? permanent;
+}
+if ($args = referencing_documents__files.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/referencing-documents-files/? permanent;
+}
+if ($args = repeating_widgets_across_multi.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi/? permanent;
+}
+if ($args = reverting_to_theme_style.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/reverting-to-theme-style/? permanent;
+}
+if ($args = selection__multi_selection.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/selection-multi-selection/? permanent;
+}
+if ($args = showing_container_outlines.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/showing-container-outlines/? permanent;
+}
+if ($args = snap_to_grid.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/snap-to-grid/? permanent;
+}
+if ($args = tab_order.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/tab-order/? permanent;
+}
+if ($args = the_widget_explorer.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/the-widget-explorer/? permanent;
+}
+if ($args = undo_redo.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/undo-redo/? permanent;
+}
+if ($args = widget_alignment__distribution.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-alignment-distribution/? permanent;
+}
+if ($args = widget_anchoring.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring/? permanent;
+}
+if ($args = widget_grouping.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-grouping/? permanent;
+}
+if ($args = working_with_images.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/working-with-images/? permanent;
+}
+if ($args = editing_and_laying_out.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/? permanent;
+}
+if ($args = creating_a_new_content_app.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/creating-a-new-content-app/? permanent;
+}
+if ($args = designer_screen.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/designer-screen/? permanent;
+}
+if ($args = managing_images.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/managing-images/? permanent;
+}
+if ($args = mobile_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/mobile-widgets/? permanent;
+}
+if ($args = pagesintro.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/pagesintro/? permanent;
+}
+if ($args = setting_a_margin.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin/? permanent;
+}
+if ($args = table_widget.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/table-widget/? permanent;
+}
+if ($args = style_management.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/style-management/? permanent;
+}
+if ($args = themesmanage.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage/? permanent;
+}
+if ($args = themes_styles.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/? permanent;
+}
+if ($args = understanding_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/understanding-widgets/? permanent;
+}
+if ($args = working_with_blocks_of_text.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/working-with-blocks-of-text/? permanent;
+}
+if ($args = smartsites_and_general_ui_intr.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/introduction/? permanent;
+}
+if ($args = absolute_and_relative_layout.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/absolute-and-relative-layout/? permanent;
+}
+if ($args = adaptive_layout_event.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-event/? permanent;
+}
+if ($args = adaptive_layout_rule_definitio.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-rule-definitio/? permanent;
+}
+if ($args = adaptive_layout_rules.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/adaptive-layout-rules/? permanent;
+}
+if ($args = aligning_widgets_inside_contai.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/aligning-widgets-inside-contai/? permanent;
+}
+if ($args = container_outlines.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/container-outlines/? permanent;
+}
+if ($args = margins.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/margins/? permanent;
+}
+if ($args = resize_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/resize-events/? permanent;
+}
+if ($args = right_click_parent_container_s.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/right-click-parent-container-s/? permanent;
+}
+if ($args = right_click_width_settings.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/right-click-width-settings/? permanent;
+}
+if ($args = sizes_property_dialog.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog/? permanent;
+}
+if ($args = understanding_containers.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/understanding-containers/? permanent;
+}
+if ($args = responsive___adaptive___fluid_.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/? permanent;
+}
+if ($args = ui__content_layout.htm) {
+  rewrite ^ /developers/documentation/product-guide/content-and-app-layout/? permanent;
+}
+if ($args = cookie_storage.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/cookie-storage/? permanent;
+}
+if ($args = local_storage_example.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/local-storage-example/? permanent;
+}
+if ($args = our_recommendation.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/our-recommendation/? permanent;
+}
+if ($args = sqlite.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/sqlite/? permanent;
+}
+if ($args = websql__sqlite.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/websql-sqlite/? permanent;
+}
+if ($args = mobile__client_side_data_stora.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/? permanent;
+}
+if ($args = client_side_javascript.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/a-simple-example/client-side-javascript/? permanent;
+}
+if ($args = create_the_example_database.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/a-simple-example/create-the-example-database/? permanent;
+}
+if ($args = server_side_javascript.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/a-simple-example/server-side-javascript/? permanent;
+}
+if ($args = a_simple_example.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/a-simple-example/? permanent;
+}
+if ($args = callbacks_to_your_client_scrip.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/callbacks-to-your-client-scrip/? permanent;
+}
+if ($args = error_handling.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/error-handling/? permanent;
+}
+if ($args = exposing_your_ssj_db_handlers_.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/exposing-your-ssj-db-handlers/? permanent;
+}
+if ($args = getting_widget_data_into_an_ob.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/getting-widget-data-into-an-ob/? permanent;
+}
+if ($args = handling_sql_expressions.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/handling-sql-expressions/? permanent;
+}
+if ($args = important_points_before_you_st.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/important-points-before-you-st/? permanent;
+}
+if ($args = security_and_sql_injection.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/security-and-sql-injection/? permanent;
+}
+if ($args = data_storage2.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/server-side-data-storage/? permanent;
+}
+if ($args = data_storage3.htm) {
+  rewrite ^ /developers/documentation/product-guide/data-storage/? permanent;
+}
+if ($args = adaptive_or_fluid_layouts.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/adaptive-or-fluid-layouts/? permanent;
+}
+if ($args = advanced_mobile_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/advanced-mobile-widgets/? permanent;
+}
+if ($args = formatting_mobile_content.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/formatting-mobile-content/? permanent;
+}
+if ($args = icon_management.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/icon-management/? permanent;
+}
+if ($args = mappsmobile_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/mappsmobile-widgets/? permanent;
+}
+if ($args = mobile_themes.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/mobile-themes/? permanent;
+}
+if ($args = mobile_transition_mode.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/mobile-transition-mode/? permanent;
+}
+if ($args = other_mobile_widgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/other-mobile-widgets/? permanent;
+}
+if ($args = page_transition_effects.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/page-transition-effects/? permanent;
+}
+if ($args = splash_image_management.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/splash-image-management/? permanent;
+}
+if ($args = desktop_vs__mobile.htm) {
+  rewrite ^ /developers/documentation/product-guide/mobile-apps-sites/? permanent;
+}
+if ($args = signing_in__accounts_and_users.htm) {
+  rewrite ^ /developers/documentation/product-guide/signing-in-accounts-and-users/? permanent;
+}
+if ($args = applications.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/applications/? permanent;
+}
+if ($args = configuring_a_connection.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/connections/configuring-a-connection/? permanent;
+}
+if ($args = sharing_connections.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/connections/sharing-connections/? permanent;
+}
+if ($args = connections.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/connections/? permanent;
+}
+if ($args = google_analytics_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/google-analytics-parameters/? permanent;
+}
+if ($args = google_maps.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/google-maps/? permanent;
+}
+if ($args = phonegap_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/phonegap-parameters/? permanent;
+}
+if ($args = adding_your_smtp_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/adding-your-smtp-parameters/? permanent;
+}
+if ($args = smtp_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/? permanent;
+}
+if ($args = system_parameters_configuratio.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/system-parameters/system-parameters-configuratio/? permanent;
+}
+if ($args = system_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/system-parameters/? permanent;
+}
+if ($args = accessing_user_parameters_from.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/user-parameters/accessing-user-parameters-from/? permanent;
+}
+if ($args = adding_a_new_user_parameter_gr.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/user-parameters/adding-a-new-user-parameter-gr/? permanent;
+}
+if ($args = configuring_group_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/user-parameters/configuring-group-parameters/? permanent;
+}
+if ($args = setting_user_parameters_from_a.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/user-parameters/setting-user-parameters-from-a/? permanent;
+}
+if ($args = user_parameters.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/user-parameters/? permanent;
+}
+if ($args = account.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/account-variables/? permanent;
+}
+if ($args = my_details.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/my-details/? permanent;
+}
+if ($args = groups.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/users-groups/groups/? permanent;
+}
+if ($args = users.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/users-groups/users/? permanent;
+}
+if ($args = users__groups.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/users-groups/? permanent;
+}
+if ($args = adding_a_3rd_party_widget.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/widgets/adding-a-3rd-party-widget/? permanent;
+}
+if ($args = adding_a_native_ac_widget.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/widgets/adding-a-native-ac-widget/? permanent;
+}
+if ($args = managewidgets.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/widgets/? permanent;
+}
+if ($args = more.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/? permanent;
+}
+if ($args = notifiers.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/notifiers/? permanent;
+}
+if ($args = input__output_field_configurat.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/queries/query-wizard/input-output-field-configurat/? permanent;
+}
+if ($args = join_configuration.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/queries/query-wizard/join-configuration/? permanent;
+}
+if ($args = query_test.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/queries/query-wizard/query-test/? permanent;
+}
+if ($args = table_selection.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/queries/query-wizard/table-selection/? permanent;
+}
+if ($args = query_wizard.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/queries/query-wizard/? permanent;
+}
+if ($args = queries.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/queries/? permanent;
+}
+if ($args = resources.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/resources/? permanent;
+}
+if ($args = themes_overview.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/themes-overview/? permanent;
+}
+if ($args = design.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/? permanent;
+}
+if ($args = general_screen_behavior.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/general-screen-behavior/? permanent;
+}
+if ($args = export.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/import-export/export/? permanent;
+}
+if ($args = import.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/import-export/import/? permanent;
+}
+if ($args = import_export.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/import-export/? permanent;
+}
+if ($args = private__shared_and_public_fol.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/private-shared-and-public-fol/? permanent;
+}
+if ($args = sharing.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/sharing/? permanent;
+}
+if ($args = versions.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/versions/? permanent;
+}
+if ($args = the_console.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/? permanent;
+}
+if ($args = advanced_menu.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/advanced-menu/? permanent;
+}
+if ($args = advertising1.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/advertising1/? permanent;
+}
+if ($args = advreset_filter.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/advreset-filter/? permanent;
+}
+if ($args = audio.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/audio/? permanent;
+}
+if ($args = calendar.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/calendar/? permanent;
+}
+if ($args = embed_app.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/embed-app/? permanent;
+}
+if ($args = file_upload.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/file-upload/? permanent;
+}
+if ($args = flot_charts.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/flot-charts/? permanent;
+}
+if ($args = google_maps_advanced.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/google-maps-advanced/? permanent;
+}
+if ($args = grid.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/grid/? permanent;
+}
+if ($args = html5_audio.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/html5-audio/? permanent;
+}
+if ($args = html5_video.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/html5-video/? permanent;
+}
+if ($args = mask_edit.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/mask-edit/? permanent;
+}
+if ($args = photoswipe.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/photoswipe/? permanent;
+}
+if ($args = search.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/search/? permanent;
+}
+if ($args = sliders.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/sliders/? permanent;
+}
+if ($args = timeline.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/timeline/? permanent;
+}
+if ($args = video.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/video/? permanent;
+}
+if ($args = youtube.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/youtube/? permanent;
+}
+if ($args = advanced.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/? permanent;
+}
+if ($args = app_properties.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/app-properties/? permanent;
+}
+if ($args = authcaptcha.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/authentication/authcaptcha/? permanent;
+}
+if ($args = authpassword.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/authentication/authpassword/? permanent;
+}
+if ($args = authsign_in.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/authentication/authsign-in/? permanent;
+}
+if ($args = authsign_up.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/authentication/authsign-up/? permanent;
+}
+if ($args = authentication.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/authentication/? permanent;
+}
+if ($args = circle_menu.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/circle-menu/? permanent;
+}
+if ($args = context_menu.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/context-menu/? permanent;
+}
+if ($args = scandit_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/scandit-button/? permanent;
+}
+if ($args = share_this.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/share-this/? permanent;
+}
+if ($args = zingchart.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/zingchart/? permanent;
+}
+if ($args = beta.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/? permanent;
+}
+if ($args = action_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/action-button/? permanent;
+}
+if ($args = alpha_numeric.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/alpha-numeric/? permanent;
+}
+if ($args = checkbox.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/checkbox/? permanent;
+}
+if ($args = color_picker.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/color-picker/? permanent;
+}
+if ($args = date_picker.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/date-picker/? permanent;
+}
+if ($args = dropdown_list.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/dropdown-list/? permanent;
+}
+if ($args = fancy_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/fancy-button/? permanent;
+}
+if ($args = html2.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/html2/? permanent;
+}
+if ($args = image.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/image/? permanent;
+}
+if ($args = label.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/label/? permanent;
+}
+if ($args = listbox.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/listbox/? permanent;
+}
+if ($args = numeric.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/numeric/? permanent;
+}
+if ($args = qr_code.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/qr-code/? permanent;
+}
+if ($args = radio_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/radio-button/? permanent;
+}
+if ($args = rich_text.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/rich-text/? permanent;
+}
+if ($args = shape.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/shape/? permanent;
+}
+if ($args = text_area.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/text-area/? permanent;
+}
+if ($args = text.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/text/? permanent;
+}
+if ($args = upload_button2.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/upload-button2/? permanent;
+}
+if ($args = common.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/common/? permanent;
+}
+if ($args = accordion.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/accordion/? permanent;
+}
+if ($args = data_container.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/data-container/? permanent;
+}
+if ($args = iframe.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/iframe/? permanent;
+}
+if ($args = page_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/page-button/? permanent;
+}
+if ($args = panel.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/panel/? permanent;
+}
+if ($args = repeater.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/repeater/? permanent;
+}
+if ($args = tab.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/tab/? permanent;
+}
+if ($args = table_containerprop.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/table-containerprop/? permanent;
+}
+if ($args = containersprop.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/containers/? permanent;
+}
+if ($args = deprecated.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/deprecated/? permanent;
+}
+if ($args = accessing_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/accessing-events/? permanent;
+}
+if ($args = auth_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/auth-events/? permanent;
+}
+if ($args = data_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events/? permanent;
+}
+if ($args = general_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events/? permanent;
+}
+if ($args = internationalization_app_event.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/internationalization-app-event/? permanent;
+}
+if ($args = key_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/key-events/? permanent;
+}
+if ($args = mobile_native_app_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mobile-native-app-events/? permanent;
+}
+if ($args = mouse_events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events/? permanent;
+}
+if ($args = event_reference_list.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/event-reference-list/? permanent;
+}
+if ($args = events.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/events/? permanent;
+}
+if ($args = auth_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/auth-button/? permanent;
+}
+if ($args = checkbox_group.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/checkbox-group/? permanent;
+}
+if ($args = collapsible.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/collapsible/? permanent;
+}
+if ($args = flip_toggle_switch.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/flip-toggle-switch/? permanent;
+}
+if ($args = list.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/list/? permanent;
+}
+if ($args = mobaction_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/mobaction-button/? permanent;
+}
+if ($args = mobcheckbox.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/mobcheckbox/? permanent;
+}
+if ($args = mobiscroll_list.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/mobiscroll-list/? permanent;
+}
+if ($args = mobiscroll.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/mobiscroll/? permanent;
+}
+if ($args = moblabel.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/moblabel/? permanent;
+}
+if ($args = mobsearch.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/mobsearch/? permanent;
+}
+if ($args = mobtext_area.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/mobtext-area/? permanent;
+}
+if ($args = mobtext.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/mobtext/? permanent;
+}
+if ($args = navbar.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/navbar/? permanent;
+}
+if ($args = popup_dropdown.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/popup-dropdown/? permanent;
+}
+if ($args = popup_listbox.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/popup-listbox/? permanent;
+}
+if ($args = radiobuttonsgroup.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/radiobuttonsgroup/? permanent;
+}
+if ($args = slider.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/slider/? permanent;
+}
+if ($args = toolbar.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/toolbar/? permanent;
+}
+if ($args = upload_button.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/upload-button/? permanent;
+}
+if ($args = mobile.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/mobile/? permanent;
+}
+if ($args = page_properties.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/page-properties/? permanent;
+}
+if ($args = prefill.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/prefill/? permanent;
+}
+if ($args = object_reference.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/? permanent;
+}
+if ($args = quick_start_guide_for_content_.htm) {
+  rewrite ^ /developers/documentation/product-guide/? permanent;
+}
+if ($args = accessing_device_hardware__fea.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/accessing-device-hardware-fea/? permanent;
+}
+if ($args = callservice.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/callservice/? permanent;
+}
+if ($args = childapp.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/childapp/? permanent;
+}
+if ($args = closeform.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/closeform/? permanent;
+}
+if ($args = confirm.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/confirm/? permanent;
+}
+if ($args = debugdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/debugdata/? permanent;
+}
+if ($args = debugoutput.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/debugoutput/? permanent;
+}
+if ($args = debugproperties.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/debugproperties/? permanent;
+}
+if ($args = debugvalues.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/debugvalues/? permanent;
+}
+if ($args = gatrack.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/gatrack/? permanent;
+}
+if ($args = getacversion.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/getacversion/? permanent;
+}
+if ($args = getappsnapshot.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/getappsnapshot/? permanent;
+}
+if ($args = getenvvalue.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/getenvvalue/? permanent;
+}
+if ($args = getinputparameter.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/getinputparameter/? permanent;
+}
+if ($args = getinstanceurl.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/getinstanceurl/? permanent;
+}
+if ($args = getrunmode.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/getrunmode/? permanent;
+}
+if ($args = isnativeapp.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/isnativeapp/? permanent;
+}
+if ($args = isnativeapponline.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/isnativeapponline/? permanent;
+}
+if ($args = isprinting.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/isprinting/? permanent;
+}
+if ($args = logout.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/logout/? permanent;
+}
+if ($args = mobiledial.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/mobiledial/? permanent;
+}
+if ($args = mobileemail.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/mobileemail/? permanent;
+}
+if ($args = mobilesms.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/mobilesms/? permanent;
+}
+if ($args = parentapp.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/parentapp/? permanent;
+}
+if ($args = populatewidget3.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/populatewidget3/? permanent;
+}
+if ($args = printapp.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/printapp/? permanent;
+}
+if ($args = refalert.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/refalert/? permanent;
+}
+if ($args = refreset.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/refreset/? permanent;
+}
+if ($args = runeditor.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/runeditor/? permanent;
+}
+if ($args = setappsnapshot.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/setappsnapshot/? permanent;
+}
+if ($args = setnetworktimeout.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/setnetworktimeout/? permanent;
+}
+if ($args = showconfirm.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/showconfirm/? permanent;
+}
+if ($args = showmessage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/showmessage/? permanent;
+}
+if ($args = showprompt.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/showprompt/? permanent;
+}
+if ($args = switchapp.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/switchapp/? permanent;
+}
+if ($args = twirlything.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/twirlything/? permanent;
+}
+if ($args = userparameterget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/userparameterget/? permanent;
+}
+if ($args = userparameterset.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/userparameterset/? permanent;
+}
+if ($args = general.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/? permanent;
+}
+if ($args = advancedtoarray.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/advancedtoarray/? permanent;
+}
+if ($args = arraytoadvanced.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/arraytoadvanced/? permanent;
+}
+if ($args = date2db.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/date2db/? permanent;
+}
+if ($args = filterarray.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/filterarray/? permanent;
+}
+if ($args = json2text.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/json2text/? permanent;
+}
+if ($args = json2xml.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/json2xml/? permanent;
+}
+if ($args = text2json.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/text2json/? permanent;
+}
+if ($args = xml2json.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/xml2json/? permanent;
+}
+if ($args = conversion_functions.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/conversion-functions/? permanent;
+}
+if ($args = data_view_related_events.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/data-view-related-events/? permanent;
+}
+if ($args = drilldownbroadcast.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/drilldownbroadcast/? permanent;
+}
+if ($args = enableview.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/enableview/? permanent;
+}
+if ($args = fetchdatapage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/fetchdatapage/? permanent;
+}
+if ($args = getting_data_for_charts.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/getting-data-for-charts/? permanent;
+}
+if ($args = getviewdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/getviewdata/? permanent;
+}
+if ($args = filtering_dates.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filtering-dates/? permanent;
+}
+if ($args = filters.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/filters/? permanent;
+}
+if ($args = multi_series_filters.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/multi-series-filters/? permanent;
+}
+if ($args = refdrill_filter.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/refdrill-filter/? permanent;
+}
+if ($args = refgroup_by.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/refgroup-by/? permanent;
+}
+if ($args = reforder_by.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/reforder-by/? permanent;
+}
+if ($args = modifying_data_widgets_with_sc.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/? permanent;
+}
+if ($args = mysql__postegres__oracle_etc.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc/? permanent;
+}
+if ($args = refrefreshdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/refrefreshdata/? permanent;
+}
+if ($args = reloadview.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/reloadview/? permanent;
+}
+if ($args = resetview.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/resetview/? permanent;
+}
+if ($args = setting_a_view_filter.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/setting-a-view-filter/? permanent;
+}
+if ($args = setviewcallback.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/setviewcallback/? permanent;
+}
+if ($args = data_views.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/? permanent;
+}
+if ($args = dtadd.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/dtadd/? permanent;
+}
+if ($args = dtadjust.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/dtadjust/? permanent;
+}
+if ($args = dtdatetostring.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/dtdatetostring/? permanent;
+}
+if ($args = dtdifference.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/dtdifference/? permanent;
+}
+if ($args = dtnewdate.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/dtnewdate/? permanent;
+}
+if ($args = instancegetrtz.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/instancegetrtz/? permanent;
+}
+if ($args = instancesetrtz.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/instancesetrtz/? permanent;
+}
+if ($args = date__time_management_function.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/date-time-management-functions/? permanent;
+}
+if ($args = clearglobaldata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/global-data-pool-functions/clearglobaldata/? permanent;
+}
+if ($args = getglobaldata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/global-data-pool-functions/getglobaldata/? permanent;
+}
+if ($args = setglobaldata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/global-data-pool-functions/setglobaldata/? permanent;
+}
+if ($args = global_data_pool.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/global-data-pool-functions/? permanent;
+}
+if ($args = getinstancedata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/getinstancedata/? permanent;
+}
+if ($args = instancecreate.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instancecreate/? permanent;
+}
+if ($args = instancedelete.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instancedelete/? permanent;
+}
+if ($args = instanceload.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instanceload/? permanent;
+}
+if ($args = instancenew.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instancenew/? permanent;
+}
+if ($args = instancesave.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instancesave/? permanent;
+}
+if ($args = instancesetrelationship.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instancesetrelationship/? permanent;
+}
+if ($args = instancesync.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instancesync/? permanent;
+}
+if ($args = instancexxxx_callback_function.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/instancexxxx-callback-function/? permanent;
+}
+if ($args = setinstancedata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/setinstancedata/? permanent;
+}
+if ($args = instance2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/? permanent;
+}
+if ($args = mobile_device_hardware__featur.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/mobile-device-hardware-featur/? permanent;
+}
+if ($args = language.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/multi-language-apps/language/? permanent;
+}
+if ($args = translate.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/multi-language-apps/translate/? permanent;
+}
+if ($args = multi_language_apps2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/multi-language-apps/? permanent;
+}
+if ($args = oauthsignin.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/oauth/oauthsignin/? permanent;
+}
+if ($args = oauth3.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/oauth/? permanent;
+}
+if ($args = error_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/error-object/? permanent;
+}
+if ($args = filter_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/filter-object/? permanent;
+}
+if ($args = ref_widget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/ref-widget/? permanent;
+}
+if ($args = result_object_for_instancexxxx.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/result-object-for-instancexxxx/? permanent;
+}
+if ($args = rows_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/rows-object/? permanent;
+}
+if ($args = status_object_for_instancexxxx.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/status-object-for-instancexxxx/? permanent;
+}
+if ($args = widget_effects.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/widget-effects/? permanent;
+}
+if ($args = widget_list_parameters.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/widget-list-parameters/? permanent;
+}
+if ($args = widget_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/widget-object/? permanent;
+}
+if ($args = objects__titbits.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/objects-titbits/? permanent;
+}
+if ($args = cookie.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/others/cookie/? permanent;
+}
+if ($args = others.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/others/? permanent;
+}
+if ($args = closepagepopup.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/closepagepopup/? permanent;
+}
+if ($args = currentpage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/currentpage/? permanent;
+}
+if ($args = page_transitions.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/page-transitions/? permanent;
+}
+if ($args = pageback.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/pageback/? permanent;
+}
+if ($args = pagecalling.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/pagecalling/? permanent;
+}
+if ($args = pagejump.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/pagejump/? permanent;
+}
+if ($args = pagenext.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/pagenext/? permanent;
+}
+if ($args = pageprevious.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/pageprevious/? permanent;
+}
+if ($args = showpagepopup.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/showpagepopup/? permanent;
+}
+if ($args = refpage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/page-functions/? permanent;
+}
+if ($args = httprequest.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/httprequest/? permanent;
+}
+if ($args = soaprequest.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest/? permanent;
+}
+if ($args = web_service_wizard.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard/? permanent;
+}
+if ($args = soap__restful_ajax_calls.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/? permanent;
+}
+if ($args = tutorials__examples.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/tutorials-examples/? permanent;
+}
+if ($args = alert.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/alert/? permanent;
+}
+if ($args = navigator_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/navigator-object/? permanent;
+}
+if ($args = open.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/open/? permanent;
+}
+if ($args = pagexoffset__pageyoffset.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/pagexoffset-pageyoffset/? permanent;
+}
+if ($args = screen_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/screen-object/? permanent;
+}
+if ($args = scrollto.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/scrollto/? permanent;
+}
+if ($args = setinterval__settimeout_et_al.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/setinterval-settimeout-et-al/? permanent;
+}
+if ($args = window_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/window-object/? permanent;
+}
+if ($args = useful_browser_functions.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/useful-browser-functions/? permanent;
+}
+if ($args = assign.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/assign/? permanent;
+}
+if ($args = datagetstates.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetstates/? permanent;
+}
+if ($args = datagetvalues.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datagetvalues/? permanent;
+}
+if ($args = datasetstates.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datasetstates/? permanent;
+}
+if ($args = datasetvalues.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/datasetvalues/? permanent;
+}
+if ($args = enabled.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/enabled/? permanent;
+}
+if ($args = getdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/getdata/? permanent;
+}
+if ($args = advanced_google_maps_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/advanced-google-maps-example/? permanent;
+}
+if ($args = array_as_data_source_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/array-as-data-source-example/? permanent;
+}
+if ($args = audio__video_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/audio-video-example/? permanent;
+}
+if ($args = calendar_widget2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/calendar-widget2/? permanent;
+}
+if ($args = complex_json_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/complex-json-example/? permanent;
+}
+if ($args = flot_charts2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/flot-charts2/? permanent;
+}
+if ($args = listbox___dropdown_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/listbox--dropdown-example/? permanent;
+}
+if ($args = mobile_list_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobile-list-example/? permanent;
+}
+if ($args = mobiscroll_list2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobiscroll-list2/? permanent;
+}
+if ($args = photoswipe_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/photoswipe-example/? permanent;
+}
+if ($args = populatewidget_wizard.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/populatewidget-wizard/? permanent;
+}
+if ($args = repeater_container_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/repeater-container-example/? permanent;
+}
+if ($args = timeline_example.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/timeline-example/? permanent;
+}
+if ($args = zingcharts.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/zingcharts/? permanent;
+}
+if ($args = populatewidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/? permanent;
+}
+if ($args = readonly.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/readonly/? permanent;
+}
+if ($args = refgetvalue.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/refgetvalue/? permanent;
+}
+if ($args = refsetvalue.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/refsetvalue/? permanent;
+}
+if ($args = setdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/setdata/? permanent;
+}
+if ($args = visible.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/visible/? permanent;
+}
+if ($args = data__state_extraction.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/? permanent;
+}
+if ($args = checkmandatory.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/checkmandatory/? permanent;
+}
+if ($args = createwidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/createwidget/? permanent;
+}
+if ($args = deletewidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/deletewidget/? permanent;
+}
+if ($args = emptywidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/emptywidget/? permanent;
+}
+if ($args = getparentwidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/getparentwidget/? permanent;
+}
+if ($args = getproperty.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/getproperty/? permanent;
+}
+if ($args = highlightwidgets.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/highlightwidgets/? permanent;
+}
+if ($args = populatewidget2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/populatewidget2/? permanent;
+}
+if ($args = refreshdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/refreshdata/? permanent;
+}
+if ($args = resetwidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/resetwidget/? permanent;
+}
+if ($args = setfocus.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/setfocus/? permanent;
+}
+if ($args = setproperty.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/setproperty/? permanent;
+}
+if ($args = unhighlightwidgets.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/unhighlightwidgets/? permanent;
+}
+if ($args = w.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/w/? permanent;
+}
+if ($args = refwidget_data.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-functions/? permanent;
+}
+if ($args = getsectionstate.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/accordion/getsectionstate/? permanent;
+}
+if ($args = statesection.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/accordion/statesection/? permanent;
+}
+if ($args = accordion2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/accordion/? permanent;
+}
+if ($args = addcircle.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addcircle/? permanent;
+}
+if ($args = addcurrentlocation.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addcurrentlocation/? permanent;
+}
+if ($args = addmarker.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addmarker/? permanent;
+}
+if ($args = addpolygon.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolygon/? permanent;
+}
+if ($args = addpolyline.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addpolyline/? permanent;
+}
+if ($args = addrectangle.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/addrectangle/? permanent;
+}
+if ($args = clearmarkers.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/clearmarkers/? permanent;
+}
+if ($args = clearoverlays.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/clearoverlays/? permanent;
+}
+if ($args = fillcolor.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/fillcolor/? permanent;
+}
+if ($args = fillopacity.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/fillopacity/? permanent;
+}
+if ($args = fittooverlays.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/fittooverlays/? permanent;
+}
+if ($args = getaddress.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/getaddress/? permanent;
+}
+if ($args = getcoord.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/getcoord/? permanent;
+}
+if ($args = getdirections.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/getdirections/? permanent;
+}
+if ($args = getoverlayobjbyidid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlayobjbyidid/? permanent;
+}
+if ($args = getoverlays.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/getoverlays/? permanent;
+}
+if ($args = googlemap.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/googlemap/? permanent;
+}
+if ($args = hideoverlay.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/hideoverlay/? permanent;
+}
+if ($args = loadapi.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/loadapi/? permanent;
+}
+if ($args = mapstyles.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/mapstyles/? permanent;
+}
+if ($args = noscroll.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/noscroll/? permanent;
+}
+if ($args = removedirections.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/removedirections/? permanent;
+}
+if ($args = removeoverlay.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/removeoverlay/? permanent;
+}
+if ($args = setlanguage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/setlanguage/? permanent;
+}
+if ($args = showmarker.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/showmarker/? permanent;
+}
+if ($args = showoverlayid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/showoverlayid/? permanent;
+}
+if ($args = strokecolor.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/strokecolor/? permanent;
+}
+if ($args = strokeopacity.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/strokeopacity/? permanent;
+}
+if ($args = strokeweight.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/strokeweight/? permanent;
+}
+if ($args = whereami.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/whereami/? permanent;
+}
+if ($args = advanced_maps.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/? permanent;
+}
+if ($args = close.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/circular-menu/close/? permanent;
+}
+if ($args = open2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/circular-menu/open2/? permanent;
+}
+if ($args = circular_menu2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/circular-menu/? permanent;
+}
+if ($args = parent.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/general/parent/? permanent;
+}
+if ($args = prop.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/general/prop/? permanent;
+}
+if ($args = traversechildren.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/general/traversechildren/? permanent;
+}
+if ($args = value.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/general/value/? permanent;
+}
+if ($args = general2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/general/? permanent;
+}
+if ($args = columnwidth.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/photoswipe/columnwidth/? permanent;
+}
+if ($args = getcurrentimage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/photoswipe/getcurrentimage/? permanent;
+}
+
+if ($args = getphotoswipeobject.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/photoswipe/getphotoswipeobject/? permanent;
+}
+if ($args = pswipepopulatewidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/photoswipe/pswipepopulatewidget/? permanent;
+}
+if ($args = showgallery.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/photoswipe/showgallery/? permanent;
+}
+if ($args = photoswiperef.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/photoswipe/? permanent;
+}
+if ($args = children.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/children/? permanent;
+}
+if ($args = deleterow.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterow/? permanent;
+}
+if ($args = deleterowbyid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/deleterowbyid/? permanent;
+}
+if ($args = deleteselectedrows.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/deleteselectedrows/? permanent;
+}
+if ($args = drawnextpage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage/? permanent;
+}
+if ($args = fetchdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata/? permanent;
+}
+if ($args = getrow.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/getrow/? permanent;
+}
+if ($args = getselectedrow.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/getselectedrow/? permanent;
+}
+if ($args = insertrow.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/insertrow/? permanent;
+}
+if ($args = isalldatadrawn.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn/? permanent;
+}
+if ($args = length.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/length/? permanent;
+}
+if ($args = rowindex.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/rowindex/? permanent;
+}
+if ($args = setselectedrow.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/setselectedrow/? permanent;
+}
+if ($args = sum.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/sum/? permanent;
+}
+if ($args = repeater__grid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/? permanent;
+}
+if ($args = enabletab.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/tab/enabletab/? permanent;
+}
+
+if ($args = selecttab.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/tab/selecttab/? permanent;
+}
+if ($args = visibletab.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/tab/visibletab/? permanent;
+}
+if ($args = getcurrenttabindex.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/tab/? permanent;
+}
+if ($args = eventstimeline.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/eventstimeline/? permanent;
+}
+if ($args = fitdata.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/fitdata/? permanent;
+}
+if ($args = scroll.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/scroll/? permanent;
+}
+if ($args = tlscrollto.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/tlscrollto/? permanent;
+}
+if ($args = timelineref.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/? permanent;
+}
+if ($args = clearvideo.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/clearvideo/? permanent;
+}
+if ($args = controls.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/controls/? permanent;
+}
+if ($args = currenttime.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/currenttime/? permanent;
+}
+if ($args = duration.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/duration/? permanent;
+}
+if ($args = enable.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/enable/? permanent;
+}
+if ($args = getavailablequalitylevels.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getavailablequalitylevels/? permanent;
+}
+if ($args = getplaybackquality.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getplaybackquality/? permanent;
+}
+if ($args = getyoutubeplayer.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getyoutubeplayer/? permanent;
+}
+if ($args = load.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/load/? permanent;
+}
+if ($args = muted.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/muted/? permanent;
+}
+if ($args = pause.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/pause/? permanent;
+}
+if ($args = play.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/play/? permanent;
+}
+if ($args = poster.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/poster/? permanent;
+}
+if ($args = setplaybackquality.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/setplaybackquality/? permanent;
+}
+if ($args = state.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/state/? permanent;
+}
+if ($args = stop.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/stop/? permanent;
+}
+if ($args = vidpopulatewidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/vidpopulatewidget/? permanent;
+}
+if ($args = volume.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/volume/? permanent;
+}
+if ($args = video__audio_widget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/? permanent;
+}
+if ($args = getzingchartid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/zing-chart/getzingchartid/? permanent;
+}
+if ($args = zing_chart.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/zing-chart/? permanent;
+}
+if ($args = widget_object_functions.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/? permanent;
+}
+if ($args = assigninstance.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/assigninstance/? permanent;
+}
+if ($args = assigntorole.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/assigntorole/? permanent;
+}
+if ($args = cancelassignments.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/cancelassignments/? permanent;
+}
+if ($args = cancelnotificationsforinstance.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/cancelnotificationsforinstance/? permanent;
+}
+if ($args = currentuserrole.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/currentuserrole/? permanent;
+}
+if ($args = getassignedroles.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/getassignedroles/? permanent;
+}
+if ($args = getstage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/getstage/? permanent;
+}
+if ($args = notify.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/notify/? permanent;
+}
+if ($args = setstage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/setstage/? permanent;
+}
+if ($args = unassignfromrole.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/unassignfromrole/? permanent;
+}
+if ($args = workflow_functions.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/workflow-functions/? permanent;
+}
+if ($args = functions_you_need_a_lot.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/? permanent;
+}
+if ($args = chrome.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/chrome/? permanent;
+}
+if ($args = debdebug_message.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/debdebug-message/? permanent;
+}
+if ($args = debug_support_functions.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/debug-support-functions/? permanent;
+}
+if ($args = firefox.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/firefox/? permanent;
+}
+if ($args = native_apps.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/native-apps/? permanent;
+}
+if ($args = safari.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/safari/? permanent;
+}
+if ($args = the_debugger_command.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/the-debugger-command/? permanent;
+}
+if ($args = viewing_complex_widget_content.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-complex-widget-content/? permanent;
+}
+if ($args = viewing_widget_properties.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-properties/? permanent;
+}
+if ($args = viewing_widget_values.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/viewing-widget-values/? permanent;
+}
+if ($args = debugging_overview.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/? permanent;
+}
+if ($args = try__catch.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/error-handling/try-catch/? permanent;
+}
+if ($args = your_own_error_handler.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/error-handling/your-own-error-handler/? permanent;
+}
+if ($args = scripterror_handling.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/error-handling/? permanent;
+}
+if ($args = network_availability_handling.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/network-availability-handling/? permanent;
+}
+if ($args = populating_charts_from_script.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/populating-charts-from-script/? permanent;
+}
+if ($args = public_shared_scripts.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/public-shared-scripts/? permanent;
+}
+if ($args = calling_a_soap_web_service_dir.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/calling-a-soap-web-service-dir/? permanent;
+}
+if ($args = calling_web_services.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/calling-web-services/? permanent;
+}
+if ($args = conditional_jump_to_a_page.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/conditional-jump-to-a-page/? permanent;
+}
+if ($args = crossdomain_issues.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues/? permanent;
+}
+if ($args = displaying_warnings_and_messag.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/displaying-warnings-and-messag/? permanent;
+}
+if ($args = exampledebugging.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/exampledebugging/? permanent;
+}
+if ($args = extending_the_ac_dom_to_sim.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/extending-the-ac-dom-to-sim/? permanent;
+}
+if ($args = getting_a_confirmation_respons.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/getting-a-confirmation-respons/? permanent;
+}
+if ($args = populating_widgets_with_data_a.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/populating-widgets-with-data-a/? permanent;
+}
+if ($args = reading_and_writing_widget_dat.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/reading-and-writing-widget-dat/? permanent;
+}
+if ($args = validations.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/validations/? permanent;
+}
+if ($args = example_scripts.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/? permanent;
+}
+if ($args = adding_widget_effects.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/adding-widget-effects/? permanent;
+}
+if ($args = app_switching.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/app-switching/? permanent;
+}
+if ($args = date_handling.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/date-handling/? permanent;
+}
+if ($args = extending_the_ac_dom.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/extending-the-ac-dom/? permanent;
+}
+if ($args = loading_and_saving_instance_da.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/loading-and-saving-instance-da/? permanent;
+}
+if ($args = the_widget_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/the-widget-object/? permanent;
+}
+if ($args = important_little_details.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/important-details/? permanent;
+}
+if ($args = a_typical_javascript_function.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/a-typical-javascript-function/? permanent;
+}
+if ($args = for_those_who_know_javascript_.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/for-those-who-know-javascript/? permanent;
+}
+if ($args = how_swirl_javascript_is_tied_i.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/how-swirl-javascript-is-tied-i/? permanent;
+}
+if ($args = switching_between_code_and_lay.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/switching-between-code-and-lay/? permanent;
+}
+if ($args = using_borwser_objects.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/using-borwser-objects/? permanent;
+}
+if ($args = where_are_the_events_.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/where-are-the-events/? permanent;
+}
+if ($args = writing_user_defined_functions.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/writing-user-defined-functions/? permanent;
+}
+if ($args = introduction.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/introduction/? permanent;
+}
+if ($args = code_explorer.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/code-explorer/? permanent;
+}
+if ($args = code_higlighting.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/code-higlighting/? permanent;
+}
+if ($args = search___replace.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/search--replace/? permanent;
+}
+if ($args = syntax_errors.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/syntax-errors/? permanent;
+}
+if ($args = the_code_editor.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/the-code-editor/? permanent;
+}
+if ($args = getdata_versus_getvalue_and_se.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/getdata-versus-getvalue-and-se/? permanent;
+}
+if ($args = repeater_containers_are_specia.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/repeater-containers-are-specia/? permanent;
+}
+if ($args = storing_widget_data_in_a_datab.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/storing-widget-data-in-a-datab/? permanent;
+}
+if ($args = the_assign_helper_function_.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/the-assign-helper-function/? permanent;
+}
+if ($args = context_menu2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/context-menu2/? permanent;
+}
+if ($args = lists__dropdowns.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/lists-dropdowns/? permanent;
+}
+if ($args = mobile_list.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/mobile-list/? permanent;
+}
+if ($args = wdgetcontentsimple_widgets.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/wdgetcontentsimple-widgets/? permanent;
+}
+if ($args = widgetcontentgrids__repeater_containers.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers/? permanent;
+}
+if ($args = widgetcontentrepeater_containers.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentrepeater-containers/? permanent;
+}
+if ($args = reading_and_writing_complex_wi.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/? permanent;
+}
+if ($args = dates.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/dates/? permanent;
+}
+if ($args = grids__repeater_containers.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/grids-repeater-containers/? permanent;
+}
+if ($args = lists__dropdown_widgets.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/lists-dropdown-widgets/? permanent;
+}
+if ($args = repeater_containers.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/repeater-containers/? permanent;
+}
+if ($args = widgetsimple_widgets.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/widgetsimple-widgets/? permanent;
+}
+if ($args = json__listboxes_and_grids.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/? permanent;
+}
+if ($args = widgetpopulatewidget.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widgetpopulatewidget/? permanent;
+}
+if ($args = reading_and_writing_app_data.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/? permanent;
+}
+if ($args = scripting_with_javascript.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/? permanent;
+}
+if ($args = scripting_overview.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-scripting-overview/? permanent;
+}
+if ($args = dir.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/console-object/dir/? permanent;
+}
+if ($args = log.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/console-object/log/? permanent;
+}
+if ($args = console_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/console-object/? permanent;
+}
+if ($args = payment_parameters2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/payment-parameters2/? permanent;
+}
+if ($args = payment.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/payment/? permanent;
+}
+if ($args = validate.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/validate/? permanent;
+}
+if ($args = zoozstartcheckout.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/zoozstartcheckout/? permanent;
+}
+if ($args = credit_card_payments2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/? permanent;
+}
+if ($args = data_preparation.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/data-preparation/? permanent;
+}
+if ($args = begintransaction.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/begintransaction/? permanent;
+}
+if ($args = commit.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/commit/? permanent;
+}
+if ($args = delete.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/delete/? permanent;
+}
+if ($args = exec.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/exec/? permanent;
+}
+if ($args = getconnection.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/getconnection/? permanent;
+}
+if ($args = getconnectionbyname.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/getconnectionbyname/? permanent;
+}
+if ($args = getviewdata2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/getviewdata2/? permanent;
+}
+if ($args = insert.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/insert/? permanent;
+}
+if ($args = lastinsertid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/lastinsertid/? permanent;
+}
+if ($args = quote.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/quote/? permanent;
+}
+if ($args = quoteinto.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto/? permanent;
+}
+if ($args = rollback.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/rollback/? permanent;
+}
+if ($args = getsql.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/getsql/? permanent;
+}
+if ($args = orwhere.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/orwhere/? permanent;
+}
+if ($args = select_from.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-from/? permanent;
+}
+if ($args = select_group.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-group/? permanent;
+}
+if ($args = select_join.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-join/? permanent;
+}
+if ($args = select_limit.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-limit/? permanent;
+}
+if ($args = select_order.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-order/? permanent;
+}
+if ($args = select_where.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-where/? permanent;
+}
+if ($args = select.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select/? permanent;
+}
+if ($args = select_handling.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/? permanent;
+}
+if ($args = update.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/update/? permanent;
+}
+if ($args = database.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/database/? permanent;
+}
+if ($args = appid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/appid/? permanent;
+}
+if ($args = appname.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/appname/? permanent;
+}
+if ($args = checkcryptblowfish.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/checkcryptblowfish/? permanent;
+}
+if ($args = cryptblowfish.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/cryptblowfish/? permanent;
+}
+if ($args = getlatesterror.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror/? permanent;
+}
+if ($args = getloggeduser2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/getloggeduser2/? permanent;
+}
+if ($args = getuserparameter.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/getuserparameter/? permanent;
+}
+if ($args = getuuid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/getuuid/? permanent;
+}
+if ($args = id.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/id/? permanent;
+}
+if ($args = json2obj.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/json2obj/? permanent;
+}
+if ($args = md5.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/md5/? permanent;
+}
+if ($args = obj2json.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/obj2json/? permanent;
+}
+if ($args = obj2xml.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/obj2xml/? permanent;
+}
+if ($args = sendemail2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/sendemail2/? permanent;
+}
+if ($args = setuserparameter.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/setuserparameter/? permanent;
+}
+if ($args = sleep.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/sleep/? permanent;
+}
+if ($args = xml2obj.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/xml2obj/? permanent;
+}
+if ($args = miscellaneous.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/? permanent;
+}
+if ($args = oauthrequest.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/oauthrequest/? permanent;
+}
+if ($args = oauth4.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/? permanent;
+}
+if ($args = deletesessionobject.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/security/deletesessionobject/? permanent;
+}
+if ($args = getloggeduser.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/security/getloggeduser/? permanent;
+}
+if ($args = getowneruser.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/security/getowneruser/? permanent;
+}
+if ($args = getsessionobject.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/security/getsessionobject/? permanent;
+}
+if ($args = setsessionobject.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/security/setsessionobject/? permanent;
+}
+if ($args = security.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/security/? permanent;
+}
+if ($args = httprequest2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequest2/? permanent;
+}
+if ($args = httprequestadv.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv/? permanent;
+}
+if ($args = networktimeout.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/networktimeout/? permanent;
+}
+if ($args = soaprequest2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/soaprequest2/? permanent;
+}
+if ($args = web_service_wizard2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/web-service-wizard2/? permanent;
+}
+if ($args = web_service_calls.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/? permanent;
+}
+if ($args = app_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/? permanent;
+}
+if ($args = getappsfolderslist.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/app-management/getappsfolderslist/? permanent;
+}
+if ($args = getappslist.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/app-management/getappslist/? permanent;
+}
+if ($args = getsharedappsfolderslist.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/app-management/getsharedappsfolderslist/? permanent;
+}
+if ($args = getsharedappsitemslist.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/app-management/getsharedappsitemslist/? permanent;
+}
+if ($args = getsharedappsuserslist.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/app-management/getsharedappsuserslist/? permanent;
+}
+if ($args = app_management.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/app-management/? permanent;
+}
+if ($args = addtogroup.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/addtogroup/? permanent;
+}
+if ($args = creategroup.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/creategroup/? permanent;
+}
+if ($args = deletegroup.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/deletegroup/? permanent;
+}
+if ($args = getgroupbyid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/getgroupbyid/? permanent;
+}
+if ($args = getgroupmembers.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/getgroupmembers/? permanent;
+}
+if ($args = getgroupslist.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/getgroupslist/? permanent;
+}
+if ($args = removefromgroup.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/removefromgroup/? permanent;
+}
+if ($args = updategroup.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/updategroup/? permanent;
+}
+if ($args = group_management.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/group-management/? permanent;
+}
+if ($args = getqueries.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/queries-management/getqueries/? permanent;
+}
+if ($args = getsharedqueries.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/queries-management/getsharedqueries/? permanent;
+}
+if ($args = getsharedqueryfolders.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/queries-management/getsharedqueryfolders/? permanent;
+}
+if ($args = loadqueryfolders.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/queries-management/loadqueryfolders/? permanent;
+}
+if ($args = queries_management.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/queries-management/? permanent;
+}
+if ($args = getresources.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/resources-management/getresources/? permanent;
+}
+if ($args = getsharedresourcefolders.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/resources-management/getsharedresourcefolders/? permanent;
+}
+if ($args = getsharedresources.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/resources-management/getsharedresources/? permanent;
+}
+if ($args = loadresourcefolders.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/resources-management/loadresourcefolders/? permanent;
+}
+if ($args = resources_management.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/resources-management/? permanent;
+}
+if ($args = checkowneruserrights_parameter.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/checkowneruserrights-parameter/? permanent;
+}
+if ($args = createuser.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/createuser/? permanent;
+}
+if ($args = deleteuser.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/deleteuser/? permanent;
+}
+if ($args = getmemberof.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/getmemberof/? permanent;
+}
+if ($args = getuserbyid.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/getuserbyid/? permanent;
+}
+if ($args = loaduserslist.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/loaduserslist/? permanent;
+}
+if ($args = saveuser.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/saveuser/? permanent;
+}
+if ($args = setuserpassword.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/setuserpassword/? permanent;
+}
+if ($args = user_management.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/user-management/? permanent;
+}
+if ($args = sys_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/sys-object/? permanent;
+}
+if ($args = server_side_api.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/? permanent;
+}
+if ($args = calling_ssj_methods.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/calling-ssj-methods/? permanent;
+}
+if ($args = database_handling_with_ssj.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/database-handling-with-ssj/? permanent;
+}
+if ($args = debugging2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/debugging2/? permanent;
+}
+if ($args = including_public_server_side_s.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/including-public-server-side-s/? permanent;
+}
+if ($args = on_app_load.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-events/on-app-load/? permanent;
+}
+if ($args = on_instance_create.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-events/on-instance-create/? permanent;
+}
+if ($args = on_instance_load.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-events/on-instance-load/? permanent;
+}
+if ($args = on_instance_save.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-events/on-instance-save/? permanent;
+}
+if ($args = on_user_login.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-events/on-user-login/? permanent;
+}
+if ($args = the_user_object.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-events/the-user-object/? permanent;
+}
+if ($args = ssj_events.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-events/? permanent;
+}
+if ($args = ssj_user_defined_methods.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/ssj-user-defined-methods/? permanent;
+}
+if ($args = where_to_write_ssj_scripts.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/where-to-write-ssj-scripts/? permanent;
+}
+if ($args = writing_secure_code.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/writing-secure-code/? permanent;
+}
+if ($args = server_side_scripting.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-scripting-overview/? permanent;
+}
+if ($args = scripting__apis.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/? permanent;
+}
