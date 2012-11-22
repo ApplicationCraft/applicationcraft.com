@@ -98,10 +98,11 @@ $ ->
 
 
     # Clicking a directory link should open up the directory index.
-    $('#tree div>a').on 'click', ->
-      li = $(this).parent().parent()
-
-      $("#tree li>a").removeClass 'active'
+    $('#tree a').on 'click', ->
+      if $(this).parent().find('>span').length > 0
+        li = $(this).parent().parent()
+      else
+        li = $(this).parent()
 
       if li.hasClass('checked')
         li.find('li').each ->
@@ -112,12 +113,6 @@ $ ->
         li.addClass 'checked'
 
         li.siblings().each -> $(this).removeClass('checked')
-
-
-    # Clicking a file link will make it active.
-    $("#tree a").on 'click', ->
-      $("#tree a").removeClass 'active'
-      $(this).addClass 'active'
 
 
     # Expands the tree to the current URL
