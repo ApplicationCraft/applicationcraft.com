@@ -14,7 +14,7 @@ With the OnChange event, you can apply this color to multiple widgets using [set
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -30,7 +30,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_ColorPickerWidget
+Internal class name of the widget.- WiziCore_UI_ColorPickerWidget
 
 </td>
 </tr>
@@ -114,28 +114,13 @@ Use this to select other widget to apply border color to from selection made in 
 <td width="779">
 </td>
 </tr>
-<tr>
-<td width="148">
+</table>
 <table>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
-<a id="database"> </a> **Database**
 
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
+<a id="database"> </a> <b>Database</b>
+
 </td>
 <td width="15">
 </td>
@@ -178,7 +163,7 @@ Unique
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -200,7 +185,7 @@ Sizes
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -282,7 +267,7 @@ Repeat
 </tr>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -350,7 +335,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -490,7 +475,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
