@@ -68,16 +68,11 @@ $ ->
 
 
     # Handle full screen button
-    if $.cookie('full-screen-docs')
-      $('body').addClass 'full-screen'
-
     $('#full-screen').on 'click', ->
       if $('body').hasClass('full-screen')
         $('body').removeClass 'full-screen'
-        $.cookie 'full-screen-docs', false
       else
         $('body').addClass 'full-screen'
-        $.cookie 'full-screen-docs', true
 
 
     # Handle video links so they open in fancybox
@@ -98,10 +93,11 @@ $ ->
 
 
     # Clicking a directory link should open up the directory index.
-    $('#tree div>a').on 'click', ->
-      li = $(this).parent().parent()
-
-      $("#tree li>a").removeClass 'active'
+    $('#tree a').on 'click', ->
+      if $(this).parent().find('>span').length > 0
+        li = $(this).parent().parent()
+      else
+        li = $(this).parent()
 
       if li.hasClass('checked')
         li.find('li').each ->
@@ -112,12 +108,6 @@ $ ->
         li.addClass 'checked'
 
         li.siblings().each -> $(this).removeClass('checked')
-
-
-    # Clicking a file link will make it active.
-    $("#tree a").on 'click', ->
-      $("#tree a").removeClass 'active'
-      $(this).addClass 'active'
 
 
     # Expands the tree to the current URL

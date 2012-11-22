@@ -22,53 +22,5 @@ Gets the unique id of the ZingChart widget
 
 </td>
 </tr>
-<tr>
-<td width="182">
 
-</td>
-<td width="8">
-</td>
-<td width="752">
-</td>
-</tr>
-<tr>
-<td width="182">
-</td>
-<td width="8">
-</td>
-<td width="752">
-</td>
-</tr>
-<tr>
-<td width="182">
-</td>
-<td width="8">
-</td>
-<td width="752">
-</td>
-</tr>
-<tr>
-<td width="182">
-</td>
-<td width="8">
-</td>
-<td width="752">
-</td>
-</tr>
-<tr>
-<td width="182">
-</td>
-<td width="8">
-</td>
-<td width="752">
-</td>
-</tr>
-<tr>
-<td width="182">
-</td>
-<td width="8">
-</td>
-<td width="752">
-</td>
-</tr>
 </table>

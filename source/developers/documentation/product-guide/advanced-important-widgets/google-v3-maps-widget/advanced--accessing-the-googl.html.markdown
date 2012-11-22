@@ -15,6 +15,9 @@ However, advanced users may want to access the underlying Google Maps object tha
 
     console.dir({map: app.w('googleMapsAdvanced').googleMap()});
      
+Google Map Libraries can also be accessed by defining the libraries to load in the widget Libraries property
+
+## Example
      
     function _callback(results, status) {
         if (status == google.maps.places.PlacesServiceStatus.OK) {
@@ -38,11 +41,6 @@ However, advanced users may want to access the underlying Google Maps object tha
     }
    
 
-Google Map Libraries can also be accessed by defining the libraries to load in the widget Libraries property
-
-## Example
-
 ## See Also
 
  - [googleMap()](/developers/documentation/scripting-apis/client-api/widget-object-functions/advanced-maps/googlemap)
-

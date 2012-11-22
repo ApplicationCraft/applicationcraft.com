@@ -11,11 +11,11 @@ Data Paging allows you to manage the way that data is handled by the Repeater Co
 
 ## app. [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/)
 
-This approach is common if you get your data from outside the AC system using either app. [httpRequest](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) (), app. [soapRequest](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest) () or your own methods.
+This approach is common if you get your data from outside the AC system using either app.[httpRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/httprequest), app.[soapRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest) or your own methods.
 
 Say you retrieve 1000 records of data into an array. You call populateWidget() and pass in this array but the Elements per Page property is set to 10. In this case, it will only generate the first 10 records for display. However, it stores the full 1000 internally.
 
-From this point on, if you want to display more data, you use the [drawNextPage](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) () function. Refer to its documentation for a usage example.
+From this point on, if you want to display more data, you use the [drawNextPage()](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage) function. Refer to its documentation for a usage example.
 
 ## Data Views
 

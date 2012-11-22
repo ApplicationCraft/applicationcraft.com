@@ -71,6 +71,6 @@ $ ->
             title: title
             type: "large"
             summary: summary
-            image: 'http://localhost:4567/img/logo.gif'
+            image: 'http://localhost:4567/img/logo.png'
 
     false

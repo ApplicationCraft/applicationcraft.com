@@ -1,0 +1,9 @@
+select
+select-from
+select-where
+orwhere
+select-group
+select-order
+select-join
+select-limit
+getsql

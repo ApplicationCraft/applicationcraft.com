@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+    <title>Basic Concepts - App development for Mobile and Desktop with Application Craft</title>
+
+    
+      <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
+    
+
+    
+      <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
+    
+
+    <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-3421dee7.css" media="screen" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body class="developers">
+    <a id="top"></a>
+
+    <nav class="main">
+      <div class="container">
+
+        <div id="blog-ribbon" class="nofade">
+          <a href="/blog" title="Check out our blog">Blog</a>
+        </div>
+
+        <ul class="clearfix">
+          <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
+          <li class="clearfix">
+            <ul class="clearfix">
+              <li class=""><a href="/" class="active">Home</a></li>
+              <li class=""><a href="/product">Product</a></li>
+              <li class="active"><a href="/developers">Developers</a></li>
+              <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
+              <li class="nofade ">
+                <a href="/get-started">Sign Up Today</a>
+                <a id="cws-sign-up" href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc" target="_blank">or via the Chrome Web Store</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+      <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/developers/training-videos">Videos</a></li>
+        <li class="active"><a href="/developers/documentation">Documentation</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="https://getsatisfaction.com/application_craft" target="_blank">Forum</a></li>
+        <li><a href="http://portal.applicationcraft.com" target="_blank">Bug Tracker</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+    
+      
+  <div class="container clearfix docs">
+
+    <header class="clearfix">
+      <div id="breadcrumbs">
+        <ul>
+          <li><a href="/developers/tutorials">Docs</a></li>
+          
+            <li><a href="/developers/tutorials/">Tutorials</a></li>
+          
+            <li><a href="/developers/tutorials/javascript/">Javascript</a></li>
+          
+            <li><a href="/developers/tutorials/javascript/beginner/">Beginning Javascript</a></li>
+          
+          <li>Basic Concepts</li>
+        </ul>
+      </div>
+      <div id="full-screen">open in full screen...</div>
+    </header>
+
+    <aside class="tree">
+      <ol><li><div class="nofade"><span>expand</span><a href="/developers/tutorials/javascript/">Javascript</a></div><ol><li><div class="nofade"><span>expand</span><a href="/developers/tutorials/javascript/beginner/">Beginning Javascript</a></div><ol>#<Dir:0x007ff4af6680b8></ol></li></ol></li><li><div class="nofade"><span>expand</span><a href="/developers/tutorials/myfirstapp/">My First App</a></div><ol>#<Dir:0x007ff4af5b20d8></ol></li></ol>
+    </aside>
+
+    <article>
+      <h1>Basic Concepts</h1>
+      <p>In the last section, you learned how to display the “Hello World” message in response to a click of a Button. But very few people on earth are actually called “World”, so let&#39;s try and get a bit personal and ask the user to enter his/her name and then greet him/her by that name.</p>
+
+<p>IMAGE HERE</p>
+
+<ol>
+<li>Close the Preview (by clicking on the <strong>X</strong> at the top left corner of this window).</li>
+<li>You will be back in design mode.</li>
+<li>Click on the &#39;Design&#39; button at the bottom of the middle panel.</li>
+</ol>
+
+<p>Now let&#39;s take a look at the Greetings button.</p>
+
+<ol>
+<li>Click on the button and then on the &#39;Events&#39; tab at the bottom of the right panel.</li>
+<li>Now, click on &#39;On Click&#39; in the event list.</li>
+<li>The IDE will now switch to the code editor with your event handler displayed as a function.</li>
+</ol>
+
+<p>You should now see your code as shown below</p>
+
+<pre><code>// place the contents of the widget named txtFirstName in a string variable called firstName
+firstName = app.getValue(‘txtFirstName’);
+// place the contents of the widget named txtLastName in a string variable called lastName
+lastName = app.getValue(‘txtLastName’);
+// compose  new variable called messageText using the variables firstName and lastName
+messageText = firstName + “ “ + lastName;
+// ask to popup a message using the composed values
+app.showMessage(“Greetings ...”, messageText’);
+</code></pre>
+
+<p>This code snippet introduces a number of concepts.</p>
+
+<h2 id="toc_0">Comment Lines</h2>
+
+<p>Notice that a number of lines start with <code>//</code>. These are comment lines, which means that anything afterwards will be ignored. You use comments in your code to help make it more readable or understandable.</p>
+
+<h2 id="toc_1">Variables</h2>
+
+<p>Variables are named containers for storing information, which can be modified at any time. They are a very important part of any computer language, they are the glue that connects the various parts of the application logic.</p>
+
+<p>The name you give your variable MUST begin with a letter of the alphabet (or _ or $) and the remaining portions of the name can be letters of the alphabet or digits (numbers).</p>
+
+<p>When using letters of the alphabet, note that these are case sensitive, which means that a variable named <code>total</code> is different from one named <code>Total</code>.</p>
+
+<p>Here is a &#39;string&#39; variable (contains text) called <code>name</code> assigned a value of <code>Bob</code></p>
+
+<pre><code>var name = &#39;Bob&#39;;
+</code></pre>
+
+<p>And here we are creating a numeric variable called <code>age</code> and assigning it a value of <code>25</code>.</p>
+
+<pre><code>var age = 45;
+</code></pre>
+
+<p>In the next sections you will learn more about the different types of Variables (String, Number, Date, Boolean, Array, Object), as well as how you can manipulate the values stored within these variables.</p>
+
+<h2 id="toc_2">A bit more ...</h2>
+
+<pre><code>var messageText = firstName + “ “ + lastName;
+</code></pre>
+
+<p>This makes up a new variable <code>messageText</code>. Its value will be whatever value is currently stored in the variable called <code>firstName</code> followed by a space and followed again by the value of the variable <code>lastName</code>.</p>
+
+<p>Remember that we first asked Javascript to populate these variables with whatever was present in the Text widgets called <code>txtFirstName</code> and <code>txtLastName</code></p>
+
+<p>Notice that</p>
+
+<ul>
+<li>we used the <code>+</code> to tell Javascript to concatenate (join) the values of the different variables. It will do so because the variables involved are of the type `string&#39; (text)</li>
+<li>later, you will learn that there are other types of variables (number, date, boolean, array and object) and that when you use the plus sign (or the minus, divide or multiply signs) with number variables, Javascript will do the appropriate math on the values of the specified variables (just like you learned in high school Algebra).</li>
+<li>text within quotation marks are used literall and you can use both, single and double quotes</li>
+</ul>
+
+<p>DONT GET THIS PARA Finally, Application Craft’s <code>app.showMessage()</code> method is used to popup a message box window. Unlike the previous example, the message will not be some hard coded (static) value (coded between quotation marks) … instead, the contents (current value) of the specified variable will be displayed.</p>
+
+<h2 id="toc_3">Trying it out</h2>
+
+<ul>
+<li>click on the &#39;Preview&#39; Button</li>
+<li>type your first and last names in the text widgets</li>
+<li>click on the Button labelled &#39;Greetings&#39;</li>
+</ul>
+
+<p>You should see a message box with the title of “Greetings” and the message text containing the entered first and last names.</p>
+
+    </article>
+
+  </div>
+
+
+  <script src="/js/vendor/rainbow-2b7edd35.js" type="text/javascript"></script>
+<script src="/js/vendor/rainbow/generic-6a91084e.js" type="text/javascript"></script>
+<script src="/js/vendor/rainbow/javascript-5e0c6c6e.js" type="text/javascript"></script>
+  <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+    
+
+    <section id="price-banner" class="clearfix">
+  <div class="container">
+    <div>only <span>$14</span> per month</div>
+    <div class="nofade"><a href="/get-started">
+      <p>Try it for Free!</p>
+      <p><span>&#x2605;</span> 14 day free trial <span>&#x2605;</span></p>
+    </a></div>
+
+    <div class="clearfix">
+
+      <div class="video-thumb">
+        <span>
+          <a class="fancybox fancybox.iframe" href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;">
+            <img src="//i1.ytimg.com/vi/XcGx6F7Wql0/default.jpg">
+          </a>
+        </span>
+        <span>1:28</span>
+      </div>
+
+      <a href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe">
+        Watch the intro video...
+      </a>
+
+    </div>
+  </div>
+</section>
+
+    <footer>
+      <section>
+        <div class="container">
+          <ul class="clearfix">
+            <li>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/product/phonegap-mobile-build">Mobile Build</a></li>
+                <li><a href="/product/enterprise">Enterprise</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/developers">Developers</a></li>
+                <li><a href="/developers">Support</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/company/contact-us">Contact us</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/company">About</a></li>
+                <li><a href="/legal">Legal</a></li>
+                <li><a href="/referral-program">Referral Program</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul id="social-icons">
+                <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
+                <li><a href="https://www.facebook.com/ApplicationCraft"><span></span>Facebook</a></li>
+                <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
+                <li><a href="http://www.youtube.com/user/appcrafty"><span></span>Youtube</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          Copyright &copy; 2012 Application Craft Ltd. All rights reserved.
+          Read our <a href="/legal/privacy">Privacy policy</a>.
+        </div>
+      </section>
+    </footer>
+
+
+    <div id="sign-in" class="modal">
+      <h2>Sign In</h2>
+      <p>To sign in to your account, you need to go to your custom sub-domain, where you will be prompted to enter your username and password. Choose from the list below, or enter your subdomain in the field provided.</p>
+      <hr />
+      <div class="waLoginList">
+        <div class="waLoginListDiv">
+          <span style="position: relative;">&nbsp;</span>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
+    <script src="/js/main-2ed931f9.js" type="text/javascript"></script>
+    
+
+    
+      <script>
+        var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+    
+
+    <div id="getsat-widget-2621"></div>
+    <script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
+    <script type="text/javascript">
+    if (typeof GSFN !== "undefined") { GSFN.loadWidget(2621,{"containerId":"getsat-widget-2621"}); }
+    </script>
+  </body>
+</html>

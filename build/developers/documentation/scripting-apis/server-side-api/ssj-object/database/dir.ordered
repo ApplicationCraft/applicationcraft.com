@@ -1,0 +1,14 @@
+getviewdata2
+getconnection
+getconnectionbyname
+begintransaction
+commit
+rollback
+insert
+update
+delete
+exec
+lastinsertid
+quote
+quoteinto
+select-handling

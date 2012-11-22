@@ -11,7 +11,7 @@ If you want access to the ZingCharts API directly then you can do so from your A
 
 Where the API expects a containerID as shown here ...
 
-zingchart.exec(containerID, functionname, JSON val);
+	zingchart.exec(containerID, functionname, JSON val);
 
 ... you should supply the containerID like this
 
@@ -19,4 +19,3 @@ zingchart.exec(containerID, functionname, JSON val);
    
 
 where zing1 is the AC widget name.
-

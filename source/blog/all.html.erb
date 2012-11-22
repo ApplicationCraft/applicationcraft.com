@@ -29,7 +29,7 @@ full_width: true
         <section class="meta">
           <p class="date">
             <% if month != article.date.month %>
-              <%= link_to article.date.strftime('%B'), article %>
+              <%= link_to article.date.strftime('%B'), "/blog/#{article.date.year}/#{article.date.month}" %>
             <% end %>
           </p>
         </section>

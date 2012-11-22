@@ -45,6 +45,14 @@ end
 ::Middleman::Extensions.register(:docs_redirect, DocsRedirect)
 
 
+helpers do
+  def link_to_author(name)
+    first, last = name.split(' ')
+    mail_to "#{first[0]}#{last}@applicationcraft.com".downcase, name
+  end
+end
+
+
 ###
 # Compass
 ###

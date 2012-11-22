@@ -1,24 +1,20 @@
 load 'deploy'
+require 'capistrano/ext/multistage'
 
-set :application, "site-prod"
-set :deploy_via, :copy
-set :scm, :none
-set :repository, "build"
-set :copy_compression, :gzip
+set :application, "site"
+set :scm, :git
+set :repository, "git@github.com:ApplicationCraft/applicationcraft.com.git"
 set :use_sudo, false
 set :user, "middleman"
-set :deploy_to, "/home/middleman/www/#{application}"
-
-# set :copy_cache, true
-# set :copy_exclude, ".git/*"
 
 server '54.243.95.68', :app, :web, :db, :primary => true
 
+# Setup stages
+set :stages, %w(production staging)
+set :default_stage, "staging"
+
+# Deploys the current branch
+set(:current_branch) { `git branch --no-color`.match(/\*\s(.+)\n/)[1] || raise("Couldn't determine current branch") }
+set :branch, defer { current_branch } unless exists?(:branch)
+
 after "deploy:restart", "deploy:cleanup"
-
-# set :build_script, "rm -rf build/* && middleman build"
-
-# before 'deploy:update_code' do
-#   run_locally 'rm -rf build/*'
-#   run_locally 'middleman build'
-# end
