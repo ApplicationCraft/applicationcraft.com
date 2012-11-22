@@ -33,7 +33,7 @@ In code, this looks like this
         calcGrandTotal();
     }
      
-    _widget
+    
    
 
-Note that the object is a useful one and can be used in any Event Handler to get the active widget that the event is handling at that time.
+Note that the `_widget` object is a useful one and can be used in any Event Handler to get the active widget that the event is handling at that time.
