@@ -18,7 +18,7 @@ http://www.tipue.com/search
       'showURL'                : true,
       'minimumLength'          : 3,
       'descriptiveWords'       : 25,
-      'highlightTerms'         : true,
+      'highlightTerms'         : false,
       'highlightEveryTerm'     : false,
       'mode'                   : 'static',
       'contentLocation'        : 'tipuesearch/tipuesearch_content.json'
@@ -33,48 +33,6 @@ http://www.tipue.com/search
       $.ajaxSetup({
         async: false
       });
-
-      if (set.mode == 'live')
-      {
-        for (var i = 0; i < tipuesearch_pages.length; i++)
-        {
-          $.get(tipuesearch_pages[i], '',
-            function (html)
-            {
-              var cont = $('*', html).text();
-              cont = cont.replace(/\s+/g, ' ');
-
-              var t_1 = html.toLowerCase().indexOf('<title>');
-              var t_2 = html.toLowerCase().indexOf('</title>', t_1 + 7);
-              if (t_1 != -1 && t_2 != -1)
-              {
-                var tit = html.slice(t_1 + 7, t_2);
-              }
-              else
-              {
-                var tit = 'No title';
-              }
-              var t_1 = html.toLowerCase().indexOf('<meta name="description"');
-              var t_2 = html.toLowerCase().indexOf('"', t_1 + 34);
-              if (t_1 != -1 && t_2 != -1)
-              {
-                var desc = html.slice(t_1 + 34, t_2);
-              }
-              else
-              {
-                var desc = cont;
-              }
-
-              tipuesearch_in.pages.push({
-                "title": tit,
-                "text": desc,
-                "tags": cont,
-                "loc": tipuesearch_pages[i]
-              });
-            }
-          );
-        }
-      }
 
       if (set.mode == 'json')
       {
@@ -161,14 +119,14 @@ http://www.tipue.com/search
           found = new Array();
           for (var i = 0; i < tipuesearch_in.pages.length; i++)
           {
-            if (tipuesearch_in.pages[i].title == undefined) continue;
+            if (tipuesearch_in.pages[i].t == undefined) continue;
 
             var score = 10000000;
-            var s_t = tipuesearch_in.pages[i].text;
+            var s_t = tipuesearch_in.pages[i].t;
             for (var f = 0; f < d_w.length; f++)
             {
               var pat = new RegExp(d_w[f], 'i');
-              if (tipuesearch_in.pages[i].title.search(pat) != -1)
+              if (tipuesearch_in.pages[i].t.search(pat) != -1)
               {
                 score -= (2000 - i);
               }
@@ -190,14 +148,14 @@ http://www.tipue.com/search
                 s_t = s_t.replace(patr, "<em>$1</em>");
               }
 
-              if (tipuesearch_in.pages[i].tags && tipuesearch_in.pages[i].tags.search(pat) != -1)
+              if (tipuesearch_in.pages[i].b.search(pat) != -1)
               {
                 score -= (1000 - i);
               }
             }
             if (score < 10000000)
             {
-              found[c++] = score + '^' + tipuesearch_in.pages[i].title + '^' + s_t + '^' + tipuesearch_in.pages[i].loc;
+              found[c++] = score + '^' + tipuesearch_in.pages[i].r + '^' + s_t + '^' + tipuesearch_in.pages[i].u;
             }
           }
 

@@ -28,16 +28,17 @@
       <div id="full-screen">open in full screen...</div>
     </header>
 
-    <aside class="tree">
+    <aside>
       <form>
         <input type="text" placeholder="search...">
         <button type="submit" class="btn">Search</button>
+        <ul id="search-content"></ul>
       </form>
 
-      <%= tree_for 'source/developers/documentation' %>
+      <div id="tree">
+        <%= tree_for 'source/developers/documentation' %>
+      </div>
     </aside>
-
-    <div id="tipue_search_content"></div>
 
     <article>
       <h1><%= current_page.data.title %></h1>
@@ -52,7 +53,7 @@
 
   <% content_for :foot do %>
     <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
-    <%= javascript_include_tag 'vendor/tipuesearch', 'vendor/tipuesearch_set' %>
+    <%= javascript_include_tag 'doc_search/base' %>
   <% end %>
 
 <% end %>

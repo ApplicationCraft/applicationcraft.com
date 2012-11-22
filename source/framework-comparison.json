@@ -1,7 +1,7 @@
 {
     "framework": "Application Craft",
     "url": "http://www.applicationcraft.com",
-    "framework_current_version" : "1.21",
+    "framework_current_version" : "1.25",
     "comparison_data_last_update" : "10.01.2012",
 
     "ios":"true",

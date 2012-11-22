@@ -58,13 +58,6 @@ $ ->
 $ ->
   if $('#tree').length > 0
 
-
-    # Search
-    $('.docs form input').tipuesearch
-      mode: 'json'
-      contentLocation: '/js/doc_search_pages.json'
-
-
     # Handle images
     if (images = $('body.developers .docs article :not(a)>img')).length > 0
       images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
