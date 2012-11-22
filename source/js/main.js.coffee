@@ -1,6 +1,8 @@
 #= require_tree ./lib
 #= require referrals
 
+exports = this
+
 
 $ ->
   $(':not(.nofade) > a').hover(
@@ -82,51 +84,38 @@ $ ->
 
     # Add/remove classes depending upon the collapsed state.
     $('#tree div>span').on 'click', ->
-      li = $(this).parent().parent()
-
-      if li.hasClass('checked')
-        li.parent().find('>li').animate opacity: 1, 100
-        li.removeClass 'checked'
-      else
-        li.parent().find('>li').animate opacity: 0.6, 100
-        li.addClass 'checked'
+      $(this).parent().parent().toggleClass 'expanded'
 
 
     # Clicking a directory link should open up the directory index.
     $('#tree a').on 'click', ->
+      $('#tree li').removeClass('checked').find('a').css 'color', '#999'
+
       if $(this).parent().find('>span').length > 0
         li = $(this).parent().parent()
       else
         li = $(this).parent()
 
-      if li.hasClass('checked')
-        li.find('li').each ->
-          $(this).parent().find('>li').animate opacity: 1, 100
-          $(this).removeClass 'checked'
-      else
-        li.parent().find('>li').animate opacity: 0.6, 100
-        li.addClass 'checked'
-
-        li.siblings().each -> $(this).removeClass('checked')
+      li.addClass 'checked'
+      li.parents('li').addClass 'checked'
+      li.find('li a').css 'color', '#3E3E3E'
 
 
-    # Expands the tree to the current URL
-    path = document.location.pathname
-    if (selected = $("#tree a[href='#{path}']")).length > 0
-      if selected.parent().find('>span').length > 0
-        li = selected.parent().parent()
-      else
-        li = selected.parent()
+    do expandTreeWithPath
 
-      if li.hasClass('checked')
-        li.parent().find('>li').animate opacity: 1, 100
-        li.removeClass 'checked'
-      else
-        li.parent().find('>li').animate opacity: 0.6, 100
-        li.addClass 'checked'
 
-      li.parents('li').each ->
-        li = $(this)
+# Expands the tree to the current URL
+exports.expandTreeWithPath = (path)->
+  path = document.location.pathname unless path?
 
-        li.parent().find('>li').animate opacity: 0.6, 100
-        li.addClass 'checked'
+  if (selected = $("#tree a[href='#{path}']")).length > 0
+    $('#tree li').removeClass('checked').find('a').css 'color', '#999'
+
+    if selected.parent().find('>span').length > 0
+      li = selected.parent().parent()
+    else
+      li = selected.parent()
+
+    li.addClass 'checked'
+    li.parents('li').addClass 'checked'
+    li.find('li a').css 'color', '#3E3E3E'

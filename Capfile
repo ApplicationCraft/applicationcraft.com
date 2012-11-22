@@ -18,3 +18,11 @@ set(:current_branch) { `git branch --no-color`.match(/\*\s(.+)\n/)[1] || raise("
 set :branch, defer { current_branch } unless exists?(:branch)
 
 after "deploy:restart", "deploy:cleanup"
+
+
+
+namespace :deploy do
+  task :finalize_update, :except => { :no_release => true } do
+    # Do nothing
+  end
+end

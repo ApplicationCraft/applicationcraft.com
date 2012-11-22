@@ -136,7 +136,7 @@
       padding: 2px 0;
 
       &.checked > a {
-        color: $red;
+        color: $red !important;
       }
 
       a {
@@ -183,7 +183,19 @@
           }
 
           a {
-            color: $red;
+            color: $red !important;
+          }
+        }
+
+        > ol {
+          display: inline-block;
+        }
+      }
+
+      &.expanded {
+        > div {
+          span {
+            background-image: image-url('tree/minus.png');
           }
         }
 

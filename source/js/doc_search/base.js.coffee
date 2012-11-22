@@ -26,9 +26,12 @@ class DocSearch
 
 
   init_events: ->
-    $('.docs aside form').submit =>
+    $('.docs aside form').on 'submit', =>
       @perform_search $('.docs aside form input').val()
       false
+
+    $('#search-content').on 'click', 'a', ->
+      expandTreeWithPath $(this).attr('href')
 
 
   perform_search: (term) ->
