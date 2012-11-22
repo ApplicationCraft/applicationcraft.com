@@ -315,7 +315,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 <td width="18">
 </td>
 <td width="750">
-See [todo] for explanation on how Integration works with the Advanced Maps Widget.
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/data-integration-with-the-maps">Data Integration with Maps widget</a> for explanation on how Integration works with the Advanced Maps Widget.
 
 </td>
 </tr>
@@ -543,7 +543,7 @@ Widget Style
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
 </th>
 <th style="vertical-align:top; width:728px; background-color:#ffffff;">
-See [Markers and Popup Windows](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows) for information and examples.
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows">Markers and Popup Windows</a> for information and examples.
 
 </th>
 </tr>
@@ -570,7 +570,7 @@ The default image to be used for markers. Using javascript, you can create indiv
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
 </th>
 <th style="vertical-align:top; width:728px; background-color:#ffffff;">
-See [Working with Overlays](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/) for information and examples.
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays">Working with Overlays</a> for information and examples.
 
 </th>
 </tr>
@@ -645,7 +645,7 @@ For rectangles, circles and areas, indicates the opacity level of the color with
 <th style="vertical-align:top; width:16px; background-color:#ffffff;">
 </th>
 <th style="vertical-align:top; width:728px; background-color:#ffffff;">
-See [Adsense](/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/googleadsense) for information and examples.
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/googleadsense">Adsense</a> for information and examples.
 
 </th>
 </tr>
@@ -698,4 +698,3 @@ Control the shadow around the widget
 </td>
 </tr>
 </table>
-
