@@ -160,12 +160,14 @@
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    <!-- <script src="/js/vendor/protofluid.min.js"></script> -->
+    <% if current_page.app.development? %>
+      <script src="/js/vendor/protofluid.min.js"></script>
+    <% end %>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min.js"><\/script>')</script>
     <%= javascript_include_tag 'main' %>
     <%= yield_content :foot %>
 
-    <% unless current_page.path.start_with? 'developers/documentation' %>
+    <% if !current_page.app.development? && !current_page.path.start_with?('developers/documentation') %>
       <script>
         var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
