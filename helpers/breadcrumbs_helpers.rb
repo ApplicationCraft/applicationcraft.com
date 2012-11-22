@@ -1,19 +1,21 @@
 module BreadcrumbsHelpers
 
-  def breadcrumbs
-    excluded = ['/', '/developers/', '/developers/documentation/']
-    page, crumbs = current_page, []
+  module_function
 
-    while page = page.parent
-      next if excluded.include? page.url
+    def breadcrumbs(page = nil)
+      excluded = ['/', '/developers/', '/developers/documentation/']
+      page, crumbs = (page || current_page), []
 
-      crumbs << {
-        :url => page.url,
-        :title => page.data.title
-      }
+      while page = page.parent
+        next if excluded.include? page.url
+
+        crumbs << {
+          :url => page.url,
+          :title => page.data.title
+        }
+      end
+
+      crumbs.reverse
     end
-
-    crumbs.reverse
-  end
 
 end

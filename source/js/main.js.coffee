@@ -56,7 +56,7 @@ $ ->
 
 # Tree
 $ ->
-  if $('.tree').length > 0
+  if $('#tree').length > 0
 
     # Handle images
     if (images = $('body.developers .docs article :not(a)>img')).length > 0
@@ -86,7 +86,7 @@ $ ->
 
 
     # Add/remove classes depending upon the collapsed state.
-    $('.tree div>span').on 'click', ->
+    $('#tree div>span').on 'click', ->
       li = $(this).parent().parent()
 
       if li.hasClass('checked')
@@ -98,10 +98,10 @@ $ ->
 
 
     # Clicking a directory link should open up the directory index.
-    $('.tree div>a').on 'click', ->
+    $('#tree div>a').on 'click', ->
       li = $(this).parent().parent()
 
-      $(".tree li>a").removeClass 'active'
+      $("#tree li>a").removeClass 'active'
 
       if li.hasClass('checked')
         li.find('li').each ->
@@ -115,14 +115,14 @@ $ ->
 
 
     # Clicking a file link will make it active.
-    $(".tree a").on 'click', ->
-      $(".tree a").removeClass 'active'
+    $("#tree a").on 'click', ->
+      $("#tree a").removeClass 'active'
       $(this).addClass 'active'
 
 
     # Expands the tree to the current URL
     path = document.location.pathname
-    if (selected = $(".tree a[href='#{path}']")).length > 0
+    if (selected = $("#tree a[href='#{path}']")).length > 0
       if selected.parent().find('>span').length > 0
         li = selected.parent().parent()
       else
