@@ -131,7 +131,7 @@
 &lt;li&gt;&lt;strong&gt;Push Notifications&lt;/strong&gt; : we have integrated the Xtify system and may support others on request.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Scandit Barcode Reader&lt;/strong&gt; : a very high quality barcode reader; it is requires a commcercial license but for mission critical barcode reading it is worth it&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google ZXing&lt;/strong&gt; : this is a free barcode reader&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; : this gives you a relaltional database on your mobile device&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; : this gives you a relational database on your mobile device&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;MailTo&lt;/strong&gt; : send emails from your device&lt;/li&gt;
 &lt;/ul&gt;
 
