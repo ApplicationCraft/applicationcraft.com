@@ -104,14 +104,8 @@ Left/Right/Center. Set to align the text of the shortened Url within the QR Code
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="148">
 <a id="database"> </a> <b>Database</b>
@@ -160,14 +154,6 @@ See <a href="/developers/documentation/product-guide/widget-properties-events/ap
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
@@ -212,7 +198,7 @@ Sizes
 <td width="15">
 </td>
 <td width="779">
-  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
 
 </td>
 </tr>
@@ -266,14 +252,6 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </tr>
 </table>
 <table>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 <tr>
 <td width="148">
 <a id="behavior"> </a> <b>Behavior</b>
@@ -330,14 +308,6 @@ Enable
 <td width="779">
 Set to false to leave the Widget visible but to prevent any user interaction.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
@@ -458,14 +428,6 @@ Auto Load
 <td width="779">
 Set to true to automatically fetch data from assigned view.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
