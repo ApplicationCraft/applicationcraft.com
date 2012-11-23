@@ -10,7 +10,7 @@ full_width: true
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -98,7 +98,7 @@ File Types
 <td width="15">
 </td>
 <td width="779">
-This is where you can restrict uploads to specific file types.  \<blank\> = any file type
+This is where you can restrict uploads to specific file types.  If empty any file type can be uploaded.
 
 </td>
 </tr>
@@ -126,30 +126,12 @@ true/false. Set to true to auto start the upload
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
+</table>
 <table>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -207,18 +189,11 @@ true/false
 </td>
 </tr>
 <tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -228,7 +203,7 @@ true/false
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -338,15 +313,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -402,19 +369,11 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
