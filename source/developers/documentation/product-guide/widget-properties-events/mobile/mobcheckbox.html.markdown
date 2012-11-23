@@ -12,7 +12,7 @@ Checkboxes can be used as a standalone object anywhere within a Page
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_CheckBoxMobileWidget
+Internal class name of the widget.- WiziCore_UI_CheckBoxMobileWidget
 
 </td>
 </tr>
@@ -74,24 +74,12 @@ Specifies that the widget should be checked by default.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
+</table>
 <table>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -118,7 +106,7 @@ Unique
 <td width="15">
 </td>
 <td width="779">
-  None/Case Sensitive/Case Insensitive. For use with <a href="/developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/relational-apps">Relational Apps</a>
+None/Case Sensitive/Case Insensitive. For use with <a href="/developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/relational-apps">Relational Apps</a>
 
 </td>
 </tr>
@@ -132,23 +120,15 @@ Mandatory
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
 
-See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="13">
@@ -158,7 +138,7 @@ See [App Properties](/developers/documentation/product-guide/widget-properties-e
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="13">
@@ -188,7 +168,7 @@ Sizes
 <td width="13">
 </td>
 <td width="781">
-  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
+Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
 
 </td>
 </tr>
@@ -264,19 +244,11 @@ Repeat
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="13">
-</td>
-<td width="781">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -332,19 +304,11 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -372,7 +336,7 @@ Fields
 <td width="15">
 </td>
 <td width="779">
-  This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.
+This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.
 
 </td>
 </tr>
@@ -472,19 +436,11 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
