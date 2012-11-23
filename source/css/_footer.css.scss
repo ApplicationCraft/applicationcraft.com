@@ -100,5 +100,10 @@ footer {
     a {
       color: $cream;
     }
+
+    .container > div {
+      float: right;
+      text-align: right;
+    }
   }
 }
