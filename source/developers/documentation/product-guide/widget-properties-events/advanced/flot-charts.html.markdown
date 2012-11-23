@@ -11,24 +11,25 @@ Flot Charts can be configured to show different chart types and optimised for Mo
 
 <table>
 <tr>
-<th style="vertical-align:top; width:138px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="138">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:782px; background-color:#ffffff;">
-</th>
+</td>
+<td width="21">
+</td>
+<td width="782">
+</td>
 </tr>
 <tr>
 <td width="138">
+
 Widget Class
 
 </td>
 <td width="21">
 </td>
 <td width="782">
-Internal class name of the widget.- WiziCore\_UI\_flotChartBaseWidget
+Internal class name of the widget.- WiziCore_UI_flotChartBaseWidget
 
 </td>
 </tr>
@@ -68,19 +69,11 @@ Brings up dialog to set data series with various data.
 
 </td>
 </tr>
-<tr>
-<td width="138">
-</td>
-<td width="21">
-</td>
-<td width="782">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="137">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="25">
@@ -102,7 +95,7 @@ Percent Width
 </tr>
 <tr>
 <td width="137">
-## X
+X
 
 </td>
 <td width="25">
@@ -196,19 +189,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="137">
-</td>
-<td width="25">
-</td>
-<td width="780">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="135">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="25">
@@ -264,19 +249,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="135">
-</td>
-<td width="25">
-</td>
-<td width="782">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="150">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="10">
@@ -416,19 +393,11 @@ Widget Style
 
 </td>
 </tr>
-<tr>
-<td width="150">
-</td>
-<td width="10">
-</td>
-<td width="782">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="135">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="25">
@@ -568,19 +537,11 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="135">
-</td>
-<td width="25">
-</td>
-<td width="782">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="135">
-<a id="chart"> </a> **Chart**
+<a id="chart"> </a> <b>Chart</b>
 
 </td>
 <td width="25">
@@ -612,19 +573,11 @@ Sets background color of the legend.
 
 </td>
 </tr>
-<tr>
-<td width="135">
-</td>
-<td width="25">
-</td>
-<td width="782">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="135">
-<a id="canvas"> </a> **Canvas**
+<a id="canvas"> </a> <b>Canvas</b>
 
 </td>
 <td width="23">
@@ -680,19 +633,11 @@ Set the size of the Steps
 
 </td>
 </tr>
-<tr>
-<td width="135">
-</td>
-<td width="23">
-</td>
-<td width="784">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="135">
-<a id="x-axis"> </a> **X-Axis**
+<a id="x-axis"> </a> <b>X-Axis</b>
 
 </td>
 <td width="21">
@@ -748,19 +693,11 @@ Boolean field, set true to display labels, false to hide labels.
 
 </td>
 </tr>
-<tr>
-<td width="135">
-</td>
-<td width="21">
-</td>
-<td width="785">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="134">
-<a id="y-axis"> </a> **Y-Axis**
+<a id="y-axis"> </a> <b>Y-Axis</b>
 
 </td>
 <td width="22">
@@ -826,14 +763,6 @@ Show Labels
 <td width="786">
 Boolean field, set true to display labels, false to hide labels.
 
-</td>
-</tr>
-<tr>
-<td width="134">
-</td>
-<td width="22">
-</td>
-<td width="786">
 </td>
 </tr>
 </table>
