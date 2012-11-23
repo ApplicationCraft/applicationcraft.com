@@ -12,7 +12,7 @@ Apps often require menus to navigate between pages. And great looking Apps need 
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.-WiziCore\_UI\_MenuAdvancedWidget
+Internal class name of the widget.-WiziCore_UI_MenuAdvancedWidget
 
 </td>
 </tr>
@@ -56,19 +56,11 @@ Select to enter in Menu requirements
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -78,7 +70,7 @@ Select to enter in Menu requirements
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -172,19 +164,11 @@ Anchors
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -228,19 +212,11 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
