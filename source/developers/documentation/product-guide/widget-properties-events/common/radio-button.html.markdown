@@ -83,14 +83,7 @@ Specifies that the widget should be checked by default.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -213,14 +206,7 @@ Repeat
 </tr>
 </table>
 <table>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+
 <tr>
 <td width="148">
 <a id="behavior"> </a> <b>Behavior</b>
@@ -277,14 +263,6 @@ Enable
 <td width="779">
 Set to false to leave the Widget visible but to prevent any user interaction.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
@@ -420,8 +398,6 @@ Set to true to automatically fetch data from assigned view.
 </td>
 </tr>
 </table>
-        
-
 <table>
 <tr>
 <td width="148">
@@ -477,7 +453,7 @@ Margin
 <td width="15">
 </td>
 <td width="779">
-  Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
+Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
 
 </td>
 </tr>
