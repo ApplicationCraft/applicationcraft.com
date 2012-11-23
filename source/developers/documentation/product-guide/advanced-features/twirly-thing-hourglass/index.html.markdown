@@ -31,11 +31,16 @@ We have set the App display hourglass property to 'Widget' so it will show over 
         // other actions
             app.pageJump("page2");
         }, 100);
-        
     }
+
+and on the target page 'On Page Show' event, to hide the twirly thing:
+
     function handler_SummaryPage_onPageShow(){
         app.twirlyThing(app, false);        
     }
+
+2: As we upload data to an external database we want to show the twirly thing over the with a different text message as the process commences and then hide it when the upload is successfully completed. Please note that this is being handled in the Client Side functions and not the Server Side functions
+
     function handler_btnUpload_onClick(mouseev){
      
         // Prepare an object to pass to the SSJ function
@@ -63,12 +68,7 @@ We have set the App display hourglass property to 'Widget' so it will show over 
     }
    
 
-and on the target page 'On Page Show' event, to hide the twirly thing:
-
-2: As we upload data to an external database we want to show the twirly thing over the with a different text message as the process commences and then hide it when the upload is successfully completed. Please note that this is being handled in the Client Side functions and not the Server Side functions
-
 ## In This Section
 
  - [Twirly Thing](/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/twirly-thing)
  - [Display Hourglass Over](/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/display-hourglass-over)
-
