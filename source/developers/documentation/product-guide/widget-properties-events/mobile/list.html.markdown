@@ -19,14 +19,14 @@ See: [Mobile List Widget](/developers/documentation/product-guide/advanced-impor
 
 ## Related Videos
 
-[![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/q6VXeWOhAxA?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating List Widgets with Javascript  [5:15]
+[![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/q6VXeWOhAxA?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating List Widgets with Javascript[5:15]
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/xGGfUAoCM78?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Populating List Widgets with the Item Dialog [3:09]
 
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -42,7 +42,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_ListMobileWidget
+Internal class name of the widget.- WiziCore_UI_ListMobileWidget
 
 </td>
 </tr>
@@ -118,24 +118,12 @@ Where you can enter text that will show to the user when Filter property is enab
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
+</table>
 <table>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -188,23 +176,15 @@ Mandatory
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
 
-See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -226,7 +206,7 @@ Sizes
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -312,15 +292,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -376,19 +348,11 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -517,12 +481,10 @@ Set to true to automatically fetch data from assigned view.
 </td>
 </tr>
 </table>
-        
-
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
