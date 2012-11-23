@@ -80,14 +80,8 @@ Set to the locale
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="148">
 <a id="database"> </a> <b>Database</b>
@@ -146,14 +140,6 @@ true/false. Set to true to ensure the field is completed before submission is al
 
 See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
@@ -279,14 +265,7 @@ Repeat
 </table>
 <table>
 <tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
+
 <td width="148">
 <a id="behavior"> </a> <b>Behavior</b>
 
@@ -354,14 +333,6 @@ Read Only
 <td width="779">
 If set to True, the object can be interacted with by a user but data cannot be altered.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
@@ -496,14 +467,8 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="148">
 <a id="appearance"> </a> <b>Appearance</b>
