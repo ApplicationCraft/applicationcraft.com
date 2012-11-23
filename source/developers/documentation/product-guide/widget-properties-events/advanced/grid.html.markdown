@@ -34,7 +34,7 @@ As an example, let's say you have a Grid whose first column is "Country". You wo
     {customers.country}={value}[0]
    
 
-Where  {value}[0] is the 0-based column index of the Grid and {customers.country} is the View field to apply the condition to.
+Where `{value}[0]` is the 0-based column index of the Grid and {customers.country} is the View field to apply the condition to.
 
 You should also ensure the Broadcast property is set to True, so the Grid click event is broadcast to the View properly.
 
@@ -43,7 +43,7 @@ You should also ensure the Broadcast property is set to True, so the Grid click 
 <table>
 <tr>
 <td width="159">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="9">
@@ -59,7 +59,7 @@ Widget Class
 <td width="9">
 </td>
 <td width="775">
-Internal class name of the widget.- WiziCore\_UI\_GridWidget
+Internal class name of the widget.- WiziCore_UI_GridWidget
 
 </td>
 </tr>
@@ -141,17 +141,11 @@ Controls which page is the first displayed
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="159">
-</td>
-<td width="9">
-</td>
-<td width="775">
-</td>
-</tr>
-<tr>
-<td width="159">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
 </td>
 <td width="9">
@@ -195,19 +189,11 @@ Automatic relationships
 
 </td>
 </tr>
-<tr>
-<td width="159">
-</td>
-<td width="9">
-</td>
-<td width="775">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="159">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="10">
@@ -241,7 +227,7 @@ Height of the Widget in pixels.
 </tr>
 <tr>
 <td width="159">
-## X
+X
 
 </td>
 <td width="10">
@@ -315,15 +301,7 @@ Repeat
 <table>
 <tr>
 <td width="158">
-</td>
-<td width="11">
-</td>
-<td width="773">
-</td>
-</tr>
-<tr>
-<td width="158">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="11">
@@ -379,19 +357,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="158">
-</td>
-<td width="11">
-</td>
-<td width="773">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -544,12 +514,10 @@ Set to map View fields. For use in writing data back out to connected database t
 </td>
 </tr>
 </table>
-        
-
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="21">
@@ -847,4 +815,3 @@ On Open End
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
-
