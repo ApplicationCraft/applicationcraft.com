@@ -108,7 +108,7 @@
 
 <p>What is somewhat different is that SQLite is asynchronous. For novice javascript developer, this means that callback functions are used instead of synchronous return codes. If you are not familiar with callbacks, then you should be before you start thinking about more advanced storage strategies. Callbacks are a very standard javascript thing and you cannot really survive without them for long. Don&#39;t worry, with a bit of practice, they are not that scary.</p>
 
-<h2 id="toc_1">Create a new Database as the app starts or if already exists, populate a Mobile List widget</h2>
+<p><strong>Create a new Database as the app starts or if already exists, populate a Mobile List widget</strong></p>
 
 <pre><code>var database = null;
 
@@ -150,8 +150,11 @@ function handler_application_onAppStarted(){
         console.log(&quot;Error create database::err=&quot; + err);
     });        
 }
+</code></pre>
 
-function insertRow(db, fio, address, callback){
+<p><strong>Add a new record to the Database</strong>    </p>
+
+<pre><code>function insertRow(db, fio, address, callback){
     db.insert(&quot;test&quot;, {fio : fio, address : address }, function(id){ 
         console.log(&quot;id=&quot;+id); 
         if (callback)
@@ -171,8 +174,6 @@ function handler_actionBtn_onClick(mouseev){
     });        
 }
 </code></pre>
-
-<p><strong>Add a new record to the Database</strong></p>
 
     </article>
 

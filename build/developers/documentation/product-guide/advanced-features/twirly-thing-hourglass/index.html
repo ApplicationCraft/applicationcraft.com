@@ -120,12 +120,19 @@
     // other actions
         app.pageJump(&quot;page2&quot;);
     }, 100);
-
 }
-function handler_SummaryPage_onPageShow(){
+</code></pre>
+
+<p>and on the target page &#39;On Page Show&#39; event, to hide the twirly thing:</p>
+
+<pre><code>function handler_SummaryPage_onPageShow(){
     app.twirlyThing(app, false);        
 }
-function handler_btnUpload_onClick(mouseev){
+</code></pre>
+
+<p>2: As we upload data to an external database we want to show the twirly thing over the with a different text message as the process commences and then hide it when the upload is successfully completed. Please note that this is being handled in the Client Side functions and not the Server Side functions</p>
+
+<pre><code>function handler_btnUpload_onClick(mouseev){
 
     // Prepare an object to pass to the SSJ function
     p = {action:&quot;AddRecord&quot;, data:_allData};
@@ -151,10 +158,6 @@ function handler_btnUpload_onClick(mouseev){
 
 }
 </code></pre>
-
-<p>and on the target page &#39;On Page Show&#39; event, to hide the twirly thing:</p>
-
-<p>2: As we upload data to an external database we want to show the twirly thing over the with a different text message as the process commences and then hide it when the upload is successfully completed. Please note that this is being handled in the Client Side functions and not the Server Side functions</p>
 
 <h2 id="toc_1">In This Section</h2>
 

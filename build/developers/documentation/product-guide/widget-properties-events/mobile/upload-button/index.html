@@ -101,7 +101,7 @@
       <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -189,7 +189,7 @@ File Types
 <td width="15">
 </td>
 <td width="779">
-This is where you can restrict uploads to specific file types.  \<blank\> = any file type
+This is where you can restrict uploads to specific file types.  If empty any file type can be uploaded.
 
 </td>
 </tr>
@@ -217,8 +217,13 @@ true/false. Set to true to auto start the upload
 
 </td>
 </tr>
+</table>
+
+<table>
 <tr>
 <td width="148">
+<a id="database"> </a> <b>Database</b>
+
 </td>
 <td width="15">
 </td>
@@ -227,367 +232,323 @@ true/false. Set to true to auto start the upload
 </tr>
 <tr>
 <td width="148">
+Store in Database
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Select to true to store the data from this field for reporting
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Unique
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+  None/Case Sensitive/Case Insensitive. For use with <a href="/developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/relational-apps">Relational Apps</a>
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Mandatory
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+true/false. Set to true to ensure the field is completed before submission is allowed.
+
+See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Is Attachment
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+true/false
+
+</td>
+</tr>
+<tr>
+</table>
+
 <table>
 <tr>
 <td width="148">
-<table>
+<a id="layout"> </a> <b>Layout</b>
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+</td>
+</tr>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+X
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Number of pixels from the left edge of the Page.
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Y
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Number of pixels from the top edge of the Page.
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Sizes
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Repeat
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Z-Index
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+A number that indicates the imaginary layer that the Widget is in. If you imagine several Widgets all placed over one another, the top-most Widget has the highest Z-Index and the bottom most Widget has the lowest. You can adjust the Z-Index by changing the value. You can also use the right-click menu to adjust these in a friendlier way.
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Tab order
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Where you can control the tab order in your app.
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Tab Stop
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+true/false.  If set to false users will not tab into this field
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Anchors
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Align in Container
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Left/Center/Right. Set as required to align the widget within its parent container
 
 </td>
 </tr>
 </table>
 
-<p></td><br>
-</tr><br>
-</table><br>
-</td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-</td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Store in Database</p>
+<table>
+<tr>
+<td width="148">
+<a id="behavior"> </a> <b>Behavior</b>
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Select to true to store the data from this field for reporting</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+</td>
+</tr>
+<tr>
+<td width="148">
+Drag and Drop
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Unique</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+If set to true, the user is able to drag and drop the widget with the mouse at run time
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-  None/Case Sensitive/Case Insensitive. For use with <a href="/developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/relational-apps">Relational Apps</a></p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Resizing
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Mandatory</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+Disable/Enable. Set to True to allow the widget to be resized at Runtime. Configurable Max/Min Width and Height, Right & Bottom, Top & Left or All
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-true/false. Set to true to ensure the field is completed before submission is allowed.</p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Visible
 
-<p>See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+Set to False if you want the Widget to appear hidden by default. You would use Javascript to override this at a later stage.
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Is Attachment</p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Enable
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-true/false</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+Set to false to leave the Widget visible but to prevent any user interaction.
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-</td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-</td><br>
-</tr><br>
-</table><br>
-<table><br>
-<tr><br>
-<td width="148"><br>
-<a id="layout"> </a> <strong>Layout</strong></p>
+</td>
+</tr>
+</table>
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-</td><br>
-</tr><br>
-<tr><br>
-<td width="148"></p>
+<table>
+<tr>
+<td width="148">
+<a id="style"> </a> <b>Style</b>
 
-<h2 id="toc_0">X</h2>
+</td>
+<td width="15">
+</td>
+<td width="779">
+</td>
+</tr>
+<tr>
+<td width="148">
+Opacity
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Number of pixels from the left edge of the Page.</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+This % value specifies the transparency of the Widget.
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Y</p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Margin
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Number of pixels from the top edge of the Page.</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+  Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Sizes</p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Mobile Theme
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">&#39;Sizes&#39; Property Dialog</a></p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+  Where you can set the Theme colors for the widget. See <a href="/developers/documentation/product-guide/mobile-apps-sites/mobile-themes">Mobile Themes</a>
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Repeat</p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Icon
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+Where you can set an icon for the button
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Z-Index</p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Icon Position
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-A number that indicates the imaginary layer that the Widget is in. If you imagine several Widgets all placed over one another, the top-most Widget has the highest Z-Index and the bottom most Widget has the lowest. You can adjust the Z-Index by changing the value. You can also use the right-click menu to adjust these in a friendlier way.</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+Where you can set the position of the icon
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Tab order</p>
+</td>
+</tr>
+<tr>
+<td width="148">
+Widget Style
 
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Where you can control the tab order in your app.</p>
+</td>
+<td width="15">
+</td>
+<td width="779">
+  This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Tab Stop</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-true/false.  If set to false users will not tab into this field</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Anchors</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-  This is used in conjunction with &quot;Docked&quot; App Pages. You can use this to allows a Widget&#39;s X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking &amp; Anchoring</a> .</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Align in Container</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Left/Center/Right. Set as required to align the widget within its parent container</p>
-
-<p></td><br>
-</tr><br>
-</table><br>
-<table><br>
-<tr><br>
-<td width="148"><br>
-</td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-</td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-<a id="behavior"> </a> <strong>Behavior</strong></p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-</td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Drag and Drop</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-If set to true, the user is able to drag and drop the widget with the mouse at run time</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Resizing</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Disable/Enable. Set to True to allow the widget to be resized at Runtime. Configurable Max/Min Width and Height, Right &amp; Bottom, Top &amp; Left or All</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Visible</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Set to False if you want the Widget to appear hidden by default. You would use Javascript to override this at a later stage.</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Enable</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Set to false to leave the Widget visible but to prevent any user interaction.</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-</td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-</td><br>
-</tr><br>
-</table><br>
-<table><br>
-<tr><br>
-<td width="148"><br>
-<a id="style"> </a> <strong>Style</strong></p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-</td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Opacity</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-This % value specifies the transparency of the Widget.</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Margin</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-  Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a></p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Mobile Theme</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-  Where you can set the Theme colors for the widget. See <a href="/developers/documentation/product-guide/mobile-apps-sites/mobile-themes">Mobile Themes</a></p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Icon</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Where you can set an icon for the button</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Icon Position</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-Where you can set the position of the icon</p>
-
-<p></td><br>
-</tr><br>
-<tr><br>
-<td width="148"><br>
-Widget Style</p>
-
-<p></td><br>
-<td width="15"><br>
-</td><br>
-<td width="779"><br>
-  This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget&#39;s default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.</p>
-
-<p></td><br>
-</tr><br>
-</table></p>
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -722,7 +683,7 @@ On Resize Stop
 </tr>
 </table>
 
-<h2 id="toc_1">See Also</h2>
+<h2 id="toc_0">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a></li>
