@@ -16,7 +16,7 @@ In the above image, you will see that when you drag a Mobile Action Button widge
 <table>
 <tr>
 <td width="176">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="22">
@@ -32,7 +32,7 @@ Widget Class
 <td width="22">
 </td>
 <td width="744">
-Internal class name of the widget.- WiziCore\_UI\_ContainerMobileWidget
+Internal class name of the widget.- WiziCore_UI_ContainerMobileWidget
 
 </td>
 </tr>
@@ -66,24 +66,12 @@ Layout
 
 </td>
 </tr>
-<tr>
-<td width="176">
-</td>
-<td width="22">
-</td>
-<td width="744">
-</td>
-</tr>
-<tr>
-<td width="176">
+</table>
 <table>
 <tr>
 <td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
-</td>
-</tr>
-</table>
 </td>
 <td width="22">
 </td>
@@ -114,19 +102,11 @@ Automatic Relationships
 
 </td>
 </tr>
-<tr>
-<td width="176">
-</td>
-<td width="22">
-</td>
-<td width="744">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="177">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="20">
@@ -136,7 +116,7 @@ Automatic Relationships
 </tr>
 <tr>
 <td width="177">
-## X
+X
 
 </td>
 <td width="20">
@@ -230,19 +210,11 @@ None/Auto/Vertical/Horizontal. Allows you to set the scrolling behaviour. Please
 
 </td>
 </tr>
-<tr>
-<td width="177">
-</td>
-<td width="20">
-</td>
-<td width="745">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="177">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="21">
@@ -310,19 +282,11 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="177">
-</td>
-<td width="21">
-</td>
-<td width="744">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="178">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="20">
@@ -426,19 +390,11 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="178">
-</td>
-<td width="20">
-</td>
-<td width="744">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="179">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="20">
