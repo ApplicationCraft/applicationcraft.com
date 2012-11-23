@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore_UI_WysiwygWidget
+Internal class name of the widget.- HTML
 
 </td>
 </tr>

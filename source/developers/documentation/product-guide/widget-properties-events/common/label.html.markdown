@@ -11,7 +11,7 @@ The Label Widget is one of the fundamental objects within Application Craft and 
 
 <table>
 <tr>
-<td width:"161">
+<td width="161">
 <a id="general"> </a> <b>General</b>
 
 

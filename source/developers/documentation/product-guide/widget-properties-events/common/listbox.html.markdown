@@ -84,20 +84,15 @@ Items
 <td width="15">
 </td>
 <td width="779">
-  This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See <a href="/developers/documentation/product-guide/widget-properties-events/prefill">Prefill</a>
+This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See <a href="/developers/documentation/product-guide/widget-properties-events/prefill">Prefill</a>
 
 </td>
 </tr>
-<tr>
-<td width="148">
-<table>
 <tr>
 <td width="148">
 Multi Select
 
 </td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -107,15 +102,6 @@ true/false. Where you can allow multiple selections of items in the list
 </td>
 </tr>
 <tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
 </table>
 <table>
 <tr>
@@ -180,13 +166,7 @@ See <a href="/developers/documentation/product-guide/widget-properties-events/ap
 </td>
 </tr>
 <tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -287,14 +267,7 @@ Repeat
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
+
 <a id="behavior"> </a> <b>Behavior</b>
 
 </td>
@@ -349,14 +322,6 @@ Enable
 <td width="779">
 Set to false to leave the Widget visible but to prevent any user interaction.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
@@ -878,4 +843,3 @@ On Resize Stop
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
-

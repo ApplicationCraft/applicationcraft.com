@@ -114,30 +114,16 @@ true/false. Set to true to auto start the upload
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
+
+</table>
+
+</table>
+
 <table>
 <tr>
 <td width="148">
 <a id="database"> </a> <b>Database</b>
 
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -326,14 +312,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
+
 <a id="behavior"> </a> <b>Behavior</b>
 
 </td>

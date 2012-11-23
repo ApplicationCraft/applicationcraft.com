@@ -12,7 +12,7 @@ The action button can be used to manage Data views and Page Navigation, but also
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_NextButtonWidget
+Internal class name of the widget.- WiziCore_UI_NextButtonWidget
 
 </td>
 </tr>
@@ -46,14 +46,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Label
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -86,7 +80,7 @@ Select to set the page to jump to. ('Forward' and 'Back' behave in same manner a
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -96,7 +90,7 @@ Select to set the page to jump to. ('Forward' and 'Back' behave in same manner a
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -214,7 +208,7 @@ true/false.  If set to false users will not tab into this field
 </tr>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -282,7 +276,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

@@ -9,18 +9,18 @@ full_width: true
 
 <table>
 <tr>
-<th style="vertical-align:top; width:172px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="172">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:754px; background-color:#ffffff;">
-</th>
+</td>
+<td width="21">
+</td>
+<td width="754">
+</td>
 </tr>
 <tr>
-<td width="172">
-Widget class
+<td width="148">
+Widget Class
 
 </td>
 <td width="21">
@@ -114,17 +114,11 @@ The default volume level
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
-<tr>
-<td width="172">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="21">
@@ -134,7 +128,7 @@ The default volume level
 </tr>
 <tr>
 <td width="172">
-## X
+X
 
 </td>
 <td width="21">
@@ -216,160 +210,139 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
+
+</table>
+<table>
 <tr>
 <td width="172">
+<a id="behavior"> </a> <b>Behavior</b>
+
 </td>
 <td width="21">
 </td>
 <td width="754">
 </td>
 </tr>
-</table>
-<table>
 <tr>
-<td width="174">
-<a id="behavior"> </a> **Behavior**
-
-</td>
-<td width="20">
-</td>
-<td width="748">
-</td>
-</tr>
-<tr>
-<td width="174">
+<td width="172">
 Drag and Drop
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 If set to true, the user is able to drag and drop the widget with the mouse at run time
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Resizing
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 Disable/Enable. Set to True to allow the widget to be resized at Runtime. Configurable Max/Min Width and Height, Right & Bottom, Top & Left or All
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Visible
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 Set to False if you want the Widget to appear hidden by default. You would use Javascript to override this at a later stage.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Enable
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
+
+</table>
+<table>
+<tr>
+<td width="172">
+<a id="data"> </a> <b>Data</b>
+
+</td>
+<td width="21">
+</td>
+<td width="754">
+Not currently supported
+
+</td>
+</tr>
+
+</table>
+<table>
 <tr>
 <td width="174">
+<a id="style"> </a> <b>Style</b>
+
 </td>
 <td width="20">
 </td>
 <td width="748">
 </td>
 </tr>
-</table>
-<table>
 <tr>
 <td width="174">
-<a id="data"> </a> **Data**
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-Not currently supported
-
-</td>
-</tr>
-<tr>
-<td width="174">
-</td>
-<td width="18">
-</td>
-<td width="750">
-</td>
-</tr>
-</table>
-<table>
-<tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
-
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:728px; background-color:#ffffff;">
-</th>
-</tr>
-<tr>
-<td width="176">
 Opacity
 
 </td>
-<td width="16">
+<td width="20">
 </td>
-<td width="728">
+<td width="748">
 This % value specifies the transparency of the Widget.
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="174">
 Margin
 
 </td>
-<td width="16">
+<td width="20">
 </td>
-<td width="728">
+<td width="748">
   Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="174">
 Border
 
 </td>
-<td width="16">
+<td width="20">
 </td>
-<td width="728">
+<td width="748">
 Controls Border for whole container, using Border dialog
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="174">
 BG Color
 
 </td>
-<td width="16">
+<td width="20">
 </td>
-<td width="728">
+<td width="748">
 Set the background color of the Widget.
 
 </td>
