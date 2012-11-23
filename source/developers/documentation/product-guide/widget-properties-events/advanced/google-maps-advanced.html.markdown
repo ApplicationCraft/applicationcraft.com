@@ -124,14 +124,8 @@ Libraries
 
 </td>
 </tr>
-<tr>
-<td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="172">
 <a id="layout"> </a> <b>Layout</b>
@@ -238,14 +232,6 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
 </table>
 <table>
 <tr>
@@ -304,14 +290,6 @@ Enable
 <td width="748">
 Set to false to leave the Widget visible but to prevent any user interaction
 
-</td>
-</tr>
-<tr>
-<td width="174">
-</td>
-<td width="20">
-</td>
-<td width="748">
 </td>
 </tr>
 </table>
@@ -448,14 +426,6 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="174">
-</td>
-<td width="18">
-</td>
-<td width="750">
-</td>
-</tr>
 </table>
 <table>
 <tr>
@@ -547,7 +517,7 @@ Widget Style
 
 See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays/markers-and-popup-windows">Markers and Popup Windows</a> for information and examples.
 
-</th>
+
 </tr>
 <tr>
 <td width="176">
@@ -572,7 +542,6 @@ The default image to be used for markers. Using javascript, you can create indiv
 
 See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/working-with-overlays">Working with Overlays</a> for information and examples.
 
-</th>
 </tr>
 <tr>
 <td width="176">
@@ -644,7 +613,6 @@ For rectangles, circles and areas, indicates the opacity level of the color with
 </td>
 See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/googleadsense">Adsense</a> for information and examples.
 
-</th>
 </tr>
 <tr>
 <td width="176">
