@@ -12,7 +12,7 @@ The action button can be used to manage Data views and Page Navigation, but also
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_ActionButtonMobileWidget
+Internal class name of the widget.- WiziCore_UI_ActionButtonMobileWidget
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ Link
 <td width="15">
 </td>
 <td width="779">
-    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail) , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS(">mobileEmail()</a></a>
+    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a>, <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail">mobileEmail()</a>, <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS()</a>
 
 </td>
 </tr>
@@ -86,19 +86,11 @@ Select to set the page to jump to. ('Forward' and 'Back' behave in same manner a
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -108,7 +100,7 @@ Select to set the page to jump to. ('Forward' and 'Back' behave in same manner a
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -218,15 +210,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -282,19 +266,11 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

@@ -74,7 +74,7 @@ Icon
 <td width="20">
 </td>
 <td width="740">
-  Set the icon to use in your App when compiling as a Mobile Native App. See <a href="/developers/documentation/product-guide/mobile-apps-sites/icon-management">Icon Management</a>
+Set the icon to use in your App when compiling as a Mobile Native App. See <a href="/developers/documentation/product-guide/mobile-apps-sites/icon-management">Icon Management</a>
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Splash Image
 <td width="20">
 </td>
 <td width="740">
-  Points to an image that is used as a splash screen when the App loads. See <a href="/developers/documentation/product-guide/mobile-apps-sites/splash-image-management">Splash Image Management</a>
+Points to an image that is used as a splash screen when the App loads. See <a href="/developers/documentation/product-guide/mobile-apps-sites/splash-image-management">Splash Image Management</a>
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Page Transition
 <td width="20">
 </td>
 <td width="740">
-  This is where you can set the default app page transition properties See <a href="/developers/documentation/product-guide/mobile-apps-sites/page-transition-effects">Page Transition Effects</a>
+This is where you can set the default app page transition properties See <a href="/developers/documentation/product-guide/mobile-apps-sites/page-transition-effects">Page Transition Effects</a>
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Login App
 <td width="20">
 </td>
 <td width="740">
-  The login form to be used for this app See <a href="/developers/documentation/product-guide/advanced-features/authentication-for-your-apps/typical-authentication-strategies/using-on-login-app-for-all-app">Using one Login App for all Apps</a>
+The login form to be used for this app See <a href="/developers/documentation/product-guide/advanced-features/authentication-for-your-apps/typical-authentication-strategies/using-on-login-app-for-all-app">Using one Login App for all Apps</a>
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ User Access
 <td width="20">
 </td>
 <td width="740">
-  Set User access levels to your app. See <a href="/developers/documentation/product-guide/the-console/sharing">Sharing</a>
+Set User access levels to your app. See <a href="/developers/documentation/product-guide/the-console/sharing">Sharing</a>
 
 </td>
 </tr>
@@ -206,21 +206,15 @@ Linked Apps
 <td width="20">
 </td>
 <td width="740">
-  Where you can define other apps that are linked to this app using <a href="/developers/documentation/scripting-apis/client-api/app-functions/switchapp">switchApp()</a> . This will then include these apps as you compile as a Mobile Native App
+Where you can define other apps that are linked to this app using <a href="/developers/documentation/scripting-apis/client-api/app-functions/switchapp">switchApp()</a>. This will then include these apps as you compile as a Mobile Native App
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="182">
-</td>
-<td width="20">
-</td>
-<td width="740">
-</td>
-</tr>
-<tr>
-<td width="182">
-  <strong>Internationalization</strong>
+  <b>Internationalization</b>
 
 </td>
 <td width="20">
@@ -252,6 +246,8 @@ String Table
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="182">
 <a id="data"> </a> <b>oAuth</b>
@@ -272,14 +268,8 @@ oAuth
   oAuth Providers - Where you register your App Key and App Secret keys for your chosen service. See <a href="/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret">App Key and App Secret</a>
 </td>
 </tr>
-<tr>
-<td width="182">
-</td>
-<td width="20">
-</td>
-<td width="740">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="182">
 <a id="data"> </a> <b>Data</b>
@@ -302,14 +292,8 @@ This indicates the number of Views used within the App. To add or remove Views, 
 
 </td>
 </tr>
-<tr>
-<td width="182">
-</td>
-<td width="20">
-</td>
-<td width="740">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="182">
 <a id="advanced"> </a> <b>Advanced</b>
@@ -428,14 +412,8 @@ Allows you to add code between the head tags of the app's index.html page.
 
 </td>
 </tr>
-<tr>
-<td width="182">
-</td>
-<td width="20">
-</td>
-<td width="740">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="182">
 <a id="phonegap"> </a> <b>PhoneGap</b>
@@ -470,14 +448,8 @@ Available plugins can be enabled and used within apps built using
 
 </td>
 </tr>
-<tr>
-<td width="182">
-</td>
-<td width="20">
-</td>
-<td width="740">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="182">
 <a id="database"> </a> <b>Database</b>
@@ -594,6 +566,8 @@ Set the color to highlight any mandatory fields that are not completed on submis
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="182">
 <a id="custom"> </a> <b>Custom</b>
@@ -616,6 +590,8 @@ Select to render any charts using Flash or Javascript
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="182">
 <a id="style"> </a> <b>Style</b>
@@ -643,7 +619,7 @@ Theme
 <table>
 <tr>
 <td width="139">
-  <strong>Supported Events:</strong>
+  <b>Supported Events:</b>
 
 </td>
 <td width="14">

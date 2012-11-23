@@ -17,7 +17,7 @@ This SQL driven approach is a real strength. It will be comfortable to anyone wh
 
 What is somewhat different is that SQLite is asynchronous. For novice javascript developer, this means that callback functions are used instead of synchronous return codes. If you are not familiar with callbacks, then you should be before you start thinking about more advanced storage strategies. Callbacks are a very standard javascript thing and you cannot really survive without them for long. Don't worry, with a bit of practice, they are not that scary.
 
-## Create a new Database as the app starts or if already exists, populate a Mobile List widget
+**Create a new Database as the app starts or if already exists, populate a Mobile List widget**
 
     var database = null;
      
@@ -59,6 +59,8 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
             console.log("Error create database::err=" + err);
         });        
     }
+    
+**Add a new record to the Database**    
      
     function insertRow(db, fio, address, callback){
         db.insert("test", {fio : fio, address : address }, function(id){ 
@@ -81,5 +83,5 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
     }
    
 
-**Add a new record to the Database**
+
 

@@ -11,14 +11,14 @@ The Label Widget is one of the fundamental objects within Application Craft and 
 
 <table>
 <tr>
-<th style="vertical-align:top; width:148px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="1481">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:15px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:779px; background-color:#ffffff;">
-</th>
+</td>
+<td width="15">
+</td>
+<td width="779">
+</td>
 </tr>
 <tr>
 <td width="148">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_LabelMobileWidget
+Internal class name of the widget.- WiziCore_UI_LabelMobileWidget
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Link
 <td width="15">
 </td>
 <td width="779">
-    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a> , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail) , <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS(">mobileEmail()</a></a>
+    Dial/Email/SMS/URL. Define a link from the widget. For Email/SMS/URL additional parameters (Subject/Body etc) can also be set. Dial & SMS for use with Mobile apps. See also: <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobiledial">mobileDial()</a>, <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobileemail">mobileEmail()</a>, <a href="/developers/documentation/scripting-apis/client-api/app-functions/mobilesms">mobileSMS()</a>
 
 </td>
 </tr>
@@ -104,19 +104,11 @@ Select to set the page to jump to if clicked.('Forward' and 'Back' behave in sam
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout<b>
 
 </td>
 <td width="15">
@@ -126,7 +118,7 @@ Select to set the page to jump to if clicked.('Forward' and 'Back' behave in sam
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -208,19 +200,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -276,19 +260,11 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -380,19 +356,11 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

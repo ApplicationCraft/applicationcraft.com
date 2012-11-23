@@ -9,14 +9,14 @@ full_width: true
 
 <table>
 <tr>
-<th style="vertical-align:top; width:147px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="147">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:47px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:753px; background-color:#ffffff;">
-</th>
+</td>
+<td width="47">
+</td>
+<td width="753">
+</td>
 </tr>
 <tr>
 <td width="147">
@@ -90,17 +90,12 @@ Specify the default date highlighted
 
 </td>
 </tr>
-<tr>
-<td width="147">
-</td>
-<td width="47">
-</td>
-<td width="753">
-</td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="147">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="47">
@@ -110,7 +105,7 @@ Specify the default date highlighted
 </tr>
 <tr>
 <td width="147">
-## X
+X
 
 </td>
 <td width="47">
@@ -167,23 +162,23 @@ A number that indicates the imaginary layer that the Widget is in. If you imagin
 </table>
 <table>
 <tr>
-<td width="144">
-<a id="behavior"> </a> **Behavior**
+<td width="147">
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
-<td width="53">
+<td width="47">
 </td>
-<td width="745">
+<td width="753">
 </td>
 </tr>
 <tr>
-<td width="144">
+<td width="147">
 Resizing
 
 </td>
-<td width="53">
+<td width="47">
 </td>
-<td width="745">
+<td width="753">
 Disable/Enable. Set to True to allow the widget to be resized at Runtime. Configurable Max/Min Width and Height, Right & Bottom, Top & Left or All
 
 </td>
@@ -193,161 +188,161 @@ Disable/Enable. Set to True to allow the widget to be resized at Runtime. Config
 Visible
 
 </td>
-<td width="53">
+<td width="47">
 </td>
-<td width="745">
+<td width="753">
 Set to False if you want the Widget to appear hidden by default. You would use Javascript to override this at a later stage.
 
 </td>
 </tr>
 <tr>
-<td width="144">
+<td width="147">
 Enable
 
 </td>
-<td width="53">
+<td width="47">
 </td>
-<td width="745">
+<td width="753">
 Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
 <tr>
-<td width="144">
+<td width="147">
 </td>
-<td width="53">
+<td width="47">
 </td>
-<td width="745">
+<td width="753">
 </td>
 </tr>
 </table>
 <table>
 <tr>
-<td width="148">
-<a id="data"> </a> **Data**
+<td width="147">
+<a id="data"> </a> <b>Data</b>
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 View
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
 Select the view to use
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Fields
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
   This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Group By
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
   This allows you to Group data within a View in the same way you would with a SQL statement. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by">Group By</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Order By
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
   Specifies the order in which data is presented to the Widget.  Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by">Order By</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Filter
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
 This is a global, static filter that can be defined for each View in your App.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Drill Filter
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
   This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-filter">Drill Filter</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Broadcast
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
   Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/broadcast">Broadcast</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Listen
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
   This indicates whether the Widget should react to a Drill Down action on a common View. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen">Listen</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Reset Filter
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
   Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter">Reset Filter</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="148">
+<td width="147">
 Auto Load
 
 </td>
-<td width="48">
+<td width="47">
 </td>
-<td width="746">
+<td width="753">
 Set to true to automatically fetch data from assigned view.
 
 </td>
@@ -355,23 +350,23 @@ Set to true to automatically fetch data from assigned view.
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:174px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
+<td width="147">
+<a id="style"> </a> <b>Style</b>
 
-</th>
-<th style="vertical-align:top; width:20px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:748px; background-color:#ffffff;">
-</th>
+</td>
+<td width="47">
+</td>
+<td width="753">
+</td>
 </tr>
 <tr>
-<td width="174">
+<td width="147">
 BG Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 The background color of the Widget. If it is empty, the App's Theme Back Color will be used. If you override this and want to revert to the Theme Style Back Color, then open up the property dialog and select the "Use Theme" option.
 
 </td>
@@ -381,9 +376,9 @@ The background color of the Widget. If it is empty, the App's Theme Back Color w
 Opacity
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 This % value specifies the transparency of the Widget.
 
 </td>
@@ -393,9 +388,9 @@ This % value specifies the transparency of the Widget.
 Border
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Controls Border for whole container, using Border dialog
 
 </td>
@@ -405,9 +400,9 @@ Controls Border for whole container, using Border dialog
 Border Radius
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the radius of the border
 
 </td>
@@ -417,9 +412,9 @@ Specify the radius of the border
 Shadow
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify Shadow effect
 
 </td>
@@ -429,9 +424,9 @@ Specify Shadow effect
 Font
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Indicates the main font used by the Widget. If you override this and want to revert to the Theme's Back Color, then open up the property dialog and select the "Use Theme" option.
 
 </td>
@@ -441,9 +436,9 @@ Indicates the main font used by the Widget. If you override this and want to rev
 Prev. Month Days Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the previous month
 
 </td>
@@ -453,9 +448,9 @@ Specify the color of the previous month
 Next. Month Days Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the next month
 
 </td>
@@ -465,9 +460,9 @@ Specify the color of the next month
 Today Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of today
 
 </td>
@@ -477,9 +472,9 @@ Specify the color of today
 Weekend Days Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the Weekend Days
 
 </td>
@@ -489,9 +484,9 @@ Specify the color of the Weekend Days
 Disabled Days Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the Disabled Days
 
 </td>
@@ -501,9 +496,9 @@ Specify the color of the Disabled Days
 Selection BG Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the background color of the selection
 
 </td>
@@ -513,9 +508,9 @@ Specify the background color of the selection
 Mouse Over BG Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the background color as you 'Mouse Over'
 
 </td>
@@ -525,9 +520,9 @@ Specify the background color as you 'Mouse Over'
 Day Border Top Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the selected Day Top border
 
 </td>
@@ -537,9 +532,9 @@ Specify the color of the selected Day Top border
 Day Border Right Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the selected Day Right border
 
 </td>
@@ -549,9 +544,9 @@ Specify the color of the selected Day Right border
 Day Border Bottom Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the selected Day Bottom border
 
 </td>
@@ -561,12 +556,11 @@ Specify the color of the selected Day Bottom border
 Day Border Left Color
 
 </td>
-<td width="20">
+<td width="47">
 </td>
-<td width="748">
+<td width="753">
 Specify the color of the selected Day Left border
 
 </td>
 </tr>
 </table>
-

@@ -9,14 +9,14 @@ full_width: true
 
 <table>
 <tr>
-<th style="vertical-align:top; width:138px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="138">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:782px; background-color:#ffffff;">
-</th>
+</td>
+<td width="21">
+</td>
+<td width="782">
+</td>
 </tr>
 <tr>
 <td width="138">
@@ -82,7 +82,7 @@ The URL of the page to show in the dialog. By default this will be populated wit
 <table>
 <tr>
 <td width="137">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="23">
@@ -92,7 +92,7 @@ The URL of the page to show in the dialog. By default this will be populated wit
 </tr>
 <tr>
 <td width="137">
-## X
+X
 
 </td>
 <td width="23">
@@ -134,7 +134,7 @@ Repeat
 <td width="23">
 </td>
 <td width="782">
-  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a>.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Anchors
 <td width="23">
 </td>
 <td width="782">
-  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
+This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
 
 </td>
 </tr>
@@ -175,18 +175,12 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 </td>
 </tr>
 <tr>
-<td width="137">
-</td>
-<td width="23">
-</td>
-<td width="782">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
 <td width="135">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="25">
@@ -218,19 +212,12 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="135">
-</td>
-<td width="25">
-</td>
-<td width="782">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
 <td width="150">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style<b>
 
 </td>
 <td width="10">

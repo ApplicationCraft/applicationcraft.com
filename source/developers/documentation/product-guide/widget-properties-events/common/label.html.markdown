@@ -9,12 +9,17 @@ full_width: true
 
 The Label Widget is one of the fundamental objects within Application Craft and is used to place text on a Page. The Label text and other properties can be changed dynamically using AC [Javascript](/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/)
 
+
 <table>
 <tr>
 <td width="161">
 <a id="general"> </a> <b>General</b>
 
-
+</td>
+<td width="22">
+</td>
+<td width="759">
+</td>
 </tr>
 <tr>
 <td width="161">
@@ -100,14 +105,7 @@ Select to set the page to jump to if clicked.('Forward' and 'Back' behave in sam
 
 </td>
 </tr>
-<tr>
-<td width="161">
-</td>
-<td width="22">
-</td>
-<td width="759">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -204,14 +202,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="159">
-</td>
-<td width="25">
-</td>
-<td width="758">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -260,14 +251,7 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 
 </td>
 </tr>
-<tr>
-<td width="159">
-</td>
-<td width="26">
-</td>
-<td width="757">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -364,14 +348,7 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="38">
-</td>
-<td width="756">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>

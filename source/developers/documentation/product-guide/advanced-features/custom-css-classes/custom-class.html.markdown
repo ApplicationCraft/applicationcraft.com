@@ -13,8 +13,6 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
 
 **Example CSS file**
 
-**.**
-
     label {
         border: 1px solid #fff;
         text-shadow: none;
@@ -36,9 +34,7 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
     font-size :  26px !important;
     font-family : Verdana;
     }
-     
-     
-   
+  
 
 This will then customise the label widget as:
 

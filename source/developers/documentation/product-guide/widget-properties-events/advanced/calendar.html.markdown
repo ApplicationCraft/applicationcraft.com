@@ -11,14 +11,14 @@ This Widget offers a variety of ways to display Monthly information on both Desk
 
 <table>
 <tr>
-<th style="vertical-align:top; width:147px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="147">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:47px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:753px; background-color:#ffffff;">
-</th>
+</td>
+<td width="47">
+</td>
+<td width="753">
+</td>
 </tr>
 <tr>
 <td width="147">
@@ -92,29 +92,21 @@ Specify the default date highlighted
 
 </td>
 </tr>
-<tr>
-<td width="147">
-</td>
-<td width="47">
-</td>
-<td width="753">
-</td>
-</tr>
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:150px; background-color:#ffffff;">
-<a id="layout"> </a> Layout
+<td width="150">
+<a id="layout"> </a> <b>Layout</b>
 
-</th>
-<th style="vertical-align:top; width:43px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:754px; background-color:#ffffff;">
-</th>
+</td>
+<td width="43">
+</td>
+<td width="754">
+</td>
 </tr>
 <tr>
 <td width="150">
-## X
+X
 
 </td>
 <td width="43">
@@ -196,19 +188,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="150">
-</td>
-<td width="43">
-</td>
-<td width="754">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="145">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="49">
@@ -264,19 +248,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="145">
-</td>
-<td width="49">
-</td>
-<td width="748">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="48">
@@ -407,14 +383,14 @@ Set to true to automatically fetch data from assigned view.
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:174px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
+<td width="174">
+<a id="style"> </a> <b>Style</b>
 
-</th>
-<th style="vertical-align:top; width:20px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:748px; background-color:#ffffff;">
-</th>
+</td>
+<td width="20">
+</td>
+<td width="748">
+</td>
 </tr>
 <tr>
 <td width="174">

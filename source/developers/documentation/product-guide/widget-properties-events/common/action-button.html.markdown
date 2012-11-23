@@ -69,13 +69,7 @@ Select to set the page to jump to. ('Forward' and 'Back' behave in same manner a
 </td>
 </tr>
 <tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -198,14 +192,7 @@ true/false.  If set to false users will not tab into this field
 </tr>
 </table>
 <table>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+
 <tr>
 <td width="148">
 <a id="behavior"> </a> <b>Behavior</b>
@@ -264,14 +251,7 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>

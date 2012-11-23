@@ -38,7 +38,7 @@ Grids can display multiple fields of data over multiple rows. They are very wide
 
 ## Charts
 
-Application Craft offers a [Flot Charts](/developers/documentation/product-guide/widget-properties-events/advanced/flot-charts) . More advanced Charting widgets will be coming soon
+Application Craft offers a [Flot Charts](/developers/documentation/product-guide/widget-properties-events/advanced/flot-charts) and [Zing Charts](/developers/documentation/product-guide/widget-properties-events/beta/zingchart/).
 
 ## Configuring Widgets
 

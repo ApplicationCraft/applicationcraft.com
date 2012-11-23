@@ -16,7 +16,7 @@ If compiling for iOS, you will need to set the [PhoneGap App Options](/developer
 <table>
 <tr>
 <td width="156">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="24">
@@ -44,7 +44,7 @@ Name
 <td width="24">
 </td>
 <td width="762">
-.This is the Widget name that is displayed when references are made to the Widget. You can choose any name that includes alphanumeric characters.
+This is the Widget name that is displayed when references are made to the Widget. You can choose any name that includes alphanumeric characters.
 
 </td>
 </tr>
@@ -108,19 +108,11 @@ Show/Hide/Hide ProgressBar
 
 </td>
 </tr>
-<tr>
-<td width="156">
-</td>
-<td width="24">
-</td>
-<td width="762">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="155">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="22">
@@ -130,7 +122,7 @@ Show/Hide/Hide ProgressBar
 </tr>
 <tr>
 <td width="155">
-## X
+X
 
 </td>
 <td width="22">
@@ -212,19 +204,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="155">
-</td>
-<td width="22">
-</td>
-<td width="765">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="154">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="22">
@@ -280,19 +264,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="154">
-</td>
-<td width="22">
-</td>
-<td width="766">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="29">
@@ -424,7 +400,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="26">

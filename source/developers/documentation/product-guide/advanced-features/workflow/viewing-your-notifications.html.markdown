@@ -7,9 +7,9 @@ full_width: true
 ---
 
 
-Under the More tab in the console you will see [Notifications](/developers/documentation/product-guide/account-management/notifications) .
+Select/Hover over your user name to access the account management options and you will see [Notifications](/developers/documentation/product-guide/account-management/notifications) .
 
-![notifications](/img/docs/notifications.png)
+![notifications](/img/docs/acmanage-dca11089.png)
 
 Select to be shown a list of all your outstanding notifications.
 

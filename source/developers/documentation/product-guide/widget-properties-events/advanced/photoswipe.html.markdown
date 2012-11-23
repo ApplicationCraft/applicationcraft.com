@@ -11,14 +11,14 @@ This widget allows you to handle an Image Gallery
 
 <table>
 <tr>
-<th style="vertical-align:top; width:237px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="237">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:20px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:690px; background-color:#ffffff;">
-</th>
+</td>
+<td width="20">
+</td>
+<td width="690">
+</td>
 </tr>
 <tr>
 <td width="237">
@@ -128,17 +128,11 @@ true/false.  iOS only - Allow the user to rotate images whilst zooming/panning.
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="237">
-</td>
-<td width="20">
-</td>
-<td width="690">
-</td>
-</tr>
-<tr>
-<td width="237">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="20">
@@ -148,7 +142,7 @@ true/false.  iOS only - Allow the user to rotate images whilst zooming/panning.
 </tr>
 <tr>
 <td width="237">
-## X
+X
 
 </td>
 <td width="20">
@@ -230,19 +224,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="237">
-</td>
-<td width="20">
-</td>
-<td width="690">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="237">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="21">
@@ -298,19 +284,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="237">
-</td>
-<td width="21">
-</td>
-<td width="684">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="237">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="21">
@@ -320,25 +298,17 @@ Not currently supported
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="237">
+<a id="style"> </a> <b>Style</b>
+
 </td>
 <td width="21">
 </td>
 <td width="684">
 </td>
-</tr>
-</table>
-<table>
-<tr>
-<th style="vertical-align:top; width:237px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
-
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:684px; background-color:#ffffff;">
-</th>
 </tr>
 <tr>
 <td width="237">
