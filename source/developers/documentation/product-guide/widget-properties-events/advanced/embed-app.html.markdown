@@ -12,7 +12,7 @@ The Embed App Widget allows you to embed other Apps into your App. Simply drag t
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_Embed AppWidget
+Internal class name of the widget.- WiziCore_UI_Embed AppWidget
 
 </td>
 </tr>
@@ -68,19 +68,11 @@ This is where you select the app to embed
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -90,7 +82,7 @@ This is where you select the app to embed
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -164,15 +156,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -228,19 +212,11 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
@@ -256,7 +232,7 @@ Opacity
 <td width="15">
 </td>
 <td width="779">
-.This % value specifies the transparency of the Widget.
+This % value specifies the transparency of the Widget.
 
 </td>
 </tr>
