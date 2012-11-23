@@ -195,7 +195,7 @@ How the menu is triggered to open and close, whether by hovering over the center
 <table>
 <tr>
 <td width="137">
-## X
+X
 
 </td>
 <td width="23">
