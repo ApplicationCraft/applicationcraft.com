@@ -44,30 +44,11 @@ This is the Widget name that is displayed when references are made to the Widget
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
+</table>
 <table>
 <tr>
 <td width="148">
 <a id="database"> </a> <b>Database</b>
-
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -122,14 +103,6 @@ Type
 <td width="779">
 Date/DateTime/DateTimeUTC. Select how to Date in the database
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
@@ -880,4 +853,3 @@ On Resize Stop
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
-
