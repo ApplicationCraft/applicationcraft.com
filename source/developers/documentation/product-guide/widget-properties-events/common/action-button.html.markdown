@@ -12,7 +12,7 @@ The action button can be used to manage Data views and Page Navigation, but also
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> <b>General</b?
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -46,14 +46,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Label
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
