@@ -9,16 +9,17 @@ full_width: true
 
 April 2012 - This widget is deprecated Please use [HTML5 Audio](/developers/documentation/product-guide/widget-properties-events/advanced/html5-audio) widget
 
+
 <table>
 <tr>
-<th style="vertical-align:top; width:172px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="172">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:754px; background-color:#ffffff;">
-</th>
+</td>
+<td width="21">
+</td>
+<td width="754">
+</td>
 </tr>
 <tr>
 <td width="172">
@@ -104,17 +105,11 @@ The default volume level
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
-<tr>
-<td width="172">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="21">
@@ -124,7 +119,7 @@ The default volume level
 </tr>
 <tr>
 <td width="172">
-## X
+X
 
 </td>
 <td width="21">
@@ -206,19 +201,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="174">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="20">
@@ -274,19 +261,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="174">
-</td>
-<td width="20">
-</td>
-<td width="748">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="174">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="18">
@@ -296,25 +275,19 @@ Not currently supported
 
 </td>
 </tr>
-<tr>
-<td width="174">
-</td>
-<td width="18">
-</td>
-<td width="750">
-</td>
-</tr>
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
+<table>
+<tr>
+<td width="176">
+<a id="style"> </a> <b>Style</b>
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:752px; background-color:#ffffff;">
-</th>
+</td>
+<td width="16">
+</td>
+<td width="752">
+</td>
 </tr>
 <tr>
 <td width="176">
