@@ -6,7 +6,6 @@ class_name: developers
 full_width: true
 ---
 
-
 <table>
 <tr>
 <td width="148">
@@ -114,11 +113,7 @@ true/false. Set to true to auto start the upload
 
 </td>
 </tr>
-
 </table>
-
-</table>
-
 <table>
 <tr>
 <td width="148">
@@ -163,8 +158,7 @@ Mandatory
 </td>
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
-
-See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
 </td>
 </tr>
@@ -180,14 +174,7 @@ true/false
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -369,14 +356,6 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
@@ -481,7 +460,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-  This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
