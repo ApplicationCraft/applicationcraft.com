@@ -229,14 +229,6 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
-<tr>
-<td width="148">
 <a id="behavior"> </a> <b>Behavior</b>
 
 </td>
@@ -389,14 +381,6 @@ Locale/UTC/RTZ.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
@@ -518,8 +502,6 @@ Set to true to automatically fetch data from assigned view.
 </td>
 </tr>
 </table>
-        
-
 <table>
 <tr>
 <td width="148">
@@ -647,7 +629,7 @@ Custom CSS Classes
 <td width="15">
 </td>
 <td width="779">
-  Where you define your CSS Style to customise your widgets  See also <a href="/developers/documentation/product-guide/advanced-features/custom-css-classes/">Custom CSS Classes</a>
+Where you define your CSS Style to customise your widgets  See also <a href="/developers/documentation/product-guide/advanced-features/custom-css-classes/">Custom CSS Classes</a>
 
 </td>
 </tr>
@@ -659,7 +641,7 @@ Widget Style
 <td width="15">
 </td>
 <td width="779">
-  This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
+This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
 </tr>
