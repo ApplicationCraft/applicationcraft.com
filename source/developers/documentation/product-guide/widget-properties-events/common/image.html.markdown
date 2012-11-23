@@ -92,14 +92,8 @@ Select to set the page to jump to when Image is clicked
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="30">
-</td>
-<td width="764">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="148">
 <a id="database"> </a> <b>Database</b>
@@ -145,14 +139,6 @@ Mandatory
 true/false. Set to true to ensure the field is completed before submission is allowed.
 See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="30">
-</td>
-<td width="764">
 </td>
 </tr>
 </table>
@@ -267,14 +253,6 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 <table>
 <tr>
 <td width="148">
-</td>
-<td width="31">
-</td>
-<td width="763">
-</td>
-</tr>
-<tr>
-<td width="148">
 <a id="behavior"> </a> <b>Behavior</b>
 
 </td>
@@ -329,14 +307,6 @@ Enable
 <td width="763">
 Set to false to leave the Widget visible but to prevent any user interaction.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="31">
-</td>
-<td width="763">
 </td>
 </tr>
 </table>
@@ -459,14 +429,8 @@ Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="31">
-</td>
-<td width="763">
-</td>
-</tr>
+</table>
+<table>
 <tr>
 <td width="148">
 <a id="imagemap"> </a> <b>Image Map</b>
@@ -607,14 +571,6 @@ Fade
 <td width="763">
 true/false.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="31">
-</td>
-<td width="763">
 </td>
 </tr>
 </table>
