@@ -29,8 +29,16 @@
       <div id="full-screen">open in full screen...</div>
     </header>
 
-    <aside class="tree">
-      <%= tree_for 'source/developers/tutorials' %>
+    <aside>
+      <form>
+        <input type="text" placeholder="search...">
+        <button type="submit" class="btn">Search</button>
+        <ul id="search-content"></ul>
+      </form>
+
+      <div id="tree">
+        <%= tree_for 'source/developers/tutorials' %>
+      </div>
     </aside>
 
     <article>
