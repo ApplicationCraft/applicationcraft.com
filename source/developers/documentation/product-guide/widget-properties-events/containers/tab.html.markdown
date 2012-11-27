@@ -14,7 +14,7 @@ By configuring the Tabs properties of the Widget, you can set the number of tabs
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -30,7 +30,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_TabWidget and  WiziCore\_Widget\_Container
+Internal class name of the widget.- WiziCore_UI_TabWidget and  WiziCore_Widget_Container
 
 </td>
 </tr>
@@ -61,18 +61,8 @@ Specify the number of tabs and the heading for each
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:149px;">
-</th>
-<th style="vertical-align:top; width:16px;">
-</th>
-<th style="vertical-align:top; width:778px;">
-</th>
-</tr>
-</table>
-<table>
-<tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -82,7 +72,7 @@ Specify the number of tabs and the heading for each
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -164,19 +154,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -244,19 +226,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
