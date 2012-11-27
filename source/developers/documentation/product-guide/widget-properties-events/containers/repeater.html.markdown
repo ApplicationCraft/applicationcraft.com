@@ -9,18 +9,18 @@ full_width: true
 
 The Repeater Widget is a powerful container Widget which allows you to display large amounts of data in a grid type format, that is quick to set up, highly configurable, and allows almost any type of cosmetic effect you are looking for. Data can be taken from any Application Craft Query and the Widget manages caching and paging of the data.
 
-You can do a lot with Repeaters using AC Javascript. Our [Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos#07-setting-getting-widget-data) page also has some good examples.
+You can do a lot with Repeaters using AC Javascript. Our [Videos](http://www.applicationcraft.com/developers/training-videos/widget-data/) page also has some good examples.
 
 <table>
 <tr>
-<th style="vertical-align:top; width:172px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="172">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:754px; background-color:#ffffff;">
-</th>
+</td>
+<td width="21">
+</td>
+<td width="754">
+</td>
 </tr>
 <tr>
 <td width="172">
@@ -30,7 +30,7 @@ Widget Class
 <td width="21">
 </td>
 <td width="754">
-Internal class name of the widget. - RepeaterContainer and  WiziCore\_Widget\_Container
+Internal class name of the widget. - RepeaterContainer and  WiziCore_Widget_Container
 
 </td>
 </tr>
@@ -70,48 +70,12 @@ Controls which page is the first displayed
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
-<tr>
-<td width="172">
-<table>
-<tr>
-<td width="158">
-<table>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
 </td>
 <td width="21">
 </td>
@@ -154,17 +118,11 @@ Automatic Relationships
 
 </td>
 </tr>
+</table>
+<table>
 <tr>
 <td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
-<tr>
-<td width="172">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="21">
@@ -174,7 +132,7 @@ Automatic Relationships
 </tr>
 <tr>
 <td width="172">
-## X
+X
 
 </td>
 <td width="21">
@@ -322,448 +280,425 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
+
+</table>
+<table>
 <tr>
 <td width="172">
+<a id="behavior"> </a> <b>Behavior</b>
+
 </td>
 <td width="21">
 </td>
 <td width="754">
 </td>
 </tr>
-</table>
-<table>
 <tr>
-<td width="174">
-<a id="behavior"> </a> **Behavior**
-
-</td>
-<td width="20">
-</td>
-<td width="748">
-</td>
-</tr>
-<tr>
-<td width="174">
+<td width="172">
 Drag and Drop
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 If set to true, the user is able to drag and drop the widget with the mouse at run time
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Resizing
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 Disable/Enable. Set to True to allow the widget to be resized at Runtime. Configurable Max/Min Width and Height, Right & Bottom, Top & Left or All
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Visible
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 Set to False if you want the Widget to appear hidden by default. You would use Javascript to override this at a later stage.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Read only
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 If set to True, the object can be interacted with by a user but data cannot be altered.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Enable
 
 </td>
-<td width="20">
+<td width="21">
 </td>
-<td width="748">
+<td width="754">
 Set to false to leave the Widget visible but to prevent any user interaction
 
-</td>
-</tr>
-<tr>
-<td width="174">
-</td>
-<td width="20">
-</td>
-<td width="748">
 </td>
 </tr>
 </table>
 <table>
 <tr>
-<td width="174">
-<a id="data"> </a> **Data**
+<td width="172">
+<a id="data"> </a> <b>Data</b>
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   See <a href="repeater_data.htm">Repeater Data</a>
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 View
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Select the view to use
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Fields
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Group By
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   This allows you to Group data within a View in the same way you would with a SQL statement. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by">Group By</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Order By
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   Specifies the order in which data is presented to the Widget.  Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by">Order By</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Filter
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 This is a global, static filter that can be defined for each View in your App.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Listen
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   This indicates whether the Widget should react to a Drill Down action on a common View. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen">Listen</a> section for more details.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Auto Load
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Set to true to automatically fetch data from assigned view.
 
 </td>
 </tr>
 <tr>
-<td width="174">
+<td width="172">
 Key Fields
 
 </td>
-<td width="18">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Set to map View fields. For use in writing data back out to connected database tables
 
-</td>
-</tr>
-<tr>
-<td width="174">
-</td>
-<td width="18">
-</td>
-<td width="750">
 </td>
 </tr>
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:176px; background-color:#ffffff;">
-<a id="style"> </a> **Style**
+<td width="172">
+<a id="style"> </a> <b>Style</b>
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:750px; background-color:#ffffff;">
-</th>
+</td>
+<td width="21">
+</td>
+<td width="754">
+</td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Border
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls Border for whole container, using Border dialog
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Border Radius
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls the radius size of curved border edges
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Margin
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 BG Color
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls BG Color of whole container
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Block BG Color
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls BG Color of Alternate Blocks. Blocks 1,3,5 etc. NOTE: If you want to change all blocks you must edit both this and the alternative block colors
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Block Alternative BG Color
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls BG Color of Alternate Blocks. Blocks 2,4,6 etc.
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Block Border
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls Border of Blocks NOTE: If you want to border all blocks you must edit this property and Block Alternative Border property
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Block Alternative Border
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls Border of Alternate Blocks
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Block Border Radius
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls the radius size of curved block edges
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Block Alternative Border Radius
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls the radius size of alternate curved block edges
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Line Width
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls the separating line width
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Line Color
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Controls the separating line color
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 BG Image
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 This specifies a background image to your Container
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 BG Repeat
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 This specifies how a BG Image can repeat behind your Container (Repeat, Repeat X, Repeat Y)
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Opacity
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 This % value specifies the transparency of the Widget.
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Display Hourglass Over
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Inherit(default)/Widget/Whole App. Select Widget if you wish to present a custom hourglass over this widget
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Hourglass Animation
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
 Where you can override the default hourglass image to an image of your Resources or 'None' where no hourglass is shown when Display Hourglass Over property is set to Widget
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Custom CSS Classes
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   Where you define your CSS Style to customise your widgets  See also <a href="/developers/documentation/product-guide/advanced-features/custom-css-classes/">Custom CSS Classes</a>
 
 </td>
 </tr>
 <tr>
-<td width="176">
+<td width="172">
 Widget Style
 
 </td>
-<td width="16">
+<td width="21">
 </td>
-<td width="750">
+<td width="754">
   This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
 
 </td>
@@ -778,7 +713,7 @@ Repeater:
   <strong>Supported Events:</strong>
 
 </td>
-<td width="18">
+<td width="21">
 </td>
 <td width="121">
 </td>
@@ -788,7 +723,7 @@ Repeater:
   <a href="/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events">General Events</a>
 
 </td>
-<td width="18">
+<td width="21">
 </td>
 <td width="121">
   <a href="/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
@@ -800,7 +735,7 @@ Repeater:
 On Row Loaded
 
 </td>
-<td width="18">
+<td width="21">
 </td>
 <td width="121">
 On Data Loaded
@@ -810,7 +745,7 @@ On Data Loaded
 <tr>
 <td width="149">
 </td>
-<td width="18">
+<td width="21">
 </td>
 <td width="121">
 On Data Reset
@@ -954,4 +889,3 @@ On Resize Stop
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
  - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
  - [Repeater & Grid Object functions](/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/)
-
