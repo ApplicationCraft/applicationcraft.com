@@ -268,7 +268,9 @@ app.setValue(rowObj.w(&#39;total&#39;), app.getValue(rowObj.w(&#39;quantity&#39;
     <div id="getsat-widget-2621"></div>
     <script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
     <script type="text/javascript">
-    if (typeof GSFN !== "undefined") { GSFN.loadWidget(2621,{"containerId":"getsat-widget-2621"}); }
+      if (typeof GSFN !== "undefined" && !/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        GSFN.loadWidget(2621,{"containerId":"getsat-widget-2621"});
+      }
     </script>
   </body>
 </html>
