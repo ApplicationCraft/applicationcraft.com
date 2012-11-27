@@ -14,7 +14,7 @@ This widget allows you to scan barcodes and other codes in your Native Apps usin
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -150,9 +150,7 @@ Instruction Text
 <td width="15">
 </td>
 <td width="779">
-Sets the text that will be displayed above the viewfinder to tell the user to align it with the
-
-barcode that should be recognized.
+Sets the text that will be displayed above the viewfinder to tell the user to align it with the barcode that should be recognized.
 
 </td>
 </tr>
@@ -240,19 +238,11 @@ Where you can set the button properties - Shape/Image/Text/pushEffect/Sticky/Fil
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -262,7 +252,7 @@ Where you can set the button properties - Shape/Image/Text/pushEffect/Sticky/Fil
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -316,7 +306,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a>.
 
 </td>
 </tr>
@@ -356,19 +346,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -388,19 +370,11 @@ Set to False if you want the Widget to appear hidden by default. You would use J
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
