@@ -12,7 +12,7 @@ The Password Widget simply provides the Developer with an easy way to authentica
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_PasswordWidget
+Internal class name of the widget.- WiziCore_UI_PasswordWidget
 
 </td>
 </tr>
@@ -46,14 +46,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Text
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -98,19 +92,11 @@ Where you can enter text that will show to the user. As they focus/click into th
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -132,7 +118,7 @@ Sizes
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -174,7 +160,7 @@ Tab Order
 <td width="15">
 </td>
 <td width="779">
-Where you can control the tab order in your app.Widgets tab sequentially
+Where you can control the tab order in your app. Widgets tab sequentially.
 
 </td>
 </tr>
@@ -186,7 +172,7 @@ Tab Stop
 <td width="15">
 </td>
 <td width="779">
-true/false.  If set to false users will not tab into this field
+true/false.  If set to false users will not tab into this field.
 
 </td>
 </tr>
@@ -198,7 +184,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
+  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a>.
 
 </td>
 </tr>
@@ -222,23 +208,15 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a>.
 
-</td>
-</tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
 </td>
 </tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -318,19 +296,11 @@ Defines a limit for characters in the Text Area.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="146">
-<a id="appearance"> </a> **Appearance**
+<a id="appearance"> </a> <b>Appearance</b>
 
 </td>
 <td width="17">
@@ -350,19 +320,11 @@ Align your text Left/Right or Center
 
 </td>
 </tr>
-<tr>
-<td width="146">
-</td>
-<td width="17">
-</td>
-<td width="780">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
