@@ -12,7 +12,7 @@ The Page Button works with the [Repeating Container](/developers/documentation/p
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_PageButtonWidget
+Internal class name of the widget.- WiziCore_UI_PageButtonWidget
 
 </td>
 </tr>
@@ -71,18 +71,8 @@ Points to a Repeater/Grid/Common List or Mobile Widget that this button will int
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:149px;">
-</th>
-<th style="vertical-align:top; width:16px;">
-</th>
-<th style="vertical-align:top; width:778px;">
-</th>
-</tr>
-</table>
-<table>
-<tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -92,7 +82,7 @@ Points to a Repeater/Grid/Common List or Mobile Widget that this button will int
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -198,19 +188,11 @@ true/false.  If set to false users will not tab into this field
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -266,19 +248,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
