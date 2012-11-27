@@ -12,7 +12,8 @@ The Accordion Widget is a container that  enables a lot of information to be pr
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
+
 
 </td>
 <td width="15">
@@ -28,7 +29,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_AccordionWidget and  WiziCore\_Widget\_Container
+Internal class name of the widget.- WiziCore_UI_AccordionWidget and  WiziCore_Widget_Container
 
 </td>
 </tr>
@@ -71,18 +72,8 @@ Specify the number of sections, the height of each and whether it is 'open' by d
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:149px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:778px; background-color:#ffffff;">
-</th>
-</tr>
-</table>
-<table>
-<tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -92,7 +83,7 @@ Specify the number of sections, the height of each and whether it is 'open' by d
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -134,7 +125,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a>.
 
 </td>
 </tr>
@@ -158,7 +149,7 @@ Anchors
 <td width="15">
 </td>
 <td width="779">
-  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
+  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a>.
 
 </td>
 </tr>
@@ -174,19 +165,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -254,19 +237,12 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
+
 
 </td>
 <td width="15">
