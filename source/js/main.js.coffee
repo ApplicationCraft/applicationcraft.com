@@ -1,7 +1,17 @@
 #= require_tree ./lib
 #= require referrals
 
+# Global vars
 exports = this
+
+
+# Handle IE users - who are stupid!
+$ ->
+  if $.browser.msie?
+    if parseInt($.browser.version, 10) < 9
+      html = $('#old-browser').html()
+      $('body :not(#old-browser,#old-browser-inner)').remove()
+      $.fancybox.open html
 
 
 $ ->
@@ -15,7 +25,7 @@ $ ->
 
 # If the user is using Chrome, show the CWS sign up link within the nav.
 $ ->
-  if $.browser.chrome
+  if $.browser.chrome?
     do $('#cws-sign-up').show
 
 

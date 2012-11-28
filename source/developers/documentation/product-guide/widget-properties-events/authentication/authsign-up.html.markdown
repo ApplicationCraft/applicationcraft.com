@@ -12,7 +12,7 @@ The Sign Up Widget allows Users to sign up to access your App. It collects relev
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_SignUpButtonWidget
+Internal class name of the widget.- WiziCore_UI_SignUpButtonWidget
 
 </td>
 </tr>
@@ -56,22 +56,20 @@ The text that should be displayed on the Page for the Widget.
 
 </td>
 </tr>
-</table>
-<table>
 <tr>
-<th style="vertical-align:top; width:149px; background-color:#ffffff;">
+<td width="148">
 Login Widget
 
-</th>
-<th style="vertical-align:top; width:16px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:778px; background-color:#ffffff;">
+</td>
+<td width="15">
+</td>
+<td width="779">
 This accesses a text field, which should be in the format of an email. AC will analyse this and prevent Sign Up if it is not in the email format.
 
-</th>
+</td>
 </tr>
 <tr>
-<td width="149">
+<td width="148">
 Password Widget
 
 </td>
@@ -166,19 +164,11 @@ Select the app to redirect to on successful sign up
 
 </td>
 </tr>
-<tr>
-<td width="149">
-</td>
-<td width="16">
-</td>
-<td width="778">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -188,7 +178,7 @@ Select the app to redirect to on successful sign up
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -230,7 +220,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a>.
 
 </td>
 </tr>
@@ -294,19 +284,11 @@ true/false.  If set to false users will not tab into this field
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -362,19 +344,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

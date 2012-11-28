@@ -13,14 +13,14 @@ The Context Menu widget can be used to show a simple pop up selection box in a s
 
 <table>
 <tr>
-<th style="vertical-align:top; width:148px; background-color:#ffffff;">
-<a id="general"> </a> **General**
+<td width="148">
+<a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:15px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:779px; background-color:#ffffff;">
-</th>
+</td>
+<td width="15">
+</td>
+<td width="779">
+</td>
 </tr>
 <tr>
 <td width="148">
@@ -30,7 +30,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_LabelMobileWidget
+Internal class name of the widget.- WiziCore_UI_ContextMemuMobileWidget
 
 </td>
 </tr>
@@ -70,19 +70,11 @@ Select the widget to invoke the Context Menu
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -102,19 +94,11 @@ Set to false to leave the Widget visible but to prevent any user interaction.
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

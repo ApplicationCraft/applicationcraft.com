@@ -2,7 +2,8 @@ documentation
 accessing
 create-app
 edit-app
-add-widgets
-change-properties
-create-event
-create-app
+adding-widgets
+changing-properties
+assigning-fieldnames
+creating-events
+running-app

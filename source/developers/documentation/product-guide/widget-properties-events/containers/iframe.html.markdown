@@ -12,7 +12,7 @@ iFrame Widget creates an inline frame that displays a webpage from a URL. The we
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -28,7 +28,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_IFrameWidget
+Internal class name of the widget.- WiziCore_UI_IFrameWidget
 
 </td>
 </tr>
@@ -46,14 +46,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Url
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -74,19 +68,12 @@ iframe/div. Select the mode. iframe for normal iframe mode, div for an 'in-place
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
+
 
 </td>
 <td width="15">
@@ -96,7 +83,7 @@ iframe/div. Select the mode. iframe for normal iframe mode, div for an 'in-place
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -178,19 +165,11 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -246,19 +225,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="148">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="15">
@@ -391,7 +362,7 @@ Set to true to automatically fetch data from assigned view.
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">

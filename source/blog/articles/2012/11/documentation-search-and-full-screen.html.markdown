@@ -34,6 +34,6 @@ Everything that you see here and anywhere else on our site is now open source on
 
 So if you see a typo, or broken link; or if a page in the docs is not looking quite right; or maybe there is a page in that you think you can improve upon, then just go ahead and [fork the site](https://github.com/ApplicationCraft/applicationcraft.com), make your changes and send us a [pull request](https://help.github.com/articles/using-pull-requests). If all looks good, we'll have no problem with accepting your pull requests, and you will see your changes on our site the next time we deploy.
 
-Plenty more to come, so what this space.
+Plenty more to come, so watch this space.
 
 Enjoy!

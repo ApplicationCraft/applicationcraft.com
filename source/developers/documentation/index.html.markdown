@@ -5,6 +5,9 @@ class_name: developers
 full_width: true
 ---
 
+## [MY FIRST APP](/developers/documentation/my-first-app) ##
+Lets us walk you through building your very first application with Application Craft.
+
 ## [PRODUCT GUIDE](/developers/documentation/product-guide)
 The Application Craft User Guide with over 400 pages.
 

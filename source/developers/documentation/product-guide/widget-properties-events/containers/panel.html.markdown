@@ -14,7 +14,7 @@ When using the Panel, you first size the Container on the page as you would an i
 <table>
 <tr>
 <td width="171">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="22">
@@ -30,7 +30,7 @@ Widget Class
 <td width="22">
 </td>
 <td width="749">
-Internal class name of the widget.- WiziCore\_UI\_PanelContainerWidget
+Internal class name of the widget.- WiziCore_UI_PanelContainerWidget
 
 </td>
 </tr>
@@ -73,54 +73,14 @@ Adaptive Layout
 </table>
 <table>
 <tr>
-<th style="vertical-align:top; width:149px;">
-</th>
-<th style="vertical-align:top; width:16px;">
-</th>
-<th style="vertical-align:top; width:778px;">
-</th>
-</tr>
-</table>
-<table>
-<tr>
-<th style="vertical-align:top; width:172px; background-color:#ffffff;">
-<table>
-<tr>
-<td width="158">
-<table>
-<tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
-<table>
-<tr>
-<td width="148">
-<a id="database"> </a> **Database**
+<a id="database"> </a> <b>Database</b>
 
 </td>
-</tr>
-</table>
+<td width="21">
 </td>
-</tr>
-</table>
+<td width="754">
 </td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:754px; background-color:#ffffff;">
-</th>
 </tr>
 <tr>
 <td width="172">
@@ -146,19 +106,11 @@ Automatic Relationships
 
 </td>
 </tr>
-<tr>
-<td width="172">
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="173">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="21">
@@ -168,7 +120,7 @@ Automatic Relationships
 </tr>
 <tr>
 <td width="173">
-## X
+X
 
 </td>
 <td width="21">
@@ -262,19 +214,11 @@ None/Auto/Vertical/Horizontal. Allows you to set the scrolling behaviour. Please
 
 </td>
 </tr>
-<tr>
-<td width="173">
-</td>
-<td width="21">
-</td>
-<td width="748">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="173">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="22">
@@ -342,19 +286,11 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="173">
-</td>
-<td width="22">
-</td>
-<td width="747">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="175">
-<a id="data"> </a> **Data**
+<a id="data"> </a> <b>Data</b>
 
 </td>
 <td width="21">
@@ -459,19 +395,11 @@ Set to map View fields. For use in writing data back out to connected database t
 
 </td>
 </tr>
-<tr>
-<td width="175">
-</td>
-<td width="21">
-</td>
-<td width="746">
-</td>
-</tr>
 </table>
 <table>
 <tr>
 <td width="178">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="19">

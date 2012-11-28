@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-e0577582.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-75c37bb1.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -103,7 +103,7 @@
 <table>
 <tr>
 <td width="148">
-<a id="general"> </a> **General**
+<a id="general"> </a> <b>General</b>
 
 </td>
 <td width="15">
@@ -119,7 +119,7 @@ Widget Class
 <td width="15">
 </td>
 <td width="779">
-Internal class name of the widget.- WiziCore\_UI\_PageButtonWidget
+Internal class name of the widget.- WiziCore_UI_PageButtonWidget
 
 </td>
 </tr>
@@ -163,19 +163,8 @@ Points to a Repeater/Grid/Common List or Mobile Widget that this button will int
 
 <table>
 <tr>
-<th style="vertical-align:top; width:149px;">
-</th>
-<th style="vertical-align:top; width:16px;">
-</th>
-<th style="vertical-align:top; width:778px;">
-</th>
-</tr>
-</table>
-
-<table>
-<tr>
 <td width="148">
-<a id="layout"> </a> **Layout**
+<a id="layout"> </a> <b>Layout</b>
 
 </td>
 <td width="15">
@@ -185,7 +174,7 @@ Points to a Repeater/Grid/Common List or Mobile Widget that this button will int
 </tr>
 <tr>
 <td width="148">
-## X
+X
 
 </td>
 <td width="15">
@@ -291,20 +280,12 @@ true/false.  If set to false users will not tab into this field
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> **Behavior**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
@@ -360,20 +341,12 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="148">
-</td>
-<td width="15">
-</td>
-<td width="779">
-</td>
-</tr>
 </table>
 
 <table>
 <tr>
 <td width="148">
-<a id="style"> </a> **Style**
+<a id="style"> </a> <b>Style</b>
 
 </td>
 <td width="15">
@@ -638,11 +611,19 @@ Widget Style
       </div>
     </div>
 
+    <div id="old-browser">
+      <div id="old-browser-inner">
+        <img width="309" height="23" src="/img/logo-c879c885.png" />
+        <h1>Your browser is very old and will not work correctly with ApplicationCraft.</h1>
+        <p>Please upgrade Internet Explorer or use a modern browser, and <a href="http://browsehappy.com/" target="_blank">Browse Happy!</a></p>
+      </div>
+    </div>
+
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-    <script src="/js/main-03fa306b.js" type="text/javascript"></script>
+    <script src="/js/main-89ba06a4.js" type="text/javascript"></script>
     
     <script src="/js/vendor/rainbow-2b7edd35.js" type="text/javascript"></script>
 <script src="/js/vendor/rainbow/generic-6a91084e.js" type="text/javascript"></script>
@@ -656,7 +637,9 @@ Widget Style
     <div id="getsat-widget-2621"></div>
     <script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
     <script type="text/javascript">
-    if (typeof GSFN !== "undefined") { GSFN.loadWidget(2621,{"containerId":"getsat-widget-2621"}); }
+      if (typeof GSFN !== "undefined" && !/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        GSFN.loadWidget(2621,{"containerId":"getsat-widget-2621"});
+      }
     </script>
   </body>
 </html>
