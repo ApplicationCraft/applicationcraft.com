@@ -23,7 +23,7 @@ These things are good to know about once your basic skills are there
 
  - [Server Side Javascripting](/developers/documentation/scripting-apis/server-side-scripting-overview/)
  - [Working with Server Side Databases](/developers/documentation/product-guide/data-storage/server-side-data-storage/)
- - [AC Mobile Build] and Phonegap(/developers/documentation/ac-mobile-build-phonegap/) support
+ - [AC Mobile Build and Phonegap](/developers/documentation/ac-mobile-build-phonegap/) support
  - The [Repeater Container](/developers/documentation/product-guide/advanced-important-widgets/power-widgets/repeater-containers/) is a very handy all-purpose widget for displaying list content very flexibly
  - Did you know that Application Craft has a very powerful [Multi Language App](/developers/documentation/product-guide/advanced-features/multi-language-apps/) capability?
 
