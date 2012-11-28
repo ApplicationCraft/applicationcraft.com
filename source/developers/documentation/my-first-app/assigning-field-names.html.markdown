@@ -21,7 +21,7 @@ If you are building simple Apps that have no or little code, it is still worth d
 
 Now do the same for the Text widget (how about `txtName`) and the Button (try `btnGreetMe`).
 
-You cannot use spaces or weird characters. You will see what works and what doesn't. If you want to use the equivalent of spaces, try `lblFirst_Name` but generally Javascrip conventions is to not do this.
+You cannot use spaces or weird characters. You will see what works and what doesn't. If you want to use the equivalent of spaces, try `lblFirst_Name` but generally Javascript convention is to not do this.
 
 Now we're ready for the last bit. Adding some code!
 
