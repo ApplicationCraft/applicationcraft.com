@@ -10,7 +10,7 @@ image: blog/mfa-toc.png
 
 ##Crimes & Misdemeanours
 I guess all companies commit them. Well we are now atoning for a pretty major crime - not having a really good 'Getting Started' guide so that first time users can go from zero to hero in a few minutes.
-##[Click here to see it live](/developers/documentation/my-first-app/)
+###[Click here to see it live &raquo;](/developers/documentation/my-first-app/)
 
 When we released our new web site, Joel also built a new framework for our all our documentation. We just finished all the major tweaks and so we are now using it for a complete set of tutorials, My First App being the first.
 
