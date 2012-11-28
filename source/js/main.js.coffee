@@ -113,10 +113,16 @@ $ ->
 
     do expandTreeWithPath
 
+  $(document).on 'page:change', ->
+    do expandTreeWithPath
+
 
 # Expands the tree to the current URL
 exports.expandTreeWithPath = (path)->
   path = document.location.pathname unless path?
+  path = path.replace(/\/$/, '') + "/"
+
+  console.log path
 
   if (selected = $("#tree a[href='#{path}']")).length > 0
     $('#tree li').removeClass('checked').find('a').css 'color', '#999'
