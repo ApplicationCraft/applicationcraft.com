@@ -113,10 +113,15 @@ $ ->
 
     do expandTreeWithPath
 
+    # Make sure the tree is updated if a link is clicked within a doc page.
+    $(document).on 'page:change', ->
+      do expandTreeWithPath
+
 
 # Expands the tree to the current URL
 exports.expandTreeWithPath = (path)->
   path = document.location.pathname unless path?
+  path = path.replace(/\/$/, '') + "/"
 
   if (selected = $("#tree a[href='#{path}']")).length > 0
     $('#tree li').removeClass('checked').find('a').css 'color', '#999'

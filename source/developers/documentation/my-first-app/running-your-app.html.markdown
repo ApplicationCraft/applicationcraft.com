@@ -5,7 +5,7 @@ class_name: developers
 full_width: true
 pagination:
   previous: my-first-app/creating-events
-  next: my-first-app/mfa-titbits
+  next: my-first-app/some-titbits-to-finish-with
 ---
 
 You're now ready to try it all out. There are 3 ways to run your App.
