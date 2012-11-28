@@ -5,10 +5,52 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2012-11-22T00:00:00Z</updated>
+  <updated>2012-11-28T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Introducing A New Way to Talk</title>
+    <link rel="alternate" href="/blog/2012/11/a-new-way-to-talk/"/>
+    <id>/blog/2012/11/a-new-way-to-talk/</id>
+    <published>2012-11-28T00:00:00Z</published>
+    <updated>2012-11-28T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We&amp;#39;ve added a really easy way for you to contact us through your account using &lt;a title="Intercom" href="https://www.intercom.io/"&gt;Intercom.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Login to your account and look for the mail icon to the left of your username in the main console area and also in the design area at the top right of the browser. Click it, and you will have access to your AC Inbox, which you can use to quickly send a message to us.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;ve added a really easy way for you to contact us through your account using &lt;a title="Intercom" href="https://www.intercom.io/"&gt;Intercom.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Login to your account and look for the mail icon to the left of your username in the main console area and also in the design area at the top right of the browser. Click it, and you will have access to your AC Inbox, which you can use to quickly send a message to us.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s easy to use and allows you quick and easy access to all messages you have sent or received.&lt;/p&gt;
+
+&lt;p&gt;Simply click the icon, compose your message and send.&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="Send Message" alt="Send" src="/img/blog/newmessagesend-7efa0f0c.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Its as easy as that!&lt;/p&gt;
+
+&lt;p&gt;You can also view your conversations summary clicking here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="View Summary" alt="View Summary" src="/img/blog/viewmessage-301d7eea.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;and from there you can then select a conversation&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="View Conversations" alt="View Conversation" src="/img/blog/viewconversations-aa328c42.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;to see the conversation detail.&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="Conversation Detail" alt="View Detail" src="/img/blog/conversationdetail-f02acbe3.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;We will also be using this to let you know about new features or news, so watch out for this. We&amp;#39;d love to know what you think so please let us know and we look forward to talking to you sometime soon.&lt;/p&gt;
+
+&lt;p&gt;Ian&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Documentation Improvements: Search and Full Screen</title>
     <link rel="alternate" href="/blog/2012/11/documentation-search-and-full-screen/"/>
@@ -233,155 +275,6 @@ them textually.&lt;/p&gt;
 &lt;p&gt;This release also marks the beginning of an all new internal development process for our engineering team, which will mean much more frequent releases, as well as a far greater ability - and flexibility - to respond to bugs and requests from you guys. It&amp;#39;s a very new process, so we are still refining it as we go along, but already we deployed two minor releases just today that fix a few bugs that you guys reported within the last 24 hours.&lt;/p&gt;
 
 &lt;p&gt;Plenty more to come, so watch this space.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Accepting Credit Card Payments in AC Apps</title>
-    <link rel="alternate" href="/blog/2012/10/accepting-credit-card-payments-ac-apps/"/>
-    <id>/blog/2012/10/accepting-credit-card-payments-ac-apps/</id>
-    <published>2012-10-09T00:00:00Z</published>
-    <updated>2012-10-09T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.&lt;/p&gt;
-
-&lt;p&gt;It handles not just the payment but can also send detailed invoices. The money from the transaction is managed by Zooz and can be paid directly to your bank (most countries are supported) or to a Payoneer account.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.&lt;/p&gt;
-
-&lt;p&gt;It handles not just the payment but can also send detailed invoices. The money from the transaction is managed by Zooz and can be paid directly to your bank (most countries are supported) or to a Payoneer account.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Zooz&lt;/h2&gt;
-
-&lt;p&gt;We have integrated Zooz into the Application Craft backend, so as a developer you can just get on with building an app and you don&amp;#39;t have to worry about the deeper technical details. All you need to do is to sign up with Zooz, register your app within Zooz and you&amp;#39;re ready to get started.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;What the user sees ...&lt;/h2&gt;
-
-&lt;p&gt;&lt;img title="Payments in your mobile or desktop app and invoice generated" src="/img/blog/zooz-blog-2-258ed23f.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;At some point, a user will press a button within your app when s/he is ready to pay. At this point, a very nice &amp;#39;n&amp;#39; easy screen will appear (see below) and credit card details are entered.  The user is then shown a confirmation screen (an app screen) and and invoice is sent.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;What the developer does ...&lt;/h2&gt;
-
-&lt;p&gt;If you want full details on coding your payments app, please click to see the relevant section in the User Guide. For those not familiar with Application Craft yet, all code (client and server) is written in the browser based IDE and is regular javascript.&lt;/p&gt;
-
-&lt;p&gt;This is a brief summary of how it works. [SSJ] means it is being executed as a server-side Javascript.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;[Client] A &amp;#39;Pay&amp;#39; button is pressed&lt;br&gt;
-Pass control to your SSJ script.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;[SSJ] Prepare the payment details&lt;br&gt;
-You can prepare invoice details on the client but to be secure, it should be done on the server.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;[SSJ] Call &lt;code&gt;ssj.zooz.payment()&lt;/code&gt;&lt;br&gt;
-This is where you initiate the payment process. Your code gets a token back which is passed back to the client.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;[Client] Call &lt;code&gt;zoozStartCheckout()&lt;/code&gt;&lt;br&gt;
-This initiates the actual payment process where the user will be asked to enter credit card details etc. You specify a callback function is called once it completes.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;[Client] Call SSJ function to validate the transaction&lt;br&gt;
-Your callback function should transfer control to an SSJ script where you validate the payment. You pass in the Zooz transaction id so it can be correctly validated.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;[SSJ] Call &lt;code&gt;ssj.zooz.validate()&lt;/code&gt;&lt;br&gt;
-This is a final security measure to safeguard against hacking. If it returns true, then you know it is good to proceed with the order fulfillment. &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;[Client] Tell user of success or failure&lt;br&gt;
-Inform the user of success or of errors.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The code samples below show how payments are handled. Click to see the relevant section in the User Guide if you want to copy and paste code.&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;Client-side code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;// This value was specified by you in your Zooz portal
-var AppId = &amp;#39;com.yourdomain.yourpayment&amp;#39;;
-
-function handler_actionBtn1_onClick(mouseev){
-  // You may want to pass shopping cart items and order
-  // details from the client. Or you may have stored this on
-  // the server
-  orderDetails = getOrderDetails();    
-  cartItems = getCartItems();
-
-  // Now call the SSJ function passing in Order details and
-  // (if applicable) shopping cart contents
-  app.callSSJ(&amp;quot;zooz_payment&amp;quot;, function(error, result){
-    // The SSJ function should return a token that you now
-    // pass to the Zooz on the client. This is where the
-    // actual payment screen will appear to the user
-    zoozStartCheckout({
-      // Session token received from server
-      token: result,
-      // unique ID as registered in the developer portal
-      uniqueId: AppId,
-      // true = Sandbox environment
-      isSandbox : true,
-      // callback function from Zooz after payment attempt
-      completeCallBackFunc: transactionComplete
-    });
-  }, [orderDetails, cartItems]);       
-}
-
-function transactionComplete(response) {
-  // Zooz returns a JSON string, so we will convert it into an 
-  // object
-  response = JSON.parse(response);
-
-  if (response.statusCode === 0) {
-    // If you want to avoid any risk of price manipulation, you
-    // MUST call an SSJ function to validate. You should handle
-    // the release of your product on the server and not the
-    // client.
-    app.callSSJ(&amp;#39;zooz_validate&amp;#39;, function(error, result){
-      // Now you can report any errors to the end-user
-      if (!error)
-        if (result) {
-          app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Transaction successful&amp;#39;);
-        } else {
-          app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Fake transaction attempted&amp;#39;);
-        }
-      else {
-        app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Error approving payment&amp;#39;);
-      }
-    }, [response.transactionID]);
-  }
-  else {
-    app.setData(&amp;#39;lblTransactionStatus&amp;#39;, &amp;#39;Communication error&amp;#39;);
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_4"&gt;Server-side code&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;// If true, then you can test your payments. Use the following
-// card details for testing:
-//   Card : 4580-4580-4580-4580
-//   Expiry : any date (01/15) in the future
-//   CV Code : any 3 digit number
-var isSandbox = true;
-var zoozID = &amp;#39;com.yourdomain.yourpayment&amp;#39;;
-var zoozKey = &amp;#39;e1424295-4d26-4e78-a884-0da424299f9c&amp;#39;;
-
-// Your SSJ function that initiates the payment process
-function zooz_payment(objDetails, cartItems) {
-  // the params object will contain all the order details you
-  // pass to Zoom
-  params = calcPayment(objDetails, cartItems);
-  return ssj.zooz.payment(params, isSandbox);
-}
-
-// This function is where you complete your processing
-// It is important to inspect the result and only release your
-// order/product if it is confirmed as valid.
-function zooz_validate(transactionId) {
-  var obj = {
-    ZooZUniqueID : zoozID,
-    ZooZAppKey : zoozKey
-  };
-  var isValid = ssj.zooz.validate(transactionId, obj, isSandbox);
-  if (isValid) {
-    // At this point you know everything is cleared and
-    // validated as safe. So you can ship your product etc.
-  }
-  return isValid;
-}
-&lt;/code&gt;&lt;/pre&gt;
 </content>
   </entry>
 </feed>

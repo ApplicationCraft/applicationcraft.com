@@ -387,6 +387,15 @@ if ($args = ways_to_develop_new_widgets_in.htm) {
 if ($args = developer_guide.htm) {
   rewrite ^ /developers/documentation/extending-ac/? permanent;
 }
+
+
+
+
+
+
+
+
+
 if ($args = cancel_subscription.htm) {
   rewrite ^ /developers/documentation/product-guide/account-management/cancel-subscription/? permanent;
 }

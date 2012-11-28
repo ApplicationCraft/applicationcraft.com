@@ -15,7 +15,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-75c37bb1.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-daf2d4be.css" media="screen" rel="stylesheet" type="text/css" />
     
   </head>
   <body class="blog">
@@ -71,6 +71,103 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/blog/2012/09/power-server-side-javascript/">September 17, 2012</a>
+            
+              <span class="author">by <a href="mailto:jmoss@applicationcraft.com">Joel Moss</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>server side javascript</li>
+            
+              <li>javascript</li>
+            
+              <li>server</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2012/09/power-server-side-javascript/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2012/09/power-server-side-javascript/">The Power of Server Side Javascript</a></h1>
+        
+          <img alt="The Power of Server Side Javascript" align="left" class="blog-img" src="/img/blog/ace-editor-e8f36443.png" />
+        
+        <p>Most of you will already know that Application Craft gives you the ability to run <a href="/revisions/current/docs/user-guide/index.html?server_side_scripting.htm">Server-Side Javascript</a> code as part of your app, allowing you to securely handle <a href="/revisions/current/docs/user-guide/index.html?database_handling_with_ssj.htm">database connections and communication</a>. It also means you can write custom functions that will be executed within the confines of the server. This functionality is hugely powerful, and extremely conveniant, mainly because you can write Javascript on both the client and server. SSJ has also been a part of Application Craft for several months now.</p>
+
+<p>Last week, Parse announced a <a href="http://blog.parse.com/2012/09/11/welcoming-cloud-code-to-the-parse-family">new service</a> to allow their users to do the same thing, and named it &quot;Cloud Code&quot;. Since then, there has been a buzz around the interwebs about how cool this is. So I thought I would show you a little of what Application Craft&#39;s SSJ can do for you and your apps, and why there is no better platform to allow you to build &quot;anywhere, anytime&quot; mobile, desktop and web apps.</p>
+
+<p>So lets use a quick example. In fact, this is a real world example of an app that I started building just last week. We wanted a way to quickly and easily see our key business metrics and performance indicators, all in one easy to use interface - a dashboard if you like. I wanted this dashboard to contain things like the number of visitors to the site, how many signups we got yesterday and how long our users use the service.</p>
+
+<p>As well as needing to grab visitor data from Google Analytics via their API (which I will talk about in a future post), I also needed a way to query our internal PostGreSQL database, which contains our user data. Needless to say, I couldn&#39;t do that on the client side, as it would mean our DB credentials would be exposed to the world. So in stepped Server-Side Javascript!</p>
+
+<p>The following function, which I placed in a new file within the Server section of my app&#39;s Code Explorer, simply queries our DB for the number of signups we had yesterday:</p>
+
+<pre><code>function fetchSignupData()
+{
+  var db = ssj.getConnection(&#39;MY-CONNECTION-ID&#39;);
+  var sql = &quot;SELECT COUNT(*) AS signups_yesterday FROM signups WHERE date = &#39;2012-09-16&#39;&quot;;
+  var result = db.exec(sql);
+  return result[0].signups_yesterday;
+}
+</code></pre>
+
+<p>A very simple function that gets our DB connection (via its ID), which I created via the &quot;Connections&quot; tab of the console, and executes a SQL query. The result, which will be a Javascript object literal, is then filtered so the function can return the actual signups count.</p>
+
+<p>I could also have written my SQL query using Application Craft&#39;s built in <a href="/revisions/current/docs/user-guide/index.html?select_handling.htm">select handling</a> methods:</p>
+
+<pre><code>db.select().from(&quot;signups&quot;, &quot;COUNT(*)&quot;).where(&quot;date = ?&quot;, &#39;2012-09-16&#39;);
+</code></pre>
+
+<p>All I had to do then, was drop a label widget into my app, which will show the result of the SSJ function above. Once that was done, I could then write a little client-side code to call my SSJ function, and print the result into the label.</p>
+
+<pre><code>function handler_application_onAppStarted() {
+  app.callSSJ(&#39;fetchSignupData&#39;, function(error, result)
+  {
+    if (error === false) {
+      app.setData(&#39;signupsLabel&#39;, &quot;Signups yesterday: &quot; + result[0].signups_yesterday);
+    } else {
+      console.log(&#39;Unable to fetch signup data&#39;);
+    }
+  });
+}
+</code></pre>
+
+<p>This function is automatically called when my app starts, so it is a good place to grab what we need. The third line is the most interesting bit:</p>
+
+<pre><code>app.callSSJ(&#39;fetchSignupData&#39;, function(error, result) {});
+</code></pre>
+
+<p><code>app.callSSJ()</code> is is what we use to call SSJ functions. It expects two arguments; the SSJ function name, and a callback that will be passed any error and the result of the SSJ function itself. Within the callback, I simply checked for an error, at which point I log an error to the browsers console. But if no error is found, it updates the label with the signup count.</p>
+
+<p>As well as allowing us to safely fetch data from almost any remote database, it also means that we can make changes to our SSJ, without having to update any code on the client.</p>
+
+<p>So hopefully from this, you can see how powerful Server-Side Javascript is and can be as part of your apps. If you want to give this a go, you can get started here for free.</p>
+
+<p>Enjoy!</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/09/power-server-side-javascript/" data-via="appcrafty" data-size="small" data-count="none" data-text="The Power of Server Side Javascript">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/09/power-server-side-javascript/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -290,77 +387,6 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/blog/2012/01/phonegap-application-craft-pain-free-mobile-app-development/">January 20, 2012</a>
-            
-              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
-            
-          </p>
-
-          <p class="tagged">Tagged:</p>
-          <ul class="tags">
-            
-              <li>phonegap</li>
-            
-              <li>cordova build</li>
-            
-          </ul>
-
-          <p class="comments">
-            <a class="dsq-comment-count" href="/blog/2012/01/phonegap-application-craft-pain-free-mobile-app-development/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/blog/2012/01/phonegap-application-craft-pain-free-mobile-app-development/">PhoneGap + Application Craft = Pain-Free Mobile App Development</a></h1>
-        
-          <img alt="PhoneGap + Application Craft = Pain-Free Mobile App Development" align="left" class="blog-img" src="/img/blog/phonegap-4c947beb.gif" />
-        
-        <p>Application Craft is very tightly integrated with PhoneGap:Build and today PhoneGap released their Case Study highlighting this integration.</p>
-
-<p><a href="http://phonegap.com/case/2011/11/07/phonegap-application-craft-pain-free-mobile-app-development/" target="_blank">Click here</a> to go to see it on the PhoneGap Site.</p>
-
-<h2 id="toc_0">Reproduced Content from PhoneGap Site</h2>
-
-<p>Just as the PhoneGap mantra is fast and easy cross-platform mobile app deployment, Application Craft creators are committed to making the mobile app and content development process pain-free. No wonder these two technologies get on so well!</p>
-
-<p>Application Craft is a cloud-based, desktop and mobile app development environment for building enterprise apps and mobile and tablet content. On top of its advanced browser-based IDE, Application Craft offers a sophisticated back end that supports database integration, data storage and more. Examples of apps built with Application Craft include the Tate Modern Museum mobile app and the JamieOliver.com app.</p>
-
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/whvMQg2R-sI" width="560"></iframe>
- 
-
-<h3 id="toc_1">So, why is Application Craft and PhoneGap a match made in heaven?</h3>
-
-<p>Application Craft generates 100% Javascript apps. When combined with PhoneGap and PhoneGap Build, apps built using Application Craft can access native device features and can be automatically deployed to app stores.</p>
-
-<p>PhoneGap Build--a cloud-based services that compiles PhoneGap apps for various platforms--provides a &quot;huge bonus&quot; because it seamlessly manages the complexities of native compilers, says Freddy May, Founder and CEO of Application Craft. &quot;The PhoneGap Build API is icing on the cake because it meant we were able to achieve the tightest possible integration with Application Craft.&quot;</p>
-
-<p>May adds that integrating the PhoneGap API into Application Craft was easy. Despite PhoneGap Build being in beta, Application Craft developers completed the integration without a single email or call to PhoneGap. The result is an app deployment feature that Application Craft is proud of--a build of five platform binaries takes about a minute. &quot;This is more than acceptable especially when you consider it&#39;s an asynchronous process and we allow our users to work on other things as the apps compile. Once a user can specify a single platform build via the build API, it should be even faster,&quot; he says.</p>
-
-<p>By adding cross-platform app compilation to Application Craft, PhoneGap Build saves developers many tedious testing hours, which translates into a major competitive advantage for the Application Craft development environment and, ultimately, makes for happier app developers.</p>
-
-<p>Watch this video to get a closer look at how Application Craft and PhoneGap work together:</p>
-
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/MPAaKYGipDo" width="560"></iframe>
-
-<p>In the last couple of weeks, Application Craft has launched a major update with a comprehensive implementation of jQueryMobile and added a new feaure allowing UI designers to build responsive design type page using the IDE. You can read more about this news on <a target="_blank" href="http://www.applicationcraft.com/blog">their blog</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/01/phonegap-application-craft-pain-free-mobile-app-development/" data-via="appcrafty" data-size="small" data-count="none" data-text="PhoneGap + Application Craft = Pain-Free Mobile App Development">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/01/phonegap-application-craft-pain-free-mobile-app-development/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -384,6 +410,8 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/blog/2012/11/a-new-way-to-talk/">Introducing A New Way to Talk</a></li>
+          
             <li><a href="/blog/2012/11/documentation-search-and-full-screen/">Documentation Improvements: Search and Full Screen</a></li>
           
             <li><a href="/blog/2012/11/welcome-to-the-all-new-application-craft/">Welcome to the all New ApplicationCraft</a></li>
@@ -398,8 +426,6 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
           
             <li><a href="/blog/2012/10/introducing-developer-portal/">Introducing the Developer Portal</a></li>
           
-            <li><a href="/blog/2012/09/power-server-side-javascript/">The Power of Server Side Javascript</a></li>
-          
         </ul>
       </section>
     
@@ -408,13 +434,13 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/blog/2012/09/power-server-side-javascript/">The Power of Server Side Javascript</a></li>
+        
           <li><a href="/blog/2012/09/what-mark-zuckerberg-really-said-about-html5/">What Mark Zuckerberg Really Said About HTML5</a></li>
         
           <li><a href="/blog/2012/09/application-craft-launches-cloud-based-app-platform-gets-1-million-funding/">Application Craft Launches Cloud-Based App Platform, Gets $1 Million in Funding</a></li>
         
           <li><a href="/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/">Scandit Partnership - Enterprise quality barcode scanning in AC</a></li>
-        
-          <li><a href="/blog/2012/01/phonegap-application-craft-pain-free-mobile-app-development/">PhoneGap + Application Craft = Pain-Free Mobile App Development</a></li>
         
       </ul>
     </section>
