@@ -1,5 +1,5 @@
 ---
-title: "Changing Properties"
+title: "5. Changing Properties"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -12,9 +12,9 @@ Now let's change a widget property or two. You will find yourself doing a lot of
 
 ##Changing the text on the button
 
-1. Double-click the button you created on your page. 
+1. Double-click the button widget on your page. 
 1. You will see that the default propert is automatically selected, so simply type in 'Greet Me!'.
-1. Press Enter or Tab and you will see 'Greet Me' appears on your button.
+1. Press Enter or Tab and you will see 'Greet Me!' appears on your button.
 
 ##Changing a color
 Let's start of with the color of the text on the button.
@@ -30,7 +30,7 @@ You can change other properties in this way.
 ##Changing the Label text
 Let's finish off by double clicking the Label widget. The Label property will be automatically selected, so enter something like 'Enter your name ...'
 
-You may need to resize the width of the widget, so select it and grab the right edge and drag it to fit the way you want it.
+You may need to resize the width of the widget, so select it and grab the right edge and drag it to the desired size.
 
 ##Changing the 'Placeholder' property of the Text field
 Another thing you could do is to select the Text widget and then look for the Placeholder property. Try 'First and Last Name'. You will see that this now appears as a greyed out text instruction within the widget.

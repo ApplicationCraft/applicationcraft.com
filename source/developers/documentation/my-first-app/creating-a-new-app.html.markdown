@@ -1,5 +1,5 @@
 ---
-title: "Creating a new App"
+title: "2. Creating a new App"
 active_menu_item: developers
 class_name: developers
 full_width: true

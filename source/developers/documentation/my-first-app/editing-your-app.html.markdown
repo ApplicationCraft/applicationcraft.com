@@ -1,5 +1,5 @@
 ---
-title: "Editing your App in the IDE"
+title: "3. Editing your App in the IDE"
 active_menu_item: developers
 class_name: developers
 full_width: true

@@ -1,5 +1,5 @@
 ---
-title: "Assigning names to widgets"
+title: "6. Assigning names to widgets"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -8,7 +8,7 @@ pagination:
   previous: my-first-app/changing-properties
 ---
 
-This step is easily overlooked but you will hug yourself later on if you get into the habit of doing this as you design. Rest assured, it is worth the very little effort.
+This step is easily overlooked but you will hug yourself later on if you get into the habit of doing this as you add widgets. Rest assured, it is worth the small effort.
 
 By assigning a nice name to each widget you need to reference from your code, you will instantly make your code readable. 
 

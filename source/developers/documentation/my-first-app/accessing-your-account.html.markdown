@@ -1,5 +1,5 @@
 ---
-title: "Accessing your account"
+title: "1. Accessing your account"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -7,12 +7,10 @@ pagination:
   next: my-first-app/creating-a-new-app
 ---
 
-There are a couple of ways to access your account...
+There are a couple of ways to access your account.
 
 ## URL in your browser
-You can always access your Application Craft account by entering the following into your browser's address bar
-
- - yourdomain.applicationcraft.com, where yourdomain is the name you chose when signing up.
+You can always access your Application Craft account by entering **yourdomain.applicationcraft.com** in your browser, where **yourdomain** is the domain name you chose when signing up.
 
 
 ## Chrome Web Store

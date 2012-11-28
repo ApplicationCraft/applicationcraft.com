@@ -1,5 +1,5 @@
 ---
-title: "Adding Widgets"
+title: "4. Adding Widgets"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -15,8 +15,8 @@ First of all, let's make sure your page is set to be in Absolute Mode, so you ca
 
 ![AC IDE](/img/tutorials/mfa-ide-2.png)
 
-1. Click anywhere within the actual page but not on any widget.
-1. In the Property Bar, locate the Layout property (labeled '1.' in the image) and change it to Absolute.
-1. Now drag the Label widget (labeled 2.) into the page.
-1. Do the same for the Text (labeled 3.) and Action Button (4.) widgets.
+1. Click anywhere within the actual page but not on any widget. In the Property Bar, locate the Layout property and change it to Absolute.
+1. Now drag the Label widget into the page.
+1. Do the same for the Text widget.
+1. And the same for the Action Button widget.
 

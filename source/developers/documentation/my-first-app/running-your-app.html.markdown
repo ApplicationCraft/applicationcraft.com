@@ -1,5 +1,5 @@
 ---
-title: "Previewing, running, deploying"
+title: "8. Previewing, running, deploying"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -29,7 +29,7 @@ Save and close your App to return to the Console. Here you will find two more wa
 
  - **QR Code** - if you want to view an App on a Smartphone and you have a QR-Code Reader App installed, then the Console also has a QR Code ready for you to scan.
 
-Your App will look pretty messy, but that's another discussion. You can make your Apps look any way you want, including automatic resizing of everything. That was touched on in the [Editing your App in the IDE](../edit-app) section.
+Your App will look pretty messy, but that's another discussion. You can make your Apps look any way you want, including automatic resizing of everything. That was touched on in the [Editing your App in the IDE](/developers/documentation/my-first-app/editing-your-app/) section.
 
 And we're done!
 
