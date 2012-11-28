@@ -13,7 +13,7 @@ Along with the many website changes we’ve been working hard at improving, such
 
 Your time’s valuable! We know that and you know that, which is why we have created an app so you can access Application Craft directly from Chrome. This 2-step process will save you time to do more important things... such as creating applications:
 
-1. Go on the [Chrome Web Store](https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc/"Chrome Web Store") 
+1. Go on the [Chrome Web Store](https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc/) 
 
 2. Click on the ‘Add to Chrome’ tab. This will allow you to bypass signing in via the website, as having the Chrome app will have you on your way to smooth sailing directly to your personal console. 
 
