@@ -25,7 +25,7 @@ This App is going to ask you to enter your name (let's say it's Mike) and it wil
 1. You will now find yourself in 'Code Mode'. This is a Javascript editor where you can write your code. Below is a screenshot of what you will see
 ![console](/img/tutorials/mfa-coding-2.png)
 1. If you don't much like the code editor's color scheme, move your mouse near to the top right of the code area (circled in the above image) and you will see a color scheme name appear. Click on it to select a different color scheme. My personal favorite is 'Idle Fingers' but find your own favorite.
-1. If you want to get back to UI Design Mode, you can click on the 'Design' button at the bottom of the screen or press ctrl+d (cmd+d on a mac) to go back and forth.
+1. If you want to get back to UI Design Mode, you can click on the 'Design' button at the bottom of the screen or press `ctrl+d` (or `cmd+d` on a Mac) to go back and forth.
 1. Now enter the following line of code into in the code editor.
 
 
