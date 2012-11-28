@@ -3,6 +3,8 @@ title: "Some titbits to finish with"
 active_menu_item: developers
 class_name: developers
 full_width: true
+pagination:
+  previous: my-first-app/running-your-app
 ---
 
 This closing section is just intended to point you to some more advanced things that are good to be aware of. Knowing that these things can be done with Application Craft is enough to get you going.

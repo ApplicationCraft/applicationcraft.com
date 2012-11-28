@@ -3,6 +3,9 @@ title: "Changing Properties"
 active_menu_item: developers
 class_name: developers
 full_width: true
+pagination:
+  next: my-first-app/assigning-field-names
+  previous: my-first-app/adding-widgets
 ---
 
 Now let's change a widget property or two. You will find yourself doing a lot of this once you get going.

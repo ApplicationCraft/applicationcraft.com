@@ -3,6 +3,9 @@ title: "Previewing, running, deploying"
 active_menu_item: developers
 class_name: developers
 full_width: true
+pagination:
+  previous: my-first-app/creating-events
+  next: my-first-app/mfa-titbits
 ---
 
 You're now ready to try it all out. There are 3 ways to run your App.
@@ -21,8 +24,13 @@ Save and close your App to return to the Console. Here you will find two more wa
 ![console](/img/tutorials/mfa-run-2.png)
 
  - **The Short URL** - just lowercase characters, so it's really easy to enter on a mobile device's touch keyboard.
+
  - **Long URL** - this is the full URL AC uses. There's no real reason to use this when the short url will do.
+
  - **QR Code** - if you want to view an App on a Smartphone and you have a QR-Code Reader App installed, then the Console also has a QR Code ready for you to scan.
 
-
 Your App will look pretty messy, but that's another discussion. You can make your Apps look any way you want, including automatic resizing of everything. That was touched on in the [Editing your App in the IDE](../edit-app) section.
+
+And we're done!
+
+There is so much more you can do, but now you know the basics, you have no excuse. So go forth and build something amazing, and don't forget to [let us know about it](https://getsatisfaction.com/application_craft).

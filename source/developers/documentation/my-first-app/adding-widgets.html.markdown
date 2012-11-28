@@ -3,6 +3,9 @@ title: "Adding Widgets"
 active_menu_item: developers
 class_name: developers
 full_width: true
+pagination:
+  next: my-first-app/changing-properties
+  previous: my-first-app/editing-your-app
 ---
 
 Now let's add some widgets to the page. We are going to keep this really simple but you can add as many as you'd like to have fun with.

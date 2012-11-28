@@ -44,6 +44,13 @@
     <article id="doc-body">
       <h1><%= current_page.data.title %></h1>
       <%= yield %>
+
+      <% if current_page.data.pagination %>
+        <div id="pagination" class="clearfix">
+          <%= link_to "&laquo; previous", "/developers/documentation/#{current_page.data.pagination.previous}", :class => "btn" if current_page.data.pagination.previous %>
+          <%= link_to "next &raquo;", "/developers/documentation/#{current_page.data.pagination.next}", :class => "btn fright" if current_page.data.pagination.next %>
+        </div>
+      <% end %>
     </article>
 
   </div>
