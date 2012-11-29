@@ -5,10 +5,58 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2012-11-28T00:00:00Z</updated>
+  <updated>2012-11-29T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>My First App - the first of many Tutorials</title>
+    <link rel="alternate" href="/blog/2012/11/my-first-app-tutorial/"/>
+    <id>/blog/2012/11/my-first-app-tutorial/</id>
+    <published>2012-11-29T00:00:00Z</published>
+    <updated>2012-11-29T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;h2 id="toc_0"&gt;Crimes &amp;amp; Misdemeanours&lt;/h2&gt;
+
+&lt;p&gt;I guess all companies commit them. Well we are now atoning for a pretty major crime - not having a really good &amp;#39;Getting Started&amp;#39; guide so that first time users can go from zero to hero in a few minutes.&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;&lt;a href="/developers/documentation/my-first-app/"&gt;Click here to see it live &amp;raquo;&lt;/a&gt;&lt;/h3&gt;
+</summary>
+    <content type="html">&lt;h2 id="toc_0"&gt;Crimes &amp;amp; Misdemeanours&lt;/h2&gt;
+
+&lt;p&gt;I guess all companies commit them. Well we are now atoning for a pretty major crime - not having a really good &amp;#39;Getting Started&amp;#39; guide so that first time users can go from zero to hero in a few minutes.&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;&lt;a href="/developers/documentation/my-first-app/"&gt;Click here to see it live &amp;raquo;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;When we released our new web site, Joel also built a new framework for our all our documentation. We just finished all the major tweaks and so we are now using it for a complete set of tutorials, My First App being the first.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;8 Steps, 15 Minutes&lt;/h2&gt;
+
+&lt;p&gt;In 8 easy steps and about 15 minutes of work, you get to build and deploy an App but you really get to play with most of the major components of Application Craft, including&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;designing a very simple UI&lt;/li&gt;
+&lt;li&gt;changing properties&lt;/li&gt;
+&lt;li&gt;writing some code&lt;/li&gt;
+&lt;li&gt;deployment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_3"&gt;Coming soon ...&lt;/h2&gt;
+
+&lt;p&gt;My First App is the first part of some major tutorial work. The main ones we are about to start work on are&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a complete set of &lt;strong&gt;Javascript for Beginners&lt;/strong&gt; tutorials that use Application Craft as a great way to learn&lt;/li&gt;
+&lt;li&gt;a comprehensive collection of &lt;strong&gt;Application Craft By Example&lt;/strong&gt; tutorials, which will conentrate on getting into the really meaty aspects of using the product with lots of detailed examples. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_4"&gt;Feedback Please!&lt;/h2&gt;
+
+&lt;p&gt;Please add your commments to this blog. We really do take notice so any ideas, suggestions, typo spots (etc.) are much appreciated.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Introducing A New Way to Talk</title>
     <link rel="alternate" href="/blog/2012/11/a-new-way-to-talk/"/>
@@ -226,55 +274,6 @@ them textually.&lt;/p&gt;
 &lt;p&gt;Application Craft allows you to build once and run anywhere, and it achieves that through standard web technologies like HTML5, Javascript and CSS. So what better place can there be to develop these apps, than within the browser - the very place that the app is consumed. The engine behind the browser is also what will run your app on mobile devices.&lt;/p&gt;
 
 &lt;p&gt;So a real Visual IDE for building web and mobile apps is right here, and is so much more than you think!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Updated code editor and ShareThis widget</title>
-    <link rel="alternate" href="/blog/2012/10/just-released-updated-code-editor-and-sharethis-widget/"/>
-    <id>/blog/2012/10/just-released-updated-code-editor-and-sharethis-widget/</id>
-    <published>2012-10-11T00:00:00Z</published>
-    <updated>2012-10-11T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;We just rolled out a couple of small, but newsworthy new features to the Application Craft platform.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Updated ACE Code Editor&lt;/h2&gt;
-
-&lt;p&gt;&lt;img title="ACE Code editor in the AC IDE" alt="ACE Code Editor" src="/img/blog/ace-editor-e8f36443.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;First is a major update to the integrated code editor within the IDE, which introduces some really nice improvements and a few little helpers to make your life easier. Our code editor is powered by the open source ACE Editor, which means we get to use the power of open source and bring you some awesome features. This release includes&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;We just rolled out a couple of small, but newsworthy new features to the Application Craft platform.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Updated ACE Code Editor&lt;/h2&gt;
-
-&lt;p&gt;&lt;img title="ACE Code editor in the AC IDE" alt="ACE Code Editor" src="/img/blog/ace-editor-e8f36443.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;First is a major update to the integrated code editor within the IDE, which introduces some really nice improvements and a few little helpers to make your life easier. Our code editor is powered by the open source ACE Editor, which means we get to use the power of open source and bring you some awesome features. This release includes&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Multiple cursors and selections&lt;/li&gt;
-&lt;li&gt;Code folding&lt;/li&gt;
-&lt;li&gt;Autoclosing of html tags&lt;/li&gt;
-&lt;li&gt;Indent guides&lt;/li&gt;
-&lt;li&gt;New themes&lt;/li&gt;
-&lt;li&gt;Many small tweaks and fixes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sign up or sign in to your account and give it a whirl today.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;ShareThis Widget&lt;/h2&gt;
-
-&lt;p&gt;&lt;img title="ShareThis widget in the AC IDE" alt="ShareThis Widget" src="/img/blog/share-this-6269f524.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;We also added a new widget to your toolbox, which wraps up the free ShareThis service into one tiny package, and lets you share your apps across almost any social network. Just drag and drop the widget onto your app, and you&amp;#39;re done. It just works!&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Frequent Releases&lt;/h2&gt;
-
-&lt;p&gt;This release also marks the beginning of an all new internal development process for our engineering team, which will mean much more frequent releases, as well as a far greater ability - and flexibility - to respond to bugs and requests from you guys. It&amp;#39;s a very new process, so we are still refining it as we go along, but already we deployed two minor releases just today that fix a few bugs that you guys reported within the last 24 hours.&lt;/p&gt;
-
-&lt;p&gt;Plenty more to come, so watch this space.&lt;/p&gt;
 </content>
   </entry>
 </feed>
