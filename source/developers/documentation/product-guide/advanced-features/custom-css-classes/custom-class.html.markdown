@@ -30,15 +30,17 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
         padding: 6px 0px 0px 15px;
     }
      
+This will then customise the label widget as:
+
+![CustomLabel](/img/docs/customlabel.png)
+     
+     
     .txtSize .m-ui-input-text {
     font-size :  26px !important;
     font-family : Verdana;
     }
   
 
-This will then customise the label widget as:
-
-![CustomLabel](/img/docs/customlabel.png)
 
 This will then set the font family to Verdana and the font size to 26px for a Mobile Text Widget
 
