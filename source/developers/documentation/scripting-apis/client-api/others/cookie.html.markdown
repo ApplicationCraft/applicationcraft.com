@@ -7,9 +7,9 @@ full_width: true
 ---
 
 
-setting : **cookie** (cookieName, value, optional options);
+setting : **setCookie** (cookieName, value, optional options);
 
-getting : {string} **cookie** (cookieName)
+getting : {string} **getCookie** (cookieName)
 
 ## Parameters
 
