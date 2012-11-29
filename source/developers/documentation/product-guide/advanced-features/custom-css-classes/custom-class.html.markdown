@@ -13,7 +13,7 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
 
 **Example CSS file**
 
-    label {
+    .label {
         border: 1px solid #fff;
         text-shadow: none;
         font-size: 16px;
