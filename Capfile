@@ -20,7 +20,6 @@ set :branch, defer { current_branch } unless exists?(:branch)
 after "deploy:restart", "deploy:cleanup"
 
 
-
 namespace :deploy do
   task :finalize_update, :except => { :no_release => true } do
     # Do nothing
