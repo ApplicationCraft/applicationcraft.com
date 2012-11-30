@@ -5,10 +5,49 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2012-11-29T00:00:00Z</updated>
+  <updated>2012-11-30T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Chrome Users Around the World Rejoice!</title>
+    <link rel="alternate" href="/blog/2012/11/chrome-users-around-the-world-rejoice/"/>
+    <id>/blog/2012/11/chrome-users-around-the-world-rejoice/</id>
+    <published>2012-11-30T00:00:00Z</published>
+    <updated>2012-11-30T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Ahoy everyone!&lt;/p&gt;
+
+&lt;p&gt;Along with the many website changes we’ve been working hard at improving, such as fixing video links and cleaning up our &lt;a title="Application Craft Documentation blog" href="http://www.applicationcraft.com/blog/2012/11/documentation-search-and-full-screen/"&gt;documentation&lt;/a&gt;, we went ahead and added in another something extra to make your life easier. &lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Ahoy everyone!&lt;/p&gt;
+
+&lt;p&gt;Along with the many website changes we’ve been working hard at improving, such as fixing video links and cleaning up our &lt;a title="Application Craft Documentation blog" href="http://www.applicationcraft.com/blog/2012/11/documentation-search-and-full-screen/"&gt;documentation&lt;/a&gt;, we went ahead and added in another something extra to make your life easier. &lt;/p&gt;
+
+&lt;p&gt;Your time’s valuable! We know that and you know that, which is why we have created an app so you can access Application Craft directly from Chrome. This 2-step process will save you time to do more important things... such as creating applications:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Go on the &lt;a href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc/"&gt;Chrome Web Store&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Click on the ‘Add to Chrome’ tab. This will allow you to bypass signing in via the website, as having the Chrome app will have you on your way to smooth sailing directly to your personal console. &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img alt="Add to Chrome" src="/img/blog/1addchrome-df91bbda.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ta da! Now the app will appear on your Chrome homepage. All done, told you it was easy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="AC in Chrome" src="/img/blog/2acapp-4dbd44bf.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;With over 100 users using the Chrome app we invite you to jump on board to join the other happy crafters. &lt;/p&gt;
+
+&lt;p&gt;Any questions? Just &lt;a href="mailto:support@applicationcraft.com"&gt;give us a holler&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Ta ta for now,&lt;/p&gt;
+
+&lt;p&gt;Hazel&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>My First App - the first of many Tutorials</title>
     <link rel="alternate" href="/blog/2012/11/my-first-app-tutorial/"/>
@@ -226,54 +265,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Want more? We build plugins based on popular demand. If plenty of people want one, we&amp;#39;ll add it. If you have a very obscure plugin you want adding, our services guys can look at that, too.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The world's first full-featured visual IDE</title>
-    <link rel="alternate" href="/blog/2012/10/worlds-first-full-featured-ide/"/>
-    <id>/blog/2012/10/worlds-first-full-featured-ide/</id>
-    <published>2012-10-22T00:00:00Z</published>
-    <updated>2012-10-22T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;This morning I came across a question on Quora, that asked the question:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Are there any powerful software IDE&amp;#39;s [...], based in the cloud/hosted online?&lt;br&gt;
-The answers received were kind of obvious, mentioning services such as Cloud9 and ShiftEdit, but unfortunately these services are not actually IDE&amp;#39;s. They are just code editors. Sometimes they may have additional functionality that complements the code writing experience, but very little else.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</summary>
-    <content type="html">&lt;p&gt;This morning I came across a question on Quora, that asked the question:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Are there any powerful software IDE&amp;#39;s [...], based in the cloud/hosted online?&lt;br&gt;
-The answers received were kind of obvious, mentioning services such as Cloud9 and ShiftEdit, but unfortunately these services are not actually IDE&amp;#39;s. They are just code editors. Sometimes they may have additional functionality that complements the code writing experience, but very little else.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id="toc_0"&gt;What is an IDE?&lt;/h2&gt;
-
-&lt;p&gt;An IDE or Integrated Development Environment &amp;quot;is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger&amp;quot;. The important part here is that an IDE is a lot&lt;br&gt;
-more than just a source code editor, and that building applications involves a lot more than just writing code.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;What is a Cloud Based IDE?&lt;/h2&gt;
-
-&lt;p&gt;A cloud based IDE is actually almost the same as a traditional IDE, except for one major thing; the entire enviroment is hosted and run in the Cloud. There is nothing to download or install, and no heavy desktop software to use.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;So what then, is a Visual IDE?&lt;/h2&gt;
-
-&lt;p&gt;Ah, I&amp;#39;m glad you asked ;)&lt;/p&gt;
-
-&lt;p&gt;Traditional IDE&amp;#39;s are all about the code, and require you to do all the work by typing endless amounts of code. A Visual IDE is all about making that experience as visual as possible, and lets users create applications by manipulating program elements graphically rather than by specifying&lt;br&gt;
-them textually.&lt;/p&gt;
-
-&lt;p&gt;Application Craft is the worlds only Visual IDE in the cloud, and features a completely visual development environment, while at the same time allowing you to write code if you wish to.&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;So why is this a good thing?&lt;/h2&gt;
-
-&lt;p&gt;Application Craft allows you to build once and run anywhere, and it achieves that through standard web technologies like HTML5, Javascript and CSS. So what better place can there be to develop these apps, than within the browser - the very place that the app is consumed. The engine behind the browser is also what will run your app on mobile devices.&lt;/p&gt;
-
-&lt;p&gt;So a real Visual IDE for building web and mobile apps is right here, and is so much more than you think!&lt;/p&gt;
 </content>
   </entry>
 </feed>
