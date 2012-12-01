@@ -3,11 +3,20 @@ footer {
 
   section:first-child {
     background: #3E3E3E image-url('bgcloth.png') repeat;
-    padding: 20px 5px;
+    padding: 40px 5px;
     font-size: 13px;
 
     @include apply-to(more-than, ipad-portrait) {
-      padding: 30px 40px;
+      padding: 40px 20px;
+    }
+
+    .container.clearfix {
+      @include apply-to(less-than, ipad-landscape) {
+        &:before, &:after {
+          content: none;
+          display: inherit;
+        }
+      }
     }
 
     ul {
@@ -16,72 +25,175 @@ footer {
       padding: 0;
     }
 
-    > div > ul > li {
-      float: left;
+    > div {
+      > ul > li {
+        display: inline-block;
 
-      &:last-child {
-        @include apply-to(less-than, ipad-portrait) {
-          float: none;
-          clear: both;
-        }
-        @include apply-to(more-than, ipad-portrait) {
-          float: right;
-        }
+        > ul {
+          > li a {
+            color: #BBB;
+            margin: 8px;
+            display: block;
 
-        ul {
-          margin: 0 30px;
-          font-size: 0px;
-          list-style: none;
-
-          li {
-            display: inline-block;
-            margin: 15px 5px 0;
-
-            a {
-              background: image-url('social.gif') no-repeat 0 0;
-              text-indent: -9999px;
-              margin: 0;
-
-              &:hover span {
-                -webkit-transform: rotate(360deg);
-                -moz-transform: rotate(360deg);
-                transform: rotate(360deg);
-              }
-
-              span {
-                background: image-url('social.gif') no-repeat 0 0;
-                display: block;
-                width: 50px;
-                height: 51px;
-                position: relative;
-                z-index: 10;
-                -webkit-transition: -webkit-transform 0.4s ease-out;
-                -moz-transition: -moz-transform 0.4s ease-out;
-                transition: transform 0.4s ease-out;
-              }
-            }
-
-            &:nth-child(2) a, &:nth-child(2) a span {
-              background-position: -71px 0;
-            }
-            &:nth-child(3) a, &:nth-child(3) a span {
-              background-position: -143px 0;
-            }
-            &:nth-child(4) a, &:nth-child(4) a span {
-              background-position: -213px 0;
+            @include apply-to(more-than, ipad-portrait) {
+              margin: 8px 50px 8px 0;
+              font-size: 1.1em;
             }
           }
         }
       }
 
-      > ul {
-        > li a {
+      @include apply-to(more-than, ipad-landscape) {
+        ul {
+          float: left;
+        }
+      }
+
+      #webinars {
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        margin: 20px 4px;
+        padding: 10px 4px;
+        text-align: center;
+        font-size: 1.1em;
+
+        @include apply-to(more-than, iphone-landscape) {
+          border-bottom: none;
+          margin: 30px 4px 0;
+          padding-top: 20px;
+        }
+
+        @include apply-to(more-than, ipad-landscape) {
+          border: none;
+          float: left;
+          margin: 0 0 0 20px;
+          padding: 0;
+          text-align: left;
+          font-size: 1em;
+        }
+
+        div > p {
           color: #BBB;
-          margin: 8px 25px;
-          display: block;
+
+          a {
+            margin: 0 4px;
+          }
+
+          span {
+            display: block;
+          }
 
           @include apply-to(more-than, ipad-portrait) {
-            margin: 8px 70px 8px 0;
+            float: left;
+            width: 50%;
+            font-size: 1.15em;
+          }
+
+          @include apply-to(more-than, ipad-landscape) {
+            float: none;
+            width: inherit;
+            font-size: 1em;
+            margin-bottom: 0;
+
+            &:last-child {
+              margin-top: 3px;
+            }
+
+            span {
+              margin-left: 10px;
+              display: inline;
+            }
+          }
+        }
+
+        h3 {
+          font-size: 1.3em;
+          margin-bottom: 24px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            font-size: 1.8em;
+          }
+
+          @include apply-to(more-than, ipad-landscape) {
+            font-size: 1.7em;
+            margin: 0;
+          }
+        }
+      }
+
+      #social-icons {
+        font-size: 0;
+        list-style: none;
+
+        @include apply-to(more-than, iphone-landscape) {
+          float: right;
+          position: relative;
+          top: -420px;
+        }
+
+        @include apply-to(more-than, ipad-portrait) {
+          top: -396px;
+        }
+
+        @include apply-to(more-than, ipad-landscape) {
+          top: -10px;
+        }
+
+        li {
+          display: inline-block;
+          margin: 15px 12px 0;
+
+          @include apply-to(more-than, iphone-landscape) {
+            display: block;
+          }
+
+          a {
+            background: image-url('social.gif') no-repeat 0 0;
+            text-indent: -9999px;
+            margin: 0;
+
+            &:hover span {
+              -webkit-transform: rotate(360deg);
+              -moz-transform: rotate(360deg);
+              transform: rotate(360deg);
+            }
+
+            span {
+              background: image-url('social.gif') no-repeat 0 0;
+              display: block;
+              width: 50px;
+              height: 51px;
+              position: relative;
+              z-index: 10;
+              -webkit-transition: -webkit-transform 0.4s ease-out;
+              -moz-transition: -moz-transform 0.4s ease-out;
+              transition: transform 0.4s ease-out;
+            }
+          }
+
+          &:nth-child(2) a, &:nth-child(2) a span {
+            background-position: -71px 0;
+          }
+          &:nth-child(3) a, &:nth-child(3) a span {
+            background-position: -143px 0;
+          }
+          &:nth-child(4) a, &:nth-child(4) a span {
+            background-position: -213px 0;
+          }
+
+          @include apply-to(more-than, iphone-landscape) {
+            &:nth-child(1) {
+              float: left;
+              margin-left: 76px;
+            }
+            &:nth-child(3) {
+              float: left;
+              margin-left: 76px;
+              margin-top: 5px;
+            }
+            &:nth-child(4) {
+              margin-top: 5px;
+            }
           }
         }
       }
@@ -92,6 +204,11 @@ footer {
     background-color: $red;
     font-size: 12px;
     padding: 14px 4px;
+    text-align: center;
+
+    @include apply-to(more-than, iphone-landscape) {
+      text-align: left;
+    }
 
     @include apply-to(more-than, ipad-portrait) {
       padding: 24px 40px;
@@ -101,9 +218,11 @@ footer {
       color: $cream;
     }
 
-    .container > div {
-      float: right;
-      text-align: right;
+    @include apply-to(more-than, ipad-landscape) {
+      .container > div {
+        float: right;
+        margin-right: 30px;
+      }
     }
   }
 }
