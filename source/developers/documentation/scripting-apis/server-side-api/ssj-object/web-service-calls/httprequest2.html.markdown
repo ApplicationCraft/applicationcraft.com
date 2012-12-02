@@ -7,13 +7,13 @@ full_width: true
 ---
 
 
-{boolean} || {string] **httpRequest** (url, type, optional params, optional dataType, optional header, optional specialParams)
+{boolean}||{string}||{object}] **httpRequest** (url, type, optional params, optional dataType, optional header, optional specialParams)
 
 ## Parameters
 
 <table>
 <tr>
-<td width="199">
+<td width="300">
 {string} url
 
 </td>
@@ -86,15 +86,14 @@ this parameter allows you to pass through special, advanced parameters to the un
 </tr>
 </table>
 
-**Important:** Note that httpRequest() on the server does runs synchronously and so no callback is called, unlike the client side equivalent. Code execution will pause until data (or an error) is returned.
+**Important:** Note that ssj.httpRequest() runs **synchronously** and so no callback is called, unlike the client side equivalent. Code execution will pause until data (or an error) is returned.
 
 ## Returns
-
-Returns false if an error was encountered otherwise data content is returned.
+Returns false if an error was encountered otherwise data is returned in a format determined by the called method.
 
 ## Description
 
-Performs an AJAX call. Please refer to [httpRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) in the client API for full documentation.
+Performs an AJAX call. Please refer to [app.httpRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/httprequest) in the client API for full documentation. Note that the callback function described in that documentation is **not** used with ssj.httpRequest().
 
 If you need to get access to returned Header data and response codes, then please use [ssj.httpRequestAdv()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv)
 
