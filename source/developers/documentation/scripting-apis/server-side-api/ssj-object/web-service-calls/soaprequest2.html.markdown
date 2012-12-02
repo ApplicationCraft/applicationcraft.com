@@ -56,9 +56,12 @@ Returns false if an error was encountered otherwise data content is returned.
 
 ## Description
 
-This function passes a parameter list params to the indicated SOAP method at the specified URL. This function returns data synchronously, unlike the [client API soapRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest) method, which uses a callback.
+This function passes a parameter list params to the indicated SOAP method at the specified URL. This function executes synchronously, unlike the [client API soapRequest()](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest) method, which uses a callback.
 
-Because SOAP provides more information that a RESTful call, AC is able to convert the returned SOAP XML directly into a JSON object. This means that you do not need to call the [XML2OBJ()](/developers/documentation/scripting-apis/client-api/conversion-functions/xml2json) function afterwards.
+SOAP returns XML data but AC converts this automatically into a JSON object. This means that you do not need to call the [XML2OBJ()](/developers/documentation/scripting-apis/client-api/conversion-functions/xml2json) function afterwards.
+
+##Wizard
+If you want some help in building your code, take a look at the [Web Service Wizard](/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard). Just be careful to remove the callback parameter, which is not required for ssj.soapRequest().
 
 ## Example
 
