@@ -897,12 +897,9 @@ if ($args = twitter.htm) {
 if ($args = app_key_and_app_secret.htm) {
   rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/? permanent;
 }
-if ($args = authentication2.htm) {
-  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/authentication2/? permanent;
-}
-if ($args = calling_api_functions.htm) {
-  rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/calling-api-functions/? permanent;
-}
+
+
+
 if ($args = oauth2.htm) {
   rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/? permanent;
 }
