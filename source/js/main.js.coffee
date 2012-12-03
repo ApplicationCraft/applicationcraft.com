@@ -47,6 +47,10 @@ $ ->
       this.title = $(this.element).find('img').attr('title')
 
 
+$ ->
+  if document.location.hash == '#upcoming-webinars'
+    $.fancybox.open($('#webinars').html())
+
 # Homepage Slideshow.
 $ ->
   $('body.home header > .carousel').carousel()

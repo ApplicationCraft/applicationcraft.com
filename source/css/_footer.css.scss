@@ -49,7 +49,7 @@ footer {
         }
       }
 
-      #webinars {
+      #webinars #webinars-inner {
         border-top: 1px solid #666;
         border-bottom: 1px solid #666;
         margin: 20px 4px;
@@ -224,5 +224,29 @@ footer {
         margin-right: 30px;
       }
     }
+  }
+}
+
+.fancybox-inner > #webinars-inner {
+  width: 500px;
+  text-align: center;
+
+  h3 {
+    font: 1.6em gotham_mediumregular;
+    margin: 24px 0 24px;
+    text-transform: uppercase;
+  }
+
+  > div > p {
+    margin: 6px;
+    font-weight: bold;
+
+    span {
+      margin-left: 15px;
+    }
+  }
+
+  > p {
+    margin: 22px 0;
   }
 }
