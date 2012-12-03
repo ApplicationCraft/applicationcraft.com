@@ -250,7 +250,7 @@ String Table
 <table>
 <tr>
 <td width="182">
-<a id="data"> </a> <b>oAuth</b>
+<a id="data"> </a> <b>OAuth</b>
 
 </td>
 <td width="20">
@@ -260,12 +260,12 @@ String Table
 </tr>
 <tr>
 <td width="182">
-oAuth
+OAuth
 </td>
 <td width="20">
 </td>
 <td width="740">
-  oAuth Providers - Where you register your App Key and App Secret keys for your chosen service. See <a href="/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret">App Key and App Secret</a>
+  OAuth Providers - Where you register your App Key and App Secret keys for your chosen service. See <a href="/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret">App Key and App Secret</a>
 </td>
 </tr>
 </table>

@@ -27,7 +27,7 @@ Refer to the [Client API](/developers/documentation/scripting-apis/client-api/) 
 
 ## See Also
 
- - [oAuth](/developers/documentation/product-guide/advanced-features/oauth/)
+ - [OAuth](/developers/documentation/product-guide/advanced-features/oauth/)
 
 ## Related Videos
 

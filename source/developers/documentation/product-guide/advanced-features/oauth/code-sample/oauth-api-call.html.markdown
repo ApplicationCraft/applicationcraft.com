@@ -18,23 +18,23 @@ Now we're ready to make an API call. In this case, we'll send a Tweet that the u
 	                // The Access Token has expired or is invalid.
 	                // You could call app.oAuthSignin() here or (as here) ...
 	                // .. you can simply show a message.
-	                app.showMessage("oAuth Demo", "Key has expired");                
+	                app.showMessage("OAuth Demo", "Key has expired");                
 	            } else {
 	                // Another error, so display the raw error
-	                app.showMessage("oAuth Demo", "Error:" + data.jsMessage);
+	                app.showMessage("OAuth Demo", "Error:" + data.jsMessage);
 	            }
 	        }
 	        else {
-	            app.showMessage("oAuth Demo", "Success");  
+	            app.showMessage("OAuth Demo", "Success");  
 	        }
         }, [_accessToken, app.getValue("txtTweet")]);
     }
 
-The main thing to note is that the actual Tweet is not done by the client code. What we do is to call a Server Side function (`sendTweet' in this case) using [app.callSSJ()](/developers/documentation/scripting-apis/client-api/app-functions/callservice/) and from there the actual API call is made. The reason for this is security. In order for oAuth to be secure, which is the point after all, all calls are done from the server where keys and secrets are protected from prying eyes.
+The main thing to note is that the actual Tweet is not done by the client code. What we do is to call a Server Side function (`sendTweet' in this case) using [app.callSSJ()](/developers/documentation/scripting-apis/client-api/app-functions/callservice/) and from there the actual API call is made. The reason for this is security. In order for OAuth to be secure, which is the point after all, all calls are done from the server where keys and secrets are protected from prying eyes.
 
 If you look to the end of this function, you can see that there are two parameters passed across
 
- - `_accessToken`, which is our oAuth access token and must always be passed across to any server side call that ends up making an oAuth based API call
+ - `_accessToken`, which is our OAuth access token and must always be passed across to any server side call that ends up making an OAuth based API call
  - and Tweet text that we get from our widget using `app.getValue("txtTweet")`
 
 Note that all parameters passed to a server side function must be contained in an array, even if there is only one parameter.

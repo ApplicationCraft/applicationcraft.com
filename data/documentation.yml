@@ -722,7 +722,7 @@ tree:
         title: app.gaTrack(), url: /developers/documentation/product-guide/advanced-features/google-analytics/app-gatrack}
       url: /developers/documentation/product-guide/advanced-features/google-analytics
     - old_url: /revisions/current/docs/user-guide/index.html?oauth2.htm
-      title: oAuth
+      title: OAuth
       tree:
       - old_url: /revisions/current/docs/user-guide/index.html?app_key_and_app_secret.htm
         title: App Key and App Secret
@@ -1930,7 +1930,7 @@ tree:
         title: soapRequest(), url: /developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/soaprequest}
       url: /developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls
     - old_url: /revisions/current/docs/user-guide/index.html?oauth3.htm
-      title: oAuth
+      title: OAuth
       tree:
       - {old_url: '/revisions/current/docs/user-guide/index.html?oauthsignin.htm',
         title: oAuthSignin(), url: /developers/documentation/scripting-apis/client-api/oauth/oauthsignin}
@@ -2153,7 +2153,7 @@ tree:
           url: /developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling
         url: /developers/documentation/scripting-apis/server-side-api/ssj-object/database
       - old_url: /revisions/current/docs/user-guide/index.html?oauth4.htm
-        title: oAuth
+        title: OAuth
         tree:
         - {old_url: '/revisions/current/docs/user-guide/index.html?oauthrequest.htm',
           title: oAuthRequest(), url: /developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/oauthrequest}

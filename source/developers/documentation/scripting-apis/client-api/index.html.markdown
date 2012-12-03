@@ -132,13 +132,13 @@ These calls allow a very easy way of making Web Service calls. You can control a
 </tr>
 <tr>
 <td width="194">
-  <a href="/developers/documentation/scripting-apis/client-api/oauth/">oAuth</a>
+  <a href="/developers/documentation/scripting-apis/client-api/oauth/">OAuth</a>
 
 </td>
 <td width="20">
 </td>
 <td width="666">
-Client side functions to initiate oAuth
+Client side functions to initiate OAuth
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Functions that allow you to assign data instances to Roles, Persons and Groups. 
 <td width="20">
 </td>
 <td width="666">
-Email, oAuth and cookies
+Email, OAuth and cookies
 
 </td>
 </tr>

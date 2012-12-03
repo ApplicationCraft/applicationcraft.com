@@ -19,7 +19,7 @@ Next, enter the details as shown below ...
 
 ![oauth-twitter-2](/img/docs/oauth-twitter-2.png)
 
-Now you will be able to see the Consumer key and Consumer secret as shown below. These are copied into the AC App oAuth property dialog as [explained here](/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/) .
+Now you will be able to see the Consumer key and Consumer secret as shown below. These are copied into the AC App OAuth property dialog as [explained here](/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/) .
 
 ![oauth-twitter-3](/img/docs/oauth-twitter-3.png)
 

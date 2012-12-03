@@ -1,6 +1,6 @@
 ---
 old_url: oauth4.htm
-title: "oAuth"
+title: "OAuth"
 active_menu_item: developers
 class_name: developers
 full_width: true

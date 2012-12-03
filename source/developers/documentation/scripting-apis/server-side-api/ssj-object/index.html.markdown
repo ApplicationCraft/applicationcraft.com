@@ -18,6 +18,6 @@ You will find some functions with direct equivalents on the server such as getVi
  - [Database](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/)
  - [Credit Card Payments](/developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/)
  - [Data Preparation](/developers/documentation/scripting-apis/server-side-api/ssj-object/data-preparation)
- - [oAuth](/developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/)
+ - [OAuth](/developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/)
  - [Miscellaneous](/developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/)
 

@@ -54,7 +54,7 @@ Below is the complete set of code that runs on the client (in the browser). Thes
         }
     }
 
-    // 4. oAuth authentication function
+    // 4. OAuth authentication function
     // In this case, this is a Button Press event
     function handler_btnAuth_onClick(mouseev){
         // See if we already have an old Access Token
@@ -74,14 +74,14 @@ Below is the complete set of code that runs on the client (in the browser). Thes
                     // The Access Token has expired or is invalid.
                     // You could call app.oAuthSignin() here or (as here) ...
                     // .. you can simply show a message.
-                    app.showMessage("oAuth Demo", "Key has expired");                
+                    app.showMessage("OAuth Demo", "Key has expired");                
                 } else {
                     // Another error, so display the raw error
-                    app.showMessage("oAuth Demo", "Error:" + data.jsMessage);
+                    app.showMessage("OAuth Demo", "Error:" + data.jsMessage);
                 }
             }
             else {
-                app.showMessage("oAuth Demo", "Success");  
+                app.showMessage("OAuth Demo", "Success");  
             }
         }, [_accessToken, app.getValue("txtTweet")]);
     }

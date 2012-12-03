@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-Before you start, you will need to register your AC Application with the oAuth supported service. Once you have done this, you will end up with two important keys
+Before you start, you will need to register your AC Application with the OAuth supported service. Once you have done this, you will end up with two important keys
 
  - App Key
  - App Secret

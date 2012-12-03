@@ -67,9 +67,9 @@ An object containing key:value pairs to pass to the destination
 </table>
 ## Description
 
-This calls the Application Craft server to handle oAuth authentication to the requested service. The actual authentication is handled on the server to ensure security and that
+This calls the Application Craft server to handle OAuth authentication to the requested service. The actual authentication is handled on the server to ensure security and that
 
-Please refer to the User Guide [oAuth chapter](/developers/documentation/product-guide/advanced-features/oauth/) for a general overview and examples.
+Please refer to the User Guide [OAuth chapter](/developers/documentation/product-guide/advanced-features/oauth/) for a general overview and examples.
 
     function mySSJFunction(userAuthKey, myTwitterId) {
         return ssj.oAuthRequest(userAuthKey, 'https://api.twitter.com/1.1/statuses/user_timeline.json', 
@@ -79,6 +79,6 @@ Please refer to the User Guide [oAuth chapter](/developers/documentation/product
 
 ## See Also
 
-[oAuth Overview](/developers/documentation/product-guide/advanced-features/oauth/)
+[OAuth Overview](/developers/documentation/product-guide/advanced-features/oauth/)
 
 [app.oAuthSignin()](/developers/documentation/scripting-apis/client-api/oauth/oauthsignin)

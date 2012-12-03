@@ -16,7 +16,7 @@ If you are interested in more services then please contact support@applicationcr
     
 This calls the AC server and gets everything started. Once the AC server has initiated proceedings with the server, your callback function will be called.
    
-    // 4. oAuth authentication function
+    // 4. OAuth authentication function
     // In this case, this is a Button Press event
     function handler_btnAuth_onClick(mouseev){
         // See if we already have an old Access Token

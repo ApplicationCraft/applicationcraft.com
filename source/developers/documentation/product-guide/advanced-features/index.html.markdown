@@ -27,6 +27,6 @@ full_width: true
  - [Printing](/developers/documentation/product-guide/advanced-features/printing/)
  - [Custom CSS Classes](/developers/documentation/product-guide/advanced-features/custom-css-classes/)
  - [Twirly Thing/Hourglass](/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/)
- - [oAuth](/developers/documentation/product-guide/advanced-features/oauth/)
+ - [OAuth](/developers/documentation/product-guide/advanced-features/oauth/)
 
 Video Tutorials can be found on our [Training Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) page

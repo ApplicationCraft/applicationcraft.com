@@ -5,16 +5,16 @@ class_name: developers
 full_width: true
 ---
 
-It helps to understand a bit about the general oAuth process. For those who really want the full picture (and it is absolutely not necessary to read this) you can read the full [oAuth spec](http://tools.ietf.org/html/rfc5849).
+It helps to understand a bit about the general OAuth process. For those who really want the full picture (and it is absolutely not necessary to read this) you can read the full [OAuth spec](http://tools.ietf.org/html/rfc5849).
 
-##1. Currently supported oAuth services
-You will be working with an oAuth service either for Authentication or to access its API. The predfined ones we currently support are 
+##1. Currently supported OAuth services
+You will be working with an OAuth service either for Authentication or to access its API. The predfined ones we currently support are 
 
 - Twitter
 - Facebook 
 - Dropbox
 
-We are working on a generic option that will allow configuration from within the Console, so you will be able to access any oAuth supported service you like. It will be more technical than the predefined ones.
+We are working on a generic option that will allow configuration from within the Console, so you will be able to access any OAuth supported service you like. It will be more technical than the predefined ones.
 
 ##2. Register your App with the service
 Whichever service you want to use, you first need to register an App with that service. This process is [described here](/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/). As a result of this registration, you get two important keys.
@@ -22,7 +22,7 @@ Whichever service you want to use, you first need to register an App with that s
  - **App ID** or **Consumer Key** : this is an ID that identifies the App to the Service.
  - **Secret** : this is a key that is never revealed to anyone. You store this as an App property but it is stored on the AC server and is never visible to the browser.
 
-Both of these bits of data are entered in the oAuth Providers property ([also shown here](/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/)).
+Both of these bits of data are entered in the OAuth Providers property ([also shown here](/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/)).
 
 ##3. Authentication
 There are a couple of bits to authentication to make your App behave comfortably for the end user.
@@ -35,7 +35,7 @@ There are a couple of bits to authentication to make your App behave comfortably
   
  
 ##4. Your Client code initiates an API call
-If you are only using oAuth for authentication then you don't need to read any further. However, if you want to call your oAuth supported service's API then your client code will kick things off. What it will typically do is ...
+If you are only using OAuth for authentication then you don't need to read any further. However, if you want to call your OAuth supported service's API then your client code will kick things off. What it will typically do is ...
 
  - **[app.callSSJ()](/developers/documentation/scripting-apis/client-api/app-functions/callservice/)** - this calls a server side function where the actual API call will be made.
  - **callback handling** - one of the parameters is a callback function that is called when the server side returns, usually with data returned from the API call.
