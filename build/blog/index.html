@@ -76,6 +76,107 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/blog/2012/12/oauth-support/">December  4, 2012</a>
+            
+              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>oauth</li>
+            
+              <li>authentication</li>
+            
+              <li>twitter</li>
+            
+              <li>facebook</li>
+            
+              <li>dropbox</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2012/12/oauth-support/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2012/12/oauth-support/">Amazingly Easy Authentication with OAuth</a></h1>
+        
+          <img alt="Amazingly Easy Authentication with OAuth" align="left" class="blog-img" src="/img/blog/oauth-653b9984.png" />
+        
+        <p>We recently added <a href="http://oauth.net/">OAuth</a> support to Application Craft, and in the usual Application Craft way, we&#39;ve made it amazingly simple.</p>
+
+<p>We currently provide explicit support for Twitter, Facebook and Dropbox but we&#39;ll soon be adding support for more OAuth providers, as well as allowing you to make your own OAuth definitions so any service that supports OAuth can be defined in the AC Console.</p>
+
+<h2 id="toc_0">Authentication for your Apps</h2>
+
+<p>One of the simpler uses for OAuth is to provide access to your App. You let a 3rd party service like Twitter or Facebook handle the login process.</p>
+
+<p>Authentication is as easy as shown below. You call <code>OAuthSignIn()</code> and that&#39;s it. The service pops up in a browser window, handles the login and returns an access token. You can store that token in a cookie so when your users access your App in the future, they don&#39;t have to login again (until the service decides to expire it).</p>
+
+<pre><code>function handler_btnAuth_onClick(mouseev){
+// See if we already have an old Access Token
+_accessToken = app.getCookie(&quot;myTwitterSession&quot;);
+if (_accessToken === null || _accessToken === &quot;&quot;) {
+  // No, we don&#39;t have one so get a new one
+  app.OAuthSignIn(&#39;twitter&#39;, authCallback);
+}
+}
+</code></pre>
+
+<h2 id="toc_1">Calling OAuth secured APIs</h2>
+
+<p>Things get much more interesting when you want to access APIs from services such as Twitter, Facebook and Dropbox. Using our OAuth support, you can access the full functionality of those services in a way that is remarkably easy.</p>
+
+<p>This short example shows the code for sending a Tweet via Twitter. It is actually made up of two parts - the code running on the client ...</p>
+
+<pre><code>function handler_btnTweet_onClick(mouseev){
+    app.callSSJ(&#39;sendTweet&#39;, function(error, data){
+    if(error) {
+        // Some error occurred (maybe the 
+        // Access Token has expired)
+    } else {
+      app.showMessage(&quot;OAuth Demo&quot;, &quot;Message successfully tweeted!&quot;);  
+    }
+}, [_accessToken, txtTweetMessage]);
+}
+</code></pre>
+
+<p>... and the server side code that gets called by <code>app.callSSJ()</code> in the above example.</p>
+
+<pre><code>function sendTweet(accessToken, txtTweet) {
+ssj.OAuthRequest(accessToken, 
+    &#39;https://api.twitter.com/1.1/statuses/update.json&#39;,    
+    &#39;POST&#39;, { status: txtTweet });
+}
+</code></pre>
+
+<p>Have you ever seen OAuth handled that straightforward? Application Craft does all the dirty work and heavy lifting for you.</p>
+
+<h2 id="toc_2">Read the Documentation</h2>
+
+<p><a href="/developers/documentation/product-guide/advanced-features/oauth/">Click here</a> to read the OAuth documentation in the Product Guide.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/oauth-support/" data-via="appcrafty" data-size="small" data-count="none" data-text="Amazingly Easy Authentication with OAuth">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/oauth-support/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/blog/2012/11/chrome-users-around-the-world-rejoice/">November 30, 2012</a>
             
               <span class="author">by <a href="mailto:hho@applicationcraft.com">Hazel Ho</a></span>
@@ -284,80 +385,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/blog/2012/11/documentation-search-and-full-screen/">November 22, 2012</a>
-            
-              <span class="author">by <a href="mailto:jmoss@applicationcraft.com">Joel Moss</a></span>
-            
-          </p>
-
-          <p class="tagged">Tagged:</p>
-          <ul class="tags">
-            
-              <li>documentation</li>
-            
-              <li>developers</li>
-            
-              <li>resources</li>
-            
-          </ul>
-
-          <p class="comments">
-            <a class="dsq-comment-count" href="/blog/2012/11/documentation-search-and-full-screen/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/blog/2012/11/documentation-search-and-full-screen/">Documentation Improvements: Search and Full Screen</a></h1>
-        
-        <p>Every since we unleashed our <a href="/blog/2012/11/welcome-to-the-all-new-application-craft/">new site and branding</a> to the world just a week ago, we&#39;ve been hard at work making further improvements, especially to the <a href="/developers/documentation">Documentation</a>. Today, we added a couple of major improvements to the docs that we hope will make your life easier.</p>
-
-<h2 id="toc_0">Docs Search</h2>
-
-<p>The old docs had a search feature, which it seems that some of you have been pining for. So we&#39;ve brought search back, but in a much sexier way.</p>
-
-<p>Above the documentation tree, you will now see a search box. Simply use this to search for what you are looking for and you&#39;ll be shown a list of results from the documentation. Nice and fast!</p>
-
-<p><img alt="Documentation search results" src="/img/blog/doc-search-f202a141.png" /></p>
-
-<h2 id="toc_1">Full Screen Docs</h2>
-
-<p>You may also have noticed a little icon towards the top right of the docs. If you click that, you will be taken into full-screen mode, which will allow you to concentrate only on the docs without any distractions, and also be able to see more of the docs and code samples with much less scrolling.</p>
-
-<p><img alt="Full-Screen Documentation" src="/img/blog/full-screen-docs-f803200a.png" /></p>
-
-<h2 id="toc_2">Open Source</h2>
-
-<p>A few days ago, I sent a tweet from the <a href="https://twitter.com/appcrafty">@appcrafty</a> Twitter account:</p>
-
-<blockquote class="twitter-tweet"><p>We think our new site and docs are so good, we open sourced them <a href="https://t.co/ONYMrozB" title="https://github.com/ApplicationCraft/applicationcraft.com">github.com/ApplicationCra…</a>, and we would love to see pull requests.</p>&mdash; Application Craft (@appcrafty) <a href="https://twitter.com/appcrafty/status/271365264317235200" data-datetime="2012-11-21T21:31:35+00:00">November 21, 2012</a></blockquote>
-
-<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>Everything that you see here and anywhere else on our site is now open source on <a href="https://github.com/ApplicationCraft/applicationcraft.com">Github</a>. Which means the code behind the site and documentation is open and available for anyone to view... yes even you!</p>
-
-<p>So if you see a typo, or broken link; or if a page in the docs is not looking quite right; or maybe there is a page in that you think you can improve upon, then just go ahead and <a href="https://github.com/ApplicationCraft/applicationcraft.com">fork the site</a>, make your changes and send us a <a href="https://help.github.com/articles/using-pull-requests">pull request</a>. If all looks good, we&#39;ll have no problem with accepting your pull requests, and you will see your changes on our site the next time we deploy.</p>
-
-<p>Plenty more to come, so watch this space.</p>
-
-<p>Enjoy!</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/11/documentation-search-and-full-screen/" data-via="appcrafty" data-size="small" data-count="none" data-text="Documentation Improvements: Search and Full Screen">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/11/documentation-search-and-full-screen/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -380,13 +407,13 @@
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/blog/2012/12/oauth-support/">Amazingly Easy Authentication with OAuth</a></li>
+        
           <li><a href="/blog/2012/11/chrome-users-around-the-world-rejoice/">Chrome Users Around the World Rejoice!</a></li>
         
           <li><a href="/blog/2012/11/my-first-app-tutorial/">My First App - the first of many Tutorials</a></li>
         
           <li><a href="/blog/2012/11/a-new-way-to-talk/">Introducing A New Way to Talk</a></li>
-        
-          <li><a href="/blog/2012/11/documentation-search-and-full-screen/">Documentation Improvements: Search and Full Screen</a></li>
         
       </ul>
     </section>
@@ -538,7 +565,7 @@ var disqus_shortname = 'applicationcraftwebsite'; // required: replace example w
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-    <script src="/js/main-cbe72b87.js" type="text/javascript"></script>
+    <script src="/js/main-f22e184f.js" type="text/javascript"></script>
     
 
     
