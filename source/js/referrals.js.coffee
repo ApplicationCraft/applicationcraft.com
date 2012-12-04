@@ -52,7 +52,7 @@ $ ->
       apiKey: 'R_25cb95f39d27477516ad78346d85a2bf'
       longUrl: url
 
-    $.get 'https://api-ssl.bitly.com/v3/shorten', options, (data)->
+    $.getJSON 'https://api-ssl.bitly.com/v3/shorten', options, (data)->
       url = data.data.url if data.data.url
 
       title = "Take a look at ApplicationCraft. It's visual development in the cloud - for everyone."
