@@ -2,7 +2,7 @@
 title: Amazingly Easy Authentication with OAuth
 author: Freddy May
 tags: oauth, authentication, twitter, facebook, dropbox
-date: 2012-12-04
+date: 2012-12-06
 class_name: blog
 image: blog/oauth.png
 full_width: true
