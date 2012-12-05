@@ -124,12 +124,12 @@ We currently provide explicit support for Twitter, Facebook and Dr...">
 <p>Authentication is as easy as shown below. You call <code>OAuthSignIn()</code> and that&#39;s it. The service pops up in a browser window, handles the login and returns an access token. You can store that token in a cookie so when your users access your App in the future, they don&#39;t have to login again (until the service decides to expire it).</p>
 
 <pre><code>function handler_btnAuth_onClick(mouseev){
-// See if we already have an old Access Token
-_accessToken = app.getCookie(&quot;myTwitterSession&quot;);
-if (_accessToken === null || _accessToken === &quot;&quot;) {
-  // No, we don&#39;t have one so get a new one
-  app.OAuthSignIn(&#39;twitter&#39;, authCallback);
-}
+  // See if we already have an old Access Token
+  _accessToken = app.getCookie(&quot;myTwitterSession&quot;);
+  if (_accessToken === null || _accessToken === &quot;&quot;) {
+    // No, we don&#39;t have one so get a new one
+    app.OAuthSignIn(&#39;twitter&#39;, authCallback);
+  }
 }
 </code></pre>
 
@@ -141,12 +141,12 @@ if (_accessToken === null || _accessToken === &quot;&quot;) {
 
 <pre><code>function handler_btnTweet_onClick(mouseev){
     app.callSSJ(&#39;sendTweet&#39;, function(error, data){
-    if(error) {
-        // Some error occurred (maybe the 
-        // Access Token has expired)
-    } else {
-      app.showMessage(&quot;OAuth Demo&quot;, &quot;Message successfully tweeted!&quot;);  
-    }
+  if(error) {
+    // Some error occurred (maybe the 
+    // Access Token has expired)
+  } else {
+    app.showMessage(&quot;OAuth Demo&quot;, &quot;Message successfully tweeted!&quot;);  
+  }
 }, [_accessToken, txtTweetMessage]);
 }
 </code></pre>

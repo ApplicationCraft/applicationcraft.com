@@ -48,6 +48,73 @@ Thursday December 13, 2012 - 6-7PM GMT&lt;/p&gt;
 </content>
   </entry>
   <entry>
+    <title>Amazingly Easy Authentication with OAuth</title>
+    <link rel="alternate" href="/blog/2012/12/oauth-support/"/>
+    <id>/blog/2012/12/oauth-support/</id>
+    <published>2012-12-04T00:00:00Z</published>
+    <updated>2012-12-04T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We recently added &lt;a href="http://oauth.net/"&gt;OAuth&lt;/a&gt; support to Application Craft, and in the usual Application Craft way, we&amp;#39;ve made it amazingly simple.&lt;/p&gt;
+
+&lt;p&gt;We currently provide explicit support for Twitter, Facebook and Dropbox but we&amp;#39;ll soon be adding support for more OAuth providers, as well as allowing you to make your own OAuth definitions so any service that supports OAuth can be defined in the AC Console.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;We recently added &lt;a href="http://oauth.net/"&gt;OAuth&lt;/a&gt; support to Application Craft, and in the usual Application Craft way, we&amp;#39;ve made it amazingly simple.&lt;/p&gt;
+
+&lt;p&gt;We currently provide explicit support for Twitter, Facebook and Dropbox but we&amp;#39;ll soon be adding support for more OAuth providers, as well as allowing you to make your own OAuth definitions so any service that supports OAuth can be defined in the AC Console.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Authentication for your Apps&lt;/h2&gt;
+
+&lt;p&gt;One of the simpler uses for OAuth is to provide access to your App. You let a 3rd party service like Twitter or Facebook handle the login process.&lt;/p&gt;
+
+&lt;p&gt;Authentication is as easy as shown below. You call &lt;code&gt;OAuthSignIn()&lt;/code&gt; and that&amp;#39;s it. The service pops up in a browser window, handles the login and returns an access token. You can store that token in a cookie so when your users access your App in the future, they don&amp;#39;t have to login again (until the service decides to expire it).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function handler_btnAuth_onClick(mouseev){
+  // See if we already have an old Access Token
+  _accessToken = app.getCookie(&amp;quot;myTwitterSession&amp;quot;);
+  if (_accessToken === null || _accessToken === &amp;quot;&amp;quot;) {
+    // No, we don&amp;#39;t have one so get a new one
+    app.OAuthSignIn(&amp;#39;twitter&amp;#39;, authCallback);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="toc_1"&gt;Calling OAuth secured APIs&lt;/h2&gt;
+
+&lt;p&gt;Things get much more interesting when you want to access APIs from services such as Twitter, Facebook and Dropbox. Using our OAuth support, you can access the full functionality of those services in a way that is remarkably easy.&lt;/p&gt;
+
+&lt;p&gt;This short example shows the code for sending a Tweet via Twitter. It is actually made up of two parts - the code running on the client ...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function handler_btnTweet_onClick(mouseev){
+    app.callSSJ(&amp;#39;sendTweet&amp;#39;, function(error, data){
+  if(error) {
+    // Some error occurred (maybe the 
+    // Access Token has expired)
+  } else {
+    app.showMessage(&amp;quot;OAuth Demo&amp;quot;, &amp;quot;Message successfully tweeted!&amp;quot;);  
+  }
+}, [_accessToken, txtTweetMessage]);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;... and the server side code that gets called by &lt;code&gt;app.callSSJ()&lt;/code&gt; in the above example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function sendTweet(accessToken, txtTweet) {
+ssj.OAuthRequest(accessToken, 
+    &amp;#39;https://api.twitter.com/1.1/statuses/update.json&amp;#39;,    
+    &amp;#39;POST&amp;#39;, { status: txtTweet });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Have you ever seen OAuth handled that straightforward? Application Craft does all the dirty work and heavy lifting for you.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Read the Documentation&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/developers/documentation/product-guide/advanced-features/oauth/"&gt;Click here&lt;/a&gt; to read the OAuth documentation in the Product Guide.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Chrome Users Around the World Rejoice!</title>
     <link rel="alternate" href="/blog/2012/11/chrome-users-around-the-world-rejoice/"/>
     <id>/blog/2012/11/chrome-users-around-the-world-rejoice/</id>
@@ -218,36 +285,6 @@ Thursday December 13, 2012 - 6-7PM GMT&lt;/p&gt;
 &lt;p&gt;Plenty more to come, so watch this space.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Welcome to the all New ApplicationCraft</title>
-    <link rel="alternate" href="/blog/2012/11/welcome-to-the-all-new-application-craft/"/>
-    <id>/blog/2012/11/welcome-to-the-all-new-application-craft/</id>
-    <published>2012-11-16T00:00:00Z</published>
-    <updated>2012-11-16T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Unless you are reading this via the &lt;a href="/blog/feed.xml"&gt;blog feed&lt;/a&gt;, you are currently witnessing the beauty and majesty that is the all new &lt;a href="/"&gt;ApplicationCraft.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We&amp;#39;ve been hard at work for the last month thinking and brainstorming about ways we can create an even better product and improve the service to you; our valued customers and developers. The site is the very first thing that people see, and is also the go-to place for existing users when they need assistance of any kind.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Unless you are reading this via the &lt;a href="/blog/feed.xml"&gt;blog feed&lt;/a&gt;, you are currently witnessing the beauty and majesty that is the all new &lt;a href="/"&gt;ApplicationCraft.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We&amp;#39;ve been hard at work for the last month thinking and brainstorming about ways we can create an even better product and improve the service to you; our valued customers and developers. The site is the very first thing that people see, and is also the go-to place for existing users when they need assistance of any kind.&lt;/p&gt;
-
-&lt;p&gt;So what we have done is completely redefined the Application Craft brand and design. We enlisted the help of &lt;a href="http://mikekus.com/"&gt;Mike Kus&lt;/a&gt;, who is one of the worlds best web and graphic designers - and also happens to be a great guy - and we built a beautiful new brand.&lt;/p&gt;
-
-&lt;p&gt;The brief was simple; great looking site that was far simpler and less text heavy than the old one, and we wanted it to be instantly noticable and funky!&lt;/p&gt;
-
-&lt;p&gt;What Mike came up with blew us away. It includes an all new logo that we feel is much simpler, yet more effective, and the site does a far better job of explaining very quickly what AC is all about. We even invented a new colour: AC Red ;)&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href="/"&gt;homepage&lt;/a&gt; gets straight to the point, and our &lt;a href="/product"&gt;product pages&lt;/a&gt; are much simpler. Heck, even the &lt;a href="/get-started"&gt;signup form&lt;/a&gt; is simpler.&lt;/p&gt;
-
-&lt;p&gt;We also found the time to integrate the &lt;a href="/developers/documentation"&gt;User Guide and documentation&lt;/a&gt; into the new site, as well as make some considerable improvements to the structure and useability.&lt;/p&gt;
-
-&lt;p&gt;We are very excited to release the new ApplicationCraft.com, and hope you will love it as much as we do. Tell us what you think in the comments below.&lt;/p&gt;
 </content>
   </entry>
 </feed>
