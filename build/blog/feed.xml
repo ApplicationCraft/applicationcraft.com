@@ -5,10 +5,48 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2012-12-04T00:00:00Z</updated>
+  <updated>2012-12-05T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Introducing Our New Webinar Sessions</title>
+    <link rel="alternate" href="/blog/2012/12/introducing-our-new-webinar-sessions/"/>
+    <id>/blog/2012/12/introducing-our-new-webinar-sessions/</id>
+    <published>2012-12-05T00:00:00Z</published>
+    <updated>2012-12-05T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We’ve undergone lots of changes at Application Craft within the past month but we’re not going to take off our construction helmets and set our tools down just yet because there’s still lots of work to be done. &lt;/p&gt;
+
+&lt;p&gt;We constantly receive feedback and suggestions for improvements and new features and we’re happy to tell you that your requests are not being lost on us! &lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;We’ve undergone lots of changes at Application Craft within the past month but we’re not going to take off our construction helmets and set our tools down just yet because there’s still lots of work to be done. &lt;/p&gt;
+
+&lt;p&gt;We constantly receive feedback and suggestions for improvements and new features and we’re happy to tell you that your requests are not being lost on us! &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You suggested &lt;a href="http://www.applicationcraft.com/blog/2012/10/accepting-credit-card-payments-ac-apps/"&gt;credit card payments&lt;/a&gt;, we thought, “why not?” &lt;/li&gt;
+&lt;li&gt;We heard the call out for &lt;a href="http://www.applicationcraft.com/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/"&gt;barcode scanning&lt;/a&gt;, in came our &lt;a href="http://www.scandit.com/"&gt;Scandit&lt;/a&gt; Partnership. &lt;/li&gt;
+&lt;li&gt;You asked for improved &lt;a href="http://www.scandit.com/"&gt;documentation&lt;/a&gt;, you got it. &lt;/li&gt;
+&lt;li&gt;We like to keep the lines of communication open between you and us, so we were beyond excited to introduce a new method of connecting with us via &lt;a href="http://www.applicationcraft.com/blog/2012/11/a-new-way-to-talk/"&gt;Intercom.io&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We received such a great response from the latter that it made us think about what else we could do to improve your Application Craft experience. And thus the idea to host webinars was born. &lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Webinars!!!&lt;/h2&gt;
+
+&lt;p&gt;We plan to organize regular webinar sessions where we will run through sessions that go through the basics of how to navigate around the console and IDE, to demonstrating how new features work. This is your chance to have some fun and interact with the Application Craft team.&lt;/p&gt;
+
+&lt;p&gt;Our first webinar sessions will take place next week and will act as a mini one-hour tutorial session for those who would like a better understanding of the Application Craft product.  &lt;/p&gt;
+
+&lt;p&gt;Tuesday December 11, 2012 - 2-3PM GMT&lt;br&gt;
+Thursday December 13, 2012 - 6-7PM GMT&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.applicationcraft.com/#upcoming-webinars"&gt;Sign up&lt;/a&gt; now - We would love it if you came along and joined us! &lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Amazingly Easy Authentication with OAuth</title>
     <link rel="alternate" href="/blog/2012/12/oauth-support/"/>
@@ -247,36 +285,6 @@ ssj.OAuthRequest(accessToken,
 &lt;p&gt;Plenty more to come, so watch this space.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Welcome to the all New ApplicationCraft</title>
-    <link rel="alternate" href="/blog/2012/11/welcome-to-the-all-new-application-craft/"/>
-    <id>/blog/2012/11/welcome-to-the-all-new-application-craft/</id>
-    <published>2012-11-16T00:00:00Z</published>
-    <updated>2012-11-16T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Unless you are reading this via the &lt;a href="/blog/feed.xml"&gt;blog feed&lt;/a&gt;, you are currently witnessing the beauty and majesty that is the all new &lt;a href="/"&gt;ApplicationCraft.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We&amp;#39;ve been hard at work for the last month thinking and brainstorming about ways we can create an even better product and improve the service to you; our valued customers and developers. The site is the very first thing that people see, and is also the go-to place for existing users when they need assistance of any kind.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Unless you are reading this via the &lt;a href="/blog/feed.xml"&gt;blog feed&lt;/a&gt;, you are currently witnessing the beauty and majesty that is the all new &lt;a href="/"&gt;ApplicationCraft.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We&amp;#39;ve been hard at work for the last month thinking and brainstorming about ways we can create an even better product and improve the service to you; our valued customers and developers. The site is the very first thing that people see, and is also the go-to place for existing users when they need assistance of any kind.&lt;/p&gt;
-
-&lt;p&gt;So what we have done is completely redefined the Application Craft brand and design. We enlisted the help of &lt;a href="http://mikekus.com/"&gt;Mike Kus&lt;/a&gt;, who is one of the worlds best web and graphic designers - and also happens to be a great guy - and we built a beautiful new brand.&lt;/p&gt;
-
-&lt;p&gt;The brief was simple; great looking site that was far simpler and less text heavy than the old one, and we wanted it to be instantly noticable and funky!&lt;/p&gt;
-
-&lt;p&gt;What Mike came up with blew us away. It includes an all new logo that we feel is much simpler, yet more effective, and the site does a far better job of explaining very quickly what AC is all about. We even invented a new colour: AC Red ;)&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href="/"&gt;homepage&lt;/a&gt; gets straight to the point, and our &lt;a href="/product"&gt;product pages&lt;/a&gt; are much simpler. Heck, even the &lt;a href="/get-started"&gt;signup form&lt;/a&gt; is simpler.&lt;/p&gt;
-
-&lt;p&gt;We also found the time to integrate the &lt;a href="/developers/documentation"&gt;User Guide and documentation&lt;/a&gt; into the new site, as well as make some considerable improvements to the structure and useability.&lt;/p&gt;
-
-&lt;p&gt;We are very excited to release the new ApplicationCraft.com, and hope you will love it as much as we do. Tell us what you think in the comments below.&lt;/p&gt;
 </content>
   </entry>
 </feed>
