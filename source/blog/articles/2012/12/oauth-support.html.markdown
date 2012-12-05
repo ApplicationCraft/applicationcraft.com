@@ -2,7 +2,7 @@
 title: Amazingly Easy Authentication with OAuth
 author: Freddy May
 tags: oauth, authentication, twitter, facebook, dropbox
-date: 2012-12-06
+date: 2012-12-04
 class_name: blog
 image: blog/oauth.png
 full_width: true
@@ -17,14 +17,14 @@ One of the simpler uses for OAuth is to provide access to your App. You let a 3r
 
 Authentication is as easy as shown below. You call `OAuthSignIn()` and that's it. The service pops up in a browser window, handles the login and returns an access token. You can store that token in a cookie so when your users access your App in the future, they don't have to login again (until the service decides to expire it).
 
-	function handler_btnAuth_onClick(mouseev){
-    // See if we already have an old Access Token
-    _accessToken = app.getCookie("myTwitterSession");
-    if (_accessToken === null || _accessToken === "") {
-      // No, we don't have one so get a new one
-      app.OAuthSignIn('twitter', authCallback);
+    function handler_btnAuth_onClick(mouseev){
+      // See if we already have an old Access Token
+      _accessToken = app.getCookie("myTwitterSession");
+      if (_accessToken === null || _accessToken === "") {
+        // No, we don't have one so get a new one
+        app.OAuthSignIn('twitter', authCallback);
+      }
     }
-	}
 
 
 ##Calling OAuth secured APIs
@@ -34,12 +34,12 @@ This short example shows the code for sending a Tweet via Twitter. It is actuall
 
 	function handler_btnTweet_onClick(mouseev){
 		app.callSSJ('sendTweet', function(error, data){
-        if(error) {
-        	// Some error occurred (maybe the 
-        	// Access Token has expired)
-        } else {
-          app.showMessage("OAuth Demo", "Message successfully tweeted!");  
-        }
+      if(error) {
+      	// Some error occurred (maybe the 
+      	// Access Token has expired)
+      } else {
+        app.showMessage("OAuth Demo", "Message successfully tweeted!");  
+      }
     }, [_accessToken, txtTweetMessage]);
 	}
 
