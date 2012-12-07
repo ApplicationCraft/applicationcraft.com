@@ -1,7 +1,11 @@
 body.blog {
 
+  #disqus_thread {
+    margin-bottom: 60px;
+  }
+
   .blog-social {
-    margin: 35px 0 0 0;
+    margin: 70px 0 0 0;
 
     > div {
       float: left;
@@ -167,8 +171,8 @@ body.blog {
       padding-bottom: 15px;
 
       @include apply-to(more-than, ipad-portrait) {
-        margin: 0 0 60px 0;
-        padding: 0 0 20px 170px;
+        margin: 0 0 100px 0;
+        padding: 0 0 45px 170px;
         position: relative;
       }
 
@@ -186,6 +190,10 @@ body.blog {
         &.blog-img {
           max-width: 250px;
         }
+      }
+
+      hr {
+        margin: 2em;
       }
 
       p {
