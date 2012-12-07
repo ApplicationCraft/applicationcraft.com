@@ -5,10 +5,62 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2012-12-05T00:00:00Z</updated>
+  <updated>2012-12-07T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Application Craft VS Appcelerator Titanium</title>
+    <link rel="alternate" href="/blog/2012/12/application-craft-vs-appcelerator-titanium/"/>
+    <id>/blog/2012/12/application-craft-vs-appcelerator-titanium/</id>
+    <published>2012-12-07T00:00:00Z</published>
+    <updated>2012-12-07T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We received an interesting question a few days ago. Someone asked us what advantages Application Craft has over Appcelerator&amp;#39;s Titanium. I thought it was a really good question, and one that I wanted to explore a little deeper.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;100% Cloud Based&lt;/h2&gt;
+</summary>
+    <content type="html">&lt;p&gt;We received an interesting question a few days ago. Someone asked us what advantages Application Craft has over Appcelerator&amp;#39;s Titanium. I thought it was a really good question, and one that I wanted to explore a little deeper.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;100% Cloud Based&lt;/h2&gt;
+
+&lt;p&gt;The first biggest advantage over Titanium and most other development platforms, is that AC is 100% cloud based. From the moment you &lt;a href="/get-started"&gt;sign up for the free trial&lt;/a&gt;, right through to [optionally] compiling and running your finished application, the whole experience requires nothing more than your favourite browser and an internet connection.&lt;/p&gt;
+
+&lt;p&gt;Our web based console and Integrated Development Environment (IDE) are all that is needed to build any kind of app that you wish. Titanium can have quite a few requirements, including Java, Python, Android SDK&amp;#39;s, Apple xCode (if you have a Mac).  You even have to download the Titanium IDE! Download an IDE?! It&amp;#39;s not 1999 you know. &lt;/p&gt;
+
+&lt;p&gt;With AC there is no requirement for you to download or install anything at all. Your browser is all you need.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Visual Development&lt;/h2&gt;
+
+&lt;p&gt;The second big advantage to building your apps with AC, is that you can do so with very little code. In most cases, all you need to do is drag and drop a widget here and there, and then plumb these together using our simple events system.&lt;/p&gt;
+
+&lt;p&gt;Widgets are at the heart of any AC app, and we have dozens of them for you to use. From simple label and text widgets, to full-on charting. Every single one of these are simply dragged and dropped onto a page in your app, and configured to your requirements by setting a few properties.&lt;/p&gt;
+
+&lt;p&gt;But if you need to write some code, you can do so using the integrated code editor.&lt;/p&gt;
+
+&lt;p&gt;Developing a Titanium app definately requires a lot technical experience and knowledge, which is something that we have worked hard to reduce for our users.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;We host your apps&lt;/h2&gt;
+
+&lt;p&gt;If you are building a web app, we will host it at no extra cost to you. No need to find and pay for a web hosting provider, and no need to setup and configure your hosting. You save your app, and its hosted!&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Mobile Build&lt;/h2&gt;
+
+&lt;p&gt;For those of you who want to release your apps on mobile and tablet devices via the app stores, you can do that too.&lt;/p&gt;
+
+&lt;p&gt;With one click, &lt;a href="http://www.applicationcraft.com/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt; will build and compile your web app for use as a native mobile app, opening up the device features to you, along with a host of plugins that will add even more functionality to your app.&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;Server Side Javascript&lt;/h2&gt;
+
+&lt;p&gt;While you can do almost anything with client side code, there may come a time when you need the power and security of a server. &lt;a href="/developers/documentation/scripting-apis/server-side-scripting-overview/"&gt;Server-Side-Javascript (SSJ)&lt;/a&gt; allows you to write Javascript code which is then run on the server, and makes it even easier to work with data.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I could go on and on, but I&amp;#39;ll save the smaller differences for another day. But hopefully, you can see that there are some pretty amazing advantages to using Application Craft, and you can &lt;a href="/get-started"&gt;enjoy them all for only $14 per month&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Introducing Our New Webinar Sessions</title>
     <link rel="alternate" href="/blog/2012/12/introducing-our-new-webinar-sessions/"/>
@@ -241,50 +293,6 @@ ssj.OAuthRequest(accessToken,
 &lt;p&gt;We will also be using this to let you know about new features or news, so watch out for this. We&amp;#39;d love to know what you think so please let us know and we look forward to talking to you sometime soon.&lt;/p&gt;
 
 &lt;p&gt;Ian&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Documentation Improvements: Search and Full Screen</title>
-    <link rel="alternate" href="/blog/2012/11/documentation-search-and-full-screen/"/>
-    <id>/blog/2012/11/documentation-search-and-full-screen/</id>
-    <published>2012-11-22T00:00:00Z</published>
-    <updated>2012-11-22T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Every since we unleashed our &lt;a href="/blog/2012/11/welcome-to-the-all-new-application-craft/"&gt;new site and branding&lt;/a&gt; to the world just a week ago, we&amp;#39;ve been hard at work making further improvements, especially to the &lt;a href="/developers/documentation"&gt;Documentation&lt;/a&gt;. Today, we added a couple of major improvements to the docs that we hope will make your life easier.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Every since we unleashed our &lt;a href="/blog/2012/11/welcome-to-the-all-new-application-craft/"&gt;new site and branding&lt;/a&gt; to the world just a week ago, we&amp;#39;ve been hard at work making further improvements, especially to the &lt;a href="/developers/documentation"&gt;Documentation&lt;/a&gt;. Today, we added a couple of major improvements to the docs that we hope will make your life easier.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Docs Search&lt;/h2&gt;
-
-&lt;p&gt;The old docs had a search feature, which it seems that some of you have been pining for. So we&amp;#39;ve brought search back, but in a much sexier way.&lt;/p&gt;
-
-&lt;p&gt;Above the documentation tree, you will now see a search box. Simply use this to search for what you are looking for and you&amp;#39;ll be shown a list of results from the documentation. Nice and fast!&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Documentation search results" src="/img/blog/doc-search-f202a141.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;Full Screen Docs&lt;/h2&gt;
-
-&lt;p&gt;You may also have noticed a little icon towards the top right of the docs. If you click that, you will be taken into full-screen mode, which will allow you to concentrate only on the docs without any distractions, and also be able to see more of the docs and code samples with much less scrolling.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Full-Screen Documentation" src="/img/blog/full-screen-docs-f803200a.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Open Source&lt;/h2&gt;
-
-&lt;p&gt;A few days ago, I sent a tweet from the &lt;a href="https://twitter.com/appcrafty"&gt;@appcrafty&lt;/a&gt; Twitter account:&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;We think our new site and docs are so good, we open sourced them &lt;a href="https://t.co/ONYMrozB" title="https://github.com/ApplicationCraft/applicationcraft.com"&gt;github.com/ApplicationCra…&lt;/a&gt;, and we would love to see pull requests.&lt;/p&gt;&amp;mdash; Application Craft (@appcrafty) &lt;a href="https://twitter.com/appcrafty/status/271365264317235200" data-datetime="2012-11-21T21:31:35+00:00"&gt;November 21, 2012&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&lt;p&gt;Everything that you see here and anywhere else on our site is now open source on &lt;a href="https://github.com/ApplicationCraft/applicationcraft.com"&gt;Github&lt;/a&gt;. Which means the code behind the site and documentation is open and available for anyone to view... yes even you!&lt;/p&gt;
-
-&lt;p&gt;So if you see a typo, or broken link; or if a page in the docs is not looking quite right; or maybe there is a page in that you think you can improve upon, then just go ahead and &lt;a href="https://github.com/ApplicationCraft/applicationcraft.com"&gt;fork the site&lt;/a&gt;, make your changes and send us a &lt;a href="https://help.github.com/articles/using-pull-requests"&gt;pull request&lt;/a&gt;. If all looks good, we&amp;#39;ll have no problem with accepting your pull requests, and you will see your changes on our site the next time we deploy.&lt;/p&gt;
-
-&lt;p&gt;Plenty more to come, so watch this space.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
 </feed>

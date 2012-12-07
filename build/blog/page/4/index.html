@@ -15,7 +15,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-b93189aa.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-9fae0265.css" media="screen" rel="stylesheet" type="text/css" />
     
   </head>
   <body class="blog">
@@ -71,6 +71,183 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/blog/2012/10/accepting-credit-card-payments-ac-apps/">October  9, 2012</a>
+            
+              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>credit card</li>
+            
+              <li>payments</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2012/10/accepting-credit-card-payments-ac-apps/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2012/10/accepting-credit-card-payments-ac-apps/">Accepting Credit Card Payments in AC Apps</a></h1>
+        
+          <img alt="Accepting Credit Card Payments in AC Apps" align="left" class="blog-img" src="/img/blog/zooz-blog-e48bd4b3.png" />
+        
+        <p>Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.</p>
+
+<p>It handles not just the payment but can also send detailed invoices. The money from the transaction is managed by Zooz and can be paid directly to your bank (most countries are supported) or to a Payoneer account.</p>
+
+<h2 id="toc_0">Zooz</h2>
+
+<p>We have integrated Zooz into the Application Craft backend, so as a developer you can just get on with building an app and you don&#39;t have to worry about the deeper technical details. All you need to do is to sign up with Zooz, register your app within Zooz and you&#39;re ready to get started.</p>
+
+<h2 id="toc_1">What the user sees ...</h2>
+
+<p><img title="Payments in your mobile or desktop app and invoice generated" src="/img/blog/zooz-blog-2-258ed23f.png" /></p>
+
+<p>At some point, a user will press a button within your app when s/he is ready to pay. At this point, a very nice &#39;n&#39; easy screen will appear (see below) and credit card details are entered.  The user is then shown a confirmation screen (an app screen) and and invoice is sent.</p>
+
+<h2 id="toc_2">What the developer does ...</h2>
+
+<p>If you want full details on coding your payments app, please click to see the relevant section in the User Guide. For those not familiar with Application Craft yet, all code (client and server) is written in the browser based IDE and is regular javascript.</p>
+
+<p>This is a brief summary of how it works. [SSJ] means it is being executed as a server-side Javascript.</p>
+
+<ul>
+<li><p>[Client] A &#39;Pay&#39; button is pressed<br>
+Pass control to your SSJ script.</p></li>
+<li><p>[SSJ] Prepare the payment details<br>
+You can prepare invoice details on the client but to be secure, it should be done on the server.</p></li>
+<li><p>[SSJ] Call <code>ssj.zooz.payment()</code><br>
+This is where you initiate the payment process. Your code gets a token back which is passed back to the client.</p></li>
+<li><p>[Client] Call <code>zoozStartCheckout()</code><br>
+This initiates the actual payment process where the user will be asked to enter credit card details etc. You specify a callback function is called once it completes.</p></li>
+<li><p>[Client] Call SSJ function to validate the transaction<br>
+Your callback function should transfer control to an SSJ script where you validate the payment. You pass in the Zooz transaction id so it can be correctly validated.</p></li>
+<li><p>[SSJ] Call <code>ssj.zooz.validate()</code><br>
+This is a final security measure to safeguard against hacking. If it returns true, then you know it is good to proceed with the order fulfillment. </p></li>
+<li><p>[Client] Tell user of success or failure<br>
+Inform the user of success or of errors.</p></li>
+</ul>
+
+<p>The code samples below show how payments are handled. Click to see the relevant section in the User Guide if you want to copy and paste code.</p>
+
+<h2 id="toc_3">Client-side code</h2>
+
+<pre><code>// This value was specified by you in your Zooz portal
+var AppId = &#39;com.yourdomain.yourpayment&#39;;
+
+function handler_actionBtn1_onClick(mouseev){
+  // You may want to pass shopping cart items and order
+  // details from the client. Or you may have stored this on
+  // the server
+  orderDetails = getOrderDetails();    
+  cartItems = getCartItems();
+
+  // Now call the SSJ function passing in Order details and
+  // (if applicable) shopping cart contents
+  app.callSSJ(&quot;zooz_payment&quot;, function(error, result){
+    // The SSJ function should return a token that you now
+    // pass to the Zooz on the client. This is where the
+    // actual payment screen will appear to the user
+    zoozStartCheckout({
+      // Session token received from server
+      token: result,
+      // unique ID as registered in the developer portal
+      uniqueId: AppId,
+      // true = Sandbox environment
+      isSandbox : true,
+      // callback function from Zooz after payment attempt
+      completeCallBackFunc: transactionComplete
+    });
+  }, [orderDetails, cartItems]);       
+}
+
+function transactionComplete(response) {
+  // Zooz returns a JSON string, so we will convert it into an 
+  // object
+  response = JSON.parse(response);
+
+  if (response.statusCode === 0) {
+    // If you want to avoid any risk of price manipulation, you
+    // MUST call an SSJ function to validate. You should handle
+    // the release of your product on the server and not the
+    // client.
+    app.callSSJ(&#39;zooz_validate&#39;, function(error, result){
+      // Now you can report any errors to the end-user
+      if (!error)
+        if (result) {
+          app.setData(&#39;lblTransactionStatus&#39;, &#39;Transaction successful&#39;);
+        } else {
+          app.setData(&#39;lblTransactionStatus&#39;, &#39;Fake transaction attempted&#39;);
+        }
+      else {
+        app.setData(&#39;lblTransactionStatus&#39;, &#39;Error approving payment&#39;);
+      }
+    }, [response.transactionID]);
+  }
+  else {
+    app.setData(&#39;lblTransactionStatus&#39;, &#39;Communication error&#39;);
+  }
+}
+</code></pre>
+
+<h2 id="toc_4">Server-side code</h2>
+
+<pre><code>// If true, then you can test your payments. Use the following
+// card details for testing:
+//   Card : 4580-4580-4580-4580
+//   Expiry : any date (01/15) in the future
+//   CV Code : any 3 digit number
+var isSandbox = true;
+var zoozID = &#39;com.yourdomain.yourpayment&#39;;
+var zoozKey = &#39;e1424295-4d26-4e78-a884-0da424299f9c&#39;;
+
+// Your SSJ function that initiates the payment process
+function zooz_payment(objDetails, cartItems) {
+  // the params object will contain all the order details you
+  // pass to Zoom
+  params = calcPayment(objDetails, cartItems);
+  return ssj.zooz.payment(params, isSandbox);
+}
+
+// This function is where you complete your processing
+// It is important to inspect the result and only release your
+// order/product if it is confirmed as valid.
+function zooz_validate(transactionId) {
+  var obj = {
+    ZooZUniqueID : zoozID,
+    ZooZAppKey : zoozKey
+  };
+  var isValid = ssj.zooz.validate(transactionId, obj, isSandbox);
+  if (isValid) {
+    // At this point you know everything is cleared and
+    // validated as safe. So you can ship your product etc.
+  }
+  return isValid;
+}
+</code></pre>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/10/accepting-credit-card-payments-ac-apps/" data-via="appcrafty" data-size="small" data-count="none" data-text="Accepting Credit Card Payments in AC Apps">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/10/accepting-credit-card-payments-ac-apps/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -302,91 +479,6 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/">July  9, 2012</a>
-            
-              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
-            
-          </p>
-
-          <p class="tagged">Tagged:</p>
-          <ul class="tags">
-            
-              <li>barcode</li>
-            
-              <li>scanning</li>
-            
-          </ul>
-
-          <p class="comments">
-            <a class="dsq-comment-count" href="/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/">Scandit Partnership - Enterprise quality barcode scanning in AC</a></h1>
-        
-          <img alt="Scandit Partnership - Enterprise quality barcode scanning in AC" align="left" class="blog-img" src="/img/blog/scandit-logo-8f09172b.png" />
-        
-        <p>If you take the compute power of a modern mobile phone or tablet and add in the high-res camera you end up with a highly intelligent, customizable barcode scanner. The ease with which you can build apps using Application Craft combined with the high quality, plug-and-play nature of the Scandit barcode scanner SDK opens up a plethora of barcode oriented applications.</p>
-
-<p>High quality, real world barcode recognition is not an easy thing to do well. Barcodes are not always in perfect condition, lighting conditions can vary as can the camera angle and distance. There are several products and libraries available that handle barcode scanning with varying degrees of success. After looking at most of these, we feel that the Scandit barcode scanner SDK offers the most accurate recognition when faced with real-world challenges, which is why we are pleased to announce our partnership with Scandit as well as a new Scandit ‘widget’ for Application Craft.</p>
-
-<h2 id="toc_0">Hello World of Barcode Apps</h2>
-
-<p>Application Craft can be used to build both highly complex and extremely simple web and mobile applications. Let&#39;s look at the simplest end of the scale and show just how easy the app + barcode process can be. There&#39;s a quick video below and a step-by-step version below that.</p>
-
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/Qjt3pkZXJn8" width="560"></iframe>
-
-<h3 id="toc_1">1. Drag the Scandit widget onto the page</h3>
-
-<p>Having created a new App in the Application Craft Console,  you enter IDE and locate the Scandit Widget in the Toolbox in the left pane. One minute later you have your UI ready.</p>
-
-<h3 id="toc_2">2. Set the widget’s properties</h3>
-
-<p>Next, we select the widget and look across to the Property Bar on the right hand side. Here we can customize all important properties such as </p>
-
-<ul>
-<li>your Scandit App Key</li>
-<li>the text strings that appear to the user when scanning</li>
-<li>colors of target boxes</li>
-<li>whether the phone beeps or vibrates after a successful scan</li>
-<li>whether to allow regular 1D codes (normal barcodes) and/or 2D barcodes (QR and other codes)</li>
-</ul>
-
-<h3 id="toc_3">3. Customize your AC Events</h3>
-
-<p>The last step in the setup process is to customize the 2 Application Craft Events provided by the Scandit widget</p>
-
-<ul>
-<li>onSuccess - a barcode was successfully read and you are passed the type of barcode as parameter 1 and the actual barcode value in parameter 2; you would normally then display this value in a field elsewhere in your App.</li>
-<li>onFail - usually called when the user presses ‘Cancel’ in the scanning window</li>
-</ul>
-
-<h3 id="toc_4">4. Build your App</h3>
-
-<p>With most Application Craft Apps, you can now simply run your App directly from the IDE. However, because the Scandit component is a binary component that is not part of HTML5, we need to build a PhoneGap/Cordova App. Application Craft supports PhoneGap/Cordova fully, allowing all PhoneGap properties to be customized if you want.</p>
-
-<h2 id="toc_5">Finally</h2>
-
-<p>As of July 10 2012 you can now also access a wealth of UPC-based product data via Scandit’s new Product API. More information about Scandit, including technical support documentation, can be found on the Scandit site.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/" data-via="appcrafty" data-size="small" data-count="none" data-text="Scandit Partnership - Enterprise quality barcode scanning in AC">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -410,6 +502,8 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/blog/2012/12/application-craft-vs-appcelerator-titanium/">Application Craft VS Appcelerator Titanium</a></li>
+          
             <li><a href="/blog/2012/12/introducing-our-new-webinar-sessions/">Introducing Our New Webinar Sessions</a></li>
           
             <li><a href="/blog/2012/12/oauth-support/">Amazingly Easy Authentication with OAuth</a></li>
@@ -424,8 +518,6 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
           
             <li><a href="/blog/2012/11/welcome-to-the-all-new-application-craft/">Welcome to the all New ApplicationCraft</a></li>
           
-            <li><a href="/blog/2012/11/ac-mobile-build/">AC Mobile Build, a PhoneGap Build alternative with Plugins</a></li>
-          
         </ul>
       </section>
     
@@ -434,13 +526,13 @@ Isha Suri is a staff writer for SiliconANGLE covering social news and security t
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/blog/2012/10/accepting-credit-card-payments-ac-apps/">Accepting Credit Card Payments in AC Apps</a></li>
+        
           <li><a href="/blog/2012/09/power-server-side-javascript/">The Power of Server Side Javascript</a></li>
         
           <li><a href="/blog/2012/09/what-mark-zuckerberg-really-said-about-html5/">What Mark Zuckerberg Really Said About HTML5</a></li>
         
           <li><a href="/blog/2012/09/application-craft-launches-cloud-based-app-platform-gets-1-million-funding/">Application Craft Launches Cloud-Based App Platform, Gets $1 Million in Funding</a></li>
-        
-          <li><a href="/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/">Scandit Partnership - Enterprise quality barcode scanning in AC</a></li>
         
       </ul>
     </section>
