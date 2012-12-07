@@ -58,6 +58,18 @@ These specify the lowest and highest values to be associated with bottom and top
 </tr>
 <tr>
 <td width="148">
+Step
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+This is the 'Values' graduation the slider pointer should move each time it is dragged.
+
+</td>
+</tr>
+<tr>
+<td width="148">
 Value
 
 </td>
