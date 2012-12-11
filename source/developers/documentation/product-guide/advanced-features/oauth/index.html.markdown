@@ -9,7 +9,7 @@ full_width: true
 
 Implementing OAuth can be painful, as you need to have components on both the client and server sides. Application Craft has taken away almost all the pain by implementing client and server side API calls that do all the work.  
 
-We have added explicit support for individual platforms such as Twitter, Facebook and Dropbox with more to follow. We are working on generic OAuth support as well that lets you define other OAuth providers from the Console.
+We have added explicit support for individual platforms such as Twitter, Facebook and Dropbox with more to follow.
 
 The general process works as follows.
 
