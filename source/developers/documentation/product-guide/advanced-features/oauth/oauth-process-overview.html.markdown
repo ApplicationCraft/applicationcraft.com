@@ -14,8 +14,6 @@ You will be working with an OAuth service either for Authentication or to access
 - Facebook 
 - Dropbox
 
-We are working on a generic option that will allow configuration from within the Console, so you will be able to access any OAuth supported service you like. It will be more technical than the predefined ones.
-
 ##2. Register your App with the service
 Whichever service you want to use, you first need to register an App with that service. This process is [described here](/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/). As a result of this registration, you get two important keys.
 
