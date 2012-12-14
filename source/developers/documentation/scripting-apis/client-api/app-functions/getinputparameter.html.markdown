@@ -56,7 +56,7 @@ Querystring
 
 Embed Script in a Web Page Using Querystring format
 
-    <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
+    <script src="http://ac-dev.applicationcraft.com/live/userlive.js" type="text/javascript"></script>
     <script type="text/javascript">
        waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
          757, 811, "id=12&id=14&text=test test test&num=54");
@@ -64,11 +64,12 @@ Embed Script in a Web Page Using Querystring format
 
 additionally, you can pass in data in a JSON format
 
-    <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
+    <script src="http://ac-dev.applicationcraft.com/live/userlive.js" type="text/javascript"></script>
     <script type="text/javascript">
        waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
          757, 811, "{id:[12,14], text:"test test test", num:54}");
     </script>
+
 
 In all the above cases, you can read data as follows
 
