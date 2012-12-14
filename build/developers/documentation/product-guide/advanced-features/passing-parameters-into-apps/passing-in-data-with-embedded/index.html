@@ -98,44 +98,33 @@
 
     <article id="doc-body">
       <h1>Passing in data with Embedded Apps and Javascript</h1>
-      <p>If you are launching an embedded App that is located within your web page, you may want to pass in parameters in a similar way to using the query string. The following example shows the following parameters and associated being passed in using the waInitForm() function</p>
+      <p>If you are launching an embedded App that is located within your web page, you may want to pass in parameters in a similar way to using the query string. The following example shows the following parameters and associated being passed in using the <code>waInitForm()</code> function</p>
 
-<table>
-<tr>
-<td width="13">
- - 
-
-</td>
-      text = 'test test test' 
-      num=54
-      id=12
-      id=14
-      <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
-      <script type="text/javascript">
-         waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
-           757, 811, "id=12&id=14&text=test test test&num=54");
-      </script>
-      <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
-      <script type="text/javascript">
-         waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
-           757, 811, {id:[12,14], text:"test test test", num:54});
-      </script>
-     
-
-</tr>
-</table>
-
-<ul>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+<pre><code>text = &#39;test test test&#39; 
+num=54
+id=12
+id=14
+</code></pre>
 
 <p>Of particular interest is the fact that there are two id parameters being passed in. Application Craft will put these into a single array that can be read using getInputParameters().</p>
 
-<p><strong>Important</strong> : the querystring data being passed in should NOT be escaped</p>
+<p><strong>Important</strong> : the querystring data being passed in should NOT be escaped    </p>
 
-<p>Additionally, you can pass in data in a JSON format</p>
+<pre><code>&lt;script src=&quot;http://ac-dev.applicationcraft.com//live/userlive.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+   waInitForm(&quot;2e5a47be-9c85-4ad4-8f47-108cb2986268&quot;, 
+     757, 811, &quot;id=12&amp;id=14&amp;text=test test test&amp;num=54&quot;);
+&lt;/script&gt;
+</code></pre>
+
+<p>Additionally, you can pass in data in a JSON format    </p>
+
+<pre><code>&lt;script src=&quot;http://ac-dev.applicationcraft.com//live/userlive.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+   waInitForm(&quot;2e5a47be-9c85-4ad4-8f47-108cb2986268&quot;, 
+     757, 811, {id:[12,14], text:&quot;test test test&quot;, num:54});
+&lt;/script&gt;
+</code></pre>
 
 <h2 id="toc_0">See Also</h2>
 
