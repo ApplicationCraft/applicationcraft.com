@@ -25,7 +25,8 @@ If your App is running as a Native App (these features are not accessible for ap
 
  - Contacts
 
-Then you need to access PhoneGap functions. The full documentation is available at [http://docs.phonegap.com/](http://docs.phonegap.com/)
+Then you need to access PhoneGap functions. The full documentation is available at 
+<a href="http://docs.phonegap.com/" target="_blank">http://docs.phonegap.com</a>
 
 **Example**
 
