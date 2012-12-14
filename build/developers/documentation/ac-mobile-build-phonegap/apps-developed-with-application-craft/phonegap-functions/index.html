@@ -109,7 +109,42 @@
 <li><p>Contacts</p></li>
 </ul>
 
-<p>Then you need to access PhoneGap functions. The full documentation is available at <a href="http://docs.phonegap.com/">http://docs.phonegap.com/</a></p>
+<p>Then you need to access PhoneGap functions. The full documentation is available at <br>
+<a href="http://docs.phonegap.com/" target="_blank"><a href="http://docs.phonegap.com">http://docs.phonegap.com</a></a></p>
+
+<p><strong>Example</strong></p>
+
+<p>Using Phonegap Device API function to gather and display device information.</p>
+
+<pre><code>function handler_DeviceInfo_onPageShow(){
+  if(!app.isNativeApp()) {
+      app.alert(&#39;This App is running as a Web App, so device functions are not accessible&#39;);
+      return;
+  }    
+  var networkState = navigator.network.connection.type, states={};
+  states[Connection.UNKNOWN]  = &#39;Unknown connection&#39;;
+  states[Connection.ETHERNET] = &#39;Ethernet connection&#39;;
+  states[Connection.WIFI]     = &#39;WiFi connection&#39;;
+  states[Connection.CELL_2G]  = &#39;Cell 2G connection&#39;;
+  states[Connection.CELL_3G]  = &#39;Cell 3G connection&#39;;
+  states[Connection.CELL_4G]  = &#39;Cell 4G connection&#39;;
+  states[Connection.NONE]     = &#39;No network connection&#39;;
+  var dData=[];dData.push(&#39;&lt;p&gt;&lt;strong&gt;Device Info&lt;/strong&gt;&lt;br&gt;&#39; + device.name + &#39;&lt;/p&gt;&#39;);
+  dData.push(&#39;&lt;p&gt;&lt;b&gt;Phonegap Version&lt;/b&gt;&lt;br&gt;&#39; + device.phonegap + &#39;&lt;/p&gt;&#39;);
+  dData.push(&#39;&lt;p&gt;&lt;b&gt;Device Platform&lt;/b&gt;&lt;br&gt;&#39; + device.platform + &#39;&lt;/p&gt;&#39;);
+  dData.push(&#39;&lt;p&gt;&lt;b&gt;Device ID&lt;/b&gt;&lt;br&gt;&#39; +  device.uuid + &#39;&lt;/p&gt;&#39;);
+  dData.push(&#39;&lt;p&gt;&lt;b&gt;Device Version&lt;/b&gt;&lt;br&gt;&#39; + device.version + &#39;&lt;/p&gt;&#39;);
+  dData.push(&#39;&lt;p&gt;&lt;b&gt;Connection type&lt;/b&gt;&lt;br&gt;&#39; + states[networkState] + &#39;&lt;/p&gt;&#39;);
+  data = [];
+  for(var i = dData.length-1; i &gt; -1; --i ) {
+      var d = {};
+      d.label = dData[i];
+      data.push(d);
+  }
+  var map = {&#39;label&#39;: &#39;label&#39;};
+  app.populateWidget(&#39;lstDeviceInfo&#39;, data, map);
+ }
+</code></pre>
 
 
       
