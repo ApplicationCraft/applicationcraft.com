@@ -2137,7 +2137,7 @@ if ($args = modifying_data_widgets_with_sc.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/modifying-data-widgets-with-scripts/? permanent;
 }
 if ($args = mysql__postegres__oracle_etc.htm) {
-  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/mysql-postegres-oracle-etc/? permanent;
+  rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/mysql-postgres-oracle-etc/? permanent;
 }
 if ($args = refrefreshdata.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/data-view-functions/refrefreshdata/? permanent;

@@ -12,6 +12,8 @@ $ ->
     param = item.split('=')
     params[param[0]] = param[1]
 
+  console.log params
+
   # Has this user been referred to AC? If so, set the referring email and current datetime in a
   # year long cookie.
   if params.utm_medium == 'ac_affiliate' && params.utm_source?
