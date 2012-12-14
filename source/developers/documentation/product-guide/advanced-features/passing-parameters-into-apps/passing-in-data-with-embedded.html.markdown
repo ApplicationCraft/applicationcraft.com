@@ -13,22 +13,24 @@ If you are launching an embedded App that is located within your web page, you m
     id=12
     id=14
     
+Of particular interest is the fact that there are two id parameters being passed in. Application Craft will put these into a single array that can be read using getInputParameters().
+
+**Important** : the querystring data being passed in should NOT be escaped    
+    
     <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
     <script type="text/javascript">
        waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
          757, 811, "id=12&id=14&text=test test test&num=54");
     </script>
+    
+Additionally, you can pass in data in a JSON format    
+    
     <script src="http://ac-dev.applicationcraft.com//live/userlive.js" type="text/javascript"></script>
     <script type="text/javascript">
        waInitForm("2e5a47be-9c85-4ad4-8f47-108cb2986268", 
          757, 811, {id:[12,14], text:"test test test", num:54});
     </script>
 
-Of particular interest is the fact that there are two id parameters being passed in. Application Craft will put these into a single array that can be read using getInputParameters().
-
-**Important** : the querystring data being passed in should NOT be escaped
-
-Additionally, you can pass in data in a JSON format
 
 ## See Also
 
