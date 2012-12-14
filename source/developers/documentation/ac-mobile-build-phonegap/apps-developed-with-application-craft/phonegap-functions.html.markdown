@@ -30,7 +30,7 @@ Then you need to access PhoneGap functions. The full documentation is available 
 
 **Example**
 
-Using Phonegap Device API functions to gather and display device information.
+Using Phonegap Device API function to gather and display device information.
 
 	function handler_DeviceInfo_onPageShow(){
       if(!app.isNativeApp()) {
