@@ -30,7 +30,7 @@ Then you need to access PhoneGap functions. The full documentation is available 
 
 **Example**
 
-Using Phonegap Camer API function to take a picture and write it to an Image widget.
+Using Phonegap Camera API function to take a picture and write it to an Image widget.
 
 	function handler_btnSnap_onClick(mouseev){
     	if(!app.isNativeApp()) {
