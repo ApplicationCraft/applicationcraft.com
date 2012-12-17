@@ -8,7 +8,9 @@ full_width: true
 published: false
 ---
 
-As much as we all hate bugs and problems they happen, and its nice to see a lot of you reporting problems in our  [Developer Portal](http://portal.applicationcraft.com"). I thought I'd throw out a few tips to help us all and explain the basics of what we do with your tickets. We've already made a few tweaks from comments that have been made, so if you have any thoughts/ideas don't be shy, we'd love to hear from you.
+As much as we all hate bugs and problems they happen, and its nice to see a lot of you reporting problems in our <a href="http://portal.applicationcraft.com" target="_blank">Developer Portal</a>. 
+
+I thought I'd throw out a few tips to help us all and explain the basics of what we do with your tickets. We've already made a few tweaks from comments that have been made, so if you have any thoughts/ideas don't be shy, we'd love to hear from you.
 
 **Raising a problem**
 
