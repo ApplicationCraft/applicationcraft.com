@@ -5,7 +5,7 @@ title: Price Reduction Effective November 15th 2012
 We are very pleased to announce changes to the Application Craft Cloud pricing. These affect all users as explained below.
 
 ###Free Users
-The Accounts of Free Users will remain unchanged until February 15th, 2013. From this date onwards, accounts will act as a Free Trial for 14 days after which the Free Trial will expire and you will be required to upgrade to the AC Cloud subscription for continued usage.
+The Accounts of Free Users will remain unchanged until February 15th, 2013. From this date onwards, accounts will act as a Free Trial for <span class="trial-period">14</span> days after which the Free Trial will expire and you will be required to upgrade to the AC Cloud subscription for continued usage.
 
 ###Existing AC Pro Users on a Monthly Subscription
 Anyone with an existing monthly subscription will at the new, lower price at the point of your next billing. Other than thism you should experince no significant changes. The name of the subscription will change from AC Pro to AC Cloud.
