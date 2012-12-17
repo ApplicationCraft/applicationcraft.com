@@ -40,6 +40,8 @@
 
 &lt;p&gt;The latest version of AC now includes this latest and greatest version of jQuery, and also because of it&amp;#39;s reliance on jQuery UI, we&amp;#39;ve included the latest version of that into this release too.&lt;/p&gt;
 
+&lt;p&gt;If there is anything new in jQuery Mobile 1.2 that you would like to see in AC, such as any new or improved widgets, please post in the &lt;a href="http://getsatisfaction.com/application_craft"&gt;forums&lt;/a&gt; and ask others to comment. If we see demand for a feature we will try our best to implement it.&lt;/p&gt;
+
 &lt;h2 id="toc_1"&gt;Mobile Debugging&lt;/h2&gt;
 
 &lt;p&gt;We also shipped a new feature to allow you to debug your apps right within the devices you are developing for.&lt;/p&gt;

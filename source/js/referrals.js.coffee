@@ -26,7 +26,7 @@ $ ->
       domain: '.applicationcraft.com'
 
 
-  # Handle Ad Campaign special conditions.
+  # Handle Ad Campaign trial length.
   # ---------------------------------------------
 
   # This one is for dZone email ad.
@@ -36,6 +36,11 @@ $ ->
       expires: 365
       path: '/'
       domain: '.applicationcraft.com'
+
+
+  # If the ac_trial_length cookie exists, replace all instances of the trial period.
+  if $.cookie('ac_trial_length')
+     $('.trial-period').text $.cookie('ac_trial_length')
 
 
 

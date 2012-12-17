@@ -21,6 +21,8 @@ Back in October, the team behind jQuery [released a major new version; 1.2.0](ht
 
 The latest version of AC now includes this latest and greatest version of jQuery, and also because of it's reliance on jQuery UI, we've included the latest version of that into this release too.
 
+If there is anything new in jQuery Mobile 1.2 that you would like to see in AC, such as any new or improved widgets, please post in the [forums](http://getsatisfaction.com/application_craft) and ask others to comment. If we see demand for a feature we will try our best to implement it.
+
 ## Mobile Debugging ##
 
 We also shipped a new feature to allow you to debug your apps right within the devices you are developing for.

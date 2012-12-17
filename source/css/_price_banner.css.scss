@@ -84,7 +84,7 @@ body.home #price-banner {
           font-size: 18px;
         }
 
-        span {
+        span:not(.trial-period) {
           font-size: 14px;
           @include apply-to(more-than, ipad-portrait) {
             font-size: 12px;
