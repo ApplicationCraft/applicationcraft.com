@@ -12,7 +12,6 @@ $ ->
     param = item.split('=')
     params[param[0]] = param[1]
 
-  console.log params
 
   # Has this user been referred to AC? If so, set the referring email and current datetime in a
   # year long cookie.
@@ -22,6 +21,18 @@ $ ->
       datetime: new Date()
 
     $.cookie 'ac_referral', value,
+      expires: 365
+      path: '/'
+      domain: '.applicationcraft.com'
+
+
+  # Handle Ad Campaign special conditions.
+  # ---------------------------------------------
+
+  # This one is for dZone email ad.
+  # /?utm_source=dzone&utm_medium=email&utm_campaign=dzone-email-20121912&utm_content=tagline
+  if params.utm_campaign == 'dzone-email-20121912'
+    $.cookie 'ac_trial_length', 30,
       expires: 365
       path: '/'
       domain: '.applicationcraft.com'
