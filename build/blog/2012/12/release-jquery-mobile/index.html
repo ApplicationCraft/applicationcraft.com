@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+    <title>Release: jQuery Mobile 1.2, Mobile Debugger - App development for Mobile and Desktop with Application Craft</title>
+
+    
+      <meta name="description" content="Release: jQuery Mobile 1.2, Mobile Debugger. Last Friday we shipped quite a large new release which I think is worth mentioning. As well as some significant bugs being squashed, we upgraded jQuery Mobile and jQuery UI, and integrated the Wein...">
+    
+
+    
+      <meta name="keywords" content="release, jquery, jquery mobile, debugging" />
+    
+
+    <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-9fae0265.css" media="screen" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body class="blog">
+    <a id="top"></a>
+
+    <nav class="main">
+      <div class="container">
+
+        <div id="blog-ribbon" class="nofade">
+          <a href="/blog" title="Check out our blog">Blog</a>
+        </div>
+
+        <ul class="clearfix">
+          <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
+          <li class="clearfix">
+            <ul class="clearfix">
+              <li class=""><a href="/" class="active">Home</a></li>
+              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/developers">Developers</a></li>
+              <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
+              <li class="nofade ">
+                <a href="/get-started">Sign Up Today</a>
+                <a id="cws-sign-up" href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc" target="_blank">or via the Chrome Web Store</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    
+
+    
+      
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <header>
+    <div class="container">
+      <div>
+        <h1>Gettin' Crafty</h1>
+        <h2>A Blog written by the team at Application Craft - the Visual IDE people</h2>
+      </div>
+    </div>
+  </header>
+
+  <div class="container clearfix">
+
+    <section class="posts">
+
+      
+
+        
+        
+
+        <article>
+          <section class="meta">
+            <p class="date">
+              <a href="/blog/2012/12/release-jquery-mobile/">December 17, 2012</a>
+              
+                <span class="author">by <a href="mailto:jmoss@applicationcraft.com">Joel Moss</a></span>
+              
+            </p>
+            <p class="tagged">Tagged:</p>
+            <ul class="tags">
+              
+                <li>release</li>
+              
+                <li>jquery</li>
+              
+                <li>jquery mobile</li>
+              
+                <li>debugging</li>
+              
+            </ul>
+
+            <p class="comments">
+              <a class="dsq-comment-count" href="/blog/2012/12/release-jquery-mobile/#disqus_thread">Comments</a>
+            </p>
+          </section>
+
+          <h1><a href="/blog/2012/12/release-jquery-mobile/">Release: jQuery Mobile 1.2, Mobile Debugger</a></h1>
+          
+
+          <p>Last Friday we shipped quite a large new release which I think is worth mentioning. As well as some significant bugs being squashed, we upgraded jQuery Mobile and jQuery UI, and integrated the Weinre Mobile Debugger.</p>
+
+<h2 id="toc_0">jQuery Mobile and UI</h2>
+
+<p>jQuery Mobile is one of the core parts of AC, and every single app uses at least some part of the open source framework.</p>
+
+<p>Back in October, the team behind jQuery <a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/">released a major new version; 1.2.0</a>.</p>
+
+<blockquote>
+<p>This release brings a new popup widget, an autodivider and collapsible option for listviews, and over 100 enhancements and fixes throughout the library to make things smoother, faster, and more polished.</p>
+</blockquote>
+
+<p><a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/">Check out the blog post</a> for a run down of what&#39;s new in jQuery Mobile 1.2.0.</p>
+
+<p>The latest version of AC now includes this latest and greatest version of jQuery, and also because of it&#39;s reliance on jQuery UI, we&#39;ve included the latest version of that into this release too.</p>
+
+<h2 id="toc_1">Mobile Debugging</h2>
+
+<p>We also shipped a new feature to allow you to debug your apps right within the devices you are developing for.</p>
+
+<blockquote>
+<p>Weinre (Pronounced like the word &quot;winery&quot;) is a debugger for web pages, like FireBug (for FireFox) and Web Inspector (for WebKit-based browsers), except it&#39;s designed to work remotely, and in particular, to allow you debug web pages on a mobile device such as a phone.</p>
+</blockquote>
+
+<p><img alt="Weinre Debugging" src="/img/blog/weinre-55f96c1d.png" /></p>
+
+<p>The AC Weinre Debugging server lets you use the familiar webkit developer tools to debug your mobile web apps, and is yet another way that we are making it easier to build apps.</p>
+
+<p>You can check it out at <a href="http://mobile-build-debug.applicationcraft.com/">http://mobile-build-debug.applicationcraft.com/</a></p>
+
+
+          <div class="blog-social clearfix">
+            <div class="blog-twitter">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="appcrafty" data-size="small" data-count="none">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+
+            <div class="blog-facebook">
+              <div class="fb-like" data-send="false" data-width="450" data-show-faces="false"></div>
+            </div>
+          </div>
+        </article>
+
+      
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'applicationcraftwebsite'; // required: replace example with your forum shortname
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable Javascript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+
+    <aside>
+      <section class="all-posts">
+        <h4><a href="/blog/all">all posts &raquo;</a></h4>
+      </section>
+
+      <section class="latest-posts">
+        <h4>Latest posts...</h4>
+        <ul>
+          
+            <li><a href="/blog/2012/12/release-jquery-mobile/">Release: jQuery Mobile 1.2, Mobile Debugger</a></li>
+          
+            <li><a href="/blog/2012/12/application-craft-vs-appcelerator-titanium/">Application Craft VS Appcelerator Titanium</a></li>
+          
+            <li><a href="/blog/2012/12/introducing-our-new-webinar-sessions/">Introducing Our New Webinar Sessions</a></li>
+          
+            <li><a href="/blog/2012/12/oauth-support/">Amazingly Easy Authentication with OAuth</a></li>
+          
+            <li><a href="/blog/2012/11/chrome-users-around-the-world-rejoice/">Chrome Users Around the World Rejoice!</a></li>
+          
+            <li><a href="/blog/2012/11/my-first-app-tutorial/">My First App - the first of many Tutorials</a></li>
+          
+            <li><a href="/blog/2012/11/a-new-way-to-talk/">Introducing A New Way to Talk</a></li>
+          
+            <li><a href="/blog/2012/11/documentation-search-and-full-screen/">Documentation Improvements: Search and Full Screen</a></li>
+          
+        </ul>
+      </section>
+
+      <a href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc" target="_blank"><img src="https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_BadgeWBorder_v2_206x58.png" style="margin:25px 0 0 25px;width:88%;"></a>
+    </aside>
+
+  </div>
+
+
+    
+
+    <section id="price-banner" class="clearfix">
+  <div class="container">
+    <div>only <span>$14</span> per month</div>
+    <div class="nofade"><a href="/get-started">
+      <p>Try it for Free!</p>
+      <p><span>&#x2605;</span> 14 day free trial <span>&#x2605;</span></p>
+    </a></div>
+
+    <div class="clearfix">
+
+      <div class="video-thumb">
+        <span>
+          <a class="fancybox fancybox.iframe" href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;">
+            <img src="//i1.ytimg.com/vi/XcGx6F7Wql0/default.jpg">
+          </a>
+        </span>
+        <span>1:28</span>
+      </div>
+
+      <a href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe">
+        Watch the intro video...
+      </a>
+
+    </div>
+  </div>
+</section>
+        <footer>
+      <section>
+        <div class="container clearfix">
+          <ul>
+            <li>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/product/phonegap-mobile-build">Mobile Build</a></li>
+                <li><a href="/product/enterprise">Enterprise</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/developers">Developers</a></li>
+                <li><a href="/developers">Support</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/company/contact-us">Contact us</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/company">About</a></li>
+                <li><a href="/legal">Legal</a></li>
+                <li><a href="/referral-program">Referral Program</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div id="webinars">
+            <div id="webinars-inner">
+              <h3>Upcoming Webinar Sessions:</h3>
+              <div class="clearfix">
+                <p>
+                  Thursday Dec 20, 2012: 2-3PM GMT
+                  <span>
+                    <a href="https://attendee.gotowebinar.com/register/8386990381348583936" target="_blank">more info</a> | <a href="https://attendee.gotowebinar.com/register/8386990381348583936" target="_blank">register</a>
+                  </span>
+                </p>
+              </div>
+              <p>Hope to see you there!</p>
+            </div>
+          </div>
+
+          <ul id="social-icons">
+            <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
+            <li><a href="https://www.facebook.com/ApplicationCraft"><span></span>Facebook</a></li>
+            <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
+            <li><a href="http://www.youtube.com/user/appcrafty"><span></span>Youtube</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="container clearfix">
+          <div>
+            <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
+          </div>
+
+          Copyright &copy; 2012 Application Craft Ltd. All rights reserved.
+          Read our <a href="/legal/privacy">Privacy policy</a>.
+        </div>
+      </section>
+    </footer>
+
+
+    <div id="sign-in" class="modal">
+      <h2>Sign In</h2>
+      <p>To sign in to your account, you need to go to your custom sub-domain, where you will be prompted to enter your username and password. Choose from the list below, or enter your subdomain in the field provided.</p>
+      <hr />
+      <div class="waLoginList">
+        <div class="waLoginListDiv">
+          <span style="position: relative;">&nbsp;</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="old-browser">
+      <div id="old-browser-inner">
+        <img width="309" height="23" src="/img/logo-c879c885.png" />
+        <h1>Your browser is very old and will not work correctly with ApplicationCraft.</h1>
+        <p>Please upgrade Internet Explorer or use a modern browser, and <a href="http://browsehappy.com/" target="_blank">Browse Happy!</a></p>
+      </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
+    <script src="/js/main-6564a466.js" type="text/javascript"></script>
+    
+
+    
+      <script>
+        var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+    
+
+    <div id="getsat-widget-2621"></div>
+    <script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
+    <script type="text/javascript">
+      if (typeof GSFN !== "undefined" && !/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        GSFN.loadWidget(2621,{"containerId":"getsat-widget-2621"});
+      }
+    </script>
+
+  </body>
+</html>
+
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'applicationcraftwebsite'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
+
+<script src="/js/vendor/rainbow-2b7edd35.js" type="text/javascript"></script>
+<script src="/js/vendor/rainbow/generic-6a91084e.js" type="text/javascript"></script>
+<script src="/js/vendor/rainbow/javascript-5e0c6c6e.js" type="text/javascript"></script><link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
