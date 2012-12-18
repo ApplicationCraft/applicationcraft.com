@@ -64,7 +64,7 @@ nav.main {
 
         li {
           float: left;
-          margin: 10px 0 0 0;
+          margin: 19px 0 0 0;
           height: 35px;
 
           @include apply-to(more-than, ipad-portrait) {
@@ -78,6 +78,7 @@ nav.main {
 
           &:first-child {
             display: none;
+
             @include apply-to(more-than, ipad-landscape) {
               display: block;
               margin-top: 38px;

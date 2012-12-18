@@ -5,6 +5,30 @@ body.webinars {
       text-shadow: 0 2px 3px #CCC;
       color: #F36050;
       font: 36px gotham_bookregular;
+
+      button {
+        display: none;
+      }
+    }
+
+    @include apply-to(more-than, ipad-portrait) {
+      > div > aside {
+        width: 250px;
+      }
+
+      > div > article {
+        width: 515px;
+      }
+    }
+
+    @include apply-to(more-than, ipad-landscape) {
+      > div > aside {
+        width: 300px;
+      }
+
+      > div > article {
+        width: 680px;
+      }
     }
 
     #webinar-tweets {
@@ -16,6 +40,14 @@ body.webinars {
       border-radius: 6px;
       box-shadow: 1px 1px 7px #BBB;
       text-align: center;
+
+      @include apply-to(more-than, ipad-portrait) {
+        margin: 0 40px 0 0;
+      }
+
+      @include apply-to(more-than, ipad-landscape) {
+        margin: 0 60px 0 0;
+      }
 
       h3 {
         font: 20px gotham_bookregular;
@@ -44,8 +76,11 @@ body.webinars {
     article {
       > ul {
         margin-top: 30px;
-        margin-right: 100px;
         padding: 0;
+
+        @include apply-to(more-than, ipad-landscape) {
+          margin-right: 100px;
+        }
 
         > li {
           list-style: none;
