@@ -16,7 +16,7 @@ Locate the API Keys Manager in the Xtify Console. You will then see the followin
 
 ![xtify ios app id](/img/docs/xtify-portal-api-keys.png)
 
-Click on Add New API Key. You can select the Limited option unless you are accessing the API itself, in which case you choose your own preference. For doing a simple Push demo, just select Limited.
+Click on Add New API Key. You should select the Advanced option.
 
 #APP Key Manager
 Next, locate the App Key Manager option. From here, you will register a new Application.  
