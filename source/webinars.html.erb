@@ -1,0 +1,79 @@
+---
+title: "Live Online Webinars"
+class_name: webinars
+active_menu_item: product
+full_width: false
+---
+
+<% content_for :submenu do %>
+  <nav class="sub">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="/product">Overview</a></li>
+        <li><a href="/product/pricing">Pricing</a></li>
+        <li><a href="/product/enterprise">Enterprise</a></li>
+        <li><a href="/product/phonegap-mobile-build">PhoneGap</a></li>
+        <li><a href="/product/testimonials">Testimonials</a></li>
+        <li><a href="/services">Services</a></li>
+      </ul>
+    </div>
+  </nav>
+<% end %>
+
+<% content_for :above_aside do %>
+  <div id="webinar-tweets">
+    <h3>Tweet us your content ideas</h3>
+    <p>If you want to see us cover a specific topic, then please do the following</p>
+
+    <ul>
+      <li><a href="https://twitter.com/appcrafty" class="twitter-follow-button" data-size="large" data-show-count="false" data-lang="en">Follow us @appcrafty</a> to get new Webinar accouncements and updates.</li>
+      <li><a href="https://twitter.com/intent/tweet?screen_name=appcrafty" class="twitter-mention-button" data-count="none" data-size="large" data-hashtags="acwebinar" data-text="Give me a webinar all about ... ?" data-lang="en" data-related="appcrafty:The Official Application Craft Twitter account">Tweet @appcrafty</a> with the hash tag #acwebinar and what you would like to see covered.</li>
+    </ul>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+<% end %>
+
+<p>Application Craft Webinars are never slideshows. We give live online demos and tutorials, and you get to ask any questions you wish.</p>
+
+<p>We offer several different Webinars every week, each one split into two categories:</p>
+
+<ul>
+  <li>
+    <h3>Introduction to Application Craft</h3>
+    <p>A short hands-on demo of a "Hello World" type app with an open Q&amp;A session at the end. Perfect if you want to see what AC is all about before signing up.</p>
+
+    <section id="next-intro-webinar">
+      <h2>The Next Scheduled Webinar...</h2>
+      <p>
+        <%= data.webinars.first.date %> &ndash;
+        <a href="<%= data.webinars.first.url %>" target="_blank">Register for this Webinar &raquo;</a>
+      </p>
+    </section>
+  </li>
+  <li>
+    <h3>Developer Clinics</h3>
+    <p>The Developer Clinic is for those of you who wish to learn more about specific AC features, as well as a more detailed Javascript fundamentals, within the context of AC It is all based on the Application Craft platform but aims to get you up to speed as quickly as possible.</p>
+
+    <section id="clinic-schedule">
+      <h2>Upcoming Developer Clinics...</h2>
+
+      <% if data.webinars.count > 1 %>
+        <% data.webinars.each_with_index do |w,i| %>
+          <% next if i < 1 %>
+          <div>
+            <h4><%= w.title %><small><%= w.date %></small></h4>
+            <p><%= w.description %></p>
+            <a href="<%= w.url %>" target="_blank">Register for this Webinar &raquo;</a>
+          </div>
+        <% end %>
+      <% else %>
+        <small>
+          Sorry, but we have no scheduled developer clinic's at this time. Please follow @appcrafty on Twitter to find out when new sessions are announced.
+          <a href="https://twitter.com/appcrafty" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow us @appcrafty</a>
+        </small>
+      <% end %>
+    </section>
+  </li>
+</ul>
+

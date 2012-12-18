@@ -1,0 +1,138 @@
+body.webinars {
+
+  #content-body {
+    > h1 {
+      text-shadow: 0 2px 3px #CCC;
+      color: #F36050;
+      font: 36px gotham_bookregular;
+    }
+
+    #webinar-tweets {
+      margin: 0 60px 0 0;
+      font-size: 14px;
+      padding: 20px;
+      border: 1px solid #CCC;
+      background-color: #EEE;
+      border-radius: 6px;
+      box-shadow: 1px 1px 7px #BBB;
+      text-align: center;
+
+      h3 {
+        font: 20px gotham_bookregular;
+        text-transform: uppercase;
+        color: #333;
+        margin-top: 10px;
+      }
+
+      .twitter-follow-button,
+      .twitter-mention-button {
+        display: block;
+        margin: 22px auto 4px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          margin: 0 0 7px;
+        }
+      }
+    }
+
+    article {
+      > ul {
+        margin-top: 30px;
+        margin-right: 100px;
+        padding: 0;
+
+        > li {
+          list-style: none;
+          margin: 54px 0;
+
+          > h3 {
+            margin: 0;
+            text-transform: uppercase;
+          }
+
+          > p {
+            margin-top: 10px;
+          }
+        }
+      }
+
+      #next-intro-webinar {
+        margin: 25px 0 0 10px;
+        border-left: 10px solid #F8F7EF;
+        padding-left: 14px;
+
+        h2 {
+          font: 13px gotham_bookregular;
+          text-transform: uppercase;
+          border-bottom: 1px solid #CCC;
+          padding-bottom: 6px;
+          color: #888;
+          margin: 0;
+        }
+
+        p {
+          margin: 10px 0;
+
+          a {
+
+          }
+        }
+      }
+
+      #clinic-schedule {
+        margin: 40px 0 0 0;
+
+        h2 {
+          font: 14px gotham_bookregular;
+          text-transform: uppercase;
+          border-bottom: 1px solid #CCC;
+          padding-bottom: 6px;
+          color: #888;
+          margin: 0 0 0 10px;
+        }
+
+        > small {
+          margin: 10px;
+          display: block;
+
+          .twitter-follow-button {
+            display: block;
+            margin-top: 10px;
+          }
+        }
+
+        div {
+          margin: 25px 0 35px 10px;
+          border-left: 10px solid #F8F7EF;
+          padding-left: 14px;
+
+          h4 {
+            margin: 0;
+
+            small {
+              float: right;
+              color: #777;
+              font-weight: 400;
+            }
+          }
+
+          p {
+            margin: 8px 0;
+            color: #666;
+            font-size: 14px;
+          }
+
+          a {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 #= require_tree ./lib
 #= require referrals
+#= require webinar_dialog
 
 # Global vars
 exports = this
