@@ -6,5 +6,8 @@ submenu:
     text: Team
     url: /company/team
   -
+    text: Careers
+    url: /company/careers
+  -
     text: Contact Us
-    url: /company/contact-us    
+    url: /company/contact-us
