@@ -5,64 +5,16 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2012-12-17T00:00:00Z</updated>
+  <updated>2012-12-18T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
   <entry>
-    <title>Release: jQuery Mobile 1.2, Mobile Debugger</title>
-    <link rel="alternate" href="/blog/2012/12/release-jquery-mobile/"/>
-    <id>/blog/2012/12/release-jquery-mobile/</id>
-    <published>2012-12-17T00:00:00Z</published>
-    <updated>2012-12-17T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Last Friday we shipped quite a large new release which I think is worth mentioning. As well as some significant bugs being squashed, we upgraded jQuery Mobile and jQuery UI, and integrated the Weinre Mobile Debugger.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;jQuery Mobile and UI&lt;/h2&gt;
-
-&lt;p&gt;jQuery Mobile is one of the core parts of AC, and every single app uses at least some part of the open source framework.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Last Friday we shipped quite a large new release which I think is worth mentioning. As well as some significant bugs being squashed, we upgraded jQuery Mobile and jQuery UI, and integrated the Weinre Mobile Debugger.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;jQuery Mobile and UI&lt;/h2&gt;
-
-&lt;p&gt;jQuery Mobile is one of the core parts of AC, and every single app uses at least some part of the open source framework.&lt;/p&gt;
-
-&lt;p&gt;Back in October, the team behind jQuery &lt;a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/"&gt;released a major new version; 1.2.0&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This release brings a new popup widget, an autodivider and collapsible option for listviews, and over 100 enhancements and fixes throughout the library to make things smoother, faster, and more polished.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/"&gt;Check out the blog post&lt;/a&gt; for a run down of what&amp;#39;s new in jQuery Mobile 1.2.0.&lt;/p&gt;
-
-&lt;p&gt;The latest version of AC now includes this latest and greatest version of jQuery, and also because of it&amp;#39;s reliance on jQuery UI, we&amp;#39;ve included the latest version of that into this release too.&lt;/p&gt;
-
-&lt;p&gt;If there is anything new in jQuery Mobile 1.2 that you would like to see in AC, such as any new or improved widgets, please post in the &lt;a href="http://getsatisfaction.com/application_craft"&gt;forums&lt;/a&gt; and ask others to comment. If we see demand for a feature we will try our best to implement it.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;Mobile Debugging&lt;/h2&gt;
-
-&lt;p&gt;We also shipped a new feature to allow you to debug your apps right within the devices you are developing for.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Weinre (Pronounced like the word &amp;quot;winery&amp;quot;) is a debugger for web pages, like FireBug (for FireFox) and Web Inspector (for WebKit-based browsers), except it&amp;#39;s designed to work remotely, and in particular, to allow you debug web pages on a mobile device such as a phone.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img alt="Weinre Debugging" src="/img/blog/weinre-55f96c1d.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;The AC Weinre Debugging server lets you use the familiar webkit developer tools to debug your mobile web apps, and is yet another way that we are making it easier to build apps.&lt;/p&gt;
-
-&lt;p&gt;You can check it out at &lt;a href="http://mobile-build-debug.applicationcraft.com/"&gt;http://mobile-build-debug.applicationcraft.com/&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Get more out of the Developer Portal</title>
     <link rel="alternate" href="/blog/2012/12/get-more-out-of-the-developer-portal/"/>
     <id>/blog/2012/12/get-more-out-of-the-developer-portal/</id>
-    <published>2012-12-17T00:00:00Z</published>
-    <updated>2012-12-17T00:00:00Z</updated>
+    <published>2012-12-18T00:00:00Z</published>
+    <updated>2012-12-18T00:00:00Z</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -115,6 +67,54 @@
 &lt;h2 id="toc_4"&gt;Private Posts&lt;/h2&gt;
 
 &lt;p&gt;If you raised your ticket as a Private post (ie includes information you would not want to have in the public domain, export of an app, screen shots, etc.), we would like to make these Public when they have been closed, so others can also see if they have or had a similar problem.  Please delete any attachments/comments that you wanted private and then un-check the private flag as you confirm back all is Ok for us to close the ticket and the rest of the community can then see what happened.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Release: jQuery Mobile 1.2, Mobile Debugger</title>
+    <link rel="alternate" href="/blog/2012/12/release-jquery-mobile/"/>
+    <id>/blog/2012/12/release-jquery-mobile/</id>
+    <published>2012-12-17T00:00:00Z</published>
+    <updated>2012-12-17T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Last Friday we shipped quite a large new release which I think is worth mentioning. As well as some significant bugs being squashed, we upgraded jQuery Mobile and jQuery UI, and integrated the Weinre Mobile Debugger.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;jQuery Mobile and UI&lt;/h2&gt;
+
+&lt;p&gt;jQuery Mobile is one of the core parts of AC, and every single app uses at least some part of the open source framework.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Last Friday we shipped quite a large new release which I think is worth mentioning. As well as some significant bugs being squashed, we upgraded jQuery Mobile and jQuery UI, and integrated the Weinre Mobile Debugger.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;jQuery Mobile and UI&lt;/h2&gt;
+
+&lt;p&gt;jQuery Mobile is one of the core parts of AC, and every single app uses at least some part of the open source framework.&lt;/p&gt;
+
+&lt;p&gt;Back in October, the team behind jQuery &lt;a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/"&gt;released a major new version; 1.2.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This release brings a new popup widget, an autodivider and collapsible option for listviews, and over 100 enhancements and fixes throughout the library to make things smoother, faster, and more polished.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/"&gt;Check out the blog post&lt;/a&gt; for a run down of what&amp;#39;s new in jQuery Mobile 1.2.0.&lt;/p&gt;
+
+&lt;p&gt;The latest version of AC now includes this latest and greatest version of jQuery, and also because of it&amp;#39;s reliance on jQuery UI, we&amp;#39;ve included the latest version of that into this release too.&lt;/p&gt;
+
+&lt;p&gt;If there is anything new in jQuery Mobile 1.2 that you would like to see in AC, such as any new or improved widgets, please post in the &lt;a href="http://getsatisfaction.com/application_craft"&gt;forums&lt;/a&gt; and ask others to comment. If we see demand for a feature we will try our best to implement it.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Mobile Debugging&lt;/h2&gt;
+
+&lt;p&gt;We also shipped a new feature to allow you to debug your apps right within the devices you are developing for.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Weinre (Pronounced like the word &amp;quot;winery&amp;quot;) is a debugger for web pages, like FireBug (for FireFox) and Web Inspector (for WebKit-based browsers), except it&amp;#39;s designed to work remotely, and in particular, to allow you debug web pages on a mobile device such as a phone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img alt="Weinre Debugging" src="/img/blog/weinre-55f96c1d.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The AC Weinre Debugging server lets you use the familiar webkit developer tools to debug your mobile web apps, and is yet another way that we are making it easier to build apps.&lt;/p&gt;
+
+&lt;p&gt;You can check it out at &lt;a href="http://mobile-build-debug.applicationcraft.com/"&gt;http://mobile-build-debug.applicationcraft.com/&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
