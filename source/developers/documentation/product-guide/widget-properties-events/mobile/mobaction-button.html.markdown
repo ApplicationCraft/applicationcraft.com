@@ -46,14 +46,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td>
 Label
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -142,7 +136,7 @@ Repeat
 <td width="15">
 </td>
 <td width="779">
-  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
+  If set to True, this displays the Widget on either all pages except ones you specify in a list or only on pages you choose from a list.  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a>.
 
 </td>
 </tr>
