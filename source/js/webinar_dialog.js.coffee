@@ -6,8 +6,14 @@ $ ->
       expires: 365
       path: '/'
 
-    $.fancybox.open $('#webinar-dialog').html()
+    $('a').one 'click', (e)->
+      href = $(this).prop('href')
+      $.fancybox.open $('#webinar-dialog').html(),
+        afterClose: ->
+          window.location = href
 
-    $('#webinar-dialog-inner .btn').on 'click', ->
-      do $.fancybox.close
+      $('#webinar-dialog-inner .btn, #webinar-dialog-inner .fancybox-close').one 'click', ->
+        do $.fancybox.close
+        false
+
       false
