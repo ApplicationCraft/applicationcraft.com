@@ -18,7 +18,7 @@ Here is a typical example of populateWidget() being used to populate data from a
               {"item": "Dovetail Saw", "price": "39.95"},
               {"item": "Jack Plane No.4", "price": "69.95"},
               {"item" : "Jointer Plane No.7", "price": "29.95"},
-              {"item" : "Firmer Chisel 1\"", "price": "29.95"}
+              {"item" : "Firmer Chisel 1", "price": "29.95"}
             ]
           }
         };
