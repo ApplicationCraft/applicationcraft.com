@@ -13,7 +13,7 @@ Let's send out a test Push Notification from Xtify.
 1. Go to the Xtify Console and locate the App Manager menu item.
 1. Select the Test Implementation sub menu item.
 1. You will see a list of your Applications that are set to Development/Testing.
-1. Check the box next to the Application you want to test and press the Add New Application button abvoe the list.
+1. Check the box next to the Application you want to test and press the Add New Application button above the list.
 1. If you like, make sure your App is not running on your device, then fill in the message details. You should see your message appear very quickly.
 
 ##Production Notifications
