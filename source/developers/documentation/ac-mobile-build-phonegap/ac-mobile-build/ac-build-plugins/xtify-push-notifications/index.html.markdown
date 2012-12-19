@@ -15,8 +15,8 @@ The next sections in this chapter walk you through the process.
 
 ## In This Section
 
+  - [Non-AC built Apps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-non-ac-apps)
+ - [AC Built Apps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-ac-built-apps)
+ - [iOS](http://www.applicationcraft.com/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/iOS/)
+ - [Sending Push Notifications](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to)
  - [Google Cloud Messaging](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging)
- - [Apple App Id](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apple-app-id)
- - [Adding New Application Keys](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/adding-new-application)
- - [Configuring your app](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuring-your-app)
- - [Sending Push Notifications to your apps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/sending-push-notifications-to)
