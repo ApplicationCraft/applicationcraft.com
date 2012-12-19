@@ -39,11 +39,30 @@ A very neat way to test your Apps is to make use of the [app.switchApp()](/devel
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/ITkE2fsTOiI?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) The switchApp() debugging trick [2:22]
 
-## Weinre Debugger
+## Weinre Debugger 
+The Weinre Debugger allows you to inspect objects, see console output, view network activity etc. 
+
+![Weinre debugger](/img/docs/weinre-running.png)
+
+In order to view objects, the object you are inspecting will need to made visible to the outside world. To do this, you should include the following code 
+
+    window['extObjName'] = appObjName;
+
+That's it. Now in the Weinre console, you can watch 'extObjName'.
+
+You can also write to the Weinre Console using the following usual functions
+
+ - console.log()
+ - app.debugOutput()
+
+### ... using AC Mobile Build
+To start the Weinre debugger for Apps built with AC Mobile Build, you press the Remote Debug button as shown below
+
+![Weinre debugger](/img/docs/weinre-acmb-start.png)
+
+### ... using Phonegap:Build
 
 This debugger is available if you are using PhoneGap:Build and use either the [Manual Building](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/manual-building) approach or if you use the [Automatic Building](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/building-the-native-apps) but shut down the Application Craft build window and leave it closed.
-
-Any console.log() or app.debugOutput() allow you to write to the Weinre Console.
 
  - Login to PhoneGap:Build
 

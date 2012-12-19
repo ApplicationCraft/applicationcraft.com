@@ -7,4 +7,5 @@ full_width: true
 
 The following methods are available to Android
 
+(Coming soon)
 

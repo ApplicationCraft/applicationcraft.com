@@ -1,6 +1,8 @@
 xtify-non-ac-apps
 xtify-ac-built-apps
-iOS
+configuration
 xtify-push-message
-xtify-js-functions
-google-cloud-messaging
+xtify-notfn-handling-code
+xtify-methods
+xtify-android-methods
+xtify-debugging
