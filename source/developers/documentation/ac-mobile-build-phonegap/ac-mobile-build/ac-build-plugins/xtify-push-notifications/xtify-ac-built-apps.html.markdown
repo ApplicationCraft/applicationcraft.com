@@ -5,12 +5,12 @@ class_name: developers
 full_width: true
 ---
 
-If you build you Apps with Application Craft, the entire process is very easy. The main step is to enabled the Xtify plugin support. The image below shows where to find the PAC Build Plugins in the App property bar
+If you build you Apps with Application Craft, the entire process is very easy. The main step is to enabled the Xtify plugin support. The image below shows where to find the AC Build Plugins in the App property bar
 
 ##Setting the Application ID
 The first thing you will need to do is to set up your Phonegap settings in AC. 
 
-[xtify phonegap cordova settings](xtify-pg-options.png)
+[xtify phonegap cordova settings](/img/docs/xtify-pg-options.png)
 
 It is important to give your App a proper name that uniquely identifies it. We have chosen `com.fm.pushdemo` here.
 
@@ -67,7 +67,7 @@ Documentation
 
 </td>
 <td width="740">
-Link to documentation for this plugin (http://xtify.com/products.html\#tab=tab-push)
+Link to documentation for this plugin (<a href="http://xtify.com/products.html\#tab=tab-push" target="_blank">http://xtify.com/products.html\#tab=tab-push</a>)
 
 </td>
 </tr>
