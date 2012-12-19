@@ -26,16 +26,23 @@ $ ->
       domain: '.applicationcraft.com'
 
 
-  # Handle Ad Campaign trial length.
+  # Handle Ad Campaign and custom trial length.
   # ---------------------------------------------
 
-  # This one is for dZone email ad.
-  # /?utm_source=dzone&utm_medium=email&utm_campaign=dzone-email-20121912&utm_content=tagline
-  if params.utm_campaign == 'dzone-email-20121912'
-    $.cookie 'ac_trial_length', 30,
+  if params.utm_campaign?
+
+    $.cookie 'campaign', params.utm_campaign,
       expires: 365
       path: '/'
       domain: '.applicationcraft.com'
+
+    # This one is for dZone email ad.
+    # /?utm_source=dzone&utm_medium=email&utm_campaign=dzone-email-20121912&utm_content=tagline
+    if params.utm_campaign == 'dzone-email-20121912'
+      $.cookie 'ac_trial_length', 30,
+        expires: 365
+        path: '/'
+        domain: '.applicationcraft.com'
 
 
   # If the ac_trial_length cookie exists, replace all instances of the trial period.
