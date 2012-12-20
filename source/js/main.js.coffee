@@ -75,6 +75,22 @@ $ ->
 $ ->
   if $('#tree').length > 0
 
+    $(window).on 'scroll', ->
+      return if $('body').hasClass('full-screen')
+
+      $tree = $('#tree')
+      $window = $(window)
+
+      winHeight = $window.height() - 100
+      footHeight = $('#price-banner').position().top - $window.scrollTop() - 100
+
+      height = if footHeight < winHeight then footHeight else winHeight
+      if $window.scrollTop() <= 220
+        height = $window.height() - $tree.position().top + $window.scrollTop() - 10
+
+      $tree.height height
+
+
     doc_events = ->
       # Handle images
       if (images = $('body.developers .docs article :not(a)>img')).length > 0
@@ -96,6 +112,9 @@ $ ->
         $('body').removeClass 'full-screen'
       else
         $('body').addClass 'full-screen'
+
+        $tree = $('body.developers.full-screen > .container aside #tree')
+        $tree.height $(window).height() - $tree.offset().top - 20
 
 
     # Add/remove classes depending upon the collapsed state.

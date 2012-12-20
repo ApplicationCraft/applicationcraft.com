@@ -16,8 +16,10 @@
 
     aside {
       margin: 0 20px 50px 25px;
-      position: absolute;
+      position: fixed;
       top: 22px;
+      overflow: auto;
+      height: 100%;
 
       form {
         margin-bottom: 35px;
@@ -55,6 +57,7 @@
 
   article {
     margin: 0 10px 80px 335px;
+    min-height: 500px;
 
     h1 {
       font: 30px gotham_mediumregular;

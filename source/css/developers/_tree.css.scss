@@ -4,6 +4,12 @@
   margin: 5px 20px 50px 10px;
   font-size: 13px;
 
+  &.affix {
+    position: fixed !important;
+    overflow: auto;
+    top: 25px;
+  }
+
   form {
     margin: 0 0 30px;
 
@@ -124,6 +130,8 @@
   }
 
   #tree {
+    overflow: auto;
+
     ol {
       @include no-list-style;
 
