@@ -3,6 +3,8 @@ refalert
 confirm
 isnativeapponline
 isnativeapp
+getplatform
+getplatforminfo
 populatewidget3
 setnetworktimeout
 refreset
