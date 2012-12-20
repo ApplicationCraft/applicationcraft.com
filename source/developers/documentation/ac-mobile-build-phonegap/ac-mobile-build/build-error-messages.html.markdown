@@ -14,13 +14,157 @@ The following list contains the common errors that can be generated form the bui
 <table>
 <tr>
 <td width="271">
-The ZIP File you uploaded doesn’t seem to be a proper Cordova application. Please check it and upload again.
+<b>Error 1200.</b> - Certificate file with ID # not found.
 
 </td>
 <td width="20">
 </td>
 <td width="595">
-  A PhoneGap/Cordova application needs to be prepared in the correct way as described on the PhoneGap Build site. Please refer to the PhoneGap documentation on <a href="http://build.phonegap.com/docs/preparing-your-app">preparing your App</a> for full details.
+  The Certificate file you are using does not relate to the ID of this app.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1020.</b> - File config.xml not found in root of zip archive.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+ The config.xml file needs to be in the root of the zip archive. Check the structure of your zip file to ensure the project is in the root and not in another folder in the zip. 
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1021.</b> - File config.xml not in root folder.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  As above.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1022.</b> - Config xml parse error.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  The config.xml file is malformed and possibly a node is not correctly closed. You can usually see such problems if you open the XML file in a browser.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1010.</b> - A version attribute must be specified in the widget tag.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  For best results use a major/minor/patch style version, with three numbers, such as 0.0.1.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1011.</b> - An ID attribute must be specified in the widget tag.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  This is the unique identifier for your application. 
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1012.</b> - A name tag must be specified in the widget tag.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  This is the name of your application and needs to be specified.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1013.</b> - App ID has wrong structure - for example use com.companyname.applicationname.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  To support all supported platforms, this must be reverse-domain name style (e.g. com.yourcompany.yourapp). Take care when defining your App ID's. '-' is not allowed, '_' is allowed.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1014.</b> - You must specify at least one build platform in the platform tag.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  Your config.xml needs to contain specific lines for each platform you want to build for. 
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1015.</b> - A versionCode attribute must be specified in the widget tag.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  When building for Android, you can set the versionCode by specifying it in your config.xml. For more information on Android's versionCode attribute see <a href="http://developer.android.com/tools/publishing/versioning.html" target="_blank">the Android Documentation</a>.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b> Error 1016.</b> - Plugin and Cordova build error.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  If you are using AC Build Plugins you need to include reference in your config.xml. See <a href="http://www.applicationcraft.com/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/" target="_blank">AC Build Plugins</a> for more information.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1017.</b> - Icon and/or Splash images error.
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  There is a problem referencing your Icon and/or Splash Images in your project. Check that the images are of .png format and exist in the project in the location specified in your config.xml.
+
+</td>
+</tr>
+<tr>
+<td width="271">
+<b>Error 1018.</b> - You must specify an author tag in the widget tag
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  This is the author of the app, in most cases will be you and is required.
 
 </td>
 </tr>
@@ -181,4 +325,3 @@ An Administrator in the Apple Developer Portal (developer.apple.com) can revoke 
 ## Other Build Errors
 
 If you get any other errors, then you should contact [support@applicationcraft.com](mailto:support@applicationcraft.com) . We will probably need to take a look behind the scenes and sort it out.
-
