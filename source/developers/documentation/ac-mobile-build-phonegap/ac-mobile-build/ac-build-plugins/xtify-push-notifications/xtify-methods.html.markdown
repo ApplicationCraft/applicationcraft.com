@@ -13,7 +13,7 @@ The following Xtify methods are available to your App...
 
 This gets the XID of the user's App. An XID is an identifier that uniquely identifies a user within a specific App. Xtify generates this ID upon installation. You can then use this XID to communicate directly with ain individual user, using either the API or the Xtfy Console.
 
-Your code can retrieve this information and then manage it as it requires. A typical use-case is that you might want to store this data within a database and then use Xtify API functions to send notification to users having run queries on the database.
+Your code can retrieve this information and then manage it as it required. A typical use-case is that you might want to store this data within a database and then use Xtify API functions to send notification to users having run queries on the database.
 
 In order for this to be useful, your App would need to get the XID of a user and then pass the XID to the database for storage. You would then have another application that handled the actual notifications using the Xtify API functions.
 
