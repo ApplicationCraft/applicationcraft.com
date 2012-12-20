@@ -9,7 +9,8 @@ full_width: true
 
 ## In This Section
 
- - [`getACVersion()`](/developers/documentation/scripting-apis/client-api/app-functions/getacversion)
+ - [getACVersion()](/developers/documentation/scripting-apis/client-api/app-functions/getacversion)
+ 	This function can be used to get the version of your AC app.
  - [alert()](/developers/documentation/scripting-apis/client-api/app-functions/refalert)
     This function can be used instead of the regular alert() function
  - [confirm()](/developers/documentation/scripting-apis/client-api/app-functions/confirm)
@@ -18,6 +19,10 @@ full_width: true
     Returns the status of internet / network connectivity.
  - [isNativeApp()](/developers/documentation/scripting-apis/client-api/app-functions/isnativeapp)
     Indicates whether the App is running in Native or Web App mode.
+ - [getPlatform()](/developers/documentation/scripting-apis/client-api/app-functions/getplatform)
+    Returns the name of the current browser platform.  
+- [getPlatformInfo()](/developers/documentation/scripting-apis/client-api/app-functions/getplatforminfo)
+    Returns an object with detailed information about the current browser platform.
  - [networkTimeout()](/developers/documentation/scripting-apis/client-api/app-functions/setnetworktimeout)
     Gets or sets the network timeout period
  - [reset()](/developers/documentation/scripting-apis/client-api/app-functions/refreset)
