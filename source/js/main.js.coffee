@@ -75,13 +75,19 @@ $ ->
 $ ->
   if $('#tree').length > 0
 
-    # Handle images
-    if (images = $('body.developers .docs article :not(a)>img')).length > 0
-      images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
+    doc_events = ->
+      # Handle images
+      if (images = $('body.developers .docs article :not(a)>img')).length > 0
+        images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
 
+      # Set syntax highlighting language to javascript by default.
+      $('body.developers .docs article pre > code').addClass 'lang-javascript'
 
-    # Set syntax highlighting language to javascript by default.
-    $('body.developers .docs article pre > code').addClass 'lang-javascript'
+      # Handle video links so they open in fancybox
+      if (videos = $("body.developers .docs article a[href*='youtube']")).length > 0
+        videos.addClass 'fancybox fancybox.iframe'
+
+    do doc_events
 
 
     # Handle full screen button
@@ -90,11 +96,6 @@ $ ->
         $('body').removeClass 'full-screen'
       else
         $('body').addClass 'full-screen'
-
-
-    # Handle video links so they open in fancybox
-    if (videos = $("body.developers .docs article a[href*='youtube']")).length > 0
-      videos.addClass 'fancybox fancybox.iframe'
 
 
     # Add/remove classes depending upon the collapsed state.
@@ -118,9 +119,12 @@ $ ->
 
     do expandTreeWithPath
 
-    # Make sure the tree is updated if a link is clicked within a doc page.
+    # Make sure the tree is updated if a link is clicked within a doc page, and ensure all doc
+    # events and set.
     $(document).on 'page:change', ->
       do expandTreeWithPath
+      do doc_events
+      do Rainbow.color
 
 
 # Expands the tree to the current URL
