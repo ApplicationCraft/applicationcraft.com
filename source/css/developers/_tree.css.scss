@@ -6,7 +6,6 @@
 
   &.affix {
     position: fixed !important;
-    overflow: auto;
     top: 25px;
   }
 
@@ -130,7 +129,7 @@
   }
 
   #tree {
-    overflow: auto;
+    overflow-x: auto;
 
     ol {
       @include no-list-style;
