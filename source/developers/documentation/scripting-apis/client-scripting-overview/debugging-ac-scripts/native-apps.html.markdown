@@ -44,7 +44,7 @@ The Weinre Debugger allows you to inspect objects, see console output, view netw
 
 ![Weinre debugger](/img/docs/weinre-running.png)
 
-In order to view objects, the object you are inspecting will need to made visible to the outside world. To do this, you should include the following code 
+In order to view objects, the object you are inspecting will need to be made visible to the outside world. To do this, you should include the following code 
 
     window['extObjName'] = appObjName;
 
