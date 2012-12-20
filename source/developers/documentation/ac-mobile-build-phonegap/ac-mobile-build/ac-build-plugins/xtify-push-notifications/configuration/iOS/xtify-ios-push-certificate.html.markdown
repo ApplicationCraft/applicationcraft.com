@@ -31,7 +31,7 @@ If you want to let Application Craft help you, then ...
 1. In Step 2, Point 1, you are asked to download the Certificate Signing Request, so do this now.
 1. Back in the iOS Developer Portal, press the Continue button and you will be asked to upload a file. Select the file you just downloaded and press the Generate button. You have now done Step 2, Point 2.
 ![xtify ios enable](/img/docs/xtify-ios-pushcert-generate.png)
-1. One the iOS Portal has finished importing the Certificate Signing Request, you will see a screen indicating it is finished. Press Continue and you will see a Certificate ready to download. 
+1. Once the iOS Portal has finished importing the Certificate Signing Request, you will see a screen indicating it is finished. Press Continue and you will see a Certificate ready to download. 
 1. For Step 2, Point 4, download this certificate (you can also download it later) and upload it (Step 3, Point 5) into AC Mobile Build.
 1. In Application Craft, click on Next and you will be shown Step 3. Press the Close button and you are done.
 
