@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-platformName **getPlatformInfo** ()
+platformInfo **getPlatformInfo** ()
 
 ## Parameters
 There are no parameters.
