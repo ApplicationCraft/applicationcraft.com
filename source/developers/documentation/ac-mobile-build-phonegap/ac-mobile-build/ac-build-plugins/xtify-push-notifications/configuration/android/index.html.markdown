@@ -12,13 +12,11 @@ In your Apple developer portal, you will need to locate the App ID option on the
 
 ![xtify ios app id](/img/docs/xtify-app-ids-add.png)
 
-Click on the New App ID button.
-
-You will now see the following dialog, so complete it as required. 
+Click on the New App ID button. You will now see the following dialog, so complete it as required. 
 
 ![xtify ios app id](/img/docs/xtify-new-app-id.png)
 
-Click on **Submit** when ready.
+Click on *Submit* when ready.
 
 **Important**: make sure that the Bundle Identifier matches the Application ID you provided in the Phonegap properties.
 

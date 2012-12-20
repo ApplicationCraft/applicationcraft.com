@@ -17,7 +17,7 @@ Let's send out a test Push Notification from Xtify.
 1. If you like, make sure your App is not running on your device, then fill in the message details. You should see your message appear very quickly.
 
 ##Production Notifications
-Once you are ready to push our production notifications, you should select the Push menu option from the Xtify Console. At the time of writing, the Pushpoint Manager Version 2.0 is in beta, so expect this screenshot to change from January 1, 2013.
+Once you are ready to push your production notifications, you should select the Push menu option from the Xtify Console. At the time of writing, the Pushpoint Manager Version 2.0 is in beta, so expect this screenshot to change from January 1, 2013.
 
 ![xtify test](/img/docs/xtify-menu-push.png)
 

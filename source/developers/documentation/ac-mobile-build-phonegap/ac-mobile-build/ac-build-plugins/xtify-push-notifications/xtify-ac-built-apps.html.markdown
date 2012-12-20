@@ -5,18 +5,18 @@ class_name: developers
 full_width: true
 ---
 
-If you build you Apps with Application Craft, the entire process is very easy. The main step is to enabled the Xtify plugin support. The image below shows where to find the AC Build Plugins in the App property bar
+If you build you Apps with Application Craft, the entire process is very easy. The main step is to enable the Xtify plugin. The image below shows where to find the AC Build Plugins in the App property bar.
+
+![xtify ac build phonegap cordova plugin](/img/docs/xtify-plugin.png)
 
 ##Setting the Application ID
 The first thing you will need to do is to set up your Phonegap settings in AC. 
 
-[xtify phonegap cordova settings](/img/docs/xtify-pg-options.png)
+![xtify phonegap cordova settings](/img/docs/xtify-pg-options.png)
 
 It is important to give your App a proper name that uniquely identifies it. We have chosen `com.fm.pushdemo` here.
 
 ##Adding the Xtify AC Build Extension
-
-![xtify ac build phonegap cordova plugin](/img/docs/xtify-plugin.png)
 
 <table>
 <tr>
@@ -115,6 +115,5 @@ Xtify iOS key
 The properties “Android App Key” and “iOS App Key” are unique for the each app and can be found in your Xtify portal. To obtain these keys, you need to first register at [https://console.xtify.com/registration](https://console.xtify.com/registration).
 
 The Android Sender Id is created by [Google Cloud Messaging](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/google-cloud-messaging)
-
 
 The Xtify Free account is suitable for 10,000 notifications but for larger volumes see [http://www.xtify.com/pricing.html](http://www.xtify.com/pricing.html) .

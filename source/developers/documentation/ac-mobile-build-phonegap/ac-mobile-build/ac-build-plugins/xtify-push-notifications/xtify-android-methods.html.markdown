@@ -5,7 +5,7 @@ class_name: developers
 full_width: true
 ---
 
-The following methods are available to Android
+The following methods are available to Android.
 
-(Coming soon)
+*(Coming soon)*
 
