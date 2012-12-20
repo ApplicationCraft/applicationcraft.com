@@ -13,6 +13,8 @@ server '54.243.95.68', :app, :web, :db, :primary => true
 set :stages, %w(production staging)
 set :default_stage, "staging"
 
+set :keep_releases, 3
+
 # Deploys the current branch
 set(:current_branch) { `git branch --no-color`.match(/\*\s(.+)\n/)[1] || raise("Couldn't determine current branch") }
 set :branch, defer { current_branch } unless exists?(:branch)
