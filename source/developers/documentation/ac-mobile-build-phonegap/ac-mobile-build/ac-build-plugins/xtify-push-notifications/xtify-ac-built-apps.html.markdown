@@ -5,7 +5,7 @@ class_name: developers
 full_width: true
 ---
 
-If you build you Apps with Application Craft, the entire process is very easy. The main step is to enable the Xtify plugin. The image below shows where to find the AC Build Plugins in the App property bar.
+If you build your Apps with Application Craft, the entire process is very easy. The main step is to enable the Xtify plugin. The image below shows where to find the AC Build Plugins in the App property bar.
 
 ![xtify ac build phonegap cordova plugin](/img/docs/xtify-plugin.png)
 
