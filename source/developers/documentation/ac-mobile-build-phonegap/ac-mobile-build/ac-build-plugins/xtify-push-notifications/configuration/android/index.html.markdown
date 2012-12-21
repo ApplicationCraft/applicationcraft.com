@@ -5,9 +5,7 @@ class_name: developers
 full_width: true
 ---
 
-##IGNORE CONTENT UNTIL UPDATED FOR ANDROID
-
-Android is a lot easier to set up and all you need to be able to push notifications to Android devices is to set up Google Cloud Messaging to obtain your Sender ID and API Key to then set up in the Xtify Portal
+Android is a lot easier to set up and all you need to be able to push notifications to Android devices is to set up Google Cloud Messaging to obtain your Sender ID and API Key to then set up in the Xtify Portal to get the Application Key.
 
 To get started go: [http://developer.android.com/guide/google/gcm/gs.html](http://developer.android.com/guide/google/gcm/gs.html) and click the link there to go to the Google API Console
 ![googleconsole](/img/docs/googleconsole.png)
