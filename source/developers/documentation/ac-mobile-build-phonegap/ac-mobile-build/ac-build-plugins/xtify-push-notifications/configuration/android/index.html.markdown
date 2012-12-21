@@ -7,17 +7,21 @@ full_width: true
 
 ##IGNORE CONTENT UNTIL UPDATED FOR ANDROID
 
-##Adding an App ID
-In your Apple developer portal, you will need to locate the App ID option on the left as shown below.
+Android is a lot easier to set up and all you need to be able to push notifications to Android devices is to set up Google Cloud Messaging to obtain your Sender ID and API Key to then set up in the Xtify Portal
 
-![xtify ios app id](/img/docs/xtify-app-ids-add.png)
+To get started go: [http://developer.android.com/guide/google/gcm/gs.html](http://developer.android.com/guide/google/gcm/gs.html) and click the link there to go to the Google API Console
+![googleconsole](/img/docs/googleconsole.png)
 
-Click on the New App ID button. You will now see the following dialog, so complete it as required. 
+## To Create your project and obtain your GCM Sender ID
 
-![xtify ios app id](/img/docs/xtify-new-app-id.png)
+As you create your project, your browser URL will change to something like:
 
-Click on *Submit* when ready.
+[https://code.google.com/apis/console/\#project:4815162342](https://code.google.com/apis/console/#project:4815162342)
 
-**Important**: make sure that the Bundle Identifier matches the Application ID you provided in the Phonegap properties.
+Take note of the value after \#project: (4815162342 in this example). This is your project ID, and it will be used later on as the GCM Sender ID.
 
+## To obtain an API key
+
+In the main Google APIs Console page, select API Access and note the API key
+![googleapikey](/img/docs/googleapikey.png)
 
