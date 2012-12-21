@@ -18,4 +18,4 @@ To do this include the following code in the "On App Started" event. This simple
 
 ##Build your App
 
-Now you are ready to build the final App, ready for testing. Do this from the AC Moble Build screen in the AC Console and install to your device. This will then register the device with Xtify
+Now you are ready to build the final App, ready for testing. Do this from the AC Moble Build screen in the AC Console and install to your device. This will then register the device with Xtify and you are ready to send a push notification.
