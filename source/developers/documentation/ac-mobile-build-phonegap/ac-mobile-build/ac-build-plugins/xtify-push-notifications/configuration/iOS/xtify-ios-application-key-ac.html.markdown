@@ -13,7 +13,6 @@ You are now one step away from success. All you need to do is to copy and paste 
 ![xtify ios app id](/img/docs/xtify-key-plugin.png)
 1. Paste the Application Key into the iOS App Key field as shown above.
 
-##Build your App
-Now you are ready to build the final App, ready for testing. Do this from the AC Moble Build screen in the AC Console.
+
 
 
