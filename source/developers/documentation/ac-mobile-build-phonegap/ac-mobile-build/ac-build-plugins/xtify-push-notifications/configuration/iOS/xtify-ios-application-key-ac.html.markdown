@@ -5,7 +5,7 @@ class_name: developers
 full_width: true
 ---
 
-You are now one step away from success. All you need to do is to copy and paste the Application Key from the Application List into your App and the circle is closed.
+You are now only 2 stepa away from success. All you need to do is to copy and paste the Application Key from the Application List into your App and the circle is closed.
 
 1. In the Applications screen in Xtify, copy the Application Key from the list for your Application.
 ![xtify ios app id](/img/docs/xtify-app-list.png)
