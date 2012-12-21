@@ -14,7 +14,7 @@ The process of creating certificates and builing your App is [described here](/d
 ##Requirements for Push Notification Apps
 There are some things that you need to do differently for Push Apps. 
 
- - You **must** use and dedicated App ID. For non Push Apps, you can actually use a shared App ID such as `com.somedomain.*`, which allows any Application ID starting with `com.somedomain` to be used. 
+ - You **must** use a dedicated App ID. For non Push Apps, you can actually use a shared App ID such as `com.somedomain.*`, which allows any Application ID starting with `com.somedomain` to be used. 
  - Make sure that your Provisioning Profile is valid for your App ID and your Developer Certificate
  - Use a correctly matched Developer Certificate and Provisioning Profile in AC Mobile Build or Phonegap Build.
 
