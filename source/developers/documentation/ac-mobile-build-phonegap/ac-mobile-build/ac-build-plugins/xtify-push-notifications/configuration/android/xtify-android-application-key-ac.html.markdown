@@ -13,7 +13,5 @@ You are now one step away from success. All you need to do is to copy and paste 
 ![xtify and app id](/img/docs/xtify-andkey-plugin.png)
 1. Paste the Application Key into the Android App key field and your Google Project ID obtained earlier into the Android Sender ID field as shown above.
 
-##Build your App
-Now you are ready to build the final App, ready for testing. Do this from the AC Moble Build screen in the AC Console.
 
 
