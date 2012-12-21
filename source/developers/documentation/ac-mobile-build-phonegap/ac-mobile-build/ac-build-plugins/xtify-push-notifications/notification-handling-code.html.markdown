@@ -53,7 +53,7 @@ You will notice that the success function gets data as the only parameter. This 
 
 As you will see in Xtify, the data size (values, not keys + values) cannot exceed 256 characters.
 
-A Badge is the the number you see in the top left corner of your App. The Badge Count can be incremented when the Notification is sent. Badges need to be cleared by your App Code, as described in [Xtify API Methods](http://localhost:4567/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-methods/)
+A Badge is the the number you see in the top left corner of your App. The Badge Count can be incremented when the Notification is sent. Badges need to be cleared by your App Code, as described in [Xtify API Methods](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-methods/)
 
 ##The data object for an Android device
 The data structure for Android is different
