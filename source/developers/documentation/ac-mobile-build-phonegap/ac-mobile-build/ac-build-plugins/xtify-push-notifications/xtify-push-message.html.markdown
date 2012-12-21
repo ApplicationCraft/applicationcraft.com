@@ -6,7 +6,8 @@ full_width: true
 ---
 
 ##Test Notifications
-Let's send out a test Push Notification from Xtify. 
+
+When your app is installed on your device it will register and you can now send out a test Push Notification from Xtify. 
 
 ![xtify test](/img/docs/xtify-test.png)
 
