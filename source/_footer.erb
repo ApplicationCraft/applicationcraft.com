@@ -36,6 +36,7 @@
               <h3>Upcoming Webinar Sessions:</h3>
               <div class="clearfix">
                 <% data.webinars.each do |w| %>
+                  <% next if w.full %>
                   <p>
                     <span><%= w.title %></span>
                     <%= w.date %>
