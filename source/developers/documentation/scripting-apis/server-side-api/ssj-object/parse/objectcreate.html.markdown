@@ -14,19 +14,19 @@ full_width: true
 <table>
 <tr>
 <td width="181">
-{string} className
+className
 
 </td>
 <td width="18">
 </td>
 <td width="681">
-
+The Parse.com Class you have created
 
 </td>
 </tr>
 <tr>
 <td width="181">
-{string} data
+{object} data
 </td>
 <td width="18">
 </td>
