@@ -20,7 +20,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
-
+The Parse.com Class you have created
 
 </td>
 </tr>
@@ -40,3 +40,9 @@ query is an object (all fields are optional):
     include: // string
     count:   // 1 to set
 }
+</td>
+</table>
+
+
+##See Also
+- [Parse Queries](developers/documentation/product-guide/advanced-features/parse/objects/parse-queries)
