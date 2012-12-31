@@ -49,4 +49,7 @@ This is a simple operation. All you need to know is the objectId of the object t
 
     return parse.objects.delete("Customers", custId);
 
+## See Also
+
+- [parse.objects](/developers/documentation/scripting-apis/server-side-api/ssj-object/parse)
 
