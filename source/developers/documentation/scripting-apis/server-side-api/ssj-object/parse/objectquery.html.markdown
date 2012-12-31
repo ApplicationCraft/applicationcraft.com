@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-**parse.objects.query()(** (className[, query]) **)**
+**parse.objects.query()(** (className, query) **)**
 
 ## Parameters
 
@@ -26,12 +26,12 @@ The Parse.com Class you have created
 </tr>
 <tr>
 <td width="181">
-{string} query
+{object} query
 </td>
 <td width="18">
 </td>
 <td width="681">
-query is an object (all fields are optional):
+query is a JSON object (all fields are optional):
 {
     where:   // object
     order:   // string
@@ -41,6 +41,7 @@ query is an object (all fields are optional):
     count:   // 1 to set
 }
 </td>
+</tr>
 </table>
 
 
