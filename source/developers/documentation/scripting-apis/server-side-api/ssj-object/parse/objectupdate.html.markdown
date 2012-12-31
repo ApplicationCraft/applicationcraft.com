@@ -43,6 +43,7 @@ The unique ID for each row in your class (table) and is automatically created wh
 <td width="681">
 A JSON object of your data to update
 </td>
+</tr>
 </table>
 
 ## See Also
