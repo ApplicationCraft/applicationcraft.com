@@ -20,7 +20,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
-
+The Parse.com Class you have created
 
 </td>
 </tr>
@@ -31,3 +31,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
+The unique ID for each row in your class (table) and is automatically created whenever you add a new row of data
+
+## See Also
+- 
