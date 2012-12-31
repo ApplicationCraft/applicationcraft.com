@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-This section list only Events specific to the Audio and Video Widget. For the common Events, please refer to the [Events](/developers/documentation/product-guide/widget-properties-events/events/) section.
+This section list only Events specific to the Audio and Video Widgets. For the common Events, please refer to the [Events](/developers/documentation/product-guide/widget-properties-events/events/) section.
 
 <table>
 <tr>
