@@ -12,5 +12,5 @@ If you want to get detailed errors should any SSJ function fail, use
 This can be used for all Parse.com errors. 
 
 ##See Also
-[getLatestError()](/developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror/) 
+ - [getLatestError()](/developers/documentation/scripting-apis/server-side-api/ssj-object/miscellaneous/getlatesterror/) 
 
