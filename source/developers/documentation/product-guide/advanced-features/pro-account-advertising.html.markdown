@@ -45,7 +45,7 @@ Make a note of the Unique Identifier as this is what you need to enter in the Ca
 
 ## Insert Advertising Widget
 
-You are now ready to insert your Advertising Widget, which is located in the Pro section of the AC toolbox. You should then click on the 'Advertising' property located in the Style property section. You will see the following dialog:
+You are now ready to insert your Advertising Widget, which is located in the Advanced section of the AC toolbox. You should then click on the 'Advertising' property located in the Style property section. You will see the following dialog:
 
 ![ad-widget-properties](/img/docs/ad-widget-properties.png)
 
