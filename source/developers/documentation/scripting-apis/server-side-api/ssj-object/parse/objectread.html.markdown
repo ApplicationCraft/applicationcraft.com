@@ -1,13 +1,13 @@
 ---
-old_url: objectupdate.htm
-title: "parse.objects.update()"
+old_url: objectread.htm
+title: "parse.objects.read()"
 active_menu_item: developers
 class_name: developers
 full_width: true
 ---
 
 
-**parse.objects.query()(** (className, objectId, data) **)**
+**parse.objects.read()(** (className, objectId) **)**
 
 ## Parameters
 
@@ -34,10 +34,3 @@ full_width: true
 
 </td>
 </tr>
-<tr>
-<td width="181">
-{string} data
-</td>
-<td width="18">
-</td>
-<td width="681">
