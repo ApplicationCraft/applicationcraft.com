@@ -32,6 +32,10 @@ The Parse.com Class you have created
 </td>
 <td width="681">
 The unique ID for each row in your class (table) and is automatically created whenever you add a new row of data
+</td>
+</tr>
+</table>
 
 ## See Also
-- 
+
+- [Parse Objects](/developers/documentation/product-guide/advanced-features/parse/objects/)
