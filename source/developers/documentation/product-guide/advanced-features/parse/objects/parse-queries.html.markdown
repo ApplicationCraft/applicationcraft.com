@@ -120,7 +120,7 @@ This one does the same, but it also does some simple paging by getting 10 record
 	}  
 
 ##Inexact Matching
-You will often want to to an inexact search where you can enter "ppli" in a search field and then get back all Customers containtin "ppli". The 'i' option is a regex option that renders the search case insensitive.
+You will often want to do an inexact search where you can enter "ppli" in a search field and then get back all Customers containting "ppli". The 'i' option is a regex option that renders the search case insensitive.
 
 	function custSearch(custName, pageNum) {
 		queryParms = {
@@ -139,7 +139,7 @@ If you wanted to locate only customer starting with "Appli", then you would use 
 	"$regex": "^" + custName,
 
 
-Hopefully, the above examples will allow you to cater for the most common querying use cases. However, this introduces the concept of 'regular expressions', which is what $regex refers to. Many Javascript developers will be familiar with regex. If you are not, then please check out the following resources. Regular expressions are very powerful and have a lot of usage in Javascript applciations in general, so you could do worse than to spend some time on it.
+Hopefully, the above examples will allow you to cater for the most common querying use cases. However, this introduces the concept of 'regular expressions', which is what $regex refers to. Many Javascript developers will be familiar with regex. If you are not, then please check out the following resources. Regular expressions are very powerful and have a lot of usage in Javascript applications in general, so you could do worse than to spend some time on it.
 
 - [$regex in MongoDB documentation](http://docs.mongodb.org/manual/reference/operator/regex/)
 - Hunt around for your own preferred introduction to regular expressions, but [here is a random one](http://www.aivosto.com/vbtips/regex.html)
