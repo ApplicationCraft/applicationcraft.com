@@ -105,7 +105,7 @@ or a simpler way (regex explained in the last example in this section) ...
 	}  
 
 ##Paging Example
-This one does the same, but it also does some simple paging by getting 10 records at a time and implenting some simple paging.
+This one does the same, but it also does some simple paging by getting 10 records at a time and implementing some simple paging.
 
 	function custSearch(custName, pageNum) {
 		queryParms = {
