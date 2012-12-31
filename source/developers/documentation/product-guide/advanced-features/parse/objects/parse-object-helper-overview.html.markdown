@@ -23,7 +23,7 @@ With the equivalent AC helper function, the following code does the same thing
 	return parse.objects.create("Customers", "jsonData")
     
 ## See Also
- - [parse.objects](/developers/documentation/scripting-apis/server-side-api/ssj-object/parse2/)
+ - [parse.objects](/developers/documentation/scripting-apis/server-side-api/ssj-object/parse/)
 
 
 
