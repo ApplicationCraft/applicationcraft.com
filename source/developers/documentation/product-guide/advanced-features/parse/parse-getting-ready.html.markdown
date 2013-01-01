@@ -7,7 +7,7 @@ full_width: true
 
 The first thing you should do is to go to Parse.com and create an account. Once you are signed up, you are ready to create your first App in Parse.com. 
 
-You can access and manage your Apss from the Parse.com dashboard.
+You can access and manage your Apps from the Parse.com dashboard.
 
 ##Documentation
 Application Craft's implementation of Parse.com is simply a way of making the calls easier than making direct calls to the Parse.com REST API. The [documentation can be found here](https://parse.com/docs/rest).

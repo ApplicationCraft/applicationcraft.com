@@ -16,6 +16,7 @@ You will find some functions with direct equivalents on the server such as getVi
  - [Web Service Calls](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/)
  - [Security](/developers/documentation/scripting-apis/server-side-api/ssj-object/security/)
  - [Database](/developers/documentation/scripting-apis/server-side-api/ssj-object/database/)
+ - [Parse](/developers/documentation/scripting-apis/server-side-api/ssj-object/parse/)
  - [Credit Card Payments](/developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/)
  - [Data Preparation](/developers/documentation/scripting-apis/server-side-api/ssj-object/data-preparation)
  - [OAuth](/developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/)
