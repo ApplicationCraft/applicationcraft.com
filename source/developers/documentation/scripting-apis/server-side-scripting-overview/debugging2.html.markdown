@@ -21,7 +21,7 @@ We provide a number of ways of getting debug information to your client side bro
 
 The standard debugging methods (See [Debugging AC Scripts)](/developers/documentation/scripting-apis/client-scripting-overview/debugging-ac-scripts/) can be used running your app in Live Mode. Open your app from the Live option, and then start your debugging tool in the normal manner.
 
-Pro subscription users can debug SSJ scripts while previewing the app, selecting SSJ Debug (using Chrome Developer Tools)
+You can also debug SSJ scripts while previewing the app, selecting SSJ Debug (using Chrome Developer Tools)
 
 This should be considered to be in a Beta state until mention of it is removed from the documentation.
 
