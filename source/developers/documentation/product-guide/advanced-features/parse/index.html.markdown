@@ -5,6 +5,11 @@ class_name: developers
 full_width: true
 ---
 
+##Just Added!!!
+The Parse.com support and documentation is added as of January 2nd, 2013. As such, you should be tolerant of documentation glitches
+
+**PLEASE** : email fmay at applicationcraft dot com any comments relating to Parse.com so we can get rid of this notice asap.
+
 Parse.com is a 3rd party service that allows developers to developer certain server side features that are required by many web applications.
 
 For anyone looking to address remote data storage for their Apps, we storngly recommend you look at implementing this using Parse.com's NoSQL solution, known as Objects within Parse.com. 
