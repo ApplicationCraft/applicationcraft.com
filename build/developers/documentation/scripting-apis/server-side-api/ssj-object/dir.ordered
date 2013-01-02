@@ -3,5 +3,6 @@ security
 database
 oauth
 credit-card-payments
+parse
 data-preparation
 miscellaneous
