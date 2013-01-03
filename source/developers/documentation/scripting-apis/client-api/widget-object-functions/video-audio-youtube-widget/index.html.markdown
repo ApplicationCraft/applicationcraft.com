@@ -1,6 +1,6 @@
 ---
 old_url: video__audio_widget.htm
-title: "Video, Audio & YouTube Widget"
+title: "Video, Audio, YouTube & jPlayer Widget"
 active_menu_item: developers
 class_name: developers
 full_width: true
@@ -73,6 +73,6 @@ The methods outlined here are also valid for the [YouTube](/developers/documenta
 - [isPlayerReady()](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/isplayerready)
 - [player()](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/player)
     returns player object
-- [preload()](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/preload)
+- [preload()](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/preload) Determines whether the media should be preloaded.
 - [loop()](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/loop)
    Sets the initial loop state.
