@@ -351,5 +351,5 @@ Set the background color of the Widget.
 
 ## See Also
 
-- [YouTube Widget](developers/documentation/product-guide/widget-properties-events/advanced/youtube/)
-- [jPlayer Widget](developers/documentation/product-guide/widget-properties-events/advanced/jplayer/)
+- [YouTube Widget](/developers/documentation/product-guide/widget-properties-events/advanced/youtube/)
+- [jPlayer Widget](/developers/documentation/product-guide/widget-properties-events/advanced/jplayer/)
