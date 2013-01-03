@@ -349,3 +349,7 @@ Set the background color of the Widget.
 </tr>
 </table>
 
+## See Also
+
+- [YouTube Widget](developers/documentation/product-guide/widget-properties-events/advanced/youtube/)
+- [jPlayer Widget](developers/documentation/product-guide/widget-properties-events/advanced/jplayer/)
