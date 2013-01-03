@@ -655,7 +655,7 @@ On Ended
 <td width="12">
 </td>
 <td width="728">
- * Occurs when the media ends.
+ + Occurs when the media ends.
 
 </td>
 </tr>
@@ -691,7 +691,7 @@ On Volume Change
 <td width="12">
 </td>
 <td .width="728">
- * Occurs when volume or muted change.
+ + Occurs when volume or muted change.
 
 </td>
 </tr>
