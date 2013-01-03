@@ -12,7 +12,7 @@ full_width: true
 ***Work in Progress***
 
 ## Description
-
+none/metadata/auto. Determines whether the media should be preloaded.
 ## Example
 
 
