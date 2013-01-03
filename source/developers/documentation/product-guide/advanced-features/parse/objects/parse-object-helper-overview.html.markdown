@@ -20,7 +20,7 @@ Take this example, which creates a new row with data contained in jsonData in a 
 
 With the equivalent AC helper function, the following code does the same thing
 
-	return parse.objects.create("Customers", "jsonData")
+	return parse.objects.create("Customers", jsonData)
     
 ## See Also
  - [parse.objects](developers/documentation/scripting-apis/server-side-api/parse-object)

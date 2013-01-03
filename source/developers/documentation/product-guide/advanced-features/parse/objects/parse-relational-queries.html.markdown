@@ -22,10 +22,14 @@ In NoSQL thinking, you should think of your data as a JSON object, where each Cu
 	{ 
 	  "custName": "Application Craft",
 	  "custCountry": "UK",
-	  "contacts": {
-	    "firstName": "Freddy",
-	    "lastName": "May"
-	  }
+	  "contacts": [{
+	      "firstName": "Freddy",
+	      "lastName": "May"
+	    },
+		{
+	      "firstName": "Freddy",
+	      "lastName": "May"
+	    }]	    
 	}
 
 You can still run queries based on either Customers or Contacts or both. Your data is  structured in the right way that you don't have to think about JOIN type queries.
