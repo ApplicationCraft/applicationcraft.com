@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-![video-widget-example](/img/docs/video-widget-example.jpg)
+![video-widget-example](/img/docs/video-widget-example.png)
 
 The Video and Audio Widgets can be found in the Advanced section of the Widget Toolbox
 
