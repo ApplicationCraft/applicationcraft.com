@@ -64,6 +64,8 @@ The methods outlined here are also valid for the [YouTube](/developers/documenta
 
 **jPlayer widget**
 
+***Work in Progress***
+
 - [clearMedia()](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/clearmedia)
     Clears the Media
 - [pauseOthers()](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/pauseothers)
