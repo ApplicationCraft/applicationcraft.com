@@ -9,14 +9,14 @@ full_width: true
 
 <table>
 <tr>
-<th style="vertical-align:top; width:138px; background-color:#ffffff;">
+<td width="138">
 <a id="general"> </a> <b>General</b>
 
-</th>
-<th style="vertical-align:top; width:21px; background-color:#ffffff;">
-</th>
-<th style="vertical-align:top; width:782px; background-color:#ffffff;">
-</th>
+</td>
+<td width="21">
+</td>
+<td width="782">
+</td>
 </tr>
 <tr>
 <td width="138">
@@ -80,12 +80,17 @@ Full Settings
 </tr>
 <tr>
 <td width="138">
+Hide Context Menu
+
 </td>
 <td width="21">
 </td>
 <td width="782">
+ True/False. Set to False to hide ZingChart Context menu. On iOS this shows as a Gear icon.
+
 </td>
 </tr>
+
 </table>
 <table>
 <tr>
@@ -182,14 +187,7 @@ Left/Center/Right. Set as required to align the widget within its parent contain
 
 </td>
 </tr>
-<tr>
-<td width="137">
-</td>
-<td width="23">
-</td>
-<td width="782">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
@@ -250,14 +248,7 @@ Set to false to leave the Widget visible but to prevent any user interaction
 
 </td>
 </tr>
-<tr>
-<td width="135">
-</td>
-<td width="25">
-</td>
-<td width="782">
-</td>
-</tr>
+
 </table>
 <table>
 <tr>
