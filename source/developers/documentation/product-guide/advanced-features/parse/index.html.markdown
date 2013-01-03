@@ -12,7 +12,7 @@ The Parse.com support and documentation is added as of January 2nd, 2013. As suc
 
 Parse.com is a 3rd party service that allows developers to build certain server side features that are required by many web applications.
 
-For anyone looking to address remote data storage for their Apps, we storngly recommend you look at implementing this using Parse.com's NoSQL solution (known as Objects within Parse.com). 
+For anyone looking to address remote data storage for their Apps, we strongly recommend you look at implementing this using Parse.com's NoSQL solution (known as Objects within Parse.com). 
 
 This will allow you real flexibility and ease-of-use. For mobile applications, you can also combine Parse.com (for remote storage) with [LocalStorage](/developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/local-storage-example/) (local, offline storage) as both can easily use JSON data structures.
 
