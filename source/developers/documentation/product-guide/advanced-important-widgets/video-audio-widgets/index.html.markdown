@@ -21,3 +21,5 @@ Please note that Android 2.3.x is not able to support HTML5 Video.  You may wis
 
 Also available is a  widget that can be used to play YouTube videos in Apps. The [Methods](/developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/vidmethods) for Video/Audio widgets also apply to the [YouTube](/developers/documentation/product-guide/widget-properties-events/advanced/youtube) widget. If you are planning to compile your app to use on iOS, you will need  to set the [PhoneGap App Options](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features) 'Open all links in WebView' to true.
 
+We also have included the [jPlayer](http://jplayer.org/) jQuery widget that can be worth looking at as well. This widget supports both Audio and Video sources. See [jplayer](/developers/documentation/product-guide/widget-properties-events/advanced/jplayer)
+
