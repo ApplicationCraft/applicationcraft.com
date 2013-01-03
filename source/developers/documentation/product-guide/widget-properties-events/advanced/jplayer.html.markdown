@@ -53,7 +53,7 @@ Preload
 <td width="21">
 </td>
 <td width="754">
-Determines whether the video should be preloaded (not YouTube)
+none/metadata/auto. Determines whether the media should be preloaded.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Loop
 <td width="21">
 </td>
 <td width="754">
-xxxx
+True/False. Sets the initial loop state.
 
 </td>
 </tr>
