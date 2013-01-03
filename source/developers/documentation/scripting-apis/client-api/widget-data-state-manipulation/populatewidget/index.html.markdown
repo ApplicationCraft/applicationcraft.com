@@ -106,7 +106,7 @@ You can speed things up, also valid for desktop apps
 
 The following Widgets are covered in subtopics
 
- - [ListBoxes, Dropdowns and Context Menu Examples](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/listbox-dropdown-example)
+ - [ListBoxes, Dropdowns and Context Menu Examples](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/listbox--dropdown-example)
  - [Mobile List](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/mobile-list-example)
  - [Repeater Container Example](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/repeater-container-example)
  - [Advanced Google Maps](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/advanced-google-maps-example)
