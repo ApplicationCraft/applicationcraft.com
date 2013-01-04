@@ -9,7 +9,6 @@ full_width: true
 
 **pauseOthers** ()
 
-***Work in Progress***
 
 ## Description
 
@@ -17,7 +16,6 @@ This method pauses all instances except the instance that invoked the command. T
 
 ## Example
 
-     
-    app.w('Video1').pauseOthers();
+    app.w("jPlayer").pauseOthers();
      
    
