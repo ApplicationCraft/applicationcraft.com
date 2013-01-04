@@ -9,7 +9,7 @@ full_width: true
 
 **clearMedia** ()
 
-***Work in Progress***
+
 ## Description
 
 This method is used to clear the media and stop playback. If a media file is downloading at the time, the download will be cancelled.
@@ -21,6 +21,4 @@ There are very few circumstances when it is appropriate to use this method. In g
 ## Example
 
      
-    app.w('Video1').clearMedia();
-     
-   
+    app.w("jPlayer").clearMedia();
