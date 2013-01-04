@@ -28,7 +28,7 @@ On Load Start
 <td width="12">
 </td>
 <td width="728">
-Called when the widget begins looking for the media data
+Called when the widget begins looking for the media data.
 
 </td>
 </tr>
@@ -40,7 +40,7 @@ On Progress
 <td width="12">
 </td>
 <td width="728">
-Called when the widget is fetching the media data
+Called when the widget is fetching the media data.
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ On Suspend
 <td width="12">
 </td>
 <td width="728">
-Called when the widget is intentionally not fetching the media data
+Called when the widget is intentionally not fetching the media data.
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ On Abort
 <td width="12">
 </td>
 <td width="728">
-Called when the widget stops fetching the media data before it is completely downloaded but not due to an error
+Called when the widget stops fetching the media data before it is completely downloaded but not due to an error.
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ On Error
 <td width="12">
 </td>
 <td width="728">
-Called when an error occurs fetching the media data
+Called when an error occurs fetching the media data.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ On Emptied
 <td width="12">
 </td>
 <td width="728">
-Called when the widget is trying to reload the media data but was previously able to load and run the media data
+Called when the widget is trying to reload the media data but was previously able to load and run the media data.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ On Stalled
 <td width="12">
 </td>
 <td width="728">
-Called when the widget is trying to fetch the media data but data is unexpectedly not forthcoming
+Called when the widget is trying to fetch the media data but data is unexpectedly not forthcoming.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ On Loaded Metadata
 <td width="12">
 </td>
 <td width="728">
-Called when the widget has determined the duration and dimensions of the media data and the text tracks are ready
+Called when the widget has determined the duration and dimensions of the media data and the text tracks are ready.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ On Loaded Data
 <td width="12">
 </td>
 <td width="728">
-Called when the widget can render the media data at the current playback position for the first time
+Called when the widget can render the media data at the current playback position for the first time.
 
 </td>
 </tr>
@@ -351,7 +351,7 @@ On Playback Quality Change
 <table>
 <tr>
 <td width="202">
-  <b>jPlayer</b>  ***Work in Progress***
+  <b>jPlayer</b>  
 
 </td>
 <td width="12">
@@ -428,7 +428,7 @@ On jPlayer Click
 <td width="12">
 </td>
 <td width="728">
- + ‡
+ + ‡ Occurs when an error occurs fetching the media data.
 
 </td>
 </tr>
@@ -440,7 +440,7 @@ On Warning
 <td width="12">
 </td>
 <td width="728">
- + †
+ + † Occurs when a warning is detected.
 
 </td>
 </tr>
@@ -452,7 +452,7 @@ On Load Start
 <td width="12">
 </td>
 <td width="728">
- +
+ + Occurs when the widget begins looking for the media data.
 
 </td>
 </tr>
@@ -464,7 +464,7 @@ On Progress
 <td width="12">
 </td>
 <td width="728">
- + Occurs while the media is being downloaded.
+ + Occurs when the widget is fetching the media data.
 
 </td>
 </tr>
@@ -476,7 +476,7 @@ On Suspend
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the widget is intentionally not fetching the media data.
 
 </td>
 </tr>
@@ -488,7 +488,7 @@ On Abort
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the widget stops fetching the media data before it is completely downloaded but not due to an error.
 
 </td>
 </tr><tr>
@@ -499,7 +499,7 @@ On Emptied
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the widget is trying to reload the media data but was previously able to load and run the media data.
 
 </td>
 </tr>
@@ -511,7 +511,7 @@ On Stalled
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the widget is trying to fetch the media data but data is unexpectedly not forthcoming.
 
 </td>
 </tr>
@@ -559,7 +559,7 @@ On Loaded Data
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the widget has determined the duration and dimensions of the media data and the text tracks are ready.
 
 </td>
 </tr>
@@ -571,7 +571,7 @@ On Waiting
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when Playback has stopped because the next frame is not available, but the widget expects that frame to become available in due course.
 
 </td>
 </tr>
@@ -583,7 +583,7 @@ On Playing
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when Playback is ready to start after having been paused or delayed due to lack of media data.
 
 </td>
 </tr>
@@ -595,7 +595,7 @@ On Can Play
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the widget can resume playback of the media data but estimates that if playback were to be started now, the media resource could not be rendered at the current playback rate up to its end without having to stop for further buffering of content.
 
 </td>
 </tr>
@@ -607,7 +607,7 @@ On Can Play Through
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the widget estimates that if playback were to be started now, the media resource could be rendered at the current playback rate all the way to its end without having to stop for further buffering.
 
 </td>
 </tr>
@@ -619,7 +619,7 @@ On Seeking
 <td width="12">
 </td>
 <td width="728">
- +
+ + Occurs when the seeking IDL attribute changed to true.
 
 </td>
 </tr>
@@ -631,7 +631,7 @@ On Seeked
 <td width="12">
 </td>
 <td width="728">
- *
+ * Occurs when the seeking IDL attribute changed to false.
 
 </td>
 </tr>
@@ -667,7 +667,7 @@ On Rate Change
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when either the defaultPlaybackRate or the playbackRate attribute has just been updated. 
 
 </td>
 </tr>
@@ -679,7 +679,7 @@ On Duration Change
 <td width="12">
 </td>
 <td width="728">
- 
+ Occurs when the duration attribute has just been updated.
 
 </td>
 </tr>
