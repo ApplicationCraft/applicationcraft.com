@@ -13,7 +13,7 @@ To do this include the following code in the "On App Started" event. This simple
 	function handler_application_onAppStarted() {
   
     // Special Xtify callback registration
-    	window.plugins.XtifySDK.start()
+    	window.plugins.XtifySDK.start();
     }
 
 ##Build your App
