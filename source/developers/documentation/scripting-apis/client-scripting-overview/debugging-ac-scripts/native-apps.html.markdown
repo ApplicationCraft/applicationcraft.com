@@ -19,6 +19,10 @@ Make sure you load QR-Code readers onto your various devices as this saves time 
 
 Once you have tested the non-device stuff using this approach, only then spend time on the next levels (unless you can't resist seeing your creation in action on your shiny device).
 
+##The most powerful Debug aid for Native Apps
+This is a [must read section](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/acmb-debugging/) for anyone wanting to debug their AC Apps compiled using AC Mobile Build.
+
+
 ## Ripple Emulator
 
 The Ripple Emulator is a very cool Application that emulates various platforms. This can be downloaded from [https://bdsc.webapps.blackberry.com/html5/download](https://bdsc.webapps.blackberry.com/html5/download)

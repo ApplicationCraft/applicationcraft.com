@@ -1,10 +1,6 @@
 xtify-non-ac-apps
 xtify-ac-built-apps
 configuration
-xtify-add-reg-code
-xtify-push-message
-notification-handling-code
-xtify-methods
-xtify-debugging
-xtify-geo-targeting
-xtify-tag-targeting
+your-app
+apis
+xtify-example-app
