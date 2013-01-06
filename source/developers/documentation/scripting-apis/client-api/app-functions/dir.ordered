@@ -37,3 +37,4 @@ getinstanceurl
 getappsnapshot
 setappsnapshot
 getrunmode
+cacheimage

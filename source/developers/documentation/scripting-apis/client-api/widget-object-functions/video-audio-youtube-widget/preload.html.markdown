@@ -9,11 +9,12 @@ full_width: true
 
 **preload** ()
 
-***Work in Progress***
 
 ## Description
-none/metadata/auto. Determines whether the media should be preloaded.
+(Default: "metadata") : Valid values are "none", "metadata" and "auto", which matches the HTML5 draft standard. Use "auto" to preload the file.
 ## Example
+
+	app.w("jPlayer").preload('auto');
 
 
 

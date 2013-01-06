@@ -9,15 +9,14 @@ full_width: true
 
 **loop** ()
 
-***Work in Progress***
 
 ## Description
 
-Sets the initial loop state.
+Sets the loop state. true/false
 
 ## Example
 
-
+	app.w("jPlayer").loop(true);
 
      
    

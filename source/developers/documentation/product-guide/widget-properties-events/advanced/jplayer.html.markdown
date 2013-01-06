@@ -8,7 +8,9 @@ full_width: true
 
 ***Work in Progress***
 
-A jQuery media player from <a href="http://www.jplayer.org">http://www.jplayer.org</a>. This widget allows you to link to an audio or video Resource file. See Video & Audio Widgets for more information
+A jQuery media player from <a href="http://www.jplayer.org">http://www.jplayer.org</a>. This widget allows you to link to an audio or video Resource file. See Video & Audio Widgets for more information.
+
+Please note that there are currently no supported Controls and you will need to write javascript to control the playing etc of the media. See [here](/developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/vidmethods/)
 
 <table>
 <tr>
