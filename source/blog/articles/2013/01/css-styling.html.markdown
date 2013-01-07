@@ -1,5 +1,5 @@
 ---
-title: Guest Post - CSS Styling in Application Craft
+title: CSS Styling in Application Craft
 author: Manos Koufakis (AC User)
 old_url: "/blog/721-new-google-maps-v3-widget"
 date: 2013-01-07
@@ -15,9 +15,9 @@ Manos has been an Application Craft user since we were in beta last year. His fi
 
 Manos has produced a great new App (currently pre-release) that makes heavy use of CSS Styling and we thought it would be great to share his experiences with you. Manos has provided ...
 
-- the [working App](http://acft.ws/nsnd) that you can run in your desktop browser
-- a <a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a> of how he did this
-- a list of useful resources (below)
+ - the [working App](http://acft.ws/nsnd) that you can run in your desktop browser
+ - a <a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a> of how he did this
+ - a list of useful resources (below)
 
 
 ##Style like a pro with Application Craft
@@ -45,11 +45,9 @@ So, with all these in mind / handy, you’re ready for the next stage...
 
 
 ##How to mess with AC’s Widgets and add your own custom styling?
-Instead of writing a general strategy, it is best to proceed with a “per case” scenario. So I made a video.
+Instead of writing a general strategy, it is best to proceed with a "per case" scenario. <a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> So I made a video</a>.
 
-<a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a>
-
-(please bear with the hybrid language I speak on the tutorial known as Greeklish ☺ )
+(please bear with the hybrid language that I speak on the tutorial. It is known as Greeklish ;)
 
 I will be adding more video tutorials when I have more time.
 
