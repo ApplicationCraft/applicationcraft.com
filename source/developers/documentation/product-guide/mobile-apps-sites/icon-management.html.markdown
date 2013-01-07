@@ -69,20 +69,20 @@ iPhone
 </tr>
 <tr>
 <td width="200">
-Retina Phone
+Retina iPhone/iPad
 
 </td>
 <td width="15">
 </td>
 <td width="65">
-72
+114
 
 </td>
 <td width="18">
 
 </td>
 <td width="97">
-72
+114
 
 </td>
 </tr>
@@ -94,14 +94,14 @@ iPad
 <td width="15">
 </td>
 <td width="65">
-114
+72
 
 </td>
 <td width="18">
 
 </td>
 <td width="97">
-114
+72
 
 </td>
 </tr>
