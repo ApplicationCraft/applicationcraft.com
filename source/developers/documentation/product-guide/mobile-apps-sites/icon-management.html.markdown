@@ -69,7 +69,7 @@ iPhone
 </tr>
 <tr>
 <td width="200">
-Retina Phone
+Retina iPhone/iPad
 
 </td>
 <td width="15">
