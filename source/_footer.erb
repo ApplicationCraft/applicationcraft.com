@@ -36,12 +36,14 @@
               <h3>Upcoming Webinar Sessions:</h3>
               <div class="clearfix">
                 <% data.webinars.each do |w| %>
-                  <% next if w.full %>
                   <p>
                     <span><%= w.title %></span>
                     <%= w.date %>
                     <span>
-                      <a href="/webinars">more info</a> | <a href="<%= w.url %>" target="_blank">register</a>
+                      <a href="/webinars">more info</a>
+                      <% if !w.full && !w.disabled %>
+                        | <a href="<%= w.url %>" target="_blank">register</a>
+                      <% end %>
                     </span>
                   </p>
                 <% end %>

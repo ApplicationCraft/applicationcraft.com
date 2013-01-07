@@ -45,10 +45,17 @@ full_width: false
 
     <section id="next-intro-webinar">
       <h2>The Next Scheduled Webinar...</h2>
-      <p>
-        <%= data.webinars.first.date %> &ndash;
-        <a href="<%= data.webinars.first.url %>" target="_blank">Register for this Webinar &raquo;</a>
-      </p>
+      <% unless data.webinars.first.disabled %>
+        <p>
+          <%= data.webinars.first.date %> &ndash;
+          <a href="<%= data.webinars.first.url %>" target="_blank">Register for this Webinar &raquo;</a>
+        </p>
+      <% else %>
+        <p>
+          We're working on our next Developer Clinic. Please follow @appcrafty on Twitter to find out when new sessions are announced and to suggest topics.
+          <a href="https://twitter.com/appcrafty" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow us @appcrafty</a>
+        </p>
+      <% end %>
     </section>
   </li>
   <li>
