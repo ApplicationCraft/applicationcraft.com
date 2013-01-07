@@ -84,6 +84,9 @@ if ($args = sqlite_plugin.htm) {
 
 
 
+
+
+
 if ($args = xtify_push_notifications.htm) {
   rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/? permanent;
 }
@@ -111,6 +114,7 @@ if ($args = external_html5cssjs_apps.htm) {
 if ($args = application_craft_build.htm) {
   rewrite ^ /developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/? permanent;
 }
+
 if ($args = enabling_device_features.htm) {
   rewrite ^ /developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/? permanent;
 }
@@ -902,6 +906,15 @@ if ($args = app_key_and_app_secret.htm) {
 if ($args = oauth2.htm) {
   rewrite ^ /developers/documentation/product-guide/advanced-features/oauth/? permanent;
 }
+
+
+
+
+
+
+
+
+
 if ($args = passing_data_to_apps_in_the_qu.htm) {
   rewrite ^ /developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/passing-data-to-apps-in-the-qu/? permanent;
 }
@@ -1697,6 +1710,9 @@ if ($args = html5_audio.htm) {
 if ($args = html5_video.htm) {
   rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/html5-video/? permanent;
 }
+if ($args = jplayer.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/jplayer/? permanent;
+}
 if ($args = mask_edit.htm) {
   rewrite ^ /developers/documentation/product-guide/widget-properties-events/advanced/mask-edit/? permanent;
 }
@@ -1954,6 +1970,9 @@ if ($args = quick_start_guide_for_content_.htm) {
 }
 if ($args = accessing_device_hardware__fea.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/accessing-device-hardware-fea/? permanent;
+}
+if ($args = cacheimage.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/cacheimage/? permanent;
 }
 if ($args = callservice.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/callservice/? permanent;
@@ -2700,6 +2719,9 @@ if ($args = tlscrollto.htm) {
 if ($args = timelineref.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/? permanent;
 }
+if ($args = clearmedia.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/clearmedia/? permanent;
+}
 if ($args = clearvideo.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/clearvideo/? permanent;
 }
@@ -2724,8 +2746,14 @@ if ($args = getplaybackquality.htm) {
 if ($args = getyoutubeplayer.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/getyoutubeplayer/? permanent;
 }
+if ($args = isplayerready.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/isplayerready/? permanent;
+}
 if ($args = load.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/load/? permanent;
+}
+if ($args = loop.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/loop/? permanent;
 }
 if ($args = muted.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/muted/? permanent;
@@ -2733,11 +2761,20 @@ if ($args = muted.htm) {
 if ($args = pause.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/pause/? permanent;
 }
+if ($args = pauseothers.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/pauseothers/? permanent;
+}
 if ($args = play.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/play/? permanent;
 }
+if ($args = player.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/player/? permanent;
+}
 if ($args = poster.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/poster/? permanent;
+}
+if ($args = preload.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/preload/? permanent;
 }
 if ($args = setplaybackquality.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/setplaybackquality/? permanent;
@@ -3021,6 +3058,24 @@ if ($args = log.htm) {
 }
 if ($args = console_object.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/console-object/? permanent;
+}
+if ($args = objectcreate.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/parse-object/objectcreate/? permanent;
+}
+if ($args = objectdelete.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/parse-object/objectdelete/? permanent;
+}
+if ($args = objectquery.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/parse-object/objectquery/? permanent;
+}
+if ($args = objectread.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/parse-object/objectread/? permanent;
+}
+if ($args = objectupdate.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/parse-object/objectupdate/? permanent;
+}
+if ($args = parse2.htm) {
+  rewrite ^ /developers/documentation/scripting-apis/server-side-api/parse-object/? permanent;
 }
 if ($args = payment_parameters2.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/credit-card-payments/payment-parameters2/? permanent;
