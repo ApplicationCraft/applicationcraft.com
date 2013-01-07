@@ -51,7 +51,7 @@ This sends email specified as a message object.
 
  - If there is an error of any sort, an exception will be thrown.
 
-The system will send emails out using the [SMTP settings](/developers/documentation/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/) as defined in the AC Console.
+The system will send emails out using the [SMTP settings](/developers/documentation/product-guide/the-console/console-tabs/more/account-variables/smtp-parameters/) as defined in the AC Console if the optional smtpPar is not defined.
 
 The message object has the following structure.
 
