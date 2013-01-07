@@ -208,7 +208,7 @@ iPad (Landscape)
 
 </td>
 <td width="91">
-768
+748
 
 </td>
 </tr>
