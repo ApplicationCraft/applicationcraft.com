@@ -88,6 +88,7 @@ page "/developers/documentation/*", :layout => :docs
 page "/developers/tutorials/*", :layout => :tutorials
 
 ignore "dir.ordered"
+ignore "/apps"
 
 # ignore "/developers/documentation/*"
 
