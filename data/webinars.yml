@@ -1,19 +1,23 @@
--
-  title: Introduction to Application Craft
-  description:
-    The perfect way to see the power and flexibility of Application Craft - live! We
-    will build a short live demo of a "Hello World" type app with an open Q&A session
-    at the end.
-  date: "Thursday Dec 20, 2012: 2-3pm GMT"
-  url: https://attendee.gotowebinar.com/register/8386990381348583936
-  disabled: true
+sales:
+  -
+    date: "Tuesday January 15, 2013: 2-3PM"
+    url: https://attendee.gotowebinar.com/register/4058650708892476928
 
--
-  title: Building a Push Notification App
-  description:
-    Application Craft is excited to kick off the new year with our very first Developer Clinic.
-    Join us for a guided demonstration of how to use AC Mobile Build to create App Store ready
-    apps, to be followed by a Q&A session.
-  date: "Wednesday January 9, 2013: 6-7pm GMT"
-  url: https://attendee.gotowebinar.com/register/6157910875970754816
-  full: true
+  -
+    date: "Tuesday January 22, 2013: 5-6PM"
+    url: https://attendee.gotowebinar.com/register/610917595233622016
+
+  -
+    date: "Tuesday January 29, 2013: 6-7PM"
+    url: https://attendee.gotowebinar.com/register/1882490698128698368
+
+clinics:
+  -
+    title: Building a Push Notification App
+    description:
+      Application Craft is excited to kick off the new year with our very first Developer Clinic.
+      Join us for a guided demonstration of how to use AC Mobile Build to create App Store ready
+      apps, to be followed by a Q&A session.
+    date: "Wednesday January 9, 2013: 6-7pm GMT"
+    url: https://attendee.gotowebinar.com/register/6157910875970754816
+    full: true

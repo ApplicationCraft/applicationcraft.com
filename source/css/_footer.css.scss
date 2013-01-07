@@ -74,14 +74,16 @@ footer {
 
         div > p {
           color: #BBB;
+          margin: 0;
+          padding: 0;
 
           a {
             margin: 0 4px;
           }
 
-          span:first-child {
+          span.title {
             font-size: 15px;
-            padding: 0 0 4px;
+            padding: 14px 0 4px;
             color: #FFF;
           }
 
@@ -134,11 +136,11 @@ footer {
         @include apply-to(more-than, iphone-landscape) {
           float: right;
           position: relative;
-          top: -420px;
+          top: -505px;
         }
 
         @include apply-to(more-than, ipad-portrait) {
-          top: -396px;
+          top: -460px;
         }
 
         @include apply-to(more-than, ipad-landscape) {

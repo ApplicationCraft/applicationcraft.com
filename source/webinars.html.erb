@@ -44,12 +44,14 @@ full_width: false
     <p>A short hands-on demo of a "Hello World" type app with an open Q&amp;A session at the end. Perfect if you want to see what AC is all about before signing up.</p>
 
     <section id="next-intro-webinar">
-      <h2>The Next Scheduled Webinar...</h2>
-      <% unless data.webinars.first.disabled %>
-        <p>
-          <%= data.webinars.first.date %> &ndash;
-          <a href="<%= data.webinars.first.url %>" target="_blank">Register for this Webinar &raquo;</a>
-        </p>
+      <h2>Our Next Scheduled Webinars...</h2>
+      <% if data.webinars.sales.size > 0 %>
+        <% data.webinars.sales.each_with_index do |w,i| %>
+          <p>
+            <%= w.date %> &ndash;
+            <a href="<%= w.url %>" target="_blank">Register for this Webinar &raquo;</a>
+          </p>
+        <% end %>
       <% else %>
         <p>
           We're working on our next Developer Clinic. Please follow @appcrafty on Twitter to find out when new sessions are announced and to suggest topics.
@@ -65,9 +67,8 @@ full_width: false
     <section id="clinic-schedule">
       <h2>Upcoming Developer Clinics...</h2>
 
-      <% if data.webinars.count > 1 %>
-        <% data.webinars.each_with_index do |w,i| %>
-          <% next if i < 1 %>
+      <% if data.webinars.clinics.size > 0 %>
+        <% data.webinars.clinics.each_with_index do |w,i| %>
           <div>
             <h4><%= w.title %><small><%= w.date %></small></h4>
             <p><%= w.description %></p>
