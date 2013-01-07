@@ -16,7 +16,7 @@ Manos has been an Application Craft user since we were in beta last year. His fi
 Manos has produced a great new App (currently pre-release) that makes heavy use of CSS Styling and we thought it would be great to share his experiences with you. Manos has provided ...
 
 - the [working App](http://acft.ws/nsnd) that you can run in your desktop browser
-- a <a href="http://www.youtube.com/v/9bJSG-ETZvs  ?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a> of how he did this
+- a <a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a> of how he did this
 - a list of useful resources (below)
 
 
@@ -47,7 +47,7 @@ So, with all these in mind / handy, you’re ready for the next stage...
 ##How to mess with AC’s Widgets and add your own custom styling?
 Instead of writing a general strategy, it is best to proceed with a “per case” scenario. So I made a video.
 
-<a href="http://www.youtube.com/v/9bJSG-ETZvs  ?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a>
+<a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a>
 
 (please bear with the hybrid language I speak on the tutorial known as Greeklish ☺ )
 
