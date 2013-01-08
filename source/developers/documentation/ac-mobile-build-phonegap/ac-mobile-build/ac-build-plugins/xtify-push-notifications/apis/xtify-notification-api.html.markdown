@@ -42,7 +42,7 @@ You should use 'undefined' for any optional parameters that you do not want to p
 - sendAudienceData (required for XIDS and TAGS)- see above
 - txtMessage (required) - the message content
 - txtButton (optional) - the text to appear on the button shown in the notification popup.
-- customData (optional) - a JSON object that gets passed with the notification. We always add a custom data record for testing purposes even if it is note required.
+- customData (optional) - a JSON object that gets passed with the notification. We always add a custom data record for testing purposes even if it is not required.
 - action (optional) - please refer to the [Xtify Push API documentation](http://developer.xtify.com/display/APIs/Push+API+2.0) if you want to set this. 
 - callback (optional) - your own callback to receive return data from the call.
 
