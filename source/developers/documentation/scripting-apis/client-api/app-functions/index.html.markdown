@@ -21,7 +21,7 @@ full_width: true
     Indicates whether the App is running in Native or Web App mode.
  - [getPlatform()](/developers/documentation/scripting-apis/client-api/app-functions/getplatform)
     Returns the name of the current browser platform.  
-- [getPlatformInfo()](/developers/documentation/scripting-apis/client-api/app-functions/getplatforminfo)
+ - [getPlatformInfo()](/developers/documentation/scripting-apis/client-api/app-functions/getplatforminfo)
     Returns an object with detailed information about the current browser platform.
  - [networkTimeout()](/developers/documentation/scripting-apis/client-api/app-functions/setnetworktimeout)
     Gets or sets the network timeout period
