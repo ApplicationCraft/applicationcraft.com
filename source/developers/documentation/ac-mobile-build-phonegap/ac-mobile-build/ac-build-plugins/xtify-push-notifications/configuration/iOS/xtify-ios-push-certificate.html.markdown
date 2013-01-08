@@ -27,7 +27,7 @@ If you want to let Application Craft help you, then ...
 1. Press the Continue button in the iOS Developer Portal
 1. Refer to the [iOS Certificate Generation chapter](/developers/documentation/ac-mobile-build-phonegap/certificates/wizard/certgen-ios/) but don't go start just yet
 1. In Step 1, we recommend you include **APS Cert** somewhere in the Display Name field so you recognize this as an Push Certificate file. You should **never** use this certificate to actually build your App as it is only used for Push Notifications.
-1. Complete the other fields and be asbolutely sure to remember your password.
+1. Complete the other fields and be absolutely sure to remember your password.
 1. In Step 2, Point 1, you are asked to download the Certificate Signing Request, so do this now.
 1. Back in the iOS Developer Portal, press the Continue button and you will be asked to upload a file. Select the file you just downloaded and press the Generate button. You have now done Step 2, Point 2.
 ![xtify ios enable](/img/docs/xtify-ios-pushcert-generate.png)
