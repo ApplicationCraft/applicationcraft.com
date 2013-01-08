@@ -10,8 +10,9 @@ full_width: true
 **In this Section:**
 
  - [console object](/developers/documentation/scripting-apis/server-side-api/console-object/)
- - [ssj object](/developers/documentation/scripting-apis/server-side-api/ssj-object/)
- - [sys object](/developers/documentation/scripting-apis/server-side-api/sys-object/)
+ - [ssj object](/developers/documentation/scripting-apis/server-side-api/ssj-object)
+ - [sys object](/developers/documentation/scripting-apis/server-side-api/sys-object)
+ - [Parse](/developers/documentation/scripting-apis/server-side-api/parse-object)
 
 ## Related Videos
 
