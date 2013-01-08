@@ -9,7 +9,7 @@ full_width: true
 Xtify lets you send geolocation targeted notifications. To do this, you will need to do things in your App as well as in Xtify.
 
 ##Testing in a regular browser
-One thing that we found very useful early on was to be able to test things our from your App running on your desktop, rather than as a Native app. This let's you test out the actual Xtify console.
+One thing that we found very useful early on was to be able to test things out from your App running on your desktop, rather than as a Native app. This lets you test out the actual Xtify console.
 
 We have made this very easy indeed. All you do is make the following call, supplying a latitude and a longitude parameter as well as an optional callback function to monitor error or success.
 
@@ -45,7 +45,7 @@ On the main screen, enter the relevant notification and platform details.
 
 ![xtify target setup](/img/docs/xtify-target-screen1.png)
 
-Press next to move the the rule definition screen.
+Press next to move to the rule definition screen.
 
 ###Remove any existing rule elements
 All you are going to want here is a Location and a Window rule, so get rid of any existing rules (like Frequency) by dragging them to the trash on the right side.
