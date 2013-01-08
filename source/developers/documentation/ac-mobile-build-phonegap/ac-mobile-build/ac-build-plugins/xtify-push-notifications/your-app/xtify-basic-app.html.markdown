@@ -35,40 +35,26 @@ A typical App will have the following code. Note that the important calls must b
 	}
 
 ##The xtify object
-This object is important as it contains all important information. xtify.notification is populated by xtify.init() whenever a notification is received by your App. 
+You may want to refer to your nortification data when a notification is received by your App. It is populated when you call xtify.init() as shown above. You would normally access the xtify object from your xtify.startedCallback function as shown above.
 
-    // Defines the xtify object
     var xtify = {
         // The notification object is populated by xtify.init()
         // after a notfication is received
         notification: {
-            content: "",
-            action: "",
+            content: "", // Main Message
+            action: "", // Action Code
             ios: {
-                badgeCount: "",
+                // Only populated if iOS
+                badgeCount: "", // Amount to increment badge count by
                 sound: ""
             },
             android: {
+                / Only populated if Android
                 title: "",
                 data: ""
             },
+            // Any custom JSON data send as special payload will appear here
             custom: {}
         },    
-        isReady: false, // true once xtify.init() has completed
-        xid: undefined, // Unique App Instance ID
-        startedCallback: undefined, // user callback fn once init() completed
-        badgeCount: undefined, // iOS only
-        isRegistered: undefined, // Android Only
-        applicationKeyAndroid: "", // Android Xtify Application Key
-        applicationKeyiOS: "", // Android Xtify Application Key
-        applicationKey:"", // Do not use, set by AC
-        applicationTestPlatform: "", //can be 'ios' or 'android'
-        // tag object, gets populated with Tag functions
-        tag: {
-            // tag data, populated by certain tag api methods
-            data:""
-        },
-        // location object, populated by locatioo.update()
-        location: {}
     };
 
