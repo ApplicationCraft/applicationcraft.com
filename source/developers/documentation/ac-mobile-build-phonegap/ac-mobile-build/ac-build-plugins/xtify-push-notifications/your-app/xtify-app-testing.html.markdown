@@ -10,7 +10,7 @@ Although the actual receipt of a notification cannot be tested on the desktop, m
 ##onAppStarted()
 Make sure you include the following code in your onAppStarted() event
 
-    xtify.testXid("50e4256e87242167c695e34d");
+    xtify.testXid = "50e4256e87242167c695e34d";
     xtify.applicationKeyiOS = "54dec04a-9754-4ffc-be65-ecd00a482269";
     xtify.applicationKeyAndroid = "59abcde-9754-4ffc-be65-ecd00a482269";
     xtify.applicationTestPlatform = "ios";
