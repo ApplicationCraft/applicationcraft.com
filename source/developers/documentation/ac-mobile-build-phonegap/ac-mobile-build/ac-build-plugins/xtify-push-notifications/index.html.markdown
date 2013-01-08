@@ -15,7 +15,10 @@ The next sections in this chapter walk you through the process.
 
  - [Non-AC built Apps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-non-ac-apps)
  - [AC Built Apps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-ac-built-apps)
- - [Configuration Steps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration/) 
+ - [Configuration Steps](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration)
+ - [Add Registration Code to your App](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-add-reg-code)
+ - [Sending Push Notifications](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-push-message)
+ - [Notification Handling Code](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/notification-handling-code)
  - [Your Push App](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app)
  - [Other APIs](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apis)
  - [Complete Example App](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-example-app)
