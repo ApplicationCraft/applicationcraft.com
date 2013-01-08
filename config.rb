@@ -36,6 +36,7 @@ module DocsRedirect
       if resource.data.old_url
         old = resource.data.old_url.split('?').last
         rules << "if ($args = #{old}) {\n  rewrite ^ #{resource.url}? permanent;\n}"
+        rules << "rewrite ^/revisions/current/docs/user-guide/#{old} #{resource.url}? permanent;"
       end
 
       rules
