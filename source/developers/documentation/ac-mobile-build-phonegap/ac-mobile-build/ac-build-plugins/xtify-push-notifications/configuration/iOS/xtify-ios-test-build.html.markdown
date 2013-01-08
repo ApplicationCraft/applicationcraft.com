@@ -9,7 +9,7 @@ This is actually a good time to check that you can build your App properly. If t
 
 We can almost guarantee that you will experience considerable pain the first time through if you have not been through this process a couple of times and understand what is going on.
 
-The process of creating certificates and builing your App is [described here](/developers/documentation/ac-mobile-build-phonegap/certificates/). There are not really any shortcuts other than to go through the process.
+The process of creating certificates and building your App is [described here](/developers/documentation/ac-mobile-build-phonegap/certificates/). There are not really any shortcuts other than to go through the process.
 
 ##Requirements for Push Notification Apps
 There are some things that you need to do differently for Push Apps. 
