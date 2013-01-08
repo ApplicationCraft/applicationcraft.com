@@ -14,7 +14,7 @@ To download the App, [click here](/apps/app_Push.acft) and then be sure to follo
 1. Import the App into your AC account
 1. In the onAppStarted event, you will need to modify the following lines
   - xtify.testXid - install and run your App on a mobile device. This will generate an XID, which you should use in the line xtify.testXid = "<yourXid>" line. More on this [here](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app/xtify-app-testing/).
-  - set the xtify.applicationKeyiOS ([read this](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration/iOS/xtify-ios-application-key-ac/))and xtify.applicationKeyAndroid [read this](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration/android/xtify-android-application-key-ac/) properties. More on this here.
+  - set the xtify.applicationKeyiOS ([read this](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration/iOS/xtify-ios-application-key-ac/)) and xtify.applicationKeyAndroid ([read this](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration/android/xtify-android-application-key-ac/)) properties. More on this here.
   - depending on whether you are testing with an iOS or Android device, set the xtify.applicationTestPlatform property to 'ios' or 'android'.
 
 			function handler_application_onAppStarted(){
