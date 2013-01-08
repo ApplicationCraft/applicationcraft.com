@@ -13,7 +13,7 @@ Make sure you include the following code in your onAppStarted() event
     xtify.testXid("50e4256e87242167c695e34d");
     xtify.applicationKeyiOS = "54dec04a-9754-4ffc-be65-ecd00a482269";
     xtify.applicationKeyAndroid = "59abcde-9754-4ffc-be65-ecd00a482269";
-    mxtify.applicationTestPlatfor = "ios";
+    xtify.applicationTestPlatform = "ios";
 
 xtify.applicationTestPlatform is important as it tells the Application Craft API which platofrm to simulate. It can be either 'ios' or 'android'.
 
