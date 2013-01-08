@@ -1,7 +1,6 @@
 ---
 title: CSS Styling in Application Craft
 author: Manos Koufakis (AC User)
-old_url: "/blog/721-new-google-maps-v3-widget"
 date: 2013-01-07
 tags: css styling jquerymobile
 class_name: blog
