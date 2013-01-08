@@ -32,7 +32,7 @@ Because the Xtify API is asynchronous, the AC Tag functions are as well. Here is
 The xtify.tag.xxx() functions will set the xtify.tag.data property once data has been returned and will remain as 'undefined' until the call succeeds. 
 
 ##Testing
-Please refer to the [App Testing section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app/xtify-app-testing/) for information on adding nevessary code to your app.
+Please refer to the [App Testing section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app/xtify-app-testing/) for information on adding necessary code to your app.
 
 ##The API Methods
 Note that the function 'genericCallback' shown in each of the examples is a user defined function and can/should be replaced as you require. Please look above for the code to this function.
@@ -77,7 +77,7 @@ Note that the function 'genericCallback' shown in each of the examples is a user
 The Xtify Console allows you to send notifications to users with certain tags. Please refer to the previous [location targeting section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app/xtify-geo-notifications/) to see how to define a target.
 
 ##Sending the notifications from an App
-We have also prepare an API that lets you push notifications from an App. Click here for details.
+We have also prepared an API that lets you push notifications from an App. Click here for details.
 
 
 ##Advanced
