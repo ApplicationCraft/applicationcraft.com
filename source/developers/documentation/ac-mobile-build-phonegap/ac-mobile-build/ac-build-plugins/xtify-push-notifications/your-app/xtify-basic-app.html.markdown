@@ -17,7 +17,7 @@ A typical App will have the following code. Note that the important calls must b
 	    
 	    // This code block is not required at all. Is used if you want to test via the desktop
 	    // Set Up our Test XID so we can play with Location and Tags on the desktop
-	    xtify.testXid("50e4256e87242167c695e34d");
+	    xtify.testXid = "50e4256e87242167c695e34d";
 	    xtify.applicationKeyiOS = "54dec04a-9754-4ffc-be65-ecd00a482269";
 	    xtify.applicationKeyAndroid = "59abcde-9754-4ffc-be65-ecd00a482269";
 	    xtify.applicationTestPlatform = "ios";

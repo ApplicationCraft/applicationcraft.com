@@ -8,14 +8,14 @@ full_width: true
 Although the actual receipt of a notification cannot be tested on the desktop, most other things can be. This is a preferred approach as it prevents you having to test on a mobile device.
 
 ##onAppStarted()
-Make sure you include the following code in your onAppStarted() event
+Make sure you include the following code in your onAppStarted() event (using your own keys of course)
 
-    xtify.testXid("50e4256e87242167c695e34d");
+    xtify.testXid = "50e4256e87242167c695e34d";
     xtify.applicationKeyiOS = "54dec04a-9754-4ffc-be65-ecd00a482269";
     xtify.applicationKeyAndroid = "59abcde-9754-4ffc-be65-ecd00a482269";
     xtify.applicationTestPlatform = "ios";
 
-xtify.applicationTestPlatform is important as it tells the Application Craft API which platofrm to simulate. It can be either 'ios' or 'android'.
+xtify.applicationTestPlatform is important as it tells the Application Craft API which platform to simulate. It can be either 'ios' or 'android'.
 
 ##xtify.testXid
 You can see from the above code that you need to specify a testXid when testing. When you are running on a desktop, Application Craft will send use this wherever an API call would otherwise get the XID from the running native app.

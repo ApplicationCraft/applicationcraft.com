@@ -14,7 +14,7 @@ All of the APIs can be found in the introduction section. You simply copy and pa
 - [**Notification API**](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apis/xtify-notification-api/) - this lets you send out notifications from an AC App and allows you to build tailored messaging Apps rather than using the Xtify Console. If you need to link with databases or other systems to assist targeted messaging, this is a big plus.
 
 ##Tips & Tricks
-The Tag and Location APIS can also operate in [test mode](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app/xtify-app-testing/) so you can test your functionality from the Application Craft desktop without having to deploy.
+The Tag and Location API's can also operate in [test mode](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app/xtify-app-testing/) so you can test your functionality from the Application Craft desktop without having to deploy.
 
 You should be sure to test in [Debug mode](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/acmb-debugging/) to save you lots of time.
 
