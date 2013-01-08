@@ -20,6 +20,7 @@ This chapter describes the various ways you can generate and deploy these native
  - [Mobile Widgets and Layout](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/mobile-widgets-and-layout)
  - [Device Events](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/phonegap-specific-events)
  - [PhoneGap API Functions](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/phonegap-functions)
+ - [Debugging](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/acmb-debugging)
  - [PhoneGap Options](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features)
  - [Splash Screen and Icon](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/splash-screen-and-icon)
 
