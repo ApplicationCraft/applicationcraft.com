@@ -85,7 +85,7 @@ full_width: true
     Restores a snapshot into the current running App
  - [getRunMode()](/developers/documentation/scripting-apis/client-api/app-functions/getrunmode)
     Allows you to identify the mode your app is running (Live, Live IDE, Preview)
-  - [cacheImage()](/developers/documentation/scripting-apis/client-api/app-functions/cacheimage)
+ - [cacheImage()](/developers/documentation/scripting-apis/client-api/app-functions/cacheimage)
     This function will return local path for the specified url.
 
 ## Related Videos
