@@ -426,36 +426,21 @@ Widget Style
   <a href="/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events">Mouse Events</a>
 
 </td>
-<td width="15">
-</td>
-<td width="779">
-  <a href="/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events">Data Events</a>
 
-</td>
 </tr>
 <tr>
 <td width="148">
 On Click
 
 </td>
-<td width="15">
-</td>
-<td width="779">
-On Data Loaded
 
-</td>
 </tr>
 <tr>
 <td width="148">
 On Double Click
 
 </td>
-<td width="15">
-</td>
-<td width="779">
-On Data Reset
 
-</td>
 </tr>
 <tr>
 <td width="148">
@@ -547,5 +532,4 @@ On Resize Stop
 
  - Mobile Widgets: [Action Button](/developers/documentation/product-guide/widget-properties-events/mobile/mobaction-button)
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
- - [Data Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/data-events)
 
