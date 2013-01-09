@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-2aa3252e.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-eb6d8088.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -133,7 +133,24 @@ If true, then the returned JSON string will be indented and formatted for human 
 
 <p>Converts a Javascript object into a JSON string. This is a useful if you want to send a Web Service a JSON object as well as viewing an object in a human readable format. If you set the optional second parameter to true, then AC will format the JSON string so it is nicely formatted and indented.</p>
 
-<h2 id="toc_2">See Also</h2>
+<h2 id="toc_2">Example</h2>
+
+<pre><code>var object = {
+  firstName:&quot;John&quot;,
+  lastName:&quot;Smith&quot;, 
+  address:&quot;Sesame Street&quot;
+};
+
+app.alert(&quot;Last Name: &quot; + object.lastName);
+// output: Last Name: Smith
+
+var jsonString = app.OBJ2JSON(object);
+app.alert(&quot;jsonString: &quot; + jsonString);
+
+// output: {&quot;firstName&quot;:&quot;John&quot;,&quot;lastName&quot;:&quot;Smith&quot;,&quot;address&quot;:&quot;Sesame Street&quot;}
+</code></pre>
+
+<h2 id="toc_3">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/scripting-apis/client-api/conversion-functions/">Data Conversion</a> Functions</li>
