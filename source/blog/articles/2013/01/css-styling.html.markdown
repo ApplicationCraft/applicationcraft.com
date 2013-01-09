@@ -2,10 +2,9 @@
 title: CSS Styling in Application Craft
 author: Manos Koufakis (AC User)
 date: 2013-01-07
-tags: css styling jquerymobile
+tags: css, styling, jquerymobile
 class_name: blog
 full_width: true
-published: false
 image: /img/blog/coinmad-movie.png
 ---
 
