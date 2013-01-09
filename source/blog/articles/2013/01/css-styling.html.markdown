@@ -31,7 +31,7 @@ After the initial panic, I searched a bit on the AC forum and read a bit about t
 That was the key to paradise!  I started writing my own CSS styles and in a short period of time, I transformed a poorly looking app to a really nice looking quiz game. You can see the result here and play around with the pre-release demo:
 http://acft.ws/nsnd
 
-##OK, so much for the talk, now how you do it?
+##OK, so much for the talk, now how do you do it?
 In order to transform your application and implement your custom styles, you will need 4 tools:
 
 1.  http://www.w3schools.com/ - even if you think you’re a CSS expert, it’s nearly impossible to remember by heart all these great features of CSS and CSS3, so you can use that website as a reference in case you forget something
