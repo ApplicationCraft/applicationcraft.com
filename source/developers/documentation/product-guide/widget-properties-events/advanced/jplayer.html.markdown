@@ -6,7 +6,7 @@ class_name: developers
 full_width: true
 ---
 
-***Work in Progress***
+The jPlayer widget should be considered to be in a Beta state until mention of it is removed from the documentation and is accessible from the Advanced section of the Toolbox
 
 A jQuery media player from <a href="http://www.jplayer.org">http://www.jplayer.org</a>. This widget allows you to link to an audio or video Resource file. See Video & Audio Widgets for more information.
 
