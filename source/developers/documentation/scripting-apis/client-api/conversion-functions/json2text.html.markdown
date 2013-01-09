@@ -44,18 +44,19 @@ Converts a Javascript object into a JSON string. This is a useful if you want to
 
 ## Example
 
-        var object = {
-            firstName:"John",
-            lastName:"Smith", 
-            address:"Sesame Street"
-        };
-        app.alert("Last Name: " + object.lastName);
-        //output: Last Name: Smith
-        
-       var jsonString = app.OBJ2JSON(object);
-       app.alert("jsonString: " + jsonString);
-       //output: jsonString: {"firstName":"John","lastName":"Smith","address":"Sesame Street"}
-        
+    var object = {
+      firstName:"John",
+      lastName:"Smith", 
+      address:"Sesame Street"
+    };
+    
+    app.alert("Last Name: " + object.lastName);
+    // output: Last Name: Smith
+
+    var jsonString = app.OBJ2JSON(object);
+    app.alert("jsonString: " + jsonString);
+
+    // output: {"firstName":"John","lastName":"Smith","address":"Sesame Street"}
 
 
 ## See Also
