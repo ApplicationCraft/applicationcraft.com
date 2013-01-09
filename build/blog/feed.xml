@@ -5,10 +5,123 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2012-12-18T00:00:00Z</updated>
+  <updated>2013-01-09T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>GjiGan - Your City at your Fingertips</title>
+    <link rel="alternate" href="/blog/2013/01/gjigan/"/>
+    <id>/blog/2013/01/gjigan/</id>
+    <published>2013-01-09T00:00:00Z</published>
+    <updated>2013-01-09T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Sylvain Danigo has come up with an app using Application Craft that will transform the way citizens can interact with the Canadian town of Blainville. The mobile app, named &lt;a href="http://www.gjigan.com/"&gt;GjiGan&lt;/a&gt; (pronounced Jee-Gan), provides smartphone users both commercial and municipal information in real time. We had a chance to speak with Sylvain about the creation of GjiGan&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Sylvain Danigo has come up with an app using Application Craft that will transform the way citizens can interact with the Canadian town of Blainville. The mobile app, named &lt;a href="http://www.gjigan.com/"&gt;GjiGan&lt;/a&gt; (pronounced Jee-Gan), provides smartphone users both commercial and municipal information in real time. We had a chance to speak with Sylvain about the creation of GjiGan&lt;/p&gt;
+
+&lt;h3 id="toc_0"&gt;Tell us more about GjiGan&lt;/h3&gt;
+
+&lt;p&gt;GjiGan is more than just a simple directory. The application presents news in real time, whether it’s municipal information, promotions, offers from local merchants, and even job listings. The application can be customized according to the type of information selected and your interests.&lt;/p&gt;
+
+&lt;p&gt;The app extracts news from the town’s official website so only the current and official news appears.&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;Sounds great! What has the user response been like?&lt;/h3&gt;
+
+&lt;p&gt;There are over 600 users (the app was launched last month). Citizens like it because it’s a free app and gives them the town’s current information and includes interesting features, such as interactive maps. Businesses like it because it gives them a chance to promote and advertise on the application.&lt;/p&gt;
+
+&lt;h3 id="toc_2"&gt;Why did you choose Application Craft?&lt;/h3&gt;
+
+&lt;p&gt;I wanted to make mobile apps a year ago and looked at various platforms. The first thing that pulled me towards Application Craft was the fact that it is cloud-based. It’s easy to build screens and works immediately on mobile devices.&lt;/p&gt;
+
+&lt;h3 id="toc_3"&gt;What was your favourite aspect of Application Craft?&lt;/h3&gt;
+
+&lt;p&gt;I really enjoyed the drag and drop. I found it easy to quickly build what I wanted. Had I chosen a different platform it would have taken me twice the amount of time, definitely.&lt;/p&gt;
+
+&lt;p&gt;I found the widgets easy to program, enjoyed the many functionalities Application Craft has to offer and think Application Craft is very good value for what it offers and what I’ve been able to do with it.&lt;/p&gt;
+
+&lt;p&gt;To make things even better, I found the support great! The forum was a good place to ask questions and I received answers very quickly, either by the Application Craft staff or from other people on the forum.&lt;/p&gt;
+
+&lt;h3 id="toc_4"&gt;Any future Application Craft plans?&lt;/h3&gt;
+
+&lt;p&gt;Oh yes, I have another project lined up and have many customers asking for mobile development.&lt;/p&gt;
+
+&lt;h3 id="toc_5"&gt;One last question... How did you come up with GjiGan’s name?&lt;/h3&gt;
+
+&lt;p&gt;“Gjigan” means village in the Micmac* language.&lt;/p&gt;
+
+&lt;p&gt;Full case study can be found &lt;a href="http://www.applicationcraft.com/pdf/testimonials/AC%20Case%20Study%20GjiGan.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;*Here’s a little Canadian history lesson for you: Micmacs are a First Nations people, located in Canada’s Maritime Provinces and the Gaspé Peninsula of Quebec, as well as some parts of New England, USA. “Micmac” both refers to the people themselves and the language they speak. The Micmac were among the first peoples to be affected by European activities in the New World and underwent early depopulation and sociocultural disruption. Quick lesson over!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>CSS Styling in Application Craft</title>
+    <link rel="alternate" href="/blog/2013/01/css-styling/"/>
+    <id>/blog/2013/01/css-styling/</id>
+    <published>2013-01-07T00:00:00Z</published>
+    <updated>2013-01-07T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;h2 id="toc_0"&gt;Introducing Manos Koufakis&lt;/h2&gt;
+
+&lt;p&gt;Manos has been an Application Craft user since we were in beta last year. His first app made it to #2 in the Apple App Store, beating eBay, Skype and other household names.&lt;/p&gt;
+
+&lt;p&gt;Manos has produced a great new app (currently pre-release) that makes heavy use of CSS Styling and we thought it would be great to share his experiences with you. Manos has provided ...&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h2 id="toc_0"&gt;Introducing Manos Koufakis&lt;/h2&gt;
+
+&lt;p&gt;Manos has been an Application Craft user since we were in beta last year. His first app made it to #2 in the Apple App Store, beating eBay, Skype and other household names.&lt;/p&gt;
+
+&lt;p&gt;Manos has produced a great new app (currently pre-release) that makes heavy use of CSS Styling and we thought it would be great to share his experiences with you. Manos has provided ...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the &lt;a href="http://acft.ws/nsnd"&gt;working app&lt;/a&gt; that you can run in your desktop browser&lt;/li&gt;
+&lt;li&gt;a &lt;a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;" class="fancybox fancybox.iframe"&gt; Video Tutorial&lt;/a&gt; of how he did this&lt;/li&gt;
+&lt;li&gt;a list of useful resources (below)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_1"&gt;Style like a pro with Application Craft&lt;/h2&gt;
+
+&lt;p&gt;Ever since I started using Application Craft (nearly 1 year ago), I was really excited with the Widget drag and drop environment that allowed for really speedy development without having to care about containers, specifying complex div structure etc. So I made my first app with AC, named Βρες Δώρο (Find Gift), that does what its title indicates - it helps you find a gift for any circumstance.&lt;/p&gt;
+
+&lt;p&gt;Without using ANY custom CSS style, relying only on the provided AC themes and widgets I completed my app and it rocketed to the #2 position in the App store and stayed there for nearly 1 week! I was really blown away! The application received triumphant comments, but what  started bothering me, was that there were a few comments referring to poor design.&lt;/p&gt;
+
+&lt;p&gt;In the meanwhile, I started developing my second app called “Find the Movie”, which is a movie quiz game where the user is called to guess a film by looking at a screenshot. For that app I co-operated with a graphic arts company in order to have cool icons and design in my app and avoid any negative criticism. When the art project completed, I was provided with a set of .psd files and NO CSS. That was a nightmare for me!&lt;/p&gt;
+
+&lt;p&gt;How the hell can I implement all those fancy gradients, cool button icons etc. into AC? AC is a widget based platform and there is NO theme roller. Plus, I really hate messing with CSS! As much as I like programming, my head aches when I have to deal with CSS styling.&lt;/p&gt;
+
+&lt;p&gt;After the initial panic, I searched a bit on the AC forum and read a bit about the &lt;a href="https://getsatisfaction.com/application_craft/topics/application_craft_custom_css_classes_how_do_i_reference_these_with_a_url"&gt;Custom CSS Properties&lt;/a&gt; that you can see as an option to every widget you see.&lt;br&gt;
+That was the key to paradise!  I started writing my own CSS styles and in a short period of time, I transformed a poorly looking app to a really nice looking quiz game. You can see the result here and play around with the pre-release demo:&lt;br&gt;
+&lt;a href="http://acft.ws/nsnd"&gt;http://acft.ws/nsnd&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;OK, so much for the talk, now how you do it?&lt;/h2&gt;
+
+&lt;p&gt;In order to transform your application and implement your custom styles, you will need 4 tools:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; &lt;a href="http://www.w3schools.com/"&gt;http://www.w3schools.com/&lt;/a&gt; - even if you think you’re a CSS expert, it’s nearly impossible to remember by heart all these great features of CSS and CSS3, so you can use that website as a reference in case you forget something&lt;/li&gt;
+&lt;li&gt; Chrome or Firefox debugger (or any debugger that you like) – myself I’ve been using mostly the &lt;a href="http://developer.chrome.com/extensions/debugger.html"&gt;Chrome debugger&lt;/a&gt;, ‘cause I like Chrome best. This is the most useful tool in order to know what to do. So every time you want to style a certain page, you open the page, then open the debugger and with the use of the Element Inspector (that little magnifying glass at the bottom) you can click any element on your page and you are provided with its  CSS style features.&lt;/li&gt;
+&lt;li&gt; An image editing program like Photoshop&lt;/li&gt;
+&lt;li&gt; &lt;a href="http://csslint.net/"&gt;CSS Lint&lt;/a&gt; – never ever, ever, ever try to implement any CSS without first validating it. CSS Lint provides a really handy CSS debugger where you can copy+paste your CSS code and check for any errors. A single CSS error may be the reason why your CSS style is completely messed up. I use CSS Lint for validation and Chrome’s debugger for element inspection and in case you wonder why I use a second debugger for CSS is because I find CSS Lint more handy for CSS validation purposes  only.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, with all these in mind / handy, you’re ready for the next stage...&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;How to mess with AC’s Widgets and add your own custom styling?&lt;/h2&gt;
+
+&lt;p&gt;Instead of writing a general strategy, it is best to proceed with a &amp;quot;per case&amp;quot; scenario. &lt;a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;" class="fancybox fancybox.iframe"&gt; So I made a video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(please bear with the hybrid language that I speak on the tutorial. It is known as Greeklish ;)&lt;/p&gt;
+
+&lt;p&gt;I will be adding more video tutorials when I have more time.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Get more out of the Developer Portal</title>
     <link rel="alternate" href="/blog/2012/12/get-more-out-of-the-developer-portal/"/>
@@ -205,112 +318,6 @@
 Thursday December 13, 2012 - 6-7PM GMT&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://www.applicationcraft.com/#upcoming-webinars"&gt;Sign up&lt;/a&gt; now - We would love it if you came along and joined us! &lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Amazingly Easy Authentication with OAuth</title>
-    <link rel="alternate" href="/blog/2012/12/oauth-support/"/>
-    <id>/blog/2012/12/oauth-support/</id>
-    <published>2012-12-04T00:00:00Z</published>
-    <updated>2012-12-04T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;We recently added &lt;a href="http://oauth.net/"&gt;OAuth&lt;/a&gt; support to Application Craft, and in the usual Application Craft way, we&amp;#39;ve made it amazingly simple.&lt;/p&gt;
-
-&lt;p&gt;We currently provide explicit support for Twitter, Facebook and Dropbox but we&amp;#39;ll soon be adding support for more OAuth providers, as well as allowing you to make your own OAuth definitions so any service that supports OAuth can be defined in the AC Console.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;We recently added &lt;a href="http://oauth.net/"&gt;OAuth&lt;/a&gt; support to Application Craft, and in the usual Application Craft way, we&amp;#39;ve made it amazingly simple.&lt;/p&gt;
-
-&lt;p&gt;We currently provide explicit support for Twitter, Facebook and Dropbox but we&amp;#39;ll soon be adding support for more OAuth providers, as well as allowing you to make your own OAuth definitions so any service that supports OAuth can be defined in the AC Console.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Authentication for your Apps&lt;/h2&gt;
-
-&lt;p&gt;One of the simpler uses for OAuth is to provide access to your App. You let a 3rd party service like Twitter or Facebook handle the login process.&lt;/p&gt;
-
-&lt;p&gt;Authentication is as easy as shown below. You call &lt;code&gt;OAuthSignIn()&lt;/code&gt; and that&amp;#39;s it. The service pops up in a browser window, handles the login and returns an access token. You can store that token in a cookie so when your users access your App in the future, they don&amp;#39;t have to login again (until the service decides to expire it).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function handler_btnAuth_onClick(mouseev){
-  // See if we already have an old Access Token
-  _accessToken = app.getCookie(&amp;quot;myTwitterSession&amp;quot;);
-  if (_accessToken === null || _accessToken === &amp;quot;&amp;quot;) {
-    // No, we don&amp;#39;t have one so get a new one
-    app.OAuthSignIn(&amp;#39;twitter&amp;#39;, authCallback);
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_1"&gt;Calling OAuth secured APIs&lt;/h2&gt;
-
-&lt;p&gt;Things get much more interesting when you want to access APIs from services such as Twitter, Facebook and Dropbox. Using our OAuth support, you can access the full functionality of those services in a way that is remarkably easy.&lt;/p&gt;
-
-&lt;p&gt;This short example shows the code for sending a Tweet via Twitter. It is actually made up of two parts - the code running on the client ...&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function handler_btnTweet_onClick(mouseev){
-    app.callSSJ(&amp;#39;sendTweet&amp;#39;, function(error, data){
-  if(error) {
-    // Some error occurred (maybe the 
-    // Access Token has expired)
-  } else {
-    app.showMessage(&amp;quot;OAuth Demo&amp;quot;, &amp;quot;Message successfully tweeted!&amp;quot;);  
-  }
-}, [_accessToken, txtTweetMessage]);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;... and the server side code that gets called by &lt;code&gt;app.callSSJ()&lt;/code&gt; in the above example.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function sendTweet(accessToken, txtTweet) {
-ssj.OAuthRequest(accessToken, 
-    &amp;#39;https://api.twitter.com/1.1/statuses/update.json&amp;#39;,    
-    &amp;#39;POST&amp;#39;, { status: txtTweet });
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Have you ever seen OAuth handled that straightforward? Application Craft does all the dirty work and heavy lifting for you.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Read the Documentation&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="/developers/documentation/product-guide/advanced-features/oauth/"&gt;Click here&lt;/a&gt; to read the OAuth documentation in the Product Guide.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Chrome Users Around the World Rejoice!</title>
-    <link rel="alternate" href="/blog/2012/11/chrome-users-around-the-world-rejoice/"/>
-    <id>/blog/2012/11/chrome-users-around-the-world-rejoice/</id>
-    <published>2012-11-30T00:00:00Z</published>
-    <updated>2012-11-30T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Ahoy everyone!&lt;/p&gt;
-
-&lt;p&gt;Along with the many website changes we’ve been working hard at improving, such as fixing video links and cleaning up our &lt;a title="Application Craft Documentation blog" href="http://www.applicationcraft.com/blog/2012/11/documentation-search-and-full-screen/"&gt;documentation&lt;/a&gt;, we went ahead and added in another something extra to make your life easier. &lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Ahoy everyone!&lt;/p&gt;
-
-&lt;p&gt;Along with the many website changes we’ve been working hard at improving, such as fixing video links and cleaning up our &lt;a title="Application Craft Documentation blog" href="http://www.applicationcraft.com/blog/2012/11/documentation-search-and-full-screen/"&gt;documentation&lt;/a&gt;, we went ahead and added in another something extra to make your life easier. &lt;/p&gt;
-
-&lt;p&gt;Your time’s valuable! We know that and you know that, which is why we have created an app so you can access Application Craft directly from Chrome. This 2-step process will save you time to do more important things... such as creating applications:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Go on the &lt;a href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc/"&gt;Chrome Web Store&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Click on the ‘Add to Chrome’ tab. This will allow you to bypass signing in via the website, as having the Chrome app will have you on your way to smooth sailing directly to your personal console. &lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img alt="Add to Chrome" src="/img/blog/1addchrome-df91bbda.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ta da! Now the app will appear on your Chrome homepage. All done, told you it was easy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="AC in Chrome" src="/img/blog/2acapp-4dbd44bf.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;With over 100 users using the Chrome app we invite you to jump on board to join the other happy crafters. &lt;/p&gt;
-
-&lt;p&gt;Any questions? Just &lt;a href="mailto:support@applicationcraft.com"&gt;give us a holler&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Ta ta for now,&lt;/p&gt;
-
-&lt;p&gt;Hazel&lt;/p&gt;
 </content>
   </entry>
 </feed>
