@@ -13,7 +13,7 @@ The process of creating certificates and building your App is [described here](/
 ##Requirements for Push Notification Apps
 There are some things that you need to do differently for Push Apps. 
 
- - You **must** use a dedicated Application ID. For non Push Apps, you can actually use a shared App ID such as `com.somedomain.*`, which allows any Application ID starting with `com.somedomain` to be used. 
+ - You **must** use a dedicated App ID. While for non Push Apps, you can actually use a shared App ID such as `com.somedomain.*`, for Push Apps you must make sure your App ID is completely unique, so something like `com.somedomain.myPushApp`
 
 ##Success?
 Once you can build and deploy your App to your device, you are ready for the final steps.
