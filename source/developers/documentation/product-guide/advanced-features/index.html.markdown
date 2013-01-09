@@ -11,10 +11,13 @@ full_width: true
 
  - [Multi Language Apps](/developers/documentation/product-guide/advanced-features/multi-language-apps/)
  - [Credit Card Payment Processing](/developers/documentation/product-guide/advanced-features/credit-card-payment-processing/)
+ - [Parse.com](/developers/documentation/product-guide/advanced-features/parse/)
+ - [Push Notifications](/developers/documentation/product-guide/advanced-features/xpush/)
  - [Accessing Data in other Apps, Databases and APIs](/developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/)
  - [Advertising](/developers/documentation/product-guide/advanced-features/pro-account-advertising)
  - [Data Storage & Management](/developers/documentation/product-guide/advanced-features/data-storage-management/)
  - [Google Analytics](/developers/documentation/product-guide/advanced-features/google-analytics/)
+ - [OAuth](/developers/documentation/product-guide/advanced-features/oauth/)
  - [Data Integration, Reporting & Dashboards](/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/)
  - [Embedding Apps within Apps](/developers/documentation/product-guide/advanced-features/embedding-apps-within-apps/)
  - [Authentication for Your Apps](/developers/documentation/product-guide/advanced-features/authentication-for-your-apps/)
@@ -27,6 +30,6 @@ full_width: true
  - [Printing](/developers/documentation/product-guide/advanced-features/printing/)
  - [Custom CSS Classes](/developers/documentation/product-guide/advanced-features/custom-css-classes/)
  - [Twirly Thing/Hourglass](/developers/documentation/product-guide/advanced-features/twirly-thing-hourglass/)
- - [OAuth](/developers/documentation/product-guide/advanced-features/oauth/)
+
 
 Video Tutorials can be found on our [Training Videos](http://www.applicationcraft.com/mobile-application/developer-center/training-videos) page

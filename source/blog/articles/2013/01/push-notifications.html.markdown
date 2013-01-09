@@ -2,17 +2,14 @@
 title: Push Notification app in minutes
 author: Freddy May
 date: 2013-01-10
-tags: push notification ios android mobile
+tags: push notifications, ios, android, mobile
 class_name: blog
 full_width: true
-published: true
 ---
 
-We have just completed full support for Push Notifications in Application Craft. 
+We have just completed full support for Push Notifications in Application Craft, and have teamed up with [Xtify](http://www.xtify.com), who provide the underlying push technology. You will need to create an Account with them, although this is free (you start paying Xtify once you reach large volumes).
 
-We have teamed up with [Xtify](http://www.xtify.com), who provide the underlying push technology. You will need to create an Account with them, although this is free (you start paying Xtify once you reach large volumes).
-
-We have also added a new drop-in API that makes it ridiculously easy to write a Push Notification App.
+We have also added a new drop-in API that makes it ridiculously easy to add support for push notifications in your app.
 
 How easy? Well this is all it takes ...
 

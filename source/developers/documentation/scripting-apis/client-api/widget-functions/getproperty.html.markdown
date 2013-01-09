@@ -54,7 +54,7 @@ You can also check the available properties for a specific widget using [debugPr
     app.getProperty('myTextBox', 'color');
     obj = app.w('myTextBox');
     app.getProperty(obj, 'color'); // this is the functional equivalent, but shows how a Widget object can be passed
-   
+  	app.getProperty(app, 'backgroundColor'); // to access App properties
 
 ## See Also
 
