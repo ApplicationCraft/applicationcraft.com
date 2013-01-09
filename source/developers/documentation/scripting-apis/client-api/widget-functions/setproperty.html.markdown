@@ -65,6 +65,7 @@ You can also check the available properties for a specific widget using [debugPr
     app.setProperty(['myTextBox', 'myOtherTextBox'], 'color', '#ffffff');
     obj = app.w('myTextBox');
     app.setProperty(obj, 'color', '#ffffff'); // shows how a Widget object can be passed
+    app.setProperty(app, 'backgroundColor', '#f0fff0'); // to set App properties
    
 
 ## See Also
