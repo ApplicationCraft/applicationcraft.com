@@ -12,7 +12,7 @@ full_width: true
  - [Multi Language Apps](/developers/documentation/product-guide/advanced-features/multi-language-apps/)
  - [Credit Card Payment Processing](/developers/documentation/product-guide/advanced-features/credit-card-payment-processing/)
  - [Parse.com](/developers/documentation/product-guide/advanced-features/parse/)
- - [Xtify Push Notifications](/developers/documentation/product-guide/advanced-features/xpush/)
+ - [Push Notifications](/developers/documentation/product-guide/advanced-features/xpush/)
  - [Accessing Data in other Apps, Databases and APIs](/developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/)
  - [Advertising](/developers/documentation/product-guide/advanced-features/pro-account-advertising)
  - [Data Storage & Management](/developers/documentation/product-guide/advanced-features/data-storage-management/)
