@@ -2339,6 +2339,10 @@ if ($args = context_menu.htm) {
   rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/context-menu/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/context_menu.htm /developers/documentation/product-guide/widget-properties-events/beta/context-menu/? permanent;
+if ($args = jplayer.htm) {
+  rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/jplayer/? permanent;
+}
+rewrite ^/revisions/current/docs/user-guide/jplayer.htm /developers/documentation/product-guide/widget-properties-events/beta/jplayer/? permanent;
 if ($args = scandit_button.htm) {
   rewrite ^ /developers/documentation/product-guide/widget-properties-events/beta/scandit-button/? permanent;
 }
