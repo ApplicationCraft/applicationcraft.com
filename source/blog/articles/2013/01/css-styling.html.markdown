@@ -5,7 +5,6 @@ date: 2013-01-07
 tags: css styling jquerymobile
 class_name: blog
 full_width: true
-published: false
 image: /img/blog/coinmad-movie.png
 ---
 
