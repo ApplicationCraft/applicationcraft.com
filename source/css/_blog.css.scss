@@ -70,6 +70,15 @@ body.blog {
       margin: 50px 0 62px 38px;
       text-transform: uppercase;
       font: 14px gotham_bookregular;
+
+      h5 {
+        text-transform: capitalize;
+        margin: 50px 0;
+
+        img {
+          padding: 0 7px 4px 0;
+        }
+      }
     }
 
     .latest-posts {
