@@ -12,15 +12,6 @@ sales:
     url: https://attendee.gotowebinar.com/register/1882490698128698368
 
 clinics:
-  -
-    title: Building a Push Notification App
-    description:
-      Application Craft is excited to kick off the new year with our very first Developer Clinic.
-      Join us for a guided demonstration of how to use AC Mobile Build to create App Store ready
-      apps, to be followed by a Q&A session.
-    date: "Wednesday January 9, 2013: 6-7pm GMT"
-    url: https://attendee.gotowebinar.com/register/6157910875970754816
-    full: true
 
   -
     title: Building a Push Notification App
