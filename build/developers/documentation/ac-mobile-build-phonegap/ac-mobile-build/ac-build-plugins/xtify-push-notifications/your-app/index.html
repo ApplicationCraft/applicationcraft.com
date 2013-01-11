@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-fb3daec7.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-9edbb35b.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -199,62 +199,48 @@ xtify.init = function () {
                 }
                 // Get XID
                 window.plugins.XtifySDK.getXid(function(xid) {
+                    // Got the XID successfully
                     xtify.xid = xid;
+                    // Get isRegistered
+                    if(app.getPlatform==&#39;android&#39;) {
+                        window.plugins.XtifySDK.isRegistered(
+                            function () {
+                                xtify.isRegistered = true;
+                            }, function (errorId) {
+                                xtify.isRegistered = false;
+                            }
+                        );
+                    }    
+                    else {
+                        xtify.isRegistered = false;
+                    }
+                    // Get Badgecount
+                    if(app.getPlatform==&#39;ios&#39;) {
+                        window.plugins.XtifySDK.getSpringBoardBadgeCount(function(count) {
+                            xtify.badgeCount = count;
+                        }, function(error) {
+                            xtify.badgeCount = -1;
+                        });
+                    }
+                    else {
+                        xtify.badgeCount = 0;
+                    }
+                    // Fire user callback function
+                    xtify.isReady = true;
+                    xtify.error = true
+                    xtify.startedCallback();
                 }, function(error) {
                     xtify.xid = &quot;Error&quot;;
                     xtify.error = true
+                    xtify.isReady = true;
+                    xtify.startedCallback();                    
                     xtify.errorMessage += &quot;XID Error. &quot;
-                });
-                // Get Badgecount
-                if(app.getPlatform==&#39;ios&#39;) {
-                    window.plugins.XtifySDK.getSpringBoardBadgeCount(function(count) {
-                        xtify.badgeCount = count;
-                    }, function(error) {
-                        xtify.badgeCount = -1;
-                    });
-                }
-                else {
-                    xtify.badgeCount = 0;
-                }
-                // Get isRegistered
-                if(app.getPlatform==&#39;android&#39;) {
-                    window.plugins.XtifySDK.isRegistered(
-                        function () {
-                            xtify.isRegistered = true;
-                        }, function (errorId) {
-                            xtify.isRegistered = false;
-                        }
-                    );
-                }    
-                else {
-                    xtify.isRegistered = false;
-                }            
-
-                // Fire the User Function once all callbacks are executed 
-                var iCtr=0;
-                addToLog(&#39;Checking now...&#39;);
-                var readyInterval = window.setInterval(function(){
-                        addToLog(&#39;Count:&#39; + iCtr);
-                        if(xtify.xid!==undefined &amp;&amp; xtify.badgeCount!==undefined &amp;&amp; xtify.isRegistered!==undefined) {
-                            xtify.isReady = true;
-                            window.clearInterval(readyInterval);
-                            if(xtify.startedCallback!==undefined) {
-                                xtify.startedCallback();   
-                                return;
-                            }
-                        }
-                        if(iCtr++&gt;30) {
-                            xtify.isReady = false;
-                            window.clearInterval(readyInterval);
-                            if(xtify.startedCallback!==undefined) {
-                                xtify.startedCallback();   
-                                return;                 
-                            }
-                        }
-                    }, 100);               
+                });            
             }
             , function (error) {
                 // Some sort of error from the Xtify start
+                xtify.isReady = true;
+                xtify.startedCallback();   
                 xtify.error=true;
                 xtify.errorMessage=error;
             });          
@@ -277,11 +263,9 @@ xtify.clearBadges = function (){
 ////////////////// TAG FUNCTIONS /////////////////
 
 xtify.tag.read = function (callback) {
-    debugger;
     var apiUrl = &quot;http://api.xtify.com/2.0/tags/&quot; + xtify.xid + &quot;/tags?appKey=&quot; + xtify.applicationKey;
     xtify.tag.data = [];
     app.httpRequest(apiUrl, &quot;GET&quot;, function(data, error, httpResponse){
-        debugger;
         if(error) {
             if(callback!==undefined)
                 callback(true, httpResponse.responseText);
@@ -461,7 +445,6 @@ function _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButto
         return false;
     }    
     if(sendAudience==&quot;TAGS&quot;) {
-        debugger;
         if(sendAudienceData.withTags===undefined || sendAudienceData.withoutTags===undefined) { 
             callback(true, &quot;TAGS requires both sendAudienceData.withTags and sendAudienceData.withoutTags&quot;);
             return false;
