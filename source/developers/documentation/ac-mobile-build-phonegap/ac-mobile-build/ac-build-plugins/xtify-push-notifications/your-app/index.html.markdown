@@ -14,7 +14,6 @@ Next, copy and paste all of the following code into this new file. This code can
 
 ##Client Side Javascript
 
-
 	// APPLICATION CRAFT XTIFY SUPPORT API
 	// LAST UPDATED : 2013-01-04
 
@@ -104,62 +103,48 @@ Next, copy and paste all of the following code into this new file. This code can
 	                }
 	                // Get XID
 	                window.plugins.XtifySDK.getXid(function(xid) {
+	                    // Got the XID successfully
 	                    xtify.xid = xid;
+	                    // Get isRegistered
+	                    if(app.getPlatform=='android') {
+	                        window.plugins.XtifySDK.isRegistered(
+	                            function () {
+	                                xtify.isRegistered = true;
+	                            }, function (errorId) {
+	                                xtify.isRegistered = false;
+	                            }
+	                        );
+	                    }    
+	                    else {
+	                        xtify.isRegistered = false;
+	                    }
+	                    // Get Badgecount
+	                    if(app.getPlatform=='ios') {
+	                        window.plugins.XtifySDK.getSpringBoardBadgeCount(function(count) {
+	                            xtify.badgeCount = count;
+	                        }, function(error) {
+	                            xtify.badgeCount = -1;
+	                        });
+	                    }
+	                    else {
+	                        xtify.badgeCount = 0;
+	                    }
+	                    // Fire user callback function
+	                    xtify.isReady = true;
+	                    xtify.error = true
+	                    xtify.startedCallback();
 	                }, function(error) {
 	                    xtify.xid = "Error";
 	                    xtify.error = true
+	                    xtify.isReady = true;
+	                    xtify.startedCallback();                    
 	                    xtify.errorMessage += "XID Error. "
-	                });
-	                // Get Badgecount
-	                if(app.getPlatform=='ios') {
-	                    window.plugins.XtifySDK.getSpringBoardBadgeCount(function(count) {
-	                        xtify.badgeCount = count;
-	                    }, function(error) {
-	                        xtify.badgeCount = -1;
-	                    });
-	                }
-	                else {
-	                    xtify.badgeCount = 0;
-	                }
-	                // Get isRegistered
-	                if(app.getPlatform=='android') {
-	                    window.plugins.XtifySDK.isRegistered(
-	                        function () {
-	                            xtify.isRegistered = true;
-	                        }, function (errorId) {
-	                            xtify.isRegistered = false;
-	                        }
-	                    );
-	                }    
-	                else {
-	                    xtify.isRegistered = false;
-	                }            
-	                
-	                // Fire the User Function once all callbacks are executed 
-	                var iCtr=0;
-	                addToLog('Checking now...');
-	                var readyInterval = window.setInterval(function(){
-	                        addToLog('Count:' + iCtr);
-	                        if(xtify.xid!==undefined && xtify.badgeCount!==undefined && xtify.isRegistered!==undefined) {
-	                            xtify.isReady = true;
-	                            window.clearInterval(readyInterval);
-	                            if(xtify.startedCallback!==undefined) {
-	                                xtify.startedCallback();   
-	                                return;
-	                            }
-	                        }
-	                        if(iCtr++>30) {
-	                            xtify.isReady = false;
-	                            window.clearInterval(readyInterval);
-	                            if(xtify.startedCallback!==undefined) {
-	                                xtify.startedCallback();   
-	                                return;                 
-	                            }
-	                        }
-	                    }, 100);               
+	                });            
 	            }
 	            , function (error) {
 	                // Some sort of error from the Xtify start
+	                xtify.isReady = true;
+	                xtify.startedCallback();   
 	                xtify.error=true;
 	                xtify.errorMessage=error;
 	            });          
@@ -182,11 +167,9 @@ Next, copy and paste all of the following code into this new file. This code can
 	////////////////// TAG FUNCTIONS /////////////////
 
 	xtify.tag.read = function (callback) {
-	    debugger;
 	    var apiUrl = "http://api.xtify.com/2.0/tags/" + xtify.xid + "/tags?appKey=" + xtify.applicationKey;
 	    xtify.tag.data = [];
 	    app.httpRequest(apiUrl, "GET", function(data, error, httpResponse){
-	        debugger;
 	        if(error) {
 	            if(callback!==undefined)
 	                callback(true, httpResponse.responseText);
@@ -366,7 +349,6 @@ Next, copy and paste all of the following code into this new file. This code can
 	        return false;
 	    }    
 	    if(sendAudience=="TAGS") {
-	        debugger;
 	        if(sendAudienceData.withTags===undefined || sendAudienceData.withoutTags===undefined) { 
 	            callback(true, "TAGS requires both sendAudienceData.withTags and sendAudienceData.withoutTags");
 	            return false;
