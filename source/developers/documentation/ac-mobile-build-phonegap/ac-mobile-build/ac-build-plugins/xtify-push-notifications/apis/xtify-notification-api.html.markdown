@@ -7,9 +7,11 @@ full_width: true
 
 Xtify provides an API that lets you send out notifications from your App. This API is rather sensitive to providing the data in the correct format, so we have provided an API that makes things a lot easier.
 
-There are two main methods we provide
+There are three main methods we provide
 
-- **xtify.push.testNotification()** - this lets you send out a simple test Notification with a single call. You cannot control all details, but it covers most things.
+- **xtify.push.quickNotification()** - this lets you send out a Notification with a single call. You cannot control all details, but it meets most requirements.
+
+- **xtify.push.quickRichNotification()** - this lets you send out a Rich Notification with a single call. You cannot control all details, but it meets most requirements.
 
 - **xtify.push.sendNotification()** - this gives you full control over all details
 
@@ -31,7 +33,7 @@ In order to not risk your Xtify API being discovered, you should execute the act
 
 Note that you need to set your API key. This can be found in the Xtify Console in the App Manager -> API Keys Manager menu item.
 
-##xtify.push.testNotification(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback)
+##xtify.push.quickNotification(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback)
 
 You should use 'undefined' for any optional parameters that you do not want to pass.
 
@@ -46,13 +48,31 @@ You should use 'undefined' for any optional parameters that you do not want to p
 - action (optional) - please refer to the [Xtify Push API documentation](http://developer.xtify.com/display/APIs/Push+API+2.0) if you want to set this. 
 - callback (optional) - your own callback to receive return data from the call.
 
+##xtify.push.quickRichNotification(sendAudience, sendAudienceData, txtMessage, txtButton, customData, richData, callback)
+
+- richData is an object with the following format
+
+	    var richData = {
+	        subject: "Rich subject",
+	        message: "Hello <b>world</b> of pain.",
+	        action: {
+	            type: "DEFAULT",
+	            data: "Some Action Data",
+	            label: "action label"
+	        }
+	    };
+
+Be careful not to include the 'action' parameter which is required for xtify.push.quickNotification)_ 
+
 ##xtify.push.prepare(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback)
-If you want to control the notification fully, you will need to use xtify.push.fullNotification(). However, before you call this, you should call xtify.push.prepare(). This prepares and returns the Xtify Push object which you can then modify (you will need to refer to the [Xtify Push API documentation](http://developer.xtify.com/display/APIs/Push+API+2.0)).
+If you want to control the notification fully, you will need to use xtify.push.fullNotification(). 
+
+However, before you call this, you should call xtify.push.prepare(). This prepares and returns the Xtify Push object which you can then modify (you will need to refer to the [Xtify Push API documentation](http://developer.xtify.com/display/APIs/Push+API+2.0)).
 
 The parameters are the same as for xtify.push.testNotification().
 
 ##xtify.push.fullNotification(xtifyObject, callback)
-Call this with the object returned from tify.push.prepare().
+Call this with the object returned from xtify.push.prepare().
 
 ##Examples
 	function handler_btnPushMessage_onClick(mouseev) {
