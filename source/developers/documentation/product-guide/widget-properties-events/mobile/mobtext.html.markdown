@@ -58,14 +58,8 @@ Text/Number/Email/URL/Phone/Password/. Select the type of entry required
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Text
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -136,14 +130,8 @@ This is where you can select the data type appropriate for your field
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Unique
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>

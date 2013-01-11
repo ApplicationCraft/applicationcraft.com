@@ -46,14 +46,10 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Items
 
 </td>
-</tr>
-</table>
+
 </td>
 <td width="15">
 </td>

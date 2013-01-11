@@ -90,14 +90,8 @@ Items
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Label
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
