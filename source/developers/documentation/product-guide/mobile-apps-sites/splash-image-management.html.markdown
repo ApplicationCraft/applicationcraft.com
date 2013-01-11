@@ -195,6 +195,25 @@ Retina iPhone
 </tr>
 <tr>
 <td width="276">
+Retina iPhone 5
+
+</td>
+<td width="31">
+</td>
+<td width="80">
+640
+
+</td>
+<td width="27">
+
+</td>
+<td width="91">
+1136
+
+</td>
+</tr>
+<tr>
+<td width="276">
 iPad (Landscape)
 
 </td>

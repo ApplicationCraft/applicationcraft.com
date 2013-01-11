@@ -30,4 +30,3 @@ Advanced Widgets are also accessed from the left hand Toolbox, by clicking on th
  - [Flot Charts](/developers/documentation/product-guide/widget-properties-events/advanced/flot-charts)
  - [Timeline](/developers/documentation/product-guide/widget-properties-events/advanced/timeline)
  - [Advertising](/developers/documentation/product-guide/widget-properties-events/advanced/advertising1)
- - [jPlayer](/developers/documentation/product-guide/widget-properties-events/advanced/jplayer)

@@ -15,8 +15,10 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-2aa3252e.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-fb3daec7.css" media="screen" rel="stylesheet" type="text/css" />
     
+
+    <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
   <body class="blog">
     <a id="top"></a>
@@ -71,6 +73,90 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/blog/2013/01/push-notifications/">January 10, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>push notifications</li>
+            
+              <li>ios</li>
+            
+              <li>android</li>
+            
+              <li>mobile</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2013/01/push-notifications/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2013/01/push-notifications/">Push Notification app in minutes</a></h1>
+        
+        <p>We have just completed full support for Push Notifications in Application Craft, and have teamed up with <a href="http://www.xtify.com">Xtify</a>, who provide the underlying push technology. You will need to create an Account with them, although this is free (you start paying Xtify once you reach large volumes).</p>
+
+<p>We have also added a new drop-in API that makes it ridiculously easy to add support for push notifications in your app.</p>
+
+<p>How easy? Well this is all it takes ...</p>
+
+<ol>
+<li>You create an App in Application Craft</li>
+<li>You create an App in Xtify for <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration/iOS/xtify-ios-portal-setup/">iOS</a> or for <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/configuration/android/xtify-android-portal-setup/">Android</a></li>
+<li>You generate your iOS / Android keys</li>
+<li><p>You add the following code to your App</p>
+
+<pre><code>function notificationReceived() {
+    // Your own, optional callback function
+    // Called when your App receives the notification
+}
+
+function handler_application_onAppStarted(){
+    xtify.applicationKeyiOS = &quot;12345678-9754-4ffc-be65-ecd00a482269&quot;;
+    xtify.applicationKeyAndroid = &quot;abcdefg-9754-4ffc-be65-ecd00a482269&quot;;
+    xtify.startedCallback = notificationReceived;
+    xtify.init();
+}
+</code></pre></li>
+<li><p>You send out the Notification from <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/xtify-push-message/">Xtify</a>, or from your own App using <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apis/xtify-notification-api/">our API</a>.</p></li>
+</ol>
+
+<h2 id="toc_0">The AC Xtify API</h2>
+
+<p>We have added our own API that sits in front of the Xtify system and makes life really very easy for you. However, you can always access the Xtify API directly if required.</p>
+
+<p>The main features of this are</p>
+
+<ul>
+<li>ease-of-use is at the top of the list; less experienced developers may struggle with Xtify&#39;s own API and so we have simplified things for all common operations</li>
+<li>allows you to operate in test mode, so you can test lots of things from your desktop rather than a mobile device</li>
+<li>a single call &#39;xtify.location.update()&#39; that automatically tells the Xtify system where the user is located. You can then set up auto notifications based on a user&#39;s location.</li>
+<li>a cool &#39;Tag API&#39; that lets your App tag users with any information you require, typically information gathered from the App itself. You can then send out notifications only to those users with certain tags.</li>
+</ul>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2013/01/push-notifications/" data-via="appcrafty" data-size="small" data-count="none" data-text="Push Notification app in minutes">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2013/01/push-notifications/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -208,7 +294,7 @@
 That was the key to paradise!  I started writing my own CSS styles and in a short period of time, I transformed a poorly looking app to a really nice looking quiz game. You can see the result here and play around with the pre-release demo:<br>
 <a href="http://acft.ws/nsnd">http://acft.ws/nsnd</a></p>
 
-<h2 id="toc_2">OK, so much for the talk, now how you do it?</h2>
+<h2 id="toc_2">OK, so much for the talk, now how do you do it?</h2>
 
 <p>In order to transform your application and implement your custom styles, you will need 4 tools:</p>
 
@@ -332,82 +418,6 @@ That was the key to paradise!  I started writing my own CSS styles and in a shor
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/blog/2012/12/release-jquery-mobile/">December 17, 2012</a>
-            
-              <span class="author">by <a href="mailto:jmoss@applicationcraft.com">Joel Moss</a></span>
-            
-          </p>
-
-          <p class="tagged">Tagged:</p>
-          <ul class="tags">
-            
-              <li>release</li>
-            
-              <li>jquery</li>
-            
-              <li>jquery mobile</li>
-            
-              <li>debugging</li>
-            
-          </ul>
-
-          <p class="comments">
-            <a class="dsq-comment-count" href="/blog/2012/12/release-jquery-mobile/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/blog/2012/12/release-jquery-mobile/">Release: jQuery Mobile 1.2, Mobile Debugger</a></h1>
-        
-        <p>Last Friday we shipped quite a large new release which I think is worth mentioning. As well as some significant bugs being squashed, we upgraded jQuery Mobile and jQuery UI, and integrated the Weinre Mobile Debugger.</p>
-
-<h2 id="toc_0">jQuery Mobile and UI</h2>
-
-<p>jQuery Mobile is one of the core parts of AC, and every single app uses at least some part of the open source framework.</p>
-
-<p>Back in October, the team behind jQuery <a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/">released a major new version; 1.2.0</a>.</p>
-
-<blockquote>
-<p>This release brings a new popup widget, an autodivider and collapsible option for listviews, and over 100 enhancements and fixes throughout the library to make things smoother, faster, and more polished.</p>
-</blockquote>
-
-<p><a href="http://jquerymobile.com/blog/2012/10/02/announcing-jquery-mobile-1-2-0-final/">Check out the blog post</a> for a run down of what&#39;s new in jQuery Mobile 1.2.0.</p>
-
-<p>The latest version of AC now includes this latest and greatest version of jQuery, and also because of it&#39;s reliance on jQuery UI, we&#39;ve included the latest version of that into this release too.</p>
-
-<p>If there is anything new in jQuery Mobile 1.2 that you would like to see in AC, such as any new or improved widgets, please post in the <a href="http://getsatisfaction.com/application_craft">forums</a> and ask others to comment. If we see demand for a feature we will try our best to implement it.</p>
-
-<h2 id="toc_1">Mobile Debugging</h2>
-
-<p>We also shipped a new feature to allow you to debug your apps right within the devices you are developing for.</p>
-
-<blockquote>
-<p>Weinre (Pronounced like the word &quot;winery&quot;) is a debugger for web pages, like FireBug (for FireFox) and Web Inspector (for WebKit-based browsers), except it&#39;s designed to work remotely, and in particular, to allow you debug web pages on a mobile device such as a phone.</p>
-</blockquote>
-
-<p><img alt="Weinre Debugging" src="/img/blog/weinre-55f96c1d.png" /></p>
-
-<p>The AC Weinre Debugging server lets you use the familiar webkit developer tools to debug your mobile web apps, and is yet another way that we are making it easier to build apps.</p>
-
-<p>You can check it out at <a href="http://mobile-build-debug.applicationcraft.com/">http://mobile-build-debug.applicationcraft.com/</a></p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/release-jquery-mobile/" data-via="appcrafty" data-size="small" data-count="none" data-text="Release: jQuery Mobile 1.2, Mobile Debugger">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/release-jquery-mobile/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -422,6 +432,7 @@ That was the key to paradise!  I started writing my own CSS styles and in a shor
   <aside>
     <section class="all-posts">
       <h4><a href="/blog/all">all posts &raquo;</a></h4>
+      <h5><a href="http://feeds.feedburner.com/ApplicationCraft" target="_blank"><img size="14x14" src="/img/feed-icon-30733f52.png" />Subscribe</a></h5>
     </section>
 
     
@@ -430,13 +441,13 @@ That was the key to paradise!  I started writing my own CSS styles and in a shor
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/blog/2013/01/push-notifications/">Push Notification app in minutes</a></li>
+        
           <li><a href="/blog/2013/01/gjigan/">GjiGan - Your City at your Fingertips</a></li>
         
           <li><a href="/blog/2013/01/css-styling/">CSS Styling in Application Craft</a></li>
         
           <li><a href="/blog/2012/12/get-more-out-of-the-developer-portal/">Get more out of the Developer Portal</a></li>
-        
-          <li><a href="/blog/2012/12/release-jquery-mobile/">Release: jQuery Mobile 1.2, Mobile Debugger</a></li>
         
       </ul>
     </section>

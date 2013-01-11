@@ -23,7 +23,7 @@ Production mode assumes that you have built your App using AC Mobile Build.
 
 When your App is running for real, you will almost certain want to use the GPS sensor to get the current location of the user. We have done the hard work for you here, so all you need do is
 
-	xtify.location.update(myCallbackFunction);
+	xtify.location.update(undefined, undefined, myCallbackFunction);
 
 Feel free to inspect the code that handles this in the xtify file you created.
 

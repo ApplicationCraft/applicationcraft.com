@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-As we release new Widgets as Beta we will include them in this section if the toolbox.
+As we release new Widgets as Beta we will include them in this section in the toolbox.
 
 ## In This Section
 
@@ -16,3 +16,4 @@ As we release new Widgets as Beta we will include them in this section if the to
  - [Circle Menu](/developers/documentation/product-guide/widget-properties-events/beta/circle-menu)
  - [Context Menu](/developers/documentation/product-guide/widget-properties-events/beta/context-menu)
  - [Share This](/developers/documentation/product-guide/widget-properties-events/beta/share-this)
+ - [jPlayer](/developers/documentation/product-guide/widget-properties-events/beta/jplayer)

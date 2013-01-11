@@ -42,6 +42,23 @@ If true, then the returned JSON string will be indented and formatted for human 
 
 Converts a Javascript object into a JSON string. This is a useful if you want to send a Web Service a JSON object as well as viewing an object in a human readable format. If you set the optional second parameter to true, then AC will format the JSON string so it is nicely formatted and indented.
 
+## Example
+
+    var object = {
+      firstName:"John",
+      lastName:"Smith", 
+      address:"Sesame Street"
+    };
+    
+    app.alert("Last Name: " + object.lastName);
+    // output: Last Name: Smith
+
+    var jsonString = app.OBJ2JSON(object);
+    app.alert("jsonString: " + jsonString);
+
+    // output: {"firstName":"John","lastName":"Smith","address":"Sesame Street"}
+
+
 ## See Also
 
  - [Data Conversion](/developers/documentation/scripting-apis/client-api/conversion-functions/) Functions
