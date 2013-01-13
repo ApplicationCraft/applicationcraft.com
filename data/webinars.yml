@@ -1,14 +1,14 @@
 sales:
   -
-    date: "Tuesday January 15, 2013: 2-3PM"
+    date: "Tuesday January 15, 2013: 2-3PM GMT"
     url: https://attendee.gotowebinar.com/register/4058650708892476928
 
   -
-    date: "Tuesday January 22, 2013: 5-6PM"
+    date: "Tuesday January 22, 2013: 5-6PM GMT"
     url: https://attendee.gotowebinar.com/register/610917595233622016
 
   -
-    date: "Tuesday January 29, 2013: 6-7PM"
+    date: "Tuesday January 29, 2013: 6-7PM GMT"
     url: https://attendee.gotowebinar.com/register/1882490698128698368
 
 clinics:

@@ -14,6 +14,7 @@ Next, copy and paste all of the following code into this new file. This code can
 
 ##Client Side Javascript
 
+
 	// APPLICATION CRAFT XTIFY SUPPORT API
 	// LAST UPDATED : 2013-01-04
 
@@ -34,6 +35,7 @@ Next, copy and paste all of the following code into this new file. This code can
 	        },
 	        custom: {}
 	    },    
+	    richId:"", // set to "" if not used or the Rich ID if used
 	    isReady: false, // true once xtify.init() has completed
 	    xid: undefined, // Unique App Instance ID
 	    testXid: undefined, // A test XID
@@ -53,16 +55,55 @@ Next, copy and paste all of the following code into this new file. This code can
 	    location: {},
 	    // Push object
 	    push: {},
+	    // Rich Notification Handling
+	    rich: {},
 	    // Error handling
 	    error: 0,
 	    errorMessage: ""
 	};
 
+	/////////////// Rich Notification Handling
+
+	xtify.rich.getId = function (mid, callback) {
+	    if(mid==="" || mid===undefined) {
+	        xtify.error=true;
+	        xtify.errorMessage="No Rich ID specified";
+	        callback(true, "");
+	    }
+	    else {
+	        var apiUrl = "http://sdk.api.xtify.com/2.0/rn/" + xtify.xid + "/details?appKey=" + 
+	            xtify.applicationKey + "&mid=" + xtify.richId;
+	        app.httpRequest(apiUrl, "GET", function(data, error, httpResponse){
+	            if(error) {
+	                if(callback!==undefined)
+	                    callback(true, "Error");
+	            }
+	            else {
+	                if(callback!==undefined)
+	                    callback(false, data);
+	            }
+	        }, undefined, "JSON", {"Content-Type":"application/json"});             
+	    }
+	};
+
+	xtify.rich.getPending = function (callback) {
+	    var apiUrl = "http://sdk.api.xtify.com/2.0/rn/" + xtify.xid + "/pending?appKey=" + xtify.applicationKey
+	    app.httpRequest(apiUrl, "GET", function(data, error, httpResponse){
+	        if(error) {
+	            if(callback!==undefined)
+	                callback(true, httpResponse.responseText);
+	        }
+	        else {
+	            xtify.richData = data;
+	            if(callback!==undefined)
+	                callback(false, data);
+	        }
+	    }, undefined, "JSON", {"Content-Type":"application/json"});             
+	};
 
 	/////////////// Top Level functions
 
 	xtify.init = function () {
-
 	    // Get the relevant Application Key
 	    if(app.getPlatform()=="android") 
 	        xtify.applicationKey = xtify.applicationKeyAndroid;
@@ -72,7 +113,10 @@ Next, copy and paste all of the following code into this new file. This code can
 	        xtify.applicationKey = xtify.applicationKeyiOS;
 	    else if(xtify.applicationTestPlatform=='android')
 	        xtify.applicationKey = xtify.applicationKeyAndroid;
-	          
+	        
+	    // Initialization
+	    xtify.richId = "";          
+
 	    // Now do the bits that will only work if it is a Native app
 	    if (app.getPlatform()=="android" || app.getPlatform()=="ios"){  
 	        xtify.error=false;
@@ -98,13 +142,14 @@ Next, copy and paste all of the following code into this new file. This code can
 	                var xtifyKeys = {"SN": 1, "aps" : 1, "com.xtify.sdk.NOTIFICATION_TITLE" : 1, "com.xtify.sdk.NOTIFICATION_CONTENT" : 1, "com.xtify.sdk.NOTIF_ACTION_TYPE" : 1, "com.xtify.sdk.NOTIF_ACTION_DATA" : 1};
 	                xtify.notification.custom = {};
 	                for (var key in data){
+	                    if(key=="RN") 
+	                        xtify.richId = data[key];
 	                    if (xtifyKeys[key] === undefined)
 	                        xtify.notification.custom[key] = data[key];
 	                }
 	                // Get XID
 	                window.plugins.XtifySDK.getXid(function(xid) {
 	                    // Got the XID successfully
-	                    xtify.xid = xid;
 	                    // Get isRegistered
 	                    if(app.getPlatform=='android') {
 	                        window.plugins.XtifySDK.isRegistered(
@@ -131,22 +176,26 @@ Next, copy and paste all of the following code into this new file. This code can
 	                    }
 	                    // Fire user callback function
 	                    xtify.isReady = true;
-	                    xtify.error = true
+	                    xtify.error = false;
+	                    xtify.errorMessage += ""
+	                    xtify.xid = xid;
 	                    xtify.startedCallback();
-	                }, function(error) {
+	                }, 
+	                // Error from the Xtify SDK
+	                function(error) {
 	                    xtify.xid = "Error";
+	                    xtify.errorMessage += "XID Error. "
 	                    xtify.error = true
 	                    xtify.isReady = true;
 	                    xtify.startedCallback();                    
-	                    xtify.errorMessage += "XID Error. "
 	                });            
 	            }
 	            , function (error) {
 	                // Some sort of error from the Xtify start
 	                xtify.isReady = true;
-	                xtify.startedCallback();   
 	                xtify.error=true;
-	                xtify.errorMessage=error;
+	                xtify.errorMessage=error;                
+	                xtify.startedCallback();   
 	            });          
 	    
 	    }
@@ -329,7 +378,7 @@ Next, copy and paste all of the following code into this new file. This code can
 	/////////////// PUSH FUNCTIONS
 	/////////////// These functions require the standard SSJ function to be loaded
 
-	function _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback) {
+	function _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, rich, callback) {
 	    // Basic parameter checking
 	    if(sendAudience===undefined || sendAudience ==="") {
 	        callback(true, "Invalid sendAudience parameter");
@@ -381,6 +430,8 @@ Next, copy and paste all of the following code into this new file. This code can
 	            }
 	        }
 	    };
+	    if(action!==undefined)
+	        x.content.rich = rich;
 	    
 	    // sendAudience specific parts
 	    switch(sendAudience) {
@@ -404,7 +455,25 @@ Next, copy and paste all of the following code into this new file. This code can
 	xtify.push.quickNotification = function(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback) {
 	    
 	    // Prepare the push object
-	    var x = _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback);
+	    var x = _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, undefined, callback);
+	    if(x===false)
+	        return;
+	 
+	    // Call the Server Side Javascript function so the API key is kept secure
+	    app.callSSJ('xtifySend', function(error, data, httpResponse) {
+	        if(data.ResponseCode=="202")
+	            callback(false, "");
+	        else 
+	            callback(true, data.ResponseCode + " " + data.Content);
+	    }, [x]);    
+	    
+	};
+
+	xtify.push.quickRichNotification = function(sendAudience, sendAudienceData, txtMessage, txtButton, customData, rich, callback) {
+	    
+	    // Prepare the push object
+	    var action = "RICH";
+	    var x = _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, rich, callback);
 	    if(x===false)
 	        return;
 	 
@@ -437,7 +506,6 @@ Next, copy and paste all of the following code into this new file. This code can
 	    }, [x]);         
 	    
 	};
-
 
 ##Server Side Javascript
 If you intend to use the Notification API, you will need to add this to your Server Side Javascript code. Be sure to set your own API key.
