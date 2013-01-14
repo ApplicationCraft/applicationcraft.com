@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-9edbb35b.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-98fd6d3b.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -130,6 +130,7 @@ var xtify = {
         },
         custom: {}
     },    
+    richId:&quot;&quot;, // set to &quot;&quot; if not used or the Rich ID if used
     isReady: false, // true once xtify.init() has completed
     xid: undefined, // Unique App Instance ID
     testXid: undefined, // A test XID
@@ -149,16 +150,55 @@ var xtify = {
     location: {},
     // Push object
     push: {},
+    // Rich Notification Handling
+    rich: {},
     // Error handling
     error: 0,
     errorMessage: &quot;&quot;
 };
 
+/////////////// Rich Notification Handling
+
+xtify.rich.getId = function (mid, callback) {
+    if(mid===&quot;&quot; || mid===undefined) {
+        xtify.error=true;
+        xtify.errorMessage=&quot;No Rich ID specified&quot;;
+        callback(true, &quot;&quot;);
+    }
+    else {
+        var apiUrl = &quot;http://sdk.api.xtify.com/2.0/rn/&quot; + xtify.xid + &quot;/details?appKey=&quot; + 
+            xtify.applicationKey + &quot;&amp;mid=&quot; + xtify.richId;
+        app.httpRequest(apiUrl, &quot;GET&quot;, function(data, error, httpResponse){
+            if(error) {
+                if(callback!==undefined)
+                    callback(true, &quot;Error&quot;);
+            }
+            else {
+                if(callback!==undefined)
+                    callback(false, data);
+            }
+        }, undefined, &quot;JSON&quot;, {&quot;Content-Type&quot;:&quot;application/json&quot;});             
+    }
+};
+
+xtify.rich.getPending = function (callback) {
+    var apiUrl = &quot;http://sdk.api.xtify.com/2.0/rn/&quot; + xtify.xid + &quot;/pending?appKey=&quot; + xtify.applicationKey
+    app.httpRequest(apiUrl, &quot;GET&quot;, function(data, error, httpResponse){
+        if(error) {
+            if(callback!==undefined)
+                callback(true, httpResponse.responseText);
+        }
+        else {
+            xtify.richData = data;
+            if(callback!==undefined)
+                callback(false, data);
+        }
+    }, undefined, &quot;JSON&quot;, {&quot;Content-Type&quot;:&quot;application/json&quot;});             
+};
 
 /////////////// Top Level functions
 
 xtify.init = function () {
-
     // Get the relevant Application Key
     if(app.getPlatform()==&quot;android&quot;) 
         xtify.applicationKey = xtify.applicationKeyAndroid;
@@ -168,6 +208,9 @@ xtify.init = function () {
         xtify.applicationKey = xtify.applicationKeyiOS;
     else if(xtify.applicationTestPlatform==&#39;android&#39;)
         xtify.applicationKey = xtify.applicationKeyAndroid;
+
+    // Initialization
+    xtify.richId = &quot;&quot;;          
 
     // Now do the bits that will only work if it is a Native app
     if (app.getPlatform()==&quot;android&quot; || app.getPlatform()==&quot;ios&quot;){  
@@ -194,13 +237,14 @@ xtify.init = function () {
                 var xtifyKeys = {&quot;SN&quot;: 1, &quot;aps&quot; : 1, &quot;com.xtify.sdk.NOTIFICATION_TITLE&quot; : 1, &quot;com.xtify.sdk.NOTIFICATION_CONTENT&quot; : 1, &quot;com.xtify.sdk.NOTIF_ACTION_TYPE&quot; : 1, &quot;com.xtify.sdk.NOTIF_ACTION_DATA&quot; : 1};
                 xtify.notification.custom = {};
                 for (var key in data){
+                    if(key==&quot;RN&quot;) 
+                        xtify.richId = data[key];
                     if (xtifyKeys[key] === undefined)
                         xtify.notification.custom[key] = data[key];
                 }
                 // Get XID
                 window.plugins.XtifySDK.getXid(function(xid) {
                     // Got the XID successfully
-                    xtify.xid = xid;
                     // Get isRegistered
                     if(app.getPlatform==&#39;android&#39;) {
                         window.plugins.XtifySDK.isRegistered(
@@ -227,22 +271,26 @@ xtify.init = function () {
                     }
                     // Fire user callback function
                     xtify.isReady = true;
-                    xtify.error = true
+                    xtify.error = false;
+                    xtify.errorMessage += &quot;&quot;
+                    xtify.xid = xid;
                     xtify.startedCallback();
-                }, function(error) {
+                }, 
+                // Error from the Xtify SDK
+                function(error) {
                     xtify.xid = &quot;Error&quot;;
+                    xtify.errorMessage += &quot;XID Error. &quot;
                     xtify.error = true
                     xtify.isReady = true;
                     xtify.startedCallback();                    
-                    xtify.errorMessage += &quot;XID Error. &quot;
                 });            
             }
             , function (error) {
                 // Some sort of error from the Xtify start
                 xtify.isReady = true;
-                xtify.startedCallback();   
                 xtify.error=true;
-                xtify.errorMessage=error;
+                xtify.errorMessage=error;                
+                xtify.startedCallback();   
             });          
 
     }
@@ -425,7 +473,7 @@ xtify.location.update = function(lat, lng, callback){
 /////////////// PUSH FUNCTIONS
 /////////////// These functions require the standard SSJ function to be loaded
 
-function _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback) {
+function _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, rich, callback) {
     // Basic parameter checking
     if(sendAudience===undefined || sendAudience ===&quot;&quot;) {
         callback(true, &quot;Invalid sendAudience parameter&quot;);
@@ -477,6 +525,8 @@ function _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButto
             }
         }
     };
+    if(action!==undefined)
+        x.content.rich = rich;
 
     // sendAudience specific parts
     switch(sendAudience) {
@@ -500,7 +550,25 @@ function _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButto
 xtify.push.quickNotification = function(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback) {
 
     // Prepare the push object
-    var x = _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, callback);
+    var x = _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, undefined, callback);
+    if(x===false)
+        return;
+
+    // Call the Server Side Javascript function so the API key is kept secure
+    app.callSSJ(&#39;xtifySend&#39;, function(error, data, httpResponse) {
+        if(data.ResponseCode==&quot;202&quot;)
+            callback(false, &quot;&quot;);
+        else 
+            callback(true, data.ResponseCode + &quot; &quot; + data.Content);
+    }, [x]);    
+
+};
+
+xtify.push.quickRichNotification = function(sendAudience, sendAudienceData, txtMessage, txtButton, customData, rich, callback) {
+
+    // Prepare the push object
+    var action = &quot;RICH&quot;;
+    var x = _preparePushObject(sendAudience, sendAudienceData, txtMessage, txtButton, customData, action, rich, callback);
     if(x===false)
         return;
 
@@ -628,7 +696,7 @@ function xtifySend(objXtify) {
                 
                   
                     <p>
-                      Tuesday January 15, 2013: 2-3PM
+                      Tuesday January 15, 2013: 2-3PM GMT
                       <span>
                         <a href="/webinars">more info</a>
                         
@@ -638,7 +706,7 @@ function xtifySend(objXtify) {
                     </p>
                   
                     <p>
-                      Tuesday January 22, 2013: 5-6PM
+                      Tuesday January 22, 2013: 5-6PM GMT
                       <span>
                         <a href="/webinars">more info</a>
                         
@@ -648,7 +716,7 @@ function xtifySend(objXtify) {
                     </p>
                   
                     <p>
-                      Tuesday January 29, 2013: 6-7PM
+                      Tuesday January 29, 2013: 6-7PM GMT
                       <span>
                         <a href="/webinars">more info</a>
                         

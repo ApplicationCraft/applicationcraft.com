@@ -5,10 +5,101 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2013-01-10T00:00:00Z</updated>
+  <updated>2013-01-14T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Quick and Easy Database CRUD with Parse</title>
+    <link rel="alternate" href="/blog/2013/01/quick-and-easy-database-crud-with-parse/"/>
+    <id>/blog/2013/01/quick-and-easy-database-crud-with-parse/</id>
+    <published>2013-01-14T00:00:00Z</published>
+    <updated>2013-01-14T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Over Christmas we introduced the easiest yet way for you to to create, read, update and delete data in any AC application. We partnered up with &lt;a href="http://parse.com"&gt;Parse&lt;/a&gt; to provide an extremely low barrier to entry data backend using their &lt;a href="https://parse.com/docs/rest#objects"&gt;Objects API&lt;/a&gt;. Making the whole &lt;a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; process amazingly easy to implement into any app.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Over Christmas we introduced the easiest yet way for you to to create, read, update and delete data in any AC application. We partnered up with &lt;a href="http://parse.com"&gt;Parse&lt;/a&gt; to provide an extremely low barrier to entry data backend using their &lt;a href="https://parse.com/docs/rest#objects"&gt;Objects API&lt;/a&gt;. Making the whole &lt;a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; process amazingly easy to implement into any app.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;#39;t go into too much detail here as the &lt;a href="http://www.applicationcraft.com/developers/documentation/product-guide/advanced-features/parse/objects/"&gt;documentation&lt;/a&gt; already does that well. So instead I will prove to you you just how easy it is to use.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Available Methods&lt;/h2&gt;
+
+&lt;p&gt;We have created a new &lt;code&gt;parse.objects&lt;/code&gt; class which your app has access to. This new class contains 5 methods which cover everything you need to create, read, update and delete data, as well as a powerful querying API:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectcreate"&gt;parse.objects.create()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectread"&gt;parse.objects.read()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectupdate"&gt;parse.objects.update()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectdelete"&gt;parse.objects.delete()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectquery"&gt;parse.objects.query()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_1"&gt;Example Scenario&lt;/h2&gt;
+
+&lt;p&gt;I want to keep a record of my book collection, including details of each book. So lets start by creating an object (or record) for each book in my collection (I only have one right now):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parse.objects.create(&amp;#39;books&amp;#39;, {
+  title: &amp;#39;The Lord of the Rings&amp;#39;,
+  author: &amp;#39;JRR Tolkien&amp;#39;
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will return a Javascript object containing the &lt;code&gt;objectId&lt;/code&gt; and the &lt;code&gt;createdAt&lt;/code&gt; date.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  objectId: &amp;quot;DM5XhFTiPR&amp;quot;,
+  createdAt: &amp;quot;2013-01-14T11:41:24.174Z&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I forgot to add the publication date, so let&amp;#39;s update my record:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parse.objects.update(&amp;#39;books&amp;#39;, &amp;#39;DM5XhFTiPR&amp;#39;, {
+  publishedAt: &amp;quot;1954-07-21T00:00:00.000Z&amp;quot;
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;#39;s take a look at our updated object using the &lt;code&gt;read&lt;/code&gt; method:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parse.objects.read(&amp;#39;books&amp;#39;, &amp;#39;DM5XhFTiPR&amp;#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Our object now looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  title: &amp;#39;The Lord of the Rings&amp;#39;,
+  author: &amp;#39;JRR Tolkien&amp;#39;,
+  publishedAt: &amp;#39;1954-07-21T00:00:00.000Z&amp;#39;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It turns out that my wife just threw away my book, so I now need to delete this object:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parse.objects.delete(&amp;#39;books&amp;#39;, &amp;#39;DM5XhFTiPR&amp;#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But being a good wife that she is, she bought me a shiny new replacement, along with a few others for me to read. So I created a new record for each of my new books.&lt;/p&gt;
+
+&lt;p&gt;I now have quite a few books in collection, but want to find only those written by JRR Tolkien:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parse.objects.query(&amp;#39;books&amp;#39;, {
+  where: {
+    author: &amp;#39;JRR Tolkien&amp;#39;
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above will return me a &lt;code&gt;results&lt;/code&gt; array, containing all objects which have an author of &amp;#39;JRR Tolkien&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;Those are the basics, and there is of course a lot more that you can do, including some pretty advanced querying. But you should be able to see from the above how quick and easy it is to use the new Parse powered database support in Application Craft.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.applicationcraft.com/developers/documentation/product-guide/advanced-features/parse/"&gt;Check out the docs&lt;/a&gt; for more, and leave your comments below.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Push Notification app in minutes</title>
     <link rel="alternate" href="/blog/2013/01/push-notifications/"/>
@@ -280,58 +371,6 @@ That was the key to paradise!  I started writing my own CSS styles and in a shor
 &lt;p&gt;The AC Weinre Debugging server lets you use the familiar webkit developer tools to debug your mobile web apps, and is yet another way that we are making it easier to build apps.&lt;/p&gt;
 
 &lt;p&gt;You can check it out at &lt;a href="http://mobile-build-debug.applicationcraft.com/"&gt;http://mobile-build-debug.applicationcraft.com/&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Application Craft VS Appcelerator Titanium</title>
-    <link rel="alternate" href="/blog/2012/12/application-craft-vs-appcelerator-titanium/"/>
-    <id>/blog/2012/12/application-craft-vs-appcelerator-titanium/</id>
-    <published>2012-12-07T00:00:00Z</published>
-    <updated>2012-12-07T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;We received an interesting question a few days ago. Someone asked us what advantages Application Craft has over Appcelerator&amp;#39;s Titanium. I thought it was a really good question, and one that I wanted to explore a little deeper.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;100% Cloud Based&lt;/h2&gt;
-</summary>
-    <content type="html">&lt;p&gt;We received an interesting question a few days ago. Someone asked us what advantages Application Craft has over Appcelerator&amp;#39;s Titanium. I thought it was a really good question, and one that I wanted to explore a little deeper.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;100% Cloud Based&lt;/h2&gt;
-
-&lt;p&gt;The first biggest advantage over Titanium and most other development platforms, is that AC is 100% cloud based. From the moment you &lt;a href="/get-started"&gt;sign up for the free trial&lt;/a&gt;, right through to [optionally] compiling and running your finished application, the whole experience requires nothing more than your favourite browser and an internet connection.&lt;/p&gt;
-
-&lt;p&gt;Our web based console and Integrated Development Environment (IDE) are all that is needed to build any kind of app that you wish. Titanium can have quite a few requirements, including Java, Python, Android SDK&amp;#39;s, Apple xCode (if you have a Mac).  You even have to download the Titanium IDE! Download an IDE?! It&amp;#39;s not 1999 you know. &lt;/p&gt;
-
-&lt;p&gt;With AC there is no requirement for you to download or install anything at all. Your browser is all you need.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;Visual Development&lt;/h2&gt;
-
-&lt;p&gt;The second big advantage to building your apps with AC, is that you can do so with very little code. In most cases, all you need to do is drag and drop a widget here and there, and then plumb these together using our simple events system.&lt;/p&gt;
-
-&lt;p&gt;Widgets are at the heart of any AC app, and we have dozens of them for you to use. From simple label and text widgets, to full-on charting. Every single one of these are simply dragged and dropped onto a page in your app, and configured to your requirements by setting a few properties.&lt;/p&gt;
-
-&lt;p&gt;But if you need to write some code, you can do so using the integrated code editor.&lt;/p&gt;
-
-&lt;p&gt;Developing a Titanium app definately requires a lot technical experience and knowledge, which is something that we have worked hard to reduce for our users.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;We host your apps&lt;/h2&gt;
-
-&lt;p&gt;If you are building a web app, we will host it at no extra cost to you. No need to find and pay for a web hosting provider, and no need to setup and configure your hosting. You save your app, and its hosted!&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;Mobile Build&lt;/h2&gt;
-
-&lt;p&gt;For those of you who want to release your apps on mobile and tablet devices via the app stores, you can do that too.&lt;/p&gt;
-
-&lt;p&gt;With one click, &lt;a href="http://www.applicationcraft.com/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt; will build and compile your web app for use as a native mobile app, opening up the device features to you, along with a host of plugins that will add even more functionality to your app.&lt;/p&gt;
-
-&lt;h2 id="toc_4"&gt;Server Side Javascript&lt;/h2&gt;
-
-&lt;p&gt;While you can do almost anything with client side code, there may come a time when you need the power and security of a server. &lt;a href="/developers/documentation/scripting-apis/server-side-scripting-overview/"&gt;Server-Side-Javascript (SSJ)&lt;/a&gt; allows you to write Javascript code which is then run on the server, and makes it even easier to work with data.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;I could go on and on, but I&amp;#39;ll save the smaller differences for another day. But hopefully, you can see that there are some pretty amazing advantages to using Application Craft, and you can &lt;a href="/get-started"&gt;enjoy them all for only $14 per month&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>
