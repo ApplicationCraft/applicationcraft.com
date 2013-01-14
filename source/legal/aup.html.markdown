@@ -63,14 +63,6 @@ AC has certain soft and hard limits in using its service. Hard limits are automa
 
 At some point we will introduce additional charges for those users whose Apps generate large amounts of traffic above the quotas specified below. These charges will be fair and reasonable in any case and they will be clearly set out on this page.
 
-**Application Craft Free Platform**
-
-  - Network Bandwidth: 50GB/month - Soft
-  - Image &amp; Resource Storage: 200MB - Soft
-  - Server Side API Requests: 250,000/month - Soft
-  - Apps: 10 - Hard
-  - Request Length: 60 seconds - Hard</li>
-
 **Application Craft Cloud Platform**
 
   - Network Bandwidth: 100GB/month/developer - Soft
