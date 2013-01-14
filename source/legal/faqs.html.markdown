@@ -57,5 +57,5 @@ You can cancel your annual subscription at any time but your account will contin
 Your account will be disabled. Your data will remain but you will not be able to access it or your Apps. You will be able to access them again by upgrading to AC Cloud again.
  
 ### <a id="Limitations"></a>Are there usage limitations?
-Yes, we have an Acceptable Usage Policy document that covers both how hard your app can hit the platorm as well as restrictions on prohibited content and actions.
+Yes, we have an Acceptable Usage Policy document that covers both how hard your app can hit the platform as well as restrictions on prohibited content and actions.
  
