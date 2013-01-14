@@ -51,5 +51,5 @@ This is a simple operation. All you need to know is the objectId of the object t
 
 ## See Also
 
-- [parse.objects](developers/documentation/scripting-apis/server-side-api/parse-object)
+- [parse.objects](/developers/documentation/scripting-apis/server-side-api/parse-object)
 

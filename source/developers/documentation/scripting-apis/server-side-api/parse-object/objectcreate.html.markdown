@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-**parse.objects.create()(** (className, data) **)**
+**`parse.objects.create(className, data)`**
 
 ## Parameters
 

@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-**parse.objects.query()(** (className, query) **)**
+**`parse.objects.query(className, query)`**
 
 ## Parameters
 
@@ -46,4 +46,4 @@ query is a JSON object (all fields are optional):
 
 
 ##See Also
-- [Parse Queries](developers/documentation/product-guide/advanced-features/parse/objects/parse-queries)
+- [Parse Queries](/developers/documentation/product-guide/advanced-features/parse/objects/parse-queries)

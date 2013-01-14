@@ -9,7 +9,9 @@ full_width: true
 If you haven't already, create an App in Parse.com. This can be loosely thought of as your database. 
 
 ##Create a Class
-Next, add a class. A Class can be thought of as a database table. However, they are more flexible and easier to maintain than a regular database table.
+*This step is completely optional, as when you start creating data, the class will be created for you if it does not already exist.*
+
+A Class can be thought of as a database table. However, they are more flexible and easier to maintain than a regular database table.
 
 The screenshot below shows two classes set up in the Data Browser of our CRM App - **Customers** and **Contacts**. 
 
@@ -23,6 +25,8 @@ One thing that is great about NoSQL databases is that you do not need to prepare
 - ACL - who has permissions to access this row (read the Parse.com documentation for more on this)
 
 ##Adding Columns
+*This is also completely optional and not required.*
+
 Although you can add columns (fields) in the Data Browser, you don't actually need to. When you add data to your row, you do so by passing in JSON object. Take a look at the Customers class. 
 
 ![Parse.com data browser](/img/docs/parse-data-customers.png)

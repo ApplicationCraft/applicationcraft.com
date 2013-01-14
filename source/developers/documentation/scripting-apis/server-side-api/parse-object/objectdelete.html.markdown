@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-**parse.objects.delete()(** (className, objectId) **)**
+**`parse.objects.delete(className, objectId)`**
 
 ## Parameters
 

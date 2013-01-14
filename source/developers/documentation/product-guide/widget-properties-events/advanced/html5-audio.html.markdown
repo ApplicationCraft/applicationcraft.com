@@ -617,7 +617,7 @@ On Volume Change
 
  - [Video & Audio Widgets](/developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/)
  - [Video](/developers/documentation/product-guide/widget-properties-events/advanced/video)
-- [jPlayer Widget](developers/documentation/product-guide/widget-properties-events/advanced/jplayer/)
+- [jPlayer Widget](/developers/documentation/product-guide/widget-properties-events/advanced/jplayer/)
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [Audio/Video Events](/developers/documentation/product-guide/advanced-important-widgets/video-audio-widgets/property-methods-event-summary/videvents)
  - [Video & Audio Object Functions](/developers/documentation/scripting-apis/client-api/widget-object-functions/video-audio-youtube-widget/)

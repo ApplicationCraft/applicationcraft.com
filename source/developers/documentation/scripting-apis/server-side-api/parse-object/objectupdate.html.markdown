@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-**parse.objects.update()(** (className, objectId, data) **)**
+**`parse.objects.update(className, objectId, data)`**
 
 ## Parameters
 

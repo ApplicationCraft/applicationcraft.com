@@ -54,7 +54,7 @@ full_width: false
         <% end %>
       <% else %>
         <p>
-          We're working on our next Developer Clinic. Please follow @appcrafty on Twitter to find out when new sessions are announced and to suggest topics.
+          We're working on our next Webinar. Please follow @appcrafty on Twitter to find out when new sessions are announced and to suggest topics.
           <a href="https://twitter.com/appcrafty" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow us @appcrafty</a>
         </p>
       <% end %>
@@ -70,7 +70,11 @@ full_width: false
       <% if data.webinars.clinics.size > 0 %>
         <% data.webinars.clinics.each_with_index do |w,i| %>
           <div>
-            <h4><%= w.title %><small><%= w.date %></small></h4>
+            <h4><%= w.title %></h4>
+            <h5>
+              <%= w.date %> &ndash;
+              <a href="<%= w.url %>" target="_blank">Register for this Webinar &raquo;</a>
+            </h5>
             <p><%= w.description %></p>
             <% if w.full %>
               <em>Sorry, but this webinar is now full. The webinar recording will be posted on our website shortly after broadcast for those unable to join us.</em>

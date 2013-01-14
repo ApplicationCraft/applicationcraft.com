@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-**parse.objects.read()(** (className, objectId) **)**
+**`parse.objects.read(className, objectId)`**
 
 ## Parameters
 
