@@ -1128,6 +1128,10 @@ if ($args = google_analytics.htm) {
   rewrite ^ /developers/documentation/product-guide/advanced-features/google-analytics/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/google_analytics.htm /developers/documentation/product-guide/advanced-features/google-analytics/? permanent;
+
+
+
+
 if ($args = permissioning.htm) {
   rewrite ^ /developers/documentation/product-guide/advanced-features/logging-support/permissioning/? permanent;
 }
