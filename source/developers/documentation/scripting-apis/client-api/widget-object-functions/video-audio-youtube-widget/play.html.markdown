@@ -19,6 +19,7 @@ Play the specified video/audio.
     app.w("Video").play();
     
 For jPlayer widget
+
 	app.w("jPlayer").play(30);  //play from 30 sec allows you to Jump to a point, in seconds, from the start of the video/audio with jPlayer.
 
    
