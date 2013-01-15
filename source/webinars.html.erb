@@ -67,7 +67,7 @@ full_width: false
     <section id="clinic-schedule">
       <h2>Upcoming Developer Clinics...</h2>
 
-      <% if data.webinars.clinics.size > 0 %>
+      <% if (data.webinars.clinics || []).size > 0 %>
         <% data.webinars.clinics.each_with_index do |w,i| %>
           <div>
             <h4><%= w.title %></h4>
