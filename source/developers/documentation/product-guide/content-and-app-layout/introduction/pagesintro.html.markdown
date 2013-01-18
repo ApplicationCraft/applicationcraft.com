@@ -15,8 +15,6 @@ The most comprehensive way to access your pages is at the bottom of the main lay
 
 ![Page Bar](/img/docs/page_bar.zoom49.png)
 
-Page Bar
-
 ## Changing the Page Order
 
 The page order matters only as far as you use Page Jumps that refer to 'Next' or 'Previous' pages. Action Buttons can jump directly to any pages. It makes sense, though, to organize your pages logically and you can modify the page order by pressing the 'Page Order' button in the 'App' menu bar. You can move pages by dragging a page or by using the buttons.
