@@ -24,7 +24,7 @@ Action
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/distribution_vertical.png">Distribution\_vertical</img>
+  <img src="/img/docs/distribution_vertical.png"></img>
 
 </td>
 <td width="16">
@@ -36,7 +36,7 @@ The top edges of the selected objects will be repositioned such that they are an
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/distribution_vertical2.png">Distribution\_vertical2</img>
+  <img src="/img/docs/distribution_vertical2.png"></img>
 
 </td>
 <td width="16">
@@ -48,7 +48,7 @@ The centers of the selected objects will be repositioned such that they are an e
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/distribution_vertical3.png">Distribution\_vertical3</img>
+  <img src="/img/docs/distribution_vertical3.png"></img>
 
 </td>
 <td width="16">
@@ -60,7 +60,7 @@ The bottom edges of the selected objects will be repositioned such that they are
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/distribution_horizontal.png">Distribution\_horizontal</img>
+  <img src="/img/docs/distribution_horizontal.png"></img>
 
 </td>
 <td width="16">
@@ -72,7 +72,7 @@ The left edges of the selected objects will be repositioned such that they are a
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/distribution_horizontal2.png">Distribution\_horizontal2</img>
+  <img src="/img/docs/distribution_horizontal2.png"></img>
 
 </td>
 <td width="16">
@@ -84,7 +84,7 @@ The centers of the selected objects will be repositioned such that they are an e
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/distribution_horizontal3.png">Distribution\_horizontal3</img>
+  <img src="/img/docs/distribution_horizontal3.png"></img>
 
 </td>
 <td width="16">
