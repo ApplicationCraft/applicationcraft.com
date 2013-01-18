@@ -9,7 +9,7 @@ full_width: true
 
 Repeater Containers allow a completely unlimited way to lay out tabular data from an external data source or for UI based data entry. There are some important resources you should be aware of that help you find your way around.
 
- - [Learning Center](http://www.applicationcraft.com/learning-center#PowerWidgets) - there is a section on Setting & Getting Widget Data, that includes a video and information about the Repeater
+ - [Training Videos](http://www.applicationcraft.com/developers/training-videos/widget-data/) - there is a section on Widget Data, that includes a video and information about the Repeater
 
  - [Detailed Widget Summary](/developers/documentation/product-guide/widget-properties-events/containers/repeater) - describes the Widget properties
 
