@@ -24,7 +24,7 @@ Action
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/size_horizontal.png">Size horizontal</img>
+  <img src="/img/docs/size_horizontal.png"></img>
 
 </td>
 <td width="16">
@@ -36,7 +36,7 @@ Selected Widgets will have the same width
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/size_height.png">Size height</img>
+  <img src="/img/docs/size_height.png"></img>
 
 </td>
 <td width="16">
@@ -48,7 +48,7 @@ Selected Widgets will have the same height
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/size_equal.png">Size equal</img>
+  <img src="/img/docs/size_equal.png"></img>
 
 </td>
 <td width="16">
