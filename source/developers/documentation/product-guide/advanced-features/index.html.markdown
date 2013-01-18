@@ -14,6 +14,7 @@ full_width: true
  - [Parse.com](/developers/documentation/product-guide/advanced-features/parse/)
  - [Push Notifications](/developers/documentation/product-guide/advanced-features/xpush/)
  - [Accessing Data in other Apps, Databases and APIs](/developers/documentation/product-guide/advanced-features/accessing-data-in-other-apps-databases-and-apis/)
+ - [User Engagement with Intercom.io](/developers/documentation/product-guide/advanced-features/intercom/)
  - [Advertising](/developers/documentation/product-guide/advanced-features/pro-account-advertising)
  - [Data Storage & Management](/developers/documentation/product-guide/advanced-features/data-storage-management/)
  - [Google Analytics](/developers/documentation/product-guide/advanced-features/google-analytics/)
