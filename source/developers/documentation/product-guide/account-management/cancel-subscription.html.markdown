@@ -15,5 +15,5 @@ A check will be made to confirm the user account has the necessary privileges be
 
 **Please note:** Developers do not need to be deleted entirely. You can disable developer users so their work/apps are not deleted but just not available and another developer can be registered to work within your account
 
-More information on cancelling your subscription is available [here](/legal/faqs)
+More information on cancelling your subscription is available [here](/legal/faqs/#Cancel)
 
