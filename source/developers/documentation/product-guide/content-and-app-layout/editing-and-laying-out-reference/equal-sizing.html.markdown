@@ -24,7 +24,7 @@ Action
 </tr>
 <tr>
 <td width="160">
-  <img src="/img/docs/size_horizontal.png">size horizontal</img>
+  <img src="/img/docs/size_horizontal.png">Size horizontal</img>
 
 </td>
 <td width="16">
