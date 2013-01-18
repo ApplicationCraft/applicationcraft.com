@@ -16,15 +16,15 @@ The Photoswipe Widget enables you to load images and thumbnails into a widget th
 <table>
 <tr>
 <td width="291">
- <img src="/img/docs/swipe-tiles.zoom71.png">swipe-tiles</img>
+ <img src="/img/docs/swipe-tiles.zoom71.png"></img>
   
-Tile View - the user clicks and then you get full    window viewing ...
+Tile View - the user clicks and then you get full window viewing ...
 
 </td>
 <td width="11">
 </td>
 <td width="313">
-  <img src="/img/docs/swipe-buttons.zoom69.png">swipe-buttons</img>
+  <img src="/img/docs/swipe-buttons.zoom69.png"></img>
 
 ... as shown here. You can swipe, drag or use the keyboard. Buttons fade away.
 
