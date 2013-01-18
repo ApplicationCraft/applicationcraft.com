@@ -21,7 +21,7 @@ Repeater Containers allow a completely unlimited way to lay out tabular data fro
 
 Below, are some examples of Repeater Containers in action.
 
-![repeater-pdl](/img/docs/repeater-pdl.jpg)
+![repeater-pdl](/img/docs/repeater-pdl.png)
 
 ![Repeating\_container](/img/docs/repeating_container.zoom71.png)
 
