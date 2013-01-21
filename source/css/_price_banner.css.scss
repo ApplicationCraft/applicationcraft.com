@@ -23,6 +23,33 @@ body.home #price-banner {
     font-size: 16px;
   }
 
+  // Google Analytics experiment (A/B test) - Coke 210113
+  #used-by-coke {
+    height: 68px;
+    padding: 0;
+    margin: 0;
+    background: transparent image-url('logos/coke.gif') no-repeat center center;
+
+    @include apply-to(less-than, iphone-portrait) {
+      background-size: 87%;
+    }
+
+    @include apply-to(more-than, iphone-landscape) {
+      height: 90px;
+    }
+
+    @include apply-to(more-than, ipad-portrait) {
+      width: 231px;
+      height: 61px;
+      background-size: 87%;
+    }
+
+    @include apply-to(more-than, ipad-landscape) {
+      width: 330px;
+      height: 103px;
+    }
+  }
+
   .container > div {
     @include apply-to(more-than, ipad-portrait) {
       float: left;
