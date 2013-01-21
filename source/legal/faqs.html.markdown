@@ -27,8 +27,8 @@ You may build as many as you like with both free trial and AC Cloud.
 ### <a id="TrialLimitations"></a>What can I do / not do with the free trial?
 You get all the features that we offer with the following exceptions
 - You cannot export your app from the platform.
-- You can use the download feature and deploy your app to your own web server.
-- You are restricted to a single developer per account.
+- You cannot use the download feature and deploy your app to your own web server.
+- You are not restricted to a single developer per account.
 
 ### <a id="ExtendTrial"></a>Can I extend the free trial?
 You will need to contact support@applicationcraft to do this.
