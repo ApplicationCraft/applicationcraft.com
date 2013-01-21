@@ -122,27 +122,15 @@ app.w(&#39;timeline1&#39;).zoomOut() - zooms out one step
 
 <p>There are a couple of ways to adjust the timeline display area. Firstly, there are some widget methods</p>
 
-<pre><code>[app.w(&#39;Timeline1&#39;).scroll](/developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/scroll) (numDaysToScroll)
-[app.w(&#39;Timeline1&#39;).scrollTo](/developers/documentation/scripting-apis/client-api/useful-browser-functions/scrollto) (date)
-</code></pre>
+<p><a href="/developers/documentation/scripting-apis/client-api/widget-object-functions/timeline/scroll">app.w(&#39;Timeline1&#39;).scroll</a> (numDaysToScroll)</p>
+
+<p><a href="/developers/documentation/scripting-apis/client-api/useful-browser-functions/scrollto">app.w(&#39;Timeline1&#39;).scrollTo</a> (date)</p>
 
 <p>or you can set properties</p>
 
 <pre><code>function handler_btnSetRange_onClick(mouseev){
     app.setProperty(&#39;timeline1&#39;, &#39;timelineMinDate&#39;, app.getValue(&#39;dtStart&#39;));
     app.setProperty(&#39;timeline1&#39;, &#39;timelineMaxDate&#39;, app.getValue(&#39;dtEnd&#39;));
-}
-function handler_sliderH_onSlide(value){
-    var fSize;
-    app.setProperty(&quot;timeline1&quot;, &quot;timelineIconSize&quot;, value);
-    app.setProperty(&quot;timeline1&quot;, &quot;treeIconSize&quot;, value);
-    if(value&lt;32) {
-        fSize = 10;
-    }
-    else {
-        fSize = 10 + (value-32)*0.7;
-    }
-    app.setProperty(&#39;timeline1&#39;, &#39;timelineitemfont&#39;, &quot;normal &quot; + fSize + &quot;px Arial&quot;);
 }
 </code></pre>
 
