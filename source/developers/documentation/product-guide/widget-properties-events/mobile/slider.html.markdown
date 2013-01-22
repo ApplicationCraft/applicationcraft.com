@@ -481,6 +481,18 @@ Margin
 </tr>
 <tr>
 <td width="148">
+Active State BG
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Set the background color of the widget when active.
+
+</td>
+</tr>
+<tr>
+<td width="148">
 Mobile Theme
 
 </td>
