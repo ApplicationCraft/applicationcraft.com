@@ -634,18 +634,6 @@ Margin
 </tr>
 <tr>
 <td width="148">
-Border
-
-</td>
-<td width="15">
-</td>
-<td width="779">
-Specified the line width of the border surrounding a Widget. If you override this and want to revert to the Theme Style Back Color, then open up the property dialog and select the "Use Theme" option.
-
-</td>
-</tr>
-<tr>
-<td width="148">
 Box Sizing
 
 </td>
@@ -653,6 +641,18 @@ Box Sizing
 </td>
 <td width="779">
 content-box/border=box. Content-box - The padding or border of the element are laid out and drawn outside the specified width and height. Border-box -The padding or border element is laid out and drawn inside the specified width and height.
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Border
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Specified the line width of the border surrounding a Widget. If you override this and want to revert to the Theme Style Back Color, then open up the property dialog and select the "Use Theme" option.
 
 </td>
 </tr>
