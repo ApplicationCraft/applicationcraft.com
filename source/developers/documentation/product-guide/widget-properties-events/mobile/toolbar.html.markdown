@@ -411,6 +411,18 @@ This % value specifies the transparency of the Widget.
 </tr>
 <tr>
 <td width="179">
+Box Sizing
+
+</td>
+<td width="20">
+</td>
+<td width="743">
+content-box/border-box. Content-box - The padding or border of the element are laid out and drawn outside the specified width and height. Border-box -The padding or border element is laid out and drawn inside the specified width and height.
+
+</td>
+</tr>
+<tr>
+<td width="179">
 Border
 
 </td>
