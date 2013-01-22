@@ -466,8 +466,30 @@ This % value specifies the transparency of the Widget.
 
 </td>
 </tr>
-</table>
-<table>
+<tr>
+<td width="148">
+Link Color
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+Define the color of linked content in the widget.
+
+</td>
+</tr>
+<tr>
+<td width="148">
+Box Sizing
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+content-box/border-box. Content-box - The padding or border of the element are laid out and drawn outside the specified width and height. Border-box -The padding or border element is laid out and drawn inside the specified width and height.
+
+</td>
+</tr>
 <tr>
 <td width="148">
 Border
