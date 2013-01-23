@@ -17,7 +17,7 @@ This property is available on any Widget that is able to set the Drill Down Filt
 
 This can also be set [Using Automatic Property Settings](/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/using-automatic-property-setti)
 
-![txt\_expr](/img/docs/txt_expr.zoom66.png)
+![txt\_expr](/img/docs/auto_property_settings.zoom58.png)
 
 ## Related Videos
 
