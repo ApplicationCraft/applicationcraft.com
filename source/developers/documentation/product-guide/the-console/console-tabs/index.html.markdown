@@ -17,6 +17,5 @@ full_width: true
  - [Connections](/developers/documentation/product-guide/the-console/console-tabs/connections/)
  - [Queries](/developers/documentation/product-guide/the-console/console-tabs/queries/)
  - [Mobile Build](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/external-html5cssjs-apps) 
- - [Notifiers](/developers/documentation/product-guide/the-console/console-tabs/notifiers)
  - [More](/developers/documentation/product-guide/the-console/console-tabs/more/)
  - [Import/Export](/developers/documentation/product-guide/the-console/import-export/)
