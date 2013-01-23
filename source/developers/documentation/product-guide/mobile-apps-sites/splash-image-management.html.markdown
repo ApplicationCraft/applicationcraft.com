@@ -13,7 +13,7 @@ By default this will be an Application Craft logo, but you can manage and contro
 
 ![splash](/img/docs/splash.zoom83.png)
 
-You can define the images (png format) you wish to use here. If any fields are left empty, the Default Image will be used in its place
+You can define the images you wish to use here. Please note iOS and Android require .png format, Windows Phone requires .jpg format. If any fields are left empty, the Default Image will be used in its place
 
 ## Recommended Properties
 
@@ -326,6 +326,45 @@ High Density Screens
 </td>
 <td width="91">
 720
+
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td width="274">
+  <strong>WP Optional Splash Screen Image</strong>
+
+</td>
+<td width="34">
+</td>
+<td width="78">
+width(px)
+
+</td>
+<td width="28">
+</td>
+<td width="91">
+height(px)
+
+</td>
+</tr>
+
+<tr>
+<td width="274">
+Windows Phone Splash Screen
+</td>
+<td width="34">
+</td>
+<td width="78">
+480
+
+</td>
+<td width="28">
+
+</td>
+<td width="91">
+800
 
 </td>
 </tr>
