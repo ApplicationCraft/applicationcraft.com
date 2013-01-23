@@ -112,13 +112,13 @@
 
 <p>In your App, <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/configuring-the-app-to-access">create a View</a> that references the Query.</p>
 
-<p><img alt="Crud-view-external" src="/img/docs/crud-view-external.zoom51-210f9765.png" /></p>
+<p><img alt="Crud-view-external" src="/img/docs/crud-view-external.zoom51-1cef8bcc.png" /></p>
 
 <h2 id="toc_2">Map your Widget(s) to the View</h2>
 
 <p>In your App you will usually have a Panel Container Widget that contains individual Widgets that will interact with the external database. Map this <a href="/developers/documentation/product-guide/widget-properties-events/containers/panel">Panel Container</a> to point to the View and, in the Fields property of the Panel Container, map any Widgets to the View fields that need to be mapped. You can also use Grids or Repeater Containers with CRUD operations.</p>
 
-<p><img alt="Crud-map-external" src="/img/docs/crud-map-external.zoom57-ca7dd3a2.png" /></p>
+<p><img alt="Crud-map-external" src="/img/docs/crud-map-external.zoom57-cf776241.png" /></p>
 
 <p><strong>Set your &#39;Key Fields&#39; to the View</strong></p>
 
@@ -130,7 +130,7 @@
 
 <p>Locate the Panel Container property &#39;Allow Foreign App Writing&#39;. Assuming that you are using a Panel Container then you only need set this property to true for the Panel Container and not for the Widgets contained within it (as these are mapped via the Panel Container).</p>
 
-<p><img alt="Crud-appwriting-external" src="/img/docs/crud-appwriting-external.zoom58-20549e24.png" /></p>
+<p><img alt="Crud-appwriting-external" src="/img/docs/crud-appwriting-external.zoom58-f845af4c.png" /></p>
 
 <p>This means AC knows where the data came from so that the CRUD functions (shown below) know where to write data back to without you having to think about it.</p>
 
