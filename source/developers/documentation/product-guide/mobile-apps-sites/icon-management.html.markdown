@@ -197,4 +197,74 @@ High Density Screens
 </td>
 </tr>
 </table>
+<table>
+<tr>
+<td width="200">
+  <strong>WP Optional Icon Image</strong>
 
+</td>
+<td width="15">
+</td>
+<td width="65">
+width(px)
+
+</td>
+<td width="18">
+</td>
+<td width="97">
+height(px)
+
+</td>
+</tr>
+<tr>
+<td width="200">
+</td>
+<td width="15">
+</td>
+<td width="65">
+</td>
+<td width="18">
+</td>
+<td width="97">
+</td>
+</tr>
+<tr>
+<td width="200">
+Application Icon
+
+</td>
+<td width="15">
+</td>
+<td width="65">
+62
+
+</td>
+<td width="18">
+
+</td>
+<td width="97">
+62
+
+</td>
+</tr>
+<tr>
+<td width="200">
+Tile Icon
+
+</td>
+<td width="15">
+</td>
+<td width="65">
+173
+
+</td>
+<td width="18">
+
+</td>
+<td width="97">
+173
+
+</td>
+</tr>
+
+</table>
