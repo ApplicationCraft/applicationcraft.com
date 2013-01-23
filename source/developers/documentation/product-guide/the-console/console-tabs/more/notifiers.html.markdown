@@ -33,4 +33,3 @@ Notifiers are used from client API functions. Currently, the [notify()](/develop
 
  - [Workflow](/developers/documentation/product-guide/advanced-features/workflow/)
  - [Notifications](/developers/documentation/product-guide/account-management/notifications)
-
