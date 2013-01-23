@@ -2129,6 +2129,10 @@ if ($args = my_details.htm) {
   rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/my-details/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/my_details.htm /developers/documentation/product-guide/the-console/console-tabs/more/my-details/? permanent;
+if ($args = notifiers.htm) {
+  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/notifiers/? permanent;
+}
+rewrite ^/revisions/current/docs/user-guide/notifiers.htm /developers/documentation/product-guide/the-console/console-tabs/more/notifiers/? permanent;
 if ($args = groups.htm) {
   rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/users-groups/groups/? permanent;
 }
@@ -2157,10 +2161,6 @@ if ($args = more.htm) {
   rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/more/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/more.htm /developers/documentation/product-guide/the-console/console-tabs/more/? permanent;
-if ($args = notifiers.htm) {
-  rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/notifiers/? permanent;
-}
-rewrite ^/revisions/current/docs/user-guide/notifiers.htm /developers/documentation/product-guide/the-console/console-tabs/notifiers/? permanent;
 if ($args = input__output_field_configurat.htm) {
   rewrite ^ /developers/documentation/product-guide/the-console/console-tabs/queries/query-wizard/input-output-field-configurat/? permanent;
 }
