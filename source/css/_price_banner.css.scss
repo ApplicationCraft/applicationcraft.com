@@ -25,28 +25,58 @@ body.home #price-banner {
 
   // Google Analytics experiment (A/B test) - Coke 210113
   #used-by-coke {
-    height: 68px;
+    height: 84px;
     padding: 0;
     margin: 0;
-    background: transparent image-url('logos/coke.gif') no-repeat center center;
+    background: transparent image-url('logos/coke.gif') no-repeat center top;
 
     @include apply-to(less-than, iphone-portrait) {
       background-size: 87%;
     }
 
     @include apply-to(more-than, iphone-landscape) {
-      height: 90px;
+      height: 96px;
     }
 
     @include apply-to(more-than, ipad-portrait) {
       width: 231px;
       height: 61px;
       background-size: 87%;
+      background-position: center 4px;
     }
 
     @include apply-to(more-than, ipad-landscape) {
       width: 330px;
       height: 103px;
+      background-position: center 16px;
+    }
+
+    a {
+      display: block;
+      position: relative;
+      top: 60px;
+      text-align: right;
+      margin-right: 22px;
+      font-family: gotham_mediumregular;
+      text-transform: lowercase;
+      font-size: 12px;
+
+      @include apply-to(more-than, iphone-landscape) {
+        top: 72px;
+        margin-right: 74px;
+      }
+
+      @include apply-to(more-than, ipad-portrait) {
+        top: 44px;
+        margin-right: 18px;
+        font-family: gotham_bookregular;
+      }
+
+      @include apply-to(more-than, ipad-landscape) {
+        top: 76px;
+        margin-right: 29px;
+        ont-family: gotham_mediumregular;
+      }
     }
   }
 
