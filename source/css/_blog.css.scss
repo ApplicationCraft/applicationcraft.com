@@ -4,15 +4,23 @@ body.blog {
     margin-bottom: 60px;
   }
 
-  .blog-social {
-    margin: 70px 0 0 0;
+  article > .blog-social {
+    margin: 0;
+
+    &:last-child {
+      margin-top: 70px;
+    }
 
     > div {
-      float: left;
+      float: left !important;
     }
 
     > .blog-twitter {
       margin-top: 2px;
+    }
+
+    > .blog-gplus {
+      margin: 2px 0 0 10px;
     }
 
     > .blog-facebook {
