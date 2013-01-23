@@ -5,10 +5,38 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2013-01-22T00:00:00Z</updated>
+  <updated>2013-01-23T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>AC Mobile Build for Windows Phone</title>
+    <link rel="alternate" href="/blog/2013/01/windows-phone-mobile-build-support/"/>
+    <id>/blog/2013/01/windows-phone-mobile-build-support/</id>
+    <published>2013-01-23T00:00:00Z</published>
+    <updated>2013-01-23T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Hot on the heels of our new console reveal &lt;a href="/blog/2013/01/all-new-console/"&gt;yesterday&lt;/a&gt; comes an amazing new features of &lt;a href="/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt;. We are proud to announce official support for Windows Phone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="Mobile Build support for Windows Phone" alt="Windows Phone" src="/img/blog/winphone-37269549.png" /&gt;&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Hot on the heels of our new console reveal &lt;a href="/blog/2013/01/all-new-console/"&gt;yesterday&lt;/a&gt; comes an amazing new features of &lt;a href="/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt;. We are proud to announce official support for Windows Phone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="Mobile Build support for Windows Phone" alt="Windows Phone" src="/img/blog/winphone-37269549.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This means that with a click of a button, we will compile your AC and HTML5 apps for the Windows Phone platform. This is added at no additional cost, and sits alongside our current support for iOS and Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt; is based on the open source PhoneGap/Cordova project, and is designed to allow you to build apps using HTML, CSS and Javascript, while taking advantage of device specific functionality. You can then deploy them to any iOS, Android and now Windows Phone devices, and subsequently to their respective App Stores.&lt;/p&gt;
+
+&lt;p&gt;And AC Mobile Build is not only for AC apps. Just upload any web app, and we will do the rest.&lt;/p&gt;
+
+&lt;p&gt;We hope you enjoy this new addition. And if you do, you&amp;#39;re gonna love what else we&amp;#39;ve been working on.&lt;/p&gt;
+
+&lt;p&gt;Watch this space ;)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Introducing the All New Console</title>
     <link rel="alternate" href="/blog/2013/01/all-new-console/"/>
@@ -293,66 +321,6 @@ That was the key to paradise!  I started writing my own CSS styles and in a shor
 &lt;p&gt;(please bear with the hybrid language that I speak on the tutorial. It is known as Greeklish ;)&lt;/p&gt;
 
 &lt;p&gt;I will be adding more video tutorials when I have more time.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Get more out of the Developer Portal</title>
-    <link rel="alternate" href="/blog/2012/12/get-more-out-of-the-developer-portal/"/>
-    <id>/blog/2012/12/get-more-out-of-the-developer-portal/</id>
-    <published>2012-12-18T00:00:00Z</published>
-    <updated>2012-12-18T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;As much as we all hate bugs and problems, they happen, and it&amp;#39;s also nice to see a lot of you reporting problems in our &lt;a href="http://portal.applicationcraft.com" target="_blank"&gt;Developer Portal&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;I thought I&amp;#39;d throw out a few tips to help you out, and explain the basics of what we do with your tickets. We&amp;#39;ve already made a few tweaks from comments that have been made, so if you have any thoughts/ideas don&amp;#39;t be shy - we&amp;#39;d love to hear from you.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;As much as we all hate bugs and problems, they happen, and it&amp;#39;s also nice to see a lot of you reporting problems in our &lt;a href="http://portal.applicationcraft.com" target="_blank"&gt;Developer Portal&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;I thought I&amp;#39;d throw out a few tips to help you out, and explain the basics of what we do with your tickets. We&amp;#39;ve already made a few tweaks from comments that have been made, so if you have any thoughts/ideas don&amp;#39;t be shy - we&amp;#39;d love to hear from you.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Raising a problem&lt;/h2&gt;
-
-&lt;p&gt;Complete all the fields! Not only the platform (eg iOS/Android) but also what OS is involved. &lt;/p&gt;
-
-&lt;p&gt;Attach an app which we can import into our test accounts and quickly and easily recreate the problem. Don&amp;#39;t forget to also include a &amp;#39;step by step&amp;#39; of what to do in your app so we know what to do.&lt;/p&gt;
-
-&lt;p&gt;An example or test app is even better. An export of your app (the .acft file) is preferred and not a download (.zip file) or compiled package.&lt;/p&gt;
-
-&lt;p&gt;If you can&amp;#39;t export your app then show us the problem in a video. The old adage: &amp;#39;A picture is worth a thousand words&amp;#39; really is true. Screen shots can also be helpful. It may seem counter intuitive but even if your problem is only experienced on a mobile device, and you can&amp;#39;t easily video that, being able to walk through how to recreate the problem from the desktop app to show the steps can be a lot easier than trying to write it down step by step. &lt;a href="http://www.techsmith.com/jing" target="_blank"&gt;Jing&lt;/a&gt; is very good for doing this. Give it a go next time you have a problem, and simply post the link to the screencast in your ticket.&lt;/p&gt;
-
-&lt;p&gt;If you can do the above it will help speed up the time it takes us to recreate the problem and get it fixed.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;What have we released and when?&lt;/h2&gt;
-
-&lt;p&gt;We&amp;#39;ve added in a new field to the ticket &lt;em&gt;Planned for Ver&lt;/em&gt; that is being set with the version we plan to release the fix for. &lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;ve set up some &lt;strong&gt;Custom Queries&lt;/strong&gt; that you can use to see what was released in past versions. As we release new updates I&amp;#39;ll create new queries as we do  (eg 1.28.1, 1.28.2) and as we release a new version (eg 1.29, 1.30). I will then combine all the updates into one query (eg 1.26.x, 1.27.x).&lt;/p&gt;
-
-&lt;p&gt;&lt;img title="Custom Queries" alt="Send" src="/img/blog/queries-499c6b7b.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can set up your own queries on demand but if you have ones that you would like to be publically available, let me know and I&amp;#39;ll sort something out for you.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Ticket Status&lt;/h2&gt;
-
-&lt;p&gt;When a new issue is raised, it is given the status of &amp;#39;New&amp;#39;. But what happens next and when are you then able to test/check that we&amp;#39;ve sorted out the problem?&lt;/p&gt;
-
-&lt;p&gt;You can test the fix when the status changes to &lt;em&gt;Deployed/Released&lt;/em&gt; as that is when the fix is released.  &lt;/p&gt;
-
-&lt;p&gt;&lt;img title="Ticket Workflow" alt="Send" src="/img/blog/ticketwf-70cf1501.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Between these 2 steps, there are a number of process steps. If your explanation isn&amp;#39;t clear we may get back to you changing the status to &lt;em&gt;To Clarify&lt;/em&gt;, but in most cases (and especially if you include an example app) the next step would be to set the status to &lt;em&gt;Acknowledged&lt;/em&gt; for the developers to pick up. &lt;/p&gt;
-
-&lt;p&gt;Watch out for the change to the &lt;em&gt;Planned for Ver&lt;/em&gt; flag to indicate what version this is due to be released in. This will be done when our QA team have tested internally and passed it as OK to release. In most cases this will be the next release we make, but if there are other things we need to do (update the docs for example), it may be different.&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;Keep it Clean&lt;/h2&gt;
-
-&lt;p&gt;When you have confirmed all is OK, please add a comment to the ticket to let us know and we can then close it out.&lt;/p&gt;
-
-&lt;h2 id="toc_4"&gt;Private Posts&lt;/h2&gt;
-
-&lt;p&gt;If you raised your ticket as a Private post (ie includes information you would not want to have in the public domain, export of an app, screen shots, etc.), we would like to make these Public when they have been closed, so others can also see if they have or had a similar problem.  Please delete any attachments/comments that you wanted private and then un-check the private flag as you confirm back all is Ok for us to close the ticket and the rest of the community can then see what happened.&lt;/p&gt;
 </content>
   </entry>
 </feed>
