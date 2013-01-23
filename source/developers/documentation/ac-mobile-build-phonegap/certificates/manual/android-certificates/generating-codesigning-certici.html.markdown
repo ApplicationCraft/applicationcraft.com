@@ -193,7 +193,7 @@ Save the keystore file in a location you can remember. Remember the password: yo
 
  - Open the AC Mobile Build window in console.
 
- - Click to the “Add certificate” in the Android section.
+ - Select the “Upload” in the Android section.
 
  - Enter required fields.
 
