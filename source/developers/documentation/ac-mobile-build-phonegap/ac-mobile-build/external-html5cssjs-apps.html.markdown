@@ -72,6 +72,8 @@ Your config.xml needs to contain specific lines for each platform you want to bu
         <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
         <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
         <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+        <icon src="res/icon/wp/icon.png"				gap:platform="winphone"	width="62" height="62"/>
+		<icon src="res/icon/wp/tileicon.png"			gap:platform="winphone"	gap:role="background" width="173" height="173"/>
         <gap:splash src="splash.png" />
         <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
         <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
