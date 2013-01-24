@@ -24,12 +24,12 @@ You can edit your project's config.xml file from within Application Craft, so yo
 ![acmb-configxml](/img/docs/acmb-configxml.png)
 
 ##Which platforms to build for
-Your config.xml needs to contain specific lines for each platform you want to build for. For example, to build for both iOS, Android and Windows Phone  you need to include
+Your config.xml needs to contain specific lines for each platform you want to build for. For example, to build for both iOS, Android and Windows Phone you need to include
 
     <gap:platforms>
       <gap:platform name="ios" />
       <gap:platform name="android" /> 
-      <gap:platform name="winphone" />
+      <gap:platform name="wp" />
     </gap:platforms> 
     
 ##Sample config.xml
@@ -55,10 +55,10 @@ Your config.xml needs to contain specific lines for each platform you want to bu
         <gap:platforms>
           <gap:platform name="ios" />
           <gap:platform name="android" />
-          <gap:platform name="winphone" />
+          <gap:platform name="wp" />
         </gap:platforms>
     
-        <preference name="phonegap-version" value="2.0.0" />
+        <preference name="phonegap-version" value="2.2.0" />
         <preference name="orientation"      value="landscape" />
         <preference name="target-device"    value="universal" />
         <preference name="fullscreen"       value="false" />
