@@ -9,8 +9,7 @@ full_width: true
 
 The AC Framework provides support for OK, Cancel and Use Style buttons. Use Style is optional but you should use OK and Cancel.
 
-    //
-    : Button binding for OK, Cancel and Use Style buttons
+    //**EXP 3**: Button binding for OK, Cancel and Use Style buttons
         var title = 'example title',
             ok = 'ok',
             cancel = 'cancel',
@@ -30,7 +29,7 @@ The AC Framework provides support for OK, Cancel and Use Style buttons. Use Styl
         };
    
 
-**EXP 3**
+
 
 You will generally not need to modify the btn[cancel] function; it simply shuts down the dialog without doing anything with changes. The btn[ok] is the most important function as this is responsible for validating the dialog contents (optional) and then saving the data.
 
