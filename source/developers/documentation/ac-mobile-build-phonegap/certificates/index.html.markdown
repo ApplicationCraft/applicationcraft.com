@@ -26,7 +26,7 @@ Thanks to our [Certificate Generator](/developers/documentation/ac-mobile-build-
 
 ## Windows Phone
 
-This will be available in December 2012.
+Windows does not require any certificates to build.
 
 ## In This Section
 
