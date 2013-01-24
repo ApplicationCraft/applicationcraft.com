@@ -22,8 +22,5 @@ If you want to enter a URL for a file but also allow an Application Craft Resour
         }
     });
      
-    saved == false
-   
-
-with the on closed event you will get the new url value selected by user. If then the user pressed cancel.
+with the on closed event you will get the new url value selected by user. If `saved == false` then the user pressed cancel.
 

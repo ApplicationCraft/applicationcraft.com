@@ -9,6 +9,13 @@ full_width: true
 
 The Child Browser plugin allows you to display external web pages within your app, in a sub view. It is preferable to a regular link in that it allows the user to press a button to dismiss that view, returning control back to your App.
 
+## Build Support: 
+ - Android: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - iOS: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - Windows: Only supported for [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/) 2.1.0 or later
+
 ## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following

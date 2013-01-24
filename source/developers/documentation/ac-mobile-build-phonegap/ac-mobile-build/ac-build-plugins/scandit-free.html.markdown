@@ -13,6 +13,13 @@ Simple configure your [Scandit Button](/developers/documentation/product-guide/w
 
 See [Scandit Widget](/developers/documentation/product-guide/advanced-important-widgets/scandit-widget/)
 
+## Build Support: 
+ - Android: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - iOS: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - Windows: Not currently supported.
+
 ## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following

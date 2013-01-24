@@ -29,7 +29,7 @@ Your config.xml needs to contain specific lines for each platform you want to bu
     <gap:platforms>
       <gap:platform name="ios" />
       <gap:platform name="android" /> 
-      <gap:platform name="wp" />
+      <gap:platform name="winphone" />
     </gap:platforms> 
     
 ##Sample config.xml
@@ -55,7 +55,7 @@ Your config.xml needs to contain specific lines for each platform you want to bu
         <gap:platforms>
           <gap:platform name="ios" />
           <gap:platform name="android" />
-          <gap:platform name="wp" />
+          <gap:platform name="winphone" />
         </gap:platforms>
     
         <preference name="phonegap-version" value="2.2.0" />

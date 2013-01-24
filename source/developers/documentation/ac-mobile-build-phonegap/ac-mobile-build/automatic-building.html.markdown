@@ -15,6 +15,8 @@ You do not need to generate a Certificate for general usage ad testing. You can 
 ##Building for iOS
 You need to generate a Certificate and a Mobile Provisioning Profile for testing and production deployments. This is described in the [Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/) section. 
 
+##Building for Windows Phone
+Windows does not require any certificates to build apps.
 
 ## Ready to Build
 Once you have got the Certificates sorted out, press the Build/Rebuild button to start the build process. Application Craft will now call the build service in the background and the build will run asynchronously. You can close the window now and open it later.

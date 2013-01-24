@@ -9,6 +9,8 @@ full_width: true
 
 AC Build Plugins should be considered to be in a Beta state until mention of it is removed from the documentation.
 
+Please note that at the time of writing (Jan 24th) only [Child Browser](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/) and [Zing Bar Code Scanner](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner) are currently supported for Windows Phone build. We are working on updating the other plugins for Windows Phone and will update this section as they are supported.
+
 ## Non AC Developed HTML5+CSS+JS Apps
 
 If you have developed your App outside the Application Craft platform then you will need to
