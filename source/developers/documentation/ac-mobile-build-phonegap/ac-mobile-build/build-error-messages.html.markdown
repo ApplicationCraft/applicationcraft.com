@@ -10,7 +10,7 @@ full_width: true
 The following list contains the common errors that can be generated form the build process along with advice on how to address them.
 
 ## Pre Build Errors
-***Work in Progress***
+
 <table>
 <tr>
 <td width="271">
