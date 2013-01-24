@@ -14,28 +14,20 @@ From the 'type' dropdown select 'Load from URL'. This will tell AC that the widg
 Next, at the top of the right panel, press the Source button. You will now paste in regular HTML that points to your widget.
 
     <script type='text/javascript' src='http://myDomain.com/myWidget.js'></script> 
-    <script type='text/javascript' src='http://myDomain.com/myWidgetLibrary.js'></script> 
-    <script type='text/javascript' src='http://myDomain.com/myWidget.js'></script> 
-    AC.Core.Widgets().registerWidget(widgetClass, toolboxSection, "Widget Name", "", "", "http://icon_url");
-    widgetClass
-    "SimpleLabel"
-    toolboxSection
-    sections_extensible, widget_cat_common, widget_cat_mobile, =widget_cat_adv, widget_cat_auth, widget_cat_cont, widget_cat_chart, widget_cat_gauge
-    "Widget Name"
-    None
-   
-
+    
 You can also specify external js libraries
 
-**Important** : if you use the Load from URL method, then you must add the following line below your widget code in order to register the Widget correctly.
-
-Where
-
- - should match the class name, so in the case of the Hello World example, it would be
-
- - should be the constant for the section :
-
- - is the name that should appear underneath the Widget in the Toolbox
-
- - should be a link to the icon that should appear in the toolbox; one good approach is to upload you widget icon into the Resources tab of the Console and then refer to the url created for that resource.
+    <script type='text/javascript' src='http://myDomain.com/myWidgetLibrary.js'></script> 
+    <script type='text/javascript' src='http://myDomain.com/myWidget.js'></script>
+    
+**Important** : if you use the Load from URL method, then you must add the following line below your widget code in order to register the Widget correctly.    
+    
+    AC.Core.Widgets().registerWidget(widgetClass, toolboxSection, "Widget Name", "", "", "http://icon_url");
+    
+Where    
+    
+    widgetClass - should match the class name, so in the case of the Hello World example, it would be  "SimpleLabel"
+    toolboxSection - should be the constant for the section : sections_extensible, widget_cat_common, widget_cat_mobile, =widget_cat_adv, widget_cat_auth, widget_cat_cont, widget_cat_chart, widget_cat_gauge
+    "Widget Name" - is the name that should appear underneath the Widget in the Toolbox
+    "http://icon_url"  - should be a link to the icon that should appear in the toolbox; one good approach is to upload you widget icon into the Resources tab of the Console and then refer to the url created for that resource.
 
