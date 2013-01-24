@@ -24,16 +24,14 @@ In any of these cases, you may wish for your widget to adjust itself depending o
             widget._sc._updateLayout.apply(this, arguments);
             //put your code here to reflect on size properties changed
         };
+        
+The above function shows where you can place your code to handle this behavior. Within your code, you can query the width, height and precent width values for the widget as follows        
+        
     this.width()
     this.height()
     this.pWidth()
    
 
-The above function shows where you can place your code to handle this behavior. Within your code, you can query the width, height and precent width values for the widget as follows
 
- - 
 
- - 
-
- - 
 
