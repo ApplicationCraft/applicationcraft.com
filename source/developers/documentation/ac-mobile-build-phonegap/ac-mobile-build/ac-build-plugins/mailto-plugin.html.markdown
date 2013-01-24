@@ -9,6 +9,13 @@ full_width: true
 
 The MailTo plugin allows you to send email from a native app using the settings of the default email account on the users device.
 
+## Build Support: 
+ - Android: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - iOS: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - Windows: Not currently supported.
+
 ## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following
