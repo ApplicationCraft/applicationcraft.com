@@ -39,11 +39,11 @@ nav.main {
         text-align: center;
 
         @include apply-to(more-than, ipad-portrait) {
-          margin: 19px 0 0 10px;
+          margin: 25px 0 0 10px !important;
         }
 
         @include apply-to(more-than, ipad-landscape) {
-          margin: 34px 0 0 0;
+          margin: 34px 0 0 0 !important;
         }
       }
 
@@ -64,28 +64,32 @@ nav.main {
 
         li {
           float: left;
-          margin: 19px 0 0 0;
+          margin: 19px 0 0 0 !important;
           height: 35px;
 
           @include apply-to(more-than, ipad-portrait) {
-            margin-top: 25px;
+            margin-top: 25px !important;
             height: 47px;
           }
+
           @include apply-to(more-than, ipad-landscape) {
-            margin-top: 38px;
+            margin-top: 38px !important;
             height: 66px;
           }
 
           &:first-child {
-            display: none;
-
             @include apply-to(more-than, ipad-landscape) {
-              display: block;
-              margin-top: 38px;
+              margin-top: 38px !important;
             }
           }
 
           &:nth-child(4) {
+            @include apply-to(less-than, ipad-landscape) {
+              display: none;
+            }
+          }
+
+          &:nth-child(5) a:first-child {
             @include apply-to(less-than, iphone-portrait) {
               display: none;
             }
@@ -96,7 +100,7 @@ nav.main {
             padding: 0 10px;
 
             @include apply-to(more-than, iphone-landscape) {
-              padding: 0 15px;
+              padding: 0 10px;
             }
 
             @include apply-to(more-than, ipad-portrait) {
@@ -131,7 +135,7 @@ nav.main {
             }
 
             @include apply-to(more-than, ipad-portrait) {
-              margin: 0 0 0 10px;
+              margin: 0 0 0 10px !important;
               background-color: $red;
               height: 68px;
 
@@ -147,7 +151,7 @@ nav.main {
             }
 
             @include apply-to(more-than, ipad-landscape) {
-              margin: 0 0 0 20px;
+              margin: 0 0 0 20px !important;
               height: 100px;
 
               a {

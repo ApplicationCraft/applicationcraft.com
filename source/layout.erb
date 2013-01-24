@@ -41,8 +41,9 @@
           <li><a href="/"><%= image_tag 'logo.png', :width => 309, :height => 23 %></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class="<%= 'active' if current_page.data.active_menu_item == 'home' %>"><a href="/" class="active">Home</a></li>
-              <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>"><a href="/product">Product</a></li>
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>"><a href="/product">Product
+              </a></li>
+              <li class="<%= 'active' if current_page.data.active_menu_item == 'services' %>"><a href="/services" class="active">Services</a></li>
               <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade <%= 'active' if current_page.data.active_menu_item == 'sign-up' %>">
