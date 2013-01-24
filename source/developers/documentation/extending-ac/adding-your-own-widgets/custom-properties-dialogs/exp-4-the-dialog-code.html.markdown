@@ -26,7 +26,8 @@ This is the bit where you finally render the dialog contents. AC provides a simp
     dlg.parent().click(function(ev) {
         ev.stopPropagation(); // prevent events in overlay click??
     });
-     
+   
+The next piece of code takes the individual property settings ('text' and 'checked') from the object and populates them into your dialog.   
      
     if (value){
         dlg.find(".exampleDialogText").val(value.text);
@@ -34,13 +35,16 @@ This is the bit where you finally render the dialog contents. AC provides a simp
             dlg.find(".exampleDialogCheck").attr('checked', 'checked');
         }
     }
+    
+You should note that this data is inserted into the [HTML Template](/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-html-template) that was defined at the top of the dialog function.    
+    
     // The HTML template for your dialog
     this._template = '<div>
         <input type="text" class="exampleDialogText"/><br>
         <label><input type="checkbox" class="exampleDialogCheck"/>To check or not to check ?</label></div>';
    
 
-The next piece of code takes the individual property settings ('text' and 'checked') from the object and populates them into your dialog.
 
-You should note that this data is inserted into the [HTML Template](/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-html-template) that was defined at the top of the dialog function.
+
+
 
