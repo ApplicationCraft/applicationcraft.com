@@ -13,6 +13,13 @@ SQLite is a popular choice as embedded database for local storage in native apps
 
 Also, there are no storage size limits.
 
+## Build Support: 
+ - Android: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - iOS: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
+ 
+ - Windows: Not currently supported.
+
 ## HTML5+CSS+JS Apps not developed in Application Craft
 
 If you have developed your App outside Application Craft then please do the following
