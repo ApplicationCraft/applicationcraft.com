@@ -16,7 +16,7 @@ This is where you define the properties your widget offers in the IDE. Propertie
         /**
          * Property definitions and then their default values 
          */
-    None
+    	var props = {
             { name: AC.Property.group_names.general, props:[
                 AC.Property.general.widgetClass,  // required
                 AC.Property.general.name,         // required
@@ -49,23 +49,15 @@ This is where you define the properties your widget offers in the IDE. Propertie
             ]}
      
         ],
-       AC.Property.sectionname.propertyname
-        {name: "hiddenText", type : "boolean", 
-            set:"hiddenTextFn", get: "hiddenTextFn", alias:"widgetpropname_simpleLabel_hiddenText"}
-     
-    widgetpropname_simpleLabel_text
-    app.setProperty('widget', 'hiddenText', 'Dark Matter');
-    app.setProperty('widget', 'Hidden text', 'Dark Matter');
-    app.setProperty('widget', 'HIDden Text', 'Dark Matter');
-    (etc.)
-   
-
+        
 You will see that the properties are grouped into the sections you will see in the property bar in the IDE.
 
 ## Application Craft Standard Property Types
 
-You should use AC properties wherever you can as these offer a lot of the AC Framework's powerful features such as layout and data integration. The properties are of the format
-
+You should use AC properties wherever you can as these offer a lot of the AC Framework's powerful features such as layout and data integration. The properties are of the format        
+        
+       AC.Property.sectionname.propertyname
+       
 However, it is important to note that while you do inherit any custom dialog offered by the property, you do not inherit any behavioral functionality. For example, let's assume you have a Page Jump property. You can use the AC property for this and you will see a drop-down appear when you click on the property value in the toolbar. However, what actually happens at run time must be implemented by you.
 
 ## Our Widgets on GitHub
@@ -74,7 +66,10 @@ We feel that the easiest way to learn about this is by example. Please refer to 
 
 ## Additional Properties
 
-You can see how the 'text' and 'hiddenText' custom properties are defined (Hidden Text does not mean anything clever, it is used to illustrate the treatment of some non-visual property). Here is the 'text' property
+You can see how the 'text' and 'hiddenText' custom properties are defined (Hidden Text does not mean anything clever, it is used to illustrate the treatment of some non-visual property). Here is the 'text' property       
+       
+        {name: "hiddenText", type : "boolean", 
+            set:"hiddenTextFn", get: "hiddenTextFn", alias:"widgetpropname_simpleLabel_hiddenText"}
 
 The key meanings are as follows
 
@@ -86,8 +81,8 @@ The key meanings are as follows
 
  - get : function name that is called when the widget's property is read from
 
- - alias : a [language constant](/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/language-constants) that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant defined. Read the note below on property naming.
-
+ - alias : a [language constant](/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/language-constants) that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant  `widgetpropname_simpleLabel_text` defined. Read the note below on property naming.
+ 
 ## Property Naming
 
 There are two things involved in property naming
@@ -102,8 +97,13 @@ So, in our example property, we would recommend "hiddenText" as the internal pro
 
 We would not recommend "hiddenText" as the internal property name and "Hidden" as the alias string. The user will see Hidden in the property bar and perhaps assume that the internal property name is the same, which, in this case, it is not.
 
-A user can reference a property in any of the following ways
-
+A user can reference a property in any of the following ways 
+ 
+    app.setProperty('widget', 'hiddenText', 'Dark Matter');
+    app.setProperty('widget', 'Hidden text', 'Dark Matter');
+    app.setProperty('widget', 'Hidden Text', 'Dark Matter');
+    (etc.)
+  
 As you can see, the AC API will take a Property name (or Widget name as it happens) referenced in an App's API call and
 
  - removes spaces
