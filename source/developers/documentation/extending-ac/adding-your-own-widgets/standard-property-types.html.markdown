@@ -12,6 +12,8 @@ Application Craft has a large number of defined property types. The following li
 If we look an individual case
 
     backgroundColor : {name: "backgroundColor", type : "color", set: "backgroundColor", get: "backgroundColor", alias : "widget_bgcolor"},
+    
+... you can see an Application Craft property name 'backgroundColor' and its corresponding type 'color'. You could also use this type and you will then inherit its behavior and dialogs.    
      
         /* General property group */
         general : {
@@ -684,5 +686,5 @@ If we look an individual case
      
    
 
-... you can see an Application Craft property name 'backgroundColor' and its corresponding type 'color'. You could also use this type and you will then inherit its behavior and dialogs.
+
 
