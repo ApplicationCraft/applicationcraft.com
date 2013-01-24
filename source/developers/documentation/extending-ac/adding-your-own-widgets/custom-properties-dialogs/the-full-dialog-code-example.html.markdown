@@ -29,8 +29,7 @@ The following code is the full code required for a very simple property dialog. 
             // The HTML template for your dialog
             this._template = '<div><input type="text" class="exampleDialogText"/><br><label><input type="checkbox" class="exampleDialogCheck"/>To check or not to check ?</label></div>';
      
-            // 
-     : You pass in your value or object and the property text value is constructed and displayed
+            // **EXP 1** : You pass in your value or object and the property text value is constructed and displayed
             this.setValue = function(val) {
      
                 // ONE of the following would be used, depending on the dialog
@@ -66,8 +65,7 @@ The following code is the full code required for a very simple property dialog. 
      
             };
      
-            // 
-     : called when the user clicks on the property; it invokes the dialog
+            // **EXP 2** : called when the user clicks on the property; it invokes the dialog
             this.edit = function() {
                 var self = this,
                     value = this.getValue(),
@@ -78,8 +76,7 @@ The following code is the full code required for a very simple property dialog. 
                 this._tmpDialog = dlg;
                 $(document.body).append(dlg);
      
-                // 
-     : Button binding for OK, Cancel and Use Style buttons
+                // **EXP 3** : Button binding for OK, Cancel and Use Style buttons
                 var title = 'example title',
                     ok = 'ok',
                     cancel = 'cancel',
@@ -98,8 +95,7 @@ The following code is the full code required for a very simple property dialog. 
                     }
                 };
      
-                // 
-     : create jquery-ui dialog
+                // **EXP 4** : create jquery-ui dialog
                 var props = jQuery.extend({
                     modal : true,
                     height: 345,
@@ -124,8 +120,7 @@ The following code is the full code required for a very simple property dialog. 
                 }
             };
      
-            // 
-     : This is called usually from the OK button and allows validations
+            // **EXP 5** : This is called usually from the OK button and allows validations
             this.validateValue = function(){
                 var dlg = this._tmpDialog,
                     ret = true;
@@ -135,8 +130,7 @@ The following code is the full code required for a very simple property dialog. 
                 return ret;
             };
      
-            // 
-     : This collects your dialog data into an object (or a value for a really simple dialog)
+            // **EXP 6** : This collects your dialog data into an object (or a value for a really simple dialog)
             this.collectValue = function(){
                 var ret = {},
                     dlg = this._tmpDialog;
@@ -149,17 +143,3 @@ The following code is the full code required for a very simple property dialog. 
         gType.dialogExample.prototype = new gType.dialogType;
      
     })(jQuery, jqSimpleGrid.types);
-   
-
-**EXP 1**
-
-**EXP 2**
-
-**EXP 3**
-
-**EXP 4**
-
-**EXP 5**
-
-**EXP 6**
-
