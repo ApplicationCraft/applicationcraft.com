@@ -12,7 +12,13 @@ If your custom property does not require a special dialog, then you add your pro
 The entry below would add a new property simpleLength.
 
     {name: "simpleLength", type : "simpleLength", set:"simpleLength", get: "simpleLength", alias:"Simple Length"},
+    
+We don't need a dialog, but we would need to implement a widget method within the main widget code, for example    
+    
     p.simpleLength = AC.Property.normal('simpleLength');
+    
+We would then need to handle this within our custom property definition code. Please refer to the section [The full dialog code example](/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-full-dialog-code-example), where you will see this near the top.    
+    
     // simpleLength custom property type. Does not need any dialog
     gType.simpleLength = function (cell) {
         this.cell(cell);
@@ -21,7 +27,7 @@ The entry below would add a new property simpleLength.
     gType.simpleLength.prototype = new gType.basenumber;
    
 
-We don't need a dialog, but we would need to implement a widget method within the main widget code, for example
 
-We would then need to handle this within our custom property definition code. Please refer to the section [The full dialog code example](/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-full-dialog-code-example) , where you will see this near the top.
+
+
 
