@@ -17,6 +17,9 @@ The constructor provides context in which the Widget is running. In our Hello Wo
         p.init = function() {
             widget._sc.init.apply(this, arguments);
         };
+        
+If you wish to carry out other tasks at this point, you can receive a parameter that provides information about the context in which  the widget is running.
+       
      
     p.init = function(param) {
       var mode = param.mode; // widget mode editor or runtime
@@ -26,12 +29,14 @@ The constructor provides context in which the Widget is running. In our Hello Wo
       var project = param.project; // json structure of the widget
       widget._sc.init.apply(this, arguments);
     }
+    
+You will also find a destructor function. In our example, this destructor is also empty.    
+    
         p.destroy = function() {
             widget._sc.destroy.apply(this, arguments);
         };
    
 
-If you wish to carry out other tasks at this point, you can receive a parameter that provides information about the context in which  the widget is running.
 
-<a id="destructor"> </a> You will also find a destructor function. In our example, this destructor is also empty.
+
 
