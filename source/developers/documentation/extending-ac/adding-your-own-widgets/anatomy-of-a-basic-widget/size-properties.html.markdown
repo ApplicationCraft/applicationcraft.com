@@ -23,24 +23,24 @@ The Layout section of the property bar contains the following properties.
                     AC.Property.layout.anchors,
                     AC.Property.layout.alignInContainer
                 ]},
+                
+In order for your Widget to work with this mechanism, you should be sure to include these properties                
+                
                     AC.Property.layout.pWidthHidden,
                     AC.Property.layout.widthHidden,
                     AC.Property.layout.heightHidden,
                     AC.Property.layout.sizes,
-    setProperty("myWidget", aSizeProperty, value)
-    aSizeProperty
-    width
-    height
-    pWidth (% width)
+                    
+The sizes property takes care of the popup sizes dialog. The others are responsible for supporting  `setProperty("myWidget", aSizeProperty, value)`  where `aSizeProperty `can be one of
+
+- `width`
+- `height`
+- `pWidth (% width)`
    
 
-In order for your Widget to work with this mechanism, you should be sure to include these properties
 
-The sizes property take care of the popup sizes dialog. The others are responsible for supporting where can be one of
 
- - 
+ 
 
- - 
 
- - 
 
