@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -105,29 +106,26 @@
 <p>Next, at the top of the right panel, press the Source button. You will now paste in regular HTML that points to your widget.</p>
 
 <pre><code>&lt;script type=&#39;text/javascript&#39; src=&#39;http://myDomain.com/myWidget.js&#39;&gt;&lt;/script&gt; 
-&lt;script type=&#39;text/javascript&#39; src=&#39;http://myDomain.com/myWidgetLibrary.js&#39;&gt;&lt;/script&gt; 
-&lt;script type=&#39;text/javascript&#39; src=&#39;http://myDomain.com/myWidget.js&#39;&gt;&lt;/script&gt; 
-AC.Core.Widgets().registerWidget(widgetClass, toolboxSection, &quot;Widget Name&quot;, &quot;&quot;, &quot;&quot;, &quot;http://icon_url&quot;);
-widgetClass
-&quot;SimpleLabel&quot;
-toolboxSection
-sections_extensible, widget_cat_common, widget_cat_mobile, =widget_cat_adv, widget_cat_auth, widget_cat_cont, widget_cat_chart, widget_cat_gauge
-&quot;Widget Name&quot;
-None
 </code></pre>
 
 <p>You can also specify external js libraries</p>
 
-<p><strong>Important</strong> : if you use the Load from URL method, then you must add the following line below your widget code in order to register the Widget correctly.</p>
+<pre><code>&lt;script type=&#39;text/javascript&#39; src=&#39;http://myDomain.com/myWidgetLibrary.js&#39;&gt;&lt;/script&gt; 
+&lt;script type=&#39;text/javascript&#39; src=&#39;http://myDomain.com/myWidget.js&#39;&gt;&lt;/script&gt;
+</code></pre>
 
-<p>Where</p>
+<p><strong>Important</strong> : if you use the Load from URL method, then you must add the following line below your widget code in order to register the Widget correctly.    </p>
 
-<ul>
-<li><p>should match the class name, so in the case of the Hello World example, it would be</p></li>
-<li><p>should be the constant for the section :</p></li>
-<li><p>is the name that should appear underneath the Widget in the Toolbox</p></li>
-<li><p>should be a link to the icon that should appear in the toolbox; one good approach is to upload you widget icon into the Resources tab of the Console and then refer to the url created for that resource.</p></li>
-</ul>
+<pre><code>AC.Core.Widgets().registerWidget(widgetClass, toolboxSection, &quot;Widget Name&quot;, &quot;&quot;, &quot;&quot;, &quot;http://icon_url&quot;);
+</code></pre>
+
+<p>Where    </p>
+
+<pre><code>widgetClass - should match the class name, so in the case of the Hello World example, it would be  &quot;SimpleLabel&quot;
+toolboxSection - should be the constant for the section : sections_extensible, widget_cat_common, widget_cat_mobile, =widget_cat_adv, widget_cat_auth, widget_cat_cont, widget_cat_chart, widget_cat_gauge
+&quot;Widget Name&quot; - is the name that should appear underneath the Widget in the Toolbox
+&quot;http://icon_url&quot;  - should be a link to the icon that should appear in the toolbox; one good approach is to upload you widget icon into the Resources tab of the Console and then refer to the url created for that resource.
+</code></pre>
 
 
       

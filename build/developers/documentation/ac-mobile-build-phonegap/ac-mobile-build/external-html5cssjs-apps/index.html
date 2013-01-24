@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -104,7 +105,7 @@
 
 <p>The first thing you do is to create a new App and at the same time upload your ZIP file.</p>
 
-<p><img alt="acmb-new" src="/img/docs/acmb-new-2f2e698c.png" /></p>
+<p><img alt="acmb-new" src="/img/docs/acmb-new-f2021efd.png" /></p>
 
 <p>Select the Mobile Build tab as circled in the image above. Then, click on the New button at the top of the left pane and you will see the following screen where you can give your project a name and upload your PhoneGap/Cordova ZIP file.</p>
 
@@ -112,15 +113,16 @@
 
 <p>You can edit your project&#39;s config.xml file from within Application Craft, so you don&#39;t have to re-upload each time you make a change to it. Information about the config.xml can be found <a href="https://build.phonegap.com/docs/config-xml">here on the PhoneGap site</a>.</p>
 
-<p><img alt="acmb-configxml" src="/img/docs/acmb-configxml-8f8928a4.png" /></p>
+<p><img alt="acmb-configxml" src="/img/docs/acmb-configxml-6d002242.png" /></p>
 
 <h2 id="toc_2">Which platforms to build for</h2>
 
-<p>Your config.xml needs to contain specific lines for each platform you want to build for. For example, to build for both iOS and Android (Windows Phone coming soon) you need to include</p>
+<p>Your config.xml needs to contain specific lines for each platform you want to build for. For example, to build for both iOS, Android and Windows Phone you need to include</p>
 
 <pre><code>&lt;gap:platforms&gt;
   &lt;gap:platform name=&quot;ios&quot; /&gt;
-  &lt;gap:platform name=&quot;android&quot; /&gt;    
+  &lt;gap:platform name=&quot;android&quot; /&gt; 
+  &lt;gap:platform name=&quot;winphone&quot; /&gt;
 &lt;/gap:platforms&gt; 
 </code></pre>
 
@@ -148,14 +150,15 @@
     &lt;gap:platforms&gt;
       &lt;gap:platform name=&quot;ios&quot; /&gt;
       &lt;gap:platform name=&quot;android&quot; /&gt;
+      &lt;gap:platform name=&quot;winphone&quot; /&gt;
     &lt;/gap:platforms&gt;
 
-    &lt;preference name=&quot;phonegap-version&quot; value=&quot;2.0.0&quot; /&gt;
+    &lt;preference name=&quot;phonegap-version&quot; value=&quot;2.2.0&quot; /&gt;
     &lt;preference name=&quot;orientation&quot;      value=&quot;landscape&quot; /&gt;
     &lt;preference name=&quot;target-device&quot;    value=&quot;universal&quot; /&gt;
     &lt;preference name=&quot;fullscreen&quot;       value=&quot;false&quot; /&gt;
 
-    &lt;icon src=&quot;icon.png&quot; /&gt;
+&lt;icon src=&quot;icon.png&quot; /&gt;
     &lt;icon src=&quot;res/icon/android/icon-36-ldpi.png&quot;   gap:platform=&quot;android&quot;    gap:density=&quot;ldpi&quot; /&gt;
     &lt;icon src=&quot;res/icon/android/icon-48-mdpi.png&quot;   gap:platform=&quot;android&quot;    gap:density=&quot;mdpi&quot; /&gt;
     &lt;icon src=&quot;res/icon/android/icon-72-hdpi.png&quot;   gap:platform=&quot;android&quot;    gap:density=&quot;hdpi&quot; /&gt;
@@ -164,7 +167,9 @@
     &lt;icon src=&quot;res/icon/ios/icon-72.png&quot;            gap:platform=&quot;ios&quot;        width=&quot;72&quot; height=&quot;72&quot; /&gt;
     &lt;icon src=&quot;res/icon/ios/icon-57-2x.png&quot;         gap:platform=&quot;ios&quot;        width=&quot;114&quot; height=&quot;114&quot; /&gt;
     &lt;icon src=&quot;res/icon/ios/icon-72-2x.png&quot;         gap:platform=&quot;ios&quot;        width=&quot;144&quot; height=&quot;144&quot; /&gt;
-    &lt;gap:splash src=&quot;splash.png&quot; /&gt;
+    &lt;icon src=&quot;res/icon/wp/icon.png&quot;                gap:platform=&quot;winphone&quot;   width=&quot;62&quot; height=&quot;62&quot;/&gt;
+    &lt;icon src=&quot;res/icon/wp/tileicon.png&quot;            gap:platform=&quot;winphone&quot;   gap:role=&quot;background&quot;   width=&quot;173&quot; height=&quot;173&quot;/&gt;
+&lt;gap:splash src=&quot;splash.png&quot; /&gt;
     &lt;gap:splash src=&quot;res/screen/android/screen-ldpi-portrait.png&quot;  gap:platform=&quot;android&quot; gap:density=&quot;ldpi&quot; /&gt;
     &lt;gap:splash src=&quot;res/screen/android/screen-mdpi-portrait.png&quot;  gap:platform=&quot;android&quot; gap:density=&quot;mdpi&quot; /&gt;
     &lt;gap:splash src=&quot;res/screen/android/screen-hdpi-portrait.png&quot;  gap:platform=&quot;android&quot; gap:density=&quot;hdpi&quot; /&gt;
@@ -173,6 +178,7 @@
     &lt;gap:splash src=&quot;res/screen/ios/screen-iphone-portrait-2x.png&quot; gap:platform=&quot;ios&quot;     width=&quot;640&quot; height=&quot;960&quot; /&gt;
     &lt;gap:splash src=&quot;res/screen/ios/screen-ipad-portrait.png&quot;      gap:platform=&quot;ios&quot;     width=&quot;768&quot; height=&quot;1024&quot; /&gt;
     &lt;gap:splash src=&quot;res/screen/ios/screen-ipad-landscape.png&quot;     gap:platform=&quot;ios&quot;     width=&quot;1024&quot; height=&quot;768&quot; /&gt;
+    &lt;gap:splash src=&quot;res/screen/wp/wp.jpg&quot; gap:platform=&quot;winphone&quot; width=&quot;480&quot; height=&quot;800&quot; /&gt;
 &lt;/widget&gt;
 </code></pre>
 
@@ -182,7 +188,7 @@
 
 <p>Once your project is uploaded, you will see the following screen. You are then ready to <a href="/developers/documentation/ac-mobile-build-phonegap/certificates/">add your certificates</a> and then <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/automatic-building">build</a> your App.</p>
 
-<p><img alt="acmb-html5" src="/img/docs/acmb-html5-aaa4012d.png" /></p>
+<p><img alt="acmb-html5" src="/img/docs/acmb-html5-b2ef3419.png" /></p>
 
 
       

@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -134,8 +135,11 @@
 <p>The user code shown below shows the textFn method that is associated with the &#39;text&#39; property (see <a href="/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/defining-properties">Defining Properties</a> ). You will see this property definition</p>
 
 <pre><code>{name: &quot;text&quot;, type : &quot;text&quot;, set: &quot;textFn&quot;, get: &quot;textFn&quot;, alias: &quot;Text&quot;},
-AC.Property.html
-    // The get/set function for the &#39;text&#39; property
+</code></pre>
+
+<p>It calls <code>AC.Property.html</code>, which is our html template function. It also shows how the onChange event is called if the function is called as a &#39;set&#39;.</p>
+
+<pre><code>    // The get/set function for the &#39;text&#39; property
     p._simpleText = function(value) {
         this.base().html(value);
     };
@@ -148,26 +152,28 @@ AC.Property.html
             return propertyFunction.apply(this, arguments);
         }
     })();
-    // Setting an arbitrary internal property
-    p.hiddenTextFn = AC.Property.normal(&#39;hiddenText&#39;);
-    // Setting Font information (shows use of the theme template)
-    p._simpleTextFont = function(value) {
-        this.base().css(&#39;font&#39;, value);
-    };
-    p.fontFn = AC.Property.theme(&#39;font&#39;, p._simpleTextFont);
 </code></pre>
-
-<p>It calls , which is our html template function. It also shows how the onChange event is called if the function is called as a &#39;set&#39;.</p>
 
 <p>In our example, we are changing the displayed text. The first parameter is the internal property name. The second parameter is a callback function that is called if the widget is drawn, where you would redraw or modify the widget&#39;s visual state. You can also see how it triggers the onChange event, which would be called if the App is running.</p>
 
 <h2 id="toc_3">The normal() template</h2>
 
-<p>If you need to modify an internal widget property that does not relate a) to a theme and b) does not effect the visual output of the widget, then use the normal() template function. It ensures that the property value is correctly stored within the widget&#39;s internal structure.</p>
+<p>If you need to modify an internal widget property that does not relate a) to a theme and b) does not effect the visual output of the widget, then use the normal() template function. It ensures that the property value is correctly stored within the widget&#39;s internal structure.        </p>
+
+<pre><code>    // Setting an arbitrary internal property
+    p.hiddenTextFn = AC.Property.normal(&#39;hiddenText&#39;);
+</code></pre>
 
 <h2 id="toc_4">The theme() template</h2>
 
-<p>If the property you are modifying is one that resides in the Theme, then you should use the theme() template function.</p>
+<p>If the property you are modifying is one that resides in the Theme, then you should use the theme() template function.        </p>
+
+<pre><code>    // Setting Font information (shows use of the theme template)
+    p._simpleTextFont = function(value) {
+        this.base().css(&#39;font&#39;, value);
+    };
+    p.fontFn = AC.Property.theme(&#39;font&#39;, p._simpleTextFont);
+</code></pre>
 
 <p>This is a template for theme driven properties. It allows a value to be loaded from the Theme. If the property takes its value from a Theme, then you should use this template.</p>
 

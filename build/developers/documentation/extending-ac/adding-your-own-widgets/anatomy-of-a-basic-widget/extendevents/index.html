@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -111,11 +112,9 @@
  */
 
 // If you want to just inherit the standard AC Events, then use the following line
-</code></pre>
+//actions = AC.Widgets.Base.actions(),
 
-<p>None</p>
-
-<pre><code>// But we will just add in this single &quot;onChange&quot; custom event definition
+// But we will just add in this single &quot;onChange&quot; custom event definition
 actions = {
     change: {alias: &quot;widget_event_onchange&quot;, funcview: &quot;onChange&quot;,
     action: &quot;AC.Widgets.SimpleWidget.onChange&quot;, params: &quot;newValue, oldValue&quot;, 
@@ -126,48 +125,44 @@ actions = {
 
 // onChange event constant definition
 widget.onChange = &quot;Event#SimpleLabel#onChange&quot;;
-</code></pre>
-
-<p>actions = AC.Widgets.Base.actions()<br>
-   On Click, On Double Click,<br>
-   Mousedown, Mouse Up, Mouse Enter, Mouse Leave,<br>
-   Drag Start, Drag Stop, Resize Start, Resize Stop<br>
-    actions = {<br>
-        change: {alias: &quot;widget<em>event</em>onchange&quot;, funcview: &quot;onChange&quot;,<br>
-        action: &quot;AC.Widgets.SimpleWidget.onChange&quot;, params: &quot;newValue, oldValue&quot;, <br>
-        group: &quot;widget<em>event</em>general&quot;}<br>
-    },</p>
-
-<p>alias<br>
-funcview<br>
-handler<em>widgetName</em>onChange()<br>
-action<br>
-params<br>
-group<br>
-widget.onChange = &quot;Event#SimpleLabel#onChange&quot;;</p></li>
+</code></pre></li>
 </ul>
 
 <h2 id="toc_0">Inheriting Application Craft Framework Events</h2>
 
-<p>Just add the following code into your widget (commented out in our example as we only want one single event)</p>
+<p>Just add the following code into your widget (commented out in our example as we only want one single event)        </p>
 
-<p>and you will automatically get the following events</p>
+<pre><code>   actions = AC.Widgets.Base.actions()
+</code></pre>
+
+<p>and you will automatically get the following events      </p>
+
+<pre><code>   On Click, On Double Click,
+   Mousedown, Mouse Up, Mouse Enter, Mouse Leave,
+   Drag Start, Drag Stop, Resize Start, Resize Stop
+</code></pre>
 
 <h2 id="toc_1">Adding your own Events</h2>
 
-<p>Our example includes an onChange event we have defined</p>
+<p>Our example includes an onChange event we have defined       </p>
 
-<ul>
-<li><p>: this is a language constant that displays the actual event name in the IDE event bar. If the constant is not found, then the constant name will be displayed.</p></li>
-<li><p>: the text that is added to the widget name to create the actual event handler name for the event as it will appear in the IDE for the user, so for example.</p></li>
-<li><p>: link to event constant</p></li>
-<li><p>: the parameter names that are passed into your custom event</p></li>
-<li><p>: constant referring to the event group name that should be used [MAX - where are these defined?]</p></li>
-</ul>
+<pre><code>    actions = {
+        change: {alias: &quot;widget_event_onchange&quot;, funcview: &quot;onChange&quot;,
+        action: &quot;AC.Widgets.SimpleWidget.onChange&quot;, params: &quot;newValue, oldValue&quot;, 
+        group: &quot;widget_event_general&quot;}
+    },
 
-<p>For each widget event, you should create a unique string constant and specify this constant in the action</p>
+alias : this is a language constant that displays the actual event name in the IDE event bar. If the constant is not found, then the constant name will be displayed.
+funcview : the text that is added to the widget name to create the actual event handler name for the event as it will appear in the IDE for the user, so handler_widgetName_onChange() for example.
+action : link to event constant
+params : the parameter names that are passed into your custom event
+group : constant referring to the event group name that should be used
+</code></pre>
 
-<h2 id="toc_2">Overriding an Event</h2>
+<p>For each widget event, you should create a unique string constant and specify this constant in the action    </p>
+
+<pre><code>widget.onChange = &quot;Event#SimpleLabel#onChange&quot;;
+</code></pre>
 
 
       

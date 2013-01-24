@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -119,23 +120,25 @@ dlg.dialog(props);
 dlg.parent().click(function(ev) {
     ev.stopPropagation(); // prevent events in overlay click??
 });
+</code></pre>
 
+<p>The next piece of code takes the individual property settings (&#39;text&#39; and &#39;checked&#39;) from the object and populates them into your dialog.   </p>
 
-if (value){
+<pre><code>if (value){
     dlg.find(&quot;.exampleDialogText&quot;).val(value.text);
     if(value.checked) {
         dlg.find(&quot;.exampleDialogCheck&quot;).attr(&#39;checked&#39;, &#39;checked&#39;);
     }
 }
-// The HTML template for your dialog
+</code></pre>
+
+<p>You should note that this data is inserted into the <a href="/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-html-template">HTML Template</a> that was defined at the top of the dialog function.    </p>
+
+<pre><code>// The HTML template for your dialog
 this._template = &#39;&lt;div&gt;
     &lt;input type=&quot;text&quot; class=&quot;exampleDialogText&quot;/&gt;&lt;br&gt;
     &lt;label&gt;&lt;input type=&quot;checkbox&quot; class=&quot;exampleDialogCheck&quot;/&gt;To check or not to check ?&lt;/label&gt;&lt;/div&gt;&#39;;
 </code></pre>
-
-<p>The next piece of code takes the individual property settings (&#39;text&#39; and &#39;checked&#39;) from the object and populates them into your dialog.</p>
-
-<p>You should note that this data is inserted into the <a href="/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-html-template">HTML Template</a> that was defined at the top of the dialog function.</p>
 
 
       

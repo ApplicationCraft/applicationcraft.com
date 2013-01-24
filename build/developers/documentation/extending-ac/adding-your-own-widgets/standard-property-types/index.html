@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -103,8 +104,11 @@
 <p>If we look an individual case</p>
 
 <pre><code>backgroundColor : {name: &quot;backgroundColor&quot;, type : &quot;color&quot;, set: &quot;backgroundColor&quot;, get: &quot;backgroundColor&quot;, alias : &quot;widget_bgcolor&quot;},
+</code></pre>
 
-    /* General property group */
+<p>... you can see an Application Craft property name &#39;backgroundColor&#39; and its corresponding type &#39;color&#39;. You could also use this type and you will then inherit its behavior and dialogs.    </p>
+
+<pre><code>    /* General property group */
     general : {
         actions : {name: &quot;actions&quot;, get: &quot;actions&quot;, set: &quot;actions&quot;, alias : &quot;widget_class&quot;, visible: false},
         widgetClass : {name: &quot;widgetClass&quot;, type : &quot;ro&quot;, get: &quot;widgetClass&quot;, alias : &quot;widget_class&quot;},
@@ -773,8 +777,6 @@
     }
 };
 </code></pre>
-
-<p>... you can see an Application Craft property name &#39;backgroundColor&#39; and its corresponding type &#39;color&#39;. You could also use this type and you will then inherit its behavior and dialogs.</p>
 
 
       

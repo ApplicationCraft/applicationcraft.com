@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -109,59 +110,50 @@
 <pre><code>/**
  * Property definitions and then their default values 
  */
-</code></pre>
+var props = {
+    { name: AC.Property.group_names.general, props:[
+        AC.Property.general.widgetClass,  // required
+        AC.Property.general.name,         // required
+        // The next two are custom properties of this widget (there is another one in the Style section)
+        {name: &quot;text&quot;, type : &quot;text&quot;,
+            set: &quot;textFn&quot;, get: &quot;textFn&quot;, alias: &quot;widgetpropname_simpleLabel_text&quot;},
+        {name: &quot;hiddenText&quot;, type : &quot;boolean&quot;, 
+            set:&quot;hiddenTextFn&quot;, get: &quot;hiddenTextFn&quot;, alias:&quot;widgetpropname_simpleLabel_hiddenText&quot;}
+    ]},
+    { name: AC.Property.group_names.layout, props:[
+        AC.Property.layout.x,
+        AC.Property.layout.y,
+        AC.Property.layout.pWidth,
+        AC.Property.layout.width,
+        AC.Property.layout.height,
+        AC.Property.layout.repeat,
+        AC.Property.layout.zindex,
+        AC.Property.layout.anchors,
+        AC.Property.layout.alignInContainer
+    ]},
+    { name: AC.Property.group_names.behavior, props:[
+        AC.Property.behavior.visible
+    ]},
+    { name: AC.Property.group_names.style, props:[
+        AC.Property.behavior.opacity,
+        AC.Property.style.margin,
+        // This is a custom Style property for the Font
+        {name: &quot;font&quot;, type : &quot;tfont&quot;, 
+          set:&quot;fontFn&quot;, get: &quot;fontFn&quot;, alias:&quot;widget_font&quot;}
+    ]}
 
-<p>None<br>
-        { name: AC.Property.group<em>names.general, props:[<br>
-            AC.Property.general.widgetClass,  // required<br>
-            AC.Property.general.name,         // required<br>
-            // The next two are custom properties of this widget (there is another one in the Style section)<br>
-            {name: &quot;text&quot;, type : &quot;text&quot;,<br>
-                set: &quot;textFn&quot;, get: &quot;textFn&quot;, alias: &quot;widgetpropname</em>simpleLabel<em>text&quot;},<br>
-            {name: &quot;hiddenText&quot;, type : &quot;boolean&quot;, <br>
-                set:&quot;hiddenTextFn&quot;, get: &quot;hiddenTextFn&quot;, alias:&quot;widgetpropname</em>simpleLabel<em>hiddenText&quot;}<br>
-        ]},<br>
-        { name: AC.Property.group</em>names.layout, props:[<br>
-            AC.Property.layout.x,<br>
-            AC.Property.layout.y,<br>
-            AC.Property.layout.pWidth,<br>
-            AC.Property.layout.width,<br>
-            AC.Property.layout.height,<br>
-            AC.Property.layout.repeat,<br>
-            AC.Property.layout.zindex,<br>
-            AC.Property.layout.anchors,<br>
-            AC.Property.layout.alignInContainer<br>
-        ]},<br>
-        { name: AC.Property.group<em>names.behavior, props:[<br>
-            AC.Property.behavior.visible<br>
-        ]},<br>
-        { name: AC.Property.group</em>names.style, props:[<br>
-            AC.Property.behavior.opacity,<br>
-            AC.Property.style.margin,<br>
-            // This is a custom Style property for the Font<br>
-            {name: &quot;font&quot;, type : &quot;tfont&quot;, <br>
-              set:&quot;fontFn&quot;, get: &quot;fontFn&quot;, alias:&quot;widget_font&quot;}<br>
-        ]}</p>
-
-<pre><code>],
-</code></pre>
-
-<p>AC.Property.sectionname.propertyname<br>
-    {name: &quot;hiddenText&quot;, type : &quot;boolean&quot;, <br>
-        set:&quot;hiddenTextFn&quot;, get: &quot;hiddenTextFn&quot;, alias:&quot;widgetpropname<em>simpleLabel</em>hiddenText&quot;}</p>
-
-<p>widgetpropname<em>simpleLabel</em>text<br>
-app.setProperty(&#39;widget&#39;, &#39;hiddenText&#39;, &#39;Dark Matter&#39;);<br>
-app.setProperty(&#39;widget&#39;, &#39;Hidden text&#39;, &#39;Dark Matter&#39;);<br>
-app.setProperty(&#39;widget&#39;, &#39;HIDden Text&#39;, &#39;Dark Matter&#39;);<br>
-(etc.)</p></li>
+],
+</code></pre></li>
 </ul>
 
 <p>You will see that the properties are grouped into the sections you will see in the property bar in the IDE.</p>
 
 <h2 id="toc_0">Application Craft Standard Property Types</h2>
 
-<p>You should use AC properties wherever you can as these offer a lot of the AC Framework&#39;s powerful features such as layout and data integration. The properties are of the format</p>
+<p>You should use AC properties wherever you can as these offer a lot of the AC Framework&#39;s powerful features such as layout and data integration. The properties are of the format        </p>
+
+<pre><code>   AC.Property.sectionname.propertyname
+</code></pre>
 
 <p>However, it is important to note that while you do inherit any custom dialog offered by the property, you do not inherit any behavioral functionality. For example, let&#39;s assume you have a Page Jump property. You can use the AC property for this and you will see a drop-down appear when you click on the property value in the toolbar. However, what actually happens at run time must be implemented by you.</p>
 
@@ -171,7 +163,11 @@ app.setProperty(&#39;widget&#39;, &#39;HIDden Text&#39;, &#39;Dark Matter&#39;);
 
 <h2 id="toc_2">Additional Properties</h2>
 
-<p>You can see how the &#39;text&#39; and &#39;hiddenText&#39; custom properties are defined (Hidden Text does not mean anything clever, it is used to illustrate the treatment of some non-visual property). Here is the &#39;text&#39; property</p>
+<p>You can see how the &#39;text&#39; and &#39;hiddenText&#39; custom properties are defined (Hidden Text does not mean anything clever, it is used to illustrate the treatment of some non-visual property). Here is the &#39;text&#39; property       </p>
+
+<pre><code>    {name: &quot;hiddenText&quot;, type : &quot;boolean&quot;, 
+        set:&quot;hiddenTextFn&quot;, get: &quot;hiddenTextFn&quot;, alias:&quot;widgetpropname_simpleLabel_hiddenText&quot;}
+</code></pre>
 
 <p>The key meanings are as follows</p>
 
@@ -180,7 +176,7 @@ app.setProperty(&#39;widget&#39;, &#39;HIDden Text&#39;, &#39;Dark Matter&#39;);
 <li><p>type : the data type associated with this widget</p></li>
 <li><p>set : function name that is called when the widget&#39;s property is written to</p></li>
 <li><p>get : function name that is called when the widget&#39;s property is read from</p></li>
-<li><p>alias : a <a href="/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/language-constants">language constant</a> that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant defined. Read the note below on property naming.</p></li>
+<li><p>alias : a <a href="/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/language-constants">language constant</a> that contains the property label as displayed in the left column of the IDE property bar. AC will attempt to find a constant with this name. If it cannot, then it will use the constant name as the IDE string. The example above assumes there is a language constant  <code>widgetpropname_simpleLabel_text</code> defined. Read the note below on property naming.</p></li>
 </ul>
 
 <h2 id="toc_3">Property Naming</h2>
@@ -197,7 +193,13 @@ app.setProperty(&#39;widget&#39;, &#39;HIDden Text&#39;, &#39;Dark Matter&#39;);
 
 <p>We would not recommend &quot;hiddenText&quot; as the internal property name and &quot;Hidden&quot; as the alias string. The user will see Hidden in the property bar and perhaps assume that the internal property name is the same, which, in this case, it is not.</p>
 
-<p>A user can reference a property in any of the following ways</p>
+<p>A user can reference a property in any of the following ways </p>
+
+<pre><code>app.setProperty(&#39;widget&#39;, &#39;hiddenText&#39;, &#39;Dark Matter&#39;);
+app.setProperty(&#39;widget&#39;, &#39;Hidden text&#39;, &#39;Dark Matter&#39;);
+app.setProperty(&#39;widget&#39;, &#39;Hidden Text&#39;, &#39;Dark Matter&#39;);
+(etc.)
+</code></pre>
 
 <p>As you can see, the AC API will take a Property name (or Widget name as it happens) referenced in an App&#39;s API call and</p>
 

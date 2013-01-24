@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -105,18 +106,22 @@
 <p>The entry below would add a new property simpleLength.</p>
 
 <pre><code>{name: &quot;simpleLength&quot;, type : &quot;simpleLength&quot;, set:&quot;simpleLength&quot;, get: &quot;simpleLength&quot;, alias:&quot;Simple Length&quot;},
-p.simpleLength = AC.Property.normal(&#39;simpleLength&#39;);
-// simpleLength custom property type. Does not need any dialog
+</code></pre>
+
+<p>We don&#39;t need a dialog, but we would need to implement a widget method within the main widget code, for example    </p>
+
+<pre><code>p.simpleLength = AC.Property.normal(&#39;simpleLength&#39;);
+</code></pre>
+
+<p>We would then need to handle this within our custom property definition code. Please refer to the section <a href="/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-full-dialog-code-example">The full dialog code example</a>, where you will see this near the top.    </p>
+
+<pre><code>// simpleLength custom property type. Does not need any dialog
 gType.simpleLength = function (cell) {
     this.cell(cell);
     this._params = {min : 0, max: 99};
 };
 gType.simpleLength.prototype = new gType.basenumber;
 </code></pre>
-
-<p>We don&#39;t need a dialog, but we would need to implement a widget method within the main widget code, for example</p>
-
-<p>We would then need to handle this within our custom property definition code. Please refer to the section <a href="/developers/documentation/extending-ac/adding-your-own-widgets/custom-properties-dialogs/the-full-dialog-code-example">The full dialog code example</a> , where you will see this near the top.</p>
 
 
       

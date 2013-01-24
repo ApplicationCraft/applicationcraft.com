@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -110,8 +111,11 @@
     p.init = function() {
         widget._sc.init.apply(this, arguments);
     };
+</code></pre>
 
-p.init = function(param) {
+<p>If you wish to carry out other tasks at this point, you can receive a parameter that provides information about the context in which  the widget is running.</p>
+
+<pre><code>p.init = function(param) {
   var mode = param.mode; // widget mode editor or runtime
   var parent = param.parent; // parent widget (a container) object
   var form = param.form; // link to the form (App) object
@@ -119,14 +123,14 @@ p.init = function(param) {
   var project = param.project; // json structure of the widget
   widget._sc.init.apply(this, arguments);
 }
-    p.destroy = function() {
+</code></pre>
+
+<p>You will also find a destructor function. In our example, this destructor is also empty.    </p>
+
+<pre><code>    p.destroy = function() {
         widget._sc.destroy.apply(this, arguments);
     };
 </code></pre>
-
-<p>If you wish to carry out other tasks at this point, you can receive a parameter that provides information about the context in which  the widget is running.</p>
-
-<p><a id="destructor"> </a> You will also find a destructor function. In our example, this destructor is also empty.</p>
 
 
       

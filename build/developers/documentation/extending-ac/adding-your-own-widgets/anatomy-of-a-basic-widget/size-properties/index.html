@@ -16,7 +16,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-6868a450.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-ed0d60ef.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
@@ -37,8 +37,9 @@
           <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
           <li class="clearfix">
             <ul class="clearfix">
-              <li class=""><a href="/" class="active">Home</a></li>
-              <li class=""><a href="/product">Product</a></li>
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
               <li class="active"><a href="/developers">Developers</a></li>
               <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
               <li class="nofade ">
@@ -116,25 +117,22 @@
                 AC.Property.layout.anchors,
                 AC.Property.layout.alignInContainer
             ]},
-                AC.Property.layout.pWidthHidden,
+</code></pre>
+
+<p>In order for your Widget to work with this mechanism, you should be sure to include these properties                </p>
+
+<pre><code>                AC.Property.layout.pWidthHidden,
                 AC.Property.layout.widthHidden,
                 AC.Property.layout.heightHidden,
                 AC.Property.layout.sizes,
-setProperty(&quot;myWidget&quot;, aSizeProperty, value)
-aSizeProperty
-width
-height
-pWidth (% width)
 </code></pre>
 
-<p>In order for your Widget to work with this mechanism, you should be sure to include these properties</p>
-
-<p>The sizes property take care of the popup sizes dialog. The others are responsible for supporting where can be one of</p>
+<p>The sizes property takes care of the popup sizes dialog. The others are responsible for supporting  <code>setProperty(&quot;myWidget&quot;, aSizeProperty, value)</code>  where <code>aSizeProperty</code>can be one of</p>
 
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li><code>width</code></li>
+<li><code>height</code></li>
+<li><code>pWidth (% width)</code></li>
 </ul>
 
 
