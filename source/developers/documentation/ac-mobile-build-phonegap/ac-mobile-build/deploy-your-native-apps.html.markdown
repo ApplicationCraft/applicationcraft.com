@@ -31,7 +31,7 @@ Important: this will not work unless your device has been added to the iOS Provi
 
 **Application Versions List**
 
-You can see a list of recently built apps by clicking on the titles (Android/iOS):
+You can see a list of recently built apps by clicking on the History link:
 
 ![Applist](/img/docs/applist.zoom80.png)
 
