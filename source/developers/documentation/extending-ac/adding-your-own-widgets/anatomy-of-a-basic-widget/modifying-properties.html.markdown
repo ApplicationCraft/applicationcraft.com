@@ -40,7 +40,10 @@ To illustrate this, let's assume a widget has the following properties
 The user code shown below shows the textFn method that is associated with the 'text' property (see [Defining Properties](/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/defining-properties) ). You will see this property definition
 
     {name: "text", type : "text", set: "textFn", get: "textFn", alias: "Text"},
-    AC.Property.html
+    
+It calls `AC.Property.html`, which is our html template function. It also shows how the onChange event is called if the function is called as a 'set'.
+  
+    
         // The get/set function for the 'text' property
         p._simpleText = function(value) {
             this.base().html(value);
@@ -54,26 +57,26 @@ The user code shown below shows the textFn method that is associated with the 't
                 return propertyFunction.apply(this, arguments);
             }
         })();
+        
+In our example, we are changing the displayed text. The first parameter is the internal property name. The second parameter is a callback function that is called if the widget is drawn, where you would redraw or modify the widget's visual state. You can also see how it triggers the onChange event, which would be called if the App is running.
+
+## The normal() template
+
+If you need to modify an internal widget property that does not relate a) to a theme and b) does not effect the visual output of the widget, then use the normal() template function. It ensures that the property value is correctly stored within the widget's internal structure.        
+        
         // Setting an arbitrary internal property
         p.hiddenTextFn = AC.Property.normal('hiddenText');
+        
+## The theme() template
+
+If the property you are modifying is one that resides in the Theme, then you should use the theme() template function.        
+        
         // Setting Font information (shows use of the theme template)
         p._simpleTextFont = function(value) {
             this.base().css('font', value);
         };
         p.fontFn = AC.Property.theme('font', p._simpleTextFont);
    
-
-It calls , which is our html template function. It also shows how the onChange event is called if the function is called as a 'set'.
-
-In our example, we are changing the displayed text. The first parameter is the internal property name. The second parameter is a callback function that is called if the widget is drawn, where you would redraw or modify the widget's visual state. You can also see how it triggers the onChange event, which would be called if the App is running.
-
-## The normal() template
-
-If you need to modify an internal widget property that does not relate a) to a theme and b) does not effect the visual output of the widget, then use the normal() template function. It ensures that the property value is correctly stored within the widget's internal structure.
-
-## The theme() template
-
-If the property you are modifying is one that resides in the Theme, then you should use the theme() template function.
 
 This is a template for theme driven properties. It allows a value to be loaded from the Theme. If the property takes its value from a Theme, then you should use this template.
 
