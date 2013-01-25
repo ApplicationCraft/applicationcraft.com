@@ -5,10 +5,30 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2013-01-23T00:00:00Z</updated>
+  <updated>2013-01-25T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Something BIG is coming!</title>
+    <link rel="alternate" href="/blog/2013/01/something-big-is-coming/"/>
+    <id>/blog/2013/01/something-big-is-coming/</id>
+    <published>2013-01-25T00:00:00Z</published>
+    <updated>2013-01-25T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img title="Something BIG is coming! &amp;lt;a href=&amp;quot;http://crafted.applicationcraft.com/&amp;quot;&amp;gt;Find out more...&amp;lt;/a&amp;gt;" alt="Something BIG!" src="/img/blog/something-big-053c1ff0.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;These last few months have been very exciting here at AC towers. We&amp;#39;ve been planning and building something that we think will blow you all away, and it&amp;#39;s coming very soon. The next few months will be even more exciting, and we think you are going to love it.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;img title="Something BIG is coming! &amp;lt;a href=&amp;quot;http://crafted.applicationcraft.com/&amp;quot;&amp;gt;Find out more...&amp;lt;/a&amp;gt;" alt="Something BIG!" src="/img/blog/something-big-053c1ff0.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;These last few months have been very exciting here at AC towers. We&amp;#39;ve been planning and building something that we think will blow you all away, and it&amp;#39;s coming very soon. The next few months will be even more exciting, and we think you are going to love it.&lt;/p&gt;
+
+&lt;p&gt;If you want to get a sneak peek, and possibly even have a little play, &lt;a href="http://crafted.applicationcraft.com/"&gt;click here&lt;/a&gt; to register your interest. We&amp;#39;ll be revealing more details over the next few weeks and months, so watch this space.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>AC Mobile Build for Windows Phone</title>
     <link rel="alternate" href="/blog/2013/01/windows-phone-mobile-build-support/"/>
@@ -258,69 +278,6 @@ function handler_application_onAppStarted(){
 &lt;hr&gt;
 
 &lt;p&gt;*Here’s a little Canadian history lesson for you: Micmacs are a First Nations people, located in Canada’s Maritime Provinces and the Gaspé Peninsula of Quebec, as well as some parts of New England, USA. “Micmac” both refers to the people themselves and the language they speak. The Micmac were among the first peoples to be affected by European activities in the New World and underwent early depopulation and sociocultural disruption. Quick lesson over!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>CSS Styling in Application Craft</title>
-    <link rel="alternate" href="/blog/2013/01/css-styling/"/>
-    <id>/blog/2013/01/css-styling/</id>
-    <published>2013-01-07T00:00:00Z</published>
-    <updated>2013-01-07T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;h2 id="toc_0"&gt;Introducing Manos Koufakis&lt;/h2&gt;
-
-&lt;p&gt;Manos has been an Application Craft user since we were in beta last year. His first app made it to #2 in the Apple App Store, beating eBay, Skype and other household names.&lt;/p&gt;
-
-&lt;p&gt;Manos has produced a great new app (currently pre-release) that makes heavy use of CSS Styling and we thought it would be great to share his experiences with you. Manos has provided ...&lt;/p&gt;
-</summary>
-    <content type="html">&lt;h2 id="toc_0"&gt;Introducing Manos Koufakis&lt;/h2&gt;
-
-&lt;p&gt;Manos has been an Application Craft user since we were in beta last year. His first app made it to #2 in the Apple App Store, beating eBay, Skype and other household names.&lt;/p&gt;
-
-&lt;p&gt;Manos has produced a great new app (currently pre-release) that makes heavy use of CSS Styling and we thought it would be great to share his experiences with you. Manos has provided ...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the &lt;a href="http://acft.ws/nsnd"&gt;working app&lt;/a&gt; that you can run in your desktop browser&lt;/li&gt;
-&lt;li&gt;a &lt;a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;" class="fancybox fancybox.iframe"&gt; Video Tutorial&lt;/a&gt; of how he did this&lt;/li&gt;
-&lt;li&gt;a list of useful resources (below)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="toc_1"&gt;Style like a pro with Application Craft&lt;/h2&gt;
-
-&lt;p&gt;Ever since I started using Application Craft (nearly 1 year ago), I was really excited with the Widget drag and drop environment that allowed for really speedy development without having to care about containers, specifying complex div structure etc. So I made my first app with AC, named Βρες Δώρο (Find Gift), that does what its title indicates - it helps you find a gift for any circumstance.&lt;/p&gt;
-
-&lt;p&gt;Without using ANY custom CSS style, relying only on the provided AC themes and widgets I completed my app and it rocketed to the #2 position in the App store and stayed there for nearly 1 week! I was really blown away! The application received triumphant comments, but what  started bothering me, was that there were a few comments referring to poor design.&lt;/p&gt;
-
-&lt;p&gt;In the meanwhile, I started developing my second app called “Find the Movie”, which is a movie quiz game where the user is called to guess a film by looking at a screenshot. For that app I co-operated with a graphic arts company in order to have cool icons and design in my app and avoid any negative criticism. When the art project completed, I was provided with a set of .psd files and NO CSS. That was a nightmare for me!&lt;/p&gt;
-
-&lt;p&gt;How the hell can I implement all those fancy gradients, cool button icons etc. into AC? AC is a widget based platform and there is NO theme roller. Plus, I really hate messing with CSS! As much as I like programming, my head aches when I have to deal with CSS styling.&lt;/p&gt;
-
-&lt;p&gt;After the initial panic, I searched a bit on the AC forum and read a bit about the &lt;a href="https://getsatisfaction.com/application_craft/topics/application_craft_custom_css_classes_how_do_i_reference_these_with_a_url"&gt;Custom CSS Properties&lt;/a&gt; that you can see as an option to every widget you see.&lt;br&gt;
-That was the key to paradise!  I started writing my own CSS styles and in a short period of time, I transformed a poorly looking app to a really nice looking quiz game. You can see the result here and play around with the pre-release demo:&lt;br&gt;
-&lt;a href="http://acft.ws/nsnd"&gt;http://acft.ws/nsnd&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;OK, so much for the talk, now how do you do it?&lt;/h2&gt;
-
-&lt;p&gt;In order to transform your application and implement your custom styles, you will need 4 tools:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt; &lt;a href="http://www.w3schools.com/"&gt;http://www.w3schools.com/&lt;/a&gt; - even if you think you’re a CSS expert, it’s nearly impossible to remember by heart all these great features of CSS and CSS3, so you can use that website as a reference in case you forget something&lt;/li&gt;
-&lt;li&gt; Chrome or Firefox debugger (or any debugger that you like) – myself I’ve been using mostly the &lt;a href="http://developer.chrome.com/extensions/debugger.html"&gt;Chrome debugger&lt;/a&gt;, ‘cause I like Chrome best. This is the most useful tool in order to know what to do. So every time you want to style a certain page, you open the page, then open the debugger and with the use of the Element Inspector (that little magnifying glass at the bottom) you can click any element on your page and you are provided with its  CSS style features.&lt;/li&gt;
-&lt;li&gt; An image editing program like Photoshop&lt;/li&gt;
-&lt;li&gt; &lt;a href="http://csslint.net/"&gt;CSS Lint&lt;/a&gt; – never ever, ever, ever try to implement any CSS without first validating it. CSS Lint provides a really handy CSS debugger where you can copy+paste your CSS code and check for any errors. A single CSS error may be the reason why your CSS style is completely messed up. I use CSS Lint for validation and Chrome’s debugger for element inspection and in case you wonder why I use a second debugger for CSS is because I find CSS Lint more handy for CSS validation purposes  only.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So, with all these in mind / handy, you’re ready for the next stage...&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;How to mess with AC’s Widgets and add your own custom styling?&lt;/h2&gt;
-
-&lt;p&gt;Instead of writing a general strategy, it is best to proceed with a &amp;quot;per case&amp;quot; scenario. &lt;a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;" class="fancybox fancybox.iframe"&gt; So I made a video&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;(please bear with the hybrid language that I speak on the tutorial. It is known as Greeklish ;)&lt;/p&gt;
-
-&lt;p&gt;I will be adding more video tutorials when I have more time.&lt;/p&gt;
 </content>
   </entry>
 </feed>
