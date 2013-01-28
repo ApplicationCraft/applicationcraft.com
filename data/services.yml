@@ -1,13 +1,13 @@
 submenu:
   -
     text: App Development
-    url: '/services#toc_0'
+    url: '#toc_0'
   -
     text: Widget Building
-    url: '/services#toc_1'
+    url: '#toc_1'
   -
     text: Consultancy
-    url: '/services#toc_2'
+    url: '#toc_2'
   -
     text: Contact Us
-    url: '/services#toc_3'
+    url: '#toc_3'

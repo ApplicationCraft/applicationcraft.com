@@ -1,5 +1,7 @@
 body.pricing {
 
+  background: $cream image-url('graphbg.gif') repeat;
+
   #overview-sections {
     display: none;
     @include apply-to(more-than, ipad-portrait) {

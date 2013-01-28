@@ -1,4 +1,6 @@
 body.home {
+  background: $cream image-url('graphbg.gif') repeat;
+
   @import 'home/slides';
   @import 'home/content';
 }

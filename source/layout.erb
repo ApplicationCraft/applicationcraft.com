@@ -27,7 +27,7 @@
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
-  <body class="<%= current_page.data.class_name || 'standard' %>">
+  <body class="<%= current_page.data.class_name || 'standard' %>" data-spy="scroll" data-target="#submenu">
     <a id="top"></a>
 
     <nav class="main">
@@ -76,7 +76,7 @@
             <%= yield_content :above_aside %>
 
             <% if current_page.data.active_submenu %>
-              <ul>
+              <ul id="submenu" data-spy="affix" data-offset-top="200">
                 <% data.send(current_page.data.active_submenu).submenu.each do |f| %>
                   <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
                     <a href="<%= f.url %>"><%= f.text %></a>

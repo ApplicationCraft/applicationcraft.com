@@ -1,4 +1,6 @@
 #= require_tree ./lib
+#= require vendor/bootstrap-affix
+#= require vendor/bootstrap-scrollspy
 #= require referrals
 #= require webinar_dialog
 

@@ -1,13 +1,13 @@
 submenu:
   -
     text: Overview
-    url: '/product/enterprise#toc_0'
+    url: '#toc_0'
   -
     text: Contact us
-    url: '/product/enterprise#toc_1'
+    url: '#toc_1'
   -
     text: FAQs
-    url: '/product/enterprise#toc_2'
+    url: '#toc_2'
   -
     text: Educational Pricing
     url: '/product/aceducation'
