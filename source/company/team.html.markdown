@@ -46,5 +46,3 @@ Engineer
 Quality Assurance Manager
 ##Hazel Ho
 Marketing Executive
-##Avinash Patil
-Marketing Executive
