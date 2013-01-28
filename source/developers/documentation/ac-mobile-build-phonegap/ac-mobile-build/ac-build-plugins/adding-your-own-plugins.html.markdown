@@ -6,7 +6,7 @@ class_name: developers
 full_width: true
 ---
 
-An AC Mobile Build Plugin is based on Cordova plugin framework. 
+An AC Mobile Build Plugin is based on the Cordova plugin framework. 
 
 We will not allow any plugin to be added to the build system without it being vetted first. Once added, it will be available to all users of the system.
 
@@ -14,62 +14,56 @@ This document explains the XML configuration object that is required for any plu
 
 If you would like us to add in your plugins, please follow the details below to construct your plugin and then contact us with details of your GitHub repo that we can access. 
 
-You can submit to us by email (support@applicationcraft.com) with your project in a zip file, but it would be preferable if you use GitHub. It would then be easier for you to update your plugin in the future and for us to then update within AC as well.
+You can submit to us by [email](mailto:support@applicationcraft.com) with your project in a zip file, but it would be preferable if you use GitHub. It would then be easier for you to update your plugin in the future and for us to then update within AC as well.
 
-For further info and technical details on how Cordova Plugins work and how to write one, please check the Cordova docs at [http://docs.phonegap.com/en/2.2.0/guide_plugin-development_index.md.html](http://docs.phonegap.com/en/2.2.0/guide_plugin-development_index.md.html)
-
-
+For further info and technical details on how Cordova Plugins work and how to write one, please check the [Cordova docs](http://docs.phonegap.com/en/2.2.0/guide_plugin-development_index.md.html)
 
 
-##Simple XML Example
+## Simple XML Example
 
-  <?xml version="1.0" encoding="UTF-8"?>
-	<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-	    xmlns:android="http://schemas.android.com/apk/res/android"
-	    id="com.applicationcraft.plugins.PGSQLitePlugin"
-	    version="2.1.0">
+	  <?xml version="1.0" encoding="UTF-8"?>
+		<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    id="com.applicationcraft.plugins.PGSQLitePlugin"
+		    version="2.1.0">
 	    <name>PGSQLite</name>
 	    <file source="www/pgsqliteplugin.ios.js" target="pgsqliteplugin.js" special-location="www"  platform="ios"/>
-	    <file source="www/pgsqliteplugin.android.js" target="pgsqliteplugin.js" special-location="www" platform="android"/>   
+	    <file source="www/pgsqliteplugin.android.js" target="pgsqliteplugin.js" special-location="www" platform="android"/>
 	    <platform name="android">
 	        <plugin-info name="PGSQLitePlugin" value="com.applicationcraft.plugins.PGSQLitePlugin"/>
 	        <file source="PGSQLitePlugin.java" target="src/com/applicationcraft/plugins/PGSQLitePlugin.java" />
 	        <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 	    </platform>
 	    <platform name="ios">
-	        <plugins-plist key="PGSQLitePlugin"
-	                    string="PGSQLitePlugin" />
-	        <source-file src="PGSQLitePlugin.h" />
-	        <source-file src="PGSQLitePlugin.m" />
-	        <framework src="libsqlite3.dylib" />
+	      <plugins-plist key="PGSQLitePlugin" string="PGSQLitePlugin" />
+	      <source-file src="PGSQLitePlugin.h" />
+	      <source-file src="PGSQLitePlugin.m" />
+	      <framework src="libsqlite3.dylib" />
 	    </platform>
-	</plugin>
+		</plugin>
 
-##Plugin Manifest Format Explained
+###Main plugin element
 
 	<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
 	    xmlns:android="http://schemas.android.com/apk/res/android"
 	    id="com.applicationcraft.plugins.PGSQLitePlugin"
 	    version="2.1.0">
 
-
-###Main plugin element
-
 The `plugin` element is the top-level element of the plugin manifest. It has the following attributes:
 
-*`xmlns (required)`*
+ - `xmlns` *(required)*
 
-The plugin namespace - `http://www.phonegap.com/ns/plugins/1.0`. If the document contains XML from other namespaces - for example, tags to be added to the AndroidManifest.xml file - those namespaces should also be included in the top-level element.
+	The plugin namespace - `http://www.phonegap.com/ns/plugins/1.0`. If the document contains XML from other namespaces - for example, tags to be added to the AndroidManifest.xml file - those namespaces should also be included in the top-level element.
 
-*`id (required)`*
+ - `id` *(required)*
 
-A reverse-domain style identifier for the plugin - for example, `com.companyname.foo`
+	A reverse-domain style identifier for the plugin - for example, `com.companyname.foo`
 
-*`version (required)`*
+ - `version` *(required)*
 
-A version number for the plugin, that matches the following major-minor-patch style regular expression:
+	A version number for the plugin, that matches the following major-minor-patch style regular expression:
 
-*`<name> element`*
+`<name>` element
 
 A human-readable name for the plugin. The text content of the element contains the name of the plugin. An example:
 `<name>Foo</name>`
@@ -77,7 +71,6 @@ A human-readable name for the plugin. The text content of the element contains t
 At this point in time, the tools prototyped for this format do not make use of this element. If this document progresses, localization will also need to be accounted for.
 
 ###file element###
-
 
 File to be copied into a Cordova app's `www` directory. 
 
@@ -89,28 +82,27 @@ A couple of samples:
 
 All assets tags require both a `source` attribute and a `target` attribute.
 
-*`source (required)`*
+ - `source` *(required)*
 
-Where the file is located in the plugin package, relative to the `plugin.xml` document.
+	Where the file is located in the plugin package, relative to the `plugin.xml` document.
 
-*`target (required)`*
+ - `target` *(required)*
 
-File name locate in `www` directory.
+	File name locate in `www` directory.
 
-*`special-location`*
+ - `special-location`
 
-Locate file in `www` Cordova directory for all platform.
+	Locate file in `www` Cordova directory for all platform.
 
-*`platform`*
+ - `platform`
 
-Copy file only for specified platform.
+	Copy file only for specified platform.
 
-*`template`*
+ - `template`
 
-Allow system/user variables in file.
+	Allow system/user variables in file.
 
 ###dir element
-
 
 One or more elements listing the directories to be copied into a Cordova app's `www` directory. 
 
@@ -118,21 +110,21 @@ A sample:
 
 	<dir source="www/childbrowser" target="childbrowser" special-location="www"/>
 
-*`source (required)`*
+ - `source` *(required)*
 
-Where the directory is located in the plugin package, relative to the `plugin.xml` document.
+	Where the directory is located in the plugin package, relative to the `plugin.xml` document.
 
-*`target (required)`*
+ - `target` *(required)*
 
-Directory name locate in `www` directory.
+	Directory name locate in `www` directory.
 
-*`special-location`*
+ - `special-location`
 
-Locate file in `www` Cordova directory for all platforms
+	Locate file in `www` Cordova directory for all platforms
 
-*`platform`*
+ - `platform`
 
-Copy file only for specified platform
+	Copy file only for specified platform
 
 ###platform
 
@@ -148,12 +140,12 @@ A sample platform tag:
 	<!-- ios specific elements -->
 	</platform>
 
-*`name (required)`*
+ - `name` *(required)*
 
-The `name` attribute identifies a platform as supported - it also associates the element's children with that platform. Platform names should be all-lowercase. Platform names, as arbitrarily chosen, are listed:
+	The `name` attribute identifies a platform as supported - it also associates the element's children with that platform. Platform names should be all-lowercase. Platform names, as arbitrarily chosen, are listed:
 
-- android
-- ios
+	- android
+	- ios
 
 Tools may accept alternate names for platforms.
 
@@ -177,8 +169,6 @@ Example:
         </config-file>
 
 
-
-
 ###plugin-info
 
 Identifies a cordova plugin include
@@ -193,9 +183,9 @@ Set permission for plugin:
 	<uses-permission name="android.permission.INTERNET"/>
 	<uses-permission name="{{ ANDROID_APPLICATION_PACKAGE }}.permission.C2D_MESSAGE" template-name="true"/>
 
-*`template-name`*
+ - `template-name`
 
-Allow system/user variables in string
+	Allow system/user variables in string
 
 For copy source file use `<file>` and `<dir>` tags
 
@@ -213,7 +203,7 @@ Include plugin code in Cordova source
 	   <![CDATA[com.xtify.cordova.XtifyCordovaPlugin.processActivityExtras(getIntent().getExtras(), this);]]>
 	</code-snippet>
 
-*`target (required)`*
+ - `target` *(required)*
 
 Where the code was included. Allowed names are:
 
@@ -231,9 +221,9 @@ Include Android library project in Cordova project
 
 	<library-project source="ZXingLibrary" />
 
-*`source (required)`*
+ - `source` *(required)*
 
-Locate path to library project
+	Locate path to library project
 
 ##iOS Spec
 
@@ -272,9 +262,9 @@ Example:
 	<framework src="libiconv.dylib" />
 	<framework src="libscanditsdk-iphone-2.2.3.a" type="local" />
 
-*`type=”local”`*
+ - `type=”local”`
 
-Identifies a static library framework in plugin folder
+	Identifies a static library framework in plugin folder
 
 
 ###code-snippet
@@ -285,7 +275,7 @@ Include plugin code in Cordova source
 	<![CDATA[, UIWebViewDelegate, CDVCommandDelegate]]>
 	</code-snippet>
 
-*`target (required)`*
+ - `target` *(required)*
 
 Where the code was included. Allowed names are:
 
@@ -325,7 +315,7 @@ Where the code was included. Allowed names are:
 - `MAIN_VIEW_CTRL_M_WEB_VIEW_DID_LOAD_END`
 - `MAIN_VIEW_CTRL_M_END_IMPL`
 
-*`file (required)`*
+`file` *(required)*
 
 File where the code was included. Allowed files are:
 

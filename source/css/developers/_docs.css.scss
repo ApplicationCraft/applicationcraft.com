@@ -66,8 +66,15 @@
     }
 
     h2 {
+      font: 1.3em gotham_mediumregular;
+      margin: 4em 0 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    h3 {
       font: 1.2em gotham_bookregular;
-      margin: 2em 0 1em;
+      margin: 3em 0 1.4em;
     }
 
     img:not(.fancybox-image) {
