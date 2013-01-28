@@ -6,7 +6,7 @@ class_name: developers
 full_width: true
 ---
 
-An AC Mobile Build Plugin is simply a Cordova plugin. 
+An AC Mobile Build Plugin is based on Cordova plugin framework. 
 
 We will not allow any plugin to be added to the build system without it being vetted first. Once added, it will be available to all users of the system.
 
