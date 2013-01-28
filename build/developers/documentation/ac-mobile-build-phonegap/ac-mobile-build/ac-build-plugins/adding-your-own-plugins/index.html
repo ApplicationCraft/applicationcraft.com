@@ -16,14 +16,14 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-65eabe90.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-7640ecff.css" media="screen" rel="stylesheet" type="text/css" />
     
     <link href="/css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
   
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
-  <body class="developers">
+  <body class="developers" data-spy="scroll" data-target="#submenu">
     <a id="top"></a>
 
     <nav class="main">
@@ -58,7 +58,6 @@
       <ul class="clearfix">
         <li><a href="/developers/training-videos">Videos</a></li>
         <li class="active"><a href="/developers/documentation">Documentation</a></li>
-        <li><a href="/services">Services</a></li>
         <li><a href="https://getsatisfaction.com/application_craft" target="_blank">Forum</a></li>
         <li><a href="http://portal.applicationcraft.com" target="_blank">Bug Tracker</a></li>
       </ul>
@@ -101,11 +100,337 @@
 
     <article id="doc-body">
       <h1>Adding your own Plugins</h1>
-      <p>We are currently preparing documentation that tells you how to prepare any PhoneGap/Cordova plugin for inclusion within Application Craft. This should be available by January 2013.</p>
+      <p>An AC Mobile Build Plugin is based on the Cordova plugin framework. </p>
 
 <p>We will not allow any plugin to be added to the build system without it being vetted first. Once added, it will be available to all users of the system.</p>
 
-<p>If you are interested in adding plugins before the publication of the full specification, please contact <a href="mailto:support@applicationcraft.com">support@applicationcraft.com</a> and we may be able to provide some advance information.</p>
+<p>This document explains the XML configuration object that is required for any plugin to interface with AC Mobile Build.</p>
+
+<p>If you would like us to add in your plugins, please follow the details below to construct your plugin and then contact us with details of your GitHub repo that we can access. </p>
+
+<p>You can submit to us by <a href="mailto:support@applicationcraft.com">email</a> with your project in a zip file, but it would be preferable if you use GitHub. It would then be easier for you to update your plugin in the future and for us to then update within AC as well.</p>
+
+<p>For further info and technical details on how Cordova Plugins work and how to write one, please check the <a href="http://docs.phonegap.com/en/2.2.0/guide_plugin-development_index.md.html">Cordova docs</a></p>
+
+<h2 id="toc_0">Simple XML Example</h2>
+
+<pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    &lt;plugin xmlns=&quot;http://www.phonegap.com/ns/plugins/1.0&quot;
+        xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+        id=&quot;com.applicationcraft.plugins.PGSQLitePlugin&quot;
+        version=&quot;2.1.0&quot;&gt;
+    &lt;name&gt;PGSQLite&lt;/name&gt;
+    &lt;file source=&quot;www/pgsqliteplugin.ios.js&quot; target=&quot;pgsqliteplugin.js&quot; special-location=&quot;www&quot;  platform=&quot;ios&quot;/&gt;
+    &lt;file source=&quot;www/pgsqliteplugin.android.js&quot; target=&quot;pgsqliteplugin.js&quot; special-location=&quot;www&quot; platform=&quot;android&quot;/&gt;
+    &lt;platform name=&quot;android&quot;&gt;
+        &lt;plugin-info name=&quot;PGSQLitePlugin&quot; value=&quot;com.applicationcraft.plugins.PGSQLitePlugin&quot;/&gt;
+        &lt;file source=&quot;PGSQLitePlugin.java&quot; target=&quot;src/com/applicationcraft/plugins/PGSQLitePlugin.java&quot; /&gt;
+        &lt;uses-permission name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot;/&gt;
+    &lt;/platform&gt;
+    &lt;platform name=&quot;ios&quot;&gt;
+      &lt;plugins-plist key=&quot;PGSQLitePlugin&quot; string=&quot;PGSQLitePlugin&quot; /&gt;
+      &lt;source-file src=&quot;PGSQLitePlugin.h&quot; /&gt;
+      &lt;source-file src=&quot;PGSQLitePlugin.m&quot; /&gt;
+      &lt;framework src=&quot;libsqlite3.dylib&quot; /&gt;
+    &lt;/platform&gt;
+    &lt;/plugin&gt;
+</code></pre>
+
+<h3 id="toc_1">Main plugin element</h3>
+
+<pre><code>&lt;plugin xmlns=&quot;http://www.phonegap.com/ns/plugins/1.0&quot;
+    xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    id=&quot;com.applicationcraft.plugins.PGSQLitePlugin&quot;
+    version=&quot;2.1.0&quot;&gt;
+</code></pre>
+
+<p>The <code>plugin</code> element is the top-level element of the plugin manifest. It has the following attributes:</p>
+
+<ul>
+<li><p><code>xmlns</code> <em>(required)</em></p>
+
+<p>The plugin namespace - <code>http://www.phonegap.com/ns/plugins/1.0</code>. If the document contains XML from other namespaces - for example, tags to be added to the AndroidManifest.xml file - those namespaces should also be included in the top-level element.</p></li>
+<li><p><code>id</code> <em>(required)</em></p>
+
+<p>A reverse-domain style identifier for the plugin - for example, <code>com.companyname.foo</code></p></li>
+<li><p><code>version</code> <em>(required)</em></p>
+
+<p>A version number for the plugin, that matches the following major-minor-patch style regular expression:</p></li>
+</ul>
+
+<p><code>&lt;name&gt;</code> element</p>
+
+<p>A human-readable name for the plugin. The text content of the element contains the name of the plugin. An example:<br>
+<code>&lt;name&gt;Foo&lt;/name&gt;</code></p>
+
+<p>At this point in time, the tools prototyped for this format do not make use of this element. If this document progresses, localization will also need to be accounted for.</p>
+
+<h3 id="toc_2">file element</h3>
+
+<p>File to be copied into a Cordova app&#39;s <code>www</code> directory. </p>
+
+<p>A couple of samples:</p>
+
+<pre><code>&lt;file source=&quot;www/pgsqliteplugin.ios.js&quot; target=&quot;pgsqliteplugin.js&quot; special-location=&quot;www&quot;  platform=&quot;ios&quot;/&gt;
+
+&lt;file source=&quot;www/pgsqliteplugin.android.js&quot; target=&quot;pgsqliteplugin.js&quot; special-location=&quot;www&quot; platform=&quot;android&quot;/&gt;
+</code></pre>
+
+<p>All assets tags require both a <code>source</code> attribute and a <code>target</code> attribute.</p>
+
+<ul>
+<li><p><code>source</code> <em>(required)</em></p>
+
+<p>Where the file is located in the plugin package, relative to the <code>plugin.xml</code> document.</p></li>
+<li><p><code>target</code> <em>(required)</em></p>
+
+<p>File name locate in <code>www</code> directory.</p></li>
+<li><p><code>special-location</code></p>
+
+<p>Locate file in <code>www</code> Cordova directory for all platform.</p></li>
+<li><p><code>platform</code></p>
+
+<p>Copy file only for specified platform.</p></li>
+<li><p><code>template</code></p>
+
+<p>Allow system/user variables in file.</p></li>
+</ul>
+
+<h3 id="toc_3">dir element</h3>
+
+<p>One or more elements listing the directories to be copied into a Cordova app&#39;s <code>www</code> directory. </p>
+
+<p>A sample:</p>
+
+<pre><code>&lt;dir source=&quot;www/childbrowser&quot; target=&quot;childbrowser&quot; special-location=&quot;www&quot;/&gt;
+</code></pre>
+
+<ul>
+<li><p><code>source</code> <em>(required)</em></p>
+
+<p>Where the directory is located in the plugin package, relative to the <code>plugin.xml</code> document.</p></li>
+<li><p><code>target</code> <em>(required)</em></p>
+
+<p>Directory name locate in <code>www</code> directory.</p></li>
+<li><p><code>special-location</code></p>
+
+<p>Locate file in <code>www</code> Cordova directory for all platforms</p></li>
+<li><p><code>platform</code></p>
+
+<p>Copy file only for specified platform</p></li>
+</ul>
+
+<h3 id="toc_4">platform</h3>
+
+<p>Platform tags identify platforms that have associated native code. Tools using this specification can identify supported platforms and install the code into Cordova projects.</p>
+
+<p>A sample platform tag:</p>
+
+<pre><code>&lt;platform name=&quot;android&quot;&gt;
+&lt;!-- android specific elements --&gt;
+&lt;/platform&gt;
+&lt;platform name=&quot;ios&quot;&gt;
+&lt;!-- ios specific elements --&gt;
+&lt;/platform&gt;
+</code></pre>
+
+<ul>
+<li><p><code>name</code> <em>(required)</em></p>
+
+<p>The <code>name</code> attribute identifies a platform as supported - it also associates the element&#39;s children with that platform. Platform names should be all-lowercase. Platform names, as arbitrarily chosen, are listed:</p>
+
+<ul>
+<li>android</li>
+<li>ios</li>
+</ul></li>
+</ul>
+
+<p>Tools may accept alternate names for platforms.</p>
+
+<h2 id="toc_5">Android Spec</h2>
+
+<h3 id="toc_6">config-file</h3>
+
+<p>Identifies an XML-based configuration file to be modified, where in that document the modification should take place, and what should be modified.<br>
+At this stage in the spec, the <code>config-file</code> element only allows for appending new children into an XML document. The children are XML literals that are the to be inserted in the target document.</p>
+
+<p>Example:</p>
+
+<pre><code>&lt;config-file target=&quot;AndroidManifest.xml&quot; parent=&quot;/manifest/application&quot;&gt;
+        &lt;activity android:name=&quot;com.phonegap.plugins.childBrowser.ChildBrowser&quot;
+                  android:label=&quot;@string/app_name&quot;&gt;
+            &lt;intent-filter&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+    &lt;/config-file&gt;
+</code></pre>
+
+<h3 id="toc_7">plugin-info</h3>
+
+<p>Identifies a cordova plugin include</p>
+
+<pre><code>&lt;plugin-info name=&quot;ChildBrowser&quot; value=&quot;com.phonegap.plugins.childBrowser.ChildBrowser&quot;/&gt;
+</code></pre>
+
+<h3 id="toc_8">user-permission</h3>
+
+<p>Set permission for plugin:</p>
+
+<pre><code>&lt;uses-permission name=&quot;android.permission.INTERNET&quot;/&gt;
+&lt;uses-permission name=&quot;{{ ANDROID_APPLICATION_PACKAGE }}.permission.C2D_MESSAGE&quot; template-name=&quot;true&quot;/&gt;
+</code></pre>
+
+<ul>
+<li><p><code>template-name</code></p>
+
+<p>Allow system/user variables in string</p></li>
+</ul>
+
+<p>For copy source file use <code>&lt;file&gt;</code> and <code>&lt;dir&gt;</code> tags</p>
+
+<pre><code>&lt;file source=&quot;ChildBrowser.java&quot; target=&quot;src/com/phonegap/plugins/childBrowser/ChildBrowser.java&quot;/&gt;&lt;dir source=&quot;libs&quot; target=&quot;libs&quot;/&gt; - example for copy jar library files
+
+&lt;dir source=&quot;res/raw&quot; target=&quot;res/raw&quot; /&gt; - example for copy resource files
+</code></pre>
+
+<h3 id="toc_9">code-snippet</h3>
+
+<p>Include plugin code in Cordova source</p>
+
+<pre><code>&lt;code-snippet target=&quot;MAIN_ACTIVITY_END_ON_CREATE&quot;&gt;
+   &lt;![CDATA[com.xtify.cordova.XtifyCordovaPlugin.processActivityExtras(getIntent().getExtras(), this);]]&gt;
+&lt;/code-snippet&gt;
+</code></pre>
+
+<ul>
+<li><code>target</code> <em>(required)</em></li>
+</ul>
+
+<p>Where the code was included. Allowed names are:</p>
+
+<ul>
+<li><code>MAIN_ACTIVITY_IMPORT</code></li>
+<li><code>MAIN_ACTIVITY_ON_CREATE</code></li>
+<li><code>MAIN_ACTIVITY_BEFORE_LOAD_URL</code></li>
+<li><code>MAIN_ACTIVITY_END_ON_CREATE</code></li>
+<li><code>MAIN_ACTIVITY_IN_CLASS</code></li>
+</ul>
+
+<h3 id="toc_10">library-project</h3>
+
+<p>Include Android library project in Cordova project</p>
+
+<pre><code>&lt;library-project source=&quot;ZXingLibrary&quot; /&gt;
+</code></pre>
+
+<ul>
+<li><p><code>source</code> <em>(required)</em></p>
+
+<p>Locate path to library project</p></li>
+</ul>
+
+<h2 id="toc_11">iOS Spec</h2>
+
+<h3 id="toc_12">plugin-plist</h3>
+
+<p>Specifies a key and value to append to the correct <code>AppInfo.plist</code> file in an iOS Cordova project. </p>
+
+<p>Example:</p>
+
+<pre><code>&lt;plugins-plist key=&quot;org.apache.cordova.barcodeScanner&quot;string=&quot;CDVBarcodeScanner&quot; /&gt;
+</code></pre>
+
+<h3 id="toc_13">resource-file and header-file</h3>
+
+<p>Like source files, but specifically for platforms that distinguish between source files, headers, and resources (iOS).</p>
+
+<p>Examples:</p>
+
+<pre><code>&lt;header-file src=&quot;zxing-all-in-one.h&quot; /&gt;
+&lt;source-file src=&quot;zxing-all-in-one.cpp&quot; /&gt;
+&lt;source-file src=&quot;CDVBarcodeScanner.mm&quot; /&gt;
+</code></pre>
+
+<h3 id="toc_14">framework</h3>
+
+<p>Identifies a framework (usually part of the OS/platform) that the plugin depends on. </p>
+
+<p>Example:</p>
+
+<pre><code>&lt;framework src=&quot;CoreVideo.framework&quot; /&gt;
+&lt;framework src=&quot;libiconv.dylib&quot; /&gt;
+&lt;framework src=&quot;libscanditsdk-iphone-2.2.3.a&quot; type=&quot;local&quot; /&gt;
+</code></pre>
+
+<ul>
+<li><p><code>type=”local”</code></p>
+
+<p>Identifies a static library framework in plugin folder</p></li>
+</ul>
+
+<h3 id="toc_15">code-snippet</h3>
+
+<p>Include plugin code in Cordova source</p>
+
+<pre><code>&lt;code-snippet target=&quot;APP_DELEGATE_H_INTERFACE_VARS&quot; file=&quot;Classes/AppDelegate.h&quot;&gt;
+&lt;![CDATA[, UIWebViewDelegate, CDVCommandDelegate]]&gt;
+&lt;/code-snippet&gt;
+</code></pre>
+
+<ul>
+<li><code>target</code> <em>(required)</em></li>
+</ul>
+
+<p>Where the code was included. Allowed names are:</p>
+
+<ul>
+<li><code>APP_DELEGATE_H_AFTER_CORDOVA_INCLUDE</code></li>
+<li><code>APP_DELEGATE_H_INTERFACE_VARS</code></li>
+<li><code>APP_DELEGATE_H_INTERFACE_INITIALIZATION</code></li>
+<li><code>APP_DELEGATE_H_AFTER_PROPERTIES</code></li>
+<li><code>APP_DELEGATE_M_AFTER_CORDOVA_INCLUDE</code></li>
+<li><code>APP_DELEGATE_M_IMPLEMENTATION</code></li>
+<li><code>APP_DELEGATE_M_INIT_BGN</code></li>
+<li><code>APP_DELEGATE_M_INIT_END</code></li>
+<li><code>APP_DELEGATE_M_UIDELEG_IMPL_BGN</code></li>
+<li><code>APP_DELEGATE_M_FINISH_WITH_OPTS_BGN</code></li>
+<li><code>APP_DELEGATE_M_FINISH_WITH_OPTS_XTIFY</code></li>
+<li><code>APP_DELEGATE_M_FINISH_WITH_OPTS_END</code></li>
+<li><code>APP_DELEGATE_M_HANDLE_OPENURL_BGN</code></li>
+<li><code>APP_DELEGATE_M_HANDLE_OPENURL_END</code></li>
+<li><code>APP_DELEGATE_M_IMPL_END</code></li>
+<li><code>MAIN_VIEW_CTRL_H_AFTER_CORDOVA_IMPORT</code></li>
+<li><code>MAIN_VIEW_CTRL_H_INTERFACE_INIT</code></li>
+<li><code>MAIN_VIEW_CTRL_H_PROPS</code></li>
+<li><code>MAIN_VIEW_CTRL_M_IMPORTS</code></li>
+<li><code>MAIN_VIEW_CTRL_M_INIT_W_NIB_BGN</code></li>
+<li><code>MAIN_VIEW_CTRL_M_INIT_W_NIB_CST</code></li>
+<li><code>MAIN_VIEW_CTRL_M_INIT_W_NIB_END</code></li>
+<li><code>MAIN_VIEW_CTRL_M_MEMORY_WARNING_BGN</code></li>
+<li><code>MAIN_VIEW_CTRL_M_MEMORY_WARNING_END</code></li>
+<li><code>MAIN_VIEW_CTRL_M_VIEW_LIFECYCLE</code></li>
+<li><code>MAIN_VIEW_CTRL_M_DID_LOAD_BGN</code></li>
+<li><code>MAIN_VIEW_CTRL_M_DID_LOAD_END</code></li>
+<li><code>MAIN_VIEW_CTRL_M_DID_UNLOAD_BGN</code></li>
+<li><code>MAIN_VIEW_CTRL_M_DID_UNLOAD_END</code></li>
+<li><code>MAIN_VIEW_CTRL_M_IMPL_AUTOROTATE_BGN</code></li>
+<li><code>MAIN_VIEW_CTRL_M_IMPL_AUTOROTATE_END</code></li>
+<li><code>MAIN_VIEW_CTRL_M_WEB_DELEG_IMPL</code></li>
+<li><code>MAIN_VIEW_CTRL_M_WEB_VIEW_DID_LOAD_BGN</code></li>
+<li><code>MAIN_VIEW_CTRL_M_WEB_VIEW_DID_LOAD_END</code></li>
+<li><code>MAIN_VIEW_CTRL_M_END_IMPL</code></li>
+</ul>
+
+<p><code>file</code> <em>(required)</em></p>
+
+<p>File where the code was included. Allowed files are:</p>
+
+<ul>
+<li><code>AppDelegate.h</code></li>
+<li><code>AppDelegate.m</code></li>
+<li><code>MainViewController.h</code></li>
+<li><code>MainViewController.m</code></li>
+</ul>
 
 
       
@@ -264,13 +589,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-76e22d52.js" type="text/javascript"></script>
+<script src="/js/main-281dbde7.js" type="text/javascript"></script>
     <script src="/js/vendor/rainbow-2b7edd35.js" type="text/javascript"></script>
 <script src="/js/vendor/rainbow/generic-6a91084e.js" type="text/javascript"></script>
 <script src="/js/vendor/rainbow/javascript-5e0c6c6e.js" type="text/javascript"></script>
     <script src="/js/doc_search/base-461d2d41.js" type="text/javascript"></script>
 <script src="/js/vendor/turbolinks-242986df.js" type="text/javascript"></script>
-<script src="/js/vendor/bootstrap-affix-ce8ab8ff.js" type="text/javascript"></script>
   
 
 
