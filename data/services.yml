@@ -3,10 +3,10 @@ submenu:
     text: App Development
     url: '#toc_0'
   -
-    text: Widget Building
+    text: Consultancy
     url: '#toc_1'
   -
-    text: Consultancy
+    text: Widget Building
     url: '#toc_2'
   -
     text: Contact Us

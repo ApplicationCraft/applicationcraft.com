@@ -7,6 +7,9 @@ body.developers {
   @import 'developers/cheat_sheet';
   @import 'developers/breadcrumbs';
 
+  nav.main .active {
+    background-image: image-url('products/nav-pointer-light.gif');
+  }
 
   #developers-section {
     margin: 70px 0;
