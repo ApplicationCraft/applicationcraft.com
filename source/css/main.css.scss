@@ -72,9 +72,15 @@ $btnInverseBackgroundHighlight:     $grayDarker !default;
 
 
 body {
-  font-family: 'museo_sans_rounded_300regular';
-  color: #3e3e3e;
+  font-family: Helvetica, Arial;
+  color: #555;
   background-color: #F9FAF7;
+  font-size: 0.96em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'museo_sans_rounded_300regular';
+  text-transform: uppercase;
 }
 
 a {

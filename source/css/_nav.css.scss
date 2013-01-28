@@ -6,7 +6,10 @@ aside ul#submenu {
   padding: 0;
   border-right: 1px solid #ddd;
   width: 230px;
-  margin-top: 18px !important;
+
+  @include apply-to(less-than, ipad-landscape) {
+    width: 165px;
+  }
 
   li {
     margin: 4px 0 4px 6px;
@@ -17,6 +20,7 @@ aside ul#submenu {
       text-transform: uppercase;
       font-size: 14px;
       text-align: right;
+      font-family: gotham_mediumregular;
     }
 
     &.active a {
@@ -227,6 +231,7 @@ nav.sub {
   background-color: #EFEDE7;
   padding: 12px 0 10px;
   box-shadow: 0px 0px 6px #888;
+  font-family: 'museo_sans_rounded_300regular';
 
   ul, li {
     list-style: none;

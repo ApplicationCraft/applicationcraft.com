@@ -37,7 +37,6 @@ footer {
 
             @include apply-to(more-than, ipad-portrait) {
               margin: 8px 50px 8px 0;
-              font-size: 1.1em;
             }
           }
         }
