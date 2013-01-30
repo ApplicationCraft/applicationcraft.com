@@ -2,7 +2,7 @@
 title: Something BIG is coming!
 author: Joel Moss
 date: 2013-01-25
-tags: future
+tags: future, something BIG
 class_name: blog
 full_width: true
 ---
