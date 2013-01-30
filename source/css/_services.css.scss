@@ -1,5 +1,93 @@
 body.services {
 
+  #services-showcase {
+    > div {
+      margin: 35px auto;
+
+      @include apply-to(more-than, iphone-landscape) {
+        width: 78%;
+      }
+
+      @include apply-to(more-than, ipad-portrait) {
+        float: left;
+        width: 33%;
+      }
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style: none;
+          text-align: center;
+
+          @include apply-to(more-than, ipad-portrait) {
+            width: 180px;
+          }
+
+          &:last-child {
+            margin-top: 6px;
+          }
+        }
+      }
+
+      .mb-thumb {
+        display: block;
+        height: 90px;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        background: #FFF image-url('logos/anon.jpg') no-repeat center center;
+        background-size: 100%;
+        box-shadow: inset 1px 1px 4px rgba(0,0,0,0.5), 0 2px 3px rgba(0,0,0,0.6);
+
+        @include apply-to(more-than, ipad-portrait) {
+          width: 160px;
+        }
+      }
+
+      &#services-showcase-hcri .mb-thumb {
+        background-image: image-url('logos/hcri.png');
+        background-position: center center;
+        background-size: 80%;
+
+        @include apply-to(more-than, iphone-landscape) {
+          background-size: 68%;
+        }
+
+        @include apply-to(more-than, ipad-portrait) {
+          background-size: 90%;
+        }
+      }
+      &#services-showcase-coke .mb-thumb {
+        background-image: image-url('logos/coke.png');
+        background-position: 20px 10px;
+        background-size: 248%;
+
+        @include apply-to(more-than, iphone-landscape) {
+          background-position: 10px 16px;
+          background-size: 171%;
+        }
+
+        @include apply-to(more-than, ipad-portrait) {
+          background-position: left 20px;
+          background-size: 287%;
+        }
+      }
+      &#services-showcase-ndtech .mb-thumb {
+        background-image: image-url('logos/ndtech.png');
+        background-position: center center;
+        background-size: 100%;
+
+        @include apply-to(more-than, iphone-landscape) {
+          background-size: 81%;
+        }
+
+        @include apply-to(more-than, ipad-portrait) {
+          background-size: 100%;
+        }
+      }
+    }
+  }
+
   nav.main {
     @include box-shadow(0px 0px 6px #333);
 
