@@ -15,7 +15,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-7640ecff.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-d1f71993.css" media="screen" rel="stylesheet" type="text/css" />
     
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
@@ -74,6 +74,168 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/blog/2013/01/quick-and-easy-database-crud-with-parse/">January 14, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@applicationcraft.com">Joel Moss</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>databases</li>
+            
+              <li>CRUD</li>
+            
+              <li>parse</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2013/01/quick-and-easy-database-crud-with-parse/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2013/01/quick-and-easy-database-crud-with-parse/">Quick and Easy Database CRUD with Parse</a></h1>
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2013/01/quick-and-easy-database-crud-with-parse/" data-via="appcrafty" data-size="small" data-count="none" data-text="Quick and Easy Database CRUD with Parse">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2013/01/quick-and-easy-database-crud-with-parse/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2013/01/quick-and-easy-database-crud-with-parse/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+
+        
+
+        <p>Over Christmas we introduced the easiest yet way for you to to create, read, update and delete data in any AC application. We partnered up with <a href="http://parse.com">Parse</a> to provide an extremely low barrier to entry data backend using their <a href="https://parse.com/docs/rest#objects">Objects API</a>. Making the whole <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> process amazingly easy to implement into any app.</p>
+
+<p>I won&#39;t go into too much detail here as the <a href="http://www.applicationcraft.com/developers/documentation/product-guide/advanced-features/parse/objects/">documentation</a> already does that well. So instead I will prove to you you just how easy it is to use.</p>
+
+<h2 id="toc_0">Available Methods</h2>
+
+<p>We have created a new <code>parse.objects</code> class which your app has access to. This new class contains 5 methods which cover everything you need to create, read, update and delete data, as well as a powerful querying API:</p>
+
+<ul>
+<li><a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectcreate">parse.objects.create()</a></li>
+<li><a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectread">parse.objects.read()</a></li>
+<li><a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectupdate">parse.objects.update()</a></li>
+<li><a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectdelete">parse.objects.delete()</a></li>
+<li><a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectquery">parse.objects.query()</a></li>
+</ul>
+
+<h2 id="toc_1">Example Scenario</h2>
+
+<p>I want to keep a record of my book collection, including details of each book. So lets start by creating an object (or record) for each book in my collection (I only have one right now):</p>
+
+<pre><code>parse.objects.create(&#39;books&#39;, {
+  title: &#39;The Lord of the Rings&#39;,
+  author: &#39;JRR Tolkien&#39;
+});
+</code></pre>
+
+<p>This will return a Javascript object containing the <code>objectId</code> and the <code>createdAt</code> date.</p>
+
+<pre><code>{
+  objectId: &quot;DM5XhFTiPR&quot;,
+  createdAt: &quot;2013-01-14T11:41:24.174Z&quot;
+}
+</code></pre>
+
+<p>I forgot to add the publication date, so let&#39;s update my record:</p>
+
+<pre><code>parse.objects.update(&#39;books&#39;, &#39;DM5XhFTiPR&#39;, {
+  publishedAt: &quot;1954-07-21T00:00:00.000Z&quot;
+});
+</code></pre>
+
+<p>Let&#39;s take a look at our updated object using the <code>read</code> method:</p>
+
+<pre><code>parse.objects.read(&#39;books&#39;, &#39;DM5XhFTiPR&#39;);
+</code></pre>
+
+<p>Our object now looks like this:</p>
+
+<pre><code>{
+  title: &#39;The Lord of the Rings&#39;,
+  author: &#39;JRR Tolkien&#39;,
+  publishedAt: &#39;1954-07-21T00:00:00.000Z&#39;
+}
+</code></pre>
+
+<p>It turns out that my wife just threw away my book, so I now need to delete this object:</p>
+
+<pre><code>parse.objects.delete(&#39;books&#39;, &#39;DM5XhFTiPR&#39;);
+</code></pre>
+
+<p>But being a good wife that she is, she bought me a shiny new replacement, along with a few others for me to read. So I created a new record for each of my new books.</p>
+
+<p>I now have quite a few books in collection, but want to find only those written by JRR Tolkien:</p>
+
+<pre><code>parse.objects.query(&#39;books&#39;, {
+  where: {
+    author: &#39;JRR Tolkien&#39;
+  }
+});
+</code></pre>
+
+<p>The above will return me a <code>results</code> array, containing all objects which have an author of &#39;JRR Tolkien&#39;.</p>
+
+<p>Those are the basics, and there is of course a lot more that you can do, including some pretty advanced querying. But you should be able to see from the above how quick and easy it is to use the new Parse powered database support in Application Craft.</p>
+
+<p><a href="http://www.applicationcraft.com/developers/documentation/product-guide/advanced-features/parse/">Check out the docs</a> for more, and leave your comments below.</p>
+
+<p>Enjoy!</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2013/01/quick-and-easy-database-crud-with-parse/" data-via="appcrafty" data-size="small" data-count="none" data-text="Quick and Easy Database CRUD with Parse">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2013/01/quick-and-easy-database-crud-with-parse/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2013/01/quick-and-easy-database-crud-with-parse/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -475,6 +637,8 @@ That was the key to paradise!  I started writing my own CSS styles and in a shor
       <h4>Latest posts...</h4>
       <ul>
         
+          <li><a href="/blog/2013/01/state-of-the-ide/">The State of the IDE</a></li>
+        
           <li><a href="/blog/2013/01/something-big-is-coming/">Something BIG is coming!</a></li>
         
           <li><a href="/blog/2013/01/windows-phone-mobile-build-support/">AC Mobile Build for Windows Phone</a></li>
@@ -489,14 +653,14 @@ That was the key to paradise!  I started writing my own CSS styles and in a shor
         
           <li><a href="/blog/2013/01/css-styling/">CSS Styling in Application Craft</a></li>
         
-          <li><a href="/blog/2012/12/get-more-out-of-the-developer-portal/">Get more out of the Developer Portal</a></li>
-        
       </ul>
     </section>
 
     <section class="latest-posts">
       <h4>on this page...</h4>
       <ul>
+        
+          <li><a href="/blog/2013/01/quick-and-easy-database-crud-with-parse/">Quick and Easy Database CRUD with Parse</a></li>
         
           <li><a href="/blog/2013/01/push-notifications/">Push Notification app in minutes</a></li>
         
@@ -680,7 +844,7 @@ var disqus_shortname = 'applicationcraftwebsite'; // required: replace example w
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-281dbde7.js" type="text/javascript"></script>
+<script src="/js/main-6879247d.js" type="text/javascript"></script>
   <script>
     var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
