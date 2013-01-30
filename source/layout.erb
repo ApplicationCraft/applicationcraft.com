@@ -76,7 +76,7 @@
             <%= yield_content :above_aside %>
 
             <% if current_page.data.active_submenu %>
-              <ul id="submenu" data-spy="affix" data-offset-top="200">
+              <ul id="submenu" <% if current_page.data.class_name != 'training_videos' %>data-spy="affix" data-offset-top="200"<% end %>>
                 <% data.send(current_page.data.active_submenu).submenu.each do |f| %>
                   <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
                     <a href="<%= f.url %>"><%= f.text %></a>
