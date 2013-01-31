@@ -37,11 +37,8 @@ Note that you can modify the Marker image either by setting the widget property 
         '</div>';
      
         // Let's add 2 Markers, one with hover and click popup information
-        var objName1 = app.w('googleMapsAdvanced').
-    (37.44, -122.1, 
-            overContentString, clickContentString, imgUrl);
-        var objName2 = app.w('googleMapsAdvanced').
-    (37.55, -122.15);
+        var objName1 = app.w('googleMapsAdvanced').(37.44, -122.1, overContentString, clickContentString, imgUrl);
+        var objName2 = app.w('googleMapsAdvanced').(37.55, -122.15);
     }
    
 
