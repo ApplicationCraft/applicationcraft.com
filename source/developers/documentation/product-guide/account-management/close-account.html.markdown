@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-To close your account, hover over your user name to select Close Account.
+To close your account, hover over your user name to select Cancel Account.
 
 If you are a subscriber, you must first [Cancel](/developers/documentation/product-guide/account-management/cancel-subscription) your subscription before you can close your account. This is to ensure that any payment information is also properly handled.
 
