@@ -40,7 +40,7 @@ The IDE is no exception. However, no-one has yet managed to replicate the good p
 
 We're building an IDE that any type of developer will love to use on a day-to-day basis. A code editor that has all the functionality of the best desktop editors, including code-completion, split-panes and live preview. A development environment that can compete with the best desktop IDE's, and support the basics, along with the most advanced features, such as source control, debugging, compilation/building, and deployment.
 
-Then we're adding a layer of conveniance on top of all this, that will use the expertise that we have built into the current version of AC, empowering novices and the less technical of you to build web and mobile apps extremely fast. Including a widget library that you can use with a simple and drag and drop, and a pixel perfect layout manager to allow you to design your app in an extremely easy way.
+Then we're adding a layer of convenience on top of all this, that will use the expertise that we have built into the current version of AC, empowering novices and the less technical of you to build web and mobile apps extremely fast. Including a widget library that you can use with a simple and drag and drop, and a pixel perfect layout manager to allow you to design your app in an extremely easy way.
 
 And we are making sure that you can work the way you want to work, which means building an IDE that is extendable and flexible.
 
