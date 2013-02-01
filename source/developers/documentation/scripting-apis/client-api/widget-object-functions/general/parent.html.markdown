@@ -27,7 +27,7 @@ Returns the parent Widget of the Widget
 </table>
 ## Description
 
-This function is useful for finding out the parent Widget of another Widget. This is especially useful within a Repeater Container where a Respondent might interact with a Widget inside a row of a Repeater Container. Let's say the use presses an 'Order' button,.
+This function is useful for finding out the parent Widget of another Widget. This is especially useful within a Repeater Container where a Respondent might interact with a Widget inside a row of a Repeater Container. Let's say the user presses an 'Order' button,.
 
     rowObj = _widget.parent();    // the row within the Repeater Container
     rptObj = rowObj.parent();     // And the parent of that row is the actual Repeater Container
