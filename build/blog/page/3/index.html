@@ -15,7 +15,7 @@
     
 
     <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-d1f71993.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-be145478.css" media="screen" rel="stylesheet" type="text/css" />
     
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
@@ -74,6 +74,137 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/blog/2013/01/css-styling/">January  7, 2013</a>
+            
+              <span class="author">by <a href="mailto:mkoufakis@applicationcraft.com">Manos Koufakis (AC User)</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>css</li>
+            
+              <li>styling</li>
+            
+              <li>jquerymobile</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2013/01/css-styling/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2013/01/css-styling/">CSS Styling in Application Craft</a></h1>
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2013/01/css-styling/" data-via="appcrafty" data-size="small" data-count="none" data-text="CSS Styling in Application Craft">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2013/01/css-styling/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2013/01/css-styling/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+
+        
+          <img alt="CSS Styling in Application Craft" align="left" class="blog-img" src="/img/blog/coinmad-movie-f567d617.png" />
+        
+        <h2 id="toc_0">Introducing Manos Koufakis</h2>
+
+<p>Manos has been an Application Craft user since we were in beta last year. His first app made it to #2 in the Apple App Store, beating eBay, Skype and other household names.</p>
+
+<p>Manos has produced a great new app (currently pre-release) that makes heavy use of CSS Styling and we thought it would be great to share his experiences with you. Manos has provided ...</p>
+
+<ul>
+<li>the <a href="http://acft.ws/nsnd">working app</a> that you can run in your desktop browser</li>
+<li>a <a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> Video Tutorial</a> of how he did this</li>
+<li>a list of useful resources (below)</li>
+</ul>
+
+<h2 id="toc_1">Style like a pro with Application Craft</h2>
+
+<p>Ever since I started using Application Craft (nearly 1 year ago), I was really excited with the Widget drag and drop environment that allowed for really speedy development without having to care about containers, specifying complex div structure etc. So I made my first app with AC, named Βρες Δώρο (Find Gift), that does what its title indicates - it helps you find a gift for any circumstance.</p>
+
+<p>Without using ANY custom CSS style, relying only on the provided AC themes and widgets I completed my app and it rocketed to the #2 position in the App store and stayed there for nearly 1 week! I was really blown away! The application received triumphant comments, but what  started bothering me, was that there were a few comments referring to poor design.</p>
+
+<p>In the meanwhile, I started developing my second app called “Find the Movie”, which is a movie quiz game where the user is called to guess a film by looking at a screenshot. For that app I co-operated with a graphic arts company in order to have cool icons and design in my app and avoid any negative criticism. When the art project completed, I was provided with a set of .psd files and NO CSS. That was a nightmare for me!</p>
+
+<p>How the hell can I implement all those fancy gradients, cool button icons etc. into AC? AC is a widget based platform and there is NO theme roller. Plus, I really hate messing with CSS! As much as I like programming, my head aches when I have to deal with CSS styling.</p>
+
+<p>After the initial panic, I searched a bit on the AC forum and read a bit about the <a href="https://getsatisfaction.com/application_craft/topics/application_craft_custom_css_classes_how_do_i_reference_these_with_a_url">Custom CSS Properties</a> that you can see as an option to every widget you see.<br>
+That was the key to paradise!  I started writing my own CSS styles and in a short period of time, I transformed a poorly looking app to a really nice looking quiz game. You can see the result here and play around with the pre-release demo:<br>
+<a href="http://acft.ws/nsnd">http://acft.ws/nsnd</a></p>
+
+<h2 id="toc_2">OK, so much for the talk, now how do you do it?</h2>
+
+<p>In order to transform your application and implement your custom styles, you will need 4 tools:</p>
+
+<ol>
+<li> <a href="http://www.w3schools.com/">http://www.w3schools.com/</a> - even if you think you’re a CSS expert, it’s nearly impossible to remember by heart all these great features of CSS and CSS3, so you can use that website as a reference in case you forget something</li>
+<li> Chrome or Firefox debugger (or any debugger that you like) – myself I’ve been using mostly the <a href="http://developer.chrome.com/extensions/debugger.html">Chrome debugger</a>, ‘cause I like Chrome best. This is the most useful tool in order to know what to do. So every time you want to style a certain page, you open the page, then open the debugger and with the use of the Element Inspector (that little magnifying glass at the bottom) you can click any element on your page and you are provided with its  CSS style features.</li>
+<li> An image editing program like Photoshop</li>
+<li> <a href="http://csslint.net/">CSS Lint</a> – never ever, ever, ever try to implement any CSS without first validating it. CSS Lint provides a really handy CSS debugger where you can copy+paste your CSS code and check for any errors. A single CSS error may be the reason why your CSS style is completely messed up. I use CSS Lint for validation and Chrome’s debugger for element inspection and in case you wonder why I use a second debugger for CSS is because I find CSS Lint more handy for CSS validation purposes  only.</li>
+</ol>
+
+<p>So, with all these in mind / handy, you’re ready for the next stage...</p>
+
+<h2 id="toc_3">How to mess with AC’s Widgets and add your own custom styling?</h2>
+
+<p>Instead of writing a general strategy, it is best to proceed with a &quot;per case&quot; scenario. <a href="http://www.youtube.com/v/9bJSG-ETZvs?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe"> So I made a video</a>.</p>
+
+<p>(please bear with the hybrid language that I speak on the tutorial. It is known as Greeklish ;)</p>
+
+<p>I will be adding more video tutorials when I have more time.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2013/01/css-styling/" data-via="appcrafty" data-size="small" data-count="none" data-text="CSS Styling in Application Craft">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2013/01/css-styling/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2013/01/css-styling/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -438,110 +569,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/blog/2012/12/introducing-our-new-webinar-sessions/">December  5, 2012</a>
-            
-              <span class="author">by <a href="mailto:hho@applicationcraft.com">Hazel Ho</a></span>
-            
-          </p>
-
-          <p class="tagged">Tagged:</p>
-          <ul class="tags">
-            
-              <li>webinars</li>
-            
-              <li>support</li>
-            
-          </ul>
-
-          <p class="comments">
-            <a class="dsq-comment-count" href="/blog/2012/12/introducing-our-new-webinar-sessions/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/blog/2012/12/introducing-our-new-webinar-sessions/">Introducing Our New Webinar Sessions</a></h1>
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/introducing-our-new-webinar-sessions/" data-via="appcrafty" data-size="small" data-count="none" data-text="Introducing Our New Webinar Sessions">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2012/12/introducing-our-new-webinar-sessions/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/introducing-our-new-webinar-sessions/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-
-        
-        <p>We’ve undergone lots of changes at Application Craft within the past month but we’re not going to take off our construction helmets and set our tools down just yet because there’s still lots of work to be done. </p>
-
-<p>We constantly receive feedback and suggestions for improvements and new features and we’re happy to tell you that your requests are not being lost on us! </p>
-
-<ul>
-<li>You suggested <a href="http://www.applicationcraft.com/blog/2012/10/accepting-credit-card-payments-ac-apps/">credit card payments</a>, we thought, “why not?” </li>
-<li>We heard the call out for <a href="http://www.applicationcraft.com/blog/2012/07/scandit-partnership-enterprise-quality-barcode-scanning-application-craft/">barcode scanning</a>, in came our <a href="http://www.scandit.com/">Scandit</a> Partnership. </li>
-<li>You asked for improved <a href="http://www.scandit.com/">documentation</a>, you got it. </li>
-<li>We like to keep the lines of communication open between you and us, so we were beyond excited to introduce a new method of connecting with us via <a href="http://www.applicationcraft.com/blog/2012/11/a-new-way-to-talk/">Intercom.io</a>.</li>
-</ul>
-
-<p>We received such a great response from the latter that it made us think about what else we could do to improve your Application Craft experience. And thus the idea to host webinars was born. </p>
-
-<h2 id="toc_0">Webinars!!!</h2>
-
-<p>We plan to organize regular webinar sessions where we will run through sessions that go through the basics of how to navigate around the console and IDE, to demonstrating how new features work. This is your chance to have some fun and interact with the Application Craft team.</p>
-
-<p>Our first webinar sessions will take place next week and will act as a mini one-hour tutorial session for those who would like a better understanding of the Application Craft product.  </p>
-
-<p>Tuesday December 11, 2012 - 2-3PM GMT<br>
-Thursday December 13, 2012 - 6-7PM GMT</p>
-
-<p><a href="http://www.applicationcraft.com/#upcoming-webinars">Sign up</a> now - We would love it if you came along and joined us! </p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/introducing-our-new-webinar-sessions/" data-via="appcrafty" data-size="small" data-count="none" data-text="Introducing Our New Webinar Sessions">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2012/12/introducing-our-new-webinar-sessions/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/introducing-our-new-webinar-sessions/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -566,6 +593,8 @@ Thursday December 13, 2012 - 6-7PM GMT</p>
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/blog/2013/02/ac-education-creighton-university-experience/">AC Education - the Creighton University Experience</a></li>
+          
             <li><a href="/blog/2013/01/state-of-the-ide/">The State of the IDE</a></li>
           
             <li><a href="/blog/2013/01/something-big-is-coming/">Something BIG is coming!</a></li>
@@ -580,8 +609,6 @@ Thursday December 13, 2012 - 6-7PM GMT</p>
           
             <li><a href="/blog/2013/01/gjigan/">GjiGan - Your City at your Fingertips</a></li>
           
-            <li><a href="/blog/2013/01/css-styling/">CSS Styling in Application Craft</a></li>
-          
         </ul>
       </section>
     
@@ -590,13 +617,13 @@ Thursday December 13, 2012 - 6-7PM GMT</p>
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/blog/2013/01/css-styling/">CSS Styling in Application Craft</a></li>
+        
           <li><a href="/blog/2012/12/get-more-out-of-the-developer-portal/">Get more out of the Developer Portal</a></li>
         
           <li><a href="/blog/2012/12/release-jquery-mobile/">Release: jQuery Mobile 1.2, Mobile Debugger</a></li>
         
           <li><a href="/blog/2012/12/application-craft-vs-appcelerator-titanium/">Application Craft VS Appcelerator Titanium</a></li>
-        
-          <li><a href="/blog/2012/12/introducing-our-new-webinar-sessions/">Introducing Our New Webinar Sessions</a></li>
         
       </ul>
     </section>
