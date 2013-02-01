@@ -1,15 +1,15 @@
 ---
 title: AC Education - the Creighton University Experience
 author: Dr. Cindy Corritore (AC User)
-date: 2013-01-31
+date: 2013-02-01
 tags: mobile application, education, mobile development for learning, Creighton University, Argy Bargy
 class_name: blog
 full_width: true
-published: false
+image: blog/argybargy-cindy.jpg
 ---
 
 ##Introducing Creighton University
-<insert cindy image here>We like to round up different perspectives of various Application Craft users and were pleased when Dr. Cindy Corritore, a Professor of IT in the [College of Business at Creighton University](http://business.creighton.edu/), offered her insights on what it has been like to teach with Application Craft.
+We like to round up different perspectives of various Application Craft users and were pleased when Dr. Cindy Corritore, a Professor of IT in the [College of Business at Creighton University](http://business.creighton.edu/), offered her insights on what it has been like to teach with Application Craft.
 
 ##Teaching mobile app development with Application Craft
 I have been teaching for about 25 years, and hold a Ph.D. in Computer Science (which I have also taught). My programming is rusty, and I was never a crack programmer. I am more interested in HCI (human-computer interaction, UX). I want to tell you a bit about how I used Application Craft (AC) in a new undergraduate course – with great success, I might add. 
@@ -25,4 +25,7 @@ In a nutshell, the students loved AC. They said it was the best part of the cour
 ##Argy Bargy Event
 
 The work of the students was so good that we decided to have a competition, with awards for the team built the ‘best’ apps. Our “2013 App Dev Argy-Bargy” was a huge success – it was attended by other students, folks from IT companies around the city, and the press. The top two teams won iPads and Google Nexus tablets, sponsored by businesses, including AC. It was an exciting event, with judges and audience voting via SMS. My favorite part? When a student said, in response to a question, that “we used an IDE called Application Craft, which is platform-independent, device-agnostic, had a great API, and allows for native implementation on devices." Huh – three months ago these students wouldn’t have known the difference between IDE and API – that is, IMHO. 
-<Insert argybargy, argybargy1, argybargy2 images>
+
+![Argy Bargy Event](/img/blog/argybargy.jpg "Argy Bargy Event")
+![Argy Bargy Event](/img/blog/argybargy2.jpg "Argy Bargy Event")
+![Argy Bargy Event](/img/blog/argybargy3.jpg "Argy Bargy Event")
