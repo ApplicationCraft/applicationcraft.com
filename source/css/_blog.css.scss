@@ -320,7 +320,11 @@ body.blog {
       }
 
       blockquote {
-        margin: 1.6em 40px 1em;
+        margin: 2em 40px 1.6em;
+        font-family: serif;
+        font-style: italic;
+        font-size: 18px;
+        color: #666;
 
         em {
           font-style: normal;
