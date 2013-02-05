@@ -5,10 +5,46 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2013-02-01T00:00:00Z</updated>
+  <updated>2013-02-05T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Collaboration is BIG!</title>
+    <link rel="alternate" href="/blog/2013/02/collaboration-is-big/"/>
+    <id>/blog/2013/02/collaboration-is-big/</id>
+    <published>2013-02-05T00:00:00Z</published>
+    <updated>2013-02-05T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;As you should already know by now, we&amp;#39;re working on &lt;a href="/blog/2013/01/something-big-is-coming/"&gt;something BIG!&lt;/a&gt;. It&amp;#39;s an all new cloud based software development platform. And it will be the very first cloud based IDE that every developer will love to use, day in and day out. Please &lt;a href="http://crafted.applicationcraft.com/"&gt;register your interest&lt;/a&gt; and we&amp;#39;ll let you in on the first public beta.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;As you should already know by now, we&amp;#39;re working on &lt;a href="/blog/2013/01/something-big-is-coming/"&gt;something BIG!&lt;/a&gt;. It&amp;#39;s an all new cloud based software development platform. And it will be the very first cloud based IDE that every developer will love to use, day in and day out. Please &lt;a href="http://crafted.applicationcraft.com/"&gt;register your interest&lt;/a&gt; and we&amp;#39;ll let you in on the first public beta.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“We live not in a passive society, a read-only society, but in a writable society.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Collaboration is the very first thing we thought about when we first sat down to plan the next major version of Application Craft, and has continued to be at the very heart of almost everything we are building.&lt;/p&gt;
+
+&lt;p&gt;Collaboration is arguably the single biggest advantage when using software in the browser, because the browser is constantly connected via the internet, and because the browser is now the most used application on almost any device. Collaboration is also hugely important when writing software and especially when building for the web. It empowers us to do more, while remaining in the [virtual] company of our friends and colleague&amp;#39;s.&lt;/p&gt;
+
+&lt;p&gt;The cost of collaborating between you and others when using the browser and the internet are zero. Email, Twitter, Skype - these are all free to use, and they are all about collaboration.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;It is the long history of humankind (and animal kind, too) those who learned to collaborate and improvise most effectively have prevailed.&amp;quot; - Charles Darwin&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ah, but now I hear a few of you asking the question &amp;quot;&lt;strong&gt;what if I don&amp;#39;t have anyone to collaborate with?&lt;/strong&gt;&amp;quot;. The answer to that is easy and simple... &lt;strong&gt;you do!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The world is full of like-minded people just like you. People who love building web apps, designing web sites, or creating mobile applications. And they all have something to share, even you! And whether you realise it or not, you co-ordinate and collaborate every single day, with people you have never met or spoken to before. No matter what accomplishments you make, somebody helped you.&lt;/p&gt;
+
+&lt;p&gt;The largest sites are essentially all about encouraging collaboration and making it easier for us to co-ordinate with each other. Sites and apps like Facebook, Twitter, Gmail, Wikipedia, Github, Basecamp, and now Application Craft are leading the way here.&lt;/p&gt;
+
+&lt;p&gt;Collaboration is &lt;em&gt;extremely&lt;/em&gt; powerful, and we think you&amp;#39;re going to love what you will be able to do with &lt;a href="http://crafted.applicationcraft.com/"&gt;what we have planned&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>AC Education - the Creighton University Experience</title>
     <link rel="alternate" href="/blog/2013/02/ac-education-creighton-university-experience/"/>
@@ -171,97 +207,6 @@
 &lt;p&gt;&lt;img title="The new Sign In page in the new AC Console" alt="New Sign In" src="/img/blog/newconsole3-f5ed8219.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;We&amp;#39;d love to know what you think, so please leave your comments below.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Quick and Easy Database CRUD with Parse</title>
-    <link rel="alternate" href="/blog/2013/01/quick-and-easy-database-crud-with-parse/"/>
-    <id>/blog/2013/01/quick-and-easy-database-crud-with-parse/</id>
-    <published>2013-01-14T00:00:00Z</published>
-    <updated>2013-01-14T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Over Christmas we introduced the easiest yet way for you to to create, read, update and delete data in any AC application. We partnered up with &lt;a href="http://parse.com"&gt;Parse&lt;/a&gt; to provide an extremely low barrier to entry data backend using their &lt;a href="https://parse.com/docs/rest#objects"&gt;Objects API&lt;/a&gt;. Making the whole &lt;a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; process amazingly easy to implement into any app.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Over Christmas we introduced the easiest yet way for you to to create, read, update and delete data in any AC application. We partnered up with &lt;a href="http://parse.com"&gt;Parse&lt;/a&gt; to provide an extremely low barrier to entry data backend using their &lt;a href="https://parse.com/docs/rest#objects"&gt;Objects API&lt;/a&gt;. Making the whole &lt;a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; process amazingly easy to implement into any app.&lt;/p&gt;
-
-&lt;p&gt;I won&amp;#39;t go into too much detail here as the &lt;a href="http://www.applicationcraft.com/developers/documentation/product-guide/advanced-features/parse/objects/"&gt;documentation&lt;/a&gt; already does that well. So instead I will prove to you you just how easy it is to use.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Available Methods&lt;/h2&gt;
-
-&lt;p&gt;We have created a new &lt;code&gt;parse.objects&lt;/code&gt; class which your app has access to. This new class contains 5 methods which cover everything you need to create, read, update and delete data, as well as a powerful querying API:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectcreate"&gt;parse.objects.create()&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectread"&gt;parse.objects.read()&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectupdate"&gt;parse.objects.update()&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectdelete"&gt;parse.objects.delete()&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/developers/documentation/scripting-apis/server-side-api/parse-object/objectquery"&gt;parse.objects.query()&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="toc_1"&gt;Example Scenario&lt;/h2&gt;
-
-&lt;p&gt;I want to keep a record of my book collection, including details of each book. So lets start by creating an object (or record) for each book in my collection (I only have one right now):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;parse.objects.create(&amp;#39;books&amp;#39;, {
-  title: &amp;#39;The Lord of the Rings&amp;#39;,
-  author: &amp;#39;JRR Tolkien&amp;#39;
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will return a Javascript object containing the &lt;code&gt;objectId&lt;/code&gt; and the &lt;code&gt;createdAt&lt;/code&gt; date.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-  objectId: &amp;quot;DM5XhFTiPR&amp;quot;,
-  createdAt: &amp;quot;2013-01-14T11:41:24.174Z&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I forgot to add the publication date, so let&amp;#39;s update my record:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;parse.objects.update(&amp;#39;books&amp;#39;, &amp;#39;DM5XhFTiPR&amp;#39;, {
-  publishedAt: &amp;quot;1954-07-21T00:00:00.000Z&amp;quot;
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Let&amp;#39;s take a look at our updated object using the &lt;code&gt;read&lt;/code&gt; method:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;parse.objects.read(&amp;#39;books&amp;#39;, &amp;#39;DM5XhFTiPR&amp;#39;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Our object now looks like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-  title: &amp;#39;The Lord of the Rings&amp;#39;,
-  author: &amp;#39;JRR Tolkien&amp;#39;,
-  publishedAt: &amp;#39;1954-07-21T00:00:00.000Z&amp;#39;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It turns out that my wife just threw away my book, so I now need to delete this object:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;parse.objects.delete(&amp;#39;books&amp;#39;, &amp;#39;DM5XhFTiPR&amp;#39;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;But being a good wife that she is, she bought me a shiny new replacement, along with a few others for me to read. So I created a new record for each of my new books.&lt;/p&gt;
-
-&lt;p&gt;I now have quite a few books in collection, but want to find only those written by JRR Tolkien:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;parse.objects.query(&amp;#39;books&amp;#39;, {
-  where: {
-    author: &amp;#39;JRR Tolkien&amp;#39;
-  }
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The above will return me a &lt;code&gt;results&lt;/code&gt; array, containing all objects which have an author of &amp;#39;JRR Tolkien&amp;#39;.&lt;/p&gt;
-
-&lt;p&gt;Those are the basics, and there is of course a lot more that you can do, including some pretty advanced querying. But you should be able to see from the above how quick and easy it is to use the new Parse powered database support in Application Craft.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.applicationcraft.com/developers/documentation/product-guide/advanced-features/parse/"&gt;Check out the docs&lt;/a&gt; for more, and leave your comments below.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
