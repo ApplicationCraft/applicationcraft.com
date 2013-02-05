@@ -20,6 +20,8 @@ The general process works as follows.
   3.   If you want to make an API call to the 3rd party service, then from you client code you call an SSJ function, which is where you actually carry out up the API call to that service using [ssj.oAuthRequest()](/developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/oauthrequest) .
 
   4.   The SSJ function will then callback to the client function where you can process the returned data.
+  
+  5.   If planning to use oAuth in Native Apps, enable the [Child Browser](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/) Plugin.
 
 It's that simple. If all you want to do is authenticate someone, then you don't need to do steps 2 and 3.
 
