@@ -185,7 +185,7 @@ There are some advanced parameters that are passed through to the underlying JQu
     {timeout: 20000} 
 
     // Needed by some some 3rd party APIs for traditional "shallow" serializtion
-    // Refer to the [qjeury docs](http://api.jquery.com/jQuery.param/) for details
+    // Refer to the <a href="http://api.jquery.com/jQuery.param/">jQuery Docs</a> for details
     {traditional: true} 
 
     // suppress network state checking before httpRequest() is called
