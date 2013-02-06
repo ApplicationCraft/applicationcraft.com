@@ -181,18 +181,25 @@ There may be cases where the API returns data in http headers. An example of thi
 ## Special Parameters
 There are some advanced parameters that are passed through to the underlying JQuery API, which handles our Ajax requests. Please refer to the [jquery parameter documention](http://api.jquery.com/jQuery.ajax/) for a list of all jquery supported parameters.
 
-    // set the timeout value to 20 seconds before an error is thrown
-    {timeout: 20000} 
 
-    // Needed by some some 3rd party APIs for traditional "shallow" serializtion
-    // Refer to the <a href="http://api.jquery.com/jQuery.param/">jQuery Docs</a> for details
-    {traditional: true} 
+- Set the timeout value to 20 seconds before an error is thrown:
+    
+    `{timeout: 20000} `
 
-    // suppress network state checking before httpRequest() is called
-    {ignoreNetworkState: true}  
 
-    // true - request to another domain will be sent directly; false (default) - request to another domain will be sent to the Application Craft proxy.
-    {crossdomain:true} 
+- Needed by some some 3rd party APIs for traditional "shallow" serialization. Refer to the <a href="http://api.jquery.com/jQuery.param/">jQuery Docs</a> for details:
+   
+    `{traditional: true} `
+
+
+- Suppress network state checking before httpRequest() is called:
+
+    `{ignoreNetworkState: true}  `
+
+
+- True - request to another domain will be sent directly; false (default) - request to another domain will be sent to the Application Craft proxy:
+
+    `{crossdomain:true} `
 
 On the whole, you should not need to supply these other for very special situations. You can include several special parameters in one object.
 
