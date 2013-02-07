@@ -35,6 +35,9 @@ IMPORTANT
     Gets the Instance data for the current App as an object so it can be stored externally
  - [setInstanceData()](/developers/documentation/scripting-apis/client-api/instance-data-functions/setinstancedata)
     Restore an Instance previously created with getInstanceData()
+ - [dataGetAllWithIds()](/developers/documentation/scripting-apis/client-api/instance-data-functions/datagetallwithids) Gets data from the current app as an object so it can be used in Printing
+
+
 
 ## Related Videos
 
