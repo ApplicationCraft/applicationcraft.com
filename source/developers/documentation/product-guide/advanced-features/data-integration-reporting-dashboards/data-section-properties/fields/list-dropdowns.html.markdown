@@ -13,4 +13,4 @@ You can populate a Listbox or Dropdown directly from a View. Each row returned i
 
  - Value - each list item has an associated value that is not displayed and can be queried when a list selection is made.
 
-![Auto\_property\_settings](/img/docs/auto_property_settings.zoom64.png)
+![Auto\_property\_settings](/img/docs/auto_property_settings.zoom77.png)
