@@ -14,6 +14,19 @@ The following list contains the common errors that can be generated form the bui
 <table>
 <tr>
 <td width="271">
+<b>Error 170.</b> - Plugin with name = xxxxx supported only in platforms (xxxxx).
+
+</td>
+<td width="20">
+</td>
+<td width="595">
+  The indicated plugin is not supported for the defined build.
+
+</td>
+</tr>
+<tr>
+<tr>
+<td width="271">
 <b>Error 1200.</b> - Certificate file with ID # not found.
 
 </td>
