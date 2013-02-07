@@ -27,7 +27,7 @@ Several Data properties will invoke the Expression Editor such as
 
  - Drill Filter
 
-![Auto\_property\_settings](/img/docs/auto_property_settings.zoom64.png)
+![Auto\_property\_settings](/img/docs/auto_property_settings.zoom77.png)
 
 ## Bringing up the Expression Editor
 
