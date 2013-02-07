@@ -16,7 +16,7 @@ This is the quick and dirty way, with no help for the user as to what is going o
     function handler_actionBtn_onClick(mouseev){
         params = {
         pages: ['page1'],
-        instance: app.getInstanceData(),
+        instance: app.dataGetAllWithIds(['page1'],true),
         orientation: 'landscape', //'Portrait',         
         };
         
@@ -24,7 +24,7 @@ This is the quick and dirty way, with no help for the user as to what is going o
         app.printApp(app.id(),params, function(err, url){
             if(!err)
             {
-                app.setProperty('label','label',"<a href='" + url + "' target='_blank'>open PDF here</a>");
+               app.setProperty('label','label',"<a href='" + url + "' target='_blank'>open PDF here</a>");
             // window.open(url);   if you want to automatically open 
             }        
         });
@@ -45,4 +45,5 @@ This approach lets the user carry on using the App but tells the user when the P
 
  - [printApp()](/developers/documentation/scripting-apis/client-api/app-functions/printapp)
  - [isPrinting()](/developers/documentation/scripting-apis/client-api/app-functions/isprinting)
+ - [dataGetAllWithIds()](/developers/documentation/scripting-apis/client-api/instance-data-functions/datagetallwithids)
 
