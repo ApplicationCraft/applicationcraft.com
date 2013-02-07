@@ -9,7 +9,7 @@ full_width: true
 
 This option is used by Application Craft to control the way automatic drilling down works between Widgets that use the same View. Many Widgets support drill down broadcast so that when they are clicked they add to the current filter that is applied to the View.
 
-![groupby](/img/docs/groupby.zoom79.png)
+![groupby](/img/docs/groupby.zoom84.png)
 
 Note that without the 'broadcast' property set to true, the drill-down filter will not be applied to the View.
 
