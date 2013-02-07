@@ -21,3 +21,4 @@ The only thing that this example does not show that you may want to add, is tran
 
 ![db-example-app](/img/docs/db-example-app.png)
 
+This app is covered in the [Server Side Javascript](/developers/training-videos/server-js/) training video and is available there to download.
