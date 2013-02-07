@@ -9,7 +9,7 @@ full_width: true
 
 Select/Hover over your user name to access the account management options and you will see [Notifications](/developers/documentation/product-guide/account-management/notifications) .
 
-![notifications](/img/docs/acmanage-dca11089.png)
+![notifications](/img/docs/acmanage.png)
 
 Select to be shown a list of all your outstanding notifications.
 
