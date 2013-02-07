@@ -9,7 +9,7 @@ full_width: true
 
 Data Lists are created and managed form the Resources tab of the Application Craft Console. Press the New button at the top of the Resources list on the left side.
 
-![lists-console](/img/docs/lists-console.jpg)
+![lists-console](/img/docs/lists-console.png)
 
 There are then two ways to create you Data List.
 
