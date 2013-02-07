@@ -23,11 +23,11 @@ These have a multi-dimensional data structure and so there will be an item and a
 
  - Repeater and Data Containers - all items within the container are listed and you can map any of the items you need.
 
-![grid\_expr](/img/docs/grid_expr.zoom66.png)
+![grid\_expr](/img/docs/crud-map-external.zoom57.png)
 
  - Lists and Dropdowns - there are always 2 items - label (maps a Data View field to the text that appears in the list) and value (maps the lists select value)
 
-![list\_expr](/img/docs/list_expr.zoom66.png)
+![list\_expr](/img/docs/auto_property_settings.zoom77.png)
 
 ## See Also
 
