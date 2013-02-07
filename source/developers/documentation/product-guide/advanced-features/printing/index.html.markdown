@@ -20,4 +20,5 @@ The printApp() does not actually cause the Application to print and as such is a
 
  - [printApp()](/developers/documentation/scripting-apis/client-api/app-functions/printapp)
  - [isPrinting()](/developers/documentation/scripting-apis/client-api/app-functions/isprinting)
-
+ - [dataGetAllWithIds()](/developers/documentation/scripting-apis/client-api/instance-data-functions/datagetallwithids)
+ 
