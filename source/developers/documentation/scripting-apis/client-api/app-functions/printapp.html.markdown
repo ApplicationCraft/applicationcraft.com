@@ -57,7 +57,6 @@ The params object looks like this (you can leave out any fields you do not want 
 
     {
         pages: ['page1', 'page3', 'page6'],
-        instanceId: 'instanceId to print',
         instance: instanceData,
         orientation: 'landscape' or 'Portrait', Portrait is default
         printBackground: true, false (default false)
@@ -66,7 +65,7 @@ The params object looks like this (you can leave out any fields you do not want 
 
 **Important Beta Notice:** currently, you cannot leave parameter 2 undefined and must pass in some sort of object. It can be a dummy object. We will be removing this requirement shortly. Once removed, you will not need to pass in the entire object if not required.
 
-Not passing in the pages key will result in all pages being printed. Not passing in an orientation will result in portrait. Not passing in an instance id will result in empty data fields if there are any.
+Not passing in the pages key will result in all pages being printed. Not passing in an orientation will result in portrait. 
 
 As soon as the printing process has completed, the callback function will be called. You should check for an error and, if there is none, you can access the newly created pdf at the url passed in.
 
@@ -77,7 +76,7 @@ As soon as the printing process has completed, the callback function will be cal
     function handler_actionBtn_onClick(mouseev){
         params = {
         pages: ['page1'], //Print just page1 of the app
-        instance: app.getInstanceData(), // Print out the data of the current instance
+        instance: app.dataGetAllWithIds(['page1'],true),
         orientation: 'landscape', // Print in Landscape mode 
             };
       
@@ -97,3 +96,4 @@ For more code examples, please go to the [Printing Examples](/developers/documen
 ## See Also
 
  - [isPrinting()](/developers/documentation/scripting-apis/client-api/app-functions/isprinting)
+ - [dataGetAllWithIds()](/developers/documentation/scripting-apis/client-api/instance-data-functions/datagetallwithids)
