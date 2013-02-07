@@ -29,7 +29,7 @@ The Scandit barcode scanner offers the most accurate recognition when faced with
 
 **Customize your AC Events**
 
- - onSuccess - a barcode was successfully read and you are passed the type of barcode as parameter 1 and the actual barcode value in parameter 2; you would normally then display this value in a field elsewhere in your App.
+ - onSuccess - a barcode was successfully read and you are passed the value of barcode as parameter 1 and the type in parameter 2; you would normally then display this value in a field elsewhere in your App.
 
 ![scanOnSuccess](/img/docs/scanonsuccess.zoom78.png)
 
