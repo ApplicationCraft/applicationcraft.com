@@ -75,15 +75,11 @@ Col 3 = the value you wish to give to that area (can be a numerical value or a n
 
 Example Files:
 
-Download [Man Blue.png](http://www.applicationcraft.com/sites/applicationcraft/files/files/manblue.png)
+Download [Man Blue.png](/apps/manblue.png)
 
-Download [HumanBody.csv](http://www.applicationcraft.com/sites/applicationcraft/files/files/HumanBody.csv)
+Download [HumanBody.csv](/apps/humanbody.csv)
 
 ## See Also
 
  - [Image](/developers/documentation/product-guide/widget-properties-events/common/image#imagemap)
-
-## Related Videos
-
-[![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/watch?v=BMuc8a-ROjQ?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up Image Mapping [8:01]
 
