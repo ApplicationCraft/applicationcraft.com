@@ -2951,6 +2951,7 @@ if ($args = global_data_pool.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/global-data-pool-functions/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/global_data_pool.htm /developers/documentation/scripting-apis/client-api/global-data-pool-functions/? permanent;
+
 if ($args = getinstancedata.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/instance-data-functions/getinstancedata/? permanent;
 }
@@ -4078,6 +4079,8 @@ if ($args = console_object.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/console-object/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/console_object.htm /developers/documentation/scripting-apis/server-side-api/console-object/? permanent;
+
+
 if ($args = objectcreate.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/parse-object/objectcreate/? permanent;
 }
