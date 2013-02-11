@@ -41,6 +41,24 @@ This returns an object array of the below structure. If no parameter is supplied
         "type": developer or app,
     }
    
+## Example
+Client side code:
+
+    function handler_abGetUsers_onClick(mouseev){
+        app.callSSJ("getUsers", function(error, res) {
+                if(error===false) {
+                    app.setValue('txtArea',app.OBJ2JSON(res));
+                }
+            }
+        );
+    }
+    
+Server side code:
+
+    function getUsers(){
+        allUsers = sys.getUsersList();
+        return allUsers;
+    }
 
 ## See Also
 
