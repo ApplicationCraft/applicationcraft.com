@@ -77,7 +77,7 @@ Example Files:
 
 Download [Man Blue.png](/apps/manblue.png)
 
-Download [HumanBody.csv](/apps/humanbody.csv)
+Download [HumanBody.csv](/apps/humanmap.csv)
 
 ## See Also
 
