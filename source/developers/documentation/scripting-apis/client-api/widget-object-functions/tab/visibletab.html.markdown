@@ -13,7 +13,11 @@ full_width: true
 
 Hide/show a tab.
 
-Please note that you cannot make a selected tab invisible.
+Please note that you cannot make a selected tab invisible, and that you cannot use an array of tabs. 
+ie
+
+     app.w("Tab").visibleTab([1,2],false);     
+will not work
 
 ## Example
 
