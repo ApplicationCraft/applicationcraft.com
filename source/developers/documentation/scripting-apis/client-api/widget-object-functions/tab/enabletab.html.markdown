@@ -11,7 +11,11 @@ full_width: true
 
 ## Description
 
-Enable/Disable a tab
+Enable/Disable a tab. Please note that you cannot use an array of tabs. 
+ie
+
+     app.w("Tab").enableTab([1,2],false);     
+will not work
 
 ## Example
 
