@@ -30,13 +30,35 @@ An optional array of User IDs
 This returns an object array of the below structure. If no parameter is supplied then all Users are returned.
 
     {
-        id: userId, 
-        login: login, 
-        removed: null | remove date, 
-        type: system or external, 
-        username: frendly user name
+        "id": userId,
+        "username": friendly user name,
+        "confirmed": true | false,
+        "removed": null | remove date,
+        "created_at": created date,
+        "role": if assigned to Roles,
+        "login": login email,
+        "group": if assigned to Groups,
+        "type": developer or app,
     }
    
+## Example
+Client side code:
+
+    function handler_abGetUsers_onClick(mouseev){
+        app.callSSJ("getUsers", function(error, res) {
+                if(error===false) {
+                    app.setValue('txtArea',app.OBJ2JSON(res));
+                }
+            }
+        );
+    }
+    
+Server side code:
+
+    function getUsers(){
+        allUsers = sys.getUsersList();
+        return allUsers;
+    }
 
 ## See Also
 

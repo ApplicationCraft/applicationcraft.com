@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-The Child Browser plugin allows you to display external web pages within your app, in a sub view. It is preferable to a regular link in that it allows the user to press a button to dismiss that view, returning control back to your App. It should also be enabled if using [oAuth}(/developers/documentation/product-guide/advanced-features/oauth/).
+The Child Browser plugin allows you to display external web pages within your app, in a sub view. It is preferable to a regular link in that it allows the user to press a button to dismiss that view, returning control back to your App. It should also be enabled if using [oAuth](/developers/documentation/product-guide/advanced-features/oauth/).
 
 ## Build Support: 
  - Android: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)

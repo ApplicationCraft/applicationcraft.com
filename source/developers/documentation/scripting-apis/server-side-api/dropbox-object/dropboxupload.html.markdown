@@ -6,7 +6,7 @@ class_name: developers
 full_width: true
 ---
 
-**`dropbox.upload(authToken, fileUrl, filename, path, overwrite)`**
+**`dropbox.upload(authToken, fileUrl, filename, path, overwrite, root)`**
 
 ## Parameters
 
@@ -52,6 +52,7 @@ The name of the uploaded file. If blank or undefined a name will be defined by D
 <td width="681">
 The path to the file on Dropbox. If blank or undefined, the file will be uploaded to the root of the Dropbox account
 </td>
+</tr>
 <tr>
 <td width="181">
 {boolean} overwrite
@@ -63,6 +64,18 @@ The path to the file on Dropbox. If blank or undefined, the file will be uploade
 true(default)/false. If file exists, it will be overwritten.
 
 </td>
+<tr>
+<td width="181">
+{string} root
+
+</td>
+<td width="18">
+</td>
+<td width="681">
+sandbox(default)/dropbox. Using 'dropbox' is available after approval of dropbox service for full access. See <a href="https://www.dropbox.com/developers/start/core">https://www.dropbox.com/developers/start/core</a>.
+
+</td>
+</tr>
 </table>
 
 ## Description
