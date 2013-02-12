@@ -2707,6 +2707,7 @@ if ($args = isprinting.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/isprinting/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/isprinting.htm /developers/documentation/scripting-apis/client-api/app-functions/isprinting/? permanent;
+
 if ($args = logout.htm) {
   rewrite ^ /developers/documentation/scripting-apis/client-api/app-functions/logout/? permanent;
 }
