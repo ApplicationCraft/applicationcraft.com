@@ -59,7 +59,8 @@ Optional parameter allows you to set additional parameters using an options obje
 
 ## Description
 
-You may need to set and get cookies for your Apps for all sorts of reasons. If you are using [OAuth](/developers/documentation/product-guide/advanced-features/oauth/) to handle user authentication to 3rd party systems, cookies can be a useful way to ensure that users do not have to login each time they access your App.
+You may need to set and get cookies for your Apps for all sorts of reasons. If you are using [OAuth](/developers/documentation/product-guide/advanced-features/oauth/) to handle user authentication to 3rd party systems, cookies can be a useful way to ensure that users do not have to login each time they access your Web App.
+If you are planning to run as a Native App, use [Local Storage](/developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/local-storage-example/)
 
 Please note that if you do not set an 'expire' duration in setting, the cookie will expire as soon as the app is closed
 
@@ -87,3 +88,5 @@ Please note that if you do not set an 'expire' duration in setting, the cookie w
 ## See Also
 
  - [OAuth Overview](/developers/documentation/product-guide/advanced-features/oauth/)
+ - [Local Storage](/developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/local-storage-example/)
+
