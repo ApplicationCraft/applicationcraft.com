@@ -23,6 +23,8 @@ Finally, you can specify additional, optional information.
 
 ![oauth-db-3](/img/docs/oauth-db-3.png)
 
+If planning to use oAuth in Native Apps, enable the [Child Browser](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/) Plugin.
+
 ## See Also
 
 - [dropbox.accountInfo()](/developers/documentation/scripting-apis/server-side-api/dropbox-object/dropboxacinfo)
