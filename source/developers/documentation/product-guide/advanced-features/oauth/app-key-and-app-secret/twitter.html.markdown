@@ -29,3 +29,5 @@ Finally, you may want to adjust permissions to allow reading and writing as requ
 
 There may also be other settings you may want to make, so be sure to look around.
 
+If planning to use oAuth in Native Apps, enable the [Child Browser](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/) Plugin.
+
