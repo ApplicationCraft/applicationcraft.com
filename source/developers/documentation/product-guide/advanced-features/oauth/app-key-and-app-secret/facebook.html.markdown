@@ -23,3 +23,5 @@ Once this is completed, you will then see the 2 keys, which can be copied into t
 
 ![oauth-fb-3](/img/docs/oauth-fb-3.png)
 
+If planning to use oAuth in Native Apps, enable the [Child Browser](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/) Plugin.
+
