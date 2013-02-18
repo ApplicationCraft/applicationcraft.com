@@ -234,15 +234,17 @@ whether or not the user cancelled the scan
 
 ## Example
 
+    function handler_actionBtn2_onClick(mouseev){
     window.plugins.barcodeScanner.scan( function(result) {
-            alert("We got a barcode\n" +
-                      "Result: " + result.text + "\n" +
-                      "Format: " + result.format + "\n" +
-                      "Cancelled: " + result.cancelled);
-        }, function(error) {
-            alert("Scanning failed: " + error);
-        }
-    );
+           alert("We got a barcode\n" +
+                     "Result: " + result.text + "\n" +
+                     "Format: " + result.format + "\n" +
+                     "Cancelled: " + result.cancelled);
+           }, function(error) {
+               alert("Scanning failed: " + error);
+           }
+       );
+    }
      
    
 
