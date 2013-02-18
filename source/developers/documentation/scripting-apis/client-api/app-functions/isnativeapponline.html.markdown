@@ -31,14 +31,14 @@ Returns the status of internet / network connectivity. If the App is not running
 
 ## Example
 
-    if(app.isNativeAppOnline()){
-        // ok to access the internet
+    function handler_application_onAppStarted(){
+        if(app.isNativeAppOnline()){
+            // ok to access the internet
+        }
+        else {
+            // NOT ok to access the internet
+        }
     }
-    else {
-        // NOT ok to access the internet
-   
-
-}
 
 ## See Also
 
