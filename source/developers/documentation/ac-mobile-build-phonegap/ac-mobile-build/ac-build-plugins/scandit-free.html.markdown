@@ -127,47 +127,46 @@ options
 <td width="20">
 </td>
 <td width="740">
-  Available options: (description see - <a href="https://github.com/ApplicationCraft/ScanditUniversalJS)">https://github.com/ApplicationCraft/ScanditUniversalJS)</a>
+  Available options: (description see - <a href="https://github.com/ApplicationCraft/ScanditUniversalJS">https://github.com/ApplicationCraft/ScanditUniversalJS</a>)<br> 
+ - 1DScanning true/false<br>
 
- - 1DScanning true/false
+ - 2DScanning true/false<br>
 
- - 2DScanning true/false
+ - scanningHotspot<br>
 
- - scanningHotspot
+ - beep<br>
 
- - beep
+ - vibrate<br>
 
- - vibrate
+ - showMostLikelyUIBarcodeElement<br>
 
- - showMostLikelyUIBarcodeElement
+ - uiFont<br>
 
- - uiFont
+ - textForMostLikelyBarcodeUIElement<br>
 
- - textForMostLikelyBarcodeUIElement
+ - textForInitialScanScreen<br>
 
- - textForInitialScanScreen
+ - textForBarcodePresenceDetected<br>
 
- - textForBarcodePresenceDetected
+ - textForBarcodeDecodingInProgress<br>
 
- - textForBarcodeDecodingInProgress
+ - searchBarActionButtonCaption<br>
 
- - searchBarActionButtonCaption
+ - searchBarCancelButtonCaption<br>
 
- - searchBarCancelButtonCaption
+ - searchBarPlaceholderText<br>
 
- - searchBarPlaceholderText
+ - toolBarButtonCaption<br>
 
- - toolBarButtonCaption
+ - viewfinderColor<br>
 
- - viewfinderColor
+ - viewfinderDecodedColor<br>
 
- - viewfinderDecodedColor
+ - minSearchBarBarcodeLength<br>
 
- - minSearchBarBarcodeLength
+ - maxSearchBarBarcodeLength<br>
 
- - maxSearchBarBarcodeLength
-
- - automaticShutDown
+ - automaticShutDown<br>
 
 </td>
 </tr>
