@@ -8,6 +8,7 @@ full_width: true
 
 
 This plugin is used in conjunction with the [Scandit Button](/developers/documentation/product-guide/widget-properties-events/beta/scandit-button) widget to allow you to scan barcodes in your apps without requiring lots of code.
+The Scandit Free plugin supports UPC/EAN and QR Codes only.
 
 Simple configure your [Scandit Button](/developers/documentation/product-guide/widget-properties-events/beta/scandit-button) widget and set the onSuccess/onFail events, and then enable this plugin and build your app.
 
@@ -26,7 +27,7 @@ If you have developed your App outside Application Craft then please do the foll
 
  - In your index.html include `ScanditSDK.js`
 
- - In your config.xml add `<gap:plugin name="ScanditSDKFree" version="1.0.0" /\>`
+ - In your config.xml add `<gap:plugin name="ScanditSDKFree" version="1.0.0" />`
 
 You should replace x.y.z in version='x.y.z' depending on which version of Cordova you are using for your App. Please refer to the list below
 
