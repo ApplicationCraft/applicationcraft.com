@@ -1,1 +1,0 @@
-(function(){$(function(){return $.fancybox.open($("#webinar-dialog").html()),$("#webinar-dialog-inner .btn").on("click",function(){return $.fancybox.close(),!1})})}).call(this);

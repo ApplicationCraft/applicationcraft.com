@@ -1,1 +1,0 @@
-(function(){$(function(){if(!$.cookie("ac_existing"))return $.cookie("ac_existing",!0,{expires:365,path:"/"}),$.fancybox.open($("#webinar-dialog").html()),$("#webinar-dialog-inner .btn").on("click",function(){return $.fancybox.close(),!1})})}).call(this);
