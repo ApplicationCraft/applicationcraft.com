@@ -11,7 +11,9 @@ AC Mobile Build should be considered to be in a Beta state until mention of it i
 
 Application Craft uses PhoneGap/Cordova technology to allow your Application Craft apps to be converted into native apps on our servers that can be deployed to mobile devices via app stores. Of course, you can also access device hardware such as GPS, camera, accelerometer, compass, contacts, file system using [PhoneGap API Functions](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/phonegap-functions)
 
-AC Mobile Build also has a range of curated [Plugins](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/) . Currently we offer support for Xtify Push Notifications, SQLite Database, Child Browser Window, Scandit Barcode Scanning, Emailing and the ZXing QR-Code and Barcode reader. More will be added by popular request.
+AC Mobile Build also has a range of curated [Plugins](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/). Currently we offer support for Xtify Push Notifications, SQLite Database, Child Browser Window, Scandit Barcode Scanning, Emailing and the ZXing QR-Code and Barcode reader. More will be added by popular request.
+
+You can build apps up to 25Mb in size with AC Mobile Build.
 
 ## Apps Developed with Application Craft
 
