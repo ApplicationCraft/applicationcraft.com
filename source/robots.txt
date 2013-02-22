@@ -3,3 +3,5 @@
 User-agent: *
 Disallow: /got-started
 Disallow: /got-started/
+Disallow: /company/contacted
+Disallow: /company/contacted/
