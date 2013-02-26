@@ -3,3 +3,5 @@ httprequest2
 httprequestadv
 soaprequest2
 networktimeout
+buildhttpstr
+parsehttpstr
