@@ -4330,6 +4330,7 @@ if ($args = security.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/security/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/security.htm /developers/documentation/scripting-apis/server-side-api/ssj-object/security/? permanent;
+
 if ($args = httprequest2.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequest2/? permanent;
 }
@@ -4342,6 +4343,7 @@ if ($args = networktimeout.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/networktimeout/? permanent;
 }
 rewrite ^/revisions/current/docs/user-guide/networktimeout.htm /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/networktimeout/? permanent;
+
 if ($args = soaprequest2.htm) {
   rewrite ^ /developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/soaprequest2/? permanent;
 }
