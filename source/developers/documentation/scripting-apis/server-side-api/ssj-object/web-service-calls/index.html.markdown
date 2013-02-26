@@ -13,4 +13,5 @@ full_width: true
  - [httpRequestAdv()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/httprequestadv)
  - [soapRequest()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/soaprequest2)
  - [networkTimeout()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/networktimeout)
-
+ - [buildHttpStr()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/buildhttpstr)
+ - [parseHttpStr()](/developers/documentation/scripting-apis/server-side-api/ssj-object/web-service-calls/parsehttpstr)
