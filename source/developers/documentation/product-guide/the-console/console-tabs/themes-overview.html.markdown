@@ -62,7 +62,7 @@ This is the name, given by the owner of the Object, that will be shown when sele
 <td width="16">
 </td>
 <td>
-[See Sharing](/developers/documentation/product-guide/the-console/sharing)
+See <a href="/developers/documentation/product-guide/the-console/sharing">Sharing</a>
 
 </td>
 </tr>
