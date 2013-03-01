@@ -352,7 +352,7 @@ Launch Mode
 
 </td>
 <td width="617">
-    Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see <a href="http://developer.android.com/guide/topics/manifest/activity-element.html#lmode">http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode</a> . Supported in <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/">AC Mobile Build</a>
+    Standard(default)/SingleTop. An instruction on how the activity should be launched. If Standard, the system always creates a new instance of the activity in the target task and routes the intent to it. If Single Top - If an instance of the activity already exists at the top of the target task. For more information see <a href="http://developer.android.com/guide/topics/manifest/activity-element.html#lmode">http://developer.android.com/guide/topics/manifest/activity-element.html\#lmode</a> . Supported in <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/">AC Mobile Build</a>. If using <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/">Xtify Push Notifications</a>, setting to SingleTop will not cause acknowledgement of notifications received to restart the app.
 
 </td>
 </tr>
@@ -365,7 +365,7 @@ Version Code
 
 </td>
 <td width="617">
-    when building for Android, you can set the version Code. For more information on Android's versionCode attribute, see <a href="http://developer.android.com/tools/publishing/versioning.html">http://developer.android.com/tools/publishing/versioning.html</a> . Supported in <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/">AC Mobile Build</a>
+    When building for Android, you can set the version Code. For more information on Android's versionCode attribute, see <a href="http://developer.android.com/tools/publishing/versioning.html">http://developer.android.com/tools/publishing/versioning.html</a> . Supported in <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/">AC Mobile Build</a>
 
 </td>
 </tr>
