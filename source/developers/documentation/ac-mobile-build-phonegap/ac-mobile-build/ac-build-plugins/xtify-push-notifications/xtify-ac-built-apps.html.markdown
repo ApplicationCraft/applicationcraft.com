@@ -16,6 +16,9 @@ The first thing you will need to do is to set up your Phonegap settings in AC.
 
 It is important to give your App a proper name that uniquely identifies it. We have chosen `com.fm.pushdemo` here.
 
+Also note that if building for Android, you can control how receipt of notifications can restart the app or if running in the background not restart the app with the Android Specific - Launch Mode property. Set to 'Single Top' and the app will not automatically restart. See [Phonegap Options](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/) for more information. 
+No special settings are required for iOS.
+
 ##Adding the Xtify AC Build Extension
 
 <table>
