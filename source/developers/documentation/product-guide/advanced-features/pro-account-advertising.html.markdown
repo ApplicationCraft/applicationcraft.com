@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-If you want to generate revenue from Ads inside your Mobile Apps then you need to do the following steps
+If you want to generate revenue from Ads inside your Mobile Apps you can do this either using our [AdMob](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/ad-mob) plugin for Native apps or use Adfonic. To use Adfonic, you need to do the following steps
 
 ## Signing Up for your Adfonic Account
 
@@ -70,3 +70,7 @@ Return to your Adfonic account and you should then also see the Ad Slot Details 
 **Site Approval**
 
 Your site/app will now be reviewed for approval by Adfonic and you will be advised usually within 24 hours.
+
+## See Also
+[Ad Mob Plugin](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/ad-mob)
+
