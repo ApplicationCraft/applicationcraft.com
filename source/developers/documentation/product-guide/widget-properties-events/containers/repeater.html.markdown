@@ -70,6 +70,18 @@ Controls which page is the first displayed
 
 </td>
 </tr>
+<tr>
+<td width="172">
+Use Paging
+
+</td>
+<td width="21">
+</td>
+<td width="754">
+True/False. If true, <a href="/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata">fetchDataPage()</a> can be used for paging of data.
+
+</td>
+</tr>
 </table>
 <table>
 <tr>
