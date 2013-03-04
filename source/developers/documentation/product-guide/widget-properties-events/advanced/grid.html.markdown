@@ -101,14 +101,8 @@ Is used if the user can navigate using the arrow keys.
 </tr>
 <tr>
 <td width="159">
-<table>
-<tr>
-<td width="148">
 Column Width Type
 
-</td>
-</tr>
-</table>
 </td>
 <td width="9">
 </td>
@@ -138,6 +132,18 @@ Start Page
 </td>
 <td width="775">
 Controls which page is the first displayed
+
+</td>
+</tr>
+<tr>
+<td width="159">
+Use Paging
+
+</td>
+<td width="9">
+</td>
+<td width="775">
+True/False. If true, <a href="/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata">fetchDataPage()</a> can be used for paging of data.
 
 </td>
 </tr>
