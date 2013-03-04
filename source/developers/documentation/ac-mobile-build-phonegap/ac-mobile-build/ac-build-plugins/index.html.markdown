@@ -9,7 +9,7 @@ full_width: true
 
 AC Build Plugins should be considered to be in a Beta state until mention of it is removed from the documentation.
 
-Please note that at the time of writing (Jan 24th) only [Child Browser](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/) and [Zing Bar Code Scanner](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner) are currently supported for Windows Phone build. We are working on updating the other plugins for Windows Phone and will update this section as they are supported.
+Please note that at the time of writing (Mar 4th) only [Child Browser](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/child-browser/),[Zing Bar Code Scanner](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner) and [AdMob](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/ad-mob) plugins are currently supported for Windows Phone build. We are working on updating the other plugins for Windows Phone and will update this section as they are supported.
 
 ## Non AC Developed HTML5+CSS+JS Apps
 
@@ -85,6 +85,26 @@ The Child Browser plugin can also be used if building using [PhoneGap:Build](/de
 <tr>
 <td width="211">
    - <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/">Xtify Push Notifications</a>
+
+</td>
+<td width="27">
+</td>
+<td width="704">
+</td>
+</tr>
+<tr>
+<td width="211">
+   - <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/ad-mob/">AdMob</a>
+
+</td>
+<td width="27">
+</td>
+<td width="704">
+</td>
+</tr>
+<tr>
+<td width="211">
+   - <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/local-notifications/">Local Notifications</a>
 
 </td>
 <td width="27">
