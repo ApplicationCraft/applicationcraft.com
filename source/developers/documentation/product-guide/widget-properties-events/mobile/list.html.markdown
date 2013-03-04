@@ -84,13 +84,25 @@ Controls which page is the first displayed
 </tr>
 <tr>
 <td width="148">
+Use Paging
+
+</td>
+<td width="15">
+</td>
+<td width="779">
+True/False. If true, <a href="/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/fetchdata">fetchDataPage()</a> can be used for paging of data.
+
+</td>
+</tr>
+<tr>
+<td width="148">
 Items
 
 </td>
 <td width="15">
 </td>
 <td width="779">
-    This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See <a href="/developers/documentation/product-guide/widget-properties-events/prefill">Prefill</a> .  You can also set 'Page Jump' actions to automatically re direct users to other pages in your app, and set Dividers. See <a href="/developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/">Mobile List Widget</a>
+This is where you can prefill your list/dropdown widgets either manually or by importing a CSV list stored as a resource. See <a href="/developers/documentation/product-guide/widget-properties-events/prefill">Prefill</a> .  You can also set 'Page Jump' actions to automatically re direct users to other pages in your app, and set Dividers. See <a href="/developers/documentation/product-guide/advanced-important-widgets/important-mobile-widgets/mobile-list-widget/">Mobile List Widget</a>
 
 </td>
 </tr>
