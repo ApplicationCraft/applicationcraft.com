@@ -55,7 +55,7 @@ Optional parameter allows you to set additional parameters using an options obje
 	expire: // date object or number of days to live
 	path: // a full url in association with which the cookie is saved
 	secure: // if you are using https you should set this flag to true
-}
+	}
 
 ## Description
 
