@@ -23,4 +23,4 @@ The Xtify APIs are all available on their site
 - [All APIs](http://developer.xtify.com/display/APIs/API+Reference)
 
 ##Support
-While you should use Applciation Craft's support for the APIs we provide, please use Xtify support if you are accessing their APIs directly.
+While you should use Application Craft's support for the APIs we provide, please use Xtify support if you are accessing their APIs directly.
