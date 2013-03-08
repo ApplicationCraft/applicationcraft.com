@@ -7,7 +7,7 @@ full_width: true
 
 You are now ready to set up Xtify. If you have not done so already, first go to http://www.xtify.com and create and account. Get yourself logged into the Xtify console.
 
-The Xtify Console menu looks like this and you will be seleting the API Keys Manager and then the App Key Manager.
+The Xtify Console menu looks like this and you will be selecting the API Keys Manager and then the App Key Manager.
 
 ![xtify ios app id](/img/docs/xtify-console-menu.png)
 
