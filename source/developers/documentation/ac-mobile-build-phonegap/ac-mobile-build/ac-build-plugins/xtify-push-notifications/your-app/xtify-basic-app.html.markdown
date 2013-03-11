@@ -35,7 +35,7 @@ A typical App will have the following code. Note that the important calls must b
 	}
 
 ##The xtify object
-You may want to refer to your nortification data when a notification is received by your App. It is populated when you call xtify.init() as shown above. You would normally access the xtify object from your xtify.startedCallback function as shown above.
+You may want to refer to your notification data when a notification is received by your App. It is populated when you call xtify.init() as shown above. You would normally access the xtify object from your xtify.startedCallback function as shown above.
 
     var xtify = {
         // The notification object is populated by xtify.init()
