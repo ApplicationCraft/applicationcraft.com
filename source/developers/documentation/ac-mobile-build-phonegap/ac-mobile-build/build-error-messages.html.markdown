@@ -153,7 +153,7 @@ The following list contains the common errors that can be generated form the bui
 <td width="20">
 </td>
 <td width="595">
-  If you are using AC Build Plugins you need to include reference in your config.xml. See <a href="http://www.applicationcraft.com/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/" target="_blank">AC Build Plugins</a> for more information.
+  This error can be returned if there is a problem with your use of a Plugin. Common problems include a) if you are using AC Build Plugins and building an app built outside AC, you need to include reference in your config.xml. b) Enabling both <a href="developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/scandit-free/">Scandit Free</a> and <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner/">ZXing Barcode Scanner</a> plugins in the same app. c) The plugin is not supported either for the platform or in that build version. See <a href="http://www.applicationcraft.com/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/" target="_blank">AC Build Plugins</a> for more information.
 
 </td>
 </tr>
