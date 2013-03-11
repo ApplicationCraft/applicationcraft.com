@@ -126,7 +126,7 @@ Automatic Relationships
 <td width="21">
 </td>
 <td width="754">
-  Where you can set the relationships to other apps (see <a href="/developers/documentation/product-guide/advanced-features/data-storage-management/instance-linking">Relational Apps & Instance Linking)</a>
+  Where you can set the relationships to other apps (see <a href="/developers/documentation/product-guide/advanced-features/data-storage-management/instance-linking">Relational Apps & Instance Linking)</a>)
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ There are four possible settings:
 
 3) Vertical first, the blocks are displayed vertically until the container is filled and then run horizontally
 
-4) Horizontal first, the blocks are displayed horizontally until the container is filled and then run vertically See [Repeater Examples](repeater_examples.htm)
+4) Horizontal first, the blocks are displayed horizontally until the container is filled and then run vertically.
 
 </td>
 </tr>
