@@ -222,15 +222,9 @@ Repeating Mode
 <td width="21">
 </td>
 <td width="754">
-There are four possible settings:
-
 1) Vertical the blocks are displayed vertically
 
 2) Horizontal, the blocks are displayed horizontally
-
-3) Vertical first, the blocks are displayed vertically until the container is filled and then run horizontally
-
-4) Horizontal first, the blocks are displayed horizontally until the container is filled and then run vertically.
 
 </td>
 </tr>
