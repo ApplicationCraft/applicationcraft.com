@@ -14,6 +14,8 @@ Simple configure your [Scandit Button](/developers/documentation/product-guide/w
 
 See [Scandit Widget](/developers/documentation/product-guide/advanced-important-widgets/scandit-widget/)
 
+Please note: Do not use if [ZXing Bar Code Scanner](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/zxing-bar-code-scanner) is also enabled.
+
 ## Build Support: 
  - Android: Supported for all [Phonegap Version](/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/)
  
