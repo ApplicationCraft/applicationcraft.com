@@ -32,7 +32,7 @@ Returns the You Tube player object
 ## Example
 
      
-    console.dir(app.w('YouTube').getYouTubePlayer()});
+    console.dir(app.w('YouTube').getYoutubePlayer()});
      
    
 
