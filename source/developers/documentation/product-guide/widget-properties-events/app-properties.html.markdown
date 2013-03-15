@@ -182,7 +182,7 @@ BG Color
 <td width="20">
 </td>
 <td width="740">
-This specifies a default background color of the App. .
+This specifies a default background color of the App.
 
 </td>
 </tr>
@@ -195,6 +195,18 @@ BG Repeat
 </td>
 <td width="740">
 This is where you can specify how a BG Image can repeat behind your App (Repeat, Repeat X, Repeat Y)
+
+</td>
+</tr>
+<tr>
+<td width="182">
+Auto Focus On Page
+
+</td>
+<td width="20">
+</td>
+<td width="740">
+True/False(default). True will enable AutoFocus to each page and highlight first item widget. False will disable AutoFocus.
 
 </td>
 </tr>
