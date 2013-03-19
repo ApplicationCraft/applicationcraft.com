@@ -24,7 +24,7 @@ If you have developed your App outside Application Craft then please do the foll
 
  - In your index.html include` barcodescanner.js`
 
- - In your config.xml add` <gap:plugin name="ChildBrowser" version="1.0.0" />`
+ - In your config.xml add` <gap:plugin name="BarCodeScanner" version="2.0.0" />`
 
 You should replace x.y.z in version='x.y.z' depending on which version of Cordova you are using for your App. Please refer to the list below
 
