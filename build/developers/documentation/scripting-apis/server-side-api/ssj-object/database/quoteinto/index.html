@@ -147,37 +147,46 @@ a value to insert into the '?' token within strExpr
 <p>Often, your code gets a value and then needs to insert it into a SQL statement at a specific location while at the same time escaping special characters (see the quote() method). For example, take the following SQL statement</p>
 
 <pre><code>SELECT * FROM bugs WHERE reported_by = variableName
-SELECT * FROM bugs WHERE reported_by = &#39;O&#39;Reilly&#39;
-strName = &quot;O&#39;Reilly&quot;;
-cObj = ssj.getConnection(&quot;abcdef12-efb9-431a-b137-87b4749f2473&quot;);
-sqlString = cObj.quoteInto(&quot;SELECT * FROM bugs WHERE reported_by =?&quot;, strName);
-cObj.exec(sqlString);
-
-SELECT * FROM bugs WHERE reported_by = &#39;O\&#39;Reilly&#39;
-nId = 12345;
-cObj = cObj.update(&quot;customers&quot;, p.data, &#39;companyName=&#39; + nId);
-strName = &quot;O&#39;Reilly&quot;;
-cObj = cObj.update(&quot;customers&quot;, p.data, cObj.quoteInto(&#39;companyName=?&#39;, strName));
-
-
-cObj.update(&quot;customers&quot;, p.data, 
-        [cObj.quoteInto(&#39;companyName=?&#39;, p.companyname),cObj.quoteInto(&#39;region=?&#39;), p.region)]        ]
-    );
 </code></pre>
 
 <p>And assume that the variableName could contain special characters such as the &#39; character. The following SQL is invalid as the &#39; in the O&#39;Reilly confuses the SQL parser because it also has single quotes surrounding the name.</p>
 
+<pre><code>SELECT * FROM bugs WHERE reported_by = &#39;O&#39;Reilly&#39;
+</code></pre>
+
 <p>quoteInto() allows you to solve both the variableName issue and the escaping issue in one go.</p>
 
+<pre><code>strName = &quot;O&#39;Reilly&quot;;
+cObj = ssj.getConnection(&quot;abcdef12-efb9-431a-b137-87b4749f2473&quot;);
+sqlString = cObj.quoteInto(&quot;SELECT * FROM bugs WHERE reported_by =?&quot;, strName);
+cObj.exec(sqlString);
+</code></pre>
+
 <p>In the above code, sqlString ends up being</p>
+
+<pre><code>SELECT * FROM bugs WHERE reported_by = &#39;O\&#39;Reilly&#39;
+</code></pre>
 
 <p>which can then be safely passed to the cObj.exec() method.</p>
 
 <p>However, if you are inserting a numeric parameter value, then there is no need for escaping, so while you can still use quote() if you want, the following is also safe</p>
 
+<pre><code>nId = 12345;
+cObj = cObj.update(&quot;customers&quot;, p.data, &#39;companyName=&#39; + nId);
+</code></pre>
+
 <p>Any function that includes a WHERE type clause as a parameter (select(), update() and delete()) should really use quoteInto() for that parameter,</p>
 
-<p>Multiple WHERE type clauses are handled as an array, and all elements will be joined with &#39;AND&#39;</p>
+<pre><code>strName = &quot;O&#39;Reilly&quot;;
+cObj = cObj.update(&quot;customers&quot;, p.data, cObj.quoteInto(&#39;companyName=?&#39;, strName));
+</code></pre>
+
+<p>Multiple WHERE type clauses are handled as an array, and all elements will be joined with &#39;AND&#39;     </p>
+
+<pre><code>cObj.update(&quot;customers&quot;, p.data, 
+        [cObj.quoteInto(&#39;companyName=?&#39;, p.companyname),cObj.quoteInto(&#39;region=?&#39;), p.region)]        ]
+    );
+</code></pre>
 
 <h2 id="toc_3">See Also</h2>
 
