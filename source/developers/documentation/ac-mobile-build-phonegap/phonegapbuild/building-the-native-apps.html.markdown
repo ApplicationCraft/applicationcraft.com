@@ -35,5 +35,7 @@ If you have not created done this before, then only the one marked 'Web' will be
 
  - Any errors will be reported. In the event of errors you can Download your app and then log into your PhoneGap:Build account to build from the index.html file of your downloaded app. The app will not then be deleted on completion and any errors detected can be investigated.
 
- - iOS will not be available until you have registered an appropriate certificate and profile in your PhoneGap:Build account. See [https://build.phonegap.com/docs/ios-builds](https://build.phonegap.com/docs/ios-builds) for more information.
+ - iOS and Blackberry will not be available until you have registered an appropriate certificate and profile in your PhoneGap:Build account. See [https://build.phonegap.com/docs/ios-builds](https://build.phonegap.com/docs/ios-builds) for more information.
+ 
+ - Phonegap no longer store your certificate passwords indefinitely and to build you may need to 'unlock' your key. See [Key Management](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/key-management/).
 
