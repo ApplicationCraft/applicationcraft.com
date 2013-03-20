@@ -17,7 +17,20 @@ Within PhoneGap:Build
 
  - You can then add keys for each platform.
 
-See [https://build.phonegap.com/docs](https://build.phonegap.com/docs) for more information.
+See [https://build.phonegap.com/docs](https://build.phonegap.com/docs) for more information. 
+
+Phonegap do not store certificate password indefinitely. See [https://build.phonegap.com/blog/upcoming-security-changes](https://build.phonegap.com/blog/upcoming-security-changes) for more information.
+
+If your certificate password(s) have expired and not available, as you go to Phonegap:Build dialog you will see a screen like:
+
+![mobile-pglocked](/img/docs/mobile-pglocked.png)
+
+To unlock your key(s), select the Build/Rebuild as normal and you will be shown an unlock screen
+
+![mobile-pgunlock](/img/docs/mobile-pgunlock.png)
+
+Select the appropriate 'Unlock' button and you will be asked to enter your certificate password to unlock and you can then build
+
 
 You should note that Application Craft currently will only use the default key. If you wish to use another key, then you will need to upload your App manually into PhoneGap:Build. This manual process is covered in a later section ( [Manual Building](/developers/documentation/ac-mobile-build-phonegap/phonegapbuild/manual-building) ).
 
