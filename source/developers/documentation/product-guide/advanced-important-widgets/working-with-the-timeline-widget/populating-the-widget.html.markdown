@@ -70,9 +70,7 @@ The following code shows how we can create some dummy entries manually. In pract
         // Fit the full time range into the available display
         app.w("timeline1").fitData();    
     }
-        var treeMap = {appId:"treeId", parentId:"parentId", name:"itemName", icon:"itemIcon"};
-     
-        var timelineMap = {parentId:'parentTreeId', name:'evName', date:'evDate', icon:'itemIcon', endDate: 'endDate'};   
+          
      
    
 
@@ -87,6 +85,10 @@ You can see an array called treeArr[ ], which is where we will store the tree ca
  - name - this is the name of the tree item and appears as the item text.
 
  - icon - url of the icon that should appear net to this item. Can be undefined, in which case the default icon is used (if there is one).
+
+    `var treeMap = {appId:"treeId", parentId:"parentId", name:"itemName", icon:"itemIcon"};`
+     
+       
 
 Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) documentation for a full explanation of these mapping, which are capable of working with complex objects.
 
@@ -103,6 +105,8 @@ You can see an array called timelineArr[ ], which is where we will store the tim
  - endDate - an optional value that indicates when the event finished. If supplied, you will see an event duration bar spanning the period between date and endDate.
 
  - icon - the url of the icon to display alongside the event text
+
+ `var timelineMap = {parentId:'parentTreeId', name:'evName', date:'evDate', icon:'itemIcon', endDate: 'endDate'}; `
 
 Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the [populateWidget()](/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/) documentation for a full explanation of these mappings, which are capable of working with complex objects.
 
