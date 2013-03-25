@@ -39,7 +39,7 @@ The following code shows how we can create some dummy entries manually. In pract
             {treeId:'id3', parentId:'id1', itemName:"Operation", itemIcon:""},
             {treeId:'id4', parentId:'id1', itemName:"Physio", itemIcon:""},
             {treeId:'id5', parentId:'id1', itemName:"Physio", itemIcon:""},
-            {treeId:'id6', parentId:null, itemName:"Heart Replacement"},
+            {treeId:'id6', parentId:null, itemName:"Heart Replacement", itemIcon:""},
             {treeId:'id7', parentId:'id6', itemName:"Consultation", itemIcon:""},
             {treeId:'id8', parentId:'id6', itemName:"Operation", itemIcon:""},
             {treeId:'id9', parentId:'id6', itemName:"Medication", itemIcon:""}
@@ -49,17 +49,17 @@ The following code shows how we can create some dummy entries manually. In pract
         var treeMap = {appId:"treeId", parentId:"parentId", name:"itemName", icon:"itemIcon"};
      
         // This array is purely for our example so we have a clear example
-        var timelineArr = [
-            {parentTreeId:'id1', evName:'Episode 1', evDate:dummyDate(7), itemIcon:'', endDate: dummyDate(50)},
-            {parentTreeId:'id2', evName:'Consult Dr. Evans', evDate:dummyDate(7), itemIcon:_whiteClip, endDate: ''},
-            {parentTreeId:'id3', evName:'Operation Rm 3B', evDate:dummyDate(30), itemIcon:_orangeList, endDate: ''},
-            {parentTreeId:'id4', evName:'Session 1', evDate:dummyDate(40), itemIcon:_bluePen, endDate: ''},
-            {parentTreeId:'id5', evName:'Session 2', evDate:dummyDate(50), itemIcon:_bluePen, endDate: ''}, 
-            {parentTreeId:'id6', evName:'Episode 2', evDate:dummyDate(7), itemIcon:'', endDate: dummyDate(24)},
-            {parentTreeId:'id7', evName:'Consult Dr. Mors', evDate:dummyDate(10), itemIcon:_whiteClip, endDate: ''},
-            {parentTreeId:'id8', evName:'Operation Rm 5A', evDate:dummyDate(20), itemIcon:_orangeList, endDate: ''},
-            {parentTreeId:'id9', evName:'Anti Rejection', evDate:dummyDate(24), itemIcon:_purpleMinus, endDate: ''}
-        ];
+       var timelineArr = [
+        {parentTreeId:'id1', evName:'Episode 1', evDate:dummyDate, itemIcon:'', endDate: dummyEndDate},
+        {parentTreeId:'id2', evName:'Consult Dr. Evans', evDate:dummyDate, itemIcon: 'http://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/64x64/PaperClip2_Black.png', endDate: dummyEndDate},
+        {parentTreeId:'id3', evName:'Operation Rm 3B', evDate:dummyDate, itemIcon: 'http://cdn1.iconfinder.com/data/icons/oxygen/64x64/mimetypes/text-enriched.png', endDate: ''},
+        {parentTreeId:'id4', evName:'Session 1', evDate:dummyDate, itemIcon: 'http://cdn1.iconfinder.com/data/icons/super-mono-reflection/blue/pen_blue.png', endDate: ''},
+        {parentTreeId:'id5', evName:'Session 2', evDate:dummyDate, itemIcon: 'http://cdn1.iconfinder.com/data/icons/super-mono-reflection/blue/pen_blue.png', endDate: ''}, 
+        {parentTreeId:'id6', evName:'Episode 2', evDate:dummyDate, itemIcon:'', endDate: dummyEndDate},
+        {parentTreeId:'id7', evName:'Consult Dr. Mors', evDate:dummyDate, itemIcon: 'http://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/64x64/PaperClip2_Black.png', endDate: ''},
+        {parentTreeId:'id8', evName:'Operation Rm 5A', evDate:dummyDate, itemIcon: 'http://cdn1.iconfinder.com/data/icons/oxygen/64x64/mimetypes/text-enriched.png', endDate: ''},
+        {parentTreeId:'id9', evName:'Anti Rejection', evDate:dummyDate, itemIcon: 'http://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/64x64/Minus_Circle_Green.png', endDate: ''}
+    ];
         // This WILL be required
         var timelineMap = {parentId:'parentTreeId', name:'evName', date:'evDate', icon:'itemIcon', endDate: 'endDate'};   
      
