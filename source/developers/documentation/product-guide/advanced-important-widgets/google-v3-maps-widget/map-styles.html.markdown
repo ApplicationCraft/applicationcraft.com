@@ -29,9 +29,8 @@ You can modify many map elements including Roads, Forests, Regions, Points of In
             ]
           }
         ];
-        app.w('googleMapsAdvanced').
-    (pinkParksStyles);
-    }
+        app.w('googleMapsAdvanced').mapStyles(pinkParksStyles);
+       }
    
 
 **mapStyles**
