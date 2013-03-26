@@ -191,6 +191,8 @@ chtitle
         isHtml : true,
         emails : ["mail@gmail.com"],  // recipient of the email
         ccemails : ["frankx@jones.com","joe@jones.com"], // multiple cc recipients
+        bccemails : ["bccmail@gmail.com"],
+        attachments : ["/sdcard/downloads/test.html"],
         chtitle : "Mail To:" //Android spec
         },
         function() {alert('Mailto success');}, // Success function
