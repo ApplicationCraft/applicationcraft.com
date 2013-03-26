@@ -82,7 +82,7 @@ Plugin Files
 <td width="17">
 </td>
 <td width="755">
-Define sound files to use in your notifications from your account resources. .mp3 and .wav files required for Android, .caf, .wav or .aiff files for iOS (see <a href="http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/IPhoneOSClientImp/IPhoneOSClientImp.html#//apple_ref/doc/uid/TP40008194-CH103-SW6">here</a> for more information).
+Define sound files to use in your notifications from your account resources. .mp3 and .wav files required for Android, .caf, .wav or .aiff files for iOS (see <a href="http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/IPhoneOSClientImp/IPhoneOSClientImp.html#//apple_ref/doc/uid/TP40008194-CH103-SW6">here</a> for more information). Please note that sound file names cannot start with a number, (ie 8mysound.mp3 is not allowed, mysound8.mp3 is allowed).
 
 </td>
 </tr>
