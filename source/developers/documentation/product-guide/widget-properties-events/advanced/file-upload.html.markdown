@@ -124,7 +124,7 @@ File Types
 <td width="15">
 </td>
 <td width="779">
-This is where you can restrict uploads to specific file types.  \<blank\> = any file type
+This is where you can restrict uploads to specific file types.  &lt;blank&gt; = any file type
 
 </td>
 </tr>
