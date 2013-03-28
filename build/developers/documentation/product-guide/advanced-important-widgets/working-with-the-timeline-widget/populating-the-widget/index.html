@@ -132,7 +132,7 @@ function getSomeData() {
         {treeId:&#39;id3&#39;, parentId:&#39;id1&#39;, itemName:&quot;Operation&quot;, itemIcon:&quot;&quot;},
         {treeId:&#39;id4&#39;, parentId:&#39;id1&#39;, itemName:&quot;Physio&quot;, itemIcon:&quot;&quot;},
         {treeId:&#39;id5&#39;, parentId:&#39;id1&#39;, itemName:&quot;Physio&quot;, itemIcon:&quot;&quot;},
-        {treeId:&#39;id6&#39;, parentId:null, itemName:&quot;Heart Replacement&quot;},
+        {treeId:&#39;id6&#39;, parentId:null, itemName:&quot;Heart Replacement&quot;, itemIcon:&quot;&quot;},
         {treeId:&#39;id7&#39;, parentId:&#39;id6&#39;, itemName:&quot;Consultation&quot;, itemIcon:&quot;&quot;},
         {treeId:&#39;id8&#39;, parentId:&#39;id6&#39;, itemName:&quot;Operation&quot;, itemIcon:&quot;&quot;},
         {treeId:&#39;id9&#39;, parentId:&#39;id6&#39;, itemName:&quot;Medication&quot;, itemIcon:&quot;&quot;}
@@ -142,17 +142,17 @@ function getSomeData() {
     var treeMap = {appId:&quot;treeId&quot;, parentId:&quot;parentId&quot;, name:&quot;itemName&quot;, icon:&quot;itemIcon&quot;};
 
     // This array is purely for our example so we have a clear example
-    var timelineArr = [
-        {parentTreeId:&#39;id1&#39;, evName:&#39;Episode 1&#39;, evDate:dummyDate(7), itemIcon:&#39;&#39;, endDate: dummyDate(50)},
-        {parentTreeId:&#39;id2&#39;, evName:&#39;Consult Dr. Evans&#39;, evDate:dummyDate(7), itemIcon:_whiteClip, endDate: &#39;&#39;},
-        {parentTreeId:&#39;id3&#39;, evName:&#39;Operation Rm 3B&#39;, evDate:dummyDate(30), itemIcon:_orangeList, endDate: &#39;&#39;},
-        {parentTreeId:&#39;id4&#39;, evName:&#39;Session 1&#39;, evDate:dummyDate(40), itemIcon:_bluePen, endDate: &#39;&#39;},
-        {parentTreeId:&#39;id5&#39;, evName:&#39;Session 2&#39;, evDate:dummyDate(50), itemIcon:_bluePen, endDate: &#39;&#39;}, 
-        {parentTreeId:&#39;id6&#39;, evName:&#39;Episode 2&#39;, evDate:dummyDate(7), itemIcon:&#39;&#39;, endDate: dummyDate(24)},
-        {parentTreeId:&#39;id7&#39;, evName:&#39;Consult Dr. Mors&#39;, evDate:dummyDate(10), itemIcon:_whiteClip, endDate: &#39;&#39;},
-        {parentTreeId:&#39;id8&#39;, evName:&#39;Operation Rm 5A&#39;, evDate:dummyDate(20), itemIcon:_orangeList, endDate: &#39;&#39;},
-        {parentTreeId:&#39;id9&#39;, evName:&#39;Anti Rejection&#39;, evDate:dummyDate(24), itemIcon:_purpleMinus, endDate: &#39;&#39;}
-    ];
+   var timelineArr = [
+    {parentTreeId:&#39;id1&#39;, evName:&#39;Episode 1&#39;, evDate:dummyDate, itemIcon:&#39;&#39;, endDate: dummyEndDate},
+    {parentTreeId:&#39;id2&#39;, evName:&#39;Consult Dr. Evans&#39;, evDate:dummyDate, itemIcon: &#39;http://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/64x64/PaperClip2_Black.png&#39;, endDate: dummyEndDate},
+    {parentTreeId:&#39;id3&#39;, evName:&#39;Operation Rm 3B&#39;, evDate:dummyDate, itemIcon: &#39;http://cdn1.iconfinder.com/data/icons/oxygen/64x64/mimetypes/text-enriched.png&#39;, endDate: &#39;&#39;},
+    {parentTreeId:&#39;id4&#39;, evName:&#39;Session 1&#39;, evDate:dummyDate, itemIcon: &#39;http://cdn1.iconfinder.com/data/icons/super-mono-reflection/blue/pen_blue.png&#39;, endDate: &#39;&#39;},
+    {parentTreeId:&#39;id5&#39;, evName:&#39;Session 2&#39;, evDate:dummyDate, itemIcon: &#39;http://cdn1.iconfinder.com/data/icons/super-mono-reflection/blue/pen_blue.png&#39;, endDate: &#39;&#39;}, 
+    {parentTreeId:&#39;id6&#39;, evName:&#39;Episode 2&#39;, evDate:dummyDate, itemIcon:&#39;&#39;, endDate: dummyEndDate},
+    {parentTreeId:&#39;id7&#39;, evName:&#39;Consult Dr. Mors&#39;, evDate:dummyDate, itemIcon: &#39;http://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/64x64/PaperClip2_Black.png&#39;, endDate: &#39;&#39;},
+    {parentTreeId:&#39;id8&#39;, evName:&#39;Operation Rm 5A&#39;, evDate:dummyDate, itemIcon: &#39;http://cdn1.iconfinder.com/data/icons/oxygen/64x64/mimetypes/text-enriched.png&#39;, endDate: &#39;&#39;},
+    {parentTreeId:&#39;id9&#39;, evName:&#39;Anti Rejection&#39;, evDate:dummyDate, itemIcon: &#39;http://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/64x64/Minus_Circle_Green.png&#39;, endDate: &#39;&#39;}
+];
     // This WILL be required
     var timelineMap = {parentId:&#39;parentTreeId&#39;, name:&#39;evName&#39;, date:&#39;evDate&#39;, icon:&#39;itemIcon&#39;, endDate: &#39;endDate&#39;};   
 
@@ -163,9 +163,6 @@ function getSomeData() {
     // Fit the full time range into the available display
     app.w(&quot;timeline1&quot;).fitData();    
 }
-    var treeMap = {appId:&quot;treeId&quot;, parentId:&quot;parentId&quot;, name:&quot;itemName&quot;, icon:&quot;itemIcon&quot;};
-
-    var timelineMap = {parentId:&#39;parentTreeId&#39;, name:&#39;evName&#39;, date:&#39;evDate&#39;, icon:&#39;itemIcon&#39;, endDate: &#39;endDate&#39;};   
 </code></pre>
 
 <h2 id="toc_1">Tree Data</h2>
@@ -176,7 +173,9 @@ function getSomeData() {
 <li><p>appId - this is the id of the individual tree list item. This ID can be referenced by a) other child tree nodes or b) Timeline array items that should be shown in the same row.</p></li>
 <li><p>parentId - the ID of this item&#39;s parent tree item. If undefined, then it is a top level item.</p></li>
 <li><p>name - this is the name of the tree item and appears as the item text.</p></li>
-<li><p>icon - url of the icon that should appear net to this item. Can be undefined, in which case the default icon is used (if there is one).</p></li>
+<li><p>icon - url of the icon that should appear net to this item. Can be undefined, in which case the default icon is used (if there is one).</p>
+
+<p><code>var treeMap = {appId:&quot;treeId&quot;, parentId:&quot;parentId&quot;, name:&quot;itemName&quot;, icon:&quot;itemIcon&quot;};</code></p></li>
 </ul>
 
 <p>Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/">populateWidget()</a> documentation for a full explanation of these mapping, which are capable of working with complex objects.</p>
@@ -190,7 +189,9 @@ function getSomeData() {
 <li><p>name - the name of the event as shown in the timeline area</p></li>
 <li><p>date - the datestamp (javascript date object) of the event</p></li>
 <li><p>endDate - an optional value that indicates when the event finished. If supplied, you will see an event duration bar spanning the period between date and endDate.</p></li>
-<li><p>icon - the url of the icon to display alongside the event text</p></li>
+<li><p>icon - the url of the icon to display alongside the event text</p>
+
+<p><code>var timelineMap = {parentId:&#39;parentTreeId&#39;, name:&#39;evName&#39;, date:&#39;evDate&#39;, icon:&#39;itemIcon&#39;, endDate: &#39;endDate&#39;};</code></p></li>
 </ul>
 
 <p>Note how these precise element names are used in the mapping object. The values you supply against each one point to the names in your source data. You should refer to the <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/">populateWidget()</a> documentation for a full explanation of these mappings, which are capable of working with complex objects.</p>

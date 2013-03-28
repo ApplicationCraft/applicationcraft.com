@@ -132,8 +132,9 @@
     &#39;&lt;/div&gt;&#39;;
 
     // Let&#39;s add 2 Markers, one with hover and click popup information
-    var objName1 = app.w(&#39;googleMapsAdvanced&#39;).(37.44, -122.1, overContentString, clickContentString, imgUrl);
-    var objName2 = app.w(&#39;googleMapsAdvanced&#39;).(37.55, -122.15);
+    var objName1 = app.w(&#39;googleMapsAdvanced&#39;).addMarker(37.44, -122.1, 
+    overContentString, clickContentString, imgUrl);
+    var objName2 = app.w(&#39;googleMapsAdvanced&#39;).addMarker(37.55, -122.15);
 }
 </code></pre>
 
