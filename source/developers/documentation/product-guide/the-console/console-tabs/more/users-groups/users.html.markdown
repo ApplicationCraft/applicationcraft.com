@@ -95,9 +95,9 @@ Type
 <td width="667">
 developer/app.
 
- - 'developer' refers to the number of developer users in your account. Additional developer users can be added to your account at any time by Upgrading your account. See [Upgrade Subscriptions](/developers/documentation/product-guide/account-management/upgrade-subscription)
+ - 'developer' refers to the number of developer users in your account. Additional developer users can be added to your account at any time by Upgrading your account. See <a href="/developers/documentation/product-guide/account-management/upgrade-subscription">Upgrade Subscriptions</a>.
 
- - 'app' refers to any user accounts created in your account where you require [Authentication for Your Apps](/developers/documentation/product-guide/advanced-features/authentication-for-your-apps/) or if using Server Side scripting [User Management](/developers/documentation/scripting-apis/server-side-api/sys-object/user-management/)
+ - 'app' refers to any user accounts created in your account where you require <a href="/developers/documentation/product-guide/advanced-features/authentication-for-your-apps/">Authentication for Your Apps</a> or if using Server Side scripting <a href="/developers/documentation/scripting-apis/server-side-api/sys-object/user-management/">User Management</a>.
 
 </td>
 </tr>
