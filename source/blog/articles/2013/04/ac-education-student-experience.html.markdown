@@ -6,7 +6,6 @@ tags: mobile application, education, mobile development for learning, Creighton 
 class_name: blog
 full_width: true
 image: blog/cityslicker.jpg
-published: false
 ---
 
 [Creighton University](http://www.creighton.edu/) recently held an App Dev Argy-Bargy, a competition that was a huge success and attended by many students, IT companies and the press. We caught up with Cindy Corritore, a Professor of IT at the University, earlier this year and heard about [her experience](/blog/2013/02/ac-education-creighton-university-experience/) from the teaching side. Now we've been fortunate to catch up with one of the students and competition's runner-ups, Morgan McVay, who created the [CitySlicker](http://creighton.applicationcraft.com/live.php?formId=c68f1542-8200-4a2f-ad89-79978ecedee7#/c68f1542-8200-4a2f-ad89-79978ecedee7/homepage) app with team mate Catherine Lucas . The duo won themselves a Google Nexus 7 tablet in the process and have memories to last a lifetime.
