@@ -37,7 +37,7 @@ Before presenting our app during the Argy-Bargy competition at Creighton, we fir
 
 ##### *What are your next steps?*
 
-Although my formal BIA studies have come to an end, I know the experience and tools that I have collected through Application Craft will be of greatly beneficial in my future endeavors. I would recommend Application Craft for any individual who is interested in creating their own app or to those who simply would like to better understand and appreciate the hard work and dedication that go into a creating a fully functioning and sophisticated app. In summary, Application Craft is an invaluable resource for any level of developer and is a worthy investment.
+Although my formal BIA studies have come to an end, I know the experience and tools that I have collected through Application Craft will be greatly beneficial in my future endeavors. I would recommend Application Craft for any individual who is interested in creating their own app or to those who simply would like to better understand and appreciate the hard work and dedication that go into a creating a fully functioning and sophisticated app. In summary, Application Craft is an invaluable resource for any level of developer and is a worthy investment.
 
 
 ##### *Thanks so much for sharing with us, Morgan. We wish you all the best in the future!*
