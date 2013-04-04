@@ -83,7 +83,17 @@ Please be aware that iOS handles confirm() in a different manner and it can caus
 
 If running as a Native App, then this is passed through to [this PhoneGap function](http://docs.phonegap.com/phonegap_notification_notification.md.html#notification.confirm) .
 
-     
+## Example
+
+     function handler_actionBtn1_onClick(mouseev){
+          app.confirm( "Are you sure you want to do this?",function(btnIndex) {
+               if(btnIndex==1) {
+                    // do something when OK button pressed
+               }else{
+                    // do something when Cancel button pressed
+                    }
+          },'Message Box Title');
+     }
    
 
 ## See Also
