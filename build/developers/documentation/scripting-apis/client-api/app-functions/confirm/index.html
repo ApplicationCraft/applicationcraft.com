@@ -177,7 +177,20 @@ Comma separated string with button labels (Default: "OK,Cancel")
 
 <p>If running as a Native App, then this is passed through to <a href="http://docs.phonegap.com/phonegap_notification_notification.md.html#notification.confirm">this PhoneGap function</a> .</p>
 
-<h2 id="toc_2">See Also</h2>
+<h2 id="toc_2">Example</h2>
+
+<pre><code> function handler_actionBtn1_onClick(mouseev){
+      app.confirm( &quot;Are you sure you want to do this?&quot;,function(btnIndex) {
+           if(btnIndex==1) {
+                // do something when OK button pressed
+           }else{
+                // do something when Cancel button pressed
+                }
+      },&#39;Message Box Title&#39;);
+ }
+</code></pre>
+
+<h2 id="toc_3">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/scripting-apis/client-api/app-functions/refalert">alert()</a></li>

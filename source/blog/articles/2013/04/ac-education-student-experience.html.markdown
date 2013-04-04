@@ -1,7 +1,7 @@
 ---
 title: AC Education - the Students Experience
 author: Morgan McVay (AC User)
-date: 2013-04-05
+date: 2013-04-04
 tags: mobile application, education, mobile development for learning, Creighton University, Argy Bargy
 class_name: blog
 full_width: true
