@@ -8,16 +8,20 @@ full_width: true
 
 
 The purpose of this widget is to make working with maps as easy as it possibly can be. This means not just the visual map but also the many methods that the Google V3 Maps and Geocoding API incorporates.
-
 <table>
 <tr>
 <td width="172">
 <a id="general"> </a> <b>General</b>
 
 </td>
+<td width="21">
+</td>
+<td width="754">
+</td>
 </tr>
 <tr>
 <td width="172">
+
 Widget Class
 
 </td>
