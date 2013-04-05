@@ -133,8 +133,7 @@ Mandatory
 </td>
 <td width="779">
 true/false. Set to true to ensure the field is completed before submission is allowed.
-
-See [App Properties](/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory) Mandatory settings where you can set the highlight color, opacity and the message to present to users
+See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties#mandatory">App Properties</a> Mandatory settings where you can set the highlight color, opacity and the message to present to users
 
 </td>
 </tr>
