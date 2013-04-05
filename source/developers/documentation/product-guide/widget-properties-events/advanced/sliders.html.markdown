@@ -106,7 +106,7 @@ Bindings
 <td width="779">
 Bindings can be used with Sliders to provide a visual presentation to users of their selection from the Slider.
 
-Select to define the bindings to Image resource files. You can define the assigned values to each image manually, or Import Resource where you have a csv file uploaded as a Resource. The csv file requires a value column and URL column (where your image files are accessible to your App). As your users move the slider, the separate images will be presented to the form. See [Emoticons](/developers/documentation/product-guide/advanced-important-widgets/image-maps-and-emoticons/emoticons)
+Select to define the bindings to Image resource files. You can define the assigned values to each image manually, or Import Resource where you have a csv file uploaded as a Resource. The csv file requires a value column and URL column (where your image files are accessible to your App). As your users move the slider, the separate images will be presented to the form. See <a href="/developers/documentation/product-guide/advanced-important-widgets/image-maps-and-emoticons/emoticons">Emoticons</a>.
 
 </td>
 </tr>
