@@ -100,522 +100,522 @@
 
     <article id="doc-body">
       <h1>Google Maps Advanced</h1>
-      <p>The purpose of this widget is to make working with maps as easy as it possibly can be. This means not just the visual map but also the many methods that the Google V3 Maps and Geocoding API incorporates.</p>
-
-<table>
-<tr>
-<td width="172">
-<a id="general"> </a> <b>General</b>
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Widget Class
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-Internal class name of the widget. - GoogleMapsAdvanced
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Name
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-This is the Widget name that is displayed when references are made to the Widget. You can choose any name that includes alphanumeric characters.
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Google API Keys
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-Where you set your API key to use for tracking, use other paid services. or to prevent free(no Api key) restrictions
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Lat&Lng
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-This allows the user to specify the Latitude and Longitude of the map. To set this property from Javascript, you should use app.setValue('mapName', coord[]) where coord is an array with 2 elements, coord[0] is latitidue and coord[1] longitude. eg app.setValue("googleMapsAdvanced", [36.555, -111.222]);
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Show Marker
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-Indicates whether a Marker icon should be displayed at the map coordinates.
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Zoom
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-The default zoom level
-
-</td>
-</tr>
-<tr>
-<td width="172">
-No Scroll
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-true/false. Set to false to disable map scrolling
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Map Controls
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-A dialog that allows you to specify which Map controls are visible (Map Type, Pan, Zoom, Scale, Overview Map, Streetview, Rotate)
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Libraries
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-  A dialog that allows you to specify Google Map Libraries to use. See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/advanced--accessing-the-googl">Accessing the Google Object</a>
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="172">
-<a id="layout"> </a> <b>Layout</b>
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-</td>
-</tr>
-<tr>
-<td width="172">
-Aspect Ratio on Resize
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-Indicates whether the Map should maintain its aspect ratio should it be within a Vertical container and have its width or height automatically modified at any point at runtime.
-
-</td>
-</tr>
-<tr>
-<td width="172">
-X
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-Number of pixels from the left edge of the Page.
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Y
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-Number of pixels from the top edge of the Page.
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Sizes
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">'Sizes' Property Dialog</a>
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Repeat
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Z-Index
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-A number that indicates the imaginary layer that the Widget is in. If you imagine several Widgets all placed over one another, the top-most Widget has the highest Z-Index and the bottom most Widget has the lowest. You can adjust the Z-Index by changing the value. You can also use the right-click menu to adjust these in a friendlier way.
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Anchors
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-  This is used in conjunction with "Docked" App Pages. You can use this to allows a Widget's X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking & Anchoring</a> .
-
-</td>
-</tr>
-<tr>
-<td width="172">
-Align in Container
-
-</td>
-<td width="21">
-</td>
-<td width="754">
-Left/Center/Right. Set as required to align the widget within its parent container
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="174">
-<a id="behavior"> </a> <b>Behavior</b>
-
-</td>
-<td width="20">
-</td>
-<td width="748">
-</td>
-</tr>
-<tr>
-<td width="174">
-Drag and Drop
-
-</td>
-<td width="20">
-</td>
-<td width="748">
-If set to true, the user is able to drag and drop the widget with the mouse at run time
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Resizing
-
-</td>
-<td width="20">
-</td>
-<td width="748">
-Disable/Enable. Set to True to allow the widget to be resized at Runtime. Configurable Max/Min Width and Height, Right & Bottom, Top & Left or All
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Visible
-
-</td>
-<td width="20">
-</td>
-<td width="748">
-Set to False if you want the Widget to appear hidden by default. You would use Javascript to override this at a later stage.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Enable
-
-</td>
-<td width="20">
-</td>
-<td width="748">
-Set to false to leave the Widget visible but to prevent any user interaction
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="174">
-<a id="data"> </a> <b>Data</b>
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/data-integration-with-the-maps">here</a> for explanation on how Integration works with the Advanced Maps Widget.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-View
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-Select the view to use
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Fields
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-  This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Group By
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-  This allows you to Group data within a View in the same way you would with a SQL statement. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by">Group By</a> section for more details.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Order By
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-  Specifies the order in which data is presented to the Widget.  Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by">Order By</a> section for more details.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Filter
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-This is a global, static filter that can be defined for each View in your App.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Drill Filter
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-  This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-filter">Drill Filter</a> section for more details.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Broadcast
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-  Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/broadcast">Broadcast</a> section for more details.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Listen
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-  This indicates whether the Widget should react to a Drill Down action on a common View. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen">Listen</a> section for more details.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Reset Filter
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-  Indicates whether a Drill Down on the Widget should reset the View's filter or whether it should add to the existing filter. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter">Reset Filter</a> section for more details.
-
-</td>
-</tr>
-<tr>
-<td width="174">
-Auto Load
-
-</td>
-<td width="18">
-</td>
-<td width="750">
-Set to true to automatically fetch data from assigned view.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="174">
-<a id="style"> </a> <b>Style</b>
-
-</td>
-</tr>
-<tr>
-<td width="176">
-Opacity
-
-</td>
-<td width="16">
-</td>
-<td width="728">
-This % value specifies the transparency of the Widget.
-
-</td>
-</tr>
-<tr>
-<td width="176">
-Box Sizing
-
-</td>
-<td width="16">
-</td>
-<td width="728">
-content-box/border-box. Content-box - The padding or border of the element are laid out and drawn outside the specified width and height. Border-box -The padding or border element is laid out and drawn inside the specified width and height.
-
-</td>
-</tr>
-<tr>
-<td width="176">
-Border
-
-</td>
-<td width="16">
-</td>
-<td width="728">
-Controls Border for whole container, using Border dialog
-
-</td>
-</tr>
-<tr>
-<td width="176">
-Shadow
-
-</td>
-<td width="16">
-</td>
-<td width="728">
-Control the shadow around the widget
-
-</td>
-</tr>
-<tr>
-<td width="176">
-Margin
-
-</td>
-<td width="16">
-</td>
-<td width="728">
-  Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a>
-
-</td>
-</tr>
-<tr>
-<td width="176">
-BG Color
-
-</td>
-<td width="16">
-</td>
-<td width="728">
-Controls BG Color of whole container
-
-</td>
-</tr>
-<tr>
-<td width="176">
-Widget Style
-
-</td>
-<td width="16">
-</td>
-<td width="728">
-  This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget's default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.
-
-</td>
-</tr>
-</table>
+      <p>The purpose of this widget is to make working with maps as easy as it possibly can be. This means not just the visual map but also the many methods that the Google V3 Maps and Geocoding API incorporates.<br>
+<table><br>
+<tr><br>
+<td width="172"><br>
+<a id="general"> </a> <b>General</b></p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+</td><br>
+</tr><br>
+<tr><br>
+<td width="172"></p>
+
+<p>Widget Class</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+Internal class name of the widget. - GoogleMapsAdvanced</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Name</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+This is the Widget name that is displayed when references are made to the Widget. You can choose any name that includes alphanumeric characters.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Google API Keys</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+Where you set your API key to use for tracking, use other paid services. or to prevent free(no Api key) restrictions</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Lat&amp;Lng</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+This allows the user to specify the Latitude and Longitude of the map. To set this property from Javascript, you should use app.setValue(&#39;mapName&#39;, coord[]) where coord is an array with 2 elements, coord[0] is latitidue and coord[1] longitude. eg app.setValue(&quot;googleMapsAdvanced&quot;, [36.555, -111.222]);</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Show Marker</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+Indicates whether a Marker icon should be displayed at the map coordinates.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Zoom</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+The default zoom level</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+No Scroll</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+true/false. Set to false to disable map scrolling</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Map Controls</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+A dialog that allows you to specify which Map controls are visible (Map Type, Pan, Zoom, Scale, Overview Map, Streetview, Rotate)</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Libraries</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+  A dialog that allows you to specify Google Map Libraries to use. See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/advanced--accessing-the-googl">Accessing the Google Object</a></p>
+
+<p></td><br>
+</tr><br>
+</table><br>
+<table><br>
+<tr><br>
+<td width="172"><br>
+<a id="layout"> </a> <b>Layout</b></p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+</td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Aspect Ratio on Resize</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+Indicates whether the Map should maintain its aspect ratio should it be within a Vertical container and have its width or height automatically modified at any point at runtime.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+X</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+Number of pixels from the left edge of the Page.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Y</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+Number of pixels from the top edge of the Page.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Sizes</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+  Where you can set the Width and Height of the widget. If a widget is within a Container in Vertical or Horizontal mode, then the widget can also be made to change size in response to the size of the display width and height See <a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/sizes-property-dialog">&#39;Sizes&#39; Property Dialog</a></p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Repeat</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+  Find out more about this in <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/repeating-widgets-across-multi">Repeating Widgets Across Multiple Pages</a> .</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Z-Index</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+A number that indicates the imaginary layer that the Widget is in. If you imagine several Widgets all placed over one another, the top-most Widget has the highest Z-Index and the bottom most Widget has the lowest. You can adjust the Z-Index by changing the value. You can also use the right-click menu to adjust these in a friendlier way.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Anchors</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+  This is used in conjunction with &quot;Docked&quot; App Pages. You can use this to allows a Widget&#39;s X, Y, Width and Height to be automatically altered as the browser window is resized. See <a href="/developers/documentation/product-guide/content-and-app-layout/editing-and-laying-out-reference/widget-anchoring">Docking &amp; Anchoring</a> .</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="172"><br>
+Align in Container</p>
+
+<p></td><br>
+<td width="21"><br>
+</td><br>
+<td width="754"><br>
+Left/Center/Right. Set as required to align the widget within its parent container</p>
+
+<p></td><br>
+</tr><br>
+</table><br>
+<table><br>
+<tr><br>
+<td width="174"><br>
+<a id="behavior"> </a> <b>Behavior</b></p>
+
+<p></td><br>
+<td width="20"><br>
+</td><br>
+<td width="748"><br>
+</td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Drag and Drop</p>
+
+<p></td><br>
+<td width="20"><br>
+</td><br>
+<td width="748"><br>
+If set to true, the user is able to drag and drop the widget with the mouse at run time</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Resizing</p>
+
+<p></td><br>
+<td width="20"><br>
+</td><br>
+<td width="748"><br>
+Disable/Enable. Set to True to allow the widget to be resized at Runtime. Configurable Max/Min Width and Height, Right &amp; Bottom, Top &amp; Left or All</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Visible</p>
+
+<p></td><br>
+<td width="20"><br>
+</td><br>
+<td width="748"><br>
+Set to False if you want the Widget to appear hidden by default. You would use Javascript to override this at a later stage.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Enable</p>
+
+<p></td><br>
+<td width="20"><br>
+</td><br>
+<td width="748"><br>
+Set to false to leave the Widget visible but to prevent any user interaction</p>
+
+<p></td><br>
+</tr><br>
+</table><br>
+<table><br>
+<tr><br>
+<td width="174"><br>
+<a id="data"> </a> <b>Data</b></p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+See <a href="/developers/documentation/product-guide/advanced-important-widgets/google-v3-maps-widget/data-integration-with-the-maps">here</a> for explanation on how Integration works with the Advanced Maps Widget.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+View</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+Select the view to use</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Fields</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+  This property is used to allow you to set which data fields are taken from the View and used in the Widget. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fields/">Fields</a> section for more details.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Group By</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+  This allows you to Group data within a View in the same way you would with a SQL statement. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/fiieldsgroup-by">Group By</a> section for more details.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Order By</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+  Specifies the order in which data is presented to the Widget.  Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/order-by">Order By</a> section for more details.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Filter</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+This is a global, static filter that can be defined for each View in your App.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Drill Filter</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+  This property controls the Drill Down filter that is set when a Widget is clicked on whose Broadcast property is set to True. You will be shown the Expression Editor and you can specify the precise condition that should be applied to the View that the Widget is connected to. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-filter">Drill Filter</a> section for more details.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Broadcast</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+  Indicates whether a click action on a Widget should trigger a Drill Down on any other Widgets that a) share the same Data Source and b) whose Listen property is set. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/broadcast">Broadcast</a> section for more details.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Listen</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+  This indicates whether the Widget should react to a Drill Down action on a common View. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen">Listen</a> section for more details.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Reset Filter</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+  Indicates whether a Drill Down on the Widget should reset the View&#39;s filter or whether it should add to the existing filter. Read the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter">Reset Filter</a> section for more details.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="174"><br>
+Auto Load</p>
+
+<p></td><br>
+<td width="18"><br>
+</td><br>
+<td width="750"><br>
+Set to true to automatically fetch data from assigned view.</p>
+
+<p></td><br>
+</tr><br>
+</table><br>
+<table><br>
+<tr><br>
+<td width="174"><br>
+<a id="style"> </a> <b>Style</b></p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="176"><br>
+Opacity</p>
+
+<p></td><br>
+<td width="16"><br>
+</td><br>
+<td width="728"><br>
+This % value specifies the transparency of the Widget.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="176"><br>
+Box Sizing</p>
+
+<p></td><br>
+<td width="16"><br>
+</td><br>
+<td width="728"><br>
+content-box/border-box. Content-box - The padding or border of the element are laid out and drawn outside the specified width and height. Border-box -The padding or border element is laid out and drawn inside the specified width and height.</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="176"><br>
+Border</p>
+
+<p></td><br>
+<td width="16"><br>
+</td><br>
+<td width="728"><br>
+Controls Border for whole container, using Border dialog</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="176"><br>
+Shadow</p>
+
+<p></td><br>
+<td width="16"><br>
+</td><br>
+<td width="728"><br>
+Control the shadow around the widget</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="176"><br>
+Margin</p>
+
+<p></td><br>
+<td width="16"><br>
+</td><br>
+<td width="728"><br>
+  Used to specify the margin around a widget when the parent container is in Relative Mode. See <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/setting-a-margin">Setting a Margin</a></p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="176"><br>
+BG Color</p>
+
+<p></td><br>
+<td width="16"><br>
+</td><br>
+<td width="728"><br>
+Controls BG Color of whole container</p>
+
+<p></td><br>
+</tr><br>
+<tr><br>
+<td width="176"><br>
+Widget Style</p>
+
+<p></td><br>
+<td width="16"><br>
+</td><br>
+<td width="728"><br>
+  This refers to the <a href="/developers/documentation/product-guide/content-and-app-layout/introduction/themes-styles/themesmanage">Theme entry</a> that should be used to set the Widget&#39;s default appearance. Once a Theme Style has been selected, individual components such as Font and Colors can be Set to False if you want the Widget to appear hidden by default.</p>
+
+<p></td><br>
+</tr><br>
+</table></p>
 
 <table>
 <tr>
