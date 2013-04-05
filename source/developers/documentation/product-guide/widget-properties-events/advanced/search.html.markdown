@@ -13,7 +13,6 @@ Search is to allow you to search for data and return the results to other Widget
 <tr>
 <td width="148">
 <a id="general"> </a> <b>General</b>
-
 </td>
 <td width="15">
 </td>
@@ -46,14 +45,9 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Text
 
-</td>
-</tr>
-</table>
+
 </td>
 <td width="15">
 </td>
