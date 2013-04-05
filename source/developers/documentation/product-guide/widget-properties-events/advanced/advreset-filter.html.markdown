@@ -52,14 +52,8 @@ This is the Widget name that is displayed when references are made to the Widget
 </tr>
 <tr>
 <td width="148">
-<table>
-<tr>
-<td width="148">
 Label
 
-</td>
-</tr>
-</table>
 </td>
 <td width="15">
 </td>
@@ -216,7 +210,7 @@ true/false.  If set to false users will not tab into this field
 <table>
 <tr>
 <td width="148">
-<a id="behavior"> </a> <b>Behavior</b>**
+<a id="behavior"> </a> <b>Behavior</b>
 
 </td>
 <td width="15">
