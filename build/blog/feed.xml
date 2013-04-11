@@ -5,10 +5,54 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2013-04-04T00:00:00Z</updated>
+  <updated>2013-04-11T00:00:00Z</updated>
   <author>
     <name>Application Craft</name>
   </author>
+  <entry>
+    <title>Words from expressFlow CEO Martin Vasko</title>
+    <link rel="alternate" href="/blog/2013/04/expressflow/"/>
+    <id>/blog/2013/04/expressflow/</id>
+    <published>2013-04-11T00:00:00Z</published>
+    <updated>2013-04-11T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We&amp;#39;ve partnered up with &lt;a href="http://expressflow.com/"&gt;expressFlow&lt;/a&gt;, a small startup providing simple and intuitive document-encryption in the cloud. expressFlow launched an app challenge, which we announced a couple of weeks ago and we caught up with CEO Martin Vasko to get an inside scoop on expressFlow and how the idea of the app challenge was born.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;ve partnered up with &lt;a href="http://expressflow.com/"&gt;expressFlow&lt;/a&gt;, a small startup providing simple and intuitive document-encryption in the cloud. expressFlow launched an app challenge, which we announced a couple of weeks ago and we caught up with CEO Martin Vasko to get an inside scoop on expressFlow and how the idea of the app challenge was born.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;expressFlow App Challenge&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As developers, we love when things are easy and they just work. Both things were not the case when we began to work with encryption. It was complicated to get things done - even in prototypes. And for a developer everything starts as a prototype. After many of our friends and colleagues experienced the same challenges we thought: Hey, why don’t provide the encryption functionality as an API? No sooner said than done!&lt;/p&gt;
+
+&lt;p&gt;And as some of our friends and customers began to play around with our API and integrated it in different scenarios we previously did not even think about we began to realize: Encrypting files in the Cloud is a very generic use case. Let&amp;#39;s make an app challenge!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;But why did we come up with such a crazy idea?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Well - we think that encrypting documents is a key requirement for most of the document management systems around. And with the growing popularity of cloud storage providers like Dropbox, Google Drive, Box and others we thought: Well - let’s take the API to another level and let our users and developers show us, what they can imagine with encryption. What about sharing documents from a mobile phone securely in the cloud? How about a nice small app to enable a secure four-eyes-principle? Just to give you a starting point.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;The Cloud and mobile - a perfect match?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaking of Cloud and mobile brings me to our partnership: Application Craft shares with us the passion to make development less painful. Their app development platform is designed to reduce the complexity of app development - and they do extremely well!&lt;/p&gt;
+
+&lt;p&gt;Application Craft enables developers to build their mobile app by simply dragging widgets in the browser to assemble a professional mobile app for all major platforms. This approach significantly reduces the complexity of app development.&lt;/p&gt;
+
+&lt;p&gt;Based on this development platform and by the use of the expressFlow API it should be an easy task to build the next cool mobile secure document sharing app.&lt;/p&gt;
+
+&lt;p&gt;And now we give our developers the opportunity to show us! Accept the challenge and build the next big thing! With the Application Craft platform and the expressFlow API this has never been easier.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Thanks very much for your time, Martin. And... challenge accepted! If you are interested in participating please see details &lt;a href="http://www.expressflow.com/community/appChallenge2013.jsp"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img title="AppChallenge" alt="AppChallenge" src="/img/blog/app-challenge-badge-8d860ece.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks,&lt;/p&gt;
+
+&lt;p&gt;The Application Craft Team&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>AC Education - the Students Experience</title>
     <link rel="alternate" href="/blog/2013/04/ac-education-student-experience/"/>
@@ -193,34 +237,6 @@
 &lt;p&gt;But unlike the secret service, we&amp;#39;re going to show you our secrets, a little bit at a time. If you want a sneak peak, and possibly even have a little play, &lt;a href="http://crafted.applicationcraft.com/"&gt;click here&lt;/a&gt;. Watch this space as we unveil our secrets, one layer at a time.&lt;/p&gt;
 
 &lt;p&gt;&lt;img title="Something BIG is coming! &amp;lt;a href=&amp;quot;http://crafted.applicationcraft.com/&amp;quot;&amp;gt;Find out more...&amp;lt;/a&amp;gt;" alt="Something BIG!" src="/img/blog/something-big-053c1ff0.jpg" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>AC Mobile Build for Windows Phone</title>
-    <link rel="alternate" href="/blog/2013/01/windows-phone-mobile-build-support/"/>
-    <id>/blog/2013/01/windows-phone-mobile-build-support/</id>
-    <published>2013-01-23T00:00:00Z</published>
-    <updated>2013-01-23T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Hot on the heels of our new console reveal &lt;a href="/blog/2013/01/all-new-console/"&gt;yesterday&lt;/a&gt; comes an amazing new features of &lt;a href="/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt;. We are proud to announce official support for Windows Phone.&lt;/p&gt;
-
-&lt;p&gt;&lt;img title="Mobile Build support for Windows Phone" alt="Windows Phone" src="/img/blog/winphone-37269549.png" /&gt;&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Hot on the heels of our new console reveal &lt;a href="/blog/2013/01/all-new-console/"&gt;yesterday&lt;/a&gt; comes an amazing new features of &lt;a href="/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt;. We are proud to announce official support for Windows Phone.&lt;/p&gt;
-
-&lt;p&gt;&lt;img title="Mobile Build support for Windows Phone" alt="Windows Phone" src="/img/blog/winphone-37269549.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;This means that with a click of a button, we will compile your AC and HTML5 apps for the Windows Phone platform. This is added at no additional cost, and sits alongside our current support for iOS and Android.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="/product/phonegap-mobile-build/"&gt;AC Mobile Build&lt;/a&gt; is based on the open source PhoneGap/Cordova project, and is designed to allow you to build apps using HTML, CSS and Javascript, while taking advantage of device specific functionality. You can then deploy them to any iOS, Android and now Windows Phone devices, and subsequently to their respective App Stores.&lt;/p&gt;
-
-&lt;p&gt;And AC Mobile Build is not only for AC apps. Just upload any web app, and we will do the rest.&lt;/p&gt;
-
-&lt;p&gt;We hope you enjoy this new addition. And if you do, you&amp;#39;re gonna love what else we&amp;#39;ve been working on.&lt;/p&gt;
-
-&lt;p&gt;Watch this space ;)&lt;/p&gt;
 </content>
   </entry>
 </feed>

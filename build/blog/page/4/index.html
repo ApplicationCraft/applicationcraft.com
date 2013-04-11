@@ -79,6 +79,134 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/blog/2012/12/get-more-out-of-the-developer-portal/">December 18, 2012</a>
+            
+              <span class="author">by <a href="mailto:ijobling@applicationcraft.com">Ian Jobling</a></span>
+            
+          </p>
+
+          <p class="tagged">Tagged:</p>
+          <ul class="tags">
+            
+              <li>support</li>
+            
+              <li>portal</li>
+            
+              <li>bugs</li>
+            
+          </ul>
+
+          <p class="comments">
+            <a class="dsq-comment-count" href="/blog/2012/12/get-more-out-of-the-developer-portal/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/blog/2012/12/get-more-out-of-the-developer-portal/">Get more out of the Developer Portal</a></h1>
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/get-more-out-of-the-developer-portal/" data-via="appcrafty" data-size="small" data-count="none" data-text="Get more out of the Developer Portal">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2012/12/get-more-out-of-the-developer-portal/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/get-more-out-of-the-developer-portal/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+
+        
+        <p>As much as we all hate bugs and problems, they happen, and it&#39;s also nice to see a lot of you reporting problems in our <a href="http://portal.applicationcraft.com" target="_blank">Developer Portal</a>. </p>
+
+<p>I thought I&#39;d throw out a few tips to help you out, and explain the basics of what we do with your tickets. We&#39;ve already made a few tweaks from comments that have been made, so if you have any thoughts/ideas don&#39;t be shy - we&#39;d love to hear from you.</p>
+
+<h2 id="toc_0">Raising a problem</h2>
+
+<p>Complete all the fields! Not only the platform (eg iOS/Android) but also what OS is involved. </p>
+
+<p>Attach an app which we can import into our test accounts and quickly and easily recreate the problem. Don&#39;t forget to also include a &#39;step by step&#39; of what to do in your app so we know what to do.</p>
+
+<p>An example or test app is even better. An export of your app (the .acft file) is preferred and not a download (.zip file) or compiled package.</p>
+
+<p>If you can&#39;t export your app then show us the problem in a video. The old adage: &#39;A picture is worth a thousand words&#39; really is true. Screen shots can also be helpful. It may seem counter intuitive but even if your problem is only experienced on a mobile device, and you can&#39;t easily video that, being able to walk through how to recreate the problem from the desktop app to show the steps can be a lot easier than trying to write it down step by step. <a href="http://www.techsmith.com/jing" target="_blank">Jing</a> is very good for doing this. Give it a go next time you have a problem, and simply post the link to the screencast in your ticket.</p>
+
+<p>If you can do the above it will help speed up the time it takes us to recreate the problem and get it fixed.</p>
+
+<h2 id="toc_1">What have we released and when?</h2>
+
+<p>We&#39;ve added in a new field to the ticket <em>Planned for Ver</em> that is being set with the version we plan to release the fix for. </p>
+
+<p>I&#39;ve set up some <strong>Custom Queries</strong> that you can use to see what was released in past versions. As we release new updates I&#39;ll create new queries as we do  (eg 1.28.1, 1.28.2) and as we release a new version (eg 1.29, 1.30). I will then combine all the updates into one query (eg 1.26.x, 1.27.x).</p>
+
+<p><img title="Custom Queries" alt="Send" src="/img/blog/queries-499c6b7b.png" /></p>
+
+<p>You can set up your own queries on demand but if you have ones that you would like to be publically available, let me know and I&#39;ll sort something out for you.</p>
+
+<h2 id="toc_2">Ticket Status</h2>
+
+<p>When a new issue is raised, it is given the status of &#39;New&#39;. But what happens next and when are you then able to test/check that we&#39;ve sorted out the problem?</p>
+
+<p>You can test the fix when the status changes to <em>Deployed/Released</em> as that is when the fix is released.  </p>
+
+<p><img title="Ticket Workflow" alt="Send" src="/img/blog/ticketwf-70cf1501.png" /></p>
+
+<p>Between these 2 steps, there are a number of process steps. If your explanation isn&#39;t clear we may get back to you changing the status to <em>To Clarify</em>, but in most cases (and especially if you include an example app) the next step would be to set the status to <em>Acknowledged</em> for the developers to pick up. </p>
+
+<p>Watch out for the change to the <em>Planned for Ver</em> flag to indicate what version this is due to be released in. This will be done when our QA team have tested internally and passed it as OK to release. In most cases this will be the next release we make, but if there are other things we need to do (update the docs for example), it may be different.</p>
+
+<h2 id="toc_3">Keep it Clean</h2>
+
+<p>When you have confirmed all is OK, please add a comment to the ticket to let us know and we can then close it out.</p>
+
+<h2 id="toc_4">Private Posts</h2>
+
+<p>If you raised your ticket as a Private post (ie includes information you would not want to have in the public domain, export of an app, screen shots, etc.), we would like to make these Public when they have been closed, so others can also see if they have or had a similar problem.  Please delete any attachments/comments that you wanted private and then un-check the private flag as you confirm back all is Ok for us to close the ticket and the rest of the community can then see what happened.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/get-more-out-of-the-developer-portal/" data-via="appcrafty" data-size="small" data-count="none" data-text="Get more out of the Developer Portal">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2012/12/get-more-out-of-the-developer-portal/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/get-more-out-of-the-developer-portal/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/blog/2012/12/release-jquery-mobile/">December 17, 2012</a>
             
               <span class="author">by <a href="mailto:jmoss@applicationcraft.com">Joel Moss</a></span>
@@ -414,147 +542,6 @@ Thursday December 13, 2012 - 6-7PM GMT</p>
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/blog/2012/12/oauth-support/">December  4, 2012</a>
-            
-              <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
-            
-          </p>
-
-          <p class="tagged">Tagged:</p>
-          <ul class="tags">
-            
-              <li>oauth</li>
-            
-              <li>authentication</li>
-            
-              <li>twitter</li>
-            
-              <li>facebook</li>
-            
-              <li>dropbox</li>
-            
-          </ul>
-
-          <p class="comments">
-            <a class="dsq-comment-count" href="/blog/2012/12/oauth-support/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/blog/2012/12/oauth-support/">Amazingly Easy Authentication with OAuth</a></h1>
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/oauth-support/" data-via="appcrafty" data-size="small" data-count="none" data-text="Amazingly Easy Authentication with OAuth">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2012/12/oauth-support/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/oauth-support/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-
-        
-          <img alt="Amazingly Easy Authentication with OAuth" align="left" class="blog-img" src="/img/blog/oauth-653b9984.png" />
-        
-        <p>We recently added <a href="http://oauth.net/">OAuth</a> support to Application Craft, and in the usual Application Craft way, we&#39;ve made it amazingly simple.</p>
-
-<p>We currently provide explicit support for Twitter, Facebook and Dropbox but we&#39;ll soon be adding support for more OAuth providers, as well as allowing you to make your own OAuth definitions so any service that supports OAuth can be defined in the AC Console.</p>
-
-<h2 id="toc_0">Authentication for your Apps</h2>
-
-<p>One of the simpler uses for OAuth is to provide access to your App. You let a 3rd party service like Twitter or Facebook handle the login process.</p>
-
-<p>Authentication is as easy as shown below. You call <code>OAuthSignIn()</code> and that&#39;s it. The service pops up in a browser window, handles the login and returns an access token. You can store that token in a cookie so when your users access your App in the future, they don&#39;t have to login again (until the service decides to expire it).</p>
-
-<pre><code>function handler_btnAuth_onClick(mouseev){
-  // See if we already have an old Access Token
-  _accessToken = app.getCookie(&quot;myTwitterSession&quot;);
-  if (_accessToken === null || _accessToken === &quot;&quot;) {
-    // No, we don&#39;t have one so get a new one
-    app.OAuthSignIn(&#39;twitter&#39;, authCallback);
-  }
-}
-</code></pre>
-
-<h2 id="toc_1">Calling OAuth secured APIs</h2>
-
-<p>Things get much more interesting when you want to access APIs from services such as Twitter, Facebook and Dropbox. Using our OAuth support, you can access the full functionality of those services in a way that is remarkably easy.</p>
-
-<p>This short example shows the code for sending a Tweet via Twitter. It is actually made up of two parts - the code running on the client ...</p>
-
-<pre><code>function handler_btnTweet_onClick(mouseev){
-    app.callSSJ(&#39;sendTweet&#39;, function(error, data){
-  if(error) {
-    // Some error occurred (maybe the 
-    // Access Token has expired)
-  } else {
-    app.showMessage(&quot;OAuth Demo&quot;, &quot;Message successfully tweeted!&quot;);  
-  }
-}, [_accessToken, txtTweetMessage]);
-}
-</code></pre>
-
-<p>... and the server side code that gets called by <code>app.callSSJ()</code> in the above example.</p>
-
-<pre><code>function sendTweet(accessToken, txtTweet) {
-ssj.OAuthRequest(accessToken, 
-    &#39;https://api.twitter.com/1.1/statuses/update.json&#39;,    
-    &#39;POST&#39;, { status: txtTweet });
-}
-</code></pre>
-
-<p>Have you ever seen OAuth handled that straightforward? Application Craft does all the dirty work and heavy lifting for you.</p>
-
-<h2 id="toc_2">Read the Documentation</h2>
-
-<p><a href="/developers/documentation/product-guide/advanced-features/oauth/">Click here</a> to read the OAuth documentation in the Product Guide.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.applicationcraft.com/blog/2012/12/oauth-support/" data-via="appcrafty" data-size="small" data-count="none" data-text="Amazingly Easy Authentication with OAuth">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="/blog/2012/12/oauth-support/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="http://www.applicationcraft.com/blog/2012/12/oauth-support/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -579,6 +566,8 @@ ssj.OAuthRequest(accessToken,
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/blog/2013/04/expressflow/">Words from expressFlow CEO Martin Vasko</a></li>
+          
             <li><a href="/blog/2013/04/ac-education-student-experience/">AC Education - the Students Experience</a></li>
           
             <li><a href="/blog/2013/02/collaboration-is-big/">Collaboration is BIG!</a></li>
@@ -593,8 +582,6 @@ ssj.OAuthRequest(accessToken,
           
             <li><a href="/blog/2013/01/all-new-console/">Introducing the All New Console</a></li>
           
-            <li><a href="/blog/2013/01/quick-and-easy-database-crud-with-parse/">Quick and Easy Database CRUD with Parse</a></li>
-          
         </ul>
       </section>
     
@@ -603,13 +590,13 @@ ssj.OAuthRequest(accessToken,
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/blog/2012/12/get-more-out-of-the-developer-portal/">Get more out of the Developer Portal</a></li>
+        
           <li><a href="/blog/2012/12/release-jquery-mobile/">Release: jQuery Mobile 1.2, Mobile Debugger</a></li>
         
           <li><a href="/blog/2012/12/application-craft-vs-appcelerator-titanium/">Application Craft VS Appcelerator Titanium</a></li>
         
           <li><a href="/blog/2012/12/introducing-our-new-webinar-sessions/">Introducing Our New Webinar Sessions</a></li>
-        
-          <li><a href="/blog/2012/12/oauth-support/">Amazingly Easy Authentication with OAuth</a></li>
         
       </ul>
     </section>
