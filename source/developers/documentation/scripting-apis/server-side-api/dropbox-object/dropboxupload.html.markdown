@@ -6,7 +6,7 @@ class_name: developers
 full_width: true
 ---
 
-**`dropbox.upload(authToken, fileUrl, filename, path, overwrite, root)`**
+**`dropbox.upload(authToken, fileUrl/binaryData, filename, path, overwrite, root)`**
 
 ## Parameters
 
@@ -24,12 +24,12 @@ Your Authentication key. See <a href="/developers/documentation/scripting-apis/c
 </tr>
 <tr>
 <td width="181">
-{string} fileUrl
+{string} fileUrl/{object} binaryData
 </td>
 <td width="18">
 </td>
 <td width="681">
-The URL of your file uploaded to your app with <a href="/developers/documentation/product-guide/widget-properties-events/mobile/upload-button">Mobile Upload</a> or <a href="/developers/documentation/product-guide/widget-properties-events/common/upload-button2">Upload</a> button.
+The URL of your file uploaded to your app with <a href="/developers/documentation/product-guide/widget-properties-events/mobile/upload-button">Mobile Upload</a> or <a href="/developers/documentation/product-guide/widget-properties-events/common/upload-button2">Upload</a> button or the Binary data of your file.
 </td>
 <tr>
 <td width="181">
@@ -81,7 +81,7 @@ sandbox(default)/dropbox. Using 'dropbox' is available after approval of dropbox
 ## Description
 This function allows you to upload files from your app to Dropbox. Used in conjunction with Dropbox [oAuth](/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/dropbox/) and [Mobile Upload](/developers/documentation/product-guide/widget-properties-events/mobile/upload-button) or [Upload](/developers/documentation/product-guide/widget-properties-events/common/upload-button2) button.
 
-## Example
+## Example - fileUrl
 
 Client Side:
 
@@ -130,6 +130,31 @@ Server Side:
 	    console.dir(response); // optional for testing to review successful upload
 	    return response;
 	}
+
+## Example - binaryData
+
+Client Side:
+
+Access your binaryData from a textArea widget on your app and call ServerSide function
+
+	function handler_actionBtn_onClick(mouseev){
+		app.callSSJ("dropboxBinary", function(error, res){
+        	if(!error){                
+            	console.dir(res); // optional for testing to show response
+            } else {         
+            	app.showMessage('error', 'sending binary data to dropbox failed'); // if there is an error
+        	}
+    	}, [signInId, (app.getProperty('textArea', 'text'))]); //pass the content of the textArea widget to the server side script
+}
+
+
+
+Server Side:
+
+	function dropboxBinary(id, binaryData){
+    	var response = ssj.dropbox.upload(id, {'data':binaryData}, 'fileName.txt', 'public/', false, 'sandbox');   
+    	console.dir(response); // optional for testing to review successful upload
+    	return response;
 
 
 ## See Also
