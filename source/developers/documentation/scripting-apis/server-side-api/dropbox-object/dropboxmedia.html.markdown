@@ -19,7 +19,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
-clarify ID.
+The id returned from oAuth sign in. See <a href="/developers/documentation/scripting-apis/client-api/oauth/oauthsignin/">oAuthSignin</a>.
 </td>
 </tr>
 <tr>
@@ -53,7 +53,27 @@ This function returns a link directly to a file.
 
 ## Example
 
+Client Side
 
+    function handler_actionBtn5_onClick(mouseev){
+   	    app.callSSJ("media", function(error, res){
+           	if(!error){
+               	console.log("res:"); // optional for testing to review response
+               	console.dir(res);    // optional for testing to review response
+               } else {
+                   console.log(res);    // optional for testing to review if error
+               }
+       	}, [signInId, root, pathMedia]);
+   	}
+
+
+Server Side
+
+    	function media(id, root, path){
+    	    var response = ssj.dropbox.media(id, root, path);
+    	    console.dir(response); // optional for testing to review response
+    	    return response;
+    	}
 
 ## See Also
 
