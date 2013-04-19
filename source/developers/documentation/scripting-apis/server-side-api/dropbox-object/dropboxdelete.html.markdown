@@ -19,7 +19,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
-clarify ID.
+The id returned from oAuth sign in. See <a href="/developers/documentation/scripting-apis/client-api/oauth/oauthsignin/">oAuthSignin</a>.
 </td>
 </tr>
 <tr>
@@ -49,11 +49,30 @@ sandbox(default)/dropbox. Using 'dropbox' is available after approval of dropbox
 </table>
 
 ## Description
-This function .
+This function allows you to delete a file from Dropbox.
 
 ## Example
 
+Client Side
 
+    function handler_actionBtn9_onClick(mouseev){
+   	    app.callSSJ("deleteDropbox", function(error, res){
+           	if(!error){
+               	console.log("res:"); // optional for testing to review response
+          			console.dir(res);    // optional for testing to review response
+                 } else {
+                   console.log(res);    // optional for testing to review response
+                 }
+       	    }, [signInId, root, pathDelete]); // To pass parameters to serverside
+        }
+
+Server Side
+
+    	function deleteDropbox(id, root, path){
+        	var response = ssj.dropbox.delete(id, root, path);
+            console.dir(response);   // optional for testing to review response
+        	return response;
+    }
 
 ## See Also
 
