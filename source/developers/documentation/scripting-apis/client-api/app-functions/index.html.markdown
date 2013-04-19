@@ -10,7 +10,7 @@ full_width: true
 ## In This Section
 
  - [getACVersion()](/developers/documentation/scripting-apis/client-api/app-functions/getacversion)
- 	This function can be used to get the version of your AC app.
+  This function can be used to get the version of your AC app.
  - [alert()](/developers/documentation/scripting-apis/client-api/app-functions/refalert)
     This function can be used instead of the regular alert() function
  - [confirm()](/developers/documentation/scripting-apis/client-api/app-functions/confirm)
@@ -89,6 +89,8 @@ full_width: true
     This function will return local path for the specified url.
  - [jGrowl()](/developers/documentation/scripting-apis/client-api/app-functions/jgrowl)
     A jQuery plugin for unobtrusive notifications and messages.
+- [uploadFile()](/developers/documentation/scripting-apis/client-api/app-functions/uploadfile)
+    Returns a url for a file as an AC resource.
 
 ## Related Videos
 
