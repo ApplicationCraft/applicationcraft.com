@@ -19,7 +19,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
-clarify ID.
+The id returned from oAuth sign in. See <a href="/developers/documentation/scripting-apis/client-api/oauth/oauthsignin/">oAuthSignin</a>.
 </td>
 </tr>
 <tr>
@@ -61,11 +61,30 @@ sandbox(default)/dropbox. Using 'dropbox' is available after approval of dropbox
 </table>
 
 ## Description
-This function .
+This function allows you to move files in Dropbox.
 
 ## Example
 
+Client Side
 
+    function handler_actionBtn10_onClick(mouseev){
+    		app.callSSJ("moveDropbox", function(error, res){
+    	        if(!error){
+    	            console.log("res:"); // optional for testing to review response
+    	            console.dir(res);    // optional for testing to review response
+    	        } else {
+    	            console.log(res);    // optional for testing to review if error
+    	        }
+    	    }, [signInId, root, from, to]);
+    }
+
+Server Side
+
+    	function moveDropbox(id, root, from, to){
+    	    var response = ssj.dropbox.move(id, root, from, to);
+    	    console.dir(response); // optional for testing to review response
+    	    return response;
+    	}
 
 ## See Also
 
