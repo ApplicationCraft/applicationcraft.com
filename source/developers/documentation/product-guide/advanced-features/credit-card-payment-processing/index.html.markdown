@@ -23,3 +23,5 @@ Before you get started in AC you will need to do the following
 
 If you use this, you will be dependent on the Application Craft server side platform or you will require AC Enterprise. In other words, you cannot run it from your own servers. If this is important then you can still use Zooz but you will need to implement things in your own way according to the Zooz documentation.
 
+Please note that Paypal functionality recently added by Zooz cannot be supported in web or native apps. Zooz can disable the Paypal option for your app. If that is required send them your app's unique ID as registered in the Zoozdeveloper portal.
+
