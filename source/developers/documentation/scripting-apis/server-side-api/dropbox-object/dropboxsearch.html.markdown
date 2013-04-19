@@ -19,7 +19,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
-clarify ID.
+The id returned from oAuth sign in. See <a href="/developers/documentation/scripting-apis/client-api/oauth/oauthsignin/">oAuthSignin</a>.
 </td>
 </tr>
 <tr>
@@ -85,11 +85,31 @@ Include deleted files/folders in the search. (Default: false)
 </table>
 
 ## Description
-This function returns metadata for all files and folders that match the search query
+This function returns metadata for all files and folders that match the search query.
 
 ## Example
 
+Client Side
 
+    function handler_actionBtn7_onClick(mouseev){
+   	    app.callSSJ("searchDropbox", function(error, res){
+   	        if(!error){
+   	            console.log("res:"); // optional for testing to review response
+   	            console.dir(res);    // optional for testing to review response
+               } else {
+                   console.log(res);    // optional for testing to review if error
+               }
+       	}, [signInId, root, query, pathSearch, limitSearch, deletedSearch]);
+   	}
+
+
+Server Side
+
+    	function searchDropbox(id, root, query,  path, limit, deleted){
+    	    var response = ssj.dropbox.search(id, root, query,  path, limit, deleted);
+    	    console.dir(response); // optional for testing to review response
+    	    return response;
+    	}
 
 ## See Also
 
