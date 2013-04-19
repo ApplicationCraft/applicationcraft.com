@@ -19,7 +19,7 @@ full_width: true
 <td width="18">
 </td>
 <td width="681">
-clarify ID.
+The id returned from oAuth sign in. See <a href="/developers/documentation/scripting-apis/client-api/oauth/oauthsignin/">oAuthSignin</a>.
 </td>
 </tr>
 <tr>
@@ -111,7 +111,28 @@ This function retrieves file and folder metadata.
 
 ## Example
 
+Client Side
 
+      function handler_actionBtn6_onClick(mouseev){
+    		    app.callSSJ("metaData", function(error, res){
+    	        if(!error){
+    	            console.log("res:"); // optional for testing to review response
+    	            console.dir(res);    // optional for testing to review response
+    	        } else {
+    	            console.log(res);    // optional for testing to review if error
+    	        }
+    	    }, [signInId, root, limitMetaData,  hash, list, deletedMetaData]); // To pass parameters to serverside
+    	}
+
+
+
+Server Side
+
+    	function metaData(id, root, limit,  hash, list, deleted){
+    	    var response = ssj.dropbox.metaData(id, root, null, null, limit, hash, list, deleted);
+    	    console.dir(response); // optional for testing to review response
+    	    return response;
+    	}
 
 ## See Also
 
