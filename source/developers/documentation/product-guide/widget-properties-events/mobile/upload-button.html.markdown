@@ -98,7 +98,7 @@ File Types
 <td width="15">
 </td>
 <td width="779">
-This is where you can restrict uploads to specific file types.  If empty any file type can be uploaded. For multiple file types separate with | eg: jpg|png
+This is where you can restrict uploads to specific file types.  If empty any file type can be uploaded.  For multiple file types separate with | eg: jpg|png
 
 </td>
 </tr>
@@ -592,4 +592,6 @@ On Resize Stop
 
  - [Mouse Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/mouse-events)
  - [General Events](/developers/documentation/product-guide/widget-properties-events/events/event-reference-list/general-events)
+ - [Upload Button](/developers/documentation/product-guide/widget-properties-events/common/upload-button2) Common
+ - [uploadFile()](/developers/documentation/scripting-apis/client-api/app-functions/uploadfile)
 
