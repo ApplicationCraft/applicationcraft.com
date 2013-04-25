@@ -89,7 +89,7 @@ full_width: true
     This function will return local path for the specified url.
  - [jGrowl()](/developers/documentation/scripting-apis/client-api/app-functions/jgrowl)
     A jQuery plugin for unobtrusive notifications and messages.
-- [uploadFile()](/developers/documentation/scripting-apis/client-api/app-functions/uploadfile)
+ - [uploadFile()](/developers/documentation/scripting-apis/client-api/app-functions/uploadfile)
     Returns a url for a file as an AC resource.
 
 ## Related Videos
