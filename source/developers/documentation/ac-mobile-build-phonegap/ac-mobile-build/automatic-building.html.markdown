@@ -6,7 +6,7 @@ class_name: developers
 full_width: true
 ---
 
-##Prepapring your Certificates
+##Preparing your Certificates
 If you have not yet created any Certificates and, in the case of ioS, a Provisioning Profile, you will need to do so first. Be sure to read the [Certificates](/developers/documentation/ac-mobile-build-phonegap/certificates/) section. This explains the ways you can generate your certificates either manually, or via our platform.
 
 ##Building for Android
