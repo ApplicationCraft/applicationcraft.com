@@ -226,6 +226,8 @@ Calls the Data Agent with the Connection Properties entered and informs you if s
 </tr>
 </table>
 
+AC cloud accounts are hosted at Amazon in the US East data center and you may need to configure your database server to allow connections from your AC account. Details of the IP ranges used by Amazon are available [here](https://forums.aws.amazon.com/ann.jspa?annID=1528) and by pinging your AC domain to find the current IP, refer to this table to identify the IP range to allow. Currently (May 2013) this is 54.234.0.0/15 but could change in the future.
+
 ##Related Video
 
 [![Videos\_P](/img/docs/videos_p.png)](http://www.youtube.com/v/tQpe5tx6qcc?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&) Setting up a Connection [2:20]
