@@ -32,12 +32,12 @@ Nothing.
 
 ## Description
 
-This specified the timeout period for Web Service calls made from SSJ.
+This specifies the timeout period for Web Service calls made from SSJ.
 
 ## Example
 
     // Set timeout to 30 seconds
-    ssj.networkTimeout(20000);
+    ssj.networkTimeout(30000);
      
      
    
