@@ -9,15 +9,30 @@ full_width: true
 
 <header>
   <div class="container">
+
+    <div>
+      <h1>Services</h1>
+      <h2>We build Desktop and Mobile applications for the Enterprise and for Startups. We built the Application Craft and Codio platforms, so we have a proven track record of building software of any complexity.</h2>
+    </div>
+
     <div class="clearfix">
-      <div>
-        <img width="80" src="/img/products/mb.gif">
+      <div class="front-end">
+        <div><%= image_tag 'services/front-end.png', :width => 240 %></div>
+        <h3>Front-End</h3>
+        <p>We speak HTML5+CSS+JS fluently along with many frameworks and libraries.</p>
       </div>
-      <div>
-        <h1>Services</h1>
-        <h2>Let the experts help you with your development</h2>
+      <div class="cross-platform">
+        <div><%= image_tag 'services/cross-platform.png', :width => 230 %></div>
+        <h3>X Platform</h3>
+        <p>Cross-platform, responsive applications and sites. Desktop and Mobile.</p>
+      </div>
+      <div class="back-end">
+        <div><%= image_tag 'services/back-end.png', :width => 220 %></div>
+        <h3>Back-End</h3>
+        <p>Node.js, Java and .Net with SQL and NoSQL databases are our daily bread.</p>
       </div>
     </div>
+
   </div>
 </header>
 
@@ -25,7 +40,7 @@ full_width: true
   <div class="clearfix">
     <aside>
       <% if current_page.data.active_submenu %>
-        <ul id="submenu" data-spy="affix" data-offset-top="200">
+        <ul id="submenu" data-spy="affix" data-offset-top="750">
           <% data.send(current_page.data.active_submenu).submenu.each do |f| %>
             <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
               <a href="<%= f.url %>"><%= f.text %></a>
