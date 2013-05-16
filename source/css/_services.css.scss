@@ -1,5 +1,167 @@
 body.services {
 
+  header {
+    background: #666 image-url('bgcloth.png') repeat;
+    font-size: 0.8em;
+    padding: 20px 0 40px;
+    margin: 0 0 40px 0;
+
+    h1 {
+      color: $cream;
+      font: 30px gotham_bookregular;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0 10px;
+      text-align: center;
+
+      @include apply-to(more-than, ipad-portrait) {
+        margin: 0 20px;
+        font-size: 52px;
+        text-align: left;
+      }
+
+      @include apply-to(more-than, ipad-landscape) {
+        margin: 0 0 0 100px;
+      }
+    }
+
+    h2 {
+      color: $cream;
+      margin: 0 10px;
+      text-transform: initial;
+      font: 18px Helvetica, Arial;
+      line-height: 25px;
+      margin-top: 10px;
+      text-align: center;
+
+      @include apply-to(more-than, ipad-portrait) {
+        margin: 0 20px;
+        text-align: left;
+      }
+
+      @include apply-to(more-than, ipad-landscape) {
+        margin: 0 0 0 100px;
+      }
+    }
+
+    .clearfix {
+      @include apply-to(more-than, ipad-portrait) {
+        margin-top: 55px;
+      }
+
+      > div {
+        float: left;
+        text-align: center;
+
+        @include apply-to(more-than, ipad-portrait) {
+          width: 170px;
+        }
+
+        @include apply-to(more-than, ipad-landscape) {
+          width: 240px;
+        }
+
+
+        &.front-end {
+          padding: 40px 30px 20px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            padding: 0 30px;
+          }
+
+          div {
+            height: 236px;
+
+            @include apply-to(more-than, iphone-portrait) {
+              height: 240px;
+            }
+
+            @include apply-to(more-than, ipad-portrait) {
+              height: 190px;
+            }
+
+            @include apply-to(more-than, ipad-landscape) {
+              height: 246px;
+            }
+          }
+        }
+
+        &.cross-platform {
+          padding: 20px 65px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            padding: 0 65px;
+          }
+
+          div {
+            height: 210px;
+
+            @include apply-to(more-than, iphone-portrait) {
+              height: 250px;
+            }
+
+            @include apply-to(more-than, ipad-portrait) {
+              height: 190px;
+            }
+
+            @include apply-to(more-than, ipad-landscape) {
+              height: 246px;
+            }
+          }
+        }
+
+        &.back-end {
+          padding: 20px 30px 0 30px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            padding: 0 30px;
+          }
+
+          div {
+            padding-top: 10px;
+            height: 236px;
+
+            @include apply-to(more-than, ipad-portrait) {
+              height: 180px;
+            }
+
+            @include apply-to(more-than, ipad-landscape) {
+              height: 236px;
+            }
+          }
+        }
+
+        div {
+          height: 210px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            height: 190px;
+          }
+
+          @include apply-to(more-than, ipad-landscape) {
+            height: 246px;
+          }
+        }
+
+        h3 {
+          font-size: 25px;
+          color: #fff;
+          margin: 0;
+        }
+
+        p {
+          font-size: 16px;
+          color: #ddd;
+          line-height: 22px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
   #services-showcase {
     > div {
       margin: 35px auto;
@@ -93,60 +255,6 @@ body.services {
 
     .active {
       background-image: image-url('products/nav-pointer-black.gif');
-    }
-  }
-
-  header {
-    background: #666 image-url('bgcloth.png') repeat;
-    font-size: 0.8em;
-    padding: 20px 0;
-    margin-bottom: 40px;
-
-    .container > .clearfix {
-      margin: 0 auto;
-      display: table;
-
-      img {
-        @include apply-to(less-than, iphone-portrait) {
-          display: none;
-        }
-      }
-
-      > div {
-        float: left;
-        margin-left: 20px;
-
-        @include apply-to(more-than, iphone-landscape) {
-          margin-left: 10px;
-        }
-
-        h1 {
-          color: $cream;
-          font: 30px gotham_bookregular;
-          text-transform: uppercase;
-          padding: 0;
-          margin: 0;
-
-          @include apply-to(more-than, ipad-portrait) {
-            font-size: 52px;
-          }
-        }
-
-        h2 {
-          color: $cream;
-          margin: 0;
-          font-size: 14px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            width: 370px;
-          }
-
-          @include apply-to(more-than, ipad-portrait) {
-            font-size: 18px;
-            width: inherit;
-          }
-        }
-      }
     }
   }
 
