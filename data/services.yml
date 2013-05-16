@@ -1,13 +1,10 @@
 submenu:
   -
-    text: App Development
+    text: Why Application Craft
     url: '#toc_0'
   -
-    text: Why Application Craft
-    url: '#toc_1'
-  -
-    text: The Process
-    url: '#toc_2'
+    text: What we do
+    url: '#toc_1'    
   -
     text: Contact Us
-    url: '#toc_3'
+    url: '#toc_2'
