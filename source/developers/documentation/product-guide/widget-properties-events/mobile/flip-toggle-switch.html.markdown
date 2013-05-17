@@ -537,18 +537,7 @@ Widget Style
 
 </td>
 </tr>
-<tr>
-<td width="148">
-On Click
 
-</td>
-<td width="15">
-</td>
-<td width="108">
-On Change
-
-</td>
-</tr>
 <tr>
 <td width="148">
 On Mouse Enter
@@ -557,7 +546,9 @@ On Mouse Enter
 <td width="15">
 </td>
 <td width="108">
+On Change
 </td>
+
 </tr>
 <tr>
 <td width="148">
