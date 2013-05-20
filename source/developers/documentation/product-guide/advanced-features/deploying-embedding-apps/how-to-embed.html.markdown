@@ -11,4 +11,4 @@ Embedding is really simple. You locate your App in the Console and then, on the 
 
     <script src="http://ac-dev.applicationcraft.com/embed/2d0ca47f-93sd-4ca9-b268-9c8a7fg22b0f.js" type="text/javascript"></script>
    
-
+If you wish to pass data into your embedded apps, you can adapt the embedding code to use the `waInitform()` function. See [here](/developers/documentation/product-guide/advanced-features/passing-parameters-into-apps/passing-in-data-with-embedded/) for more information.
