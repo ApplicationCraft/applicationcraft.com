@@ -177,7 +177,7 @@ The following list contains the common errors that can be generated form the bui
 <td width="20">
 </td>
 <td width="595">
-  This is the author of the app, in most cases will be you and is required. The author tag must have href  and  email attribute, example <pre>&lt;author href=\"http://site.com\" email=\"mail@mail.com\"&gt;Author name&lt;/author&gt;</pre>
+  This is the author of the app, in most cases will be you and is required. The author tag must have href  and  email attribute, example <pre>&lt;author href="http://site.com" email="mail@mail.com"&gt;Author name&lt;author&gt;</pre>
 </td>
 </tr>
 <tr>
