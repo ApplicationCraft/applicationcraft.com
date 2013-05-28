@@ -22,7 +22,7 @@ What is somewhat different is that SQLite is asynchronous. For novice javascript
     var database = null;
      
     function createNeededTables(db, callback){
-        db.executeSql("CREATE TABLE IF NOT EXISTS test (testID INTEGER PRIMARY KEY AUTOINCREMENT, fio TEXT NOT NULL, adress TEXT)", function(){
+        db.executeSql("CREATE TABLE IF NOT EXISTS test (testID INTEGER PRIMARY KEY AUTOINCREMENT, fio TEXT NOT NULL, address TEXT)", function(){
             console.log( "table test was created" );
             if (callback)
                 callback(false);
