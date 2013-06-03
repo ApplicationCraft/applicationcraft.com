@@ -1,19 +1,22 @@
 sales:
   -
-    date: "Tues May 14, 2013 11pm EST / 4pm BST"
-    url: https://attendee.gotowebinar.com/register/749117412943986432
-  -
-    date: "Tues May 21, 2013 11pm EST / 4pm BST"
-    url: https://attendee.gotowebinar.com/register/2449962945066967040
-  -
-    date: "Tues May 28, 2013 11pm EST / 4pm BST"
-    url: https://attendee.gotowebinar.com/register/2252394999206791168
-  -
-    date: "Tues June 4, 2013 11pm EST / 4pm BST"
-    url: https://attendee.gotowebinar.com/register/1510439055837088768
-  -
     date: "Tues June 11, 2013 11pm EST / 4pm BST"
-    url: https://attendee.gotowebinar.com/register/3473952418277618432  
+    url: https://attendee.gotowebinar.com/register/3473952418277618432 
+  -
+    date: "Tues June 18, 2013 11pm EST / 4pm BST"
+    url: https://attendee.gotowebinar.com/register/2888507556905005312
+  -
+    date: "Tues June 25, 2013 11pm EST / 4pm BST"
+    url: https://attendee.gotowebinar.com/register/8041439169221493760
+  -
+    date: "Tues July 02, 2013 11pm EST / 4pm BST"
+    url: https://attendee.gotowebinar.com/register/4406568077003365120
+  -
+    date: "Tues July 09, 2013 11pm EST / 4pm BST"
+    url: https://attendee.gotowebinar.com/register/8071242531404035840
+  -
+    date: "Tues July 16, 2013 11pm EST / 4pm BST"
+    url: https://attendee.gotowebinar.com/register/2690496507858965248
 
 clinics:
 
