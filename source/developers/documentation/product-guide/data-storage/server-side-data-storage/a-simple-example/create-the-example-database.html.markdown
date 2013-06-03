@@ -17,15 +17,16 @@ The Example Database is very simple indeed. It consists of a single table 'custo
 
 If you are feeling lazy, here is the SQL script to generate it in MySQL.
 
-**NOTE** : This was generated from Xeround and so it uses the ENGINE=Xeround option. You may need to modify this if you are importing this into you own MySQL instance. Likely values are ENGINE=MYISAM or ENGINE=INNODB or just leave it out.
+**NOTE** : This was generated from Amazon RDS and so it uses the ENGINE=InnoDB option. You may need to modify this if you are importing this into you own MySQL instance. Likely value is ENGINE=MYISAM or just leave it out.
 
     -- phpMyAdmin SQL Dump
-    -- version 3.4.3.2
+    -- version 3.5.1
     -- http://www.phpmyadmin.net
-    -- Host: instance11898.db.xeround.com:8092
-    -- Generation Time: Apr 22, 2012 at 03:23 PM
-    -- Server version: 5.1.42
-    -- PHP Version: 5.3.1
+    --
+    -- Host: acuserstorage.ctmlcax25d3n.us-east-1.rds.amazonaws.com
+    -- Generation Time: Jun 03, 2013 at 02:40 PM
+    -- Server version: 5.5.27-log
+    -- PHP Version: 5.3.5-1ubuntu7.2ppa1~lucid1
      
     SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
     SET time_zone = "+00:00";
@@ -48,7 +49,7 @@ If you are feeling lazy, here is the SQL script to generate it in MySQL.
       `country` varchar(30) COLLATE utf8_bin DEFAULT NULL,
       PRIMARY KEY (`id`),
       UNIQUE KEY `companyName` (`companyName`)
-    ) ENGINE=Xeround DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=28 ;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=28 ;
      
     -- Dumping data for table `customers`
      
