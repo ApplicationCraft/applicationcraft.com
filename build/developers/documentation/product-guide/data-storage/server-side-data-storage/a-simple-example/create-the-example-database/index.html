@@ -112,15 +112,16 @@
 
 <p>If you are feeling lazy, here is the SQL script to generate it in MySQL.</p>
 
-<p><strong>NOTE</strong> : This was generated from Xeround and so it uses the ENGINE=Xeround option. You may need to modify this if you are importing this into you own MySQL instance. Likely values are ENGINE=MYISAM or ENGINE=INNODB or just leave it out.</p>
+<p><strong>NOTE</strong> : This was generated from Amazon RDS and so it uses the ENGINE=InnoDB option. You may need to modify this if you are importing this into you own MySQL instance. Likely value is ENGINE=MYISAM or just leave it out.</p>
 
 <pre><code>-- phpMyAdmin SQL Dump
--- version 3.4.3.2
+-- version 3.5.1
 -- http://www.phpmyadmin.net
--- Host: instance11898.db.xeround.com:8092
--- Generation Time: Apr 22, 2012 at 03:23 PM
--- Server version: 5.1.42
--- PHP Version: 5.3.1
+--
+-- Host: acuserstorage.ctmlcax25d3n.us-east-1.rds.amazonaws.com
+-- Generation Time: Jun 03, 2013 at 02:40 PM
+-- Server version: 5.5.27-log
+-- PHP Version: 5.3.5-1ubuntu7.2ppa1~lucid1
 
 SET SQL_MODE=&quot;NO_AUTO_VALUE_ON_ZERO&quot;;
 SET time_zone = &quot;+00:00&quot;;
@@ -143,7 +144,7 @@ CREATE TABLE IF NOT EXISTS `customers` (
   `country` varchar(30) COLLATE utf8_bin DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `companyName` (`companyName`)
-) ENGINE=Xeround DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=28 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=28 ;
 
 -- Dumping data for table `customers`
 
@@ -238,51 +239,61 @@ INSERT INTO `customers` (`id`, `companyName`, `country`) VALUES
             
               
                 <p>
-                  Tues May 14, 2013 11pm EST / 4pm BST
-                  <span>
-                    <a href="/webinars">more info</a>
-                    
-                      | <a href="https://attendee.gotowebinar.com/register/749117412943986432" target="_blank">register</a>
-                    
-                  </span>
-                </p>
-              
-                <p>
-                  Tues May 21, 2013 11pm EST / 4pm BST
-                  <span>
-                    <a href="/webinars">more info</a>
-                    
-                      | <a href="https://attendee.gotowebinar.com/register/2449962945066967040" target="_blank">register</a>
-                    
-                  </span>
-                </p>
-              
-                <p>
-                  Tues May 28, 2013 11pm EST / 4pm BST
-                  <span>
-                    <a href="/webinars">more info</a>
-                    
-                      | <a href="https://attendee.gotowebinar.com/register/2252394999206791168" target="_blank">register</a>
-                    
-                  </span>
-                </p>
-              
-                <p>
-                  Tues June 4, 2013 11pm EST / 4pm BST
-                  <span>
-                    <a href="/webinars">more info</a>
-                    
-                      | <a href="https://attendee.gotowebinar.com/register/1510439055837088768" target="_blank">register</a>
-                    
-                  </span>
-                </p>
-              
-                <p>
                   Tues June 11, 2013 11pm EST / 4pm BST
                   <span>
                     <a href="/webinars">more info</a>
                     
                       | <a href="https://attendee.gotowebinar.com/register/3473952418277618432" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues June 18, 2013 11pm EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/2888507556905005312" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues June 25, 2013 11pm EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/8041439169221493760" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues July 02, 2013 11pm EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/4406568077003365120" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues July 09, 2013 11pm EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/8071242531404035840" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues July 16, 2013 11pm EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/2690496507858965248" target="_blank">register</a>
                     
                   </span>
                 </p>
