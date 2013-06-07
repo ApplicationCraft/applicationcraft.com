@@ -74,31 +74,31 @@ All selection data from the app.getValue(ListBoxName) is returned in the followi
 
 For single response Listboxes, Dropdowns and Context Menu, the following are ways of getting data back for the selected row  
 
-    app.getValue( WidgetName).index // returns the 0-based row number of the selected row
+    app.getValue('WidgetName').index // returns the 0-based row number of the selected row
      
-    app.getValue( WidgetName).value // returns the 'select value'
+    app.getValue('WidgetName').value // returns the 'select value'
      
-    app.getValue( WidgetName).label  // returns the displayed text
+    app.getValue('WidgetName').label  // returns the displayed text
     
 And for multi-response lists (including Mobile CheckboxGroup)  
 
-    app.getValue(WidgetName).length 
+    app.getValue('WidgetName').length 
     // get the number of selected items in the list (returns an object array)
-    app.getValue(WidgetName) // returns the full object array of selected row items
-    app.getValue(WidgetName)[n].index, app.setValue( WidgetName)[n].value, app.setValue( WidgetName)[n].label  
+    app.getValue('WidgetName') // returns the full object array of selected row items
+    app.getValue('WidgetName')[n].index, app.setValue( WidgetName)[n].value, app.setValue( WidgetName)[n].label  
     //(where n is the index into the array of selected items) gets the index/select value/row text of the nth selected row item.
     
 **Writing Selections**
 
 For single response Listboxes and Dropdowns, the following are ways of selecting a row 
 
-    app.setValue(WidgetName, {index:1}) // sets the 2nd row item, 'US'
-    app.setValue(WidgetName, {value:'US'}) // also sets 'US'
-    app.setValue(WidgetName, {label:'United States of America'}) // and this also sets 'US'
+    app.setValue('WidgetName', {index:1}) // sets the 2nd row item, 'US'
+    app.setValue('WidgetName', {value:'US'}) // also sets 'US'
+    app.setValue('WidgetName', {label:'United States of America'}) // and this also sets 'US'
     
 For multi-response Listboxes  
     
-    app.setValue(WidgetName, [{index:0},{label:'Russia'}]) // sets United Kingdom (Index 0) and Russia (by label)
+    app.setValue('WidgetName', [{index:0},{label:'Russia'}]) // sets United Kingdom (Index 0) and Russia (by label)
     
 For Mobiscroll List widget,   
     
