@@ -74,7 +74,7 @@ Note that the function 'genericCallback' shown in each of the examples is a user
 		}	
 
 ##Sending the notifications from Xtify
-The Xtify Console allows you to send notifications to users with certain tags. Please refer to the previous [location targeting section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/your-app/xtify-geo-notifications/) to see how to define a target.
+The Xtify Console allows you to send notifications to users with certain tags. Please refer to the previous [location targeting section](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apis/xtify-location-api/) to see how to define a target.
 
 ##Sending the notifications from an App
 We have also prepared an API that lets you push notifications from an App. Click [here](/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/apis/xtify-notification-api) for details.
