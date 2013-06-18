@@ -83,7 +83,7 @@ We have also prepared an API that lets you push notifications from an App. Click
 ##Advanced
 For those who are interested, you can also look inside and see how the actual Xtify API calls are handled.
 
-You can find documentation about the [Xtify Tag API here](http://developer.xtify.com/display/APIs/Tag+API+2.0+%28Latest%29).
+You can find documentation about the [Xtify Tag API here](http://developer.xtify.com/display/APIs/Tag+API+2.0).
 
 
 
