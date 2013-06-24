@@ -6,6 +6,9 @@ class_name: developers
 full_width: true
 ---
 
+The Upload button can be used to upload media to your apps. Please note that due to security limitations it cannot be used in apps deployed to your own servers.
+
+
 <table>
 <tr>
 <td width="148">
