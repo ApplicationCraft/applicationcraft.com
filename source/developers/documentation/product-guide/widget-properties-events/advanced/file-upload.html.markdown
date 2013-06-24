@@ -7,7 +7,7 @@ full_width: true
 ---
 
 
-File Upload enables you to upload files
+File Upload enables you to upload files to your apps. Please note that due to security limitations it cannot be used in apps deployed to your own servers.
 
 <table>
 <tr>
