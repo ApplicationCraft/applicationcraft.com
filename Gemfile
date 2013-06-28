@@ -9,5 +9,5 @@ gem "builder"
 gem 'therubyracer'  # faster ExecJS
 gem 'oj'            # faster JSON
 gem 'redcarpet'     # faster Markdown
-
+gem 'nokogiri'
 gem 'capistrano'
