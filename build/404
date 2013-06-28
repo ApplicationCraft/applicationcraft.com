@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+    <title> - App development for Mobile and Desktop with Application Craft</title>
+
+    
+      <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
+    
+
+    
+      <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
+    
+
+    <link href="/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/boilerplate-d2c8147f.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
+  </head>
+  <body class="standard" data-spy="scroll" data-target="#submenu">
+    <a id="top"></a>
+
+    <nav class="main">
+      <div class="container">
+
+        <div id="blog-ribbon" class="nofade">
+          <a href="/blog" title="Check out our blog">Blog</a>
+        </div>
+
+        <ul class="clearfix">
+          <li><a href="/"><img width="309" height="23" src="/img/logo-c879c885.png" /></a></li>
+          <li class="clearfix">
+            <ul class="clearfix">
+              <li class=""><a href="/product">Product
+              </a></li>
+              <li class=""><a href="/services" class="active">Services</a></li>
+              <li class=""><a href="/developers">Developers</a></li>
+              <li><a href="#sign-in" class="fancybox fancybox.inline">Sign In</a></li>
+              <li class="nofade ">
+                <a href="/get-started">Sign Up Today</a>
+                <a id="cws-sign-up" href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc" target="_blank">or via the Chrome Web Store</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    
+
+    
+
+      <div id="content-body" class="container">
+        <h1 class="">
+          <button type="button" class="btn btn-navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </h1>
+
+        <div class="clearfix">
+          <aside>
+            
+
+            
+
+            
+            &nbsp;
+          </aside>
+
+          <article>
+            <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Page Not Found :(</title>
+        <style>
+            ::-moz-selection {
+                background: #b3d4fc;
+                text-shadow: none;
+            }
+
+            ::selection {
+                background: #b3d4fc;
+                text-shadow: none;
+            }
+
+            html {
+                padding: 30px 10px;
+                font-size: 20px;
+                line-height: 1.4;
+                color: #737373;
+                background: #f0f0f0;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+            }
+
+            html,
+            input {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+
+            body {
+                max-width: 500px;
+                _width: 500px;
+                padding: 30px 20px 50px;
+                border: 1px solid #b3b3b3;
+                border-radius: 4px;
+                margin: 0 auto;
+                box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+                background: #fcfcfc;
+            }
+
+            h1 {
+                margin: 0 10px;
+                font-size: 50px;
+                text-align: center;
+            }
+
+            h1 span {
+                color: #bbb;
+            }
+
+            h3 {
+                margin: 1.5em 0 0.5em;
+            }
+
+            p {
+                margin: 1em 0;
+            }
+
+            ul {
+                padding: 0 0 0 40px;
+                margin: 1em 0;
+            }
+
+            .container {
+                max-width: 380px;
+                _width: 380px;
+                margin: 0 auto;
+            }
+
+            /* google search */
+
+            #goog-fixurl ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            #goog-fixurl form {
+                margin: 0;
+            }
+
+            #goog-wm-qt,
+            #goog-wm-sb {
+                border: 1px solid #bbb;
+                font-size: 16px;
+                line-height: normal;
+                vertical-align: top;
+                color: #444;
+                border-radius: 2px;
+            }
+
+            #goog-wm-qt {
+                width: 220px;
+                height: 20px;
+                padding: 5px;
+                margin: 5px 10px 0 0;
+                box-shadow: inset 0 1px 1px #ccc;
+            }
+
+            #goog-wm-sb {
+                display: inline-block;
+                height: 32px;
+                padding: 0 10px;
+                margin: 5px 0 0;
+                white-space: nowrap;
+                cursor: pointer;
+                background-color: #f5f5f5;
+                background-image: -webkit-linear-gradient(rgba(255,255,255,0), #f1f1f1);
+                background-image: -moz-linear-gradient(rgba(255,255,255,0), #f1f1f1);
+                background-image: -ms-linear-gradient(rgba(255,255,255,0), #f1f1f1);
+                background-image: -o-linear-gradient(rgba(255,255,255,0), #f1f1f1);
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                *overflow: visible;
+                *display: inline;
+                *zoom: 1;
+            }
+
+            #goog-wm-sb:hover,
+            #goog-wm-sb:focus {
+                border-color: #aaa;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+                background-color: #f8f8f8;
+            }
+
+            #goog-wm-qt:hover,
+            #goog-wm-qt:focus {
+                border-color: #105cb6;
+                outline: 0;
+                color: #222;
+            }
+
+            input::-moz-focus-inner {
+                padding: 0;
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Not found <span>:(</span></h1>
+            <p>Sorry, but the page you were trying to view does not exist.</p>
+            <p>It looks like this was the result of either:</p>
+            <ul>
+                <li>a mistyped address</li>
+                <li>an out-of-date link</li>
+            </ul>
+            <script>
+                var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
+            </script>
+            <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+        </div>
+    </body>
+</html>
+
+          </article>
+        </div>
+      </div>
+
+    
+
+    <section id="price-banner" class="clearfix">
+  <div class="container">
+    <div>only <span>$14</span> per month</div>
+    <div class="nofade"><a href="/get-started">
+      <p>Try it for Free!</p>
+      <p><span>&#x2605;</span> <span class="trial-period">45</span> day free trial <span>&#x2605;</span></p>
+    </a></div>
+
+    <div class="clearfix">
+
+      <div class="video-thumb">
+        <span>
+          <a class="fancybox fancybox.iframe" href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;">
+            <img src="//i1.ytimg.com/vi/XcGx6F7Wql0/default.jpg">
+          </a>
+        </span>
+        <span>1:28</span>
+      </div>
+
+      <a href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe">
+        Watch the intro video...
+      </a>
+
+    </div>
+  </div>
+</section>
+    <footer>
+  <section>
+    <div class="container clearfix">
+      <ul>
+        <li>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/product">Product</a></li>
+            <li><a href="/product/phonegap-mobile-build">Mobile Build</a></li>
+            <li><a href="/product/enterprise">Enterprise</a></li>
+            <li><a href="/product/testimonials">Testimonials</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li><a href="/developers">Developers</a></li>
+            <li><a href="/developers">Support</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/legal/faqs">FAQ's</a></li>
+            <li><a href="/company/contact-us">Contact us</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/webinars">Webinars</a></li>
+            <li><a href="/company">About us</a></li>
+            <li><a href="/legal">Legal</a></li>
+            <li><a href="/referral-program">Referral Program</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div id="webinars">
+        <div id="webinars-inner">
+          <h3>Upcoming Webinar Sessions:</h3>
+          <div class="clearfix">
+            
+              
+                <p>
+                  Tues June 11, 2013 11am EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/3473952418277618432" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues June 18, 2013 11am EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/2888507556905005312" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues June 25, 2013 11am EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/8041439169221493760" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues July 02, 2013 11am EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/4406568077003365120" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues July 09, 2013 11am EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/8071242531404035840" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+                <p>
+                  Tues July 16, 2013 11am EST / 4pm BST
+                  <span>
+                    <a href="/webinars">more info</a>
+                    
+                      | <a href="https://attendee.gotowebinar.com/register/2690496507858965248" target="_blank">register</a>
+                    
+                  </span>
+                </p>
+              
+            
+
+            
+          </div>
+          <p>Hope to see you there!</p>
+        </div>
+      </div>
+
+      <ul id="social-icons">
+        <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
+        <li><a href="https://www.facebook.com/ApplicationCraft"><span></span>Facebook</a></li>
+        <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
+        <li><a href="http://www.youtube.com/user/appcrafty"><span></span>Youtube</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="container clearfix">
+      <div>
+        <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
+      </div>
+
+      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Read our <a href="/legal/privacy">Privacy policy</a>.
+    </div>
+  </section>
+</footer>
+
+
+<div id="sign-in" class="modal">
+  <h2>Sign In</h2>
+  <p>To sign in to your account, you need to go to your custom sub-domain, where you will be prompted to enter your username and password. Choose from the list below, or enter your subdomain in the field provided.</p>
+  <hr />
+  <div class="waLoginList">
+    <div class="waLoginListDiv">
+      <span style="position: relative;">&nbsp;</span>
+    </div>
+  </div>
+</div>
+
+<div id="old-browser">
+  <div id="old-browser-inner">
+    <img width="309" height="23" src="/img/logo-c879c885.png" />
+    <h1>Your browser is very old and will not work correctly with ApplicationCraft.</h1>
+    <p>Please upgrade Internet Explorer or use a modern browser, and <a href="http://browsehappy.com/" target="_blank">Browse Happy!</a></p>
+  </div>
+</div>
+
+<div id="webinar-dialog">
+
+  <div id="webinar-dialog-inner">
+    <h2>Live Webinars</h2>
+    <p>Application Craft runs regularly scheduled webinars, including:</p>
+    <ul>
+      <li>Weekly introduction sessions for new AC users</li>
+      <li>Selection of Developer Clinics from beginner to advanced topics.</li>
+    </ul>
+    <p>Both are designed to help you every step of the way!</p>
+    <p>
+      <a href="/webinars" class="btn-primary"><nobr>Tell me more</nobr></a>
+      <a href="#" class="btn"><nobr>No thanks</nobr></a>
+    </p>
+  </div>
+
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<!-- <script src="/js/vendor/protofluid.min.js"></script> -->
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="/js/main-6879247d.js" type="text/javascript"></script>
+  <script>
+    var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  
+    <!-- Olark Live Chat -->
+    <script data-cfasync="false" type='text/javascript'>window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+    f[z]=function(){
+    (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+    },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+    f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+    0:+new Date};a.P=function(u){
+    a.p[u]=new Date-a.p[0]};function s(){
+    a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+    hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+    return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+    b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+    b.contentWindow[g].open()}catch(w){
+    c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+    var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+    b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+    loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+    olark.identify('7867-328-10-1175');</script>
+  
+
+
+  </body>
+</html>
