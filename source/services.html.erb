@@ -9,36 +9,18 @@ full_width: true
 
 <header>
   <div class="container">
+    <div class="get-in-touch nofade noexpand">
+      <a href="http://crafted.io/" class="nowebinar"><%= image_tag 'crafted-logo.png', :class => 'logo' %></a></li>
 
-    <div>
-      <h1>Services</h1>
-      <h2>We built the Application Craft and Codio platforms, demonstrating a deep experience in front and back end technologies. Our large team of world-class developers can also build your Startup, Departmental or Enterprise solution, so please get in touch!</h2>
-    </div>
+      <h2>Cutting edge technology solutions, tailored to your business.</h2>
 
-    <div class="clearfix">
-      <div class="front-end">
-        <div><%= image_tag 'services/front-end.png', :width => 240 %></div>
-        <h3>Front-End</h3>
-        <p>We speak HTML5+CSS+JS fluently as well as many front-end frameworks and libraries</p>
-      </div>
-      <div class="cross-platform">
-        <div><%= image_tag 'services/cross-platform.png', :width => 230 %></div>
-        <h3>X Platform</h3>
-        <p>We build cross-platform, responsive applications and sites for desktop and mobile</p>
-      </div>
-      <div class="back-end">
-        <div><%= image_tag 'services/back-end.png', :width => 220 %></div>
-        <h3>Back-End</h3>
-        <p>Node.js, Java, Ruby and .Net with SQL and NoSQL databases</p>
-      </div>
-    </div>
-
-    <div class="get-in-touch nofade">
-      <p>
-        Contact us at our sister site <a href="http://crafted.io/">crafted.io</a> to discuss how an application development project could improve your business.
-      </p>
-      <a href="http://crafted.io/" class="button">GET IN TOUCH</a>
+      <p>Crafted.io is Application Craft's Services organisation, building cross-platform, responsive applications and sites for desktop and mobile.</p>
       <div class="clearfix"></div>
+      <a href="http://crafted.io/" class="button nowebinar">GO TO CRAFTED</a>
+      <p class="centered">This page with automatically redirect to Crafted in 5 seconds.</p>
     </div>
   </div>
+  <% content_for :foot do %>
+    <%= javascript_include_tag 'services' %>
+  <% end %>
 </header>
