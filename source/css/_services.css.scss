@@ -1,261 +1,99 @@
 body.services {
 
+  #price-banner {
+    border-top: 0;
+  }
+
+  .get-in-touch {
+    margin: 0 auto 200px;
+    max-width: 800px;
+    color: #FFF;
+
+    .logo {
+      margin: 75px auto 85px;
+      display: block;
+      width: 600px;
+    }
+
+    h2 {
+      font-size: 25px;
+      text-align: left;
+      margin-left: 0;
+      margin-bottom: 30px;
+      font-weight: bold;
+      text-transform: none;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 0;
+      padding: 5px 0;
+      font-weight: bold;
+      line-height: 1.4;
+
+      &.centered {
+        text-align: center;
+      }
+    }
+
+    .button {
+      float: none;
+      margin: 90px auto 15px;
+      display: block;
+      padding: 7px 15px;
+      width: 370px;
+      border: 0;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 6px;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 25px;
+      background-color: #D44E3E;
+
+      &:hover {
+        background-color: saturate(#D44E3E, 15%);
+        transition: background-color 200ms ease;
+        -webkit-transition: background-color 200ms ease;
+        -moz-transition: background-color 200ms ease;
+      }
+    }
+
+
+    .clearfix {
+      margin: 0;
+    }
+
+    @include apply-to(less-than, ipad-landscape) {
+      margin: 30px;
+
+      h2, p {
+        text-align: center;
+      }
+    }
+
+    @include apply-to(less-than, iphone-landscape) {
+      p {
+        display: none;
+      }
+
+      .button {
+        width: 80%;
+        margin: auto;
+        font-size: 18px;
+      }
+    }
+  }
+
   header {
     background: #666 image-url('bgcloth.png') repeat;
     font-size: 0.8em;
     padding: 20px 0 40px;
-    margin: 0 0 40px 0;
 
-    h1 {
-      color: $cream;
-      font: 30px gotham_bookregular;
-      text-transform: uppercase;
-      padding: 0;
-      margin: 0 10px;
-      text-align: center;
-
-      @include apply-to(more-than, ipad-portrait) {
-        margin: 0 20px;
-        font-size: 52px;
-        text-align: left;
-      }
-
-      @include apply-to(more-than, ipad-landscape) {
-        margin: 0 0 0 100px;
-      }
-    }
-
-    h2 {
-      color: $cream;
-      margin: 0 10px;
-      text-transform: initial;
-      font: 18px Helvetica, Arial;
-      line-height: 25px;
-      margin-top: 10px;
-      text-align: center;
-
-      @include apply-to(more-than, ipad-portrait) {
-        margin: 0 20px;
-        text-align: left;
-      }
-
-      @include apply-to(more-than, ipad-landscape) {
-        margin: 0 0 0 100px;
-      }
-    }
-
-    .clearfix {
-      @include apply-to(more-than, ipad-portrait) {
-        margin-top: 55px;
-      }
-
-      > div {
-        float: left;
-        text-align: center;
-
-        @include apply-to(more-than, ipad-portrait) {
-          width: 170px;
-        }
-
-        @include apply-to(more-than, ipad-landscape) {
-          width: 240px;
-        }
-
-
-        &.front-end {
-          padding: 40px 30px 20px;
-
-          @include apply-to(more-than, ipad-portrait) {
-            padding: 0 30px;
-          }
-
-          div {
-            height: 236px;
-
-            @include apply-to(more-than, iphone-portrait) {
-              height: 240px;
-            }
-
-            @include apply-to(more-than, ipad-portrait) {
-              height: 190px;
-            }
-
-            @include apply-to(more-than, ipad-landscape) {
-              height: 246px;
-            }
-          }
-        }
-
-        &.cross-platform {
-          padding: 20px 65px;
-
-          @include apply-to(more-than, ipad-portrait) {
-            padding: 0 65px;
-          }
-
-          div {
-            height: 210px;
-
-            @include apply-to(more-than, iphone-portrait) {
-              height: 250px;
-            }
-
-            @include apply-to(more-than, ipad-portrait) {
-              height: 190px;
-            }
-
-            @include apply-to(more-than, ipad-landscape) {
-              height: 246px;
-            }
-          }
-        }
-
-        &.back-end {
-          padding: 20px 30px 0 30px;
-
-          @include apply-to(more-than, ipad-portrait) {
-            padding: 0 30px;
-          }
-
-          div {
-            padding-top: 10px;
-            height: 236px;
-
-            @include apply-to(more-than, ipad-portrait) {
-              height: 180px;
-            }
-
-            @include apply-to(more-than, ipad-landscape) {
-              height: 236px;
-            }
-          }
-        }
-
-        div {
-          height: 210px;
-
-          @include apply-to(more-than, ipad-portrait) {
-            height: 190px;
-          }
-
-          @include apply-to(more-than, ipad-landscape) {
-            height: 246px;
-          }
-        }
-
-        h3 {
-          font-size: 25px;
-          color: #fff;
-          margin: 0;
-        }
-
-        p {
-          font-size: 16px;
-          color: #ddd;
-          line-height: 22px;
-
-          @include apply-to(more-than, ipad-portrait) {
-            font-size: 14px;
-          }
-        }
-      }
-    }
-  }
-
-  #services-showcase {
-    > div {
-      margin: 35px auto;
-
-      @include apply-to(more-than, iphone-landscape) {
-        width: 78%;
-      }
-
-      @include apply-to(more-than, ipad-portrait) {
-        float: left;
-        width: 33%;
-      }
-
-      ul {
-        padding: 0;
-
-        li {
-          list-style: none;
-          text-align: center;
-
-          @include apply-to(more-than, ipad-portrait) {
-            width: 180px;
-          }
-
-          &:last-child {
-            margin-top: 6px;
-          }
-        }
-      }
-
-      .mb-thumb {
-        display: block;
-        height: 90px;
-        border: 5px solid #fff;
-        border-radius: 50%;
-        background: #FFF image-url('logos/anon.jpg') no-repeat center center;
-        background-size: 100%;
-        box-shadow: inset 1px 1px 4px rgba(0,0,0,0.5), 0 2px 3px rgba(0,0,0,0.6);
-
-        @include apply-to(more-than, ipad-portrait) {
-          width: 160px;
-        }
-      }
-
-      &#services-showcase-hcri .mb-thumb {
-        background-image: image-url('logos/hcri.png');
-        background-position: center center;
-        background-size: 80%;
-
-        @include apply-to(more-than, iphone-landscape) {
-          background-size: 68%;
-        }
-
-        @include apply-to(more-than, ipad-portrait) {
-          background-size: 90%;
-        }
-      }
-      &#services-showcase-coke .mb-thumb {
-        background-image: image-url('logos/coke.png');
-        background-position: 20px 10px;
-        background-size: 248%;
-
-        @include apply-to(more-than, iphone-landscape) {
-          background-position: 10px 16px;
-          background-size: 171%;
-        }
-
-        @include apply-to(more-than, ipad-portrait) {
-          background-position: left 20px;
-          background-size: 287%;
-        }
-      }
-      &#services-showcase-ndtech .mb-thumb {
-        background-image: image-url('logos/ndtech.png');
-        background-position: center center;
-        background-size: 100%;
-
-        @include apply-to(more-than, iphone-landscape) {
-          background-size: 81%;
-        }
-
-        @include apply-to(more-than, ipad-portrait) {
-          background-size: 100%;
-        }
-      }
-    }
-  }
-
-  nav.main {
-    @include box-shadow(0px 0px 6px #333);
-
-    .active {
-      background-image: image-url('products/nav-pointer-black.gif');
-    }
   }
 
 }
