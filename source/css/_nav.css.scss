@@ -224,6 +224,11 @@ body.home nav.main {
   }
 }
 
+// Navigation pointer (services)
+body.services nav.main .active {
+  background-image: image-url('products/nav-pointer-black.gif');
+}
+
 
 // Sub menu
 // -------------------------------------------------------------------------------------------------
