@@ -1049,7 +1049,7 @@ Called when barcode was not successfully read or if scan was canceled by user.
 </tr>
 <tr>
 <td width="178">
-onInit
+OnInit
 
 </td>
 <td width="17">
