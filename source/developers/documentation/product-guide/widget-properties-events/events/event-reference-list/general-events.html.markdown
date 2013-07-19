@@ -1038,6 +1038,28 @@ Called when barcode was not successfully read or if scan was canceled by user.
 
 </td>
 </tr>
+<td width="178">
+  <strong>Mobiscroll List & Date</strong>
+
+</td>
+<td width="17">
+</td>
+<td width="747">
+</td>
+</tr>
+<tr>
+<td width="178">
+onInit
+
+</td>
+<td width="17">
+</td>
+<td width="747">
+Called when widget is initially drawn and after redraws.
+
+</td>
+</tr>
+
 </table>
 
 ## See Also
