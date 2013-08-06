@@ -62,6 +62,18 @@ The following code would call this stored procedure from an SSJ script
     cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
     return(cObj.exec("CALL sp_numCustomers()"));
      
+
+If you wish to pass variables to your stored procedures your procedure will be like:
+ 
+	CREATE PROCEDURE myProcedure()
+    BEGIN
+	  SELECT count(*) FROM mytable WHERE name = @name;
+	END
+
+and your exec() call will be like:
+
+	cObj = ssj.getConnection("abcdef12-efb9-431a-b137-87b4749f2473");
+	return(cObj.exec("exec myProcedure " + cObj.quote(p.name) + ")); 
   
 
 ## See Also
