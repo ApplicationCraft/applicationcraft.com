@@ -1,6 +1,6 @@
 ---
 old_url: getdata_versus_getvalue_and_se.htm
-title: "getData() versus getValue() and setDate() versus setValue()"
+title: "getData() versus getValue() and setData() versus setValue()"
 active_menu_item: developers
 class_name: developers
 full_width: true
