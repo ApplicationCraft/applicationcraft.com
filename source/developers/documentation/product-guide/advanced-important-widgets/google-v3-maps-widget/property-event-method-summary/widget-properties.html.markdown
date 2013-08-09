@@ -662,6 +662,18 @@ See <a href="/developers/documentation/product-guide/advanced-important-widgets/
 </th>
 </tr>
 <tr>
+<tr>
+<td width="176">
+AdSense Enable
+
+</td>
+<td width="16">
+</td>
+<td width="728">
+True(default)/False. If intending to use Map when offline, set to False to avoid connection errors.
+
+</td>
+</tr>
 <td width="176">
 Publisher ID
 
