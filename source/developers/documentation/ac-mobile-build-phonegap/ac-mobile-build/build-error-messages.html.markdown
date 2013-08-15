@@ -337,4 +337,4 @@ An Administrator in the Apple Developer Portal (developer.apple.com) can revoke 
 ## Other Build Errors
 
 If you get any other errors, then you should contact [support@applicationcraft.com](mailto:support@applicationcraft.com) . We will probably need to take a look behind the scenes and sort it out.
-Please note that Android builds, the App ID cannot start with digits and the build will fail. ie com.whatever.SOMETEXT344343344343 is allowed, but com.whatever.423443943943389 is not.
+Please note that for Android builds, the App ID cannot start with digits and the build will fail. ie com.whatever.SOMETEXT344343344343 is allowed, but com.whatever.423443943943389 is not.
