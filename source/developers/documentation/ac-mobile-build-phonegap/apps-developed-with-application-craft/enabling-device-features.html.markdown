@@ -48,7 +48,7 @@ Application ID
 
 </td>
 <td width="614">
-Define an ID for your application
+Define an ID for your application. Please note that Android builds cannot start with digits and the build will fail. ie com.whatever.SOMETEXT344343344343 is allowed, but com.whatever.423443943943389 is not.
 
 </td>
 </tr>
