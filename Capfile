@@ -3,11 +3,11 @@ require 'capistrano/ext/multistage'
 
 set :application, "site"
 set :scm, :git
-set :repository, "git@github.com:ApplicationCraft/applicationcraft.com.git"
+set :repository, "https://github.com/ApplicationCraft/applicationcraft.com.git"
 set :use_sudo, false
 set :user, "middleman"
 
-server '54.243.95.68', :app, :web, :db, :primary => true
+server 'ac.applicationcraft.com', :app, :web, :db, :primary => true
 
 # Setup stages
 set :stages, %w(production staging)
