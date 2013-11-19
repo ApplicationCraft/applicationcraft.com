@@ -23,48 +23,12 @@
         <li>
           <ul>
             <li><a href="/blog">Blog</a></li>
-            <li><a href="/webinars">Webinars</a></li>
             <li><a href="/company">About us</a></li>
             <li><a href="/legal">Legal</a></li>
             <li><a href="/referral-program">Referral Program</a></li>
           </ul>
         </li>
       </ul>
-
-      <div id="webinars">
-        <div id="webinars-inner">
-          <h3>Upcoming Webinar Sessions:</h3>
-          <div class="clearfix">
-            <% if data.webinars.sales.size > 0 %>
-              <% data.webinars.sales.each do |w| %>
-                <p>
-                  <%= w.date %>
-                  <span>
-                    <a href="/webinars">more info</a>
-                    <% if !w.full && !w.disabled %>
-                      | <a href="<%= w.url %>" target="_blank">register</a>
-                    <% end %>
-                  </span>
-                </p>
-              <% end %>
-            <% end %>
-
-            <% data.webinars.clinics.each do |w| %>
-              <p>
-                <span class="title"><%= w.title %></span>
-                <%= w.date %>
-                <span>
-                  <a href="/webinars">more info</a>
-                  <% if !w.full && !w.disabled %>
-                    | <a href="<%= w.url %>" target="_blank">register</a>
-                  <% end %>
-                </span>
-              </p>
-            <% end if (data.webinars.clinics || []).size > 0 %>
-          </div>
-          <p>Hope to see you there!</p>
-        </div>
-      </div>
 
       <ul id="social-icons">
         <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
