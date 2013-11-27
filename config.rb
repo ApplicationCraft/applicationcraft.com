@@ -1,3 +1,6 @@
+# Needed, otherwise build fails complaining about it being undefined.
+Middleman::CoreExtensions::DefaultHelpers::NEWLINE = "\n".html_safe.freeze
+
 module DocsRedirect
   class << self
     def registered(app)

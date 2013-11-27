@@ -1,24 +1,24 @@
 module TreeHelpers
 
   def tree_for(dir)
-    content_tag :ol do
+    output = ""
 
-      # Load the order of the directory listing from the dir.ordered file if it exists.
-      if File.exists?(order_file = "#{dir}/dir.ordered")
-        file = File.read(order_file)
-        file.split("\n").each do |item|
-          build_tree "#{dir}/#{item}"
-        end
-
-      # else we scan the directory contents
-      else
-        Dir.new(dir).each do |x|
-          next if x == '.' || x == '..' || x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')
-          build_tree "#{dir}/#{x}"
-        end
+    # Load the order of the directory listing from the dir.ordered file if it exists.
+    if File.exists?(order_file = "#{dir}/dir.ordered")
+      file = File.read(order_file)
+      file.split("\n").each do |item|
+        output << build_tree("#{dir}/#{item}")
       end
 
+    # else we scan the directory contents
+    else
+      Dir.new(dir).each do |x|
+        next if x == '.' || x == '..' || x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')
+        output << build_tree("#{dir}/#{x}")
+      end
     end
+
+    content_tag :ol, output
   end
 
 
@@ -29,30 +29,18 @@ module TreeHelpers
         build_directory file
       else
         if resource = resource_for("#{file}.html.markdown")
-          content_tag :li, :class => "nofade" do
-            content_tag :a, :href => resource.url, :class => current_page?(resource.url) ? 'active' : '' do
-              resource.data.title
-            end
-          end
+          link = link_to(resource.data.title, resource.url, :class => current_page?(resource.url) ? 'active' : '')
+          content_tag :li, link, :class => "nofade"
+        else
+          ""
         end
       end
     end
 
     def build_directory(file)
       resource = resource_for("#{file}/index.html.markdown")
-
-      content_tag :li do
-        content_tag :div, :class => "nofade" do
-          content_tag :span do
-            "expand"
-          end
-          content_tag :a, :href => resource.url do
-            resource.data.title
-          end
-        end
-
-        tree_for file
-      end
+      content = (content_tag :span, "expand") + link_to(resource.data.title, resource.url)
+      content_tag :li, content_tag(:div, content, :class => "nofade") + tree_for(file)
     end
 
     def resource_for(file)

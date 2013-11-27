@@ -1,65 +1,47 @@
 module VideoHelpers
 
   def training_video(id, options = {})
-    content_tag :section do
-      content_tag :h3 do
-        content_tag :a, :class => 'fancybox fancybox.iframe',
-                        :href => "http://www.youtube.com/v/#{id}?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" do
-          options[:title]
-        end
-      end
+    href = "http://www.youtube.com/v/#{id}?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&"
+    content = content_tag(:h3, content_tag(:a, options[:title], :class => 'fancybox fancybox.iframe', :href => href))
 
-      if options[:description]
-        content_tag :p do
-          options[:description]
-        end
-      end
-
-      content_tag :div, :class => "clearfix" do
-        content_tag :div, :class => "video-thumb" do
-          content_tag :span do
-            content_tag :a, :class => 'fancybox fancybox.iframe',
-                            :href => "http://www.youtube.com/v/#{id}?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" do
-              tag :img, :src => "//i1.ytimg.com/vi/#{id}/default.jpg"
-            end
-          end
-          content_tag :span do
-            options[:time]
-          end
-        end
-
-        if options[:references]
-          content_tag :div, :class => "video-references clearfix" do
-            content_tag :h4 do
-              "References..."
-            end
-            content_tag :ul do
-              options[:references].each do |ref|
-                content_tag :li do
-                  content_tag :a, :href => ref[:url] do
-                    ref[:title]
-                  end
-                end
-              end
-            end
-          end
-        end
-      end
+    if options[:description]
+      content << content_tag(:p, options[:description])
     end
+
+    img = tag(:img, :src => "//i1.ytimg.com/vi/#{id}/default.jpg")
+    href = "http://www.youtube.com/v/#{id}?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&"
+    _content = content_tag(:a, img, :class => 'fancybox fancybox.iframe', :href => href)
+    _content = content_tag(:span, _content)
+    _content << content_tag(:span, options[:time])
+
+    ___content = content_tag(:div, _content, :class => "video-thumb")
+
+    if options[:references]
+      _content = content_tag(:h4, "References...")
+
+      __content = ""
+      options[:references].each do |ref|
+        __content << content_tag(:li, content_tag(:a, ref[:title], :href => ref[:url]))
+      end
+
+      _content << content_tag(:h4, "References...") + content_tag(:ul, __content)
+
+      ___content << content_tag(:div, _content, :class => "video-references clearfix")
+    end
+
+    content << content_tag(:div, ___content, :class => "clearfix")
+
+    content_tag :section, content
   end
 
   def video(id, options = {})
-    content_tag :div, :class => "video-thumb" do
-      content_tag :span do
-        content_tag :a, :class => 'fancybox fancybox.iframe',
-                        :href => "http://www.youtube.com/v/#{id}?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" do
-          tag :img, :src => "//i1.ytimg.com/vi/#{id}/default.jpg"
-        end
-      end
-      content_tag :span do
-        options[:time]
-      end
-    end
+    href = "http://www.youtube.com/v/#{id}?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&"
+    _tag = tag(:img, :src => "//i1.ytimg.com/vi/#{id}/default.jpg")
+
+    content = content_tag(:span, content_tag(:a, _tag, :class => 'fancybox fancybox.iframe', :href => href))
+    content << content_tag(:span, options[:time])
+
+    content_tag :div, content, :class => "video-thumb"
   end
 
   # <section>

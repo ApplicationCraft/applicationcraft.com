@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.5"
+gem "middleman"
 gem "middleman-blog"
 gem "middleman-favicon-maker"
 gem "middleman-deploy"

@@ -9,7 +9,7 @@ full_width: true
 
 To customise widgets to accept your CSS style, add the Custom CSS Classes property in the Style section
 
-![CustomClass.](/img/docs/customclass..zoom74.png)
+![CustomClass.](/img/docs/customclass-zoom74.png)
 
 **Example CSS file**
 
@@ -29,17 +29,17 @@ To customise widgets to accept your CSS style, add the Custom CSS Classes proper
         margin:10px;
         padding: 6px 0px 0px 15px;
     }
-     
+
 This will then customise the label widget as:
 
 ![CustomLabel](/img/docs/customlabel.png)
-     
-     
+
+
     .txtSize .m-ui-input-text {
     font-size :  26px !important;
     font-family : Verdana;
     }
-  
+
 
 
 This will then set the font family to Verdana and the font size to 26px for a Mobile Text Widget
