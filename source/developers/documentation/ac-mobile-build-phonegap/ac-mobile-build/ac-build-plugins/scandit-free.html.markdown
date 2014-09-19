@@ -118,7 +118,7 @@ application_key
 <td width="20">
 </td>
 <td width="740">
-  Your Scandit App Key. Get your key here: <a href="http://www.scandit.com/product-api">http://www.scandit.com/product-api</a>
+  Your Scandit App Key. Sign up for an account at <a href="http://www.scandit.com/pricing">http://www.scandit.com/pricing</a> to get access to your app key for the barcode scanner SDK.
 
 </td>
 </tr>
