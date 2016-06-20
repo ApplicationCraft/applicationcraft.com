@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Drill Filter - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,15 +66,10 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/">Advanced Features</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/">Data Integration, Reporting & Dashboards</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/">Data Section Properties</a></li>
-          
           <li>Drill Filter</li>
         </ul>
       </div>
@@ -118,36 +106,32 @@
 <li><p>Other Widgets - most Widgets have Drill Filter property and how you use this is up to your and your imagination.</p></li>
 </ul>
 
-<h2 id="toc_0">Drill Filter Expression &amp;  {value} and {label}</h2>
+<h2 id="drill-filter-expression-amp-value-and-label">Drill Filter Expression &amp;  {value} and {label}</h2>
 
 <p>This will be the condition that should be added to the drill down filter. For example, if you have a Listbox containing country names and you want to drill down on the Country Name., you would use something like {customers.country}={label}. AC will replace {label} with the label of the selected item. You will see both {label} and {value} in the Fields list in the expression editor.</p>
 
 <p>{value} is used when your Widget has a Value property for the clicked on item. A Listbox, for example, can have both a Label (that is see in the list) and a Select Value (that is not seen but is associated with each list item). If, for example, your country list needs to set a filter using a Country Code, then you would set the Value property in the Fields property with something like {Customers.CountryCode} and the Label with {Customers.Country}. The Drill Filter would then be set to {customers.country}={value}.</p>
 
-<h2 id="toc_1">Drilling Down Using Grids</h2>
+<h2 id="drilling-down-using-grids">Drilling Down Using Grids</h2>
 
 <p>You can drill down using Grids very easily but you need to decide which column should be used to drill down on. This is done by selecting the {value} option from the Field list in the Expression Editor. Next to {value} is a number that indicates the column number. This is 0-based, so {value}[0] means the first column.</p>
 
-<h2 id="toc_2">Modifying Drill Down from Scripts</h2>
+<h2 id="modifying-drill-down-from-scripts">Modifying Drill Down from Scripts</h2>
 
 <p>You can write scripts that dynamically modify the drill-down filter. Please refer to the <a href="/developers/documentation/scripting-apis/client-api/data-view-functions/">Data Views chapter</a> of the <a href="/developers/documentation/scripting-apis/client-api/">Client API</a> section for more information.</p>
 
-<h2 id="toc_3">Related Videos</h2>
+<h2 id="related-videos">Related Videos</h2>
 
 <p><a href="http://www.youtube.com/v/t-MozAiRF0Q?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Automated &amp; Javascript Drill Down [4:59]</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -222,7 +206,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -265,16 +249,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Mobile & Client Side Data Storage - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,11 +66,8 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/">Data Storage</a></li>
-          
           <li>Mobile & Client Side Data Storage</li>
         </ul>
       </div>
@@ -104,13 +94,13 @@
 
 <p>The following client side storage methods are available to you, all of which are standard HTML5 features but not necessarily supported in all browsers. Read on to get the low down.</p>
 
-<h2 id="toc_0">Cookies</h2>
+<h2 id="cookies">Cookies</h2>
 
 <p>This is the most basic approach and is very limiting as you can only store 4KB of data in a cookie. It is also vulnerable to being deleted if a user simply clears cookies. It is recommended only for the simplest storage requirements and for Web Apps. Local Storage has the same level of simplicity but much more storage and more reliable in Native Apps.</p>
 
 <p>Application Craft provides the <a href="/developers/documentation/scripting-apis/client-api/others/cookie">app.cookie()</a> method for setting and getting cookies.</p>
 
-<h2 id="toc_1">Local Storage</h2>
+<h2 id="local-storage">Local Storage</h2>
 
 <p>This is the best way to store persistent data for applications that do not require relational database capabilities. It allows for very fast storage of data and is really easy to use. You can take your javascript objects and arrays and simply convert them into JSON using JSON.stringify() and you can just store it with a simple command. Restoring data from Local Storage is just as easy. You simply get your data with a single call and then use JSON.parse() to convert your JSON string back into a javascript object or array.</p>
 
@@ -118,7 +108,7 @@
 
 <p><strong>Warning</strong> : iOS 5.0.1 has a nasty bug that means that iOS can delete your entire Local Storage data as a part of its cleanup operations when it needs to make space. Local Storage is supposed to be persistent. This bug has now been fixed in iOS 6 but you should be aware of this risk. You might not notice, but if you cannot take the risk, heed the warning and look to  PhoneGap + SQLite solution.</p>
 
-<h2 id="toc_2">Web SQL for pure Web Apps</h2>
+<h2 id="web-sql-for-pure-web-apps">Web SQL for pure Web Apps</h2>
 
 <p>This is a bit of a problem child. Web SQL uses the very powerful SQL Lite engine to provide full relational database capabilities. For anyone familiar with MySQL, Postgres, SQL-Server etc, this is effectively what you are getting. The only drawback is that for some extraordinary reason Mozilla have decided in their ultimate wisdom that they do not want to support it and it has therefore been deprecated as a formal HTML5 standard.</p>
 
@@ -126,30 +116,26 @@
 
 <p>Web SQL is not nearly as easy to use as Local Storage, which should be used where possible. Web SQL databases for a given domain are restricted to typically 5MB (browser dependent).</p>
 
-<h2 id="toc_3">SQLite for Compiled Apps</h2>
+<h2 id="sqlite-for-compiled-apps">SQLite for Compiled Apps</h2>
 
 <p>If you are using <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/">AC Mobile Build</a> to compile your application, then you can build applications using SQLite. SQLite is a popular choice as embedded database for local storage in native apps and with this approach the SQLite database library is a part of your application. Also, there are no storage size limits. See <a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/sqlite-plugin/">SQLite Plugin</a></p>
 
-<h2 id="toc_4">Indexed DB</h2>
+<h2 id="indexed-db">Indexed DB</h2>
 
 <p>This is a No SQL database implementation that is definitely becoming a part of the W3C HTML5 specification but as yet (July 2012) is not implemented across all browsers and no mobile browser currently supports it. At this point, therefore, there is not much worth saying about it as far as Application Craft is concerned.</p>
 
-<h2 id="toc_5">Custom Data Storage Options (PhoneGap/Cordova)</h2>
+<h2 id="custom-data-storage-options-phonegap-cordova">Custom Data Storage Options (PhoneGap/Cordova)</h2>
 
 <p>Because Application Craft supports one-click compilation of plugins without the need for you to install any compilers on your desktop, any custom data storage mechanism that is available as a plugin can be added to the system. In order to maintain quality and assure things work properly, we test plugins ourselves before adding them to our library of supported plugins. If you are interested in us adding any plugin, please contact <a href="mailto:support@applicationcraft.com">support@applicationcraft.com</a> .</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -224,7 +210,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -267,16 +253,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

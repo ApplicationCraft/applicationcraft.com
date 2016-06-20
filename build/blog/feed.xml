@@ -5,7 +5,7 @@
   <id>http://www.applicationcraft.com/blog</id>
   <link href="http://www.applicationcraft.com/blog"/>
   <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
-  <updated>2013-04-11T00:00:00Z</updated>
+  <updated>2013-04-11T01:00:00+01:00</updated>
   <author>
     <name>Application Craft</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Words from expressFlow CEO Martin Vasko</title>
     <link rel="alternate" href="/blog/2013/04/expressflow/"/>
     <id>/blog/2013/04/expressflow/</id>
-    <published>2013-04-11T00:00:00Z</published>
-    <updated>2013-04-11T00:00:00Z</updated>
+    <published>2013-04-11T01:00:00+01:00</published>
+    <updated>2013-04-11T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -56,27 +56,27 @@
     <title>AC Education - the Students Experience</title>
     <link rel="alternate" href="/blog/2013/04/ac-education-student-experience/"/>
     <id>/blog/2013/04/ac-education-student-experience/</id>
-    <published>2013-04-04T00:00:00Z</published>
-    <updated>2013-04-04T00:00:00Z</updated>
+    <published>2013-04-04T01:00:00+01:00</published>
+    <updated>2013-04-04T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;a href="http://www.creighton.edu/"&gt;Creighton University&lt;/a&gt; recently held an App Dev Argy-Bargy, a competition that was a huge success and attended by many students, IT companies and the press. We caught up with Cindy Corritore, a Professor of IT at the University, earlier this year and...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;a href="http://www.creighton.edu/"&gt;Creighton University&lt;/a&gt; recently held an App Dev Argy-Bargy, a competition that was a huge success and attended by many students, IT companies and the press. We caught up with Cindy Corritore, a Professor of IT at the University, earlier this year and heard about &lt;a href="/blog/2013/02/ac-education-creighton-university-experience/"&gt;her experience&lt;/a&gt; from the teaching side. Now we&amp;#39;ve been fortunate to catch up with one of the students and competition&amp;#39;s runner-ups, Morgan McVay, who created the &lt;a href="http://creighton.applicationcraft.com/live.php?formId=c68f1542-8200-4a2f-ad89-79978ecedee7#/c68f1542-8200-4a2f-ad89-79978ecedee7/homepage"&gt;CitySlicker&lt;/a&gt; app with team mate Catherine Lucas . The duo won themselves a Google Nexus 7 tablet in the process and have memories to last a lifetime.&lt;/p&gt;
 
-&lt;h4 id="toc_0"&gt;Introducing...&lt;strong&gt;Morgan McVay&lt;/strong&gt;!&lt;/h4&gt;
+&lt;h4 id="introducing-morgan-mcvay"&gt;Introducing...&lt;strong&gt;Morgan McVay&lt;/strong&gt;!&lt;/h4&gt;
 
-&lt;h5 id="toc_1"&gt;&lt;em&gt;Give us an inside scoop - tell us about yourself!&lt;/em&gt;&lt;/h5&gt;
+&lt;h5 id="give-us-an-inside-scoop-tell-us-about-yourself"&gt;&lt;em&gt;Give us an inside scoop - tell us about yourself!&lt;/em&gt;&lt;/h5&gt;
 
 &lt;p&gt;I currently am a Junior at Creighton University in Omaha, Nebraska pursuing a degree in Marketing and Economics with a focus in Psychology. I have always been interested in consumer behavior and human choices which naturally involves the reasoning behind using certain websites and apps. This concept immediately prompted my interest in gaining a background in website and app development.&lt;/p&gt;
 
 &lt;p&gt;When I first applied for Creighton’s BIA (Business Intelligence and Analytics) course, I only had a general outline of basic development skills (You could call me a master at the monochromatic, Times New Roman generic websites). However, the opportunity to learn how to further broaden my education as well as create a prototype to a phone app was too tempting to pass up.&lt;/p&gt;
 
-&lt;h5 id="toc_2"&gt;&lt;em&gt;How did you find working with Application Craft?&lt;/em&gt;&lt;/h5&gt;
+&lt;h5 id="how-did-you-find-working-with-application-craft"&gt;&lt;em&gt;How did you find working with Application Craft?&lt;/em&gt;&lt;/h5&gt;
 
 &lt;p&gt;My experience with Application Craft was an enjoyable process! For a beginner like myself, it was a pleasant surprise to discover how clean and seamless AC was to use. I found it incredibly easy to understand and use; it became a vital learning tool throughout the semester. The multitude of video tutorials were one of my favorite features to AC; they were straight-forward, informational and thorough.  However, the unique feature that really sets Application Craft apart from the rest is the reliability and helpfulness of the online community. This forum section became an invaluable resource to me and my partner as we worked our way through to create a fully functioning prototype three weeks later.&lt;/p&gt;
 
-&lt;h5 id="toc_3"&gt;&lt;em&gt;And on to the good stuff - tell us about the app you helped to create&lt;/em&gt;&lt;/h5&gt;
+&lt;h5 id="and-on-to-the-good-stuff-tell-us-about-the-app-you-helped-to-create"&gt;&lt;em&gt;And on to the good stuff - tell us about the app you helped to create&lt;/em&gt;&lt;/h5&gt;
 
 &lt;p&gt;As an individual looking to pursue a career in marketing, the first question I asked myself was ‘What app would my peers want to use tomorrow?’ I needed a concept that was simple enough to execute within our time constraint but held enough elegance and complexity to be captivating and desirable. From there my partner and I decided that college students would appreciate the opportunity to see their financial shopping mistakes before they made them and thus CitySlicker was born. Living in a larger city is not the cheapest lifestyle, so we created an app that allows you to track your total as you shop while categorizing your purchases. These categorized purchases then would input into a Zing chart and show the buyer in which area they were spending the majority of their money. This app provides a more visual approach to allow college students the ability to readjust their financial habits.&lt;/p&gt;
 
@@ -84,11 +84,11 @@
 
 &lt;p&gt;Before presenting our app during the Argy-Bargy competition at Creighton, we first sent out a survey to a small sample of Creighton students. Of this survey, 90% said they would download CitySlicker if it were available on the market. Their favorite features of the app included the barcode scanner and the clean sleek design.  Introducing the app even prompted future demands to improve the app including a customizable list, online account, and the ability to compare store prices to find deals and coupons. The entire experience was incredibly inspiring and motivating for a young professional like myself.&lt;/p&gt;
 
-&lt;h5 id="toc_4"&gt;&lt;em&gt;What are your next steps?&lt;/em&gt;&lt;/h5&gt;
+&lt;h5 id="what-are-your-next-steps"&gt;&lt;em&gt;What are your next steps?&lt;/em&gt;&lt;/h5&gt;
 
 &lt;p&gt;Although my formal BIA studies have come to an end, I know the experience and tools that I have collected through Application Craft will be greatly beneficial in my future endeavors. I would recommend Application Craft for any individual who is interested in creating their own app or to those who simply would like to better understand and appreciate the hard work and dedication that go into a creating a fully functioning and sophisticated app. In summary, Application Craft is an invaluable resource for any level of developer and is a worthy investment.&lt;/p&gt;
 
-&lt;h5 id="toc_5"&gt;&lt;em&gt;Thanks so much for sharing with us, Morgan. We wish you all the best in the future!&lt;/em&gt;&lt;/h5&gt;
+&lt;h5 id="thanks-so-much-for-sharing-with-us-morgan-we-wish-you-all-the-best-in-the-future"&gt;&lt;em&gt;Thanks so much for sharing with us, Morgan. We wish you all the best in the future!&lt;/em&gt;&lt;/h5&gt;
 
 &lt;p&gt;-The Application Craft team&lt;/p&gt;
 </content>
@@ -97,8 +97,8 @@
     <title>Collaboration is BIG!</title>
     <link rel="alternate" href="/blog/2013/02/collaboration-is-big/"/>
     <id>/blog/2013/02/collaboration-is-big/</id>
-    <published>2013-02-05T00:00:00Z</published>
-    <updated>2013-02-05T00:00:00Z</updated>
+    <published>2013-02-05T00:00:00+00:00</published>
+    <updated>2013-02-05T00:00:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -132,19 +132,19 @@
     <title>AC Education - the Creighton University Experience</title>
     <link rel="alternate" href="/blog/2013/02/ac-education-creighton-university-experience/"/>
     <id>/blog/2013/02/ac-education-creighton-university-experience/</id>
-    <published>2013-02-01T00:00:00Z</published>
-    <updated>2013-02-01T00:00:00Z</updated>
+    <published>2013-02-01T00:00:00+00:00</published>
+    <updated>2013-02-01T00:00:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;h2 id="toc_0"&gt;Introducing Creighton University&lt;/h2&gt;
+    <summary type="html">&lt;h2 id="introducing-creighton-university"&gt;Introducing Creighton University&lt;/h2&gt;
 
 &lt;p&gt;We like to round up different perspectives of various Application Craft users and were pleased when Dr. Cindy Corritore, a Professor of IT in the &lt;a href="http://business.creighton.edu/"&gt;College of Business at Creighton University&lt;/a&gt;, offered her insights on...&lt;/p&gt;</summary>
-    <content type="html">&lt;h2 id="toc_0"&gt;Introducing Creighton University&lt;/h2&gt;
+    <content type="html">&lt;h2 id="introducing-creighton-university"&gt;Introducing Creighton University&lt;/h2&gt;
 
 &lt;p&gt;We like to round up different perspectives of various Application Craft users and were pleased when Dr. Cindy Corritore, a Professor of IT in the &lt;a href="http://business.creighton.edu/"&gt;College of Business at Creighton University&lt;/a&gt;, offered her insights on what it has been like to teach with Application Craft.&lt;/p&gt;
 
-&lt;h2 id="toc_1"&gt;Teaching mobile app development with Application Craft&lt;/h2&gt;
+&lt;h2 id="teaching-mobile-app-development-with-application-craft"&gt;Teaching mobile app development with Application Craft&lt;/h2&gt;
 
 &lt;p&gt;I have been teaching for about 25 years, and hold a Ph.D. in Computer Science (which I have also taught). My programming is rusty, and I was never a crack programmer. I am more interested in HCI (human-computer interaction, UX). I want to tell you a bit about how I used Application Craft (AC) in a new undergraduate course – with great success, I might add. &lt;/p&gt;
 
@@ -156,7 +156,7 @@
 
 &lt;p&gt;In a nutshell, the students loved AC. They said it was the best part of the course. They took to it quickly and became very good at developing with it within a couple of weeks. This was true of students who did love to program, and of those who did not. It taught them to program just enough for me, let them experience the programs of development such as project management, deadlines, having ideas that then had to be implemented with code, and most of all, team work. One student, Mike Wieger, described it well in his &lt;a href="http://tinyurl.com/b2nsn7d"&gt;blog&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id="toc_2"&gt;Argy Bargy Event&lt;/h2&gt;
+&lt;h2 id="argy-bargy-event"&gt;Argy Bargy Event&lt;/h2&gt;
 
 &lt;p&gt;The work of the students was so good that we decided to have a competition, with awards for the team built the ‘best’ apps. Our “2013 App Dev Argy-Bargy” was a huge success – it was attended by other students, folks from IT companies around the city, and the press. The top two teams won iPads and Google Nexus tablets, sponsored by businesses, including AC. It was an exciting event, with judges and audience voting via SMS. My favorite part? When a student said, in response to a question, that “we used an IDE called Application Craft, which is platform-independent, device-agnostic, had a great API, and allows for native implementation on devices.&amp;quot; Huh – three months ago these students wouldn’t have known the difference between IDE and API – that is, IMHO. &lt;/p&gt;
 
@@ -169,15 +169,15 @@
     <title>The State of the IDE</title>
     <link rel="alternate" href="/blog/2013/01/state-of-the-ide/"/>
     <id>/blog/2013/01/state-of-the-ide/</id>
-    <published>2013-01-30T00:00:00Z</published>
-    <updated>2013-01-30T00:00:00Z</updated>
+    <published>2013-01-30T00:00:00+00:00</published>
+    <updated>2013-01-30T00:00:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <summary type="html">&lt;p&gt;A while ago I wrote about &lt;a href="/blog/2012/10/worlds-first-full-featured-ide/"&gt;what an IDE really is&lt;/a&gt;. Since then, we've been thinking hard and working even harder to realise that dream of a real IDE in the browser, and one that can go head to head with any desktop IDE. This is not without its challenges...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;A while ago I wrote about &lt;a href="/blog/2012/10/worlds-first-full-featured-ide/"&gt;what an IDE really is&lt;/a&gt;. Since then, we&amp;#39;ve been thinking hard and working even harder to realise that dream of a real IDE in the browser, and one that can go head to head with any desktop IDE. This is not without its challenges, so I wanted to write a little about how we are tackling these challenges head on, and to reveal a little more about something BIG that we announced &lt;a href="/blog/2013/01/something-big-is-coming/"&gt;last week&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id="toc_0"&gt;From the Desktop...&lt;/h2&gt;
+&lt;h2 id="from-the-desktop"&gt;From the Desktop...&lt;/h2&gt;
 
 &lt;p&gt;Lets start by talking a little bit about the current state of the IDE landscape, which, to be honest is pretty bleak. On the desktop, the space is dominated by the likes of Adobe&amp;#39;s &lt;a href="http://www.adobe.com/dreamweaver"&gt;Dreamweaver&lt;/a&gt; and the open source &lt;a href="http://www.eclipse.org/"&gt;Eclipse IDE&lt;/a&gt;.&lt;/p&gt;
 
@@ -193,7 +193,7 @@
 
 &lt;p&gt;The biggest advantage to Eclipse and almost all IDE&amp;#39;s lies in its extensibility. The ability for any developer to extend and customise his/her tools is extremely powerful and very exciting.&lt;/p&gt;
 
-&lt;h2 id="toc_1"&gt;To the Browser...&lt;/h2&gt;
+&lt;h2 id="to-the-browser"&gt;To the Browser...&lt;/h2&gt;
 
 &lt;p&gt;The desktop will always be with us, but like any platform, it has its limitations and its traditions. All of which can be very hard to counter. The desktop is also much slower to react to the changing pace of development and technology. The browser however, is an open door, and moves extremely fast when it comes to embracing the latest and greatest, which means it is now possible to emulate the power of the desktop right within your browser.&lt;/p&gt;
 
@@ -201,7 +201,7 @@
 
 &lt;p&gt;The IDE is no exception. However, no-one has yet managed to replicate the good parts of the desktop IDE&amp;#39;s in the browser. Well... that is until &lt;a href="http://crafted.applicationcraft.com/"&gt;now&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id="toc_2"&gt;It&amp;#39;s a Big Task, but someone has to do it!&lt;/h2&gt;
+&lt;h2 id="it-39-s-a-big-task-but-someone-has-to-do-it"&gt;It&amp;#39;s a Big Task, but someone has to do it!&lt;/h2&gt;
 
 &lt;p&gt;&lt;img title="Something BIG is coming! &amp;lt;a href=&amp;quot;http://crafted.applicationcraft.com/&amp;quot;&amp;gt;Find out more...&amp;lt;/a&amp;gt;" alt="Something BIG!" src="/img/blog/something-big-053c1ff0.jpg" /&gt;&lt;/p&gt;
 
@@ -220,8 +220,8 @@
     <title>Something BIG is coming!</title>
     <link rel="alternate" href="/blog/2013/01/something-big-is-coming/"/>
     <id>/blog/2013/01/something-big-is-coming/</id>
-    <published>2013-01-25T00:00:00Z</published>
-    <updated>2013-01-25T00:00:00Z</updated>
+    <published>2013-01-25T00:00:00+00:00</published>
+    <updated>2013-01-25T00:00:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>

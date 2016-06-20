@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Adding your own Plugins - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/ac-mobile-build-phonegap/">AC Mobile Build & PhoneGap</a></li>
-          
             <li><a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/">AC Mobile Build</a></li>
-          
             <li><a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/">AC Build Plugins</a></li>
-          
           <li>Adding your own Plugins</li>
         </ul>
       </div>
@@ -112,7 +101,7 @@
 
 <p>For further info and technical details on how Cordova Plugins work and how to write one, please check the <a href="http://docs.phonegap.com/en/2.2.0/guide_plugin-development_index.md.html">Cordova docs</a></p>
 
-<h2 id="toc_0">Simple XML Example</h2>
+<h2 id="simple-xml-example">Simple XML Example</h2>
 
 <pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
     &lt;plugin xmlns=&quot;http://www.phonegap.com/ns/plugins/1.0&quot;
@@ -136,7 +125,7 @@
     &lt;/plugin&gt;
 </code></pre>
 
-<h3 id="toc_1">Main plugin element</h3>
+<h3 id="main-plugin-element">Main plugin element</h3>
 
 <pre><code>&lt;plugin xmlns=&quot;http://www.phonegap.com/ns/plugins/1.0&quot;
     xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
@@ -165,7 +154,7 @@
 
 <p>At this point in time, the tools prototyped for this format do not make use of this element. If this document progresses, localization will also need to be accounted for.</p>
 
-<h3 id="toc_2">file element</h3>
+<h3 id="file-element">file element</h3>
 
 <p>File to be copied into a Cordova app&#39;s <code>www</code> directory. </p>
 
@@ -196,7 +185,7 @@
 <p>Allow system/user variables in file.</p></li>
 </ul>
 
-<h3 id="toc_3">dir element</h3>
+<h3 id="dir-element">dir element</h3>
 
 <p>One or more elements listing the directories to be copied into a Cordova app&#39;s <code>www</code> directory. </p>
 
@@ -220,17 +209,17 @@
 <p>Copy file only for specified platform</p></li>
 </ul>
 
-<h3 id="toc_4">platform</h3>
+<h3 id="platform">platform</h3>
 
 <p>Platform tags identify platforms that have associated native code. Tools using this specification can identify supported platforms and install the code into Cordova projects.</p>
 
 <p>A sample platform tag:</p>
 
 <pre><code>&lt;platform name=&quot;android&quot;&gt;
-<!-- android specific elements -->
+&lt;!-- android specific elements --&gt;
 &lt;/platform&gt;
 &lt;platform name=&quot;ios&quot;&gt;
-<!-- ios specific elements -->
+&lt;!-- ios specific elements --&gt;
 &lt;/platform&gt;
 </code></pre>
 
@@ -247,9 +236,9 @@
 
 <p>Tools may accept alternate names for platforms.</p>
 
-<h2 id="toc_5">Android Spec</h2>
+<h2 id="android-spec">Android Spec</h2>
 
-<h3 id="toc_6">config-file</h3>
+<h3 id="config-file">config-file</h3>
 
 <p>Identifies an XML-based configuration file to be modified, where in that document the modification should take place, and what should be modified.<br>
 At this stage in the spec, the <code>config-file</code> element only allows for appending new children into an XML document. The children are XML literals that are the to be inserted in the target document.</p>
@@ -265,14 +254,14 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
     &lt;/config-file&gt;
 </code></pre>
 
-<h3 id="toc_7">plugin-info</h3>
+<h3 id="plugin-info">plugin-info</h3>
 
 <p>Identifies a cordova plugin include</p>
 
 <pre><code>&lt;plugin-info name=&quot;ChildBrowser&quot; value=&quot;com.phonegap.plugins.childBrowser.ChildBrowser&quot;/&gt;
 </code></pre>
 
-<h3 id="toc_8">user-permission</h3>
+<h3 id="user-permission">user-permission</h3>
 
 <p>Set permission for plugin:</p>
 
@@ -293,12 +282,12 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
 &lt;dir source=&quot;res/raw&quot; target=&quot;res/raw&quot; /&gt; - example for copy resource files
 </code></pre>
 
-<h3 id="toc_9">code-snippet</h3>
+<h3 id="code-snippet">code-snippet</h3>
 
 <p>Include plugin code in Cordova source</p>
 
 <pre><code>&lt;code-snippet target=&quot;MAIN_ACTIVITY_END_ON_CREATE&quot;&gt;
-   <![CDATA[com.xtify.cordova.XtifyCordovaPlugin.processActivityExtras(getIntent().getExtras(), this);]]&gt;
+   &lt;![CDATA[com.xtify.cordova.XtifyCordovaPlugin.processActivityExtras(getIntent().getExtras(), this);]]&gt;
 &lt;/code-snippet&gt;
 </code></pre>
 
@@ -316,7 +305,7 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
 <li><code>MAIN_ACTIVITY_IN_CLASS</code></li>
 </ul>
 
-<h3 id="toc_10">library-project</h3>
+<h3 id="library-project">library-project</h3>
 
 <p>Include Android library project in Cordova project</p>
 
@@ -329,9 +318,9 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
 <p>Locate path to library project</p></li>
 </ul>
 
-<h2 id="toc_11">iOS Spec</h2>
+<h2 id="ios-spec">iOS Spec</h2>
 
-<h3 id="toc_12">plugin-plist</h3>
+<h3 id="plugin-plist">plugin-plist</h3>
 
 <p>Specifies a key and value to append to the correct <code>AppInfo.plist</code> file in an iOS Cordova project. </p>
 
@@ -340,7 +329,7 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
 <pre><code>&lt;plugins-plist key=&quot;org.apache.cordova.barcodeScanner&quot;string=&quot;CDVBarcodeScanner&quot; /&gt;
 </code></pre>
 
-<h3 id="toc_13">resource-file and header-file</h3>
+<h3 id="resource-file-and-header-file">resource-file and header-file</h3>
 
 <p>Like source files, but specifically for platforms that distinguish between source files, headers, and resources (iOS).</p>
 
@@ -351,7 +340,7 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
 &lt;source-file src=&quot;CDVBarcodeScanner.mm&quot; /&gt;
 </code></pre>
 
-<h3 id="toc_14">framework</h3>
+<h3 id="framework">framework</h3>
 
 <p>Identifies a framework (usually part of the OS/platform) that the plugin depends on. </p>
 
@@ -368,12 +357,12 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
 <p>Identifies a static library framework in plugin folder</p></li>
 </ul>
 
-<h3 id="toc_15">code-snippet</h3>
+<h3 id="code-snippet">code-snippet</h3>
 
 <p>Include plugin code in Cordova source</p>
 
 <pre><code>&lt;code-snippet target=&quot;APP_DELEGATE_H_INTERFACE_VARS&quot; file=&quot;Classes/AppDelegate.h&quot;&gt;
-<![CDATA[, UIWebViewDelegate, CDVCommandDelegate]]&gt;
+&lt;![CDATA[, UIWebViewDelegate, CDVCommandDelegate]]&gt;
 &lt;/code-snippet&gt;
 </code></pre>
 
@@ -433,17 +422,13 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
 </ul>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -518,7 +503,7 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -561,16 +546,15 @@ At this stage in the spec, the <code>config-file</code> element only allows for 
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

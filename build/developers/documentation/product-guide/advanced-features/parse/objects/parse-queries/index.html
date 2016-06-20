@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Queries - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,15 +66,10 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/">Advanced Features</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/parse/">Parse.com Support</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/parse/objects/">Objects</a></li>
-          
           <li>Queries</li>
         </ul>
       </div>
@@ -108,7 +96,7 @@
 
 <p>Parse.com is based on MongoDB and the Parse.com documentation is rather thin when it comes to examples. We will try to include some good examples for commonly used queries.</p>
 
-<h2 id="toc_0">Overview</h2>
+<h2 id="overview">Overview</h2>
 
 <p>The general format for a query is </p>
 
@@ -127,11 +115,11 @@
 }
 </code></pre>
 
-<h2 id="toc_1">where</h2>
+<h2 id="where">where</h2>
 
 <p>This is where you specify you query conditions. This can get quite messy, so check out the examples lower down.</p>
 
-<h2 id="toc_2">order</h2>
+<h2 id="order">order</h2>
 
 <p>This allows you to specify the sort order in which your data is returned.</p>
 
@@ -140,19 +128,19 @@ order: &quot;-score&quot;         // descending order of &#39;score&#39;
 order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then descending &#39;score&#39;
 </code></pre>
 
-<h2 id="toc_3">limit</h2>
+<h2 id="limit">limit</h2>
 
 <p>You can specify the maximum number of rows to return.</p>
 
-<h2 id="toc_4">skip</h2>
+<h2 id="skip">skip</h2>
 
 <p>This allows you to skip a number of rows into the result set. If you are implementing paging functions, you would use this.</p>
 
-<h2 id="toc_5">count</h2>
+<h2 id="count">count</h2>
 
 <p>If this is set to 1 then the query will return a number representing the total number of rows.</p>
 
-<h2 id="toc_6">Simple Example</h2>
+<h2 id="simple-example">Simple Example</h2>
 
 <p>This example shows a query that retrieves all customers from the specific country.</p>
 
@@ -166,7 +154,7 @@ order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then des
 }  
 </code></pre>
 
-<h2 id="toc_7">Multi Field Example with &#39;AND&#39; logic</h2>
+<h2 id="multi-field-example-with-39-and-39-logic">Multi Field Example with &#39;AND&#39; logic</h2>
 
 <p>This example shows a query that retrieves all rows where the playerName is &quot;Sean Plott&quot; and the cheatMode is false.</p>
 
@@ -181,7 +169,7 @@ order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then des
 }  
 </code></pre>
 
-<h2 id="toc_8">Multi Field Example with &#39;OR&#39; logic</h2>
+<h2 id="multi-field-example-with-39-or-39-logic">Multi Field Example with &#39;OR&#39; logic</h2>
 
 <p>This example shows a query that retrieves all rows where the country field is &quot;US&quot; or &quot;UK&quot;.</p>
 
@@ -216,7 +204,7 @@ order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then des
 }  
 </code></pre>
 
-<h2 id="toc_9">Paging Example</h2>
+<h2 id="paging-example">Paging Example</h2>
 
 <p>This one does the same, but it also does some simple paging by getting 10 records at a time and implementing some simple paging.</p>
 
@@ -233,7 +221,7 @@ order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then des
 }  
 </code></pre>
 
-<h2 id="toc_10">Inexact Matching</h2>
+<h2 id="inexact-matching">Inexact Matching</h2>
 
 <p>You will often want to do an inexact search where you can enter &quot;ppli&quot; in a search field and then get back all Customers containting &quot;ppli&quot;. The &#39;i&#39; option is a regex option that renders the search case insensitive.</p>
 
@@ -264,17 +252,13 @@ order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then des
 </ul>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -349,7 +333,7 @@ order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then des
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -392,16 +376,15 @@ order: &quot;name, -score&quot;   // ascending order of &#39;name&#39;, then des
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

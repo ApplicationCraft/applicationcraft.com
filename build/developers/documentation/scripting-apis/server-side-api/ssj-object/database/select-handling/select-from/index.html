@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>select().from() - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,17 +66,11 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/">Scripting & APIs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/server-side-api/">Server Side API</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/">ssj object</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/">Database</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/">Select Handling</a></li>
-          
           <li>select().from()</li>
         </ul>
       </div>
@@ -106,7 +93,7 @@
       <h1>select().from()</h1>
       <p><strong>connectionObject.select().from(</strong> strTable, optional [columns]|objColumns <strong>)</strong></p>
 
-<h2 id="toc_0">Parameters</h2>
+<h2 id="parameters">Parameters</h2>
 
 <table>
 <tr>
@@ -152,15 +139,15 @@ if you specify an object, you can replace the field names
 </tr>
 </table>
 
-<h2 id="toc_1">Returns</h2>
+<h2 id="returns">Returns</h2>
 
 <p>See select().</p>
 
-<h2 id="toc_2">Description</h2>
+<h2 id="description">Description</h2>
 
 <p>This function allows you to specify the table and, optionally, the fields. If you want to select fields from multiple tables you will use select().from() for your first table and then use <a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/select-handling/select-join">select().join()</a> for subsequent tables.</p>
 
-<h2 id="toc_3">Escaping Expressions</h2>
+<h2 id="escaping-expressions">Escaping Expressions</h2>
 
 <p>If your expression includes characters that are likely to cause problems for the SQL interpreter, then refer to the <a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quote">quote()</a> and <a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/quoteinto">quoteInto()</a> methods. These handle the escaping for you in a way that lets you write more readable code.</p>
 
@@ -169,11 +156,11 @@ if you specify an object, you can replace the field names
 <pre><code>SELECT * FROM bugs WHERE reported_by = &#39;O&#39;Reilly&#39;
 </code></pre>
 
-<h2 id="toc_4">Field Expressions</h2>
+<h2 id="field-expressions">Field Expressions</h2>
 
 <p>If any of your fields in the fieldsObject() contain a SQL function or arithmetic expression, then you must use new DbExpr() as <a href="/developers/documentation/product-guide/data-storage/server-side-data-storage/handling-sql-expressions">described here</a> .</p>
 
-<h2 id="toc_5">Examples</h2>
+<h2 id="examples">Examples</h2>
 
 <p>The following examples show various SQL statements and the equivalent SSJ statement. All examples assume that cObj has been created and that  cObj.exec() and return() statements will run afterwards, so</p>
 
@@ -183,48 +170,44 @@ result = cObj.exec(selectObj);
 return(result);
 </code></pre>
 
-<h2 id="toc_6">Simple : SELECT * FROM customers</h2>
+<h2 id="simple-select-from-customers">Simple : SELECT * FROM customers</h2>
 
 <pre><code>selectObj = cObj.select().from(&quot;customers&quot;);
 </code></pre>
 
-<h2 id="toc_7">Specify Field Name : SELECT companyName, country FROM customers</h2>
+<h2 id="specify-field-name-select-companyname-country-from-customers">Specify Field Name : SELECT companyName, country FROM customers</h2>
 
 <pre><code>selectObj = cObj.select().from(&quot;customers&quot;, [&#39;companyName&#39;, &#39;country&#39;]);
 </code></pre>
 
-<h2 id="toc_8">Correlation Names : SELECT p.&quot;companyName&quot;, p.&quot;country&quot; FROM &quot;customers&quot; AS p</h2>
+<h2 id="correlation-names-select-p-quot-companyname-quot-p-quot-country-quot-from-quot-customers-quot-as-p">Correlation Names : SELECT p.&quot;companyName&quot;, p.&quot;country&quot; FROM &quot;customers&quot; AS p</h2>
 
 <pre><code>cObj.select().from({p: &#39;customers&#39;},[&#39;companyName&#39;, &#39;country&#39;])
 </code></pre>
 
-<h2 id="toc_9">Alias : SELECT p.&quot;companyName&quot; as name, p.&quot;country&quot; FROM &quot;customers&quot; AS p</h2>
+<h2 id="alias-select-p-quot-companyname-quot-as-name-p-quot-country-quot-from-quot-customers-quot-as-p">Alias : SELECT p.&quot;companyName&quot; as name, p.&quot;country&quot; FROM &quot;customers&quot; AS p</h2>
 
 <pre><code>cObj.select().from({p: &#39;customers&#39;},{name: &#39;companyName&#39;, country: &#39;country&#39;})
 </code></pre>
 
-<h2 id="toc_10">Expression 1 : SELECT p.&quot;companyName&quot; as name, LOWER(country) FROM &quot;customers&quot; AS p</h2>
+<h2 id="expression-1-select-p-quot-companyname-quot-as-name-lower-country-from-quot-customers-quot-as-p">Expression 1 : SELECT p.&quot;companyName&quot; as name, LOWER(country) FROM &quot;customers&quot; AS p</h2>
 
 <pre><code>cObj.select().from({p: &#39;customers&#39;},{name: &#39;companyName&#39;, country: new DbExpr(&#39;LOWER(p.country)&#39;)})
 </code></pre>
 
-<h2 id="toc_11">Expression 2 : SELECT p.&quot;product_id&quot;, p.cost * 1.08 AS cost_plus_tax  FROM &quot;products&quot; AS p</h2>
+<h2 id="expression-2-select-p-quot-product_id-quot-p-cost-1-08-as-cost_plus_tax-from-quot-products-quot-as-p">Expression 2 : SELECT p.&quot;product_id&quot;, p.cost * 1.08 AS cost_plus_tax  FROM &quot;products&quot; AS p</h2>
 
 <pre><code>cObj.select().from({p: &#39;products&#39;},{product_id: &#39;product_id&#39;, cost_plus_tax: new DbExpr(&#39;p.cost * 1.08&#39;)})
 </code></pre>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -299,7 +282,7 @@ return(result);
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -342,16 +325,15 @@ return(result);
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

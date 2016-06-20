@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>switchApp() - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/">Scripting & APIs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/">Client API</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/app-functions/">App Functions</a></li>
-          
           <li>switchApp()</li>
         </ul>
       </div>
@@ -199,7 +188,7 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 </tr>
 </table>
 
-<h2 id="toc_0">twirlyThing Object</h2>
+<h2 id="twirlything-object">twirlyThing Object</h2>
 
 <p>You can control the hourglass appearance using the following object</p>
 
@@ -211,7 +200,7 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 }
 </code></pre>
 
-<h2 id="toc_1">inputParams Object</h2>
+<h2 id="inputparams-object">inputParams Object</h2>
 
 <p>This object is used to pass parameters in the same way as you would pass them in the querystring.</p>
 
@@ -221,13 +210,13 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 }
 </code></pre>
 
-<h2 id="toc_2">Description - Simple Switch</h2>
+<h2 id="description-simple-switch">Description - Simple Switch</h2>
 
 <p>This function is used to switch from the current App to the APP specified by the appID string. You only supply a single parameter.</p>
 
 <p><code>app.switchApp(&#39;7eb99414-8584-4fbe-a9ba-3fa8d3f50df6&#39;);</code></p>
 
-<h2 id="toc_3">Description - Detailed Switch</h2>
+<h2 id="description-detailed-switch">Description - Detailed Switch</h2>
 
 <p>If you want to specify not just the App to switch to but also the Page within that App that should be displayed and/or the App Instance that should be loaded, then you should supply the following object.</p>
 
@@ -235,7 +224,7 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 
 <p>You must always specify the appId but can then specify either the pageName or the formInstance or both.</p>
 
-<h2 id="toc_4">Parameter Passing</h2>
+<h2 id="parameter-passing">Parameter Passing</h2>
 
 <p>There are two ways to pass parameters between Apps.</p>
 
@@ -244,11 +233,11 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 <li><p>switchApp() parameters - this may be preferable in some circumstances where you are not going to modify the values and inspect them later (in which case the Global Data Pool is better).</p></li>
 </ul>
 
-<h2 id="toc_5">Important</h2>
+<h2 id="important">Important</h2>
 
 <p>If you are using switchApp() in Mobile Native apps, you must define the &#39;child&#39; apps as Linked Apps. See <a href="/developers/documentation/product-guide/widget-properties-events/app-properties">App Properties</a></p>
 
-<h2 id="toc_6">See Also</h2>
+<h2 id="see-also">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/scripting-apis/client-api/app-functions/parentapp">parentApp()</a></li>
@@ -258,24 +247,20 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
 <li><a href="/developers/documentation/scripting-apis/client-api/global-data-pool-functions/">Global Data Pool</a></li>
 </ul>
 
-<h2 id="toc_7">Related Videos</h2>
+<h2 id="related-videos">Related Videos</h2>
 
 <p><a href="http://www.youtube.com/v/pUY3PXct_wk?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Switching between Apps seamlessly and the Global Data Store [2:17]</p>
 
 <p><a href="http://www.youtube.com/v/ITkE2fsTOiI?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> The switchApp() debugging trick [2:22]</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -350,7 +335,7 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -393,16 +378,15 @@ If you also want to specify a) the page to auto skip to and b) an Instance to lo
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

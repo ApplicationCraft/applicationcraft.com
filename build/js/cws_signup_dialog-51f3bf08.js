@@ -1,1 +1,0 @@
-!function(){$(function(){return $.browser.chrome?$.fancybox.open($("#cws-signup-dialog").html()):void 0})}.call(this);

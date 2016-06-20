@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Functions and Complex Expressions - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/">Data Storage</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/server-side-data-storage/">Server Side Data Storage</a></li>
-          
           <li>Functions and Complex Expressions</li>
         </ul>
       </div>
@@ -102,12 +91,12 @@
       <h1>Functions and Complex Expressions</h1>
       <p>When creating queries that require</p>
 
-<h2 id="toc_0">Expression 1 : SELECT p.&quot;companyName&quot; as name, LOWER(country) FROM &quot;customers&quot; AS p</h2>
+<h2 id="expression-1-select-p-quot-companyname-quot-as-name-lower-country-from-quot-customers-quot-as-p">Expression 1 : SELECT p.&quot;companyName&quot; as name, LOWER(country) FROM &quot;customers&quot; AS p</h2>
 
 <pre><code>cObj.select().from({p: &#39;customers&#39;},{name: &#39;companyName&#39;, country: new DbExpr(&#39;LOWER(p.country)&#39;)})
 </code></pre>
 
-<h2 id="toc_1">Expression 2 : SELECT p.&quot;product_id&quot;, p.cost * 1.08 AS cost_plus_tax  FROM &quot;products&quot; AS p</h2>
+<h2 id="expression-2-select-p-quot-product_id-quot-p-cost-1-08-as-cost_plus_tax-from-quot-products-quot-as-p">Expression 2 : SELECT p.&quot;product_id&quot;, p.cost * 1.08 AS cost_plus_tax  FROM &quot;products&quot; AS p</h2>
 
 <pre><code>cObj.select().from({p: &#39;products&#39;},{product_id: &#39;product_id&#39;, cost_plus_tax: new DbExpr(&#39;p.cost * 1.08&#39;)})
 new DbExpr()
@@ -123,17 +112,13 @@ new DbExpr()
 <p>If one of your fields referenced a SQL function then you would also use to encapsulate your SQL function.</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -208,7 +193,7 @@ new DbExpr()
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -251,16 +236,15 @@ new DbExpr()
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

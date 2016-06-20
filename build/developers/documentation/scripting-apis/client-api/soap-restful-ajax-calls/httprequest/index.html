@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>httpRequest() - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/">Scripting & APIs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/">Client API</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/">SOAP & RESTful AJAX Calls</a></li>
-          
           <li>httpRequest()</li>
         </ul>
       </div>
@@ -102,7 +91,7 @@
       <h1>httpRequest()</h1>
       <p>int <strong>httpRequest</strong> (url, type, callback, optional params, optional dataType, optional header, optional specialParams)</p>
 
-<h2 id="toc_0">Parameters</h2>
+<h2 id="parameters">Parameters</h2>
 
 <table>
 <tr>
@@ -191,13 +180,13 @@ this parameter allows you to pass through special, advanced parameters to the un
 </tr>
 </table>
 
-<h2 id="toc_1">The Web Service Wizard</h2>
+<h2 id="the-web-service-wizard">The Web Service Wizard</h2>
 
 <p>Before we get into detail about this method, make sure you take a look at the <a href="/developers/documentation/scripting-apis/client-api/soap-restful-ajax-calls/web-service-wizard">Web Service Wizard</a>. This is a big help and lets you generate the necessary code to copy and paste into your editor.</p>
 
 <p><img alt="WebTest1" src="/img/docs/webtest1.zoom82-0c6bcd29.png" /></p>
 
-<h2 id="toc_2">Description</h2>
+<h2 id="description">Description</h2>
 
 <p><code>httpRequest()</code> calls a Web Service at the specified URL and can pass a parameter list, HTTP headers and the indicated &#39;verb&#39; (GET, POST, UPDATE, DELETE). You also specify a callback function that should be called to process the returned data. If the call returns XML data, then you may want to call the <a href="/developers/documentation/scripting-apis/client-api/conversion-functions/xml2json">XML2OBJ()</a> function that converts the data into a Javascript object.</p>
 
@@ -209,7 +198,7 @@ this parameter allows you to pass through special, advanced parameters to the un
 
 <p><strong>Important</strong> : if an httpRequest() timeout error occurs, then it will not fire the global error handler (App On Error event). You have to handle the timeout error manually within the callback function by inspecting the error parameter (see below).</p>
 
-<h2 id="toc_3">dataType Parameter</h2>
+<h2 id="datatype-parameter">dataType Parameter</h2>
 
 <p>It is important that you use this parameter correctly as it determine the format that data is returned to you in the callback function.</p>
 
@@ -221,7 +210,7 @@ this parameter allows you to pass through special, advanced parameters to the un
 <li><p><strong>html</strong> - (deprecated) same as html</p></li>
 </ul>
 
-<h2 id="toc_4">Callback Function</h2>
+<h2 id="callback-function">Callback Function</h2>
 
 <p>callbackFunction(data, error, httpResponseHeaders);</p>
 
@@ -266,7 +255,7 @@ Object containing http request object. Typically required for advanced usage.
 
 <p>If you want to handle timeout errors resulting from httpRequest() calls then you must use the callback function. If there is no Network available at all, then it will generate an error immediately. A timeout error will be generated after the default timeout or the timeout value specified within <a href="/developers/documentation/scripting-apis/client-api/app-functions/setnetworktimeout">networkTimeout()</a>.</p>
 
-<h2 id="toc_5">Getting Response Headers</h2>
+<h2 id="getting-response-headers">Getting Response Headers</h2>
 
 <p>There may be cases where the API returns data in http headers. An example of this is shown below in the second example (Rackspace Authentication). The callback function receives the response body in the httpResponse callback function parameter and the headers can be queried with</p>
 
@@ -275,7 +264,7 @@ Object containing http request object. Typically required for advanced usage.
 <li><code>httpResponse.getAllResponseHeaders()</code> - returns the entire header as a string</li>
 </ul>
 
-<h2 id="toc_6">Special Parameters</h2>
+<h2 id="special-parameters">Special Parameters</h2>
 
 <p>There are some advanced parameters that are passed through to the underlying JQuery API, which handles our Ajax requests. Please refer to the <a href="http://api.jquery.com/jQuery.ajax/">jquery parameter documention</a> for a list of all jquery supported parameters.</p>
 
@@ -296,13 +285,13 @@ Object containing http request object. Typically required for advanced usage.
 
 <p>On the whole, you should not need to supply these other for very special situations. You can include several special parameters in one object.</p>
 
-<h2 id="toc_7">More about Special Parameter {ignoreNetworkState: true}</h2>
+<h2 id="more-about-special-parameter-ignorenetworkstate-true">More about Special Parameter {ignoreNetworkState: true}</h2>
 
 <p>This parameter should not generally be used, but it can sometimes be useful to developer wanting to work around situations where the network state (connection) is misreported. AC checks the network state (connectivity) and if it is not available or is &#39;unknown&#39; then it will return with an error immediately without making the AJAX call. There have been situations where there is a network connection but this state is reported as &#39;unknown&#39; and so AC will not make the call. By using this parameter, you tell AC to make the call anyway.</p>
 
 <p>More information on this can be found here : <a href="http://docs.phonegap.com/en/1.6.1/cordova_connection_connection.md.html#Connection">http://docs.phonegap.com/en/1.6.1/cordova_connection_connection.md.html#Connection</a></p>
 
-<h2 id="toc_8">Example : Google Geocoding</h2>
+<h2 id="example-google-geocoding">Example : Google Geocoding</h2>
 
 <pre><code>function handler_btnGet_onClick(mouseev){
     app.httpRequest(&quot;http://maps.google.com/maps/api/geocode/json&quot;, &quot;GET&quot;, function(
@@ -319,7 +308,7 @@ Object containing http request object. Typically required for advanced usage.
 
 <p>This example calls the Google Geocoding API. It passes in a lat/lng coordinate and gets back locality information in the data parameter</p>
 
-<h2 id="toc_9">Example : Rackspace Cloud Servers API Authentication using Headers</h2>
+<h2 id="example-rackspace-cloud-servers-api-authentication-using-headers">Example : Rackspace Cloud Servers API Authentication using Headers</h2>
 
 <pre><code>function handler_btnTest_onClick(mouseev){ 
    __headers = {&#39;X-Auth-User&#39; : &#39;rackspaceUserName&#39;,&#39;X-Auth-Key&#39; : &#39;rackspaceApiKey&#39;};    
@@ -334,7 +323,7 @@ Object containing http request object. Typically required for advanced usage.
 
 <p>This example shows how headers are used to provide authentication information and the necessary token used for subsequent calls are then extracted. Atypically, this call does not receive any data in the callback which is why the dataType parameter was left undefined. Normally, we would not recommend implementing authentication via the client side App due to security considerations but we have included this as a genuine working example showing the use of headers.</p>
 
-<h2 id="toc_10">See Also</h2>
+<h2 id="see-also">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/common-usage-examples/crossdomain-issues">Crossdomain Handling</a></li>
@@ -344,17 +333,13 @@ Object containing http request object. Typically required for advanced usage.
 </ul>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -429,7 +414,7 @@ Object containing http request object. Typically required for advanced usage.
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -472,16 +457,15 @@ Object containing http request object. Typically required for advanced usage.
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

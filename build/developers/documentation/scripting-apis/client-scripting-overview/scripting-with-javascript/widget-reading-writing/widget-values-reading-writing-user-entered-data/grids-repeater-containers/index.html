@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Grids - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,17 +66,11 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/">Scripting & APIs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-scripting-overview/">Client Scripting Overview</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/">Scripting with Javascript</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/">Widget Reading & Writing</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-values-reading-writing-user-entered-data/">Widget Values : Reading & Writing User Entered Data</a></li>
-          
           <li>Grids</li>
         </ul>
       </div>
@@ -106,7 +93,7 @@
       <h1>Grids</h1>
       <p>Grids are more or less like lists, except they have multiple columns, not just 2.</p>
 
-<h2 id="toc_0">Reading Selected Data</h2>
+<h2 id="reading-selected-data">Reading Selected Data</h2>
 
 <p>When a row in a Grid is <strong>selected</strong> , you can inspect the contents of that row using the getValue() function, which returns an array of strings, each element being a cell in the selected row.</p>
 
@@ -125,7 +112,7 @@ var numSelectedRows = app.getValue(&#39;grid&#39;).length; // number of selected
 var colValue = app.getValue(&#39;grid&#39;)[0];
 </code></pre>
 
-<h2 id="toc_1">Reading Unselected Data</h2>
+<h2 id="reading-unselected-data">Reading Unselected Data</h2>
 
 <p>If you want to read data from any row in a Grid they will probably unselected by the Respondent. In this case you have to use the <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/getdata">getData()</a> function. You should also <a href="/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers">see here</a> for more about getData().</p>
 
@@ -140,7 +127,7 @@ arrivalTime = rowObj.data[&#39;Arrival&#39;];
 <pre><code>arrivalTime = app.getData(&#39;grid&#39;).rows[index].data[2];
 </code></pre>
 
-<h2 id="toc_2">Writing Data to a Cell</h2>
+<h2 id="writing-data-to-a-cell">Writing Data to a Cell</h2>
 
 <p>This can be done in two ways.<br><br>
     app.setValue(&#39;grid&#39;, {column: 1}, &#39;Cell Data&#39;); <br>
@@ -150,7 +137,7 @@ arrivalTime = rowObj.data[&#39;Arrival&#39;];
 //writes &#39;Cell Data&#39; into the 4th column of the 3rd row of the grid.
 </code></pre>
 
-<h2 id="toc_3">See Also</h2>
+<h2 id="see-also">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/scripting-apis/client-scripting-overview/scripting-with-javascript/widget-reading-writing/widget-content-reading-and-writing/widgetcontentgrids-repeater-containers">Reading &amp; Writing the entire Grid contents</a></li>
@@ -159,17 +146,13 @@ arrivalTime = rowObj.data[&#39;Arrival&#39;];
 </ul>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -244,7 +227,7 @@ arrivalTime = rowObj.data[&#39;Arrival&#39;];
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -287,16 +270,15 @@ arrivalTime = rowObj.data[&#39;Arrival&#39;];
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

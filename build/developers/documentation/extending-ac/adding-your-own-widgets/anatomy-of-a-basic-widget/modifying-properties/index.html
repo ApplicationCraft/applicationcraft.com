@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Modifying Properties - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/extending-ac/">Extending AC</a></li>
-          
             <li><a href="/developers/documentation/extending-ac/adding-your-own-widgets/">Adding your own Widgets</a></li>
-          
             <li><a href="/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/">Anatomy of a Basic Widget</a></li>
-          
           <li>Modifying Properties</li>
         </ul>
       </div>
@@ -102,7 +91,7 @@
       <h1>Modifying Properties</h1>
       <p>When you define a property (previous section), you specify get and set function names that are called whenever a property is queried (get) or modified (set). The Application Craft framework supplies three template functions to help you modify the internal widget structure without having to go into the bowels of the structure to perform these modifications yourself.</p>
 
-<h2 id="toc_0">Template Function Parameters</h2>
+<h2 id="template-function-parameters">Template Function Parameters</h2>
 
 <p>There are three Template functions you can use to handle the getting and setting of your property&#39;s data.</p>
 
@@ -119,7 +108,7 @@
 <li><p>Callback (optional) that is called whenever the property is modified. This would usually only be used if the property changes the visual appearance of the widget.</p></li>
 </ul>
 
-<h2 id="toc_1">Which template function do I use?</h2>
+<h2 id="which-template-function-do-i-use">Which template function do I use?</h2>
 
 <p>To illustrate this, let&#39;s assume a widget has the following properties</p>
 
@@ -129,7 +118,7 @@
 <li><p>Foreground Color - the color of the text that is shown on the page; this could use the theme() template as this results in a change to the display of the widget and you may want this value to be included in the theme&#39;s widget style.</p></li>
 </ul>
 
-<h2 id="toc_2">The html() template</h2>
+<h2 id="the-html-template">The html() template</h2>
 
 <p>The user code shown below shows the textFn method that is associated with the &#39;text&#39; property (see <a href="/developers/documentation/extending-ac/adding-your-own-widgets/anatomy-of-a-basic-widget/defining-properties">Defining Properties</a> ). You will see this property definition</p>
 
@@ -155,7 +144,7 @@
 
 <p>In our example, we are changing the displayed text. The first parameter is the internal property name. The second parameter is a callback function that is called if the widget is drawn, where you would redraw or modify the widget&#39;s visual state. You can also see how it triggers the onChange event, which would be called if the App is running.</p>
 
-<h2 id="toc_3">The normal() template</h2>
+<h2 id="the-normal-template">The normal() template</h2>
 
 <p>If you need to modify an internal widget property that does not relate a) to a theme and b) does not effect the visual output of the widget, then use the normal() template function. It ensures that the property value is correctly stored within the widget&#39;s internal structure.        </p>
 
@@ -163,7 +152,7 @@
     p.hiddenTextFn = AC.Property.normal(&#39;hiddenText&#39;);
 </code></pre>
 
-<h2 id="toc_4">The theme() template</h2>
+<h2 id="the-theme-template">The theme() template</h2>
 
 <p>If the property you are modifying is one that resides in the Theme, then you should use the theme() template function.        </p>
 
@@ -177,17 +166,13 @@
 <p>This is a template for theme driven properties. It allows a value to be loaded from the Theme. If the property takes its value from a Theme, then you should use this template.</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -262,7 +247,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -305,16 +290,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

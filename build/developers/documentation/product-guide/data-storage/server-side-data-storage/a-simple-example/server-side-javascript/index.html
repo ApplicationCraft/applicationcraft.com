@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Server Side Javascript - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,15 +66,10 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/">Data Storage</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/server-side-data-storage/">Server Side Data Storage</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/server-side-data-storage/a-simple-example/">A Simple Example</a></li>
-          
           <li>Server Side Javascript</li>
         </ul>
       </div>
@@ -113,7 +101,7 @@
 
 <p>If your Server Public area does not have any folders created within it, then just specify the Virtual File</p>
 
-<h2 id="toc_0">Explanation of Server Folder Structure</h2>
+<h2 id="explanation-of-server-folder-structure">Explanation of Server Folder Structure</h2>
 
 <p>You can see the folder structure we have created in the above screenshot. You can manage this folder structure by right-clicking in the list. The structure we have created is entirely arbitrary and you are free to organize your code as you wish.</p>
 
@@ -123,15 +111,15 @@
 <li><p>... and another folder &#39;DB Updates&#39; which handles the rest (addNewCustomer(), updateCustomers(), deleteCustiomer())</p></li>
 </ul>
 
-<h2 id="toc_1">Database Methods Documentation</h2>
+<h2 id="database-methods-documentation">Database Methods Documentation</h2>
 
 <p>All of the SSJ Database methods are fully documented in the <a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/database/">SSJ Database</a> section.</p>
 
-<h2 id="toc_2">Error Handling</h2>
+<h2 id="error-handling">Error Handling</h2>
 
 <p>Application Craft handles the errors automatically. If an error is thrown then the client side callback is invoked, the error value is set to true and the data parameter will contain the error message. If your SSJ code includes validations or other logic then you can also throw an error explicitly using the javascript throw(exception) statement where exception can be a string, value or object. This is then passed back to your callback.</p>
 
-<h2 id="toc_3">DB Demo Folder</h2>
+<h2 id="db-demo-folder">DB Demo Folder</h2>
 
 <p>This contains only the acDemoWS() function, which handles all requests and uses a switch statement to route the request onwards.</p>
 
@@ -169,7 +157,7 @@ debugger;
 }
 </code></pre>
 
-<h2 id="toc_4">DB Selects Folder Functions</h2>
+<h2 id="db-selects-folder-functions">DB Selects Folder Functions</h2>
 
 <p>These functions handle the two Select operations.</p>
 
@@ -197,7 +185,7 @@ function _getCustomerCount(cObj) {
 }
 </code></pre>
 
-<h2 id="toc_5">DB Updates</h2>
+<h2 id="db-updates">DB Updates</h2>
 
 <p>These functions handle the Insert, Update and Delete operations.</p>
 
@@ -222,17 +210,13 @@ function _deleteCustomer(cObj, p) {
 </code></pre>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -307,7 +291,7 @@ function _deleteCustomer(cObj, p) {
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -350,16 +334,15 @@ function _deleteCustomer(cObj, p) {
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

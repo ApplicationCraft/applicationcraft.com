@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Process Overview - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/">Advanced Features</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/oauth/">OAuth</a></li>
-          
           <li>Process Overview</li>
         </ul>
       </div>
@@ -102,7 +91,7 @@
       <h1>Process Overview</h1>
       <p>It helps to understand a bit about the general OAuth process. For those who really want the full picture (and it is absolutely not necessary to read this) you can read the full <a href="http://tools.ietf.org/html/rfc5849">OAuth spec</a>.</p>
 
-<h2 id="toc_0">1. Currently supported OAuth services</h2>
+<h2 id="1-currently-supported-oauth-services">1. Currently supported OAuth services</h2>
 
 <p>You will be working with an OAuth service either for Authentication or to access its API. The predfined ones we currently support are </p>
 
@@ -112,7 +101,7 @@
 <li>Dropbox</li>
 </ul>
 
-<h2 id="toc_1">2. Register your App with the service</h2>
+<h2 id="2-register-your-app-with-the-service">2. Register your App with the service</h2>
 
 <p>Whichever service you want to use, you first need to register an App with that service. This process is <a href="/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/">described here</a>. As a result of this registration, you get two important keys.</p>
 
@@ -123,7 +112,7 @@
 
 <p>Both of these bits of data are entered in the OAuth Providers property (<a href="/developers/documentation/product-guide/advanced-features/oauth/app-key-and-app-secret/">also shown here</a>).</p>
 
-<h2 id="toc_2">3. Authentication</h2>
+<h2 id="3-authentication">3. Authentication</h2>
 
 <p>There are a couple of bits to authentication to make your App behave comfortably for the end user.</p>
 
@@ -134,7 +123,7 @@
 <li>If you want to <strong>force an authentication</strong> each time someone accesses your App, then simply call the app.oAuthSignIn() each time the App starts up. You will be asked to explicitly login in again. If the service provider provides a function that lets you check the access token, then you don&#39;t have to force the end user to actually login again. Otherwise, an actual login is unavoidable.</li>
 </ul>
 
-<h2 id="toc_3">4. Your Client code initiates an API call</h2>
+<h2 id="4-your-client-code-initiates-an-api-call">4. Your Client code initiates an API call</h2>
 
 <p>If you are only using OAuth for authentication then you don&#39;t need to read any further. However, if you want to call your OAuth supported service&#39;s API then your client code will kick things off. What it will typically do is ...</p>
 
@@ -144,22 +133,18 @@
 <li><strong>error handling</strong> - here you will check for any error encountered by the server side function. An important thing to check is that the access token has not expired, in which case you will want to reauthenticate before trying again.</li>
 </ul>
 
-<h2 id="toc_4">Example code</h2>
+<h2 id="example-code">Example code</h2>
 
 <p>Now you should take a look at the next section, where you can see everything described above in action.</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -234,7 +219,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -277,16 +262,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

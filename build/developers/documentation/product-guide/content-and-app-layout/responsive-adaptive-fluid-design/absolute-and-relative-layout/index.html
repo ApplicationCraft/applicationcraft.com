@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Absolute and Relative Layout - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/content-and-app-layout/">Content and App Layout</a></li>
-          
             <li><a href="/developers/documentation/product-guide/content-and-app-layout/responsive-adaptive-fluid-design/">Responsive / Adaptive / Fluid Design</a></li>
-          
           <li>Absolute and Relative Layout</li>
         </ul>
       </div>
@@ -104,7 +93,7 @@
 
 <p>This property applies to any Container, including the Page itself. As you can have multiple Containers on a page (nested or not) you can easily mix different Layout modes.</p>
 
-<h2 id="toc_0">Absolute Mode</h2>
+<h2 id="absolute-mode">Absolute Mode</h2>
 
 <p>If you drop a widget into a container whose Layout property is set to Absolute, then you can position that widget to the nearest pixel within its Container. Just drag it around with the mouse or use the arrow keys to nudge it one pixel at a time. You can also, once you have clicked and held the mouse button, press the shift key to drag to the nearest. This overrides the snap-to-grid feature if enabled.</p>
 
@@ -116,7 +105,7 @@
 
 <p>This is great where you are trying to achieve precise layout control but if you want to have widgets resizing themselves depending upon the device size or orientation then you will need to understand Vertical and Horizontal Layout modes also.</p>
 
-<h2 id="toc_1">Vertical and Horizontal : Relative Layout Modes</h2>
+<h2 id="vertical-and-horizontal-relative-layout-modes">Vertical and Horizontal : Relative Layout Modes</h2>
 
 <p>If the page or container is set to Vertical mode (we will discuss horizontal in a moment) then any widget that is dropped into that container will automatically be snapped to the left edge of the container and will be immediately above or below the other widgets (if there are any).</p>
 
@@ -126,7 +115,7 @@
 
 <p>Some widgets (label, text etc.) will have content that forces the widget&#39;s height to change depending on the width of the device screen. A very narrow display will require more height in order to show all of its content. With Vertical layout mode, as each widget is rendered by Application Craft, it forces the widgets below it down the page. If you used the same widgets in absolute mode, your content would be truncated.</p>
 
-<h2 id="toc_2">Horizontal Mode Containers</h2>
+<h2 id="horizontal-mode-containers">Horizontal Mode Containers</h2>
 
 <p>Horizontal mode works in a similar way except that Widgets in that containers will line up next to each other rather then beneath one another. If there is not enough horizontal space to accommodate all the Containers, then they will wrap underneath.</p>
 
@@ -134,24 +123,20 @@
 
 <p><img alt="MixedContainers" src="/img/docs/mixedcontainers.zoom95-6fd97a24.png" /></p>
 
-<h2 id="toc_3">Related Videos</h2>
+<h2 id="related-videos">Related Videos</h2>
 
 <p><a href="http://www.youtube.com/v/pHaov7DW4kM?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Overview [4:30]</p>
 
 <p><a href="http://www.youtube.com/v/IN3cVOS34mo?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Layout Modes [2:47]</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -226,7 +211,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -269,16 +254,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

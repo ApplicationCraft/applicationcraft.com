@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>checkMandatory() - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/">Scripting & APIs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/">Client API</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/widget-functions/">Widget Functions</a></li>
-          
           <li>checkMandatory()</li>
         </ul>
       </div>
@@ -102,7 +91,7 @@
       <h1>checkMandatory()</h1>
       <p>{string array} <strong>checkMandatory</strong> (ValidationType, optional widgets, optional highlightColor, optional highlightOpacity)</p>
 
-<h2 id="toc_0">Parameters</h2>
+<h2 id="parameters">Parameters</h2>
 
 <table>
 <tr>
@@ -185,11 +174,11 @@ optional, Select the opacity of the color. If left blank then the App Property '
 </tr>
 </table>
 
-<h2 id="toc_1">Returns</h2>
+<h2 id="returns">Returns</h2>
 
 <p>This function returns a string array of Widget Names that failed the check. If all Widgets are correctly completed, then the array will be empty and you can test, for example, using if(retArray.length&gt;0 ). This allows you to build specific error handling logic.</p>
 
-<h2 id="toc_2">Description</h2>
+<h2 id="description">Description</h2>
 
 <p>This enables you to check for completion of any fields that are required. The precise behavior depends on the ValidationType parameter. This function can be called at any point such as changing from one page to the next where you want to ensure that data is correctly entered before moving to the next page. Another important place is just before data is submitted.</p>
 
@@ -197,7 +186,7 @@ optional, Select the opacity of the color. If left blank then the App Property '
 
 <p>Please note: The highlighting is handled with CSS shadow. This is set to render outside the widget but the outside shadow isn&#39;t included in  the widget&#39;s (element&#39;s) size and so if your widget is in a container some of the outside elements can be hidden by the container. If you add a small (3-5px) margin to the widget it will ensure that the outside shadow lies within the container, or alternatively set a small padding to the container</p>
 
-<h2 id="toc_3">Example</h2>
+<h2 id="example">Example</h2>
 
 <pre><code>// Check that the email field has been filled
 var valid = app.checkMandatory(2, &quot;txtEmail&quot;);
@@ -211,29 +200,25 @@ if(valid.length&gt;0) {
 }
 </code></pre>
 
-<h2 id="toc_4">See Also</h2>
+<h2 id="see-also">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/scripting-apis/client-api/widget-functions/highlightwidgets">highlightWidgets()</a></li>
 <li><a href="/developers/documentation/scripting-apis/client-api/widget-functions/unhighlightwidgets">unhighlightWidgets()</a></li>
 </ul>
 
-<h2 id="toc_5">Related Videos</h2>
+<h2 id="related-videos">Related Videos</h2>
 
 <p><a href="http://www.youtube.com/v/VTypeamWf5E?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Setting and Getting Widget Data  [3:08]</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -308,7 +293,7 @@ if(valid.length&gt;0) {
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -351,16 +336,15 @@ if(valid.length&gt;0) {
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

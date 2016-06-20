@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Local Notification - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/ac-mobile-build-phonegap/">AC Mobile Build & PhoneGap</a></li>
-          
             <li><a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/">AC Mobile Build</a></li>
-          
             <li><a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/">AC Build Plugins</a></li>
-          
           <li>Local Notification</li>
         </ul>
       </div>
@@ -108,7 +97,7 @@
 
 <p>If building apps for Android and iOS usage, with the different parameters available see <a href="/developers/documentation/scripting-apis/client-api/app-functions/getplatform/">getPlatform</a> where you can detect the platform type, and then call the relevant parameters.</p>
 
-<h2 id="toc_0">Build Support:</h2>
+<h2 id="build-support">Build Support:</h2>
 
 <ul>
 <li><p>Android: Supported for all <a href="/developers/documentation/ac-mobile-build-phonegap/apps-developed-with-application-craft/enabling-device-features/">Phonegap Version</a></p></li>
@@ -116,7 +105,7 @@
 <li><p>Windows: Not currently supported.</p></li>
 </ul>
 
-<h2 id="toc_1">HTML5+CSS+JS Apps not developed in Application Craft</h2>
+<h2 id="html5-css-js-apps-not-developed-in-application-craft">HTML5+CSS+JS Apps not developed in Application Craft</h2>
 
 <p>If you have developed your App outside Application Craft then please do the following</p>
 
@@ -132,7 +121,7 @@
 <li><p>Cordova 2.0.0 or later use &quot;2.0.0&quot;</p></li>
 </ul>
 
-<h2 id="toc_2">Apps Developed with Application Craft</h2>
+<h2 id="apps-developed-with-application-craft">Apps Developed with Application Craft</h2>
 
 <table>
 <tr>
@@ -185,7 +174,7 @@ Define sound files to use in your notifications from your account resources. .mp
 </tr>
 </table>
 
-<h2 id="toc_3">Android Parameters</h2>
+<h2 id="android-parameters">Android Parameters</h2>
 
 <table>
 <tr>
@@ -254,7 +243,7 @@ The name of sound file to play, set in options "Plugin files"
 
 </table>
 
-<h2 id="toc_4">iOS Parameters</h2>
+<h2 id="ios-parameters">iOS Parameters</h2>
 
 <table>
 <tr>
@@ -362,7 +351,7 @@ The name of sound file to play, set in options "Plugin files"
 
 </table>
 
-<h2 id="toc_5">Repeat Values</h2>
+<h2 id="repeat-values">Repeat Values</h2>
 
 <table>
 <tr>
@@ -431,7 +420,7 @@ Repeat every week.
 
 </table>
 
-<h2 id="toc_6">Examples</h2>
+<h2 id="examples">Examples</h2>
 
 <p>To start the plugin listener:</p>
 
@@ -450,7 +439,7 @@ Repeat every week.
 <pre><code>plugins.localNotification.cancel( app.getData(&quot;text1&quot;), successCallback, failureCallback);   // the notification id being stored in widget &#39;text1&#39;
 </code></pre>
 
-<h3 id="toc_7">Android</h3>
+<h3 id="android">Android</h3>
 
 <p>To send a notification immediately:</p>
 
@@ -472,7 +461,7 @@ Repeat every week.
 },successCallback, failureCallback); 
 </code></pre>
 
-<h2 id="toc_8">iOS</h2>
+<h2 id="ios">iOS</h2>
 
 <p>To send a notification immediately:</p>
 
@@ -508,24 +497,20 @@ Repeat every week.
 <pre><code>plugins.localNotification.getSpringBoardBadgeCount( successCallback, failureCallback ); 
 </code></pre>
 
-<h2 id="toc_9">See Also</h2>
+<h2 id="see-also">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/ac-mobile-build-phonegap/ac-mobile-build/ac-build-plugins/xtify-push-notifications/">Xtify Push Notifications</a></li>
 </ul>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -600,7 +585,7 @@ Repeat every week.
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -643,16 +628,15 @@ Repeat every week.
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>populateWidget() - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/">Scripting & APIs</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/">Client API</a></li>
-          
             <li><a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/">Widget Data & State Manipulation</a></li>
-          
           <li>populateWidget()</li>
         </ul>
       </div>
@@ -102,7 +91,7 @@
       <h1>populateWidget()</h1>
       <p><strong>populateWidget</strong> (widget, dataArray, mapObject)</p>
 
-<h2 id="toc_0">Parameters</h2>
+<h2 id="parameters">Parameters</h2>
 
 <table>
 <tr>
@@ -143,17 +132,17 @@ a special object used to map data array elements to your Widget
 </tr>
 </table>
 
-<h2 id="toc_1">Description</h2>
+<h2 id="description">Description</h2>
 
 <p>This is a powerful and easy way of populating many Widgets including Grid, Repeater Container, Advanced Google Map, Timeline, Listbox (desktop and mobile) and Dropdown (desktop and mobile) Widgets from a complex data array.</p>
 
 <p>populateWidget() is passed an array of data to populate in the second parameter. This can be an array of any format you like.</p>
 
-<h2 id="toc_2">Wizard</h2>
+<h2 id="wizard">Wizard</h2>
 
 <p>To make your life even easier, please read about the <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/populatewidget-wizard">Map Object Wizard</a> .</p>
 
-<h2 id="toc_3">The Map Object</h2>
+<h2 id="the-map-object">The Map Object</h2>
 
 <p>The mapObject parameter is used to map data from a specific location within your dataArray into the various fields within the target Widget.</p>
 
@@ -185,7 +174,7 @@ a special object used to map data array elements to your Widget
 
 <p>Widgets that have the Elements per Page property Grid and Repeater Containers will only display as many records as specified. In the case of the Repeater Container, populateWidget() stores all of the data you pass it, regardless of Elements per Page. You can then use the <a href="/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage">drawNextPage()</a> function to load more pages as the user requires them (typically when a button or label widget is pressed).</p>
 
-<h2 id="toc_4">Repeater Containers are Slow on Mobile Devices</h2>
+<h2 id="repeater-containers-are-slow-on-mobile-devices">Repeater Containers are Slow on Mobile Devices</h2>
 
 <p>These can be quite slow to draw as new browser objects need to be created dynamically. You should be aware that performance on Mobile devices, especially lower powered ones, can be pretty woeful even though they look fast on a desktop browser.</p>
 
@@ -197,7 +186,7 @@ a special object used to map data array elements to your Widget
 <li>Set the Elements per Page property of the Repeater Container to a low value first but then use the <a href="/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/drawnextpage">drawNextPage()</a> function to load more pages as the user requires them (typically when a button or label widget is pressed).</li>
 </ul>
 
-<h2 id="toc_5">Widget Specific Examples</h2>
+<h2 id="widget-specific-examples">Widget Specific Examples</h2>
 
 <p>The following Widgets are covered in subtopics</p>
 
@@ -215,7 +204,7 @@ a special object used to map data array elements to your Widget
 <li><a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/flot-charts2">Flot Charts</a></li>
 </ul>
 
-<h2 id="toc_6">See Also</h2>
+<h2 id="see-also">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/scripting-apis/client-api/data-view-functions/fetchdatapage">fetchDataPage()</a></li>
@@ -223,7 +212,7 @@ a special object used to map data array elements to your Widget
 <li><a href="/developers/documentation/scripting-apis/client-api/widget-object-functions/repeater-grid/isalldatadrawn">isAllDataDrawn()</a></li>
 </ul>
 
-<h2 id="toc_7">Related Videos</h2>
+<h2 id="related-videos">Related Videos</h2>
 
 <p><a href="http://www.youtube.com/v/q6VXeWOhAxA?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Populating List Widgets with Javascript  [5:15]</p>
 
@@ -232,17 +221,13 @@ a special object used to map data array elements to your Widget
 <p><a href="http://www.youtube.com/v/rKbMmF7kcXs?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Javascript, Filtering, and other tips and tricks [6:11]</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -317,7 +302,7 @@ a special object used to map data array elements to your Widget
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -360,16 +345,15 @@ a special object used to map data array elements to your Widget
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

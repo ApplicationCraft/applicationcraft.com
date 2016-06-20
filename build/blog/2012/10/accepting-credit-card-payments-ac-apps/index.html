@@ -6,18 +6,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Accepting Credit Card Payments in AC Apps - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Accepting Credit Card Payments in AC Apps. Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.
 
 It handles not...">
-    
 
-    
       <meta name="keywords" content="credit card, payments" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
     
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
@@ -54,7 +49,6 @@ It handles not...">
 
     
 
-    
       
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -78,26 +72,18 @@ It handles not...">
 
     <section class="posts">
 
-      
 
-        
-        
 
         <article>
           <section class="meta">
             <p class="date">
               <a href="/blog/2012/10/accepting-credit-card-payments-ac-apps/">October  9, 2012</a>
-              
                 <span class="author">by <a href="mailto:fmay@applicationcraft.com">Freddy May</a></span>
-              
             </p>
             <p class="tagged">Tagged:</p>
             <ul class="tags">
-              
                 <li>credit card</li>
-              
                 <li>payments</li>
-              
             </ul>
 
             <p class="comments">
@@ -132,25 +118,23 @@ It handles not...">
             </div>
           </div>
 
-          
             <img alt="Accepting Credit Card Payments in AC Apps" align="left" class="blog-img" src="/img/blog/zooz-blog-e48bd4b3.png" />
-          
 
           <p>Application Craft has added a really easy way for developers to accept credit card payments in their mobile and desktop apps - easy for both the developer and the users of your app.</p>
 
 <p>It handles not just the payment but can also send detailed invoices. The money from the transaction is managed by Zooz and can be paid directly to your bank (most countries are supported) or to a Payoneer account.</p>
 
-<h2 id="toc_0">Zooz</h2>
+<h2 id="zooz">Zooz</h2>
 
 <p>We have integrated Zooz into the Application Craft backend, so as a developer you can just get on with building an app and you don&#39;t have to worry about the deeper technical details. All you need to do is to sign up with Zooz, register your app within Zooz and you&#39;re ready to get started.</p>
 
-<h2 id="toc_1">What the user sees ...</h2>
+<h2 id="what-the-user-sees">What the user sees ...</h2>
 
 <p><img title="Payments in your mobile or desktop app and invoice generated" src="/img/blog/zooz-blog-2-258ed23f.png" /></p>
 
 <p>At some point, a user will press a button within your app when s/he is ready to pay. At this point, a very nice &#39;n&#39; easy screen will appear (see below) and credit card details are entered.  The user is then shown a confirmation screen (an app screen) and and invoice is sent.</p>
 
-<h2 id="toc_2">What the developer does ...</h2>
+<h2 id="what-the-developer-does">What the developer does ...</h2>
 
 <p>If you want full details on coding your payments app, please click to see the relevant section in the User Guide. For those not familiar with Application Craft yet, all code (client and server) is written in the browser based IDE and is regular javascript.</p>
 
@@ -175,7 +159,7 @@ Inform the user of success or of errors.</p></li>
 
 <p>The code samples below show how payments are handled. Click to see the relevant section in the User Guide if you want to copy and paste code.</p>
 
-<h2 id="toc_3">Client-side code</h2>
+<h2 id="client-side-code">Client-side code</h2>
 
 <pre><code>// This value was specified by you in your Zooz portal
 var AppId = &#39;com.yourdomain.yourpayment&#39;;
@@ -235,7 +219,7 @@ function transactionComplete(response) {
 }
 </code></pre>
 
-<h2 id="toc_4">Server-side code</h2>
+<h2 id="server-side-code">Server-side code</h2>
 
 <pre><code>// If true, then you can test your payments. Use the following
 // card details for testing:
@@ -298,7 +282,6 @@ function zooz_validate(transactionId) {
           </div>
         </article>
 
-      
 
       <div id="disqus_thread"></div>
       <script type="text/javascript">
@@ -326,23 +309,14 @@ function zooz_validate(transactionId) {
       <section class="latest-posts">
         <h4>Latest posts...</h4>
         <ul>
-          
             <li><a href="/blog/2013/04/expressflow/">Words from expressFlow CEO Martin Vasko</a></li>
-          
             <li><a href="/blog/2013/04/ac-education-student-experience/">AC Education - the Students Experience</a></li>
-          
             <li><a href="/blog/2013/02/collaboration-is-big/">Collaboration is BIG!</a></li>
-          
             <li><a href="/blog/2013/02/ac-education-creighton-university-experience/">AC Education - the Creighton University Experience</a></li>
-          
             <li><a href="/blog/2013/01/state-of-the-ide/">The State of the IDE</a></li>
-          
             <li><a href="/blog/2013/01/something-big-is-coming/">Something BIG is coming!</a></li>
-          
             <li><a href="/blog/2013/01/windows-phone-mobile-build-support/">AC Mobile Build for Windows Phone</a></li>
-          
             <li><a href="/blog/2013/01/all-new-console/">Introducing the All New Console</a></li>
-          
         </ul>
       </section>
 
@@ -357,7 +331,6 @@ function zooz_validate(transactionId) {
   </div>
 
 
-    
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -432,7 +405,7 @@ function zooz_validate(transactionId) {
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -475,10 +448,13 @@ function zooz_validate(transactionId) {
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
+<script src="/js/main-a6d944e6.js"></script>
+
+
   <script>
     var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -486,7 +462,6 @@ function zooz_validate(transactionId) {
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
 
-  
     <!-- Olark Live Chat -->
     <script data-cfasync="false" type='text/javascript'>window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
     f[z]=function(){
@@ -505,7 +480,6 @@ function zooz_validate(transactionId) {
     b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
     loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
     olark.identify('7867-328-10-1175');</script>
-  
 
 
   </body>
@@ -525,6 +499,5 @@ function zooz_validate(transactionId) {
   }());
 </script>
 
-<script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script><link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+<link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />

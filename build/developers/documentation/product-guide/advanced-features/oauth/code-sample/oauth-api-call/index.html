@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Making an API call - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,15 +66,10 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/">Advanced Features</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/oauth/">OAuth</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/oauth/code-sample/">Skeleton Code Sample</a></li>
-          
           <li>Making an API call</li>
         </ul>
       </div>
@@ -104,7 +92,7 @@
       <h1>Making an API call</h1>
       <p>Now we&#39;re ready to make an API call. In this case, we&#39;ll send a Tweet that the user entered into the text widget <code>txtTweet</code>.</p>
 
-<h2 id="toc_0">Client Javascript code calls server Javascript code</h2>
+<h2 id="client-javascript-code-calls-server-javascript-code">Client Javascript code calls server Javascript code</h2>
 
 <pre><code>// 5. Client side action to send a Tweet
 function handler_btnTweet_onClick(mouseev){
@@ -139,7 +127,7 @@ function handler_btnTweet_onClick(mouseev){
 
 <p>Note that all parameters passed to a server side function must be contained in an array, even if there is only one parameter.</p>
 
-<h2 id="toc_1">The Server Side function takes the call</h2>
+<h2 id="the-server-side-function-takes-the-call">The Server Side function takes the call</h2>
 
 <p>This is really short and sweet. This is the bit where we have removed almost all of the complexity.</p>
 
@@ -162,7 +150,7 @@ function sendTweet(accessToken, txtTweet) {
 
 <p><a href="/developers/documentation/scripting-apis/server-side-api/ssj-object/oauth/oauthrequest/">ssj.oAuthRequest()</a> is called synchronously and so it waits until it gets data back from the API call. Whatever comes back from the API call now gets returned to the client via a callback function</p>
 
-<h2 id="toc_2">The callback function</h2>
+<h2 id="the-callback-function">The callback function</h2>
 
 <p>Looking back to the first code snippet, we can look at what goes om when the callback is called.</p>
 
@@ -197,17 +185,13 @@ function checkTwitterAuthError(data) {
 <p>This way of dealing with the errors is just one strategy and you will probably work out a better one that fits your use case better.</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -282,7 +266,7 @@ function checkTwitterAuthError(data) {
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -325,16 +309,15 @@ function checkTwitterAuthError(data) {
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

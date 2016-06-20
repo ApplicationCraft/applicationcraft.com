@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Anatomy of a View - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,15 +66,10 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/">Advanced Features</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/">Data Integration, Reporting & Dashboards</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/">Data Section Properties</a></li>
-          
           <li>Anatomy of a View</li>
         </ul>
       </div>
@@ -104,53 +92,49 @@
       <h1>Anatomy of a View</h1>
       <p>Views are intelligent channels through which App Widgets can access data. Each View has some interesting properties</p>
 
-<h2 id="toc_0">Query Subset</h2>
+<h2 id="query-subset">Query Subset</h2>
 
 <p>Even though a Query may contain many fields, you may only need access to one or two of them; the View lets you narrow down to the fields you really need which improves performance and leaves you having to browse through unnecessary Widgets in your Widget setup.</p>
 
 <p>To select a subset of all available fields, select the Query in the Query Used list and then check or uncheck Input and Output fields as required. Input fields are fields where you pass data to the Query and Outputs are fields that are returned from the Query to the App.</p>
 
-<h2 id="toc_1">Widgets share Views</h2>
+<h2 id="widgets-share-views">Widgets share Views</h2>
 
 <p>An App can contain one or several Views. Several App Widgets will often share the same View. All Widgets that share the same view can be set to trigger and/or listen to a drill down event. Drilling down by clicking on a chart or grid row is the most common example of this. The screenshot below shows three Widgets which might share a common View.</p>
 
 <p><img alt="Sample\_dashboard" src="/img/docs/sample_dashboard.zoom62-3f0e1578.png" /></p>
 
-<h2 id="toc_2">Drill Down Filter</h2>
+<h2 id="drill-down-filter">Drill Down Filter</h2>
 
 <p>Each View has a Drill Down filter that is maintained by the browser instance when running the report. In the above screenshot, you have three Widgets that all share the same View. If I click on a pie chart slice or a row in the Grid, for example, the other Widgets will react to that click by only showing results that apply to the pie slice I just clicked on.</p>
 
-<h2 id="toc_3">Multi-Select Drill Down</h2>
+<h2 id="multi-select-drill-down">Multi-Select Drill Down</h2>
 
 <p>Pie Charts, Grids and Listboxes have the ability to allow multiple item selection. In this case, clicking will cause a filter which &quot;ORs&quot; the items together.</p>
 
-<h2 id="toc_4">Broadcast and Listen</h2>
+<h2 id="broadcast-and-listen">Broadcast and Listen</h2>
 
 <p>The Drill Down Filter is affected by all Widgets whose Broadcast property is set to True. As soon as a Widget is clicked on whose Broadcast property is set to true,  Application Craft will internally set the Drill Down Filter and then instruct all Widgets on that Page, that a) share the same View and b) have their Listen properties set to True, to request new (and therefore filtered) data.</p>
 
-<h2 id="toc_5">See Also</h2>
+<h2 id="see-also">See Also</h2>
 
 <ul>
 <li><a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/chart-reference">Must Read Chart Reference</a></li>
 <li><a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/drilling-down">Drilling Down</a></li>
 </ul>
 
-<h2 id="toc_6">Related Videos</h2>
+<h2 id="related-videos">Related Videos</h2>
 
 <p><a href="http://www.youtube.com/v/bSpGoTvBrW4?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"><img alt="Videos\_P" src="/img/docs/videos_p-3cbc7a21.png" /></a> Data Views [2:18]</p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -225,7 +209,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -268,16 +252,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

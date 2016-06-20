@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Local Storage - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/">Data Storage</a></li>
-          
             <li><a href="/developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/">Mobile & Client Side Data Storage</a></li>
-          
           <li>Local Storage</li>
         </ul>
       </div>
@@ -112,7 +101,7 @@
 <li>localStorage.removeItem()</li>
 </ul>
 
-<h2 id="toc_0">Typical Architecture</h2>
+<h2 id="typical-architecture">Typical Architecture</h2>
 
 <p>Let&#39;s assume a customer database application as a simple use-case. When using the Local Storage approach, a common approach is to load all of your data into a javascript array and keep it there. You can then add, update or delete customers by operating on your array. At strategic points along the way you can choose to write your data out to Local Storage with just a couple of lines of simple code as shown below.</p>
 
@@ -120,7 +109,7 @@
 
 <p>This is not the only approach by any means but it works. If your data storage needs are more complex, you may be ready to take a look at the <a href="/developers/documentation/product-guide/data-storage/mobile-client-side-data-storage/websql-sqlite">WebSQL</a> approach, which is more of a traditional database approach.</p>
 
-<h2 id="toc_1">Storing Data</h2>
+<h2 id="storing-data">Storing Data</h2>
 
 <p>Assuming your application has some array of customer object that you want to store, this is all you do</p>
 
@@ -130,7 +119,7 @@
 
 <p>... and with that, your data is stored persistently. It is very crude but it works pretty nicely.</p>
 
-<h2 id="toc_2">Retrieving Data</h2>
+<h2 id="retrieving-data">Retrieving Data</h2>
 
 <p>Now you need to get your data back. It is even easier</p>
 
@@ -140,14 +129,14 @@
 
 <p>... and now you can load your Application Craft widgets using <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/setdata">setData()</a> or <a href="/developers/documentation/scripting-apis/client-api/widget-data-state-manipulation/populatewidget/">populateWidget()</a>.</p>
 
-<h2 id="toc_3">Removing Data</h2>
+<h2 id="removing-data">Removing Data</h2>
 
 <p>Also simple</p>
 
 <pre><code>  localStorage.removeItem(&quot;AppCustomers&quot;);
 </code></pre>
 
-<h2 id="toc_4">localStorage Object</h2>
+<h2 id="localstorage-object">localStorage Object</h2>
 
 <p>The object itself can be accessed easily and allows your application to explore all keys available for its domain as follows</p>
 
@@ -159,11 +148,11 @@
   }  
 </code></pre>
 
-<h2 id="toc_5">Clearing Everything Out</h2>
+<h2 id="clearing-everything-out">Clearing Everything Out</h2>
 
 <p>Use <code>localStorage.clear();</code></p>
 
-<h2 id="toc_6">Other Resources</h2>
+<h2 id="other-resources">Other Resources</h2>
 
 <p>There are plenty of web sites on the web that explain localStorage in detail and are easy to find. Just Google HTML5 local storage and take your pick. Here are two you might want to look at</p>
 
@@ -172,17 +161,13 @@
 <p><a href="http://php-html.net/tutorials/html5-local-storage-guide/">http://php-html.net/tutorials/html5-local-storage-guide/</a></p>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -257,7 +242,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -300,16 +285,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>

@@ -7,19 +7,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
     <title>Drilling Down - App development for Mobile and Desktop with Application Craft</title>
 
-    
       <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
-    
 
-    
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
-    
 
-    <link href="/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/css/boilerplate-0d217983.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <link href="/css/lib/rainbow/github-90a2201e.css" media="screen" rel="stylesheet" type="text/css" />
-  
+    <link href="/css/normalize-ec2a8901.css" rel="stylesheet" /><link href="/css/boilerplate-d4c802b3.css" rel="stylesheet" />
+        <link href="/css/lib/rainbow/github-90a2201e.css" rel="stylesheet" />
+
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
@@ -65,7 +59,6 @@
   </nav>
 
 
-    
       
   <div class="container clearfix docs">
 
@@ -73,13 +66,9 @@
       <div id="breadcrumbs">
         <ul>
           <li><a href="/developers/documentation">Docs</a></li>
-          
             <li><a href="/developers/documentation/product-guide/">Product Guide</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/">Advanced Features</a></li>
-          
             <li><a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/">Data Integration, Reporting & Dashboards</a></li>
-          
           <li>Drilling Down</li>
         </ul>
       </div>
@@ -102,23 +91,23 @@
       <h1>Drilling Down</h1>
       <p>Drilling down is the application of a filter on the View that is triggered by a user clicking on a part of the data displayed by a Widget. For example, a Grid (employee details) and a Pie Chart (countries) share the same View and when the user selects a country by clicking on a pie segment, the Grid should only show employees within that country.</p>
 
-<h2 id="toc_0">Broadcast &amp; Listen</h2>
+<h2 id="broadcast-amp-listen">Broadcast &amp; Listen</h2>
 
 <p>In order for a Drill Down to occur, the clicked on Widget&#39;s <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/broadcast">Broadcast</a> property must be set to True. In order for a Widget to react to a Drill Down, that Widget&#39;s <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/listen">Listen</a> property must be set to True.</p>
 
-<h2 id="toc_1">Auto Filter Reset on Drill Down</h2>
+<h2 id="auto-filter-reset-on-drill-down">Auto Filter Reset on Drill Down</h2>
 
 <p>By default, each time a Drill Down action occurs, the Drill Down filter is added to, so any existing Drill Down filter actions are added to. In practice, this means that the user can drive complex drill-downs across multiple Widgets across multiple Pages in an App.</p>
 
 <p>However, you may want a specific Widget, when clicked on, to clear the Drill Down filter before applying the filter relating to itself. In this case, you would set the Widget&#39;s <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/reset-filter">Reset Filter</a> property to True.</p>
 
-<h2 id="toc_2">Drill Filter Property</h2>
+<h2 id="drill-filter-property">Drill Filter Property</h2>
 
 <p>The way that AC manages the drilling down is by looking at the <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-filter">Drill Filter</a> property for the Widget that is clicked on. This property contains the Expression that is added to the Drill Down Filter.</p>
 
 <p>The Drill Filter is usually set automatically when the Label in the Widgets Fields property is specified and so provided you have already set the Fields property (which you would normally do) you will see the Drill Filter Expression already set. You are free to modify it.</p>
 
-<h2 id="toc_3">Drill Type for Multi Select Drill Downs</h2>
+<h2 id="drill-type-for-multi-select-drill-downs">Drill Type for Multi Select Drill Downs</h2>
 
 <p>Some Widgets, such as Pie &amp; Doughnut Charts, allow you to control how they react when they have been clicked on to drive a drill down. The <a href="/developers/documentation/product-guide/advanced-features/data-integration-reporting-dashboards/data-section-properties/drill-type">Drill Type</a> property allows you to:</p>
 
@@ -129,17 +118,13 @@
 </ul>
 
 
-      
     </article>
 
   </div>
 
-  
-
-  
 
 
-    
+
 
     <section id="price-banner" class="clearfix">
   <div class="container">
@@ -214,7 +199,7 @@
         <a href="https://github.com/ApplicationCraft/applicationcraft.com" target="_blank">This site is open source... Fork it!</a>
       </div>
 
-      Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
+      Copyright &copy; 2016 Application Craft Ltd. All rights reserved.
       Read our <a href="/legal/privacy">Privacy policy</a>.
     </div>
   </section>
@@ -257,16 +242,15 @@
   </div>
 
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="/js/main-8f4188b3.js" type="text/javascript"></script>
-    <script src="/js/vendor/rainbow-dbaa62a7.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
-<script src="/js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
-    <script src="/js/doc_search/base-d3ee6bc7.js" type="text/javascript"></script>
-<script src="/js/vendor/turbolinks-9588421c.js" type="text/javascript"></script>
-  
+<script src="/js/main-a6d944e6.js"></script>
+    <script src="/js/vendor/rainbow-566b1fec.js"></script><script src="/js/vendor/rainbow/generic-b357dadf.js"></script><script src="/js/vendor/rainbow/javascript-0bbbe42e.js"></script>
+    <script src="/js/doc_search/base-895fb9a1.js"></script><script src="/js/vendor/turbolinks-74faf03a.js"></script>
+
+
 
 
   </body>
